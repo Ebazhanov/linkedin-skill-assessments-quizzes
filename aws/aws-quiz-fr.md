@@ -160,7 +160,7 @@
 
 #### Q22. Vous hébergez une application configurée pour diffuser du contenu multimédia vers ses clients sur les ports TCP 3380-3384, 3386-3388 et 3390. L’onglet Entrant ci-dessous affiche trois stratégies de groupe de sécurité entrantes attachées à cette instance. Quelle politique devriez-vous utiliser?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - \[x] La règle qui expose les ports TCP 3380-3390 exposerait également publiquement le port 3389 (RDP) à l’ensemble d’Internet. Écrivez des règles distinctes pour n’exposer que les ports nécessaires.
 - \[ ] La première règle de groupe de sécurité autorise tout le trafic dans cette instance. Exposer l’ensemble de votre instance à l’ensemble d’Internet laisse le serveur ouvert à diverses attaques des autres services s’exécutant sur différents numéros de port.
@@ -385,7 +385,7 @@ FlowLog:
 
 #### Q47. Dans la console S3, sous la colonne Accès, qu’indique le badge public à côté du nom du compartiment ?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - \[x] Tous les objets de ce compartiment se voient attribuer un accès public et peuvent être lisibles ou accessibles en écriture par n’importe qui sur Internet. Assurez-vous qu’aucune donnée sensible n’est partagée publiquement dans ce compartiment.
 - \[ ] Tous les objets de ce compartiment sont accessibles en écriture, ce qui signifie que l’Internet public a la possibilité de télécharger n’importe quel fichier directement dans votre compartiment S3. Votre compartiment S3 pourrait être utilisé pour servir des logiciels malveillants.
@@ -443,7 +443,7 @@ FlowLog:
 
 #### Q55. les règles sortantes d’un groupe de sécurité autorisent uniquement le trafic allant à 0.0.0.0/0 sur le port TCP 22 (SSH) et le port TCP 3306 (MySQL). Passez en revue les règles entrantes répertoriées dans l’image ci-dessous. Quel est le problème le plus important à résoudre avec cette configuration de groupe de sécurité, pour une instance Ubuntu EC2 agissant comme un serveur Web?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - \[ ] Les règles sortantes bloquent le port UDP 53, de sorte que le serveur ne sera pas en mesure de résoudre les recherches DNS.
 - \[x] Les règles sortantes n’autorisent pas le trafic HTTP à quitter l’instance, de sorte que les requêtes HTTP entrantes échoueront car les clients n’obtiendront jamais de réponses HTTP.
@@ -538,7 +538,7 @@ FlowLog:
 
 #### Q65. Qu’est-ce qui ne va pas avec la troisième règle de groupe de sécurité entrante, qui permet à tout le trafic de sg-269afc5e d’aller vers une instance Ubuntu EC2 configurée comme serveur Web?
 
-![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png)
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - \[ ] Tout le trafic sur tous les ports est refusé dans cette instance, ce qui remplace la règle HTTP et la rend redondante.
 - \[x] L’instance a été lancée avec le groupe de sécurité par défaut, mais il n’existe aucun moyen pour un administrateur de SSH dans l’instance.
@@ -550,7 +550,7 @@ FlowLog:
 
 #### Q66. Vous avez un VPC qui possède un sous-réseau public et privé. Il existe une passerelle NAT dans le sous-réseau public qui permet aux instances du sous-réseau privé d’accéder à Internet sans avoir d’exposition publique en dehors du VPC. Quelles doivent être les tables de routage pour le sous-réseau privé ?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - \[x] A
 
@@ -618,7 +618,7 @@ FlowLog:
 
 #### Q71. Un formulaire dans une application Web envoie des données d’inscription à « http://example.com/signup/new?source=web » et ces données doivent être gérées par un service ECS derrière Application Load Balancer (ALB). Quelle règle ALB acheminera cette demande ?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - \[ ] A
 
@@ -725,7 +725,7 @@ FlowLog:
 
 #### Q81. Votre centre de données sur site (172.16.128.0/24) est déjà connecté à votre AWS VPC (10.0.0.0/16) par une passerelle client. Vous souhaitez connecter un autre centre de données pour une entreprise que vous venez d’acquérir (172.16.130.0/24) à votre VPC comme indiqué dans l’image. Quelle est la meilleure façon de créer ce lien ?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - \[ ] Établissez une connexion entre vos deux centres de données et connectez le deuxième centre de données au premier via un tunnel privé. Le trafic s’écoulera du deuxième centre de données, puis des premières données, puis d’AWS.
 - \[ ] Créez une deuxième passerelle client et configurez votre client VPN dans votre deuxième centre de données pour qu’il se connecte à la passerelle réseau privé virtuel.

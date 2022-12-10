@@ -320,12 +320,12 @@ echo ${!fname}
 
 #### Q31. What will be the output of this script?
 
-![question](images/Q30/question.png)
+![question](images/Q30/question.png?raw=png)
 
-- [ ] `A` ![A](images/Q30/A.png)
-- [ ] `B` ![B](images/Q30/B.png)
-- [ ] `C` ![C](images/Q30/D.png)
-- [x] `D` ![D](images/Q30/C.png)
+- [ ] `A` ![A](images/Q30/A.png?raw=png)
+- [ ] `B` ![B](images/Q30/B.png?raw=png)
+- [ ] `C` ![C](images/Q30/D.png?raw=png)
+- [x] `D` ![D](images/Q30/C.png?raw=png)
 
 Here's a text based version of Q.30:
 
@@ -745,7 +745,7 @@ fi
 
 #### Q58. What is the result of this script?
 
-![question](images/Q60/question.png)
+![question](images/Q60/question.png?raw=png)
 
 - [ ] It removes the directory 'foo' and the files contained within it.
 - [ ] It removes all files except those in the current directory.
@@ -846,7 +846,7 @@ echo 'Hello, $(whoami)!'
 - [ ] alias 'ls -lah'=lh
 - [ ] lh | ls -lah
 
-#### Q70. Which statement will print all of the fully qualified .cvs files in the home directory or subdirectories while not displaying any errors?
+#### Q70. Which statement will print all of the fully qualified .csv files in the home directory or subdirectories while not displaying any errors?
 
 - [ ] find $USER_DIR -name "\*.csv" 2>/dev/null
 - [ ] find $HOME -name "\*.csv" 1>/dev/null
@@ -1007,3 +1007,45 @@ References:
 - [ ] &&
 - [x] &
 - [ ] $
+
+#### Q78. The range of nice number in LINUX system is?
+
+- [ ] -20 to 0
+- [x] -20 to 19
+- [ ] 0 to 19
+- [ ] 10 to 10
+
+[Reference](https://man7.org/linux/man-pages/man2/nice.2.html)
+
+#### Q79. In Bash, what does this expression evaluate to?
+
+```
+echo $((4/3))
+```
+
+- [ ] 1.3
+- [ ] 1.3333333333
+- [x] 1
+- [ ] 2
+
+[Reference](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-10.html)
+
+#### Q80. To keep a loop going until a certain condition becomes true, what would you likely use?
+
+- [ ] if
+- [ ] case
+- [x] while
+- [ ] for
+
+[Reference](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html)
+
+#### Q81. What does this command sequence do?
+
+```bash
+cat > notes -
+```
+
+- [ ] It creates an empty file called "notes" and then exits.
+- [ ] It outputs the contents of the "notes" file to the screen, and then deletes it.
+- [x] It accepts text from the standard input and places it in the "notes" file.
+- [ ] It appends text to an existing file called "notes."

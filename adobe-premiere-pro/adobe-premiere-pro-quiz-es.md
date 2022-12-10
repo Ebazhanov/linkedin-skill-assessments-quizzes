@@ -66,7 +66,7 @@ E. Blur
 
 #### P9. ¿Qué puede hacer para que la capa de forma ajuste automáticamente el tamaño a medida que cambia la capa de texto?
 
-![image](images/001.png)
+![image](images/001.png?raw=true)
 
 - \[x] Seleccione la opción Máscara con forma.
 - \[ ] Seleccione Diseño responsivo y Anclar a la capa de texto.

@@ -38,7 +38,7 @@ B. Users can decline individual requests for read receipts.
 C. Read receipts are expensive, so some organizations turn them off.
 ```
 
-- [ ] A and C
+- [x] A and C
 - [ ] B and C
 - [ ] A and B
 - [ ] A,B,and C
@@ -74,7 +74,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q10. You create a task and assign it to Nalia. Nalia reviews the request and declines the assignment. Where is the task now, and who is the owner?
 
 - [ ] The task is nowhere, and no one is the owner.
-- [ ] The task is in your task list, and you are the owner.
+- [x] The task is in your task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and Nalia is the owner until she reassigns it to you.
 
@@ -97,7 +97,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Review your folders to determine the age of messages that should auto archive in each folder. Set the most frequent value as the AutoArchive default
 - [ ] For each folder, determine whether aged items should be deleted or archived
 - [ ] Set individual settings for folders that should be archived, but not using the default settings
-- [ ] All of these answers
+- [x] All of these answers
 
 #### Q14. Removing redundant messages can be completed by utilizing what Outlook features?
 
@@ -125,12 +125,12 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Sending the contact is faster because the contact itself has no formatting
 - [ ] Sharing a contact is superior because more email systems support Outlook contacts rather than business cards
 - [ ] There is no real difference
-- [ ] Your business card can be edited to omit personal information such as a home phone
+- [x] Your business card can be edited to omit personal information such as a home phone
 
 #### Q18. You have received an email message with detailed notes that you need to analyze before responding, so you want to save it as a task. What is the best way to create a new task that includes the notes in the body of the task?
 
 - [ ] Right click the email message, drag and drop it on the Tasks icon, and click Copy Here as Task with Attachment
-- [ ] Copy and paste the notes into a new task form
+- [x] Copy and paste the notes into a new task form
 - [ ] Drag the email message and drop it on the Tasks icon
 - [ ] Right click the email message, drag and drop it on the Tasks icon, and click Move Here as Task with Attachment
 
@@ -146,7 +146,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Create a CCd folder, and then create a rule to move all messages where you are on the CC line to that folder
 - [ ] Create a rule to move all messages where you are in the CC line to the Deleted Items folder
 - [ ] Create a rule to apply conditional formatting to all messages where you are in the CC line
-- [ ] Turn on Focused Inbox
+- [x] Turn on Focused Inbox
 
 #### Q21. How can you quickly locate emails with large attachment?
 
@@ -578,7 +578,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] A or B
 - [x] B
 - [ ] C
-- [ ] А
+- [ ] A
 
 #### Q79. Which is not valid search criteria when searching for messages in your Inbox?
 
@@ -655,7 +655,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] You change the time zone that your calendar uses.
 - [ ] You automatically switch to list view.
 - [ ] You set time constraints for booking events.
-- [ ] You change the number of hours visible on the grid.
+- [x] You change the number of hours visible on the grid.
 
 #### Q90. What arrangement can you create in **View Settings** (Windows) or **Rules** (Mac) to color code messages from a particular sender?
 
@@ -684,3 +684,12 @@ D. Because you cannot create a search folder for a subfolder
 - [ ]
 - [ ]
 - [ ]
+
+#### Q94. When you back up or export your contacts directly from Outlook without using additional applications, what type of file will you export?
+
+- [ ] XLS (Windows) or XLSM (Mac)
+- [x] CSV Windows) or OLM (Mac)
+- [ ] TXT
+- [ ] DOCX Windows) or DOCM (Mac)
+
+[Reference link](https://www.codetwo.com/admins-blog/export-outlook-contacts/)

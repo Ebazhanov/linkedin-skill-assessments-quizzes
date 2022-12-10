@@ -7,6 +7,9 @@
 - [ ] django.middleware.cache.FetchFromCacheMiddleware
 - [x] django.middleware.cache.AcceleratedCacheMiddleware
 
+**Reference:**
+Django comes with a robust cache system that lets you save dynamic pages, so they don’t have to be computed for each request. For convenience, Django offers cache with different granularity — from entire website to pages to part of pages to DB query results to any objects in memory. Cache middleware. If enabled, each Django-powered page will be cached based on URL.
+
 #### Q2. In which programming language is Django written?
 
 - [ ] C++
@@ -25,28 +28,28 @@
 
 - [ ] A
 
-```
+```python
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [x] B
 
-```
+```python
 path('shows/<int:season>/<int:episode>/', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [ ] C
 
-```
+```python
 path('shows/<int:season>/<int:episode>', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
 - [ ] D
 
-```
+```python
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
 url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 ```
@@ -132,7 +135,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 - [x] A
 
-```
+```python
 class Star(models.Model):
 name = models.CharField(max_length=100)
 class Constellation(models.Model):
@@ -141,7 +144,7 @@ stars = models.ManyToManyField(Star)
 
 - [ ] B
 
-```
+```python
 class Star(models.Model):
 constellation = models.ForeignKey(Constellation, on_delete=models.CASCADE)
 class Constellation(models.Model):
@@ -150,7 +153,7 @@ stars = models.ForeignKey(Star, on_delete=models.CASCADE)
 
 - [ ] C
 
-```
+```python
 class Star(models.Model):
 name = models.CharField(max_length=100)
 class Constellation(models.Model):
@@ -159,7 +162,7 @@ stars = models.OneToManyField(Star)
 
 - [ ] D
 
-```
+```python
 class Star(models.Model):
 constellation = models.ManyToManyField(Constellation)
 class Constellation(models.Model):
@@ -303,7 +306,7 @@ name = models.CharField(max_length=100)
 
 #### Q36. How would you define the relation between a book and an author - book has only one author.
 
-```
+```python
 class Author (models.model):
 book=models.foreignkey(Book,on_delete=models.cascade)
 class Book(models.model):
@@ -321,7 +324,7 @@ author=models.foreignkey(Author,on_delete=models.cascade)
 
 - [ ] B
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -330,7 +333,7 @@ author=models.foreignkey(Author)
 
 - [ ] C
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -339,7 +342,7 @@ author=models.foreignkey(Author,on_delete=models.cascade)
 
 - [ ] D
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -376,7 +379,7 @@ author=Author.name
 
 #### Q41. How should the code end?
 
-```
+```python
 { percentage if spark >= 50 percentage }
 Lots of spark
 {percentage elif spark == 42 percentage}
@@ -389,14 +392,14 @@ Lots of spark
 
 #### Q42. Which code block will create a serializer?
 
-```
+```python
 from rest_framework import serializers
 from .models import Planet
 ```
 
 - [x] A
 
-```
+```python
 class PlanetSerializer(serializers.ModelSerializer):
 class Meta:
 model=Planet
@@ -405,7 +408,7 @@ fields=('name','position', 'mass', 'rings')
 
 - [ ] B
 
-```
+```python
 from rest_framework import serializers
 from .models import Planet
 class PlanetSerializer():
@@ -416,7 +419,7 @@ model=Planet
 
 - [ ] C
 
-```
+```python
 from django.db import serializers
 from .models import Planet
 class PlanetSerializer(serializers.ModelSerializer):
@@ -426,7 +429,7 @@ model=Sandwich
 
 - [ ] D
 
-```
+```python
 from django.db import serializers
 from .models import Planet
 class PlanetSerializer(serializers.ModelSerializer):
@@ -693,3 +696,10 @@ model=Planet
 - [x] to declare the directory contents as a Python module
 
 [Reference](<https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view>)
+
+#### Q77. What python package can be used to edit numbers into more readable form like "1200000" to "1.2 million"?
+
+- [ ] black
+- [ ] puffer
+- [ ] pitch
+- [x] humanize

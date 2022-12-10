@@ -25,7 +25,7 @@ Nota: uso solo la sincronizzazione. Dopo aver scavato nelle impostazioni sono st
 
 #### D4. Rivedi l'immagine mostrata. Cosa implica il punto esclamativo adiacente alla miniatura?
 
-![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png)
+![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png?raw=true)
 
 - \[ ] L'immagine è stata modificata in Photoshop.
 - \[ ] La foto è contrassegnata come selezionata.
@@ -43,7 +43,7 @@ Nota: uso solo la sincronizzazione. Dopo aver scavato nelle impostazioni sono st
 
 #### D6. Rivedi l'immagine qui sotto. Quale opzione consente di raddrizzare manualmente una foto disegnando una linea verticale o orizzontale?
 
-![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png)
+![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png?raw=true)
 
 - \[ ] A
 - \[x] B
@@ -82,7 +82,7 @@ Nota: uso solo la sincronizzazione. Dopo aver scavato nelle impostazioni sono st
 
 #### D11. Nell'immagine mostrata, cosa indicano le aree blu?
 
-![In the image shown, what do the blue areas indicate?](images/Q11.png)
+![In the image shown, what do the blue areas indicate?](images/Q11.png?raw=true)
 
 - \[x] dettagli schiacciati nell'ombra
 - \[ ] un effetto speciale applicato all'immagine
@@ -121,7 +121,7 @@ Nota: uso solo la sincronizzazione. Dopo aver scavato nelle impostazioni sono st
 
 #### D16. Nell'immagine mostrata, cos'è l'icona cerchiata in giallo?
 
-![Image with a yellow circle](images/Q16.png)
+![Image with a yellow circle](images/Q16.png?raw=true)
 
 - \[ ] Copia virtuale
 - \[ ] Sincronizzato con Lightroom

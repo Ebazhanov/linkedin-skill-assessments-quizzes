@@ -68,11 +68,13 @@
 
 #### Q9. Quelles sont les options disponibles lors de l’utilisation de la commande Transformation libre sur un objet dynamique ?
 
-    A. Content-Aware Scale
-    B. Scale
-    C. Warp
-    D. Distort
-    E. Perspective Warp
+```markdown
+A. Content-Aware Scale
+B. Scale
+C. Warp
+D. Distort
+E. Perspective Warp
+```
 
 - \[ ] C,D
 - \[ ] D,E

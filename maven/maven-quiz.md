@@ -212,11 +212,11 @@ mvn install
 
 #### Q30. What does the following command do?
 
-    > mvn archetype:generate \
-    -DgroupID=sample-maven-project \
-    -DartifactID=com.palmer.bethan.sample \
-    -Dversion=1.0.0 \
-    -DinteractiveMode=false
+> mvn archetype:generate \
+> -DgroupID=sample-maven-project \
+> -DartifactID=com.palmer.bethan.sample \
+> -Dversion=1.0.0 \
+> -DinteractiveMode=false
 
 - [ ] It does nothing since no archetype has been specified
 - [ ] It generates a new Maven archetype
@@ -276,7 +276,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q37. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
+#### Q37. Suppose you are packaging a Maven project and see the following error: "[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!" What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
@@ -315,7 +315,7 @@ mvn install
 
 #### Q42. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
 
-![q43](q43.png)
+![q43](q43.png?raw=png)
 
 - [ ] The Checkstyle Plugin does not work on child modules.
 - [ ] Each Checkstyle report is in the target/site folder of the respective module.
@@ -506,3 +506,64 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. Which plugin is used to copy, filter, include, and exclude non-Java files into your final project?
+
+- [ ] Build
+- [ ] Files
+- [ ] Copy
+- [x] Resources
+
+[!reference](https://maven.apache.org/plugins/maven-resources-plugin/examples/include-exclude.html)
+
+### Q65. What is a module in a Maven project?
+
+- [ ] a dependency
+- [x] a subproject, or child project
+- [ ] a Java package
+- [ ] a plugin
+
+[!reference](https://docs.jboss.org/tools/latest/en/maven_reference/html/creating_a_maven_application.html)
+
+### Q66. What does the mvn --version command do?
+
+- [ ] It updates Maven to the latest version.
+- [x] It prints out your installed version of Maven.
+- [ ] It builds your Maven project.
+- [ ] It installs Maven on your computer.
+
+[!reference](https://jenkov.com/tutorials/maven/maven-commands.html)
+
+### Q67. When building a Maven project, where are Maven dependencies stored?
+
+- [ ] in the target directory
+- [x] in your local repository
+- [ ] in the POM file
+- [ ] online in the Maven central repository
+
+[!reference](https://www.baeldung.com/maven-local-repository)
+
+### Q68. Why is it best practice not to release SNAPSHOT versions of Maven artifacts to production?
+
+- [ ] A release marked with SNAPSHOT indicates that not all of the tests have passed.
+- [x] A SNAPSHOT can be hard to reproduce, making it difficult to determine the cause of an issue.
+- [ ] SNAPSHOT releases do not contain any dependencies.
+- [ ] A release marked with SNAPSHOT may contain sensitive security information.
+
+[!reference](https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version)
+
+### Q69. Why do you use Maven Wrapper on a project shared with a large team of developers?
+
+- [ ] all of these answers
+- [x] All developers will be using the same Maven version, providing stability.
+- [ ] The dependencies for the project will be downloaded only once for all developers, saving bandwidth.
+- [ ] Maven Wrapper checks dependencies for vulnerabilites, increasing security.
+
+### Q70. This POM file contains an XML validation error. What is the cause of the error?
+
+![q70](q70.png?raw=png)
+
+- [ ] JUnit is not a valid dependency of a Maven project.
+- [x] the <dependency> elements should be inside <dependencies> elements.
+- [ ] The <dependency> element is not a valid in a POM file.
+- [ ] The <dependency> elements should be at the bottom of the POM file.

@@ -312,7 +312,7 @@
 
 #### P41. Cuando se trabaja con objetos en los dibujos, normalmente se definen sus propiedades a través de sus respectivas capas. Sin embargo, puede definir propiedades de objetos individuales con el panel Propiedades de la ficha Inicio de la cinta de opciones de AutoCAD. El color individual y el tipo de línea se pueden definir allí, junto con ¿qué otra propiedad típica del objeto?
 
-![q42](images/q42_autocad.png)
+![q42](images/q42_autocad.png?raw=png)
 
 - \[ ] descripción
 - \[x] plottable o no plottable
@@ -545,7 +545,7 @@
 
 #### Pregunta 74. Cuando se utiliza el comando POLYGON en AutoCAD, se puede crear un polígono inscrito y un polígono circunscrito. ¿Qué otro tipo de polígono está disponible?
 
-![q75](images/q75_autocad.png)
+![q75](images/q75_autocad.png?raw=png)
 
 - \[ ] polígono lateral
 - \[ ] polígono polilínea
@@ -554,7 +554,7 @@
 
 #### Pregunta 75. Cuando se utilizan bloques en un plano, un bloque seleccionado muestra sólo una empuñadura: el punto de inserción. ¿Cómo conseguirías que un bloque mostrara todas sus empuñaduras asociadas?
 
-![q76](images/q76_autocad.png)
+![q76](images/q76_autocad.png?raw=png)
 
 - \[ ] Cambie la variable del sistema GRIPBLOCK a 1.
 - \[ ] Seleccione el bloque y cámbielo en la paleta Propiedades.

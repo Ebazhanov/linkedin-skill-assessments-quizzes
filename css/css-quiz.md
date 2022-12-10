@@ -21,7 +21,7 @@ div a
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
 
-`Note: an alternative to the question below.`
+**Note:** an alternative to the question below.
 
 #### Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
 
@@ -30,7 +30,7 @@ div a
 - [ ] `a=title`
 - [ ] `a.title`
 
-`Note: an alternative to the question above.`
+**Note:** an alternative to the question above.
 
 #### Q4. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
@@ -107,7 +107,7 @@ div a
 - [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
-`Note: an alternative to the question below.`
+**Note:**an alternative to the question below.`
 
 #### Q9. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
@@ -118,7 +118,7 @@ div a
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
-`Note: an alternative to the question above.`
+**Note:**an alternative to the question above.`
 
 #### Q10. What is the line-height property primarily used for?
 
@@ -134,7 +134,7 @@ div a
 - [ ] Class selectors begin with a leading period
 - [x] Classes can be used multiple times per page but not within the same element.
 
-`Note: an alternative to the question below.`
+**Note:**an alternative to the question below.`
 
 #### Q12. What is not true about class selectors?
 
@@ -143,7 +143,7 @@ div a
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
 
-`Note: an alternative to the question above.`
+**Note:**an alternative to the question above.`
 
 #### Q13. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 
@@ -159,37 +159,44 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
 ```
 
 - [x] A
-  ```css
-  background-color: blue;
-  background-image: url(image.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 0px 0px;
-  ```
+
+```css
+background-color: blue;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px 0px;
+```
+
 - [ ] B
-  ```css
-  background-color: blue;
-  background-img: url(image.jpg);
-  background-position: no-repeat;
-  background-scroll: scroll;
-  background-size: 0px 0px;
-  ```
+
+```css
+background-color: blue;
+background-img: url(image.jpg);
+background-position: no-repeat;
+background-scroll: scroll;
+background-size: 0px 0px;
+```
+
 - [ ] C
-  ```css
-  background-color: blue;
-  background-src: url(image.jpg);
-  background-repeat: no-repeat;
-  background-wrap: scroll;
-  background-position: 0px 0px;
-  ```
+
+```css
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-wrap: scroll;
+background-position: 0px 0px;
+```
+
 - [ ] D
-  ```css
-  background-color: blue;
-  background-src: url(image.jpg);
-  background-repeat: no-repeat;
-  background-scroll: scroll;
-  background-position: 0px 0px;
-  ```
+
+```css
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-scroll: scroll;
+background-position: 0px 0px;
+```
 
 #### Q15. In this example, according to cascading and specificity rules, what color will the link be?
 
@@ -228,36 +235,43 @@ a {
 - [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
 
-`Note: an alternative to the question below.`
+**Note:**an alternative to the question below.`
 
 #### Q17. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
 - [x] A
-  ```
+
+```
   1. Larger z-index values appear on top elements with a lower z-index value.
   2. Negative and positive number can be used.
   3. z-index can be used only on positioned elements.
-  ```
+```
+
 - [ ] B
-  ```
+
+```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive numbers can be used.
   3. z-index can be used with or without positioned elements.
-  ```
+```
+
 - [ ] C
-  ```
+
+```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive number can be used.
   3. z-index must also be used with positioned elements.
-  ```
+```
+
 - [ ] D
-  ```
+
+```
   1. Larger z-index values appear on top of elements with a lower z-index value.
   2. Only positive number can be used.
   3. z-index must also be used with positioned elements.
-  ```
+```
 
-`Note: an alternative to the question above.`
+**Note:**an alternative to the question above.`
 
 #### Q18. What is the difference between the following line-height settings?
 
@@ -298,29 +312,36 @@ section + p {
 #### Q20. What are three valid ways of adding CSS to an HTML page?
 
 - [ ] A
-  ```
+
+```
   1. External; CSS is written in a separate file.
   2. Inline; CSS is added to the <head> of the HTML page.
   3. Internal; CSS is included within the HTML tags.
-  ```
+```
+
 - [ ] B
-  ```
+
+```
   1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <header> element of the HTML file.
-  ```
+```
+
 - [ ] C
-  ```
+
+```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Internal; CSS is included within the <header> element of the HTML file.
   3. Inline; CSS is added to the HTML tag.
-  ```
+```
+
 - [x] D
-  ```
+
+```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <head> element of the HTML file.
-  ```
+```
 
 #### Q21. Which of the following is true of the SVG image format? (_Alternative_: Which statement about the SVG image format is true?)
 
@@ -386,29 +407,36 @@ p {
 ```
 
 - [ ] A
-  ```
+
+```
   "p" is the selector
   "#000000" is the property
   "color" is the value
-  ```
+```
+
 - [x] B
-  ```
+
+```
   "p" is the selector
   "color" is the property
   "#000000" is the value
-  ```
+```
+
 - [ ] C
-  ```
+
+```
   "color" is the selector
   "#000000" is the property
   "#p" is the value
-  ```
+```
+
 - [ ] D
-  ```
+
+```
   "color" is the selector
   "p" is the property
   "#000000" is the value
-  ```
+```
 
 #### Q29. What is the rem unit based on?
 
@@ -439,10 +467,12 @@ p {
 
 #### Q32. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [x] the top left corner of the element
-- [ ] the center of the element
+- [ ] the top left corner of the element
+- [x] the center of the element
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
+
+[Reference](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
 
 #### Q33. Which of the following is not a valid color value? (_Alternative:_ Which choice is not a valid color value?)
 
@@ -481,7 +511,7 @@ p {
 
 #### Q37. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
-![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png)
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png?raw=png)
 
 - [x]
   - Example 1: `flex-direction: row;`
@@ -556,12 +586,12 @@ h2 ~ p {
 
 #### Q40. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
-![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png?raw=png)
 
-- [x] justify-content: space-around;
+- [ ] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
-- [ ] justify-content: space-between;
+- [x] justify-content: space-between;
 
 #### Q41. There are many advantages to using icon fonts. What is one of those advantages?
 
@@ -606,31 +636,38 @@ font-weight: 700;
 #### Q46. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
 - [ ] A
-  ```css
-  li:nth-child(3 + 2n) {
-    margin: 0 5 px;
-  }
-  ```
+
+```css
+li:nth-child(3 + 2n) {
+  margin: 0 5 px;
+}
+```
+
 - [x] B
-  ```css
-  li:nth-child(3n + 2) {
-    margin: 0 5 px;
-  }
-  ```
+
+```css
+li:nth-child(3n + 2) {
+  margin: 0 5 px;
+}
+```
+
 - [ ] C
-  ```css
-  li:nth-child(2),
-  li:nth-child(5),
-  li:nth-child(8) {
-    margin: 0 5 px;
-  }
-  ```
+
+```css
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(8) {
+  margin: 0 5 px;
+}
+```
+
 - [ ] D
-  ```css
-  li:nth-child(2n + 3) {
-    margin: 0 5 px;
-  }
-  ```
+
+```css
+li:nth-child(2n + 3) {
+  margin: 0 5 px;
+}
+```
 
 #### Q47. Which selector would select only internal links within the current page?
 
@@ -810,41 +847,48 @@ padding: 10px 0; /* declaration C */
 #### Q66. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
 
 - [x] A
-  ```css
-  a:link {
-    background: #0000ff;
-  }
-  a:hover {
-    background: rgba(0, 0, 255, 0.5);
-  }
-  ```
+
+```css
+a:link {
+  background: #0000ff;
+}
+a:hover {
+  background: rgba(0, 0, 255, 0.5);
+}
+```
+
 - [ ] B
-  ```css
-  a {
-    color: blue;
-  }
-  a:hover {
-    background: white;
-  }
-  ```
+
+```css
+a {
+  color: blue;
+}
+a:hover {
+  background: white;
+}
+```
+
 - [ ] C
-  ```css
-  a:link {
-    background: blue;
-  }
-  a:hover {
-    color: rgba(0, 0, 255, 0.5);
-  }
-  ```
+
+```css
+a:link {
+  background: blue;
+}
+a:hover {
+  color: rgba(0, 0, 255, 0.5);
+}
+```
+
 - [ ] D
-  ```css
-  a:hover {
-    background: rgba(blue, 50%);
-  }
-  a:link {
-    background: rgba(blue);
-  }
-  ```
+
+```css
+a:hover {
+  background: rgba(blue, 50%);
+}
+a:link {
+  background: rgba(blue);
+}
+```
 
 #### Q67. Which CSS rule takes precedence over the others listed?
 
@@ -1056,65 +1100,72 @@ D. border-top-radius: 10px;
 ```
 
 - [ ] A
-  ```css
-  1. section \* {
-    ...;
-  }
-  2. [class*='example'] {
-    ...;
-  }
-  3. p.example {
-    ...;
-  }
-  4. section p {
-    ...;
-  }
-  ```
+
+```css
+1. section \* {
+  ...;
+}
+2. [class*='example'] {
+  ...;
+}
+3. p.example {
+  ...;
+}
+4. section p {
+  ...;
+}
+```
+
 - [ ] B
-  ```css
-  1. p {
-    ...;
-  }
-  2. p.example {
-    ...;
-  }
-  3. section p {
-    ...;
-  }
-  4. [class*='example'] {
-    ...;
-  }
-  ```
+
+```css
+1. p {
+  ...;
+}
+2. p.example {
+  ...;
+}
+3. section p {
+  ...;
+}
+4. [class*='example'] {
+  ...;
+}
+```
+
 - [ ] C
-  ```css
-  1. p.example {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. section \* {
-    ...;
-  }
-  ```
+
+```css
+1. p.example {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. section \* {
+  ...;
+}
+```
+
 - [x] D
-  ```css
-  1. p {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. p.example {
-    ...;
-  }
-  ```
+
+```css
+1. p {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. p.example {
+  ...;
+}
+```
 
 #### Q88. Which property is used to create a drop shadow effect on an HTML element?
 
@@ -1150,7 +1201,7 @@ D. border-top-radius: 10px;
 
 ```html
 <header>
-  <hl>Heading 1</h1>
+  <h1>Heading 1</h1>
   <h2>Heading 2</h2>
 </header>
 <h2>Heading 2</h2>
@@ -1223,29 +1274,36 @@ border: 1px solid red;
 ```
 
 - [ ] A
-  ```css
-  border-size: 1px;
-  border-style: solid;
-  border-color: red;
-  ```
+
+```css
+border-size: 1px;
+border-style: solid;
+border-color: red;
+```
+
 - [ ] B
-  ```css
-  border-size: 1px;
-  border-type: solid;
-  border-color: red;
-  ```
+
+```css
+border-size: 1px;
+border-type: solid;
+border-color: red;
+```
+
 - [x] C
-  ```css
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
-  ```
+
+```css
+border-width: 1px;
+border-style: solid;
+border-color: red;
+```
+
 - [ ] D
-  ```css
-  border-width: 1px;
-  border-line: solid;
-  border-color: red;
-  ```
+
+```css
+border-width: 1px;
+border-line: solid;
+border-color: red;
+```
 
 #### Q96. Pseudo-classes are used to `_`.
 
@@ -1284,34 +1342,41 @@ section {
 #### Q99. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
 - [ ] A
-  ```css
+
+```css
   a
   a:hover
-  ```
+```
+
 - [ ] B
-  ```css
+
+```css
   :link
   :visited
   :hover
   :active
   :focus
-  ```
+```
+
 - [ ] C
-  ```css
+
+```css
   :active
   :focus
   :hover
   :link
   :visited
-  ```
+```
+
 - [x] D
-  ```css
+
+```css
   :link
   :visited
   :focus
   :hover
   :active
-  ```
+```
 
 #### Q100. Which selector is used to select the paragraph element that is a direct descendent of section?
 
@@ -1391,17 +1456,14 @@ a {
       10vh = 60px
       10vmin = 60px
       10vmax = 80px
-
 - [ ] 10vw = 60px
       10vh = 80px
       10vmin = 80px
       10vmax = 60px
-
 - [ ] 10vw = 8px
       10vh = 6px
       10vmin = 6px
       10vmax = 8px
-
 - [ ] 10vw = 6px
       10vh = 8px
       10vmin = 8px
@@ -1554,7 +1616,7 @@ D. font-size: 20px
 
 #### Q111. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained with the container?
 
-![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png)
+![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png?raw=png)
 
 - [ ] Floating the blue box increased its height.
 - [ ] Floating the blue box on the left also moves it down.
@@ -1852,7 +1914,7 @@ p + section {
 
 ```html
 <div class="pen">
-  <span id="puppy">🐶</span>
+  <span id="puppy">:dog:</span>
 </div>
 ```
 
@@ -1861,7 +1923,7 @@ p + section {
 - [ ] top-left corner
 - [x] bottom-left corner
 
-#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to <a> element ?
+#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to \<a> element?
 
 - [x] `a:hover {...}`
 - [ ] `a :hover {...}`
@@ -1947,7 +2009,6 @@ a:focus {
       `:active` styles are applied on mouse click.
       `:hover` styles are applied on mouse over.
       `:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
-
 - [x] `:visited` styles are applied after the link has been opened.
       `:active` styles are applied on mouse click only and before mouse release.
       `:hover` styles are applied on mouse over.
@@ -2232,11 +2293,8 @@ input.invalid {
 #### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
 
 - [x] `@import`
-
 - [ ] `@link`
-
 - [ ] `@insert`
-
 - [ ] `@style`
 
 [Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
@@ -2256,29 +2314,170 @@ input.invalid {
 ```
 
 - [ ] 200px
-
 - [x] 20px
-
 - [ ] 180px
-
 - [ ] 220px
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
 
 #### Q141. Which style rule will place an X within the grid to win the game?
 
-![A](img/Q-141.png)
+![A](img/Q-141.png?raw=png)
 
 - [ ] row: 3;
       column: 3;
-
 - [x] grid-row: 3;
       grid-column: 3;
-
 - [ ] row: 2;
       column: 2;
-
 - [ ] grid-row: 2;
       grid-column: 2;
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+
+#### Q142. Which CSS property is used to create an image reflection ?
+
+- [x] box-relect
+- [ ] img-reflect
+- [ ] None of the above
+- [ ] reflect-img
+
+#### Q143. What is the general syntax of writing the var() function ?
+
+- [x] var(--name, value)
+- [ ] var(--name)
+- [ ] var(value)
+- [ ] None of the Above
+
+#### Q143. How many layout modes were there before the Flexbox Layout Module was introduced in CSS ?
+
+- [ ] 2
+- [ ] 1
+- [x] 4
+- [ ] 3
+
+#### Q144. Which of the following components of the CSS box model are transparent ?
+
+- [ ] Padding
+- [ ] Margin
+- [x] Both A and B
+- [ ] None
+
+#### Q145. How are custom fonts defined using CSS ?
+
+- [x] @Font-Face Rule
+- [ ] Custom font cannot be defined
+- [ ] src tags
+- [ ] None of the above
+
+#### Q146. Which of the following CSS property sets what kind of line decorations are added to an element, such as underlines, overlines, etc?
+
+- [ ] text-decoration
+- [ ] text-style
+- [x] text-decoration-line
+- [ ] text-line
+
+#### Q147. Which of the following CSS Property sets the stacking order of positioned elements?
+
+- [ ] y-index
+- [x] z-index
+- [ ] x-index
+- [ ] all of the mentioned
+
+#### Q148. Which of the following property allows a marquee to be used in the case of a text-overflow?
+
+- [ ] overflow-marquee
+- [x] overflow-style
+- [ ] overflow-text
+- [ ] none of the mentioned
+
+#### Q149. Which of the following Cascading order has the highest precedence?
+
+- [x] user agent declarations
+- [ ] user normal declarations
+- [ ] author normal declarations
+- [ ] author important declarations
+
+#### Q150. The CSS cascade assigns a weight to each style rule ?
+
+- [x] True
+- [ ] False
+
+#### Q151. The \***\*\_\_\_\_\*\*** represents the result of the cascade: it is the declared value that wins the cascade.
+
+- [ ] specified Value
+- [ ] actual value
+- [ ] computed value
+- [x] cascaded value
+
+#### Q152. Using negative text-indent is also known as **\_** ?
+
+- [ ] The Scott Kellum method
+- [x] The Phark method
+- [ ] Radu Darvas Technique
+- [ ] The Langridge method
+
+#### Q153. Using margin is also known as **\_** ?
+
+- [ ] Fahrner image replacement
+- [ ] The Lindsay method
+- [x] Radu Darvas Technique
+- [ ] The Langridge method
+
+#### Q154. If a particular rule should never be overridden by another rule, the \***\*\_\_\_\_\*\*** indication should be used.
+
+- [ ] @important
+- [ ] !important!
+- [x] !important
+- [ ] important!
+
+#### Q155. What does CSS stand for?
+
+- [ ] Creative Style Sheets
+- [ ] Colourful Style Sheets
+- [x] Cascading Style Sheets
+- [ ] Colourful Style Sheets
+
+[Reference](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
+
+#### Q156. What color would rgb(255,0,0) give?
+
+- [ ] Blue
+- [ ] Green
+- [x] Red
+- [ ] Yellow
+
+#### Q157. What is the correct HTML for referring to an external style sheet?
+
+- [x] `<link rel="stylesheet" type="text/css" href="mystyle.css">`
+- [ ] `<stylesheet>mystyle.css</stylesheet>`
+- [ ] `<style src= "mystyle.css">`
+- [ ] None of these.
+
+#### Q158. The \<link> tag goes inside:
+
+- [ ] the title section
+- [ ] the body section
+- [x] the head section
+- [ ] None of the above
+
+#### Q159. What CSS define in HTML?
+
+- [ ] How to send HTML elements
+- [x] How to display HTML elements
+- [ ] How to save HTML elements
+- [ ] How to make HTML elements
+
+#### Q160. Which of the following statements is TRUE for CSS?
+
+- [ ] An inline style sheet should be used when a single document has a unique style
+- [x] An external style sheet is ideal when the style is applied to many pages
+- [ ] Both and b above
+- [ ] An external style sheet can be written in HTML
+
+#### Q161. In CSS, margin collapsing only happens with?
+
+- [ ] The horizontal margins of inline elements in the normal flow.
+- [x] The vertical margins of block elements in the normal flow.
+- [ ] The horizontal margins of block elements in the normal flow.
+- [ ] The vertical margins of inline elements in the normal flow.

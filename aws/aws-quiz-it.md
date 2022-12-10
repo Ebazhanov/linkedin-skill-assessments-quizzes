@@ -160,7 +160,7 @@
 
 #### D22. Si sta ospitando un'applicazione configurata per lo streaming di contenuti multimediali ai client sulle porte TCP 3380-3384, 3386-3388 e 3390. La scheda In ingresso riportata di seguito mostra tre criteri di gruppo di sicurezza in ingresso associati a questa istanza. Quale criterio dovresti usare?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - \[x] La regola che espone le porte TCP 3380-3390 esporrebbe pubblicamente anche la porta 3389 (RDP) all'intera Internet. Scrivere regole separate per esporre solo le porte necessarie.
 - \[ ] La prima regola del gruppo di sicurezza consente tutto il traffico in questa istanza. L'esposizione dell'intera istanza all'intera Internet lascia il server aperto a vari attacchi degli altri servizi in esecuzione su numeri di porta diversi.
@@ -385,7 +385,7 @@ FlowLog:
 
 #### D47. Nella console S3, sotto la colonna Access, cosa indica il badge pubblico accanto al nome del bucket?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - \[x] A tutti gli oggetti all'interno di questo bucket viene assegnato l'accesso pubblico e potrebbero essere leggibili o scrivibili da chiunque su Internet. Assicurati che nessun dato sensibile venga condiviso pubblicamente all'interno di questo bucket.
 - \[ ] Tutti gli oggetti all'interno di questo bucket sono scrivibili, il che significa che Internet pubblico ha la possibilità di caricare qualsiasi file direttamente sul bucket S3. Il bucket S3 potrebbe essere utilizzato per servire malware.
@@ -443,7 +443,7 @@ FlowLog:
 
 #### D55. le regole in uscita di un gruppo di sicurezza consentono solo il traffico che va a 0.0.0.0/0 sulla porta TCP 22 (SSH) e sulla porta TCP 3306 (MySQL). Esamina le regole in ingresso elencate nell'immagine seguente. Qual è il problema più importante da risolvere con questa configurazione del gruppo di sicurezza, per un'istanza EC2 di Ubuntu che funge da server Web?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - \[ ] Le regole in uscita bloccano la porta UDP 53, quindi il server non sarà in grado di risolvere alcuna ricerca DNS.
 - \[x] Le regole in uscita non consentono al traffico HTTP di lasciare l'istanza, pertanto le richieste HTTP in ingresso avranno esito negativo perché i client non riceveranno mai risposte HTTP.
@@ -538,7 +538,7 @@ FlowLog:
 
 #### D65. Cosa c'è di sbagliato nella terza regola del gruppo di sicurezza in entrata, che consente a tutto il traffico da sg-269afc5e di andare a un'istanza EC2 di Ubuntu configurata come server web?
 
-![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png)
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - \[ ] Tutto il traffico su tutte le porte viene negato in questa istanza, che sovrascrive la regola HTTP e la rende ridondante.
 - \[x] L'istanza è stata avviata con il gruppo di sicurezza predefinito, ma non è possibile per un amministratore accedere a SSH nell'istanza.
@@ -550,7 +550,7 @@ FlowLog:
 
 #### D66. Hai un VPC che ha una sottorete pubblica e privata. Nella subnet pubblica è presente un gateway NAT che consente alle istanze della sottorete privata di accedere a Internet senza avere un'esposizione pubblica al di fuori del VPC. Quali devono essere le tabelle di routing per la subnet privata?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - \[x] A
 
@@ -618,7 +618,7 @@ FlowLog:
 
 #### D71. Un modulo nell'applicazione Web invia i dati di iscrizione a "http://example.com/signup/new?source=web" e questi dati devono essere gestiti da un servizio ECS dietro Application Load Balancer (ALB). Quale regola ALB indirizzerà questa richiesta?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - \[ ] A
 
@@ -725,7 +725,7 @@ FlowLog:
 
 #### D81. Il data center on-premise (172.16.128.0/24) è già connesso al VPC AWS (10.0.0.0/16) tramite un gateway cliente. Desideri collegare un altro data center per un'azienda che hai appena acquisito (172.16.130.0/24) al tuo VPC come mostrato nell'immagine. Qual è il modo migliore per creare questo link?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - \[ ] Stabilire una connessione tra i due data center e collegare il secondo data center al primo attraverso un tunnel privato. Il traffico fluirà dal secondo data center e poi attraverso i primi dati e poi in AWS.
 - \[ ] Creare un secondo gateway cliente e configurare il client VPN nel secondo data center per la connessione al gateway privato virtuale.

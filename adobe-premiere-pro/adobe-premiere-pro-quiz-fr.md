@@ -66,7 +66,7 @@ E. Blur
 
 #### Q9. Que pouvez-vous faire pour que le calque de forme ajuste automatiquement la taille à mesure que le calque de texte change ?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - \[x] Sélectionnez l’option Masque avec forme.
 - \[ ] Sélectionnez Responsive Design et épingler au calque de texte.

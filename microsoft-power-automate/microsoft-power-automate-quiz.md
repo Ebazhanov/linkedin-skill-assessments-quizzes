@@ -4,7 +4,7 @@
 
 - [ ] click the name and type over it
 - [ ] highlight the step and, in the menu bar, select Rename step.
-- [ ] at the top-right corner of the step card, click the small ellipsis and select Rename
+- [x] at the top-right corner of the step card, click the small ellipsis and select Rename
 - [ ] from the flow's detail page, in the menu var, click Rename.
 
 #### Q2. If you create the flow directly in Microsoft Teams, who can use the flow?
@@ -23,7 +23,7 @@
 
 #### Q4. The flow pictured saves new email attachments in SharePoint, adds a row to Excel to document the file save, and sends a message to TEAMS. What is the proper placement of steps B, D, and E?
 
-![Image of footer](images/Q01.png)
+![Image of footer](images/Q01.png?raw=png)
 
 - [x] B, D and E belong inside C in the order listed.
 
@@ -47,7 +47,7 @@
 
 #### Q7. What is the purpose of the flow?
 
-![Image of footer](images/Q02.png)
+![Image of footer](images/Q02.png?raw=png)
 
 - [ ] to add events. to an Outlook calender if they are deleted in Google Calender
 - [x] to delete Outlook calender events when they are deleted in Google Calender
@@ -116,7 +116,7 @@
 
 #### Q15. What control would you use to build parallel branches of conditional logic based on a single value?
 
-![Image of footer](images/Q03.png)
+![Image of footer](images/Q03.png?raw=png)
 
 - [x] Apply to each
 - [ ] Scope
@@ -161,7 +161,7 @@
 #### Q21. Can flows that have been created outside of a solution be shared in a solution?
 
 - [ ] Yes, but only system admins have the ability to move flows into solutions after they are created
-- [ ] Yes, flows can be easily imported into solutions
+- [x] Yes, flows can be easily imported into solutions
 - [ ] It is entirely dependent on the type of flow - for instance, instant flows cannot but most automated flows can.
 - [ ] No, to be shared as part of a solution, they need to be created within the solution
 
@@ -169,7 +169,7 @@
 
 - [ ] Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source
 - [ ] you can copy data only between databases in the same environment
-- [ ] All field names in both database must match exactly and there must be the same number of records in each database
+- [x] All field names in both database must match exactly and there must be the same number of records in each database
 - [ ] You must always create a loop to verify your data has been successfully copied
 
 #### Q23. How do you share a template in Power Automate?

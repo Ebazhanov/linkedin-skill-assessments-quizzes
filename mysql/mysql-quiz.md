@@ -352,7 +352,7 @@
 - [ ] large table
 - [ ] new table
 
- [Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
@@ -504,7 +504,7 @@ Note: `DESCRIBE tablename` is a shortcut for this command
 
 - [x] to reduce corruption in data
 - [ ] to reduce storage space
-- [ ] to make the system faster
+- [x] to make the system faster
 - [ ] to prevent data anomalies
 
 Note: "to make the system faster" can also be correct. For example we can calculate some heavy query in advance and store its result in some column (use it as a cache). So if "system" means "application which uses mysql" then it's correct too.
@@ -731,7 +731,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying tables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q78. How would you retrieve data on all the customers where no phone number is stored?
@@ -880,7 +880,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] XML
 - [ ] TXT
 
-#### Q96. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+#### Q96. You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png?raw=true)
 
@@ -1034,28 +1034,28 @@ Table name: superheroes
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
 
-#### Q107. “COUNT” keyword belongs to which categories in Mysql?
+#### Q107. "COUNT" keyword belongs to which categories in Mysql?
 
 - [x] Aggregate functions
-- [ ] Operators``
+- [ ] Operators
 - [ ] Clauses
 - [ ] All of the mentioned`
 
-#### Q108. Which among the following belongs to an “aggregate function”?
+#### Q108. Which among the following belongs to an "aggregate function"?
 
 - [x] COUNT
-- [ ] UPPER`
+- [ ] UPPER
 - [ ] LOWER
 - [ ] All of the mentioned
 
-#### Q109. What is the meaning of “HAVING” clause in Mysql?
+#### Q109. What is the meaning of "HAVING" clause in Mysql?
 
 - [ ] To filter out the column values
 - [x] To filter out the row values
 - [ ] To filter out the row and column values
 - [ ] None of the mentioned
 
-#### Q110. Which clause is similar to “HAVING” clause in Mysql?
+#### Q110. Which clause is similar to "HAVING" clause in Mysql?
 
 - [ ] SELECT
 - [ ] FROM
@@ -1069,8 +1069,8 @@ Table name: superheroes
       WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
 
 - [ ] All columns
-- [ ] Only those columns which are mention with “SELECT” clause
-- [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
+- [ ] Only those columns which are mention with "SELECT" clause
+- [x] Columns mention with "SELECT" clause and only those rows which contain 'HEAD TELLER' as a "title"
 - [ ] None of the mentioned
 
 #### Q112. Is there any error in the following MySQL statement?
@@ -1083,3 +1083,38 @@ Table name: superheroes
 - [ ] YES
 - [ ] DEPEND
 - [ ] None of the mentioned
+
+#### Q113. Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+
+- [ ] JSON columns cannot be normalized.
+- [x] JSON columns cannot be indexed directly.
+- [ ] JSON columns are inefficient for storing JSON documents.
+- [ ] JSON documents cannot be validated when stored in JSON columns.
+
+#### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [x] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`
+
+[Reference](https://www.w3schools.com/mysql/mysql_between.asp)
+
+#### Q115. Consider the set of relations given below and the SQL query that follows
+
+        Students : (Roll number, Name, Date of birth)
+        Courses: (Course number, Course name, instructor)
+        Grades: (Roll number, Course number, Grade)
+        SELECT DISTINCT Name
+        FROM Students, Courses, Grades
+        WHERE Students.Roll_number = Grades.Roll_number
+        AND Courses.Instructor =Sriram
+        AND Courses.Course_number = Grades.Course_number
+        AND Grades.Grade = A
+
+(Which of the following sets is computed by the above query?)
+
+- [ ] Names of Students who have got an A grade in all courses taught by Sriram
+- [ ] Names of Students who have got an A grade in all courses
+- [x] Names of Students who have got an A grade in at least one of the courses taught by Sriram
+- [ ] None of the above

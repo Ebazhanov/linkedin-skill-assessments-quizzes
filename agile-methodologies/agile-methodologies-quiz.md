@@ -79,7 +79,7 @@
 - [ ] The team demonstrates its completed work.
 - [x] The team reflects on how to improve its performance.
 - [ ] Items in the backlog may be reprioritized.
-- [ ] Stakeholders give feedback about the work completed.
+- [ ] Stakeholders ask questions about the completed and upcoming backlog items.
 
 #### Q12. What is not a technique used for splitting user stories?
 
@@ -216,7 +216,7 @@
 - [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### Q31. Which statement is true about the actor in a user story?
 
@@ -224,6 +224,8 @@
 - [ ] There must be multiple personas for each actor.
 - [x] The actor can be the system itself.
 - [ ] The system cannot be the actor.
+
+[Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s).
 
 #### Q32. Which statement is true about Agile?
 
@@ -242,9 +244,11 @@
 #### Q34. What is the name for the practice of going to see a process in use at the point of value delivery?
 
 - [ ] Six Sigma
-- [x] Gemba walk
+- [x] Gemba Walk
 - [ ] Total Quality Management
 - [ ] Kaizen
+
+[Reference](https://en.wikipedia.org/wiki/Gemba#Gemba_walk) The Gemba Walk is an opportunity for staff to stand back from their day-to-day tasks to walk the floor of their workplace to identify wasteful activities.
 
 #### Q35. When the team needs to make a decision, what is the best course of action?
 
@@ -330,12 +334,16 @@
 - [ ] It is a standard for interface design.
 - [x] It is a model for skill development and mastery.
 
+[Reference](https://en.wikipedia.org/wiki/Shuhari) Japanese martial art concept which describes the stages of learning to mastery.
+
 #### Q47. What does the Agile Manifesto indicate?
 
 - [x] Responding to change is more valuable than following a plan.
 - [ ] Documenting requirements up front is more valuable than at the end.
 - [ ] Following the plan is essential for not going over budget.
 - [ ] Contract negotiation should be used to settle disputes.
+
+[Refernce] (https://www.agilealliance.org/agile101/the-agile-manifesto/) Full Manifesto.
 
 #### Q48. What is the main benefit of a working agreement?
 
@@ -491,8 +499,8 @@
 
 - [ ] Understand them—try align personal motivations with the team's progress toward the project goals.
 - [ ] Nurture them-goals are the reason why people want to be at work.
-- [ ] Disregard them—personal views have no bearing on reaching the project goals.
-- [x] Leverage them—use personal goals encourage team members raise their performance levels.
+- [ ] Disregard them — personal views have no bearing on reaching the project goals.
+- [x] Leverage them — use personal goals encourage team members raise their performance levels.
 
 #### Q70. Which phrase best describes an Agile team?
 
@@ -507,6 +515,8 @@
 - [ ] Kano
 - [ ] WSJF
 - [x] Kaizen
+
+[Reference](https://pl.wikipedia.org/wiki/Kaizen) oznaczające japońską filozofię biznesową (sposób postępowania) ustawicznego polepszania, poprawiania procesu zarządzania i produkcji na wszystkich jego szczeblach, z uwzględnieniem m.in. technik biznesu "just-in-time".
 
 #### Q72. What does the Definition of Ready mean?
 
@@ -530,7 +540,7 @@
 
 - [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
 - [ ] It is the number of teams that a Team Facilitator can support concurrently.
-- [ ] It is an adjustment to velocity, used in Spring Planning, to account for reduced availability of team members during the upcoming sprint.
+- [ ] It means the team determines their avalaibility for the next sprint.
 - [x] It is the maximum number of stories that will be allowed in a sprint.
 
 #### Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
@@ -655,7 +665,7 @@
 - [ ] tend to be more resilient
 - [ ] are more afraid of failure
 
-#### Q91. How can you impove interaction between team members?
+#### Q91. How can you improve interaction between team members?
 
 - [x] Move people's workstations around in the team room to create new social possibilities.
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it.
@@ -669,7 +679,7 @@
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q93. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
+#### Q93. What is the name of the technique in which a story is broken down, input splits the data, and it results in a new output?
 
 - [x] input-output processing
 - [ ] ITIOO story format
@@ -685,7 +695,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] generalizing specialist
 - [ ] apprentice developer
 
-[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
@@ -721,7 +731,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] before the daily Scrum
 - [ ] before quarterly planning
 
-#### Q99. What is Empathy Map?
+#### Q99. What is an Empathy Map?
 
 - [ ] It is a team-building technique used to increase productivity.
 - [ ] It is a tool used by organizations for competitive intelligence.
@@ -738,13 +748,13 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
 
 - [ ] Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint
-- [ ] Ask them to slice the story to reflect the work done and the work to be done
+- [ ] Ask them to slice the story to reflect the work done and the work to be donef
 - [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
 - [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
 
 #### Q102. When planning a meeting, which action is most important?
 
-- [x] clariying the expected outcome
+- [x] clarifying the expected outcome
 - [ ] taking notes
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
@@ -753,7 +763,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 - [ ] Hold the meeting and update the person who could not attend later.
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
-- [x] Ask all meeting partecipants what they want to do about the one person's absence
+- [x] Ask all meeting participants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
 #### Q104. What is Open Space?
@@ -779,7 +789,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 [Reference](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
 
-#### Q107. How an you improve interaction between team members?
+#### Q107. How can you improve interaction between team members?
 
 - [ ] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
@@ -807,6 +817,8 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
+It's the same as Q81, just slightly differently phrased question.
+
 #### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
 
 - [ ] Hold the meeting and update the person who could not attend later.
@@ -828,11 +840,155 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q114. Which statement about the actor in a user story can be true?
+#### Q114. In Agile, which of the following options is a high priority?
 
-- [ ] There must be multiple personas for each actor.
-- [ ] The actor does not have to be a specified role in the solution.
-- [ ] The system cannot be the actor.
-- [x] The actor can be the system itself.
+- [ ] Comprehensive documentation
+- [ ] Processes and tools
+- [ ] Contract negotiation
+- [x] Working software
 
-[Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s).
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
+
+#### Q115. What types of environments work best for Agile principles?
+
+- [ ] It works great in static environments.
+- [x] It works great in dynamic environments.
+- [ ] It works great in customer environments.
+- [ ] Agile has been proven to not work in any good environment.
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
+
+#### Q116. What does being a Cross-Functional team mean?
+
+- [ ] That every team in the organization has a particular specialism
+- [ ] That each team member has their own specialism
+- [x] That all the skills necessary exist within the team
+- [ ] That teams can communicate effectively
+
+#### Q117. What is a PBI?
+
+- [ ] Product Before Increment
+- [ ] Project Billing Information
+- [ ] Productive Backlog Increment
+- [x] Product Backlog Item
+
+#### Q118. Which of the following scrum events is dedicated to process improvement?
+
+- [ ] The sprint planning
+- [ ] The daily scrum
+- [x] The sprint retrospective
+- [ ] The sprint review
+
+#### Q119. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
+
+- [x] 3 hours
+- [ ] 6 hours
+- [ ] 8 hours
+- [ ] 1 hour
+
+#### Q120. Which type of Kanban diagram shows the number of issues in each of the states?
+
+- [x] burn down chart
+- [ ] control chart
+- [ ] burn up chart
+- [ ] cumulative flow
+
+#### Q121. Which of the following statements about a Kanban control chart is false?
+
+- [ ] The light blue shaded area is the standard deviation.
+- [ ] The green dots are the issues themselves.
+- [x] The control chart works best when the tasks that you're tracking are of different sizes.
+- [ ] The blue line is the rolling average cycle time.
+
+#### Q122. What does EBM consider in Managerial Decisions?
+
+- [ ] Productivity and ethical concerns
+- [x] Circumstance and ethical concerns
+- [ ] Circumstances and financial concerns
+- [ ] Moral and ethical concerns
+
+#### Q123. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
+
+- [ ] When there is high complexity
+- [ ] When there is high certainty
+- [x] Regardless of complexity or certainty
+- [ ] When there is low certainty and complexity
+
+#### Q124. What is a DEEP product backlog?
+
+- [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
+- [ ] Detailed Adequately, Emergent, Estimated & Prioritized
+- [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
+- [x] Detailed Appropriately, Emergent, Estimated & Prioritized
+
+#### Q125. Which Jira feature provides an overview of multiple projects?
+
+- [x] roll-up boards
+- [ ] code integration
+- [ ] task automation
+- [ ] reporting
+
+#### Q126. Which of the following elements is not a pillar of Scrum?
+
+- [ ] adaptation
+- [ ] transparency
+- [x] sustainability
+- [ ] inspection
+
+#### Q127. What aspects of the product is the Product Owner responsible for?
+
+- [ ] Guiding the Development Team on the product
+- [ ] Managing and owning the backlog
+- [x] All of the choices are correct
+- [ ] The product itself
+
+#### Q128. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
+
+- [x] retrospective
+- [ ] review
+- [ ] reflection
+- [ ] sprint
+
+#### Q129. In the INVEST acronym for user stories, what does the "V" stand for?
+
+- [x] valuable
+- [ ] verifiable
+- [ ] veracity
+- [ ] voluminous
+
+#### Q130. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
+
+- [x] See challenges as opportunities
+- [ ] Point out the failures of others
+- [ ] Quit while you're ahed
+- [ ] Celebrate only when you succeed
+
+#### Q131. Which statement about the Agile Manifesto is true?
+
+- [ ] It was written via crowdsourcing and its authors are unknown
+- [ ] It was written in 2001 and is obsolete.
+- [x] It was written in response to documentation-heavy software development project practices.
+- [ ] It was first published as part of Jim Highsmith's doctoral thesis.
+
+[Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
+
+#### Q132. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
+
+- [ ] Be sure to mention the issue in the next Scrum
+- [x] Share the problem with your team to see if they can create a solution
+- [ ] Work around the issue until the last responsible moment to solve it
+- [ ] Check the Product Owner's schedule and book time for a meeting
+
+#### Q133. When is the best time to review the team's burndown chart?
+
+- [ ] after the daily stand-up
+- [x] before the Sprint Retrospective
+- [ ] before the Daily Scrum
+- [ ] before quarterly planning
+
+#### Q134. Which statement about the actor in a user story can be true?
+
+- [ ] The system cannot be the actor
+- [ ] There must be multiple personas for each actor
+- [x] The actor can be the system itself
+- [ ] The actor does not have to be a specified role in the solution

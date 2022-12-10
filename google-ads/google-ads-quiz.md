@@ -363,3 +363,39 @@
 - [ ] Keyword Planner
 
 [Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)
+
+#### Q51. You sell piano keyboards, but your ads also appear when people search for "computer keyboards". What should you do?
+
+- [ ] Add an exact match keyword as **\[piano\]**.
+- [ ] Add an exact match keyword as **\[computer\]**.
+- [x] Add a negative keyword for **computer**.
+- [ ] Add a negative keyword for **keyboards**.
+
+[Add negative keywords to campaigns](https://support.google.com/google-ads/answer/7102995)
+
+#### Q.52. You want to determine exactly what search terms triggered your ads to display. What do you do?
+
+- [ ] Review the attribution report.
+- [ ] Review the bidding report.
+- [ ] Review the search terms report.
+- [x] Review the keyword frequency report.
+
+[References](https://support.google.com/google-ads/answer/2472708?hl=en)
+
+#### Q.53. Which statement is true when structuring ad groups?
+
+- [ ] Adding more ads to an ad group will improve the likelihood of multiple ads appearing for a search query.
+- [x] Adding more ads to an ad group provides more chances for success in an auction.
+- [ ] Adding fewer ads to an ad group will improve the likelihood of an ad receiving a high-quality score.
+- [ ] Adding fewer ads to an ad group means higher bounce rates.
+
+[References](https://examroll.com/posts/google-ads-search-exam-answers/)
+
+#### Q.54. Patrick sells hats, and has added [womens hats] to his keyword list. Which search term will not trigger Patrick's ad to display?
+
+- [x] the women's hats
+- [ ] hat for women
+- [ ] women's hats
+- [ ] sewing womens hats
+
+[References](https://www.dynathemes.com/fiverr-upwork-google-adwords-sem-test-with-answers/)

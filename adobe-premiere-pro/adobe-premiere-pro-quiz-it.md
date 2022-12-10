@@ -66,7 +66,7 @@ E. Blur
 
 #### D9. Cosa potete fare per fare in modo che il livello forma regoli automaticamente le dimensioni al variare del livello testo?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - \[x] Selezionare l'opzione Maschera con forma.
 - \[ ] Selezionare Responsive Design e Aggiungi al livello testo.

@@ -340,7 +340,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] all of these answers
 - [ ] Select the **Show without animation** option.
 
-#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slideshow?
+#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slide show?
 
 - [ ] Record Slide Show
 - [ ] Rehearse Timings
@@ -518,7 +518,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q67. The picture on the left is the original image. The image on the right is smaller, but the flowers are the same size and part of the picture has been removed. What method was used to format this picture?
 
-![images](images/Q68.png)
+![images](images/Q68.png?raw=png)
 
 - [ ] changing the width and height with aspect ration locked
 - [ ] drapping a corner sizing handle
@@ -593,7 +593,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q76. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
 
-![Q79](images/Q79.png)
+![Q79](images/Q79.png?raw=png)
 
 - [ ] Delete the overflowing text.
 - [ ] Select **Stop Fitting Text to This Placeholder**.
@@ -609,7 +609,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q78. What do the labels Introduction and ProjectsByMonth indicate?
 
-![Q81](images/Q81.png)
+![Q81](images/Q81.png?raw=png)
 
 - [x] section names
 - [ ] layouts
@@ -729,7 +729,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 [Reference](https://bluevalleyk12.libguides.com/c.php?g=140667&p=921228#:~:text=In%20Normal%20view%2C%20click%20the,to%20set%20the%20timing%20for.)
 
-#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regarless of the recipients' platform or software applications?
+#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regardless of the recipients' platform or software applications?
 
 - [ ] PDF (.pdf)
 - [ ] PowerPoint Show (.ppsx)
@@ -757,9 +757,9 @@ D. Start When Clicked On
 - [ ] B and D
 - [x] A and B
 
-#### Q97. Your presentation has a slide on which the text appears scrambled, What happened?
+#### Q97. Your presentation has a slide on which the text appears scrambled. What happened?
 
-![Q97](images/Q97.png)
+![Q97](images/Q97.jpg)
 
 - [ ] The text direction has been changed to Vertical.
 - [ ] The text direction has been changed to Stacked.
@@ -781,3 +781,12 @@ D. Start When Clicked On
 - [ ] Right-click the logo (Windows) or select the logo (Mac), and then select Delete.
 - [ ] Insert a blank shape to mask the logo.
 - [ ] Remove the logo graphic from the Slide Master template.
+
+#### Q100. Many PowerPoint slide backgrounds use a color effect that is gradually shaded from top to bottom. What is this effect called?
+
+- [ ] pattern fill
+- [ ] solid fill
+- [ ] texture fill
+- [x] gradient fill
+
+[Reference](https://support.microsoft.com/en-us/topic/add-a-gradient-color-to-a-shape-11cf6392-723c-4be8-840a-b2dab4b2ba3e)

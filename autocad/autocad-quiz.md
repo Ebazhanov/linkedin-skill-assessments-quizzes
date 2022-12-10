@@ -312,7 +312,7 @@
 
 #### Q41. When working with objects in your drawings, you normally define their properties via their respective layers. However, you can define individual object properties with the Properties panel on the Home tab of the AutoCAD ribbon. Individual color and linetype can be defined there, along with what other typical object property?
 
-![q42](images/q42_autocad.png)
+![q42](images/q42_autocad.png?raw=png)
 
 - [ ] description
 - [x] plottable or not plottable
@@ -545,7 +545,7 @@
 
 #### Q74. When using the POLYGON command in AutoCAD, you can create an inscribed polygon and a circumscribed polygon. What other type of polygon is available?
 
-![q75](images/q75_autocad.png)
+![q75](images/q75_autocad.png?raw=png)
 
 - [ ] side polygon
 - [ ] polyline polygon
@@ -554,7 +554,7 @@
 
 #### Q75. When using blocks in a drawing, a selected block displays only one grip: the insertion point. How would you get a block to display all of its associated grips?
 
-![q76](images/q76_autocad.png)
+![q76](images/q76_autocad.png?raw=png)
 
 - [x] Change the GRIPBLOCK system variable to 1.
 - [ ] Select the block and change it in the Properties palette.
@@ -574,3 +574,24 @@
 - [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
 - [ ] Simply select them.
 - [x] Hold down Shift and select the four items.
+
+#### Q78. How can you define the angle at which a rectangle is placed in the Rectangle command (RECTANGLE)?
+
+- [x] Use the ROTATION option on the ribbon after you have selected the first point of the rectangle.
+- [ ] Use the ROTATION option in the submenu after you have placed the second point of the rectangle.
+- [ ] Use the ROTATION option in the submenu after you have placed the first point of the rectangle.
+- [ ] Use the ROTATION option in the Properties palette after you have selected the rectangle.
+
+#### Q79. Why would you use viewports?
+
+- [ ] To save specific views of a 2D model. Then even if you rotate or move that model, you can umped back to the saved view.
+- [ ] To save specific views of a 3D model. Then even if you rotate or move that model, you can jump back to the saved view.
+- [x] To display views of model space. You create, scale and place viewports in paper space on a layout.
+- [ ] To display views of paper space. You create, sclae and place viewports in model space.
+
+#### Q80. You have designed a shaft with a 1-inch diameter. Your specifications state that it is acceptable for this shaft diameter to be 0.05 inch smaller or 0.05 inch larger than 1 inch. Which tolerance method would you use to dimension this shaft?
+
+- [x] Engineering.
+- [ ] Deviation.
+- [ ] Fractional.
+- [ ] Symmetricl.

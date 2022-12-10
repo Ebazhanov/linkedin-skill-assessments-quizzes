@@ -34,7 +34,7 @@
 
 #### Q5. What are the icons highlighted below used for?
 
-![Google Analytics Icons](https://i.imgur.com/LZzFesL.png)
+![Google Analytics Icons](https://i.imgur.com/LZzFesL.png?raw=png)
 
 - [x] to change the way the data table is displayed
 - [ ] to adjust the date range
@@ -197,7 +197,9 @@
 - [ ] directly after the `<body>` tag
 - [ ] directly before the `</body>` tag
 
-#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL? `.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
+#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL?
+
+`.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
 
 - [ ] Configure calculated metrics.
 - [ ] Use a custom import.
@@ -206,7 +208,7 @@
 
 #### Q29. What is this report an example of?
 
-![Tree map](https://i.imgur.com/CJFjxxD.png)
+![Tree map](https://i.imgur.com/CJFjxxD.png?raw=png)
 
 - [ ] Cohort analysis
 - [ ] Funnel visualization

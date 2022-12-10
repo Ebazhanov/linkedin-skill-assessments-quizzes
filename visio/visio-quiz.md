@@ -87,19 +87,19 @@
 
 - [ ] A
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] B
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] C
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] D
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 #### Q10. Some Business Process Model Notation (BPMN) shapes are further annotated by attaching a callout shape. Which option is associated with a callout shape?
 
@@ -124,7 +124,7 @@
 
 #### Q13. What does the icon in the lower-right corner of the organizational shape indicate?
 
-![image](images/005.png)
+![image](images/005.png?raw=png)
 
 - [ ] Belt shape
 - [x] hidden subordinates
@@ -210,7 +210,7 @@
 
 #### Q25. Which of these options is available when you select some shapes and then click the arrow on the Position button in the Arrange group on the Home tab?
 
-![image](images/006.png)
+![image](images/006.png?raw=png)
 
 - [x] Auto Align
 - [ ] Auto Space
@@ -343,3 +343,17 @@
 
 **EXPLANATION** (Others do)
 [!reference](https://support.microsoft.com/en-us/office/clarify-the-structure-of-diagrams-by-using-containers-and-lists-4da621a4-3572-4c9b-9559-bbe4f6c9b08f)
+
+#### Q40. Which of the four levels of the diagram design hierarchy includes alternate colors and shape designs so you can add your own flair to a drawing while retaining the overall look?
+
+- [x] variant
+- [ ] effects
+- [ ] themes
+- [ ] quick styles
+
+#### Q41. When using AutoConnect, what determines the fours shapes that will appear in the AutoConnect mini toolbar?
+
+- [ ] They are the four **Quick Shapes** selected in the Visio options.
+- [ ] They are the four most recently used shapes
+- [ ] They are the four most frequently useed shapes
+- [x] They are the first four shapes in teh **Quick Shapes** section of the current stencil

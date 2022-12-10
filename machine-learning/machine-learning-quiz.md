@@ -365,7 +365,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 [Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
 
-#### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+#### Q49. Someone on your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
 - [ ] regression analysis
 - [ ] unsupervised learning
@@ -467,7 +467,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] There is not a lot of variance but there is a high bias.
 - [ ] Your model has low bias but high variance.
 
-  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
+`Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
 
 #### Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 
@@ -502,7 +502,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] 12%
 - [ ] 0.0008%
 
-![image](images/machine-learning_Q62.png)
+![image](images/machine-learning_Q62.png?raw=png)
 
 #### Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
@@ -534,7 +534,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q71. What is the correct option?
 
-![image](images/machine-learning_Q67.png)
+![image](images/machine-learning_Q67.png?raw=png)
 
 | no.    | Red              | Blue             | Green            |
 | ------ | ---------------- | ---------------- | ---------------- |
@@ -566,7 +566,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q74. The fit line and data in the figure exhibits which pattern?
 
-![image](images/machine-learning_Q70.png)
+![image](images/machine-learning_Q70.png?raw=png)
 
 - [ ] low bias, high variance
 - [ ] high bias, low variance
@@ -790,3 +790,66 @@ Which of these statements do you agree with?
 - [ ] L = || y - y^ ||22 + constant
 
 `//You are trying to minimize the binary cross entropy loss over the training set..`
+
+### Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?
+
+- [ ] reinforcement learning
+- [x] binary classification
+- [ ] K-nearest neighbor
+- [ ] unsupervised learning
+
+### Q103. The famous data scientist Andrew Ng has been quoted as saying, "Applied machine learning is basically feature engineering." What is feature engineering?
+
+- [ ] scraping new features from web data
+- [x] creating new variables by combining and modifying the original variables
+- [ ] designing innovative new user features to add to software
+- [ ] using deep learning to find features in the data
+
+### Q104. In the context of calculus, what is df/dx?
+
+- [ ] the prediction function
+- [x] the derivative of f of x
+- [ ] the derivative of x
+- [ ] equivalent to f divided by x
+
+### Q105. What is a well-designed/well-fitted model?
+
+- [ ] one that has been trained and tested with the same data
+- [x] one that has a high degree of accuracy and is able to accurately predict results
+- [ ] one that has been trained with labeled training data
+- [ ] one that has been trained with an exhaustive set of all conditions and permutations in the training data
+
+### Q106. **\_**-based collaborative filtering occurs when a person is recommended an item similar to an item they have purchased.
+
+- [ ] History
+- [x] Item
+- [ ] Similarity
+- [ ] Purchase
+
+### Q107. Fill in the blanks: Two multivariate imputer techniques are the **\_** imputer and the **\_** imputer.
+
+- [ ] supervised, unsupervised
+- [x] iterative, KNN
+- [ ] similarity, regressive
+- [ ] normalized, scaled
+
+### Q108. You are working on a regression model using the Keras library. What method on the Model class do you use to train the model?
+
+- [ ] predict
+- [ ] compile
+- [x] fit
+- [ ] get_weights
+
+### Q109. What is the goal of regularization in the K nearest neighbors algorithm?
+
+- [ ] normalizing the data points so they can be compared with each other
+- [ ] using a straight line model to make predictions based on training data
+- [ ] finding the slope of the line that represents the model
+- [x] making the decision boundaries more regular
+
+### Q110. If there is no trend between two variables x and y, we say that there is a **\_** connection between x and y.
+
+- [ ] linear
+- [ ] exponential
+- [ ] non-random
+- [x] random

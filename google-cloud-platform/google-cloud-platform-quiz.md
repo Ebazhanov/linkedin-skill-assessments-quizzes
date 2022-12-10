@@ -21,7 +21,7 @@
 - [ ] Local
 - [ ] Organizational
 
-`Note: Free trial doesn't have the organizations.`
+**Note:** Free trial doesn't have the organizations.
 
 #### Q4. What feature do you need to enable to support load balancing and autoscaling managed instance groups for Compute Engine?
 
@@ -43,6 +43,8 @@
 - [ ] Firebase and AI Platform jobs
 - [x] Firebase and ML Kit
 - [ ] Cloud Functions and AI Platform jobs
+
+[reference link](https://firebase.google.com/docs/ml-kit/android/use-custom-models)
 
 #### Q7. You need to deploy Redis with unique persistent identities and stable hostnames on GKE. What type of deployment object do you use?
 
@@ -75,9 +77,11 @@
 #### Q11. You need to execute a "lift and shift" move with as few steps as possible. Which items do you need to create to accomplish this task, listed in the correct order of creation?
 
 - [ ] Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
-- [ ] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
-- [x] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
+- [x] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
+- [ ] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
 - [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+
+[refernce link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
@@ -142,6 +146,8 @@
 - [ ] Speech API
 - [ ] AutoML Natural Language
 
+[reference link](https://cloud.google.com/dialogflow)
+
 #### Q21. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
 
 - [x] Stackdriver
@@ -153,7 +159,7 @@
 
 - [ ] Configure the clients to connect via the default cluster IP.
 - [ ] Configure an external name. Configure the clients to connect via the external name.
-- [x] Configure a node port. COnfigure the clients to connect via the node port.
+- [x] Configure a node port. Configure the clients to connect via the node port.
 - [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
 
 #### Q23. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
@@ -198,6 +204,8 @@
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level.
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level. Add client-side code to handle the requests.
 
+[reference link](https://cloud.google.com/storage/docs/cross-origin)
+
 #### Q29. For your application, you are building a CI/CD pipeline that logs information when a message is sent to a queue. Which services should you select?
 
 - [ ] Cloud Functions and Cloud Spanner
@@ -226,6 +234,8 @@
 - [ ] Configure routes.
 - [ ] Configure external IP addresses.
 
+[reference link](https://cloud.google.com/vpc/docs/firewalls)
+
 #### Q33. Which object is a container for GCP services instances?
 
 - [ ] group
@@ -249,7 +259,7 @@
 - [ ] folder
 - [ ] payment account
 
-[reference link](https://cloud.google.com/billing/docs/images/billing-project.png)
+[reference link](https://cloud.google.com/billing/docs/images/billing-project.png?raw=png)
 
 #### Q36. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
 
@@ -302,33 +312,40 @@
 #### Q42. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
 
 - [ ] A
-  ```
+
+```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a Compute Instance VM to be the client.
   4. Create a file on the mounted fileshare.
-  ```
+```
+
 - [ ] B
-  ```
+
+```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a file on the mounted file share.
   4. Create a Compute Instance VM to be the client.
-  ```
+```
+
 - [x] C
-  ```
+
+```
   1. Create a Compute Instance VM to be the client.
   2. Create a Filestore instance.
   3. Mount the file share from that instance on a client VM instance.
   4. Create a file on the mounted fileshare.
-  ```
+```
+
 - [ ] D
-  ```
+
+```
   1. Create a Compute Instance VM to be the client.
   2. Create a Cloud Filestore instance.
   3. Mount the fileshare from that instance on a client VM instance.
   4. Create a file on the mounted file share.
-  ```
+```
 
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
 
@@ -387,6 +404,8 @@
 - [ ] Google Kubernetes Engine.
 - [ ] Google Compute Engine.
 
+[reference link](https://cloud.google.com/appengine/docs)
+
 #### Q50. You have a set of exploratory queries that you want to run as inexpensively as possible in BigQuery. What should you do?
 
 - [ ] Set the job priority for each query to Batch and expect to see query results immediately.
@@ -412,14 +431,14 @@
 - [ ] multi-factor authentication
 - [ ] recovery password
 
-#### Q53. Which container(s) does Google Kubernetes Engine support?Which container(s) does Google Kubernetes Engine support?
+#### Q53. Which container(s) does Google Kubernetes Engine support?
 
 - [ ] Docker or Singularity
 - [ ] Docker, Singularity, or containerd
 - [ ] Singularity only
 - [x] Docker only
 
-#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?Cloud Genomics enables pipelines to run on top of which GCP service?
+#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?
 
 - [x] Cloud Dataflow
 - [ ] Google Kubernetes Engine
@@ -457,3 +476,133 @@
 - [ ] Google App Engine Standard
 - [ ] Google Kubernetes Engine Flexible
 - [ ] Google Kubernetes Engine Standard
+
+#### Q57. Which combination of Stackdriver services will alert you about errors generated by your applications and help you locate the root cause in the code?
+
+- [x] Google Cloud Platform, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure
+- [ ] Google Cloud Platform
+
+#### Q58. You are using Google Cloud Platform to host an Apache server and would like to enable an alert to notify you if the webserver becomes unresponsive. Which Google Cloud service and steps should you take to set up to set up this alert?
+
+- [ ] The size of the Stackdriver log entries being exported exceeds the maximum capacity of the BigQuery dataset.
+- [ ] The Cloud Data Transfer Service has not been enabled.
+- [x] Stackdriver Logging does not have permission to write to the BigQuery dataset.
+- [ ] There isn't a firewall rule allowing traffic between Stackdriver and BigQuery.
+
+#### Q59. If you have configured Stackdriver Logging to export logs to BigQuery, but logs entries are not getting exported to BigQuery, what is the most likely cause?
+
+- [ ] Monitoring, Trace, and Debugger
+- [ ] Monitoring and Error Reporting
+- [ ] Alerts and Debugger
+- [x] Debugger and Error Reporting
+
+#### Q60. You can use Stackdriver to monitor virtual machines on which cloud platforms?
+
+- [x] Use Cloud Monitoring and create an uptime check.
+- [ ] Use Cloud Monitoring and install the Monitoring Agent on the instance running the apache server.
+- [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
+- [ ] Use Cloud Profiler and create an alert.
+
+#### Q61. In Google Kubernetes Engine, "**\_**" is a term Kubernetes uses to represent pods and controllers.
+
+- [ ] masters
+- [ ] pools
+- [x] workloads
+- [ ] nodes
+
+#### Q62. In the command below, what is the purpose of the "--image" argument?
+
+```
+kubectl create deployment app --image=$ImageRepo:$Tag
+```
+
+- [ ] It tells Kubernetes what virtual machine image to use when launching new nodes.
+- [ ] It is used to create a disk image of a running Docker container for backups or to be used in another deployment.
+- [x] It tells the deployment controller which repository to check for a Docker image and what tag to use.
+- [ ] It tells the deployment controller which Linux OS type to use when creating pods.
+
+#### Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
+
+- [ ] One IP address per pod
+- [ ] Three IP addresses per pod
+- [ ] Four IP addresses per pod
+- [x] Two IP addresses per pod
+
+#### Q64. In Google Kubernetes Engine, **\_** are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
+
+- [x] pods
+- [ ] instances
+- [ ] sets
+- [ ] containers
+
+#### Q65. Which of the following statements is not a general security guideline for a Google Cloud Platform deployment pipeline?
+
+- [ ] Regularly audit any changes to your IAM policies.
+- [x] Integration steps should be able to deploy code.
+- [ ] Log everything.
+- [ ] Deployment steps should not be able to build code or access your code repository.
+
+#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) **\_**.
+
+- [ ] virtual machine
+- [ ] alert
+- [ ] log
+- [x] attestor
+
+#### Q67. Builders in Cloud Build are
+
+- [ ] part of Google's proprietary infrastructure
+- [ ] created from Managed Instance Templates
+- [x] containers with pre-loaded tools and runtimes
+- [ ] virtual machines with pre-loaded tools and runtimes
+
+#### Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
+
+- [x] It is pretty standard for developers and QA engineers to be allowed to create new clusters, but not allowed to deploy containers to certain existing clusters.
+- [ ] Each employee's access to Google Cloud resources should be based upon what they require to do their job.
+- [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
+- [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
+
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a **\_** to hold the key.
+
+- [ ] wallet
+- [x] keyring
+- [ ] policy
+- [ ] keychain
+
+#### Q70. David is the cloud admin for Blue Widget Corp. He has deployed a Linux VM called Linux01, and he needs to SSH to it from the console. Which command should David use to SSH to the VM?
+
+- [ ] gcloud ssh --project blue-widget-project --zone us-central1-a Linux01
+- [ ] gcloud compute ssh -project blue-widget-project -zone us-central1-a Linux01
+- [ ] gcloud connect ssh --project blue-widget-project --zone us-central1-a Linux01
+- [x] gcloud compute ssh --project blue-widget-project --zone us-central1-a Linux01
+
+#### Q71. Which option will allow you to review latency data from App Engine Apps?
+
+- [ ] App Engine Latency
+- [x] Stackdriver Trace
+- [ ] App Engine Data Viewer
+- [ ] Stackdriver Latency
+
+#### Q72. Regarding Stackdriver Debugger, which of the following locations are you not able to select your source code from?
+
+- [ ] Bitbucket repository
+- [x] Amazon S3
+- [ ] Local files
+- [ ] GitHub repository
+
+#### Q73. Google Cloud services maintain **\_** that record all activity and access to your GCP resources.
+
+- [ ] configuration files
+- [ ] maintenance scripts
+- [ ] analytics logs
+- [x] audit logs
+
+#### Q74. Which category of GCP audit log records every incident in which a user or service account is denied access to a resource?
+
+- [ ] System Event
+- [x] Policy Denied
+- [ ] Admin Activity
+- [ ] Data Access

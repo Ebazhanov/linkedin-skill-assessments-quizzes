@@ -604,7 +604,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 - [ ] `$('*').find('p')`
 - [ ] `$('p').length()`
 
-#### Q28. As with many areas of JavaScript, keeping track of the meaning of **this** is important and sometimes tricky. What does **this** mean at each of the two points in this custom plugin snippet?
+#### Q28. As with many areas of JavaScript, keeping track of the meaning of `this` is important and sometimes tricky. What does `this` mean at each of the two points in this custom plugin snippet?
 
 ```js
 $.fn.customPlugin = function () {
@@ -691,6 +691,8 @@ $('#main-menu').click(function (event) {
 - [x] `event.stopPropagation();`
 - [ ] `event.preventDefault();`
 - [ ] `event.stop();`
+
+[Difference between preventDefault, stopPropagation & return false](https://www.educative.io/answers/difference-between-preventdefault-stoppropagation-return-false)
 
 #### Q32. Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process?
 
@@ -1549,7 +1551,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] Select `$(document.body)` first, then use .filter with the custom extension.
 - [ ] Use the custom extension with `.has()`.
 - [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
-- [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+- [x] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
 
 #### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
 
@@ -1573,3 +1575,14 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] :nth-of-type, which can select elements that are the nth element of their type within their parent
 
 [Source: Selectors Level 4](https://drafts.csswg.org/selectors/)
+
+#### Q82. jQuery is quite large, and developers often do not use all of its functionality on a project. Beyond using the slim build of jQuery 3, how can you use some of jQuery, but not all?
+
+- [ ] None of these--the only viable options are the full build or slim build of jQuery.
+- [ ] Download the minified build from the JQuery CDN and strip out functions manually.
+- [x] Download the source code from GitHub and build a custom version that excludes the unnecessary modules.
+- [ ] Download the developer build from code.jquery.com and gzip it.
+
+[Source: jQuery GitHub repo](https://github.com/jquery/jquery#modules)
+
+**Explanation**: Special builds can be created that exclude subsets of jQuery functionality. This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.

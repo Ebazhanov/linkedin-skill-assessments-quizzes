@@ -20,7 +20,7 @@
 
 #### Q3. Dans l’image montrée, que savez-vous du style de paragraphe Body Text ?
 
-![Q3](images/Q3.jpg)
+![Q3](images/question_3.jpg)
 
 - \[x] Le texte sélectionné n’a pas été mis en forme à l’aide de la définition de style.
 - \[ ] Le texte sélectionné est en texte superposé en dehors des limites du bloc actif.
@@ -73,7 +73,7 @@
 
 #### Q10. Dans l’image montrée, le texte est sur un chemin. Vous souhaitez déplacer le texte plus loin vers la droite le long du tracé. Comment pouvez-vous y parvenir?
 
-![Q10](images/q10.png)
+![Q10](images/question_10.jpg)
 
 - \[ ] Faites glisser le carré bleu D.
 - \[ ] Faites glisser la poignée latérale B
@@ -110,7 +110,7 @@
 
 #### Q15. Quelle fonctionnalité utiliseriez-vous pour créer l’effet affiché, où les cercles groupés se fondent les uns avec les autres mais pas l’objet derrière eux ?
 
-![Q15](images/Q15.png)
+![Q15](images/question_15.jpg)
 
 - \[ ] Lumière globale
 - \[ ] le mode de fusion d’écran
@@ -119,7 +119,7 @@
 
 #### Q16. Dans l’image montrée, qu’indiquent les bords colorés du cadre ?
 
-![Q16](images/Q16.png)
+![Q16](images/question_16.jpg)
 
 - \[ ] sur quel calque se trouve chaque objet
 - \[ ] sur quelle page maître se trouve chaque objet
@@ -135,7 +135,7 @@
 
 #### Q18. Dans l’image montrée, que pouvez-vous déduire sur la façon dont ce document sera imprimé ?
 
-![Q18](images/Q18.png)
+![Q18](images/question_18.jpg)
 
 - \[ ] La page sera mise à l’échelle pour s’adapter au papier.
 - \[ ] Tous les calques de document seront visibles

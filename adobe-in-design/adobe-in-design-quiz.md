@@ -20,7 +20,7 @@
 
 #### Q3. In the image shown, what do you know about the Body Text paragraph style?
 
-![Q3](images/Q3.jpg)
+![Q3](images/question_3.jpg)
 
 - [x] The selected text was not formatted using the style definition.
 - [ ] The selected text is in overset text outside the boundaries of the current frame.
@@ -73,7 +73,7 @@
 
 #### Q10. In the image shown, the text is on a path. You want to move the text farther to the right along the path. How can you accomplish this?
 
-![Q10](images/q10.png)
+![Q10](images/question_10.jpg)
 
 - [ ] Drag the blue square D.
 - [ ] Drag the side handle B
@@ -110,7 +110,7 @@
 
 #### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
 
-![Q15](images/Q15.png)
+![Q15](images/question_15.jpg)
 
 - [ ] Global Light
 - [ ] the Screen blending mode
@@ -119,7 +119,7 @@
 
 #### Q16. In the image shown, what do the colored frame edges indicate?
 
-![Q16](images/Q16.png)
+![Q16](images/question_16.jpg)
 
 - [ ] which layer each object is on
 - [x] which master page each object is on
@@ -135,7 +135,7 @@
 
 #### Q18. In the image shown, what can you infer about how this document will print?
 
-![Q18](images/Q18.png)
+![Q18](images/question_18.jpg)
 
 - [ ] The page wil be scaled to fit the paper.
 - [x] All document layers will be visible

@@ -63,7 +63,7 @@
 - \[ ] riconciliazioni bancarie
 - \[ ] processo di approvazione
 
-\[fonte]'MT: i bank recons sono un controllo interno, che controlla per vedere se le cifre corrispondono. L'approvazione da parte di diversi livelli di autorità aiuta a prevenire transazioni non autorizzate, quindi è anche un controllo. anche i doveri di segregazione lo assicurano.
+\[fonte]`'MT: i bank recons sono un controllo interno, che controlla per vedere se le cifre corrispondono. L'approvazione da parte di diversi livelli di autorità aiuta a prevenire transazioni non autorizzate, quindi è anche un controllo. anche i doveri di segregazione lo assicurano.`
 
 #### D10. Quale approccio di bilancio richiede la giustificazione di tutte le spese?
 
@@ -124,7 +124,7 @@
 - \[ ] tutti gli incarichi di consulenza (sbagliati)
 
 [fonte](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
-'MT: qns duri, opzioni ambigue. Attest = convalida i dati di audit raccolti. La consulenza è meno regolamentare / restrittiva, = come aumentare le vendite di torte, rispetto all'audit / attestazione = perché hai segnalato più torte nel tuo frigorifero di quelle che abbiamo osservato. Le tasse sono grigie, di solito devono essere approvate dal comitato interno o le tasse divulgate, ecc., Ma ci sono delle eccezioni.
+`'MT: qns duri, opzioni ambigue. Attest = convalida i dati di audit raccolti. La consulenza è meno regolamentare / restrittiva, = come aumentare le vendite di torte, rispetto all'audit / attestazione = perché hai segnalato più torte nel tuo frigorifero di quelle che abbiamo osservato. Le tasse sono grigie, di solito devono essere approvate dal comitato interno o le tasse divulgate, ecc., Ma ci sono delle eccezioni.`
 
 #### D18. Un'adeguata separazione delle responsabilità funzionali richiede la separazione di
 
@@ -185,7 +185,8 @@
 - \[ ] La balanced scorecard misura, traccia e riporta un equilibrio di dati e metriche qualitative e finanziarie. (def vero)
 - \[x] La balanced scorecard garantisce che la redditività dell'organizzazione sia in linea con la remunerazione dei direttori e le aspettative sui dividendi.
 
-[fonte](http://www.managerialaccounting.org/Balanced%20Scorecard.htm) "MT: BSC si occupa di migliorare l'efficienza - raggiungere gli obiettivi e come misurarli quantitativamente o qualitativamente. Niente a che vedere con le modalità di compensazione»
+[fonte](http://www.managerialaccounting.org/Balanced%20Scorecard.htm)
+`"MT: BSC si occupa di migliorare l'efficienza - raggiungere gli obiettivi e come misurarli quantitativamente o qualitativamente. Niente a che vedere con le modalità di compensazione»`
 
 #### D25. Quale scelta non è una componente del controllo interno?
 
@@ -222,7 +223,7 @@
 - \[x] Attività di debito, passività creditizia
 - \[ ] Debit equity, attività di credito.
 
-\[fonte]'MT risposta - la sua attrezzatura di debito (attività), note di credito pagabili (passività). A +/- attività, necessità di dr/cr, l'inverso è vero per le passività. La voce del diario di lunga durata è: Prendi in prestito denaro - Contanti dr, Note Cr pagabili, quindi per l'acquisto di attrezzature - Attrezzatura Dr, Contanti Cr '
+\[fonte]`'MT risposta - la sua attrezzatura di debito (attività), note di credito pagabili (passività). A +/- attività, necessità di dr/cr, l'inverso è vero per le passività. La voce del diario di lunga durata è: Prendi in prestito denaro - Contanti dr, Note Cr pagabili, quindi per l'acquisto di attrezzature - Attrezzatura Dr, Contanti Cr '`
 
 #### D30. Quale sezione di una relazione finanziaria annuale descrive i metodi contabili della società?
 
@@ -249,4 +250,4 @@ Robinson: Regressions
 - \[ ] Controlli NSF ("fondi non sufficienti")
 - \[ ] modifiche al servizio
 
-\[fonte]'MT: deposito conto os una passività per la banca - la banca deve il denaro al depositante. banca riscuote una nota credito nei confronti del cliente significa ridurre la liquidità / depositi del cliente. Simile se NSF significa che il proprietario dell'assegno non ha fondi sufficienti per trasferire fondi nei depositi del cliente, quindi non vi è alcun cambiamento nei depositi.
+\[fonte]`'MT: deposito conto os una passività per la banca - la banca deve il denaro al depositante. banca riscuote una nota credito nei confronti del cliente significa ridurre la liquidità / depositi del cliente. Simile se NSF significa che il proprietario dell'assegno non ha fondi sufficienti per trasferire fondi nei depositi del cliente, quindi non vi è alcun cambiamento nei depositi.`

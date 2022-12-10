@@ -2,7 +2,7 @@
 
 #### D1. Qual è lo scopo del decoratore ViewChild in questa classe di componenti?
 
-```angularjs
+```ts
 @Component({
     ...
     template: '<p #bio></p>'
@@ -57,13 +57,13 @@ export class UserDetailsComponent {
 
 #### D5. Come è possibile utilizzare HttpClient per inviare una richiesta POST a un endpoint da una funzione addOrder in questo OrderService?
 
-```angularjs
+```ts
 export class OrderService {
-    constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
-    addOrder(order: Order) {
-      // Missing line
-    }
+  addOrder(order: Order) {
+    // Missing line
+  }
 }
 ```
 
@@ -85,7 +85,7 @@ export class OrderService {
 
 #### D7. Su quali elementi DOM corrisponderà questo selettore di metadati dei componenti?
 
-```angularjs
+```ts
 @Component({
     selector: 'app-user-card',
     . . .
@@ -103,7 +103,7 @@ export class OrderService {
 
 - \[ ]
 
-```html
+```ts
 <ul>
   <li [ngFor]="let productName of productNames">{{ productName }}</li>
 </ul>
@@ -111,7 +111,7 @@ export class OrderService {
 
 - \[ ]
 
-```html
+```ts
 <ul>
   <li ngFor="let productName of productNames">{{ productName }}</li>
 </ul>
@@ -119,7 +119,7 @@ export class OrderService {
 
 - \[x]
 
-```html
+```ts
 <ul>
   <li *ngFor="let productName of productNames">{{ productName }}</li>
 </ul>
@@ -127,7 +127,7 @@ export class OrderService {
 
 - \[ ]
 
-```html
+```ts
 <ul>
   <? for productName in productNames { ?>
   <li>{{ productName }}</li>
@@ -148,7 +148,7 @@ export class OrderService {
 
 #### D10. Con la classe di componenti seguente, quale sintassi del modello verrà utilizzata nel modello per visualizzare il valore del campo della classe title?
 
-```javascript
+```ts
 @Component({
   selector: 'app-title-card',
   template: '',
@@ -185,7 +185,7 @@ class TitleCardComponent {
 
 #### D13. A cosa serve il decoratore Output in questa classe di componenti?
 
-```javascript
+```ts
 @Component({
     selector: 'app-shopping-cart',
     . . .
@@ -263,7 +263,7 @@ export class ShoppingCartComponent {
 
 #### D17. In base al componente seguente, quale sintassi del modello verrà utilizzata per associare il campo titleText di TitleCardComponent alla proprietà title dell'elemento h1?
 
-```javascript
+```ts
 @Component({
   selector: 'app-title-card',
   template: '<h1 title="User Data"> {{titleText}}</h1>',
@@ -313,7 +313,7 @@ export class TitleCardComponent {
 
 #### D21. Cosa stanno facendo i decoratori HostListener e il decoratore HostBinding in questa direttiva?
 
-```javascript
+```ts
 @Directive({
   selector: '[appCallout]',
 })
@@ -370,7 +370,7 @@ export class CalloutDirective {
 
 #### D24. Qual è la differenza, se presente, della logica di codice risultante basata su queste due configurazioni del provider?
 
-```javascript
+```ts
 [{ provide: FormattedLogger, useClass: Logger }][{ provide: FormattedLogger, useExisting: Logger }];
 ```
 
@@ -385,12 +385,12 @@ export class CalloutDirective {
 
 #### D25. Qual è lo scopo della proprietà data (vista nell'esempio seguente) in una configurazione di route?
 
-```javascript
-   {
-       path: 'customers',
-       component: CustomerListComponent,
-       data: { accountSection: true }
-   }
+```ts
+  {
+      path: 'customers',
+      component: CustomerListComponent,
+      data: { accountSection: true }
+  }
 ```
 
 - \[ ] un mapping chiave/valore per l'impostazione di valori @Input sull'istanza del componente instradato
@@ -404,7 +404,7 @@ export class CalloutDirective {
 
 #### D26. Come funziona il built-in `ngIf` direttiva strutturale modificare il DOM renderizzato in base a questa sintassi del modello?
 
-```javascript
+```ts
 @Component({
   selector: 'app-product',
   template: '<div *ngIf="product">{{ product.name }}</div>',
@@ -423,7 +423,7 @@ export class ProductComponent {
 
 #### D27. Che cosa fa questo codice?
 
-```javascript
+```ts
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
@@ -443,7 +443,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 
 #### D28. Quale scelta descrive meglio ciò che il _risolvere_ in questa configurazione di route?
 
-```javascript
+```ts
 {
    path: ':id',
    component: UserComponent,
@@ -462,7 +462,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 
 #### D29. Qual è lo scopo del decoratore ContentChildren in questa classe di componenti?
 
-```javascript
+```ts
 @Component({
  . . .
  template: '<ng-content></ng-content›'
@@ -490,7 +490,7 @@ export class TabsListComponent {
 
 #### D31. Qual è lo scopo del `fixture.detectChanges()` chiamare in questo unit test?
 
-```javascript
+```ts
 TestBed.configureTestingModule({
   declarations: [UserCardComponent],
 });
@@ -512,12 +512,12 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 #### D32. Che aspetto avrà il segmento url in base alla seguente chiamata al `Router.navigate` quando goToUser viene passato il valore 15?
 
-```javascript
+```ts
 export class ToolsComponent {
- constructor (private router: Router) { }
- goToUser (id: number) {
-   this.router.navigate(['user', id]);
- }
+  constructor(private router: Router) {}
+  goToUser(id: number) {
+    this.router.navigate(['user', id]);
+  }
 }
 ```
 
@@ -537,7 +537,7 @@ export class ToolsComponent {
 
 #### D34. Cosa sta facendo il decoratore HostBinding in questa direttiva?
 
-```javascript
+```ts
 @Directive({
   selector: ' [appHighlight] ',
 })
@@ -571,33 +571,33 @@ export class HighlightDirective {
 
 - \[ ]
 
-```javascript
-    <span *ngIf="username.minLength.invalid"›
-        Username length is not valid
-    </span>
+```ts
+  <span *ngIf="username.minLength.invalid"›
+      Username length is not valid
+  </span>
 ```
 
 - \[ ]
 
-```javascript
+```ts
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
 - \[ ]
 
-```javascript
-    <span *ngIf="form.get('username').getError('minLength') as minLengthError">
-      Username must be at least {{ minLengthError.requiredLength }} characters.
-    </span>
+```ts
+  <span *ngIf="form.get('username').getError('minLength') as minLengthError">
+    Username must be at least {{ minLengthError.requiredLength }} characters.
+  </span>
 ```
 
 - \[x]
 
-```javascript
-<input type="text" formControlName="username" #userName="ngModer">
-    <span *ngIf="userName.errors.minlength"›
-      Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
-    </span>
+```ts
+  <input type="text" formControlName="username" #userName="ngModer">
+  <span *ngIf="userName.errors.minlength"›
+    Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
+  </span>
 ```
 
 [Codice](https://codecraft.tv/courses/angular/forms/template-driven/)
@@ -613,7 +613,7 @@ export class HighlightDirective {
 
 #### D38. Con la seguente configurazione di TestBed, cosa è possibile utilizzare per accedere al DOM renderizzato per UserCardComponent?
 
-```javascript
+```ts
 TestBed.configureTestingModule({
   declarations: [UserCardComponent],
 });
@@ -631,7 +631,7 @@ let fixture = TestBed.createComponent(UserCardComponent);
 
 #### D39. Dati questi due componenti, cosa verrà renderizzato al DOM in base all'utilizzo del markup?
 
-```javascript
+```ts
 @Component({
  selector: 'app-card',
  template: '<h1>Data Card</h1><ng-content></ng-content>'
@@ -650,7 +650,7 @@ export class BioComponent { }
 
 - \[x]
 
-```javascript
+```ts
  <app-card>
   <h1>Data Card</hl>
   <app-bio>
@@ -661,7 +661,7 @@ export class BioComponent { }
 
 - \[ ]
 
-```javascript
+```ts
 <h1>Data Card</h1>
  <app-bio>
   Been around for four years.
@@ -670,7 +670,7 @@ export class BioComponent { }
 
 - \[ ]
 
-```javascript
+```ts
 <app-card>
   <h1>Data Card</hl>
   <ng-content></ng-content>
@@ -683,7 +683,7 @@ export class BioComponent { }
 
 - \[ ]
 
-```javascript
+```ts
 <app-card>
   <h1>Data Card</hl>
 </app-card>
@@ -691,7 +691,7 @@ export class BioComponent { }
 
 #### D40. Dato il componente app-title-card nel codice seguente, quale DOM eseguirà il rendering del componente app-user-card?
 
-```javascript
+```ts
 @Component({
    selector: 'app-user-card',
    template: '<app-title-card></app-title-card><p>Jenny Smith</p>'
@@ -708,7 +708,7 @@ export class BioComponent { }
 
 - \[x]
 
-```javascript
+```ts
 <app-user-card>
   <app-title-card>
     <h1>User Data</h1>
@@ -719,14 +719,14 @@ export class BioComponent { }
 
 - \[ ]
 
-```javascript
+```ts
 <h1>User Data</h1>
 <p>Jenny Smith<p>
 ```
 
 - \[ ]
 
-```javascript
+```ts
 <app-user-card>
   <app-title-card></app-title-card>
 </app-user-card>
@@ -734,7 +734,7 @@ export class BioComponent { }
 
 - \[ ]
 
-```javascript
+```ts
 <div app-user-card>
   <h1 app-title-card>User Data</h1>
   <p>Jenny Smith</p>
@@ -743,25 +743,25 @@ export class BioComponent { }
 
 #### D41. Scegli il codice corrispondente per la registrazione del provider personalizzato che il decoratore @Inject () sta cercando:
 
-```javascript
+```ts
 constructor(@Inject('Logger') private logger) { }
 ```
 
 - \[ ]
 
-```javascript
+```ts
 providers: [Logger];
 ```
 
 - \[x]
 
-```javascript
+```ts
 providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
 - \[ ]
 
-```javascript
+```ts
 @Injectable({
     providedln: 'root'
 })
@@ -769,7 +769,7 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 
 - \[ ]
 
-```javascript
+```ts
 providers: [{ provide: 'Logger' }];
 ```
 
@@ -781,7 +781,7 @@ providers: [{ provide: 'Logger' }];
 
 #### D42. Quale scelta descrive meglio il seguente utilizzo del metodo HttpClient.get nel metodo della classe getsettings?
 
-```javascript
+```ts
 export class SettingsService {
     constructor(private httpClient: HttpClient) { }
     ...
@@ -813,7 +813,7 @@ getSettings()
 
 #### D44. Quale affermazione descrive meglio questo utilizzo del TestBed?
 
-```javascript
+```ts
 const spy = jasmine.createSpyObj('DataService', ['getUsersFromApi']);
 TestBed.configureTestingModule({
   providers: [UserService, { provide: DataService, useValue: spy }],
@@ -839,15 +839,17 @@ const userService = TestBed.get(UserService);
 
 #### D46. Cosa si potrebbe aggiungere a questa classe di direttiva per consentire di impostare la lunghezza del troncato durante l'utilizzo della direttiva nel markup?
 
-    @Directive({
-        selector: '[appTruncate]'
-    })
-    export class TruncateDirective {
-        . . .
-    }
+```ts
+  @Directive({
+      selector: '[appTruncate]'
+  })
+  export class TruncateDirective {
+      . . .
+  }
 
-    // example of desired usage:
-    <p [appTruncate]="10">Some very long text here</p>
+  // example of desired usage:
+  <p [appTruncate]="10">Some very long text here</p>
+```
 
 - \[x] `@Input() appTruncate: number;`
 - \[ ] `@Output() appTruncate;`
@@ -860,26 +862,28 @@ const userService = TestBed.get(UserService);
 
 #### D47. Come è possibile passare i parametri di query a questo `HttpClient.get` richiesta?
 
-    export class OrderService {
-        constructor(private httpClient: HttpClient) { }
+```ts
+export class OrderService {
+  constructor(private httpClient: HttpClient) {}
 
-        getOrdersByYear(year: number): Observable<Order[]> {
-          return this.httpClient.get<Order[]>(this.ordersUrl);
-        }
-    }
+  getOrdersByYear(year: number): Observable<Order[]> {
+    return this.httpClient.get<Order[]>(this.ordersUrl);
+  }
+}
+```
 
 - \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
 - \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
 - \[x]
 
-<!---->
-
-    const options = {params: new HttpParams().set('year', year) };
-    return this.httpClient.get<Order[]>(this.ordersUrl, options);
+```ts
+const options = { params: new HttpParams().set('year', year) };
+return this.httpClient.get<Order[]>(this.ordersUrl, options);
+```
 
 - \[ ]
 
-```angularjs
+```ts
 getOrdersByYear(year: number): Observable<Order[]> {
     return this.httpClient.addParam('year', year).get<Order[]>(this.ordersUrl, year);
 }
@@ -891,6 +895,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D48. Supponendo il `DataService` è stato registrato nei provider per l'applicazione, quale risposta descrive meglio cosa succede in base al costruttore di questo componente?
 
+```ts
     @Component({
         ...
     })
@@ -898,6 +903,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
         constructor(private dataService: DataService) {}
         ...
     }
+```
 
 - \[ ] Dichiara che il `OrderHistoryComponent` avrà la propria versione di un `DataService` e che non dovrebbe mai utilizzare istanze esistenti. Le `DataService` dovrebbe essere istanziato all'interno della classe come campo privato affinché questo codice sia completo e funzionante.
 - \[x] Quando Angular crea una nuova istanza del `OrderHistoryComponent`, l'iniettore fornirà un'istanza di un `DataService` al primo argomento del costruttore del componente. Il costruttore `dataService` verrà utilizzato per impostare un campo di istanza privata con lo stesso nome sull'istanza.
@@ -910,7 +916,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D49. Completare questo markup utilizzando il comando `ngIf` direttiva per implementare un altro caso che visualizzerà il testo "L'utente non è attivo":
 
-```angular2html
+```ts
 <div *ngIf="userIsActive; else inactive">
   Currently active!
 </div>
@@ -918,15 +924,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 - \[ ]
 
-```angular2html
-<div #inactive>
-  User is not active.
-</div>
+```ts
+<div #inactive>User is not active.</div>
 ```
 
 - \[ ]
 
-```angular2html
+```ts
 <div *ngIf="inactive">
   User is not active.
 </div>
@@ -934,7 +938,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 - \[ ]
 
-```angular2html
+```ts
 <ng-template #else="inactive">
   <div>User is not active.</div>
 </ng-template>
@@ -942,7 +946,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 - \[x]
 
-```angular2html
+```ts
 <ng-template #inactive>
   <div>User is not active.</div>
 </ng-template>
@@ -954,56 +958,58 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 - \[ ]
 
-<!---->
-
-    {
-        path: 'users',
-        lazy: './users/users.module#UsersModule'
-    }
+```
+  {
+      path: 'users',
+      lazy: './users/users.module#UsersModule'
+  }
+```
 
 - \[x]
 
-<!---->
-
-    {
-        path: 'users',
-        loadChildren: () => import('./users/users.module').then(m => m.UserModule)
-    }
-
-- \[ ]
-
-<!---->
-
-    {
-        path: 'users',
-        loadChildren: './users/users.module#UsersModule'
-    }
+```
+{
+    path: 'users',
+    loadChildren: () => import('./users/users.module').then(m => m.UserModule)
+}
+```
 
 - \[ ]
 
-<!---->
+```
+{
+    path: 'users',
+    loadChildren: './users/users.module#UsersModule'
+}
+```
 
-    {
-        path: 'users',
-        module: UsersModule
-    }
+- \[ ]
+
+```
+{
+    path: 'users',
+    module: UsersModule
+}
+```
 
 [Angular.io - Moduli di caricamento pigro](https://angular.io/guide/lazy-loading-ngmodules)
 
 #### D51. Descrivere come viene impostata e configurata la convalida in questo esempio di moduli reattivi:
 
-    export class UserFormControl implements OnInit {
-        ...
-        ngOnInit() {
-            this.form = this.formBuilder.group({
-                username: this.formBuilder.control('',
-                    [Validators.required, Validators.minLength(5), this.unique]),
-            )};
-        }
-        unique(control: FormControl) {
-            return control.value !== 'admin' ? null: {notUnique: true};
-        }
+```ts
+export class UserFormControl implements OnInit {
+    ...
+    ngOnInit() {
+        this.form = this.formBuilder.group({
+            username: this.formBuilder.control('',
+                [Validators.required, Validators.minLength(5), this.unique]),
+        )};
     }
+    unique(control: FormControl) {
+        return control.value !== 'admin' ? null: {notUnique: true};
+    }
+}
+```
 
 - \[ ] Il `FormControl` per `username` viene configurato per escludere tre validatori dai validatori che è consentito utilizzare.
 - \[ ] Il `FormControl` per `username` si sta configurando per consentire l'utilizzo di tre possibili validatori: `required, maxLength`e uno personalizzato denominato `unique`. Per abilitarli `validators`, una direttiva di convalida dovrebbe essere inserita nei campi modulo nel markup.
@@ -1016,10 +1022,12 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D52. Cosa fa il decoratore iniettabile in questa classe di servizio?
 
-    @Injectable({
-        providedIn: 'root'
-    )}
-    export class DataService { }
+```ts
+@Injectable({
+    providedIn: 'root'
+)}
+export class DataService { }
+```
 
 - \[ ] Registra un provider per il servizio che è disponibile solo a livello di modulo root, non per eventuali moduli figlio.
 - \[x] Registra un provider per il servizio nell'iniettore dell'applicazione radice, rendendo disponibile una singola istanza di esso in tutta l'applicazione.
@@ -1030,11 +1038,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D53. Descrivi l'utilizzo di questo codice
 
-    export interface AppSettings {
-    	title: string;
-    	version: number;
-    }
-    export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
+```ts
+export interface AppSettings {
+  title: string;
+  version: number;
+}
+export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
+```
 
 - \[ ] InjectionToken aggiunge un'istanza di AppSettings al provider root tramite la chiamata del costruttore InjectionToken, rendendola automaticamente disponibile a tutti i NgModules, servizi e componenti in tutta l'applicazione Angular senza la necessità di iniettarla da nessuna parte.
 - \[x] InjectionToken viene utilizzato per creare un token provider per una dipendenza non di classe. Un valore letterale Object può essere provider come valore per il tipo di provider di dipendenza APP_SETTINGS che può quindi essere iniettato in componenti, servizi, ecc..
@@ -1043,11 +1053,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D54. Per l'esempio di moduli basati su modello seguente, quale argomento può essere passato al metodo di invio nell'evento click per inviare i dati per il modulo?
 
-    <form #form="ngForm">
-    	<input type="text" ngModel="firstName">
-    	<input type="text" ngModel="lastName">
-    	<button (click)="submit()">Save</button>
-    </form>
+```html
+<form #form="ngForm">
+  <input type="text" ngModel="firstName" />
+  <input type="text" ngModel="lastName" />
+  <button (click)="submit()">Save</button>
+</form>
+```
 
 - \[x] submit(form.value)
 - \[ ] invia($event)
@@ -1056,12 +1068,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D55. Qual è lo scopo della configurazione della proprietà prelodingStrategy in questo codice router?
 
-    RouterModule.forRoot (
-    	...
-    	{
-    	preloadingStrategy: PreloadAllModules
-    	}
-    )
+```ts
+RouterModule.forRoot(
+  ...{
+    preloadingStrategy: PreloadAllModules,
+  },
+);
+```
 
 - \[ ] Abilita la possibilità di contrassegnare i singoli percorsi per il precaricamento.
 - \[ ] Precarica tutte le dipendenze per le route, creando istanze di servizi al primo avvio dell'app
@@ -1155,7 +1168,7 @@ export class TruncatePipe implements PipeTransform {
 
 #### D62. Come è possibile riscrivere questo markup in modo che il contenitore div non sia necessario nel rendering DOM finale
 
-```javascript
+```ts
 <div *ngIf="location">
 	<h1>{{ location.name }}</h1>
 	<p>{{ location.description }}</p>
@@ -1164,7 +1177,7 @@ export class TruncatePipe implements PipeTransform {
 
 - \[ ]
 
-```javascript
+```ts
 <div *ngIf="location">
 	<h1>{{ location.name }}</h1>
 	<p>{{ location.description }}</p>
@@ -1173,7 +1186,7 @@ export class TruncatePipe implements PipeTransform {
 
 - \[ ]
 
-```javascript
+```ts
 <ng-template *ngIf="location">
 	<h1>{{ location.name }}</h1>
 	<p>{{ location.description }}</p>
@@ -1182,7 +1195,7 @@ export class TruncatePipe implements PipeTransform {
 
 - \[ ]
 
-```javascript
+```ts
 <div *ngIf="location" [display]=" ' hidden' ">
 	<h1>{{ location.name }}</h1>
 	<p>{{ location.description }}</p>
@@ -1191,7 +1204,7 @@ export class TruncatePipe implements PipeTransform {
 
 - \[x]
 
-```javascript
+```ts
 <ng-container *ngIf="location">
 	<h1>{{ location.name }}</h1>
 	<p>{{ location.description }}</p>
@@ -1202,7 +1215,7 @@ export class TruncatePipe implements PipeTransform {
 
 #### D63. Descrivi l'utilizzo di questo codice:
 
-```javascript
+```ts
 export interface AppSettings {
   title: string;
   version: number;
@@ -1236,7 +1249,7 @@ export interface AppSettings {
 
 #### D66. A cosa serve la proprietà outlet in questo oggetto definizione router?
 
-```javascript
+```ts
 {
 	path: 'document',
 	component: DocumentComponent,

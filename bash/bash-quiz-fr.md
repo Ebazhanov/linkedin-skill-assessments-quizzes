@@ -105,7 +105,7 @@ mysql < file.sql > file.txt
 - \[ ] la sortie d’erreur de la commande MySQL
 - \[x] la sortie sans erreur de la commande MySQL
 
-Remarque: vérifiez la question ci-dessous pour une variante.
+**Remarque:** vérifiez la question ci-dessous pour une variante.
 
 #### Q11. Quelle sera la différence entre la sortie à l’écran et le contenu de la sortie.txt
 
@@ -118,7 +118,7 @@ mysql < file.sql > out.txt
 - \[ ] La sortie à l’écran sera identique à out.txt plus les numéros de ligne.
 - \[ ] Le fichier out.txt contiendra STDERR et STDOUT ira à l’écran.
 
-Remarque: vérifiez la question ci-dessus pour une variante.
+**Remarque:** vérifiez la question ci-dessus pour une variante.
 
 #### Q12. Comment le SUID ou le setuid affecte-t-il les commandes exécutables ?
 
@@ -320,12 +320,12 @@ echo ${!fname}
 
 #### Q31. Quelle sera la sortie de ce script ?
 
-![question](images/Q30/question.png)
+![question](images/Q30/question.png?raw=png)
 
-- \[ ] `A` ![A](images/Q30/A.png)
-- \[ ] `B` ![B](images/Q30/B.png)
-- \[x] `C` ![C](images/Q30/C.png)
-- \[ ] `D` ![D](images/Q30/D.png)
+- \[ ] `A` ![A](images/Q30/A.png?raw=png)
+- \[ ] `B` ![B](images/Q30/B.png?raw=png)
+- \[x] `C` ![C](images/Q30/C.png?raw=png)
+- \[ ] `D` ![D](images/Q30/D.png?raw=png)
 
 Voici une version textuelle de Q.30 :
 
@@ -747,7 +747,7 @@ fi
 
 #### Q58. Quel est le résultat de ce script ?
 
-![question](images/Q60/question.png)
+![question](images/Q60/question.png?raw=png)
 
 - \[ ] Il supprime le répertoire 'foo' et les fichiers qu’il contient.
 - \[ ] Il supprime tous les fichiers à l’exception de ceux du répertoire actuel.

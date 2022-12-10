@@ -736,11 +736,11 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] single
 - [ ] process
 
-#### Q88. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
+#### Q88. What tool should you use to replace a physical volume in LVM?
 
-- [ ] cpcp
-- [ ] pvmovepvmove
-- [ ] tartar
+- [ ] cp
+- [ ] pvmove
+- [ ] tar
 - [ ] lvcopy
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
@@ -770,3 +770,138 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] `$*`
 
 [reference:](https://www.globalguideline.com/interview_questions/Answer.php?a=Which_variable_contains_last_background_job_process_ida_b_c_d_)
+
+#### Q92. Which feature does LVM2 included in most distributions not support?
+
+- [ ] volume mirroring
+- [x] volume striping
+- [ ] increasing LV size while mounted
+- [ ] reducing LV size while mounted
+
+#### Q93. Which improvements do access control lists (ACLs) have over standard Linux permissions?
+
+- [x] ACLs allow permissions to be set for more than one user or group on a file or directory.
+- [ ] ACLs provide mandatory access control (MAC) functionality through SELinux for files and directories.
+- [ ] ACLs allow a file to be owned by more than one user and group.
+- [ ] ACLs provide additional flags such as append-only and immutable.
+
+#### Q94. What is a maximum length for a filename under Linux?
+
+- [ ] 256 bytes
+- [ ] 1084 bytes
+- [x] 255 bytes
+- [ ] 1023 bytes
+
+#### Q95. Which command do you use to rename a file in Linux?
+
+- [x] mv
+- [ ] rn
+- [ ] rename
+- [ ] ren
+
+#### Q96. Which file is backup file of /etc/passwd ?
+
+- [x] /etc/passwd-
+- [ ] /etc/passwd
+- [ ] /etc/paaswd.
+- [ ] We can not recover
+
+#### Q97. Which Vim command writes your changes to the currently open file and quits the Vim editor?
+
+- [ ] :q!
+- [x] :wq
+- [ ] :sq
+- [ ] :w
+
+#### Q98. Just like IP addresses identify hosts on a network, **\_** identify the services on a host.
+
+- [ ] DHCPs
+- [ ] subnet masks
+- [x] ports
+- [ ] broadcast addresses
+
+#### Q99. Which command shows the free disk space on one or more Linux filesystems?
+
+- [ ] ls
+- [ ] cd
+- [ ] du
+- [x] df
+
+#### Q100. In Linux, the Epoch is the number of seconds that have elapsed since January 1st, **\_**.
+
+- [ ] 1950
+- [ ] 1965
+- [ ] 1960
+- [x] 1970
+
+#### Q101. In which Linux shell script positional parameter is the script itself stored?
+
+- [ ] $2
+- [ ] $1
+- [x] $0
+- [ ] $9
+
+#### Q102. VirtualBox provides **\_**, which are installed on guests and allow the guest operating system to access shared folders on the host system, share the clipboard, and some other similar actions.
+
+- [ ] projects
+- [ ] guest configurations
+- [ ] SSHs
+- [x] guest additions
+
+#### Q103. Given an IP address of 199.83.131.0 and a subnet mask of 255.255.255.0, what is the broadcast address?
+
+- [ ] 199.83.131.1
+- [ ] 10 Downing Street
+- [ ] 199.83.131.0
+- [x] 199.83.131.255
+
+#### Q104. Which Linux command shows a list of processes associated with the current user and the current terminal?
+
+- [x] ps
+- [ ] ls
+- [ ] pidof
+- [ ] ps -e
+
+#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the **\_** command for the while loop condition.
+
+- [ ] return
+- [ ] continue
+- [x] true
+- [ ] always
+
+#### Q106. In Linux, which option is used with the uname command to print the processor architecture name?
+
+- [x] -p
+- [ ] -arch
+- [ ] -ps
+- [ ] -pname
+
+#### Q107. Which of these do NOT constitute as a default part of the email system of Red Hat Linux?
+
+- [ ] The MTA
+- [x] Pine
+- [ ] Procmail
+- [ ] The MUA
+
+#### Q108. In BASH parsing, which expansion happens first?
+
+- [x] brace expansion
+- [ ] variable expansion
+- [ ] filename expansion (globbing)
+- [ ] word splitting
+
+[Reference](https://stackoverflow.com/questions/54160869/in-what-order-does-bash-parser-escape-characters-and-split-words-tokens-within-c#:~:text=Expansions%20are%20performed%2C%20in%20order,Tilde%20expansion%2C%20e.g.%20~root%20.)
+
+#### Q109. When pattern matching using a glob or regular expression, how many characters does a character set match?
+
+- [x] one
+- [ ] any number of characters
+- [ ] zero or one
+- [ ] one or more
+
+#### Q110. Why would you not use the `mdadm --assemble` subcommand when creating a new RAID5 array?
+
+- [ ] `assemble` builds only arrays of drives that do not have RAID metadata on them.
+- [x] `assemble` is used to build existing RAID arrays.
+- [ ] `assemble` is a synonym for `create`.
+- [ ] `assemble` is used to build new RAID arrays.

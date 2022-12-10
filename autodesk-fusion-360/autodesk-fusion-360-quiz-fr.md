@@ -23,7 +23,7 @@
 
 #### Q4. Combien de trous ont été utilisés dans la fabrication de cet objet?
 
-![image](https://user-images.githubusercontent.com/31204774/130909206-ca109121-ea9b-451c-9099-57cb7724e5b8.png)
+![image](images/question_4.png?raw=true)
 
 - \[x] 1
 - \[ ] 2
@@ -198,7 +198,7 @@
 
 #### Q28. Combien d’esquisses sont nécessaires pour créer cet objet ?
 
-![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
+![image](images/question_28.png?raw=png)
 
 - \[x] Deux
 - \[ ] Trois

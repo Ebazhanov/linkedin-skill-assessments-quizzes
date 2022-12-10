@@ -65,22 +65,22 @@
 
 #### Q10. What color is the paragraph nested within the div?
 
-```<html>
+```html
 <head>
-        <style>
-                body { color: black; }
+    <style>
+        body { color: black; }
 
-                p { color: blue; }
+        p { color: blue; }
 
-                div { color: green; }
+        div { color: green; }
 
-                p { color: red; }
-        </style>
+        p { color: red; }
+    </style>
 </head>
 <body>
-        <div>
-                <p>This is a paragraph inside a div.</p>
-        </div>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
 </body>
 </html>
 ```
@@ -90,7 +90,9 @@
 - [x] red
 - [ ] green
 
-#### Q11. Theme developers can take advantage of the Customizer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
+#### Q11. Theme developers can take advantage of the
+
+izer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
 
 - [ ] widgets, containers, sections, settings
 - [ ] containers, hooks, settings, styles
@@ -171,33 +173,33 @@
 
 - [ ] .
 
-```
-$.ready(function() {
-// do stuff
+```js
+$.ready(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
-```
-(function($) {
-// do stuff
-})( jQuery );
+```js
+(function ($) {
+  // do stuff
+})(jQuery);
 ```
 
 - [x] .
 
-```
-$(function() {
-// do stuff
+```js
+$(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
-```
-jQuery(function($) {
-// do stuff
+```js
+jQuery(function ($) {
+  // do stuff
 });
 ```
 
@@ -288,10 +290,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
-- [ ] register_post_type
+- [x] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
-- [x] init
+- [ ] init
 
 #### Q35. What is the role of a WordPress theme?
 
@@ -341,7 +343,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 - [ ] Link to the script directly from a template named page-contact.php, like this:
 - [ ] `<head>`
-- [ ] `<script src="/my-script.js"></script>`
+- [x] `<script src="/my-script.js"></script>`
 - [ ] `</head>`
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
@@ -483,8 +485,8 @@ $title = $_POST[ 'title' ];
 #### Q56. Which folder in a WordPress install is not affected by an automatic WordPress update?
 
 - [ ] `/wp-admin`
-- [x] `root`
-- [ ] `/wp-content`
+- [ ] `root`
+- [x] `/wp-content`
 - [ ] `/wp-includes`
 
 #### Q57. What are transients?
@@ -628,7 +630,9 @@ endif;
 
 #### Q72. JavaScript variables can hold many data types. Which data type does the following variable represent?
 
-`var x = "16"`
+```js
+var x = '16';
+```
 
 - [ ] Boolean
 - [ ] Number
@@ -685,3 +689,12 @@ endif;
 - [ ] changing the default wp_table prefix
 - [ ] changing your site or WordPress address
 - [ ] changing the default number of post revisions
+
+#### Q85. When it comes to best practice for WordPress development, what is the preferred method for adding a custom post type (CPT) to a site?
+
+- [ ] Add CPTs via phpMyAdmin.
+- [x] Add CPTs via a plugin.
+- [ ] Add CPTs via a parent theme.
+- [ ] Add CPTs via a child theme.
+
+[Reference](https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/)

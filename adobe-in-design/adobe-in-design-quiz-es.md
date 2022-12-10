@@ -20,7 +20,7 @@
 
 #### P3. En la imagen que se muestra, ¿qué sabes sobre el estilo de párrafo Body Text?
 
-![Q3](images/Q3.jpg)
+![Q3](images/question_3.jpg)
 
 - \[x] El texto seleccionado no se formateó con la definición de estilo.
 - \[ ] El texto seleccionado está en texto desbordado fuera de los límites del marco actual.
@@ -73,7 +73,7 @@
 
 #### P10. En la imagen que se muestra, el texto está en una ruta. Desea mover el texto más a la derecha a lo largo del trazado. ¿Cómo puedes lograr esto?
 
-![Q10](images/q10.png)
+![Q10](images/question_10.jpg)
 
 - \[ ] Arrastre el cuadrado azul D.
 - \[ ] Arrastre el mango lateral B
@@ -110,7 +110,7 @@
 
 #### P15. ¿Qué característica usaría para crear el efecto que se muestra, donde los círculos agrupados se mezclan entre sí pero no el objeto detrás de ellos?
 
-![Q15](images/Q15.png)
+![Q15](images/question_15.jpg)
 
 - \[ ] Luz Global
 - \[ ] el modo de fusión de pantalla
@@ -119,7 +119,7 @@
 
 #### P16. En la imagen que se muestra, ¿qué indican los bordes de marco de color?
 
-![Q16](images/Q16.png)
+![Q16](images/question_16.jpg)
 
 - \[ ] en qué capa se encuentra cada objeto
 - \[ ] en qué página maestra se encuentra cada objeto
@@ -135,7 +135,7 @@
 
 #### P18. En la imagen mostrada, ¿qué se puede inferir sobre cómo se imprimirá este documento?
 
-![Q18](images/Q18.png)
+![Q18](images/question_18.jpg)
 
 - \[ ] La página se escalará para que se ajuste al papel.
 - \[ ] Todas las capas de documento serán visibles

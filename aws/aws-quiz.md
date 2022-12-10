@@ -160,7 +160,7 @@
 
 #### Q22. You are hosting an application configured to stream media to its clients on TCP ports 3380-3384, 3386-3388, and 3390. The Inbound tab below shows three incoming security group policies attached to this instance. Which policy should you use?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] The rule that exposes TCP ports 3380-3390 would also publicly expose port 3389 (RDP) to the entire internet. Write separate rules to only expose the needed ports.
 - [ ] The first security group rule allows all traffic into this instance. Exposing your entire instance to the whole internet leaves the server open to various attacks of the other services running on different port numbers.
@@ -387,7 +387,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q47. In the S3 console, underneath the Access column, what does the public badge next to the bucket name indicate?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [x] All objects within this bucket are assigned public access and could be readable or writable by anyone on the internet. Ensure no sensitive data is being publicly shared within this bucket.
 - [ ] All objects within this bucket are writable, which means that the public internet has the ability to upload any file directly to your S3 bucket. Your S3 bucket could be used to serve malware.
@@ -445,7 +445,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q55. the outbound rules of a security group only allow traffic going to 0.0.0.0/0 on TCP Port 22 (SSH) and TCP port 3306 (MySQL). Review the inbound rules listed in the image below. What is the most important issue to fix with this security group configuration, for an Ubuntu EC2 instance acting as a web server?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - [ ] The outbound rules block UDP port 53, so the server will not be able to resolve any DNS lookups.
 - [x] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
@@ -540,7 +540,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
 #### Q65. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an Ubuntu EC2 instance configured as a web server?
 
-![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png)
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
 - [x] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
@@ -552,7 +552,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
 #### Q66. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [x] A
 
@@ -620,7 +620,7 @@ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
 #### Q71. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [ ] A
 
@@ -729,7 +729,7 @@ aws ecs create-service \
 
 #### Q81. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - [ ] Establish a connection between your two data centers and connect the second data center to the first through a private tunnel. Traffic will flow from the second data center and then through the first data, and then into AWS.
 - [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.
@@ -873,3 +873,101 @@ aws ecs create-service \
 - [ ] SSL
 - [x] TCP
 - [ ] UDP
+
+#### 100. Which is default user in Ec2 Linux-red hat/amazon.
+
+- [ ] root
+- [ ] Ec2user
+- [x] ec2-user
+- [ ] linux
+
+#### Q101. When using Systems Manager, you can create policies through Systems Manager \_\_\_\_.
+
+- [ ] Policy Manager
+- [ ] State Manager
+- [x] Documents
+- [ ] Inventory
+
+#### Q102. Businesses are increasingly moving towards hybrid cloud environments with automated IT. What Amazon EC2 State Manager feature is particularly useful for these companies?
+
+- [ ] validity
+- [x] consistency
+- [ ] reliability
+- [ ] redundancy
+
+#### Q103. Your DevOps manager has noticed that there is a problem with the installation of the MySQL software in one of your Windows instances and asks you to repair it. What would be the recommended way to fix this issue with AWS Systems Manager?
+
+- [ ] Write a Power Shell script that re-installs the msi file and run it with Run Command.
+- [ ] Execute the AWS-ApplyPatchBaseline command.
+- [ ] Allow State Manager to automatically fix it on batch.
+- [x] Use Run Command to execute the AWS-InstallApplication document.
+
+#### Q104. Within EC2 Systems Manager, you can use Patch \_\_\_\_ to pick the patches you want to install with your instances.
+
+- [ ] Levels
+- [ ] Manager
+- [x] Baselines
+- [ ] Policy
+
+#### Q105. When is an AWS Batch job's status runnable?
+
+- [ ] When a submitted job's resources are being deployed
+- [ ] When a submitted job has been evaluated
+- [x] When a submitted, evaluated job has zero dependencies outstanding
+- [ ] When a submitted job is next in the job queue
+
+#### Q106. Which statement regarding AWS Batch automated retries is correct?
+
+- [ ] Each job is provided a single job attempt by default, but a user can modify this to unlimited attempts if desired.
+- [ ] Each job is provided a single job attempt by default, but the AWS Batch job scheduler may modify this after evaluating the submitted job.
+- [x] Each job is provided a single job attempt by default, but a user can modify this to as many as 10 attempts if desired.
+- [ ] Each job is limited to a single attempt before being classified as succeeded or failed.
+
+#### Q107. What AWS Batch job parameter can you specify to prevent an unsuccessful job from being stuck in a loop?
+
+- [x] The duration of job timeout
+- [ ] A resource expenditure cap
+- [ ] The number of automated job retries
+- [ ] An AWS Batch job agent
+
+#### Q108. In which of the following AWS Batch components can a user set a priority level, for time-sensitive or low-priority jobs?
+
+- [ ] Within the job scheduler
+- [ ] Within the job itself
+- [ ] Within the job definition
+- [x] Within a job queue
+
+#### Q109. You may invalidate up to **\_** path files each month from Amazon CloudFront at no additional charge.
+
+- [ ] 100
+- [ ] 5,000
+- [x] 1,000
+- [ ] 500
+
+#### Q110. Which of the following is recommended when you want to analyze Access Logs of a single stream more quickly and accurately for a given period?
+
+- [ ] Check all the log files you receive for a given period one by one.
+- [ ] Analyze all the log files line by line.
+- [x] Combine all the log files you receive for a given period into one file.
+- [ ] Compare log files with Amazon CloudWatch results.
+
+#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to \***\*\_\*\***.
+
+- [x] `*` (all files) and cannot be changed
+- [ ] HTML files and cannot be changed
+- [ ] HTML files and can be changed
+- [ ] `*` (all files) and can be changed
+
+#### Q112. In Amazon CloudFront, if you add a CNAME for www.example.com to your distribution, you also need to create (or update) a CNAME record with your DNS service.
+
+- [x] TRUE
+- [ ] False, you cannot add a CNAME to your distribution.
+- [ ] False, you should add a CNAME record with your CloudWatch metrics and not the DNS.
+- [ ] False, it is not necessary to create a CNAME record with your DNS service as it is done automatically by Amazon.
+
+#### Q113. Which of the following statements is true of Amazon CloudFront when you can control how long your objects stay in a CloudFront cache before it forwards another request to your origin?
+
+- [x] All answers listed are correct.
+- [ ] Reducing the duration allows you to serve dynamic content.
+- [ ] Increasing the duration means your customers get better performance.
+- [ ] A longer duration also reduces the load on your origin.

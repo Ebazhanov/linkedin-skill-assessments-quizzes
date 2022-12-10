@@ -4,29 +4,29 @@
 
 - [x] A
 
-  - Reset administrator password.
-  - Set network name.
-  - Set network security.
-  - Set network password.
+- Reset administrator password.
+- Set network name.
+- Set network security.
+- Set network password.
 
 - [ ] B
 
-  - Reset administrator password.
-  - Set network name.
-  - Set network password.
+- Reset administrator password.
+- Set network name.
+- Set network password.
 
 - [ ] C
 
-  - Set network name.
-  - Set network password.
-  - Assign DNS servers.
+- Set network name.
+- Set network password.
+- Assign DNS servers.
 
 - [ ] D
 
-  - Change administrator account name.
-  - Set network password.
-  - Set network name.
-  - Assign DNS servers.
+- Change administrator account name.
+- Set network password.
+- Set network name.
+- Assign DNS servers.
 
 #### Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?
 
@@ -60,20 +60,20 @@
 
 - [x] A
 
-  1. Modem
-  2. Gateway
-  3. Switch
+1. Modem
+2. Gateway
+3. Switch
 
 - [ ] B
 
-  1. Modem
-  2. Switch
-  3. Gateway
+1. Modem
+2. Switch
+3. Gateway
 
 - [ ] C
 
-  1. Gateway
-  2. Switch
+1. Gateway
+2. Switch
 
 - [ ] The order is not important.
 
@@ -107,16 +107,20 @@
   battery
   expansion slots
 
-- [ ] basic I/O
-      cooling
-      NIC
-      graphics
-      expansion slots
-- [ ] basic I/O
-      graphics
-      NIC
-      mass storage
-      expansion slots
+- [ ]
+  basic I/O
+  cooling
+  NIC
+  graphics
+  expansion slots
+
+- [ ]
+  basic I/O
+  graphics
+  NIC
+  mass storage
+  expansion slots
+
 - [ ]
   basic I/O
   graphics
@@ -228,7 +232,7 @@
 
 #### Q25. Which type of power connector is this?
 
-![Q24](images/Q24.PNG)
+![Q24](images/Q24.png?raw=png)
 
 - [ ] Edison
 - [x] Molex
@@ -547,3 +551,45 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] PCMCIA
 - [ ] ISA
 - [x] PCIe
+
+#### Q66. Which action triggers a UAC warning?
+
+- [ ] all settings changes in Windows
+- [ ] any unauthorized access to the computer system
+- [x] an attempt to change a setting with consequences that affect the entire system
+- [ ] any action involving the user account, such as a password reset
+
+#### Q67. Which choice is not a current mass storage type?
+
+- [ ] SSD
+- [ ] MO
+- [ ] HDD
+- [x] NVMe
+
+#### Q68. Which statement most accurately describes the northbridge or host bridge?
+
+- [x] It is a high priority connection to the processor, also called the Memory Controller Hub.
+- [ ] It has been integrated into the southbridge to provide support for the CPU.
+- [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.
+- [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.
+
+#### Q69. Which characters are not allowed in a filename?
+
+- [ ] anything other than a letter, number, or space
+- [ ] spaces, periods, and commas
+- [x] `\, /, :, ?, and *`
+- [ ] `!, ^, &, (,), and "`
+
+#### Q70. What is the most direct way to change the desktop background in Windows OS?
+
+- [ ] Alter your user account settings or preferences.
+- [x] Right-click a blank part of the desktop.
+- [ ] Run programs full-screen.
+- [ ] Use Settings (Windows) or Preferences (Mac).
+
+#### Q71. Which I/O components are typically found in a chipset on the motherboard?
+
+- [x] USB, SATA and internal communications
+- [ ] display adapter, networking, audio, and basic I/O
+- [ ] the processor, RAM, and expansion cards
+- [ ] I/O components are not on the motherboard. They are located on the rear of the case

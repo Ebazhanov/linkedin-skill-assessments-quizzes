@@ -190,28 +190,34 @@ modified: beta-notes.js
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
 - [ ] ⠀
-  ```bash
+
+```bash
   git pull --all
   git reset --hard origin/master
-  ```
+```
+
 - [ ] ⠀
-  ```bash
+
+```bash
   git pull -u origin master
   git reset --hard master
-  ```
-- [ ] ⠀
-  ```bash
+```
+
+- [ ]
+
+```bash
   git pull origin master
   git reset --hard origin/myCurrentBranch
-  ```
-- [x] ⠀
+```
 
-  ```bash
+- [x]
+
+```bash
   git fetch --all
   git reset --hard origin/master
-  ```
+```
 
-- The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
+**Note**: - The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
 
 #### Q21. Which statement is true when you use the git add -A command?
 
@@ -224,8 +230,8 @@ modified: beta-notes.js
 
 - [ ] use git show refs/push-notifications
 - [ ] use git show push-notifications
-- [ ] use git show heads/refs/push-notifications
-- [x] use git show refs/heads/push-notifications
+- [ ] use git show head/refs/push-notifications
+- [x] use git show refs/head/push-notifications
 
 [Reference](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
@@ -662,7 +668,7 @@ git checkout -b beta-test
 
 #### Q80. Consider the following Git workflow:
 
-![image](images/Git-WorkFlow.png)
+![image](images/Git-WorkFlow.png?raw=png)
 Which of the following options is correct ?
 
 - [ ] `1. Develop 2. Release 3. Hotfix 4. Feature 5. Master`
@@ -1032,24 +1038,30 @@ Untracked files:
 #### Q127. After making a commit, you notice that you forgot to include changes to the doge.txt file. What command or commands would you use to add the changes to the commit ?
 
 - [x] ⠀
-  ```bash
+
+```bash
   git add doge.txt
   git commit --amend --no-edit
-  ```
-- [ ] ⠀
-  ```bash
-  git commit --amend --no-edit
-  ```
-- [ ] ⠀
-  ```bash
-  git add doge.txt
-  git commit --patch --no-edit
-  ```
+```
+
 - [ ] ⠀
 
-  ```bash
+```bash
+  git commit --amend --no-edit
+```
+
+- [ ] ⠀
+
+```bash
+  git add doge.txt
   git commit --patch --no-edit
-  ```
+```
+
+- [ ] ⠀
+
+```bash
+  git commit --patch --no-edit
+```
 
 #### Q128. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
 
@@ -1061,18 +1073,86 @@ git commit -m "Removed file"
 ```
 
 - [ ] ⠀
-  ```bash
+
+```bash
   git forget -rf wrongfile
   git commit -m "Removed file"
-  ```
+```
+
 - [ ] ⠀
-  ```bash
+
+```bash
   git untrack -rf wrongfile
   git commit -m "Removed file"
-  ```
+```
+
 - [x] ⠀
 
-  ```bash
+```bash
   git rm --cached wrongfile
   git commit -m "Removed file"
-  ```
+```
+
+#### Q129. What is the best way to report a bug to a GitHub project?
+
+- [ ] Send an email to a project owner.
+- [ ] I don't bother reporting software bugs because there's no transparency and they never get fixed anyway.
+- [x] Search for the bug in the project's existing issues and create a new one if it hasn't been reported yet.
+- [ ] Use git search -diff to compare all commits in your repository history.
+
+Explanation: A project's issues are visible to anyone who has access to the project, so you may find a resolution is already planned or available. Otherwise, you can create and track the issue yourself.
+
+#### Q130. Suppose you have created a bug fix on a new branch and want it to become part of the next production build generated from the main branch. What should you do next?
+
+- [ ] Copy your branch changes and commit them directly to the main branch.
+- [x] Create a pull request to merge your new branch into the main branch.
+- [ ] On second thought, maybe I won't share this fix. I'll just put it in my own private version of the source code.
+- [ ] Use git bisect to compare the buggy commit to an early commit that works as expected.
+
+Explanation: Pull requests are the correct way to communicate that commits are ready for review and ultimate inclusion on the main branch.
+
+#### Q131. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
+
+- [x] Fork the project's repository to your GitHub account, clone the forked repository to your local machine, push changes to your repository, and submit a pull request to the target (upstream) repository.
+- [ ] Clone the project to your local machine and push updates directly to the project repository.
+- [ ] Use git commands to make a copy of the project so that you can work locally. Submit an issue to get your changes into the target repository.
+- [ ] Use git show push-notifications
+
+Explanation: GitHub provides forking functionality designed to allow you to work with projects where you aren't an owner or don't have write access. Forking makes a remote copy of the project in your repository that you can then clone locally. To submit updates to the target repository (upstream repository) you can submit a pull request.
+
+#### Q132. What is GitHub?
+
+- [ ] version control
+- [x] A hosting platform for Git repositories
+- [ ] for keeping images
+- [ ] for social networking
+
+Explanation: GitHub is a popular hosting platform for developers to store their Git repositories and collaborate with other developers all around the world.
+
+#### Q133. Which statement is true of the git push command?
+
+- [x] By default, a push doesn’t send tags to the remote repository.
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+- [ ] Commits can be tagged only when they are created.
+
+#### Q134. Git Pull is a combination of?
+
+- [ ] Add and commit.
+- [ ] branch and checkout.
+- [x] fetch and merge.
+- [ ] None of these.
+
+#### Q135. What is the command to set the user email for the current repository?
+
+- [ ] git email.user
+- [x] git config user.email
+- [ ] git config email
+- [ ] All of the above.
+
+#### Q136. **\_** will rewind your project to a specific point in time, losing all commits that came after it. **\_** will keep changes in those rewound commits as local modifications
+
+- [ ] git reset HEAD; git reset HEAD^
+- [x] git reset hard; git reset soft
+- [ ] git reset soft; git reset hard
+- [ ] git rewind; git update

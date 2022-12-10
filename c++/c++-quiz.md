@@ -70,8 +70,8 @@ v2.push_back(5);
 
 ```cpp
 union {
-    unit16_t a;
-    unit32_t b;
+    uint16_t a;
+    uint32_t b;
     int8_t c;
 } u1;
 ```
@@ -417,8 +417,8 @@ x=+a;
 ```
 
 - [ ] 3
-- [ ] 7
-- [x] -3
+- [x] 7
+- [] -3
 - [ ] 13
 
 #### Q29. Which statement is true?
@@ -563,7 +563,7 @@ int main(){
 
 #### Q36. Which choice is _not_ a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named `center`?
 
-```
+```cpp
 coord center;
 center.x = 5;
 center.y = 3;
@@ -989,7 +989,7 @@ A->B->C->D
 - [ ] `&A.&B.&C.&D`
 - [x] `*(*((*A).B).C).D`
 
-Note: a more complex variant of the question above.
+**Note:** a more complex variant of the question above.
 
 #### Q57. What does this function do?
 
@@ -1238,7 +1238,7 @@ int main(){
 
 #### Q74. Given these records in a map, how will you update the value for the key "Sinead" to 22?
 
-![image](images/Q79.png)
+![image](images/Q79.png?raw=png)
 
 - [x] `marks["Sinead"] = 22`
 - [ ] `marks["Sinead"].22`
@@ -1247,7 +1247,7 @@ int main(){
 
 #### Q75. Why can the std::sort receive a function object as one of its parameters?
 
-- [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
+- [x] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
 - [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
 - [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
 - [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
@@ -1352,9 +1352,9 @@ sprite->x
 #### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
 
 - [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
-- [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
+- [ ] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
-- [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
+- [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
 
 #### Q82. The default executable generation on UNIX for a C++ program is \_
 
@@ -1362,7 +1362,6 @@ sprite->x
 - [ ] a
 - [x] a.out
 - [ ] out.a
-
 
 #### Q83. What will be the output of the following program?
 
@@ -1380,3 +1379,208 @@ return 0;
 - [ ] 2
 - [x] 3
 - [ ] 6
+
+#### Q84. What does "c" stands for in cout and cin.
+
+- [ ] compiler
+- [ ] console
+- [x] character
+- [ ] standard namespace
+
+#### Q85. What is the use of tellp ()?
+
+- [ ] Current Input Pointer position
+- [x] Current Output Pointer position
+- [ ] Last Input Pointer position
+- [ ] Last Output Pointer position
+
+#### Q86. What is callback function?
+
+- [ ] Pointer for a pointer
+- [x] Pointer for a function
+- [ ] function for a pointer
+- [ ] function for a class
+
+#### Q87. What is a correct syntax to output "Hello World" in C++?
+
+- [x] cout << "Hello World";
+- [ ] System.out.println("Hello World");
+- [ ] print("Hello World");
+- [ ] Console.WriteLine("Hello World");
+
+#### Q87. How many categories of iterators are there in C++ ?
+
+- [ ] 4
+- [ ] 3
+- [ ] 7
+- [x] 5
+
+#### Q88. What is the meaning of base class in C++ ?
+
+- [ ] It inherit other class
+- [ ] It has a pointer variable
+- [ ] It is the first class declared
+- [x] Another class got inherit from this class
+
+#### Q89. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
+
+- [ ] char, 4
+- [ ] float, 8
+- [ ] int, 1
+- [x] char, 1
+
+#### Q90. Implementation dependent aspects about an implementation can be found in
+
+- [ ] `<numeric>`
+- [ ] `<limit>`
+- [x] `<limits>`
+- [ ] `<implementation>`
+
+#### Q91. What is a default constructor?
+
+- [x] a constructor that can be used with no arguments
+- [ ] a contructor that does not have a return value
+- [ ] a constructor that is used by multiple classes
+- [ ] a constructor that initializes all members of a class
+
+#### Q92. When protecting a header file, why would you use '#pragma once' instead of 'include' guard?
+
+- [ ] There is no reason to choose because they serve different purposes
+- [x] An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all
+      defining that macro elsewhere, which would result in no inclusion at all
+- [ ] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
+- [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
+      more than once in a project. This is not a problem with '#pragma once'
+
+#### Q93. Which of the following statement is valid?
+
+- [ ] We can create new c++ operator.
+- [ ] We can change the precedence of the c++ operator.
+- [x] We can not change the operator templates.
+- [ ] We can change the associativity of the c++ operators.
+
+#### Q94. Which of the followings is/are automatically added to every class, if we do not write our own?
+
+- [ ] Copy Constructor
+- [ ] Assignment Operator
+- [ ] A constructor without any parameter
+- [x] All of the above
+
+#### Q95. The if-else statement can be replaced by which operator ?
+
+- [ ] certain structure
+- [ ] choosing structure
+- [x] selective structure
+- [ ] None of the Above
+
+#### Q96. Which choice would be a recursive solution to the factorial n! problem?
+
+- [ ]
+
+```cpp
+void fact(int n) 
+{ 
+    if (n <= 0)
+        return 0;
+    else
+        return 1;
+}
+```
+
+- [ ]
+
+```cpp
+int fact(int n)
+{
+    if (n <= 0)
+        return 1;
+    else
+        return (fact (n) * (n-1));
+}
+```
+
+- [ ]
+
+```cpp
+int fact(int n)
+{
+    if (n >= 0)
+        return 1;
+    else
+        return (fact (n-1) * n);
+}
+```
+
+- [x]
+
+```cpp
+int fact(int n)
+{
+    if (n <= 0)
+        return 1;
+    else 
+        return (fact (n-1) * n);
+}
+```
+
+#### Q97. A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?
+
+- [ ] The program is terminated. This calls the destructor of static duration objects.
+- [ ] The delete () function is called for an object pointer assigned with the new operator.
+- [x] The garbage collector detects that an object is no longer going to be used.
+- [ ] An automatic storage duration object goes out of scope.
+
+#### Q98. You are designing a foreign exchange payments system in C++, You need to model a transaction of a currency that has an integer as its quantity and a float as its price. You then want to declare an actual object of this type. How will vou achieve this?
+
+- [x]
+
+```cpp
+struct currencyDeal {
+    float price;
+    int quantity;
+};
+
+currencyDeal firstDeal;
+```
+
+- [ ]
+
+```cpp
+union currencyDeal { 
+    float price;
+    int quantity;
+};
+
+currencyDeal firstDeal;
+```
+
+- [ ]
+
+```cpp
+struct currencyDeal {
+    float price;
+    int quantity;
+};
+```
+
+- [ ]
+
+```cpp
+union currencyDeal {
+    float price;
+    int quantity;
+};
+```
+
+#### Q99. What will happen if you attempt to call this function with checkConcatThreshold("a");?
+
+```cpp
+int checkConcatThreshold(string a, string b) {
+    return (a + b).length () > 120;
+}
+```
+
+- [ ] A compilation warning will occur and the second argument will be given a default value of b.
+- [ ] A compilation warning will occur and the second argument will be given a default value of empty string.
+- [x] A compilation error will occur.
+- [ ] No compilation errors will occur and no compilation warnings will occur.

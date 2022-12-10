@@ -213,14 +213,14 @@ foreach(string employee in employeeQuery)
 
 #### Q18. What is the correct formatting for single line and multiline comments?
 
-- [ ] /_/ - Single Line
-      /_ - Multiline
-- [ ] // Multiline
-      /_ Single Line _/
-- [ ] //\* Multiline
-      / Single Line
-- [x] // Single Line
-      /_ Multiline _/
+- [ ] `/_/ - Single Line`
+      `/_ - Multiline`
+- [ ] `// Multiline`
+      `/_ Single Line _/`
+- [ ] `//\* Multiline`
+      `/ Single Line`
+- [x] `// Single Line`
+      `/* Multiline */`
 
 [w3schools: C# Comments](https://www.w3schools.com/cs/cs_comments.php)
 
@@ -709,6 +709,8 @@ public int Password
 - [ ] `string myVariable = null`
 - [ ] `string(null) myVariable`
 
+[Official documentation: nullable value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types#declaration-and-assignment)
+
 #### Q66. Do you need to declare an out variable before you use it?
 
 - [x] `No, you can declare an out in the parameter list.`
@@ -723,7 +725,8 @@ public int Password
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
 
-[Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
+Explain: You **can** do this in C#. However, none of the above answers are correct. You could access the last two items by using `People[^2..]`. Please see [issue #3354](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3354) for more information.
+See also: [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
 
 #### Q68. When can anonymous types be created?
 
@@ -771,3 +774,34 @@ public int Password
 - [x] Thread.Sleep(3000);
 
 [Reference](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0)
+
+#### Q73. What is wrong with this code?
+
+```cs
+void MyFunction()
+{
+    {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    Console.WriteLine(c);
+}
+```
+
+- [ ] Variable c is never used; displaying it on the console does not count as usage.
+- [ ] Variables a and b are never used.
+- [ ] You cannot place code inside brackets inside another block.
+- [x] Variable c no longer exists outside the block.
+
+[Reference](https://stackoverflow.com/a/6136865)
+
+#### Q74. Which statement is True?
+
+- [ ] All are true.
+- [ ] None are true.
+- [ ] string is a value type.
+- [x] string is an alias for String
+
+[Reference](https://stackoverflow.com/q/7074)

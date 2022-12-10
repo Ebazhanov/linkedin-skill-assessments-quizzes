@@ -18,7 +18,7 @@
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \$50?
+#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 
 ```js
 function addTax(total) {
@@ -70,7 +70,7 @@ console.log('Results shown');
 
 #### Q7. Which snippet could you add to this code to print "food" to the console?
 
-```javascript
+```js
 class Animal {
   static belly = [];
   eat() {
@@ -91,7 +91,8 @@ console.log(/* Snippet Here */); //Prints food
 
 #### Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
-```javascript
+- [ ] `A`
+```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
     console.log(i);
@@ -99,9 +100,9 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
+- [ ] `B`
 
-```javascript
+```js
 for (var i = 1; i <= 4; i++) {
   (function (i) {
     setTimeout(function () {
@@ -111,9 +112,8 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
-
-```javascript
+- [ ] `C`
+```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
     console.log(i);
@@ -121,9 +121,8 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [x] .
-
-```javascript
+- [X] `D`
+```js
 for (var i = 1; i <= 4; i++) {
   (function (j) {
     setTimeout(function () {
@@ -133,9 +132,9 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
+- [ ] `E`
 
-```javascript
+```js
 for (var j = 1; j <= 4; j++) {
   setTimeout(function () {
     console.log(j);
@@ -157,7 +156,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x] .
+- [x]
 
 ```js
 let discountPrice = function (price) {
@@ -165,7 +164,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 let discountPrice(price) {
@@ -173,7 +172,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 let function = discountPrice(price) {
@@ -181,7 +180,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 discountPrice = function (price) {
@@ -217,7 +216,7 @@ console.log(bob.precip);
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
 
-NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
+**NOTE**: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
 
 **More resources:**
 
@@ -257,7 +256,7 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 
 #### Q15. What is the result of running this statement?
 
-```javascript
+```js
 console.log(typeof 42);
 ```
 
@@ -375,7 +374,7 @@ dessert.type = 'pudding';
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
-- [ ] True
+- [ ] true
 - [x] 0
 - [ ] false
 
@@ -383,10 +382,10 @@ dessert.type = 'pudding';
 
 #### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 
-- [ ] `\++`
-- [ ] `\--`
-- [ ] `\==`
-- [x] `\|\|`
+- [ ] `++`
+- [ ] `--`
+- [ ] `==`
+- [x] `||`
 
 [Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
@@ -517,10 +516,10 @@ let diff = function (x, y) {
 [] == [];
 ```
 
-- [ ] True
+- [ ] true
 - [ ] undefined
 - [ ] []
-- [x] False
+- [x] false
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
@@ -596,7 +595,7 @@ f2();
 
 #### Q45. What type of scope does the end variable have in the code shown?
 
-```javascript
+```js
 var start = 1;
 if (start === 1) {
   let end = 2;
@@ -822,7 +821,7 @@ printA();
 
 [Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
 
-#### Q64. Which choice is valid example for an arrow function?
+#### Q64. Which choice is a valid example for an arrow function?
 
 - [x] `(a,b) => c`
 - [ ] `a, b => {return c;}`
@@ -869,7 +868,7 @@ printA();
 
 #### Q69. What is the result of running the statement shown?
 
-```javascript
+```js
 let a = 5;
 console.log(++a);
 ```
@@ -883,7 +882,7 @@ console.log(++a);
 
 #### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 
-```javascript
+```js
 button.addEventListener(
   'click',
   function (e) {
@@ -946,7 +945,7 @@ button.addEventListener(
 
 #### Q76. What is the result in the console of running this code?
 
-```javascript
+```js
 function logThis() {
   console.log(this);
 }
@@ -962,7 +961,7 @@ logThis();
 
 #### Q77. Which class-based component is equivalent to this function component?
 
-```javascript
+```js
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
@@ -973,7 +972,7 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 
 #### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
 
-```javascript
+```js
 useEffect(() => {
   // do things
 }, []);
@@ -988,7 +987,7 @@ useEffect(() => {
 
 #### Q79. What is the output of this code?
 
-```javascript
+```js
 var obj;
 console.log(obj);
 ```
@@ -1002,7 +1001,7 @@ console.log(obj);
 
 #### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
-```javascript
+```js
 class TaxCalculator {
   static calculate(total) {
     return total * 0.05;
@@ -1047,7 +1046,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [x] .
+- [x]
 
 ```plaintext
 I
@@ -1055,7 +1054,7 @@ Javascript!
 love
 ```
 
-- [ ] .
+- [ ]
 
 ```plaintext
 love
@@ -1065,7 +1064,7 @@ Javascript!
 
 - [ ] The output may change with each execution of code and cannot be determined.
 
-- [ ] .
+- [ ]
 
 ```
 I
@@ -1154,24 +1153,6 @@ console.log(addFive(3));
 
 [Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-#### Q89. What will be logged to the console??
-
-```js
-'use strict';
-function logThis() {
-  this.desc = 'logger';
-  console.log(this);
-}
-new logThis();
-```
-
-- [ ] window
-- [ ] undefined
-- [ ] function
-- [x] {desc: "logger"}
-
-[Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
-
 #### Q90. What is the output of this code?
 
 ```js
@@ -1238,7 +1219,7 @@ console.log(animals.pop()); //Prints jaguar
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
-`Note: this question has two correct answers.`
+**Note:** `this question has two correct answers.`
 
 [Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
@@ -1277,6 +1258,7 @@ console.log(y);
 - [ ] true
 - [x] Two
 
+**Note:** `this question is same with Q46.`
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 #### Q96. How would you access the word It from this multidimensional array?
@@ -1413,7 +1395,7 @@ console.log([...arr1, ...arr2]);
 
 #### Q107. What will be logged to the console?
 
-```javascript
+```js
 console.log(typeof 'blueberry');
 ```
 
@@ -1435,7 +1417,7 @@ console.log(typeof 'blueberry');
 </div>
 ```
 
-```javascript
+```js
 //JavaScript
 document.querySelectorAll('div').forEach((e) => {
   e.onclick = (e) => console.log(e.currentTarget.id);
@@ -1739,9 +1721,9 @@ console.log(score);
 - [ ] `6`
 - [ ] `7`
 
-1. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-2. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-3. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+1. [Reference Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+2. [Reference Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+3. [Reference Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 #### Q125. What does this code print to the console?
 
@@ -1852,7 +1834,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 
 #### Q131. Which snippet allows the acresOfRainForest variable to increase?
 
-```
+```js
 let conservation = true;
 let deforestation = false;
 let acresOfRainForest = 100;
@@ -1898,13 +1880,15 @@ if (/* Snipped goes here */){
 
 #### Q136. What value is printed to the console after this code execute?
 
-let cat = Object.create({type: "lion" });
-cat.size = "large";
+```js
+let cat = Object.create({ type: 'lion' });
+cat.size = 'large';
 
-let copyCat = {...cat };
-cat.type = "tiger";
+let copyCat = { ...cat };
+cat.type = 'tiger';
 
 console.log(copyCat.type, copyCat.size);
+```
 
 - [ ] tiger large
 - [ ] lion undefined
@@ -1913,16 +1897,18 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q137. What does the code print to the console?
+#### Q137. What does this code print to the console?
 
-let animals = [{type: "lion" }, "tiger"];
+```js
+let animals = [{ type: 'lion' }, 'tiger'];
 let clones = animals.slice();
 
-clones[0].type= "bear";
-clones[1] = "sheep";
+clones[0].type = 'bear';
+clones[1] = 'sheep';
 
 console.log(animals[0].type, clones[0].type);
 console.log(animals[1], clones[1]);
+```
 
 - [x] bear bear
       tiger sheep
@@ -1947,3 +1933,122 @@ alert(a++(+(+(+b))));
 - [ ] 10
 - [x] 9
 - [ ] 20
+
+#### Q139. What fragment could you add to this code to make it output "{"type": "tiger"}" to the console?
+
+```js
+let cat = { type: "tiger", size: "large" };
+
+let json = /* Snippet here */;
+
+console.log(json); // print {"type":"tiger"}
+```
+
+- [ ] `cat.toJSON("type");`
+- [x] `JSON.stringify(cat, ["type"]);`
+- [ ] `JSON.stringify(cat);`
+- [ ] `JSON.stringify(cat, /type/);`
+
+#### Q140. Which document method is not used to get a reference to a DOM node?
+
+- [x] document.getNode();
+- [ ] document.getElementsByClassName();
+- [ ] document.querySelectorAll();
+- [ ] document.querySelector();
+
+[Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
+
+#### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
+
+```js
+let cat = { type: 'tiger', size: 'large' };
+let json = /_ Snippet Here _/;
+console.log(json); //prints {"type": "tiger"}
+```
+
+- [ ] `JSON.sringify(cat);`
+- [x] `JSON.sringify(cat, ["type"]);`
+- [ ] `JSON.sringify(cat, /type/);`
+- [ ] `cat.toJSON("type");`
+
+[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
+
+#### Q142. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+
+- [ ] node
+- [ ] instance variable
+- [x] prototype
+- [ ] accessor
+
+[Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
+
+#### Q143. Which of the following are not server-side Javascript objects?
+
+- [ ] Date
+- [ ] FileUpload
+- [ ] Function
+- [x] All of the above
+
+#### Q144. What will be the output of the following code snippet?
+
+```javascript
+const obj1 = { first: 20, second: 30, first: 50 };
+console.log(obj1);
+```
+
+- [ ] first: 30 , second: 50
+- [x] first: 50 , second: 30
+- [ ] first: 30 , second: 20
+- [ ] None of the above
+
+#### Q145. Which object in Javascript doesn’t have a prototype?
+
+- [x] Base Object
+- [ ] All objects have prototype
+- [ ] None of the objects have prototype
+- [ ] None of the above
+
+#### Q146. What does … operator do in JS?
+
+- [x] Used to spread iterables to individual elements
+- [ ] Describe datatype of undefined
+- [ ] No such operator exists
+- [ ] None of the above
+
+#### Q147. How to stop an interval timer in Javascript?
+
+- [x] clearInterval
+- [ ] clearTimer
+- [ ] intervalOver
+- [ ] None of the above
+
+[Reference](https://www.interviewbit.com/javascript-mcq/)
+
+#### Q148. What will be the output of the following code snippet?
+
+```javascript
+print(typeof NaN);
+```
+
+- [ ] Object
+- [x] Number
+- [ ] String
+- [ ] None of the above
+
+#### Q149. What will be the output of the following code snippet?
+
+```javascript
+<script type="text/javascript">a = 5 + "9"; document.write(a);</script>
+```
+
+- [ ] Compilation Error
+- [ ] 14
+- [ ] Runtime Error
+- [x] 59
+
+#### Q150. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [x] all of the above
