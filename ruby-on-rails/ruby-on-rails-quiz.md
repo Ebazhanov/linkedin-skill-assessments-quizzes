@@ -817,8 +817,8 @@ end
 #### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
 
 - [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [ ] `<%= render partial: "nav", locals: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
+- [x] `<%= render partial: "nav", locals: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", selected: "about"} %>`
 
 #### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
