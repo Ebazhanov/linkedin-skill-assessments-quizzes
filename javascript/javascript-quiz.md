@@ -159,7 +159,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x]
+- [x] `A`
 
 ```js
 let discountPrice = function (price) {
@@ -167,7 +167,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ]
+- [ ] `B`
 
 ```js
 let discountPrice(price) {
@@ -175,7 +175,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `C`
 
 ```js
 let function = discountPrice(price) {
@@ -183,7 +183,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `D`
 
 ```js
 discountPrice = function (price) {
