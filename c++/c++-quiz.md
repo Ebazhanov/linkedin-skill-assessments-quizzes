@@ -271,7 +271,7 @@ std::cout<<", b="<<(int)b;
 - [ ] a=200, b=-156
 - [ ] a=200, b=100
 
-Note: a variant of the question above.
+Note: Implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 200 to -56
 
 #### Q19. What results from executing this code snippet?
 
