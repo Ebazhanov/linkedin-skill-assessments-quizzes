@@ -811,18 +811,18 @@ complexNumber(float real, float im) {
 
 ```cpp
 bool x=true, y=false;
-if(~x || y){
+
+if (~x || y) {
     /*part A*/
-}
-else{
+} else {
     /*part B*/
 }
 ```
 
-- [ ] Part A executes because the expression `(~x || y)` always results in true if `y==false`.
+- [x] Part A executes because the expression `(~x || y)` always results in true if `y==false`.
 - [ ] Part B executes because the statement `(~x || y)` is invalid, thus false.
 - [ ] Part A executes because `~x` is not zero, meaning true.
-- [x] Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false.
+- [ ] Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false.
 
 #### Q45. What would be the output of this code?
 
