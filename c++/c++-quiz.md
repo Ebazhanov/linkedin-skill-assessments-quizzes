@@ -1287,83 +1287,14 @@ void *ptr;
 - [ ] It is a pointer to a void function
 - [ ] It is a pointer initialized at NULL.
 
-#### Q79. What is a valid definition for a function named get_length that returns the length of a null-terminated string?
-
-```cpp
-int get_length(char *str);
-```
-
-- [x] :
-
-```cpp
-int get_length(char *str){
-    int count=0;
-    while(str[count++]);
-    return count-1;
-}
-```
-
-- [ ] :
-
-```cpp
-int get_length(char *str){
-    int count=0;
-    while(str!=NULL){
-        count++;
-        str++;
-    }
-    return count;
-}
-```
-
-- [ ] :
-
-```cpp
-int get_length(char *str){
-    int count=0;
-    while((*str)++)
-        count++;
-    return count;
-}
-```
-
-- [ ] :
-
-```cpp
-int get_length(char *str){
-    int count=0;
-    while(str++)
-        count++;
-    return count;
-}
-```
-
-#### Q80. What is this statement equivalent to?
-
-```cpp
-sprite->x
-```
-
-- [ ] `sprite.*x`
-- [x] `(*sprite).x`
-- [ ] `*sprite.x`
-- [ ] `sprite.x`
-
-#### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
-
-- [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
-- [ ] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
-- [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
-- [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
-
-#### Q82. The default executable generation on UNIX for a C++ program is \_
+#### Q79. The default executable generation on UNIX for a C++ program is \_
 
 - [ ] a.exe
 - [ ] a
 - [x] a.out
 - [ ] out.a
 
-#### Q83. What will be the output of the following program?
+#### Q80. What will be the output of the following program?
 
 ```cpp
 #include<iostream>
@@ -1380,70 +1311,70 @@ return 0;
 - [x] 3
 - [ ] 6
 
-#### Q84. What does "c" stands for in cout and cin.
+#### Q81. What does "c" stands for in cout and cin.
 
 - [ ] compiler
 - [ ] console
 - [x] character
 - [ ] standard namespace
 
-#### Q85. What is the use of tellp ()?
+#### Q82. What is the use of tellp ()?
 
 - [ ] Current Input Pointer position
 - [x] Current Output Pointer position
 - [ ] Last Input Pointer position
 - [ ] Last Output Pointer position
 
-#### Q86. What is callback function?
+#### Q83. What is callback function?
 
 - [ ] Pointer for a pointer
 - [x] Pointer for a function
 - [ ] function for a pointer
 - [ ] function for a class
 
-#### Q87. What is a correct syntax to output "Hello World" in C++?
+#### Q84. What is a correct syntax to output "Hello World" in C++?
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
 - [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
 
-#### Q87. How many categories of iterators are there in C++ ?
+#### Q85. How many categories of iterators are there in C++ ?
 
 - [ ] 4
 - [ ] 3
 - [ ] 7
 - [x] 5
 
-#### Q88. What is the meaning of base class in C++ ?
+#### Q86. What is the meaning of base class in C++ ?
 
 - [ ] It inherit other class
 - [ ] It has a pointer variable
 - [ ] It is the first class declared
 - [x] Another class got inherit from this class
 
-#### Q89. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
+#### Q87. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
 
 - [ ] char, 4
 - [ ] float, 8
 - [ ] int, 1
 - [x] char, 1
 
-#### Q90. Implementation dependent aspects about an implementation can be found in
+#### Q88. Implementation dependent aspects about an implementation can be found in
 
 - [ ] `<numeric>`
 - [ ] `<limit>`
 - [x] `<limits>`
 - [ ] `<implementation>`
 
-#### Q91. What is a default constructor?
+#### Q89. What is a default constructor?
 
 - [x] a constructor that can be used with no arguments
 - [ ] a contructor that does not have a return value
 - [ ] a constructor that is used by multiple classes
 - [ ] a constructor that initializes all members of a class
 
-#### Q92. When protecting a header file, why would you use '#pragma once' instead of 'include' guard?
+#### Q90. When protecting a header file, why would you use '#pragma once' instead of 'include' guard?
 
 - [ ] There is no reason to choose because they serve different purposes
 - [x] An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all
@@ -1452,28 +1383,28 @@ return 0;
 - [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
       more than once in a project. This is not a problem with '#pragma once'
 
-#### Q93. Which of the following statement is valid?
+#### Q91. Which of the following statement is valid?
 
 - [ ] We can create new c++ operator.
 - [ ] We can change the precedence of the c++ operator.
 - [x] We can not change the operator templates.
 - [ ] We can change the associativity of the c++ operators.
 
-#### Q94. Which of the followings is/are automatically added to every class, if we do not write our own?
+#### Q92. Which of the followings is/are automatically added to every class, if we do not write our own?
 
 - [ ] Copy Constructor
 - [ ] Assignment Operator
 - [ ] A constructor without any parameter
 - [x] All of the above
 
-#### Q95. The if-else statement can be replaced by which operator ?
+#### Q93. The if-else statement can be replaced by which operator ?
 
 - [ ] certain structure
 - [ ] choosing structure
 - [x] selective structure
 - [ ] None of the Above
 
-#### Q96. Which choice would be a recursive solution to the factorial n! problem?
+#### Q94. Which choice would be a recursive solution to the factorial n! problem?
 
 - [ ]
 
@@ -1523,14 +1454,14 @@ int fact(int n)
 }
 ```
 
-#### Q97. A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?
+#### Q95. A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?
 
 - [ ] The program is terminated. This calls the destructor of static duration objects.
 - [ ] The delete () function is called for an object pointer assigned with the new operator.
 - [x] The garbage collector detects that an object is no longer going to be used.
 - [ ] An automatic storage duration object goes out of scope.
 
-#### Q98. You are designing a foreign exchange payments system in C++, You need to model a transaction of a currency that has an integer as its quantity and a float as its price. You then want to declare an actual object of this type. How will vou achieve this?
+#### Q96. You are designing a foreign exchange payments system in C++, You need to model a transaction of a currency that has an integer as its quantity and a float as its price. You then want to declare an actual object of this type. How will vou achieve this?
 
 - [x]
 
@@ -1572,7 +1503,7 @@ union currencyDeal {
 };
 ```
 
-#### Q99. What will happen if you attempt to call this function with checkConcatThreshold("a");?
+#### Q97. What will happen if you attempt to call this function with checkConcatThreshold("a");?
 
 ```cpp
 int checkConcatThreshold(string a, string b) {
