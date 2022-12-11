@@ -1276,18 +1276,7 @@ std::cout << b;
 - [ ] public
 - [ ] private
 
-#### Q78. What is true about the variable named ptr?
-
-```cpp
-void *ptr;
-```
-
-- [ ] That declaration causes a compiler error, as pointers must specify a type.
-- [x] It is a pointer to a value with no specific type, so it may be cast to point to any type.
-- [ ] It is a pointer to a void function
-- [ ] It is a pointer initialized at NULL.
-
-#### Q79. What is a valid definition for a function named get_length that returns the length of a null-terminated string?
+#### Q78. What is a valid definition for a function named get_length that returns the length of a null-terminated string?
 
 ```cpp
 int get_length(char *str);
@@ -1338,7 +1327,7 @@ int get_length(char *str){
 }
 ```
 
-#### Q80. What is this statement equivalent to?
+#### Q79. What is this statement equivalent to?
 
 ```cpp
 sprite->x
@@ -1349,21 +1338,21 @@ sprite->x
 - [ ] `*sprite.x`
 - [ ] `sprite.x`
 
-#### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
+#### Q80. In which scenario would you want to specify the type of a pointer instead of using void?
 
 - [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
 - [ ] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
 - [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
 
-#### Q82. The default executable generation on UNIX for a C++ program is \_
+#### Q81. The default executable generation on UNIX for a C++ program is \_
 
 - [ ] a.exe
 - [ ] a
 - [x] a.out
 - [ ] out.a
 
-#### Q83. What will be the output of the following program?
+#### Q82. What will be the output of the following program?
 
 ```cpp
 #include<iostream>
@@ -1380,28 +1369,28 @@ return 0;
 - [x] 3
 - [ ] 6
 
-#### Q84. What does "c" stands for in cout and cin.
+#### Q83. What does "c" stands for in cout and cin.
 
 - [ ] compiler
 - [ ] console
 - [x] character
 - [ ] standard namespace
 
-#### Q85. What is the use of tellp ()?
+#### Q84. What is the use of tellp ()?
 
 - [ ] Current Input Pointer position
 - [x] Current Output Pointer position
 - [ ] Last Input Pointer position
 - [ ] Last Output Pointer position
 
-#### Q86. What is callback function?
+#### Q85. What is callback function?
 
 - [ ] Pointer for a pointer
 - [x] Pointer for a function
 - [ ] function for a pointer
 - [ ] function for a class
 
-#### Q87. What is a correct syntax to output "Hello World" in C++?
+#### Q86. What is a correct syntax to output "Hello World" in C++?
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
