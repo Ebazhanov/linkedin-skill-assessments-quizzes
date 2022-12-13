@@ -761,3 +761,10 @@ public class Honda extends Car{}
 - [x] classes derived from other derived classes.
 
 [Reference](https://www.w3schools.com/cpp/cpp_inheritance_multilevel.asp)
+
+#### Q100. Can you have two classes with the same name in the same proiect?
+
+- [ ] No, you cannot.
+- [ ] Yes, as long as their constructors are different.
+- [ ] Yes, as long as their methods are different.
+- [X] Yes, as long as they are in different namespaces.
