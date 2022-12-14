@@ -707,11 +707,12 @@ var x = '16';
 - [ ] Require user to log in to view content.
 
 #### Q87. Review the HTML on line 1.The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
-1. <input type="text" id="title" name="title" />
-2.  $title = $_POST[ 'title' ]
 
-- [ ] The code sample does not allow for translation. It sjould use a translation function and look like this: $title = __($_POST['title' ]
-- [x] The code sample does not sanitize the form data. It should use the sanitize_text_field() function and look like this: $title =sanitize_text_field($_POST[ 'title' ] );.
+1. <input type="text" id="title" name="title" />
+2. $title = $\_POST[ 'title' ]
+
+- [ ] The code sample does not allow for translation. It sjould use a translation function and look like this: $title = __($\_POST['title' ]
+- [x] The code sample does not sanitize the form data. It should use the sanitize_text_field() function and look like this: $title =sanitize_text_field($\_POST[ 'title' ] );.
 - [ ] There is no error. The code follows Wordpess best practice.
 - [ ] The sample does not use GET method. It should be wrapped in the ger_post_field() function and look like this: $title = get_post_field( $GET[ 'title' ] );.
 

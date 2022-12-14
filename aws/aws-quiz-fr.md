@@ -169,8 +169,7 @@
 
 #### Q23. Vous disposez de quatre serveurs Web frontaux derrière un équilibreur de charge, qui utilisent NFS pour accéder à une autre instance EC2 qui redimensionne et stocke des images pour l’application frontale. Quelles stratégies de groupe de sécurité doivent être affectées à ces serveurs ?
 
-- [ ] Attribuez des adresses IP Elastic à toutes les instances et créez un groupe qui permet à tout le trafic de passer entre chacune des cinq instances
-  Adresses IP Élastiques et autorisent tout le trafic HTTPS entrant.
+- [ ] Attribuez des adresses IP Elastic à toutes les instances et créez un groupe qui permet à tout le trafic de passer entre chacune des cinq instances Adresses IP Élastiques et autorisent tout le trafic HTTPS entrant.
 - [x] Les serveurs Web frontaux doivent autoriser HTTPS. Affectez un autre groupe à toutes les instances qui permettent à tout le trafic de passer entre les instances utilisant ce groupe.
 - [ ] Créez un groupe de sécurité qui autorise le trafic NFS, HTTP et HTTPS entrant à partir de toutes les adresses IP. Appliquez ce groupe à tous les serveurs.
 - [ ] Créez un groupe de sécurité qui autorise le trafic HTTP et HTTPS entrant à partir de toutes les adresses IP et appliquez-le aux serveurs Web. Créez un deuxième groupe de sécurité pour le magasin de fichiers NFS qui autorise le trafic NFS sortant vers la plage d’adresses IP privée des serveurs Web frontaux.
@@ -542,11 +541,11 @@ FlowLog:
 
 - [ ] Tout le trafic sur tous les ports est refusé dans cette instance, ce qui remplace la règle HTTP et la rend redondante.
 - [x] L’instance a été lancée avec le groupe de sécurité par défaut, mais il n’existe aucun moyen pour un administrateur de SSH dans l’instance.
-  Ajoutez une autre règle qui autorise l’accès SSH à partir d’une source sécurisée, telle qu’une seule adresse IP ou une plage d’adresses IP gérées.
+      Ajoutez une autre règle qui autorise l’accès SSH à partir d’une source sécurisée, telle qu’une seule adresse IP ou une plage d’adresses IP gérées.
 - [ ] Il n’y a rien de mal à cette règle de groupe de sécurité. En supposant que sg-269afc5e est appliqué à d’autres ressources qui sont correctement
-  sécurisé, cette règle permet à tout le trafic de passer qui est également affecté au groupe de sécurité sg-269afc5e.
+      sécurisé, cette règle permet à tout le trafic de passer qui est également affecté au groupe de sécurité sg-269afc5e.
 - [ ] Tout le trafic sur tous les ports est autorisé dans cette instance. Cela expose l’instance à tout le trafic Internet public et
-  remplace la règle HTTP entrante.
+      remplace la règle HTTP entrante.
 
 #### Q66. Vous avez un VPC qui possède un sous-réseau public et privé. Il existe une passerelle NAT dans le sous-réseau public qui permet aux instances du sous-réseau privé d’accéder à Internet sans avoir d’exposition publique en dehors du VPC. Quelles doivent être les tables de routage pour le sous-réseau privé ?
 
@@ -590,17 +589,17 @@ FlowLog:
 #### Q68. Vous disposez d’une application qui génère des rapports de longue durée, les stocke dans un compartiment S3, puis envoie un e-mail à l’utilisateur qui a demandé le rapport avec un lien pour le télécharger. Quelle est la meilleure pratique pour stocker les données de rapport dans S3 ?
 
 - [ ] Créez un compartiment S3 public. Lorsque votre application crée l’objet de rapport dans S3, générez deux longs générés aléatoirement
-  noms de dossier et placez le fichier dans le sous-dossier le plus profond. Définissez la stratégie de rétention sur l’objet sur une heure et envoyez ce lien par e-mail à
-  l’utilisateur. Le lien sera actif pendant une heure.
+      noms de dossier et placez le fichier dans le sous-dossier le plus profond. Définissez la stratégie de rétention sur l’objet sur une heure et envoyez ce lien par e-mail à
+      l’utilisateur. Le lien sera actif pendant une heure.
 - [ ] Créez un compartiment S3 public. Utilisez un hachage de l’adresse e-mail de l’utilisateur ainsi que la date et l’heure auxquelles le rapport a été demandé pour générer un
-  nom d’objet unique. Envoyez ce lien par e-mail à l’utilisateur et exécutez une tâche planifiée dans votre application pour supprimer les objets plus anciens
-  que sept jours.
+      nom d’objet unique. Envoyez ce lien par e-mail à l’utilisateur et exécutez une tâche planifiée dans votre application pour supprimer les objets plus anciens
+      que sept jours.
 - [x] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
-  ou forcer l’utilisateur à se connecter. Après avoir vérifié que l’utilisateur dispose des droits d’accès à ce fichier, demandez à l’application de récupérer l’objet
-  à partir de S3 et renvoyez-le dans la réponse HTTP. Supprimez le fichier du compartiment S3 une fois la demande terminée.
+      ou forcer l’utilisateur à se connecter. Après avoir vérifié que l’utilisateur dispose des droits d’accès à ce fichier, demandez à l’application de récupérer l’objet
+      à partir de S3 et renvoyez-le dans la réponse HTTP. Supprimez le fichier du compartiment S3 une fois la demande terminée.
 - [ ] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
-  ou forcer l’utilisateur à se connecter. Définissez l’objet de rapport dans S3 sur public. Afficher à l’utilisateur un bouton « Télécharger » dans le navigateur qui relie
-  à l’objet public.
+      ou forcer l’utilisateur à se connecter. Définissez l’objet de rapport dans S3 sur public. Afficher à l’utilisateur un bouton « Télécharger » dans le navigateur qui relie
+      à l’objet public.
 
 #### Q69. Lors de l’envoi d’un grand volume d’e-mails via SES, quel est l’ensemble de mesures le plus important à surveiller ?
 

@@ -328,13 +328,13 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 #### P24. Debe recuperar una lista de fotos de una API. ¿Qué fragmento de código define una solicitud HTML GET en Retrofit?
 
 - [ ] @GET("foto/{id}"}
-  fun listPhotos(@Path("id") id:Long?) : Llamar<Photo>
+      fun listPhotos(@Path("id") id:Long?) : Llamar<Photo>
 - [ ] @LIST("foto")
-  lista divertidaFotos() : Call\<List<Photo>>
+      lista divertidaFotos() : Call\<List<Photo>>
 - [ ] @GET("foto")
-  fun listPhotos() : Llamar<Photo>
+      fun listPhotos() : Llamar<Photo>
 - [x] @GET("foto")
-  lista divertidaFotos() : Call\<List<Photo>>
+      lista divertidaFotos() : Call\<List<Photo>>
 
 #### P25. Dada la clase de prueba a continuación, ¿qué fragmento de código sería una afirmación correcta?
 
@@ -386,13 +386,13 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 ```
 
 - [ ] A
-  ![img](image/00.jpeg)
+      ![img](image/00.jpeg)
 - [x] B
-  ![img](image/01.jpeg)
+      ![img](image/01.jpeg)
 - [ ] C
-  ![img](image/02.jpeg)
+      ![img](image/02.jpeg)
 - [ ] D
-  ![img](image/03.jpeg)
+      ![img](image/03.jpeg)
 
 #### P30. Desea abrir la aplicación Marcador predeterminada en un dispositivo. ¿Qué tiene de malo este código?
 
@@ -898,22 +898,22 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 #### Pregunta 58. Ha creado una clase AboutActivity que muestra detalles sobre la aplicación. ¿Qué fragmento de código te permite iniciar tu actividad?
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startService(intención)
-  }
+      startService(intención)
+      }
 
 - [x] Intent(this, AboutActivity::class.java).also { intent ->
-  startActivity(intención)
-  }
+      startActivity(intención)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  actividad(intención)
-  }
+      actividad(intención)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startActivity(intención)
-  }
-  Explicación: Intención(Context packageContext, Class\<?> cls)
-  Aviso: Clase no KClass
+      startActivity(intención)
+      }
+      Explicación: Intención(Context packageContext, Class\<?> cls)
+      Aviso: Clase no KClass
 
 #### Pregunta 59. ¿Cuál es el uso del archivo AndroidManifest.xml?
 
@@ -935,23 +935,23 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 - [ ] ProGuard
 - [ ] Encogedor
 - [ ] D8
-  Explicación: Cuando crea su proyecto utilizando el complemento Android Gradle 3.4.0 o superior, el complemento ya no utiliza ProGuard para realizar la optimización del código en tiempo de compilación. En cambio, el complemento funciona con el compilador R8 para manejar
+      Explicación: Cuando crea su proyecto utilizando el complemento Android Gradle 3.4.0 o superior, el complemento ya no utiliza ProGuard para realizar la optimización del código en tiempo de compilación. En cambio, el complemento funciona con el compilador R8 para manejar
 
 [Referencia](https://developer.android.com/studio/build/shrink-code)
 
 #### P62. ¿Qué jerarquía de diseño es probable que se dibuje más rápidamente?
 
 - [x] A
-  ![img](https://i.imgur.com/mT08jag.png?raw=png)
+      ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - [ ] B
-  ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
+      ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - [ ] C
-  ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
+      ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - [ ] D
-  ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
+      ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### P63. ¿Cuál es la forma recomendada actual de manejar tareas en segundo plano de larga duración?
 

@@ -181,13 +181,13 @@
 #### D12. Devi rimuovere un evento in base al suo ID dalla tua API, Quale snippet di codice definisce quella richiesta in Retrofit?
 
 - [ ] @DELETE("eventi"
-  fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
+      fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
 - [x] @DELETE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
+      fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
 - [ ] @REMOVE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
+      fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
 - [x] @DELETE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
+      fun deleteEvent(@Path("id") id: Long): Chiama<Unit>
 
 #### D13. Quando useresti un sapore di prodotto nella tua configurazione di costruzione?
 
@@ -328,13 +328,13 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 #### D24. È necessario recuperare un elenco di foto da un'API. Quale frammento di codice definisce una richiesta HTML GET in Retrofit?
 
 - [ ] @GET("photo/{id}"}
-  fun listPhotos(@Path("id") id:Long?) : Chiama<Photo>
+      fun listPhotos(@Path("id") id:Long?) : Chiama<Photo>
 - [ ] @LIST("foto")
-  fun listPhotos() : Call\<List<Photo>>
+      fun listPhotos() : Call\<List<Photo>>
 - [ ] @GET("foto")
-  fun listPhotos() : Chiama<Photo>
+      fun listPhotos() : Chiama<Photo>
 - [x] @GET("foto")
-  fun listPhotos() : Call\<List<Photo>>
+      fun listPhotos() : Call\<List<Photo>>
 
 #### D25. Data la classe di test riportata di seguito, quale frammento di codice sarebbe un'asserzione corretta?
 
@@ -386,13 +386,13 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 ```
 
 - [ ] A
-  ![img](image/00.jpeg)
+      ![img](image/00.jpeg)
 - [x] B
-  ![img](image/01.jpeg)
+      ![img](image/01.jpeg)
 - [ ] C
-  ![img](image/02.jpeg)
+      ![img](image/02.jpeg)
 - [ ] D
-  ![img](image/03.jpeg)
+      ![img](image/03.jpeg)
 
 #### D30. Si desidera aprire l'app Dialer predefinita su un dispositivo. Cosa c'è di sbagliato in questo codice?
 
@@ -898,22 +898,22 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 #### D58. Hai creato una classe AboutActivity che visualizza i dettagli sulla tua app. Quale snippet di codice ti consente di avviare la tua attività?
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startService(intento)
-  }
+      startService(intento)
+      }
 
 - [x] Intent(this, AboutActivity::class.java).also { intent ->
-  startActivity(intento)
-  }
+      startActivity(intento)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  attività(intento)
-  }
+      attività(intento)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startActivity(intento)
-  }
-  Spiegazione: Intent(Context packageContext, Class\<?> cls)
-  Avviso: Classe non KClass
+      startActivity(intento)
+      }
+      Spiegazione: Intent(Context packageContext, Class\<?> cls)
+      Avviso: Classe non KClass
 
 #### D59. Qual è l'uso del file AndroidManifest.xml?
 
@@ -935,23 +935,23 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 - [ ] ProGuard
 - [ ] Termoretraitore
 - [ ] D8
-  Spiegazione: Quando si compila il progetto utilizzando il plug-in Android Gradle 3.4.0 o versione successiva, il plug-in non utilizza più ProGuard per eseguire l'ottimizzazione del codice in fase di compilazione. Invece, il plugin funziona con il compilatore R8 per gestire
+      Spiegazione: Quando si compila il progetto utilizzando il plug-in Android Gradle 3.4.0 o versione successiva, il plug-in non utilizza più ProGuard per eseguire l'ottimizzazione del codice in fase di compilazione. Invece, il plugin funziona con il compilatore R8 per gestire
 
 [Riferimento](https://developer.android.com/studio/build/shrink-code)
 
 #### D62. Quale gerarchia di layout è probabile che venga disegnata più rapidamente?
 
 - [x] A
-  ![img](https://i.imgur.com/mT08jag.png?raw=png)
+      ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - [ ] B
-  ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
+      ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - [ ] C
-  ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
+      ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - [ ] D
-  ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
+      ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### D63. Qual è il modo attualmente consigliato per gestire le attività in background a esecuzione prolungata?
 

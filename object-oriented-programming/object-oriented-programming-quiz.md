@@ -767,4 +767,4 @@ public class Honda extends Car{}
 - [ ] No, you cannot.
 - [ ] Yes, as long as their constructors are different.
 - [ ] Yes, as long as their methods are different.
-- [X] Yes, as long as they are in different namespaces.
+- [x] Yes, as long as they are in different namespaces.

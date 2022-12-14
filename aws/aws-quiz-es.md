@@ -169,8 +169,7 @@
 
 #### P23. Tiene cuatro servidores front-end web detrás de un equilibrador de carga, que usan NFS para acceder a otra instancia EC2 que cambia el tamaño y almacena imágenes para la aplicación front-end. ¿Qué directivas de grupo de seguridad se deben asignar a estos servidores?
 
-- [ ] Asigne IP elásticas a todas las instancias y cree un grupo que permita que todo el tráfico pase entre cada una de las cinco
-  Elásticas direcciones IP y permiten todo el tráfico HTTPS entrante.
+- [ ] Asigne IP elásticas a todas las instancias y cree un grupo que permita que todo el tráfico pase entre cada una de las cinco Elásticas direcciones IP y permiten todo el tráfico HTTPS entrante.
 - [x] Los servidores front-end web deben permitir HTTPS. Asigne otro grupo a todas las instancias que permita que todo el tráfico pase entre instancias mediante ese grupo.
 - [ ] Cree un grupo de seguridad que permita el tráfico NFS, HTTP y HTTPS entrante desde todas las direcciones IP. Aplique este grupo a todos los servidores.
 - [ ] Cree un grupo de seguridad que permita el tráfico HTTP y HTTPS entrante desde todas las direcciones IP y aplíquelo a los servidores web. Cree un segundo grupo de seguridad para el almacén de archivos NFS que permita el tráfico NFS saliente al intervalo IP privado de los servidores front-end web.
@@ -542,11 +541,11 @@ FlowLog:
 
 - [ ] Todo el tráfico en todos los puertos se está denegando en esta instancia, lo que sobrescribe la regla HTTP y la hace redundante.
 - [x] La instancia se lanzó con el grupo de seguridad predeterminado, pero no hay forma de que un administrador entre SSH en la instancia.
-  Agregue otra regla que permita el acceso SSH desde un origen seguro, como una sola IP o un rango de direcciones IP administradas.
+      Agregue otra regla que permita el acceso SSH desde un origen seguro, como una sola IP o un rango de direcciones IP administradas.
 - [ ] No hay nada de malo en esta regla de grupo de seguridad. Suponiendo que sg-269afc5e se aplica a otros recursos que son correctamente
-  protegido, esta regla permite que pase todo el tráfico que también está asignado al grupo de seguridad sg-269afc5e.
+      protegido, esta regla permite que pase todo el tráfico que también está asignado al grupo de seguridad sg-269afc5e.
 - [ ] Todo el tráfico en todos los puertos está permitido en esta instancia. Esto expone la instancia a todo el tráfico público de Internet y
-  sobrescribe la regla HTTP entrante.
+      sobrescribe la regla HTTP entrante.
 
 #### Pregunta 66. Tiene una VPC que tiene una subred pública y privada. Hay una puerta de enlace NAT en la subred pública que permite a las instancias de la subred privada acceder a Internet sin tener exposición pública fuera de la VPC. ¿Cuáles deben ser las tablas de enrutamiento para la subred privada?
 
@@ -590,17 +589,17 @@ FlowLog:
 #### Pregunta 68. Tiene una aplicación que genera informes de larga duración, los almacena en un bucket de S3 y, a continuación, envía un correo electrónico al usuario que solicitó el informe con un vínculo para descargarlo. ¿Cuál es la práctica recomendada para almacenar los datos del informe en S3?
 
 - [ ] Cree un bucket público de S3. Cuando la aplicación cree el objeto de informe en S3, genere dos long generados aleatoriamente
-  nombres de carpeta y coloque el archivo dentro de la subcarpeta más profunda. Establezca la política de retención en el objeto en una hora y envíe este enlace por correo electrónico a
-  el usuario. El enlace estará activo durante una hora.
+      nombres de carpeta y coloque el archivo dentro de la subcarpeta más profunda. Establezca la política de retención en el objeto en una hora y envíe este enlace por correo electrónico a
+      el usuario. El enlace estará activo durante una hora.
 - [ ] Cree un bucket público de S3. Utilice un hash de la dirección de correo electrónico del usuario y la fecha y hora en que se solicitó el informe para generar un
-  nombre único del objeto. Envíe este vínculo por correo electrónico al usuario y haga que se ejecute una tarea programada dentro de la aplicación para quitar objetos que son más antiguos
-  que siete días.
+      nombre único del objeto. Envíe este vínculo por correo electrónico al usuario y haga que se ejecute una tarea programada dentro de la aplicación para quitar objetos que son más antiguos
+      que siete días.
 - [x] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
-  sesión u obligar al usuario a iniciar sesión. Después de comprobar que el usuario tiene derechos para acceder a este archivo, haga que la aplicación recupere el objeto
-  desde S3 y devolverlo en la respuesta HTTP. Elimine el archivo del bucket de S3 una vez completada la solicitud.
+      sesión u obligar al usuario a iniciar sesión. Después de comprobar que el usuario tiene derechos para acceder a este archivo, haga que la aplicación recupere el objeto
+      desde S3 y devolverlo en la respuesta HTTP. Elimine el archivo del bucket de S3 una vez completada la solicitud.
 - [ ] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
-  sesión u obligar al usuario a iniciar sesión. Establezca el objeto de informe en S3 en public. Mostrar al usuario un botón "Descargar" en el navegador que enlaza
-  al objeto público.
+      sesión u obligar al usuario a iniciar sesión. Establezca el objeto de informe en S3 en public. Mostrar al usuario un botón "Descargar" en el navegador que enlaza
+      al objeto público.
 
 #### Pregunta 69. Al enviar un gran volumen de correo electrónico a través de SES, ¿cuál es el conjunto de métricas más importante para monitorear?
 

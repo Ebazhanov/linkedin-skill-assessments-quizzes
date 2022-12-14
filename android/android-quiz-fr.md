@@ -181,13 +181,13 @@
 #### Q12. Vous devez supprimer un événement basé sur son id de votre API, Quel extrait de code définit cette demande dans Retrofit ?
 
 - [ ] @DELETE(« événements »)
-  fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
+      fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
 - [x] @DELETE(« events/{id} »)
-  fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
+      fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
 - [ ] @REMOVE(« events/{id} »)
-  fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
+      fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
 - [x] @DELETE(« events/{id} »)
-  fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
+      fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
 
 #### Q13. Quand utiliseriez-vous une saveur de produit dans votre configuration de construction ?
 
@@ -328,13 +328,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 #### Q24. Vous devez récupérer une liste de photos à partir d’une API. Quel extrait de code définit une requête HTML GET dans Retrofit ?
 
 - [ ] @GET(« photo/{id}"}
-  fun listPhotos(@Path(« id ») id:Long?) : Appel<Photo>
+      fun listPhotos(@Path(« id ») id:Long?) : Appel<Photo>
 - [ ] @LIST(« photo »)
-  fun listPhotos() : Call\<List<Photo>>
+      fun listPhotos() : Call\<List<Photo>>
 - [ ] @GET(« photo »)
-  fun listPhotos() : Appel<Photo>
+      fun listPhotos() : Appel<Photo>
 - [x] @GET(« photo »)
-  fun listPhotos() : Call\<List<Photo>>
+      fun listPhotos() : Call\<List<Photo>>
 
 #### Q25. Compte tenu de la classe de test ci-dessous, quel extrait de code serait une assertion correcte ?
 
@@ -386,13 +386,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 ```
 
 - [ ] A
-  ![img](image/00.jpeg)
+      ![img](image/00.jpeg)
 - [x] B
-  ![img](image/01.jpeg)
+      ![img](image/01.jpeg)
 - [ ] C
-  ![img](image/02.jpeg)
+      ![img](image/02.jpeg)
 - [ ] D
-  ![img](image/03.jpeg)
+      ![img](image/03.jpeg)
 
 #### Q30. Vous souhaitez ouvrir l’application Dialer par défaut sur un appareil. Qu’est-ce qui ne va pas avec ce code ?
 
@@ -890,22 +890,22 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 #### Q58. Vous avez créé une classe AboutActivity qui affiche des détails sur votre application. Quel extrait de code vous permet de lancer votre activité ?
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startService(intention)
-  }
+      startService(intention)
+      }
 
 - [x] Intent(this, AboutActivity::class.java).also { intent ->
-  startActivity(intention)
-  }
+      startActivity(intention)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  activité(intention)
-  }
+      activité(intention)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-  startActivity(intention)
-  }
-  Explication : Intent(Context packageContext, Class\<?> cls)
-  Avis : Classe et non KClass
+      startActivity(intention)
+      }
+      Explication : Intent(Context packageContext, Class\<?> cls)
+      Avis : Classe et non KClass
 
 #### Q59. Quelle est l’utilisation du fichier androidManifest.xml?
 
@@ -927,23 +927,23 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 - [ ] ProGuard
 - [ ] Rétrécisseur
 - [ ] D8
-  Explication: Lorsque vous générez votre projet à l’aide du plugin Android Gradle 3.4.0 ou supérieur, le plugin n’utilise plus ProGuard pour effectuer l’optimisation du code au moment de la compilation. Au lieu de cela, le plugin fonctionne avec le compilateur R8 pour gérer
+      Explication: Lorsque vous générez votre projet à l’aide du plugin Android Gradle 3.4.0 ou supérieur, le plugin n’utilise plus ProGuard pour effectuer l’optimisation du code au moment de la compilation. Au lieu de cela, le plugin fonctionne avec le compilateur R8 pour gérer
 
 [Référence](https://developer.android.com/studio/build/shrink-code)
 
 #### Q62. Quelle hiérarchie de mise en page est susceptible d’être dessinée le plus rapidement ?
 
 - [x] A
-  ![img](https://i.imgur.com/mT08jag.png?raw=png)
+      ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - [ ] B
-  ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
+      ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - [ ] C
-  ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
+      ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - [ ] D
-  ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
+      ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### Q63. Quelle est la méthode actuellement recommandée pour gérer les tâches en arrière-plan de longue durée ?
 

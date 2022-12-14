@@ -169,8 +169,7 @@
 
 #### D23. Hai quattro server Web front-end dietro un servizio di bilanciamento del carico, che utilizzano NFS per accedere a un'altra istanza EC2 che ridimensiona e archivia le immagini per l'applicazione front-end. Quali criteri di gruppo di sicurezza devono essere assegnati a questi server?
 
-- [ ] Assegna IP elastici a tutte le istanze e crea un gruppo che consenta a tutto il traffico di passare tra ciascuna delle cinque
-  Indirizzi IP elastici e consentono tutto il traffico HTTPS in entrata.
+- [ ] Assegna IP elastici a tutte le istanze e crea un gruppo che consenta a tutto il traffico di passare tra ciascuna delle cinque Indirizzi IP elastici e consentono tutto il traffico HTTPS in entrata.
 - [x] I server Web front-end devono consentire HTTPS. Assegnare un altro gruppo a tutte le istanze che consenta a tutto il traffico di passare tra le istanze utilizzando tale gruppo.
 - [ ] Creare un gruppo di sicurezza che consenta il traffico NFS, HTTP e HTTPS in ingresso da tutti gli indirizzi IP. Applicare questo gruppo a tutti i server.
 - [ ] Creare un gruppo di sicurezza che consenta il traffico HTTP e HTTPS in ingresso da tutti gli indirizzi IP e applicarlo ai server Web. Creare un secondo gruppo di sicurezza per l'archivio file NFS che consenta il traffico NFS in uscita verso l'intervallo IP privato dei server Web front-end.
@@ -542,11 +541,11 @@ FlowLog:
 
 - [ ] Tutto il traffico su tutte le porte viene negato in questa istanza, che sovrascrive la regola HTTP e la rende ridondante.
 - [x] L'istanza è stata avviata con il gruppo di sicurezza predefinito, ma non è possibile per un amministratore accedere a SSH nell'istanza.
-  Aggiungere un'altra regola che consenta l'accesso SSH da un'origine protetta, ad esempio un singolo IP o un intervallo di indirizzi IP gestiti.
+      Aggiungere un'altra regola che consenta l'accesso SSH da un'origine protetta, ad esempio un singolo IP o un intervallo di indirizzi IP gestiti.
 - [ ] Non c'è niente di sbagliato in questa regola del gruppo di sicurezza. Supponendo che sg-269afc5e sia applicato ad altre risorse che sono correttamente
-  protetto, questa regola consente a tutto il traffico di passare attraverso il quale è anche assegnato il gruppo di sicurezza sg-269afc5e.
+      protetto, questa regola consente a tutto il traffico di passare attraverso il quale è anche assegnato il gruppo di sicurezza sg-269afc5e.
 - [ ] Tutto il traffico su tutte le porte è consentito in questa istanza. In questo modo l'istanza viene esposta a tutto il traffico Internet pubblico e
-  sovrascrive la regola HTTP in ingresso.
+      sovrascrive la regola HTTP in ingresso.
 
 #### D66. Hai un VPC che ha una sottorete pubblica e privata. Nella subnet pubblica è presente un gateway NAT che consente alle istanze della sottorete privata di accedere a Internet senza avere un'esposizione pubblica al di fuori del VPC. Quali devono essere le tabelle di routing per la subnet privata?
 
@@ -590,17 +589,17 @@ FlowLog:
 #### D68. Si dispone di un'applicazione che genera report a esecuzione prolungata, li archivia in un bucket S3 e quindi invia un'e-mail all'utente che ha richiesto il report con un collegamento per scaricarlo. Qual è la procedura consigliata per l'archiviazione dei dati del report in S3?
 
 - [ ] Creare un bucket S3 pubblico. Quando l'applicazione crea l'oggetto report in S3, generare due lunghi generati in modo casuale
-  nomi di cartelle e posizionare il file all'interno della sottocartella più profonda. Impostare il criterio di conservazione sull'oggetto su un'ora e inviare questo collegamento tramite posta elettronica a
-  l'utente. Il link sarà attivo per un'ora.
+      nomi di cartelle e posizionare il file all'interno della sottocartella più profonda. Impostare il criterio di conservazione sull'oggetto su un'ora e inviare questo collegamento tramite posta elettronica a
+      l'utente. Il link sarà attivo per un'ora.
 - [ ] Creare un bucket S3 pubblico. Utilizzare un hash dell'indirizzo e-mail dell'utente e la data e l'ora in cui è stato richiesto il report per generare un
-  nome oggetto univoco. Inviare questo collegamento tramite posta elettronica all'utente e fare in modo che un'attività pianificata venga eseguita all'interno dell'applicazione per rimuovere gli oggetti meno recenti
-  di sette giorni.
+      nome oggetto univoco. Inviare questo collegamento tramite posta elettronica all'utente e fare in modo che un'attività pianificata venga eseguita all'interno dell'applicazione per rimuovere gli oggetti meno recenti
+      di sette giorni.
 - [x] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
-  o forzare l'utente ad accedere. Dopo aver verificato che l'utente disponga dei diritti di accesso a questo file, chiedere all'applicazione di recuperare l'oggetto
-  da S3 e restituirlo nella risposta HTTP. Eliminare il file dal bucket S3 al termine della richiesta.
+      o forzare l'utente ad accedere. Dopo aver verificato che l'utente disponga dei diritti di accesso a questo file, chiedere all'applicazione di recuperare l'oggetto
+      da S3 e restituirlo nella risposta HTTP. Eliminare il file dal bucket S3 al termine della richiesta.
 - [ ] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
-  o forzare l'utente ad accedere. Impostare l'oggetto report in S3 su public. Mostra all'utente un pulsante "Download" nel browser che collega
-  all'oggetto pubblico.
+      o forzare l'utente ad accedere. Impostare l'oggetto report in S3 su public. Mostra all'utente un pulsante "Download" nel browser che collega
+      all'oggetto pubblico.
 
 #### D69. Quando si invia un grande volume di e-mail tramite SES, qual è l'insieme più importante di metriche da monitorare?
 

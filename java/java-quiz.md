@@ -2311,6 +2311,7 @@ public class Course {
 - [ ] O(A\*B)
 
 #### Q162. What do these expressions evaluate to?
+
     1. true && false
     2. true && false || true
 
