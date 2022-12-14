@@ -12359,6 +12359,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "RonStrauss",
+      "name": "Ron Strauss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82303541?v=4",
+      "profile": "https://github.com/RonStrauss",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
