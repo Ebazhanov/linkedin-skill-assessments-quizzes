@@ -324,13 +324,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q38. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
 
-- [ ] Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
 ```
+Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
 get_header( '<script src="/my-script.js"></script>' );
-```
-
-- [ ] Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
-```
+Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 function load_scripts() {
@@ -338,10 +335,8 @@ function load_scripts() {
     echo '<script src="/my-script.js"></script>';
     }
 }
-```
 
-- [ ] Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
-```
+Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
     function load_scripts() {
         if ( is_page( 'contact' ) ) {
@@ -350,12 +345,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
     }
 ```
 
-- [x] Link to the script directly from a template named page-contact.php, like this:
-```
-<head>
-  <script src="/my-script.js"></script>
-</head>
-```
+- [ ] Link to the script directly from a template named page-contact.php, like this:
+- [ ] `<head>`
+- [x] `<script src="/my-script.js"></script>`
+- [ ] `</head>`
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
 
