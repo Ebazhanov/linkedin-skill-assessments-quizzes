@@ -683,3 +683,5 @@ server.listen(port, hostname, () => {
 - [ ] exports
 - [ ] setTimeout
 - [x] Buffer
+
+[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php)
