@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1244-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1245-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1743,6 +1743,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/ivan-penchev"><img src="https://avatars.githubusercontent.com/u/30929349?v=4?s=100" width="100px;" alt="Ivan Penchev"/><br /><sub><b>Ivan Penchev</b></sub></a><br /><a href="#design-ivan-penchev" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ivan-penchev" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/tonmoycoder"><img src="https://avatars.githubusercontent.com/u/78300713?v=4?s=100" width="100px;" alt="Tanver Islam Tonmoy"/><br /><sub><b>Tanver Islam Tonmoy</b></sub></a><br /><a href="#design-tonmoycoder" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tonmoycoder" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/xcao65"><img src="https://avatars.githubusercontent.com/u/26684441?v=4?s=100" width="100px;" alt="Xun Cao"/><br /><sub><b>Xun Cao</b></sub></a><br /><a href="#design-xcao65" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=xcao65" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/nayanbabariya95"><img src="https://avatars.githubusercontent.com/u/63590009?v=4?s=100" width="100px;" alt="Nayan Babariya"/><br /><sub><b>Nayan Babariya</b></sub></a><br /><a href="#design-nayanbabariya95" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nayanbabariya95" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
