@@ -230,6 +230,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [x] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore the plugin should not run.
 - [ ] This is a compatibility checker. ABSPATH is defined in WordPress core. The plugin checks that the minimum version of WordPress needed to support the plugin is installed. If it is not, the plugin should not run.
 
+[Reference](https://stackoverflow.com/questions/43212340/what-is-meant-by-if-defined-abspath)
+
 #### Q26. Which is a best practice for working with WordPress CSS?
 
 - [ ] Use !important next to styles if they don't give you the result you want.
