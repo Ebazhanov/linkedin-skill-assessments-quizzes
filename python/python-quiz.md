@@ -2380,3 +2380,12 @@ my_list = [2, 'apple', 3.5]
 - [ ] the greater value of (m,n,p)
 - [ ] 1 million
 - [ ] m + n + p
+
+#### Q175. Suppose you have a class named MyClass which has multiple inheritance and methods with the same name in its ancestors. Which class method could you call to see which method will get priority when invoked?
+
+- [x] `MyClass.__mro__`
+- [ ] `MyClass.hierarchy()`
+- [ ] `callable(MyClass)`
+- [ ] `dir(MyClass)`
+
+**Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.

@@ -2310,4 +2310,14 @@ public class Course {
 - [x] O(AB)
 - [ ] O(A\*B)
 
+#### Q162. What do these expressions evaluate to?
+
+    1. true && false
+    2. true && false || true
+
+- [x] 1. false 2. true
+- [ ] 1. false 2. false
+- [ ] 1. true 2. false
+- [ ] 1. true 2. true
+
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}

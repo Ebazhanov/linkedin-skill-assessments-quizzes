@@ -12,28 +12,28 @@ export class UserDetailsComponent {
 }
 ```
 
-- \[x] Proporciona acceso desde la clase de componente al objeto ElementRef para el `<p>` que tiene la variable de referencia de plantilla bio en la vista de plantilla del componente.
-- \[ ] Indica que el `<p>` se representará como un elemento secundario de la vista principal que utiliza este componente.
-- \[ ] Hace que el `<p>` en la plantilla admite la proyección de contenido.
-- \[ ] Hace que el `<p>` visible en el renderizado final. Si se utilizó el #bio en la plantilla y no se utilizó el @ViewChild en la clase, Angular ocultaría automáticamente el `<p>` etiqueta que tiene #bio en ella.
+- [x] Proporciona acceso desde la clase de componente al objeto ElementRef para el `<p>` que tiene la variable de referencia de plantilla bio en la vista de plantilla del componente.
+- [ ] Indica que el `<p>` se representará como un elemento secundario de la vista principal que utiliza este componente.
+- [ ] Hace que el `<p>` en la plantilla admite la proyección de contenido.
+- [ ] Hace que el `<p>` visible en el renderizado final. Si se utilizó el #bio en la plantilla y no se utilizó el @ViewChild en la clase, Angular ocultaría automáticamente el `<p>` etiqueta que tiene #bio en ella.
 
 [DigitalOcean - viewchild-access-component](https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component)
 
 #### P2. ¿Qué método se utiliza para conectar un FormControl a un elemento de entrada DOM nativo en formas reactivas?
 
-- \[ ] Agregue el nombre de cadena dado al FormControl a un atributo denominado controles en el <form> para indicar qué campos debe incluir.
-- \[ ] Utilice la sintaxis de enlace entre corchetes alrededor del atributo value en el elemento DOM y establézcalo igual a una instancia de FormControl.
-- \[x] Utilice la directiva formControlName y establezca el valor igual al nombre de cadena dado al FormControl.
-- \[ ] Utilice el nombre de cadena dado al FormControl como valor para el atributo id del elemento DOM.
+- [ ] Agregue el nombre de cadena dado al FormControl a un atributo denominado controles en el <form> para indicar qué campos debe incluir.
+- [ ] Utilice la sintaxis de enlace entre corchetes alrededor del atributo value en el elemento DOM y establézcalo igual a una instancia de FormControl.
+- [x] Utilice la directiva formControlName y establezca el valor igual al nombre de cadena dado al FormControl.
+- [ ] Utilice el nombre de cadena dado al FormControl como valor para el atributo id del elemento DOM.
 
 [Angular.io - Grupos de formularios reactivos](https://angular.io/guide/reactive-forms#creating-nested-form-groups)
 
 #### P3. ¿Cuál es la diferencia entre el `paramMap` y el `queryParamMap` en el `ActivatedRoute` ¿clase?
 
-- \[ ] El paramMap es un literal de objeto de los parámetros de la ruta URL de una ruta. El queryParamMap es un Observable de esos mismos parámetros.
-- \[ ] El paramMap es un Observable que contiene los valores de parámetro que forman parte de la ruta url de una ruta. QueryParamMap es un método que toma una matriz de claves y se utiliza para buscar parámetros específicos en el paramMap.
-- \[ ] paramMap es el nombre heredado de Angular 3. El nuevo nombre es queryParamMap.
-- \[x] Ambos son observables que contienen valores de la cadena de URL de la ruta solicitada. El paramMap contiene los valores de parámetro que se encuentran en la ruta de acceso de la dirección URL y el queryParamMap contiene los parámetros de consulta de la dirección URL.
+- [ ] El paramMap es un literal de objeto de los parámetros de la ruta URL de una ruta. El queryParamMap es un Observable de esos mismos parámetros.
+- [ ] El paramMap es un Observable que contiene los valores de parámetro que forman parte de la ruta url de una ruta. QueryParamMap es un método que toma una matriz de claves y se utiliza para buscar parámetros específicos en el paramMap.
+- [ ] paramMap es el nombre heredado de Angular 3. El nuevo nombre es queryParamMap.
+- [x] Ambos son observables que contienen valores de la cadena de URL de la ruta solicitada. El paramMap contiene los valores de parámetro que se encuentran en la ruta de acceso de la dirección URL y el queryParamMap contiene los parámetros de consulta de la dirección URL.
 
 [StackOverflow](https://stackoverflow.com/a/49617621)
 
@@ -48,10 +48,10 @@ export class UserDetailsComponent {
 <div *ngFor="let user of users | async">{{ user.gender }}</div>
 ```
 
-- \[ ] Ninguno. La canalización asincrónica no se suscribe automáticamente.
-- \[ ] Ninguno. La sintaxis de la plantilla no es correcta.
-- \[x] Tres. Hay uno para cada tubería asincrónica.
-- \[ ] Uno. La canalización asincrónica almacena en caché Observables por tipo internamente.
+- [ ] Ninguno. La canalización asincrónica no se suscribe automáticamente.
+- [ ] Ninguno. La sintaxis de la plantilla no es correcta.
+- [x] Tres. Hay uno para cada tubería asincrónica.
+- [ ] Uno. La canalización asincrónica almacena en caché Observables por tipo internamente.
 
 [UltimateCourses](https://ultimatecourses.com/blog/angular-ngfor-async-pipe)
 
@@ -67,19 +67,19 @@ export class OrderService {
 }
 ```
 
-- \[ ] this.httpClient.url(this.orderUrl).post(order);
-- \[ ] this.httpClient.send(this.orderUrl, order);
-- \[ ] this.httpClient.post<Order>(this.orderUrl, orden);
-- \[x] this.httpClient.post<Order>(this.orderUrl, order).subscribe();
+- [ ] this.httpClient.url(this.orderUrl).post(order);
+- [ ] this.httpClient.send(this.orderUrl, order);
+- [ ] this.httpClient.post<Order>(this.orderUrl, orden);
+- [x] this.httpClient.post<Order>(this.orderUrl, order).subscribe();
 
 [Angular.io - Envío de datos al servidor](https://angular.io/guide/http#sending-data-to-a-server)
 
 #### P6. ¿Para qué se utiliza el método RouterModule.forRoot?
 
-- \[ ] Registrar cualquier proveedor que tenga la intención de utilizar en componentes enrutados.
-- \[x] Registro de definiciones de ruta en el nivel de aplicación raíz.
-- \[ ] Indicando que Angular debe animar en sus rutas para tener éxito.
-- \[ ] Declarar que tiene la intención de utilizar el enrutamiento solo en el nivel raíz.
+- [ ] Registrar cualquier proveedor que tenga la intención de utilizar en componentes enrutados.
+- [x] Registro de definiciones de ruta en el nivel de aplicación raíz.
+- [ ] Indicando que Angular debe animar en sus rutas para tener éxito.
+- [ ] Declarar que tiene la intención de utilizar el enrutamiento solo en el nivel raíz.
 
 [O ' REILLY](https://www.oreilly.com/library/view/switching-to-angular/9781788620703/c9e90774-0e10-410b-bd20-d3e9e0b8d117.xhtml)
 
@@ -92,16 +92,16 @@ export class OrderService {
 })
 ```
 
-- \[ ] Cualquier elemento con el atributo app-user-card, como `<div app-user-card></div>`.
-- \[ ] La primera instancia de `<app-user-card></app-user-card>`.
-- \[x] Todas las instancias de `<app-user-card></app-user-card>`.
-- \[ ] Todas las instancias de `<user-card></user-card>`.
+- [ ] Cualquier elemento con el atributo app-user-card, como `<div app-user-card></div>`.
+- [ ] La primera instancia de `<app-user-card></app-user-card>`.
+- [x] Todas las instancias de `<app-user-card></app-user-card>`.
+- [ ] Todas las instancias de `<user-card></user-card>`.
 
 [Angular.io - Metadatos de componentes](https://angular.io/guide/architecture-components#component-metadata)
 
 #### P8. ¿Cuál es la sintaxis de plantilla correcta para usar la directiva estructural ngFor integrada para representar una lista de productNames?
 
-- \[ ]
+- [ ]
 
 ```html
 <ul>
@@ -109,7 +109,7 @@ export class OrderService {
 </ul>
 ```
 
-- \[ ]
+- [ ]
 
 ```html
 <ul>
@@ -117,7 +117,7 @@ export class OrderService {
 </ul>
 ```
 
-- \[x]
+- [x]
 
 ```html
 <ul>
@@ -125,7 +125,7 @@ export class OrderService {
 </ul>
 ```
 
-- \[ ]
+- [ ]
 
 ```html
 <ul>
@@ -139,10 +139,10 @@ export class OrderService {
 
 #### P9. ¿Cuáles son las dos propiedades de metadatos del decorador de componentes utilizadas para configurar estilos CSS para un componente?
 
-- \[ ] viewEncapsulation y viewEncapsulationFiles.
-- \[ ] Sólo hay uno y es la propiedad llamada css.
-- \[ ] css y cssUrl.
-- \[x] estilos y styleUrls.
+- [ ] viewEncapsulation y viewEncapsulationFiles.
+- [ ] Sólo hay uno y es la propiedad llamada css.
+- [ ] css y cssUrl.
+- [x] estilos y styleUrls.
 
 [Angular.io - Estilos de componentes](https://angular.io/guide/component-styles)
 
@@ -158,28 +158,28 @@ class TitleCardComponent {
 }
 ```
 
-- \[ ] `{{ 'title' }}`
-- \[x] `{{ title }}`
-- \[ ] `[title]`
-- \[ ] Un campo de clase no se puede mostrar en una plantilla a través de la sintaxis de la plantilla.
+- [ ] `{{ 'title' }}`
+- [x] `{{ title }}`
+- [ ] `[title]`
+- [ ] Un campo de clase no se puede mostrar en una plantilla a través de la sintaxis de la plantilla.
 
 [Angular.io - Interpolación de cadenas o Interpolación de texto](https://angular.io/guide/interpolation)
 
 #### P11. ¿Cuál es el propósito del método valueChanges en un FormControl?
 
-- \[ ] Se utiliza para configurar qué valores se permiten para el control.
-- \[ ] Se utiliza para cambiar el valor de un control a un nuevo valor. Llamaría a ese método y pasaría el nuevo valor para el campo de formulario. Incluso admite la aprobación de una matriz de valores que se pueden establecer con el tiempo.
-- \[ ] Devuelve un valor booleano basado en si el valor del control es diferente del valor con el que se inicializó.
-- \[x] Es un observable que emite cada vez que cambia el valor del control, por lo que puede reaccionar a nuevos valores y tomar decisiones lógicas en ese momento.
+- [ ] Se utiliza para configurar qué valores se permiten para el control.
+- [ ] Se utiliza para cambiar el valor de un control a un nuevo valor. Llamaría a ese método y pasaría el nuevo valor para el campo de formulario. Incluso admite la aprobación de una matriz de valores que se pueden establecer con el tiempo.
+- [ ] Devuelve un valor booleano basado en si el valor del control es diferente del valor con el que se inicializó.
+- [x] Es un observable que emite cada vez que cambia el valor del control, por lo que puede reaccionar a nuevos valores y tomar decisiones lógicas en ese momento.
 
 [Angular.io: visualización de un valor de control de origen](https://angular.io/guide/reactive-forms#displaying-a-form-control-value)
 
 #### P12. ¿Qué directiva se utiliza para vincular un `<a>` etiqueta a enrutamiento?
 
-- \[ ] routeTo
-- \[x] routerLink
-- \[ ] routePath
-- \[ ] appLink
+- [ ] routeTo
+- [x] routerLink
+- [ ] routePath
+- [ ] appLink
 
 [Angular.io - RouterLink](https://angular.io/api/router/RouterLink#description)
 
@@ -195,10 +195,10 @@ export class ShoppingCartComponent {
 }
 ```
 
-- \[ ] Hace que el `itemTotalChanged` clase de campo público.
-- \[ ] Proporciona una forma de enlazar valores a la `itemTotalChanged` campo de clase, así: `<app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>`.
-- \[x] Proporciona una forma de enlazar eventos a la `itemTotalChanged` campo de clase, así: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`.
-- \[ ] Es simplemente una forma de poner un comentario delante de un campo de clase para la documentación.
+- [ ] Hace que el `itemTotalChanged` clase de campo público.
+- [ ] Proporciona una forma de enlazar valores a la `itemTotalChanged` campo de clase, así: `<app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>`.
+- [x] Proporciona una forma de enlazar eventos a la `itemTotalChanged` campo de clase, así: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`.
+- [ ] Es simplemente una forma de poner un comentario delante de un campo de clase para la documentación.
 
 [Angular.io - Envío de datos al componente primario](https://angular.io/guide/inputs-outputs#sending-data-to-a-parent-component)
 
@@ -209,10 +209,10 @@ export class ShoppingCartComponent {
 <div [hidden]="!isVisible">Active</div>
 ```
 
-- \[ ] El `ngIf` es la abreviatura del otro ejemplo. Cuando Angular procesa esa directiva, escribe un elemento div en el DOM con la propiedad oculta.
-- \[ ] Son fundamentalmente lo mismo.
-- \[x] El `ngIf` no representa el div en el DOM si la expresión es false. El `hidden` El uso de la propiedad oculta el contenido div en la ventana gráfica del explorador, pero el div todavía está en el DOM.
-- \[ ] El `ngIf` es válido, pero el uso de la `hidden` la propiedad es incorrecta y generará un error.
+- [ ] El `ngIf` es la abreviatura del otro ejemplo. Cuando Angular procesa esa directiva, escribe un elemento div en el DOM con la propiedad oculta.
+- [ ] Son fundamentalmente lo mismo.
+- [x] El `ngIf` no representa el div en el DOM si la expresión es false. El `hidden` El uso de la propiedad oculta el contenido div en la ventana gráfica del explorador, pero el div todavía está en el DOM.
+- [ ] El `ngIf` es válido, pero el uso de la `hidden` la propiedad es incorrecta y generará un error.
 
 [StackOverflow](https://stackoverflow.com/a/39778145)
 
@@ -226,25 +226,25 @@ export class ShoppingCartComponent {
 </form>
 ```
 
-- \[ ]
+- [ ]
 
 ```html
 <button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
 ```
 
-- \[x]
+- [x]
 
 ```html
 <button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
 ```
 
-- \[ ]
+- [ ]
 
 ```html
 <button (click)="submit(userForm.value)" [ngForm.disabled]="userForm.valid">Save</button>
 ```
 
-- \[ ]
+- [ ]
 
 ```html
 <button (click)="submit(userForm.value)" *ngIf="userForm.valid">Save</button>
@@ -254,10 +254,10 @@ export class ShoppingCartComponent {
 
 #### T1S. Desea ver qué archivos se generarían creando un nuevo componente de tarjeta de contacto. ¿Qué comando usarías?
 
-- \[x] ng generar componente de tarjeta de contacto --dry-run
-- \[ ] ng generar componente contact-card --no-files
-- \[ ] ng generar componente componente --seco
-- \[ ] ng generar componente --excluir
+- [x] ng generar componente de tarjeta de contacto --dry-run
+- [ ] ng generar componente contact-card --no-files
+- [ ] ng generar componente componente --seco
+- [ ] ng generar componente --excluir
 
 [Angular.io - ng generar opciones](https://angular.io/cli/generate#options)
 
@@ -273,19 +273,19 @@ export class TitleCardComponent {
 }
 ```
 
-- \[ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
-- \[ ] `<h1 title="titleText">{{ titleText }}</h1>`
-- \[x] `<h1 [title]="titleText">{{ titleText }}</h1>`
-- \[ ] `<h1 titleText>{{ titleText }}</h1>`
+- [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
+- [ ] `<h1 title="titleText">{{ titleText }}</h1>`
+- [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
+- [ ] `<h1 titleText>{{ titleText }}</h1>`
 
 [Angular.io - Interpolación de cadenas](https://angular.io/guide/interpolation)
 
 #### P18. ¿Qué son los ganchos de ciclo de vida angular?
 
-- \[ ] registradores para rastrear el estado de una aplicación Angular
-- \[ ] proveedores que se pueden utilizar para realizar un seguimiento de las instancias de los componentes
-- \[ ] canalizaciones integradas que se pueden usar en plantillas para eventos DOM
-- \[x] métodos con nombre reservados para componentes y directivas a los que Angular llamará durante los tiempos establecidos en su ejecución, y se pueden usar para aprovechar esos momentos del ciclo de vida
+- [ ] registradores para rastrear el estado de una aplicación Angular
+- [ ] proveedores que se pueden utilizar para realizar un seguimiento de las instancias de los componentes
+- [ ] canalizaciones integradas que se pueden usar en plantillas para eventos DOM
+- [x] métodos con nombre reservados para componentes y directivas a los que Angular llamará durante los tiempos establecidos en su ejecución, y se pueden usar para aprovechar esos momentos del ciclo de vida
 
 [Angular.io - Ganchos de ciclo de vida](https://angular.io/guide/lifecycle-hooks)
 
@@ -295,19 +295,19 @@ export class TitleCardComponent {
 <span>Boss: {{job?.bossName}} </span>
 ```
 
-- \[ ] El ? es la abreviatura de la tubería asincrónica. El valor del trabajo debe ser observable.
-- \[x] Está utilizando el operador de navegación segura (?) en el campo de trabajo. Si el campo de trabajo no está definido, se omitirá el acceso al bossName y no se producirá ningún error.
-- \[ ] Hay un error en la sintaxis de la plantilla. ¿El? no es válido aquí.
-- \[ ] Es minimizar el valor del trabajo si tiene uno; de lo contrario, está mostrando el bossName.
+- [ ] El ? es la abreviatura de la tubería asincrónica. El valor del trabajo debe ser observable.
+- [x] Está utilizando el operador de navegación segura (?) en el campo de trabajo. Si el campo de trabajo no está definido, se omitirá el acceso al bossName y no se producirá ningún error.
+- [ ] Hay un error en la sintaxis de la plantilla. ¿El? no es válido aquí.
+- [ ] Es minimizar el valor del trabajo si tiene uno; de lo contrario, está mostrando el bossName.
 
 [StackOverflow](https://stackoverflow.com/a/60182134)
 
 #### P20. ¿Cómo configuraría una definición de ruta para un UserDetailComponent que admita la ruta de acceso URL user/23 (donde 23 representa el identificador del usuario solicitado)?
 
-- \[x] `{ path: 'user/:id', component: UserDetailComponent }`
-- \[ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
-- \[ ] `{ routedPath: 'user/:id', component: UserDetailComponent }`
-- \[ ] `{ destination: new UserDetailComponent(), route: 'user/:id' }`
+- [x] `{ path: 'user/:id', component: UserDetailComponent }`
+- [ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
+- [ ] `{ routedPath: 'user/:id', component: UserDetailComponent }`
+- [ ] `{ destination: new UserDetailComponent(), route: 'user/:id' }`
 
 [CodeCraft - Rutas parametrizadas](https://codecraft.tv/courses/angular/routing/parameterised-routes/#_configuration)
 
@@ -332,10 +332,10 @@ export class CalloutDirective {
 }
 ```
 
-- \[x] Están configurando el campo CalloutDirective.fontWeight en función de si el mouse está o no sobre el elemento DOM. A continuación, HostListener establece la propiedad CSS font-weight en el valor fontWeight.
-- \[ ] Están configurando la directiva para comprobar el elemento DOM en el que se encuentra. Si tiene enlaces de eventos agregados para el mouse, ingrese y salga, usará este código. De lo contrario, no pasará nada.
-- \[ ] Este es un uso incorrecto de HostListener y HostBinding. Los decoradores hostListener y HostBinding no hacen nada sobre las directivas; sólo funcionan cuando se utilizan en componentes.
-- \[ ] Si el elemento DOM en el que se coloca esta directiva tiene la propiedad CSS font-weight establecida en él, los eventos mouseenter y mouseleave se generarán.
+- [x] Están configurando el campo CalloutDirective.fontWeight en función de si el mouse está o no sobre el elemento DOM. A continuación, HostListener establece la propiedad CSS font-weight en el valor fontWeight.
+- [ ] Están configurando la directiva para comprobar el elemento DOM en el que se encuentra. Si tiene enlaces de eventos agregados para el mouse, ingrese y salga, usará este código. De lo contrario, no pasará nada.
+- [ ] Este es un uso incorrecto de HostListener y HostBinding. Los decoradores hostListener y HostBinding no hacen nada sobre las directivas; sólo funcionan cuando se utilizan en componentes.
+- [ ] Si el elemento DOM en el que se coloca esta directiva tiene la propiedad CSS font-weight establecida en él, los eventos mouseenter y mouseleave se generarán.
 
 [Océano Digital](https://www.digitalocean.com/community/tutorials/angular-hostbinding-hostlistener)
 
@@ -346,10 +346,10 @@ export class CalloutDirective {
 <span *ngIf="">Invalid field data</span>
 ```
 
-- \[x] Puede utilizar una variable de referencia de plantilla y la característica exportAs que tiene la directiva ngModel.
-- \[ ] Puede utilizar la directiva ngModel en combinación con el nombre del campo de entrada.
-- \[ ] Puede usar una variable de referencia de plantilla para el elemento de entrada HTML y, a continuación, comprobar la propiedad válida fuera de eso.
-- \[ ] No es posible obtener acceso al valor del campo con formularios basados en plantillas. Debe usar formas reactivas para eso.
+- [x] Puede utilizar una variable de referencia de plantilla y la característica exportAs que tiene la directiva ngModel.
+- [ ] Puede utilizar la directiva ngModel en combinación con el nombre del campo de entrada.
+- [ ] Puede usar una variable de referencia de plantilla para el elemento de entrada HTML y, a continuación, comprobar la propiedad válida fuera de eso.
+- [ ] No es posible obtener acceso al valor del campo con formularios basados en plantillas. Debe usar formas reactivas para eso.
 
 [Angular.io -Mostrar y ocultar error de validación ](https://angular.io/guide/forms#show-and-hide-validation-error-messages)
 
@@ -361,10 +361,10 @@ export class CalloutDirective {
 <h1 #headerText>User List</h1>
 ```
 
-- \[x] un Angular ElementRef, un contenedor alrededor de un elemento nativo
-- \[ ] el texto interno de la `<h1>` elemento
-- \[ ] una clase de componente de encabezado
-- \[ ] el tipo de elemento DOM nativo de HTMLHeadingElement
+- [x] un Angular ElementRef, un contenedor alrededor de un elemento nativo
+- [ ] el texto interno de la `<h1>` elemento
+- [ ] una clase de componente de encabezado
+- [ ] el tipo de elemento DOM nativo de HTMLHeadingElement
 
 [Pluralsight - Variable de referencia de plantilla](https://www.pluralsight.com/guides/how-to-use-template-reference-variables-in-angular)
 
@@ -374,10 +374,10 @@ export class CalloutDirective {
 [{ provide: FormattedLogger, useClass: Logger }][{ provide: FormattedLogger, useExisting: Logger }];
 ```
 
-- \[ ] Son lo mismo. Ambos darán como resultado una nueva instancia de Logger que está enlazada al token FormattedLogger.
-- \[x] La sintaxis useClass indica al inyector que cree una nueva instancia de Logger y la enlace al token FormattedLogger. La sintaxis useExisting hace referencia a una instancia de objeto ya existente declarada como Logger.
-- \[ ] Ambos están equivocados. Un tipo fuerte connot se puede utilizar para useClass o useExisting.
-- \[ ] Son lo mismo. Ambos darán como resultado que el token FormattedLogger sea un alias para la instancia de Logger.
+- [ ] Son lo mismo. Ambos darán como resultado una nueva instancia de Logger que está enlazada al token FormattedLogger.
+- [x] La sintaxis useClass indica al inyector que cree una nueva instancia de Logger y la enlace al token FormattedLogger. La sintaxis useExisting hace referencia a una instancia de objeto ya existente declarada como Logger.
+- [ ] Ambos están equivocados. Un tipo fuerte connot se puede utilizar para useClass o useExisting.
+- [ ] Son lo mismo. Ambos darán como resultado que el token FormattedLogger sea un alias para la instancia de Logger.
 
 [Angular.io - Proveedores de dependencia](https://angular.io/guide/dependency-injection-providers#defining-providers)
 
@@ -393,10 +393,10 @@ export class CalloutDirective {
    }
 ```
 
-- \[ ] una asignación clave/valor para establecer valores de @Input en la instancia del componente enrutado
-- \[x] una forma de incluir datos estáticos de solo lectura asociados con la ruta que se pueden recuperar de ActivatedRoute
-- \[ ] una propiedad de la ruta que se puede utilizar para cargar datos dinámicos para la ruta
-- \[ ] un objeto que se inyectará automáticamente en el constructor del componente enrutado.
+- [ ] una asignación clave/valor para establecer valores de @Input en la instancia del componente enrutado
+- [x] una forma de incluir datos estáticos de solo lectura asociados con la ruta que se pueden recuperar de ActivatedRoute
+- [ ] una propiedad de la ruta que se puede utilizar para cargar datos dinámicos para la ruta
+- [ ] un objeto que se inyectará automáticamente en el constructor del componente enrutado.
 
 [TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object)
 
@@ -414,10 +414,10 @@ export class ProductComponent {
 }
 ```
 
-- \[ ] El `<div>` actúa como marcador de posición. Si el campo de clase de producto es "veraz", el `<div>` será reemplazado por solo el `product.name` valor; si no, entonces nada se renderizará.
-- \[ ] El `<div>` siempre se representará, y si el campo de producto es "verdadero", el `<div>` contendrá el elemento `product.name` valor; De lo contrario, representará el `<div>` elemento sin valor en él.
-- \[ ] Produce un error, ya que ngIf no es una directiva estructural incorporada.
-- \[x] Si el campo de clase de producto es "verdadero", entonces el DOM renderizado incluirá el `<div>` con el valor de la `product.name` campo. Si no es "veraz", el DOM renderizado no contendrá el `<div>` elemento.
+- [ ] El `<div>` actúa como marcador de posición. Si el campo de clase de producto es "veraz", el `<div>` será reemplazado por solo el `product.name` valor; si no, entonces nada se renderizará.
+- [ ] El `<div>` siempre se representará, y si el campo de producto es "verdadero", el `<div>` contendrá el elemento `product.name` valor; De lo contrario, representará el `<div>` elemento sin valor en él.
+- [ ] Produce un error, ya que ngIf no es una directiva estructural incorporada.
+- [x] Si el campo de clase de producto es "verdadero", entonces el DOM renderizado incluirá el `<div>` con el valor de la `product.name` campo. Si no es "veraz", el DOM renderizado no contendrá el `<div>` elemento.
 
 [Referencia (angular.io)](https://angular.io/api/common/NgIf)
 
@@ -434,10 +434,10 @@ export class AppModule {}
 platformBrowserDynamic().bootstrapModule(AppModule);
 ```
 
-- \[ ] Ejecuta una prueba unitaria para un NgModule.
-- \[ ] Proporciona una forma de codificar la estructura del documento de una aplicación Angular. El @NgModule es una forma de comentario de código en línea que el compilador de TypeScript ignora, pero que aparecerá con un formato especial en las aplicaciones de edición de código.
-- \[ ] Declara un módulo angular llamado AppModule y lo pone a disposición para la carga diferida en toda la aplicación.
-- \[x] Declara un módulo angular denominado AppModule que contiene un componente de arranque denominado AppComponent. Luego registra ese módulo con Angular, para que la aplicación pueda iniciarse.
+- [ ] Ejecuta una prueba unitaria para un NgModule.
+- [ ] Proporciona una forma de codificar la estructura del documento de una aplicación Angular. El @NgModule es una forma de comentario de código en línea que el compilador de TypeScript ignora, pero que aparecerá con un formato especial en las aplicaciones de edición de código.
+- [ ] Declara un módulo angular llamado AppModule y lo pone a disposición para la carga diferida en toda la aplicación.
+- [x] Declara un módulo angular denominado AppModule que contiene un componente de arranque denominado AppComponent. Luego registra ese módulo con Angular, para que la aplicación pueda iniciarse.
 
 [Angular.io - El NgModule básico](https://angular.io/guide/ngmodules#the-basic-ngmodule)
 
@@ -453,10 +453,10 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 }
 ```
 
-- \[x] Antes de cargar el _UserComponent_, el enrutador se suscribirá a la _Observable_ devuelto por un _resolver_ método en el _UserResolverService_. Esta técnica se puede utilizar para obtener datos precargados para un _ruta_.
-- \[ ] Después de la _ruta_ se termina de resolver, y el componente se carga y se procesa, el _UserResolverService_ tendrá un método denominado _usuario_ ejecutar que limpiará cualquier conexión de datos abiertos.
-- \[ ] Hay un error. El nombre correcto de la propiedad es _onResolver_.
-- \[ ] El _UserComponent_ tendrá un parámetro en su constructor para _usuario_, y el _enrutador_ manejará la inyección de un valor para eso de una llamada a un _usuario_ método en el _UserResolverService_.
+- [x] Antes de cargar el _UserComponent_, el enrutador se suscribirá a la _Observable_ devuelto por un _resolver_ método en el _UserResolverService_. Esta técnica se puede utilizar para obtener datos precargados para un _ruta_.
+- [ ] Después de la _ruta_ se termina de resolver, y el componente se carga y se procesa, el _UserResolverService_ tendrá un método denominado _usuario_ ejecutar que limpiará cualquier conexión de datos abiertos.
+- [ ] Hay un error. El nombre correcto de la propiedad es _onResolver_.
+- [ ] El _UserComponent_ tendrá un parámetro en su constructor para _usuario_, y el _enrutador_ manejará la inyección de un valor para eso de una llamada a un _usuario_ método en el _UserResolverService_.
 
 [angular.io](https://angular.io/api/router/Resolve)
 
@@ -472,19 +472,19 @@ export class TabsListComponent {
 }
 ```
 
-- \[ ] Si la hubiera _TabsComponent_ se añaden elementos a la _TabsListComponent_ plantilla, se pondrán en el <ng-content> en tiempo de ejecución.
-- \[ ] Crea _TabComponent_ componentes en el _TabsListComponent_ plantilla cuando un _TabsListComponent_ se crea una instancia.
-- \[x] Proporciona acceso desde dentro de la clase de componente a cualquier _TabComponent_ componentes que se proyectaron en el contenido <ng-content> para este componente.
-- \[ ] Restringe los elementos permitidos que se pueden poner en un _TabsListComponent_ elemento para permitir sólo _TabComponent_ Elementos.
+- [ ] Si la hubiera _TabsComponent_ se añaden elementos a la _TabsListComponent_ plantilla, se pondrán en el <ng-content> en tiempo de ejecución.
+- [ ] Crea _TabComponent_ componentes en el _TabsListComponent_ plantilla cuando un _TabsListComponent_ se crea una instancia.
+- [x] Proporciona acceso desde dentro de la clase de componente a cualquier _TabComponent_ componentes que se proyectaron en el contenido <ng-content> para este componente.
+- [ ] Restringe los elementos permitidos que se pueden poner en un _TabsListComponent_ elemento para permitir sólo _TabComponent_ Elementos.
 
 [betterprogramming.pub](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
 
 #### P30. Para que Angular procese componentes en una aplicación, ¿dónde deben registrarse los tipos de componentes?
 
-- \[ ] dentro de una etiqueta de script en el archivo index.html
-- \[ ] en una etiqueta de metadatos del decorador NgModule denominada _Componentes_
-- \[ ] No es necesario registrarse, simplemente incluya los archivos de componentes en un directorio de aplicaciones.
-- \[x] en una propiedad de metadatos del decorador NgModule denominada _declaraciones_
+- [ ] dentro de una etiqueta de script en el archivo index.html
+- [ ] en una etiqueta de metadatos del decorador NgModule denominada _Componentes_
+- [ ] No es necesario registrarse, simplemente incluya los archivos de componentes en un directorio de aplicaciones.
+- [x] en una propiedad de metadatos del decorador NgModule denominada _declaraciones_
 
 [angular.io](https://angular.io/guide/ngmodule-api#ngmodule-metadata)
 
@@ -503,10 +503,10 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 );
 ```
 
-- \[ ] Realiza un seguimiento de cualquier posible cambio de Ul y fallará la prueba unitaria si se realiza alguna.
-- \[ ] Se utiliza para garantizar la estabilidad de la plantilla de componentes en múltiples pruebas unitarias en todo el conjunto de pruebas.
-- \[x] Obliga a Angular a realizar la detección de cambios, lo que representará el _UserCardComponent_ antes de poder validar su plantilla.
-- \[ ] Se utiliza para registrar eventos de detección de cambios en la consola durante las ejecuciones de pruebas unitarias.
+- [ ] Realiza un seguimiento de cualquier posible cambio de Ul y fallará la prueba unitaria si se realiza alguna.
+- [ ] Se utiliza para garantizar la estabilidad de la plantilla de componentes en múltiples pruebas unitarias en todo el conjunto de pruebas.
+- [x] Obliga a Angular a realizar la detección de cambios, lo que representará el _UserCardComponent_ antes de poder validar su plantilla.
+- [ ] Se utiliza para registrar eventos de detección de cambios en la consola durante las ejecuciones de pruebas unitarias.
 
 [angular.io](https://angular.io/api/core/testing/ComponentFixture#detectChanges)
 
@@ -521,19 +521,19 @@ export class ToolsComponent {
 }
 ```
 
-- \[x] /usuario/15
-- \[ ] /usuario?id=15
-- \[ ] /usuario:15
-- \[ ] /usuario;id=15
+- [x] /usuario/15
+- [ ] /usuario?id=15
+- [ ] /usuario:15
+- [ ] /usuario;id=15
 
 [angular.io](https://angular.io/api/router/Router#navigate)
 
 #### P33. Cuando se proporciona un servicio para root y también se agrega a la configuración del proveedor para un módulo de carga diferida, ¿qué instancia de ese servicio proporciona el inyector a los constructores en el módulo de carga diferida?
 
-- \[x] Se crea una nueva instancia de ese servicio cuando el módulo se carga diferidamente.
-- \[ ] No se permite proporcionar un servicio del mismo tipo a nivel de módulo cargado perezosamente.
-- \[ ] Si aún no se ha creado una instancia del servicio en el nivel raíz. creará uno allí y luego lo usará.
-- \[ ] Una sola instancia de ese servicio siempre se crea una instancia en la raíz y es la única que se usa, incluso dentro de los módulos perezosos.
+- [x] Se crea una nueva instancia de ese servicio cuando el módulo se carga diferidamente.
+- [ ] No se permite proporcionar un servicio del mismo tipo a nivel de módulo cargado perezosamente.
+- [ ] Si aún no se ha creado una instancia del servicio en el nivel raíz. creará uno allí y luego lo usará.
+- [ ] Una sola instancia de ese servicio siempre se crea una instancia en la raíz y es la única que se usa, incluso dentro de los módulos perezosos.
 
 #### P34. ¿Qué está haciendo el decorador de HostBinding en esta directiva?
 
@@ -546,19 +546,19 @@ export class HighlightDirective {
 }
 ```
 
-- \[x] Es agregar la clase CSS nombrada resaltada a cualquier elemento DOM que tenga la directiva appHighlight.
-- \[ ] HostBinding no hace nada en directivas, solo en componentes.
-- \[ ] Especifica si el elemento host obtiene la clase resaltada agregada a su atributo de clase, entonces el resaltado del campo de clase directiva se establecerá en true; y si no se agrega en el host, se establecerá en false.
-- \[ ] Es crear un estilo en línea en el elemento host con una propiedad CSS denominada highlight establecida en true.
+- [x] Es agregar la clase CSS nombrada resaltada a cualquier elemento DOM que tenga la directiva appHighlight.
+- [ ] HostBinding no hace nada en directivas, solo en componentes.
+- [ ] Especifica si el elemento host obtiene la clase resaltada agregada a su atributo de clase, entonces el resaltado del campo de clase directiva se establecerá en true; y si no se agrega en el host, se establecerá en false.
+- [ ] Es crear un estilo en línea en el elemento host con una propiedad CSS denominada highlight establecida en true.
 
 [StackOverflow](https://stackoverflow.com/a/46207423)
 
 #### P35. En las formas reactivas, qué tipo de clase de forma angular se utiliza en el DOM nativo <form> elemento para conectarlo?
 
-- \[ ] `FormArray`
-- \[ ] `FormControl`
-- \[x] `FormGroup`
-- \[ ] `all of these answers`
+- [ ] `FormArray`
+- [ ] `FormControl`
+- [x] `FormGroup`
+- [ ] `all of these answers`
 
 #### P36. Suponiendo que el nombre de usuario FormControl se ha configurado con un validador minLength, ¿cómo puede configurar una visualización de error en el siguiente marcado de formularios reactivos para el campo de nombre de usuario?
 
@@ -569,7 +569,7 @@ export class HighlightDirective {
 </form>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
     <span *ngIf="username.minLength.invalid"›
@@ -577,13 +577,13 @@ export class HighlightDirective {
     </span>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
     <span *ngIf="form.get('username').getError('minLength') as minLengthError">
@@ -591,7 +591,7 @@ export class HighlightDirective {
     </span>
 ```
 
-- \[x]
+- [x]
 
 ```ts
 <input type="text" formControlName="username" #userName="ngModer">
@@ -604,10 +604,10 @@ export class HighlightDirective {
 
 #### P37. ¿Cómo maneja el modo de encapsulación de vista emulada CSS para un componente?
 
-- \[ ] Representa el CSS exactamente como lo escribió sin ningún cambio.
-- \[ ] Hace uso del marcado DOM de sombra y CSS.
-- \[x] Crea atributos únicos para los elementos DOM y los ámbitos de los selectores CSS que escribe en esos identificadores de atributos.
-- \[ ] Representa todas las reglas CSS que escribe como CSS en línea en todos los elementos DOM en los que las usa en la plantilla.
+- [ ] Representa el CSS exactamente como lo escribió sin ningún cambio.
+- [ ] Hace uso del marcado DOM de sombra y CSS.
+- [x] Crea atributos únicos para los elementos DOM y los ámbitos de los selectores CSS que escribe en esos identificadores de atributos.
+- [ ] Representa todas las reglas CSS que escribe como CSS en línea en todos los elementos DOM en los que las usa en la plantilla.
 
 [Angular.io](https://angular.io/guide/view-encapsulation#inspecting-generated-css)
 
@@ -620,10 +620,10 @@ TestBed.configureTestingModule({
 let fixture = TestBed.createComponent(UserCardComponent);
 ```
 
-- \[ ] `fixture.componentTemplate`
-- \[ ] `fixture.getComponentHtml()`
-- \[x] `fixture.nativeElement`
-- \[ ] `fixture.componentInstance.template `
+- [ ] `fixture.componentTemplate`
+- [ ] `fixture.getComponentHtml()`
+- [x] `fixture.nativeElement`
+- [ ] `fixture.componentInstance.template `
 
 [StackOverflow](https://stackoverflow.com/a/56504773)
 
@@ -648,7 +648,7 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- \[x]
+- [x]
 
 ```ts
  <app-card>
@@ -659,7 +659,7 @@ export class BioComponent { }
  </app-card>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <h1>Data Card</h1>
@@ -668,7 +668,7 @@ export class BioComponent { }
  </app-bio>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <app-card>
@@ -681,7 +681,7 @@ export class BioComponent { }
 </app-card>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <app-card>
@@ -706,7 +706,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- \[x]
+- [x]
 
 ```ts
 <app-user-card>
@@ -717,14 +717,14 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <h1>User Data</h1>
 <p>Jenny Smith<p>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <app-user-card>
@@ -732,7 +732,7 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <div app-user-card>
@@ -747,19 +747,19 @@ export class BioComponent { }
 constructor(@Inject('Logger') private logger) { }
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 providers: [Logger];
 ```
 
-- \[x]
+- [x]
 
 ```ts
 providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 @Injectable({
@@ -767,7 +767,7 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 })
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 providers: [{ provide: 'Logger' }];
@@ -795,10 +795,10 @@ getSettings()
 }}
 ```
 
-- \[ ] El método de canalización RxJs es un alias para el método subscribe, por lo que una llamada a `getSettings` ejecutará la consulta get. El operador de reintento se utiliza para indicar a la llamada de canalización que vuelva a intentar la consulta get tres veces.
-- \[ ] Producirá un error en tiempo de ejecución porque el método de canalización no está disponible fuera del `Httpclient.get` llamar.
-- \[ ] Cada llamada al método getSettings dará como resultado que el httpclient realice tres solicitudes de obtención totales a settingsUrl, lo cual no es ideal porque siempre habrá dos llamadas adicionales que no son necesarias. El operador de reintento no debe utilizarse de esta manera.
-- \[x] Cuando se suscriba el resultado del método getSettings, se realizará la llamada HTTP GET; si falla, se volverá a intentar hasta tres veces antes de que se rinda y devuelva un error.
+- [ ] El método de canalización RxJs es un alias para el método subscribe, por lo que una llamada a `getSettings` ejecutará la consulta get. El operador de reintento se utiliza para indicar a la llamada de canalización que vuelva a intentar la consulta get tres veces.
+- [ ] Producirá un error en tiempo de ejecución porque el método de canalización no está disponible fuera del `Httpclient.get` llamar.
+- [ ] Cada llamada al método getSettings dará como resultado que el httpclient realice tres solicitudes de obtención totales a settingsUrl, lo cual no es ideal porque siempre habrá dos llamadas adicionales que no son necesarias. El operador de reintento no debe utilizarse de esta manera.
+- [x] Cuando se suscriba el resultado del método getSettings, se realizará la llamada HTTP GET; si falla, se volverá a intentar hasta tres veces antes de que se rinda y devuelva un error.
 
 [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
 
@@ -806,10 +806,10 @@ getSettings()
 
 #### P43. Cuando un servicio requiere alguna configuración para inicializar su estado predeterminado a través de un método, ¿cómo puede asegurarse de que dicho método se invoca antes de que el servicio se inyecte en cualquier lugar?
 
-- \[ ] En su lugar, coloque la lógica de ese método de servicio en el constructor de servicio.
-- \[x] Utilice un proveedor de fábrica en el nivel raíz de AppModule que dependa del servicio para llamar a ese método de servicio.
-- \[ ] no es posible hacerlo al inicio de la aplicación; solo puede hacerlo a nivel de componente.
-- \[ ] Cree una instancia del servicio en el nivel global (ámbito de ventana) y, a continuación, llame a ese método.
+- [ ] En su lugar, coloque la lógica de ese método de servicio en el constructor de servicio.
+- [x] Utilice un proveedor de fábrica en el nivel raíz de AppModule que dependa del servicio para llamar a ese método de servicio.
+- [ ] no es posible hacerlo al inicio de la aplicación; solo puede hacerlo a nivel de componente.
+- [ ] Cree una instancia del servicio en el nivel global (ámbito de ventana) y, a continuación, llame a ese método.
 
 #### P44. ¿Qué declaración describe mejor este uso del banco de pruebas?
 
@@ -821,19 +821,19 @@ TestBed.configureTestingModule({
 const userService = TestBed.get(UserService);
 ```
 
-- \[ ] El banco de pruebas es necesario en cualquier momento que desee hacer uso de un objeto espía en una prueba unitaria para un proveedor angular.
-- \[ ] El banco de pruebas se utiliza para probar la vista de un componente.
-- \[x] El Banco de Pruebas despliega un NgModule con dos proveedores y maneja cualquier inyección de dependencia. Si alguna clase Angular solicita el DataService en su constructor, el Banco de Pruebas inyectará spy en ese constructor.
-- \[ ] El Banco de pruebas está configurando al ejecutor de pruebas para que le indique que solo ejecute pruebas para los dos proveedores enumerados en su matriz de proveedores.
+- [ ] El banco de pruebas es necesario en cualquier momento que desee hacer uso de un objeto espía en una prueba unitaria para un proveedor angular.
+- [ ] El banco de pruebas se utiliza para probar la vista de un componente.
+- [x] El Banco de Pruebas despliega un NgModule con dos proveedores y maneja cualquier inyección de dependencia. Si alguna clase Angular solicita el DataService en su constructor, el Banco de Pruebas inyectará spy en ese constructor.
+- [ ] El Banco de pruebas está configurando al ejecutor de pruebas para que le indique que solo ejecute pruebas para los dos proveedores enumerados en su matriz de proveedores.
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
 
 #### P45. ¿Cuál es la principal diferencia entre un componente y una directiva?
 
-- \[ ] Un componente utiliza una propiedad de metadatos selector y una directiva no.
-- \[ ] Se puede utilizar una directiva para agregar eventos personalizados al DOM y un componente no.
-- \[x] Un componente tiene una plantilla y una directiva no.
-- \[ ] Una directiva sólo puede dirigirse a elementos DOM nativos.
+- [ ] Un componente utiliza una propiedad de metadatos selector y una directiva no.
+- [ ] Se puede utilizar una directiva para agregar eventos personalizados al DOM y un componente no.
+- [x] Un componente tiene una plantilla y una directiva no.
+- [ ] Una directiva sólo puede dirigirse a elementos DOM nativos.
 
 [StackOverflow](https://stackoverflow.com/a/34616190)
 
@@ -851,10 +851,10 @@ const userService = TestBed.get(UserService);
   <p [appTruncate]="10">Some very long text here</p>
 ```
 
-- \[x] `@Input() appTruncate: number;`
-- \[ ] `@Output() appTruncate;`
-- \[ ] `constructor(maxLength: number) { }`
-- \[ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
+- [x] `@Input() appTruncate: number;`
+- [ ] `@Output() appTruncate;`
+- [ ] `constructor(maxLength: number) { }`
+- [ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
 
 [Angular.io](https://angular.io/guide/attribute-directives#passing-values-into-an-attribute-directive)
 
@@ -872,16 +872,16 @@ export class OrderService {
 }
 ```
 
-- \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
-- \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
-- \[x]
+- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
+- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
+- [x]
 
 ```ts
 const options = { params: new HttpParams().set('year', year) };
 return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 getOrdersByYear(year: number): Observable<Order[]> {
@@ -905,10 +905,10 @@ getOrdersByYear(year: number): Observable<Order[]> {
     }
 ```
 
-- \[ ] Se declara que el `OrderHistoryComponent` tendrá su propia versión de un `DataService` y que nunca debe utilizar ninguna instancia existente. El `DataService` necesitaría ser instanciado dentro de la clase como un campo privado para que este código esté completo y funcione.
-- \[x] Cuando Angular crea una nueva instancia de la `OrderHistoryComponent`, el inyector proporcionará una instancia de un `DataService` al primer argumento del constructor de componentes. El constructor `dataService` se usará para establecer un campo de instancia privada con el mismo nombre en la instancia.
-- \[ ] Proporciona una forma de hacer pruebas de componentes solamente; el constructor no tiene ningún uso en la ejecución real de la aplicación Angular.
-- \[ ] Permite que el elemento personalizado al que se dirige el componente tenga una propiedad personalizada denominada `dataService` que se puede utilizar para enlazar un `DataService` instancia a.
+- [ ] Se declara que el `OrderHistoryComponent` tendrá su propia versión de un `DataService` y que nunca debe utilizar ninguna instancia existente. El `DataService` necesitaría ser instanciado dentro de la clase como un campo privado para que este código esté completo y funcione.
+- [x] Cuando Angular crea una nueva instancia de la `OrderHistoryComponent`, el inyector proporcionará una instancia de un `DataService` al primer argumento del constructor de componentes. El constructor `dataService` se usará para establecer un campo de instancia privada con el mismo nombre en la instancia.
+- [ ] Proporciona una forma de hacer pruebas de componentes solamente; el constructor no tiene ningún uso en la ejecución real de la aplicación Angular.
+- [ ] Permite que el elemento personalizado al que se dirige el componente tenga una propiedad personalizada denominada `dataService` que se puede utilizar para enlazar un `DataService` instancia a.
 
 [StackOverflow](https://stackoverflow.com/a/49755822)
 
@@ -922,13 +922,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </div>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <div #inactive>User is not active.</div>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <div *ngIf="inactive">
@@ -936,7 +936,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </div>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <ng-template #else="inactive">
@@ -944,7 +944,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </ng-template>
 ```
 
-- \[x]
+- [x]
 
 ```ts
 <ng-template #inactive>
@@ -956,7 +956,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### Pregunta 50. ¿Cuál es la sintaxis correcta para que una definición de ruta cargue diferidamente un módulo de entidad?
 
-- \[ ]
+- [ ]
 
 ```
   {
@@ -965,7 +965,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
   }
 ```
 
-- \[x]
+- [x]
 
 ```
 {
@@ -974,7 +974,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
-- \[ ]
+- [ ]
 
 ```
 {
@@ -983,7 +983,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
-- \[ ]
+- [ ]
 
 ```
 {
@@ -1011,10 +1011,10 @@ export class UserFormControl implements OnInit {
 }
 ```
 
-- \[ ] El `FormControl` para `username` se está configurando para excluir tres validadores de los validadores que se le permite usar.
-- \[ ] El `FormControl` para `username` se está configurando para permitir el uso de tres posibles validadores: `required, maxLength`, y uno personalizado denominado `unique`. Para habilitar estos `validators`, sería necesario colocar una directiva de validador en los campos de formulario del marcado.
-- \[ ] La validación no se puede configurar de esta manera en formas reactivas.
-- \[x] El `FormControl` para `username` se está configurando con tres validadores: el `required` y `minLength` validadores que provienen de Angular y una función de validación personalizada denominada `unique` que comprueba si el valor no es igual a la cadena `admin`.
+- [ ] El `FormControl` para `username` se está configurando para excluir tres validadores de los validadores que se le permite usar.
+- [ ] El `FormControl` para `username` se está configurando para permitir el uso de tres posibles validadores: `required, maxLength`, y uno personalizado denominado `unique`. Para habilitar estos `validators`, sería necesario colocar una directiva de validador en los campos de formulario del marcado.
+- [ ] La validación no se puede configurar de esta manera en formas reactivas.
+- [x] El `FormControl` para `username` se está configurando con tres validadores: el `required` y `minLength` validadores que provienen de Angular y una función de validación personalizada denominada `unique` que comprueba si el valor no es igual a la cadena `admin`.
 
 [Angular.io - Validación de formularios](https://angular.io/guide/form-validation)
 
@@ -1029,10 +1029,10 @@ export class UserFormControl implements OnInit {
 export class DataService { }
 ```
 
-- \[ ] Registra un proveedor para el servicio que está disponible solo en el nivel de módulo raíz, no para ningún módulo secundario.
-- \[x] Registra un proveedor para el servicio en el inyector de aplicación raíz, haciendo que una sola instancia del mismo esté disponible en toda la aplicación.
-- \[ ] Lo hace para que el servicio se pueda inyectar solo en el componente de arranque para la aplicación.
-- \[ ] Establece una regla de tiempo de compilación que le permite colocar el tipo de servicio solo en la propiedad de metadatos de proveedores de la raíz NgModule.
+- [ ] Registra un proveedor para el servicio que está disponible solo en el nivel de módulo raíz, no para ningún módulo secundario.
+- [x] Registra un proveedor para el servicio en el inyector de aplicación raíz, haciendo que una sola instancia del mismo esté disponible en toda la aplicación.
+- [ ] Lo hace para que el servicio se pueda inyectar solo en el componente de arranque para la aplicación.
+- [ ] Establece una regla de tiempo de compilación que le permite colocar el tipo de servicio solo en la propiedad de metadatos de proveedores de la raíz NgModule.
 
 [Angular.io](https://angular.io/guide/providers#providing-a-service)
 
@@ -1046,10 +1046,10 @@ export interface AppSettings {
 export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
 
-- \[ ] InjectionToken está agregando una instancia de AppSettings al proveedor raíz a través de la llamada al constructor InjectionToken, lo que la hace automáticamente disponible para todos los NgModules, servicios y componentes en toda la aplicación Angular sin la necesidad de inyectarla en ningún lugar.
-- \[x] InjectionToken se utiliza para crear un token de proveedor para una dependencia que no es de clase. Un literal Object puede ser proveedor como un valor para el tipo de proveedor de dependencia APP_SETTINGS que luego se puede inyectar en componentes, servicios, etc.
-- \[ ] El InjectionToken se utiliza para crear un decorador dinámico para AppSettings que se puede utilizar en los parámetros del constructor a través de un decorador @AppSettings.
-- \[ ] Este código tiene un error ya que no puede utilizar una interfaz de TypeScript para el tipo genérico en injectionToken
+- [ ] InjectionToken está agregando una instancia de AppSettings al proveedor raíz a través de la llamada al constructor InjectionToken, lo que la hace automáticamente disponible para todos los NgModules, servicios y componentes en toda la aplicación Angular sin la necesidad de inyectarla en ningún lugar.
+- [x] InjectionToken se utiliza para crear un token de proveedor para una dependencia que no es de clase. Un literal Object puede ser proveedor como un valor para el tipo de proveedor de dependencia APP_SETTINGS que luego se puede inyectar en componentes, servicios, etc.
+- [ ] El InjectionToken se utiliza para crear un decorador dinámico para AppSettings que se puede utilizar en los parámetros del constructor a través de un decorador @AppSettings.
+- [ ] Este código tiene un error ya que no puede utilizar una interfaz de TypeScript para el tipo genérico en injectionToken
 
 #### Pregunta 54. Para el siguiente ejemplo de formularios controlados por plantillas, ¿qué argumento se puede pasar al método submit en el evento click para enviar los datos del formulario?
 
@@ -1061,10 +1061,10 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 </form>
 ```
 
-- \[x] submit(form.value)
-- \[ ] enviar($event)
-- \[ ] submit(ngForm.value)
-- \[ ] submit(FirstName, lastName)
+- [x] submit(form.value)
+- [ ] enviar($event)
+- [ ] submit(ngForm.value)
+- [ ] submit(FirstName, lastName)
 
 #### Pregunta 55. ¿Cuál es el propósito de la configuración de la propiedad prelodingStrategy en este código de enrutador?
 
@@ -1076,10 +1076,10 @@ RouterModule.forRoot(
 );
 ```
 
-- \[ ] Permite la opción de marcar rutas individuales para la precarga.
-- \[ ] Precarga todas las dependencias para las rutas, creando instancias de servicios cuando la aplicación se inicia por primera vez
-- \[ ] Garantiza que todos los módulos se integren en un solo archivo de paquete de módulo de aplicación.
-- \[ ] Configura el enrutador para cargar inmediatamente todas las rutas que tienen una propiedad loadChildren (rutas que normalmente se cargan cuando se solicita)
+- [ ] Permite la opción de marcar rutas individuales para la precarga.
+- [ ] Precarga todas las dependencias para las rutas, creando instancias de servicios cuando la aplicación se inicia por primera vez
+- [ ] Garantiza que todos los módulos se integren en un solo archivo de paquete de módulo de aplicación.
+- [ ] Configura el enrutador para cargar inmediatamente todas las rutas que tienen una propiedad loadChildren (rutas que normalmente se cargan cuando se solicita)
 
 #### Pregunta 56. ¿Cuál es una forma alternativa de escribir este marcado para enlazar el valor del campo de clase? `userName` al `h1` propiedad de título de elemento?
 
@@ -1087,10 +1087,10 @@ RouterModule.forRoot(
 <h1 [title]="userName">Current user is {{ userName }}</h1>
 ```
 
-- \[ ] title="userName"
-- \[x] title="{{ userName }}"
-- \[ ] title="{{ 'userName' }}"
-- \[ ] La única forma de hacerlo es utilizando los corchetes.
+- [ ] title="userName"
+- [x] title="{{ userName }}"
+- [ ] title="{{ 'userName' }}"
+- [ ] La única forma de hacerlo es utilizando los corchetes.
 
 #### Pregunta 57. ¿Qué es el `async` ¿Hacer tubería en este ejemplo?
 
@@ -1108,10 +1108,10 @@ export class UsersComponent implements OnInit {
 }
 ```
 
-- \[ ] No está haciendo nada, ya que la tubería asincrónica no se puede utilizar en un `ngFor` declaración.
-- \[ ] Está configurando el `ngFor` iteración para admitir varias listas de usuarios al mismo tiempo.
-- \[x] Se está suscribiendo al observable devuelto desde el `HttpClient.get` y desenvolver el valor devuelto para que se pueda iterar en el cuadro `ngFor`.
-- \[ ] Está permitiendo a todos los usuarios en el `users` que se representará simultáneamente en el DOM.
+- [ ] No está haciendo nada, ya que la tubería asincrónica no se puede utilizar en un `ngFor` declaración.
+- [ ] Está configurando el `ngFor` iteración para admitir varias listas de usuarios al mismo tiempo.
+- [x] Se está suscribiendo al observable devuelto desde el `HttpClient.get` y desenvolver el valor devuelto para que se pueda iterar en el cuadro `ngFor`.
+- [ ] Está permitiendo a todos los usuarios en el `users` que se representará simultáneamente en el DOM.
 
 #### Pregunta 58. ¿Cómo se utilizaría esta directiva en el marcado en función de su valor de selector?
 
@@ -1124,17 +1124,17 @@ export class TruncateDirective{
 }
 ```
 
-- \[ ] `html <p data-directive="appTruncate">Some long text </p> `
-- \[x] `html <p appTruncate>Some long text</p> `
-- \[ ] `html <p app-truncate>Some long text</p> `
-- \[ ] `html <app-truncate>Some long text</app-truncate> `
+- [ ] `html <p data-directive="appTruncate">Some long text </p> `
+- [x] `html <p appTruncate>Some long text</p> `
+- [ ] `html <p app-truncate>Some long text</p> `
+- [ ] `html <app-truncate>Some long text</app-truncate> `
 
 #### Pregunta 59. ¿Qué gancho de ciclo de vida se puede usar en un componente para supervisar todos los cambios en los valores de @Input en ese componente?
 
-- \[ ] ngOnInit
-- \[ ] ngCambios
-- \[ ] ngAfterInputChange
-- \[x] ngOnChanges
+- [ ] ngOnInit
+- [ ] ngCambios
+- [ ] ngAfterInputChange
+- [x] ngOnChanges
 
 [¿Cómo detectar cuando un valor @Input() cambia en Angular?](https://stackoverflow.com/a/44686085/1573267)
 
@@ -1150,19 +1150,19 @@ export class TruncatePipe implements PipeTransform {
 }
 ```
 
-- \[x] {( 'algún texto largo' | truncar:10 })
-- \[ ] {( 'algún texto largo' | truncar:10:true })
-- \[ ] {( 'algún texto largo' | truncar })
-- \[ ] todas estas respuestas
+- [x] {( 'algún texto largo' | truncar:10 })
+- [ ] {( 'algún texto largo' | truncar:10:true })
+- [ ] {( 'algún texto largo' | truncar })
+- [ ] todas estas respuestas
 
 \[vuelva a verificar las respuestas]
 
 #### P61. ¿Qué comando de la CLI angular ejecutaría para generar un UsersComponent y agregarlo al SharedModule (en el archivo shared.module.ts de la aplicación)?
 
-- \[ ] ng generar componente --newModule=shared
-- \[ ] ng generar usuarios de componentes --module=shared
-- \[ ] ng generar usuarios de componentes --compartido
-- \[ ] ng generar componente --add=shared
+- [ ] ng generar componente --newModule=shared
+- [ ] ng generar usuarios de componentes --module=shared
+- [ ] ng generar usuarios de componentes --compartido
+- [ ] ng generar componente --add=shared
 
 \[vuelva a verificar las respuestas]
 
@@ -1175,7 +1175,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <div *ngIf="location">
@@ -1184,7 +1184,7 @@ export class TruncatePipe implements PipeTransform {
 {{ endNgIf }}
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <ng-template *ngIf="location">
@@ -1193,7 +1193,7 @@ export class TruncatePipe implements PipeTransform {
 </ng-template>
 ```
 
-- \[ ]
+- [ ]
 
 ```ts
 <div *ngIf="location" [display]=" ' hidden' ">
@@ -1202,7 +1202,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- \[x]
+- [x]
 
 ```ts
 <ng-container *ngIf="location">
@@ -1222,28 +1222,28 @@ export interface AppSettings {
 }
 ```
 
-- \[ ] Este código es un error, ya que no puede utilizar una interfaz de TypeScript para el tipo genérico en InjectionToken.
-- \[ ] InjectionToken se utiliza para crear un token de proveedor para una dependencia que no es de clase. Se puede proporcionar un objeto lieteral como un valor para el tipo de proveedor de dependencia APP_SETTINGS que luego se puede inyectar en componentes, servicios, etc.
-- \[ ] InjectionToken está agregando una instancia de AppSettings al proveedor roote a través de la llamada al constructor InjectionToken, lo que la hace automáticamente disponible para todos los NgModules, servicios y componentes en toda la aplicación Angular sin la necesidad de inyectarla en ningún lugar.
-- \[ ] El InjectionToken se utiliza para crear un decorador dinámico para appSettings que se puede sembrar en los parámetros del constructor a través de un decorador @AppSettings.
+- [ ] Este código es un error, ya que no puede utilizar una interfaz de TypeScript para el tipo genérico en InjectionToken.
+- [ ] InjectionToken se utiliza para crear un token de proveedor para una dependencia que no es de clase. Se puede proporcionar un objeto lieteral como un valor para el tipo de proveedor de dependencia APP_SETTINGS que luego se puede inyectar en componentes, servicios, etc.
+- [ ] InjectionToken está agregando una instancia de AppSettings al proveedor roote a través de la llamada al constructor InjectionToken, lo que la hace automáticamente disponible para todos los NgModules, servicios y componentes en toda la aplicación Angular sin la necesidad de inyectarla en ningún lugar.
+- [ ] El InjectionToken se utiliza para crear un decorador dinámico para appSettings que se puede sembrar en los parámetros del constructor a través de un decorador @AppSettings.
 
 \[volver a comprobar las respuestas]
 
 #### Pregunta 64. ¿Qué utilidades angulares, si las hay, se requieren para probar unitariamente un servicio sin dependencias de constructor?
 
-- \[ ] Se necesita el método auxiliar By.css()
-- \[ ] Se requiere un accesorio de texto para ejecutar el servicio para la prueba unitaria.
-- \[ ] Ninguno. Un servicio puede ser instanciado y probado por unidad por sí solo.
-- \[x] La clase TestBed es necesaria para crear instancias del servicio.
+- [ ] Se necesita el método auxiliar By.css()
+- [ ] Se requiere un accesorio de texto para ejecutar el servicio para la prueba unitaria.
+- [ ] Ninguno. Un servicio puede ser instanciado y probado por unidad por sí solo.
+- [x] La clase TestBed es necesaria para crear instancias del servicio.
 
 [Pruebas unitarias angulares](https://angular.io/guide/testing-services) - volver a comprobar las respuestas
 
 #### Pregunta 65. ¿Cuál es la diferencia entre los protectores de ruta CanActivate y CanLoad?
 
-- \[ ] CanActivate se utiliza para comprobar el acceso. CanLoad se utiliza para precargar datos para la ruta.
-- \[x] CanLoad se utiliza al inicio de la aplicación para permitir o denegar la adición de rutas a la tabla de rutas. CanActivate se utiliza para gestionar el acceso a las rutas en el momento en que se solicitan.
-- \[ ] CanActivate y CanLoad hacen exactamente lo mismo.
-- \[ ] CanLoad impide que se entregue y cargue un NgModule completo. CanActivate deja de enrutar a un componente en ese NgModule, pero ese módulo aún está cargado.
+- [ ] CanActivate se utiliza para comprobar el acceso. CanLoad se utiliza para precargar datos para la ruta.
+- [x] CanLoad se utiliza al inicio de la aplicación para permitir o denegar la adición de rutas a la tabla de rutas. CanActivate se utiliza para gestionar el acceso a las rutas en el momento en que se solicitan.
+- [ ] CanActivate y CanLoad hacen exactamente lo mismo.
+- [ ] CanLoad impide que se entregue y cargue un NgModule completo. CanActivate deja de enrutar a un componente en ese NgModule, pero ese módulo aún está cargado.
 
 [CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate#:~:text=canActivate%20is%20used%20to%20prevent,not%20authorized%20to%20do%20so.) CanActivate impide el acceso en las rutas, CanLoad evita la carga diferida.
 
@@ -1257,9 +1257,9 @@ export interface AppSettings {
 }
 ```
 
-- \[ ] localizará todas las instancias de <document-box> en el DOM e insertar un elemento DocumentComponent en ellos en la navegación de rutas.
-- \[ ] Declara que documentComponent se puede utilizar como un elemento secundario para un <<document-box> además de ser enrutado a.
-- \[x] Se utiliza para apuntar a un <router-outlet> con el atributo name que coincide con el valor de cadena como ubicación para el DocumentComponent que se va a representar cuando se enruta.
-- \[ ] Es una fuente de energía para el router. (definitivamente no es la respuesta :P)
+- [ ] localizará todas las instancias de <document-box> en el DOM e insertar un elemento DocumentComponent en ellos en la navegación de rutas.
+- [ ] Declara que documentComponent se puede utilizar como un elemento secundario para un <<document-box> además de ser enrutado a.
+- [x] Se utiliza para apuntar a un <router-outlet> con el atributo name que coincide con el valor de cadena como ubicación para el DocumentComponent que se va a representar cuando se enruta.
+- [ ] Es una fuente de energía para el router. (definitivamente no es la respuesta :P)
 
 [Salida angular](https://angular.io/api/router/RouterOutlet) - volver a comprobar la respuesta

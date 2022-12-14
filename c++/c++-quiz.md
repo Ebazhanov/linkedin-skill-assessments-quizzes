@@ -1500,3 +1500,39 @@ int checkConcatThreshold(string a, string b) {
 - [ ] A compilation warning will occur and the second argument will be given a default value of empty string.
 - [x] A compilation error will occur.
 - [ ] No compilation errors will occur and no compilation warnings will occur.
+
+#### Q97. You need to define a C++ lambda function. You want the function to have access to only the variables that are local to it. The function should receive a single parameter, a name, and construct a simple greeting. How will you achieve this?
+
+- [] A
+
+```cpp
+auto myVeryFirstLambda = [=] (string name) {
+        return "Hello " + name + "!";
+    };
+```
+
+- [] B
+
+```cpp
+myVeryFirstLambda = [&] (string name) {
+        return "Hello " + name + "!";
+    };
+```
+
+- [x] C
+
+```cpp
+auto myVeryFirstLambda = [] (string name) {
+        return "Hello " + name + "!";
+    };
+```
+
+- [] D
+
+```cpp
+myVeryFirstLambda = [] (string name) {
+        return "Hello " + name + "!";
+    };
+```
+
+[Reference](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
