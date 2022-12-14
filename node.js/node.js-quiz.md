@@ -676,3 +676,10 @@ server.listen(port, hostname, () => {
 - [ ] `server running at port 3000`
 - [ ] `server running at http://localhost:3000/`
 - [ ] `server running at http://localhost:4000/`
+
+#### Q80. Which choice is not a Node global object?
+
+- [ ] process
+- [ ] exports
+- [ ] setTimeout
+- [x] Buffer
