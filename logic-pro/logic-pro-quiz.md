@@ -113,7 +113,7 @@ Source: This is in practice mode
 
 [Source](https://musictech.com/tutorials/logic-pro/using-bus-sends-and-aux-channels-in-logic-pro-x/#:~:text=If%20you%20intend%20to%20have,all%20the%20respective%20bus%20sends.)
 
-#### Q13. When you load up a patch, what happens?
+#### Q14. When you load up a patch, what happens?
 
 - [ ] The session automatically saves
 - [x] The channel strip is loaded with any of the following: plug-ins, aux sends, MIDI FX, and/or software instruments
@@ -122,7 +122,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/en-us/HT202738)
 
-#### Q14. You want to set a range of playback in the main windows and have the playhead stop. What tool can you make a selection with to make this happen?
+#### Q15. You want to set a range of playback in the main windows and have the playhead stop. What tool can you make a selection with to make this happen?
 
 - [ ] The pointer tool
 - [x] The marquee tool
@@ -131,7 +131,7 @@ Source: This is in practice mode
 
 [Source](https://www.shortcutfoo.com/app/dojos/logic-pro-x-mac/cheatsheet)
 
-#### Q15. What dows this image show?
+#### Q16. What dows this image show?
 
 ![img](./img/3.jpg)
 
@@ -140,7 +140,7 @@ Source: This is in practice mode
 - [ ] external MIDI track
 - [ ] software instrument track
 
-#### Q16. When opening Logic Pro X, you are presented by default with the Choose a project dialog box, how do you change this default behavior?
+#### Q17. When opening Logic Pro X, you are presented by default with the Choose a project dialog box, how do you change this default behavior?
 
 - [ ] Click Window > Open Project Audio
 - [ ] Press Shift+Command+4
@@ -149,7 +149,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/guide/logicpro/project-handling-preferences-lgcp43defb63/mac)
 
-#### Q17. When you open and work in a stock project template, such as Electronic what happens when you click Save?
+#### Q18. When you open and work in a stock project template, such as Electronic what happens when you click Save?
 
 - [ ] You will lose your changes
 - [ ] You are focred to use a new project name, since you cannot save over a template.
@@ -158,7 +158,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/guide/logicpro/save-projects-lgcpce128e82/mac)
 
-#### Q18. How do you split a region in the location where your playhead is?
+#### Q19. How do you split a region in the location where your play head is?
 
 - [ ] Press Command+T
 - [x] Select Window > Split Region

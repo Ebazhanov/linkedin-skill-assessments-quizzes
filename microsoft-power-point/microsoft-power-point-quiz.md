@@ -790,3 +790,30 @@ D. Start When Clicked On
 - [x] gradient fill
 
 [Reference](https://support.microsoft.com/en-us/topic/add-a-gradient-color-to-a-shape-11cf6392-723c-4be8-840a-b2dab4b2ba3e)
+
+#### Q101. The picture on the left is the original image. Which type of picture format has been applied to the picture on the right?
+
+![Q101](images/Q101.png)
+
+- [ ] Picture Style
+- [x] Artistic Effect
+- [ ] Picture Layout
+- [ ] Picture Effect
+
+#### Q102. To create a stacked image with the campfire icon on top of the yellow circle, select the campfire icon, then drag it to the center of the yellow circle, What is the next step?
+
+![Q102](images/Q102.png)
+
+- [ ] On the graphics format tab, press Enter (windows) or Return (mac)
+- [ ] on the graphics format tab, click the send backward arrow and select Send to back
+- [x] On the graphics format tab, click the Bring forwarrd arrow and select bring to front
+- [ ] On the graphics format tab, in the selection pane, drag the campfire icon below the orange circle
+
+#### Q103. In this image, a link to \_ is being added?
+
+![Q103](images/Q103.png)
+
+- [ ] create a new file
+- [ ] a section
+- [x] a slide
+- [ ] an existing file

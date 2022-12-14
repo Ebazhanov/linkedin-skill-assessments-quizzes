@@ -784,7 +784,6 @@ func main() {
 - [x] `var Default = &Client{}`
 - [ ] `export default := new Client{}`
 
-
 #### Q54. This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?
 
 ```go
@@ -809,15 +808,17 @@ func main() {
         fmt.Println(mc)
 }
 ```
+
 - [ ] A
 
   ```go
   // Replace
   // fmt.Println(mc)
   // with this:
-  
+
   fmt.Printf("(?P<Name>) - a (?P<Class>) - is the (?P<Role>) of (?P<Game>)", mc)
   ```
+
 - [ ] B
 
   ```go
@@ -828,6 +829,7 @@ func main() {
         return c. Name + " - a " + c.Class + " - is the " + c.Role + " of " + c.Game
   })
   ```
+
 - [x] C
 
   ```go
@@ -837,6 +839,7 @@ func main() {
         return fmt.Sprintf("%s - a %s - is the %s of %s", c.Name, c.Class, c.Role,c.Game)
   }
   ```
+
 - [ ] D
 
   ```go

@@ -8,10 +8,10 @@ cp -R ~"/photo dir" /backups #method2
 cp -R ~/"photo dir" /backups #method3
 ```
 
-- \[ ] Ninguno de los tres métodos se expandirá al directorio de inicio del usuario. Solo usando `"$HOME/photo dir"`tendrá éxito.
-- \[ ] Sólo el método 1 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
-- \[ ] Sólo el método 2 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
-- \[x] Sólo el método 3 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
+- [ ] Ninguno de los tres métodos se expandirá al directorio de inicio del usuario. Solo usando `"$HOME/photo dir"`tendrá éxito.
+- [ ] Sólo el método 1 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
+- [ ] Sólo el método 2 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
+- [x] Sólo el método 3 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
 
 #### P2. Si se ejecuta script.sh en el directorio actual, se producirá un error. ¿Por qué?
 
@@ -28,16 +28,16 @@ for i in $(ls *.jpg); do
 done
 ```
 
-- \[ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
-- \[x] El bucle for se dividirá en los límites de las palabras y beach photo1.jpg tiene un espacio en él.
-- \[ ] El comando mv fallará porque el corchete rizado es un carácter especial en Bash y no se puede usar en los nombres de los archivos.
-- \[ ] La ejecución de script.sh se realizará correctamente ya que el comando ls crea una lista de archivos en el directorio actual y para bucles a través de esa lista, cambie el nombre de los archivos con una extensión .bak.
+- [ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
+- [x] El bucle for se dividirá en los límites de las palabras y beach photo1.jpg tiene un espacio en él.
+- [ ] El comando mv fallará porque el corchete rizado es un carácter especial en Bash y no se puede usar en los nombres de los archivos.
+- [ ] La ejecución de script.sh se realizará correctamente ya que el comando ls crea una lista de archivos en el directorio actual y para bucles a través de esa lista, cambie el nombre de los archivos con una extensión .bak.
 
 #### P3. Para ejecutar un comando copy en un subshell, ¿qué sintaxis usaría?
 
-- \[x] `( command )`
-- \[ ] `sh command`
-- \[ ] `{ command; }`
+- [x] `( command )`
+- [ ] `sh command`
+- [ ] `{ command; }`
 - \[ ] `(( command ))`
 
 #### P4. Usando "awk", ¿cuál sería la salida de esta cadena de comandos?

@@ -1251,3 +1251,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] CONCATENATE
 - [ ] TEXTJOIN
 - [ ] DATE
+
+#### Q141. You have a column containing runner times for a recent race. What function could you use to find the second-place finisher (the runner with the second-lowest time)?
+
+- [ ] SMALL
+- [x] MATCH
+- [ ] MIN
+- [ ] NEXT
+
+[Source](https://exceljet.net/articles/how-to-lookup-first-and-last-match)

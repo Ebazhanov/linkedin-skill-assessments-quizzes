@@ -1047,3 +1047,68 @@ e = union(c,d);
 - [ ] `e = [9 8 0 0 0 1]`
 - [x] `e = [0 1 8 9]`
 - [ ] `e = [1 8 9]`
+
+#### Q73. What does this function print?
+
+```
+a = 1;
+for i_loop = 1:6
+    disp(a);
+end
+```
+
+- [x] nothing will print
+
+#### Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?
+
+- [x] type "a=10;" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.
+- [ ] Type "a=10; continue;" into the command window
+- [ ] Type "a=10;" into the command window. Then click the Run button in the debugger window
+- [ ] Type "a=10;" into the function file, before the statement that's throwing an error. Then type "return;" into the command window
+
+#### Q75. Which statement returns the character array 'alone'?
+
+```
+b = ['stand' 'alone'];
+```
+
+- [ ] b(7:11)
+- [ ] b(2)
+- [x] b(6:end)
+- [ ] b(1,2)
+
+#### Q76. Which statement returns the character array 'alone'?
+
+```
+c = {rand(20,10) rand(23,2) rand(14,5)}
+```
+
+- [ ] A
+
+```
+  b = cellfun(@(m) mean(m(:)), C
+```
+
+- [ ] B
+
+```
+b = zeros(1, size(C,1);
+    for i_C = 1:size(C,1)
+        b(1_C) = mean(C{i_C}(:));
+    end
+```
+
+- [ ] C
+
+```
+b = cellfun(@mean, C)
+```
+
+- [ ] D
+
+```
+b = zeros(1, size(C,2);
+    for i_C = 1:size(C,2)
+        b(1_C) = mean(C(i_C));
+    end
+```

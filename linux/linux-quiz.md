@@ -905,3 +905,12 @@ if [[ $FILE == $GLOB ]] ;then
 - [x] `assemble` is used to build existing RAID arrays.
 - [ ] `assemble` is a synonym for `create`.
 - [ ] `assemble` is used to build new RAID arrays.
+
+#### Q111. When pattern matching using a glov or regular expression, how many characters does a character set match?
+
+- [ ] zero or one
+- [ ] one or more
+- [ ] any number of characters
+- [x] one
+
+[reference](https://javascript.info/regexp-character-sets-and-ranges)

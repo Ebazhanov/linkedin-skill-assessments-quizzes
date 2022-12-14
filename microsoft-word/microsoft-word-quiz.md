@@ -766,3 +766,21 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] A, B, C
 
 [Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)
+
+#### Q98. Both boxes contain a white arrow, but it is visible only in the second box. What command was applied to the second box to make the arrow visible?
+
+![Q98.png](images/Q98.png)
+
+- [ ] Bring to front
+- [ ] WordArt
+- [ ] Group
+- [x] Send to back
+
+#### Q99. Which selecton handle should you drag to rotate the object?
+
+![Q99.png](images/Q99.png)
+
+- [ ] G
+- [ ] E
+- [x] A
+- [ ] C

@@ -992,3 +992,12 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] There must be multiple personas for each actor
 - [x] The actor can be the system itself
 - [ ] The actor does not have to be a specified role in the solution
+
+#### Q135. Which choice is not a recognized framework fr scaling agile?
+
+- [ ] LeSS
+- [ ] DA
+- [ ] SAFe
+- [x] DUN
+
+[Source](https://www.digite.com/blog/scaled-agile-frameworks/)

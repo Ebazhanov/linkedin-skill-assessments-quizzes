@@ -92,6 +92,7 @@ console.log(/* Snippet Here */); //Prints food
 #### Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
 - [ ] `A`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
@@ -113,6 +114,7 @@ for (var i = 1; i <= 4; i++) {
 ```
 
 - [ ] `C`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
@@ -121,7 +123,8 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [X] `D`
+- [x] `D`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   (function (j) {
@@ -156,7 +159,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x]
+- [x] `A`
 
 ```js
 let discountPrice = function (price) {
@@ -164,7 +167,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ]
+- [ ] `B`
 
 ```js
 let discountPrice(price) {
@@ -172,7 +175,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `C`
 
 ```js
 let function = discountPrice(price) {
@@ -180,7 +183,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `D`
 
 ```js
 discountPrice = function (price) {
