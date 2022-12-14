@@ -418,7 +418,7 @@ class Clock extends React.Component {
 
 ```js
 const clock = (props) => {
-  return <h1>Look at the time: {props.time}<h1>;
+  return <h1>Look at the time: {props.time}</h1>;
 };
 ```
 
