@@ -43,7 +43,7 @@
 - [x] createReadStream
 - [ ] readFileSync
 
-**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fs_dir_read)
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fscreatereadstreampath-options)
 To minimize memory costs, when possible prefer streaming via fs.createReadStream()._
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
