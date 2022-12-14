@@ -453,8 +453,8 @@ total 0
 
 - [ ] No, está claro que user2 no tiene permisos de lectura, escritura y ejecución.
 - [x] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay una lista de control de acceso. Esto podría dar a user2 permisos no visibles por `ls -l`.
-- \[ ] Es posible que SELinux proporcione permisos de lectura, escritura y ejecución para el usuario2 que no son visibles con `ls -l`.
-- \[ ] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay un conjunto de atributos extendido. Esto podría otorgar a user2 permisos para leer, escribir y ejecutar datos.txt.
+- [ ] Es posible que SELinux proporcione permisos de lectura, escritura y ejecución para el usuario2 que no son visibles con `ls -l`.
+- [ ] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay un conjunto de atributos extendido. Esto podría otorgar a user2 permisos para leer, escribir y ejecutar datos.txt.
 
 #### P39. ¿Qué logra este script?
 
@@ -468,10 +468,10 @@ for (( i=0; $i < ${#ARRAY[@]}; i+=1 ));do
 done
 ```
 
-- \[ ] Ordena la matriz asociativa denominada ARRAY y almacena los resultados en una matriz indexada denominada KEYS. A continuación, utiliza esta matriz ordenada para recorrer la matriz asociativa ARRAY.
-- \[x] Usando un estilo C para el bucle, recorre la matriz asociativa denominada ARRAY utilizando las claves de la matriz asociativa y genera tanto la clave como los valores de cada elemento.
-- \[ ] Crea una matriz indexada de la matriz asociativa denominada ARRAY. A continuación, utiliza un estilo C para el bucle y la matriz indexada para recorrer todos los elementos de la matriz asociativa, emitiendo la clave y el valor de cada elemento de la matriz utilizando el número de índice.
-- \[ ] Crea una matriz asociativa llamada ARRAY, que recorre utilizando un estilo C para bucle y los números de índice de cada elemento en las claves de la matriz asociativa, emitiendo el valor de cada elemento.
+- [ ] Ordena la matriz asociativa denominada ARRAY y almacena los resultados en una matriz indexada denominada KEYS. A continuación, utiliza esta matriz ordenada para recorrer la matriz asociativa ARRAY.
+- [x] Usando un estilo C para el bucle, recorre la matriz asociativa denominada ARRAY utilizando las claves de la matriz asociativa y genera tanto la clave como los valores de cada elemento.
+- [ ] Crea una matriz indexada de la matriz asociativa denominada ARRAY. A continuación, utiliza un estilo C para el bucle y la matriz indexada para recorrer todos los elementos de la matriz asociativa, emitiendo la clave y el valor de cada elemento de la matriz utilizando el número de índice.
+- [ ] Crea una matriz asociativa llamada ARRAY, que recorre utilizando un estilo C para bucle y los números de índice de cada elemento en las claves de la matriz asociativa, emitiendo el valor de cada elemento.
 
 #### P40. ¿Qué archivo coincidiría con el código a continuación?
 
@@ -479,10 +479,10 @@ done
 ls Hello[[.vertical-line.]]World
 ```
 
-- \[ ] Nada, este es un archivo glob no válido.
-- \[ ] `Hello.vertical-line.World`
-- \[ ] `Hello[[.vertical-line.]]World`
-- \[x] `Hello|World`
+- [ ] Nada, este es un archivo glob no válido.
+- [ ] `Hello.vertical-line.World`
+- [ ] `Hello[[.vertical-line.]]World`
+- [x] `Hello|World`
 
 #### P41. ¿Qué habrá fuera.txt?
 
@@ -490,10 +490,10 @@ ls Hello[[.vertical-line.]]World
 ls nonexistentfile | grep "No such file" > out.txt
 ```
 
-- \[ ] No existe tal archivo
-- \[ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
-- \[x] Nada, fuera.txt estará vacío.
-- \[ ] Será el contenido del archivo inexistente.
+- [ ] No existe tal archivo
+- [ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
+- [x] Nada, fuera.txt estará vacío.
+- [ ] Será el contenido del archivo inexistente.
 
 #### P42. Para que el script imprima "Es numérico" en la pantalla, ¿qué tendría que ingresar el usuario cuando se le solicite?
 
@@ -507,33 +507,33 @@ else
 fi
 ```
 
-- \[ ] Cualquier secuencia de caracteres que incluya un entero
-- \[ ] El usuario tendría que introducir la secuencia de caracteres de `^[0-9]]+$` Solo esto demostrará ser cierto y "Es numérico" se imprimirá en la pantalla debido a una sintaxis incorrecta. Al encapsular la expresión regular entre comillas dobles, todas las coincidencias fallarán, excepto la cadena de texto `^[0-9]+$`
-- \[ ] Uno o más caracteres que solo incluyen enteros
-- \[x] Debido a un error de sintaxis es imposible conseguir que el script imprima "Es numérico"
+- [ ] Cualquier secuencia de caracteres que incluya un entero
+- [ ] El usuario tendría que introducir la secuencia de caracteres de `^[0-9]]+$` Solo esto demostrará ser cierto y "Es numérico" se imprimirá en la pantalla debido a una sintaxis incorrecta. Al encapsular la expresión regular entre comillas dobles, todas las coincidencias fallarán, excepto la cadena de texto `^[0-9]+$`
+- [ ] Uno o más caracteres que solo incluyen enteros
+- [x] Debido a un error de sintaxis es imposible conseguir que el script imprima "Es numérico"
 
 El regex no debe ser cotizado para funcionar correctamente.
 
 #### P43. ¿Cómo encontraría el último comando de copia ejecutado en su historial?
 
-- \[ ] historia | encontrar cp
-- \[x] | de historia grep cp
-- \[ ] historia de grep cp
-- \[ ] historia de cp
+- [ ] historia | encontrar cp
+- [x] | de historia grep cp
+- [ ] historia de grep cp
+- [ ] historia de cp
 
 #### P44. Para escribir un script que itera a través de los archivos en un directorio, ¿cuál de los siguientes podría usar?
 
-- \[x] `bash for i in $(ls); do ... done`
-- \[ ] `bash for $(ls); do ... done`
-- \[ ] `bash for i in $ls; do ... done`
-- \[ ] `bash for $ls; do ... done`
+- [x] `bash for i in $(ls); do ... done`
+- [ ] `bash for $(ls); do ... done`
+- [ ] `bash for i in $ls; do ... done`
+- [ ] `bash for $ls; do ... done`
 
 #### P45. Al ejecutar un comando y pasar la salida de ese comando a otro comando, ¿qué carácter le permite encadenar estos comandos?
 
-- \[x] |
-- \[ ] ->
-- \[ ] #
-- \[ ] @
+- [x] |
+- [ ] ->
+- [ ] #
+- [ ] @
 
 #### P46. En el script que se muestra a continuación, ¿qué es **saludo**?
 
@@ -543,16 +543,16 @@ greeting="Hello"
 echo $greeting, everybody!
 ```
 
-- \[ ] un comando
-- \[ ] un bucle
-- \[ ] un parámetro
-- \[x] una variable
+- [ ] un comando
+- [ ] un bucle
+- [ ] un parámetro
+- [x] una variable
 
 #### P47. ¿Qué instrucción comprueba si la variable num es mayor que cinco?
 
-- \[ ] `(( num -gt 5 ))`
-- \[ ] `[[$num -lt 5]]`
-- \[x] `(( num > 5 ))`
+- [ ] `(( num -gt 5 ))`
+- [ ] `[[$num -lt 5]]`
+- [x] `(( num > 5 ))`
 - \[ ] `num > 5`
 
 [referencia](https://tldp.org/LDP/abs/html/dblparens.html)

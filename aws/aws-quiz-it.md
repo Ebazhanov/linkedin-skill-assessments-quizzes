@@ -381,55 +381,55 @@ FlowLog:
 - [ ] Lightsail
 - [ ] Elastic Container Service (ECS)
 - [ ] Elastic Compute Cloud (EC2)
-- \[x] Tutti questi servizi possono ospitare un contenitore Docker.
+- [x] Tutti questi servizi possono ospitare un contenitore Docker.
 
 #### D47. Nella console S3, sotto la colonna Access, cosa indica il badge pubblico accanto al nome del bucket?
 
 ![image](images/002.png?raw=png)
 
-- \[x] A tutti gli oggetti all'interno di questo bucket viene assegnato l'accesso pubblico e potrebbero essere leggibili o scrivibili da chiunque su Internet. Assicurati che nessun dato sensibile venga condiviso pubblicamente all'interno di questo bucket.
-- \[ ] Tutti gli oggetti all'interno di questo bucket sono scrivibili, il che significa che Internet pubblico ha la possibilità di caricare qualsiasi file direttamente sul bucket S3. Il bucket S3 potrebbe essere utilizzato per servire malware.
-- \[ ] Ad alcuni oggetti all'interno di questo bucket viene assegnato l'accesso pubblico. Verificare che tutti gli oggetti condivisi pubblicamente all'interno di questo bucket non contengano dati sensibili.
-- \[ ] Gli oggetti all'interno di questo bucket possono essere resi pubblici, se l'ACL su tale oggetto è impostato per consentire l'accesso a tutti. I bucket privati non consentono di impostare autorizzazioni pubbliche su alcun oggetto.
+- [x] A tutti gli oggetti all'interno di questo bucket viene assegnato l'accesso pubblico e potrebbero essere leggibili o scrivibili da chiunque su Internet. Assicurati che nessun dato sensibile venga condiviso pubblicamente all'interno di questo bucket.
+- [ ] Tutti gli oggetti all'interno di questo bucket sono scrivibili, il che significa che Internet pubblico ha la possibilità di caricare qualsiasi file direttamente sul bucket S3. Il bucket S3 potrebbe essere utilizzato per servire malware.
+- [ ] Ad alcuni oggetti all'interno di questo bucket viene assegnato l'accesso pubblico. Verificare che tutti gli oggetti condivisi pubblicamente all'interno di questo bucket non contengano dati sensibili.
+- [ ] Gli oggetti all'interno di questo bucket possono essere resi pubblici, se l'ACL su tale oggetto è impostato per consentire l'accesso a tutti. I bucket privati non consentono di impostare autorizzazioni pubbliche su alcun oggetto.
 
 #### D48. Quali privilegi sono specifici dell'account root AWS e non possono essere concessi a un altro utente IAM sull'account?
 
-- \[ ] Revoca il ruolo AdministratorAccess o concedilo a un altro utente IAM.
-- \[ ] Creare una nuova hosted zone in Route 53.
-- \[x] Elimina l'account AWS.
-- \[ ] Modificare i dettagli di fatturazione.
+- [ ] Revoca il ruolo AdministratorAccess o concedilo a un altro utente IAM.
+- [ ] Creare una nuova hosted zone in Route 53.
+- [x] Elimina l'account AWS.
+- [ ] Modificare i dettagli di fatturazione.
 
 #### D49. La tua domanda invia 50.000 e-mail tramite SES ogni giorno. Dal momento che è necessario mantenere una bassa frequenza di rimbalzo per evitare di essere messi in libertà vigilata, quale semplice sistema si progetta per elaborare automaticamente i rimbalzi duri?
 
-- \[x] Configurare SES per inviare tutti gli eventi di rimbalzo a un argomento SNS. Creare una funzione Lambda che elabori ogni evento di hard bounce e contrassegni automaticamente tale account come rimbalzo nell'applicazione per impedire ulteriori tentativi di invio.
-- \[ ] Configura SES in modo che non invii più agli indirizzi e-mail presenti nell'elenco di rimbalzo.
-- \[ ] Configurare SES per inviare i registri di tutti i tentativi di consegna tramite Kinesis Firehose. Elabora ogni evento e cerca i tipi di rimbalzo e rimuovi queste e-mail dal tuo elenco.
-- \[ ] Invia tutte le e-mail tramite SES con un'intestazione di risposta personalizzata. Configura SES per ascoltare gli eventi su questo indirizzo e-mail e contrassegna qualsiasi indirizzo e-mail che risponde a questo account come messaggio respinto e rimuovilo dalla tua mailing list.
+- [x] Configurare SES per inviare tutti gli eventi di rimbalzo a un argomento SNS. Creare una funzione Lambda che elabori ogni evento di hard bounce e contrassegni automaticamente tale account come rimbalzo nell'applicazione per impedire ulteriori tentativi di invio.
+- [ ] Configura SES in modo che non invii più agli indirizzi e-mail presenti nell'elenco di rimbalzo.
+- [ ] Configurare SES per inviare i registri di tutti i tentativi di consegna tramite Kinesis Firehose. Elabora ogni evento e cerca i tipi di rimbalzo e rimuovi queste e-mail dal tuo elenco.
+- [ ] Invia tutte le e-mail tramite SES con un'intestazione di risposta personalizzata. Configura SES per ascoltare gli eventi su questo indirizzo e-mail e contrassegna qualsiasi indirizzo e-mail che risponde a questo account come messaggio respinto e rimuovilo dalla tua mailing list.
 
 #### D50. La tua applicazione web sta ricevendo una quantità sospetta di richieste errate da indirizzi IP stranieri. La tua attività opera solo in pochi paesi e vorresti bloccare qualsiasi altro traffico. Qual è la best practice per limitare l'accesso all'applicazione Web in base al paese?
 
-- \[x] Utilizzare Web Application Firewall e creare una condizione di corrispondenza geografica per eliminare tutte le richieste provenienti da paesi che non sono presenti nell'elenco dei dispositivi consentiti.
-- \[ ] Utilizzare Application Load Balancer per creare una nuova regola di routing che esamina l'indirizzo IP di origine. Aggiungi un blocco IP per i paesi che hanno accesso.
-- \[ ] Ospita il front-end del tuo sito Web in CloudFront e configura una restrizione geografica sulla distribuzione.
-- \[ ] Utilizzare CloudTrail per monitorare gli indirizzi IP delle richieste errate. Utilizzare Lambda per aggiungere questi indirizzi IP a una regola di Application Load Balancer che blocca gli IP.
+- [x] Utilizzare Web Application Firewall e creare una condizione di corrispondenza geografica per eliminare tutte le richieste provenienti da paesi che non sono presenti nell'elenco dei dispositivi consentiti.
+- [ ] Utilizzare Application Load Balancer per creare una nuova regola di routing che esamina l'indirizzo IP di origine. Aggiungi un blocco IP per i paesi che hanno accesso.
+- [ ] Ospita il front-end del tuo sito Web in CloudFront e configura una restrizione geografica sulla distribuzione.
+- [ ] Utilizzare CloudTrail per monitorare gli indirizzi IP delle richieste errate. Utilizzare Lambda per aggiungere questi indirizzi IP a una regola di Application Load Balancer che blocca gli IP.
 
 #### D51. Qual è la procedura consigliata per la gestione delle istanze Windows EC2 e l'applicazione degli aggiornamenti?
 
-- \[ ] Attiva l'aggiornamento automatico in Windows Update su ogni EC2 avviato oppure crea la tua AMI con questa funzione abilitata e avvia tutte le tue istanze EC2 da questa AMI.
-- \[ ] Creare un programma di manutenzione che un dipendente deve compilare ogni settimana confermando che è stata condotta un'ispezione visiva di ogni istanza e quali patch sono state applicate.
-- \[x] Utilizza AWS Systems Manager Patch Manager per trovare le istanze di patch che richiedono aggiornamenti durante una finestra di manutenzione impostata.
-- \[ ] Installare Windows Server Update Services nel controller Active Directory primario.
+- [ ] Attiva l'aggiornamento automatico in Windows Update su ogni EC2 avviato oppure crea la tua AMI con questa funzione abilitata e avvia tutte le tue istanze EC2 da questa AMI.
+- [ ] Creare un programma di manutenzione che un dipendente deve compilare ogni settimana confermando che è stata condotta un'ispezione visiva di ogni istanza e quali patch sono state applicate.
+- [x] Utilizza AWS Systems Manager Patch Manager per trovare le istanze di patch che richiedono aggiornamenti durante una finestra di manutenzione impostata.
+- [ ] Installare Windows Server Update Services nel controller Active Directory primario.
 
 #### D52. Oltre a CloudFormation, puoi utilizzare altri strumenti di orchestrazione per automatizzare la formazione e la manutenzione dei server. Quale strumento è _non_ una scelta efficiente per l'orchestrazione di una grande infrastruttura?
 
-- \[ ] Chef
-- \[ ] Ansible
-- \[ ] Burattino
-- \[x] Vagabondo
+- [ ] Chef
+- [ ] Ansible
+- [ ] Burattino
+- [x] Vagabondo
 
 #### D53. Cosa succede a un'istanza rdS di SQL Server se i database aumentano di dimensioni e superano lo spazio allocato?
 
-- \[ ] RDS aumenterà automaticamente lo spazio allocato del 10% e invierà all'account root AWS un'e-mail con i passaggi di risoluzione. Assegna più spazio per evitare addebiti eccessivi.
+- [ ] RDS aumenterà automaticamente lo spazio allocato del 10% e invierà all'account root AWS un'e-mail con i passaggi di risoluzione. Assegna più spazio per evitare addebiti eccessivi.
 - \[x] L'istanza del database segnalerà uno stato STORAGE_FULL e diventerà inaccessibile se l'istanza non dispone di spazio di archiviazione rimanente sufficiente per funzionare. Allocare più spazio all'istanza.
 - \[ ] SQL Server chiuderà tutte le connessioni esistenti ai database e tenterà di ridurre i file di log per recuperare spazio di archiviazione.
 - \[ ] RDS aumenterà automaticamente lo spazio assegnato del 5% e continuerà ad allocare nuovo spazio fino al 50% dello spazio allocato originariamente. Quando lo spazio di archiviazione è aumentato del 50%, RDS arresterà automaticamente l'istanza per preservare l'integrità dei dati.

@@ -403,9 +403,9 @@ fi
 #### Q34. Quelle est la différence entre les variables $@ et $\* ?
 
 - [x] `$@` traite chaque argument cité comme une entité distincte. `$*` traite la chaîne d’arguments entière comme une seule entité.
-- \[ ] `$*` traite chaque argument cité comme une entité distincte. `$@` traite la chaîne d’arguments entière comme une seule entité.
-- \[ ] `$*` est utilisé pour compter les arguments transmis à un script, `$@` fournit tous les arguments dans une chaîne.
-- \[ ] `$*` est le caractère générique qui inclut tous les arguments avec fractionnement de mots, `$@` contient les mêmes données mais dans un tableau.
+- [ ] `$*` traite chaque argument cité comme une entité distincte. `$@` traite la chaîne d’arguments entière comme une seule entité.
+- [ ] `$*` est utilisé pour compter les arguments transmis à un script, `$@` fournit tous les arguments dans une chaîne.
+- [ ] `$*` est le caractère générique qui inclut tous les arguments avec fractionnement de mots, `$@` contient les mêmes données mais dans un tableau.
 
 #### Q35. Quelle commande est exécutée dans ce script pour vérifier si le fichier .txt existe ?
 
@@ -415,10 +415,10 @@ if [ -f file.txt ]; then
 fi
 ```
 
-- \[ ] `/usr/bin/test`
-- \[ ] `/usr/bin/[`
-- \[x] `the built-in [ command`
-- \[ ] `/usr/bin/[[`
+- [ ] `/usr/bin/test`
+- [ ] `/usr/bin/[`
+- [x] `the built-in [ command`
+- [ ] `/usr/bin/[[`
 
 #### Q36. Quelle sera la sortie de ce script ?
 
@@ -431,14 +431,14 @@ Linux=(${Linux[@]:0:$x} ${Linux[@]:$(($x + 1))})
 echo "${Linux[@]}"
 ```
 
-- \[ ] Debian Redhat Ubuntu Android Fedora Suse
-- \[ ] Android
-- \[ ] Fedora Suse
-- \[x] Debian Redhat Ubuntu Fedora Suse
+- [ ] Debian Redhat Ubuntu Android Fedora Suse
+- [ ] Android
+- [ ] Fedora Suse
+- [x] Debian Redhat Ubuntu Fedora Suse
 
 #### Q37. Quel fichier vous permet d’enregistrer les modifications apportées à l’environnement shell entre les sessions ?
 
-- \[ ] `/etc/bash.conf`
+- [ ] `/etc/bash.conf`
 - \[x] `~/.profile`
 - \[ ] `/etc/bashprofile`
 - \[ ] `~/profile`

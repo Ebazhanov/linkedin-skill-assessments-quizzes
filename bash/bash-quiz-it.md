@@ -416,9 +416,9 @@ fi
 ```
 
 - [ ] `/usr/bin/test`
-- \[ ] `/usr/bin/[`
-- \[x] `the built-in [ command`
-- \[ ] `/usr/bin/[[`
+- [ ] `/usr/bin/[`
+- [x] `the built-in [ command`
+- [ ] `/usr/bin/[[`
 
 #### D36. Quale sarà l'output di questo script?
 
@@ -431,17 +431,17 @@ Linux=(${Linux[@]:0:$x} ${Linux[@]:$(($x + 1))})
 echo "${Linux[@]}"
 ```
 
-- \[ ] Debian Redhat Ubuntu Android Fedora Suse
-- \[ ] Androide
-- \[ ] Fedora Suse
-- \[x] Debian Redhat Ubuntu Fedora Suse
+- [ ] Debian Redhat Ubuntu Android Fedora Suse
+- [ ] Androide
+- [ ] Fedora Suse
+- [x] Debian Redhat Ubuntu Fedora Suse
 
 #### D37. Quale file consente di salvare le modifiche nell'ambiente shell tra le sessioni?
 
-- \[ ] `/etc/bash.conf`
-- \[x] `~/.profile`
-- \[ ] `/etc/bashprofile`
-- \[ ] `~/profile`
+- [ ] `/etc/bash.conf`
+- [x] `~/.profile`
+- [ ] `/etc/bashprofile`
+- [ ] `~/profile`
 
 #### D38. Date le autorizzazioni elencate sui dati.txt è possibile che l'utente2 abbia le autorizzazioni di lettura, scrittura ed esecuzione sui dati.txt?
 
@@ -451,10 +451,10 @@ total 0
 -rwx------+ 1 user1 user1 0 Oct 27 10:54 data.txt
 ```
 
-- \[ ] No, è chiaro che user2 non dispone di autorizzazioni di lettura, scrittura ed esecuzione.
-- \[x] Sì, il `+` alla fine della stringa di autorizzazione di 10 cifre indica che è presente un elenco di controllo di accesso. Questo potrebbe eventualmente dare all'utente2 autorizzazioni non visibili da `ls -l`.
-- \[ ] È possibile che SELinux fornisca autorizzazioni di lettura, scrittura ed esecuzione per user2 che non sono visibili con `ls -l`.
-- \[ ] Sì, il `+` alla fine della stringa di autorizzazione a 10 cifre indica che è presente un set di attributi esteso. Ciò potrebbe concedere all'utente2 le autorizzazioni per leggere, scrivere ed eseguire dati.txt.
+- [ ] No, è chiaro che user2 non dispone di autorizzazioni di lettura, scrittura ed esecuzione.
+- [x] Sì, il `+` alla fine della stringa di autorizzazione di 10 cifre indica che è presente un elenco di controllo di accesso. Questo potrebbe eventualmente dare all'utente2 autorizzazioni non visibili da `ls -l`.
+- [ ] È possibile che SELinux fornisca autorizzazioni di lettura, scrittura ed esecuzione per user2 che non sono visibili con `ls -l`.
+- [ ] Sì, il `+` alla fine della stringa di autorizzazione a 10 cifre indica che è presente un set di attributi esteso. Ciò potrebbe concedere all'utente2 le autorizzazioni per leggere, scrivere ed eseguire dati.txt.
 
 #### D39. Che cosa realizza questo script?
 
@@ -468,10 +468,10 @@ for (( i=0; $i < ${#ARRAY[@]}; i+=1 ));do
 done
 ```
 
-- \[ ] Ordina l'array associativo denominato ARRAY e memorizza i risultati in un array indicizzato denominato KEYS. Utilizza quindi questa matrice ordinata per eseguire il ciclo attraverso l'array associativo ARRAY.
-- \[x] Utilizzando uno stile C per il ciclo, esegue il loop attraverso la matrice associativa denominata ARRAY utilizzando le chiavi dell'array associativo e restituisce sia la chiave che i valori per ogni elemento.
-- \[ ] Crea una matrice indicizzata della matrice associativa denominata ARRAY. Utilizza quindi uno stile C per il ciclo e l'array indicizzato per eseguire il ciclo tra tutti gli elementi nella matrice associativa, emettendo la chiave e il valore di ciascun elemento della matrice utilizzando il numero di indice.
-- \[ ] Crea una matrice associativa denominata ARRAY, che esegue un ciclo in loop utilizzando uno stile C per loop e i numeri di indice di ogni elemento nelle chiavi dell'array associativo, emettendo il valore di ciascun elemento.
+- [ ] Ordina l'array associativo denominato ARRAY e memorizza i risultati in un array indicizzato denominato KEYS. Utilizza quindi questa matrice ordinata per eseguire il ciclo attraverso l'array associativo ARRAY.
+- [x] Utilizzando uno stile C per il ciclo, esegue il loop attraverso la matrice associativa denominata ARRAY utilizzando le chiavi dell'array associativo e restituisce sia la chiave che i valori per ogni elemento.
+- [ ] Crea una matrice indicizzata della matrice associativa denominata ARRAY. Utilizza quindi uno stile C per il ciclo e l'array indicizzato per eseguire il ciclo tra tutti gli elementi nella matrice associativa, emettendo la chiave e il valore di ciascun elemento della matrice utilizzando il numero di indice.
+- [ ] Crea una matrice associativa denominata ARRAY, che esegue un ciclo in loop utilizzando uno stile C per loop e i numeri di indice di ogni elemento nelle chiavi dell'array associativo, emettendo il valore di ciascun elemento.
 
 #### D40. Quale file corrisponderebbe al codice qui sotto?
 
@@ -479,8 +479,8 @@ done
 ls Hello[[.vertical-line.]]World
 ```
 
-- \[ ] Niente, questo è un file glob non valido.
-- \[ ] `Hello.vertical-line.World`
+- [ ] Niente, questo è un file glob non valido.
+- [ ] `Hello.vertical-line.World`
 - \[ ] `Hello[[.vertical-line.]]World`
 - \[x] `Hello|World`
 

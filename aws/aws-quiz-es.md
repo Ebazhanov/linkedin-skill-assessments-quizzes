@@ -409,13 +409,13 @@ FlowLog:
 #### Pregunta 50. Su aplicación web está recibiendo una cantidad sospechosa de solicitudes incorrectas de direcciones IP extranjeras. Su negocio está operando en solo unos pocos países y le gustaría bloquear cualquier otro tráfico. ¿Cuál es la mejor práctica para limitar el acceso a su aplicación web por país?
 
 - [x] Utilice Web Application Firewall y cree una condición de coincidencia geográfica para eliminar todas las solicitudes de países que no están en su lista de permitidos.
-- \[ ] Utilice Application Load Balancer para crear una nueva regla de enrutamiento que examine la dirección IP de origen. Agregue un bloque de IP para los países que tienen acceso.
-- \[ ] Aloje el front-end de su sitio web en CloudFront y configure una restricción geográfica en la distribución.
-- \[ ] Utilice CloudTrail para supervisar las direcciones IP de las solicitudes incorrectas. Utilice Lambda para agregar estas direcciones IP a una regla del equilibrador de carga de aplicaciones que bloquea las direcciones IP.
+- [ ] Utilice Application Load Balancer para crear una nueva regla de enrutamiento que examine la dirección IP de origen. Agregue un bloque de IP para los países que tienen acceso.
+- [ ] Aloje el front-end de su sitio web en CloudFront y configure una restricción geográfica en la distribución.
+- [ ] Utilice CloudTrail para supervisar las direcciones IP de las solicitudes incorrectas. Utilice Lambda para agregar estas direcciones IP a una regla del equilibrador de carga de aplicaciones que bloquea las direcciones IP.
 
 #### Pregunta 51. ¿Cuál es la práctica recomendada para mantener las instancias EC2 de Windows y aplicar actualizaciones?
 
-- \[ ] Active la actualización automática en Windows Update en cada EC2 que se lance, o cree su propia AMI con esta característica habilitada y lance todas sus instancias EC2 desde esta AMI.
+- [ ] Active la actualización automática en Windows Update en cada EC2 que se lance, o cree su propia AMI con esta característica habilitada y lance todas sus instancias EC2 desde esta AMI.
 - \[ ] Cree un programa de mantenimiento que un empleado debe completar cada semana confirmando que se realizó una inspección visual de cada instancia y qué parches se aplicaron.
 - \[x] Utilice AWS Systems Manager Patch Manager para buscar instancias de parche que requieran actualizaciones durante una ventana de mantenimiento establecida.
 - \[ ] Instale Windows Server Update Services en el controlador principal de Active Directory.
