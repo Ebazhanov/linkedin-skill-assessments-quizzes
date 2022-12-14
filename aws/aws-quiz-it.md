@@ -430,60 +430,60 @@ FlowLog:
 #### D53. Cosa succede a un'istanza rdS di SQL Server se i database aumentano di dimensioni e superano lo spazio allocato?
 
 - [ ] RDS aumenterà automaticamente lo spazio allocato del 10% e invierà all'account root AWS un'e-mail con i passaggi di risoluzione. Assegna più spazio per evitare addebiti eccessivi.
-- \[x] L'istanza del database segnalerà uno stato STORAGE_FULL e diventerà inaccessibile se l'istanza non dispone di spazio di archiviazione rimanente sufficiente per funzionare. Allocare più spazio all'istanza.
-- \[ ] SQL Server chiuderà tutte le connessioni esistenti ai database e tenterà di ridurre i file di log per recuperare spazio di archiviazione.
-- \[ ] RDS aumenterà automaticamente lo spazio assegnato del 5% e continuerà ad allocare nuovo spazio fino al 50% dello spazio allocato originariamente. Quando lo spazio di archiviazione è aumentato del 50%, RDS arresterà automaticamente l'istanza per preservare l'integrità dei dati.
+- [x] L'istanza del database segnalerà uno stato STORAGE_FULL e diventerà inaccessibile se l'istanza non dispone di spazio di archiviazione rimanente sufficiente per funzionare. Allocare più spazio all'istanza.
+- [ ] SQL Server chiuderà tutte le connessioni esistenti ai database e tenterà di ridurre i file di log per recuperare spazio di archiviazione.
+- [ ] RDS aumenterà automaticamente lo spazio assegnato del 5% e continuerà ad allocare nuovo spazio fino al 50% dello spazio allocato originariamente. Quando lo spazio di archiviazione è aumentato del 50%, RDS arresterà automaticamente l'istanza per preservare l'integrità dei dati.
 
 #### D54. Si dispone di una flotta di dispositivi IoT che inviano dati di telemetria a un'applicazione lato server fornita dal fornitore IoT per la decodifica di un formato di messaggistica proprietario. I dispositivi vengono sottoposti a provisioning per inviare report di telemetria al server tramite UDP sulla porta 6339. Qual è il modo migliore per scalare questo server man mano che vengono aggiunti più dispositivi IoT alla tua flotta?
 
-- \[ ] Utilizzare un Network Load Balancer per distribuire il traffico tra i server. Utilizzare i controlli di integrità UDP per determinare se il server è disponibile per ricevere traffico.
-- \[x] Utilizzare Route 53 con i controlli di integrità HTTP. Creare un'applicazione sul server per segnalare lo stato di preparazione del software server fornito dal fornitore a Route 53 tramite HTTP.
-- \[ ] Utilizzare Route 53 con i controlli di integrità UDP. Man mano che si aumenta la scalabilità verticale, Route 53 instrada il traffico verso i nuovi server se superano i controlli di integrità.
-- \[ ] Utilizzare Application Load Balancer per distribuire il traffico tra i server.
+- [ ] Utilizzare un Network Load Balancer per distribuire il traffico tra i server. Utilizzare i controlli di integrità UDP per determinare se il server è disponibile per ricevere traffico.
+- [x] Utilizzare Route 53 con i controlli di integrità HTTP. Creare un'applicazione sul server per segnalare lo stato di preparazione del software server fornito dal fornitore a Route 53 tramite HTTP.
+- [ ] Utilizzare Route 53 con i controlli di integrità UDP. Man mano che si aumenta la scalabilità verticale, Route 53 instrada il traffico verso i nuovi server se superano i controlli di integrità.
+- [ ] Utilizzare Application Load Balancer per distribuire il traffico tra i server.
 
 #### D55. le regole in uscita di un gruppo di sicurezza consentono solo il traffico che va a 0.0.0.0/0 sulla porta TCP 22 (SSH) e sulla porta TCP 3306 (MySQL). Esamina le regole in ingresso elencate nell'immagine seguente. Qual è il problema più importante da risolvere con questa configurazione del gruppo di sicurezza, per un'istanza EC2 di Ubuntu che funge da server Web?
 
 ![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
-- \[ ] Le regole in uscita bloccano la porta UDP 53, quindi il server non sarà in grado di risolvere alcuna ricerca DNS.
-- \[x] Le regole in uscita non consentono al traffico HTTP di lasciare l'istanza, pertanto le richieste HTTP in ingresso avranno esito negativo perché i client non riceveranno mai risposte HTTP.
-- \[ ] La porta SSH in entrata non deve essere aperta al pubblico. Limita SSH a un singolo indirizzo IP o intervallo IP di indirizzi controllati oppure utilizza una VPN per accedere al VPC per questo server.
-- \[ ] Tutte le porte TCP in ingresso sono esposte, il che sostituisce le regole HTTP e SSH ed espone tutte le porte TCP alla rete Internet pubblica.
+- [ ] Le regole in uscita bloccano la porta UDP 53, quindi il server non sarà in grado di risolvere alcuna ricerca DNS.
+- [x] Le regole in uscita non consentono al traffico HTTP di lasciare l'istanza, pertanto le richieste HTTP in ingresso avranno esito negativo perché i client non riceveranno mai risposte HTTP.
+- [ ] La porta SSH in entrata non deve essere aperta al pubblico. Limita SSH a un singolo indirizzo IP o intervallo IP di indirizzi controllati oppure utilizza una VPN per accedere al VPC per questo server.
+- [ ] Tutte le porte TCP in ingresso sono esposte, il che sostituisce le regole HTTP e SSH ed espone tutte le porte TCP alla rete Internet pubblica.
 
 #### D56. Un'istanza EC2 che esegue un sito WordPress continua a essere violata, anche se hai ripristinato il server più volte e hai patchato WordPress. Quale servizio AWS può aiutarti a rilevare e prevenire ulteriori attacchi?
 
-- \[ ] CloudWatch
-- \[x] GuardDuty
-- \[ ] Scudo
-- \[ ] Consulente per la sicurezza
+- [ ] CloudWatch
+- [x] GuardDuty
+- [ ] Scudo
+- [ ] Consulente per la sicurezza
 
 #### D57. Un client non tecnico desidera migrare un sito WordPress in AWS da un server privato gestito da una società di hosting di terze parti. A quale servizio AWS consigliare di eseguire la migrazione del sito?
 
-- \[ ] CloudFront
-- \[ ] Un'istanza EC2 lanciata dall'AMI WordPress ufficiale
-- \[ ] S3
-- \[x] Lightsail
+- [ ] CloudFront
+- [ ] Un'istanza EC2 lanciata dall'AMI WordPress ufficiale
+- [ ] S3
+- [x] Lightsail
 
 #### D58. La tua azienda dispone di server on-premise con una soluzione di backup in loco esistente che replica anche i backup in un altro campus dall'altra parte del paese con la propria soluzione di backup in loco. Ti è stato chiesto di creare un terzo livello di ridondanza archiviando anche questi backup nel cloud. In caso di guasto di un backup primario e secondario, il tuo capo vuole sapere che i backup cloud possono essere accessibili il più velocemente possibile per ridurre i tempi di inattività durante il ripristino. Quale classe di storage S3 consigliate per costi e prestazioni?
 
-- \[ ] S3 Standard
-- \[ ] S3 Intelligent-Tiering
-- \[ ] Ghiacciaio S3
-- \[x] S3 Accesso infrequente a una zona
+- [ ] S3 Standard
+- [ ] S3 Intelligent-Tiering
+- [ ] Ghiacciaio S3
+- [x] S3 Accesso infrequente a una zona
 
 #### D59. Quale archivio di Big Data ti consentirà di archiviare grandi flussi di dati sull'attività degli utenti provenienti da applicazioni web e mobili?
 
-- \[ ] Nettuno
-- \[ ] Aurora
-- \[ ] RDS per SQL Server
-- \[x] Redshift
+- [ ] Nettuno
+- [ ] Aurora
+- [ ] RDS per SQL Server
+- [x] Redshift
 
 #### D60. Qual è l'opzione migliore per Auto Scaling delle istanze EC2 per modelli di traffico prevedibili?
 
-- \[x] scala in base a una pianificazione
-- \[ ] ridimensionamento manuale
-- \[ ] scala in base alla domanda
-- \[ ] mantenere i livelli attuali in ogni momento
+- [x] scala in base a una pianificazione
+- [ ] ridimensionamento manuale
+- [ ] scala in base alla domanda
+- [ ] mantenere i livelli attuali in ogni momento
 
 #### D61. Stai migrando un cluster RabbitMQ on-premise in AWS. Quale percorso di migrazione scegliere per facilitare sia la manutenzione che la distribuzione?
 

@@ -416,112 +416,112 @@ FlowLog:
 #### Pregunta 51. ¿Cuál es la práctica recomendada para mantener las instancias EC2 de Windows y aplicar actualizaciones?
 
 - [ ] Active la actualización automática en Windows Update en cada EC2 que se lance, o cree su propia AMI con esta característica habilitada y lance todas sus instancias EC2 desde esta AMI.
-- \[ ] Cree un programa de mantenimiento que un empleado debe completar cada semana confirmando que se realizó una inspección visual de cada instancia y qué parches se aplicaron.
-- \[x] Utilice AWS Systems Manager Patch Manager para buscar instancias de parche que requieran actualizaciones durante una ventana de mantenimiento establecida.
-- \[ ] Instale Windows Server Update Services en el controlador principal de Active Directory.
+- [ ] Cree un programa de mantenimiento que un empleado debe completar cada semana confirmando que se realizó una inspección visual de cada instancia y qué parches se aplicaron.
+- [x] Utilice AWS Systems Manager Patch Manager para buscar instancias de parche que requieran actualizaciones durante una ventana de mantenimiento establecida.
+- [ ] Instale Windows Server Update Services en el controlador principal de Active Directory.
 
 #### P52. Además de CloudFormation, puede utilizar otras herramientas de orquestación para automatizar la formación y el mantenimiento de servidores. ¿Qué herramienta es _no_ una opción eficiente para la orquestación de una gran infraestructura?
 
-- \[ ] Chef
-- \[ ] Ansible
-- \[ ] Títere
-- \[x] Vagabundo
+- [ ] Chef
+- [ ] Ansible
+- [ ] Títere
+- [x] Vagabundo
 
 #### Pregunta 53. ¿Qué sucede con una instancia rds de SQL Server si las bases de datos aumentan de tamaño y superan el espacio asignado?
 
-- \[ ] RDS aumentará automáticamente el espacio asignado en un 10 % y enviará a la cuenta raíz de AWS un correo electrónico con los pasos de resolución. Asigne más espacio para evitar cargos por exceso de edad.
-- \[x] La instancia de base de datos informará de un estado de STORAGE_FULL y se volverá inaccesible si la instancia no tiene suficiente almacenamiento restante para funcionar. Asigne más espacio a la instancia.
-- \[ ] SQL Server cerrará todas las conexiones existentes a las bases de datos e intentará reducir sus archivos de registro para recuperar espacio de almacenamiento.
-- \[ ] RDS aumentará automáticamente el espacio asignado en un 5% y continuará asignando nuevo espacio hasta el 50% del espacio original asignado. Cuando el espacio de almacenamiento ha aumentado un 50%, RDS detendrá automáticamente la instancia para preservar la integridad de los datos.
+- [ ] RDS aumentará automáticamente el espacio asignado en un 10 % y enviará a la cuenta raíz de AWS un correo electrónico con los pasos de resolución. Asigne más espacio para evitar cargos por exceso de edad.
+- [x] La instancia de base de datos informará de un estado de STORAGE_FULL y se volverá inaccesible si la instancia no tiene suficiente almacenamiento restante para funcionar. Asigne más espacio a la instancia.
+- [ ] SQL Server cerrará todas las conexiones existentes a las bases de datos e intentará reducir sus archivos de registro para recuperar espacio de almacenamiento.
+- [ ] RDS aumentará automáticamente el espacio asignado en un 5% y continuará asignando nuevo espacio hasta el 50% del espacio original asignado. Cuando el espacio de almacenamiento ha aumentado un 50%, RDS detendrá automáticamente la instancia para preservar la integridad de los datos.
 
 #### Pregunta 54. Tiene una flota de dispositivos IoT que envían telemetría a una aplicación del lado del servidor proporcionada por su proveedor de IoT para decodificar un formato de mensajería propietario. Los dispositivos se aprovisionan para enviar informes de telemetría al servidor a través de UDP en el puerto 6339. ¿Cuál es la mejor manera de escalar este servidor a medida que se agregan más dispositivos Iot a su flota?
 
-- \[ ] Utilice un equilibrador de carga de red para distribuir el tráfico entre sus servidores. Utilice las comprobaciones de estado de UDP para determinar si el servidor está disponible para recibir tráfico.
-- \[x] Utilice Route 53 con comprobaciones de estado HTTP. Cree una aplicación en el servidor para informar del estado de preparación del software de servidor proporcionado por el proveedor a Route 53 a través de HTTP.
-- \[ ] Utilice Route 53 con comprobaciones de estado de UDP. A medida que se amplía la escala, Route 53 enrutará el tráfico a los nuevos servidores si pasan las comprobaciones de estado.
-- \[ ] Utilice Application Load Balancer para distribuir el tráfico entre los servidores.
+- [ ] Utilice un equilibrador de carga de red para distribuir el tráfico entre sus servidores. Utilice las comprobaciones de estado de UDP para determinar si el servidor está disponible para recibir tráfico.
+- [x] Utilice Route 53 con comprobaciones de estado HTTP. Cree una aplicación en el servidor para informar del estado de preparación del software de servidor proporcionado por el proveedor a Route 53 a través de HTTP.
+- [ ] Utilice Route 53 con comprobaciones de estado de UDP. A medida que se amplía la escala, Route 53 enrutará el tráfico a los nuevos servidores si pasan las comprobaciones de estado.
+- [ ] Utilice Application Load Balancer para distribuir el tráfico entre los servidores.
 
 #### Pregunta 55. las reglas de salida de un grupo de seguridad solo permiten que el tráfico vaya a 0.0.0.0/0 en el puerto TCP 22 (SSH) y el puerto TCP 3306 (MySQL). Revise las reglas de entrada enumeradas en la imagen a continuación. ¿Cuál es el problema más importante a solucionar con esta configuración de grupo de seguridad, para una instancia EC2 de Ubuntu que actúa como servidor web?
 
 ![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
-- \[ ] Las reglas de salida bloquean el puerto UDP 53, por lo que el servidor no podrá resolver ninguna búsqueda DNS.
-- \[x] Las reglas de salida no permiten que el tráfico HTTP salga de la instancia, por lo que las solicitudes HTTP entrantes fallarán porque los clientes nunca obtendrán respuestas HTTP.
-- \[ ] El puerto SSH entrante no debe estar abierto al público. Limite SSH a una sola dirección IP o rango de IP de dirección controlada, o utilice una VPN para acceder a la VPC de este servidor.
-- \[ ] Se exponen todos los puertos TCP entrantes, lo que anula las reglas HTTP y SSH y expone todos los puertos TCP a la Internet pública.
+- [ ] Las reglas de salida bloquean el puerto UDP 53, por lo que el servidor no podrá resolver ninguna búsqueda DNS.
+- [x] Las reglas de salida no permiten que el tráfico HTTP salga de la instancia, por lo que las solicitudes HTTP entrantes fallarán porque los clientes nunca obtendrán respuestas HTTP.
+- [ ] El puerto SSH entrante no debe estar abierto al público. Limite SSH a una sola dirección IP o rango de IP de dirección controlada, o utilice una VPN para acceder a la VPC de este servidor.
+- [ ] Se exponen todos los puertos TCP entrantes, lo que anula las reglas HTTP y SSH y expone todos los puertos TCP a la Internet pública.
 
 #### Pregunta 56. Una instancia EC2 que ejecuta un sitio de WordPress sigue siendo pirateada, a pesar de que ha restaurado el servidor varias veces y ha parcheado WordPress. ¿Qué servicio de AWS puede ayudarle a detectar y prevenir nuevos ataques?
 
-- \[ ] CloudWatch
-- \[x] GuardDuty
-- \[ ] Escudo
-- \[ ] Asesor de seguridad
+- [ ] CloudWatch
+- [x] GuardDuty
+- [ ] Escudo
+- [ ] Asesor de seguridad
 
 #### Pregunta 57. Un cliente no técnico desea migrar un sitio de WordPress a AWS desde un servidor privado administrado por una empresa de alojamiento de terceros. ¿A qué servicio de AWS debería recomendar migrar el sitio?
 
-- \[ ] CloudFront
-- \[ ] Una instancia EC2 lanzada desde la AMI oficial de WordPress
-- \[ ] S3
-- \[x] Vela ligera
+- [ ] CloudFront
+- [ ] Una instancia EC2 lanzada desde la AMI oficial de WordPress
+- [ ] S3
+- [x] Vela ligera
 
 #### Pregunta 58. Su empresa tiene servidores locales con una solución de copia de seguridad en el sitio existente que también replica las copias de seguridad en otro campus en el otro lado del país con su propia solución de copia de seguridad en el sitio. Se le ha pedido que cree un tercer nivel de redundancia almacenando también estas copias de seguridad en la nube. En el caso de una falla de copia de seguridad primaria y secundaria, su jefe quiere saber que las copias de seguridad en la nube pueden ser accesibles lo más rápido posible para reducir el tiempo de inactividad durante la recuperación. ¿Qué clase de almacenamiento de S3 recomienda por costo y rendimiento?
 
-- \[ ] Estándar S3
-- \[ ] S3 Intelligent-Tiering
-- \[ ] Glaciar S3
-- \[x] Acceso poco frecuente a una zona de S3
+- [ ] Estándar S3
+- [ ] S3 Intelligent-Tiering
+- [ ] Glaciar S3
+- [x] Acceso poco frecuente a una zona de S3
 
 #### Pregunta 59. ¿Qué big data store le permitirá almacenar grandes flujos de datos de actividad del usuario procedentes de aplicaciones web y móviles?
 
-- \[ ] Neptuno
-- \[ ] Aurora
-- \[ ] RDS para SQL Server
-- \[x] Corrimiento al rojo
+- [ ] Neptuno
+- [ ] Aurora
+- [ ] RDS para SQL Server
+- [x] Corrimiento al rojo
 
 #### P60. ¿Qué opción es la mejor para Auto Scaling sus instancias EC2 para patrones de tráfico predecibles?
 
-- \[x] escala basada en un cronograma
-- \[ ] escalado manual
-- \[ ] escala basada en la demanda
-- \[ ] mantener los niveles actuales en todo momento
+- [x] escala basada en un cronograma
+- [ ] escalado manual
+- [ ] escala basada en la demanda
+- [ ] mantener los niveles actuales en todo momento
 
 #### P61. Está migrando un clúster de RabbitMQ local a AWS. ¿Qué ruta de migración debe elegir para facilitar tanto el mantenimiento como la implementación?
 
-- \[ ] Vuelva a escribir las partes de su aplicación que usan RabbitMQ para usar SQS.
-- \[ ] Lance un clúster de RabbitMQ con instancias EC2 utilizando una AMI compatible.
-- \[ ] Vuelva a escribir las partes de su aplicación que usan RabbitMQ para usar Kinesis.
-- \[x] Vuelva a escribir las partes de la aplicación que utilizan RabbitMQ para utilizar Amazon MQ.
+- [ ] Vuelva a escribir las partes de su aplicación que usan RabbitMQ para usar SQS.
+- [ ] Lance un clúster de RabbitMQ con instancias EC2 utilizando una AMI compatible.
+- [ ] Vuelva a escribir las partes de su aplicación que usan RabbitMQ para usar Kinesis.
+- [x] Vuelva a escribir las partes de la aplicación que utilizan RabbitMQ para utilizar Amazon MQ.
 
 #### P62. Al crear una nueva instancia de RDS, ¿qué hace la opción Multi-AZ?
 
-- \[ ] replica las copias de seguridad de su base de datos en S3 y las pone a disposición en todas las regiones para evitar cualquier pérdida de datos
-- \[x] crea una segunda instancia de base de datos pasiva dentro de la misma región que se convertirá en la base de datos principal durante una conmutación por error
-- \[ ] crea un clúster de bases de datos de alta disponibilidad que hospedará el clúster de bases de datos en al menos dos regiones
-- \[ ] crea otra instancia de base de datos en otra región y mantiene activo un modo de espera activo para la conmutación por error durante los errores regionales
+- [ ] replica las copias de seguridad de su base de datos en S3 y las pone a disposición en todas las regiones para evitar cualquier pérdida de datos
+- [x] crea una segunda instancia de base de datos pasiva dentro de la misma región que se convertirá en la base de datos principal durante una conmutación por error
+- [ ] crea un clúster de bases de datos de alta disponibilidad que hospedará el clúster de bases de datos en al menos dos regiones
+- [ ] crea otra instancia de base de datos en otra región y mantiene activo un modo de espera activo para la conmutación por error durante los errores regionales
 
 #### P63. ¿Cuál es la mejor clase de instancia EC2 para un servidor que continuamente tiene una carga pesada de CPU?
 
-- \[x] C5
-- \[ ] T2
-- \[ ] R5
-- \[ ] H1
+- [x] C5
+- [ ] T2
+- [ ] R5
+- [ ] H1
 
 #### Pregunta 64. El sistema de gestión del rendimiento de las aplicaciones (APM) puede leer el estado de los monitores de CloudWatch y realizar acciones programadas. Cuando la métrica de CloudWatch StatusCheckFailed entra en un estado de error (un valor de 1), desea que su APM repare automáticamente la instancia. ¿Qué script utilizas?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 stop-instances --instance-ids i-0b263919b6498b123
     aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -529,7 +529,7 @@ FlowLog:
     wait 30
     aws ec2 start-instance --instance-ids i-0b263919b6498b123
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -540,8 +540,8 @@ FlowLog:
 
 ![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
-- \[ ] Todo el tráfico en todos los puertos se está denegando en esta instancia, lo que sobrescribe la regla HTTP y la hace redundante.
-- \[x] La instancia se lanzó con el grupo de seguridad predeterminado, pero no hay forma de que un administrador entre SSH en la instancia.
+- [ ] Todo el tráfico en todos los puertos se está denegando en esta instancia, lo que sobrescribe la regla HTTP y la hace redundante.
+- [x] La instancia se lanzó con el grupo de seguridad predeterminado, pero no hay forma de que un administrador entre SSH en la instancia.
   Agregue otra regla que permita el acceso SSH desde un origen seguro, como una sola IP o un rango de direcciones IP administradas.
 - \[ ] No hay nada de malo en esta regla de grupo de seguridad. Suponiendo que sg-269afc5e se aplica a otros recursos que son correctamente
   protegido, esta regla permite que pase todo el tráfico que también está asignado al grupo de seguridad sg-269afc5e.

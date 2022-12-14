@@ -553,7 +553,7 @@ echo $greeting, everybody!
 - [ ] `(( num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
 - [x] `(( num > 5 ))`
-- \[ ] `num > 5`
+- [ ] `num > 5`
 
 [referencia](https://tldp.org/LDP/abs/html/dblparens.html)
 
@@ -571,14 +571,14 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- \[x] a
+- [x] a
 
 ```bash
 apple
 banana
 ```
 
-- \[ ] b
+- [ ] b
 
 ```bash
 apple
@@ -589,7 +589,7 @@ pineapple
 strawberry
 ```
 
-- \[ ] c
+- [ ] c
 
 ```bash
 apple
@@ -599,7 +599,7 @@ banapple
 pineapple
 ```
 
-- \[ ] d
+- [ ] d
 
 ```bash
 apple
@@ -613,7 +613,7 @@ pineapple
 
 #### Pregunta 49. Cuando se usa desde dentro de un script, ¿qué variable contiene el nombre del script?
 
-- \[x] $0
+- [x] $0
 - \[ ] $# // número de parámetros posicionales
 - \[ ] $$ // pid de la cáscara actual
 - \[ ] $@ // Construcción tipo matriz de todos los parámetros posicionales

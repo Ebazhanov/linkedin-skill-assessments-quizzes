@@ -315,18 +315,18 @@ FlowLog:
 #### Q40. Vous disposez de 14 serveurs Web sur site, de 4 serveurs de base de données, de 6 serveurs utilisant un logiciel SIG, de 3 serveurs de fichiers et de 4 serveurs de développement. Quelles considérations devez-vous prendre en compte lors de la migration de ces serveurs vers AWS ?
 
 - [ ] AWS n’a pas de moyen de séparer la facturation des coûts de calcul, vous devrez donc concevoir un moyen de répartir le budget entre les services.
-- \[x] Les nouveaux comptes AWS sont limités à 20 instances EC2 à la demande. Envoyez une demande d’augmentation de vos limites de débit avant de commencer une migration.
+- [x] Les nouveaux comptes AWS sont limités à 20 instances EC2 à la demande. Envoyez une demande d’augmentation de vos limites de débit avant de commencer une migration.
 
 #### Q41. Au fur et à mesure que votre application Web se développe et que vos besoins de surveillance des applications deviennent plus complexes, quel service supplémentaire de surveillance des journaux ne devriez-vous PAS envisager ?
 
-- \[ ] Pile ELK : Elasticsearch, Loggly et Kibana
-- \[x] PRTG
-- \[ ] Nouvelle relique
-- \[ ] Datadog
+- [ ] Pile ELK : Elasticsearch, Loggly et Kibana
+- [x] PRTG
+- [ ] Nouvelle relique
+- [ ] Datadog
 
 #### Q42. Vous disposez d’une instance EC2 T2 essentielle à votre infrastructure. Comment surveilleriez-vous la métrique la plus importante pour cette instance ?
 
-- \[x] Activez CloudWatch Auto Recovery et mettez des moniteurs sur les vérifications de l’état du système et de l’état de l’instance pour que l’instance vous avertisse lorsque l’une ou l’autre est en alarme.
+- [x] Activez CloudWatch Auto Recovery et mettez des moniteurs sur les vérifications de l’état du système et de l’état de l’instance pour que l’instance vous avertisse lorsque l’une ou l’autre est en alarme.
 - \[ ] Utilisez CloudWatch pour placer des moniteurs sur les crédits CPU restants. Si vous manquez de crédit CPU, l’instance sera arrêtée.
 
 #### Q43. Quelle fonctionnalité peut être utilisée pour répondre à une augmentation soudaine du trafic Web?
