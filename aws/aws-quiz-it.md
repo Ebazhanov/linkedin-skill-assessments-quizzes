@@ -19,86 +19,86 @@
 - [ ] Utilizzare la console RDS per forzare il riavvio dell'istanza del database in modo che il server primario diventi nuovamente il server master.
 - [ ] Il server che esegue le utilità .NET memorizza nella cache la ricerca DNS nell'indirizzo del cluster di database. Svuotare la cache DNS del server e forzare le utilità C# ad aprire nuove connessioni al database.
 - [ ] A.NET applicazione conserverà l'indirizzo IP di una stringa di connessione fino al riavvio della macchina host.
-- \[x] Le utilità NET devono modificare l'endpoint SQL Server nelle stringhe di connessione per leggerle dal server di database secondario utilizzando un try/catch.
+- [x] Le utilità NET devono modificare l'endpoint SQL Server nelle stringhe di connessione per leggerle dal server di database secondario utilizzando un try/catch.
 
 #### D4. Quali servizi AWS possono aiutarti ad automatizzare la pipeline di sviluppo per l'integrazione continua e la distribuzione continua?
 
-- \[ ] CodePipeline
-- \[ ] CodeDeploy
-- \[x] tutte queste risposte
-- \[ ] CodeBuild
+- [ ] CodePipeline
+- [ ] CodeDeploy
+- [x] tutte queste risposte
+- [ ] CodeBuild
 
 #### D5. Quale servizio AWS è conforme agli standard descritti in Payment Card Industry Data Security Standard (PCI DSS) Level 1 per la gestione e la trasmissione dei dati delle carte di credito?
 
-- \[ ] Gateway API
-- \[x] tutte queste risposte
-- \[ ] Servizio di coda semplice (SQS)
-- \[ ] Flussi di dati Kinesis
+- [ ] Gateway API
+- [x] tutte queste risposte
+- [ ] Servizio di coda semplice (SQS)
+- [ ] Flussi di dati Kinesis
 
 #### D6. Nel tuo array di archiviazione collegato alla rete sono presenti una grande quantità di file che devono essere archiviati e mantenuti per un periodo di 10 anni a causa delle normative del settore. Questi dati saranno accessibili raramente, ma devono essere conservati Qual è il miglior servizio AWS per l'archiviazione di questi dati?
 
-- \[ ] EFS
-- \[ ] Palla di neve
-- \[ ] OEBS
-- \[x] Ghiacciaio S3
+- [ ] EFS
+- [ ] Palla di neve
+- [ ] OEBS
+- [x] Ghiacciaio S3
 
 #### D7. Per il tuo account root AWS, hai generato una password casuale della lunghezza massima consentita e hai incluso caratteri speciali. Quali passaggi aggiuntivi è necessario eseguire per proteggere l'account root AWS?
 
-- \[ ] Creare un ruolo AM per l'amministratore dell'account con i privilegi più elevati. Non memorizzare la password di root, ma quando è necessario l'account root reimpostare la password sull'account root tramite e-mail di conferma e ripetere questa procedura.
-- \[ ] Archivia la tua password generata casualmente nel tuo database dei segreti organizzativi utilizzando un servizio come 1Password o LastPass e concedi l'accesso a questo segreto solo al team DevOps.
-- \[ ] Crea account IAM per i tuoi amministratori e collega la policy AdministratorAccess ai loro account. Disabilita l'account root nelle impostazioni utente.
-- \[x] Crea un ruolo IAM per l'amministratore dell'account con i privilegi più alti e non utilizzare l'account root nelle operazioni quotidiane. Abilitare l'autenticazione a due fattori sull'account root
+- [ ] Creare un ruolo AM per l'amministratore dell'account con i privilegi più elevati. Non memorizzare la password di root, ma quando è necessario l'account root reimpostare la password sull'account root tramite e-mail di conferma e ripetere questa procedura.
+- [ ] Archivia la tua password generata casualmente nel tuo database dei segreti organizzativi utilizzando un servizio come 1Password o LastPass e concedi l'accesso a questo segreto solo al team DevOps.
+- [ ] Crea account IAM per i tuoi amministratori e collega la policy AdministratorAccess ai loro account. Disabilita l'account root nelle impostazioni utente.
+- [x] Crea un ruolo IAM per l'amministratore dell'account con i privilegi più alti e non utilizzare l'account root nelle operazioni quotidiane. Abilitare l'autenticazione a due fattori sull'account root
 
 #### D8. Quale opzione elastica di bilanciamento del carico supporta Lambda come destinazione?
 
-- \[ ] Network Load Balancer
-- \[ ] Lambda non può essere chiamato direttamente dalle richieste web in arrivo. È necessario utilizzare API Gateway.
-- \[ ] Bilanciamento del carico classico
-- \[x] Application Load Balancer
+- [ ] Network Load Balancer
+- [ ] Lambda non può essere chiamato direttamente dalle richieste web in arrivo. È necessario utilizzare API Gateway.
+- [ ] Bilanciamento del carico classico
+- [x] Application Load Balancer
 
 #### D9. In che modo è possibile progettare una soluzione per un database SQL Server da replicare tra le regioni AWS in un'architettura attivo-attiva?
 
-- \[ ] Utilizzare RDS per SQL Server e creare la stessa istanza in due aree diverse. Utilizzare Servizio migrazione database per mantenere sincronizzato ogni database.
-- \[ ] Utilizzare un peering VPN o VPC per stabilire una connessione tra i VPC in ogni regione. Installa SQL Server Enterprise Edition nelle istanze EC2 in ogni area geografica e configura un gruppo di disponibilità Sempre attivo.
-- \[x] Utilizzare RDS per SQL Server 2016 o 2017 Enterprise Edition. Abilitare il supporto Multi-AZ e selezionare l'opzione Mirroring/Always On. Selezionare un'altra regione per l'opzione di mirroring.
-- \[ ] Non è possibile impostare un'architettura attivo-attiva per SQL Server che si estende su aree geografiche.
+- [ ] Utilizzare RDS per SQL Server e creare la stessa istanza in due aree diverse. Utilizzare Servizio migrazione database per mantenere sincronizzato ogni database.
+- [ ] Utilizzare un peering VPN o VPC per stabilire una connessione tra i VPC in ogni regione. Installa SQL Server Enterprise Edition nelle istanze EC2 in ogni area geografica e configura un gruppo di disponibilità Sempre attivo.
+- [x] Utilizzare RDS per SQL Server 2016 o 2017 Enterprise Edition. Abilitare il supporto Multi-AZ e selezionare l'opzione Mirroring/Always On. Selezionare un'altra regione per l'opzione di mirroring.
+- [ ] Non è possibile impostare un'architettura attivo-attiva per SQL Server che si estende su aree geografiche.
 
 [Riferimento](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html?opt_id=oeu1612780272452r0.9199525073583283)
 
 #### D10. Quanto costa lanciare un'istanza EC2 da AWS Marketplace?
 
-- \[ ] Tutte le immagini in AWS Marketplace comportano costi orari aggiuntivi oltre ai costi derivanti dalla dimensione dell'istanza selezionata.
-- \[ ] Puoi avviare solo immagini create da altri utenti sul tuo account AWS, quindi paghi solo per le dimensioni dell'istanza selezionata e i costi di storage S3 per l'immagine di base.
-- \[x] Ogni immagine ha i propri prezzi che potrebbero essere gratuiti o includere addebiti per i costi di licenza del software. Pagherai anche per l'istanza su cui viene eseguita l'immagine
-- \[ ] Tutte le immagini in AWS Marketplace contengono solo software open source senza costi aggiuntivi e sono create da altri utenti AWS. Pagherai solo per la dimensione dell'istanza selezionata.
+- [ ] Tutte le immagini in AWS Marketplace comportano costi orari aggiuntivi oltre ai costi derivanti dalla dimensione dell'istanza selezionata.
+- [ ] Puoi avviare solo immagini create da altri utenti sul tuo account AWS, quindi paghi solo per le dimensioni dell'istanza selezionata e i costi di storage S3 per l'immagine di base.
+- [x] Ogni immagine ha i propri prezzi che potrebbero essere gratuiti o includere addebiti per i costi di licenza del software. Pagherai anche per l'istanza su cui viene eseguita l'immagine
+- [ ] Tutte le immagini in AWS Marketplace contengono solo software open source senza costi aggiuntivi e sono create da altri utenti AWS. Pagherai solo per la dimensione dell'istanza selezionata.
 
 #### D11. Quando si utilizza un cluster ECS con istanze EC2, quali attività di manutenzione è necessario eseguire sugli EC2?
 
-- \[ ] Le istanze create da ECS non hanno patch che devono essere applicate; tuttavia, è necessario assicurarsi che i contenitori contengano aggiornamenti della protezione importanti.
-- \[x] Aggiornare il cluster con istanze create dall'AMI ECS più recente.
-- \[ ] I cluster ECS non utilizzano istanze EC2.
-- \[ ] Non devi manipolare direttamente le istanze EC2 create da ECS. AWS aggiornerà automaticamente queste istanze.
+- [ ] Le istanze create da ECS non hanno patch che devono essere applicate; tuttavia, è necessario assicurarsi che i contenitori contengano aggiornamenti della protezione importanti.
+- [x] Aggiornare il cluster con istanze create dall'AMI ECS più recente.
+- [ ] I cluster ECS non utilizzano istanze EC2.
+- [ ] Non devi manipolare direttamente le istanze EC2 create da ECS. AWS aggiornerà automaticamente queste istanze.
 
 #### D12. Quale server di memorizzazione nella cache in memoria non è supportato da ElastiCache?
 
-- \[ ] Redis 5
-- \[ ] Memcached
-- \[x] Elasticsearch
-- \[ ] Redis 3
+- [ ] Redis 5
+- [ ] Memcached
+- [x] Elasticsearch
+- [ ] Redis 3
 
 #### D13. Quale servizio AWS può essere utilizzato per generare la documentazione richiesta da vari standard di conformità, come payment card industry data security standard (PCI DSS) livello 1 per la gestione dei dati delle carte di credito?
 
-- \[x] Artefatto
-- \[ ] DocumentDB
-- \[ ] Stampa il riepilogo della conformità AWS e conservalo con la documentazione richiesta per un audit.
-- \[ ] Gestore dei segreti
+- [x] Artefatto
+- [ ] DocumentDB
+- [ ] Stampa il riepilogo della conformità AWS e conservalo con la documentazione richiesta per un audit.
+- [ ] Gestore dei segreti
 
 #### D14. Quando si utilizza AWS per la ricerca e lo sviluppo prima di una migrazione pianificata, come si evitano aumenti o picchi imprevisti nella fatturazione?
 
-- \[ ] Utilizza la dashboard di fatturazione per creare un budget di costo. Inserisci l'importo massimo che desideri venga addebitato ogni mese. Eventuali addebiti superiori a questo importo causeranno la sospensione automatica di tali risorse da parte di AWS
-- \[ ] Utilizzando l'account AWS root, attiva l'accesso IAM alle informazioni di fatturazione per l'account. Assicurati che i tuoi utenti IAM dispongano della policy Billing FullAccessGroup. Quindi, dalla dashboard di fatturazione, controlla gli addebiti maturati una volta al giorno.
-- \[ ] Se utilizzi il piano gratuito di AWS, dovrai confermare l'utilizzo di qualsiasi servizio che superi i limiti del piano gratuito di AWS.
-- \[x] Utilizzando l'account AWS root abilita gli avvisi di fatturazione nelle preferenze dell'utente. Quindi usa CloudWatch per creare un allarme di fatturazione e impostare una soglia su un importo in dollari specifico per i costi mensili stimati.
+- [ ] Utilizza la dashboard di fatturazione per creare un budget di costo. Inserisci l'importo massimo che desideri venga addebitato ogni mese. Eventuali addebiti superiori a questo importo causeranno la sospensione automatica di tali risorse da parte di AWS
+- [ ] Utilizzando l'account AWS root, attiva l'accesso IAM alle informazioni di fatturazione per l'account. Assicurati che i tuoi utenti IAM dispongano della policy Billing FullAccessGroup. Quindi, dalla dashboard di fatturazione, controlla gli addebiti maturati una volta al giorno.
+- [ ] Se utilizzi il piano gratuito di AWS, dovrai confermare l'utilizzo di qualsiasi servizio che superi i limiti del piano gratuito di AWS.
+- [x] Utilizzando l'account AWS root abilita gli avvisi di fatturazione nelle preferenze dell'utente. Quindi usa CloudWatch per creare un allarme di fatturazione e impostare una soglia su un importo in dollari specifico per i costi mensili stimati.
 
 #### D15. Stai creando una tabella DynamoDB per archiviare tutti i film che sono stati rilasciati dal 1938. La tua applicazione consentirà agli utenti di cercare per titolo del film e vedere i dettagli di quel film. Dato l'esempio seguente che mostra i dati del filmato che verranno importati, qual è il miglior set di chiavi da applicare a questa tabella?
 
@@ -111,97 +111,97 @@
 }
 ```
 
-- \[ ] La chiave primaria deve essere una chiave di partizione del campo del titolo.
-- \[ ] La chiave primaria dovrebbe essere il campo del titolo e la chiave di partizione dovrebbe essere il campo dei generi.
-- \[ ] La chiave primaria dovrebbe essere una chiave composita composta da una chiave di partizione nel campo del titolo e una chiave di ordinamento nel campo dell'anno.
-- \[x] La chiave primaria deve essere creata come un valore completamente univoco, ad esempio un elenco numerico sequenziale di ID filmato. La chiave di partizione dovrebbe essere il campo title per una ricerca rapida.
+- [ ] La chiave primaria deve essere una chiave di partizione del campo del titolo.
+- [ ] La chiave primaria dovrebbe essere il campo del titolo e la chiave di partizione dovrebbe essere il campo dei generi.
+- [ ] La chiave primaria dovrebbe essere una chiave composita composta da una chiave di partizione nel campo del titolo e una chiave di ordinamento nel campo dell'anno.
+- [x] La chiave primaria deve essere creata come un valore completamente univoco, ad esempio un elenco numerico sequenziale di ID filmato. La chiave di partizione dovrebbe essere il campo title per una ricerca rapida.
 
 #### D16. Quale archivio dati offre un modo semplice e rapido per archiviare gli attributi utente di base in un formato basato su oggetti?
 
-- \[ ] ORDS per Oracle
-- \[ ] Redshift
-- \[ ] Nettuno
-- \[x] DynamoDB
+- [ ] ORDS per Oracle
+- [ ] Redshift
+- [ ] Nettuno
+- [x] DynamoDB
 
 #### D17. È necessario un database senza schema. Quale servizio di database Amazon fornisce tale soluzione?
 
-- \[ ] ORDS
-- \[ ] Aurora
-- \[ ] Redshift
-- \[x] DynamoDB
+- [ ] ORDS
+- [ ] Aurora
+- [ ] Redshift
+- [x] DynamoDB
 
 #### D18. Quale canale di comunicazione SNS non supporta in modo nativo?
 
-- \[ ] Messaggio di testo OSMS
-- \[ ] notifica push
-- \[ ] e-mail
-- \[x] telefonata automatica
+- [ ] Messaggio di testo OSMS
+- [ ] notifica push
+- [ ] e-mail
+- [x] telefonata automatica
 
 #### D19. Quando si progetta un'applicazione Web serverless utilizzando Lambda, quale concetto chiave è necessario prendere in considerazione nel progetto?
 
-- \[ ] Le applicazioni Web serverless vengono eseguite all'interno del browser Web dell'utente, quindi sarà necessario archiviare tutti i dati che l'utente modifica direttamente in un database.
-- \[ ] Lambda consente solo di scrivere funzioni in JavaScript.
-- \[ ] Lambda non utilizza server, quindi può solo restituire la stessa richiesta a ogni utente.
-- \[x] Lambda è senza stato, quindi non ricorderà chi è un utente tra una richiesta e l'altra.
+- [ ] Le applicazioni Web serverless vengono eseguite all'interno del browser Web dell'utente, quindi sarà necessario archiviare tutti i dati che l'utente modifica direttamente in un database.
+- [ ] Lambda consente solo di scrivere funzioni in JavaScript.
+- [ ] Lambda non utilizza server, quindi può solo restituire la stessa richiesta a ogni utente.
+- [x] Lambda è senza stato, quindi non ricorderà chi è un utente tra una richiesta e l'altra.
 
 #### D20. Un principio di DevOps è quello di visualizzare l'infrastruttura come codice. Quale servizio AWS ti consente di creare script per la tua infrastruttura AWS?
 
-- \[ ] CloudTrail
-- \[x] CloudFormation
-- \[ ] AWS Config
-- \[ ] Catalogo dei servizi AWS
+- [ ] CloudTrail
+- [x] CloudFormation
+- [ ] AWS Config
+- [ ] Catalogo dei servizi AWS
 
 #### D21. È stata creata un'istanza di Windows EC2 con un indirizzo IP pubblico e installato SQL Server. Quando si tenta di connettersi a SQL Server da SQL Server Enterprise Manager nel computer locale, l'istanza di Windows EC2 non è in grado di stabilire una connessione al server. Qual è la prima cosa che dovresti controllare?
 
-- \[ ] Controllare le tabelle di routing per il VPC.
-- \[x] Verificare che i gruppi di sicurezza assegnati consentano il traffico della porta TCP 1433 dall'indirizzo IP corrente.
-- \[ ] Controllare i criteri all'interno di Windows Firewall.
-- \[ ] Verificare che ci si stia connettendo all'istanza utilizzando un utente che non è sa.
+- [ ] Controllare le tabelle di routing per il VPC.
+- [x] Verificare che i gruppi di sicurezza assegnati consentano il traffico della porta TCP 1433 dall'indirizzo IP corrente.
+- [ ] Controllare i criteri all'interno di Windows Firewall.
+- [ ] Verificare che ci si stia connettendo all'istanza utilizzando un utente che non è sa.
 
 #### D22. Si sta ospitando un'applicazione configurata per lo streaming di contenuti multimediali ai client sulle porte TCP 3380-3384, 3386-3388 e 3390. La scheda In ingresso riportata di seguito mostra tre criteri di gruppo di sicurezza in ingresso associati a questa istanza. Quale criterio dovresti usare?
 
 ![image](images/001.png?raw=png)
 
-- \[x] La regola che espone le porte TCP 3380-3390 esporrebbe pubblicamente anche la porta 3389 (RDP) all'intera Internet. Scrivere regole separate per esporre solo le porte necessarie.
-- \[ ] La prima regola del gruppo di sicurezza consente tutto il traffico in questa istanza. L'esposizione dell'intera istanza all'intera Internet lascia il server aperto a vari attacchi degli altri servizi in esecuzione su numeri di porta diversi.
-- \[ ] Verifica che i proprietari degli account AWS controllino effettivamente l'intero blocco CIDR C per 12.228.11.0-255 e che si tratti di IP protetti per l'accesso RDP in questa istanza.
-- \[ ] Non ci sono raccomandazioni da fare.
+- [x] La regola che espone le porte TCP 3380-3390 esporrebbe pubblicamente anche la porta 3389 (RDP) all'intera Internet. Scrivere regole separate per esporre solo le porte necessarie.
+- [ ] La prima regola del gruppo di sicurezza consente tutto il traffico in questa istanza. L'esposizione dell'intera istanza all'intera Internet lascia il server aperto a vari attacchi degli altri servizi in esecuzione su numeri di porta diversi.
+- [ ] Verifica che i proprietari degli account AWS controllino effettivamente l'intero blocco CIDR C per 12.228.11.0-255 e che si tratti di IP protetti per l'accesso RDP in questa istanza.
+- [ ] Non ci sono raccomandazioni da fare.
 
 #### D23. Hai quattro server Web front-end dietro un servizio di bilanciamento del carico, che utilizzano NFS per accedere a un'altra istanza EC2 che ridimensiona e archivia le immagini per l'applicazione front-end. Quali criteri di gruppo di sicurezza devono essere assegnati a questi server?
 
-- \[ ] Assegna IP elastici a tutte le istanze e crea un gruppo che consenta a tutto il traffico di passare tra ciascuna delle cinque
+- [ ] Assegna IP elastici a tutte le istanze e crea un gruppo che consenta a tutto il traffico di passare tra ciascuna delle cinque
   Indirizzi IP elastici e consentono tutto il traffico HTTPS in entrata.
-- \[x] I server Web front-end devono consentire HTTPS. Assegnare un altro gruppo a tutte le istanze che consenta a tutto il traffico di passare tra le istanze utilizzando tale gruppo.
-- \[ ] Creare un gruppo di sicurezza che consenta il traffico NFS, HTTP e HTTPS in ingresso da tutti gli indirizzi IP. Applicare questo gruppo a tutti i server.
-- \[ ] Creare un gruppo di sicurezza che consenta il traffico HTTP e HTTPS in ingresso da tutti gli indirizzi IP e applicarlo ai server Web. Creare un secondo gruppo di sicurezza per l'archivio file NFS che consenta il traffico NFS in uscita verso l'intervallo IP privato dei server Web front-end.
+- [x] I server Web front-end devono consentire HTTPS. Assegnare un altro gruppo a tutte le istanze che consenta a tutto il traffico di passare tra le istanze utilizzando tale gruppo.
+- [ ] Creare un gruppo di sicurezza che consenta il traffico NFS, HTTP e HTTPS in ingresso da tutti gli indirizzi IP. Applicare questo gruppo a tutti i server.
+- [ ] Creare un gruppo di sicurezza che consenta il traffico HTTP e HTTPS in ingresso da tutti gli indirizzi IP e applicarlo ai server Web. Creare un secondo gruppo di sicurezza per l'archivio file NFS che consenta il traffico NFS in uscita verso l'intervallo IP privato dei server Web front-end.
 
 #### D24. Hai un server web Linux EC2 che improvvisamente sta scadendo su tutte le richieste HTTP e i tuoi tentativi di connessione SSH stanno scadendo. Si nota che non riesce il controllo dello stato del sistema nella console EC2. Quali azioni dovresti intraprendere?
 
-- \[x] Ripristinare l'istanza dall'ultima immagine AMI. I controlli dello stato del sistema indicano che il filesystem dell'istanza è danneggiato.
-- \[ ] Arrestare e avviare l'istanza. In questo modo l'istanza verrà spostata in un altro host.
-- \[ ] Contatta il supporto AWS. Il mancato controllo dello stato del sistema indica un errore nell'hardware sottostante e deve essere risolto da un rappresentante AWS.
-- \[ ] Riavviare l'istanza. Questo si fermerà e avvierà l'istanza e la sposterà in un altro host.
+- [x] Ripristinare l'istanza dall'ultima immagine AMI. I controlli dello stato del sistema indicano che il filesystem dell'istanza è danneggiato.
+- [ ] Arrestare e avviare l'istanza. In questo modo l'istanza verrà spostata in un altro host.
+- [ ] Contatta il supporto AWS. Il mancato controllo dello stato del sistema indica un errore nell'hardware sottostante e deve essere risolto da un rappresentante AWS.
+- [ ] Riavviare l'istanza. Questo si fermerà e avvierà l'istanza e la sposterà in un altro host.
 
 #### D25. Disponi di diversi server locali e desideri archiviare i tuoi backup offsite su AWS. Quale servizio di backup completamente gestito puoi utilizzare per spedire i tuoi backup ad AWS?
 
-- \[ ] Windows Server 2016 supporta S3 come destinazione quando si utilizzano repliche di archiviazione.
-- \[x] Utilizzare Storage Gateway.
-- \[ ] Sincronizza i file direttamente su S3 con l'interfaccia a riga di comando di AWS.
-- \[ ] Utilizzare la console RDS per forzare il riavvio dell'istanza del database in modo che il server primario diventi nuovamente il server master.
+- [ ] Windows Server 2016 supporta S3 come destinazione quando si utilizzano repliche di archiviazione.
+- [x] Utilizzare Storage Gateway.
+- [ ] Sincronizza i file direttamente su S3 con l'interfaccia a riga di comando di AWS.
+- [ ] Utilizzare la console RDS per forzare il riavvio dell'istanza del database in modo che il server primario diventi nuovamente il server master.
 
 #### D26. Qual è la best practice per la creazione di un database PostgreSQL ad alta disponibilità in RDS in grado di sostenere la perdita di una singola regione AWS?
 
-- \[ ] PostgreSQL non può essere replicato tra le regioni. Ripristinare i backup del database da un bucket S3 e reindirizzare le connessioni al database alla nuova istanza.
-- \[ ] Crea repliche di lettura in altre regioni AWS. È possibile designare un nuovo database master da una qualsiasi delle repliche di lettura fino a quando l'errore regionale non viene risolto.
-- \[ ] Verificare che l'istanza sia configurata per il supporto Multi-AZ. Le modifiche al database verranno sincronizzate automaticamente con un'altra area in caso di errore e RDS selezionerà automaticamente un nuovo master fino a quando l'errore regionale non verrà risolto.
-- \[x] Crea repliche di lettura in altre regioni AWS. Verificare che le operazioni di lettura sul database vengano eseguite in una replica di lettura disponibile e inviare operazioni di scrittura a un'altra area se è necessario promuovere una replica di lettura a un database autonomo se il master è inattivo.
+- [ ] PostgreSQL non può essere replicato tra le regioni. Ripristinare i backup del database da un bucket S3 e reindirizzare le connessioni al database alla nuova istanza.
+- [ ] Crea repliche di lettura in altre regioni AWS. È possibile designare un nuovo database master da una qualsiasi delle repliche di lettura fino a quando l'errore regionale non viene risolto.
+- [ ] Verificare che l'istanza sia configurata per il supporto Multi-AZ. Le modifiche al database verranno sincronizzate automaticamente con un'altra area in caso di errore e RDS selezionerà automaticamente un nuovo master fino a quando l'errore regionale non verrà risolto.
+- [x] Crea repliche di lettura in altre regioni AWS. Verificare che le operazioni di lettura sul database vengano eseguite in una replica di lettura disponibile e inviare operazioni di scrittura a un'altra area se è necessario promuovere una replica di lettura a un database autonomo se il master è inattivo.
 
 #### D27. È stata creata una nuova istanza Linux EC2 e installato PostgreSQL, ma non è possibile stabilire una connessione al server dal computer locale. Quali passaggi vengono eseguiti per risolvere il problema?
 
-- \[ ] Creare una regola del gruppo di sicurezza che consenta tutto il traffico da 0.0.0.0/0. Questo verificherà se un'altra regola sta negando o meno il traffico.
-- \[x] Verificare che i gruppi di sicurezza assegnati consentano il traffico dall'indirizzo IP alla porta 5432. Verificare che PostgreSQL sia configurato per l'ascolto del traffico esterno e sia associato all'interfaccia pubblica.
-- \[ ] Assicurarsi di utilizzare un IP elastico e che sia incluso nel `postgresql.conf` file di configurazione.
-- \[ ] Arrestare e avviare l'istanza. Le nuove regole del gruppo di sicurezza avranno effetto solo dopo un riavvio.
+- [ ] Creare una regola del gruppo di sicurezza che consenta tutto il traffico da 0.0.0.0/0. Questo verificherà se un'altra regola sta negando o meno il traffico.
+- [x] Verificare che i gruppi di sicurezza assegnati consentano il traffico dall'indirizzo IP alla porta 5432. Verificare che PostgreSQL sia configurato per l'ascolto del traffico esterno e sia associato all'interfaccia pubblica.
+- [ ] Assicurarsi di utilizzare un IP elastico e che sia incluso nel `postgresql.conf` file di configurazione.
+- [ ] Arrestare e avviare l'istanza. Le nuove regole del gruppo di sicurezza avranno effetto solo dopo un riavvio.
 
 #### D28. A cosa serve il corpo informativo di questa politica del bucket S3?
 
@@ -219,31 +219,31 @@
 }
 ```
 
-- \[ ] bucketpolicy1 consente a qualsiasi utente di eseguire qualsiasi azione sugli oggetti nel bucket userreports, ma limita gli oggetti alle autorizzazioni di sola lettura per chiunque provenga da 68.249.108.0 a 68.249.108.255, ad eccezione di 68.249.108.128.
-- \[ ] bucketpolicy1 consente a qualsiasi utente proveniente dall'intervallo IP di 68.249.108.0 di accedere agli oggetti nel bucket userreports e nega l'accesso a 68.249.108.128.
-- \[ ] bucketpolicy1 consente a qualsiasi utente di eseguire qualsiasi azione sugli oggetti nel bucket userreports, ad eccezione di chiunque provenga dall'IP di 68.249.108.128.
-- \[x] bucketpolicy1 consente a qualsiasi utente proveniente dall'intervallo IP compreso tra 68.249.108.0 e 68.249.108.255 di accedere agli oggetti nel bucket userreports, ad eccezione di chiunque provenga dall'IP di 68.249.108.128.
+- [ ] bucketpolicy1 consente a qualsiasi utente di eseguire qualsiasi azione sugli oggetti nel bucket userreports, ma limita gli oggetti alle autorizzazioni di sola lettura per chiunque provenga da 68.249.108.0 a 68.249.108.255, ad eccezione di 68.249.108.128.
+- [ ] bucketpolicy1 consente a qualsiasi utente proveniente dall'intervallo IP di 68.249.108.0 di accedere agli oggetti nel bucket userreports e nega l'accesso a 68.249.108.128.
+- [ ] bucketpolicy1 consente a qualsiasi utente di eseguire qualsiasi azione sugli oggetti nel bucket userreports, ad eccezione di chiunque provenga dall'IP di 68.249.108.128.
+- [x] bucketpolicy1 consente a qualsiasi utente proveniente dall'intervallo IP compreso tra 68.249.108.0 e 68.249.108.255 di accedere agli oggetti nel bucket userreports, ad eccezione di chiunque provenga dall'IP di 68.249.108.128.
 
 #### D29. Un nuovo sviluppatore è stato aggiunto al team e ti è stato chiesto di fornire l'accesso all'account AWS dell'organizzazione. Qual è la procedura consigliata per concedere l'accesso?
 
-- \[ ] Fornisci al nuovo sviluppatore l'accesso IAM assegnato al team di sviluppo. Questo utente IAM dovrebbe già includere tutte le policy di cui uno sviluppatore avrebbe bisogno.
-- \[ ] Crea un utente IAM per il nuovo sviluppatore. Assegna manualmente le policy al nuovo account utente IAM.
-- \[ ] Non concedere al nuovo sviluppatore l'accesso alla console AWS. Utilizzando l'utente IAM assegnato al gruppo di sviluppo, generare un nuovo set di chiavi di accesso ed etichettarle con il nome dello sviluppatore.
-- \[x] Crea un utente IAM per il nuovo sviluppatore. Assegna al nuovo sviluppatore il gruppo di sviluppatori che hai già creato per gli altri sviluppatori.
+- [ ] Fornisci al nuovo sviluppatore l'accesso IAM assegnato al team di sviluppo. Questo utente IAM dovrebbe già includere tutte le policy di cui uno sviluppatore avrebbe bisogno.
+- [ ] Crea un utente IAM per il nuovo sviluppatore. Assegna manualmente le policy al nuovo account utente IAM.
+- [ ] Non concedere al nuovo sviluppatore l'accesso alla console AWS. Utilizzando l'utente IAM assegnato al gruppo di sviluppo, generare un nuovo set di chiavi di accesso ed etichettarle con il nome dello sviluppatore.
+- [x] Crea un utente IAM per il nuovo sviluppatore. Assegna al nuovo sviluppatore il gruppo di sviluppatori che hai già creato per gli altri sviluppatori.
 
 #### D30. Quando si avvia un'istanza EC2 con un tipo di istanza che supporta l'archiviazione dell'istanza, quale caso d'uso è il migliore per lo storage dell'istanza?
 
-- \[x] Utilizzare l'archiviazione dell'istanza per servire i file temporanei che richiedono una bassa latenza di I/O.
-- \[ ] Utilizzare l'archiviazione dell'istanza per gestire i file caricati dagli utenti. Poiché è più sicuro di un volume EBS, è possibile isolare qualsiasi file dannoso dall'infezione del server.
-- \[ ] Lo storage delle istanze è più veloce dei volumi EBS, quindi installa la radice del sistema operativo su questo volume per velocizzare le prestazioni del server.
-- \[ ] L'archiviazione dell'istanza è un'opzione deprecata per l'archiviazione e non deve essere utilizzata.
+- [x] Utilizzare l'archiviazione dell'istanza per servire i file temporanei che richiedono una bassa latenza di I/O.
+- [ ] Utilizzare l'archiviazione dell'istanza per gestire i file caricati dagli utenti. Poiché è più sicuro di un volume EBS, è possibile isolare qualsiasi file dannoso dall'infezione del server.
+- [ ] Lo storage delle istanze è più veloce dei volumi EBS, quindi installa la radice del sistema operativo su questo volume per velocizzare le prestazioni del server.
+- [ ] L'archiviazione dell'istanza è un'opzione deprecata per l'archiviazione e non deve essere utilizzata.
 
 #### D31. Qual è la procedura consigliata per ridimensionare orizzontalmente un'applicazione Web ASP.NET legacy che si basa su Active Directory ed è attualmente distribuita in una singola istanza windows EC2?
 
-- \[x] Utilizzare Sysprep per arrestare l'istanza durante una finestra di manutenzione. Crea un'immagine AMI e posiziona entrambi i server dietro Application Load Balancer con sessioni permanenti.
-- \[ ] Avviare un nuovo EC2 con la versione più recente di Windows Server e installare nuovamente l'applicazione. Utilizzare Application Load Balancer e sessioni permanenti per bilanciare tra i due server.
-- \[ ] Creare un clone del server utilizzando un'immagine AMI e un Application Load Balancer dell'utente per bilanciare il traffico tra le due istanze utilizzando sessioni permanenti.
-- \[ ] Il ridimensionamento orizzontale non è la migliore pratica in questa situazione. Aumenta le dimensioni dell'istanza EC2 esistente e ridimensiona verticalmente l'applicazione.
+- [x] Utilizzare Sysprep per arrestare l'istanza durante una finestra di manutenzione. Crea un'immagine AMI e posiziona entrambi i server dietro Application Load Balancer con sessioni permanenti.
+- [ ] Avviare un nuovo EC2 con la versione più recente di Windows Server e installare nuovamente l'applicazione. Utilizzare Application Load Balancer e sessioni permanenti per bilanciare tra i due server.
+- [ ] Creare un clone del server utilizzando un'immagine AMI e un Application Load Balancer dell'utente per bilanciare il traffico tra le due istanze utilizzando sessioni permanenti.
+- [ ] Il ridimensionamento orizzontale non è la migliore pratica in questa situazione. Aumenta le dimensioni dell'istanza EC2 esistente e ridimensiona verticalmente l'applicazione.
 
 #### D32. A cosa serve questa piccola sezione di un modello CloudFormation?
 
@@ -258,108 +258,108 @@ FlowLog:
     TrafficType: ALL
 ```
 
-- \[x] Scrive i log del flusso di rete VPC nel gruppo di log CloudWatch FlowLogsGroup. È possibile utilizzarlo per ispezionare le connessioni di rete del VPC.
-- \[ ] Registra tutto il traffico di rete all'interno di un VPC ad eccezione degli ID istanza definiti da LogVpcID e lo registra nel gruppo di log CloudWatch FlowLogsGroup.
-- \[ ] Registra tutto il traffico di rete da e verso una singola istanza EC2 nel gruppo di log di CloudWatch FlowLogsGroup. È possibile utilizzarlo per ispezionare il traffico di rete sospetto che entra in un'istanza EC2.
-- \[ ] Registra tutte le richieste DNS effettuate dalle risorse all'interno di un VPC e le registra in CloudWatch FlowLogsGroup. Utilizzare questa opzione per diagnosticare gli errori di ricerca DNS all'interno dell'ambiente.
+- [x] Scrive i log del flusso di rete VPC nel gruppo di log CloudWatch FlowLogsGroup. È possibile utilizzarlo per ispezionare le connessioni di rete del VPC.
+- [ ] Registra tutto il traffico di rete all'interno di un VPC ad eccezione degli ID istanza definiti da LogVpcID e lo registra nel gruppo di log CloudWatch FlowLogsGroup.
+- [ ] Registra tutto il traffico di rete da e verso una singola istanza EC2 nel gruppo di log di CloudWatch FlowLogsGroup. È possibile utilizzarlo per ispezionare il traffico di rete sospetto che entra in un'istanza EC2.
+- [ ] Registra tutte le richieste DNS effettuate dalle risorse all'interno di un VPC e le registra in CloudWatch FlowLogsGroup. Utilizzare questa opzione per diagnosticare gli errori di ricerca DNS all'interno dell'ambiente.
 
 #### D33. Si eseguono contenitori Docker su ECS. Qual è la metrica più importante da monitorare?
 
-- \[ ] Il conteggio dei container in esecuzione per ogni servizio da CloudWatch.
-- \[ ] Lo stato dell'istanza di ogni istanza EC2 nel cluster da CloudWatch.
-- \[ ] Monitorare la dashboard del servizio EC2. Guarda le interruzioni pubblicate al servizio ECS.
-- \[x] Il consumo di memoria di ogni istanza EC2 nel cluster da CloudWatch.
+- [ ] Il conteggio dei container in esecuzione per ogni servizio da CloudWatch.
+- [ ] Lo stato dell'istanza di ogni istanza EC2 nel cluster da CloudWatch.
+- [ ] Monitorare la dashboard del servizio EC2. Guarda le interruzioni pubblicate al servizio ECS.
+- [x] Il consumo di memoria di ogni istanza EC2 nel cluster da CloudWatch.
 
 #### D34. Application Load Balancer può instradare il traffico a diversi gruppi di destinazione in base a diverse condizioni. Quale di questi casi d'uso non è supportato da Application Load Balancer?
 
-- \[ ] Una richiesta con un'intestazione HTTP X-Requested-With: la gestione temporanea può essere instradata a un gruppo di destinazione per un servizio ECS nell'ambiente di gestione temporanea.
-- \[ ] Gli IP di origine corrispondenti a 192.0.2.0/24 su una porta listener di 1433 possono essere instradati a un gruppo di destinazione per un cluster RDS per SQL Server.
-- \[ ] Un percorso di /signup\* può essere indirizzato a un gruppo di destinazione per una funzione Lambda che elabora le registrazioni di nuovi utenti.
-- \[x] Una stringa di query HTTP POST di ? action=createuser può essere instradato a un gruppo di destinazione per un servizio ECS.
+- [ ] Una richiesta con un'intestazione HTTP X-Requested-With: la gestione temporanea può essere instradata a un gruppo di destinazione per un servizio ECS nell'ambiente di gestione temporanea.
+- [ ] Gli IP di origine corrispondenti a 192.0.2.0/24 su una porta listener di 1433 possono essere instradati a un gruppo di destinazione per un cluster RDS per SQL Server.
+- [ ] Un percorso di /signup\* può essere indirizzato a un gruppo di destinazione per una funzione Lambda che elabora le registrazioni di nuovi utenti.
+- [x] Una stringa di query HTTP POST di ? action=createuser può essere instradato a un gruppo di destinazione per un servizio ECS.
 
 #### D35. Cosa fa un VPC?
 
-- \[x] crea una rete basata su cloud per interconnettere un insieme di server e appliance virtuali
-- \[ ] crea un tunnel sicuro tra due reti
-- \[ ] crea un piano di archiviazione condiviso per la condivisione dei dati dell'applicazione tra più istanze.
-- \[ ] crea una rete privata completamente isolata dalla rete Internet pubblica.
+- [x] crea una rete basata su cloud per interconnettere un insieme di server e appliance virtuali
+- [ ] crea un tunnel sicuro tra due reti
+- [ ] crea un piano di archiviazione condiviso per la condivisione dei dati dell'applicazione tra più istanze.
+- [ ] crea una rete privata completamente isolata dalla rete Internet pubblica.
 
 #### D36. Puoi perdere l'indirizzo IP pubblico associato alla tua istanza EC2?
 
-- \[ ] Sì, puoi perderlo se riavvii l'istanza.
-- \[x] Sì, puoi perderlo se arresti e avvii l'istanza.
-- \[ ] No, non perderai mai l'indirizzo IP pubblico per la tua istanza.
-- \[ ] Sì, puoi perderlo quando modifichi le proprietà dell'istanza e rilasci l'indirizzo IP.
+- [ ] Sì, puoi perderlo se riavvii l'istanza.
+- [x] Sì, puoi perderlo se arresti e avvii l'istanza.
+- [ ] No, non perderai mai l'indirizzo IP pubblico per la tua istanza.
+- [ ] Sì, puoi perderlo quando modifichi le proprietà dell'istanza e rilasci l'indirizzo IP.
 
 #### D37. Qual è il posto migliore per archiviare i backup del database su un'istanza EC2 configurata come server di database?
 
-- \[x] un bucket S3, sincronizzato con i backup del database tramite uno script che chiama l'interfaccia a riga di comando di AWS
-- \[ ] Volume EBS collegato all'istanza
-- \[ ] istanza associata all'istanza
-- \[ ] instance storage, con uno script che replica i backup del database in un'altra istanza in una zona di disponibilità diversa.
+- [x] un bucket S3, sincronizzato con i backup del database tramite uno script che chiama l'interfaccia a riga di comando di AWS
+- [ ] Volume EBS collegato all'istanza
+- [ ] istanza associata all'istanza
+- [ ] instance storage, con uno script che replica i backup del database in un'altra istanza in una zona di disponibilità diversa.
 
 #### D38. Quale di queste è una restrizione valida sulle proprietà di un VPC?
 
-- \[ ] Puoi avere solo 10 gateway Internet per regione su un nuovo account AWS.
-- \[ ] Puoi avere solo 10 VPC per regione su un nuovo account AWS
-- \[x] Non è possibile creare un blocco CIDR con una netmask più grande di /16
-- \[ ] Puoi avere solo 10 subnet all'interno di un VPC
+- [ ] Puoi avere solo 10 gateway Internet per regione su un nuovo account AWS.
+- [ ] Puoi avere solo 10 VPC per regione su un nuovo account AWS
+- [x] Non è possibile creare un blocco CIDR con una netmask più grande di /16
+- [ ] Puoi avere solo 10 subnet all'interno di un VPC
 
 #### D39. Hai un'istanza Linux EC2 che non risponde alle richieste e non puoi connetterti ad essa tramite SSH. Utilizzando la console EC2, hai emesso un comando per arrestare l'istanza, ma negli ultimi 10 minuti l'istanza è stata nello stato di "arresto". Qual è il prossimo passo che dovresti fare?
 
-- \[x] Esegui un'altra azione di arresto tramite la console EC2 e scegli l'opzione per arrestare forzatamente l'istanza.
-- \[ ] Creare un'immagine AMI dell'istanza e scegliere l'opzione per acquisire l'immagine senza riavviare l'istanza.
-- \[ ] Modificate le proprietà dell'istanza e aumentate le dimensioni dell'istanza.
-- \[ ] Contatta il supporto AWS. Qualsiasi ulteriore azione potrebbe danneggiare il file system.
+- [x] Esegui un'altra azione di arresto tramite la console EC2 e scegli l'opzione per arrestare forzatamente l'istanza.
+- [ ] Creare un'immagine AMI dell'istanza e scegliere l'opzione per acquisire l'immagine senza riavviare l'istanza.
+- [ ] Modificate le proprietà dell'istanza e aumentate le dimensioni dell'istanza.
+- [ ] Contatta il supporto AWS. Qualsiasi ulteriore azione potrebbe danneggiare il file system.
 
 #### D40. Si dispone di 14 server Web on-premise, 4 server di database, 6 server che utilizzano software GIS, 3 file server e 4 server di sviluppo. Quali considerazioni dovresti prendere in considerazione quando esegui la migrazione di questi server in AWS?
 
-- \[ ] AWS non ha un modo per separare la fatturazione per i costi di elaborazione, quindi dovrai progettare un modo per dividere il budget tra i reparti.
-- \[x] I nuovi account AWS sono limitati a 20 istanze EC2 on-demand. Invia una richiesta per aumentare i limiti tariffari prima di iniziare una migrazione.
+- [ ] AWS non ha un modo per separare la fatturazione per i costi di elaborazione, quindi dovrai progettare un modo per dividere il budget tra i reparti.
+- [x] I nuovi account AWS sono limitati a 20 istanze EC2 on-demand. Invia una richiesta per aumentare i limiti tariffari prima di iniziare una migrazione.
 
 #### D41. Man mano che l'applicazione Web cresce e le esigenze di monitoraggio delle applicazioni diventano più complesse, quale servizio di monitoraggio dei log aggiuntivo NON dovresti prendere in considerazione?
 
-- \[ ] Stack ELK: Elasticsearch, Loggly e Kibana
-- \[x] PRTG
-- \[ ] Nuova Reliquia
-- \[ ] Datadog
+- [ ] Stack ELK: Elasticsearch, Loggly e Kibana
+- [x] PRTG
+- [ ] Nuova Reliquia
+- [ ] Datadog
 
 #### D42. Hai un'istanza EC2 T2 fondamentale per la tua infrastruttura. Come monitoreresti la metrica più importante per questa istanza?
 
-- \[x] Attiva CloudWatch Auto Recovery e posiziona i monitor sui controlli Stato del sistema e Stato istanza affinché l'istanza ti avvisi quando uno dei due è in allarme.
-- \[ ] Usa CloudWatch per mettere i monitor sui crediti CPU rimanenti. Se si esaurisce il credito della CPU, l'istanza verrà arrestata.
+- [x] Attiva CloudWatch Auto Recovery e posiziona i monitor sui controlli Stato del sistema e Stato istanza affinché l'istanza ti avvisi quando uno dei due è in allarme.
+- [ ] Usa CloudWatch per mettere i monitor sui crediti CPU rimanenti. Se si esaurisce il credito della CPU, l'istanza verrà arrestata.
 
 #### D43. Quale funzione può essere utilizzata per rispondere a un improvviso aumento del traffico web?
 
-- \[ ] Gruppi EC2 Auto Scaling
-- \[ ] AWS Shield Advanced
-- \[ ] Repliche di lettura RDS
-- \[x] tutte queste risposte
+- [ ] Gruppi EC2 Auto Scaling
+- [ ] AWS Shield Advanced
+- [ ] Repliche di lettura RDS
+- [x] tutte queste risposte
 
 #### D44. Se un set di server si trova all'interno di una subnet privata del tuo VPC, come puoi connettere tali server ai server locali?
 
-- \[ ] Stabilisci una connessione con AWS Direct Connect.
-- \[ ] Utilizza AWS Client VPN.
-- \[ ] Installare un server OpenVPN su un'istanza che si trova all'interno della subnet con un IP elastico.
-- \[x] Tutte queste opzioni possono stabilire una connessione a una subnet privata.
+- [ ] Stabilisci una connessione con AWS Direct Connect.
+- [ ] Utilizza AWS Client VPN.
+- [ ] Installare un server OpenVPN su un'istanza che si trova all'interno della subnet con un IP elastico.
+- [x] Tutte queste opzioni possono stabilire una connessione a una subnet privata.
 
 #### D45. Si dispone di un servizio di bilanciamento del carico UDP creato da un'istanza che esegue un proxy NGINX. La soluzione APM (Application Performance Management) è in grado di rilevare errori nell'istanza del servizio di bilanciamento del carico e trasferire Elastic IP a un'istanza di standby passivo. Utilizzando l'interfaccia a riga di comando di AWS, quale script programmi nel tuo APM per spostare l'IP elastico?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 disassociate-address --association-id eipassoc-2bebb712
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 release-address --association-id eipassoc-2bebb712
     aws ec2 assign-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -369,7 +369,7 @@ FlowLog:
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
     aws ec2 start-instances --instance-ids i-8b953
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -378,9 +378,9 @@ FlowLog:
 
 #### D46. Quale servizio può ospitare i contenitori Docker?
 
-- \[ ] Lightsail
-- \[ ] Elastic Container Service (ECS)
-- \[ ] Elastic Compute Cloud (EC2)
+- [ ] Lightsail
+- [ ] Elastic Container Service (ECS)
+- [ ] Elastic Compute Cloud (EC2)
 - \[x] Tutti questi servizi possono ospitare un contenitore Docker.
 
 #### D47. Nella console S3, sotto la colonna Access, cosa indica il badge pubblico accanto al nome del bucket?

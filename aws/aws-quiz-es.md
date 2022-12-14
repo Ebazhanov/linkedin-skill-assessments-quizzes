@@ -114,94 +114,94 @@
 - [ ] La clave principal debe ser una clave de partición del campo de título.
 - [ ] La clave principal debe ser el campo de título y la clave de partición debe ser el campo de géneros.
 - [ ] La clave principal debe ser una clave compuesta por una clave de partición en el campo de título y una clave de ordenación en el campo de año.
-- \[x] La clave principal debe crearse como un valor completamente único, como una lista numérica secuencial de ID de película. La clave de partición debe ser el campo de título para una búsqueda rápida.
+- [x] La clave principal debe crearse como un valor completamente único, como una lista numérica secuencial de ID de película. La clave de partición debe ser el campo de título para una búsqueda rápida.
 
 #### P16. ¿Qué almacén de datos proporciona una forma sencilla y rápida de almacenar atributos básicos de usuario en un formato basado en objetos?
 
-- \[ ] ORDS para Oracle
-- \[ ] Corrimiento al rojo
-- \[ ] Neptuno
-- \[x] DynamoDB
+- [ ] ORDS para Oracle
+- [ ] Corrimiento al rojo
+- [ ] Neptuno
+- [x] DynamoDB
 
 #### P17. Necesita una base de datos sin esquema. ¿Qué servicio de base de datos de Amazon proporciona esa solución?
 
-- \[ ] ORDS
-- \[ ] Aurora
-- \[ ] Corrimiento al rojo
-- \[x] DynamoDB
+- [ ] ORDS
+- [ ] Aurora
+- [ ] Corrimiento al rojo
+- [x] DynamoDB
 
 #### P18. ¿Qué canal de comunicación no admite SNS de forma nativa?
 
-- \[ ] Mensaje de texto de OSMS
-- \[ ] notificación push
-- \[ ] correo electrónico
-- \[x] llamada telefónica automatizada
+- [ ] Mensaje de texto de OSMS
+- [ ] notificación push
+- [ ] correo electrónico
+- [x] llamada telefónica automatizada
 
 #### P19. Al diseñar una aplicación web sin servidor con Lambda, ¿qué concepto clave debe tener en cuenta en su diseño?
 
-- \[ ] Las aplicaciones web sin servidor se ejecutan dentro del navegador web del usuario, por lo que deberá almacenar cualquier dato que el usuario cambie directamente en una base de datos.
-- \[ ] Lambda solo permite escribir funciones en JavaScript.
-- \[ ] Lambda no utiliza servidores, por lo que solo puede devolver la misma solicitud a todos los usuarios.
-- \[x] Lambda no tiene estado, por lo que no recordará quién es un usuario entre las solicitudes.
+- [ ] Las aplicaciones web sin servidor se ejecutan dentro del navegador web del usuario, por lo que deberá almacenar cualquier dato que el usuario cambie directamente en una base de datos.
+- [ ] Lambda solo permite escribir funciones en JavaScript.
+- [ ] Lambda no utiliza servidores, por lo que solo puede devolver la misma solicitud a todos los usuarios.
+- [x] Lambda no tiene estado, por lo que no recordará quién es un usuario entre las solicitudes.
 
 #### P20. Un principio de DevOps es ver la infraestructura como código. ¿Qué servicio de AWS le permite crear scripts de su infraestructura de AWS?
 
-- \[ ] CloudTrail
-- \[x] CloudFormation
-- \[ ] AWS Config
-- \[ ] Catálogo de servicios de AWS
+- [ ] CloudTrail
+- [x] CloudFormation
+- [ ] AWS Config
+- [ ] Catálogo de servicios de AWS
 
 #### P21. Ha creado una instancia EC2 de Windows con una dirección IP pública e instalado SQL Server. Al intentar conectarse a SQL Server desde el Administrador corporativo de SQL Server en el equipo local, la instancia EC2 de Windows no puede establecer una conexión con el servidor. ¿Qué es lo primero que debes comprobar?
 
-- \[ ] Compruebe las tablas de enrutamiento de la VPC.
-- \[x] Compruebe que los grupos de seguridad asignados permiten el tráfico del puerto TCP 1433 desde su dirección IP actual.
-- \[ ] Compruebe las directivas de Firewall de Windows.
-- \[ ] Compruebe que se está conectando a la instancia mediante un usuario que no es sa.
+- [ ] Compruebe las tablas de enrutamiento de la VPC.
+- [x] Compruebe que los grupos de seguridad asignados permiten el tráfico del puerto TCP 1433 desde su dirección IP actual.
+- [ ] Compruebe las directivas de Firewall de Windows.
+- [ ] Compruebe que se está conectando a la instancia mediante un usuario que no es sa.
 
 #### P22. Está hospedando una aplicación configurada para transmitir medios a sus clientes en los puertos TCP 3380-3384, 3386-3388 y 3390. La ficha Entrantes siguiente muestra tres directivas de grupo de seguridad entrantes asociadas a esta instancia. ¿Qué política debe utilizar?
 
 ![image](images/001.png?raw=png)
 
-- \[x] La regla que expone los puertos TCP 3380-3390 también expondría públicamente el puerto 3389 (RDP) a todo Internet. Escriba reglas separadas para exponer solo los puertos necesarios.
-- \[ ] La primera regla de grupo de seguridad permite todo el tráfico en esta instancia. Exponer toda la instancia a todo Internet deja el servidor abierto a varios ataques de los otros servicios que se ejecutan en diferentes números de puerto.
-- \[ ] Verifique que los propietarios de las cuentas de AWS realmente controlan todo el bloque CIDR C para 12.228.11.0-255 y que estas son IP seguras para el acceso RDP en esta instancia.
-- \[ ] No hay recomendaciones que hacer.
+- [x] La regla que expone los puertos TCP 3380-3390 también expondría públicamente el puerto 3389 (RDP) a todo Internet. Escriba reglas separadas para exponer solo los puertos necesarios.
+- [ ] La primera regla de grupo de seguridad permite todo el tráfico en esta instancia. Exponer toda la instancia a todo Internet deja el servidor abierto a varios ataques de los otros servicios que se ejecutan en diferentes números de puerto.
+- [ ] Verifique que los propietarios de las cuentas de AWS realmente controlan todo el bloque CIDR C para 12.228.11.0-255 y que estas son IP seguras para el acceso RDP en esta instancia.
+- [ ] No hay recomendaciones que hacer.
 
 #### P23. Tiene cuatro servidores front-end web detrás de un equilibrador de carga, que usan NFS para acceder a otra instancia EC2 que cambia el tamaño y almacena imágenes para la aplicación front-end. ¿Qué directivas de grupo de seguridad se deben asignar a estos servidores?
 
-- \[ ] Asigne IP elásticas a todas las instancias y cree un grupo que permita que todo el tráfico pase entre cada una de las cinco
+- [ ] Asigne IP elásticas a todas las instancias y cree un grupo que permita que todo el tráfico pase entre cada una de las cinco
   Elásticas direcciones IP y permiten todo el tráfico HTTPS entrante.
-- \[x] Los servidores front-end web deben permitir HTTPS. Asigne otro grupo a todas las instancias que permita que todo el tráfico pase entre instancias mediante ese grupo.
-- \[ ] Cree un grupo de seguridad que permita el tráfico NFS, HTTP y HTTPS entrante desde todas las direcciones IP. Aplique este grupo a todos los servidores.
-- \[ ] Cree un grupo de seguridad que permita el tráfico HTTP y HTTPS entrante desde todas las direcciones IP y aplíquelo a los servidores web. Cree un segundo grupo de seguridad para el almacén de archivos NFS que permita el tráfico NFS saliente al intervalo IP privado de los servidores front-end web.
+- [x] Los servidores front-end web deben permitir HTTPS. Asigne otro grupo a todas las instancias que permita que todo el tráfico pase entre instancias mediante ese grupo.
+- [ ] Cree un grupo de seguridad que permita el tráfico NFS, HTTP y HTTPS entrante desde todas las direcciones IP. Aplique este grupo a todos los servidores.
+- [ ] Cree un grupo de seguridad que permita el tráfico HTTP y HTTPS entrante desde todas las direcciones IP y aplíquelo a los servidores web. Cree un segundo grupo de seguridad para el almacén de archivos NFS que permita el tráfico NFS saliente al intervalo IP privado de los servidores front-end web.
 
 #### P24. Tiene un servidor web Linux EC2 que de repente se agota el tiempo de espera en todas las solicitudes HTTP y sus intentos de conexión SSH se agotan. Observa que está fallando la comprobación del estado del sistema en la consola de EC2. ¿Qué medidas debe tomar?
 
-- \[x] Restaure la instancia desde la última imagen de la AMI. Las comprobaciones de estado del sistema indican que el sistema de archivos de la instancia está dañado.
-- \[ ] Detenga e inicie la instancia. Esto moverá la instancia a otro host.
-- \[ ] Póngase en contacto con el soporte técnico de AWS. El error de una comprobación del estado del sistema indica un error en el hardware subyacente y debe ser abordado por un representante de AWS.
-- \[ ] Reinicie la instancia. Esto detendrá e iniciará la instancia y la moverá a otro host.
+- [x] Restaure la instancia desde la última imagen de la AMI. Las comprobaciones de estado del sistema indican que el sistema de archivos de la instancia está dañado.
+- [ ] Detenga e inicie la instancia. Esto moverá la instancia a otro host.
+- [ ] Póngase en contacto con el soporte técnico de AWS. El error de una comprobación del estado del sistema indica un error en el hardware subyacente y debe ser abordado por un representante de AWS.
+- [ ] Reinicie la instancia. Esto detendrá e iniciará la instancia y la moverá a otro host.
 
 #### P25. Tiene varios servidores locales y le gustaría almacenar sus copias de seguridad externas en AWS. ¿Qué servicio de copia de seguridad totalmente administrado puede utilizar para enviar sus copias de seguridad a AWS?
 
-- \[ ] Windows Server 2016 admite S3 como destino cuando se usan réplicas de almacenamiento.
-- \[x] Utilice Storage Gateway.
-- \[ ] Sincronice archivos directamente con S3 con la AWS CLI.
-- \[ ] Utilice la consola rdsi para forzar un reinicio de la instancia de base de datos de modo que el servidor principal vuelva a ser el servidor maestro.
+- [ ] Windows Server 2016 admite S3 como destino cuando se usan réplicas de almacenamiento.
+- [x] Utilice Storage Gateway.
+- [ ] Sincronice archivos directamente con S3 con la AWS CLI.
+- [ ] Utilice la consola rdsi para forzar un reinicio de la instancia de base de datos de modo que el servidor principal vuelva a ser el servidor maestro.
 
 #### P26. ¿Cuál es la práctica recomendada para crear una base de datos PostgreSQL de alta disponibilidad en RDS que pueda soportar la pérdida de una sola región de AWS?
 
-- \[ ] PostgreSQL no se puede replicar en todas las regiones. Restaure las copias de seguridad de la base de datos desde un bucket de S3 y vuelva a apuntar las conexiones de la base de datos a la nueva instancia.
-- \[ ] Cree réplicas de lectura en otras regiones de AWS. Puede designar una nueva base de datos maestra a partir de cualquiera de las réplicas de lectura hasta que se resuelva el error regional.
-- \[ ] Compruebe que la instancia está configurada para la compatibilidad con Multi-AZ. Los cambios en la base de datos se sincronizarán automáticamente con otra región en caso de error y RDS seleccionará automáticamente un nuevo maestro hasta que se resuelva el error regional.
-- \[x] Cree réplicas de lectura en otras regiones de AWS. Asegúrese de que las operaciones de lectura en la base de datos se producen en una réplica de lectura disponible y envíe las operaciones de escritura a otra región si necesita promover una réplica de lectura a una base de datos independiente si el maestro está inactivo.
+- [ ] PostgreSQL no se puede replicar en todas las regiones. Restaure las copias de seguridad de la base de datos desde un bucket de S3 y vuelva a apuntar las conexiones de la base de datos a la nueva instancia.
+- [ ] Cree réplicas de lectura en otras regiones de AWS. Puede designar una nueva base de datos maestra a partir de cualquiera de las réplicas de lectura hasta que se resuelva el error regional.
+- [ ] Compruebe que la instancia está configurada para la compatibilidad con Multi-AZ. Los cambios en la base de datos se sincronizarán automáticamente con otra región en caso de error y RDS seleccionará automáticamente un nuevo maestro hasta que se resuelva el error regional.
+- [x] Cree réplicas de lectura en otras regiones de AWS. Asegúrese de que las operaciones de lectura en la base de datos se producen en una réplica de lectura disponible y envíe las operaciones de escritura a otra región si necesita promover una réplica de lectura a una base de datos independiente si el maestro está inactivo.
 
 #### P27. Ha creado una nueva instancia EC2 de Linux e instalado PostgreSQL, pero no puede establecer una conexión con el servidor desde el equipo local. ¿Qué pasos toma para resolver este problema?
 
-- \[ ] Cree una regla de grupo de seguridad que permita todo el tráfico de 0.0.0.0/0. Esto verificará si otra regla está denegando o no el tráfico.
-- \[x] Compruebe que los grupos de seguridad asignados permiten el tráfico desde su dirección IP al puerto 5432. Compruebe que PostgreSQL está configurado para escuchar el tráfico externo y está enlazado a la interfaz pública.
-- \[ ] Asegúrese de que está utilizando una IP elástica y que está incluida dentro de la `postgresql.conf` archivo de configuración.
-- \[ ] Detenga e inicie la instancia. Las nuevas reglas de grupo de seguridad solo entrarán en vigor después de un reinicio.
+- [ ] Cree una regla de grupo de seguridad que permita todo el tráfico de 0.0.0.0/0. Esto verificará si otra regla está denegando o no el tráfico.
+- [x] Compruebe que los grupos de seguridad asignados permiten el tráfico desde su dirección IP al puerto 5432. Compruebe que PostgreSQL está configurado para escuchar el tráfico externo y está enlazado a la interfaz pública.
+- [ ] Asegúrese de que está utilizando una IP elástica y que está incluida dentro de la `postgresql.conf` archivo de configuración.
+- [ ] Detenga e inicie la instancia. Las nuevas reglas de grupo de seguridad solo entrarán en vigor después de un reinicio.
 
 #### P28. ¿Qué hace el cuerpo de la declaración de esta política de bucket de S3?
 
@@ -219,31 +219,31 @@
 }
 ```
 
-- \[ ] bucketpolicy1 permite a cualquier usuario realizar cualquier acción en los objetos del bucket userreports, pero limita los objetos a permisos de solo lectura para cualquier persona que provenga de 68.249.108.0 a 68.249.108.255, excepto 68.249.108.128.
-- \[ ] bucketpolicy1 permite a cualquier usuario procedente del intervalo IP de 68.249.108.0 acceder a objetos del bucket userreports y deniega el acceso a 68.249.108.128.
-- \[ ] bucketpolicy1 permite a cualquier usuario realizar cualquier acción en los objetos del bucket userreports , excepto cualquier persona que provenga de la IP de 68.249.108.128.
-- \[x] bucketpolicy1 permite a cualquier usuario que provenga del intervalo IP de 68.249.108.0 a 68.249.108.255 acceder a objetos del bucket userreports, excepto cualquier persona que provenga de la IP de 68.249.108.128.
+- [ ] bucketpolicy1 permite a cualquier usuario realizar cualquier acción en los objetos del bucket userreports, pero limita los objetos a permisos de solo lectura para cualquier persona que provenga de 68.249.108.0 a 68.249.108.255, excepto 68.249.108.128.
+- [ ] bucketpolicy1 permite a cualquier usuario procedente del intervalo IP de 68.249.108.0 acceder a objetos del bucket userreports y deniega el acceso a 68.249.108.128.
+- [ ] bucketpolicy1 permite a cualquier usuario realizar cualquier acción en los objetos del bucket userreports , excepto cualquier persona que provenga de la IP de 68.249.108.128.
+- [x] bucketpolicy1 permite a cualquier usuario que provenga del intervalo IP de 68.249.108.0 a 68.249.108.255 acceder a objetos del bucket userreports, excepto cualquier persona que provenga de la IP de 68.249.108.128.
 
 #### P29. Se ha agregado un nuevo desarrollador al equipo y se le ha pedido que proporcione acceso a la cuenta de AWS de la organización. ¿Cuál es la mejor práctica para conceder acceso?
 
-- \[ ] Proporcione al nuevo desarrollador el inicio de sesión de IAM que se asigna al equipo de desarrollo. Este usuario de IAM ya debería incluir todas las políticas que un desarrollador necesitaría.
-- \[ ] Cree un usuario de IAM para el nuevo desarrollador. Asigne políticas manualmente a la nueva cuenta de usuario de IAM.
-- \[ ] No otorgue al nuevo desarrollador acceso a la consola de AWS. Con el usuario de IAM asignado al grupo de desarrollo, genere un nuevo conjunto de claves de acceso y etiquételas con el nombre del desarrollador.
-- \[x] Cree un usuario de IAM para el nuevo desarrollador. Asigne al nuevo desarrollador un grupo de desarrolladores que ya haya creado para los demás desarrolladores.
+- [ ] Proporcione al nuevo desarrollador el inicio de sesión de IAM que se asigna al equipo de desarrollo. Este usuario de IAM ya debería incluir todas las políticas que un desarrollador necesitaría.
+- [ ] Cree un usuario de IAM para el nuevo desarrollador. Asigne políticas manualmente a la nueva cuenta de usuario de IAM.
+- [ ] No otorgue al nuevo desarrollador acceso a la consola de AWS. Con el usuario de IAM asignado al grupo de desarrollo, genere un nuevo conjunto de claves de acceso y etiquételas con el nombre del desarrollador.
+- [x] Cree un usuario de IAM para el nuevo desarrollador. Asigne al nuevo desarrollador un grupo de desarrolladores que ya haya creado para los demás desarrolladores.
 
 #### P30. Al lanzar una instancia EC2 con un tipo de instancia que admita el almacenamiento de instancias, ¿qué caso de uso es mejor para el almacenamiento de instancias?
 
-- \[x] Utilice el almacenamiento de instancias para servir archivos temporales que requieren una latencia de E/S baja.
-- \[ ] Utilice el almacenamiento de instancias para gestionar los archivos cargados por los usuarios. Dado que es más seguro que un volumen de EBS, puede aislar cualquier archivo malicioso para que no infecte el servidor.
-- \[ ] El almacenamiento de instancias es más rápido que los volúmenes de EBS, así que instale la raíz del sistema operativo en este volumen para acelerar el rendimiento del servidor.
-- \[ ] El almacenamiento de instancias es una opción obsoleta para el almacenamiento y no debe utilizarse.
+- [x] Utilice el almacenamiento de instancias para servir archivos temporales que requieren una latencia de E/S baja.
+- [ ] Utilice el almacenamiento de instancias para gestionar los archivos cargados por los usuarios. Dado que es más seguro que un volumen de EBS, puede aislar cualquier archivo malicioso para que no infecte el servidor.
+- [ ] El almacenamiento de instancias es más rápido que los volúmenes de EBS, así que instale la raíz del sistema operativo en este volumen para acelerar el rendimiento del servidor.
+- [ ] El almacenamiento de instancias es una opción obsoleta para el almacenamiento y no debe utilizarse.
 
 #### P31. ¿Cuál es la práctica recomendada para escalar horizontalmente una aplicación web heredada ASP.NET que se basa en Active Directory y que actualmente se implementa en una única instancia EC2 de Windows?
 
-- \[x] Utilice Sysprep para apagar la instancia durante una ventana de mantenimiento. Cree una imagen AMI y coloque ambos servidores detrás de Application Load Balancer con sesiones adhesivas.
-- \[ ] Inicie un nuevo EC2 con la última versión de Windows Server e instale la aplicación de nuevo. Utilice Application Load Balancer y sesiones adhesivas para equilibrar entre ambos servidores.
-- \[ ] Cree un clon del servidor utilizando una imagen AMI y el usuario Application Load Balancer para equilibrar el tráfico entre ambas instancias mediante sesiones adhesivas.
-- \[ ] El escalado horizontal no es la mejor práctica en esta situación. Aumente el tamaño de la instancia EC2 existente y escale verticalmente la aplicación.
+- [x] Utilice Sysprep para apagar la instancia durante una ventana de mantenimiento. Cree una imagen AMI y coloque ambos servidores detrás de Application Load Balancer con sesiones adhesivas.
+- [ ] Inicie un nuevo EC2 con la última versión de Windows Server e instale la aplicación de nuevo. Utilice Application Load Balancer y sesiones adhesivas para equilibrar entre ambos servidores.
+- [ ] Cree un clon del servidor utilizando una imagen AMI y el usuario Application Load Balancer para equilibrar el tráfico entre ambas instancias mediante sesiones adhesivas.
+- [ ] El escalado horizontal no es la mejor práctica en esta situación. Aumente el tamaño de la instancia EC2 existente y escale verticalmente la aplicación.
 
 #### P32. ¿Qué hace esta pequeña sección de una plantilla de CloudFormation?
 
@@ -258,108 +258,108 @@ FlowLog:
     TrafficType: ALL
 ```
 
-- \[x] Escribe los registros de flujo de red de la VPC en el grupo de registros FlowLogsGroup de CloudWatch. Puede utilizar esto para inspeccionar las conexiones de red de su VPC.
-- \[ ] Registra todo el tráfico de red dentro de una VPC excepto los ID de instancia definidos por LogVpcID y lo registra en el grupo de registros FlowLogsGroup de CloudWatch.
-- \[ ] Registra todo el tráfico de red que va hacia y desde una sola instancia EC2 en el grupo de registros De CloudWatch FlowLogsGroup. Puede usar esto para inspeccionar el tráfico de red sospechoso que ingresa a una instancia EC2.
-- \[ ] Registra todas las solicitudes de DNS realizadas por los recursos dentro de una VPC y las registra en CloudWatch FlowLogsGroup. Utilice esta opción para diagnosticar errores de búsqueda dns en su entorno.
+- [x] Escribe los registros de flujo de red de la VPC en el grupo de registros FlowLogsGroup de CloudWatch. Puede utilizar esto para inspeccionar las conexiones de red de su VPC.
+- [ ] Registra todo el tráfico de red dentro de una VPC excepto los ID de instancia definidos por LogVpcID y lo registra en el grupo de registros FlowLogsGroup de CloudWatch.
+- [ ] Registra todo el tráfico de red que va hacia y desde una sola instancia EC2 en el grupo de registros De CloudWatch FlowLogsGroup. Puede usar esto para inspeccionar el tráfico de red sospechoso que ingresa a una instancia EC2.
+- [ ] Registra todas las solicitudes de DNS realizadas por los recursos dentro de una VPC y las registra en CloudWatch FlowLogsGroup. Utilice esta opción para diagnosticar errores de búsqueda dns en su entorno.
 
 #### P33. Está ejecutando contenedores docker en ECS. ¿Cuál es la métrica más importante para monitorear?
 
-- \[ ] El recuento de contenedores en ejecución para cada servicio desde CloudWatch.
-- \[ ] El estado de la instancia de cada instancia EC2 del clúster desde CloudWatch.
-- \[ ] Supervise el panel de servicio de EC2. Esté atento a las interrupciones publicadas en el servicio ECS.
-- \[x] El consumo de memoria de cada instancia EC2 en su clúster desde CloudWatch.
+- [ ] El recuento de contenedores en ejecución para cada servicio desde CloudWatch.
+- [ ] El estado de la instancia de cada instancia EC2 del clúster desde CloudWatch.
+- [ ] Supervise el panel de servicio de EC2. Esté atento a las interrupciones publicadas en el servicio ECS.
+- [x] El consumo de memoria de cada instancia EC2 en su clúster desde CloudWatch.
 
 #### P34. Application Load Balancer puede enrutar el tráfico a varios grupos de destino diferentes en función de varias condiciones. ¿Cuál de estos casos de uso no es compatible con Application Load Balancer?
 
-- \[ ] Una solicitud con un encabezado HTTP de X-Requested-With: staging se puede enrutar a un grupo de destino para un servicio ECS en su entorno de ensayo.
-- \[ ] Las direcciones IP de origen que coincidan con 192.0.2.0/24 en un puerto de escucha de 1433 se pueden enrutar a un grupo de destino para un clúster de RDS para SQL Server.
-- \[ ] Una ruta de /signup\* se puede enrutar a un grupo de destino para una función de Lambda que procesa nuevos registros de usuarios.
-- \[x] Una cadena de consulta Http POST de ? action=createuser se puede enrutar a un grupo de destino para un servicio ECS.
+- [ ] Una solicitud con un encabezado HTTP de X-Requested-With: staging se puede enrutar a un grupo de destino para un servicio ECS en su entorno de ensayo.
+- [ ] Las direcciones IP de origen que coincidan con 192.0.2.0/24 en un puerto de escucha de 1433 se pueden enrutar a un grupo de destino para un clúster de RDS para SQL Server.
+- [ ] Una ruta de /signup\* se puede enrutar a un grupo de destino para una función de Lambda que procesa nuevos registros de usuarios.
+- [x] Una cadena de consulta Http POST de ? action=createuser se puede enrutar a un grupo de destino para un servicio ECS.
 
 #### P35. ¿Qué hace una VPC?
 
-- \[x] crea una red basada en la nube para interconectar un conjunto de servidores y dispositivos virtuales
-- \[ ] crea un túnel seguro entre dos redes
-- \[ ] crea un plano de almacenamiento compartido para que los datos de la aplicación se compartan entre varias instancias.
-- \[ ] crea una red privada que está completamente aislada de la Internet pública.
+- [x] crea una red basada en la nube para interconectar un conjunto de servidores y dispositivos virtuales
+- [ ] crea un túnel seguro entre dos redes
+- [ ] crea un plano de almacenamiento compartido para que los datos de la aplicación se compartan entre varias instancias.
+- [ ] crea una red privada que está completamente aislada de la Internet pública.
 
 #### P36. ¿Puede perder la dirección IP pública asociada a su instancia EC2?
 
-- \[ ] Sí, puede perderlo si reinicia la instancia.
-- \[x] Sí, puede perderlo si detiene e inicia la instancia.
-- \[ ] No, nunca perderá la dirección IP pública de su instancia.
-- \[ ] Sí, puede perderlo cuando edite las propiedades de la instancia y libere la dirección IP.
+- [ ] Sí, puede perderlo si reinicia la instancia.
+- [x] Sí, puede perderlo si detiene e inicia la instancia.
+- [ ] No, nunca perderá la dirección IP pública de su instancia.
+- [ ] Sí, puede perderlo cuando edite las propiedades de la instancia y libere la dirección IP.
 
 #### P37. ¿Dónde está el mejor lugar para almacenar copias de seguridad de bases de datos en una instancia EC2 configurada como servidor de bases de datos?
 
-- \[x] un bucket de S3, sincronizado con las copias de seguridad de la base de datos a través de un script que llama a la AWS CLI
-- \[ ] Volumen de EBS adjunto a la instancia
-- \[ ] instancia adjunta a la instancia
-- \[ ] almacenamiento de instancias, con un script que replica las copias de seguridad de la base de datos en otra instancia en una zona de disponibilidad diferente.
+- [x] un bucket de S3, sincronizado con las copias de seguridad de la base de datos a través de un script que llama a la AWS CLI
+- [ ] Volumen de EBS adjunto a la instancia
+- [ ] instancia adjunta a la instancia
+- [ ] almacenamiento de instancias, con un script que replica las copias de seguridad de la base de datos en otra instancia en una zona de disponibilidad diferente.
 
 #### P38. ¿Cuál de estas es una restricción válida en las propiedades de una VPC?
 
-- \[ ] Solo puede tener 10 gateways de Internet por región en una nueva cuenta de AWS.
-- \[ ] Solo puede tener 10 VPC por región en una nueva cuenta de AWS
-- \[x] No se puede crear un bloque CIDR con una máscara de red mayor que /16
-- \[ ] Solo puede tener 10 subredes dentro de una VPC
+- [ ] Solo puede tener 10 gateways de Internet por región en una nueva cuenta de AWS.
+- [ ] Solo puede tener 10 VPC por región en una nueva cuenta de AWS
+- [x] No se puede crear un bloque CIDR con una máscara de red mayor que /16
+- [ ] Solo puede tener 10 subredes dentro de una VPC
 
 #### P39. Tiene una instancia EC2 de Linux que no responde a las solicitudes y no puede conectarse a ella a través de SSH. Con la consola de EC2, emitió un comando para detener la instancia, pero durante los últimos 10 minutos la instancia ha estado en el estado de "detención". ¿Cuál es el siguiente paso que debes dar?
 
-- \[x] Realice otra acción de detención a través de la consola de EC2 y elija la opción para detener la instancia con fuerza.
-- \[ ] Cree una imagen AMI de la instancia y elija la opción para tomar la imagen sin reiniciar la instancia.
-- \[ ] Edite las propiedades de la instancia y aumente el tamaño de la instancia.
-- \[ ] Póngase en contacto con el soporte técnico de AWS. Cualquier otra acción podría dañar el sistema de archivos.
+- [x] Realice otra acción de detención a través de la consola de EC2 y elija la opción para detener la instancia con fuerza.
+- [ ] Cree una imagen AMI de la instancia y elija la opción para tomar la imagen sin reiniciar la instancia.
+- [ ] Edite las propiedades de la instancia y aumente el tamaño de la instancia.
+- [ ] Póngase en contacto con el soporte técnico de AWS. Cualquier otra acción podría dañar el sistema de archivos.
 
 #### P40. Tiene 14 servidores web locales, 4 servidores de bases de datos, 6 servidores que utilizan software SIG, 3 servidores de archivos y 4 servidores de desarrollo. ¿Qué consideraciones debe tener en cuenta al migrar estos servidores a AWS?
 
-- \[ ] AWS no tiene una forma de separar la facturación de los costos informáticos, por lo que deberá diseñar una forma de dividir el presupuesto entre departamentos.
-- \[x] Las nuevas cuentas de AWS están limitadas a 20 instancias EC2 bajo demanda. Envíe una solicitud para aumentar sus límites de velocidad antes de iniciar una migración.
+- [ ] AWS no tiene una forma de separar la facturación de los costos informáticos, por lo que deberá diseñar una forma de dividir el presupuesto entre departamentos.
+- [x] Las nuevas cuentas de AWS están limitadas a 20 instancias EC2 bajo demanda. Envíe una solicitud para aumentar sus límites de velocidad antes de iniciar una migración.
 
 #### P41. A medida que su aplicación web crece y sus necesidades de supervisión de aplicaciones se vuelven más complejas, ¿qué servicio adicional de supervisión de registros NO debe considerar?
 
-- \[ ] Pila ELK: Elasticsearch, Loggly y Kibana
-- \[x] PRTG
-- \[ ] Nueva Reliquia
-- \[ ] Datadog
+- [ ] Pila ELK: Elasticsearch, Loggly y Kibana
+- [x] PRTG
+- [ ] Nueva Reliquia
+- [ ] Datadog
 
 #### P42. Tiene una instancia T2 EC2 que es crítica para su infraestructura. ¿Cómo supervisaría la métrica más importante para este caso?
 
-- \[x] Active CloudWatch Auto Recovery y coloque monitores en las comprobaciones de estado del sistema y estado de la instancia para que la instancia le notifique cuando cualquiera de las dos esté en alarma.
-- \[ ] Utilice CloudWatch para colocar monitores en los créditos de CPU restantes. Si se queda sin crédito de CPU, la instancia se detendrá.
+- [x] Active CloudWatch Auto Recovery y coloque monitores en las comprobaciones de estado del sistema y estado de la instancia para que la instancia le notifique cuando cualquiera de las dos esté en alarma.
+- [ ] Utilice CloudWatch para colocar monitores en los créditos de CPU restantes. Si se queda sin crédito de CPU, la instancia se detendrá.
 
 #### P43. ¿Qué función se puede utilizar para responder a un aumento repentino del tráfico web?
 
-- \[ ] Grupos de EC2 Auto Scaling
-- \[ ] AWS Shield Advanced
-- \[ ] Réplicas de lectura de RDS
-- \[x] todas estas respuestas
+- [ ] Grupos de EC2 Auto Scaling
+- [ ] AWS Shield Advanced
+- [ ] Réplicas de lectura de RDS
+- [x] todas estas respuestas
 
 #### P44. Si un conjunto de servidores se encuentra dentro de una subred privada de la VPC, ¿cómo puede conectar esos servidores a servidores locales?
 
-- \[ ] Establezca una conexión con AWS Direct Connect.
-- \[ ] Utilice AWS Client VPN.
-- \[ ] Instale un servidor OpenVPN en una instancia que se encuentra dentro de la subred con una IP elástica.
-- \[x] Todas estas opciones pueden establecer una conexión a una subred privada.
+- [ ] Establezca una conexión con AWS Direct Connect.
+- [ ] Utilice AWS Client VPN.
+- [ ] Instale un servidor OpenVPN en una instancia que se encuentra dentro de la subred con una IP elástica.
+- [x] Todas estas opciones pueden establecer una conexión a una subred privada.
 
 #### P45. Tiene un equilibrador de carga UDP creado por una instancia que ejecuta un proxy NGINX. La solución de administración del rendimiento de las aplicaciones (APM) puede detectar errores en la instancia del equilibrador de carga y transferir la ELASTIC IP a una instancia de espera pasiva. Con la AWS CLI, ¿qué script programa en su APM para mover la IP elástica?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 disassociate-address --association-id eipassoc-2bebb712
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 release-address --association-id eipassoc-2bebb712
     aws ec2 assign-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -369,7 +369,7 @@ FlowLog:
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
     aws ec2 start-instances --instance-ids i-8b953
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -378,37 +378,37 @@ FlowLog:
 
 #### P46. ¿Qué servicio puede alojar sus contenedores Docker?
 
-- \[ ] Vela de luz
-- \[ ] Elastic Container Service (ECS)
-- \[ ] Elastic Compute Cloud (EC2)
-- \[x] Todos estos servicios pueden alojar un contenedor docker.
+- [ ] Vela de luz
+- [ ] Elastic Container Service (ECS)
+- [ ] Elastic Compute Cloud (EC2)
+- [x] Todos estos servicios pueden alojar un contenedor docker.
 
 #### P47. En la consola de S3, debajo de la columna Acceso, ¿qué indica la insignia pública junto al nombre del bucket?
 
 ![image](images/002.png?raw=png)
 
-- \[x] A todos los objetos de este bucket se les asigna acceso público y cualquier persona en Internet puede leerlos o escribirlos. Asegúrese de que no se compartan públicamente datos confidenciales dentro de este bucket.
-- \[ ] Todos los objetos dentro de este bucket son grabables, lo que significa que la Internet pública tiene la capacidad de cargar cualquier archivo directamente en su bucket de S3. Su bucket de S3 podría usarse para servir malware.
-- \[ ] A algunos objetos de este bucket se les asigna acceso público. Compruebe que los objetos compartidos públicamente dentro de este bucket no contengan datos confidenciales.
-- \[ ] Los objetos dentro de este bucket se pueden hacer públicos, si la ACL de ese objeto está configurada para permitir el acceso de todos. Los buckets privados no permiten establecer permisos públicos en ningún objeto.
+- [x] A todos los objetos de este bucket se les asigna acceso público y cualquier persona en Internet puede leerlos o escribirlos. Asegúrese de que no se compartan públicamente datos confidenciales dentro de este bucket.
+- [ ] Todos los objetos dentro de este bucket son grabables, lo que significa que la Internet pública tiene la capacidad de cargar cualquier archivo directamente en su bucket de S3. Su bucket de S3 podría usarse para servir malware.
+- [ ] A algunos objetos de este bucket se les asigna acceso público. Compruebe que los objetos compartidos públicamente dentro de este bucket no contengan datos confidenciales.
+- [ ] Los objetos dentro de este bucket se pueden hacer públicos, si la ACL de ese objeto está configurada para permitir el acceso de todos. Los buckets privados no permiten establecer permisos públicos en ningún objeto.
 
 #### P48. ¿Qué privilegio es específico de la cuenta raíz de AWS y no se puede conceder a otro usuario de IAM en la cuenta?
 
-- \[ ] Revocar el rol AdministratorAccess o concederlo a otro usuario de IAM.
-- \[ ] Cree una nueva zona hospedada en Route 53.
-- \[x] Elimine la cuenta de AWS.
-- \[ ] Modificar los detalles de facturación.
+- [ ] Revocar el rol AdministratorAccess o concederlo a otro usuario de IAM.
+- [ ] Cree una nueva zona hospedada en Route 53.
+- [x] Elimine la cuenta de AWS.
+- [ ] Modificar los detalles de facturación.
 
 #### Pregunta 49. Su aplicación está enviando 50,000 correos electrónicos a través de SES cada día. Dado que debe mantener una tasa de rebote baja para evitar ser puesto en libertad condicional, ¿qué sistema simple diseña para procesar automáticamente los rebotes duros?
 
-- \[x] Configure SES para enviar todos los eventos de rebote a un tema de SNS. Cree una función de Lambda que procese cada evento de rebote duro y marque automáticamente esa cuenta como rebote en la aplicación para evitar más intentos de envío.
-- \[ ] Configure SES para que ya no se envíe a direcciones de correo electrónico que estén en su lista de rebotes.
-- \[ ] Configure SES para enviar los registros de todos los intentos de entrega a través de Kinesis Firehose. Procesa cada evento y busca tipos de rebote y elimina estos correos electrónicos de tu lista.
-- \[ ] Envíe todos los correos electrónicos a través de SES con un encabezado de respuesta personalizado. Configure SES para escuchar los eventos en esta dirección de correo electrónico y marque cualquier dirección de correo electrónico que responda a esta cuenta como un mensaje rebotado y elimínela de su lista de correo electrónico.
+- [x] Configure SES para enviar todos los eventos de rebote a un tema de SNS. Cree una función de Lambda que procese cada evento de rebote duro y marque automáticamente esa cuenta como rebote en la aplicación para evitar más intentos de envío.
+- [ ] Configure SES para que ya no se envíe a direcciones de correo electrónico que estén en su lista de rebotes.
+- [ ] Configure SES para enviar los registros de todos los intentos de entrega a través de Kinesis Firehose. Procesa cada evento y busca tipos de rebote y elimina estos correos electrónicos de tu lista.
+- [ ] Envíe todos los correos electrónicos a través de SES con un encabezado de respuesta personalizado. Configure SES para escuchar los eventos en esta dirección de correo electrónico y marque cualquier dirección de correo electrónico que responda a esta cuenta como un mensaje rebotado y elimínela de su lista de correo electrónico.
 
 #### Pregunta 50. Su aplicación web está recibiendo una cantidad sospechosa de solicitudes incorrectas de direcciones IP extranjeras. Su negocio está operando en solo unos pocos países y le gustaría bloquear cualquier otro tráfico. ¿Cuál es la mejor práctica para limitar el acceso a su aplicación web por país?
 
-- \[x] Utilice Web Application Firewall y cree una condición de coincidencia geográfica para eliminar todas las solicitudes de países que no están en su lista de permitidos.
+- [x] Utilice Web Application Firewall y cree una condición de coincidencia geográfica para eliminar todas las solicitudes de países que no están en su lista de permitidos.
 - \[ ] Utilice Application Load Balancer para crear una nueva regla de enrutamiento que examine la dirección IP de origen. Agregue un bloque de IP para los países que tienen acceso.
 - \[ ] Aloje el front-end de su sitio web en CloudFront y configure una restricción geográfica en la distribución.
 - \[ ] Utilice CloudTrail para supervisar las direcciones IP de las solicitudes incorrectas. Utilice Lambda para agregar estas direcciones IP a una regla del equilibrador de carga de aplicaciones que bloquea las direcciones IP.

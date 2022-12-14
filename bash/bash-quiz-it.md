@@ -8,10 +8,10 @@ cp -R ~"/photo dir" /backups #method2
 cp -R ~/"photo dir" /backups #method3
 ```
 
-- \[ ] Nessuno dei tre metodi si espanderà nella home directory dell'utente. Solo utilizzando `"$HOME/photo dir"`avrà successo.
-- \[ ] Solo il metodo 1 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
-- \[ ] Solo il metodo 2 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
-- \[x] Solo il metodo 3 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
+- [ ] Nessuno dei tre metodi si espanderà nella home directory dell'utente. Solo utilizzando `"$HOME/photo dir"`avrà successo.
+- [ ] Solo il metodo 1 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
+- [ ] Solo il metodo 2 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
+- [x] Solo il metodo 3 si espanderà `"~/"` alla home directory dell'utente e quindi aggiungere il nome della directory tra virgolette che include uno spazio.
 
 #### D2. Se script.sh viene eseguito nella directory corrente, avrà esito negativo. Perché?
 
@@ -28,17 +28,17 @@ for i in $(ls *.jpg); do
 done
 ```
 
-- \[ ] ls: impossibile accedere a inesistentfile: Nessun file o directory di questo tipo
-- \[x] Il ciclo for si dividerà sui confini delle parole e Beach photo1.jpg ha uno spazio al suo interno.
-- \[ ] Il comando mv avrà esito negativo perché la parentesi graffa è un carattere speciale in Bash e non può essere utilizzata nei nomi dei file.
-- \[ ] L'esecuzione di script.sh avrà esito positivo poiché il comando ls crea un elenco di file nella directory corrente e per i cicli attraverso tale elenco rinominando i file con un'estensione .bak.
+- [ ] ls: impossibile accedere a inesistentfile: Nessun file o directory di questo tipo
+- [x] Il ciclo for si dividerà sui confini delle parole e Beach photo1.jpg ha uno spazio al suo interno.
+- [ ] Il comando mv avrà esito negativo perché la parentesi graffa è un carattere speciale in Bash e non può essere utilizzata nei nomi dei file.
+- [ ] L'esecuzione di script.sh avrà esito positivo poiché il comando ls crea un elenco di file nella directory corrente e per i cicli attraverso tale elenco rinominando i file con un'estensione .bak.
 
 #### D3. Per eseguire un comando copy in una subshell, quale sintassi useresti?
 
-- \[x] `( command )`
-- \[ ] `sh command`
-- \[ ] `{ command; }`
-- \[ ] `(( command ))`
+- [x] `( command )`
+- [ ] `sh command`
+- [ ] `{ command; }`
+- [ ] `(( command ))`
 
 #### D4. Usando "awk", quale sarebbe l'output di questa stringa di comando?
 
@@ -46,10 +46,10 @@ done
 echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 ```
 
-- \[x] 6
-- \[ ] 123
-- \[ ] 3
-- \[ ] 600
+- [x] 6
+- [ ] 123
+- [ ] 3
+- [ ] 600
 
 #### D5. Il comando seguente cercherà nel filesystem root i file denominati "finance.db". In questo contesto, quali informazioni vengono inviate a /dev/null?
 
@@ -57,17 +57,17 @@ echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 find / -name "finance.db" 1>results.txt 2>/dev/null
 ```
 
-- \[ ] i nomi dei file che non corrispondono alla finanza.db
-- \[x] informazioni inviate all'errore standard, ad esempio errori visualizzati dal comando find durante l'esecuzione
-- \[ ] i nomi dei file che corrispondono alla finanza.db
-- \[ ] informazioni inviate all'output standard, ovvero il percorso dei file individuati dal comando find
+- [ ] i nomi dei file che non corrispondono alla finanza.db
+- [x] informazioni inviate all'errore standard, ad esempio errori visualizzati dal comando find durante l'esecuzione
+- [ ] i nomi dei file che corrispondono alla finanza.db
+- [ ] informazioni inviate all'output standard, ovvero il percorso dei file individuati dal comando find
 
 #### D6. Per rimuovere definitivamente le righe vuote da un file chiamato file di testo, quale comando è possibile utilizzare?
 
-- \[x] `sed -i '/^$/d' textfile`
-- \[ ] `sed '/^$/d' textfile`
-- \[ ] `cat textfile | sed '/^$/d`
-- \[ ] `sed -i 's/^$//' textfile`
+- [x] `sed -i '/^$/d' textfile`
+- [ ] `sed '/^$/d' textfile`
+- [ ] `cat textfile | sed '/^$/d`
+- [ ] `sed -i 's/^$//' textfile`
 
 #### D7. Supponendo che user1 esista, quale sarebbe il risultato di questa stringa di comando?
 
@@ -75,24 +75,24 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 ```
 
-- \[ ] Mostrerebbe il nome utente, l'UID e la home directory di user1 separati da due punti.
-- \[ ] Stamperebbe l'UID, il GID e la home directory di user1 separati da trattini.
-- \[ ] Stamperebbe l'UID, il commento e la home directory di user1 separati da trattini.
-- \[x] Mostrerebbe il nome utente, l'UID e la home directory di user1 separati da trattini.
+- [ ] Mostrerebbe il nome utente, l'UID e la home directory di user1 separati da due punti.
+- [ ] Stamperebbe l'UID, il GID e la home directory di user1 separati da trattini.
+- [ ] Stamperebbe l'UID, il commento e la home directory di user1 separati da trattini.
+- [x] Mostrerebbe il nome utente, l'UID e la home directory di user1 separati da trattini.
 
 #### D8. Cosa succede se si utilizza il comando `"set -e"` in uno script Bash?
 
-- \[ ] Causerà l'uscita di Bash se una funzione o una subshell restituisce un codice di stato diverso da zero.
-- \[ ] Causerà l'uscita di Bash se un condizionale restituisce un codice di stato diverso da zero.
-- \[ ] Causerà l'uscita di Bash se le assegnazioni locali, dichiarate o typeset restituiscono un codice di stato diverso da zero.
-- \[x] Causerà l'uscita di Bash se un comando, un elenco di comandi, un comando composto o potenzialmente una pipeline restituisce un codice di stato diverso da zero.
+- [ ] Causerà l'uscita di Bash se una funzione o una subshell restituisce un codice di stato diverso da zero.
+- [ ] Causerà l'uscita di Bash se un condizionale restituisce un codice di stato diverso da zero.
+- [ ] Causerà l'uscita di Bash se le assegnazioni locali, dichiarate o typeset restituiscono un codice di stato diverso da zero.
+- [x] Causerà l'uscita di Bash se un comando, un elenco di comandi, un comando composto o potenzialmente una pipeline restituisce un codice di stato diverso da zero.
 
 #### D9. Le **\_** parola chiave mette in pausa lo script per ottenere input dall'input standard.
 
-- \[ ] ottieni
-- \[ ] argomento
-- \[x] leggi
-- \[ ] ingresso
+- [ ] ottieni
+- [ ] argomento
+- [x] leggi
+- [ ] ingresso
 
 #### D10. Se file.sql contiene istruzioni SQL da eseguire, cosa ci sarà in file.txt?
 
@@ -100,10 +100,10 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 mysql < file.sql > file.txt
 ```
 
-- \[ ] una copia del contenuto del file.sql
-- \[ ] un errore che indica che si tratta di una sintassi non valida
-- \[ ] l'output di errore del comando MySQL
-- \[x] l'output non di errore del comando MySQL
+- [ ] una copia del contenuto del file.sql
+- [ ] un errore che indica che si tratta di una sintassi non valida
+- [ ] l'output di errore del comando MySQL
+- [x] l'output non di errore del comando MySQL
 
 **Nota:** controlla la domanda qui sotto per una variante.
 
@@ -113,26 +113,26 @@ mysql < file.sql > file.txt
 mysql < file.sql > out.txt
 ```
 
-- \[ ] L'output sullo schermo sarà identico a out.txt
-- \[x] Non ci sarà alcun output sullo schermo mentre viene reindirizzato a out.txt.
-- \[ ] L'output sullo schermo sarà identico a out.txt più numeri di riga.
-- \[ ] Il file out.txt conterrà STDERR e STDOUT andrà allo schermo.
+- [ ] L'output sullo schermo sarà identico a out.txt
+- [x] Non ci sarà alcun output sullo schermo mentre viene reindirizzato a out.txt.
+- [ ] L'output sullo schermo sarà identico a out.txt più numeri di riga.
+- [ ] Il file out.txt conterrà STDERR e STDOUT andrà allo schermo.
 
 **Nota:** controlla la domanda sopra per una variante.
 
 #### D12. In che modo SUID o setuid influisce sui comandi eseguibili?
 
-- \[ ] Quando il comando crea file, questi saranno di proprietà del proprietario del gruppo del comando.
-- \[ ] Il bit SUID consente a chiunque di eseguire il comando indipendentemente dalle altre autorizzazioni impostate.
-- \[x] Quando il comando viene eseguito, i suoi privilegi in esecuzione passano al proprietario utente del comando.
-- \[ ] Quando il comando viene eseguito, i suoi privilegi in esecuzione vengono elevati al proprietario del gruppo del comando.
+- [ ] Quando il comando crea file, questi saranno di proprietà del proprietario del gruppo del comando.
+- [ ] Il bit SUID consente a chiunque di eseguire il comando indipendentemente dalle altre autorizzazioni impostate.
+- [x] Quando il comando viene eseguito, i suoi privilegi in esecuzione passano al proprietario utente del comando.
+- [ ] Quando il comando viene eseguito, i suoi privilegi in esecuzione vengono elevati al proprietario del gruppo del comando.
 
 #### D13. Per estrarre il testo dalla prima colonna di file chiamata textfile, quale comando useresti?
 
-- \[ ] `cat {$1,textfile}`
-- \[ ] `cat textfile | awk [print $1]`
-- \[x] `cat textfile | awk '{print $1}'`
-- \[ ] `awk textfile {print $1}`
+- [ ] `cat {$1,textfile}`
+- [ ] `cat textfile | awk [print $1]`
+- [x] `cat textfile | awk '{print $1}'`
+- [ ] `awk textfile {print $1}`
 
 #### D14. Qual è la scorciatoia da tastiera per richiamare la ricerca della cronologia bash come mostrato di seguito?
 
@@ -140,17 +140,17 @@ mysql < file.sql > out.txt
 (reverse-i-search)`':
 ```
 
-- \[ ] Esc + R
-- \[ ] Ctrl + H
-- \[x] Ctrl + R
-- \[ ] Alt + R
+- [ ] Esc + R
+- [ ] Ctrl + H
+- [x] Ctrl + R
+- [ ] Alt + R
 
 #### D15. Quale espressione aritmetica darà la risposta più precisa?
 
-- \[ ] `var=$( expr 10 / 8 )`
-- \[ ] `(( var= 10 /8 ))`
-- \[ ] `var=$(( 10 / 8 ))`
-- \[x] `var=$(echo 'scale=2; 10 / 8' | bc)`
+- [ ] `var=$( expr 10 / 8 )`
+- [ ] `(( var= 10 /8 ))`
+- [ ] `var=$(( 10 / 8 ))`
+- [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
 #### D16. Qual è il risultato di questo script?
 
@@ -159,10 +159,10 @@ txt=Penguins
 [[ $txt =~ [a-z]{8} ]]; echo $?
 ```
 
-- \[ ] 0, che rappresenta 'true', perché la variabile "txt" contiene otto lettere
-- \[ ] 0, che rappresenta 'vero', perché tutti amano i pinguini!
-- \[ ] 1, che rappresenta 'false', perché la variabile "txt" è più lunga di otto caratteri
-- \[x] 1, che rappresenta 'false', perché la variabile "txt" non contiene otto lettere minuscole tra a e z
+- [ ] 0, che rappresenta 'true', perché la variabile "txt" contiene otto lettere
+- [ ] 0, che rappresenta 'vero', perché tutti amano i pinguini!
+- [ ] 1, che rappresenta 'false', perché la variabile "txt" è più lunga di otto caratteri
+- [x] 1, che rappresenta 'false', perché la variabile "txt" non contiene otto lettere minuscole tra a e z
 
 #### D17. Come cambieresti il prompt della shell Bash come segue?
 
@@ -170,10 +170,10 @@ txt=Penguins
 HAL>
 ```
 
-- \[ ] `SHELL="HAL\>"`
-- \[ ] `SHELL="HAL>"`
-- \[x] `export PS1="HAL>"`
-- \[ ] `PS1="HAL\>"`
+- [ ] `SHELL="HAL\>"`
+- [ ] `SHELL="HAL>"`
+- [x] `export PS1="HAL>"`
+- [ ] `PS1="HAL\>"`
 
 #### D18. Qual è l'output di questo codice?
 
@@ -182,24 +182,24 @@ VAR="/var/www/html/website.com/html/"
 echo "${VAR#*/html}"
 ```
 
-- \[x] `/website.com/html/`
-- \[ ] `/html/website.com/html/`
-- \[ ] `/var/www/html/website.com/`
-- \[ ] Nulla sarà riecheggiato sullo schermo.
+- [x] `/website.com/html/`
+- [ ] `/html/website.com/html/`
+- [ ] `/var/www/html/website.com/`
+- [ ] Nulla sarà riecheggiato sullo schermo.
 
 #### D19. Se viene richiesto il testo all'input standard, è possibile dire al comando che hai finito di inserire il testo con quale combinazione di tasti?
 
-- \[ ] Ctrl + A (Windows) o Comando + A (Mac)
-- \[ ] Ctrl + E (Windows) o Comando + E (Mac)
-- \[x] Ctrl + D (Windows) o Comando + D (Mac)
-- \[ ] Ctrl + Z (Windows) o Comando + Z (Mac)
+- [ ] Ctrl + A (Windows) o Comando + A (Mac)
+- [ ] Ctrl + E (Windows) o Comando + E (Mac)
+- [x] Ctrl + D (Windows) o Comando + D (Mac)
+- [ ] Ctrl + Z (Windows) o Comando + Z (Mac)
 
 #### D20. Affinché uno script Bash possa essere eseguito come un comando del sistema operativo, dovrebbe iniziare con una linea shebang. Che aspetto ha?
 
-- \[x] `#!/usr/bin/env bash`
-- \[ ] `~/usr/bin/env bash`
-- \[ ] `'$!/usr/bin/env bash`
-- \[ ] `#/usr/bin/env bash`
+- [x] `#!/usr/bin/env bash`
+- [ ] `~/usr/bin/env bash`
+- [ ] `'$!/usr/bin/env bash`
+- [ ] `#/usr/bin/env bash`
 
 #### D21. Quale linea di script Bash probabilmente ha prodotto l'output mostrato di seguito?
 
@@ -207,10 +207,10 @@ echo "${VAR#*/html}"
 The date is: Sun Mar 24 12:30:06 CST 2019!
 ```
 
-- \[ ] `echo "The date is: !"`
-- \[ ] `echo "The date is: date!"`
-- \[ ] `echo "The date is: (date)!"`
-- \[x] `echo "The date is: $(date)!"`
+- [ ] `echo "The date is: !"`
+- [ ] `echo "The date is: date!"`
+- [ ] `echo "The date is: (date)!"`
+- [x] `echo "The date is: $(date)!"`
 
 #### D22. Supponiamo che la tua attuale directory di lavoro sia la tua home directory. Come è possibile eseguire lo script demo.sh che si trova nella home directory? Trova tre risposte corrette.
 
@@ -222,17 +222,17 @@ D. bash /home/demo.sh
 E. bash demo.sh
 ```
 
-- \[x] B, C, E
-- \[ ] A, B, C
-- \[ ] C, D, E
-- \[ ] B, D, E
+- [x] B, C, E
+- [ ] A, B, C
+- [ ] C, D, E
+- [ ] B, D, E
 
 #### D23. Come potresti ottenere un elenco di tutti i file .html nel tuo albero?
 
-- \[ ] `find . -type html`
-- \[ ] `find . -name *.html`
-- \[ ] `find *.html`
-- \[x] `find . -name \*.html -print`
+- [ ] `find . -type html`
+- [ ] `find . -name *.html`
+- [ ] `find *.html`
+- [x] `find . -name \*.html -print`
 
 Il secondo sembra buono, ma espanderà il \* se c'è qualche file .html nella directory di lavoro.
 
@@ -242,10 +242,10 @@ Il secondo sembra buono, ma espanderà il \* se c'è qualche file .html nella di
 cat < in.txt > out.txt
 ```
 
-- \[ ] Output dalla riga di comando. Per impostazione predefinita, STDIN proviene dalla tastiera.
-- \[ ] Niente perché non è possibile reindirizzare dal file (in.txt) a un altro file (out.txt). È possibile reindirizzare solo da un comando a un file.
-- \[x] Sarebbe il contenuto di in.txt.
-- \[ ] Niente. Il reindirizzamento creerà un nuovo file vuoto ma non ci sarà alcun output dal comando cat per reindirizzare.
+- [ ] Output dalla riga di comando. Per impostazione predefinita, STDIN proviene dalla tastiera.
+- [ ] Niente perché non è possibile reindirizzare dal file (in.txt) a un altro file (out.txt). È possibile reindirizzare solo da un comando a un file.
+- [x] Sarebbe il contenuto di in.txt.
+- [ ] Niente. Il reindirizzamento creerà un nuovo file vuoto ma non ci sarà alcun output dal comando cat per reindirizzare.
 
 #### D25. Cosa fa questa dichiarazione bash?
 
@@ -254,17 +254,17 @@ cat < in.txt > out.txt
 echo $?
 ```
 
-- \[ ] Si alterna tra i valori di `$a` e `$b`.
-- \[x] Verifica se i valori delle variabili `$a` e `$b` sono uguali.
-- \[ ] Ritorna `$b` se è più grande di `$a`.
-- \[ ] Ritorna `$a` se è più grande di `$b`.
+- [ ] Si alterna tra i valori di `$a` e `$b`.
+- [x] Verifica se i valori delle variabili `$a` e `$b` sono uguali.
+- [ ] Ritorna `$b` se è più grande di `$a`.
+- [ ] Ritorna `$a` se è più grande di `$b`.
 
 #### D26. Cosa usi in una case statement per dire a Bash che hai finito con un test specifico?
 
-- \[x] `; ;`
-- \[ ] `: :`
-- \[ ] `done`
-- \[ ] `$$`
+- [x] `; ;`
+- [ ] `: :`
+- [ ] `done`
+- [ ] `$$`
 
 #### D27. Cosa rappresenta l'asterisco in questa dichiarazione?
 
@@ -283,24 +283,24 @@ case $num in
 esac
 ```
 
-- \[x] un caso che corrisponde a qualsiasi valore, fornendo un'opzione predefinita se nient'altro rileva quel valore
-- \[ ] un caso solo per ciò che accade quando il carattere asterisco viene passato nello script
-- \[ ] l'azione di tutti gli altri casi combinati insieme
-- \[ ] un'azione eseguita per qualsiasi input, anche se corrisponde a una condizione specificata
+- [x] un caso che corrisponde a qualsiasi valore, fornendo un'opzione predefinita se nient'altro rileva quel valore
+- [ ] un caso solo per ciò che accade quando il carattere asterisco viene passato nello script
+- [ ] l'azione di tutti gli altri casi combinati insieme
+- [ ] un'azione eseguita per qualsiasi input, anche se corrisponde a una condizione specificata
 
 #### D28. Quale script Bash creerà correttamente questi file?
 
-- \[ ] `touch file{1+10}.txt`
-- \[ ] `touch file{1-10}.txt`
-- \[x] `touch file{1..10}.txt`
-- \[ ] `touch file(1..10).txt`
+- [ ] `touch file{1+10}.txt`
+- [ ] `touch file{1-10}.txt`
+- [x] `touch file{1..10}.txt`
+- [ ] `touch file(1..10).txt`
 
 #### D29. Quale variabile controlleresti per verificare che l'ultimo comando sia stato eseguito correttamente?
 
-- \[ ] `$$`
-- \[x] `$?`
-- \[ ] `$!`
-- \[ ] `$@`
+- [ ] `$$`
+- [x] `$?`
+- [ ] `$!`
+- [ ] `$@`
 
 #### D30. Qual è l'output di questo script?
 
@@ -311,10 +311,10 @@ john=thomas
 echo ${!fname}
 ```
 
-- \[ ] giovanni
-- \[x] thomas
-- \[ ] Errore di sintassi
-- \[ ] vuoto
+- [ ] giovanni
+- [x] thomas
+- [ ] Errore di sintassi
+- [ ] vuoto
 
 [riferimento](https://unix.stackexchange.com/questions/41292/variable-substitution-with-an-exclamation-mark-in-bash)
 
@@ -322,10 +322,10 @@ echo ${!fname}
 
 ![question](images/Q30/question.png?raw=png)
 
-- \[ ] `A` ![A](images/Q30/A.png?raw=png)
-- \[ ] `B` ![B](images/Q30/B.png?raw=png)
-- \[x] `C` ![C](images/Q30/C.png?raw=png)
-- \[ ] `D` ![D](images/Q30/D.png?raw=png)
+- [ ] `A` ![A](images/Q30/A.png?raw=png)
+- [ ] `B` ![B](images/Q30/B.png?raw=png)
+- [x] `C` ![C](images/Q30/C.png?raw=png)
+- [ ] `D` ![D](images/Q30/D.png?raw=png)
 
 Ecco una versione basata su testo di Q.30:
 
@@ -341,7 +341,7 @@ ll | sed -e 's,file,text,g'
 
 ```
 
-- \[ ] A
+- [ ] A
 
 <!---->
 
@@ -351,7 +351,7 @@ ll | sed -e 's,file,text,g'
       -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.file
       ..
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
@@ -361,14 +361,14 @@ ll | sed -e 's,file,text,g'
       -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.txt
       ..
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
       -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
       -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 
-- \[x] D
+- [x] D
 
 <!---->
 
@@ -388,24 +388,24 @@ if [ $PET = dog ] ;then
 fi
 ```
 
-- \[ ] Se il valore di PET non corrisponde a dog, lo script restituirà un codice di stato diverso da zero.
-- \[ ] Non c'è niente di sbagliato in questo. La condizione controlla perfettamente il valore del PET.
-- \[x] Avrà esito negativo se l'utente preme il tasto Invio (A capo) senza immettere un nome di animale domestico quando richiesto.
-- \[ ] L'istruzione then deve trovarsi su una riga separata.
+- [ ] Se il valore di PET non corrisponde a dog, lo script restituirà un codice di stato diverso da zero.
+- [ ] Non c'è niente di sbagliato in questo. La condizione controlla perfettamente il valore del PET.
+- [x] Avrà esito negativo se l'utente preme il tasto Invio (A capo) senza immettere un nome di animale domestico quando richiesto.
+- [ ] L'istruzione then deve trovarsi su una riga separata.
 
 #### D33. Come puoi raccogliere la cronologia per più terminali?
 
-- \[ ] Funziona solo per impostazione predefinita.
-- \[ ] `history --shared`
-- \[ ] `history --combined`
-- \[x] `shopt -s histappend`
+- [ ] Funziona solo per impostazione predefinita.
+- [ ] `history --shared`
+- [ ] `history --combined`
+- [x] `shopt -s histappend`
 
 #### D34. Qual è la differenza tra le variabili $@ e $\*?
 
-- \[x] `$@` considera ogni argomento citato come un'entità separata. `$*` considera l'intera stringa di argomenti come un'unica entità.
-- \[ ] `$*` considera ogni argomento citato come un'entità separata. `$@` considera l'intera stringa di argomenti come un'unica entità.
-- \[ ] `$*` viene utilizzato per contare gli argomenti passati a uno script, `$@` fornisce tutti gli argomenti in un'unica stringa.
-- \[ ] `$*` è il carattere jolly che include tutti gli argomenti con suddivisione delle parole, `$@` contiene gli stessi dati ma in una matrice.
+- [x] `$@` considera ogni argomento citato come un'entità separata. `$*` considera l'intera stringa di argomenti come un'unica entità.
+- [ ] `$*` considera ogni argomento citato come un'entità separata. `$@` considera l'intera stringa di argomenti come un'unica entità.
+- [ ] `$*` viene utilizzato per contare gli argomenti passati a uno script, `$@` fornisce tutti gli argomenti in un'unica stringa.
+- [ ] `$*` è il carattere jolly che include tutti gli argomenti con suddivisione delle parole, `$@` contiene gli stessi dati ma in una matrice.
 
 #### D35. Quale comando viene eseguito in questo script per verificare se esiste .txt file?
 
@@ -415,7 +415,7 @@ if [ -f file.txt ]; then
 fi
 ```
 
-- \[ ] `/usr/bin/test`
+- [ ] `/usr/bin/test`
 - \[ ] `/usr/bin/[`
 - \[x] `the built-in [ command`
 - \[ ] `/usr/bin/[[`

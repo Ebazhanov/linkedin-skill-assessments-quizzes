@@ -2,35 +2,35 @@
 
 #### Q1. Pour ajouter des fonctionnalités, des composants et des autorisations à votre application Android, quel fichier doit être modifié ?
 
-- \[x] AndroidManifest.xml
-- \[ ] Composants.xml
-- \[ ] AppManifest.xml
-- \[ ] ComponentManifest.xml
+- [x] AndroidManifest.xml
+- [ ] Composants.xml
+- [ ] AppManifest.xml
+- [ ] ComponentManifest.xml
 
 #### Q2. Quel attribut XML doit être utilisé pour rendre une vue d’image accessible ?
 
-- \[ ] android:talkBack
-- \[ ] android:labelPour
-- \[ ] android:indice
-- \[x] android:contentDescription
+- [ ] android:talkBack
+- [ ] android:labelPour
+- [ ] android:indice
+- [x] android:contentDescription
 
 #### Q3. Vous lancez votre application et lorsque vous accédez à un nouvel écran, elle se bloque, quelle action ne vous aidera PAS à diagnostiquer le problème ?
 
-- \[ ] Définissez des points d’arrêt, puis parcourez le code ligne par ligne
-- \[ ] Utilisez les outils de profilage dans Android Studio pour détecter les anomalies CPU et l’utilisation du réseau.
-- \[x] Ajoutez un appel Thread.sleep() avant de commencer la nouvelle activité.
-- \[ ] inspectez les journaux dans Logcat.
+- [ ] Définissez des points d’arrêt, puis parcourez le code ligne par ligne
+- [ ] Utilisez les outils de profilage dans Android Studio pour détecter les anomalies CPU et l’utilisation du réseau.
+- [x] Ajoutez un appel Thread.sleep() avant de commencer la nouvelle activité.
+- [ ] inspectez les journaux dans Logcat.
 
 #### Q4. Pourquoi les notifications push peuvent-elles cesser de fonctionner ?
 
-- \[x] toutes ces réponses
-- \[ ] Le jeton de périphérique n’est pas envoyé correctement au fournisseur push.
-- \[ ] Les services Google Play ne sont pas installés sur le deivce/émulateur.
-- \[ ] L’optimisation de la batterie est activée sur l’appareil.
+- [x] toutes ces réponses
+- [ ] Le jeton de périphérique n’est pas envoyé correctement au fournisseur push.
+- [ ] Les services Google Play ne sont pas installés sur le deivce/émulateur.
+- [ ] L’optimisation de la batterie est activée sur l’appareil.
 
 #### Q5. Quel est l’ensemble correct de classes de composants nécessaires pour implémenter un RecyclerView d’éléments qui affiche une liste de widgets verticalement ?
 
-- \[ ]
+- [ ]
 
 ```java
   RecycleView
@@ -39,7 +39,7 @@
   LinearLayoutManager
 ```
 
-- \[ ]
+- [ ]
 
 ```java
   RecycleView
@@ -48,7 +48,7 @@
   LinearLayoutManager
 ```
 
-- \[ ]
+- [ ]
 
 ```java
   RecycleView
@@ -57,7 +57,7 @@
   LinearLayoutManager
 ```
 
-- \[x]
+- [x]
 
 ```java
   RecycleView
@@ -68,14 +68,14 @@
 
 #### Q6. Le système Android tue le processus lorsqu’il a besoin de libérer de la mémoire. La probabilité que le système tue un processus donné dépend de l’état du processus et de l’activité à ce moment-là. Avec la combinaison du processus et de l’activité, l’état est-il le plus susceptible d’être tué?
 
-- \[x] Processus:En arrière-plan; Activité:Est arrêté
-- \[ ] Processus:En arrière-plan; Activité:Est en pause
-- \[ ] Processus:Au premier plan; Activité:Est démarré
-- \[ ] Processus:Au premier plan; Activité:Est en pause
+- [x] Processus:En arrière-plan; Activité:Est arrêté
+- [ ] Processus:En arrière-plan; Activité:Est en pause
+- [ ] Processus:Au premier plan; Activité:Est démarré
+- [ ] Processus:Au premier plan; Activité:Est en pause
 
 #### Q7. Vous avez créé une classe NextActivity qui repose sur une chaîne contenant des données qui passent à l’intérieur de l’intention Quel extrait de code vous permet de lancer votre activité ?
 
-- \[ ]
+- [ ]
 
 ```java
   Intent(this, NextActivity::class.java).also { intent ->
@@ -83,7 +83,7 @@
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -93,7 +93,7 @@
   }
 ```
 
-- \[x]
+- [x]
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -103,7 +103,7 @@
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -115,21 +115,21 @@
 
 #### Q8. Vous souhaitez inclure des modules à propos et des modules de définition dans votre projet. Quels fichiers reflètent fidèlement leur inclusion ?
 
-- \[ ] dans build.gradle:include ':app',':about' ':settings'
-- \[x] dans settings.gradle:include ':app',':about' ':settings'
-- \[ ] dans settings.gradle:include ':about',':settings'
-- \[ ] dans gradle.properties:include ':app',':about' ':settings'
+- [ ] dans build.gradle:include ':app',':about' ':settings'
+- [x] dans settings.gradle:include ':app',':about' ':settings'
+- [ ] dans settings.gradle:include ':about',':settings'
+- [ ] dans gradle.properties:include ':app',':about' ':settings'
 
 #### Q9. Quel est l’avantage d’utiliser @VisibleForTesting annotation ?
 
-- \[x] pour indiquer qu’une classe, un méthos ou un champ a sa visibilité détendue pour rendre le code testable
-- \[ ] pour indiquer qu’une classe, une méthode ou un champ est visible uniquement dans le code de test
-- \[ ] pour indiquer qu’une classe, une méthode ou un champ voit sa visibilité augmentée pour rendre le code moins testable
-- \[ ] pour générer une erreur d’exécution si une classe, un methos ou un champ avec cette annotation est accédé de manière incorrecte
+- [x] pour indiquer qu’une classe, un méthos ou un champ a sa visibilité détendue pour rendre le code testable
+- [ ] pour indiquer qu’une classe, une méthode ou un champ est visible uniquement dans le code de test
+- [ ] pour indiquer qu’une classe, une méthode ou un champ voit sa visibilité augmentée pour rendre le code moins testable
+- [ ] pour générer une erreur d’exécution si une classe, un methos ou un champ avec cette annotation est accédé de manière incorrecte
 
 #### Q10. Comment spécifieriez-vous dans votre fichier build.gradle que votre application nécessitait au moins le niveau d’API 21 pour s’exécuter, mais qu’elle peut être testée au niveau d’API 28 ?
 
-- \[ ]
+- [ ]
 
 ```
   defaultConfig {
@@ -139,7 +139,7 @@
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```
   defaultConfig {
@@ -149,7 +149,7 @@
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```
   defaultConfig {
@@ -159,7 +159,7 @@
   }
 ```
 
-- \[x]
+- [x]
 
 ```
   defaultConfig {
@@ -171,30 +171,30 @@
 
 #### Q11. Quand onActivityResult() d’une activité sera-t-il appelé ?
 
-- \[ ] lors de l’appel de finish()dans l’activité parente
-- \[ ] lors du placement d’une application en arrière-plan en accédant à une autre application
-- \[ ] Lorsque onStop() est appelé dans l’activité cible
-- \[x] lors de l’appel de finish() dans l’activité cible
+- [ ] lors de l’appel de finish()dans l’activité parente
+- [ ] lors du placement d’une application en arrière-plan en accédant à une autre application
+- [ ] Lorsque onStop() est appelé dans l’activité cible
+- [x] lors de l’appel de finish() dans l’activité cible
 
 [Pour plus d’informations](https://developer.android.com/reference/android/app/Activity)
 
 #### Q12. Vous devez supprimer un événement basé sur son id de votre API, Quel extrait de code définit cette demande dans Retrofit ?
 
-- \[ ] @DELETE(« événements »)
+- [ ] @DELETE(« événements »)
   fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
-- \[x] @DELETE(« events/{id} »)
+- [x] @DELETE(« events/{id} »)
   fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
-- \[ ] @REMOVE(« events/{id} »)
+- [ ] @REMOVE(« events/{id} »)
   fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
-- \[x] @DELETE(« events/{id} »)
+- [x] @DELETE(« events/{id} »)
   fun deleteEvent(@Path(« id ») id: Long): Appel<Unit>
 
 #### Q13. Quand utiliseriez-vous une saveur de produit dans votre configuration de construction ?
 
-- \[ ] lorsque vous devez avoir les chaînes de l’application présentes dans plusieurs lanuages
-- \[ ] lorsque vous devez fournir différentes versions de votre application en fonction de la taille physique de l’appareil
-- \[ ] lorsque vous souhaitez fournir différentes versions de votre application en fonction de la densité de l’écran de l’appareil
-- \[x] lorsque vous souhaitez fournir une version différente de votre application avec une configuration et des ressources personnalisées
+- [ ] lorsque vous devez avoir les chaînes de l’application présentes dans plusieurs lanuages
+- [ ] lorsque vous devez fournir différentes versions de votre application en fonction de la taille physique de l’appareil
+- [ ] lorsque vous souhaitez fournir différentes versions de votre application en fonction de la densité de l’écran de l’appareil
+- [x] lorsque vous souhaitez fournir une version différente de votre application avec une configuration et des ressources personnalisées
 
 #### Q14. Compte tenu du fragment ci-dessous, comment accéder à un TextView avec un ID de text_home contenu dans le fichier de mise en page d’une classe Fragment ?
 
@@ -207,73 +207,73 @@
   }
 ```
 
-- \[ ] root.getById(R.id.text_home)
-- \[ ] findViewByID(R.id.text_home)
-- \[x] root.findViewById(R.id.text_home)
-- \[ ] root.find(R.id.text_home)
+- [ ] root.getById(R.id.text_home)
+- [ ] findViewByID(R.id.text_home)
+- [x] root.findViewById(R.id.text_home)
+- [ ] root.find(R.id.text_home)
 
 #### Q15. Pourquoi utilisez-vous AndroidJUnitRunner lors de l’exécution de tests d’interface utilisateur ?
 
 Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3 / 4 sur les appareils Android
 
-- \[x] Le testeur facilite le chargement de votre package de test et de l’application testée sur un appareil ou un émulateur, exécute le test et signale les résultats.
-- \[ ] Le testeur créant des captures d’écran de chaque écran qui s’affichait pendant l’exécution des tests.
-- \[ ] Le testeur facilite la parallélisation des classes de test en fournissant pour chaque classe de test.
-- \[ ] Le coureur d’essai facilite l’interaction avec les éléments visibles sur un appareil, quelle que soit l’activité ou le fragment qui a le focus.
+- [x] Le testeur facilite le chargement de votre package de test et de l’application testée sur un appareil ou un émulateur, exécute le test et signale les résultats.
+- [ ] Le testeur créant des captures d’écran de chaque écran qui s’affichait pendant l’exécution des tests.
+- [ ] Le testeur facilite la parallélisation des classes de test en fournissant pour chaque classe de test.
+- [ ] Le coureur d’essai facilite l’interaction avec les éléments visibles sur un appareil, quelle que soit l’activité ou le fragment qui a le focus.
 
 #### Q16. Qu’est-ce qui vous permet de restaurer correctement l’état d’un utilisateur lorsqu’une activité est redémarrée ?
 
-- \[ ] la méthode onSaveInstance()
-- \[x] toutes ces réponses
-- \[ ] stockage persistant
-- \[ ] Objets ViewModel
+- [ ] la méthode onSaveInstance()
+- [x] toutes ces réponses
+- [ ] stockage persistant
+- [ ] Objets ViewModel
 
 [Réfrence](https://developer.android.com/topic/libraries/architecture/saving-states)
 
 #### Q17. Compte tenu de la définition ci-dessous. Comment accéder à un TextView avec un ID de text_home contenu dans le fichier de mise en page d’une classe Fragment ?
 
-- \[ ] root.find(R.id.text_home)
-- \[ ] findViewById(R.id.text_home)
-- \[ ] root.getById(R.id.text_home)
-- \[x] root.findViewById(R.id.text_home)
+- [ ] root.find(R.id.text_home)
+- [ ] findViewById(R.id.text_home)
+- [ ] root.getById(R.id.text_home)
+- [x] root.findViewById(R.id.text_home)
 
 #### Q18. SI le thread principal est bloqué trop longtemps, le système affiche la boîte de dialogue \_ ?
 
-- \[ ] Thread ne répond pas
-- \[ ] Application suspendue
-- \[x] L’application ne répond pas
-- \[ ] Application bloquée
+- [ ] Thread ne répond pas
+- [ ] Application suspendue
+- [x] L’application ne répond pas
+- [ ] Application bloquée
 
 #### Q19. Comment récupérer la valeur de l’e-mail d’un utilisateur à partir de SharedPreferences tout en vous assurant que la valeur renvoyée n’est pas nulle ?
 
-- \[ ] getPreferances(this).getString(Email," »)
-- \[ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
-- \[x] getDefaultSharedPreferances(this).getString(EMAIL," »)
-- \[ ] getPreferances(this).getString(EMAIL,null)
+- [ ] getPreferances(this).getString(Email," »)
+- [ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
+- [x] getDefaultSharedPreferances(this).getString(EMAIL," »)
+- [ ] getPreferances(this).getString(EMAIL,null)
 
 **Explication:** Dans la méthode « getDefaultSharedPrefarances(this).getString() » Le deuxième paramètre est passé afin qu’il puisse être retourné, au cas où la clé n’existerait pas. Nous devons donc passer une chaîne vide à renvoyer au cas où la clé n’existerait pas.
 
 #### Q20. Pourquoi est-il problématique de définir des tailles à l’aide de pixels sur Android?
 
-- \[ ] Bien que la densité des pixels de l’écran varie, cela n’a pas d’impact sur l’utilisation des pixels pour définir les tailles.
-- \[ ] Les gros appareils ont toujours plus de pixels, de sorte que vos éléments d’interface utilisateur seront e=affectés si vous les définissez avec des pixels.
-- \[x] Le même nombre de pixels peut correspondre à différentes tailles physiques, ce qui affecte l’apparence de vos éléments d’interface utilisateur.
-- \[ ] Différents appareils ont une compréhension différente de ce qu’est un pixel, affectant l’apparence de vos éléments d’interface utilisateur
+- [ ] Bien que la densité des pixels de l’écran varie, cela n’a pas d’impact sur l’utilisation des pixels pour définir les tailles.
+- [ ] Les gros appareils ont toujours plus de pixels, de sorte que vos éléments d’interface utilisateur seront e=affectés si vous les définissez avec des pixels.
+- [x] Le même nombre de pixels peut correspondre à différentes tailles physiques, ce qui affecte l’apparence de vos éléments d’interface utilisateur.
+- [ ] Différents appareils ont une compréhension différente de ce qu’est un pixel, affectant l’apparence de vos éléments d’interface utilisateur
 
 [Référence](https://developer.android.com/training/multiscreen/screendensities#:~:text=The%20first%20pitfall%20you%20must,physical%20sizes%20on%20different%20devices.)
 
 #### Q21. Vous devez obtenir une liste des périphériques connectés à votre ordinateur avec l’activation du débogage USB. Quelle commande s’exécuterait à l’aide du pont de débogage Android?
 
-- \[ ] liste des périphériques
-- \[x] périphériques adb
-- \[ ] liste avd
-- \[ ] appareils dir
+- [ ] liste des périphériques
+- [x] périphériques adb
+- [ ] liste avd
+- [ ] appareils dir
 
 #### Q22. Quelle définition dessinable vous permet d’obtenir la forme ci-dessous?
 
 ![img](image/shape.png?raw=png)
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -285,7 +285,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <oval xmlns:android="http://schemas.android.com/apk/res/android">
@@ -294,7 +294,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </oval>
 ```
 
-- \[x]
+- [x]
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -306,7 +306,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -320,51 +320,51 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q23. Pour conserver une petite collection de données clé-valeur, que devez-vous utiliser ?
 
-- \[ ] stockage de fichiers externes
-- \[x] SharedPereferences
-- \[ ] SQLite
-- \[ ] stockage de fichiers interne
+- [ ] stockage de fichiers externes
+- [x] SharedPereferences
+- [ ] SQLite
+- [ ] stockage de fichiers interne
 
 #### Q24. Vous devez récupérer une liste de photos à partir d’une API. Quel extrait de code définit une requête HTML GET dans Retrofit ?
 
-- \[ ] @GET(« photo/{id}"}
+- [ ] @GET(« photo/{id}"}
   fun listPhotos(@Path(« id ») id:Long?) : Appel<Photo>
-- \[ ] @LIST(« photo »)
+- [ ] @LIST(« photo »)
   fun listPhotos() : Call\<List<Photo>>
-- \[ ] @GET(« photo »)
+- [ ] @GET(« photo »)
   fun listPhotos() : Appel<Photo>
-- \[x] @GET(« photo »)
+- [x] @GET(« photo »)
   fun listPhotos() : Call\<List<Photo>>
 
 #### Q25. Compte tenu de la classe de test ci-dessous, quel extrait de code serait une assertion correcte ?
 
-- \[ ] assertThat(resultAdd).is(2.0)
-- \[x] assertNotNull(resultAdd)
-- \[ ] assertThat(resultAdd).isWqualTo(2.0)
-- \[ ] assertThat(resultAdd)
+- [ ] assertThat(resultAdd).is(2.0)
+- [x] assertNotNull(resultAdd)
+- [ ] assertThat(resultAdd).isWqualTo(2.0)
+- [ ] assertThat(resultAdd)
 
 #### Q26. Quelle balise devez-vous utiliser pour ajouter un composant d’affichage réutilisable à un fichier de mise en page ?
 
-- \[ ] `<merge/>`
-- \[x] `<include/>`
-- \[ ] `<layout/>`
-- \[ ] `<add/>`
+- [ ] `<merge/>`
+- [x] `<include/>`
+- [ ] `<layout/>`
+- [ ] `<add/>`
 
 #### Q27. Vous souhaitez fournir un dessin différent pour les appareils qui sont en mode paysage et dont la langue est définie sur Français. quel répertoire est nommé correctement ?
 
-- \[ ] fr-land-drawable
-- \[x] tirable-fr-land
-- \[ ] français-land traçable
-- \[ ] français-land-drawable
+- [ ] fr-land-drawable
+- [x] tirable-fr-land
+- [ ] français-land traçable
+- [ ] français-land-drawable
 
 #### Q28. Pourquoi devrez-vous inclure l’autorisation suivante dans votre application ?
 
 `android.permission.ACCESS_NETWORK_STATE`
 
-- \[ ] pour surveiller l’emplacement des périphériques afin de ne pas tenter de passer des appels réseau lorsque l’utilisateur est à l’arrêt
-- \[ ] pour demander la possibilité d’effectuer des appels réseau à partir de votre application
-- \[ ] pour surveiller l’état du réseau de l’appareil afin que vous puissiez afficher une bannière dans l’application à l’utilisateur
-- \[x] pour surveiller l’état du réseau des périphériques afin de ne pas tenter d’effectuer d’appels réseau lorsque le réseau n’est pas disponible
+- [ ] pour surveiller l’emplacement des périphériques afin de ne pas tenter de passer des appels réseau lorsque l’utilisateur est à l’arrêt
+- [ ] pour demander la possibilité d’effectuer des appels réseau à partir de votre application
+- [ ] pour surveiller l’état du réseau de l’appareil afin que vous puissiez afficher une bannière dans l’application à l’utilisateur
+- [x] pour surveiller l’état du réseau des périphériques afin de ne pas tenter d’effectuer d’appels réseau lorsque le réseau n’est pas disponible
 
 #### Q29. Quelle image correspond le mieux à ce qui suit `LinearLayout`?
 
@@ -385,13 +385,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </LinearLayout>
 ```
 
-- \[ ] A
+- [ ] A
   ![img](image/00.jpeg)
-- \[x] B
+- [x] B
   ![img](image/01.jpeg)
-- \[ ] C
+- [ ] C
   ![img](image/02.jpeg)
-- \[ ] D
+- [ ] D
   ![img](image/03.jpeg)
 
 #### Q30. Vous souhaitez ouvrir l’application Dialer par défaut sur un appareil. Qu’est-ce qui ne va pas avec ce code ?
@@ -404,21 +404,21 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   startActivity(dialerIntent)
 ```
 
-- \[x] `startActivityWithResult()` devrait être utilisé à la place de `startActivity()` lors de l’utilisation `Intent.ACTION_DIAL`.
-- \[ ] Pour `Intent.ACTION_DIAL`le `Intent` option `Intent.FLAG_ACTIVITY_NEW_TASK` doit être ajouté lors de l’utilisation de ce `dialerIntent`.
-- \[ ] Le `dialerIntent` entraînera la levée d’une exception ActivityNotFoundException sur les appareils qui ne prennent pas en charge `Intent.ACTION_DIAL`.
-- \[ ] L’autorisation `android.permission.CALL_PHONE` doit être demandé avant `Intent.ACTION_DIAL` peut être utilisé.
+- [x] `startActivityWithResult()` devrait être utilisé à la place de `startActivity()` lors de l’utilisation `Intent.ACTION_DIAL`.
+- [ ] Pour `Intent.ACTION_DIAL`le `Intent` option `Intent.FLAG_ACTIVITY_NEW_TASK` doit être ajouté lors de l’utilisation de ce `dialerIntent`.
+- [ ] Le `dialerIntent` entraînera la levée d’une exception ActivityNotFoundException sur les appareils qui ne prennent pas en charge `Intent.ACTION_DIAL`.
+- [ ] L’autorisation `android.permission.CALL_PHONE` doit être demandé avant `Intent.ACTION_DIAL` peut être utilisé.
 
 #### Q31. Quand devez-vous stocker des fichiers dans le `/assets` répertoire?
 
-- \[x] lorsque vous avez besoin d’accéder aux noms de fichiers et à la hiérarchie de fichiers d’origine [(Référence)](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
-- \[ ] lorsque vous avez besoin d’accéder au fichier avec son `resource ID`comme `R.assets.filename`
-- \[ ] lorsque vous avez des fichiers XML qui définissent des animations d’interpolation
-- \[ ] lorsque vous devez accéder au fichier sous sa forme brute en utilisant `Resources.openRawResource()`
+- [x] lorsque vous avez besoin d’accéder aux noms de fichiers et à la hiérarchie de fichiers d’origine [(Référence)](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
+- [ ] lorsque vous avez besoin d’accéder au fichier avec son `resource ID`comme `R.assets.filename`
+- [ ] lorsque vous avez des fichiers XML qui définissent des animations d’interpolation
+- [ ] lorsque vous devez accéder au fichier sous sa forme brute en utilisant `Resources.openRawResource()`
 
 #### Q32. Vous souhaitez autoriser les utilisateurs à prendre des photos dans votre application. Ce qui est _non_ un avantage de créer un `intent`, au lieu de demander directement l’autorisation de la caméra ?
 
-- \[ ] Les utilisateurs peuvent sélectionner leurs applications photo préférées pour prendre des photos.
+- [ ] Les utilisateurs peuvent sélectionner leurs applications photo préférées pour prendre des photos.
 - \[ ] Vous n’avez pas besoin de faire une demande d’autorisation dans votre application pour prendre une photo.
 - \[x] Vous avez un contrôle total sur l’expérience utilisateur. L’application qui gère l’appareil photo `intent` respectera vos choix de conception.
 - \[ ] Vous n’avez pas besoin de concevoir l’interface utilisateur. L’application qui gère l’appareil photo `intent` fournira l’interface utilisateur.

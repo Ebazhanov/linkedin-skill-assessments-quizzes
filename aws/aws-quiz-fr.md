@@ -33,72 +33,72 @@
 - [ ] Passerelle API
 - [x] toutes ces réponses
 - [ ] Service de file d’attente simple (SQS)
-- \[ ] Flux de données Kinesis
+- [ ] Flux de données Kinesis
 
 #### Q6. Vous disposez d’une grande quantité de fichiers sur votre baie de stockage rattachée au réseau qui doivent être archivés et conservés pendant une période de 10 ans en raison des réglementations du secteur. Ces données seront rarement consultées mais doivent être conservées Quel est le meilleur service AWS pour stocker ces données ?
 
-- \[ ] EFS
-- \[ ] Boule de neige
-- \[ ] OEBS
-- \[x] Glacier S3
+- [ ] EFS
+- [ ] Boule de neige
+- [ ] OEBS
+- [x] Glacier S3
 
 #### Q7. Pour votre compte racine AWS, vous avez généré un mot de passe aléatoire de la longueur maximale autorisée et inclus des caractères spéciaux. Quelles mesures supplémentaires devez-vous suivre pour sécuriser votre compte racine AWS ?
 
-- \[ ] Créez un rôle AM pour l’administrateur de compte disposant des privilèges les plus élevés. Ne stockez pas le mot de passe root, mais lorsque le compte root est nécessaire, réinitialisez le mot de passe sur le compte root via une confirmation par e-mail et répétez cette procédure.
-- \[ ] Stockez votre mot de passe généré aléatoirement dans votre base de données de secrets d’organisation à l’aide d’un service tel que 1Password ou LastPass, et n’accordez l’accès à ce secret qu’à l’équipe DevOps.
-- \[ ] Créez des comptes IAM pour vos administrateurs et attachez la stratégie AdministratorAccess à leurs comptes. Désactivez le compte racine dans les paramètres utilisateur.
-- \[x] Créez un rôle IAM pour l’administrateur de compte disposant des privilèges les plus élevés et n’utilisez pas le compte racine dans les opérations quotidiennes. Activer l’authentification à deux facteurs sur le compte racine
+- [ ] Créez un rôle AM pour l’administrateur de compte disposant des privilèges les plus élevés. Ne stockez pas le mot de passe root, mais lorsque le compte root est nécessaire, réinitialisez le mot de passe sur le compte root via une confirmation par e-mail et répétez cette procédure.
+- [ ] Stockez votre mot de passe généré aléatoirement dans votre base de données de secrets d’organisation à l’aide d’un service tel que 1Password ou LastPass, et n’accordez l’accès à ce secret qu’à l’équipe DevOps.
+- [ ] Créez des comptes IAM pour vos administrateurs et attachez la stratégie AdministratorAccess à leurs comptes. Désactivez le compte racine dans les paramètres utilisateur.
+- [x] Créez un rôle IAM pour l’administrateur de compte disposant des privilèges les plus élevés et n’utilisez pas le compte racine dans les opérations quotidiennes. Activer l’authentification à deux facteurs sur le compte racine
 
 #### Q8. Quelle option Elastic Load Balancing prend en charge Lambda en tant que cible ?
 
-- \[ ] Équilibreur de charge réseau
-- \[ ] Lambda ne peut pas être appelé directement par les requêtes Web entrantes. Vous devez utiliser API Gateway.
-- \[ ] Équilibreur de charge classique
-- \[x] Équilibreur de charge d’application
+- [ ] Équilibreur de charge réseau
+- [ ] Lambda ne peut pas être appelé directement par les requêtes Web entrantes. Vous devez utiliser API Gateway.
+- [ ] Équilibreur de charge classique
+- [x] Équilibreur de charge d’application
 
 #### Q9. Comment concevoir une solution pour la réplication d’une base de données SQL Server dans les régions AWS dans une architecture active-active ?
 
-- \[ ] Utilisez RDS pour SQL Server et créez la même instance dans deux régions différentes. Utilisez le service de migration de base de données pour synchroniser chaque base de données.
-- \[ ] Utilisez un appairage VPN ou VPC pour établir une connexion entre les VPC de chaque région. Installez SQL Server Enterprise Edition sur des instances EC2 dans chaque région et configurez un groupe de disponibilité Always On.
-- \[x] Utilisez RDS pour SQL Server 2016 ou 2017 Enterprise Edition. Activez la prise en charge multi-AZ et sélectionnez l’option Mise en miroir/Toujours activé. Sélectionnez une autre région pour l’option de mise en miroir.
-- \[ ] Vous ne pouvez pas configurer une architecture active-active pour SQL Server qui s’étend sur des régions géographiques.
+- [ ] Utilisez RDS pour SQL Server et créez la même instance dans deux régions différentes. Utilisez le service de migration de base de données pour synchroniser chaque base de données.
+- [ ] Utilisez un appairage VPN ou VPC pour établir une connexion entre les VPC de chaque région. Installez SQL Server Enterprise Edition sur des instances EC2 dans chaque région et configurez un groupe de disponibilité Always On.
+- [x] Utilisez RDS pour SQL Server 2016 ou 2017 Enterprise Edition. Activez la prise en charge multi-AZ et sélectionnez l’option Mise en miroir/Toujours activé. Sélectionnez une autre région pour l’option de mise en miroir.
+- [ ] Vous ne pouvez pas configurer une architecture active-active pour SQL Server qui s’étend sur des régions géographiques.
 
 [Référence](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html?opt_id=oeu1612780272452r0.9199525073583283)
 
 #### Q10. Combien coûte le lancement d’une instance EC2 à partir d’AWS Marketplace ?
 
-- \[ ] Toutes les images d’AWS Marketplace entraînent des frais horaires supplémentaires en plus des frais de la taille d’instance que vous sélectionnez.
-- \[ ] Vous ne pouvez lancer que des images créées par d’autres utilisateurs sur votre compte AWS, vous ne payez donc que pour la taille d’instance que vous sélectionnez et les coûts de stockage S3 pour l’image de base.
-- \[x] Chaque image a son propre prix qui peut être gratuit ou inclure des frais pour les coûts de licence logicielle. Vous paierez également pour l’instance sur laquelle l’image s’exécute
-- \[ ] Toutes les images d’AWS Marketplace contiennent uniquement des logiciels open source sans frais supplémentaires et sont créées par d’autres utilisateurs AWS. Vous ne paierez que pour la taille d’instance que vous sélectionnez.
+- [ ] Toutes les images d’AWS Marketplace entraînent des frais horaires supplémentaires en plus des frais de la taille d’instance que vous sélectionnez.
+- [ ] Vous ne pouvez lancer que des images créées par d’autres utilisateurs sur votre compte AWS, vous ne payez donc que pour la taille d’instance que vous sélectionnez et les coûts de stockage S3 pour l’image de base.
+- [x] Chaque image a son propre prix qui peut être gratuit ou inclure des frais pour les coûts de licence logicielle. Vous paierez également pour l’instance sur laquelle l’image s’exécute
+- [ ] Toutes les images d’AWS Marketplace contiennent uniquement des logiciels open source sans frais supplémentaires et sont créées par d’autres utilisateurs AWS. Vous ne paierez que pour la taille d’instance que vous sélectionnez.
 
 #### Q11. Lorsque vous utilisez un cluster ECS avec des instances EC2, quelles tâches de maintenance devez-vous effectuer sur les EC2 ?
 
-- \[ ] Les instances créées par ECS n’ont pas de correctifs qui doivent être appliqués ; toutefois, vous devez vous assurer que vos conteneurs contiennent des mises à jour de sécurité importantes.
-- \[x] Actualisez le cluster avec des instances créées à partir de la dernière AMI ECS.
-- \[ ] Les clusters ECS n’utilisent pas d’instances EC2.
-- \[ ] Vous ne devez pas manipuler directement les instances EC2 créées par ECS. AWS mettra automatiquement à jour ces instances.
+- [ ] Les instances créées par ECS n’ont pas de correctifs qui doivent être appliqués ; toutefois, vous devez vous assurer que vos conteneurs contiennent des mises à jour de sécurité importantes.
+- [x] Actualisez le cluster avec des instances créées à partir de la dernière AMI ECS.
+- [ ] Les clusters ECS n’utilisent pas d’instances EC2.
+- [ ] Vous ne devez pas manipuler directement les instances EC2 créées par ECS. AWS mettra automatiquement à jour ces instances.
 
 #### Q12. Quel serveur de mise en cache en mémoire n’est pas pris en charge par ElastiCache ?
 
-- \[ ] Redis 5
-- \[ ] Memcached
-- \[x] Elasticsearch
-- \[ ] Redis 3
+- [ ] Redis 5
+- [ ] Memcached
+- [x] Elasticsearch
+- [ ] Redis 3
 
 #### Q13. Quel service AWS peut être utilisé pour aider à générer la documentation requise par diverses normes de conformité, telles que la norme de sécurité des données de l’industrie des cartes de paiement (PCI DSS) niveau 1 pour le traitement des données de carte de crédit ?
 
-- \[x] Artéfact
-- \[ ] Base de données document
-- \[ ] Imprimez le résumé de conformité AWS et conservez-le avec la documentation requise pour un audit.
-- \[ ] Gestionnaire de secrets
+- [x] Artéfact
+- [ ] Base de données document
+- [ ] Imprimez le résumé de conformité AWS et conservez-le avec la documentation requise pour un audit.
+- [ ] Gestionnaire de secrets
 
 #### Q14. Lorsque vous utilisez AWS pour la recherche et le développement avant une migration planifiée, comment éviter des augmentations ou des pics inattendus dans la facturation ?
 
-- \[ ] Utilisez le tableau de bord de facturation pour créer un budget de coûts. Entrez le montant maximum que vous souhaitez facturer chaque mois. Tout frais dépassant ce montant entraînera la suspension automatique de ces ressources par AWS.
-- \[ ] À l’aide du compte AWS racine, activez l’accès IAM aux informations de facturation du compte. Assurez-vous que vos utilisateurs IAM disposent de la stratégie Billing FullAccessGroup. Ensuite, à partir du tableau de bord de facturation, vérifiez les frais accumulés une fois par jour.
-- \[ ] Si vous utilisez l’offre gratuite AWS, vous devrez confirmer l’utilisation de tout service qui dépasse les limites de l’offre gratuite AWS.
-- \[x] L’utilisation du compte AWS racine active les alertes de facturation dans les préférences de l’utilisateur. Utilisez ensuite CloudWatch pour créer une alarme de facturation et définir un seuil à un montant spécifique en dollars pour vos frais mensuels estimés.
+- [ ] Utilisez le tableau de bord de facturation pour créer un budget de coûts. Entrez le montant maximum que vous souhaitez facturer chaque mois. Tout frais dépassant ce montant entraînera la suspension automatique de ces ressources par AWS.
+- [ ] À l’aide du compte AWS racine, activez l’accès IAM aux informations de facturation du compte. Assurez-vous que vos utilisateurs IAM disposent de la stratégie Billing FullAccessGroup. Ensuite, à partir du tableau de bord de facturation, vérifiez les frais accumulés une fois par jour.
+- [ ] Si vous utilisez l’offre gratuite AWS, vous devrez confirmer l’utilisation de tout service qui dépasse les limites de l’offre gratuite AWS.
+- [x] L’utilisation du compte AWS racine active les alertes de facturation dans les préférences de l’utilisateur. Utilisez ensuite CloudWatch pour créer une alarme de facturation et définir un seuil à un montant spécifique en dollars pour vos frais mensuels estimés.
 
 #### Q15. Vous créez une table DynamoDB pour stocker tous les films sortis depuis 1938. Votre application permettra aux utilisateurs de rechercher par titre de film et de voir les détails de ce film. Compte tenu de l’exemple ci-dessous montrant les données vidéo que vous allez importer, quel est le meilleur ensemble de clés à appliquer à cette table ?
 
@@ -111,97 +111,97 @@
 }
 ```
 
-- \[ ] La clé primaire doit être une clé de partition du champ de titre.
-- \[ ] La clé primaire doit être le champ de titre et la clé de partition doit être le champ genres.
-- \[ ] La clé primaire doit être une clé composite composée d’une clé de partition dans le champ de titre et d’une clé de tri dans le champ d’année.
-- \[x] La clé primaire doit être créée comme une valeur complètement unique, telle qu’une liste numérique séquentielle d’ID de film. La clé de partition doit être un champ de titre pour une recherche rapide.
+- [ ] La clé primaire doit être une clé de partition du champ de titre.
+- [ ] La clé primaire doit être le champ de titre et la clé de partition doit être le champ genres.
+- [ ] La clé primaire doit être une clé composite composée d’une clé de partition dans le champ de titre et d’une clé de tri dans le champ d’année.
+- [x] La clé primaire doit être créée comme une valeur complètement unique, telle qu’une liste numérique séquentielle d’ID de film. La clé de partition doit être un champ de titre pour une recherche rapide.
 
 #### Q16. Quel magasin de données offre un moyen simple et rapide de stocker les attributs utilisateur de base dans un format basé sur un objet ?
 
-- \[ ] ORDS pour Oracle
-- \[ ] Décalage vers le rouge
-- \[ ] Neptune
-- \[x] DynamoDB
+- [ ] ORDS pour Oracle
+- [ ] Décalage vers le rouge
+- [ ] Neptune
+- [x] DynamoDB
 
 #### Q17. Vous avez besoin d’une base de données sans schéma. Quel service de base de données Amazon fournit cette solution ?
 
-- \[ ] ORDS
-- \[ ] Aurores boréales
-- \[ ] Décalage vers le rouge
-- \[x] DynamoDB
+- [ ] ORDS
+- [ ] Aurores boréales
+- [ ] Décalage vers le rouge
+- [x] DynamoDB
 
 #### Q18. Quel canal de communication SNS ne prend-il pas en charge en mode natif ?
 
-- \[ ] Message texte OSMS
-- \[ ] notification push
-- \[ ] courriel
-- \[x] appel téléphonique automatisé
+- [ ] Message texte OSMS
+- [ ] notification push
+- [ ] courriel
+- [x] appel téléphonique automatisé
 
 #### Q19. Lors de la conception d’une application Web sans serveur à l’aide de Lambda, quel concept clé devez-vous prendre en compte dans votre conception ?
 
-- \[ ] Les applications Web sans serveur s’exécutent dans le navigateur Web de l’utilisateur, vous devrez donc stocker toutes les données que l’utilisateur modifie directement dans une base de données.
-- \[ ] Lambda vous permet uniquement d’écrire des fonctions en JavaScript.
-- \[ ] Lambda n’utilise pas de serveurs, il ne peut donc renvoyer que la même requête à chaque utilisateur.
-- \[x] Lambda est sans état, il ne se souviendra donc pas qui est un utilisateur entre les demandes.
+- [ ] Les applications Web sans serveur s’exécutent dans le navigateur Web de l’utilisateur, vous devrez donc stocker toutes les données que l’utilisateur modifie directement dans une base de données.
+- [ ] Lambda vous permet uniquement d’écrire des fonctions en JavaScript.
+- [ ] Lambda n’utilise pas de serveurs, il ne peut donc renvoyer que la même requête à chaque utilisateur.
+- [x] Lambda est sans état, il ne se souviendra donc pas qui est un utilisateur entre les demandes.
 
 #### Q20. Un principe de DevOps est de considérer l’infrastructure comme du code. Quel service AWS vous permet de scripter votre infrastructure AWS ?
 
-- \[ ] CloudTrail
-- \[x] CloudFormation
-- \[ ] AWS Config
-- \[ ] Catalogue de services AWS
+- [ ] CloudTrail
+- [x] CloudFormation
+- [ ] AWS Config
+- [ ] Catalogue de services AWS
 
 #### Q21. Vous avez créé une instance Windows EC2 avec une adresse IP publique et installé SQL Server. Lorsque vous tentez de vous connecter à SQL Server à partir de SQL Server Enterprise Manager sur votre ordinateur local, l’instance Windows EC2 ne parvient pas à établir une connexion au serveur. Quelle est la première chose que vous devriez vérifier?
 
-- \[ ] Vérifiez les tables de routage pour le VPC.
-- \[x] Vérifiez que les groupes de sécurité affectés autorisent le trafic du port TCP 1433 à partir de votre adresse IP actuelle.
-- \[ ] Vérifiez les stratégies dans le Pare-feu Windows.
-- \[ ] Vérifiez que vous vous connectez à l’instance à l’aide d’un utilisateur qui n’est pas sa.
+- [ ] Vérifiez les tables de routage pour le VPC.
+- [x] Vérifiez que les groupes de sécurité affectés autorisent le trafic du port TCP 1433 à partir de votre adresse IP actuelle.
+- [ ] Vérifiez les stratégies dans le Pare-feu Windows.
+- [ ] Vérifiez que vous vous connectez à l’instance à l’aide d’un utilisateur qui n’est pas sa.
 
 #### Q22. Vous hébergez une application configurée pour diffuser du contenu multimédia vers ses clients sur les ports TCP 3380-3384, 3386-3388 et 3390. L’onglet Entrant ci-dessous affiche trois stratégies de groupe de sécurité entrantes attachées à cette instance. Quelle politique devriez-vous utiliser?
 
 ![image](images/001.png?raw=png)
 
-- \[x] La règle qui expose les ports TCP 3380-3390 exposerait également publiquement le port 3389 (RDP) à l’ensemble d’Internet. Écrivez des règles distinctes pour n’exposer que les ports nécessaires.
-- \[ ] La première règle de groupe de sécurité autorise tout le trafic dans cette instance. Exposer l’ensemble de votre instance à l’ensemble d’Internet laisse le serveur ouvert à diverses attaques des autres services s’exécutant sur différents numéros de port.
-- \[ ] Vérifiez que les propriétaires de compte AWS contrôlent réellement l’intégralité du bloc CIDR C pour 12.228.11.0-255 et qu’il s’agit d’adresses IP sécurisées pour l’accès RDP à cette instance.
-- \[ ] Il n’y a pas de recommandations à faire.
+- [x] La règle qui expose les ports TCP 3380-3390 exposerait également publiquement le port 3389 (RDP) à l’ensemble d’Internet. Écrivez des règles distinctes pour n’exposer que les ports nécessaires.
+- [ ] La première règle de groupe de sécurité autorise tout le trafic dans cette instance. Exposer l’ensemble de votre instance à l’ensemble d’Internet laisse le serveur ouvert à diverses attaques des autres services s’exécutant sur différents numéros de port.
+- [ ] Vérifiez que les propriétaires de compte AWS contrôlent réellement l’intégralité du bloc CIDR C pour 12.228.11.0-255 et qu’il s’agit d’adresses IP sécurisées pour l’accès RDP à cette instance.
+- [ ] Il n’y a pas de recommandations à faire.
 
 #### Q23. Vous disposez de quatre serveurs Web frontaux derrière un équilibreur de charge, qui utilisent NFS pour accéder à une autre instance EC2 qui redimensionne et stocke des images pour l’application frontale. Quelles stratégies de groupe de sécurité doivent être affectées à ces serveurs ?
 
-- \[ ] Attribuez des adresses IP Elastic à toutes les instances et créez un groupe qui permet à tout le trafic de passer entre chacune des cinq instances
+- [ ] Attribuez des adresses IP Elastic à toutes les instances et créez un groupe qui permet à tout le trafic de passer entre chacune des cinq instances
   Adresses IP Élastiques et autorisent tout le trafic HTTPS entrant.
-- \[x] Les serveurs Web frontaux doivent autoriser HTTPS. Affectez un autre groupe à toutes les instances qui permettent à tout le trafic de passer entre les instances utilisant ce groupe.
-- \[ ] Créez un groupe de sécurité qui autorise le trafic NFS, HTTP et HTTPS entrant à partir de toutes les adresses IP. Appliquez ce groupe à tous les serveurs.
-- \[ ] Créez un groupe de sécurité qui autorise le trafic HTTP et HTTPS entrant à partir de toutes les adresses IP et appliquez-le aux serveurs Web. Créez un deuxième groupe de sécurité pour le magasin de fichiers NFS qui autorise le trafic NFS sortant vers la plage d’adresses IP privée des serveurs Web frontaux.
+- [x] Les serveurs Web frontaux doivent autoriser HTTPS. Affectez un autre groupe à toutes les instances qui permettent à tout le trafic de passer entre les instances utilisant ce groupe.
+- [ ] Créez un groupe de sécurité qui autorise le trafic NFS, HTTP et HTTPS entrant à partir de toutes les adresses IP. Appliquez ce groupe à tous les serveurs.
+- [ ] Créez un groupe de sécurité qui autorise le trafic HTTP et HTTPS entrant à partir de toutes les adresses IP et appliquez-le aux serveurs Web. Créez un deuxième groupe de sécurité pour le magasin de fichiers NFS qui autorise le trafic NFS sortant vers la plage d’adresses IP privée des serveurs Web frontaux.
 
 #### Q24. Vous avez un serveur Web Linux EC2 qui expire soudainement sur toutes les requêtes HTTP et vos tentatives de connexion SSH expirent. Vous remarquez qu’il échoue la vérification de l’état du système dans la console EC2. Quelles mesures devriez-vous prendre?
 
-- \[x] Restaurez l’instance à partir de la dernière image AMI. Les vérifications de l’état du système indiquent que le système de fichiers de l’instance est endommagé.
-- \[ ] Arrêtez et démarrez l’instance. Cela déplacera l’instance vers un autre hôte.
-- \[ ] Contactez le support AWS. L’échec d’une vérification de l’état du système indique une défaillance du matériel sous-jacent et doit être résolu par un représentant AWS.
-- \[ ] Redémarrez l’instance. Cela arrêtera et démarrera l’instance et la déplacera vers un autre hôte.
+- [x] Restaurez l’instance à partir de la dernière image AMI. Les vérifications de l’état du système indiquent que le système de fichiers de l’instance est endommagé.
+- [ ] Arrêtez et démarrez l’instance. Cela déplacera l’instance vers un autre hôte.
+- [ ] Contactez le support AWS. L’échec d’une vérification de l’état du système indique une défaillance du matériel sous-jacent et doit être résolu par un représentant AWS.
+- [ ] Redémarrez l’instance. Cela arrêtera et démarrera l’instance et la déplacera vers un autre hôte.
 
 #### Q25. Vous disposez de plusieurs serveurs sur site et souhaitez stocker vos sauvegardes hors site sur AWS. Quel service de sauvegarde entièrement géré pouvez-vous utiliser pour expédier vos sauvegardes à AWS ?
 
-- \[ ] Windows Server 2016 prend en charge S3 comme cible lors de l’utilisation de réplicas de stockage.
-- \[x] Utilisez Storage Gateway.
-- \[ ] Synchronisez les fichiers directement avec S3 avec l’AWS CLI.
-- \[ ] Utilisez la console RDS pour forcer un redémarrage de l’instance de base de données afin que le serveur principal redevienne le serveur maître.
+- [ ] Windows Server 2016 prend en charge S3 comme cible lors de l’utilisation de réplicas de stockage.
+- [x] Utilisez Storage Gateway.
+- [ ] Synchronisez les fichiers directement avec S3 avec l’AWS CLI.
+- [ ] Utilisez la console RDS pour forcer un redémarrage de l’instance de base de données afin que le serveur principal redevienne le serveur maître.
 
 #### Q26. Quelle est la meilleure pratique pour créer une base de données PostgreSQL hautement disponible dans RDS qui peut supporter la perte d’une seule région AWS ?
 
-- \[ ] PostgreSQL ne peut pas être répliqué entre les régions. Restaurez les sauvegardes de base de données à partir d’un compartiment S3 et redirigez vos connexions de base de données vers la nouvelle instance.
-- \[ ] Créez des réplicas en lecture dans d’autres régions AWS. Vous pouvez désigner une nouvelle base de données master à partir de n’importe quel réplica en lecture jusqu’à ce que l’échec régional soit résolu.
-- \[ ] Vérifiez que votre instance est configurée pour la prise en charge multi-AZ. Les modifications apportées à la base de données seront automatiquement synchronisées avec une autre région en cas de défaillance et RDS sélectionnera automatiquement un nouveau maître jusqu’à ce que la défaillance régionale soit résolue.
-- \[x] Créez des réplicas en lecture dans d’autres régions AWS. Assurez-vous que les opérations de lecture sur la base de données se produisent sur un réplica en lecture disponible et envoyez des opérations d’écriture à une autre région si vous devez promouvoir un réplica en lecture en une base de données autonome si le maître est en panne.
+- [ ] PostgreSQL ne peut pas être répliqué entre les régions. Restaurez les sauvegardes de base de données à partir d’un compartiment S3 et redirigez vos connexions de base de données vers la nouvelle instance.
+- [ ] Créez des réplicas en lecture dans d’autres régions AWS. Vous pouvez désigner une nouvelle base de données master à partir de n’importe quel réplica en lecture jusqu’à ce que l’échec régional soit résolu.
+- [ ] Vérifiez que votre instance est configurée pour la prise en charge multi-AZ. Les modifications apportées à la base de données seront automatiquement synchronisées avec une autre région en cas de défaillance et RDS sélectionnera automatiquement un nouveau maître jusqu’à ce que la défaillance régionale soit résolue.
+- [x] Créez des réplicas en lecture dans d’autres régions AWS. Assurez-vous que les opérations de lecture sur la base de données se produisent sur un réplica en lecture disponible et envoyez des opérations d’écriture à une autre région si vous devez promouvoir un réplica en lecture en une base de données autonome si le maître est en panne.
 
 #### Q27. Vous avez créé une nouvelle instance Linux EC2 et installé PostgreSQL, mais vous ne pouvez pas établir de connexion au serveur à partir de votre ordinateur local. Quelles mesures prenez-vous pour résoudre ce problème ?
 
-- \[ ] Créez une règle de groupe de sécurité qui autorise tout le trafic à partir de 0.0.0.0/0. Cela permettra de vérifier si une autre règle refuse ou non le trafic.
-- \[x] Vérifiez que les groupes de sécurité affectés autorisent le trafic de votre adresse IP vers le port 5432. Vérifiez que PostgreSQL est configuré pour écouter le trafic externe et qu’il est lié à l’interface publique.
-- \[ ] Assurez-vous que vous utilisez une adresse IP Elastic et qu’elle est incluse dans le `postgresql.conf` fichier de configuration.
-- \[ ] Arrêtez et démarrez l’instance. Les nouvelles règles de groupe de sécurité ne prendront effet qu’après un redémarrage.
+- [ ] Créez une règle de groupe de sécurité qui autorise tout le trafic à partir de 0.0.0.0/0. Cela permettra de vérifier si une autre règle refuse ou non le trafic.
+- [x] Vérifiez que les groupes de sécurité affectés autorisent le trafic de votre adresse IP vers le port 5432. Vérifiez que PostgreSQL est configuré pour écouter le trafic externe et qu’il est lié à l’interface publique.
+- [ ] Assurez-vous que vous utilisez une adresse IP Elastic et qu’elle est incluse dans le `postgresql.conf` fichier de configuration.
+- [ ] Arrêtez et démarrez l’instance. Les nouvelles règles de groupe de sécurité ne prendront effet qu’après un redémarrage.
 
 #### Q28. Que fait le corps d’instruction de cette stratégie de compartiment S3 ?
 
@@ -219,31 +219,31 @@
 }
 ```
 
-- \[ ] bucketpolicy1 permet à tout utilisateur d’effectuer n’importe quelle action sur les objets du compartiment userreports, mais limite les objets aux autorisations en lecture seule pour toute personne provenant de 68.249.108.0 à 68.249.108.255 - sauf 68.249.108.128.
-- \[ ] bucketpolicy1 permet à tout utilisateur provenant de la plage IP 68.249.108.0 d’accéder aux objets du compartiment userreports et refuse l’accès à 68.249.108.128.
-- \[ ] bucketpolicy1 permet à tout utilisateur d’effectuer n’importe quelle action sur les objets du compartiment userreports - à l’exception de toute personne provenant de l’adresse IP de 68.249.108.128.
-- \[x] bucketpolicy1 permet à tout utilisateur provenant de la plage d’adresses IP de 68.249.108.0 à 68.249.108.255 d’accéder aux objets du compartiment userreports, à l’exception de toute personne provenant de l’adresse IP de 68.249.108.128.
+- [ ] bucketpolicy1 permet à tout utilisateur d’effectuer n’importe quelle action sur les objets du compartiment userreports, mais limite les objets aux autorisations en lecture seule pour toute personne provenant de 68.249.108.0 à 68.249.108.255 - sauf 68.249.108.128.
+- [ ] bucketpolicy1 permet à tout utilisateur provenant de la plage IP 68.249.108.0 d’accéder aux objets du compartiment userreports et refuse l’accès à 68.249.108.128.
+- [ ] bucketpolicy1 permet à tout utilisateur d’effectuer n’importe quelle action sur les objets du compartiment userreports - à l’exception de toute personne provenant de l’adresse IP de 68.249.108.128.
+- [x] bucketpolicy1 permet à tout utilisateur provenant de la plage d’adresses IP de 68.249.108.0 à 68.249.108.255 d’accéder aux objets du compartiment userreports, à l’exception de toute personne provenant de l’adresse IP de 68.249.108.128.
 
 #### Q29. Un nouveau développeur a été ajouté à l’équipe et vous avez été invité à fournir l’accès au compte AWS de l’organisation. Quelle est la meilleure pratique pour accorder l’accès ?
 
-- \[ ] Donnez au nouveau développeur la connexion IAM attribuée à l’équipe de développement. Cet utilisateur IAM doit déjà inclure toutes les stratégies dont un développeur aurait besoin.
-- \[ ] Créez un utilisateur IAM pour le nouveau développeur. Affectez manuellement des stratégies au nouveau compte d’utilisateur IAM.
-- \[ ] Ne donnez pas au nouveau développeur l’accès à la console AWS. À l’aide de l’utilisateur IAM affecté au groupe de développement, générez un nouvel ensemble de clés d’accès et étiquetez-les avec le nom du développeur.
-- \[x] Créez un utilisateur IAM pour le nouveau développeur. Affectez au nouveau développeur le groupe de développeurs que vous avez déjà créé pour les autres développeurs.
+- [ ] Donnez au nouveau développeur la connexion IAM attribuée à l’équipe de développement. Cet utilisateur IAM doit déjà inclure toutes les stratégies dont un développeur aurait besoin.
+- [ ] Créez un utilisateur IAM pour le nouveau développeur. Affectez manuellement des stratégies au nouveau compte d’utilisateur IAM.
+- [ ] Ne donnez pas au nouveau développeur l’accès à la console AWS. À l’aide de l’utilisateur IAM affecté au groupe de développement, générez un nouvel ensemble de clés d’accès et étiquetez-les avec le nom du développeur.
+- [x] Créez un utilisateur IAM pour le nouveau développeur. Affectez au nouveau développeur le groupe de développeurs que vous avez déjà créé pour les autres développeurs.
 
 #### Q30. Lors du lancement d’une instance EC2 avec un type d’instance prenant en charge le stockage d’instance, quel cas d’utilisation est le meilleur pour le stockage d’instance ?
 
-- \[x] Utilisez le stockage d’instance pour servir des fichiers temporaires nécessitant une faible latence d’E/S.
-- \[ ] Utilisez le stockage d’instance pour gérer les fichiers téléchargés par vos utilisateurs. Comme il est plus sécurisé qu’un volume EBS, vous pouvez isoler tous les fichiers malveillants de l’infection de votre serveur.
-- \[ ] Le stockage d’instance est plus rapide que les volumes EBS, installez donc la racine du système d’exploitation sur ce volume pour accélérer les performances du serveur.
-- \[ ] Le stockage d’instance est une option déconseillée pour le stockage et ne doit pas être utilisé.
+- [x] Utilisez le stockage d’instance pour servir des fichiers temporaires nécessitant une faible latence d’E/S.
+- [ ] Utilisez le stockage d’instance pour gérer les fichiers téléchargés par vos utilisateurs. Comme il est plus sécurisé qu’un volume EBS, vous pouvez isoler tous les fichiers malveillants de l’infection de votre serveur.
+- [ ] Le stockage d’instance est plus rapide que les volumes EBS, installez donc la racine du système d’exploitation sur ce volume pour accélérer les performances du serveur.
+- [ ] Le stockage d’instance est une option déconseillée pour le stockage et ne doit pas être utilisé.
 
 #### Q31. Quelle est la meilleure pratique pour la mise à l’échelle horizontale d’une application web ASP.NET héritée qui repose sur Active Directory et qui est actuellement déployée sur une seule instance Windows EC2 ?
 
-- \[x] Utilisez Sysprep pour arrêter l’instance pendant une fenêtre de maintenance. Créez une image AMI et placez les deux serveurs derrière Application Load Balancer avec des sessions collantes.
-- \[ ] Lancez un nouvel EC2 avec la dernière version de Windows Server et réinstallez l’application. Utilisez Application Load Balancer et les sessions collantes pour équilibrer les deux serveurs.
-- \[ ] Créez un clone du serveur à l’aide d’une image AMI et d’un équilibreur de charge d’application utilisateur pour équilibrer le trafic entre les deux instances à l’aide de sessions collantes.
-- \[ ] La mise à l’échelle horizontale n’est pas la meilleure pratique dans cette situation. Augmentez la taille de l’instance EC2 existante et mettez l’application à l’échelle verticalement.
+- [x] Utilisez Sysprep pour arrêter l’instance pendant une fenêtre de maintenance. Créez une image AMI et placez les deux serveurs derrière Application Load Balancer avec des sessions collantes.
+- [ ] Lancez un nouvel EC2 avec la dernière version de Windows Server et réinstallez l’application. Utilisez Application Load Balancer et les sessions collantes pour équilibrer les deux serveurs.
+- [ ] Créez un clone du serveur à l’aide d’une image AMI et d’un équilibreur de charge d’application utilisateur pour équilibrer le trafic entre les deux instances à l’aide de sessions collantes.
+- [ ] La mise à l’échelle horizontale n’est pas la meilleure pratique dans cette situation. Augmentez la taille de l’instance EC2 existante et mettez l’application à l’échelle verticalement.
 
 #### Q32. Que fait cette petite section d’un modèle CloudFormation ?
 
@@ -258,63 +258,63 @@ FlowLog:
     TrafficType: ALL
 ```
 
-- \[x] Il écrit les journaux de flux réseau VPC dans le groupe de journaux CloudWatch FlowLogsGroup. Vous pouvez l’utiliser pour inspecter les connexions réseau de votre VPC.
-- \[ ] Il enregistre tout le trafic réseau au sein d’un VPC, à l’exception des ID d’instance définis par LogVpcID, et le consigne dans le groupe de journaux CloudWatch FlowLogsGroup.
-- \[ ] Il enregistre tout le trafic réseau à destination et en provenance d’une seule instance EC2 dans le groupe de journaux CloudWatch FlowLogsGroup. Vous pouvez l’utiliser pour inspecter le trafic réseau suspect entrant dans une instance EC2.
-- \[ ] Il enregistre toutes les requêtes DNS effectuées par les ressources au sein d’un VPC et les enregistre dans CloudWatch FlowLogsGroup. Utilisez cette option pour diagnostiquer les erreurs de recherche DNS dans votre environnement.
+- [x] Il écrit les journaux de flux réseau VPC dans le groupe de journaux CloudWatch FlowLogsGroup. Vous pouvez l’utiliser pour inspecter les connexions réseau de votre VPC.
+- [ ] Il enregistre tout le trafic réseau au sein d’un VPC, à l’exception des ID d’instance définis par LogVpcID, et le consigne dans le groupe de journaux CloudWatch FlowLogsGroup.
+- [ ] Il enregistre tout le trafic réseau à destination et en provenance d’une seule instance EC2 dans le groupe de journaux CloudWatch FlowLogsGroup. Vous pouvez l’utiliser pour inspecter le trafic réseau suspect entrant dans une instance EC2.
+- [ ] Il enregistre toutes les requêtes DNS effectuées par les ressources au sein d’un VPC et les enregistre dans CloudWatch FlowLogsGroup. Utilisez cette option pour diagnostiquer les erreurs de recherche DNS dans votre environnement.
 
 #### Q33. Vous exécutez des conteneurs Docker sur ECS. Quelle est la mesure la plus importante à surveiller?
 
-- \[ ] Nombre de conteneurs en cours d’exécution pour chaque service à partir de CloudWatch.
-- \[ ] L’intégrité de l’instance de chaque instance EC2 de votre cluster à partir de CloudWatch.
-- \[ ] Surveillez le tableau de bord du service EC2. Surveillez les pannes affichées sur le service ECS.
-- \[x] Consommation de mémoire de chaque instance EC2 de votre cluster à partir de CloudWatch.
+- [ ] Nombre de conteneurs en cours d’exécution pour chaque service à partir de CloudWatch.
+- [ ] L’intégrité de l’instance de chaque instance EC2 de votre cluster à partir de CloudWatch.
+- [ ] Surveillez le tableau de bord du service EC2. Surveillez les pannes affichées sur le service ECS.
+- [x] Consommation de mémoire de chaque instance EC2 de votre cluster à partir de CloudWatch.
 
 #### Q34. Application Load Balancer peut acheminer le trafic vers plusieurs groupes cibles différents en fonction de plusieurs conditions. Lequel de ces cas d’utilisation n’est pas pris en charge par Application Load Balancer ?
 
-- \[ ] Une requête avec un en-tête HTTP de X-Requested-With: staging peut être acheminée vers un groupe cible pour un service ECS dans votre environnement intermédiaire.
-- \[ ] Les adresses IP source correspondant à 192.0.2.0/24 sur un port d’écoute de 1433 peuvent être acheminées vers un groupe cible pour un cluster RDS pour SQL Server.
-- \[ ] Un chemin d’accès de /signup\* peut être acheminé vers un groupe cible pour une fonction Lambda qui traite les inscriptions de nouveaux utilisateurs.
-- \[x] Une chaîne de requête HTTP POST de ? action=createuser peut être acheminé vers un groupe cible pour un service ECS.
+- [ ] Une requête avec un en-tête HTTP de X-Requested-With: staging peut être acheminée vers un groupe cible pour un service ECS dans votre environnement intermédiaire.
+- [ ] Les adresses IP source correspondant à 192.0.2.0/24 sur un port d’écoute de 1433 peuvent être acheminées vers un groupe cible pour un cluster RDS pour SQL Server.
+- [ ] Un chemin d’accès de /signup\* peut être acheminé vers un groupe cible pour une fonction Lambda qui traite les inscriptions de nouveaux utilisateurs.
+- [x] Une chaîne de requête HTTP POST de ? action=createuser peut être acheminé vers un groupe cible pour un service ECS.
 
 #### Q35. Que fait un VPC ?
 
-- \[x] crée un réseau basé sur le cloud pour interconnecter un ensemble de serveurs et d’appliances virtuels
-- \[ ] crée un tunnel sécurisé entre deux réseaux
-- \[ ] crée un plan de stockage partagé pour les données d’application à partager entre plusieurs instances.
-- \[ ] crée un réseau privé complètement isolé de l’Internet public.
+- [x] crée un réseau basé sur le cloud pour interconnecter un ensemble de serveurs et d’appliances virtuels
+- [ ] crée un tunnel sécurisé entre deux réseaux
+- [ ] crée un plan de stockage partagé pour les données d’application à partager entre plusieurs instances.
+- [ ] crée un réseau privé complètement isolé de l’Internet public.
 
 #### Q36. Pouvez-vous perdre l’adresse IP publique associée à votre instance EC2 ?
 
-- \[ ] Oui, vous pouvez le perdre si vous redémarrez l’instance.
-- \[x] Oui, vous pouvez le perdre si vous arrêtez et démarrez l’instance.
-- \[ ] Non, vous ne perdrez jamais l’adresse IP publique de votre instance.
-- \[ ] Oui, vous pouvez le perdre lorsque vous modifiez les propriétés de l’instance et libérez l’adresse IP.
+- [ ] Oui, vous pouvez le perdre si vous redémarrez l’instance.
+- [x] Oui, vous pouvez le perdre si vous arrêtez et démarrez l’instance.
+- [ ] Non, vous ne perdrez jamais l’adresse IP publique de votre instance.
+- [ ] Oui, vous pouvez le perdre lorsque vous modifiez les propriétés de l’instance et libérez l’adresse IP.
 
 #### Q37. Quel est le meilleur emplacement pour stocker les sauvegardes de base de données sur une instance EC2 configurée en tant que serveur de base de données ?
 
-- \[x] un compartiment S3, synchronisé avec les sauvegardes de base de données via un script qui appelle l’AWS CLI
-- \[ ] Volume EBS attaché à l’instance
-- \[ ] instance attachée à l’instance
-- \[ ] stockage d’instance, avec un script qui réplique les sauvegardes de base de données vers une autre instance dans une zone de disponibilité différente.
+- [x] un compartiment S3, synchronisé avec les sauvegardes de base de données via un script qui appelle l’AWS CLI
+- [ ] Volume EBS attaché à l’instance
+- [ ] instance attachée à l’instance
+- [ ] stockage d’instance, avec un script qui réplique les sauvegardes de base de données vers une autre instance dans une zone de disponibilité différente.
 
 #### Q38. Laquelle d’entre elles est une restriction valide sur les propriétés d’un VPC ?
 
-- \[ ] Vous ne pouvez avoir que 10 passerelles Internet par région sur un nouveau compte AWS.
-- \[ ] Vous ne pouvez avoir que 10 VPC par région sur un nouveau compte AWS
-- \[x] Vous ne pouvez pas créer un bloc CIDR avec un masque de réseau supérieur à /16
-- \[ ] Vous ne pouvez avoir que 10 sous-réseaux dans un VPC
+- [ ] Vous ne pouvez avoir que 10 passerelles Internet par région sur un nouveau compte AWS.
+- [ ] Vous ne pouvez avoir que 10 VPC par région sur un nouveau compte AWS
+- [x] Vous ne pouvez pas créer un bloc CIDR avec un masque de réseau supérieur à /16
+- [ ] Vous ne pouvez avoir que 10 sous-réseaux dans un VPC
 
 #### Q39. Vous avez une instance Linux EC2 qui ne répond pas aux demandes et vous ne pouvez pas vous y connecter via SSH. À l’aide de la console EC2, vous avez émis une commande pour arrêter l’instance, mais depuis 10 minutes, l’instance est à l’état « arrêt ». Quelle est la prochaine étape que vous devriez prendre?
 
-- \[x] Émettez une autre action d’arrêt via la console EC2 et choisissez l’option permettant d’arrêter de force l’instance.
-- \[ ] Créez une image AMI de l’instance et choisissez l’option permettant de prendre l’image sans redémarrer l’instance.
-- \[ ] Modifiez les propriétés de l’instance et augmentez la taille de l’instance.
-- \[ ] Contactez le support AWS. Toute autre action pourrait corrompre le système de fichiers.
+- [x] Émettez une autre action d’arrêt via la console EC2 et choisissez l’option permettant d’arrêter de force l’instance.
+- [ ] Créez une image AMI de l’instance et choisissez l’option permettant de prendre l’image sans redémarrer l’instance.
+- [ ] Modifiez les propriétés de l’instance et augmentez la taille de l’instance.
+- [ ] Contactez le support AWS. Toute autre action pourrait corrompre le système de fichiers.
 
 #### Q40. Vous disposez de 14 serveurs Web sur site, de 4 serveurs de base de données, de 6 serveurs utilisant un logiciel SIG, de 3 serveurs de fichiers et de 4 serveurs de développement. Quelles considérations devez-vous prendre en compte lors de la migration de ces serveurs vers AWS ?
 
-- \[ ] AWS n’a pas de moyen de séparer la facturation des coûts de calcul, vous devrez donc concevoir un moyen de répartir le budget entre les services.
+- [ ] AWS n’a pas de moyen de séparer la facturation des coûts de calcul, vous devrez donc concevoir un moyen de répartir le budget entre les services.
 - \[x] Les nouveaux comptes AWS sont limités à 20 instances EC2 à la demande. Envoyez une demande d’augmentation de vos limites de débit avant de commencer une migration.
 
 #### Q41. Au fur et à mesure que votre application Web se développe et que vos besoins de surveillance des applications deviennent plus complexes, quel service supplémentaire de surveillance des journaux ne devriez-vous PAS envisager ?
