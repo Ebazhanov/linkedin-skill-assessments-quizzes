@@ -543,37 +543,37 @@ FlowLog:
 - [ ] Todo el tráfico en todos los puertos se está denegando en esta instancia, lo que sobrescribe la regla HTTP y la hace redundante.
 - [x] La instancia se lanzó con el grupo de seguridad predeterminado, pero no hay forma de que un administrador entre SSH en la instancia.
   Agregue otra regla que permita el acceso SSH desde un origen seguro, como una sola IP o un rango de direcciones IP administradas.
-- \[ ] No hay nada de malo en esta regla de grupo de seguridad. Suponiendo que sg-269afc5e se aplica a otros recursos que son correctamente
+- [ ] No hay nada de malo en esta regla de grupo de seguridad. Suponiendo que sg-269afc5e se aplica a otros recursos que son correctamente
   protegido, esta regla permite que pase todo el tráfico que también está asignado al grupo de seguridad sg-269afc5e.
-- \[ ] Todo el tráfico en todos los puertos está permitido en esta instancia. Esto expone la instancia a todo el tráfico público de Internet y
+- [ ] Todo el tráfico en todos los puertos está permitido en esta instancia. Esto expone la instancia a todo el tráfico público de Internet y
   sobrescribe la regla HTTP entrante.
 
 #### Pregunta 66. Tiene una VPC que tiene una subred pública y privada. Hay una puerta de enlace NAT en la subred pública que permite a las instancias de la subred privada acceder a Internet sin tener exposición pública fuera de la VPC. ¿Cuáles deben ser las tablas de enrutamiento para la subred privada?
 
 ![image](images/003.png?raw=png)
 
-- \[x] A
+- [x] A
 
 <!---->
 
     Destination 1: 10.0.0.0/16, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -582,45 +582,45 @@ FlowLog:
 
 #### Pregunta 67. Para cumplir con los requisitos de auditoría de algunos estándares de conformidad, ¿qué herramienta de AWS se puede habilitar para mantener un registro de auditoría del acceso y los cambios en su infraestructura de AWS?
 
-- \[x] CloudTrail
-- \[ ] CloudWatch
-- \[ ] Herramienta de auditoría y conformidad de AWS
-- \[ ] GuardDuty
+- [x] CloudTrail
+- [ ] CloudWatch
+- [ ] Herramienta de auditoría y conformidad de AWS
+- [ ] GuardDuty
 
 #### Pregunta 68. Tiene una aplicación que genera informes de larga duración, los almacena en un bucket de S3 y, a continuación, envía un correo electrónico al usuario que solicitó el informe con un vínculo para descargarlo. ¿Cuál es la práctica recomendada para almacenar los datos del informe en S3?
 
-- \[ ] Cree un bucket público de S3. Cuando la aplicación cree el objeto de informe en S3, genere dos long generados aleatoriamente
+- [ ] Cree un bucket público de S3. Cuando la aplicación cree el objeto de informe en S3, genere dos long generados aleatoriamente
   nombres de carpeta y coloque el archivo dentro de la subcarpeta más profunda. Establezca la política de retención en el objeto en una hora y envíe este enlace por correo electrónico a
   el usuario. El enlace estará activo durante una hora.
-- \[ ] Cree un bucket público de S3. Utilice un hash de la dirección de correo electrónico del usuario y la fecha y hora en que se solicitó el informe para generar un
+- [ ] Cree un bucket público de S3. Utilice un hash de la dirección de correo electrónico del usuario y la fecha y hora en que se solicitó el informe para generar un
   nombre único del objeto. Envíe este vínculo por correo electrónico al usuario y haga que se ejecute una tarea programada dentro de la aplicación para quitar objetos que son más antiguos
   que siete días.
-- \[x] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
+- [x] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
   sesión u obligar al usuario a iniciar sesión. Después de comprobar que el usuario tiene derechos para acceder a este archivo, haga que la aplicación recupere el objeto
   desde S3 y devolverlo en la respuesta HTTP. Elimine el archivo del bucket de S3 una vez completada la solicitud.
-- \[ ] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
+- [ ] Cree un bucket de S3 privado. El enlace en el correo electrónico debe llevar al usuario a su aplicación, donde puede verificar el usuario activo
   sesión u obligar al usuario a iniciar sesión. Establezca el objeto de informe en S3 en public. Mostrar al usuario un botón "Descargar" en el navegador que enlaza
   al objeto público.
 
 #### Pregunta 69. Al enviar un gran volumen de correo electrónico a través de SES, ¿cuál es el conjunto de métricas más importante para monitorear?
 
-- \[x] sus quejas y tasas de rebote
-- \[ ] se abre y hace clic en
-- \[ ] clics y entregas
-- \[ ] volumen de envío en los últimos 15 minutos y durante un día para observar los picos de facturación
+- [x] sus quejas y tasas de rebote
+- [ ] se abre y hace clic en
+- [ ] clics y entregas
+- [ ] volumen de envío en los últimos 15 minutos y durante un día para observar los picos de facturación
 
 #### Pregunta 70. Va a alojar una aplicación que utiliza una base de datos MySQL. ¿Qué base de datos debe seleccionar si no desea administrar las tareas de escalado o administración de bases de datos?
 
-- \[ ] Inicie una imagen AMI desde el mercado que contenga un servidor MySQL preconfigurado.
-- \[x] Aurora
-- \[ ] RDS para MySQL
-- \[ ] Corrimiento al rojo
+- [ ] Inicie una imagen AMI desde el mercado que contenga un servidor MySQL preconfigurado.
+- [x] Aurora
+- [ ] RDS para MySQL
+- [ ] Corrimiento al rojo
 
 #### P71. Un formulario en una aplicación web está enviando datos de registro a "http://example.com/signup/new?source=web" y estos datos deben ser manejados por un servicio ECS detrás de Application Load Balancer (ALB). ¿Qué regla ALB enrutará esta solicitud?
 
 ![image](images/004.png?raw=png)
 
-- \[ ] A
+- [ ] A
 
 <!---->
 
@@ -630,7 +630,7 @@ FlowLog:
     Then
         Forward to ecs-cluse-service <there is a typo - yes!
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
@@ -640,15 +640,15 @@ FlowLog:
     Then
         Forward to ecs-cluse-service
 
-- \[ ] C ... Uno más con POST
-- \[x] D ... Solo uno con Get
+- [ ] C ... Uno más con POST
+- [x] D ... Solo uno con Get
 
 #### P72. ¿Qué servicio de AWS puede alojar el servidor de aplicaciones web para un sitio de WordPress?
 
-- \[ ] S3
-- \[x] Elastic BeanStalk
-- \[ ] ElasticCache
-- \[ ] CloudFront
+- [ ] S3
+- [x] Elastic BeanStalk
+- [ ] ElasticCache
+- [ ] CloudFront
 
 #### Pregunta 73. ¿Qué hace la siguiente AWS CLI? `create-service` comando para ECS do?
 
@@ -661,65 +661,65 @@ FlowLog:
      --network-configuration \
      "awsvpcConfiguration={subnets=[subnet-0b29129ab],securityGroups=[sg-0b29129ab]}"
 
-- \[ ] cambia los grupos de seguridad de la ejecución **rest-api** tarea
-- \[ ] crea un clúster llamado **producción** y lanza dos contenedores a Fargate con el **rest-api** definición de tareas
-- \[x] lanza dos contenedores en Fargate en el existente **producción** clúster mediante el **rest-api** definición de tareas
-- \[ ] crea una definición de servicio para el **rest-api** tarea; Coloque dos contenedores en el clúster de producción cuando se inicie **ecs-cli** comando up
+- [ ] cambia los grupos de seguridad de la ejecución **rest-api** tarea
+- [ ] crea un clúster llamado **producción** y lanza dos contenedores a Fargate con el **rest-api** definición de tareas
+- [x] lanza dos contenedores en Fargate en el existente **producción** clúster mediante el **rest-api** definición de tareas
+- [ ] crea una definición de servicio para el **rest-api** tarea; Coloque dos contenedores en el clúster de producción cuando se inicie **ecs-cli** comando up
 
 #### Pregunta 74. Desea que su API pública sea rápidamente accesible desde todas las regiones. ¿Cuál es la mejor manera de hacerlo?
 
-- \[ ] Cree un único extremo de puerta de enlace de API en una región central.
-- \[ ] Cree un punto de enlace de puerta de enlace de API privada para cada región.
-- \[ ] Cree un punto de enlace de puerta de enlace de API regional para cada región.
-- \[x] Cree puntos de enlace de puerta de enlace de API optimizados para el borde e impleméntelos en una red de CloudFront.
+- [ ] Cree un único extremo de puerta de enlace de API en una región central.
+- [ ] Cree un punto de enlace de puerta de enlace de API privada para cada región.
+- [ ] Cree un punto de enlace de puerta de enlace de API regional para cada región.
+- [x] Cree puntos de enlace de puerta de enlace de API optimizados para el borde e impleméntelos en una red de CloudFront.
 
 #### Pregunta 75. ¿Qué tipo de solución de datos debe utilizar para los datos procedentes de datos no relacionales y relacionales de dispositivos IoT, sitios web, aplicaciones móviles, etc.?
 
-- \[ ] Amazon DynamoDB
-- \[x] Formación de AWS Lake
-- \[ ] Amazon Redshift
-- \[ ] Aurora amazónica
+- [ ] Amazon DynamoDB
+- [x] Formación de AWS Lake
+- [ ] Amazon Redshift
+- [ ] Aurora amazónica
 
 #### Pregunta 76. Tiene un conjunto de análisis que produce informes sobre los patrones de uso de la aplicación web. Después de completar la migración a AWS y utilizar Application Load Balancer para equilibrar la carga en toda la aplicación web, el departamento de marketing observó que los informes basados en la ubicación del tráfico web solo muestran el tráfico que se origina en una única ubicación. ¿Cuál es el problema?
 
-- \[ ] Utilice un equilibrador de carga clásico, no un equilibrador de carga de aplicaciones.
-- \[x] Application Load Balancer no conserva la dirección IP de origen original. El software de análisis debe configurarse para mirar el encabezado de solicitud HTTP 'X-Forwarded-For' para la dirección IP de origen correcta.
-- \[ ] Application Load Balencer debe configurarse para conservar la dirección IP de origen del tráfico que está reenviando. Cree una política que habilite la compatibilidad con ProxyProtocol y adjúntela al ALB mediante la AWS CLI.
-- \[ ] Configure las instancias EC2 del servidor web para que solo tengan direcciones IP privadas. Las direcciones IP públicas de las instancias se registran en los registros del servidor web, solo al ALB de errores debe tener una interfaz pública y enrutará el tráfico a las instancias a través de la interfaz privada.
+- [ ] Utilice un equilibrador de carga clásico, no un equilibrador de carga de aplicaciones.
+- [x] Application Load Balancer no conserva la dirección IP de origen original. El software de análisis debe configurarse para mirar el encabezado de solicitud HTTP 'X-Forwarded-For' para la dirección IP de origen correcta.
+- [ ] Application Load Balencer debe configurarse para conservar la dirección IP de origen del tráfico que está reenviando. Cree una política que habilite la compatibilidad con ProxyProtocol y adjúntela al ALB mediante la AWS CLI.
+- [ ] Configure las instancias EC2 del servidor web para que solo tengan direcciones IP privadas. Las direcciones IP públicas de las instancias se registran en los registros del servidor web, solo al ALB de errores debe tener una interfaz pública y enrutará el tráfico a las instancias a través de la interfaz privada.
 
 #### Pregunta 77. Qué es `not` un usuario predeterminado de una instancia común de Linux lanzada desde una AMI?
 
-- \[ ] ubuntu
-- \[x] usuario del sistema
-- \[ ] ec2-usuario
-- \[ ] admin
+- [ ] ubuntu
+- [x] usuario del sistema
+- [ ] ec2-usuario
+- [ ] admin
 
 [Referencia](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html)
 
 #### Pregunta 78. Ha replicado la infraestructura que sirve a la API de back-end para su aplicación web en todas las regiones para servir mejor a sus clientes en los EE. UU. y la UE. ¿Cuál es la mejor manera de dirigir su aplicación web al centro de datos más cercano?
 
-- \[x] Utilice Route 53 con búsquedas de geolocalización para dirigir el tráfico entre las dos regiones.
-- \[ ] Cree una regla de redirección WAF que redirija el tráfico en el centro de datos de la UE si la IP de origen proviene de ciertos países.
-- \[ ] Compre una extensión de dominio de país y dirija a sus usuarios al sitio correcto, como example.com y example.co
-- \[ ] Haga que su aplicación front-end pruebe la latencia entre cada centro de datos y use el centro de datos que responde más rápido.
+- [x] Utilice Route 53 con búsquedas de geolocalización para dirigir el tráfico entre las dos regiones.
+- [ ] Cree una regla de redirección WAF que redirija el tráfico en el centro de datos de la UE si la IP de origen proviene de ciertos países.
+- [ ] Compre una extensión de dominio de país y dirija a sus usuarios al sitio correcto, como example.com y example.co
+- [ ] Haga que su aplicación front-end pruebe la latencia entre cada centro de datos y use el centro de datos que responde más rápido.
 
 [Referencia](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
 
 #### Pregunta 79. Recientemente ha lanzado su nuevo producto web y espera 1,000 nuevos usuarios cada mes. Sin embargo, acaba de recibir la noticia del CEO de que su producto se presentará en una próxima conferencia cubierta por varios medios de comunicación, y esto podría llevar a 20,000 nuevos usuarios durante la próxima semana. ¿Cómo planea un aumento repentino en el tráfico?
 
-- \[ ] Replique su infraestructura en dos regiones. Endurecerá la aplicación a un fallo regional y duplicará su capacidad.
-- \[ ] Tome una imagen AMI de un servidor front-end para guardar la configuración y, a continuación, agregue más servidores al cluster pror a la conferencia. Quite los servidores del clúster después del pico de la conferencia.
-- \[ ] Prueba para determinar su rendimiento y cuántos usuarios puede admitir. Desarrolle un plan de escalado para su front-end, microservicios y base de datos basado en métricas de CloudWatch que se alineen con los cuellos de botella probados.
-- \[x] Utilice grupos de Auto Scaling para crear más servidores front-end cuando las métricas de CloudWatch para el uso de CPU en una sola instancia superen el 80 % durante cinco minutos.
+- [ ] Replique su infraestructura en dos regiones. Endurecerá la aplicación a un fallo regional y duplicará su capacidad.
+- [ ] Tome una imagen AMI de un servidor front-end para guardar la configuración y, a continuación, agregue más servidores al cluster pror a la conferencia. Quite los servidores del clúster después del pico de la conferencia.
+- [ ] Prueba para determinar su rendimiento y cuántos usuarios puede admitir. Desarrolle un plan de escalado para su front-end, microservicios y base de datos basado en métricas de CloudWatch que se alineen con los cuellos de botella probados.
+- [x] Utilice grupos de Auto Scaling para crear más servidores front-end cuando las métricas de CloudWatch para el uso de CPU en una sola instancia superen el 80 % durante cinco minutos.
 
 [Referencia](https://aws.amazon.com/ec2/autoscaling/)
 
 #### Pregunta 80. ¿Cómo se conecta a través de SSH a una instancia EC2 de Linux con un volumen de EBS si perdió su par de claves?
 
-- \[ ] Detenga la instancia y cree una imagen AMI. Inicie la imagen con un nuevo par de claves.
-- \[ ] Póngase en contacto con el soporte técnico de AWS. Un especialista de soporte puede restaurar de forma remota el acceso a su instancia y enviarle un nuevo par de claves.
-- \[ ] No puede conectarse a esta instancia EC2. El par de claves se muestra solo una vez. Si lo pierde, habrá perdido todo el acceso a esta instancia. Conecte el volumen de EBS a otra instancia para recuperar los archivos.
-- \[x] Adjunte el volumen de EBS a una instancia temporal lanzada con un nuevo par de claves y sobrescriba ~/.ssh/authorized_keys utilizando el mismo archivo de la nueva instancia.
+- [ ] Detenga la instancia y cree una imagen AMI. Inicie la imagen con un nuevo par de claves.
+- [ ] Póngase en contacto con el soporte técnico de AWS. Un especialista de soporte puede restaurar de forma remota el acceso a su instancia y enviarle un nuevo par de claves.
+- [ ] No puede conectarse a esta instancia EC2. El par de claves se muestra solo una vez. Si lo pierde, habrá perdido todo el acceso a esta instancia. Conecte el volumen de EBS a otra instancia para recuperar los archivos.
+- [x] Adjunte el volumen de EBS a una instancia temporal lanzada con un nuevo par de claves y sobrescriba ~/.ssh/authorized_keys utilizando el mismo archivo de la nueva instancia.
 
 [Referencia](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
@@ -727,48 +727,48 @@ FlowLog:
 
 ![image](images/Q80.png?raw=png)
 
-- \[ ] Establezca una conexión entre sus dos centros de datos y conecte el segundo centro de datos al primero a través de un túnel privado. El tráfico fluirá desde el segundo centro de datos y luego a través de los primeros datos, y luego a AWS.
-- \[ ] Cree una segunda puerta de enlace de cliente y configure su cliente VPN en su segundo centro de datos para conectarse a la puerta de enlace privada virtual.
-- \[x] Cree una segunda puerta de enlace privada virtual (VPG) y conéctela a la VPC. Cree una puerta de enlace de cliente para la nueva puerta de enlace privada virtual y use su cliente VPN en su segundo centro de datos para establecer una conexión con el VPG.
-- \[ ] No puede tener más de una puerta de enlace de cliente por VPC, por lo que la solución propuesta no funcionará. Cree una segunda VPC con una puerta de enlace privada virtual y una puerta de enlace de cliente. Conecte las dos VPC mediante el emparejamiento de VPC.
+- [ ] Establezca una conexión entre sus dos centros de datos y conecte el segundo centro de datos al primero a través de un túnel privado. El tráfico fluirá desde el segundo centro de datos y luego a través de los primeros datos, y luego a AWS.
+- [ ] Cree una segunda puerta de enlace de cliente y configure su cliente VPN en su segundo centro de datos para conectarse a la puerta de enlace privada virtual.
+- [x] Cree una segunda puerta de enlace privada virtual (VPG) y conéctela a la VPC. Cree una puerta de enlace de cliente para la nueva puerta de enlace privada virtual y use su cliente VPN en su segundo centro de datos para establecer una conexión con el VPG.
+- [ ] No puede tener más de una puerta de enlace de cliente por VPC, por lo que la solución propuesta no funcionará. Cree una segunda VPC con una puerta de enlace privada virtual y una puerta de enlace de cliente. Conecte las dos VPC mediante el emparejamiento de VPC.
 
 #### P82. Está migrando una base de datos de 200 GB de un servidor SQL Server local a RDS para SQL Server. La base de datos debe tener un tiempo de inactividad mínimo durante la migración. ¿Cuál es la práctica recomendada para migrar esta base de datos?
 
-- \[ ] Cierre todas las conexiones existentes a la base de datos de SQL Server y use el Servicio de migración de bases de datos para transferir los datos a RDS.
-- \[x] Utilice el Servicio de migración de bases de datos para replicar la base de datos en RDS y mantenerla sincronizada durante la migración. Reoriente las aplicaciones para que usen el nuevo extremo de RDS.
-- \[ ] Separe la base de datos de SQL Server durante la migración. Realice una copia de seguridad de la base de datos y utilice SQ con transferencia acelerada para cargar las copias de seguridad en S3. Restaure las copias de seguridad en la instancia de RDS.
-- \[ ] Utilice el Asistente para importación y exportación del Administrador corporativo de SQL Server para crear una tarea de exportación y exportar las tablas a la instancia de RDS.
+- [ ] Cierre todas las conexiones existentes a la base de datos de SQL Server y use el Servicio de migración de bases de datos para transferir los datos a RDS.
+- [x] Utilice el Servicio de migración de bases de datos para replicar la base de datos en RDS y mantenerla sincronizada durante la migración. Reoriente las aplicaciones para que usen el nuevo extremo de RDS.
+- [ ] Separe la base de datos de SQL Server durante la migración. Realice una copia de seguridad de la base de datos y utilice SQ con transferencia acelerada para cargar las copias de seguridad en S3. Restaure las copias de seguridad en la instancia de RDS.
+- [ ] Utilice el Asistente para importación y exportación del Administrador corporativo de SQL Server para crear una tarea de exportación y exportar las tablas a la instancia de RDS.
 
 [Referencia](https://aws.amazon.com/dms/)
 
 #### Pregunta 83. Ha habilitado la autenticación multifactor (MFA) para su cuenta raíz de AWS y ha perdido su dispositivo MFA. ¿Qué necesita hacer para recuperar el acceso a su cuenta?
 
-- \[ ] No puede recuperar el acceso a su cuenta raíz de AWS. Póngase en contacto con el soporte técnico de AWS.
-- \[x] Se enviará un correo electrónico a la dirección de correo electrónico registrada para verificar la propiedad de la cuenta. A continuación, deberá proporcionar el número de teléfono en la cuenta.
-- \[ ] Se enviará un correo electrónico a la dirección de correo electrónico registrada. Después de hacer clic en el enlace de su correo electrónico, proporcione uno de los códigos de recuperación de MFA que se crearon cuando MFA estaba habilitado.
-- \[ ] Utilice la AWS CLI con el token de acceso a la cuenta raíz para deshabilitar MFA en la cuenta raíz. A continuación, utilice la CLI para establecer una nueva contraseña en la cuenta raíz.
+- [ ] No puede recuperar el acceso a su cuenta raíz de AWS. Póngase en contacto con el soporte técnico de AWS.
+- [x] Se enviará un correo electrónico a la dirección de correo electrónico registrada para verificar la propiedad de la cuenta. A continuación, deberá proporcionar el número de teléfono en la cuenta.
+- [ ] Se enviará un correo electrónico a la dirección de correo electrónico registrada. Después de hacer clic en el enlace de su correo electrónico, proporcione uno de los códigos de recuperación de MFA que se crearon cuando MFA estaba habilitado.
+- [ ] Utilice la AWS CLI con el token de acceso a la cuenta raíz para deshabilitar MFA en la cuenta raíz. A continuación, utilice la CLI para establecer una nueva contraseña en la cuenta raíz.
 
 [Referencia](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
 
 #### Pregunta 84. ¿Cómo se asigna una IP elástica a varias instancias EC2?
 
-- \[ ] En el panel de la VPC, haga clic en Elastic IPs. Seleccione la IP elástica y haga clic en Asociar dirección. Seleccione cada instancia EC2 a la que desee asignar esta dirección.
-- \[ ] En el panel de EC2, haga clic en Instancia EC2. En Acciones, seleccione > Administrar direcciones IP. haga clic para agregar una nueva dirección IP y escriba la dirección de la IP elástica. Repita el proceso para cada instancia EC2 a la que desee asignar esta IP elástica.
-- \[ ] Utilice la AWS CLI y pase varias opciones '--instance-id' al comando aws ec2 assosiate-address.
-- \[x] No se puede asignar una IP elástica a varias instancias EC2. Solo se puede asociar a una sola instancia EC2.
+- [ ] En el panel de la VPC, haga clic en Elastic IPs. Seleccione la IP elástica y haga clic en Asociar dirección. Seleccione cada instancia EC2 a la que desee asignar esta dirección.
+- [ ] En el panel de EC2, haga clic en Instancia EC2. En Acciones, seleccione > Administrar direcciones IP. haga clic para agregar una nueva dirección IP y escriba la dirección de la IP elástica. Repita el proceso para cada instancia EC2 a la que desee asignar esta IP elástica.
+- [ ] Utilice la AWS CLI y pase varias opciones '--instance-id' al comando aws ec2 assosiate-address.
+- [x] No se puede asignar una IP elástica a varias instancias EC2. Solo se puede asociar a una sola instancia EC2.
 
 [Referencia](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
 
 #### Pregunta 85. Ha creado una VPC que tiene una subred pública y una subred privada. Se colocó un servidor web en la subred pública y un servidor de base de datos en la subred privada. El servidor web puede conectarse al servidor de base de datos; sin embargo, el servidor de base de datos en 10.0.1.2 no puede obtener actualizaciones de software. ¿Cuál es la causa de este problema?
 
-- \[x] No hay una puerta de enlace NAT para la subred privada, por lo que el servidor de base de datos no tiene rutas que le den acceso público a Internet para descargar actualizaciones de software.
-- \[ ] Al servidor de base de datos se le debe asignar una dirección pública del grupo o asignar una IP elástica similar a la instancia 10.0.0.2.
-- \[ ] El router no está configurado correctamente en la VPC. Agregue una tabla de ruta a ruta para la VPC que enruta todo el tráfico de 0.0.0.0/0 al ID de la puerta de enlace de Internet.
-- \[ ] No hay ninguna puerta de enlace de Internet de salida conectada a la subred privada de la VPC.
+- [x] No hay una puerta de enlace NAT para la subred privada, por lo que el servidor de base de datos no tiene rutas que le den acceso público a Internet para descargar actualizaciones de software.
+- [ ] Al servidor de base de datos se le debe asignar una dirección pública del grupo o asignar una IP elástica similar a la instancia 10.0.0.2.
+- [ ] El router no está configurado correctamente en la VPC. Agregue una tabla de ruta a ruta para la VPC que enruta todo el tráfico de 0.0.0.0/0 al ID de la puerta de enlace de Internet.
+- [ ] No hay ninguna puerta de enlace de Internet de salida conectada a la subred privada de la VPC.
 
 #### Pregunta 86. ¿Beneficio de usar S3 Glacier?
 
-- \[ ] tiempo de acceso
-- \[ ] almacenar por pequeña duración
-- \[x] costo
-- \[ ] interregional
+- [ ] tiempo de acceso
+- [ ] almacenar por pequeña duración
+- [x] costo
+- [ ] interregional

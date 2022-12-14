@@ -487,41 +487,41 @@ FlowLog:
 
 #### D61. Stai migrando un cluster RabbitMQ on-premise in AWS. Quale percorso di migrazione scegliere per facilitare sia la manutenzione che la distribuzione?
 
-- \[ ] Riscrivere le parti dell'applicazione che utilizzano RabbitMQ per utilizzare SQS.
-- \[ ] Avvia un cluster RabbitMQ con istanze EC2 utilizzando un'AMI supportata.
-- \[ ] Riscrivere le parti dell'applicazione che utilizzano RabbitMQ per utilizzare Kinesis.
-- \[x] Riscrivi le parti della tua applicazione che utilizzano RabbitMQ per utilizzare Amazon MQ.
+- [ ] Riscrivere le parti dell'applicazione che utilizzano RabbitMQ per utilizzare SQS.
+- [ ] Avvia un cluster RabbitMQ con istanze EC2 utilizzando un'AMI supportata.
+- [ ] Riscrivere le parti dell'applicazione che utilizzano RabbitMQ per utilizzare Kinesis.
+- [x] Riscrivi le parti della tua applicazione che utilizzano RabbitMQ per utilizzare Amazon MQ.
 
 #### D62. Quando si crea una nuova istanza RDS, a cosa serve l'opzione Multi-AZ?
 
-- \[ ] replica i backup del database su S3 e li rende disponibili in tutte le regioni per prevenire qualsiasi perdita di dati
-- \[x] crea una seconda istanza di database passiva all'interno della stessa area che diventerà il database primario durante un failover
-- \[ ] crea un cluster di database a disponibilità elevata che ospiterà il cluster di database in almeno due aree
-- \[ ] crea un'altra istanza di database in un'altra area e mantiene attivo un hot standby per il failover durante gli errori regionali
+- [ ] replica i backup del database su S3 e li rende disponibili in tutte le regioni per prevenire qualsiasi perdita di dati
+- [x] crea una seconda istanza di database passiva all'interno della stessa area che diventerà il database primario durante un failover
+- [ ] crea un cluster di database a disponibilità elevata che ospiterà il cluster di database in almeno due aree
+- [ ] crea un'altra istanza di database in un'altra area e mantiene attivo un hot standby per il failover durante gli errori regionali
 
 #### D63. Qual è la migliore classe di istanza EC2 per un server che ha continuamente un carico di CPU elevato?
 
-- \[x] C5
-- \[ ] T2
-- \[ ] R5
-- \[ ] H1
+- [x] C5
+- [ ] T2
+- [ ] R5
+- [ ] H1
 
 #### D64. Il sistema di gestione delle prestazioni delle applicazioni (APM) è in grado di leggere lo stato dei monitor CloudWatch ed eseguire azioni tramite script. Quando il parametro StatusCheckFailed di CloudWatch entra in uno stato non riuscito (valore 1), si desidera che l'APM ripristini automaticamente l'istanza. Quale script usi?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 stop-instances --instance-ids i-0b263919b6498b123
     aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -529,7 +529,7 @@ FlowLog:
     wait 30
     aws ec2 start-instance --instance-ids i-0b263919b6498b123
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -540,40 +540,40 @@ FlowLog:
 
 ![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
-- \[ ] Tutto il traffico su tutte le porte viene negato in questa istanza, che sovrascrive la regola HTTP e la rende ridondante.
-- \[x] L'istanza è stata avviata con il gruppo di sicurezza predefinito, ma non è possibile per un amministratore accedere a SSH nell'istanza.
+- [ ] Tutto il traffico su tutte le porte viene negato in questa istanza, che sovrascrive la regola HTTP e la rende ridondante.
+- [x] L'istanza è stata avviata con il gruppo di sicurezza predefinito, ma non è possibile per un amministratore accedere a SSH nell'istanza.
   Aggiungere un'altra regola che consenta l'accesso SSH da un'origine protetta, ad esempio un singolo IP o un intervallo di indirizzi IP gestiti.
-- \[ ] Non c'è niente di sbagliato in questa regola del gruppo di sicurezza. Supponendo che sg-269afc5e sia applicato ad altre risorse che sono correttamente
+- [ ] Non c'è niente di sbagliato in questa regola del gruppo di sicurezza. Supponendo che sg-269afc5e sia applicato ad altre risorse che sono correttamente
   protetto, questa regola consente a tutto il traffico di passare attraverso il quale è anche assegnato il gruppo di sicurezza sg-269afc5e.
-- \[ ] Tutto il traffico su tutte le porte è consentito in questa istanza. In questo modo l'istanza viene esposta a tutto il traffico Internet pubblico e
+- [ ] Tutto il traffico su tutte le porte è consentito in questa istanza. In questo modo l'istanza viene esposta a tutto il traffico Internet pubblico e
   sovrascrive la regola HTTP in ingresso.
 
 #### D66. Hai un VPC che ha una sottorete pubblica e privata. Nella subnet pubblica è presente un gateway NAT che consente alle istanze della sottorete privata di accedere a Internet senza avere un'esposizione pubblica al di fuori del VPC. Quali devono essere le tabelle di routing per la subnet privata?
 
 ![image](images/003.png?raw=png)
 
-- \[x] A
+- [x] A
 
 <!---->
 
     Destination 1: 10.0.0.0/16, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -582,45 +582,45 @@ FlowLog:
 
 #### D67. Per soddisfare i requisiti di auditing di alcuni standard di conformità, quale strumento AWS può essere abilitato per mantenere un log di controllo dell'accesso e delle modifiche all'infrastruttura AWS?
 
-- \[x] CloudTrail
-- \[ ] CloudWatch
-- \[ ] Strumento di audit e conformità AWS
-- \[ ] GuardDuty
+- [x] CloudTrail
+- [ ] CloudWatch
+- [ ] Strumento di audit e conformità AWS
+- [ ] GuardDuty
 
 #### D68. Si dispone di un'applicazione che genera report a esecuzione prolungata, li archivia in un bucket S3 e quindi invia un'e-mail all'utente che ha richiesto il report con un collegamento per scaricarlo. Qual è la procedura consigliata per l'archiviazione dei dati del report in S3?
 
-- \[ ] Creare un bucket S3 pubblico. Quando l'applicazione crea l'oggetto report in S3, generare due lunghi generati in modo casuale
+- [ ] Creare un bucket S3 pubblico. Quando l'applicazione crea l'oggetto report in S3, generare due lunghi generati in modo casuale
   nomi di cartelle e posizionare il file all'interno della sottocartella più profonda. Impostare il criterio di conservazione sull'oggetto su un'ora e inviare questo collegamento tramite posta elettronica a
   l'utente. Il link sarà attivo per un'ora.
-- \[ ] Creare un bucket S3 pubblico. Utilizzare un hash dell'indirizzo e-mail dell'utente e la data e l'ora in cui è stato richiesto il report per generare un
+- [ ] Creare un bucket S3 pubblico. Utilizzare un hash dell'indirizzo e-mail dell'utente e la data e l'ora in cui è stato richiesto il report per generare un
   nome oggetto univoco. Inviare questo collegamento tramite posta elettronica all'utente e fare in modo che un'attività pianificata venga eseguita all'interno dell'applicazione per rimuovere gli oggetti meno recenti
   di sette giorni.
-- \[x] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
+- [x] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
   o forzare l'utente ad accedere. Dopo aver verificato che l'utente disponga dei diritti di accesso a questo file, chiedere all'applicazione di recuperare l'oggetto
   da S3 e restituirlo nella risposta HTTP. Eliminare il file dal bucket S3 al termine della richiesta.
-- \[ ] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
+- [ ] Creare un bucket S3 privato. Il collegamento nell'e-mail dovrebbe portare l'utente all'applicazione, dove è possibile verificare l'utente attivo
   o forzare l'utente ad accedere. Impostare l'oggetto report in S3 su public. Mostra all'utente un pulsante "Download" nel browser che collega
   all'oggetto pubblico.
 
 #### D69. Quando si invia un grande volume di e-mail tramite SES, qual è l'insieme più importante di metriche da monitorare?
 
-- \[x] il tuo reclamo e le frequenze di rimbalzo
-- \[ ] si apre e fa clic
-- \[ ] clic e consegne
-- \[ ] invio del volume negli ultimi 15 minuti e nell'arco di un giorno per tenere d'occhio i picchi di fatturazione
+- [x] il tuo reclamo e le frequenze di rimbalzo
+- [ ] si apre e fa clic
+- [ ] clic e consegne
+- [ ] invio del volume negli ultimi 15 minuti e nell'arco di un giorno per tenere d'occhio i picchi di fatturazione
 
 #### D70. Stai per ospitare un'applicazione che utilizza un database MySQL. Quale database selezionare se non si desidera gestire le attività di ridimensionamento o di amministrazione del database?
 
-- \[ ] Avviare un'immagine AMI dal marketplace contenente un server MySQL preconfigurato.
-- \[x] Aurora
-- \[ ] RDS per MySQL
-- \[ ] Redshift
+- [ ] Avviare un'immagine AMI dal marketplace contenente un server MySQL preconfigurato.
+- [x] Aurora
+- [ ] RDS per MySQL
+- [ ] Redshift
 
 #### D71. Un modulo nell'applicazione Web invia i dati di iscrizione a "http://example.com/signup/new?source=web" e questi dati devono essere gestiti da un servizio ECS dietro Application Load Balancer (ALB). Quale regola ALB indirizzerà questa richiesta?
 
 ![image](images/004.png?raw=png)
 
-- \[ ] A
+- [ ] A
 
 <!---->
 
@@ -630,7 +630,7 @@ FlowLog:
     Then
         Forward to ecs-cluse-service <there is a typo - yes!
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
@@ -640,15 +640,15 @@ FlowLog:
     Then
         Forward to ecs-cluse-service
 
-- \[ ] C ... Un altro con POST
-- \[x] D ... Solo uno con Get
+- [ ] C ... Un altro con POST
+- [x] D ... Solo uno con Get
 
 #### D72. Quale servizio AWS può ospitare il server delle applicazioni Web per un sito WordPress?
 
-- \[ ] S3
-- \[x] Gambo elastico dei fagioli
-- \[ ] ElasticCache
-- \[ ] CloudFront
+- [ ] S3
+- [x] Gambo elastico dei fagioli
+- [ ] ElasticCache
+- [ ] CloudFront
 
 #### D73. Cosa fa la seguente interfaccia a riga di comando AWS `create-service` comando per ECS fare?
 
@@ -661,65 +661,65 @@ FlowLog:
      --network-configuration \
      "awsvpcConfiguration={subnets=[subnet-0b29129ab],securityGroups=[sg-0b29129ab]}"
 
-- \[ ] modifica i gruppi di sicurezza del running **rest-api** compito
-- \[ ] crea un cluster chiamato **produzione** e lancia due container in Fargate con il **rest-api** definizione delle attività
-- \[x] lancia due container su Fargate nell'esistente **produzione** utilizzando il cluster **rest-api** definizione delle attività
-- \[ ] crea una definizione di servizio per il **rest-api** compito; inserire due contenitori nel cluster di produzione all'avvio **ecs-cli** su, comando
+- [ ] modifica i gruppi di sicurezza del running **rest-api** compito
+- [ ] crea un cluster chiamato **produzione** e lancia due container in Fargate con il **rest-api** definizione delle attività
+- [x] lancia due container su Fargate nell'esistente **produzione** utilizzando il cluster **rest-api** definizione delle attività
+- [ ] crea una definizione di servizio per il **rest-api** compito; inserire due contenitori nel cluster di produzione all'avvio **ecs-cli** su, comando
 
 #### D74. Vuoi rendere la tua API pubblica rapidamente accessibile da tutte le regioni. Qual è il modo migliore per farlo?
 
-- \[ ] Creare un singolo endpoint gateway API in un'area centrale.
-- \[ ] Creare un endpoint gateway API privato per ogni regione.
-- \[ ] Creare un endpoint gateway API regionale per ogni area.
-- \[x] Crea endpoint gateway API ottimizzati per i bordi e distribuiscili in una rete CloudFront.
+- [ ] Creare un singolo endpoint gateway API in un'area centrale.
+- [ ] Creare un endpoint gateway API privato per ogni regione.
+- [ ] Creare un endpoint gateway API regionale per ogni area.
+- [x] Crea endpoint gateway API ottimizzati per i bordi e distribuiscili in una rete CloudFront.
 
 #### D75. Che tipo di soluzione di dati è consigliabile utilizzare per i dati provenienti da dati non relazionali e relazionali provenienti da dispositivi IoT, siti Web, app mobili, ecc.?
 
-- \[ ] Amazon DynamoDB
-- \[x] Formazione di AWS Lake
-- \[ ] Amazon Redshift
-- \[ ] Amazon Aurora
+- [ ] Amazon DynamoDB
+- [x] Formazione di AWS Lake
+- [ ] Amazon Redshift
+- [ ] Amazon Aurora
 
 #### D76. Si dispone di una suite di analisi che produce report sui modelli di utilizzo dell'applicazione Web. Dopo aver completato la migrazione ad AWS e aver utilizzato Application Load Balancer per bilanciare il carico nell'applicazione Web, il reparto marketing ha notato che i report basati sulla posizione sul traffico Web mostrano solo il traffico proveniente da una singola posizione. Qual è il problema?
 
-- \[ ] Utilizzare un servizio di bilanciamento del carico classico, non Application Load Balancer.
-- \[x] Application Load Balancer non conserva l'indirizzo IP di origine originale. Il software di analisi deve essere configurato per esaminare l'intestazione della richiesta HTTP "X-Forwarded-For" per l'indirizzo IP di origine corretto.
-- \[ ] Application Load Balencer deve essere configurato per mantenere l'indirizzo IP di origine del traffico che sta inoltrando. Crea una policy che abiliti il supporto proxyProtocol e collegala all'ALB utilizzando l'interfaccia a riga di comando di AWS.
-- \[ ] Configurare le istanze EC2 del server Web in modo che dispongano solo di indirizzi IP privati. Gli indirizzi IP pubblici delle istanze vengono registrati nei registri del server Web, solo ALB bug dovrebbe avere un'interfaccia pubblica e indirizzerà il traffico alle istanze tramite l'interfaccia privata.
+- [ ] Utilizzare un servizio di bilanciamento del carico classico, non Application Load Balancer.
+- [x] Application Load Balancer non conserva l'indirizzo IP di origine originale. Il software di analisi deve essere configurato per esaminare l'intestazione della richiesta HTTP "X-Forwarded-For" per l'indirizzo IP di origine corretto.
+- [ ] Application Load Balencer deve essere configurato per mantenere l'indirizzo IP di origine del traffico che sta inoltrando. Crea una policy che abiliti il supporto proxyProtocol e collegala all'ALB utilizzando l'interfaccia a riga di comando di AWS.
+- [ ] Configurare le istanze EC2 del server Web in modo che dispongano solo di indirizzi IP privati. Gli indirizzi IP pubblici delle istanze vengono registrati nei registri del server Web, solo ALB bug dovrebbe avere un'interfaccia pubblica e indirizzerà il traffico alle istanze tramite l'interfaccia privata.
 
 #### D77. Cos'è `not` un utente predefinito di un'istanza Linux comune avviata da un'AMI?
 
-- \[ ] ubuntu
-- \[x] sistema-utente
-- \[ ] ec2-utente
-- \[ ] admin
+- [ ] ubuntu
+- [x] sistema-utente
+- [ ] ec2-utente
+- [ ] admin
 
 [Riferimento](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html)
 
 #### D78. Hai replicato l'infrastruttura che serve l'API back-end per la tua applicazione Web in tutte le regioni per servire meglio i tuoi clienti negli Stati Uniti e nell'UE. Qual è il modo migliore per indirizzare la tua applicazione web al data center più vicino?
 
-- \[x] Utilizza la Route 53 con ricerche di geolocalizzazione per indirizzare il traffico tra le due regioni.
-- \[ ] Creare una regola di reindirizzamento WAF che reindirizza il traffico al data center dell'UE se l'IP di origine proviene da determinati paesi.
-- \[ ] Acquista un'estensione di dominio nazionale e indirizza i tuoi utenti al sito corretto, ad esempio example.com e example.co
-- \[ ] Chiedi all'applicazione front-end di testare la latenza tra ogni data center e di utilizzare il data center che risponde più velocemente.
+- [x] Utilizza la Route 53 con ricerche di geolocalizzazione per indirizzare il traffico tra le due regioni.
+- [ ] Creare una regola di reindirizzamento WAF che reindirizza il traffico al data center dell'UE se l'IP di origine proviene da determinati paesi.
+- [ ] Acquista un'estensione di dominio nazionale e indirizza i tuoi utenti al sito corretto, ad esempio example.com e example.co
+- [ ] Chiedi all'applicazione front-end di testare la latenza tra ogni data center e di utilizzare il data center che risponde più velocemente.
 
 [Riferimento](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
 
 #### D79. Hai recentemente lanciato il tuo nuovo prodotto web e ti aspetti 1.000 nuovi utenti ogni mese. Tuttavia, hai appena ricevuto la notizia dal CEO che il tuo prodotto sarà presentato in una prossima conferenza coperta da diversi media, e questo potrebbe portare a 20.000 nuovi utenti nel corso della prossima settimana. Come si pianifica un improvviso aumento del traffico?
 
-- \[ ] Replica la tua infrastruttura in due regioni. L'applicazione verrà rafforzata a un errore regionale e raddoppierà la capacità.
-- \[ ] Acquisire un'immagine AMI di un server front-end per salvare la configurazione e quindi aggiungere altri server al cluster pror alla conferenza. Rimuovere i server dal cluster dopo il picco dalla conferenza.
-- \[ ] Test per determinare la velocità effettiva e il numero di utenti che è possibile supportare. Sviluppa un piano di scalabilità per front-end, microservizi e database basato su parametri CloudWatch in linea con i colli di bottiglia testati.
-- \[x] Utilizza i gruppi Auto Scaling per creare più server front-end quando i parametri di CloudWatch per l'utilizzo della CPU su una singola istanza superano l'80% per cinque minuti.
+- [ ] Replica la tua infrastruttura in due regioni. L'applicazione verrà rafforzata a un errore regionale e raddoppierà la capacità.
+- [ ] Acquisire un'immagine AMI di un server front-end per salvare la configurazione e quindi aggiungere altri server al cluster pror alla conferenza. Rimuovere i server dal cluster dopo il picco dalla conferenza.
+- [ ] Test per determinare la velocità effettiva e il numero di utenti che è possibile supportare. Sviluppa un piano di scalabilità per front-end, microservizi e database basato su parametri CloudWatch in linea con i colli di bottiglia testati.
+- [x] Utilizza i gruppi Auto Scaling per creare più server front-end quando i parametri di CloudWatch per l'utilizzo della CPU su una singola istanza superano l'80% per cinque minuti.
 
 [Riferimento](https://aws.amazon.com/ec2/autoscaling/)
 
 #### D80. Come ci si connette tramite SSH a un'istanza Linux EC2 con un volume EBS se si perde la coppia di chiavi?
 
-- \[ ] Arrestare l'istanza e creare un'immagine AMI. Avviare l'immagine utilizzando una nuova coppia di chiavi.
-- \[ ] Contatta il supporto AWS. Uno specialista del supporto può ripristinare in remoto l'accesso all'istanza e inviarti una nuova coppia di chiavi.
-- \[ ] Non è possibile connettersi a questa istanza EC2. La coppia di chiavi viene visualizzata una sola volta. Se lo perdi, hai perso tutto l'accesso a questa istanza. Collegare il volume EBS a un'altra istanza per ripristinare i file.
-- \[x] Collegare il volume EBS a un'istanza temporanea avviata con una nuova coppia di chiavi e sovrascrivere ~/.ssh/authorized_keys utilizzando lo stesso file della nuova istanza.
+- [ ] Arrestare l'istanza e creare un'immagine AMI. Avviare l'immagine utilizzando una nuova coppia di chiavi.
+- [ ] Contatta il supporto AWS. Uno specialista del supporto può ripristinare in remoto l'accesso all'istanza e inviarti una nuova coppia di chiavi.
+- [ ] Non è possibile connettersi a questa istanza EC2. La coppia di chiavi viene visualizzata una sola volta. Se lo perdi, hai perso tutto l'accesso a questa istanza. Collegare il volume EBS a un'altra istanza per ripristinare i file.
+- [x] Collegare il volume EBS a un'istanza temporanea avviata con una nuova coppia di chiavi e sovrascrivere ~/.ssh/authorized_keys utilizzando lo stesso file della nuova istanza.
 
 [Riferimento](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
@@ -727,48 +727,48 @@ FlowLog:
 
 ![image](images/Q80.png?raw=png)
 
-- \[ ] Stabilire una connessione tra i due data center e collegare il secondo data center al primo attraverso un tunnel privato. Il traffico fluirà dal secondo data center e poi attraverso i primi dati e poi in AWS.
-- \[ ] Creare un secondo gateway cliente e configurare il client VPN nel secondo data center per la connessione al gateway privato virtuale.
-- \[x] Creare un secondo gateway privato virtuale (VPG) e collegarlo al VPC. Crea un gateway cliente per il nuovo gateway privato virtuale e utilizza il tuo client VPN nel tuo secondo data center per stabilire una connessione al VPG.
-- \[ ] Non è possibile avere più di un gateway cliente per VPC, quindi la soluzione proposta non funzionerà. Crea un secondo VPC con un gateway privato virtuale e un gateway cliente. Collega i due VPC utilizzando il peering VPC.
+- [ ] Stabilire una connessione tra i due data center e collegare il secondo data center al primo attraverso un tunnel privato. Il traffico fluirà dal secondo data center e poi attraverso i primi dati e poi in AWS.
+- [ ] Creare un secondo gateway cliente e configurare il client VPN nel secondo data center per la connessione al gateway privato virtuale.
+- [x] Creare un secondo gateway privato virtuale (VPG) e collegarlo al VPC. Crea un gateway cliente per il nuovo gateway privato virtuale e utilizza il tuo client VPN nel tuo secondo data center per stabilire una connessione al VPG.
+- [ ] Non è possibile avere più di un gateway cliente per VPC, quindi la soluzione proposta non funzionerà. Crea un secondo VPC con un gateway privato virtuale e un gateway cliente. Collega i due VPC utilizzando il peering VPC.
 
 #### D82. Si sta eseguendo la migrazione di un database da 200 GB da un SQL Server locale a RDS per SQL Server. Il database deve avere tempi di inattività minimi durante la migrazione. Qual è la procedura consigliata per la migrazione di questo database?
 
-- \[ ] Chiudere tutte le connessioni esistenti al database di SQL Server e utilizzare Il servizio Migrazione database per trasferire i dati a Servizi Desktop remoto.
-- \[x] Utilizzare Il servizio migrazione database per replicare il database in Servizi Desktop remoto e mantenerlo sincronizzato durante la migrazione. Eseguire nuovamente il repoint delle applicazioni per l'utilizzo del nuovo endpoint RDS.
-- \[ ] Scollegare il database di SQL Server durante la migrazione. Esegui un backup del database e utilizza SQ con Accelerated Transfer per caricare i backup su S3. Ripristinare i backup nell'istanza RDS.
-- \[ ] Utilizzare l'Importazione/Esportazione guidata in SQL Server Enterprise Manager per creare un'attività di esportazione ed esportare le tabelle nell'istanza RDS.
+- [ ] Chiudere tutte le connessioni esistenti al database di SQL Server e utilizzare Il servizio Migrazione database per trasferire i dati a Servizi Desktop remoto.
+- [x] Utilizzare Il servizio migrazione database per replicare il database in Servizi Desktop remoto e mantenerlo sincronizzato durante la migrazione. Eseguire nuovamente il repoint delle applicazioni per l'utilizzo del nuovo endpoint RDS.
+- [ ] Scollegare il database di SQL Server durante la migrazione. Esegui un backup del database e utilizza SQ con Accelerated Transfer per caricare i backup su S3. Ripristinare i backup nell'istanza RDS.
+- [ ] Utilizzare l'Importazione/Esportazione guidata in SQL Server Enterprise Manager per creare un'attività di esportazione ed esportare le tabelle nell'istanza RDS.
 
 [Riferimento](https://aws.amazon.com/dms/)
 
 #### D83. Hai abilitato l'autenticazione a più fattori (MFA) per il tuo account root AWS e hai perso il tuo dispositivo MFA. Cosa devi fare per recuperare l'accesso al tuo account?
 
-- \[ ] Non è possibile ripristinare l'accesso al tuo account root AWS. Contatta il supporto AWS.
-- \[x] Verrà inviata un'e-mail all'indirizzo e-mail in archivio per verificare la proprietà dell'account. Dovrai quindi fornire il numero di telefono sull'account.
-- \[ ] Verrà inviata un'e-mail all'indirizzo e-mail registrato. Dopo aver fatto clic sul collegamento nell'e-mail, fornire uno dei codici di recupero MFA creati quando MFA è stato abilitato.
-- \[ ] Utilizza l'interfaccia a riga di comando di AWS con il token di accesso all'account root per disabilitare MFA sull'account root. Quindi utilizzare l'interfaccia della riga di comando per impostare una nuova password sull'account root.
+- [ ] Non è possibile ripristinare l'accesso al tuo account root AWS. Contatta il supporto AWS.
+- [x] Verrà inviata un'e-mail all'indirizzo e-mail in archivio per verificare la proprietà dell'account. Dovrai quindi fornire il numero di telefono sull'account.
+- [ ] Verrà inviata un'e-mail all'indirizzo e-mail registrato. Dopo aver fatto clic sul collegamento nell'e-mail, fornire uno dei codici di recupero MFA creati quando MFA è stato abilitato.
+- [ ] Utilizza l'interfaccia a riga di comando di AWS con il token di accesso all'account root per disabilitare MFA sull'account root. Quindi utilizzare l'interfaccia della riga di comando per impostare una nuova password sull'account root.
 
 [Riferimento](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
 
 #### D84. Come si assegna un IP elastico a più istanze EC2?
 
-- \[ ] Nella dashboard VPC, fai clic su IP elastici. Selezionare l'IP elastico e fare clic su Associa indirizzo. Seleziona ogni istanza EC2 a cui desideri assegnare questo indirizzo.
-- \[ ] Nella dashboard di EC2, fare clic su Istanza EC2. In Azioni selezionare Rete > Gestisci indirizzi IP. fare clic per aggiungere un nuovo indirizzo IP e digitare l'indirizzo dell'IP elastico. Ripeti il processo per ogni istanza EC2 a cui desideri assegnare questo IP elastico.
-- \[ ] Utilizza l'interfaccia a riga di comando di AWS e passa diverse opzioni '--instance-id' al comando aws ec2 assosiate-address.
-- \[x] Non è possibile assegnare un IP elastico a più istanze EC2. Può essere associato solo a una singola istanza EC2.
+- [ ] Nella dashboard VPC, fai clic su IP elastici. Selezionare l'IP elastico e fare clic su Associa indirizzo. Seleziona ogni istanza EC2 a cui desideri assegnare questo indirizzo.
+- [ ] Nella dashboard di EC2, fare clic su Istanza EC2. In Azioni selezionare Rete > Gestisci indirizzi IP. fare clic per aggiungere un nuovo indirizzo IP e digitare l'indirizzo dell'IP elastico. Ripeti il processo per ogni istanza EC2 a cui desideri assegnare questo IP elastico.
+- [ ] Utilizza l'interfaccia a riga di comando di AWS e passa diverse opzioni '--instance-id' al comando aws ec2 assosiate-address.
+- [x] Non è possibile assegnare un IP elastico a più istanze EC2. Può essere associato solo a una singola istanza EC2.
 
 [Riferimento](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
 
 #### D85. Hai creato un VPC con una subnet pubblica e una sottorete privata. Un server Web è stato inserito nella subnet pubblica e un server di database è stato inserito nella subnet privata. Il server Web è in grado di connettersi al server di database; tuttavia, il server di database in 10.0.1.2 non è in grado di ottenere gli aggiornamenti software. Qual è la causa di questo problema?
 
-- \[x] Non esiste un gateway NAT per la subnet privata, quindi il server di database non dispone di route che gli consentano l'accesso pubblico a Internet per scaricare gli aggiornamenti software.
-- \[ ] Al server di database deve essere assegnato un indirizzo pubblico dal pool o un IP elastico simile all'istanza 10.0.0.2.
-- \[ ] Il router non è configurato correttamente sul VPC. Aggiungi una route alla tabella di routing per il VPC che instrada tutto il traffico per 0.0.0.0/0 all'ID del gateway Internet.
-- \[ ] Non esiste un gateway Internet di sola uscita collegato alla sottorete privata del VPC.
+- [x] Non esiste un gateway NAT per la subnet privata, quindi il server di database non dispone di route che gli consentano l'accesso pubblico a Internet per scaricare gli aggiornamenti software.
+- [ ] Al server di database deve essere assegnato un indirizzo pubblico dal pool o un IP elastico simile all'istanza 10.0.0.2.
+- [ ] Il router non è configurato correttamente sul VPC. Aggiungi una route alla tabella di routing per il VPC che instrada tutto il traffico per 0.0.0.0/0 all'ID del gateway Internet.
+- [ ] Non esiste un gateway Internet di sola uscita collegato alla sottorete privata del VPC.
 
 #### D86. Vantaggio dell'utilizzo di S3 Glacier?
 
-- \[ ] tempo di accesso
-- \[ ] conservare per piccola durata
-- \[x] costo
-- \[ ] cross-region
+- [ ] tempo di accesso
+- [ ] conservare per piccola durata
+- [x] costo
+- [ ] cross-region

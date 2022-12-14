@@ -327,39 +327,39 @@ FlowLog:
 #### Q42. Vous disposez d’une instance EC2 T2 essentielle à votre infrastructure. Comment surveilleriez-vous la métrique la plus importante pour cette instance ?
 
 - [x] Activez CloudWatch Auto Recovery et mettez des moniteurs sur les vérifications de l’état du système et de l’état de l’instance pour que l’instance vous avertisse lorsque l’une ou l’autre est en alarme.
-- \[ ] Utilisez CloudWatch pour placer des moniteurs sur les crédits CPU restants. Si vous manquez de crédit CPU, l’instance sera arrêtée.
+- [ ] Utilisez CloudWatch pour placer des moniteurs sur les crédits CPU restants. Si vous manquez de crédit CPU, l’instance sera arrêtée.
 
 #### Q43. Quelle fonctionnalité peut être utilisée pour répondre à une augmentation soudaine du trafic Web?
 
-- \[ ] Groupes EC2 Auto Scaling
-- \[ ] AWS Shield Avancé
-- \[ ] Réplicas en lecture RDS
-- \[x] toutes ces réponses
+- [ ] Groupes EC2 Auto Scaling
+- [ ] AWS Shield Avancé
+- [ ] Réplicas en lecture RDS
+- [x] toutes ces réponses
 
 #### Q44. Si un ensemble de serveurs se trouve dans un sous-réseau privé de votre VPC, comment pouvez-vous connecter ces serveurs à des serveurs sur site ?
 
-- \[ ] Établissez une connexion avec AWS Direct Connect.
-- \[ ] Utilisez le VPN client AWS.
-- \[ ] Installez un serveur OpenVPN sur une instance située dans le sous-réseau avec une adresse IP élastique.
-- \[x] Toutes ces options peuvent établir une connexion à un sous-réseau privé.
+- [ ] Établissez une connexion avec AWS Direct Connect.
+- [ ] Utilisez le VPN client AWS.
+- [ ] Installez un serveur OpenVPN sur une instance située dans le sous-réseau avec une adresse IP élastique.
+- [x] Toutes ces options peuvent établir une connexion à un sous-réseau privé.
 
 #### Q45. Vous disposez d’un équilibreur de charge UDP créé par une instance qui exécute un proxy NGINX. Votre solution de gestion des performances des applications (APM) peut détecter les défaillances dans votre instance d’équilibrage de charge et transférer l’adresse IP Elastic vers une instance de secours passive. À l’aide de l’AWS CLI, quel script programmez-vous dans votre APM pour déplacer l’adresse IP Elastic ?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 disassociate-address --association-id eipassoc-2bebb712
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 release-address --association-id eipassoc-2bebb712
     aws ec2 assign-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -369,7 +369,7 @@ FlowLog:
     aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
     aws ec2 start-instances --instance-ids i-8b953
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -378,150 +378,150 @@ FlowLog:
 
 #### Q46. Quel service peut héberger vos conteneurs Docker ?
 
-- \[ ] Voile de lumière
-- \[ ] Elastic Container Service (ECS)
-- \[ ] Elastic Compute Cloud (EC2)
-- \[x] Tous ces services peuvent héberger un conteneur Docker.
+- [ ] Voile de lumière
+- [ ] Elastic Container Service (ECS)
+- [ ] Elastic Compute Cloud (EC2)
+- [x] Tous ces services peuvent héberger un conteneur Docker.
 
 #### Q47. Dans la console S3, sous la colonne Accès, qu’indique le badge public à côté du nom du compartiment ?
 
 ![image](images/002.png?raw=png)
 
-- \[x] Tous les objets de ce compartiment se voient attribuer un accès public et peuvent être lisibles ou accessibles en écriture par n’importe qui sur Internet. Assurez-vous qu’aucune donnée sensible n’est partagée publiquement dans ce compartiment.
-- \[ ] Tous les objets de ce compartiment sont accessibles en écriture, ce qui signifie que l’Internet public a la possibilité de télécharger n’importe quel fichier directement dans votre compartiment S3. Votre compartiment S3 pourrait être utilisé pour servir des logiciels malveillants.
-- \[ ] Certains objets de ce compartiment se voient attribuer un accès public. Vérifiez que les objets partagés publiquement dans ce compartiment ne contiennent aucune donnée sensible.
-- \[ ] Les objets de ce compartiment peuvent être rendus publics si la liste de contrôle d’accès de cet objet est définie pour permettre à tout le monde d’y accéder. Les compartiments privés ne vous permettent pas de définir des autorisations publiques sur un objet.
+- [x] Tous les objets de ce compartiment se voient attribuer un accès public et peuvent être lisibles ou accessibles en écriture par n’importe qui sur Internet. Assurez-vous qu’aucune donnée sensible n’est partagée publiquement dans ce compartiment.
+- [ ] Tous les objets de ce compartiment sont accessibles en écriture, ce qui signifie que l’Internet public a la possibilité de télécharger n’importe quel fichier directement dans votre compartiment S3. Votre compartiment S3 pourrait être utilisé pour servir des logiciels malveillants.
+- [ ] Certains objets de ce compartiment se voient attribuer un accès public. Vérifiez que les objets partagés publiquement dans ce compartiment ne contiennent aucune donnée sensible.
+- [ ] Les objets de ce compartiment peuvent être rendus publics si la liste de contrôle d’accès de cet objet est définie pour permettre à tout le monde d’y accéder. Les compartiments privés ne vous permettent pas de définir des autorisations publiques sur un objet.
 
 #### Q48. Quel privilège est spécifique au compte racine AWS et ne peut pas être accordé à un autre utilisateur IAM sur le compte ?
 
-- \[ ] Révoquez le rôle AdministratorAccess ou accordez-le à un autre utilisateur IAM.
-- \[ ] Créez une nouvelle zone hébergée dans Route 53.
-- \[x] Supprimez le compte AWS.
-- \[ ] Modifiez les détails de facturation.
+- [ ] Révoquez le rôle AdministratorAccess ou accordez-le à un autre utilisateur IAM.
+- [ ] Créez une nouvelle zone hébergée dans Route 53.
+- [x] Supprimez le compte AWS.
+- [ ] Modifiez les détails de facturation.
 
 #### Q49. Votre candidature envoie chaque jour 50 000 e-mails via SES. Puisque vous devez maintenir un faible taux de rebond pour éviter d’être mis en probation, quel système simple concevez-vous pour traiter automatiquement les rebonds durs?
 
-- \[x] Configurez SES pour envoyer tous les événements de rebond à une rubrique SNS. Créez une fonction Lambda qui traite chaque événement de rebond dur et signale automatiquement ce compte comme un rebond dans votre application pour empêcher d’autres tentatives d’envoi.
-- \[ ] Configurez SES pour qu’il n’envoie plus aux adresses e-mail figurant sur votre liste de rebond.
-- \[ ] Configurez SES pour envoyer les journaux de toutes les tentatives de livraison via Kinesis Firehose. Traitez chaque événement et recherchez les types de rebond et supprimez ces e-mails de votre liste.
-- \[ ] Envoyez tous les e-mails via SES avec un en-tête de réponse personnalisé. Configurez SES pour écouter les événements sur cette adresse e-mail et marquer toute adresse e-mail qui répond à ce compte en tant que message renvoyé et la supprimer de votre liste de diffusion.
+- [x] Configurez SES pour envoyer tous les événements de rebond à une rubrique SNS. Créez une fonction Lambda qui traite chaque événement de rebond dur et signale automatiquement ce compte comme un rebond dans votre application pour empêcher d’autres tentatives d’envoi.
+- [ ] Configurez SES pour qu’il n’envoie plus aux adresses e-mail figurant sur votre liste de rebond.
+- [ ] Configurez SES pour envoyer les journaux de toutes les tentatives de livraison via Kinesis Firehose. Traitez chaque événement et recherchez les types de rebond et supprimez ces e-mails de votre liste.
+- [ ] Envoyez tous les e-mails via SES avec un en-tête de réponse personnalisé. Configurez SES pour écouter les événements sur cette adresse e-mail et marquer toute adresse e-mail qui répond à ce compte en tant que message renvoyé et la supprimer de votre liste de diffusion.
 
 #### Q50. Votre application Web reçoit une quantité suspecte de mauvaises requêtes provenant d’adresses IP étrangères. Votre entreprise n’opère que dans quelques pays et vous souhaitez bloquer tout autre trafic. Quelle est la meilleure pratique pour limiter l’accès à votre application Web par pays ?
 
-- \[x] Utilisez web Application Firewall et créez une condition de correspondance géographique pour supprimer toutes les demandes provenant de pays qui ne figurent pas sur votre liste d’autorisation.
-- \[ ] Utilisez Application Load Balancer pour créer une nouvelle règle de routage qui examine l’adresse IP source. Ajoutez un bloc IP pour les pays qui y ont accès.
-- \[ ] Hébergez le frontal de votre site Web dans CloudFront et configurez une restriction géographique sur la distribution.
-- \[ ] Utilisez CloudTrail pour surveiller les adresses IP des requêtes incorrectes. Utilisez Lambda pour ajouter ces adresses IP à une règle Application Load Balancer qui bloque les adresses IP.
+- [x] Utilisez web Application Firewall et créez une condition de correspondance géographique pour supprimer toutes les demandes provenant de pays qui ne figurent pas sur votre liste d’autorisation.
+- [ ] Utilisez Application Load Balancer pour créer une nouvelle règle de routage qui examine l’adresse IP source. Ajoutez un bloc IP pour les pays qui y ont accès.
+- [ ] Hébergez le frontal de votre site Web dans CloudFront et configurez une restriction géographique sur la distribution.
+- [ ] Utilisez CloudTrail pour surveiller les adresses IP des requêtes incorrectes. Utilisez Lambda pour ajouter ces adresses IP à une règle Application Load Balancer qui bloque les adresses IP.
 
 #### Q51. Quelle est la meilleure pratique pour la maintenance des instances Windows EC2 et l’application des mises à jour ?
 
-- \[ ] Activez la mise à jour automatique dans Windows Update sur chaque EC2 lancé, ou créez votre propre AMI avec cette fonctionnalité activée et lancez toutes vos instances EC2 à partir de cette AMI.
-- \[ ] Créez un calendrier de maintenance qu’un employé doit remplir chaque semaine pour confirmer qu’une inspection visuelle de chaque instance a été effectuée et que les correctifs ont été appliqués.
-- \[x] Utilisez AWS Systems Manager Patch Manager pour rechercher des instances de correctif qui nécessitent des mises à jour au cours d’une fenêtre de maintenance définie.
-- \[ ] Installez Windows Server Update Services sur votre contrôleur Active Directory principal.
+- [ ] Activez la mise à jour automatique dans Windows Update sur chaque EC2 lancé, ou créez votre propre AMI avec cette fonctionnalité activée et lancez toutes vos instances EC2 à partir de cette AMI.
+- [ ] Créez un calendrier de maintenance qu’un employé doit remplir chaque semaine pour confirmer qu’une inspection visuelle de chaque instance a été effectuée et que les correctifs ont été appliqués.
+- [x] Utilisez AWS Systems Manager Patch Manager pour rechercher des instances de correctif qui nécessitent des mises à jour au cours d’une fenêtre de maintenance définie.
+- [ ] Installez Windows Server Update Services sur votre contrôleur Active Directory principal.
 
 #### Q52. En plus de CloudFormation, vous pouvez utiliser d’autres outils d’orchestration pour automatiser la formation et la maintenance des serveurs. Quel outil est _non_ un choix efficace pour l’orchestration d’une grande infrastructure ?
 
-- \[ ] Chef cuisinier
-- \[ ] Ansible
-- \[ ] Marionnette
-- \[x] Vagabond
+- [ ] Chef cuisinier
+- [ ] Ansible
+- [ ] Marionnette
+- [x] Vagabond
 
 #### Q53. Qu’advient-il d’une instance SQL Server RDS si la taille des bases de données augmente et dépasse l’espace alloué ?
 
-- \[ ] RDS augmentera automatiquement l’espace alloué de 10 % et enverra au compte racine AWS un e-mail avec les étapes de résolution. Allouez plus d’espace pour éviter les frais d’utilisation excédentaire.
-- \[x] L’instance de base de données signale un état STORAGE_FULL et devient inaccessible si l’instance ne dispose pas de suffisamment de stockage pour fonctionner. Allouez plus d’espace à l’instance.
-- \[ ] SQL Server fermera toutes les connexions existantes aux bases de données et tentera de réduire ses fichiers journaux pour récupérer de l’espace de stockage.
-- \[ ] RDS augmentera automatiquement l’espace alloué de 5% et continuera à allouer un nouvel espace jusqu’à 50% de l’espace alloué initial. Lorsque l’espace de stockage a augmenté de 50 %, RDS arrête automatiquement l’instance pour préserver l’intégrité des données.
+- [ ] RDS augmentera automatiquement l’espace alloué de 10 % et enverra au compte racine AWS un e-mail avec les étapes de résolution. Allouez plus d’espace pour éviter les frais d’utilisation excédentaire.
+- [x] L’instance de base de données signale un état STORAGE_FULL et devient inaccessible si l’instance ne dispose pas de suffisamment de stockage pour fonctionner. Allouez plus d’espace à l’instance.
+- [ ] SQL Server fermera toutes les connexions existantes aux bases de données et tentera de réduire ses fichiers journaux pour récupérer de l’espace de stockage.
+- [ ] RDS augmentera automatiquement l’espace alloué de 5% et continuera à allouer un nouvel espace jusqu’à 50% de l’espace alloué initial. Lorsque l’espace de stockage a augmenté de 50 %, RDS arrête automatiquement l’instance pour préserver l’intégrité des données.
 
 #### Q54. Vous disposez d’un parc d’appareils IoT qui envoient des données de télémétrie à une application côté serveur fournie par votre fournisseur IoT pour décoder un format de messagerie propriétaire. Les périphériques sont configurés pour envoyer des rapports de télémétrie à votre serveur via UDP sur le port 6339. Quelle est la meilleure façon de faire évoluer ce serveur à mesure que davantage d’appareils Iot sont ajoutés à votre flotte ?
 
-- \[ ] Utilisez un équilibreur de charge réseau pour répartir le trafic sur vos serveurs. Utilisez les vérifications de l’état UDP pour déterminer si le serveur est disponible pour recevoir le trafic.
-- \[x] Utilisez Route 53 avec des vérifications de l’état HTTP. Créez une application sur le serveur pour signaler l’état de préparation du logiciel serveur fourni par le fournisseur à Route 53 via HTTP.
-- \[ ] Utilisez Route 53 avec des vérifications de l’état UDP. Au fur et à mesure que vous montez en puissance, Route 53 achemine le trafic vers les nouveaux serveurs s’ils réussissent les vérifications d’intégrité.
-- \[ ] Utilisez Application Load Balancer pour répartir le trafic sur vos serveurs.
+- [ ] Utilisez un équilibreur de charge réseau pour répartir le trafic sur vos serveurs. Utilisez les vérifications de l’état UDP pour déterminer si le serveur est disponible pour recevoir le trafic.
+- [x] Utilisez Route 53 avec des vérifications de l’état HTTP. Créez une application sur le serveur pour signaler l’état de préparation du logiciel serveur fourni par le fournisseur à Route 53 via HTTP.
+- [ ] Utilisez Route 53 avec des vérifications de l’état UDP. Au fur et à mesure que vous montez en puissance, Route 53 achemine le trafic vers les nouveaux serveurs s’ils réussissent les vérifications d’intégrité.
+- [ ] Utilisez Application Load Balancer pour répartir le trafic sur vos serveurs.
 
 #### Q55. les règles sortantes d’un groupe de sécurité autorisent uniquement le trafic allant à 0.0.0.0/0 sur le port TCP 22 (SSH) et le port TCP 3306 (MySQL). Passez en revue les règles entrantes répertoriées dans l’image ci-dessous. Quel est le problème le plus important à résoudre avec cette configuration de groupe de sécurité, pour une instance Ubuntu EC2 agissant comme un serveur Web?
 
 ![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
-- \[ ] Les règles sortantes bloquent le port UDP 53, de sorte que le serveur ne sera pas en mesure de résoudre les recherches DNS.
-- \[x] Les règles sortantes n’autorisent pas le trafic HTTP à quitter l’instance, de sorte que les requêtes HTTP entrantes échoueront car les clients n’obtiendront jamais de réponses HTTP.
-- \[ ] Le port SSH entrant ne doit pas être ouvert au public. Limitez SSH à une seule adresse IP ou plage d’adresses IP contrôlées, ou utilisez un VPN pour accéder au VPC de ce serveur.
-- \[ ] Tous les ports TCP entrants sont exposés, ce qui remplace les règles HTTP et SSH et expose tous les ports TCP à l’Internet public.
+- [ ] Les règles sortantes bloquent le port UDP 53, de sorte que le serveur ne sera pas en mesure de résoudre les recherches DNS.
+- [x] Les règles sortantes n’autorisent pas le trafic HTTP à quitter l’instance, de sorte que les requêtes HTTP entrantes échoueront car les clients n’obtiendront jamais de réponses HTTP.
+- [ ] Le port SSH entrant ne doit pas être ouvert au public. Limitez SSH à une seule adresse IP ou plage d’adresses IP contrôlées, ou utilisez un VPN pour accéder au VPC de ce serveur.
+- [ ] Tous les ports TCP entrants sont exposés, ce qui remplace les règles HTTP et SSH et expose tous les ports TCP à l’Internet public.
 
 #### Q56. Une instance EC2 exécutant un site WordPress continue d’être piratée, même si vous avez restauré le serveur plusieurs fois et que vous avez corrigé WordPress. Quel service AWS peut vous aider à détecter et à prévenir d’autres attaques ?
 
-- \[ ] CloudWatch
-- \[x] GuardDuty
-- \[ ] Bouclier
-- \[ ] Conseiller en sécurité
+- [ ] CloudWatch
+- [x] GuardDuty
+- [ ] Bouclier
+- [ ] Conseiller en sécurité
 
 #### Q57. Un client non technique souhaite migrer un site WordPress vers AWS à partir d’un serveur privé géré par une société d’hébergement tierce. Vers quel service AWS devriez-vous recommander de migrer le site ?
 
-- \[ ] CloudFront
-- \[ ] Une instance EC2 lancée à partir de l’AMI WordPress officielle
-- \[ ] S3
-- \[x] Voile de lumière
+- [ ] CloudFront
+- [ ] Une instance EC2 lancée à partir de l’AMI WordPress officielle
+- [ ] S3
+- [x] Voile de lumière
 
 #### Q58. Votre entreprise dispose de serveurs sur site avec une solution de sauvegarde sur site existante qui réplique également les sauvegardes sur un autre campus à l’autre bout du pays avec sa propre solution de sauvegarde sur site. Il vous a été demandé de créer un troisième niveau de redondance en stockant également ces sauvegardes dans le cloud. En cas d’échec de sauvegarde primaire et secondaire, votre patron veut savoir que les sauvegardes cloud peuvent être accessibles le plus rapidement possible pour réduire les temps d’arrêt pendant la récupération. Quelle classe de stockage S3 recommandez-vous pour le coût et les performances ?
 
-- \[ ] Norme S3
-- \[ ] Hiérarchisation intelligente S3
-- \[ ] Glacier S3
-- \[x] Accès peu fréquent S3 One Zone
+- [ ] Norme S3
+- [ ] Hiérarchisation intelligente S3
+- [ ] Glacier S3
+- [x] Accès peu fréquent S3 One Zone
 
 #### Q59. Quel magasin de Big Data vous permettra de stocker de grands flux de données d’activité utilisateur provenant à la fois d’applications Web et mobiles ?
 
-- \[ ] Neptune
-- \[ ] Aurores boréales
-- \[ ] RDS pour SQL Server
-- \[x] Décalage vers le rouge
+- [ ] Neptune
+- [ ] Aurores boréales
+- [ ] RDS pour SQL Server
+- [x] Décalage vers le rouge
 
 #### Q60. Quelle est la meilleure option pour Auto Scaling de vos instances EC2 pour des modèles de trafic prévisibles ?
 
-- \[x] échelle basée sur un calendrier
-- \[ ] mise à l’échelle manuelle
-- \[ ] échelle basée sur la demande
-- \[ ] maintenir les niveaux actuels en tout temps
+- [x] échelle basée sur un calendrier
+- [ ] mise à l’échelle manuelle
+- [ ] échelle basée sur la demande
+- [ ] maintenir les niveaux actuels en tout temps
 
 #### Q61. Vous migrez un cluster RabbitMQ sur site vers AWS. Quel chemin de migration devez-vous choisir pour faciliter la maintenance et le déploiement ?
 
-- \[ ] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser SQS.
-- \[ ] Lancez un cluster RabbitMQ avec des instances EC2 à l’aide d’une AMI prise en charge.
-- \[ ] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser Kinesis.
-- \[x] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser Amazon MQ.
+- [ ] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser SQS.
+- [ ] Lancez un cluster RabbitMQ avec des instances EC2 à l’aide d’une AMI prise en charge.
+- [ ] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser Kinesis.
+- [x] Réécrivez les parties de votre application qui utilisent RabbitMQ pour utiliser Amazon MQ.
 
 #### Q62. Lors de la création d’une nouvelle instance RDS, que fait l’option Multi-AZ ?
 
-- \[ ] réplique les sauvegardes de votre base de données vers S3 et les rend disponibles dans toutes les régions pour éviter toute perte de données
-- \[x] crée une deuxième instance de base de données passive dans la même région qui deviendra la base de données principale lors d’un basculement
-- \[ ] crée un cluster de bases de données hautement disponible qui hébergera votre cluster de bases de données dans au moins deux régions
-- \[ ] crée une autre instance de base de données dans une autre région et maintient une veille à chaud active pour basculer en cas de défaillance régionale
+- [ ] réplique les sauvegardes de votre base de données vers S3 et les rend disponibles dans toutes les régions pour éviter toute perte de données
+- [x] crée une deuxième instance de base de données passive dans la même région qui deviendra la base de données principale lors d’un basculement
+- [ ] crée un cluster de bases de données hautement disponible qui hébergera votre cluster de bases de données dans au moins deux régions
+- [ ] crée une autre instance de base de données dans une autre région et maintient une veille à chaud active pour basculer en cas de défaillance régionale
 
 #### Q63. Quelle est la meilleure classe d’instance EC2 pour un serveur qui a continuellement une charge CPU importante ?
 
-- \[x] C5
-- \[ ] T2
-- \[ ] R5
-- \[ ] H1
+- [x] C5
+- [ ] T2
+- [ ] R5
+- [ ] H1
 
 #### Q64. Votre système de gestion des performances des applications (APM) peut lire l’état de vos moniteurs CloudWatch et effectuer des actions scriptées. Lorsque la métrique CloudWatch StatusCheckFailed entre dans un état d’échec (valeur de 1), vous souhaitez que votre APM répare automatiquement l’instance. Quel script utilisez-vous ?
 
-- \[x] A
+- [x] A
 
 <!---->
 
     aws ec2 stop-instances --instance-ids i-0b263919b6498b123
     aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
@@ -529,7 +529,7 @@ FlowLog:
     wait 30
     aws ec2 start-instance --instance-ids i-0b263919b6498b123
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -540,40 +540,40 @@ FlowLog:
 
 ![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
-- \[ ] Tout le trafic sur tous les ports est refusé dans cette instance, ce qui remplace la règle HTTP et la rend redondante.
-- \[x] L’instance a été lancée avec le groupe de sécurité par défaut, mais il n’existe aucun moyen pour un administrateur de SSH dans l’instance.
+- [ ] Tout le trafic sur tous les ports est refusé dans cette instance, ce qui remplace la règle HTTP et la rend redondante.
+- [x] L’instance a été lancée avec le groupe de sécurité par défaut, mais il n’existe aucun moyen pour un administrateur de SSH dans l’instance.
   Ajoutez une autre règle qui autorise l’accès SSH à partir d’une source sécurisée, telle qu’une seule adresse IP ou une plage d’adresses IP gérées.
-- \[ ] Il n’y a rien de mal à cette règle de groupe de sécurité. En supposant que sg-269afc5e est appliqué à d’autres ressources qui sont correctement
+- [ ] Il n’y a rien de mal à cette règle de groupe de sécurité. En supposant que sg-269afc5e est appliqué à d’autres ressources qui sont correctement
   sécurisé, cette règle permet à tout le trafic de passer qui est également affecté au groupe de sécurité sg-269afc5e.
-- \[ ] Tout le trafic sur tous les ports est autorisé dans cette instance. Cela expose l’instance à tout le trafic Internet public et
+- [ ] Tout le trafic sur tous les ports est autorisé dans cette instance. Cela expose l’instance à tout le trafic Internet public et
   remplace la règle HTTP entrante.
 
 #### Q66. Vous avez un VPC qui possède un sous-réseau public et privé. Il existe une passerelle NAT dans le sous-réseau public qui permet aux instances du sous-réseau privé d’accéder à Internet sans avoir d’exposition publique en dehors du VPC. Quelles doivent être les tables de routage pour le sous-réseau privé ?
 
 ![image](images/003.png?raw=png)
 
-- \[x] A
+- [x] A
 
 <!---->
 
     Destination 1: 10.0.0.0/16, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: local;
     Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
-- \[ ] C
+- [ ] C
 
 <!---->
 
     Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
     Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 
-- \[ ] D
+- [ ] D
 
 <!---->
 
@@ -582,45 +582,45 @@ FlowLog:
 
 #### Q67. Pour se conformer aux exigences d’audit de certaines normes de conformité, quel outil AWS peut être activé pour gérer un journal d’audit des accès et des modifications apportées à votre infrastructure AWS ?
 
-- \[x] CloudTrail
-- \[ ] CloudWatch
-- \[ ] Outil d’audit et de conformité AWS
-- \[ ] GardeDuty
+- [x] CloudTrail
+- [ ] CloudWatch
+- [ ] Outil d’audit et de conformité AWS
+- [ ] GardeDuty
 
 #### Q68. Vous disposez d’une application qui génère des rapports de longue durée, les stocke dans un compartiment S3, puis envoie un e-mail à l’utilisateur qui a demandé le rapport avec un lien pour le télécharger. Quelle est la meilleure pratique pour stocker les données de rapport dans S3 ?
 
-- \[ ] Créez un compartiment S3 public. Lorsque votre application crée l’objet de rapport dans S3, générez deux longs générés aléatoirement
+- [ ] Créez un compartiment S3 public. Lorsque votre application crée l’objet de rapport dans S3, générez deux longs générés aléatoirement
   noms de dossier et placez le fichier dans le sous-dossier le plus profond. Définissez la stratégie de rétention sur l’objet sur une heure et envoyez ce lien par e-mail à
   l’utilisateur. Le lien sera actif pendant une heure.
-- \[ ] Créez un compartiment S3 public. Utilisez un hachage de l’adresse e-mail de l’utilisateur ainsi que la date et l’heure auxquelles le rapport a été demandé pour générer un
+- [ ] Créez un compartiment S3 public. Utilisez un hachage de l’adresse e-mail de l’utilisateur ainsi que la date et l’heure auxquelles le rapport a été demandé pour générer un
   nom d’objet unique. Envoyez ce lien par e-mail à l’utilisateur et exécutez une tâche planifiée dans votre application pour supprimer les objets plus anciens
   que sept jours.
-- \[x] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
+- [x] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
   ou forcer l’utilisateur à se connecter. Après avoir vérifié que l’utilisateur dispose des droits d’accès à ce fichier, demandez à l’application de récupérer l’objet
   à partir de S3 et renvoyez-le dans la réponse HTTP. Supprimez le fichier du compartiment S3 une fois la demande terminée.
-- \[ ] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
+- [ ] Créez un compartiment S3 privé. Le lien dans l’e-mail doit amener l’utilisateur à votre application, où vous pouvez vérifier l’utilisateur actif
   ou forcer l’utilisateur à se connecter. Définissez l’objet de rapport dans S3 sur public. Afficher à l’utilisateur un bouton « Télécharger » dans le navigateur qui relie
   à l’objet public.
 
 #### Q69. Lors de l’envoi d’un grand volume d’e-mails via SES, quel est l’ensemble de mesures le plus important à surveiller ?
 
-- \[x] vos taux de plainte et de rebond
-- \[ ] s’ouvre et clique
-- \[ ] clics et livraisons
-- \[ ] volume d’envoi au cours des 15 dernières minutes et sur une journée pour surveiller les pics de facturation
+- [x] vos taux de plainte et de rebond
+- [ ] s’ouvre et clique
+- [ ] clics et livraisons
+- [ ] volume d’envoi au cours des 15 dernières minutes et sur une journée pour surveiller les pics de facturation
 
 #### Q70. Vous allez héberger une application qui utilise une base de données MySQL. Quelle base de données devez-vous sélectionner si vous ne souhaitez pas gérer les tâches de mise à l’échelle ou d’administration de base de données ?
 
-- \[ ] Lancez une image AMI à partir du marché contenant un serveur MySQL préconfiguré.
-- \[x] Aurore
-- \[ ] RDS pour MySQL
-- \[ ] Décalage vers le rouge
+- [ ] Lancez une image AMI à partir du marché contenant un serveur MySQL préconfiguré.
+- [x] Aurore
+- [ ] RDS pour MySQL
+- [ ] Décalage vers le rouge
 
 #### Q71. Un formulaire dans une application Web envoie des données d’inscription à « http://example.com/signup/new?source=web » et ces données doivent être gérées par un service ECS derrière Application Load Balancer (ALB). Quelle règle ALB acheminera cette demande ?
 
 ![image](images/004.png?raw=png)
 
-- \[ ] A
+- [ ] A
 
 <!---->
 
@@ -630,7 +630,7 @@ FlowLog:
     Then
         Forward to ecs-cluse-service <there is a typo - yes!
 
-- \[ ] B
+- [ ] B
 
 <!---->
 
@@ -640,15 +640,15 @@ FlowLog:
     Then
         Forward to ecs-cluse-service
 
-- \[ ] C ... Un de plus avec POST
-- \[x] D ... Un seul avec Get
+- [ ] C ... Un de plus avec POST
+- [x] D ... Un seul avec Get
 
 #### Q72. Quel service AWS peut héberger le serveur d’applications Web pour un site WordPress ?
 
-- \[ ] S3
-- \[x] Elastic BeanStalk
-- \[ ] ElasticCache
-- \[ ] CloudFront
+- [ ] S3
+- [x] Elastic BeanStalk
+- [ ] ElasticCache
+- [ ] CloudFront
 
 #### Q73. Que fait l’AWS CLI suivante `create-service` commande pour ECS faire?
 
@@ -661,65 +661,65 @@ FlowLog:
      --network-configuration \
      "awsvpcConfiguration={subnets=[subnet-0b29129ab],securityGroups=[sg-0b29129ab]}"
 
-- \[ ] modifie les groupes de sécurité de l’exécution **rest-api** tâche
-- \[ ] crée un cluster appelé **production** et lance deux conteneurs dans Fargate avec le **rest-api** définition de la tâche
-- \[x] lance deux conteneurs sur Fargate dans l’existant **production** à l’aide de l' **rest-api** définition de la tâche
-- \[ ] crée une définition de service pour le **rest-api** tâche; placer deux conteneurs sur le cluster de production lors du lancement **ecs-cli** commande up
+- [ ] modifie les groupes de sécurité de l’exécution **rest-api** tâche
+- [ ] crée un cluster appelé **production** et lance deux conteneurs dans Fargate avec le **rest-api** définition de la tâche
+- [x] lance deux conteneurs sur Fargate dans l’existant **production** à l’aide de l' **rest-api** définition de la tâche
+- [ ] crée une définition de service pour le **rest-api** tâche; placer deux conteneurs sur le cluster de production lors du lancement **ecs-cli** commande up
 
 #### Q74. Vous souhaitez rendre votre API publique rapidement accessible depuis toutes les régions. Quelle est la meilleure façon de le faire?
 
-- \[ ] Créez un point de terminaison API Gateway unique dans une région centrale.
-- \[ ] Créez un point de terminaison de passerelle API privée pour chaque région.
-- \[ ] Créez un point de terminaison de passerelle API régional pour chaque région.
-- \[x] Créez des points de terminaison de passerelle API optimisés pour la périphérie et déployez-les sur un réseau CloudFront.
+- [ ] Créez un point de terminaison API Gateway unique dans une région centrale.
+- [ ] Créez un point de terminaison de passerelle API privée pour chaque région.
+- [ ] Créez un point de terminaison de passerelle API régional pour chaque région.
+- [x] Créez des points de terminaison de passerelle API optimisés pour la périphérie et déployez-les sur un réseau CloudFront.
 
 #### Q75. Quel type de solution de données devriez-vous utiliser pour les données provenant de données non relationnelles et relationnelles provenant d’appareils IoT, de sites Web, d’applications mobiles, etc. ?
 
-- \[ ] Amazon DynamoDB
-- \[x] Formation du lac AWS
-- \[ ] Amazon Redshift
-- \[ ] Amazon Aurora
+- [ ] Amazon DynamoDB
+- [x] Formation du lac AWS
+- [ ] Amazon Redshift
+- [ ] Amazon Aurora
 
 #### Q76. Vous disposez d’une suite d’analyses qui produit des rapports sur les modèles d’utilisation de votre application Web. Après avoir terminé votre migration vers AWS et utilisé Application Load Balancer pour équilibrer la charge sur votre application Web, votre service marketing a remarqué que les rapports basés sur l’emplacement sur le trafic Web n’affichent que le trafic provenant d’un seul emplacement. Quel est le problème?
 
-- \[ ] Utilisez un équilibreur de charge classique, pas un équilibreur de charge d’application.
-- \[x] Application Load Balancer ne conserve pas l’adresse IP source d’origine. Le logiciel d’analyse doit être configuré pour examiner l’en-tête de requête HTTP 'X-Forwarded-For' pour l’adresse IP source correcte.
-- \[ ] Application Load Balencer doit être configuré pour conserver l’adresse IP source du trafic qu’il transfère. Créez une stratégie qui active la prise en charge de ProxyProtocol et attachez-la à l’ALB à l’aide de l’AWS CLI.
-- \[ ] Configurez les instances EC2 du serveur Web pour qu’elles n’aient que des adresses IP privées. Les adresses IP publiques des instances sont enregistrées dans les journaux du serveur Web, seul alb doit avoir une interface publique et il acheminera le trafic vers les instances via l’interface privée.
+- [ ] Utilisez un équilibreur de charge classique, pas un équilibreur de charge d’application.
+- [x] Application Load Balancer ne conserve pas l’adresse IP source d’origine. Le logiciel d’analyse doit être configuré pour examiner l’en-tête de requête HTTP 'X-Forwarded-For' pour l’adresse IP source correcte.
+- [ ] Application Load Balencer doit être configuré pour conserver l’adresse IP source du trafic qu’il transfère. Créez une stratégie qui active la prise en charge de ProxyProtocol et attachez-la à l’ALB à l’aide de l’AWS CLI.
+- [ ] Configurez les instances EC2 du serveur Web pour qu’elles n’aient que des adresses IP privées. Les adresses IP publiques des instances sont enregistrées dans les journaux du serveur Web, seul alb doit avoir une interface publique et il acheminera le trafic vers les instances via l’interface privée.
 
 #### Q77. Quoi `not` un utilisateur par défaut d’une instance Linux commune lancée à partir d’une AMI ?
 
-- \[ ] ubuntu
-- \[x] utilisateur système
-- \[ ] ec2-utilisateur
-- \[ ] administrateur
+- [ ] ubuntu
+- [x] utilisateur système
+- [ ] ec2-utilisateur
+- [ ] administrateur
 
 [Référence](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html)
 
 #### Q78. Vous avez répliqué l’infrastructure qui sert l’API backend pour votre application Web dans toutes les régions afin de mieux servir vos clients aux États-Unis et dans l’UE. Quelle est la meilleure façon de diriger votre application Web vers le centre de données le plus proche ?
 
-- \[x] Utilisez la route 53 avec des recherches de géolocalisation pour diriger le trafic entre les deux régions.
-- \[ ] Créez une règle de redirection WAF qui redirige le trafic vers le centre de données de l’UE si l’adresse IP source provient de certains pays.
-- \[ ] Achetez une extension de domaine de pays et dirigez vos utilisateurs vers le bon site, tel que example.com et example.co
-- \[ ] Demandez à votre application frontale de tester la latence entre chaque centre de données et d’utiliser le centre de données qui répond le plus rapidement.
+- [x] Utilisez la route 53 avec des recherches de géolocalisation pour diriger le trafic entre les deux régions.
+- [ ] Créez une règle de redirection WAF qui redirige le trafic vers le centre de données de l’UE si l’adresse IP source provient de certains pays.
+- [ ] Achetez une extension de domaine de pays et dirigez vos utilisateurs vers le bon site, tel que example.com et example.co
+- [ ] Demandez à votre application frontale de tester la latence entre chaque centre de données et d’utiliser le centre de données qui répond le plus rapidement.
 
 [Référence](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
 
 #### Q79. Vous avez récemment lancé votre nouveau produit Web et attendez 1 000 nouveaux utilisateurs chaque mois. Cependant, vous venez de recevoir la nouvelle du PDG que votre produit sera présenté lors d’une prochaine conférence couverte par plusieurs médias, ce qui pourrait conduire à 20 000 nouveaux utilisateurs au cours de la semaine prochaine. Comment prévoyez-vous une augmentation soudaine du trafic?
 
-- \[ ] Répliquez votre infrastructure dans deux régions. Vous renforcerez l’application à une défaillance régionale et vous doublerez votre capacité.
-- \[ ] Prenez une image AMI d’un serveur frontal pour enregistrer votre configuration, puis ajoutez d’autres serveurs à votre cluster pror à la conférence. Supprimez les serveurs du cluster après le pic de la conférence.
-- \[ ] Testez pour déterminer votre débit et le nombre d’utilisateurs que vous pouvez prendre en charge. Développez un plan de mise à l’échelle pour votre front-end, vos microservices et votre base de données basé sur des métriques CloudWatch qui s’alignent sur les goulots d’étranglement testés.
-- \[x] Utilisez les groupes Auto Scaling pour créer davantage de serveurs frontaux lorsque les métriques CloudWatch pour l’utilisation du processeur sur une seule instance dépassent 80 % pendant cinq minutes.
+- [ ] Répliquez votre infrastructure dans deux régions. Vous renforcerez l’application à une défaillance régionale et vous doublerez votre capacité.
+- [ ] Prenez une image AMI d’un serveur frontal pour enregistrer votre configuration, puis ajoutez d’autres serveurs à votre cluster pror à la conférence. Supprimez les serveurs du cluster après le pic de la conférence.
+- [ ] Testez pour déterminer votre débit et le nombre d’utilisateurs que vous pouvez prendre en charge. Développez un plan de mise à l’échelle pour votre front-end, vos microservices et votre base de données basé sur des métriques CloudWatch qui s’alignent sur les goulots d’étranglement testés.
+- [x] Utilisez les groupes Auto Scaling pour créer davantage de serveurs frontaux lorsque les métriques CloudWatch pour l’utilisation du processeur sur une seule instance dépassent 80 % pendant cinq minutes.
 
 [Référence](https://aws.amazon.com/ec2/autoscaling/)
 
 #### Q80. Comment se connecter via SSH à une instance Ec2 Linux avec un volume EBS si vous avez perdu votre paire de clés ?
 
-- \[ ] Arrêtez l’instance et créez une image AMI. Lancez l’image à l’aide d’une nouvelle paire de clés.
-- \[ ] Contactez le support AWS. Un spécialiste du support peut restaurer à distance l’accès à votre instance et vous envoyer une nouvelle paire de clés.
-- \[ ] Vous ne pouvez pas vous connecter à cette instance EC2. La paire de clés n’est affichée qu’une seule fois. Si vous le perdez, vous avez perdu tout accès à cette instance. Connectez le volume EBS à une autre instance pour récupérer vos fichiers.
-- \[x] Attachez le volume EBS à une instance temporaire lancée avec une nouvelle paire de clés et remplacez ~/.ssh/authorized_keys à l’aide du même fichier de la nouvelle instance.
+- [ ] Arrêtez l’instance et créez une image AMI. Lancez l’image à l’aide d’une nouvelle paire de clés.
+- [ ] Contactez le support AWS. Un spécialiste du support peut restaurer à distance l’accès à votre instance et vous envoyer une nouvelle paire de clés.
+- [ ] Vous ne pouvez pas vous connecter à cette instance EC2. La paire de clés n’est affichée qu’une seule fois. Si vous le perdez, vous avez perdu tout accès à cette instance. Connectez le volume EBS à une autre instance pour récupérer vos fichiers.
+- [x] Attachez le volume EBS à une instance temporaire lancée avec une nouvelle paire de clés et remplacez ~/.ssh/authorized_keys à l’aide du même fichier de la nouvelle instance.
 
 [Référence](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
@@ -727,48 +727,48 @@ FlowLog:
 
 ![image](images/Q80.png?raw=png)
 
-- \[ ] Établissez une connexion entre vos deux centres de données et connectez le deuxième centre de données au premier via un tunnel privé. Le trafic s’écoulera du deuxième centre de données, puis des premières données, puis d’AWS.
-- \[ ] Créez une deuxième passerelle client et configurez votre client VPN dans votre deuxième centre de données pour qu’il se connecte à la passerelle réseau privé virtuel.
-- \[x] Créez une deuxième passerelle réseau privé virtuel (VPG) et attachez-la au VPC. Créez une passerelle client pour la nouvelle passerelle réseau privé virtuel et utilisez votre client VPN dans votre deuxième centre de données pour établir une connexion au VPG.
-- \[ ] Vous ne pouvez pas avoir plus d’une passerelle client par VPC, de sorte que la solution proposée ne fonctionnera pas. Créez un deuxième VPC avec une passerelle réseau privé virtuel et une passerelle client. Établissez un pont entre les deux VPC à l’aide de l’appairage de VPC.
+- [ ] Établissez une connexion entre vos deux centres de données et connectez le deuxième centre de données au premier via un tunnel privé. Le trafic s’écoulera du deuxième centre de données, puis des premières données, puis d’AWS.
+- [ ] Créez une deuxième passerelle client et configurez votre client VPN dans votre deuxième centre de données pour qu’il se connecte à la passerelle réseau privé virtuel.
+- [x] Créez une deuxième passerelle réseau privé virtuel (VPG) et attachez-la au VPC. Créez une passerelle client pour la nouvelle passerelle réseau privé virtuel et utilisez votre client VPN dans votre deuxième centre de données pour établir une connexion au VPG.
+- [ ] Vous ne pouvez pas avoir plus d’une passerelle client par VPC, de sorte que la solution proposée ne fonctionnera pas. Créez un deuxième VPC avec une passerelle réseau privé virtuel et une passerelle client. Établissez un pont entre les deux VPC à l’aide de l’appairage de VPC.
 
 #### Q82. Vous migrez une base de données de 200 Go d’un serveur SQL Server sur site vers RDS pour SQL Server. La base de données doit avoir un temps d’arrêt minimal pendant la migration. Quelle est la meilleure pratique pour migrer cette base de données ?
 
-- \[ ] Fermez toutes les connexions existantes à la base de données SQL Server et utilisez le service de migration de base de données pour transférer les données vers RDS.
-- \[x] Utilisez le service de migration de base de données pour répliquer la base de données vers RDS et la maintenir synchronisée pendant la migration. Redirigez vos applications pour utiliser le nouveau point de terminaison RDS.
-- \[ ] Détachez la base de données SQL Server pendant la migration. Effectuez une sauvegarde de la base de données et utilisez SQ avec transfert accéléré pour télécharger les sauvegardes vers S3. Restaurez les sauvegardes sur l’instance RDS.
-- \[ ] Utilisez l’Assistant Importation et exportation dans SQL Server Enterprise Manager pour créer une tâche d’exportation et exporter les tables vers l’instance RDS.
+- [ ] Fermez toutes les connexions existantes à la base de données SQL Server et utilisez le service de migration de base de données pour transférer les données vers RDS.
+- [x] Utilisez le service de migration de base de données pour répliquer la base de données vers RDS et la maintenir synchronisée pendant la migration. Redirigez vos applications pour utiliser le nouveau point de terminaison RDS.
+- [ ] Détachez la base de données SQL Server pendant la migration. Effectuez une sauvegarde de la base de données et utilisez SQ avec transfert accéléré pour télécharger les sauvegardes vers S3. Restaurez les sauvegardes sur l’instance RDS.
+- [ ] Utilisez l’Assistant Importation et exportation dans SQL Server Enterprise Manager pour créer une tâche d’exportation et exporter les tables vers l’instance RDS.
 
 [Référence](https://aws.amazon.com/dms/)
 
 #### Q83. Vous avez activé l’authentification multifacteur (MFA) pour votre compte racine AWS et vous avez perdu votre appareil MFA. Que devez-vous faire pour récupérer l’accès à votre compte?
 
-- \[ ] Vous ne pouvez pas récupérer l’accès à votre compte racine AWS. Contactez le support AWS.
-- \[x] Un e-mail sera envoyé à l’adresse e-mail enregistrée pour vérifier la propriété du compte. Vous devrez ensuite fournir le numéro de téléphone sur le compte.
-- \[ ] Un e-mail sera envoyé à l’adresse e-mail enregistrée. Après avoir cliqué sur le lien dans votre e-mail, fournissez l’un des codes de récupération MFA qui ont été créés lorsque MFA a été activé.
-- \[ ] Utilisez l’AWS CLI avec le jeton d’accès au compte racine pour désactiver l’authentification multifacteur sur le compte racine. Utilisez ensuite l’interface de ligne de commande pour définir un nouveau mot de passe sur le compte racine.
+- [ ] Vous ne pouvez pas récupérer l’accès à votre compte racine AWS. Contactez le support AWS.
+- [x] Un e-mail sera envoyé à l’adresse e-mail enregistrée pour vérifier la propriété du compte. Vous devrez ensuite fournir le numéro de téléphone sur le compte.
+- [ ] Un e-mail sera envoyé à l’adresse e-mail enregistrée. Après avoir cliqué sur le lien dans votre e-mail, fournissez l’un des codes de récupération MFA qui ont été créés lorsque MFA a été activé.
+- [ ] Utilisez l’AWS CLI avec le jeton d’accès au compte racine pour désactiver l’authentification multifacteur sur le compte racine. Utilisez ensuite l’interface de ligne de commande pour définir un nouveau mot de passe sur le compte racine.
 
 [Référence](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
 
 #### Q84. Comment attribuer une adresse IP Elastic à plusieurs instances EC2 ?
 
-- \[ ] Dans le tableau de bord VPC, cliquez sur Elastic IPs. Sélectionnez l’adresse IP Elastic et cliquez sur Associer l’adresse. Sélectionnez chaque instance EC2 à laquelle vous souhaitez attribuer cette adresse.
-- \[ ] Dans le tableau de bord EC2, cliquez sur Instance EC2. Sous Actions, sélectionnez Mise en réseau > Gérer les adresses IP. cliquez pour ajouter une nouvelle adresse IP et tapez l’adresse de l’adresse IP Elastic. Répétez le processus pour chaque instance EC2 à laquelle vous souhaitez affecter cette adresse IP Elastic.
-- \[ ] Utilisez l’AWS CLI et transmettez plusieurs options '--instance-id' à la commande aws ec2 assosiate-address.
-- \[x] Une adresse IP élastique ne peut pas être affectée à plusieurs instances EC2. Il ne peut être affecté qu’à une seule instance EC2.
+- [ ] Dans le tableau de bord VPC, cliquez sur Elastic IPs. Sélectionnez l’adresse IP Elastic et cliquez sur Associer l’adresse. Sélectionnez chaque instance EC2 à laquelle vous souhaitez attribuer cette adresse.
+- [ ] Dans le tableau de bord EC2, cliquez sur Instance EC2. Sous Actions, sélectionnez Mise en réseau > Gérer les adresses IP. cliquez pour ajouter une nouvelle adresse IP et tapez l’adresse de l’adresse IP Elastic. Répétez le processus pour chaque instance EC2 à laquelle vous souhaitez affecter cette adresse IP Elastic.
+- [ ] Utilisez l’AWS CLI et transmettez plusieurs options '--instance-id' à la commande aws ec2 assosiate-address.
+- [x] Une adresse IP élastique ne peut pas être affectée à plusieurs instances EC2. Il ne peut être affecté qu’à une seule instance EC2.
 
 [Référence](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
 
 #### Q85. Vous avez créé un VPC doté d’un sous-réseau public et d’un sous-réseau privé. Un serveur Web a été placé dans le sous-réseau public et un serveur de base de données a été placé dans le sous-réseau privé. Le serveur Web est capable de se connecter au serveur de base de données; toutefois, le serveur de base de données à 10.0.1.2 ne peut pas obtenir les mises à jour logicielles. Quelle est la cause de ce problème?
 
-- \[x] Il n’y a pas de passerelle NAT pour le sous-réseau privé, de sorte que le serveur de base de données n’a pas de routes qui lui donnent un accès Internet public pour télécharger les mises à jour logicielles.
-- \[ ] Une adresse publique du pool doit être attribuée au serveur de base de données ou une adresse IP Elastic similaire à l’instance 10.0.0.2.
-- \[ ] Le routeur n’est pas configuré correctement sur le VPC. Ajoutez une table d’itinéraire pour le VPC qui achemine tout le trafic pour 0.0.0.0/0 vers l’ID de la passerelle Internet.
-- \[ ] Il n’y a pas de passerelle Internet de sortie uniquement attachée au sous-réseau privé du VPC.
+- [x] Il n’y a pas de passerelle NAT pour le sous-réseau privé, de sorte que le serveur de base de données n’a pas de routes qui lui donnent un accès Internet public pour télécharger les mises à jour logicielles.
+- [ ] Une adresse publique du pool doit être attribuée au serveur de base de données ou une adresse IP Elastic similaire à l’instance 10.0.0.2.
+- [ ] Le routeur n’est pas configuré correctement sur le VPC. Ajoutez une table d’itinéraire pour le VPC qui achemine tout le trafic pour 0.0.0.0/0 vers l’ID de la passerelle Internet.
+- [ ] Il n’y a pas de passerelle Internet de sortie uniquement attachée au sous-réseau privé du VPC.
 
 #### Q86. Avantage d’utiliser S3 Glacier ?
 
-- \[ ] temps d’accès
-- \[ ] stocker pour une petite durée
-- \[x] coût
-- \[ ] entre régions
+- [ ] temps d’accès
+- [ ] stocker pour une petite durée
+- [x] coût
+- [ ] entre régions

@@ -419,20 +419,20 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 #### Q32. Vous souhaitez autoriser les utilisateurs à prendre des photos dans votre application. Ce qui est _non_ un avantage de créer un `intent`, au lieu de demander directement l’autorisation de la caméra ?
 
 - [ ] Les utilisateurs peuvent sélectionner leurs applications photo préférées pour prendre des photos.
-- \[ ] Vous n’avez pas besoin de faire une demande d’autorisation dans votre application pour prendre une photo.
-- \[x] Vous avez un contrôle total sur l’expérience utilisateur. L’application qui gère l’appareil photo `intent` respectera vos choix de conception.
-- \[ ] Vous n’avez pas besoin de concevoir l’interface utilisateur. L’application qui gère l’appareil photo `intent` fournira l’interface utilisateur.
+- [ ] Vous n’avez pas besoin de faire une demande d’autorisation dans votre application pour prendre une photo.
+- [x] Vous avez un contrôle total sur l’expérience utilisateur. L’application qui gère l’appareil photo `intent` respectera vos choix de conception.
+- [ ] Vous n’avez pas besoin de concevoir l’interface utilisateur. L’application qui gère l’appareil photo `intent` fournira l’interface utilisateur.
 
 #### Q33. Quand utiliseriez-vous le `ActivityCompat.shouldShowRequestPermissionRationale()` fonction?
 
-- \[ ] lorsqu’un utilisateur ouvre votre application pour la première fois et que vous souhaitez fournir une explication de l’utilisation d’une autorisation donnée
-- \[ ] lorsqu’un utilisateur a précédemment refusé la demande d’une autorisation donnée et sélectionne « En savoir plus »
-- \[ ] lorsqu’un utilisateur a précédemment refusé la demande d’une autorisation donnée et que vous souhaitez fournir une explication de son utilisation
-- \[x] lorsqu’un utilisateur a précédemment refusé la demande d’autorisation donnée et a sélectionné « Ne plus demander », mais que vous avez besoin de l’autorisation pour que votre application fonctionne
+- [ ] lorsqu’un utilisateur ouvre votre application pour la première fois et que vous souhaitez fournir une explication de l’utilisation d’une autorisation donnée
+- [ ] lorsqu’un utilisateur a précédemment refusé la demande d’une autorisation donnée et sélectionne « En savoir plus »
+- [ ] lorsqu’un utilisateur a précédemment refusé la demande d’une autorisation donnée et que vous souhaitez fournir une explication de son utilisation
+- [x] lorsqu’un utilisateur a précédemment refusé la demande d’autorisation donnée et a sélectionné « Ne plus demander », mais que vous avez besoin de l’autorisation pour que votre application fonctionne
 
 #### Q34. Vous souhaitez activer le suivi analytique uniquement dans `release` Construit. Comment créer un nouveau champ dans le champ généré `BuildConfig` classe pour stocker cette valeur ?
 
-- \[ ]
+- [ ]
 
 ```
   buildTypes {
@@ -445,7 +445,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```
   buildTypes {
@@ -458,7 +458,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- \[x]
+- [x]
 
 ```
   buildTypes {
@@ -471,7 +471,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- \[ ]
+- [ ]
 
 ```
   buildTypes {
@@ -486,23 +486,23 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q35. Pour optimiser votre taille APK, quel codec d’image devez-vous utiliser?
 
-- \[ ] JPG
-- \[ ] PNG
-- \[ ] MPEG
-- \[x] WebP [(Référence)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
+- [ ] JPG
+- [ ] PNG
+- [ ] MPEG
+- [x] WebP [(Référence)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
 #### Q36. Vous avez créé du code pour effectuer un appel réseau et testé son fonctionnement dans votre environnement de développement. Toutefois, lorsque vous le publiez sur la console Play, l’appel réseau ne fonctionne pas. Qu’est-ce qui va _non_ vous aider à résoudre ce problème ?
 
-- \[ ] vérifier si `ProGuard` -keepclassmembers ont été ajoutés aux objets de transfert de données réseau (DTO) en question
-- \[x] utilisation des outils de profilage d’Android Studio pour détecter les anomalies dans l’utilisation du processeur, de la mémoire et du réseau
-- \[ ] recherche d’exceptions dans les journaux du serveur ou la console du serveur
-- \[ ] vérifiant que l’objet de transfert de données réseau a `@SerizlizedName` appliqué à ses propriétés membres
+- [ ] vérifier si `ProGuard` -keepclassmembers ont été ajoutés aux objets de transfert de données réseau (DTO) en question
+- [x] utilisation des outils de profilage d’Android Studio pour détecter les anomalies dans l’utilisation du processeur, de la mémoire et du réseau
+- [ ] recherche d’exceptions dans les journaux du serveur ou la console du serveur
+- [ ] vérifiant que l’objet de transfert de données réseau a `@SerizlizedName` appliqué à ses propriétés membres
 
 #### Q37. Quel extrait de code permettrait d’obtenir la mise en page affichée ci-dessous ?
 
 ![img](image/04.jpeg)
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -523,7 +523,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[x]
+- [x]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -543,7 +543,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -566,7 +566,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -589,13 +589,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q38. Quel ensemble de sources est `_not_` disponible par défaut lorsqu’Android Studio crée un nouveau projet ?
 
-- \[x]
+- [x]
 
 ```xml
   <activity android:name=".ExampleActivity" />
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -605,7 +605,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </activity>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -616,7 +616,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </activity>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -630,55 +630,55 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q40. Pour préserver la mémoire sur l’appareil, comment pouvez-vous déterminer que l’appareil de l’utilisateur a des capacités de stockage limitées ?
 
-- \[x] Utilisez le `ActivityManager.isLowRamDevice()` pour savoir si un périphérique se définit comme « faible RAM ».
-- \[ ] Utilisez le `Activity.islowRam()` pour savoir si un périphérique se définit comme « faible RAM ».
-- \[ ] Utilisez le `ConnectivityManager.hasLowMemory()` pour savoir si un périphérique se définit comme « faible RAM ».
-- \[ ] Faites une demande de téléchargement d’image et vérifiez l’utilisation restante du stockage de l’appareil.
+- [x] Utilisez le `ActivityManager.isLowRamDevice()` pour savoir si un périphérique se définit comme « faible RAM ».
+- [ ] Utilisez le `Activity.islowRam()` pour savoir si un périphérique se définit comme « faible RAM ».
+- [ ] Utilisez le `ConnectivityManager.hasLowMemory()` pour savoir si un périphérique se définit comme « faible RAM ».
+- [ ] Faites une demande de téléchargement d’image et vérifiez l’utilisation restante du stockage de l’appareil.
 
 #### Q41. Quoi `_not_` un bon moyen de réutiliser le code Android?
 
-- \[ ] Utilisez un module Gradle commun partagé par différents projets Android.
-- \[ ] Préférez créer des vues ou des fragments personnalisés plutôt que des activités.
-- \[x] Préférez construire des activités plutôt que des fragments.
-- \[ ] Décomposer les mises en page de l’interface utilisateur en éléments communs et utiliser `<include/>` pour les inclure dans d’autres fichiers XML de mise en page.
+- [ ] Utilisez un module Gradle commun partagé par différents projets Android.
+- [ ] Préférez créer des vues ou des fragments personnalisés plutôt que des activités.
+- [x] Préférez construire des activités plutôt que des fragments.
+- [ ] Décomposer les mises en page de l’interface utilisateur en éléments communs et utiliser `<include/>` pour les inclure dans d’autres fichiers XML de mise en page.
 
 #### Q42. Quelle disposition convient le mieux aux grandes hiérarchies complexes ?
 
-- \[ ] LinearLayout
-- \[x] ConstraintLayout
-- \[ ] FrameLayout
-- \[ ] RelativeLayout
+- [ ] LinearLayout
+- [x] ConstraintLayout
+- [ ] FrameLayout
+- [ ] RelativeLayout
 
 #### Q43. Vous devez mettre à niveau vers la dernière version du plugin Android Gradle. Quel fichier devez-vous modifier ?
 
-- \[ ] root_project_dir/app/build.gradle.
-- \[ ] root_project_dir/settings.gradle.
-- \[x] root_project_dir/build.gradle.
-- \[ ] root_project_dir/app/gradle.properties.
+- [ ] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/settings.gradle.
+- [x] root_project_dir/build.gradle.
+- [ ] root_project_dir/app/gradle.properties.
 
 [référence](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 
 #### Q44. Pourquoi les développeurs placent-ils souvent le code d’initialisation des applications dans la classe Application ?
 
-- \[x] La classe Application est instanciée avant toute autre classe lorsque le processus de l’application est créé.
-- \[ ] La classe Application est instanciée après toute demande d’autorisation lors de la création du processus de l’application.
-- \[ ] La classe Application est créée chaque fois qu’une nouvelle activité est lancée, ce qui la rend idéale pour le code d’initialisation.
-- \[ ] La classe Application est créée chaque fois qu’un service d’arrière-plan est appelé, ce qui la rend idéale pour le code d’initialisation.
+- [x] La classe Application est instanciée avant toute autre classe lorsque le processus de l’application est créé.
+- [ ] La classe Application est instanciée après toute demande d’autorisation lors de la création du processus de l’application.
+- [ ] La classe Application est créée chaque fois qu’une nouvelle activité est lancée, ce qui la rend idéale pour le code d’initialisation.
+- [ ] La classe Application est créée chaque fois qu’un service d’arrière-plan est appelé, ce qui la rend idéale pour le code d’initialisation.
 
 [référence](https://developer.android.com/reference/android/app/Application)
 
 #### Q45. Quel dossier devez-vous utiliser pour les icônes du lanceur de votre application ?
 
-- \[ ] /dessinable
-- \[ ] /icône
-- \[x] /mipmap
-- \[ ] /lanceur
+- [ ] /dessinable
+- [ ] /icône
+- [x] /mipmap
+- [ ] /lanceur
 
 #### Q46. Quelle définition dessinable vous permet d’obtenir la forme ci-dessous?
 
 ![img](image/43.jpeg)
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -690,7 +690,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
@@ -701,7 +701,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </rectangle>
 ```
 
-- \[x]
+- [x]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -713,7 +713,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -729,10 +729,10 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 ![img](image/44.jpeg)
 
-- \[ ] La vue B n’est pas contrainte horizontalement.
-- \[ ] La vue C a trop de contraintes.
-- \[x] La vue B n’est pas contrainte verticalement.
-- \[ ] La vue C est limitée au parent.
+- [ ] La vue B n’est pas contrainte horizontalement.
+- [ ] La vue C a trop de contraintes.
+- [x] La vue B n’est pas contrainte verticalement.
+- [ ] La vue C est limitée au parent.
 
 #### Q48. Compte tenu de ce snippey de code à partir d’un fichier build.gradle, quel choix n’est pas une variante de build possible ?
 
@@ -754,44 +754,44 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
  }
 ```
 
-- \[ ] productionDébug.
-- \[x] developmentDebug.
-- \[ ] stagingDebug.
-- \[ ] stagingRelease.
+- [ ] productionDébug.
+- [x] developmentDebug.
+- [ ] stagingDebug.
+- [ ] stagingRelease.
 
 [Référence](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
 #### Q49. Quand devriez-vous utiliser le répertoire androidTest pour stocker vos classes de test?
 
-- \[ ] lorsque les tests consistent uniquement en tests unitaires.
-- \[ ] lorsque le nombre de tests à exécuter est important (500+).
-- \[ ] lorsque les tests doivent s’exécuter sur votre ordinateur local.
-- \[x] lorsque les tests doivent s’exécuter sur des appareils réels ou virtuels.
+- [ ] lorsque les tests consistent uniquement en tests unitaires.
+- [ ] lorsque le nombre de tests à exécuter est important (500+).
+- [ ] lorsque les tests doivent s’exécuter sur votre ordinateur local.
+- [x] lorsque les tests doivent s’exécuter sur des appareils réels ou virtuels.
 
 [Référence](https://developer.android.com/studio/test#test_types_and_location)
 
 #### Q50. Compte tenu d’un APK nommé app-internal-debug.apk produit à partir du processus de génération, quelle déclaration est susceptible d’être vraie?
 
-- \[ ] Cet APK est créé sur une machine de développement à partir de la version du produit de débogage.
-- \[ ] Cet APK est créé à partir de la saveur du produit internalDebug.
-- \[ ] Cet APK créé à partir de la saveur du produit de débogage et du type de build interne.
-- \[x] Cet APK est créé à partir du type de build de débogage et de la saveur interne du produit.
+- [ ] Cet APK est créé sur une machine de développement à partir de la version du produit de débogage.
+- [ ] Cet APK est créé à partir de la saveur du produit internalDebug.
+- [ ] Cet APK créé à partir de la saveur du produit de débogage et du type de build interne.
+- [x] Cet APK est créé à partir du type de build de débogage et de la saveur interne du produit.
 
 #### Q51. Lorsque vous tentez de générer votre projet, qu’est-ce que l’erreur suivante peut indiquer ?
 
 `Conversion to Dalvik format filed: Unable to execute dex: method ID not in [0, 0xffff]: 65536`
 
-- \[ ] Vous avez inclus des informations de format incorect dans votre fichier build.gradle.
-- \[ ] Vous avez ajouté plus de 20 dépendances à votre build.gradle.
-- \[x] Vous avez dépassé le nombre total de méthodes pouvant être référencées dans un seul fichier DEX.
-- \[ ] Vous avez une NullPointerException dans votre code.
+- [ ] Vous avez inclus des informations de format incorect dans votre fichier build.gradle.
+- [ ] Vous avez ajouté plus de 20 dépendances à votre build.gradle.
+- [x] Vous avez dépassé le nombre total de méthodes pouvant être référencées dans un seul fichier DEX.
+- [ ] Vous avez une NullPointerException dans votre code.
 
 #### Q52. Quelle instruction, dans le fichier build.gradle, indique correctement que le module correspondant est un module de bibliothèque Android ?
 
-- \[ ] appliquer plugin: 'com.module.library'
-- \[x] appliquer le plugin: 'com.android.library'
-- \[ ] appliquer plugin: 'com.module.library'
-- \[ ] inclure le plugin: 'com.module.library'
+- [ ] appliquer plugin: 'com.module.library'
+- [x] appliquer le plugin: 'com.android.library'
+- [ ] appliquer plugin: 'com.module.library'
+- [ ] inclure le plugin: 'com.module.library'
 
 #### Q53. Compte tenu des dimens.xml fichier suivants, comment définiriez-vous un ImageView avec un espacement moyen en bas ?
 
@@ -803,7 +803,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 </resources>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <ImageView
@@ -813,7 +813,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
       android:src=@drawable/map_pin />
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <ImageView
@@ -824,7 +824,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     android:src=@drawable/map_pin />
 ```
 
-- \[ ]
+- [ ]
 
 ````xml
   <ImageView
@@ -834,7 +834,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
       android:layout_marginBottom="@resources/spacing_medium"
       android:src=@drawable/map_pin />
 
-- \[x]
+- [x]
 
 ```xml
     <ImageView
@@ -847,10 +847,10 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q54. Quel n’est-ce pas un avantage de l’externalisation des ressources d’application telles que l’image et la chaîne à partir d’un code ?
 
-- \[ ] Il permet à Android de choisir la ressource appropriée en fonction de la configuration actuelle pendant l’exécution.
-- \[x] Il vous permet d’avoir des applications plus performantes car le code et les ressources sont séparés.
-- \[ ] Il vous permet de fournir une expérience Ul différente en fonction des paramètres de langue de l’utilisateur.
-- \[ ] Il vous permet de fournir une expérience Ul différente en fonction de la taille de l’appareil de l’utilisateur.
+- [ ] Il permet à Android de choisir la ressource appropriée en fonction de la configuration actuelle pendant l’exécution.
+- [x] Il vous permet d’avoir des applications plus performantes car le code et les ressources sont séparés.
+- [ ] Il vous permet de fournir une expérience Ul différente en fonction des paramètres de langue de l’utilisateur.
+- [ ] Il vous permet de fournir une expérience Ul différente en fonction de la taille de l’appareil de l’utilisateur.
 
 #### Q55. Quel est l’objectif principal de la ligne cinq de cet extrait de code ?
 
@@ -868,40 +868,40 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- \[ ] pour s’assurer que l’activité se termine lorsque savedInstanceState n’est pas null
-- \[x] pour s’assurer que l’activité crée un nouveau fragment chaque fois qu’elle est restaurée à partir d’un état précédent
-- \[ ] pour empêcher l’affichage de deux fragments côte à côte dans les cas où l’activité est restaurée à partir d’un état précédent
-- \[ ] pour éviter la création de fragments qui se chevauchent dans les cas où l’activité est restaurée à partir d’un état antérieur
+- [ ] pour s’assurer que l’activité se termine lorsque savedInstanceState n’est pas null
+- [x] pour s’assurer que l’activité crée un nouveau fragment chaque fois qu’elle est restaurée à partir d’un état précédent
+- [ ] pour empêcher l’affichage de deux fragments côte à côte dans les cas où l’activité est restaurée à partir d’un état précédent
+- [ ] pour éviter la création de fragments qui se chevauchent dans les cas où l’activité est restaurée à partir d’un état antérieur
 
 #### Q56. Quel composant n’est pas un point d’entrée par lequel le système ou un utilisateur peut accéder à votre application ?
 
-- \[ ] activité
-- \[ ] fournisseur de contenu
-- \[x] fragment
-- \[ ] service
+- [ ] activité
+- [ ] fournisseur de contenu
+- [x] fragment
+- [ ] service
 
 #### Q57. Que devez-vous utiliser pour afficher une grande liste déroulante d’éléments ?
 
-- \[ ] ListView
-- \[x] Vue recycleur
-- \[ ] LinearLayout
-- \[ ] Vue de défilement
+- [ ] ListView
+- [x] Vue recycleur
+- [ ] LinearLayout
+- [ ] Vue de défilement
 
 #### Q58. Vous avez créé une classe AboutActivity qui affiche des détails sur votre application. Quel extrait de code vous permet de lancer votre activité ?
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   startService(intention)
   }
 
-- \[x] Intent(this, AboutActivity::class.java).also { intent ->
+- [x] Intent(this, AboutActivity::class.java).also { intent ->
   startActivity(intention)
   }
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   activité(intention)
   }
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   startActivity(intention)
   }
   Explication : Intent(Context packageContext, Class\<?> cls)
@@ -909,74 +909,74 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q59. Quelle est l’utilisation du fichier androidManifest.xml?
 
-- \[x] Il décrit le composant de l’application
-- \[ ] Il déclare le niveau minimum de l’API Android requis par l’application
-- \[ ] Il facilite la fourniture d’un nom uinque pour l’application en spécifiant le nom du package
-- \[ ] Tout ce qui précède
+- [x] Il décrit le composant de l’application
+- [ ] Il déclare le niveau minimum de l’API Android requis par l’application
+- [ ] Il facilite la fourniture d’un nom uinque pour l’application en spécifiant le nom du package
+- [ ] Tout ce qui précède
 
 #### Q60. Quel attribut de l’élément <uses-sdk> est utilisé pour spécifier le niveau d’API minimum requis pour l’exécution de l’application ?
 
-- \[ ] android:targetSdkVersion
-- \[x] android:minSdkVersion
-- \[ ] android:maxSdkVersion
-- \[ ] Aucun des éléments ci-dessus
+- [ ] android:targetSdkVersion
+- [x] android:minSdkVersion
+- [ ] android:maxSdkVersion
+- [ ] Aucun des éléments ci-dessus
 
 #### Q61. Pour réduire votre code dans les versions finales, quel outil Android Studio utilise-t-il ?
 
-- \[x] R8
-- \[ ] ProGuard
-- \[ ] Rétrécisseur
-- \[ ] D8
+- [x] R8
+- [ ] ProGuard
+- [ ] Rétrécisseur
+- [ ] D8
   Explication: Lorsque vous générez votre projet à l’aide du plugin Android Gradle 3.4.0 ou supérieur, le plugin n’utilise plus ProGuard pour effectuer l’optimisation du code au moment de la compilation. Au lieu de cela, le plugin fonctionne avec le compilateur R8 pour gérer
 
 [Référence](https://developer.android.com/studio/build/shrink-code)
 
 #### Q62. Quelle hiérarchie de mise en page est susceptible d’être dessinée le plus rapidement ?
 
-- \[x] A
+- [x] A
   ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
-- \[ ] B
+- [ ] B
   ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
-- \[ ] C
+- [ ] C
   ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
-- \[ ] D
+- [ ] D
   ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### Q63. Quelle est la méthode actuellement recommandée pour gérer les tâches en arrière-plan de longue durée ?
 
-- \[x] Gestionnaire de travail
-- \[ ] AsyncTask
-- \[ ] IntentService
-- \[ ] Fil de discussion
+- [x] Gestionnaire de travail
+- [ ] AsyncTask
+- [ ] IntentService
+- [ ] Fil de discussion
 
 [Référence](https://developer.android.com/guide/background)
 
 #### Q64. Vous devez fournir à vos utilisateurs certaines fonctionnalités de votre application à la demande ou sous forme d’expériences instantanées via Google Play. Quel type de module devez-vous créer ?
 
-- \[ ] module de bibliothèque
-- \[x] module de fonctionnalité dynamique
-- \[ ] Module d’application Android
-- \[ ] Module Google Cloud
+- [ ] module de bibliothèque
+- [x] module de fonctionnalité dynamique
+- [ ] Module d’application Android
+- [ ] Module Google Cloud
 
 1.  [Référence](https://youtu.be/QdfStuj-MuA?t=86)
 2.  [Référence](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### Q65. Quelle approche n’est pas recommandée pour fournir un état hors connexion utile dans votre application ?
 
-- \[ ] mise en cache des données
-- \[ ] stockage local des données
-- \[ ] mise en file d’attente des demandes sortantes à l’action lorsque la connectivité a été perdue
-- \[ ] toujours informer les utilisateurs que la connectivité a été perdue
+- [ ] mise en cache des données
+- [ ] stockage local des données
+- [ ] mise en file d’attente des demandes sortantes à l’action lorsque la connectivité a été perdue
+- [ ] toujours informer les utilisateurs que la connectivité a été perdue
 
 #### Q66. Si vous avez besoin de votre code d’application pour inspecter les informations sur la version actuelle, quelle classe devez-vous utiliser ?
 
-- \[x] `BuildConfig`
-- \[ ] `BuildInfo`
-- \[ ] `ConfigParams`
-- \[ ] `ConfigInfo`
+- [x] `BuildConfig`
+- [ ] `BuildInfo`
+- [ ] `ConfigParams`
+- [ ] `ConfigInfo`
 
 #### Q67. Dans la ConstraintLayout ci-dessous, pourquoi le bouton ne se développerait-il pas pour remplir la largeur du parent ?
 
@@ -993,21 +993,21 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstrantLayout>
 ```
 
-- \[ ] `The button does not have a size`
-- \[x] `The button is not constrained to the end of the parent container`
-- \[ ] `Buttons cannot expand beyond their default size`
-- \[ ] `The button should have its height set to 0dp as well`
+- [ ] `The button does not have a size`
+- [x] `The button is not constrained to the end of the parent container`
+- [ ] `Buttons cannot expand beyond their default size`
+- [ ] `The button should have its height set to 0dp as well`
 
 #### Q68. Qu’est-ce qui n’est pas un cas d’utilisation pour les ressources au ralenti dans vos tests Espresso?
 
-- \[ ] `managing system services`
-- \[x] `processing user input events`
-- \[ ] `loading data from the internet or a local data source`
-- \[ ] `perfoming bitmap transformatinos`
+- [ ] `managing system services`
+- [x] `processing user input events`
+- [ ] `loading data from the internet or a local data source`
+- [ ] `perfoming bitmap transformatinos`
 
 #### Q69. Qu’est-ce qui n’est pas un type de ressource pour fournir des chaînes à votre application ?
 
-- \[ ] `String`
-- \[x] `Text`
-- \[ ] `String-array`
-- \[ ] `Plurals`
+- [ ] `String`
+- [x] `Text`
+- [ ] `String-array`
+- [ ] `Plurals`

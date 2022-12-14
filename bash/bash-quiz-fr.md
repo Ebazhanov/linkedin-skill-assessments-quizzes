@@ -439,9 +439,9 @@ echo "${Linux[@]}"
 #### Q37. Quel fichier vous permet d’enregistrer les modifications apportées à l’environnement shell entre les sessions ?
 
 - [ ] `/etc/bash.conf`
-- \[x] `~/.profile`
-- \[ ] `/etc/bashprofile`
-- \[ ] `~/profile`
+- [x] `~/.profile`
+- [ ] `/etc/bashprofile`
+- [ ] `~/profile`
 
 #### Q38. Compte tenu des autorisations répertoriées sur les données.txt est-il possible que l’utilisateur2 puisse avoir des autorisations de lecture, d’écriture et d’exécution sur les données.txt ?
 
@@ -451,10 +451,10 @@ total 0
 -rwx------+ 1 user1 user1 0 Oct 27 10:54 data.txt
 ```
 
-- \[ ] Non, il est clair que user2 n’a pas d’autorisations de lecture, d’écriture et d’exécution.
-- \[x] Oui, le `+` à la fin de la chaîne d’autorisation à 10 chiffres, cela signifie qu’il y a une liste de contrôle d’accès. Cela pourrait éventuellement donner à l’utilisateur2 des autorisations non visibles par `ls -l`.
-- \[ ] Il est possible que SELinux fournisse des autorisations de lecture, d’écriture et d’exécution pour user2 qui ne sont pas visibles avec `ls -l`.
-- \[ ] Oui, le `+` à la fin de la chaîne d’autorisation à 10 chiffres, cela signifie qu’il existe un jeu d’attributs étendu. Cela pourrait donner à l’utilisateur2 des autorisations pour lire, écrire et exécuter des données.txt.
+- [ ] Non, il est clair que user2 n’a pas d’autorisations de lecture, d’écriture et d’exécution.
+- [x] Oui, le `+` à la fin de la chaîne d’autorisation à 10 chiffres, cela signifie qu’il y a une liste de contrôle d’accès. Cela pourrait éventuellement donner à l’utilisateur2 des autorisations non visibles par `ls -l`.
+- [ ] Il est possible que SELinux fournisse des autorisations de lecture, d’écriture et d’exécution pour user2 qui ne sont pas visibles avec `ls -l`.
+- [ ] Oui, le `+` à la fin de la chaîne d’autorisation à 10 chiffres, cela signifie qu’il existe un jeu d’attributs étendu. Cela pourrait donner à l’utilisateur2 des autorisations pour lire, écrire et exécuter des données.txt.
 
 #### Q39. Qu’est-ce que ce script accomplit ?
 
@@ -468,10 +468,10 @@ for (( i=0; $i < ${#ARRAY[@]}; i+=1 ));do
 done
 ```
 
-- \[ ] Il trie le tableau associatif nommé ARRAY et stocke les résultats dans un tableau indexé nommé KEYS. Il utilise ensuite ce tableau trié pour parcourir en boucle le tableau associatif ARRAY.
-- \[x] À l’aide d’une boucle de style C, il effectue une boucle à travers le tableau associatif nommé ARRAY à l’aide des clés du tableau associatif et génère à la fois la clé et les valeurs de chaque élément.
-- \[ ] Il crée un tableau indexé du tableau associatif nommé ARRAY. Il utilise ensuite un style C pour boucle et le tableau indexé pour parcourir en boucle tous les éléments du tableau associatif, en sortant la clé et la valeur de chaque élément de tableau à l’aide du numéro d’index.
-- \[ ] Il crée un tableau associatif nommé ARRAY, qu’il effectue en boucle à l’aide d’un style C pour boucle et des numéros d’index de chaque élément dans les clés du tableau associatif, en sortant la valeur de chaque élément.
+- [ ] Il trie le tableau associatif nommé ARRAY et stocke les résultats dans un tableau indexé nommé KEYS. Il utilise ensuite ce tableau trié pour parcourir en boucle le tableau associatif ARRAY.
+- [x] À l’aide d’une boucle de style C, il effectue une boucle à travers le tableau associatif nommé ARRAY à l’aide des clés du tableau associatif et génère à la fois la clé et les valeurs de chaque élément.
+- [ ] Il crée un tableau indexé du tableau associatif nommé ARRAY. Il utilise ensuite un style C pour boucle et le tableau indexé pour parcourir en boucle tous les éléments du tableau associatif, en sortant la clé et la valeur de chaque élément de tableau à l’aide du numéro d’index.
+- [ ] Il crée un tableau associatif nommé ARRAY, qu’il effectue en boucle à l’aide d’un style C pour boucle et des numéros d’index de chaque élément dans les clés du tableau associatif, en sortant la valeur de chaque élément.
 
 #### Q40. Quel fichier correspondrait au code ci-dessous?
 
@@ -479,10 +479,10 @@ done
 ls Hello[[.vertical-line.]]World
 ```
 
-- \[ ] Rien, il s’agit d’un fichier glob non valide.
-- \[ ] `Hello.vertical-line.World`
-- \[ ] `Hello[[.vertical-line.]]World`
-- \[x] `Hello|World`
+- [ ] Rien, il s’agit d’un fichier glob non valide.
+- [ ] `Hello.vertical-line.World`
+- [ ] `Hello[[.vertical-line.]]World`
+- [x] `Hello|World`
 
 #### Q41. Qu’y aura-t-il dedans.txt?
 
@@ -490,10 +490,10 @@ ls Hello[[.vertical-line.]]World
 ls nonexistentfile | grep "No such file" > out.txt
 ```
 
-- \[ ] Aucun fichier de ce type
-- \[ ] ls: impossible d’accéder au fichier inexistant: Aucun fichier ou répertoire de ce type
-- \[x] Rien, dehors.txt ne sera vide.
-- \[ ] Ce sera le contenu du fichier inexistant.
+- [ ] Aucun fichier de ce type
+- [ ] ls: impossible d’accéder au fichier inexistant: Aucun fichier ou répertoire de ce type
+- [x] Rien, dehors.txt ne sera vide.
+- [ ] Ce sera le contenu du fichier inexistant.
 
 #### Q42. Pour que le script imprime « Est numérique » à l’écran, que devrait entrer l’utilisateur lorsqu’il y est invité ?
 
@@ -507,33 +507,33 @@ else
 fi
 ```
 
-- \[ ] Toute séquence de caractères qui inclut un entier
-- \[ ] L’utilisateur devrait entrer la séquence de caractères de `^[0-9]]+$` Seulement cela s’avérera vrai et « Est numérique » serait imprimé à l’écran en raison d’une syntaxe incorrecte. En encapsulant l’expression régulière entre guillemets doubles, toutes les correspondances échouent, à l’exception de la chaîne de texte `^[0-9]+$`
-- \[ ] Un ou plusieurs caractères qui n’incluent que des entiers
-- \[x] En raison d’une erreur de syntaxe, il est impossible d’obtenir le script pour imprimer « Est numérique »
+- [ ] Toute séquence de caractères qui inclut un entier
+- [ ] L’utilisateur devrait entrer la séquence de caractères de `^[0-9]]+$` Seulement cela s’avérera vrai et « Est numérique » serait imprimé à l’écran en raison d’une syntaxe incorrecte. En encapsulant l’expression régulière entre guillemets doubles, toutes les correspondances échouent, à l’exception de la chaîne de texte `^[0-9]+$`
+- [ ] Un ou plusieurs caractères qui n’incluent que des entiers
+- [x] En raison d’une erreur de syntaxe, il est impossible d’obtenir le script pour imprimer « Est numérique »
 
 Le regex ne doit pas être cité pour fonctionner correctement.
 
 #### Q43. Comment trouveriez-vous la dernière commande de copie exécutée dans votre historique ?
 
-- \[ ] | d’histoire trouver cp
-- \[x] | historique grep cp
-- \[ ] historique grep cp
-- \[ ] cp historique
+- [ ] | d’histoire trouver cp
+- [x] | historique grep cp
+- [ ] historique grep cp
+- [ ] cp historique
 
 #### Q44. Pour écrire un script qui parcourt les fichiers d’un répertoire, lequel des éléments suivants pourriez-vous utiliser ?
 
-- \[x] `bash for i in $(ls); do ... done`
-- \[ ] `bash for $(ls); do ... done`
-- \[ ] `bash for i in $ls; do ... done`
-- \[ ] `bash for $ls; do ... done`
+- [x] `bash for i in $(ls); do ... done`
+- [ ] `bash for $(ls); do ... done`
+- [ ] `bash for i in $ls; do ... done`
+- [ ] `bash for $ls; do ... done`
 
 #### Q45. Lors de l’exécution d’une commande et de la transmission de la sortie de cette commande à une autre commande, quel caractère vous permet d’enchaîner ces commandes ?
 
-- \[x] |
-- \[ ] ->
-- \[ ] #
-- \[ ] @
+- [x] |
+- [ ] ->
+- [ ] #
+- [ ] @
 
 #### Q46. Dans le script ci-dessous, qu’est-ce qui est **salutation**?
 
@@ -543,17 +543,17 @@ greeting="Hello"
 echo $greeting, everybody!
 ```
 
-- \[ ] une commande
-- \[ ] une boucle
-- \[ ] un paramètre
-- \[x] une variable
+- [ ] une commande
+- [ ] une boucle
+- [ ] un paramètre
+- [x] une variable
 
 #### Q47. Quelle instruction vérifie si la variable num est supérieure à cinq ?
 
-- \[ ] `(( num -gt 5 ))`
-- \[ ] `[[$num -lt 5]]`
-- \[x] `(( num > 5 ))`
-- \[ ] `num > 5`
+- [ ] `(( num -gt 5 ))`
+- [ ] `[[$num -lt 5]]`
+- [x] `(( num > 5 ))`
+- [ ] `num > 5`
 
 [référence](https://tldp.org/LDP/abs/html/dblparens.html)
 
@@ -571,14 +571,14 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- \[x] a
+- [x] a
 
 ```bash
 apple
 banana
 ```
 
-- \[ ] b
+- [ ] b
 
 ```bash
 apple
@@ -589,7 +589,7 @@ pineapple
 strawberry
 ```
 
-- \[ ] c
+- [ ] c
 
 ```bash
 apple
@@ -599,7 +599,7 @@ banapple
 pineapple
 ```
 
-- \[ ] d
+- [ ] d
 
 ```bash
 apple
@@ -613,10 +613,10 @@ pineapple
 
 #### Q49. Lorsqu’elle est utilisée à partir d’un script, quelle variable contient le nom du script ?
 
-- \[x] 0 $
-- \[ ] $# // nombre de paramètres positionnels
-- \[ ] $$ // pid du shell actuel
-- \[ ] $@ // construction de type tableau de tous les paramètres positionnels
+- [x] 0 $
+- [ ] $# // nombre de paramètres positionnels
+- [ ] $$ // pid du shell actuel
+- [ ] $@ // construction de type tableau de tous les paramètres positionnels
 
 #### Q50. Que signifie le + à la fin des autorisations de fichier à 10 chiffres sur les données.txt ?
 
@@ -625,10 +625,10 @@ ls -l
 -rwx------+ 1 user1 u1 0 Oct 1 10:00 data.txt
 ```
 
-- \[ ] Il existe un contexte de sécurité SELinux
-- \[ ] Le bit collant est défini et le fichier restera dans la RAM pour la vitesse
-- \[x] Il existe une liste de contrôle d’accès
-- \[ ] Il existe un attribut étendu tel qu’un ensemble immuable
+- [ ] Il existe un contexte de sécurité SELinux
+- [ ] Le bit collant est défini et le fichier restera dans la RAM pour la vitesse
+- [x] Il existe une liste de contrôle d’accès
+- [ ] Il existe un attribut étendu tel qu’un ensemble immuable
 
 #### Q51. Dans Bash, que fait le commentaire ci-dessous ?
 
@@ -636,10 +636,10 @@ ls -l
 cd -
 ```
 
-- \[x] Il vous déplace vers le répertoire dans lequel vous étiez précédemment.
-- \[ ] Il vous déplace vers votre dossier d’accueil (quel que soit votre répertoire de travail actuel).
-- \[ ] Il supprime le répertoire actuel
-- \[ ] Il vous déplace un répertoire au-dessus de votre répertoire de travail actuel.
+- [x] Il vous déplace vers le répertoire dans lequel vous étiez précédemment.
+- [ ] Il vous déplace vers votre dossier d’accueil (quel que soit votre répertoire de travail actuel).
+- [ ] Il supprime le répertoire actuel
+- [ ] Il vous déplace un répertoire au-dessus de votre répertoire de travail actuel.
 
 #### Q52. Que fait cette commande ?
 
@@ -647,10 +647,10 @@ cd -
 cat > notes -
 ```
 
-- \[x] Accepte le texte de l’entrée standard et le place dans des « notes »
-- \[ ] Crée des « notes » et quitte
-- \[ ] Génère le contenu des notes et le supprime
-- \[ ] Ajoute du texte aux « notes » existantes
+- [x] Accepte le texte de l’entrée standard et le place dans des « notes »
+- [ ] Crée des « notes » et quitte
+- [ ] Génère le contenu des notes et le supprime
+- [ ] Ajoute du texte aux « notes » existantes
 
 #### Q53. Quel est le résultat de:
 
@@ -659,26 +659,26 @@ VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
 ```
 
-- \[x] Ce vieux rouleau est venu rouler
-- \[ ] Ce vieil homme est venu homme
-- \[ ] Ce vieil homme est venu rouler
-- \[ ] Ce vieux est venu
+- [x] Ce vieux rouleau est venu rouler
+- [ ] Ce vieil homme est venu homme
+- [ ] Ce vieil homme est venu rouler
+- [ ] Ce vieux est venu
 
 #### Q54. Le shell examine le contenu d’une variable particulière pour identifier les programmes qu’il peut exécuter. Quel est le nom de cette variable ?
 
-- \[ ] $INCLUDE
-- \[x] $PATH
-- \[ ] $PROGRAM
-- \[ ] $PATHS
+- [ ] $INCLUDE
+- [x] $PATH
+- [ ] $PROGRAM
+- [ ] $PATHS
 
 #### Q55. Quelle instruction utiliseriez-vous pour l’imprimer dans la console ?
 
 `Shall we play a game? yes\no`
 
-- \[ ] `echo "Shall we play a game? yes/\no"`
-- \[ ] `echo "Shall we play a game\? yes\\no"`
-- \[x] `echo "Shall we play a game? yes\\no"`
-- \[ ] `echo "Shall we play a game? yes\no"`
+- [ ] `echo "Shall we play a game? yes/\no"`
+- [ ] `echo "Shall we play a game\? yes\\no"`
+- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\no"`
 
 #### Q56. Étant donné un répertoire avec ces sept fichiers, que resterait-il après l’exécution de ces commandes?
 
@@ -697,7 +697,7 @@ textfile2.txt
 rm !(*gif|*jpg)`
 ```
 
-- \[ ] a
+- [ ] a
 
 ```bash
 archive.tar
@@ -709,7 +709,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- \[ ] b
+- [ ] b
 
 ```bash
 archive.tar
@@ -717,11 +717,11 @@ textfile1.txt
 textfile2.txt
 ```
 
-- \[ ] c
+- [ ] c
 
 Tous ces fichiers seront supprimés
 
-- \[x] d:
+- [x] d:
 
 ```bash
 image1.gif
@@ -740,26 +740,26 @@ if [ $var > 5 ]; then
 fi
 ```
 
-- \[ ] Il n’y aura pas de résultats inattendus. Ce script fonctionne tel quel et la sortie sera « 8 est supérieur à 5 ».
-- \[ ] La comparaison ne pourra pas gérer les nombres à virgule flottante, car Bash ne gère que les entiers. Cet exemple génère donc un message d’erreur si la valeur de $var est remplacée par « 8.8 ».
-- \[x] Il y aura un fichier dans le répertoire actuel nommé 5.
-- \[ ] La variable $var n’est pas citée, ce qui entraînera un fractionnement des mots. Ce script échouera avec un message « opérateur unaire attendu » si vous modifiez la valeur de
+- [ ] Il n’y aura pas de résultats inattendus. Ce script fonctionne tel quel et la sortie sera « 8 est supérieur à 5 ».
+- [ ] La comparaison ne pourra pas gérer les nombres à virgule flottante, car Bash ne gère que les entiers. Cet exemple génère donc un message d’erreur si la valeur de $var est remplacée par « 8.8 ».
+- [x] Il y aura un fichier dans le répertoire actuel nommé 5.
+- [ ] La variable $var n’est pas citée, ce qui entraînera un fractionnement des mots. Ce script échouera avec un message « opérateur unaire attendu » si vous modifiez la valeur de
 
 #### Q58. Quel est le résultat de ce script ?
 
 ![question](images/Q60/question.png?raw=png)
 
-- \[ ] Il supprime le répertoire 'foo' et les fichiers qu’il contient.
-- \[ ] Il supprime tous les fichiers à l’exception de ceux du répertoire actuel.
-- \[x] Il supprime tous les fichiers du répertoire actif.
-- \[ ] Il supprime tous les fichiers sauf ceux du répertoire 'foo'.
+- [ ] Il supprime le répertoire 'foo' et les fichiers qu’il contient.
+- [ ] Il supprime tous les fichiers à l’exception de ceux du répertoire actuel.
+- [x] Il supprime tous les fichiers du répertoire actif.
+- [ ] Il supprime tous les fichiers sauf ceux du répertoire 'foo'.
 
 #### Q59. Lequel est vrai?
 
-- \[x] Les règles de stratégie SELinux sont vérifiées après les règles DAC.
-- \[ ] Les règles de stratégie SELinux sont vérifiées avant les règles DAC
-- \[ ] Les règles de stratégie SELinux ne sont jamais vérifiées après les règles DAC.
-- \[ ] Aucun de ces éléments
+- [x] Les règles de stratégie SELinux sont vérifiées après les règles DAC.
+- [ ] Les règles de stratégie SELinux sont vérifiées avant les règles DAC
+- [ ] Les règles de stratégie SELinux ne sont jamais vérifiées après les règles DAC.
+- [ ] Aucun de ces éléments
 
 [référence](https://unix.stackexchange.com/questions/16828/what-roles-do-dac-file-permissions-acl-and-mac-selinux-play-in-linux-file-s)
 
@@ -769,10 +769,10 @@ fi
 w
 ```
 
-- \[ ] Il n’affiche pas d’informations sur les utilisateurs actuellement sur la machine.
-- \[x] Il affiche des informations sur les utilisateurs actuellement sur la machine.
-- \[ ] Il affiche des informations sur les utilisateurs actuellement sur l’autre machine.
-- \[ ] Aucun de ces éléments
+- [ ] Il n’affiche pas d’informations sur les utilisateurs actuellement sur la machine.
+- [x] Il affiche des informations sur les utilisateurs actuellement sur la machine.
+- [ ] Il affiche des informations sur les utilisateurs actuellement sur l’autre machine.
+- [ ] Aucun de ces éléments
 
 #### Q61. Quelles options sed devriez-vous utiliser pour changer l’avant-dernière instance de variable en rock afin qu’elle se lise comme suit:
 
@@ -783,45 +783,45 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- \[x] s/(.\*)variable(.\*variable)/\1rock\2/'
-- \[ ] s/variable/roche/'
-- \[ ] s/variable/roche/g'
-- \[ ] s/(.\*)variable(.\*variable)/\1rock\2/'
+- [x] s/(.\*)variable(.\*variable)/\1rock\2/'
+- [ ] s/variable/roche/'
+- [ ] s/variable/roche/g'
+- [ ] s/(.\*)variable(.\*variable)/\1rock\2/'
 
 #### Q62. Pour créer un script Bash nommé script.sh exécutable, que devez-vous exécuter ?
 
-- \[ ] script.sh exécutif
-- \[x] chmod +x script.sh
-- \[ ] bash script.sh
-- \[ ] script.sh source
+- [ ] script.sh exécutif
+- [x] chmod +x script.sh
+- [ ] bash script.sh
+- [ ] script.sh source
 
 #### Q63. Comment créer un terminal partagé dans un shell Bash ?
 
-- \[x] écran
-- \[ ] écran -X
-- \[ ] écran --partagé
-- \[ ] terminal -partagé
+- [x] écran
+- [ ] écran -X
+- [ ] écran --partagé
+- [ ] terminal -partagé
 
 #### Q64. Quel opérateur envoie la sortie de ls dans un fichier pour une utilisation ultérieure ?
 
-- \[ ] ls < liste de fichiers.txt
-- \[ ] ls ¦ liste de fichiers.txt
-- \[x] ls > liste de fichiers.txt
-- \[ ] ls - liste de fichiers.txt
+- [ ] ls < liste de fichiers.txt
+- [ ] ls ¦ liste de fichiers.txt
+- [x] ls > liste de fichiers.txt
+- [ ] ls - liste de fichiers.txt
 
 #### Q65. Lorsque l’on compare les éléments avec la casse, quel énoncé indique la fin du bloc d’évaluation?
 
-- \[ ] arrêt
-- \[x] esac
-- \[ ] fait
-- \[ ] sortie
+- [ ] arrêt
+- [x] esac
+- [ ] fait
+- [ ] sortie
 
 #### Q66. Pour exécuter un groupe de commandes sans générer de sous-shell, quelle syntaxe utiliseriez-vous ?
 
-- \[ ] sh, commande1; commande2
-- \[ ] { command1; command2; }
-- \[ ] (( command1; command2 ))
-- \[x] commande1 ; commande2
+- [ ] sh, commande1; commande2
+- [ ] { command1; command2; }
+- [ ] (( command1; command2 ))
+- [x] commande1 ; commande2
 
 #### Q67. Quels sont les résultats de la commande avec un utilisateur nommé jon ?
 
@@ -829,38 +829,38 @@ echo "$var" | sed _____
 echo 'Hello, $(whoami)!'
 ```
 
-- \[ ] Bonjour, $(jon)!
-- \[ ] Bonjour, jon!
-- \[x] Bonjour, $(whoami)!
-- \[ ] Bonjour, whoami!
+- [ ] Bonjour, $(jon)!
+- [ ] Bonjour, jon!
+- [x] Bonjour, $(whoami)!
+- [ ] Bonjour, whoami!
 
 #### Q68. Comment copier un répertoire sur un autre système avec compression ?
 
-- \[ ] tar -ssh user@192.158.1.1 /bin/newfile
-- \[x] tar cvzf - /wwwdata | ssh root@192.168.1.201 « dd of=/backup/wwwdata.tar.gz »
-- \[ ] Vous ne pouvez pas compresser le flux
-- \[ ] répertoire scp -r user@192.168.1.1:/tmp
+- [ ] tar -ssh user@192.158.1.1 /bin/newfile
+- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 « dd of=/backup/wwwdata.tar.gz »
+- [ ] Vous ne pouvez pas compresser le flux
+- [ ] répertoire scp -r user@192.168.1.1:/tmp
 
 #### Q69. Pour affecter la commande `ls -lah` à la commande de raccourci `lh`, quelle commande devez-vous utiliser ?
 
-- \[x] alias lh='ls -lah'
-- \[ ] lien lh='ls -lah'
-- \[ ] alias 'ls -lah'=lh
-- \[ ] lh | ls -lah
+- [x] alias lh='ls -lah'
+- [ ] lien lh='ls -lah'
+- [ ] alias 'ls -lah'=lh
+- [ ] lh | ls -lah
 
 #### Q70. Quelle instruction imprimera tous les fichiers .cvs complets dans le répertoire de base ou les sous-répertoires sans afficher d’erreurs ?
 
-- \[ ] trouver $USER_DIR -name « \*.csv » 2>/dev/null
-- \[ ] trouver $HOME -name « \*.csv » 1>/dev/null
-- \[x] trouver $HOME -name « \*.csv » 2>/dev/null
-- \[ ] trouver HOME -name « \*.csv » 1>/dev/null
+- [ ] trouver $USER_DIR -name « \*.csv » 2>/dev/null
+- [ ] trouver $HOME -name « \*.csv » 1>/dev/null
+- [x] trouver $HOME -name « \*.csv » 2>/dev/null
+- [ ] trouver HOME -name « \*.csv » 1>/dev/null
 
 #### Q71. Dans Bash, qu’est-ce qu’un # à la fin de la chaîne d’invite par défaut indique ?
 
-- \[x] que l’utilisateur agit en tant que root
-- \[ ] que le répertoire de travail actuel est la racine du système de fichiers
-- \[ ] qu’il existe des mises à jour pour le système disponibles
-- \[ ] que l’utilisateur n’est pas privilégié
+- [x] que l’utilisateur agit en tant que root
+- [ ] que le répertoire de travail actuel est la racine du système de fichiers
+- [ ] qu’il existe des mises à jour pour le système disponibles
+- [ ] que l’utilisateur n’est pas privilégié
 
 #### Q72. Quelle sera la sortie de cette commande ?
 
@@ -875,14 +875,14 @@ filec.txt
 $ ls -l file[^abc]*.txt
 ```
 
-- \[x] A
+- [x] A
 
 ```bash
 file1.txt
 file10.txt
 ```
 
-- \[ ] B
+- [ ] B
 
 ```bash
 file10.txt
@@ -893,13 +893,13 @@ fileb.txt
 filec.txt
 ```
 
-- \[ ] C
+- [ ] C
 
 ```bash
 fileabc.txt filea.txt fileb.txt filec.txt
 ```
 
-- \[ ] D
+- [ ] D
 
 ```bash
 filea.txt
@@ -921,7 +921,7 @@ cat <<EOF
 EOF
 ```
 
-- \[ ] A
+- [ ] A
 
 ```bash
 This is line 1.
@@ -929,13 +929,13 @@ This is line 2.
 This is line 3.
 ```
 
-- \[ ] B
+- [ ] B
 
 ```bash
 ------------------------This is line 1.This is line 2.This is line 3.------------------------
 ```
 
-- \[x] C
+- [x] C
 
 ```bash
 ------------------------
@@ -945,7 +945,7 @@ This is line 3.
 ------------------------
 ```
 
-- \[ ] D
+- [ ] D
 
 ```bash
 ------------------------
@@ -967,10 +967,10 @@ echo -n 5 >&3
 exec 3>&-
 ```
 
-- \[ ] 123446789
-- \[ ] le symbole du trait d’union (-)
-- \[x] 123456789
-- \[ ] le chiffre 5, qui est écrit dans le fichier à l’aide de l’écho
+- [ ] 123446789
+- [ ] le symbole du trait d’union (-)
+- [x] 123456789
+- [ ] le chiffre 5, qui est écrit dans le fichier à l’aide de l’écho
 
 Voir [Redirection d’E/S](https://tldp.org/LDP/abs/html/io-redirection.html)
 
@@ -978,10 +978,10 @@ Voir aussi : [Quelle est la différence entre « echo » et « echo -n » ?](htt
 
 #### Q75. Quelle variable contient l’ID de processus (PID) du script pendant son exécution ?
 
-- \[ ] $ID
-- \[ ] $ #
-- \[ ] $ @
-- \[x] $$
+- [ ] $ID
+- [ ] $ #
+- [ ] $ @
+- [x] $$
 
 #### Q76. En combinant le globbing étendu et l’expansion des paramètres, quelle serait la valeur de la VAR ?
 
@@ -991,10 +991,10 @@ Voir aussi : [Quelle est la différence entre « echo » et « echo -n » ?](htt
     VAR=${VAR##+([[:space:]])}; VAR=${VAR%%+([[:space:]])};
     echo "$VAR"
 
-- \[ ] `<pre> This is... a string of characters</pre>`
-- \[ ] `<pre> This is...a string of characters</pre>`
-- \[ ] `<pre>This is... a string of characters</pre>`
-- \[ ] `<pre>This is...a string of characters</pre>`
+- [ ] `<pre> This is... a string of characters</pre>`
+- [ ] `<pre> This is...a string of characters</pre>`
+- [ ] `<pre>This is... a string of characters</pre>`
+- [ ] `<pre>This is...a string of characters</pre>`
 
 Références:
 
@@ -1003,7 +1003,7 @@ Références:
 
 #### Q77. Quel opérateur indique au shell d’exécuter une commande donnée en arrière-plan ?
 
-- \[ ] !
-- \[ ] &&
-- \[x] &
-- \[ ] $
+- [ ] !
+- [ ] &&
+- [x] &
+- [ ] $

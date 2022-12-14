@@ -481,8 +481,8 @@ ls Hello[[.vertical-line.]]World
 
 - [ ] Niente, questo è un file glob non valido.
 - [ ] `Hello.vertical-line.World`
-- \[ ] `Hello[[.vertical-line.]]World`
-- \[x] `Hello|World`
+- [ ] `Hello[[.vertical-line.]]World`
+- [x] `Hello|World`
 
 #### D41. Cosa ci sarà in out.txt?
 
@@ -490,10 +490,10 @@ ls Hello[[.vertical-line.]]World
 ls nonexistentfile | grep "No such file" > out.txt
 ```
 
-- \[ ] Nessun file di questo tipo
-- \[ ] ls: impossibile accedere a inesistentfile: Nessun file o directory di questo tipo
-- \[x] Niente, fuori.txt sarà vuoto.
-- \[ ] Sarà il contenuto di un file inesistente.
+- [ ] Nessun file di questo tipo
+- [ ] ls: impossibile accedere a inesistentfile: Nessun file o directory di questo tipo
+- [x] Niente, fuori.txt sarà vuoto.
+- [ ] Sarà il contenuto di un file inesistente.
 
 #### D42. Affinché lo script stampi "È numerico" sullo schermo, cosa dovrebbe inserire l'utente quando richiesto?
 
@@ -507,33 +507,33 @@ else
 fi
 ```
 
-- \[ ] Qualsiasi sequenza di caratteri che include un numero intero
-- \[ ] L'utente dovrebbe inserire la sequenza di caratteri di `^[0-9]]+$` Solo questo si rivelerà vero e "È numerico" verrà stampato sullo schermo a causa di una sintassi errata. Incapsulando l'espressione regolare tra virgolette doppie, ogni corrispondenza avrà esito negativo tranne la stringa di testo `^[0-9]+$`
-- \[ ] Uno o più caratteri che includono solo numeri interi
-- \[x] A causa di un errore di sintassi è impossibile ottenere lo script per stampare "È numerico"
+- [ ] Qualsiasi sequenza di caratteri che include un numero intero
+- [ ] L'utente dovrebbe inserire la sequenza di caratteri di `^[0-9]]+$` Solo questo si rivelerà vero e "È numerico" verrà stampato sullo schermo a causa di una sintassi errata. Incapsulando l'espressione regolare tra virgolette doppie, ogni corrispondenza avrà esito negativo tranne la stringa di testo `^[0-9]+$`
+- [ ] Uno o più caratteri che includono solo numeri interi
+- [x] A causa di un errore di sintassi è impossibile ottenere lo script per stampare "È numerico"
 
 La regex non deve essere citata per funzionare correttamente.
 
 #### D43. Come troveresti l'ultimo comando di copia eseguito nella tua cronologia?
 
-- \[ ] storia | trova cp
-- \[x] storia | grep cp
-- \[ ] grep cp storia
-- \[ ] cp storia
+- [ ] storia | trova cp
+- [x] storia | grep cp
+- [ ] grep cp storia
+- [ ] cp storia
 
 #### D44. Per scrivere uno script che scorre i file in una directory, quale dei seguenti elementi è possibile utilizzare?
 
-- \[x] `bash for i in $(ls); do ... done`
-- \[ ] `bash for $(ls); do ... done`
-- \[ ] `bash for i in $ls; do ... done`
-- \[ ] `bash for $ls; do ... done`
+- [x] `bash for i in $(ls); do ... done`
+- [ ] `bash for $(ls); do ... done`
+- [ ] `bash for i in $ls; do ... done`
+- [ ] `bash for $ls; do ... done`
 
 #### D45. Quando si esegue un comando e si passa l'output di quel comando a un altro comando, quale carattere consente di concatenare questi comandi insieme?
 
-- \[x] |
-- \[ ] ->
-- \[ ] #
-- \[ ] @
+- [x] |
+- [ ] ->
+- [ ] #
+- [ ] @
 
 #### D46. Nello script mostrato di seguito, cos'è **saluto**?
 
@@ -543,17 +543,17 @@ greeting="Hello"
 echo $greeting, everybody!
 ```
 
-- \[ ] un comando
-- \[ ] un ciclo
-- \[ ] un parametro
-- \[x] una variabile
+- [ ] un comando
+- [ ] un ciclo
+- [ ] un parametro
+- [x] una variabile
 
 #### D47. Quale istruzione controlla se la variabile num è maggiore di cinque?
 
-- \[ ] `(( num -gt 5 ))`
-- \[ ] `[[$num -lt 5]]`
-- \[x] `(( num > 5 ))`
-- \[ ] `num > 5`
+- [ ] `(( num -gt 5 ))`
+- [ ] `[[$num -lt 5]]`
+- [x] `(( num > 5 ))`
+- [ ] `num > 5`
 
 [riferimento](https://tldp.org/LDP/abs/html/dblparens.html)
 
@@ -571,14 +571,14 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- \[x] a
+- [x] a
 
 ```bash
 apple
 banana
 ```
 
-- \[ ] b
+- [ ] b
 
 ```bash
 apple
@@ -589,7 +589,7 @@ pineapple
 strawberry
 ```
 
-- \[ ] c
+- [ ] c
 
 ```bash
 apple
@@ -599,7 +599,7 @@ banapple
 pineapple
 ```
 
-- \[ ] d
+- [ ] d
 
 ```bash
 apple
@@ -613,10 +613,10 @@ pineapple
 
 #### D49. Se utilizzato dall'interno di uno script, quale variabile contiene il nome dello script?
 
-- \[x] $ 0
-- \[ ] $# // numero di parametri posizionali
-- \[ ] $$ // pid del guscio corrente
-- \[ ] $@ // costrutto array-like di tutti i parametri posizionali
+- [x] $ 0
+- [ ] $# // numero di parametri posizionali
+- [ ] $$ // pid del guscio corrente
+- [ ] $@ // costrutto array-like di tutti i parametri posizionali
 
 #### D50. Cosa significa il + alla fine delle autorizzazioni di file a 10 cifre su data.txt?
 
@@ -625,10 +625,10 @@ ls -l
 -rwx------+ 1 user1 u1 0 Oct 1 10:00 data.txt
 ```
 
-- \[ ] Esiste un contesto di sicurezza SELinux
-- \[ ] Il bit appiccicoso è impostato e il file rimarrà nella RAM per la velocità
-- \[x] Esiste un elenco di controllo di accesso
-- \[ ] Esiste un attributo esteso come l'insieme immutabile
+- [ ] Esiste un contesto di sicurezza SELinux
+- [ ] Il bit appiccicoso è impostato e il file rimarrà nella RAM per la velocità
+- [x] Esiste un elenco di controllo di accesso
+- [ ] Esiste un attributo esteso come l'insieme immutabile
 
 #### D51. In Bash, cosa fa il commento qui sotto?
 
@@ -636,10 +636,10 @@ ls -l
 cd -
 ```
 
-- \[x] Ti sposta nella directory in cui ti trovavi in precedenza.
-- \[ ] Ti sposta nella tua cartella Inizio (qualunque sia la tua attuale directory di lavoro).
-- \[ ] Elimina la directory corrente
-- \[ ] Ti sposta di una directory sopra la tua attuale directory di lavoro.
+- [x] Ti sposta nella directory in cui ti trovavi in precedenza.
+- [ ] Ti sposta nella tua cartella Inizio (qualunque sia la tua attuale directory di lavoro).
+- [ ] Elimina la directory corrente
+- [ ] Ti sposta di una directory sopra la tua attuale directory di lavoro.
 
 #### D52. A cosa serve questo comando?
 
@@ -647,10 +647,10 @@ cd -
 cat > notes -
 ```
 
-- \[x] Accetta il testo dall'input standard e lo inserisce in "note"
-- \[ ] Crea "note" ed esce
-- \[ ] Restituisce il contenuto delle note e lo elimina
-- \[ ] Aggiunge testo alle "note" esistenti
+- [x] Accetta il testo dall'input standard e lo inserisce in "note"
+- [ ] Crea "note" ed esce
+- [ ] Restituisce il contenuto delle note e lo elimina
+- [ ] Aggiunge testo alle "note" esistenti
 
 #### D53. Qual è l'output di:
 
@@ -659,26 +659,26 @@ VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
 ```
 
-- \[x] Questa vecchia laminazione è arrivata a rotolare
-- \[ ] Questo vecchio è venuto uomo
-- \[ ] Questo vecchio è venuto rotolando
-- \[ ] Questo vecchio è venuto
+- [x] Questa vecchia laminazione è arrivata a rotolare
+- [ ] Questo vecchio è venuto uomo
+- [ ] Questo vecchio è venuto rotolando
+- [ ] Questo vecchio è venuto
 
 #### D54. La shell esamina il contenuto di una particolare variabile per identificare quali programmi può eseguire. Qual è il nome di questa variabile?
 
-- \[ ] $INCLUDE
-- \[x] $PATH
-- \[ ] $PROGRAM
-- \[ ] $PATHS
+- [ ] $INCLUDE
+- [x] $PATH
+- [ ] $PROGRAM
+- [ ] $PATHS
 
 #### D55. Quale dichiarazione useresti per stamparlo nella console?
 
 `Shall we play a game? yes\no`
 
-- \[ ] `echo "Shall we play a game? yes/\no"`
-- \[ ] `echo "Shall we play a game\? yes\\no"`
-- \[x] `echo "Shall we play a game? yes\\no"`
-- \[ ] `echo "Shall we play a game? yes\no"`
+- [ ] `echo "Shall we play a game? yes/\no"`
+- [ ] `echo "Shall we play a game\? yes\\no"`
+- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\no"`
 
 #### D56. Data una directory con questi sette file, cosa rimarrebbe dopo l'esecuzione di questi comandi?
 
@@ -697,7 +697,7 @@ textfile2.txt
 rm !(*gif|*jpg)`
 ```
 
-- \[ ] a
+- [ ] a
 
 ```bash
 archive.tar
@@ -709,7 +709,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- \[ ] b
+- [ ] b
 
 ```bash
 archive.tar
@@ -717,11 +717,11 @@ textfile1.txt
 textfile2.txt
 ```
 
-- \[ ] c
+- [ ] c
 
 Tutti questi file verranno eliminati
 
-- \[x] d:
+- [x] d:
 
 ```bash
 image1.gif
@@ -740,26 +740,26 @@ if [ $var > 5 ]; then
 fi
 ```
 
-- \[ ] Non ci saranno risultati inaspettati. Questo script funziona così com'è e l'output sarà "8 è maggiore di 5".
-- \[ ] Il confronto non sarà in grado di gestire i numeri a virgola mobile, poiché Bash gestisce solo i numeri interi. Quindi questo esempio genererà un messaggio di errore se il valore di $var viene modificato in "8.8".
-- \[x] Ci sarà un file nella directory corrente denominato 5.
-- \[ ] La variabile $var non è citata, il che porterà alla divisione delle parole. Questo script avrà esito negativo con un messaggio "operatore unario previsto" se si modifica il valore di
+- [ ] Non ci saranno risultati inaspettati. Questo script funziona così com'è e l'output sarà "8 è maggiore di 5".
+- [ ] Il confronto non sarà in grado di gestire i numeri a virgola mobile, poiché Bash gestisce solo i numeri interi. Quindi questo esempio genererà un messaggio di errore se il valore di $var viene modificato in "8.8".
+- [x] Ci sarà un file nella directory corrente denominato 5.
+- [ ] La variabile $var non è citata, il che porterà alla divisione delle parole. Questo script avrà esito negativo con un messaggio "operatore unario previsto" se si modifica il valore di
 
 #### D58. Qual è il risultato di questo script?
 
 ![question](images/Q60/question.png?raw=png)
 
-- \[ ] Rimuove la directory 'pippo' e i file contenuti al suo interno.
-- \[ ] Rimuove tutti i file tranne quelli nella directory corrente.
-- \[x] Rimuove tutti i file nella directory corrente.
-- \[ ] Rimuove tutti i file tranne quelli nella directory 'pippo'.
+- [ ] Rimuove la directory 'pippo' e i file contenuti al suo interno.
+- [ ] Rimuove tutti i file tranne quelli nella directory corrente.
+- [x] Rimuove tutti i file nella directory corrente.
+- [ ] Rimuove tutti i file tranne quelli nella directory 'pippo'.
 
 #### D59. Qual è la verità?
 
-- \[x] Le regole dei criteri SELinux vengono controllate dopo le regole del dac.
-- \[ ] Le regole dei criteri SELinux vengono controllate prima delle regole del DAC
-- \[ ] Le regole dei criteri SELinux non vengono mai controllate dopo le regole del DAC.
-- \[ ] Nessuno di questi
+- [x] Le regole dei criteri SELinux vengono controllate dopo le regole del dac.
+- [ ] Le regole dei criteri SELinux vengono controllate prima delle regole del DAC
+- [ ] Le regole dei criteri SELinux non vengono mai controllate dopo le regole del DAC.
+- [ ] Nessuno di questi
 
 [riferimento](https://unix.stackexchange.com/questions/16828/what-roles-do-dac-file-permissions-acl-and-mac-selinux-play-in-linux-file-s)
 
@@ -769,10 +769,10 @@ fi
 w
 ```
 
-- \[ ] Non visualizza informazioni sugli utenti attualmente sulla macchina.
-- \[x] Visualizza informazioni sugli utenti attualmente sulla macchina.
-- \[ ] Visualizza informazioni sugli utenti attualmente presenti su un'altra macchina.
-- \[ ] Nessuno di questi
+- [ ] Non visualizza informazioni sugli utenti attualmente sulla macchina.
+- [x] Visualizza informazioni sugli utenti attualmente sulla macchina.
+- [ ] Visualizza informazioni sugli utenti attualmente presenti su un'altra macchina.
+- [ ] Nessuno di questi
 
 #### D61. Quali opzioni sed dovresti usare per cambiare la penultima istanza della variabile in rock in modo che legga:
 
@@ -783,45 +783,45 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- \[x] s/(.\*)variabile(.\*variabile)/\1rock\2/'
-- \[ ] s/variabile/rock/'
-- \[ ] s/variabile/roccia/g'
-- \[ ] s/(.\*)variable(.\*variable)/\1rock\2/'
+- [x] s/(.\*)variabile(.\*variabile)/\1rock\2/'
+- [ ] s/variabile/rock/'
+- [ ] s/variabile/roccia/g'
+- [ ] s/(.\*)variable(.\*variable)/\1rock\2/'
 
 #### D62. Per creare uno script Bash denominato script.sh eseguibile, cosa dovresti eseguire?
 
-- \[ ] script.sh esecutivo
-- \[x] chmod +x script.sh
-- \[ ] bash script.sh
-- \[ ] fonte script.sh
+- [ ] script.sh esecutivo
+- [x] chmod +x script.sh
+- [ ] bash script.sh
+- [ ] fonte script.sh
 
 #### D63. Come si può creare un terminale condiviso in una shell Bash?
 
-- \[x] schermo
-- \[ ] schermo -X
-- \[ ] schermata --shared
-- \[ ] terminale -condiviso
+- [x] schermo
+- [ ] schermo -X
+- [ ] schermata --shared
+- [ ] terminale -condiviso
 
 #### D64. Quale operatore invia l'output di ls a un file per un uso successivo?
 
-- \[ ] ls < filelist.txt
-- \[ ] ls ¦ filelist.txt
-- \[x] ls > filelist.txt
-- \[ ] ls - filelist.txt
+- [ ] ls < filelist.txt
+- [ ] ls ¦ filelist.txt
+- [x] ls > filelist.txt
+- [ ] ls - filelist.txt
 
 #### D65. Quando si confrontano gli elementi con il caso, quale affermazione indica la fine del blocco di valutazione?
 
-- \[ ] fermata
-- \[x] esac
-- \[ ] fatto
-- \[ ] uscita
+- [ ] fermata
+- [x] esac
+- [ ] fatto
+- [ ] uscita
 
 #### D66. Per eseguire un gruppo di comandi senza generare una subshell, quale sintassi useresti?
 
-- \[ ] sh command1; comando2
-- \[ ] { command1; command2; }
-- \[ ] (( command1; command2 ))
-- \[x] comando1; comando2
+- [ ] sh command1; comando2
+- [ ] { command1; command2; }
+- [ ] (( command1; command2 ))
+- [x] comando1; comando2
 
 #### D67. Quali sono i risultati del comando con un utente di nome jon?
 
@@ -829,38 +829,38 @@ echo "$var" | sed _____
 echo 'Hello, $(whoami)!'
 ```
 
-- \[ ] Ciao, $(jon)!
-- \[ ] Ciao, jon!
-- \[x] Ciao, $(whoami)!
-- \[ ] Ciao, whoami!
+- [ ] Ciao, $(jon)!
+- [ ] Ciao, jon!
+- [x] Ciao, $(whoami)!
+- [ ] Ciao, whoami!
 
 #### D68. Come si può copiare una directory in un altro sistema con compressione?
 
-- \[ ] tar -ssh user@192.158.1.1 /bin/newfile
-- \[x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
-- \[ ] Non è possibile comprimere il flusso
-- \[ ] directory scp -r user@192.168.1.1:/tmp
+- [ ] tar -ssh user@192.158.1.1 /bin/newfile
+- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
+- [ ] Non è possibile comprimere il flusso
+- [ ] directory scp -r user@192.168.1.1:/tmp
 
 #### D69. Per assegnare il comando `ls -lah` al comando di scelta rapida `lh`, quale comando dovresti usare?
 
-- \[x] alias lh='ls -lah'
-- \[ ] link lh='ls -lah'
-- \[ ] alias 'ls -lah'=lh
-- \[ ] lh | ls -lah
+- [x] alias lh='ls -lah'
+- [ ] link lh='ls -lah'
+- [ ] alias 'ls -lah'=lh
+- [ ] lh | ls -lah
 
 #### D70. Quale istruzione stamperà tutti i file .cvs completi nella home directory o nelle sottodirectory senza visualizzare errori?
 
-- \[ ] find $USER_DIR -name "\*.csv" 2>/dev/null
-- \[ ] trova $HOME -name "\*.csv" 1>/dev/null
-- \[x] trova $HOME -name "\*.csv" 2>/dev/null
-- \[ ] find HOME -name "\*.csv" 1>/dev/null
+- [ ] find $USER_DIR -name "\*.csv" 2>/dev/null
+- [ ] trova $HOME -name "\*.csv" 1>/dev/null
+- [x] trova $HOME -name "\*.csv" 2>/dev/null
+- [ ] find HOME -name "\*.csv" 1>/dev/null
 
 #### D71. In Bash, cosa indica un # alla fine della stringa di prompt predefinita?
 
-- \[x] che l'utente agisce come root
-- \[ ] che la directory di lavoro corrente è la radice del file system
-- \[ ] che ci sono aggiornamenti per il sistema disponibili
-- \[ ] che l'utente non è privilegiato
+- [x] che l'utente agisce come root
+- [ ] che la directory di lavoro corrente è la radice del file system
+- [ ] che ci sono aggiornamenti per il sistema disponibili
+- [ ] che l'utente non è privilegiato
 
 #### D72. Quale sarà l'output di questo comando?
 
@@ -875,14 +875,14 @@ filec.txt
 $ ls -l file[^abc]*.txt
 ```
 
-- \[x] A
+- [x] A
 
 ```bash
 file1.txt
 file10.txt
 ```
 
-- \[ ] B
+- [ ] B
 
 ```bash
 file10.txt
@@ -893,13 +893,13 @@ fileb.txt
 filec.txt
 ```
 
-- \[ ] C
+- [ ] C
 
 ```bash
 fileabc.txt filea.txt fileb.txt filec.txt
 ```
 
-- \[ ] D
+- [ ] D
 
 ```bash
 filea.txt
@@ -921,7 +921,7 @@ cat <<EOF
 EOF
 ```
 
-- \[ ] A
+- [ ] A
 
 ```bash
 This is line 1.
@@ -929,13 +929,13 @@ This is line 2.
 This is line 3.
 ```
 
-- \[ ] B
+- [ ] B
 
 ```bash
 ------------------------This is line 1.This is line 2.This is line 3.------------------------
 ```
 
-- \[x] C
+- [x] C
 
 ```bash
 ------------------------
@@ -945,7 +945,7 @@ This is line 3.
 ------------------------
 ```
 
-- \[ ] D
+- [ ] D
 
 ```bash
 ------------------------
@@ -967,10 +967,10 @@ echo -n 5 >&3
 exec 3>&-
 ```
 
-- \[ ] 123446789
-- \[ ] il simbolo del trattino (-)
-- \[x] 123456789
-- \[ ] il numero 5, che viene scritto nel file usando echo
+- [ ] 123446789
+- [ ] il simbolo del trattino (-)
+- [x] 123456789
+- [ ] il numero 5, che viene scritto nel file usando echo
 
 Vedere [Reindirizzamento I/O](https://tldp.org/LDP/abs/html/io-redirection.html)
 
@@ -978,10 +978,10 @@ Vedi anche: [Qual è la differenza tra "echo" e "echo -n"?](https://stackoverflo
 
 #### D75. Quale variabile contiene l'ID processo (PID) dello script mentre è in esecuzione?
 
-- \[ ] $ID
-- \[ ] $ #
-- \[ ] $ @
-- \[x] $$
+- [ ] $ID
+- [ ] $ #
+- [ ] $ @
+- [x] $$
 
 #### D76. Combinando il globbing esteso e l'espansione dei parametri, quale sarebbe il valore del VAR?
 
@@ -991,10 +991,10 @@ Vedi anche: [Qual è la differenza tra "echo" e "echo -n"?](https://stackoverflo
     VAR=${VAR##+([[:space:]])}; VAR=${VAR%%+([[:space:]])};
     echo "$VAR"
 
-- \[ ] `<pre> This is... a string of characters</pre>`
-- \[ ] `<pre> This is...a string of characters</pre>`
-- \[ ] `<pre>This is... a string of characters</pre>`
-- \[ ] `<pre>This is...a string of characters</pre>`
+- [ ] `<pre> This is... a string of characters</pre>`
+- [ ] `<pre> This is...a string of characters</pre>`
+- [ ] `<pre>This is... a string of characters</pre>`
+- [ ] `<pre>This is...a string of characters</pre>`
 
 Referenze:
 
@@ -1003,7 +1003,7 @@ Referenze:
 
 #### D77. Quale operatore indica alla shell di eseguire un determinato comando in background?
 
-- \[ ] !
-- \[ ] &&
-- \[x] &
-- \[ ] $
+- [ ] !
+- [ ] &&
+- [x] &
+- [ ] $

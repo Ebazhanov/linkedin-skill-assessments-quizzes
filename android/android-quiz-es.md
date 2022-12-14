@@ -486,23 +486,23 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 #### P35. Para optimizar el tamaño de tu APK, ¿qué códec de imagen debes usar?
 
-- \[ ] JPG
-- \[ ] PNG
-- \[ ] MPEG
-- \[x] WebP [(Referencia)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
+- [ ] JPG
+- [ ] PNG
+- [ ] MPEG
+- [x] WebP [(Referencia)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
 #### P36. Ha creado código para realizar una llamada de red y ha probado que funciona en su entorno de desarrollo. Sin embargo, cuando lo publicas en Play Console, la llamada de red no funciona. ¿Qué será? _no_ ayudarle a solucionar este problema?
 
-- \[ ] comprobar si `ProGuard` -KeepClassmembers se han añadido a los objetos de transferencia de datos de red (DTO) en cuestión
-- \[x] uso de las herramientas de generador de perfiles en Android Studio para detectar anomalías en el uso de la CPU, la memoria y la red
-- \[ ] comprobación de excepciones en los registros del servidor o en la consola del servidor
-- \[ ] comprobación de que el objeto de transferencia de datos de red tiene `@SerizlizedName` aplicado a sus propiedades miembro
+- [ ] comprobar si `ProGuard` -KeepClassmembers se han añadido a los objetos de transferencia de datos de red (DTO) en cuestión
+- [x] uso de las herramientas de generador de perfiles en Android Studio para detectar anomalías en el uso de la CPU, la memoria y la red
+- [ ] comprobación de excepciones en los registros del servidor o en la consola del servidor
+- [ ] comprobación de que el objeto de transferencia de datos de red tiene `@SerizlizedName` aplicado a sus propiedades miembro
 
 #### P37. ¿Qué fragmento de código lograría el diseño que se muestra a continuación?
 
 ![img](image/04.jpeg)
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -523,7 +523,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[x]
+- [x]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -543,7 +543,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -566,7 +566,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -589,20 +589,20 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 #### P38. Qué conjunto de fuentes es `_not_` disponible para usted de forma predeterminada cuando Android Studio crea un nuevo proyecto?
 
-- \[ ] prueba
-- \[ ] androidTest
-- \[ ] aplicación
-- \[x] principal
+- [ ] prueba
+- [ ] androidTest
+- [ ] aplicación
+- [x] principal
 
 #### P39. ¿Qué definición impedirá que otras aplicaciones accedan a su `Activity` clase a través de un `intent`?
 
-- \[x]
+- [x]
 
 ```xml
   <activity android:name=".ExampleActivity" />
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -612,7 +612,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </activity>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -623,7 +623,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </activity>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -637,55 +637,55 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 #### P40. Para preservar la memoria en el dispositivo, ¿cómo podría determinar que el dispositivo del usuario tiene capacidades de almacenamiento limitadas?
 
-- \[x] Utilice el botón `ActivityManager.isLowRamDevice()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
-- \[ ] Utilice el botón `Activity.islowRam()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
-- \[ ] Utilice el botón `ConnectivityManager.hasLowMemory()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
-- \[ ] Realice una solicitud de descarga de imágenes y compruebe el uso de almacenamiento del dispositivo restante.
+- [x] Utilice el botón `ActivityManager.isLowRamDevice()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
+- [ ] Utilice el botón `Activity.islowRam()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
+- [ ] Utilice el botón `ConnectivityManager.hasLowMemory()` método para averiguar si un dispositivo se define a sí mismo como "baja RAM".
+- [ ] Realice una solicitud de descarga de imágenes y compruebe el uso de almacenamiento del dispositivo restante.
 
 #### P41. Qué es `_not_` una buena manera de reutilizar el código de Android?
 
-- \[ ] Utilice un módulo Gradle común compartido por diferentes proyectos de Android.
-- \[ ] Prefiere crear vistas o fragmentos personalizados sobre las actividades.
-- \[x] Prefiere construir actividades en lugar de fragmentos.
-- \[ ] Desglose los diseños de la interfaz de usuario en elementos comunes y use `<include/>` para incluirlos en otros archivos XML de diseño.
+- [ ] Utilice un módulo Gradle común compartido por diferentes proyectos de Android.
+- [ ] Prefiere crear vistas o fragmentos personalizados sobre las actividades.
+- [x] Prefiere construir actividades en lugar de fragmentos.
+- [ ] Desglose los diseños de la interfaz de usuario en elementos comunes y use `<include/>` para incluirlos en otros archivos XML de diseño.
 
 #### P42. ¿Qué diseño es mejor para jerarquías grandes y complejas?
 
-- \[ ] LinearLayout
-- \[x] ConstraintLayout
-- \[ ] FrameLayout
-- \[ ] RelativeLayout
+- [ ] LinearLayout
+- [x] ConstraintLayout
+- [ ] FrameLayout
+- [ ] RelativeLayout
 
 #### P43. Debe actualizar a la última versión del complemento Android Gradle. ¿Qué archivo debe modificar?
 
-- \[ ] root_project_dir/app/build.gradle.
-- \[ ] root_project_dir/settings.gradle.
-- \[x] root_project_dir/build.gradle.
-- \[ ] root_project_dir/app/gradle.properties.
+- [ ] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/settings.gradle.
+- [x] root_project_dir/build.gradle.
+- [ ] root_project_dir/app/gradle.properties.
 
 [referencia](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 
 #### P44. ¿Por qué los desarrolladores suelen poner código de inicialización de aplicaciones en la clase Application?
 
-- \[x] Se crea una instancia de la clase Application antes que cualquier otra clase cuando se crea el proceso para la aplicación.
-- \[ ] La clase Application se crea una instancia después de cualquier solicitud de permisos cuando se crea el proceso para la aplicación.
-- \[ ] La clase Application se crea cada vez que se inicia una nueva actividad, lo que la hace ideal para el código de inicialización.
-- \[ ] La clase Application se crea cada vez que se llama a un servicio en segundo plano, lo que la hace ideal para el código de inicialización.
+- [x] Se crea una instancia de la clase Application antes que cualquier otra clase cuando se crea el proceso para la aplicación.
+- [ ] La clase Application se crea una instancia después de cualquier solicitud de permisos cuando se crea el proceso para la aplicación.
+- [ ] La clase Application se crea cada vez que se inicia una nueva actividad, lo que la hace ideal para el código de inicialización.
+- [ ] La clase Application se crea cada vez que se llama a un servicio en segundo plano, lo que la hace ideal para el código de inicialización.
 
 [referencia](https://developer.android.com/reference/android/app/Application)
 
 #### P45. ¿Qué carpeta debes usar para los iconos del iniciador de tu aplicación?
 
-- \[ ] /dibujable
-- \[ ] /icon
-- \[x] /mipmap
-- \[ ] /lanzador
+- [ ] /dibujable
+- [ ] /icon
+- [x] /mipmap
+- [ ] /lanzador
 
 #### P46. ¿Qué definición dibujable le permite lograr la forma a continuación?
 
 ![img](image/43.jpeg)
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -697,7 +697,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
@@ -708,7 +708,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </rectangle>
 ```
 
-- \[x]
+- [x]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -720,7 +720,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </shape>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -736,10 +736,10 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 ![img](image/44.jpeg)
 
-- \[ ] La vista B no está restringida horizontalmente.
-- \[ ] La vista C tiene demasiadas restricciones.
-- \[x] La vista B no está restringida verticalmente.
-- \[ ] La vista C está restringida al padre.
+- [ ] La vista B no está restringida horizontalmente.
+- [ ] La vista C tiene demasiadas restricciones.
+- [x] La vista B no está restringida verticalmente.
+- [ ] La vista C está restringida al padre.
 
 #### P48. Dado este código snippey de un archivo build.gradle, ¿qué opción no es una posible variante de compilación?
 
@@ -761,44 +761,44 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   }
 ```
 
-- \[ ] productionDebug.
-- \[x] developmentDebug.
-- \[ ] stagingDebug.
-- \[ ] puesta en escenaRelease.
+- [ ] productionDebug.
+- [x] developmentDebug.
+- [ ] stagingDebug.
+- [ ] puesta en escenaRelease.
 
 [Referencia](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
 #### Pregunta 49. ¿Cuándo debe usar el directorio androidTest para almacenar sus clases de prueba?
 
-- \[ ] cuando las pruebas consistan únicamente en pruebas unitarias.
-- \[ ] cuando el número de pruebas a ejecutar es grande(500+).
-- \[ ] cuando las pruebas deben ejecutarse en su máquina local.
-- \[x] cuando las pruebas necesitan ejecutarse en dispositivos reales o virtuales.
+- [ ] cuando las pruebas consistan únicamente en pruebas unitarias.
+- [ ] cuando el número de pruebas a ejecutar es grande(500+).
+- [ ] cuando las pruebas deben ejecutarse en su máquina local.
+- [x] cuando las pruebas necesitan ejecutarse en dispositivos reales o virtuales.
 
 [Referencia](https://developer.android.com/studio/test#test_types_and_location)
 
 #### Pregunta 50. Dado un APK llamado app-internal-debug.apk producido a partir del proceso de compilación, ¿qué afirmación es probable que sea cierta?
 
-- \[ ] Este APK se crea en una máquina desarrolladora a partir del sabor del producto de depuración.
-- \[ ] Este APK se crea a partir del sabor del producto internalDebug.
-- \[ ] Este APK creado a partir del sabor del producto de depuración y el tipo de compilación interna.
-- \[x] Este APK se crea a partir del tipo de compilación de depuración y el sabor interno del producto.
+- [ ] Este APK se crea en una máquina desarrolladora a partir del sabor del producto de depuración.
+- [ ] Este APK se crea a partir del sabor del producto internalDebug.
+- [ ] Este APK creado a partir del sabor del producto de depuración y el tipo de compilación interna.
+- [x] Este APK se crea a partir del tipo de compilación de depuración y el sabor interno del producto.
 
 #### Pregunta 51. Al intentar compilar el proyecto, ¿qué podría indicar el siguiente error?
 
 `Conversion to Dalvik format filed: Unable to execute dex: method ID not in [0, 0xffff]: 65536`
 
-- \[ ] Ha incluido información de formato incorect en el archivo build.gradle.
-- \[ ] Ha agregado más de 20 dependencias a su build.gradle.
-- \[x] Ha superado el número total de métodos a los que se puede hacer referencia en un único archivo DEX.
-- \[ ] Tiene una excepción NullPointerException en el código.
+- [ ] Ha incluido información de formato incorect en el archivo build.gradle.
+- [ ] Ha agregado más de 20 dependencias a su build.gradle.
+- [x] Ha superado el número total de métodos a los que se puede hacer referencia en un único archivo DEX.
+- [ ] Tiene una excepción NullPointerException en el código.
 
 #### P52. ¿Qué declaración, en el archivo build.gradle, denota correctamente que el módulo correspondiente es un módulo de biblioteca de Android?
 
-- \[ ] aplicar plugin: 'com.module.library'
-- \[x] aplicar plugin: 'com.android.library'
-- \[ ] aplicar plugin: 'com.module.library'
-- \[ ] incluye plugin: 'com.module.library'
+- [ ] aplicar plugin: 'com.module.library'
+- [x] aplicar plugin: 'com.android.library'
+- [ ] aplicar plugin: 'com.module.library'
+- [ ] incluye plugin: 'com.module.library'
 
 #### Pregunta 53. Teniendo en cuenta los siguientes dimens.xml archivo, ¿cómo definiría un ImageView con espaciado medio en la parte inferior?
 
@@ -810,7 +810,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 </resources>
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <ImageView
@@ -820,7 +820,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
       android:src=@drawable/map_pin />
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <ImageView
@@ -831,7 +831,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
     android:src=@drawable/map_pin />
 ```
 
-- \[ ]
+- [ ]
 
 ```xml
   <ImageView
@@ -842,7 +842,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
       android:src=@drawable/map_pin />
 ```
 
-- \[x]
+- [x]
 
 ```xml
     <ImageView
@@ -855,10 +855,10 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 #### Pregunta 54. ¿Qué no es beneficioso de externalizar los recursos de la aplicación, como la imagen y la cadena, a partir de un código?
 
-- \[ ] Permite a Android elegir el recurso apropiado en función de la configuración actual durante el tiempo de ejecución.
-- \[x] Le permite tener aplicaciones de mayor rendimiento porque el código y los recursos están separados.
-- \[ ] Le permite proporcionar una experiencia Ul diferente basada en la configuración de idioma del usuario.
-- \[ ] Le permite proporcionar una experiencia Ul diferente basada en el tamaño del dispositivo del usuario.
+- [ ] Permite a Android elegir el recurso apropiado en función de la configuración actual durante el tiempo de ejecución.
+- [x] Le permite tener aplicaciones de mayor rendimiento porque el código y los recursos están separados.
+- [ ] Le permite proporcionar una experiencia Ul diferente basada en la configuración de idioma del usuario.
+- [ ] Le permite proporcionar una experiencia Ul diferente basada en el tamaño del dispositivo del usuario.
 
 #### Pregunta 55. ¿Cuál es el propósito principal de la línea cinco en este fragmento de código?
 
@@ -876,40 +876,40 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   }
 ```
 
-- \[ ] para asegurarse de que la actividad finaliza cuando savedInstanceState no es null
-- \[x] para asegurarse de que la actividad crea un nuevo fragmento cada vez que se restaura desde un estado anterior
-- \[ ] para evitar la visualización de dos fragmentos uno al lado del otro en los casos en que la actividad se restaura desde un estado anterior
-- \[ ] para evitar la creación de fragmentos superpuestos en los casos en que la actividad se restablezca de un estado anterior
+- [ ] para asegurarse de que la actividad finaliza cuando savedInstanceState no es null
+- [x] para asegurarse de que la actividad crea un nuevo fragmento cada vez que se restaura desde un estado anterior
+- [ ] para evitar la visualización de dos fragmentos uno al lado del otro en los casos en que la actividad se restaura desde un estado anterior
+- [ ] para evitar la creación de fragmentos superpuestos en los casos en que la actividad se restablezca de un estado anterior
 
 #### Pregunta 56. ¿Qué componente no es un punto de entrada a través del cual el sistema o un usuario pueden ingresar a su aplicación?
 
-- \[ ] actividad
-- \[ ] proveedor de contenido
-- \[x] fragmento
-- \[ ] servicio
+- [ ] actividad
+- [ ] proveedor de contenido
+- [x] fragmento
+- [ ] servicio
 
 #### Pregunta 57. ¿Qué debe usar para mostrar una gran lista de elementos de desplazamiento?
 
-- \[ ] ListView
-- \[x] Vista del reciclador
-- \[ ] LinearLayout
-- \[ ] Scrollview
+- [ ] ListView
+- [x] Vista del reciclador
+- [ ] LinearLayout
+- [ ] Scrollview
 
 #### Pregunta 58. Ha creado una clase AboutActivity que muestra detalles sobre la aplicación. ¿Qué fragmento de código te permite iniciar tu actividad?
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   startService(intención)
   }
 
-- \[x] Intent(this, AboutActivity::class.java).also { intent ->
+- [x] Intent(this, AboutActivity::class.java).also { intent ->
   startActivity(intención)
   }
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   actividad(intención)
   }
 
-- \[ ] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
   startActivity(intención)
   }
   Explicación: Intención(Context packageContext, Class\<?> cls)
@@ -917,74 +917,74 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 #### Pregunta 59. ¿Cuál es el uso del archivo AndroidManifest.xml?
 
-- \[x] Describe el componente de la aplicación
-- \[ ] Declara el nivel mínimo de la API de Android que requiere la aplicación
-- \[ ] Facilita proporcionar un nombre uinque para la aplicación especificando el nombre del paquete
-- \[ ] Todo lo anterior
+- [x] Describe el componente de la aplicación
+- [ ] Declara el nivel mínimo de la API de Android que requiere la aplicación
+- [ ] Facilita proporcionar un nombre uinque para la aplicación especificando el nombre del paquete
+- [ ] Todo lo anterior
 
 #### P60. Qué atributo del elemento <uses-sdk> se utiliza para especificar el nivel mínimo de API necesario para que la aplicación se ejecute?
 
-- \[ ] android:targetSdkVersion
-- \[x] android:minSdkVersion
-- \[ ] android:maxSdkVersion
-- \[ ] Nada de lo anterior
+- [ ] android:targetSdkVersion
+- [x] android:minSdkVersion
+- [ ] android:maxSdkVersion
+- [ ] Nada de lo anterior
 
 #### P61. Para reducir el código en las compilaciones de lanzamiento, ¿qué herramienta utiliza Android Studio?
 
-- \[x] R8
-- \[ ] ProGuard
-- \[ ] Encogedor
-- \[ ] D8
+- [x] R8
+- [ ] ProGuard
+- [ ] Encogedor
+- [ ] D8
   Explicación: Cuando crea su proyecto utilizando el complemento Android Gradle 3.4.0 o superior, el complemento ya no utiliza ProGuard para realizar la optimización del código en tiempo de compilación. En cambio, el complemento funciona con el compilador R8 para manejar
 
 [Referencia](https://developer.android.com/studio/build/shrink-code)
 
 #### P62. ¿Qué jerarquía de diseño es probable que se dibuje más rápidamente?
 
-- \[x] A
+- [x] A
   ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
-- \[ ] B
+- [ ] B
   ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
-- \[ ] C
+- [ ] C
   ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
-- \[ ] D
+- [ ] D
   ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### P63. ¿Cuál es la forma recomendada actual de manejar tareas en segundo plano de larga duración?
 
-- \[x] WorkManager
-- \[ ] AsyncTask
-- \[ ] IntentService
-- \[ ] Hilo
+- [x] WorkManager
+- [ ] AsyncTask
+- [ ] IntentService
+- [ ] Hilo
 
 [Referencia](https://developer.android.com/guide/background)
 
 #### Pregunta 64. Debe proporcionar a sus usuarios ciertas funciones de su aplicación bajo demanda o como experiencias instantáneas a través de Google Play. ¿Qué tipo de módulo debe crear?
 
-- \[ ] módulo de biblioteca
-- \[x] módulo de características dinámicas
-- \[ ] Módulo de aplicación android
-- \[ ] Módulo de Google Cloud
+- [ ] módulo de biblioteca
+- [x] módulo de características dinámicas
+- [ ] Módulo de aplicación android
+- [ ] Módulo de Google Cloud
 
 1.  [Referencia](https://youtu.be/QdfStuj-MuA?t=86)
 2.  [Referencia](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### Pregunta 65. ¿Qué enfoque no se recomienda para proporcionar un estado sin conexión útil en la aplicación?
 
-- \[ ] datos de almacenamiento en caché
-- \[ ] almacenar datos localmente
-- \[ ] poner en cola las solicitudes salientes a la acción cuando se ha perdido la conectividad
-- \[ ] siempre notificando a los usuarios que se ha perdido la conectividad
+- [ ] datos de almacenamiento en caché
+- [ ] almacenar datos localmente
+- [ ] poner en cola las solicitudes salientes a la acción cuando se ha perdido la conectividad
+- [ ] siempre notificando a los usuarios que se ha perdido la conectividad
 
 #### Pregunta 66. Si necesitas el código de la aplicación para inspeccionar la información sobre la compilación actual, ¿qué clase debes usar?
 
-- \[x] `BuildConfig`
-- \[ ] `BuildInfo`
-- \[ ] `ConfigParams`
-- \[ ] `ConfigInfo`
+- [x] `BuildConfig`
+- [ ] `BuildInfo`
+- [ ] `ConfigParams`
+- [ ] `ConfigInfo`
 
 #### Pregunta 67. En el ConstraintLayout a continuación, ¿por qué no se expandiría el botón para llenar el ancho del padre?
 
@@ -1001,21 +1001,21 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
   </androidx.constraintlayout.widget.ConstrantLayout>
 ```
 
-- \[ ] `The button does not have a size`
-- \[x] `The button is not constrained to the end of the parent container`
-- \[ ] `Buttons cannot expand beyond their default size`
-- \[ ] `The button should have its height set to 0dp as well`
+- [ ] `The button does not have a size`
+- [x] `The button is not constrained to the end of the parent container`
+- [ ] `Buttons cannot expand beyond their default size`
+- [ ] `The button should have its height set to 0dp as well`
 
 #### Pregunta 68. ¿Qué no es un caso de uso para los recursos al ralentí en sus pruebas de Espresso?
 
-- \[ ] `managing system services`
-- \[x] `processing user input events`
-- \[ ] `loading data from the internet or a local data source`
-- \[ ] `perfoming bitmap transformatinos`
+- [ ] `managing system services`
+- [x] `processing user input events`
+- [ ] `loading data from the internet or a local data source`
+- [ ] `perfoming bitmap transformatinos`
 
 #### Pregunta 69. ¿Qué no es un tipo de recurso para proporcionar cadenas a la aplicación?
 
-- \[ ] `String`
-- \[x] `Text`
-- \[ ] `String-array`
-- \[ ] `Plurals`
+- [ ] `String`
+- [x] `Text`
+- [ ] `String-array`
+- [ ] `Plurals`
