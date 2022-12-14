@@ -2387,3 +2387,5 @@ my_list = [2, 'apple', 3.5]
 - [ ] `MyClass.hierarchy()`
 - [ ] `callable(MyClass)`
 - [ ] `dir(MyClass)`
+
+**Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.
