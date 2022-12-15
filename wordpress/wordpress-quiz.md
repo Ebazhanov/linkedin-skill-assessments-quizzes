@@ -306,10 +306,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q36. What is the core mission of WordPress?
 
-- [x] to make free software
-- [ ] to democratize publishing and the freedoms that come with open source
+- [ ] to make free software
+- [x] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
+
+[Reference](https://wordpress.com/about/)
 
 #### Q37. Which of the following is NOT a suggested security improvement for your WordPress website?
 
