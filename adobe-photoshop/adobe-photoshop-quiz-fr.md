@@ -544,12 +544,12 @@ E. Perspective Warp
 
 #### Q71. Quelle méthode est un algorithme de mise à l’échelle de haute qualité pour agrandir l’image?
 
-\-\[x] bicubique
+- [x] bicubique
 
 #### Q72. Comment pouvez-vous faire en sorte que l’outil baguette magique sélectionne moins de variations d’une couleur?
 
-\-\[x] décochez Contigu
+- [x] décochez Contigu
 
 #### Q73. Pour des bords incurvés plus lisses sur une sélection, quelle sélection devriez-vous choisir ?
 
-\-\[x] anticrénelage
+- [x] anticrénelage

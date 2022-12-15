@@ -544,12 +544,12 @@ E. Perspective Warp
 
 #### D71. Quale metodo è un algoritmo di ridimensionamento di alta qualità per ingrandire l'immagine?
 
-\-\[x] bicubico
+- [x] bicubico
 
 #### D72. Come puoi fare in modo che lo strumento bacchetta magica selezioni meno varianti di un colore?
 
-\-\[x] deseleziona Contiguo
+- [x] deseleziona Contiguo
 
 #### D73. Per i bordi curvi dall'aspetto più liscio su una selezione, quale selezione scegliere?
 
-\-\[x] anti-aliasing
+- [x] anti-aliasing
