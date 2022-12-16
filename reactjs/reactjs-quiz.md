@@ -1277,8 +1277,16 @@ const Greeting = ({ initName }) => {
 
 - [ ] hug
 - [ ] this.hug(initName)
-- [x] (name) => this.hug(name)
-- [ ] () => hug(initName)
+- [ ] (name) => this.hug(name)
+- [x] () => hug(initName)
+
+Explanation: Apparently the question misstyped `greet` as `hug`. Putting this aside, we can still learn from this question.
+
+- In a function, the global object is the default binding for `this`. In a browser window the global object is [object Window].
+  This is a functional Component, so `this` from `this.hug` actually refers to browser window.
+  Since it is a functional component, we can directly refer to hug without using `this`.
+- To pass a handler to onClick, we should always pass a function rather than execute a function. So we need to use callback here.
+  `initName` is available in Greeting's function scope, so we can directly supply as an argument to hug().
 
 #### Q105. What is the name of the compiler used to transform JSX into JavaScript?
 
