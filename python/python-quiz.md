@@ -83,6 +83,8 @@ my_list
 - [ ] to take a snapshot of all the packages and libraries in your virtual environment
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
 
+[reference](https://www.scaler.com/topics/python-libraries/)
+
 #### Q9. What is the runtime of accessing a value in a dictionary by using its key?
 
 - [ ] O(n), also called linear time.
