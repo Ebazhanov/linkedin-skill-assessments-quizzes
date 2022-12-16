@@ -544,12 +544,12 @@ E. Perspective Warp
 
 #### P71. ¿Qué método es un algoritmo de escalado de alta calidad para ampliar la imagen?
 
-\-\[x] bicúbico
+- [x] bicúbico
 
 #### P72. ¿Cómo puedes hacer que la herramienta de varita mágica seleccione menos variaciones de un color?
 
-\-\[x] desmarque Contiguo
+- [x] desmarque Contiguo
 
 #### Pregunta 73. Para bordes curvos de aspecto más suave en una selección, ¿qué selección debe elegir?
 
-\-\[x] suavizado
+- [x] suavizado
