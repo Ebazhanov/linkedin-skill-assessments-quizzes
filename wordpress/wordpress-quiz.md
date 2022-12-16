@@ -481,10 +481,12 @@ $title = $_POST[ 'title' ];
 
 #### Q55. Which of these CSS classs naming convention is correct according to WordPress CSS Coding Standards?
 
-- [ ] `.selector-name`
-- [x] `.selector_name`
+- [x] `.selector-name`
+- [ ] `.selector_name`
 - [ ] `.selectorName`
 - [ ] `div.selector_name`
+
+[Reference - Avoid Underscores](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#selectors)
 
 #### Q56. Which folder in a WordPress install is not affected by an automatic WordPress update?
 
