@@ -417,6 +417,8 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] accessibility
 - [ ] documentation
 
+[Reference](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
+
 #### Q47. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
@@ -589,16 +591,7 @@ endif;
 
 [Reference](https://kinsta.com/blog/wordpress-child-theme/)
 
-#### Q66. You can harden your Wordpress site security by adding **\_** to your wp-config.php file?
-
-- [ ] hashes and reCAPTCHA
-- [ ] database username and passwords
-- [ ] custom action hooks and filters
-- [x] unique keys and salts
-
-[Reference](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
-
-#### Q67. In the WordPress template hierarchy, which file could not be used to display an archive?
+#### Q66. In the WordPress template hierarchy, which file could not be used to display an archive?
 
 - [ ] `archive.php`
 - [x] `index.php`
@@ -607,7 +600,7 @@ endif;
 
 [Reference](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
-#### Q68. Why can't you modify the query in a template page?
+#### Q67. Why can't you modify the query in a template page?
 
 - [ ] The query can only be run inside the Loop.
 - [x] You can modify the query in a template page if you use `pre_get_posts()`.
@@ -616,7 +609,7 @@ endif;
 
 [Reference](https://webcraft.tools/how-to-modify-the-main-wordpress-query/)
 
-#### Q69. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+#### Q68. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
 
 - [ ] WordPress settings
 - [x] Customizer
@@ -625,7 +618,7 @@ endif;
 
 [Reference](https://wordpress.org/support/article/creating-a-favicon/)
 
-#### Q70. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+#### Q69. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 
 - [ ] `apply_filters( 'Hello World!', 'mytextdomain' );`
 - [ ] `esc_html( 'Hello World!', 'mytextdomain' );`
@@ -634,14 +627,14 @@ endif;
 
 [Reference](https://wordpress.stackexchange.com/questions/231685/how-to-get-a-translated-string-from-a-language-other-than-the-current-one)
 
-#### Q71. Which of these are best practices in accessibility?
+#### Q70. Which of these are best practices in accessibility?
 
 - [ ] Do not skip heading levels.
 - [ ] Be sure there is proper color contrast between background and text.
 - [ ] If an activity can be completed with a mouse, it must also be accessible by keyboard.
 - [x] all of these answers
 
-#### Q72. JavaScript variables can hold many data types. Which data type does the following variable represent?
+#### Q71. JavaScript variables can hold many data types. Which data type does the following variable represent?
 
 ```js
 var x = '16';
@@ -654,56 +647,56 @@ var x = '16';
 
 [Reference](https://www.w3schools.com/js/js_datatypes.asp)
 
-#### Q73. You would use a post instead of a page when the content is **\_**.
+#### Q72. You would use a post instead of a page when the content is **\_**.
 
 - [ ] for a top-level menu item
 - [ ] nested (has a parent/child relationship with another piece of content)
 - [x] when the content is part of a blog.
 - [ ] evergreen
 
-#### Q74. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
+#### Q73. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
 
 - [ ] formatting
 - [ ] widgets
 - [ ] layout
 - [x] shortcodes
 
-#### Q81. What service is used to manage user profile photos across any WordPress site?
+#### Q74. What service is used to manage user profile photos across any WordPress site?
 
 - [x] Gravatar
 - [ ] WordPress.org
 - [ ] None. Just upload a profile photo from your site user account.
 - [ ] Profile Photo plugin
 
-#### Q82. Which is not a benefit of DRY code?
+#### Q75. Which is not a benefit of DRY code?
 
 - [ ] The code can be reused.
 - [x] The code is less abstracted.
 - [ ] The code is easier to read.
 - [ ] The code is easier to maintain.
 
-#### Q83. Which of these does not impact your site speed?
+#### Q76. Which of these does not impact your site speed?
 
 - [ ] caching
 - [ ] your web host
 - [x] inactive plugins
 - [ ] content delivery network (CDN)
 
-#### Q84. Where do you configure global settings for comments on your WordPress site?
+#### Q77. Where do you configure global settings for comments on your WordPress site?
 
 - [ ] Tools screen
 - [ ] wp-config.php
 - [ ] cPanel
 - [x] Discussion Settings
 
-#### Q85. What can you not configure via wp-config.php?
+#### Q78. What can you not configure via wp-config.php?
 
 - [x] changing the default user role
 - [ ] changing the default wp_table prefix
 - [ ] changing your site or WordPress address
 - [ ] changing the default number of post revisions
 
-#### Q85. When it comes to best practice for WordPress development, what is the preferred method for adding a custom post type (CPT) to a site?
+#### Q79. When it comes to best practice for WordPress development, what is the preferred method for adding a custom post type (CPT) to a site?
 
 - [ ] Add CPTs via phpMyAdmin.
 - [x] Add CPTs via a plugin.
@@ -712,14 +705,14 @@ var x = '16';
 
 [Reference](https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/)
 
-#### Q86. What is a way you can both harden your site's security and improve how Google presents you site in search results?
+#### Q80. What is a way you can both harden your site's security and improve how Google presents you site in search results?
 
 - [x] Install an SSL certificate.
 - [ ] Install a security plugin on your site.
 - [ ] Use a third-party security monitoring service.
 - [ ] Require user to log in to view content.
 
-#### Q87. Review the HTML on line 1.The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q81. Review the HTML on line 1.The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 1. `<input type="text" id="title" name="title" />`
 2. `$title = $_POST[ 'title' ]`
@@ -729,14 +722,14 @@ var x = '16';
 - [ ] There is no error. The code follows Wordpress best practice.
 - [ ] The sample does not use GET method. It should be wrapped in the ger_post_field() function and look like this: `$title = get_post_field($_GET['title']);`.
 
-#### Q88. Which of these is not a part of the internationalization and localization process?
+#### Q82. Which of these is not a part of the internationalization and localization process?
 
 - [ ] using a tool like Poedit to parse source code and extract translatable strings into a POT file.
 - [x] translators translating the PO file, one for each language.
 - [ ] installing/using the Wordpress Multilingual Plugin.
 - [ ] using a gettext function to wrap transatable strings when writing code.
 
-#### Q89. The REST API provides data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access sute data via the REST API?
+#### Q83. The REST API provides data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access sute data via the REST API?
 
 - [ ] Disable the REST API via the site's wp-config.php file.
 - [ ] Use the rest_authenticaton_errors() filter along with the is_user_logged_in() conditional to limit access to logged in users.
