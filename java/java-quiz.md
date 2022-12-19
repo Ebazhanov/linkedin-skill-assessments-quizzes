@@ -1412,7 +1412,7 @@ class Lambo extends Car {
 
 [Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
 
-#### Q101. Which statement about constructors is not ture?
+#### Q101. Which statement about constructors is not true?
 
 - [ ] A class can have multiple constructors with a different parameter list.
 - [ ] You can call another constructor with `this` or `super`.
