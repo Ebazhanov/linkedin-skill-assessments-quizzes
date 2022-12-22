@@ -396,9 +396,9 @@ mvn install
 #### Q52. What is the main purpose of the install phase?
 
 - [ ] to compile the source code of the project
-- [x] to install all of the remote dependencies
+- [ ] to install all of the remote dependencies
 - [ ] to deploy the final project artifacts into a remote Maven repository
-- [ ] to copy the final project artifacts into the local Maven repository
+- [x] to copy the final project artifacts into the local Maven repository
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
 
