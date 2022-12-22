@@ -567,3 +567,14 @@ mvn install
 - [x] The `<dependency>` elements should be inside `<dependencies>` elements.
 - [ ] The `<dependency>` element is not a valid in a POM file.
 - [ ] The `<dependency>` elements should be at the bottom of the POM file.
+
+#### Q71. Below is the configuration for a server on settings.xml. What does this configuration do?
+
+![q71](q71.png?raw=png)
+
+- [ ] It disables put requests to headers.
+- [ ] It sets the headers for all GET requests.
+- [ ] all of these answers
+- [ ] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
+
+[maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)
