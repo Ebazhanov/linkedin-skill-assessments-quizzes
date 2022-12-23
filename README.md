@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1253-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1254-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1754,6 +1754,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="http://frankiefab.com"><img src="https://avatars.githubusercontent.com/u/46662771?v=4?s=100" width="100px;" alt="Franklin Ohaegbulam"/><br /><sub><b>Franklin Ohaegbulam</b></sub></a><br /><a href="#design-frankiefab100" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=frankiefab100" title="Code">💻</a></td>
       <td align="center"><a href="https://nisarg0606.github.io/"><img src="https://avatars.githubusercontent.com/u/64687773?v=4?s=100" width="100px;" alt="Nisarg Shah"/><br /><sub><b>Nisarg Shah</b></sub></a><br /><a href="#design-nisarg0606" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nisarg0606" title="Code">💻</a></td>
       <td align="center"><a href="http://www.unikdahal.com.np"><img src="https://avatars.githubusercontent.com/u/61407386?v=4?s=100" width="100px;" alt="Unik Dahal"/><br /><sub><b>Unik Dahal</b></sub></a><br /><a href="#design-unikdahal" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=unikdahal" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/readi1y"><img src="https://avatars.githubusercontent.com/u/121257452?v=4?s=100" width="100px;" alt="Readily"/><br /><sub><b>Readily</b></sub></a><br /><a href="#design-readi1y" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=readi1y" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
