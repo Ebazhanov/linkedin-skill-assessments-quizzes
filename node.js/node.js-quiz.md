@@ -680,8 +680,8 @@ server.listen(port, hostname, () => {
 #### Q80. Which choice is not a Node global object?
 
 - [ ] process
-- [ ] exports
+- [x] exports
 - [ ] setTimeout
-- [x] Buffer
+- [ ] Buffer
 
-[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php)
+[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php#exports)
