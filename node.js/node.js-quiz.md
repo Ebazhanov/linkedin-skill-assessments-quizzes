@@ -596,10 +596,12 @@ console.log(person);
 
 #### Q71. How can ECMAScript modules be used natively in Node?
 
-- [x] ECMAScript modules cannot be used natively in Node.
-- [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
+- [ ] ECMAScript modules cannot be used natively in Node.
+- [x] ECMAScript modules can be used natively in Node with the .mjs file extension
 - [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
 - [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+[Reference](https://nodejs.org/docs/latest/api/packages.html#determining-module-system)
 
 #### Q72. When exploring the Node documentation's features, what are the stability ratings?
 
