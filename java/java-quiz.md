@@ -1236,7 +1236,7 @@ class Main {
 }
 ```
 
-- [x] A runtime exception is thrown.
+- [x] It will not compile.
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
