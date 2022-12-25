@@ -2123,13 +2123,6 @@ Queue<Rainfall>
 - [x] Math.max(x,y)
 - [ ] Math.maximum(x,y)
 
-#### Q151. What do these statments evaluate to?
-
-- [ ] 1. false 2. true
-- [ ] 1. false 2. false
-- [ ] 1. true 2. true
-- [x] 1. true 2. false
-
 #### Q151. `void accept(T t)` is method of -?
 
 - [x] Consumer
@@ -2310,7 +2303,7 @@ public class Course {
 - [x] O(AB)
 - [ ] O(A\*B)
 
-#### Q162. What do these expressions evaluate to?
+#### Q163. What do these expressions evaluate to?
 
     1. true && false
     2. true && false || true
