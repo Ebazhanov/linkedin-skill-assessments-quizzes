@@ -116,8 +116,8 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 #### Q14. Which of the following file types is NOT involved in translating WordPress?
 
 - [ ] .po
-- [x] .pot
-- [ ] .mot
+- [ ] .pot
+- [x] .mot
 - [ ] .mo
 
 #### Q15. What is the default priority for an action hook or filter?
