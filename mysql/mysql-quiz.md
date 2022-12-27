@@ -1118,3 +1118,39 @@ Table name: superheroes
 - [ ] Names of Students who have got an A grade in all courses
 - [x] Names of Students who have got an A grade in at least one of the courses taught by Sriram
 - [ ] None of the above
+
+#### Q116. You are working with an UPDATE trigger on the employee table in this diagram. How can you access the new value for the address inside the trigger?
+
+![mysql picture](images/mysql_q116.png?raw=true)
+
+
+- [ ] Use NEW. address.
+- [x] Use DELETED. address.
+- [ ] Use INSERTED. address.
+- [ ] Use OLD. address.
+
+#### Q117. You are working with the tables shown below. You need to make sure that any record added to the purchases table consists of a customerlD, which already exists in the customers table, and a carlD, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+
+![mysql picture](images/mysql_q85.png?raw=true)
+
+- [ ] IF EXISTS
+- [ ] CROSS JOIN
+- [x] BEFORE INSERT
+- [ ] AFTER INSERT
+
+
+#### Q118. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
+
+
+- [x] ALTER TABLE car ADD FULL TEXT(description);
+- [ ] MERGE TABLE car ADD FULL TEXT(description)
+- [ ] ENABLE FULL TEXT(description) car
+- [ ] SEARCH FULL TEXT(description) car
+
+#### Q119. You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
+
+
+- [ ] VARCHAR
+- [x] ENUM
+- [ ] LONGTEXT
+- [ ] TEXT
