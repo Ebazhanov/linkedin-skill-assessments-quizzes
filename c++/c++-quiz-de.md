@@ -71,10 +71,12 @@ else
 
 #### Q5. Welche Aktion führt der Operator ^ aus?
 
-- [ ] Er berechnet das bitweise xor zwischen seinen Operanden.
+- [x] Er berechnet das bitweise xor zwischen seinen Operanden.
 - [ ] Er berechnet das logische xor zwischen seinen Operanden.
 - [ ] Er nimmt die linke Seite des Operators hoch der Potenz auf der rechten Seite des Operators.
 - [ ] Er tut zweierlei: Er deklariert einen Zeiger und dereferenziert einen Zeiger.
+
+[Referenz](https://cplusplus.com/doc/tutorial/operators/)
 
 #### Q6. Welchen Speicher belegt u1?
 
@@ -191,10 +193,12 @@ void *ptr;
 
 #### Q15. Wie kann C++-Code eine C-Funktion aufrufen?
 
-- [ ] durch Verwendung von extern "C"
+- [x] durch Verwendung von extern "C"
 - [ ] indem er den C-Quellcode importiert
 - [ ] Es gibt keine Möglichkeit, mit C++ eine C-Funktion aufzurufen.
 - [ ] indem er einfach den C-Code aufruft
+
+[Referenz](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
 
 #### Q16. What is a class template?
 
