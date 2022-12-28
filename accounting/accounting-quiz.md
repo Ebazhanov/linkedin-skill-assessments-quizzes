@@ -99,7 +99,7 @@
 
 - [ ] deposits in transit
 - [ ] bank service fees
-- [x] outstating checks
+- [x] outstanding checks
 - [ ] electronic fund transfers/payments
 
 #### Q15. What situation could be the results of the three retails store employees sharing the same cash register?
