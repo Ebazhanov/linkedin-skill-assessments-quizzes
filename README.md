@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1256-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1257-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1759,6 +1759,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/readi1y"><img src="https://avatars.githubusercontent.com/u/121257452?v=4?s=100" width="100px;" alt="Readily"/><br /><sub><b>Readily</b></sub></a><br /><a href="#design-readi1y" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=readi1y" title="Code">💻</a></td>
       <td align="center"><a href="http://www.linkedin.com/in/alexandre-poitevin-yahya-abou-imran"><img src="https://avatars.githubusercontent.com/u/31008523?v=4?s=100" width="100px;" alt="Alexandre Poitevin"/><br /><sub><b>Alexandre Poitevin</b></sub></a><br /><a href="#design-yahya-abou-imran" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yahya-abou-imran" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Scaramir"><img src="https://avatars.githubusercontent.com/u/29096190?v=4?s=100" width="100px;" alt="Scaramir"/><br /><sub><b>Scaramir</b></sub></a><br /><a href="#design-Scaramir" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Scaramir" title="Code">💻</a></td>
+      <td align="center"><a href="https://pruthvi.ca"><img src="https://avatars.githubusercontent.com/u/779092?v=4?s=100" width="100px;" alt="Pruthvi"/><br /><sub><b>Pruthvi</b></sub></a><br /><a href="#design-pruthvi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pruthvi" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
