@@ -1272,3 +1272,51 @@ export interface AppSettings {
 - [x] `*ngFor="let item of items; trackBy: trackById"`
 
 [StackOverflow - How to use `trackBy` with `ngFor`](https://stackoverflow.com/a/58025894)
+	
+	
+#### Q68. What does this Angular CLI command do?
+
+```bash
+ng build --configuration=production --progress=false
+```
+
+- [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and logs progress output to the console. 
+- [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and watching files for changes. 
+- [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and disables watching files for changes. 
+- [x] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and prevents progress output to the console. 
+
+[Angular documentation - `ng build`](https://angular.io/cli/build#:~:text=%2D%2D-,progress,-Log%20progress%20to)
+	
+	
+#### Q69. Service classes can be registered as providers via which decorators?
+	
+- [ ] @Injectable, @NgModule, @Component, and @Directive. 
+- [x] @Injectable only. 
+- [ ] @Injectable and @NgModule only. 
+- [ ] @Service and @NgModule only. 
+
+#### Q70. What is the Input decorator used for in this component class?
+```javascript
+@Component({
+	selector:'app-product-name',
+	...
+})
+export class ProductNameComponent {
+	@Input() productName: string	
+}
+```
+- [ ] It is used simply to put a comment in front of a class field for documentation. 
+- [x] It provides a way to bind values to the productName field by using the component selector. 
+- [ ] It autogenerates an ```html
+	<input type='text' id='productName'>``` Dom element in the component template. 
+- [ ] It provides a way to bind values to the productName instance field,just like native DOM element property bindings. 
+[Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
+	
+	
+#### Q71. Which route guard can be used to mediate navigation to a route?
+
+- [x] all of these answers. 
+- [ ] CanDeactivate. 
+- [ ] CanLoad
+- [ ] CanActivate. 
+[Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
