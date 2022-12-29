@@ -703,3 +703,10 @@ model=Planet
 - [ ] puffer
 - [ ] pitch
 - [x] humanize
+
+#### Q76. Where would you find the settings.py file?
+
+- [x] \[projectname\]/settings.py
+- [ ] \[projectname\]/\[projectname\]/settings.py
+- [ ] \[PYTHON_ROOT\]/settings.py
+- [ ] \[DJANGO_ROOT]/settings.py
