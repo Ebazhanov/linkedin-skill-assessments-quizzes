@@ -283,7 +283,7 @@
 
 - [ ] Use the pharse "local accountant" as a keyword to focus her website on.
 - [ ] Focus on short-tail keywords.
-- [x] Register her business with a Google My Business account.
+- [x] Register her business with a Google Business Profile account.
 - [ ] Leave a link to her website in the blog comments of popular accounting websites.
 
 #### Q33. What is the anchor text in this code sample?
@@ -793,3 +793,10 @@
 - [x] when treating uppercase versus lowercase characters in URLs
 - [ ] with an on-site search results page
 - [ ] when managing URL parameters
+    
+#### Q100. What would be most beneficial in helping a site display rich features in Google's search results?
+
+- [ ] Google search console
+- [x] structured data
+- [ ] Data-Vocabulary.org
+- [ ] Google Result Generator
