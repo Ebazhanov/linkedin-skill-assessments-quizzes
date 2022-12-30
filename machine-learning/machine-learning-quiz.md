@@ -853,3 +853,21 @@ Which of these statements do you agree with?
 - [ ] exponential
 - [ ] non-random
 - [x] random
+
+#### Q111. If you are thinking about using machine learning algorithms, the best thing you can do today is to ensure you have quality _____.
+
+- [x] data
+- [ ] processors
+- [ ] networking
+- [ ] statistical techniques
+
+`//"Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow."` [Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
+
+#### Q112. Your organization's chief diversity officer is concerned that your engineering department lacks racial and gender diversity. You are asked to create a supervised machine learning system to help sort through hundreds of thousands of new employment applications. The human resources department insists on using internal hiring data. What are some of the dangers that you might run into?
+
+- [ ] There will be too much data for your artificial neural network to process efficiently.
+- [ ] Machine learning systems cannot define diversity, so there is no way to use one to improve hiring.
+- [ ] Machine learning systems cannot be used with this type of data.
+- [x] If the system uses internal data, then it may amplify any existing bias in hiring.
+
+`//"If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results."` [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
