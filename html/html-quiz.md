@@ -2125,3 +2125,12 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] `<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes...</aside>`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+
+#### Q126. Which video example will autoplay in most browsers?
+
+- [x] `<video src="video.mp4" autoplay muted></video>`
+- [ ] `<video src="video.mp4" background></video>`
+- [ ] `<video src="video.mp4" autoplay></video>`
+- [ ] `<video src="video.mp4" autoplay="force"></video>`
+
+[Source](https://stackoverflow.com/questions/65157672/force-html5-video-autoplay-unmuted)
