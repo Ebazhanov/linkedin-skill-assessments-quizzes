@@ -30,7 +30,7 @@
 - [x] `i2 && b1`
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
-  
+
 **Reasoning:** i2 && b1 is not allowed between int and boolean.
 
 #### Q4. What is the output of this code?
@@ -303,7 +303,6 @@ class Main {
 - [x] A runtime exception is thrown.
 - [ ] "world!!world"
 - [ ] "world!world!"
-
 
 #### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 

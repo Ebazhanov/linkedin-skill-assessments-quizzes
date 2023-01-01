@@ -1123,7 +1123,6 @@ Table name: superheroes
 
 ![mysql picture](images/mysql_q116.png?raw=true)
 
-
 - [ ] Use NEW. address.
 - [x] Use DELETED. address.
 - [ ] Use INSERTED. address.
@@ -1138,9 +1137,7 @@ Table name: superheroes
 - [x] BEFORE INSERT
 - [ ] AFTER INSERT
 
-
 #### Q118. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
-
 
 - [x] ALTER TABLE car ADD FULL TEXT(description);
 - [ ] MERGE TABLE car ADD FULL TEXT(description)
@@ -1148,7 +1145,6 @@ Table name: superheroes
 - [ ] SEARCH FULL TEXT(description) car
 
 #### Q119. You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
-
 
 - [ ] VARCHAR
 - [x] ENUM

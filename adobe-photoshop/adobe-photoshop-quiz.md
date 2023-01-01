@@ -852,7 +852,6 @@ E. Liquify
 - [ ] Click File > Version History to enable it
 - [x] Save as a cloud document
 
-
 #### Q111. Which set of tools has a content-aware mode?
 
 - [ ] Perspective Crop

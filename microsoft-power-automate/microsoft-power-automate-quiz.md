@@ -215,12 +215,12 @@
 
 #### Q28. Can you create nested conditions? If yes, how?
 
-- [x] Yes. Add another set of conditions into the Yes/No results of an existing condition. 
-- [ ] Yes. Add another set of conditions after the resulting actions. 
+- [x] Yes. Add another set of conditions into the Yes/No results of an existing condition.
+- [ ] Yes. Add another set of conditions after the resulting actions.
 - [ ] No. You can have only one set of conditions per flow.
 - [ ] It depends on the action. For instance, you cannot have multiple conditions if you are updating SharePoint records.
 
-#### Q29. What control would you use to build parallel branches of conditional logic based on a single value? 
+#### Q29. What control would you use to build parallel branches of conditional logic based on a single value?
 
 ![Image of footer](images/Q01.png?raw=png)
 

@@ -793,7 +793,7 @@
 - [x] when treating uppercase versus lowercase characters in URLs
 - [ ] with an on-site search results page
 - [ ] when managing URL parameters
-    
+
 #### Q100. What would be most beneficial in helping a site display rich features in Google's search results?
 
 - [ ] Google search console

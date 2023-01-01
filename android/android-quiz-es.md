@@ -181,13 +181,13 @@
 #### P12. Debe eliminar un evento basado en su identificador de su API, ¿Qué fragmento de código define esa solicitud en Retrofit?
 
 - [ ] @DELETE("eventos))
-  fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
+      fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
 - [x] @DELETE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
+      fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
 - [ ] @REMOVE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
+      fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
 - [x] @DELETE("events/{id}")
-  fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
+      fun deleteEvent(@Path("id") id: Long): Llamar<Unit>
 
 #### P13. ¿Cuándo usaría un sabor de producto en su configuración de construcción?
 

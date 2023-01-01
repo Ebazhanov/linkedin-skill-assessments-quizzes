@@ -854,7 +854,7 @@ Which of these statements do you agree with?
 - [ ] non-random
 - [x] random
 
-#### Q111. If you are thinking about using machine learning algorithms, the best thing you can do today is to ensure you have quality _____.
+#### Q111. If you are thinking about using machine learning algorithms, the best thing you can do today is to ensure you have quality **\_**.
 
 - [x] data
 - [ ] processors
