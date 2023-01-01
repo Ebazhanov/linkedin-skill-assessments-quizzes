@@ -1049,7 +1049,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [x]
+- [x] .
 
 ```plaintext
 I
@@ -1057,7 +1057,7 @@ Javascript!
 love
 ```
 
-- [ ]
+- [ ] .
 
 ```plaintext
 love
@@ -1067,9 +1067,9 @@ Javascript!
 
 - [ ] The output may change with each execution of code and cannot be determined.
 
-- [ ]
+- [ ] .
 
-```
+```plaintext
 I
 love
 Javascript!
