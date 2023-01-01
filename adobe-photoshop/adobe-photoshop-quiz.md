@@ -423,9 +423,9 @@ E. Perspective Warp
 #### Q53. Where do you find natural media brushes?
 
 - [ ] Photoshop does not have natural media brushes.
-- [ ] In the **Brushes** panel, select a brush and then select **Convert to natural media**.
-- [x] In the **Brushes** panel, select **Legacy Brushes**.
-- [ ] in the **Tool Presents** panel.
+- [ ] In the Brushes panel, select a brush and then select Convert to natural media.
+- [x] In the Brushes panel, select Legacy Brushes.
+- [ ] in the Tool Presents panel.
 
 #### Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
 
@@ -816,3 +816,46 @@ E. Liquify
 - [x] The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby.
 - [ ] The Healing Brush tool does not match texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
 - [ ] The Healing Brush tool needs a source point, but the Spot Healing Brush automatically samples pixels nearby.
+
+#### Q106. The options bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
+
+- [ ] Window > Options
+- [x] View > Show > Show extra options
+- [ ] Window > Tool Presets
+- [ ] Edit > Toolbar
+
+#### Q107. What i the best way to save multiple full-size images into a single PDF?
+
+- [x] Use the PDF Presentation command
+- [ ] Check to see if you have Acrobat DC Installed
+- [ ] Save each PDF separately first and the combine them
+- [ ] Click File > Export > Export Layers to Files
+
+#### Q108. Which panel allow you to record commands for future playback on another image?
+
+- [x] Actions
+- [ ] Inspector
+- [ ] Scripts
+- [ ] Layers
+
+#### Q109. How do you nondestructively use the Clone Stamp tool on a rasterized layer?
+
+- [x] Create a new layer above it and set the Clone Stamp tool's Sample setting to Current & below
+- [ ] Add a Photo Filter adjustment layer above the layer. Then use the Clone Stamp Toool.
+- [ ] Convert it ot a Smart Object. Then use the Clone Stampa Tool
+- [ ] While the layer selected, set the Clone Stamp tool's Sample setting to Current & Below.
+
+#### Q110. What must you do to use Version History?
+
+- [ ] Go to the Timeline
+- [ ] From the History panel flyout menu, select Version History
+- [ ] Click File > Version History to enable it
+- [x] Save as a cloud document
+
+
+#### Q111. Which set of tools has a content-aware mode?
+
+- [ ] Perspective Crop
+- [x] Patch
+- [ ] Marquee
+- [ ] Lasso
