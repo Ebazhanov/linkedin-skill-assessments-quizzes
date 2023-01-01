@@ -1049,3 +1049,10 @@ cat > notes -
 - [ ] It outputs the contents of the "notes" file to the screen, and then deletes it.
 - [x] It accepts text from the standard input and places it in the "notes" file.
 - [ ] It appends text to an existing file called "notes."
+
+#### Q82. You want to match five-letter palindromes such as radar, rotor, and tenet. Which sed option should you use?
+
+- [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
+- [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
+- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
