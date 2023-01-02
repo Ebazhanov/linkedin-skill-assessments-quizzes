@@ -784,3 +784,24 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] E
 - [x] A
 - [ ] C
+
+#### Q100. You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?
+
+- [ ] Insert a new comment
+- [ ] Reply to the comment
+- [x] Delete the comment
+- [ ] Resolve the comment
+
+#### Q101. What action allow you to quickly access a specific docuemnt from your list of saved file?
+
+- [ ] List
+- [ ] Go to file
+- [x] Bookmark
+- [ ] Jump
+
+#### Q102. Which page orientation should you select to accomdate a wide chart or table?
+
+- [ ] Wide
+- [ ] Potrait
+- [x] Landscape
+- [ ] None of the above
