@@ -12529,6 +12529,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "plemanski",
+      "name": "Peter Lemanski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22970533?v=4",
+      "profile": "https://github.com/plemanski",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
