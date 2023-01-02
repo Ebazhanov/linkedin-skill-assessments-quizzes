@@ -11,9 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1264-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1265-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1771,6 +1769,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/Elcaveman"><img src="https://avatars.githubusercontent.com/u/61284089?v=4?s=100" width="100px;" alt="El mehdi oudaoud"/><br /><sub><b>El mehdi oudaoud</b></sub></a><br /><a href="#design-Elcaveman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Elcaveman" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/JayantGoel001"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt="Jayant Goel"/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="#design-JayantGoel001" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=JayantGoel001" title="Code">💻</a></td>
       <td align="center"><a href="http://tsukizombina.github.io/"><img src="https://avatars.githubusercontent.com/u/7613290?v=4?s=100" width="100px;" alt="Tsuki"/><br /><sub><b>Tsuki</b></sub></a><br /><a href="#design-TsukiZombina" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TsukiZombina" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/plemanski"><img src="https://avatars.githubusercontent.com/u/22970533?v=4?s=100" width="100px;" alt="Peter Lemanski"/><br /><sub><b>Peter Lemanski</b></sub></a><br /><a href="#design-plemanski" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=plemanski" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
