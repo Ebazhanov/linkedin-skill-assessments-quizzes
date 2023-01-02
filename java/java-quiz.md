@@ -450,7 +450,7 @@ class Main {
 - [ ] The code does not compile.
 - [ ] "ello"
 
-#### Q27. Object-oriented programming is a style of programming where you organize your program around \_ rather than \_ and data rather than logic.
+#### Q27. Object-oriented programming is a style of programming where you organize your program around \_ and data, rather than \_ and logic.
 
 - [ ] functions; actions
 - [x] objects; actions
