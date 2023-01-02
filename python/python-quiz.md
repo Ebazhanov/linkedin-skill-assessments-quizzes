@@ -2253,6 +2253,8 @@ else:
 - [x] Use tuples instead of lists for functions that need to return multiple values.
 - [ ] Use lists instead of tuples when the position of elements is important.
 
+[Reference](https://www.scaler.com/topics/python/tuples-in-python/)
+
 #### Q167. Consider the following code snippet that uses decorators to calculate the execution time of execution_fn function:
 
 ```python
