@@ -12549,6 +12549,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "vua11",
+      "name": "Anthony Vu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70167429?v=4",
+      "profile": "http://vua11.vercel.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
