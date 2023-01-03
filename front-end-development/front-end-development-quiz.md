@@ -139,14 +139,14 @@ h1 {
 - [x] no users
 - [ ] screen reader users
 
-#### Q16. Which choice is not part of CSS box model
+#### Q16. Which choice is not part of CSS box model?
 
 - [ ] margin
 - [ ] border
 - [ ] padding
 - [x] paragraph
 
-#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name
+#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name?
 
 - [ ] https
 - [ ] org
@@ -274,7 +274,7 @@ cite {
 - [ ] Items stay in a column until you add some flex properties.
 - [ ] Items display in a row, lined up at the start, and stretch to fill the container
 
-#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each/
+#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.
 
 - [ ] `flex: 1 0 0;`
 - [ ] `flex: initial;`
