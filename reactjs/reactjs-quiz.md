@@ -1405,3 +1405,28 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Props
 
 [Reference](https://reactjs.org/blog/2014/05/06/flux.html)
+
+#### Q119. What is this pattern called?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] code pushing
+- [ ] object destructuring
+- [ ] spread operating
+- [x] array destructuring
+
+#### Q120. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
+
+```javascript
+const PokeDex = (props) => {
+  const [pokeDex, setPokeDex] = useState([]);
+  //...
+}
+```
+
+- [x] pokeDex
+- [ ] this.props.pokeDex
+- [ ] setPokeDex()
+- [ ] props.pokeDex
