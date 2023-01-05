@@ -1937,7 +1937,7 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-#### Q139. What fragment could you add to this code to make it output "{"type": "tiger"}" to the console?
+#### Q139. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```js
 let cat = { type: "tiger", size: "large" };
