@@ -1139,7 +1139,8 @@ fun main() {
 
 #### Q88. What is wrong with this class definition?
 
-```class Empty
+```
+class Empty
 
 ```
 
@@ -1149,3 +1150,12 @@ fun main() {
 - [ ] The curely braces are missing from the declaration of Empty.
 
 [reference](https://kotlinlang.org/docs/classes.html)
+
+#### Q89. What is a higher-order function in Kotlin?
+
+- [ ] A higher-order function is a function that returns a value other than Unit.
+- [ ] A higher-order function is the function that appears before others in a file.
+- [ ] A higher-order function is one that can be stored in a variable.
+- [x] A higher-order function is a function that takes a function as a parameter, or returns a function.
+
+[reference](https://kotlinlang.org/docs/lambdas.html)
