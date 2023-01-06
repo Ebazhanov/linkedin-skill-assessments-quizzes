@@ -293,8 +293,8 @@ FlowLog:
 
 #### Q37. Where is the best place to store database backups on an EC2 instance that is configured as a database server?
 
-- [x] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
-- [ ] EBS volume attached to the instance
+- [ ] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
+- [x] EBS volume attached to the instance
 - [ ] instance attached to the instance
 - [ ] instance storage, with a script that replicates the database backups to another instance in a different availability zone.
 
@@ -543,9 +543,9 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 ![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
-- [x] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
+- [ ] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
       Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
-- [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
+- [x] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
       secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
 - [ ] All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
