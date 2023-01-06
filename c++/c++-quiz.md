@@ -554,7 +554,8 @@ int main(){
 - [ ] c = -1, which is greater than 10
 - [ ] c = 255, which is less than 10
 
-Technically, a `char` could be either `signed` or `unsigned`; in the latter case, the second answer would be correct.
+Technically, whether a `char` is `signed` or `unsigned` is implementation-defined;
+in the latter case, the second answer would be correct.
 [Reference](https://en.cppreference.com/w/cpp/language/types)
 
 #### Q35. How can C++ code call a C function?
