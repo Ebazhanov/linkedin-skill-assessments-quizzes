@@ -607,10 +607,12 @@ _______
 SELECT 123+'abc' AS Result;
 ```
 
-- [x] 123abc
+- [ ] 123abc
 - [ ] 123'abc'
 - [ ] '123abc'
-- [ ] error
+- [x] error
+
+> Conversion failed when converting the varchar value 'abc' to data type int.
 
 #### Q50.What output will the following SQL sequence produce? Assume that the tables have been created and all the columns exist.
 
