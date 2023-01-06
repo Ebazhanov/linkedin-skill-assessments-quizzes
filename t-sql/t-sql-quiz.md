@@ -350,7 +350,7 @@ CREATE TABLE Books (
 
 - [ ] `NO DUPLICATES`
 - [ ] `UNIQUE CONSTRAINT AK_Books_BookISBN`
-- [ ] D`UPLICATE CONSTRAINT (AK_Books_BookISBN)`
+- [ ] `DUPLICATE CONSTRAINT (AK_Books_BookISBN)`
 - [x] `CONSTRAINT AK_Books_BookISBN UNIQUE`
 
 #### Q32. Given a table with the following structure, which query will not return the lowest grade earned by any student?
@@ -442,7 +442,7 @@ END;
 ![T-SQL-Q36](images/Q36.jpg)
 
 - [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
-- [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas`;`
+- [ ] ```UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;```
 - [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
 - [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 
