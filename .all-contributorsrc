@@ -12569,6 +12569,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "hatchcanon",
+      "name": "Nathan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10931888?v=4",
+      "profile": "http://nathancho.net",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
