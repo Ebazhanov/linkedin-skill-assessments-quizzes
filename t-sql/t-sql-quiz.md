@@ -630,3 +630,12 @@ SELECT bal FROM Account WHERE acct='12345';
 - [ ] `You will get an error because ROLLBACK deletes the row that was update`
 
 [Reference link](https://www.geeksforgeeks.org/sql-transactions/)
+
+#### Q51. The Marketing department wants to send an email to each member of the Humanities department. Based on the table below, which query gives them the first name and email address of each member of that department?
+
+![T-SQL-Q36](images/Q36.jpg)
+
+- [ ] `SELECT first_name, email FROM Students WHERE department = Humanities;`
+- [ ] `SELECT first_name, email FROM Students WHERE department = "Humanities";`
+- [x] `SELECT first_name, email FROM Students WHERE department = 'Humanities';`
+- [ ] `SELECT 'first_name', 'email' FROM 'Students' WHERE 'department' = "Humanities";`
