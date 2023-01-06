@@ -417,8 +417,8 @@ x=+a;
 ```
 
 - [ ] 3
-- [x] 7
-- [ ] -3
+- [ ] 7
+- [x] -3
 - [ ] 13
 
 #### Q29. Which statement is true?
@@ -553,6 +553,9 @@ int main(){
 - [ ] c = 255, which is greater than 10
 - [ ] c = -1, which is greater than 10
 - [ ] c = 255, which is less than 10
+
+Technically, a `char` could be either `signed` or `unsigned`; in the latter case, the second answer would be correct.
+[Reference](https://en.cppreference.com/w/cpp/language/types)
 
 #### Q35. How can C++ code call a C function?
 
@@ -819,9 +822,9 @@ if (~x || y) {
 }
 ```
 
-- [x] Part A executes because the expression `(~x || y)` always results in true if `y==false`.
+- [ ] Part A executes because the expression `(~x || y)` always results in true if `y==false`.
 - [ ] Part B executes because the statement `(~x || y)` is invalid, thus false.
-- [ ] Part A executes because `~x` is not zero, meaning true.
+- [x] Part A executes because `~x` is not zero, meaning true.
 - [ ] Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false.
 
 #### Q45. What would be the output of this code?
