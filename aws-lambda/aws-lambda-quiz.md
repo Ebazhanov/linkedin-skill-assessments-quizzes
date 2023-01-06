@@ -422,7 +422,7 @@
 
 #### Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?
 
-- [ ] Enable tracing, rerun the lambdas, and view in the lambda console
+- [x] Enable tracing, rerun the lambdas, and view in the lambda console
 - [ ] View the logs in CloudTrail
 - [ ] View the logs in CloudWatch
 - [ ] Enable tracing, rerun the Lambdas, and view in the X-Ray console
@@ -432,4 +432,11 @@
 - [ ] AWS SAM
 - [ ] AWS CLI
 - [ ] AWS CloudFormation
-- [ ] AWS SAM CLI
+- [x] AWS SAM CLI
+
+#### Q61. Your function failed to execute due to a timeout. What type of error is this?
+
+- [ ] Caller
+- [x] Runtime
+- [ ] Request
+- [ ] Account
