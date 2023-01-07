@@ -251,6 +251,8 @@ FROM Products______ ;
 
 > The underscore will match any single character, therefore you need to wrap the literal `_` with square brackets, otherwise, it may return a serial number ending with '1013', '10A3', etc.
 
+[Reference link](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-wildcard-characters-as-literals)
+
 #### Q23. When no join type between multiple tables in a query's `FROM` clause is specified, what type of join is assumed?
 
 - [x] `INNER`
