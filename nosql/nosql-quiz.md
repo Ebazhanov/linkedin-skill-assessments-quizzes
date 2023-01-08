@@ -161,7 +161,7 @@
 - [x] \$lookup
 - [ ] \$project
 
-#### Q24. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
+#### Q24. For your mobile application, you need to select a Google cloud database that can support compound, filtered document queries. Which do you choose?
 
 - [ ] Cloud SQL
 - [ ] Cloud Spanner
