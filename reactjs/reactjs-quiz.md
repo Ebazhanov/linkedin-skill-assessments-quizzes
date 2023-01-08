@@ -1423,7 +1423,7 @@ const [count, setCount] = useState(0);
 const PokeDex = (props) => {
   const [pokeDex, setPokeDex] = useState([]);
   //...
-}
+};
 ```
 
 - [x] pokeDex
