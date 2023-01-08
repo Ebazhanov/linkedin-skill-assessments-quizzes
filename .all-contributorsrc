@@ -12579,6 +12579,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "evgenii-petukhov",
+      "name": "Evgenii Petukhov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72270591?v=4",
+      "profile": "http://petukhov.cyou/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
