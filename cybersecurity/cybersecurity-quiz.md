@@ -218,7 +218,7 @@
 
 **Explanation**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
 
-#### Q29. Which type of application can intercept sensative information such as passwoprds on a network segment?
+#### Q29. Which type of application can intercept sensative information such as passwords on a network segment?
 
 - [ ] log server
 - [ ] network scanner
