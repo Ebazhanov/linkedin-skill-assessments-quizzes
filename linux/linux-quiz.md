@@ -741,9 +741,11 @@ cat < in.txt > out.txt
 #### Q88. What tool should you use to replace a physical volume in LVM?
 
 - [ ] cp
-- [ ] pvmove
+- [x] pvmove
 - [ ] tar
 - [ ] lvcopy
+
+[Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
 
