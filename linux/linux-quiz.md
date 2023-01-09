@@ -73,7 +73,7 @@ locate --regexp '^/usr.*pixmaps.*jpg$'
 
 #### Q10. What would this command output?
 
-```
+```bash
 ps -e --format uid,pid,ppid,%cpu,cmd
 ```
 
@@ -127,7 +127,7 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 #### Q17. Assume the variable myNumber holds a string consisting of 10 digits. What will this command output?
 
 ```bash
-echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
+echo $myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 ```
 
 - [ ] It will only match digits—and since the string has only digits, the command will output the same number without changes.
@@ -135,7 +135,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] It will output the entire 10-digit number inside parentheses.
 - [x] It will output the same 10-digit number, but the first 3 digits will be inside parentheses.
 
-Note: check the question below for a variant of this sed expression.
+**Note:** check the question below for a variant of this sed expression.
 
 #### Q18. What would this sed command do?
 
@@ -148,7 +148,7 @@ sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 - [ ] It would replace the first four letters with an ampersand (&).
 - [x] It would place parentheses around the first four letters of each line of textfile.txt.
 
-Note: check the question above for a variant of this sed expression.
+**Note:** check the question above for a variant of this sed expression.
 
 Side note: this sed expression may fail with "sed: -e expression #1, char 15: Invalid range end" (for example on MINGW64 / Git Bash); if this is the case, you can try the alternative range `[A-z]`.
 
@@ -254,7 +254,7 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [x] Brace expansion creates a list; globs match the list of pathnames.
 - [ ] Globs get processes first and brace expansion later.
 
-#### Q33. To remove all ACLs from a directory , use setfacl with which options?
+#### Q33. To remove all ACLs from a directory, use setfacl with which options?
 
 - [ ] -d
 - [ ] -k
@@ -358,7 +358,7 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It attempts to keep an active network connection available at all times.
 - [x] It is a command-line tool that manages network connections.
 
-#### Q44. Why might would you use the usermod command ?
+#### Q44. Why might would you use the usermod command?
 
 - [ ] to log out a user
 - [ ] to lock a user's account
@@ -425,7 +425,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] The script will run in the background until you end the session.
 - [x] The script will run in the background and will continue running even if you end the session.
 
-Reference: [Wikipedia](https://en.wikipedia.org/wiki/Nohup)
+[Reference](https://en.wikipedia.org/wiki/Nohup)
 
 > nohup is a POSIX command which means "no hang up". Its purpose is to execute a command such that it ignores the HUP (hangup) signal and therefore does not stop when the user logs out.
 
@@ -436,7 +436,7 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Nohup)
 - [ ] enter the sudo user's password
 - [ ] change to the root group
 
-[A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
+[Reference](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
 #### Q54. When would this system cron job run its task?
 
@@ -463,7 +463,7 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Nohup)
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
 
-**Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
+**Note:** This is correct because of the keyword "directory". More info [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
 #### Q57. What will this command print?
 
@@ -476,7 +476,7 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Nohup)
 
 #### Q58. How can you improve this code snippet?
 
-```
+```bash
 if ls /etc/passwd &> /dev/null
 then
     echo "exists"
@@ -495,8 +495,8 @@ fi
 - [x] systemctl mask crond
 - [ ] systemctl stop crond
 
-**Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.
-[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html) : search "mask".
+**Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.\
+[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html): search "mask".
 
 #### Q60. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
@@ -560,7 +560,7 @@ fi
 - [ ] array -a
 - [x] declare -A
 
-#### Q68. What tool Should you use to replace a physical volum in LVM?
+#### Q68. What tool should you use to replace a physical volum in LVM?
 
 - [ ] lvcopy
 - [ ] tar
@@ -577,8 +577,8 @@ fi
 #### Q70. What is the difference between these two lines of code?
 
 ```shell
-   echo "data" | tee -a file.txt
-   echo "data" >> file.txt
+echo "data" | tee -a file.txt
+echo "data" >> file.txt
 ```
 
 - [x] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
@@ -604,7 +604,7 @@ fi
 - [x] make the script executable and set the `httpd_enable_cgi` SELinux boolean
 - [ ] change the ownership of the script to Apache
 
-[reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
+[Reference](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
 
 #### Q73. To permanently add NAT to the default zone using firewalld, you would use which command string?
 
@@ -613,11 +613,11 @@ fi
 - [ ] `firewall-cmd --zone=default --add-nat`
 - [ ] `firewall-cmd --zone=default --add-masquerade`
 
-[reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
+[Reference](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
 
 #### Q74. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
 
-```
+```bash
 if [[ $FILE == $GLOB ]] ;then
 
 ```
@@ -627,7 +627,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] The single equal sign (`=`) checks equality; the double equal sign (`==`) checks string equality.
 - [ ] The double equal sign (`==`) is an assignment operator; the single equal sign (`=`) checks equality.
 
-[reference here](https://stackoverflow.com/a/12948608)
+[Reference](https://stackoverflow.com/a/12948608)
 
 #### Q75. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
 
@@ -636,7 +636,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [x] persistent
 - [ ] not persistent
 
-[reference here](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
+[Reference](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
 
 #### Q76. What is the purpose of a Mail Transport Agent (MTA)?
 
@@ -681,7 +681,9 @@ if [[ $FILE == $GLOB ]] ;then
 
 #### Q81. What would be in out.txt?
 
-    cat < in.txt > out.txt
+```shell
+cat < in.txt > out.txt
+```
 
 - [x] the content of in.txt.
 - [ ] the output from the command line.
@@ -690,7 +692,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 #### Q82. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
 
-```
+```bash
 ^(([0-9][0-9]?)|(2[0-9][0-9]))$
 ```
 
@@ -727,7 +729,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] They provide inheritance for group ownership.
 - [ ] They grant access to the directory on which they are set.
 
-[reference:](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
+[Reference](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
 
 #### Q87. The object that `systemd` uses to manage services is called a \_ file.
 
@@ -739,9 +741,11 @@ if [[ $FILE == $GLOB ]] ;then
 #### Q88. What tool should you use to replace a physical volume in LVM?
 
 - [ ] cp
-- [ ] pvmove
+- [x] pvmove
 - [ ] tar
 - [ ] lvcopy
+
+[Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
 
@@ -750,7 +754,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] Both uninstall software. The apt remove command also uninstalls the dependencies.
 - [ ] The apt autoremove command is a system service that routinely removes unused software packages.
 
-[reference](https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/)
+[Reference](https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/)
 
 #### Q90. You want to extract the contents from an rpm package. Which command do you use?
 
@@ -759,17 +763,17 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] rpm --reinstall
 - [x] rpm2cpio
 
-1. [reference:](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
-2. [reference:](https://man7.org/linux/man-pages/man8/rpm2cpio.8.html)
+1. [Reference](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
+2. [Reference](https://man7.org/linux/man-pages/man8/rpm2cpio.8.html)
 
-#### Q91. Which variable contains last background job process id ?
+#### Q91. Which variable contains last background job process id?
 
 - [x] `$!`
 - [ ] `$$`
 - [ ] `$?`
 - [ ] `$*`
 
-[reference:](https://www.globalguideline.com/interview_questions/Answer.php?a=Which_variable_contains_last_background_job_process_ida_b_c_d_)
+[Reference](https://www.globalguideline.com/interview_questions/Answer.php?a=Which_variable_contains_last_background_job_process_ida_b_c_d_)
 
 #### Q92. Which feature does LVM2 included in most distributions not support?
 
@@ -899,7 +903,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] zero or one
 - [ ] one or more
 
-[reference](https://javascript.info/regexp-character-sets-and-ranges)
+[Reference](https://javascript.info/regexp-character-sets-and-ranges)
 
 #### Q110. Why would you not use the `mdadm --assemble` subcommand when creating a new RAID5 array?
 
