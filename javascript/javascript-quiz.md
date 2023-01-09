@@ -2066,3 +2066,6 @@ let total = sum(4, ...values);
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
 - [ ] defer blocks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
+
+ [Reference: defer html script attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+  
