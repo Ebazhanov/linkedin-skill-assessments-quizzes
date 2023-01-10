@@ -11,9 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1272-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1273-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1781,6 +1779,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://petukhov.cyou/"><img src="https://avatars.githubusercontent.com/u/72270591?v=4?s=100" width="100px;" alt="Evgenii Petukhov"/><br /><sub><b>Evgenii Petukhov</b></sub></a><br /><a href="#design-evgenii-petukhov" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=evgenii-petukhov" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dehre"><img src="https://avatars.githubusercontent.com/u/23709926?v=4?s=100" width="100px;" alt="Loris Guerra"/><br /><sub><b>Loris Guerra</b></sub></a><br /><a href="#design-dehre" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dehre" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/fakhriaunur"><img src="https://avatars.githubusercontent.com/u/9006080?v=4?s=100" width="100px;" alt="fakhriaunur"/><br /><sub><b>fakhriaunur</b></sub></a><br /><a href="#design-fakhriaunur" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=fakhriaunur" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.mehdihyani.me/"><img src="https://avatars.githubusercontent.com/u/62780960?v=4?s=100" width="100px;" alt="Mehdi HYANI"/><br /><sub><b>Mehdi HYANI</b></sub></a><br /><a href="#design-BR4INL3SS" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=BR4INL3SS" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
