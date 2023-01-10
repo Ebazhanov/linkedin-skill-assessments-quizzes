@@ -1546,7 +1546,7 @@ myVeryFirstLambda = [] (string name) {
 int x=10, a=-3;
 X+=a;
 ```
-- [] -3
+- [ ] -3
 - [x] 7
 - [ ] 13
 - [ ] 3
