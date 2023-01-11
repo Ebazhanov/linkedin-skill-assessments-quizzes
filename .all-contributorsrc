@@ -12619,6 +12619,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "sarvex",
+      "name": "Sarvex Jatasra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1885938?v=4",
+      "profile": "http://sarvex.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
