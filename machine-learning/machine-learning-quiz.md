@@ -467,7 +467,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] There is not a lot of variance but there is a high bias.
 - [ ] Your model has low bias but high variance.
 
-`Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
+**Explanation**: Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.
 
 #### Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 
@@ -476,7 +476,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Retrain your model with smaller batch sizes.
 - [x] Include Asian faces in your training data and retrain your model.
 
-`The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
+**Explanation**: The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.
 
 #### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
 
@@ -653,7 +653,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] unsupervised classification
 - [ ] decision tree analysis
 
-`//You could use a naïve Bayes algorithm, to differentiate three classes of dog breeds — terrier, hound, and sport dogs. Each class has three predictors — hair length, height, and weight. The algorithm does something called class predictor probability.`
+**Explanation**: You could use a naïve Bayes algorithm, to differentiate three classes of dog breeds — terrier, hound, and sport dogs. Each class has three predictors — hair length, height, and weight. The algorithm does something called class predictor probability.
 
 [Reference](https://www.linkedin.com/pulse/machine-learning-algorithms-doug-rose/)
 
@@ -676,7 +676,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Unstructured data is always text.
 - [ ] Unstructured data is much easier to store.
 - [x] Structured data has clearly defined data types.
-- [ ] Sturctured data is much more popular.
+- [ ] Structured data is much more popular.
 
 #### Q88. You work for a startup that is trying to develop a software tool that will scan the internet for pictures of people using specific tools. The chief executive is very interested in using machine learning algorithms. What would you recommend as the best place to start?
 
@@ -758,7 +758,7 @@ During training, k-means partitions observations into k clusters. During inferen
 - [x] Decrease variance
 - [ ] Decrease bias
 
-`//Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $Var(\bar{X})=\frac{Var(X)}{N}`
+**Explanation**: Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $Var(\bar{X})=\frac{Var(X)}{N}
 
 #### Q99. To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?
 
@@ -767,7 +767,7 @@ During training, k-means partitions observations into k clusters. During inferen
 - [ ] No, it is not necessary because the dataset can already be considered shuffled from the data collection process.
 - [x] No, because each update passes through the entire dataset anyway and the order doesn't matter.
 
-`//At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.`
+**Explanation**: At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.
 
 At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.
 
@@ -780,7 +780,7 @@ Which of these statements do you agree with?
 - [ ] You should not correct the incorrectly labeled data in the test set, because the test set should reflect the data distribution of the real world.
 - [ ] If you want to correct incorrectly labeled data, you should do it on all three sets (train/dev/test) in order to maintain similar distributions.
 
-`//It is important that your dev and test set have the closest possible distribution to "real" data.`
+**Explanation**: It is important that your dev and test set have the closest possible distribution to "real" data.
 
 #### Q101. You're working on a binary classification task, to classify if an image contains a cat ("1") or doesn't contain a cat ("0"). What loss would you choose to minimize in order to train a model?
 
@@ -789,65 +789,65 @@ Which of these statements do you agree with?
 - [ ] L = || y - y^ ||22
 - [ ] L = || y - y^ ||22 + constant
 
-`//You are trying to minimize the binary cross entropy loss over the training set..`
+**Explanation**: You are trying to minimize the binary cross entropy loss over the training set..
 
-### Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?
+#### Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?
 
 - [ ] reinforcement learning
 - [x] binary classification
 - [ ] K-nearest neighbor
 - [ ] unsupervised learning
 
-### Q103. The famous data scientist Andrew Ng has been quoted as saying, "Applied machine learning is basically feature engineering." What is feature engineering?
+#### Q103. The famous data scientist Andrew Ng has been quoted as saying, "Applied machine learning is basically feature engineering." What is feature engineering?
 
 - [ ] scraping new features from web data
 - [x] creating new variables by combining and modifying the original variables
 - [ ] designing innovative new user features to add to software
 - [ ] using deep learning to find features in the data
 
-### Q104. In the context of calculus, what is df/dx?
+#### Q104. In the context of calculus, what is df/dx?
 
 - [ ] the prediction function
 - [x] the derivative of f of x
 - [ ] the derivative of x
 - [ ] equivalent to f divided by x
 
-### Q105. What is a well-designed/well-fitted model?
+#### Q105. What is a well-designed/well-fitted model?
 
 - [ ] one that has been trained and tested with the same data
 - [x] one that has a high degree of accuracy and is able to accurately predict results
 - [ ] one that has been trained with labeled training data
 - [ ] one that has been trained with an exhaustive set of all conditions and permutations in the training data
 
-### Q106. **\_**-based collaborative filtering occurs when a person is recommended an item similar to an item they have purchased.
+#### Q106. **\_**-based collaborative filtering occurs when a person is recommended an item similar to an item they have purchased.
 
 - [ ] History
 - [x] Item
 - [ ] Similarity
 - [ ] Purchase
 
-### Q107. Fill in the blanks: Two multivariate imputer techniques are the **\_** imputer and the **\_** imputer.
+#### Q107. Fill in the blanks: Two multivariate imputer techniques are the **\_** imputer and the **\_** imputer.
 
 - [ ] supervised, unsupervised
 - [x] iterative, KNN
 - [ ] similarity, regressive
 - [ ] normalized, scaled
 
-### Q108. You are working on a regression model using the Keras library. What method on the Model class do you use to train the model?
+#### Q108. You are working on a regression model using the Keras library. What method on the Model class do you use to train the model?
 
 - [ ] predict
 - [ ] compile
 - [x] fit
 - [ ] get_weights
 
-### Q109. What is the goal of regularization in the K nearest neighbors algorithm?
+#### Q109. What is the goal of regularization in the K nearest neighbors algorithm?
 
 - [ ] normalizing the data points so they can be compared with each other
 - [ ] using a straight line model to make predictions based on training data
 - [ ] finding the slope of the line that represents the model
 - [x] making the decision boundaries more regular
 
-### Q110. If there is no trend between two variables x and y, we say that there is a **\_** connection between x and y.
+#### Q110. If there is no trend between two variables x and y, we say that there is a **\_** connection between x and y.
 
 - [ ] linear
 - [ ] exponential
@@ -861,7 +861,7 @@ Which of these statements do you agree with?
 - [ ] networking
 - [ ] statistical techniques
 
-`//"Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow."` [Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
+**Explanation**: "Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow." [Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 
 #### Q112. Your organization's chief diversity officer is concerned that your engineering department lacks racial and gender diversity. You are asked to create a supervised machine learning system to help sort through hundreds of thousands of new employment applications. The human resources department insists on using internal hiring data. What are some of the dangers that you might run into?
 
@@ -870,4 +870,5 @@ Which of these statements do you agree with?
 - [ ] Machine learning systems cannot be used with this type of data.
 - [x] If the system uses internal data, then it may amplify any existing bias in hiring.
 
-`//"If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results."` [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
+
+**Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results." [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
