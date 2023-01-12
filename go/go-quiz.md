@@ -20,21 +20,55 @@
 
 #### Q3. Which is _not_ a valid loop construct in Go?
 
-- [x] `do { ... } while i < 5`
-- [ ] `for _,c := range "hello" { ... }`
-- [ ] `for i := 1; i < 5; i++ { ... }`
-- [ ] `for i < 5 { ... }`
+- [x] 
+
+  ```go
+  do { ... } while i < 5
+  ```
+- [ ] 
+
+  ```go
+  for _,c := range "hello" { ... }
+  ```
+- [ ] 
+
+  ```go
+  for i := 1; i < 5; i++ { ... }
+  ```
+- [ ] 
+
+  ```go
+  for i < 5 { ... }
+  ```
 
 **Explanation:** Go has only `for`-loops
 
 #### Q4. How will you add the number 3 to the right side?
 
-`values := []int{1, 1, 2}`
+```go
+values := []int{1, 1, 2}
+```
 
-- [ ] `values.append(3)`
-- [ ] `values.insert(3, 3)`
-- [ ] `append(values, 3)`
-- [x] `values = append(values, 3)`
+- [ ] 
+
+  ```go 
+  values.append(3)
+  ```
+- [ ] 
+
+  ```go
+  values.insert(3, 3)
+  ```
+- [ ] 
+  
+  ```go
+  append(values, 3)
+  ```
+- [x] 
+
+  ```go
+  values = append(values, 3)
+  ```
 
 **Explanation:** slices in GO are immutable, so calling `append` does not modify the slice
 
@@ -57,10 +91,25 @@ const (
 
 #### Q6. Which is the _only_ valid import statement in Go?
 
-- [ ] `import "github/gin-gonic/gin"`
-- [ ] `import "https://github.com/gin-gonic/gin"`
-- [ ] `import "../template"`
-- [x] `import "github.com/gin-gonic/gin"`
+- [ ] 
+
+  ```go 
+  import "github/gin-gonic/gin"
+  ```
+- [ ] 
+
+  ```go
+  import "https://github.com/gin-gonic/gin"
+  ```
+- [ ] 
+  ```go 
+  import "../template"
+  ```
+- [x] 
+  
+  ```go 
+  import "github.com/gin-gonic/gin"
+  ```
 
 [Import in GoLang](https://golangdocs.com/import-in-golang)
 
@@ -262,10 +311,26 @@ func Add(a, b int) {
 data := "A group of Owls is called a parliament"
 ```
 
-- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))`
-- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", data)`
-- [x] `resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))`
-- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)`
+- [ ] 
+
+```go 
+  resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
+  ```
+- [ ] 
+
+  ```go 
+  resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
+  ```
+- [x] 
+
+  ```go 
+  resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
+  ```
+- [ ] 
+
+  ```go
+  resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
+  ```
 
 1. [net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)
 2. [http.Post Golang example](https://dev.to/ramu_mangalarapu/httppost-golang-example-5jp)
@@ -769,20 +834,46 @@ func main() {
 }
 ```
 
-- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req.AttachContext(ctx)`
-- [x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req = req.WithContext(ctx)`
-- [ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)`
-- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req = req.WithContext(ctx)`
+- [ ]  
+  ```go 
+  ctx.SetTimeout(3*time.Second)
+  req.AttachContext(ctx)
+  ```
+- [x] 
+  ```go
+  ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
+  req = req.WithContext(ctx)
+  ```
+- [ ] 
+  ```go
+  ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
+  ```
+- [ ] 
+  ```go
+  ctx.SetTimeout(3*time.Second) 
+  req = req.WithContext(ctx)
+  ```
 
 1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
 2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)
 
 #### Q53. If you have a struct named Client defined in the same .go file as the statement, how do you export a variable with a default value so the variable is accessible by other packages?
 
-- [ ] `let Default := new Client()`
-- [ ] `public default = &Client()`
-- [x] `var Default = &Client{}`
-- [ ] `export default := new Client{}`
+- [ ]
+  ```go
+  let Default := new Client()
+  ```
+- [ ]
+  ```go
+  public default = &Client()
+  ```
+- [x]
+  ```go
+  var Default = &Client{}
+  ```
+- [ ]
+  ```go
+  export default := new Client{}
 
 #### Q54. This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?
 
@@ -851,3 +942,58 @@ func main() {
   ```
 
 1. [fmt#Stringer](https://pkg.go.dev/fmt#Stringer)
+
+#### Q55. How would you implement a working `Append()` method for `Clients`?
+```go
+package main
+
+type Client struct {
+  Name string
+}
+type Clients struct {
+  clients []*Client
+}
+func main() {
+  c:= &Clients{clients.make([]*Client,0)}
+  c.Append(&Client{Name: "LinkedIn API})
+}
+```
+
+- [x] A
+
+  ```go
+  func (cc *Clients) Append(c *Client) {
+    cc.clients = append(cc.clients, c)
+  }
+  ```
+- [ ] B
+
+  ```go
+  func (cc *Clients) Append(c *Client) {
+    cc.append(c)
+  }
+  ```
+- [ ] C
+
+  ```go
+  func (cc Clients) Append(c Client) {
+    cc.clients = append(cc.clients, c)
+  }
+  ```
+- [ ] D
+
+  ```go
+  func (cc *Clients) Append(c Client) {
+    cc.clients.append(c)
+  }
+  ```
+
+#### Q56. How would you recover from a `panic()` thrown by a called function without allowing your program to fail assuming your answer will run in the same scope where your function call will experience the panic?
+
+- [ ] Wrap the function call in an anonymous function with a return type of `panic`, remembering to invoke the anonymous function by suffixing it with `()` then introspecting the returned `panic` instance to handle the error.
+
+- [ ] Use `try{ ... }` to wrap the code calling the function and then handle the error within the `catch{ ... }`.
+
+- [x] Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.
+
+- [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function. 
