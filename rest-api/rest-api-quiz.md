@@ -538,4 +538,5 @@
 - [ ] 400 Bad Request
 - [x] 200 OK
 - [ ] 404 Not Found
+
 [Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
