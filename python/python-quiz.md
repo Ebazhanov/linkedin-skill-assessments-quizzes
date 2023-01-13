@@ -708,6 +708,8 @@ t1 = test()
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
 - [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
+[Reference](https://realpython.com/python-pep8/)
+
 #### Q51. Describe the functionality of a deque.
 
 - [ ] A deque adds items to one side and remove items from the other side.
@@ -774,6 +776,8 @@ def __init__(self):
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
+
+[Reference](https://www.interviewbit.com/python-cheat-sheet/)
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
