@@ -2422,17 +2422,18 @@ employees = {
 - [ ] `employees['alice'][1] = employees['charlie'][1]`
 - [ ] `employees['alice'].salary = employees['charlie'].salary`
 
-**Explanation:**This is accessing a key in a nested dictionary inside another dictionary 
+**Explanation:**This is accessing a key in a nested dictionary inside another dictionary
 
-The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'. 
-It is the same thing as: 
+The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
+It is the same thing as:
+
 ```python
 employees = {
     'alice': {'position': 'Lead Developer', 'salary': 1000},
     'bob': {'position': 'Lead Artist', 'salary': 2000},
     'charlie': {'position': 'cfo', 'salary': 3000}
 }
-# or: 
+# or:
 employees = {'alice': {'position': 'Lead Developer', 'salary': 1000},
              'bob': {'position': 'Lead Artist', 'salary': 2000},
              'charlie': {'position': 'cfo', 'salary': 3000}}

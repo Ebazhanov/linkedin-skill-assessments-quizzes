@@ -1134,7 +1134,7 @@ if (a > 1){
 }
 ```
 
-- [X] C
+- [x] C
 
 ```
 if (a > 1)
@@ -1152,4 +1152,5 @@ if (a > 1)
 else
     b = 3;
 ```
+
 [Reference](https://www.mathworks.com/help/matlab/ref/if.html)

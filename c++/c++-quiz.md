@@ -1542,10 +1542,12 @@ myVeryFirstLambda = [] (string name) {
 [Reference](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
 
 #### Q98. What is the value of X after running this code?
+
 ```cpp
 int x=10, a=-3;
 X+=a;
 ```
+
 - [ ] -3
 - [x] 7
 - [ ] 13

@@ -870,7 +870,6 @@ Which of these statements do you agree with?
 - [ ] Machine learning systems cannot be used with this type of data.
 - [x] If the system uses internal data, then it may amplify any existing bias in hiring.
 
-
 **Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results." [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
 
 #### Q113. In 2013, Google´s DeepMind project created a machine learning algorithm that could play an old-style Atari video game, Pong. The algorithm taught the machine how to play by creating a series of rewards. Each time the machine successfully returned the ball, the machine got a reward; each time the opponent missed the ball, the machine got a reward. How would you describe this type of machine learning algorithm?

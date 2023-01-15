@@ -21,25 +21,24 @@
 #### Q3. Which is _not_ a valid loop construct in Go?
 
 - [x] 
+```go
+      do { ... } while i < 5
+```
 
-  ```go
-  do { ... } while i < 5
-  ```
 - [ ] 
+```go
+      for _,c := range "hello" { ... }
+```
 
-  ```go
-  for _,c := range "hello" { ... }
-  ```
 - [ ] 
+```go
+      for i := 1; i < 5; i++ { ... }
+```
 
-  ```go
-  for i := 1; i < 5; i++ { ... }
-  ```
 - [ ] 
-
-  ```go
-  for i < 5 { ... }
-  ```
+```go
+      for i < 5 { ... }
+```
 
 **Explanation:** Go has only `for`-loops
 
@@ -50,25 +49,24 @@ values := []int{1, 1, 2}
 ```
 
 - [ ] 
+```go
+      values.append(3)
+```
 
-  ```go 
-  values.append(3)
-  ```
-- [ ] 
+- [ ]
+```go
+      values.insert(3, 3)
+```
 
-  ```go
-  values.insert(3, 3)
-  ```
 - [ ] 
-  
-  ```go
-  append(values, 3)
-  ```
+```go
+      append(values, 3)
+```
+
 - [x] 
-
-  ```go
-  values = append(values, 3)
-  ```
+```go
+      values = append(values, 3)
+```
 
 **Explanation:** slices in GO are immutable, so calling `append` does not modify the slice
 
@@ -92,24 +90,23 @@ const (
 #### Q6. Which is the _only_ valid import statement in Go?
 
 - [ ] 
+```go
+      import "github/gin-gonic/gin"
+```
 
-  ```go 
-  import "github/gin-gonic/gin"
-  ```
 - [ ] 
+```go
+      import "https://github.com/gin-gonic/gin"
+```
 
-  ```go
-  import "https://github.com/gin-gonic/gin"
-  ```
 - [ ] 
-  ```go 
-  import "../template"
-  ```
+```go
+      import "../template"
+```
 - [x] 
-  
-  ```go 
-  import "github.com/gin-gonic/gin"
-  ```
+```go
+      import "github.com/gin-gonic/gin"
+```
 
 [Import in GoLang](https://golangdocs.com/import-in-golang)
 
@@ -311,26 +308,26 @@ func Add(a, b int) {
 data := "A group of Owls is called a parliament"
 ```
 
-- [ ] 
+- [ ]
 
-```go 
+```go
   resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
-  ```
-- [ ] 
+```
 
-  ```go 
-  resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
-  ```
+- [ ] 
+```go
+      resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
+```
+
 - [x] 
+```go
+      resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
+```
 
-  ```go 
-  resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
-  ```
 - [ ] 
-
-  ```go
-  resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
-  ```
+```go
+      resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
+```
 
 1. [net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)
 2. [http.Post Golang example](https://dev.to/ramu_mangalarapu/httppost-golang-example-5jp)
@@ -834,25 +831,25 @@ func main() {
 }
 ```
 
-- [ ]  
-  ```go 
-  ctx.SetTimeout(3*time.Second)
-  req.AttachContext(ctx)
-  ```
+- [ ] 
+```go
+      ctx.SetTimeout(3*time.Second)
+      req.AttachContext(ctx)
+```
 - [x] 
-  ```go
-  ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
-  req = req.WithContext(ctx)
-  ```
+```go
+      ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
+      req = req.WithContext(ctx)
+```
 - [ ] 
-  ```go
-  ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
-  ```
+```go
+      ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
+```
 - [ ] 
-  ```go
-  ctx.SetTimeout(3*time.Second) 
-  req = req.WithContext(ctx)
-  ```
+```go
+      ctx.SetTimeout(3*time.Second)
+      req = req.WithContext(ctx)
+```
 
 1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
 2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)
@@ -874,6 +871,7 @@ func main() {
 - [ ]
   ```go
   export default := new Client{}
+  ```
 
 #### Q54. This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?
 
@@ -944,6 +942,7 @@ func main() {
 1. [fmt#Stringer](https://pkg.go.dev/fmt#Stringer)
 
 #### Q55. How would you implement a working `Append()` method for `Clients`?
+
 ```go
 package main
 
@@ -966,6 +965,7 @@ func main() {
     cc.clients = append(cc.clients, c)
   }
   ```
+
 - [ ] B
 
   ```go
@@ -973,6 +973,7 @@ func main() {
     cc.append(c)
   }
   ```
+
 - [ ] C
 
   ```go
@@ -980,6 +981,7 @@ func main() {
     cc.clients = append(cc.clients, c)
   }
   ```
+
 - [ ] D
 
   ```go
@@ -996,4 +998,4 @@ func main() {
 
 - [x] Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.
 
-- [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function. 
+- [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.
