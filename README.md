@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1280-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1281-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1789,6 +1789,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://grzegorzkmita.com"><img src="https://avatars.githubusercontent.com/u/97115044?v=4?s=100" width="100px;" alt="Grzegorz Kmita"/><br /><sub><b>Grzegorz Kmita</b></sub></a><br /><a href="#design-Jirafey" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Jirafey" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/manul30"><img src="https://avatars.githubusercontent.com/u/67177371?v=4?s=100" width="100px;" alt="Manuel Carita"/><br /><sub><b>Manuel Carita</b></sub></a><br /><a href="#design-manul30" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=manul30" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ftcister"><img src="https://avatars.githubusercontent.com/u/63937848?v=4?s=100" width="100px;" alt="Felipe Cisternas Alvarez"/><br /><sub><b>Felipe Cisternas Alvarez</b></sub></a><br /><a href="#design-ftcister" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ftcister" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/guoci"><img src="https://avatars.githubusercontent.com/u/1260178?v=4?s=100" width="100px;" alt="Guo Ci"/><br /><sub><b>Guo Ci</b></sub></a><br /><a href="#design-guoci" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=guoci" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
