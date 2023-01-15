@@ -903,7 +903,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 - [ ] files in the local repository that have not been merged into the master branch
 - [ ] staged files that Git does not know about because the have not been committed
-- [x] files in the working directory that Git does not know about because the have not been staged or committed
+- [x] files in the working directory that Git does not know about because they have not been staged or committed
 - [ ] files in the remote repository that Git does not know about because they have not been tagged
 
 #### Q110. What type of Git hook could be used to validate that a commit message contains a ticket number?
@@ -991,8 +991,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 - [ ] testfile.js would be reverted to a blank file.
 - [ ] testfile.js would be reset to its first saved state.
-- [x] testfile.js would be reverted to its last saved copy.
-- [ ] testfile.js would be removed from the stage/index area, if present.
+- [ ] testfile.js would be reverted to its last saved copy.
+- [x] testfile.js would be removed from the stage/index area, if present.
+
+[reference](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
 
 #### Q122. What situation can occur when attempting to combine branches containing changes to the same piece of code?
 
