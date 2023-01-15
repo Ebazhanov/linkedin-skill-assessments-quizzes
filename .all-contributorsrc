@@ -12639,6 +12639,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "evgrezanov",
+      "name": "Evgeniy Rezanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5329288?v=4",
+      "profile": "https://github.com/evgrezanov",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
