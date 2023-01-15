@@ -277,7 +277,7 @@ if let s = String.init("some string") {
 
 #### Q25. Which code snippet correctly creates a typealias closure?
 
-- [x] typealias CustomClosure: () -> ()
+- [x] typealias CustomClosure = () -> ()
 - [ ] typealias CustomClosure { () -> () }
 - [ ] typealias CustomClosure -> () -> ()
 - [ ] typealias CustomClosure -> () {}
