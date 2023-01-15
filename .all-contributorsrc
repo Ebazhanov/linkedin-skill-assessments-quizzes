@@ -12689,6 +12689,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "guoci",
+      "name": "Guo Ci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1260178?v=4",
+      "profile": "https://github.com/guoci",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
