@@ -531,3 +531,12 @@
 [Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
 [Etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
 [Rate limiting your RESTful API](https://medium.com/@guillaume.viguierjust/rate-limiting-your-restful-api-3148f8e77248)
+
+#### Q69. A client application uses a filter or a search in your API correctly but there are zero results. What is the best response code?
+
+- [ ] 204 No Content
+- [ ] 400 Bad Request
+- [x] 200 OK
+- [ ] 404 Not Found
+
+[Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
