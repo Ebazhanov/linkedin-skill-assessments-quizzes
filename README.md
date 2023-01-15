@@ -1784,6 +1784,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/santimanuelr"><img src="https://avatars.githubusercontent.com/u/8482241?v=4?s=100" width="100px;" alt="santimanuelr"/><br /><sub><b>santimanuelr</b></sub></a><br /><a href="#design-santimanuelr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=santimanuelr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/evgrezanov"><img src="https://avatars.githubusercontent.com/u/5329288?v=4?s=100" width="100px;" alt="Evgeniy Rezanov"/><br /><sub><b>Evgeniy Rezanov</b></sub></a><br /><a href="#design-evgrezanov" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=evgrezanov" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://dev.to/soniajm"><img src="https://avatars.githubusercontent.com/u/98415819?v=4?s=100" width="100px;" alt="Sonia M"/><br /><sub><b>Sonia M</b></sub></a><br /><a href="#design-letscode-17" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=letscode-17" title="Code">💻</a></td>
     </tr>
   </tbody>
