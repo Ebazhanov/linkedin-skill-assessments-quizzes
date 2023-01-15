@@ -2397,3 +2397,43 @@ my_list = [2, 'apple', 3.5]
 - [ ] `dir(MyClass)`
 
 **Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.
+
+#### Q176. Suppose you have a list of employees described by the code below. You want to assign alice the same salary as charlie. Which choice will accomplish that?
+
+```python
+employees = {
+    'alice':{
+        'position':'Lead Developer',
+        'salary':1000
+    },
+    'bob':{
+        'position': 'Lead Artist',
+        'salary':2000
+    },
+    'charlie':{
+        'position':'cfo',
+        'salary':3000
+    }
+}
+```
+
+- [x] `employess['alice']['salary'] = employees['charlie']['salary']`
+- [ ] `employees.alice.salary = employees.charlie.salary`
+- [ ] `employees['alice'][1] = employees['charlie'][1]`
+- [ ] `employees['alice'].salary = employees['charlie'].salary`
+
+**Explanation:**This is accessing a key in a nested dictionary inside another dictionary 
+
+The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'. 
+It is the same thing as: 
+```python
+employees = {
+    'alice': {'position': 'Lead Developer', 'salary': 1000},
+    'bob': {'position': 'Lead Artist', 'salary': 2000},
+    'charlie': {'position': 'cfo', 'salary': 3000}
+}
+# or: 
+employees = {'alice': {'position': 'Lead Developer', 'salary': 1000},
+             'bob': {'position': 'Lead Artist', 'salary': 2000},
+             'charlie': {'position': 'cfo', 'salary': 3000}}
+```
