@@ -12659,6 +12659,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Jirafey",
+      "name": "Grzegorz Kmita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97115044?v=4",
+      "profile": "http://grzegorzkmita.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
