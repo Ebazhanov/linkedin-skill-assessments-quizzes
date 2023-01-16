@@ -1112,3 +1112,45 @@ b = zeros(1, size(C,2);
         b(1_C) = mean(C(i_C));
     end
 ```
+
+#### Q77. Which choice uses the proper syntax for an `if else` statement?
+
+- [ ] A
+
+```
+if (a > 1):
+    b = 2;
+else:
+    b = 3;
+```
+
+- [ ] B
+
+```
+if (a > 1){
+    b = 2;
+} else{
+    b = 3;
+}
+```
+
+- [x] C
+
+```
+if (a > 1)
+    b = 2;
+else
+    b = 3;
+end
+```
+
+- [ ] D
+
+```
+if (a > 1)
+    b = 2;
+else
+    b = 3;
+```
+
+[Reference](https://www.mathworks.com/help/matlab/ref/if.html)

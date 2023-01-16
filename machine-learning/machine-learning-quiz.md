@@ -870,5 +870,22 @@ Which of these statements do you agree with?
 - [ ] Machine learning systems cannot be used with this type of data.
 - [x] If the system uses internal data, then it may amplify any existing bias in hiring.
 
-
 **Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results." [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
+
+#### Q113. In 2013, Google´s DeepMind project created a machine learning algorithm that could play an old-style Atari video game, Pong. The algorithm taught the machine how to play by creating a series of rewards. Each time the machine successfully returned the ball, the machine got a reward; each time the opponent missed the ball, the machine got a reward. How would you describe this type of machine learning algorithm?
+
+- [ ] big data machine learning.
+- [ ] Good Old-Fashioned Artificial Intelligence (GOFAI).
+- [x] reinforcement learning.
+- [ ] supervised learning.
+
+**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the enviroment and get rewards or penalizations [Source](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)
+
+#### Q114. An organization that owns dozens of shopping malls want to create a machine learning product that will use facial recognition to identify customers. What is one of the main challenges with developing such a product?
+
+- [ ] The images in the video would not be high-quality enough to identify individuals.
+- [ ] It would be difficult to decide between supervised and unsupervised learning.
+- [x] It might be unethical for the business to identify people without their consent.
+- [ ] Most machine learning algorithms are not designed for video.
+
+**Explanation**: there are many ethical questions about consent and privacy in machine learning algorithms [Source](https://www.nature.com/articles/d41586-020-03187-3)

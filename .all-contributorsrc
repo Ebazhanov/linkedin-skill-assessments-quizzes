@@ -12629,6 +12629,76 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "santimanuelr",
+      "name": "santimanuelr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8482241?v=4",
+      "profile": "https://github.com/santimanuelr",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "evgrezanov",
+      "name": "Evgeniy Rezanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5329288?v=4",
+      "profile": "https://github.com/evgrezanov",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "letscode-17",
+      "name": "Sonia M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98415819?v=4",
+      "profile": "https://dev.to/soniajm",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Jirafey",
+      "name": "Grzegorz Kmita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97115044?v=4",
+      "profile": "http://grzegorzkmita.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "manul30",
+      "name": "Manuel Carita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67177371?v=4",
+      "profile": "https://github.com/manul30",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ftcister",
+      "name": "Felipe Cisternas Alvarez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63937848?v=4",
+      "profile": "https://github.com/ftcister",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "guoci",
+      "name": "Guo Ci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1260178?v=4",
+      "profile": "https://github.com/guoci",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

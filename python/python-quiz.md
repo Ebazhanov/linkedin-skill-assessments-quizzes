@@ -708,6 +708,8 @@ t1 = test()
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
 - [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
+[Reference](https://realpython.com/python-pep8/)
+
 #### Q51. Describe the functionality of a deque.
 
 - [ ] A deque adds items to one side and remove items from the other side.
@@ -774,6 +776,8 @@ def __init__(self):
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
+
+[Reference](https://www.interviewbit.com/python-cheat-sheet/)
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
@@ -2393,3 +2397,44 @@ my_list = [2, 'apple', 3.5]
 - [ ] `dir(MyClass)`
 
 **Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.
+
+#### Q176. Suppose you have a list of employees described by the code below. You want to assign alice the same salary as charlie. Which choice will accomplish that?
+
+```python
+employees = {
+    'alice':{
+        'position':'Lead Developer',
+        'salary':1000
+    },
+    'bob':{
+        'position': 'Lead Artist',
+        'salary':2000
+    },
+    'charlie':{
+        'position':'cfo',
+        'salary':3000
+    }
+}
+```
+
+- [x] `employess['alice']['salary'] = employees['charlie']['salary']`
+- [ ] `employees.alice.salary = employees.charlie.salary`
+- [ ] `employees['alice'][1] = employees['charlie'][1]`
+- [ ] `employees['alice'].salary = employees['charlie'].salary`
+
+**Explanation:**This is accessing a key in a nested dictionary inside another dictionary
+
+The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
+It is the same thing as:
+
+```python
+employees = {
+    'alice': {'position': 'Lead Developer', 'salary': 1000},
+    'bob': {'position': 'Lead Artist', 'salary': 2000},
+    'charlie': {'position': 'cfo', 'salary': 3000}
+}
+# or:
+employees = {'alice': {'position': 'Lead Developer', 'salary': 1000},
+             'bob': {'position': 'Lead Artist', 'salary': 2000},
+             'charlie': {'position': 'cfo', 'salary': 3000}}
+```
