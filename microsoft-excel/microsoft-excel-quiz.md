@@ -1259,4 +1259,11 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] MIN
 - [ ] NEXT
 
+#### Q142. What type of chart is this in excel? #similar question but same answer
+![image](https://user-images.githubusercontent.com/92987311/212734360-1e204101-4d28-48be-949f-0cea701d2cd8.png)
+- [x] histogram
+- [ ] treemap chart
+- [ ] radar chart
+- [ ] bar chart
+
 [Source](https://exceljet.net/articles/how-to-lookup-first-and-last-match)
