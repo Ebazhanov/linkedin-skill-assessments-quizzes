@@ -282,6 +282,8 @@ if let s = String.init("some string") {
 - [ ] typealias CustomClosure -> () -> ()
 - [ ] typealias CustomClosure -> () {}
 
+[_The Swift Programming Language: Declarations: Type Alias Declaration_](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#grammar_typealias-declaration)
+
 #### Q26. How do you reference class members from within a class?
 
 - [x] self
