@@ -123,10 +123,12 @@ let y = x ?? 5
 func add(a: Int, b: Int) -> Int { return a+b }
 ```
 
-- [ ] Int
-- [x] (Int, Int) -> Int
-- [ ] Int<Optional>
+- [ ] `Int`
+- [x] `(Int, Int) -> Int`
+- [ ] `Int<Optional>`
 - [ ] Functions don't have types.
+
+Reference: [_The Swift Programming Language: Language Guide: Functions: Function Types_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID174)
 
 #### Q12. What is the correct way to call this function?
 
@@ -136,17 +138,24 @@ func myFunc(_ a: Int, b: Int) -> Int {
 }
 ```
 
-- [x] myFunc(5, b: 6)
-- [ ] myFunc(5, 6)
-- [ ] myFunc(a: 5, b: 6)
-- [ ] myFunc(a, b)
+- [x] `myFunc(5, b: 6)`
+- [ ] `myFunc(5, 6)`
+- [ ] `myFunc(a: 5, b: 6)`
+- [ ] `myFunc(a, b)`
+
+Reference: [_The Swift Programming Language: Language Guide: Functions: Function Argument Labels and Parameter Names_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166)
 
 #### Q13. The Codable protocol is **\_**?
 
-- [x] a combination of Encodable and Decodable
-- [ ] not a true protocol <<<<---Possibly correct as it's a typealias of Encodable and Decodable
-- [ ] required of all classes
-- [ ] automatically included in all classes
+- [x] A combination of `Encodable` and `Decodable`
+- [ ] Not a true protocol
+- [ ] Required of all classes
+- [ ] Automatically included in all classes
+
+References:
+
+- [Apple Developer: Documentation: Swift: Swift Standard Library: Encoding, Decoding, and Serialization: Codable](https://developer.apple.com/documentation/swift/codable/)
+- [_The Swift Programming Language: Language Guide: Protocols: Protocol Composition_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID282)
 
 #### Q14. What is the type of value1 in this code?
 
@@ -154,17 +163,21 @@ func myFunc(_ a: Int, b: Int) -> Int {
 let value1 = "\("test".count)"
 ```
 
-- [x] String
-- [ ] Int
-- [ ] null
-- [ ] test.count
+- [x] `String`
+- [ ] `Int`
+- [ ] `null`
+- [ ] `test.count`
+
+Reference: [_The Swift Programming Language: Language Guide: Strings and Characters: String Interpolation_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID292)
 
 #### Q15. When a function takes a closure as a parameter, when do you want to mark is as escaping?
 
-- [x] when it's executed after the function returns
-- [ ] when it's scope is undefined
-- [ ] when it's lazy loaded
-- [ ] all of these answers
+- [x] When it's executed after the function returns
+- [ ] When it's scope is undefined
+- [ ] When it's lazy loaded
+- [ ] All of these answers
+
+Reference: [_The Swift Programming Language: Language Guide: Closures: Escaping Closures_](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID546)
 
 #### Q16. What's wrong with this code?
 
@@ -177,8 +190,10 @@ class Person {
 
 - [x] Person has no initializers.
 - [ ] Person has no base class.
-- [ ] var name is not formatted corrrectly.
-- [ ] address is a keyword.
+- [ ] `var name` is not formatted correctly.
+- [ ] `address` is a keyword.
+
+Reference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)
 
 #### Q17. What is the value of names after this code is executed?
 
@@ -189,9 +204,9 @@ names.map { (s) -> String in
 }
 ```
 
-- [ ] ["BEAR", "JOE", "CLARK"]
-- [ ] ["B", "J", "C"]
-- [x] ["Bear", "Joe", "Clark"]
+- [ ] `["BEAR", "JOE", "CLARK"]`
+- [ ] `["B", "J", "C"]`
+- [x] `["Bear", "Joe", "Clark"]`
 - [ ] This code contains an error.
 
 #### Q18. What describes this line of code?
@@ -200,10 +215,12 @@ names.map { (s) -> String in
 let val = 5
 ```
 
-- [x] a constant named val of type Int
-- [ ] a variable named val of type item
-- [ ] a constant named val of type Number
-- [ ] a variable named val of type Int
+- [x] A constant named val of type `Int`
+- [ ] A variable named val of type `item`
+- [ ] A constant named val of type `Number`
+- [ ] A variable named val of type `Int`
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
 
 #### Q19. What is the error in this code?
 
@@ -217,17 +234,21 @@ extension String {
 }
 ```
 
-- [x] Extensions can't add properties. // although extensions technically can't contain stored properties
+- [x] Extensions can't add properties.
 - [ ] Nothing is wrong with it.
-- [ ] didSet takes a parameter.
-- [ ] c is not a character.
+- [ ] `didSet` takes a parameter.
+- [ ] `c` is not a character.
+
+Reference: [_The Swift Programming Language: Language Guide: Extensions: Computed Properties_](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html#ID152)
 
 #### Q20. didSet and willSet are examples of **\_**?
 
-- [x] property observers
-- [ ] key properties
-- [ ] all of these answers
-- [ ] newOld value calls
+- [x] Property observers
+- [ ] Key properties
+- [ ] All of these answers
+- [ ] `newOld` value calls
+
+Reference: [_The Swift Programming Language: Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)
 
 #### Q21. What is wrong with this code?
 
