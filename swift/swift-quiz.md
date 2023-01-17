@@ -6,10 +6,12 @@
 let val = (Double)6
 ```
 
-- [x] a syntax issue
-- [ ] typecasting
-- [ ] assignment
-- [ ] initialization
+- [x] A syntax issue
+- [ ] Typecasting
+- [ ] Assignment
+- [ ] Initialization
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Constants and Variables_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID310)
 
 #### Q2. What is the error in this code?
 
@@ -18,10 +20,12 @@ let x = 5
 guard x == 5 { return }
 ```
 
-- [x] The guard is missing the else.
-- [ ] Nothing is wrong.
-- [ ] The guard is missing a then.
-- [ ] The comparison is wrong.
+- [x] The `guard` is missing the `else`
+- [ ] Nothing is wrong
+- [ ] The `guard` is missing a `then`
+- [ ] The comparison is wrong
+
+Reference: [_The Swift Programming Language: Language Guide: Control Flow: Early Exit_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID525)
 
 #### Q3. What is the raw/underlying type of this enum?
 
@@ -31,17 +35,21 @@ enum Direction {
 }
 ```
 
-- [x] There is none.
-- [ ] String
-- [ ] Any
-- [ ] Int
+- [x] There is none
+- [ ] `String`
+- [ ] `Any`
+- [ ] `Int`
+
+Reference: [_The Swift Programming Language: Language Guide: Enumerations: Raw Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149)
 
 #### Q4. Why is dispatchGroup used in certain situations?
 
 - [ ] It allows multiple synchronous or asynchronous operations to run on different queues.
 - [ ] It allows track and control execution of multiple operations together.
 - [ ] It allows operations to wait for each other as desired.
-- [x] all of these answers.
+- [x] All of these answers.
+
+Reference: [Apple Developer: Documentation: Dispatch: Dispatch Group](https://developer.apple.com/documentation/dispatch/dispatchgroup)
 
 #### Q5. What is this code an example of?
 
@@ -50,10 +58,12 @@ let val = 5
 print("value is: \(val)")
 ```
 
-- [x] string interpolation
-- [ ] string compilation
-- [ ] method chaining
-- [ ] string concatenation
+- [x] String interpolation
+- [ ] String compilation
+- [ ] Method chaining
+- [ ] String concatenation
+
+Reference: [_The Swift Programming Language: Language Guide: Strings and Characters: String Interpolation_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID292)
 
 #### Q6. What are the contents of `vals` after this code is executed?
 
@@ -64,23 +74,27 @@ vals.sort { (s1, s2) -> Bool in
 }
 ```
 
-- [x] [10, 2]
-- [ ] [2, 10]
-- [ ] nil
+- [x] `[10, 2]`
+- [ ] `[2, 10]`
+- [ ] `nil`
 - [ ] This code contains an error
+
+Reference: [Apple Developer: Documentations: Swift: Array: sort()](https://developer.apple.com/documentation/swift/array/sort())
 
 #### Q7. What does this code print?
 
 ```swift
-typealias Thing = [String:Any]
+typealias Thing = [String: Any]
 var stuff: Thing
 print(type(of: stuff))
 ```
 
-- [x] Dictionary<String, Any>
-- [ ] Dictionary
-- [ ] ERROR
-- [ ] Thing
+- [x] `Dictionary<String, Any>`
+- [ ] `Dictionary`
+- [ ] `Error`
+- [ ] `Thing`
+
+Reference: [_The Swift Programming Language: Language Reference: Types: Type Identifier_](https://docs.swift.org/swift-book/ReferenceManual/Types.html#ID447)
 
 #### Q8. What is the value of y?
 
@@ -90,9 +104,11 @@ let y = x[0]
 ```
 
 - [x] This code contains an error
-- [ ] 1
-- [ ] 2
-- [ ] nil
+- [ ] `1`
+- [ ] `2`
+- [ ] `nil`
+
+Reference: [Apple Developer: Documentation: Swift: Array: dropFirst(_:)](https://developer.apple.com/documentation/swift/array/dropfirst(_:))
 
 #### Q9. What is the value of test in this code?
 
@@ -100,10 +116,12 @@ let y = x[0]
 var test = 1 == 1
 ```
 
-- [x] TRUE
-- [ ] YES
-- [ ] 1
+- [x] `true`
+- [ ] `YES`
+- [ ] `1`
 - [ ] This code contains an error
+
+Reference: [_The Swift Programming Language: Language Guide: Basic Operators: Comparison Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70)
 
 #### Q10. What is the value of y?
 
@@ -112,10 +130,12 @@ var x: Int?
 let y = x ?? 5
 ```
 
-- [x] 5
-- [ ] 0
-- [ ] nil
+- [x] `5`
+- [ ] `0`
+- [ ] `nil`
 - [ ] This code contains an error
+
+Reference: [_The Swift Programming Language: Language Guide: Basic Operators: Nil-Coalescing Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)
 
 #### Q11. What is the type of this function?
 
