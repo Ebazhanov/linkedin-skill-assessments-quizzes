@@ -1260,3 +1260,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] NEXT
 
 [Source](https://exceljet.net/articles/how-to-lookup-first-and-last-match)
+
+#### Q142. What is the default horizontal alignment of text in a cell
+- [x] left
+- [ ] bottom
+- [ ] top
+- [ ] right
+
