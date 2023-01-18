@@ -134,7 +134,7 @@
 - [ ] Cloud Functions
 - [ ] Google Kubernetes Engine
 
-[refernce link](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
+[reference link](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
 
 #### Q19. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
 
