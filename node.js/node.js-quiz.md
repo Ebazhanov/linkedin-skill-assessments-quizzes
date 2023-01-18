@@ -638,7 +638,7 @@ console.log(person);
 #### Q76. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
 
 - [ ] the local .modules folder, then the parents' node_modules folder
-- [ ] the local node_modules folder, then the parents' node_modules folder
+- [x] the local node_modules folder, then the parents' node_modules folder
 - [ ] the .modules folder under the home directory
 - [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
 
