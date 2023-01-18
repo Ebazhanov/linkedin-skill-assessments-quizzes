@@ -51,9 +51,9 @@
 #### Q7. You need to deploy Redis with unique persistent identities and stable hostnames on GKE. What type of deployment object do you use?
 
 - [ ] GCP deployment
-- [x] YAML configuration file
+- [ ] YAML configuration file
 - [ ] Python nested template
-- [ ] stateful set
+- [x] stateful set
 
 #### Q8. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
 
