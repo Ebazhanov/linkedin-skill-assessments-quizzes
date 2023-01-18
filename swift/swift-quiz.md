@@ -377,11 +377,15 @@ let names = ["Larry", "Sven", "Bear"]
 let t = names.enumerated().first().offset
 ```
 
-- [x] This code is invalid.
-- [x] This code does not compile.
+- [x] This code does not compile. / This code is invalid.
 - [ ] 0
 - [ ] 1
 - [ ] Larry
+
+References:
+
+- [Apple Developer: Documentation: Swift: Array: enumerated()](https://developer.apple.com/documentation/swift/array/enumerated())
+- [Apple Developer: Documentation: Swift: Array](https://developer.apple.com/documentation/swift/array/first)
 
 #### Q32. What is the value of test after this code executes?
 
@@ -390,15 +394,20 @@ let vt = (name: "ABC", val: 5)
 let test = vt.0
 ```
 
-- [x] ABC
-- [ ] 0
-- [ ] 5
-- [ ] name
+- [x] `ABC`
+- [ ] `0`
+- [ ] `5`
+- [ ] `name`
+
+References:
+
+- [_The Swift Programming Language: Language Guide: The Basics: Tuples_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)
+- [_The Swift Programming Language: Language Reference: Expressions: Primary Expressions: Tuple Expression_](https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_tuple-expression)
 
 #### Q33. What is the base class in this code?
 
 ```swift
-class LSN : MMM {
+class LSN: MMM {
 }
 ```
 
@@ -407,37 +416,43 @@ class LSN : MMM {
 - [ ] There is no base class.
 - [ ] This code is invalid.
 
+Reference: [_The Swift Programming Language: Language Guide: Inheritance: Subclassing_](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195)
+
 #### Q34. What does this code print to the console?
 
 ```swift
 var userLocation: String = "Home" {
   willSet(newValue) {
-  print("About to set userLocation to \(newValue)...")
+    print("About to set userLocation to \(newValue)...")
   }
 
   didSet {
-  if userLocation != oldValue {
-  print("userLocation updated with new value!")
-  } else {
-  print("userLocation already set to that value...")
+    if userLocation != oldValue {
+      print("userLocation updated with new value!")
+    } else {
+      print("userLocation already set to that value...")
+    }
   }
-  }
- }
+}
 
- userLocation = "Work"
+userLocation = "Work"
 ```
 
-- [x] About to set userLocation to Work… userLocation updated with new value!
-- [ ] About to set userLocation to Work… userLocation already set to that value…
-- [ ] About to set userLocation to Home… userLocation updated to new value!
-- [ ] ERROR
+- [x] `About to set userLocation to Work... userLocation updated with new value!`
+- [ ] `About to set userLocation to Work... userLocation already set to that value...`
+- [ ] `About to set userLocation to Home... userLocation updated to new value!`
+- [ ] `Error`
+
+Reference: [_The Swift Programming Language: Language Guide: Properties: Property Observers_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)
 
 #### Q35. What must a convenience initializer call?
 
-- [ ] a base class convenience initializer
-- [ ] either a designated or another convenience initializer
-- [x] a designated initializer
-- [ ] none of these answers
+- [ ] A base class convenience initializer
+- [ ] Either a designated or another convenience initializer
+- [x] A designated initializer
+- [ ] None of these answers
+
+Reference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)
 
 #### Q36. Which object allows you access to specify that a block of code runs in a background thread?
 
@@ -445,6 +460,8 @@ var userLocation: String = "Home" {
 - [x] DispatchQueue.global
 - [ ] errorExample need to be labeled as `throws`.
 - [ ] DispatchQueue.background
+
+Reference: [Apple Developer: Documentation: Dispatch: DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue/2300077-global)
 
 #### Q37. What is the inferred type of x?
 
@@ -456,6 +473,8 @@ let x = ["a", "b", "c"]
 - [x] `Array<String>`
 - [ ] `Set<String>`
 - [ ] `Array<Character>`
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)
 
 #### Q38. What is the value of `oThings` after this code is executed?
 
@@ -469,6 +488,8 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 - [x] 12three
 - [ ] Nothing, this code is invalid.
 
+Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
+
 #### Q39. How would you call a function that throws errors and also returns a value?
 
 - [ ] `!try`
@@ -476,11 +497,13 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 - [ ] `try!`
 - [ ] `?try`
 
+Reference: [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)
+
 #### Q40. What is wrong with this code?
 
 ```swift
 protocol TUI {
-  func add(x1 : Int, x2 : Int) -> Int {
+  func add(x1: Int, x2: Int) -> Int {
     return x1 + x2
   }
 }
@@ -490,6 +513,11 @@ protocol TUI {
 - [x] Protocol functions cannot have implementations.
 - [ ] Nothing is wrong with it.
 - [ ] `add` is a reserved keyword.
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Protocols: Method Requirements_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID270)
+- [_The Swift Programming Language: Language Guide: Protocols: Protocol Extensions_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521)
 
 #### Q41. In this code, what are `wheels` and `doors` examples of?
 
