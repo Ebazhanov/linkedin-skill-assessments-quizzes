@@ -129,10 +129,12 @@
 
 #### Q18. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
 
-- [ ] Cloud Run
+- [x] Cloud Run
 - [ ] Cloud Run on Google Kubernetes Engine
 - [ ] Cloud Functions
-- [x] Google Kubernetes Engine
+- [ ] Google Kubernetes Engine
+
+[refernce link](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
 
 #### Q19. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
 
