@@ -113,6 +113,8 @@
 - [x] GCP Marketplace
 - [ ] Google Kubernetes Engine base images
 
+[reference link](https://cloud.google.com/software-supply-chain-security/docs/base-images)
+
 #### Q16. You want to set a notification for service spend in GCP. What do you do, and who will be notified?
 
 - [x] Use the GCP Billing console Budgets section to set a billing alert. The billing admin will be notified if the alert threshold is exceeded.
