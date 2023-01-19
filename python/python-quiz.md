@@ -1597,6 +1597,8 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
+**Explanation:** Understanding this answer requires knowledge of linear algebra. Some systems of equations can be solved by the method of *diagonalization*, which involves finding the **eigenvectors and eigenvalues** of the system's matrix and multiplying related matrices. 
+
 #### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
