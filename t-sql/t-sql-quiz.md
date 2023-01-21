@@ -444,7 +444,7 @@ END;
 ![T-SQL-Q36](images/Q36.jpg)
 
 - [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
-- [ ] `UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas;`
+- [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas;`
 - [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
 - [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 

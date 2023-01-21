@@ -79,7 +79,7 @@ vals.sort { (s1, s2) -> Bool in
 - [ ] `nil`
 - [ ] This code contains an error
 
-Reference: [Apple Developer: Documentations: Swift: Array: sort()](https://developer.apple.com/documentation/swift/array/sort())
+Reference: [Apple Developer: Documentations: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)
 
 #### Q7. What does this code print?
 
@@ -108,7 +108,7 @@ let y = x[0]
 - [ ] `2`
 - [ ] `nil`
 
-Reference: [Apple Developer: Documentation: Swift: Array: dropFirst(_:)](https://developer.apple.com/documentation/swift/array/dropfirst(_:))
+Reference: [Apple Developer: Documentation: Swift: Array: dropFirst(\_:)](<https://developer.apple.com/documentation/swift/array/dropfirst(_:)>)
 
 #### Q9. What is the value of test in this code?
 
@@ -307,7 +307,7 @@ Reference: [_The Swift Programming Language: Language Guide: Collection Types: S
 - [ ] Initialize the closure as read-only.
 - [ ] Declare the closure variable as `lazy`.
 
-Reference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
+Reference: [\_The Swift Programming Language: Language Guide: Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
 
 #### Q24. What is wrong with this code?
 
