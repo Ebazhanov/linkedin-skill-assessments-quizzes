@@ -1430,3 +1430,59 @@ const PokeDex = (props) => {
 - [ ] this.props.pokeDex
 - [ ] setPokeDex()
 - [ ] props.pokeDex
+
+#### Q121. Which choice is a correct refactor of the Greeting class component into a function component?
+
+```javascript
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}!<h1>;
+  }
+}
+```
+
+- [ ] `const Greeting = (name) => <h1>{name}</h1>`
+- [ ] `function Greeting(name){return <h1>{name}</h1>;}`
+- [ ] `const Greeting = props => { <h1>{props.name}</h1> }`
+- [x] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
+
+#### Q122. Why is the `waitlist` not updating correctly?
+
+```javascript
+const Waitlist = () => {
+  const [name, setName] = useState("");
+  const [waitlist, setWaitlist] = useState([]);
+  const onSubmit = (e) => {
+    e.preventDefault();
+    waitlist.push(name);
+  };
+  return (
+    <div>
+      <form onSubmit={onSubmit}>
+        <label>
+          Name:{" "}
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </label>
+        <button type="submit">Add to waitlist</button>
+      </form>
+
+      <ol>
+        {waitlist.map((name) => (
+          <li key={name}>{name}</li>
+        ))}
+      </ol>
+    </div>
+  );
+};
+```
+
+- [x] `waitlist` is being mutated directly. Use the `setWaitlist` function instead to update the waitlist state.
+- [ ] The form is reloading the page each time `Add to waitlist` is clicked.
+- [ ] The `Add to waitlist` button is missing a click handler.
+- [ ] There are likely repeated names inside of the `waitlist` array.
+
+[Reference](https://reactjs.org/docs/react-component.html#setstate)

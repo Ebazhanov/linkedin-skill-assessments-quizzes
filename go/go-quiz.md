@@ -20,22 +20,26 @@
 
 #### Q3. Which is _not_ a valid loop construct in Go?
 
-- [x] 
+- [x]
+
 ```go
       do { ... } while i < 5
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       for _,c := range "hello" { ... }
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       for i := 1; i < 5; i++ { ... }
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       for i < 5 { ... }
 ```
@@ -48,22 +52,26 @@
 values := []int{1, 1, 2}
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       values.append(3)
 ```
 
 - [ ]
+
 ```go
       values.insert(3, 3)
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       append(values, 3)
 ```
 
-- [x] 
+- [x]
+
 ```go
       values = append(values, 3)
 ```
@@ -89,21 +97,26 @@ const (
 
 #### Q6. Which is the _only_ valid import statement in Go?
 
-- [ ] 
+- [ ]
+
 ```go
       import "github/gin-gonic/gin"
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       import "https://github.com/gin-gonic/gin"
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       import "../template"
 ```
-- [x] 
+
+- [x]
+
 ```go
       import "github.com/gin-gonic/gin"
 ```
@@ -314,17 +327,20 @@ data := "A group of Owls is called a parliament"
   resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
 ```
 
-- [x] 
+- [x]
+
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
 ```
@@ -831,21 +847,28 @@ func main() {
 }
 ```
 
-- [ ] 
+- [ ]
+
 ```go
       ctx.SetTimeout(3*time.Second)
       req.AttachContext(ctx)
 ```
-- [x] 
+
+- [x]
+
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
       req = req.WithContext(ctx)
 ```
-- [ ] 
+
+- [ ]
+
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
 ```
-- [ ] 
+
+- [ ]
+
 ```go
       ctx.SetTimeout(3*time.Second)
       req = req.WithContext(ctx)
