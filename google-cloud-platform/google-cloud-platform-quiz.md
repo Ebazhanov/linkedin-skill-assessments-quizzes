@@ -46,7 +46,7 @@
 - [x] Firebase and ML Kit
 - [ ] Cloud Functions and AI Platform jobs
 
-[reference link](https://firebase.google.com/docs/ml-kit/android/use-custom-models)
+[reference link](https://firebase.google.com/docs/ml/android/use-custom-models)
 
 #### Q7. You need to deploy Redis with unique persistent identities and stable hostnames on GKE. What type of deployment object do you use?
 
