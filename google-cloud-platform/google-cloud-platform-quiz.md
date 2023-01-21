@@ -83,7 +83,7 @@
 - [ ] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
 - [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
 
-[refernce link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
+[reference link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
