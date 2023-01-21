@@ -621,3 +621,13 @@
 - [ ] .mdbconfig
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/reference/configuration-options/)
+
+
+#### Q86. After using the dropIndexes() command on your collection, one index remains.What can you do to drop the the remaining index?
+
+- [ ] Use dropIndexes({all:1}) with the all parameter.
+- [x] The required_id index cannot be deleted.
+- [ ] Call dropIndex({"<em>id</em>":1}) to force its removal.
+- [ ] Call dropIndex({"<em>id</em>"}) to force its removal.
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/reference/method/db.collection.dropIndex/)
