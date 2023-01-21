@@ -268,7 +268,7 @@ Reference: [_The Swift Programming Language: Language Guide: Extensions: Compute
 - [ ] All of these answers
 - [ ] `newOld` value calls
 
-Reference: [_The Swift Programming Language: Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)
+Reference: [_The Swift Programming Language: Language Guide: Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)
 
 #### Q21. What is wrong with this code?
 
@@ -279,10 +279,12 @@ self.callback = {
 }
 ```
 
-- [x] Use of self inside the closure causes retain cycle.
-- [ ] You cannot assign a value to closure in this manner.
+- [x] Use of `self` inside the closure causes retain cycle.
+- [ ] You cannot assign a value to a closure in this manner.
 - [ ] You need to define the type of closure explicitly.
 - [ ] There is nothing wrong with this code.
+
+Reference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting: Strong Reference Cycles for Closures_](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
 
 #### Q22. How many values does vals have after this code is executed?
 
@@ -291,17 +293,21 @@ var vals = Set<String> = ["4", "5", "6"]
 vals.insert("5")
 ```
 
-- [ ] three
-- [ ] four
-- [ ] eight
+- [ ] Three
+- [ ] Four
+- [ ] Eight
 - [x] This code contains an error.
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)
 
 #### Q23. How can you avoid a strong reference cycle in a closure?
 
-- [x] Use a capture list to set class instances of weak or unowned.
+- [x] Use a capture list to set class instances of `weak` or `unowned`.
 - [ ] You can't, there will always be a danger of strong reference cycles inside a closure.
 - [ ] Initialize the closure as read-only.
-- [ ] Declare the closure variable as lazy.
+- [ ] Declare the closure variable as `lazy`.
+
+Reference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
 
 #### Q24. What is wrong with this code?
 
@@ -311,33 +317,39 @@ if let s = String.init("some string") {
 }
 ```
 
-- [x] This String initializer does not return an optional.
-- [ ] String does not have an initializer that can take a String.
-- [ ] = is not a comparison.
+- [x] This `String` initializer does not return an optional.
+- [ ] String does not have an initializer that can take a `String`.
+- [ ] `=` is not a comparison.
 - [ ] Nothing is wrong with this code.
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)
 
 #### Q25. Which code snippet correctly creates a typealias closure?
 
-- [x] typealias CustomClosure = () -> ()
-- [ ] typealias CustomClosure { () -> () }
-- [ ] typealias CustomClosure -> () -> ()
-- [ ] typealias CustomClosure -> () {}
+- [x] `typealias CustomClosure = () -> ()`
+- [ ] `typealias CustomClosure { () -> () }`
+- [ ] `typealias CustomClosure -> () -> ()`
+- [ ] `typealias CustomClosure -> () {}`
 
-[_The Swift Programming Language: Declarations: Type Alias Declaration_](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#grammar_typealias-declaration)
+Reference: [_The Swift Programming Language: Language Reference: Declarations: Type Alias Declaration_](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#grammar_typealias-declaration)
 
 #### Q26. How do you reference class members from within a class?
 
-- [x] self
-- [ ] instance
-- [ ] class
-- [ ] this
+- [x] `self`
+- [ ] `instance`
+- [ ] `class`
+- [ ] `this`
+
+Reference: [_The Swift Programming Language: Language Guide: Methods: Instance Methods_](https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID235)
 
 #### Q27. All value types in Swift are **\_** under the hood?
 
-- [x] structs
-- [ ] classes
-- [ ] optionals
-- [ ] generics
+- [x] Structs
+- [ ] Classes
+- [ ] Optionals
+- [ ] Generics
+
+Reference: [_The Swift Programming Language: Language Guide: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID88)
 
 #### Q28. What is the correct way to add a value to this array?
 
@@ -345,10 +357,12 @@ if let s = String.init("some string") {
 var strings = [1, 2, 3]
 ```
 
-- [x] all of these answers
-- [ ] strings.append(4)
-- [ ] strings.insert(5, at: 1)
-- [ ] strings += [5]
+- [x] All of these answers
+- [ ] `strings.append(4)`
+- [ ] `strings.insert(5, at: 1)`
+- [ ] `strings += [5]`
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)
 
 #### Q29. How many times will this loop be executed?
 
@@ -363,12 +377,19 @@ for i in 0...100 {
 - [ ] 99
 - [ ] 100
 
+References:
+
+- [_The Swift Programming Language: Language Guide: Control Flow: For-in Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)
+- [_The Swift Programming Language: Language Guide: Basic Operators: Range Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID73)
+
 #### Q30. What can AnyObject represent?
 
-- [ ] an instance of any class
-- [ ] an instance of function type
-- [x] all of these answers
-- [ ] an instance of an optional type
+- [x] An instance of any class
+- [ ] An instance of function type
+- [ ] All of these answers
+- [ ] An instance of an optional type
+
+Reference: [_The Swift Programming Language: Language Guide: Type Casting: Type Casting for Any and AnyObject_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)
 
 #### Q31. What is the value of t after this code is executed?
 
