@@ -88,9 +88,11 @@
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
 - [ ] Enable Requester Pays on the project.
-- [ ] Enable Requester Pays on the bucket.
-- [x] Change the default storage class from multi-regional to regional.
+- [x] Enable Requester Pays on the bucket.
+- [ ] Change the default storage class from multi-regional to regional.
 - [ ] Change the default storage class from regional to multi-regional.
+
+[refernce link](https://cloud.google.com/storage/docs/requester-pays)
 
 #### Q13. You need to troubleshoot an Android app that uses Cloud Storage. Where do you look for logs?
 
