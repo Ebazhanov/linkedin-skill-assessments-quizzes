@@ -203,14 +203,14 @@ modified: beta-notes.js
   git reset --hard master
 ```
 
-- [ ]
+- [ ] ⠀
 
 ```bash
   git pull origin master
   git reset --hard origin/myCurrentBranch
 ```
 
-- [x]
+- [x] ⠀
 
 ```bash
   git fetch --all
