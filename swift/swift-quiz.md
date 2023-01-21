@@ -597,7 +597,7 @@ x = 10.0
 #### Q50. What will this code print to the console?
 
 ```swift
-var items = ["a":1, "b":2, "c":"test"] as [String: Any]
+var items = ["a": 1, "b": 2, "c": "test"] as [String: Any]
 items["c"] = nil
 print(items["c"] as Any)
 ```
@@ -607,6 +607,11 @@ print(items["c"] as Any)
 - [ ] 1,2,3
 - [x] nil
 
+References:
+
+- [_The Swift Programming Language: Language Guide: Type Casting: Type Casting for Any and AnyObject_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)
+- [_The Swift Programming Language: Language Guide: Collection Types: Dictionaries_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID113)
+
 #### Q51. What is wrong with this code?
 
 ```swift
@@ -614,23 +619,27 @@ let val = 5.0 + 10
 ```
 
 - [x] There is nothing wrong with this code
-- [ ] val is a constant and cannot be changed
-- [ ] 5.0 and 10 are different types
+- [ ] `val` is a constant and cannot be changed
+- [ ] `5.0` and `10` are different types
 - [ ] There is no semicolon
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
 
 #### Q52. How many parameters does the initializer for Test have?
 
 ```swift
-struct Test{
+struct Test {
   var score: Int
   var date: Date
 }
 ```
 
-- [ ] zero
+- [ ] Zero
 - [ ] This code contains an error
-- [x] two
+- [x] Two
 - [ ] Structs do not have initializers
+
+Reference: [_The Swift Programming Language: Language Guide: Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID213)
 
 #### Q53. What prints to the console when executing this code?
 
@@ -644,56 +653,71 @@ print(x)
 - [x] Optional("test")
 - [ ] test
 
+References:
+
+- [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)
+- [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)
+
 #### Q54. How can you sort this array?
 
 ```swift
-var vals = [1,2,3]
+var vals = [1, 2, 3]
 ```
 
 - [ ] `vals.sort { $0 < $1 }`
 - [ ] `vals.sort { (s1, s2) in s1 < s2 }`
 - [ ] `vals.sort(by: <)`
-- [x] all of these answers
+- [x] All of these answers
+
+Reference: [Apple Developer: Documentation: Swift: Array: sort()](https://developer.apple.com/documentation/swift/array/sort())
 
 #### Q55. DispatchQueue.main.async takes a block that will be
 
-- [ ] not executed
-- [x] executed in the main queue
-- [ ] none of these answers
-- [ ] executed on the background thread
+- [ ] Not executed
+- [x] Executed in the main queue
+- [ ] None of these answers
+- [ ] Executed on the background thread
+
+Reference: [Apple Developer: Documentation: Dispatch: DispatchQueue: async(group:qos:flags:execute:)](https://developer.apple.com/documentation/dispatch/dispatchqueue/2016098-async)
 
 #### Q56. When is deinit called?
 
 - [ ] When a class instance needs memory
-- [x] All of these answers
+- [ ] All of these answers
 - [ ] When the executable code is finished
-- [ ] When a class instance is being removed from memory
+- [x] When a class instance is being removed from memory
+
+Reference: [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)
 
 #### Q57. How do you declare an optional String?
 
-- [x] String?
-- [ ] Optional[String]
-- [ ] [String]?
-- [ ] ?String
+- [x] `String?`
+- [ ] `Optional[String]`
+- [ ] `[String]?`
+- [ ] `?String`
 
-#### Q58. How many times this code will be executed? —OR— How many times will this loop be performed?
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)
+
+#### Q58. How many times this code will be executed? / How many times will this loop be performed?
 
 ```swift
-for i in ["0", "1"]{
+for i in ["0", "1"] {
   print(i)
 }
 ```
 
-- [ ] one
-- [x] two
-- [ ] three
+- [ ] One
+- [x] Two
+- [ ] Three
 - [ ] This code does not compile
+
+Reference: [_The Swift Programming Language: Language Guide: Control Flow: For-In Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)
 
 #### Q59. What does this code print?
 
 ```swift
 let names = ["Bear", "Tony", "Svante"]
-print(names[1]+"Bear")
+print(names[1] + "Bear")
 ```
 
 - [ ] 1Bear
@@ -701,16 +725,23 @@ print(names[1]+"Bear")
 - [x] TonyBear
 - [ ] Nothing, this code is invalid
 
+References:
+
+- [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)
+- [_The Swift Programming Language: Language Guide: Strings and Characters: Concatenating Strings and Characters_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID291)
+
 #### Q60. What is true of this code?
 
 ```swift
 let name: String?
 ```
 
-- [ ] name can hold only a string value.
-- [x] name can hold either a string or nil value.
+- [ ] `name` can hold only a string value.
+- [x] `name` can hold either a string or nil value.
 - [ ] Optional values cannot be `let` constants.
-- [ ] Only non-empty string variables can be stored in name.
+- [ ] Only non-empty string variables can be stored in `name`.
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)
 
 #### Q61. What is the value of `val` after this code is executed?
 
