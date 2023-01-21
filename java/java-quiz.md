@@ -2324,3 +2324,43 @@ public class Course {
 - [ ] 1. true 2. true
 
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
+
+#### Q164. What does this code print?
+
+int yearsMarried = 2;
+switch (yearsMarried) {
+    case 1:
+        System.out.println("paper");
+    case 2:
+         System.out.println("cotton");
+    case 3:
+         System.out.println("leather");
+    default:
+         System.out.println("I don't gotta buy gifts for nobody!");
+}
+
+- [ ] cotton
+      I don't gotta buy gifts for nobody!
+- [x] cotton
+      leather
+      I don't gotta buy gifts for nobody!
+- [ ] cotton
+      leather
+- [ ] cotton
+ 
+[Reference](https://stackoverflow.com/a/8564008)
+
+#### Q165. How would you use the magic power to cast a spell?
+
+public class MagicPower {
+    void castSpell(String spell){}
+}
+
+- [ ] MagicPower.castSpell("expelliarmus);
+- [x] new MagicPower().castSpell("expecto patronum");
+- [ ] new MagicPower.castSpell();
+- [ ] MagicPower magicPower = new MagicPower();
+      magicPower.castSpell();
+ 
+[Reference](https://stackoverflow.com/a/33909478)
+
