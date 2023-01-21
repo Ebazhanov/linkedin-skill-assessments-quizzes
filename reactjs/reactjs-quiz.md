@@ -1349,10 +1349,10 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 #### Q112. What is the functionality of a “webpack” command?
 
-- [x] Runs react local development server
+- [ ] Runs react local development server
 - [ ] Transfers all JS files to down into one file
 - [ ] A module builder
-- [ ] None of the above
+- [x] All of the above
 
 #### Q113. Choose the method which is not a part of ReactDOM?
 
