@@ -398,11 +398,15 @@ let names = ["Larry", "Sven", "Bear"]
 let t = names.enumerated().first().offset
 ```
 
-- [x] This code is invalid.
-- [x] This code does not compile.
+- [x] This code does not compile. / This code is invalid.
 - [ ] 0
 - [ ] 1
 - [ ] Larry
+
+References:
+
+- [Apple Developer: Documentation: Swift: Array: enumerated()](https://developer.apple.com/documentation/swift/array/enumerated())
+- [Apple Developer: Documentation: Swift: Array](https://developer.apple.com/documentation/swift/array/first)
 
 #### Q32. What is the value of test after this code executes?
 
@@ -411,15 +415,20 @@ let vt = (name: "ABC", val: 5)
 let test = vt.0
 ```
 
-- [x] ABC
-- [ ] 0
-- [ ] 5
-- [ ] name
+- [x] `ABC`
+- [ ] `0`
+- [ ] `5`
+- [ ] `name`
+
+References:
+
+- [_The Swift Programming Language: Language Guide: The Basics: Tuples_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)
+- [_The Swift Programming Language: Language Reference: Expressions: Primary Expressions: Tuple Expression_](https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_tuple-expression)
 
 #### Q33. What is the base class in this code?
 
 ```swift
-class LSN : MMM {
+class LSN: MMM {
 }
 ```
 
@@ -428,37 +437,43 @@ class LSN : MMM {
 - [ ] There is no base class.
 - [ ] This code is invalid.
 
+Reference: [_The Swift Programming Language: Language Guide: Inheritance: Subclassing_](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195)
+
 #### Q34. What does this code print to the console?
 
 ```swift
 var userLocation: String = "Home" {
   willSet(newValue) {
-  print("About to set userLocation to \(newValue)...")
+    print("About to set userLocation to \(newValue)...")
   }
 
   didSet {
-  if userLocation != oldValue {
-  print("userLocation updated with new value!")
-  } else {
-  print("userLocation already set to that value...")
+    if userLocation != oldValue {
+      print("userLocation updated with new value!")
+    } else {
+      print("userLocation already set to that value...")
+    }
   }
-  }
- }
+}
 
- userLocation = "Work"
+userLocation = "Work"
 ```
 
-- [x] About to set userLocation to Work… userLocation updated with new value!
-- [ ] About to set userLocation to Work… userLocation already set to that value…
-- [ ] About to set userLocation to Home… userLocation updated to new value!
-- [ ] ERROR
+- [x] `About to set userLocation to Work... userLocation updated with new value!`
+- [ ] `About to set userLocation to Work... userLocation already set to that value...`
+- [ ] `About to set userLocation to Home... userLocation updated to new value!`
+- [ ] `Error`
+
+Reference: [_The Swift Programming Language: Language Guide: Properties: Property Observers_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)
 
 #### Q35. What must a convenience initializer call?
 
-- [ ] a base class convenience initializer
-- [ ] either a designated or another convenience initializer
-- [x] a designated initializer
-- [ ] none of these answers
+- [ ] A base class convenience initializer
+- [ ] Either a designated or another convenience initializer
+- [x] A designated initializer
+- [ ] None of these answers
+
+Reference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)
 
 #### Q36. Which object allows you access to specify that a block of code runs in a background thread?
 
@@ -466,6 +481,8 @@ var userLocation: String = "Home" {
 - [x] DispatchQueue.global
 - [ ] errorExample need to be labeled as `throws`.
 - [ ] DispatchQueue.background
+
+Reference: [Apple Developer: Documentation: Dispatch: DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue/2300077-global)
 
 #### Q37. What is the inferred type of x?
 
@@ -477,6 +494,8 @@ let x = ["a", "b", "c"]
 - [x] `Array<String>`
 - [ ] `Set<String>`
 - [ ] `Array<Character>`
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)
 
 #### Q38. What is the value of `oThings` after this code is executed?
 
@@ -490,6 +509,8 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 - [x] 12three
 - [ ] Nothing, this code is invalid.
 
+Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
+
 #### Q39. How would you call a function that throws errors and also returns a value?
 
 - [ ] `!try`
@@ -497,11 +518,13 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 - [ ] `try!`
 - [ ] `?try`
 
+Reference: [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)
+
 #### Q40. What is wrong with this code?
 
 ```swift
 protocol TUI {
-  func add(x1 : Int, x2 : Int) -> Int {
+  func add(x1: Int, x2: Int) -> Int {
     return x1 + x2
   }
 }
@@ -512,6 +535,11 @@ protocol TUI {
 - [ ] Nothing is wrong with it.
 - [ ] `add` is a reserved keyword.
 
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Protocols: Method Requirements_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID270)
+- [_The Swift Programming Language: Language Guide: Protocols: Protocol Extensions_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521)
+
 #### Q41. In this code, what are `wheels` and `doors` examples of?
 
 ```swift
@@ -521,17 +549,27 @@ class Car {
 }
 ```
 
-- [ ] class members
-- [ ] This code is invalid.
-- [ ] class fields
-- [x] class properties
+- [ ] Class members
+- [ ] This code is invalid
+- [ ] Class fields
+- [x] Class properties
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+- [_The Swift Programming Language: Language Guide_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255)
 
 #### Q42. How do you designated a failable initializer?
 
 - [ ] You cannot
-- [ ] deinit
+- [ ] `deinit`
 - [x] `init?`
-- [ ] init
+- [ ] `init`
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID224)
+- [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)
 
 #### Q43. What is printed when this code is executed?
 
@@ -540,26 +578,33 @@ let dbl = Double.init("5a")
 print(dbl ?? ".asString()")
 ```
 
-- [ ] five
-- [ ] 5a
+- [ ] `five`
+- [ ] `5a`
 - [x] `.asString()`
-- [ ] 5
+- [ ] `5`
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Basic Operators: Nil-Coalescing Operator_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)
+- [_The Swift Programming Language: Language Guide: Initialization: Failable Initializers_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID224)
 
 #### Q44. In the function below, what are `this` and `toThat` examples of?
 
 ```swift
-func add(this x: Int, toThat y: Int)->{}
+func add(this x: Int, toThat y: Int) { }
 ```
 
-- [ ] none of these answers
-- [ ] local terms
-- [x] argument labels
-- [ ] parameters names
+- [ ] None of these answers
+- [ ] Local terms
+- [x] Argument labels
+- [ ] Parameters names
+
+Reference: [_The Swift Programming Language: Language Guide: Functions_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166)
 
 #### Q45. What is wrong with this code?
 
 ```swift
-for (key, value) in [1: "one", 2: "two"]{
+for (key, value) in [1: "one", 2: "two"] {
   print(key, value)
 }
 ```
@@ -569,28 +614,42 @@ for (key, value) in [1: "one", 2: "two"]{
 - [x] There is nothing wrong with this code
 - [ ] The comma in the print is misplaced
 
+Reference: [_The Swift Programming Language: Language Guide: Control Flow: For-In Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)
+
 #### Q46. Which of these choices is associated with unit testing?
 
-- [ ] XCTest
-- [x] all of these answers
-- [ ] @testable
-- [ ] XCAssert
+- [ ] `XCTest`
+- [x] All of these answers
+- [ ] `@testable`
+- [ ] `XCTAssert`
+
+Reference:
+
+- [Apple Developer: Documentation: XCTest: XCTest](https://developer.apple.com/documentation/xctest/xctest)
+- [Apple Developer: Documentation: XCTest: Boolean Assertions: XCTAssert(\_:\_:file:line:)](https://developer.apple.com/documentation/xctest/1500669-xctassert)
+- [_The Swift Programming Language: Language Guide: Access Control: Access Levels_](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html#ID5)
 
 #### Q47. In the code below, what is width an example of?
 
 ```swift
-class Square{
+class Square {
   var height: Int = 0
-  var width : Int {
+  var width: Int {
     return height
   }
 }
 ```
 
 - [ ] This code contains error
-- [ ] a closure
-- [x] a computed property
-- [ ] lazy loading
+- [ ] A closure
+- [x] A computed property
+- [ ] Lazy loading
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: Properties: Stored Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255)
+- [_The Swift Programming Language: Language Guide: Properties: Computed Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259)
+- [_The Swift Programming Language: Language Guide: Closures: Trailing Closures_](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID102)
 
 #### Q48. What data type is this an example of?
 
@@ -598,10 +657,15 @@ class Square{
 let vals = ("val", 1)
 ```
 
-- [ ] a dictionary
-- [x] a tuple
-- [ ] an optional
+- [ ] A dictionary
+- [x] A tuple
+- [ ] An optional
 - [ ] This code contains error
+
+Reference:
+
+- [_The Swift Programming Language: Language Guide: The Basics_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)
+- [_The Swift Programming Language: Language Reference: Types_](https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_tuple-type)
 
 #### Q49. What is wrong with this code?
 
@@ -611,14 +675,16 @@ x = 10.0
 ```
 
 - [x] You cannot assign a Double to a variable of type Int
-- [ ] x is undefined
-- [ ] x is a constant
-- [ ] x has no type
+- [ ] `x` is undefined
+- [ ] `x` is a constant
+- [ ] `x` has no type
+
+Reference: [_The Swift Programming Language: Language Guide: The Basics_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
 
 #### Q50. What will this code print to the console?
 
 ```swift
-var items = ["a":1, "b":2, "c":"test"] as [String: Any]
+var items = ["a": 1, "b": 2, "c": "test"] as [String: Any]
 items["c"] = nil
 print(items["c"] as Any)
 ```
@@ -627,6 +693,8 @@ print(items["c"] as Any)
 - [ ] test
 - [ ] 1,2,3
 - [x] nil
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Dictionaries_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID113)
 
 #### Q51. What is wrong with this code?
 

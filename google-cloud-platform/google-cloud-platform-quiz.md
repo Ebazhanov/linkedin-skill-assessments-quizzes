@@ -46,14 +46,14 @@
 - [x] Firebase and ML Kit
 - [ ] Cloud Functions and AI Platform jobs
 
-[reference link](https://firebase.google.com/docs/ml-kit/android/use-custom-models)
+[reference link](https://firebase.google.com/docs/ml/android/use-custom-models)
 
 #### Q7. You need to deploy Redis with unique persistent identities and stable hostnames on GKE. What type of deployment object do you use?
 
 - [ ] GCP deployment
-- [x] YAML configuration file
+- [ ] YAML configuration file
 - [ ] Python nested template
-- [ ] stateful set
+- [x] stateful set
 
 #### Q8. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
 
@@ -83,14 +83,16 @@
 - [ ] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
 - [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
 
-[refernce link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
+[reference link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
 - [ ] Enable Requester Pays on the project.
-- [ ] Enable Requester Pays on the bucket.
-- [x] Change the default storage class from multi-regional to regional.
+- [x] Enable Requester Pays on the bucket.
+- [ ] Change the default storage class from multi-regional to regional.
 - [ ] Change the default storage class from regional to multi-regional.
+
+[refernce link](https://cloud.google.com/storage/docs/requester-pays)
 
 #### Q13. You need to troubleshoot an Android app that uses Cloud Storage. Where do you look for logs?
 
@@ -113,6 +115,8 @@
 - [x] GCP Marketplace
 - [ ] Google Kubernetes Engine base images
 
+[reference link](https://cloud.google.com/software-supply-chain-security/docs/base-images)
+
 #### Q16. You want to set a notification for service spend in GCP. What do you do, and who will be notified?
 
 - [x] Use the GCP Billing console Budgets section to set a billing alert. The billing admin will be notified if the alert threshold is exceeded.
@@ -129,10 +133,12 @@
 
 #### Q18. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
 
-- [ ] Cloud Run
+- [x] Cloud Run
 - [ ] Cloud Run on Google Kubernetes Engine
 - [ ] Cloud Functions
-- [x] Google Kubernetes Engine
+- [ ] Google Kubernetes Engine
+
+[reference link](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
 
 #### Q19. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
 
