@@ -907,11 +907,13 @@ public class MagicPower {
 }
 ```
 
-- [x] `new MagicPower().castSpell("expecto patronum")`
+- [x] `new MagicPower().castSpell("expecto patronum");`
 - [ ] `MagicPower magicPower = new MagicPower();`
       `magicPower.castSpell();`
 - [ ] `MagicPower.castSpell("expelliarmus");`
 - [ ] `new MagicPower.castSpell();`
+
+[Reference](https://stackoverflow.com/a/2042836/993246)
 
 #### Q58. What language construct serves as a blueprint containing an object's properties and functionality?
 
@@ -1996,9 +1998,12 @@ switch (yearsMarried) {
 - [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
 - [ ] cotton <br> I don't gotta buy gifts for nobody!
 
+[Reference](https://stackoverflow.com/a/8564008)
+
 #### Q136. What language feature do these expressions demonstrate?
 
-```System.out::println
+```
+System.out::println
 Doggie::fetch
 ```
 
@@ -2006,6 +2011,8 @@ Doggie::fetch
 - [ ] static references
 - [x] method references
 - [ ] bad code
+
+[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
 
 #### Q137. What is the difference between the wait() and sleep methods?
 
@@ -2258,21 +2265,7 @@ class variable_scope {
 
 [Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
-#### Q160. What language feature do these expressions demonstrate?
-
-```
-System.out::println
-Doggie::fetch
-```
-
-- [x] method references
-- [ ] bad code
-- [ ] condensed invocation
-- [ ] static references
-
-[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
-
-#### Q161. What will be the output of the following program?
+#### Q160. What will be the output of the following program?
 
 ```java
 import java.util.Formatter;
@@ -2294,7 +2287,7 @@ public class Course {
 - [ ] Compilation Error
 - [ ] Runtime Error
 
-#### Q162. Calculate the time complexity of the following program.
+#### Q161. Calculate the time complexity of the following program.
 
 ```java
  void printUnorderedPairs(int[] arrayA, int[] arrayB){
@@ -2313,7 +2306,7 @@ public class Course {
 - [x] O(AB)
 - [ ] O(A\*B)
 
-#### Q163. What do these expressions evaluate to?
+#### Q162. What do these expressions evaluate to?
 
     1. true && false
     2. true && false || true
@@ -2324,43 +2317,3 @@ public class Course {
 - [ ] 1. true 2. true
 
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
-
-#### Q164. What does this code print?
-
-int yearsMarried = 2;
-switch (yearsMarried) {
-    case 1:
-        System.out.println("paper");
-    case 2:
-         System.out.println("cotton");
-    case 3:
-         System.out.println("leather");
-    default:
-         System.out.println("I don't gotta buy gifts for nobody!");
-}
-
-- [ ] cotton
-      I don't gotta buy gifts for nobody!
-- [x] cotton
-      leather
-      I don't gotta buy gifts for nobody!
-- [ ] cotton
-      leather
-- [ ] cotton
- 
-[Reference](https://stackoverflow.com/a/8564008)
-
-#### Q165. How would you use the magic power to cast a spell?
-
-public class MagicPower {
-    void castSpell(String spell){}
-}
-
-- [ ] MagicPower.castSpell("expelliarmus);
-- [x] new MagicPower().castSpell("expecto patronum");
-- [ ] new MagicPower.castSpell();
-- [ ] MagicPower magicPower = new MagicPower();
-      magicPower.castSpell();
- 
-[Reference](https://stackoverflow.com/a/33909478)
-
