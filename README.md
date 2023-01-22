@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1289-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1290-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1802,6 +1802,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/amila-t-kumarasekara"><img src="https://avatars.githubusercontent.com/u/84329334?v=4?s=100" width="100px;" alt="Amila T Kumarasekara"/><br /><sub><b>Amila T Kumarasekara</b></sub></a><br /><a href="#design-amila-t-kumarasekara" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=amila-t-kumarasekara" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://amosmachora.vercel.app"><img src="https://avatars.githubusercontent.com/u/81857018?v=4?s=100" width="100px;" alt="Amoh Prince"/><br /><sub><b>Amoh Prince</b></sub></a><br /><a href="#design-AmohPrince" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AmohPrince" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
