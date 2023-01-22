@@ -74,7 +74,7 @@ interface Interface2 {
 - [ ] `super.print();`
 - [x] `Interface1.print(); Interface2.print();`
 
-- [Reference](https://www.geeksforgeeks.org/static-method-in-interface-in-java/)
+[Reference](https://www.geeksforgeeks.org/static-method-in-interface-in-java/)
 
 #### Q6. What does the following code print?
 
@@ -220,7 +220,7 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:`
+**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because the import statements of the form:
 
 `import packageName.subPackage.*`
 
@@ -230,19 +230,19 @@ is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls
 
 ```java
 1: class MainClass {
-2:  final String message(){
-3:      return "Hello!";
-4:  }
+2:     final String message() {
+3:         return "Hello!";
+4:     }
 5: }
 
 6: class Main extends MainClass {
-7:  public static void main(String[] args) {
-8:      System.out.println(message());
-9:  }
+7:     public static void main(String[] args) {
+8:         System.out.println(message());
+9:     }
 
-10: String message(){
-11:     return "World!";
-12:  }
+10:     String message() {
+11:         return "World!";
+12:     }
 13: }
 ```
 
@@ -284,7 +284,7 @@ class Main {
 - [ ] a negative integer value
 - [ ] "12345100000"
 
-**Reasoning:** `The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore, this code will not compile as the number assigned to 'a' is larger than the int type can hold.`
+**Reasoning:** The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore, this code will not compile as the number assigned to 'a' is larger than the int type can hold.
 
 #### Q14. What is the output of this code?
 
@@ -329,7 +329,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-- [Reference](https://www.scaler.com/topics/java/arraylist-in-java/)
+[Reference](https://www.scaler.com/topics/java/arraylist-in-java/)
 
 #### Q18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself.
 
@@ -345,7 +345,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `LocalDate.now()`
 - [ ] `Calendar.getInstance().getTime()`
 
-**Explanation**: LocalDate is the newest class added in java 8
+**Explanation:** LocalDate is the newest class added in java 8
 
 #### Q20. Fill in the blank to create a piece of code that will tell whether `int0` is divisible by `5`:
 
@@ -374,7 +374,7 @@ class Main {
 - [ ] 5 times
 - [ ] infinite number of times
 
-**Explanation**: `Observe the loop increment. It's not an increment, it's an assignment(post).`
+**Explanation:** Observe the loop increment. It's not an increment, it's an assignment(post).
 
 #### Q22. The runtime system starts your program by calling which function first?
 
@@ -392,7 +392,7 @@ public class Jedi {
 
   /* Constructor B */
   Jedi(String name, String species, boolean followsTheDarkSide){}
-  }
+}
 ```
 
 - [ ] Jedi(name, species, false)
@@ -400,9 +400,9 @@ public class Jedi {
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
 
-**Note:** `This code won't compile, possibly broken code sample.`
+**Note:** This code won't compile, possibly broken code sample.
 
-- [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
+[Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
 #### Q24. Which statement is **NOT** true?
 
@@ -469,14 +469,14 @@ class Main {
 ```java
 import java.util.*;
 class Main {
-	public static void main(String[] args) {
-		List<Boolean> list = new ArrayList<>();
-		list.add(true);
-		list.add(Boolean.parseBoolean("FalSe"));
-		list.add(Boolean.TRUE);
-		System.out.print(list.size());
-		System.out.print(list.get(1) instanceof Boolean);
-	}
+    public static void main(String[] args) {
+        List<Boolean> list = new ArrayList<>();
+        list.add(true);
+        list.add(Boolean.parseBoolean("FalSe"));
+        list.add(Boolean.TRUE);
+        System.out.print(list.size());
+        System.out.print(list.get(1) instanceof Boolean);
+    }
 }
 ```
 
@@ -489,18 +489,18 @@ class Main {
 
 ```java
 1: class Main {
-2: 	Object message(){
-3: 		return "Hello!";
-4: 	}
-5: 	public static void main(String[] args) {
-6: 		System.out.print(new Main().message());
-7: 		System.out.print(new Main2().message());
-8: 	}
+2:     Object message() {
+3:         return "Hello!";
+4:     }
+5:     public static void main(String[] args) {
+6:         System.out.print(new Main().message());
+7:         System.out.print(new Main2().message());
+8:     }
 9: }
 10: class Main2 extends Main {
-11: 	String message(){
-12: 		return "World!";
-13: 	}
+11:     String message() {
+12:         return "World!";
+13:     }
 14: }
 ```
 
@@ -527,18 +527,18 @@ class Main {
 
 ```java
 public static void main(String[] args) {
-	try {
-		System.out.println("A");
-		badMethod();
-		System.out.println("B");
-	} catch (Exception ex) {
-		System.out.println("C");
-	} finally {
-		System.out.println("D");
-	}
+    try {
+        System.out.println("A");
+        badMethod();
+        System.out.println("B");
+    } catch (Exception ex) {
+        System.out.println("C");
+    } finally {
+        System.out.println("D");
+    }
 }
 public static void badMethod() {
-	throw new Error();
+    throw new Error();
 }
 ```
 
@@ -547,22 +547,22 @@ public static void badMethod() {
 - [ ] C and D
 - [x] A and D
 
-**Explanation**: `` Error` is not inherited from `Exception ``
+**Explanation:** `Error` is not inherited from `Exception`.
 
 #### Q34. What is the output of this code?
 
 ```java
 class Main {
-	static int count = 0;
-	public static void main(String[] args) {
-		if (count < 3) {
-			count++;
-			main(null);
-		} else {
-			return;
-		}
-		System.out.println("Hello World!");
-	}
+    static int count = 0;
+    public static void main(String[] args) {
+        if (count < 3) {
+            count++;
+            main(null);
+        } else {
+            return;
+        }
+        System.out.println("Hello World!");
+    }
 }
 ```
 
@@ -576,12 +576,12 @@ class Main {
 ```java
 import java.util.*;
 class Main {
-	public static void main(String[] args) {
-		String[] array = {"abc", "2", "10", "0"};
-		List<String> list = Arrays.asList(array);
-		Collections.sort(list);
-		System.out.println(Arrays.toString(array));
-	}
+    public static void main(String[] args) {
+        String[] array = {"abc", "2", "10", "0"};
+        List<String> list = Arrays.asList(array);
+        Collections.sort(list);
+        System.out.println(Arrays.toString(array));
+    }
 }
 ```
 
@@ -590,22 +590,22 @@ class Main {
 - [ ] `[abc, 2, 10, 0]`
 - [x] `[0, 10, 2, abc]`
 
-**Explanation**: The `java.util.Arrays.asList(T... a)` returns a fixed-size list backed by the specified array. (Changes to the returned list "write through" to the array.)
+**Explanation:** The `java.util.Arrays.asList(T... a)` returns a fixed-size list backed by the specified array. (Changes to the returned list "write through" to the array.)
 
 #### Q36. What is the output of this code?
 
 ```java
 class Main {
-	public static void main(String[] args) {
-		String message = "Hello";
-		print(message);
-		message += "World!";
-		print(message);
-	}
-	static void print(String message){
-		System.out.print(message);
-		message += " ";
-	}
+    public static void main(String[] args) {
+        String message = "Hello";
+        print(message);
+        message += "World!";
+        print(message);
+    }
+    static void print(String message) {
+        System.out.print(message);
+        message += " ";
+    }
 }
 ```
 
@@ -618,11 +618,11 @@ class Main {
 
 ```java
 public class Main {
-	public static void main(String[] args) {
-		int x = 5;
-		x = 10;
-		System.out.println(x);
-	}
+    public static void main(String[] args) {
+        int x = 5;
+        x = 10;
+        System.out.println(x);
+    }
 }
 ```
 
@@ -719,10 +719,10 @@ System.out.println((int) smooch);
 
 ```java
 public class Nosey {
-	int age;
-	public static void main(String[] args) {
-		System.out.println("Your age is: " + age);
-	}
+    int age;
+    public static void main(String[] args) {
+        System.out.println("Your age is: " + age);
+    }
 }
 ```
 
@@ -735,8 +735,8 @@ public class Nosey {
 
 ```java
 public class Duck {
-	private String name;
-	Duck(String name) {}
+    private String name;
+    Duck(String name) {}
 }
 ```
 
@@ -969,7 +969,7 @@ try {
 - [ ] interface
 - [x] unsigned
 
-**Explanation:** `native` is a part of JNI interface
+**Explanation:** `native` is a part of JNI interface.
 
 #### Q62. Which operator would you use to find the remainder after division?
 
@@ -1204,7 +1204,7 @@ public class Main {
 - [ ] Remove the body of the `print2` method and add a semicolon.
 - [x] Remove the body of the `print` method.
 
-**Explanation**: Changing line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
+**Explanation:** Changing line 2 to `public static final String message` raises the error `message not initialized in the default constructor`.
 
 #### Q85. What is the output of this code?
 
@@ -1266,19 +1266,19 @@ class TaxCalculator {
 - [ ] calculate(50);
 - [ ] new TaxCalculator.calculate($50);
 
-**Note:** This code won't compile, broken code sample
+**Note:** This code won't compile, broken code sample.
 
 1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
 2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
-#### Q89. Which characteristic does not apply to instances of java.util.HashSet=
+#### Q89. Which characteristic does not apply to instances of java.util.HashSet?
 
 - [ ] uses hashcode of objects when inserted
 - [ ] contains unordred elements
 - [ ] contains unique elements
 - [x] contains sorted elements
 
-**Explanation**: HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.
+**Explanation:** HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.
 
 [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
@@ -1288,18 +1288,18 @@ class TaxCalculator {
 import java.util.*;
 
 public class Main {
-	public static void main(String[] args)
-	{
-		PriorityQueue<Integer> queue = new PriorityQueue<>();
-		queue.add(4);
-		queue.add(3);
-		queue.add(2);
-		queue.add(1);
+    public static void main(String[] args)
+    {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        queue.add(4);
+        queue.add(3);
+        queue.add(2);
+        queue.add(1);
 
-		while (queue.isEmpty() == false) {
-			System.out.printf("%d", queue.remove());
-		}
-	}
+        while (queue.isEmpty() == false) {
+            System.out.printf("%d", queue.remove());
+        }
+    }
 }
 ```
 
@@ -1338,7 +1338,7 @@ public class Main {
 - [ ] java.util.HashSet
 - [x] java.util.HashMap
 
-**Explanation**: HashMap class implements Map interface.
+**Explanation:** HashMap class implements Map interface.
 
 #### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns the employee name. Which statement properly extracts a list of employee names?
 
@@ -1379,16 +1379,16 @@ public enum Direction {
 #### Q98. What code should go in line 3?
 
 ```java
-class Main {
-    public static void main(String[] args) {
-
-        array[0] = new int[]{1, 2, 3};
-        array[1] = new int[]{4, 5, 6};
-        array[2] = new int[]{7, 8, 9};
-        for (int i = 0; i < 3; i++)
-            System.out.print(array[i][1]); //prints 258
-    }
-}
+1: class Main {
+2:     public static void main(String[] args) {
+3: 
+4:         array[0] = new int[]{1, 2, 3};
+5:         array[1] = new int[]{4, 5, 6};
+6:         array[2] = new int[]{7, 8, 9};
+7:         for (int i = 0; i < 3; i++)
+8:             System.out.print(array[i][1]); //prints 258
+9:     }
+10: }
 ```
 
 - [ ] `int[][] array = new int[][];`
@@ -1681,7 +1681,7 @@ for (List list : myLists){
 - [x] polymorphism
 - [ ] encapsulation
 
-**Explanation:** switch between different implementations of the `List` interface
+**Explanation:** switch between different implementations of the `List` interface.
 
 #### Q116. What does this code print?
 
@@ -1708,7 +1708,7 @@ System.out.println(b == c);
 - [x] synchronized
 - [ ] lock
 
-[Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
+[Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
 
 #### Q118. Which is a valid type for this lambda function?
 
@@ -1771,8 +1771,8 @@ songTitles.stream().map(capitalize).forEach(System.out::println);
 
 ```java
 _____ processFunction(Integer number, Function<Integer, String> lambda) {
-        return lambda.apply(number);
-    }
+    return lambda.apply(number);
+}
 ```
 
 - [ ] `Integer`
@@ -1880,13 +1880,13 @@ int total = numbers.stream()
                         .sum();
 ```
 
-**Explanation:** The given code in the question will give you the output 20 as total
+**Explanation:** The given code in the question will give you the output 20 as total:
 
 ```java
-numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
-    .stream()                   // Converts input into `Stream<Integer>` <br>
-    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4] <br>
-    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16] <br>
+numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
+    .stream()                   // Converts input into `Stream<Integer>`
+    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4]
+    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16]
     .sum()                      // Returns the sum as `int` > 20
 ```
 
@@ -1908,6 +1908,8 @@ int jar = pickle;
 - [x] Cast pickle to an int before assigning it to jar.
 - [ ] Make pickle into a double by adding + ".0"
 - [ ] Use the new keyword to create a new Integer from pickle before assigning it to jar.
+
+[Reference](https://www.w3schools.com/java/java_type_casting.asp)
 
 #### Q128. What value should x have to make this loop execute 10 times?
 
@@ -2048,23 +2050,24 @@ System.out.println(horses.get(1).trim());
 - [x] Map
 - [ ] Queue
 
-> Explanation (from @yktsang01 in #3915 thread)
+**Explanation:**
 
-> Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like
-> `Map<java.time.Month, Double>`
-> The other options will most likely need some new class to be meaningful
+> from @yktsang01 in #3915 thread
+
+Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like `Map<java.time.Month, Double>`.
+The other options will most likely need some new class to be meaningful:
 
 ```java
 public class Rainfall {
-private java.time.Month month;
-private double rainfall;
+    private java.time.Month month;
+    private double rainfall;
 }
 Vector<Rainfall>
 LinkedList<Rainfall>
 Queue<Rainfall>
 ```
 
-#### Q141. Among the following which contains date information.
+#### Q141. Among the following which contains date information?
 
 - [x] java.sql timestamp
 - [ ] java.io time
@@ -2120,7 +2123,7 @@ Queue<Rainfall>
 - [ ] start() method of the thread class.
 - [ ] None of the above.
 
-**Explanation:** After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.
+**Explanation:** After a thread is started, via its `start()` method of the Thread class, the JVM invokes the thread's `run()` method when the thread is initially executed.
 
 #### Q149. What is true about a final class?
 
@@ -2129,7 +2132,7 @@ Queue<Rainfall>
 - [ ] It can't be inherited.
 - [x] All of the above.
 
-[Explanation](Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.)
+**Explanation:** Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared `final`.
 
 #### Q150. Which method can be used to find the highest value of x and y?
 
@@ -2236,16 +2239,15 @@ class Lambo extends Car {
 
 ```java
 class variable_scope {
-	public static void main(String args[])
+    public static void main(String args[]) {
+        int x;
+        x = 5;
         {
-            int x;
-            x = 5;
-            {
-	        int y = 6;
-	        System.out.print(x + " " + y);
-            }
-            System.out.println(x + " " + y);
+            int y = 6;
+            System.out.print(x + " " + y);
         }
+        System.out.println(x + " " + y);
+    }
 }
 ```
 
@@ -2254,7 +2256,7 @@ class variable_scope {
 - [ ] 5 6 5 6
 - [ ] 5 6 5
 
-**Explanation:** Scope of variable Y is limited
+**Explanation:** Scope of variable Y is limited.
 
 #### Q159. Subclasses of an abstract class are created using the keyword **\_**.
 
@@ -2263,7 +2265,7 @@ class variable_scope {
 - [ ] interfaces
 - [ ] implements
 
-[Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+[Reference](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
 #### Q160. What will be the output of the following program?
 
