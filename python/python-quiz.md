@@ -2456,6 +2456,6 @@ for i in range(m):
 - [ ] n
 - [x] m * n
 
-**Explanation:** This code will run for m x n times, if you run this code, it will create m x n tuples.
+**Explanation:** This code will run for m x n times, if you run this code, it will create m x n tuples. <br/> The first loop runs for m times and the inner loop will run for n times. While the single iteration of first loop will only be completed when all of the n iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... mth iterations for outer loop. Overall, both loops will run m x n times
 
 
