@@ -1417,21 +1417,7 @@ const [count, setCount] = useState(0);
 - [ ] spread operating
 - [x] array destructuring
 
-#### Q120. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
-
-```javascript
-const PokeDex = (props) => {
-  const [pokeDex, setPokeDex] = useState([]);
-  //...
-};
-```
-
-- [x] pokeDex
-- [ ] this.props.pokeDex
-- [ ] setPokeDex()
-- [ ] props.pokeDex
-
-#### Q121. Which choice is a correct refactor of the Greeting class component into a function component?
+#### Q120. Which choice is a correct refactor of the Greeting class component into a function component?
 
 ```javascript
 class Greeting extends React.Component {
@@ -1446,7 +1432,7 @@ class Greeting extends React.Component {
 - [ ] `const Greeting = props => { <h1>{props.name}</h1> }`
 - [x] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
 
-#### Q122. Why is the `waitlist` not updating correctly?
+#### Q121. Why is the `waitlist` not updating correctly?
 
 ```javascript
 const Waitlist = () => {
