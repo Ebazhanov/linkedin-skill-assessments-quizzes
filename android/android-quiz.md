@@ -1138,14 +1138,14 @@ val string: String = getString(
 "You have 2 days remaining"
 ```
 
-- [ ]
+- [ ] A
 
 ```
 <string name="trial_days_left_one"> You have %1$d day remaining</string>
 <string name="trial_days_left_other">You have %1$d days remaining</string>
 ```
 
-- [ ]
+- [ ] B
 
 ```
 <plurals name="trial days left">
@@ -1154,7 +1154,7 @@ val string: String = getString(
 </plurals>
 ```
 
-- [x]
+- [x] C
 
 ```
 <plurals name="trial_days_left">
@@ -1163,7 +1163,7 @@ val string: String = getString(
 </plurals>
 ```
 
-- [ ]
+- [ ] D
 
 ```
 <string name="trial_days_left">
