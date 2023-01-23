@@ -1597,7 +1597,7 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-**Explanation:** Understanding this answer requires knowledge of linear algebra. Some systems of equations can be solved by the method of *diagonalization*, which involves finding the **eigenvectors and eigenvalues** of the system's matrix and multiplying related matrices. 
+**Explanation:** Understanding this answer requires knowledge of linear algebra. Some systems of equations can be solved by the method of _diagonalization_, which involves finding the **eigenvectors and eigenvalues** of the system's matrix and multiplying related matrices.
 
 #### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
@@ -2454,8 +2454,6 @@ for i in range(m):
 - [ ] m
 - [ ] m + n
 - [ ] n
-- [x] m * n
+- [x] m \* n
 
 **Explanation:** This code will run for m x n times, if you run this code, it will create m x n tuples. <br/> The first loop runs for m times and the inner loop will run for n times. While the single iteration of first loop will only be completed when all of the n iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... mth iterations for outer loop. Overall, both loops will run m x n times
-
-

@@ -1436,7 +1436,7 @@ class Greeting extends React.Component {
 
 ```javascript
 const Waitlist = () => {
-  const [name, setName] = useState("");
+  const [name, setName] = useState('');
   const [waitlist, setWaitlist] = useState([]);
   const onSubmit = (e) => {
     e.preventDefault();
@@ -1446,12 +1446,7 @@ const Waitlist = () => {
     <div>
       <form onSubmit={onSubmit}>
         <label>
-          Name:{" "}
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
+          Name: <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
         </label>
         <button type="submit">Add to waitlist</button>
       </form>

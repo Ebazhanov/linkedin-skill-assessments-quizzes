@@ -405,7 +405,7 @@ let t = names.enumerated().first().offset
 
 References:
 
-- [Apple Developer: Documentation: Swift: Array: enumerated()](https://developer.apple.com/documentation/swift/array/enumerated())
+- [Apple Developer: Documentation: Swift: Array: enumerated()](<https://developer.apple.com/documentation/swift/array/enumerated()>)
 - [Apple Developer: Documentation: Swift: Array](https://developer.apple.com/documentation/swift/array/first)
 
 #### Q32. What is the value of test after this code executes?
@@ -509,7 +509,7 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 - [x] 12three
 - [ ] Nothing, this code is invalid.
 
-Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
+Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](<https://developer.apple.com/documentation/swift/array/reduce(_:_:)>)
 
 #### Q39. How would you call a function that throws errors and also returns a value?
 
@@ -756,7 +756,7 @@ var vals = [1, 2, 3]
 - [ ] `vals.sort(by: <)`
 - [x] All of these answers
 
-Reference: [Apple Developer: Documentation: Swift: Array: sort()](https://developer.apple.com/documentation/swift/array/sort())
+Reference: [Apple Developer: Documentation: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)
 
 #### Q55. DispatchQueue.main.async takes a block that will be
 
