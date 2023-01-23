@@ -2424,7 +2424,7 @@ employees = {
 - [ ] `employees['alice'][1] = employees['charlie'][1]`
 - [ ] `employees['alice'].salary = employees['charlie'].salary`
 
-**Explanation:**This is accessing a key in a nested dictionary inside another dictionary
+**Explanation:** This is accessing a key in a nested dictionary inside another dictionary
 
 The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
 It is the same thing as:
@@ -2440,3 +2440,22 @@ employees = {'alice': {'position': 'Lead Developer', 'salary': 1000},
              'bob': {'position': 'Lead Artist', 'salary': 2000},
              'charlie': {'position': 'cfo', 'salary': 3000}}
 ```
+
+#### Q177. You are given a piece of code. Assume m and n are already defined as some positive integer value. When it completes, how many tuples will my list contain?
+
+```python
+mylist = []
+
+for i in range(m):
+    for j in range(n):
+        mylist.append((i,j))
+```
+
+- [ ] m
+- [ ] m + n
+- [ ] n
+- [x] m * n
+
+**Explanation:** This code will run for m x n times, if you run this code, it will create m x n tuples. <br/> The first loop runs for m times and the inner loop will run for n times. While the single iteration of first loop will only be completed when all of the n iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... mth iterations for outer loop. Overall, both loops will run m x n times
+
+
