@@ -216,7 +216,7 @@
 
 - [ ] Override the default Partitioner.
 - [ ] Skip bad records.
-- [ ] Break up Mappers that do more than one task into multiple Mappers.
+- [x] Break up Mappers that do more than one task into multiple Mappers.
 - [ ] Combine Mappers that do one task into large Mappers.
 
 #### Q32. When implemented on a public cloud, with what does Hadoop processing interact?
@@ -320,7 +320,7 @@
 #### Q46. HQL queries produce which job types?
 
 - [ ] Impala
-- [ ] MapReduce
+- [x] MapReduce
 - [ ] Spark
 - [ ] Pig
 
@@ -415,7 +415,7 @@
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [ ] Reporter
+- [x] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer
@@ -425,7 +425,7 @@
 - [ ] all data
 - [ ] no data
 - [ ] existing data
-- [ ] new data
+- [x] new data
 
 #### Q61. Which statement should you add to improve the performance of the following query?
 
@@ -451,7 +451,7 @@ FROM customers c;
 
 #### Q63. You can optimize Hive queries using which method?
 
-- [ ] secondary indices
+- [x] secondary indices
 - [ ] summary statistics
 - [ ] column-based statistics
 - [ ] a primary key index
@@ -493,7 +493,7 @@ FROM customers c;
 
 #### Q69. To see how Hive executed a JOIN operation, use the \_ statement and look for the \_ value.
 
-- [ ] EXPLAIN; JOIN Operator
+- [x] EXPLAIN; JOIN Operator
 - [ ] QUERY; MAP JOIN Operator
 - [ ] EXPLAIN; MAP JOIN Operator
 - [ ] QUERY; JOIN Operator
