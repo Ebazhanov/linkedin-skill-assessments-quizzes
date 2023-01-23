@@ -5,9 +5,9 @@
 `echo 76 <=> '76 trombones';`
 
 - [ ] 1
-- [ ] -1
+- [x] -1
 - [ ] a parser error
-- [x] 0
+- [ ] 0
 
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 **_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
