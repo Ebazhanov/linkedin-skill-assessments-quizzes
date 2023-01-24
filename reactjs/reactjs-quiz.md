@@ -1266,7 +1266,7 @@ ReactDOM.createPortal(x, y);
 - [ ] the App component
 - [x] the DOM element that exists outside of the parent component
 
-#### Q104. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greeet handler?
+#### Q104. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
 
 ```javascript
 const Greeting = ({ initName }) => {
