@@ -12818,6 +12818,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ant-st",
+      "name": "Antoni Sarnowski-Trypka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122909818?v=4",
+      "profile": "https://github.com/ant-st",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
