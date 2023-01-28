@@ -183,7 +183,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ] `D`
+- [x] `D`
 
 ```js
 discountPrice = function (price) {
