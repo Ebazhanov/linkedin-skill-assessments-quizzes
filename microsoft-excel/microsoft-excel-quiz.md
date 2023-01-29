@@ -1267,3 +1267,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] bottom
 - [ ] top
 - [ ] right
+
+#### Q143. Which formula adds 8 and 5 in a cell?
+
+- [ ] `=ADD(8+5)`
+- [ ] 8+5
+- [ ] None of these answers, as you cannot add without a `SUM` function.
+- [x] `=8+5`
