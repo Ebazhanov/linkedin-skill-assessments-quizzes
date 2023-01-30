@@ -1725,14 +1725,13 @@ actors = ["Downey", "Holland", "Evans"]
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [x] `zip(characters, actors)`
-- [ ]
+- [ ]   
+	```python
+	d = {}
 
-```python
-d = {}
-
-for x in range(1, len(characters)):
-    d[x] = actors[x]
-```
+	for x in range(1, len(characters)):
+	    d[x] = actors[x]
+	```
 
 - [ ] `{x:y for x in characters for y in actors}`
 
