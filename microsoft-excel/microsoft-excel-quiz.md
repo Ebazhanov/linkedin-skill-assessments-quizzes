@@ -746,7 +746,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q89. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
-![image](images/Q97.png?raw=png)
+![image](images/Q89.png?raw=png)
 
 - [ ] average number of minutes per call
 - [ ] average annual sales per minute
@@ -1267,3 +1267,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] bottom
 - [ ] top
 - [ ] right
+
+#### Q143. Which formula adds 8 and 5 in a cell?
+
+- [ ] `=ADD(8+5)`
+- [ ] 8+5
+- [ ] None of these answers, as you cannot add without a `SUM` function.
+- [x] `=8+5`
