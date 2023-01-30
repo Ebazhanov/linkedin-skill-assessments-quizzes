@@ -739,3 +739,12 @@ var x = '16';
 - [ ] Use the rest_authenticaton_errors() filter along with the is_user_logged_in() conditional to limit access to logged in users.
 - [x] Use the Disable REST API plugin.
 - [ ] Use the rest_authenticaton_errors() filter along with cookie authentication to limit access to logged in users.
+
+#### Q84. Which of these refers to a WordPress security token that is used to verify that a request was made by the right person or client?
+
+- [ ] Salt
+- [ ] Cookie
+- [x] Nonce
+- [ ] Transient
+
+[Reference](https://www.hostinger.com/tutorials/wordpress-nonce)
