@@ -2068,7 +2068,7 @@ let total = sum(4, ...values);
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
 [Reference: defer html script attribute](https://www.w3schools.com/tags/att_script_defer.asp)
-  
+
 #### Q152. Which method of a class is called to initialize an object of that class?
 
 - [ ] init()
@@ -2077,6 +2077,3 @@ let total = sum(4, ...values);
 - [x] constructor()
 
 [Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
-  
-  
-

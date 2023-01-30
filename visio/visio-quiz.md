@@ -358,7 +358,7 @@
 - [ ] They are the four most frequently useed shapes
 - [x] They are the first four shapes in teh **Quick Shapes** section of the current stencil
 
-#### Q42. Which is one of the eight supported Visio shape data types? 
+#### Q42. Which is one of the eight supported Visio shape data types?
 
 - [ ] XML
 - [ ] Integer
@@ -369,7 +369,5 @@
 
 - [ ] The shape is protected against selection
 - [ ] The shape is connected to another shape
-- [ ] The shape is part of a locked layer 
-- [ ] The shape is in a group 
-
-
+- [ ] The shape is part of a locked layer
+- [ ] The shape is in a group
