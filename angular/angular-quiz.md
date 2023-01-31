@@ -1330,7 +1330,9 @@ export class ProductNameComponent {
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
 
 #### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter? 
-```{path: 'user/:id', component: UserDetailComponent }```
+```ts
+{path: 'user/:id', component: UserDetailComponent }
+```
 
 - [x] ActivatedRoute
 - [ ] CurrentRoute
