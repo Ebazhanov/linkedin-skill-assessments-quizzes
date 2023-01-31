@@ -1319,3 +1319,12 @@ export class ProductNameComponent {
 - [ ] CanLoad
 - [ ] CanActivate.
       [Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
+
+#### Q72. How can you configure the injector to use an existing object for a token instead of having it instantiate a class instance?
+
+- [x] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
+- [ ] It is not possible. Providers can be configured only with class types.
+- [ ] Simply add the object instance or literal to the providers array.
+- [ ] Make use of the `asValue` provider configuration property, setting it to true.
+
+[Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
