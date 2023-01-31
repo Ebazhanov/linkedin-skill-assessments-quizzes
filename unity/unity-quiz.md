@@ -521,3 +521,17 @@ public class Health : MonoBehaviour
 - [x] `c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime);`
 - [ ] `c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime);`
 - [ ] `c# transform.SetParent(null);`
+
+#### Q53. What can you to improve the searchability of you project's assets?
+- [x] labels
+- [ ] tags
+- [ ] instance IDs
+- [ ] layers
+
+#### Q54. The Y keyboard shortcut activates which in-editor tool?
+- [ ] Hide
+- [ ] Scale
+- [ ] Transform
+- [X] Rotate
+
+> `Observation`: I tested it in Unity itself and pressing it activated the rotate, scale and transform function, in the documentation (unity 2018.2) it says that it is a unified one, in the documentation of the most recent unity (2022.2) I did not find anything different
