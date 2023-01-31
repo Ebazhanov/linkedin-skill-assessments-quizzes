@@ -1328,3 +1328,13 @@ export class ProductNameComponent {
 - [ ] Make use of the `asValue` provider configuration property, setting it to true.
 
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
+
+#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter? 
+```{path: 'user/:id', component: UserDetailComponent }```
+
+- [x] ActivatedRoute
+- [ ] CurrentRoute
+- [ ] UrlPath
+- [ ] @Inject('id')
+
+[Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
