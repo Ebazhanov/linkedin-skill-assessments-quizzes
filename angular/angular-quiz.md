@@ -1361,10 +1361,10 @@ export class ProductNameComponent {
 <div [ngClass]="{ ‘active-item': isActive }">Item One</div>
 ```
 
-- [ ] <div active-item>Item One</div>
-- [x] <div class="active-item">Item One</div>
-- [ ] <div class="is-active">Item One</div>
-- [ ] <div class="active-item isActive">Item One</div>
+- [ ] ```<div active-item>Item One</div>```
+- [x] ```<div class="active-item">Item One</div>```
+- [ ] ```<div class="is-active">Item One</div>```
+- [ ] ```<div class="active-item isActive">Item One</div>```
 
 [Angular - NgClass](https://angular.io/api/common/NgClass)
 
