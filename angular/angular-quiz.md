@@ -1355,3 +1355,15 @@ export class ProductNameComponent {
 - [ ] both of these answers
 
 [Angular - Forms](https://angular.io/guide/forms)
+
+#### Q75. What is the expected DOM code for this usage of the ngClass attribute directive when isActive is true?
+```html
+<div [ngClass]="{ ‘active-item': isActive }">Item One</div>
+```
+
+- [ ] <div active-item>Item One</div>
+- [x] <div class="active-item">Item One</div>
+- [ ] <div class="is-active">Item One</div>
+- [ ] <div class="active-item isActive">Item One</div>
+
+[Angular - NgClass](https://angular.io/api/common/NgClass)
