@@ -1367,3 +1367,15 @@ export class ProductNameComponent {
 - [ ] <div class="active-item isActive">Item One</div>
 
 [Angular - NgClass](https://angular.io/api/common/NgClass)
+
+#### Q76. Which answer best explains the usage of ngModel in this template code?
+```html
+<input [(ngModel)]="user.name">
+```
+
+- [ ] It is conditionally displaying the input element if the user.name property has a value.
+- [x] It is the two-way data binding syntax. The input element value property will be bound to the user.name property, and the value change event for the form element will update the user.name property value.
+- [ ] There is a typo in the code. It should have only the square brackets.
+- [ ] It is binding the value of the user.name property to the input element's val property to set its initial value.
+
+[Angular - NgModel](https://angular.io/api/forms/NgModel)
