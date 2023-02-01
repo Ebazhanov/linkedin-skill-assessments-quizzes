@@ -1379,3 +1379,12 @@ export class ProductNameComponent {
 - [ ] It is binding the value of the user.name property to the input element's val property to set its initial value.
 
 [Angular - NgModel](https://angular.io/api/forms/NgModel)
+
+#### Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
+
+- [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
+- [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
+- [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
+- [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
+
+[Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
