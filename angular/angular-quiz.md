@@ -1319,3 +1319,24 @@ export class ProductNameComponent {
 - [ ] CanLoad
 - [ ] CanActivate.
       [Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
+
+#### Q72. How can you configure the injector to use an existing object for a token instead of having it instantiate a class instance?
+
+- [x] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
+- [ ] It is not possible. Providers can be configured only with class types.
+- [ ] Simply add the object instance or literal to the providers array.
+- [ ] Make use of the `asValue` provider configuration property, setting it to true.
+
+[Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
+
+#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter? 
+```ts
+{path: 'user/:id', component: UserDetailComponent }
+```
+
+- [x] ActivatedRoute
+- [ ] CurrentRoute
+- [ ] UrlPath
+- [ ] @Inject('id')
+
+[Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
