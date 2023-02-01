@@ -110,7 +110,7 @@
 - [ ] background processes
 - [ ] in-memory processes
 
-#### Q15. A grayscale raster is said to have a single ****\_**** while a full-color RGB raster has three ****\_****.
+#### Q15. A grayscale raster is said to have a single \***\*\_\*\*** while a full-color RGB raster has three \***\*\_\*\***.
 
 - [ ] band; bands
 - [ ] color; colors
