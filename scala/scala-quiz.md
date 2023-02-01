@@ -368,7 +368,7 @@ myClass.foreach(println _)
 - [ ] private function
 - [ ] block function
 - [x] local function
-- [ ] method 
+- [ ] method
 
 A function defined within a block of code, such as within a method or another function, is called a local function. This is because it is only visible and accessible within the scope of the block in which it is defined, and is not accessible outside of that block.
 
