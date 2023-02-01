@@ -1340,3 +1340,18 @@ export class ProductNameComponent {
 - [ ] @Inject('id')
 
 [Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
+
+#### Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method? 
+```html
+<form [formGroup]="form">
+<input type="text" formControlName="username">
+<button type="submit" [disabled]="form. invalid" >Submit</button>
+</form>
+```
+
+- [ ] neither of these answers
+- [ ] Add (click)="onSubmit()" to the <button> element.
+- [x] Add (ngSubmit )="onSubmit ()" to the <form> element.
+- [ ] both of these answers
+
+[Angular - Forms](https://angular.io/guide/forms)
