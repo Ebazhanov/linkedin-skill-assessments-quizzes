@@ -610,3 +610,9 @@
 - [x] Acquisition > Google Ads > Search queries
 - [ ] Acquisition > Google Ads > Keywords
 - [ ] Acquisition > Campaign > Organic Keywords
+
+#### Q86. What does the Site Search Report Display
+- [ ] How users search Google
+- [ ] in-page analytics
+- [ ] waht pages are missing from you site
+- [x] how users search on you site
