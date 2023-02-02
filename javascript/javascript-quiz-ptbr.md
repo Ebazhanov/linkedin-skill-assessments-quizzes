@@ -90,6 +90,7 @@ console.log(/* Snippet Here */); //Prints food
 [Reference Javascript Class static Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
 #### Q8. Você escreveu o código mostrado para registrar um conjunto de valores consecutivos, mas, em vez disso, resulta no valor 5, 5, 5 e 5 sendo exibido no console. Qual versão revisada do código resultaria na exibição dos valores 1, 2, 3 e 4?
+
 - [ ] `A`
 
 ```js

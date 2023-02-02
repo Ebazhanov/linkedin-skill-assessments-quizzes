@@ -2093,7 +2093,6 @@ label="Endnotes">Endnotes...</custom-footnote>
 <aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
 ```
 
-
 #### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
 
 - [x] `<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>`
@@ -2115,10 +2114,15 @@ label="Endnotes">Endnotes...</custom-footnote>
 #### Q127. In which order will these scripts execute, assuming they all take the same time to download?
 
 ```html
-  <script type="module" src="module.js"></script> // external module
-  <script type="async" src="module.js"></script> // async
-  <script type="defer" src="module.js"></script> // defer
-  <script type="module" src="module.js">// inline module</script> 
+<script type="module" src="module.js"></script>
+// external module
+<script type="async" src="module.js"></script>
+// async
+<script type="defer" src="module.js"></script>
+// defer
+<script type="module" src="module.js">
+  // inline module
+</script>
 ```
 
 - [ ] async, external module, defer, inline module
@@ -2129,9 +2133,17 @@ label="Endnotes">Endnotes...</custom-footnote>
 #### Q128. What is the backward-compatible method of turning a circle in an SVG into a link?
 
 - [ ] ```html <a svg:href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+
+      ```
 - [ ] ```html <a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+
+      ```
 - [ ] ```html <a href:"/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+
+      ```
 - [ ] ```html <html:a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>
+
+      ```
 
 #### Q129. Users report that a form is not working. What is the culprit?
 
@@ -2152,5 +2164,3 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] There is no method set on the form.
 - [ ] The form element is disabled.
 - [ ] The fieldset is disabled.
-
-

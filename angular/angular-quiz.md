@@ -1329,7 +1329,8 @@ export class ProductNameComponent {
 
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
 
-#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter? 
+#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter?
+
 ```ts
 {path: 'user/:id', component: UserDetailComponent }
 ```
@@ -1341,11 +1342,12 @@ export class ProductNameComponent {
 
 [Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
 
-#### Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method? 
+#### Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method?
+
 ```html
 <form [formGroup]="form">
-<input type="text" formControlName="username">
-<button type="submit" [disabled]="form. invalid" >Submit</button>
+  <input type="text" formControlName="username" />
+  <button type="submit" [disabled]="form. invalid">Submit</button>
 </form>
 ```
 
@@ -1357,20 +1359,22 @@ export class ProductNameComponent {
 [Angular - Forms](https://angular.io/guide/forms)
 
 #### Q75. What is the expected DOM code for this usage of the ngClass attribute directive when isActive is true?
+
 ```html
 <div [ngClass]="{ ‘active-item': isActive }">Item One</div>
 ```
 
-- [ ] ```<div active-item>Item One</div>```
-- [x] ```<div class="active-item">Item One</div>```
-- [ ] ```<div class="is-active">Item One</div>```
-- [ ] ```<div class="active-item isActive">Item One</div>```
+- [ ] `<div active-item>Item One</div>`
+- [x] `<div class="active-item">Item One</div>`
+- [ ] `<div class="is-active">Item One</div>`
+- [ ] `<div class="active-item isActive">Item One</div>`
 
 [Angular - NgClass](https://angular.io/api/common/NgClass)
 
 #### Q76. Which answer best explains the usage of ngModel in this template code?
+
 ```html
-<input [(ngModel)]="user.name">
+<input [(ngModel)]="user.name" />
 ```
 
 - [ ] It is conditionally displaying the input element if the user.name property has a value.

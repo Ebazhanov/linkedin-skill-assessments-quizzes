@@ -1003,6 +1003,7 @@ It's the same as Q81, just slightly differently phrased question.
 [Source](https://www.digite.com/blog/scaled-agile-frameworks/)
 
 #### Q136. Where are teams most likely to find the first signs of potential problems?
+
 - [ ] Daily Scrums
 - [ ] Sprint Demos
 - [ ] Retrospectives
