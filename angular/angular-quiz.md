@@ -1329,8 +1329,7 @@ export class ProductNameComponent {
 
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
 
-#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter?
-
+#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter? 
 ```ts
 {path: 'user/:id', component: UserDetailComponent }
 ```
@@ -1341,3 +1340,51 @@ export class ProductNameComponent {
 - [ ] @Inject('id')
 
 [Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
+
+#### Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method? 
+```html
+<form [formGroup]="form">
+<input type="text" formControlName="username">
+<button type="submit" [disabled]="form. invalid" >Submit</button>
+</form>
+```
+
+- [ ] neither of these answers
+- [ ] Add (click)="onSubmit()" to the <button> element.
+- [x] Add (ngSubmit )="onSubmit ()" to the <form> element.
+- [ ] both of these answers
+
+[Angular - Forms](https://angular.io/guide/forms)
+
+#### Q75. What is the expected DOM code for this usage of the ngClass attribute directive when isActive is true?
+```html
+<div [ngClass]="{ ‘active-item': isActive }">Item One</div>
+```
+
+- [ ] ```<div active-item>Item One</div>```
+- [x] ```<div class="active-item">Item One</div>```
+- [ ] ```<div class="is-active">Item One</div>```
+- [ ] ```<div class="active-item isActive">Item One</div>```
+
+[Angular - NgClass](https://angular.io/api/common/NgClass)
+
+#### Q76. Which answer best explains the usage of ngModel in this template code?
+```html
+<input [(ngModel)]="user.name">
+```
+
+- [ ] It is conditionally displaying the input element if the user.name property has a value.
+- [x] It is the two-way data binding syntax. The input element value property will be bound to the user.name property, and the value change event for the form element will update the user.name property value.
+- [ ] There is a typo in the code. It should have only the square brackets.
+- [ ] It is binding the value of the user.name property to the input element's val property to set its initial value.
+
+[Angular - NgModel](https://angular.io/api/forms/NgModel)
+
+#### Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
+
+- [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
+- [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
+- [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
+- [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
+
+[Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
