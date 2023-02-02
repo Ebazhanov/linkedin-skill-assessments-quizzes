@@ -2111,3 +2111,46 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] `<video src="video.mp4" autoplay="force"></video>`
 
 [Source](https://stackoverflow.com/questions/65157672/force-html5-video-autoplay-unmuted)
+
+#### Q127. In which order will these scripts execute, assuming they all take the same time to download?
+
+```html
+  <script type="module" src="module.js"></script> // external module
+  <script type="async" src="module.js"></script> // async
+  <script type="defer" src="module.js"></script> // defer
+  <script type="module" src="module.js">// inline module</script> 
+```
+
+- [ ] async, external module, defer, inline module
+- [ ] async, inline module, external module, defer
+- [x] external module, async, defer, inline module
+- [ ] inline module, external module, defer, async
+
+#### Q128. What is the backward-compatible method of turning a circle in an SVG into a link?
+
+- [ ] ```html <a svg:href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+- [ ] ```html <a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+- [ ] ```html <a href:"/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+- [ ] ```html <html:a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>
+
+#### Q129. Users report that a form is not working. What is the culprit?
+
+```html
+  <form action="/choices" disabled>
+    <fieldset disabled>
+      <legend>Choices</legends>
+      <label>Choice 1 <input type="radio" name="choice" value="choice1" /></label>
+      <label>Choice 2 <input type="radio" name="choice" value="choice2" /></label>
+      <label>Choice 3 <input type="radio" name="choice" value="choice3" /></label>
+      <label>Choice 4 <input type="radio" name="choice" value="choice4" /></label>
+      <button>Choose!</button>
+    </fieldset>
+  </form>
+```
+
+- [x] There is no <input type="submit"> element.
+- [ ] There is no method set on the form.
+- [ ] The form element is disabled.
+- [ ] The fieldset is disabled.
+
+
