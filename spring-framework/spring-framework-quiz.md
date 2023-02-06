@@ -734,7 +734,7 @@ public Pojo getPojo(@PathVariable("id") String id) {
 #### Q71. Which statement is true regarding loading and instantiation of Spring factories?
 
 - [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
-- [ ] During startup, the SpringFactoriesLoader gets a list of config and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
+- [x] During startup, the SpringFactoriesLoader gets a list of config and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
 - [ ] During shutdown, the SpringFactoryDestructor collects all the files in META-INF directory from each dependency and begins shutting down each thread and process.
 - [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
 
@@ -744,7 +744,7 @@ public Pojo getPojo(@PathVariable("id") String id) {
      execution(* com.linkedin.TestService.*(..))
 ```
 
-- [ ] all methods of classes in the com.linkedin.TestService package
+- [x] all methods of classes in the com.linkedin.TestService package
 - [ ] all methods of classes in the com.linkedin.TestService package annotated whith @Service
 - [ ] This Pointcut is not valid.
 - [ ] all methods defined by the TestService interface
@@ -754,7 +754,7 @@ public Pojo getPojo(@PathVariable("id") String id) {
 - [ ] profile specific application-{profile}.properties files
 - [ ] Java System Properties
 - [ ] application properties located in an application.properties file inside the application.jar
-- [ ] profile specific application-{profile}.properties files located outside the application.jar
+- [x] profile specific application-{profile}.properties files located outside the application.jar
 
 #### Q74. What interface is used to represent a permission in Spring Security?
 
@@ -815,12 +815,12 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] A rollback is triggered during any error that occurs during the transaction.
 - [ ] When an instance or subclass of Exception is thrown, this triggers a rollback, while any runtime exceptions do not.
 - [ ] Anytime an instance or subclass of Throwable is thrown, this triggers a rollback.
-- [ ] When an instance or subclass of RuntimeException is thrown, this triggers a rollback, while any checked Exception does not.
+- [x] When an instance or subclass of RuntimeException is thrown, this triggers a rollback, while any checked Exception does not.
 
 #### Q78. What is the difference between a CrudRepository and a JpaRepository?
 
 - [ ] The CrudRepository extends the PagingAndSortingRepository, while the JpaRepository does not.
-- [ ] The CrudRepository exposes a superset of interface methods containing every datastore-specific method supported by Spring data. The JpaRepository contains only those specific to Spring Data JPA.
+- [x] The CrudRepository exposes a superset of interface methods containing every datastore-specific method supported by Spring data. The JpaRepository contains only those specific to Spring Data JPA.
 - [ ] The CrudRepository is a base interface within Spring Data core that exposes a dedicated set of functions. The JpaRepository is a store-specific interface that exposes functionality specific to JPA.
 - [ ] The CrudRepository is part of the Java EE API, while JpaRepository is specific to Spring Data.
 
