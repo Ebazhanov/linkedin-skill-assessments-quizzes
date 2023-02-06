@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1299-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1300-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1814,6 +1814,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/syedhannan"><img src="https://avatars.githubusercontent.com/u/91002522?v=4?s=100" width="100px;" alt="Syed Abdul Hannan"/><br /><sub><b>Syed Abdul Hannan</b></sub></a><br /><a href="#design-syedhannan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=syedhannan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TheSrajan"><img src="https://avatars.githubusercontent.com/u/123892470?v=4?s=100" width="100px;" alt="Srajan Rai"/><br /><sub><b>Srajan Rai</b></sub></a><br /><a href="#design-TheSrajan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TheSrajan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AndroidLion48"><img src="https://avatars.githubusercontent.com/u/92341925?v=4?s=100" width="100px;" alt="Clarence Moore"/><br /><sub><b>Clarence Moore</b></sub></a><br /><a href="#design-AndroidLion48" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AndroidLion48" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.spring.io"><img src="https://avatars.githubusercontent.com/u/77793919?v=4?s=100" width="100px;" alt="Nguyen Anh Tuan"/><br /><sub><b>Nguyen Anh Tuan</b></sub></a><br /><a href="#design-ng-anhhtuann" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ng-anhhtuann" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
