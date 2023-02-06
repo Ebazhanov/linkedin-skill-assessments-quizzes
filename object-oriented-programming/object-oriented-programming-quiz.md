@@ -768,3 +768,21 @@ public class Honda extends Car{}
 - [ ] Yes, as long as their constructors are different.
 - [ ] Yes, as long as their methods are different.
 - [x] Yes, as long as they are in different namespaces.
+
+#### Q101. What is the difference between an interface and an abstract class?
+
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one
+abstract class but can implement only one interface.
+- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one
+abstract class but can implement only one interface.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract
+class but can implement an unlimited number of interfaces.
+- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract
+class but can implement an unlimited number of interfaces.
+
+#### Q102. Objects are passed by ______
+
+- [ ] value or reference, depending on the programming language used
+- [ ] value
+- [ ] value or reference, depending on the program
+- [x] reference
