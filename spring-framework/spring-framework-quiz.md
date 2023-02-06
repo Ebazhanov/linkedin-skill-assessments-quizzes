@@ -828,7 +828,7 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 
 - [ ] It's a security filter chain that provides authentication with manual intervention such that multiple administrators of the system are able to approve users with auditability and traceability.
 - [ ] It's a series of user-completed activities—such as password authorization, token verification, and many others—that require multiple factors of authentication to increase the level of security in the system.
-- [ ] It's a servlet filter chain where each filter has a specific responsibility such as security context, user and password authorization, exception translation, or filter security interception, processed in order.
+- [x] It's a servlet filter chain where each filter has a specific responsibility such as security context, user and password authorization, exception translation, or filter security interception, processed in order.
 - [ ] It's a security filter chain that consumes multiple factors of authentication—such as password, token verification, biometrics, and IP whitelisting—to successfully log a user into the system.
 
 #### Q80. Which is not a valid stereotype annotation?
@@ -840,14 +840,14 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 
 #### Q81. Which statement is true regarding loading and instantiation of Spring factories?
 
-- [ ] During startup, the SpringFactoriesLoader gets a list of configs and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
+- [x] During startup, the SpringFactoriesLoader gets a list of configs and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
 - [ ] During shutdown, the SpringFactoryDestructor collects all the files in META-INF directory from each dependency and begins shutting down each thread and process.
 - [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
 - [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
 
 #### Q82. What methods does this Pointcut expression reference?
 
-- [ ] all methods defined in the service package
+- [x] all methods defined in the service package
 - [ ] The Pointcut is not valid.
 - [ ] all methods defined in a service interface
 - [ ] all methods defined in the service package or one of its subpackages
@@ -856,7 +856,7 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 
 - [ ] executing each transaction in its own dedicated threadpool to facilitate thread isolation
 - [ ] facilitating each transaction to occur on its own dedicated vCPU to guarantee throughput
-- [ ] the level of visibility and access a transaction has to the units of work of other transactions such as uncommitted writes
+- [x] the level of visibility and access a transaction has to the units of work of other transactions such as uncommitted writes
 - [ ] executing each transaction on its own process to provide resource isolation
 
 #### Q84. What does the statement "Spring offers fully-typed advice" mean?
@@ -878,4 +878,4 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] A, D, F
 - [ ] D, E, F
 - [ ] A, B, F
-- [ ] B, D, E
+- [x] B, D, E
