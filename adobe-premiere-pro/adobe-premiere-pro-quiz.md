@@ -391,3 +391,10 @@ E. Ellipse
 - [ ] layouts
 - [ ] panel presets
 - [ ] events
+
+#### Q50. Which statement is true about adaptive audio tracks?
+
+- [ ] Input channel configuration determines channel routing
+- [ ] Adaptive tracks are unable to be routed to master track outputs
+- [ ] Channel routing is based on master track configuration
+- [ ] Adaptive tracks can only be routed using the Audio Mixer
