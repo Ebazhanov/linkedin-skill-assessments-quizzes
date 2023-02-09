@@ -391,3 +391,10 @@ E. Ellipse
 - [ ] layouts
 - [ ] panel presets
 - [ ] events
+
+#### Q49. When adjusting a sequence's settings, selecting the Maximum Bit Depth in Adobe Premiere Pro for the video settings option is equivalent to which setting?
+
+- [ ] 4:0:0
+- [ ] 4:4:4
+- [ ] 4:2:2
+- [ ] 4:2:0
