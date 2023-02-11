@@ -1392,3 +1392,45 @@ export class ProductNameComponent {
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
 
 [Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
+
+#### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
+
+```html
+<span
+    [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }">
+  Employed
+</span>
+```
+
+- [ ] 
+	```html
+	<span
+	    class="{{ isActive ? 'is-active' : '' }}"
+	    class="{{ canToggle ? 'can-toggle' : '' }}">
+	  Employed
+	</span>
+	```
+- [x] 
+	```html
+	<span 
+	    [class.active]="isActive"
+	    [class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
+- [ ] 
+	```html
+	<span 
+	    [styles.class.active]="isActive"
+	    [styles.class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
+- [ ] 
+	```html
+	<span 
+	    [css.class.active]="isActive"
+	    [css.class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
