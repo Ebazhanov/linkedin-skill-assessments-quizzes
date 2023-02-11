@@ -504,3 +504,10 @@ FROM customers c;
 - [ ] Three
 - [ ] Four
 - [ ] Five
+
+#### Q71. After loading data, _____ and then run a(n) _____ query for interactive queries.
+
+- [ ] invalidate metadata; Impala
+- [ ] validate metadata; Impala
+- [ ] invalidate metadata; Hive
+- [ ] validate metadata; Hive
