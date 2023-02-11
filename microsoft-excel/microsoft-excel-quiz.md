@@ -1274,3 +1274,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] 8+5
 - [ ] None of these answers, as you cannot add without a `SUM` function.
 - [x] `=8+5`
+
+#### Q144. What feature allow you to make the text appear as it does in cell B1:F1?
+
+![image](https://cdn.lynda.com/question/60d22a3a498ede3358868119/60d22a3a498ede3358868119-1624482528356)
+
+- [ ] cell border
+- [ ] merge cells
+- [x] text orientation
+- [ ] wrap text
