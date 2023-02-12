@@ -1396,57 +1396,44 @@ export class ProductNameComponent {
 #### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
 
 ```html
-<span
-    [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }">
-  Employed
-</span>
+<span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Employed </span>
 ```
 
 - [ ] 
-	```html
-	<span
-	    class="{{ isActive ? 'is-active' : '' }}"
-	    class="{{ canToggle ? 'can-toggle' : '' }}">
-	  Employed
-	</span>
-	```
+```html
+      <span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
+        Employed
+      </span>
+```
 - [x] 
-	```html
-	<span 
-	    [class.active]="isActive"
-	    [class.can-toggle]="canToggle">
-	  Employed
-	</span>
-	```
+```html
+      <span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
+```
+
 - [ ] 
-	```html
-	<span 
-	    [styles.class.active]="isActive"
-	    [styles.class.can-toggle]="canToggle">
-	  Employed
-	</span>
-	```
+```html
+      <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Employed </span>
+```
+
 - [ ] 
-	```html
-	<span 
-	    [css.class.active]="isActive"
-	    [css.class.can-toggle]="canToggle">
-	  Employed
-	</span>
-	```
+```html
+      <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
+```
 
 #### Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?
 
 ```ts
 @Directive({
   selector: '[customValidator]',
-  providers: [{
-    provide: NG_VALIDATORS,
-    useExisting: CustomValidatorDirective,
-    multi: true
-  }]
+  providers: [
+    {
+      provide: NG_VALIDATORS,
+      useExisting: CustomValidatorDirective,
+      multi: true,
+    },
+  ],
 })
-export class CustomValidatorDirective implements Validator { }
+export class CustomValidatorDirective implements Validator {}
 ```
 
 - [ ] It indicates that the CustomValidatorDirective can be used on multiple form element types.

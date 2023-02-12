@@ -1594,7 +1594,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class
 - [ ] more easing options for timing animations
 
-#### Q84. Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does? 
+#### Q84. Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does?
 
 ```html
 <ul class="menu">

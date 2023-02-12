@@ -505,7 +505,7 @@ FROM customers c;
 - [ ] Four
 - [ ] Five
 
-#### Q71. After loading data, _____ and then run a(n) _____ query for interactive queries.
+#### Q71. After loading data, **\_** and then run a(n) **\_** query for interactive queries.
 
 - [ ] invalidate metadata; Impala
 - [ ] validate metadata; Impala

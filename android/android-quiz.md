@@ -1179,5 +1179,4 @@ val string: String = getString(
 - [ ] `when the device is in battery optimization mode`
 - [ ] `when network requests are made on the main thread`
 
-
 [Reference](https://developer.android.com/guide/topics/resources/string-resource#Plurals)

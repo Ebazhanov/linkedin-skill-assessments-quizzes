@@ -771,16 +771,12 @@ public class Honda extends Car{}
 
 #### Q101. What is the difference between an interface and an abstract class?
 
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one
-abstract class but can implement only one interface.
-- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one
-abstract class but can implement only one interface.
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract
-class but can implement an unlimited number of interfaces.
-- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract
-class but can implement an unlimited number of interfaces.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
 
-#### Q102. Objects are passed by ______
+#### Q102. Objects are passed by **\_**
 
 - [ ] value or reference, depending on the programming language used
 - [ ] value
