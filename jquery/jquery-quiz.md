@@ -1586,3 +1586,32 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 [Source: jQuery GitHub repo](https://github.com/jquery/jquery#modules)
 
 **Explanation**: Special builds can be created that exclude subsets of jQuery functionality. This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
+
+#### Q83. jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?
+
+- [ ] forced CSS-equivalent hardware acceleration of all jQuery animations
+- [ ] animation of color transitions (background or foreground) without using CSS
+- [ ] duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class
+- [ ] more easing options for timing animations
+
+#### Q84. Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does? 
+
+```html
+<ul class="menu">
+  <li><a href="#" class="active">Home</a></li>
+  <li><a href="#">Page 2</a></li>
+</ul>
+<ul class="active submenu">
+  <li><a href="#">Subpage 1</a></li>
+  <li><a href="#">Subpage 2</a></li>
+</ul>
+```
+
+```js
+$('.menu').find('a').css('color', 'red').end().find('.active').hide();
+```
+
+- [ ] It changes the menu items in the first list to red, then hides the second list of menu items.
+- [ ] It changes all menu items in both lists to red, then hides all items with the active class.
+- [ ] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
+- [ ] It changes the menu items in the first list to red, then returns the selection with no further changes.

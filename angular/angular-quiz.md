@@ -1392,3 +1392,66 @@ export class ProductNameComponent {
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
 
 [Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
+
+#### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
+
+```html
+<span
+    [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }">
+  Employed
+</span>
+```
+
+- [ ] 
+	```html
+	<span
+	    class="{{ isActive ? 'is-active' : '' }}"
+	    class="{{ canToggle ? 'can-toggle' : '' }}">
+	  Employed
+	</span>
+	```
+- [x] 
+	```html
+	<span 
+	    [class.active]="isActive"
+	    [class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
+- [ ] 
+	```html
+	<span 
+	    [styles.class.active]="isActive"
+	    [styles.class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
+- [ ] 
+	```html
+	<span 
+	    [css.class.active]="isActive"
+	    [css.class.can-toggle]="canToggle">
+	  Employed
+	</span>
+	```
+
+#### Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?
+
+```ts
+@Directive({
+  selector: '[customValidator]',
+  providers: [{
+    provide: NG_VALIDATORS,
+    useExisting: CustomValidatorDirective,
+    multi: true
+  }]
+})
+export class CustomValidatorDirective implements Validator { }
+```
+
+- [ ] It indicates that the CustomValidatorDirective can be used on multiple form element types.
+- [ ] It allows for multiple instances of the CustomValidatorDirective to be instantiated. Without multi, the CustomValidatorDirective would be a singleton for the entire app.
+- [ ] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
+- [ ] It indicates that there will be multiple classes that handle the logic implementation for the custom validator.
+
+[StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
