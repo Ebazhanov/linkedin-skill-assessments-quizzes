@@ -11,9 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-1305-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1395,7 +1393,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://vk.com/forem"><img src="https://avatars.githubusercontent.com/u/15253861?v=4?s=100" width="100px;" alt="Andrey Dryupin"/><br /><sub><b>Andrey Dryupin</b></sub></a><br /><a href="#design-forem1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=forem1" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MuhannedNoman"><img src="https://avatars.githubusercontent.com/u/40465727?v=4?s=100" width="100px;" alt="Muhanned Noman"/><br /><sub><b>Muhanned Noman</b></sub></a><br /><a href="#design-MuhannedNoman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MuhannedNoman" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/janjitsu"><img src="https://avatars.githubusercontent.com/u/1727447?v=4?s=100" width="100px;" alt="Jan Silva"/><br /><sub><b>Jan Silva</b></sub></a><br /><a href="#design-janjitsu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=janjitsu" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/emanuele-em"><img src="https://avatars.githubusercontent.com/u/100081325?v=4?s=100" width="100px;" alt="emanuele-em"/><br /><sub><b>emanuele-em</b></sub></a><br /><a href="#design-emanuele-em" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=emanuele-em" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/emanuele-em"><img src="https://avatars.githubusercontent.com/u/100081325?v=4?s=100" width="100px;" alt="emanuele-em"/><br /><sub><b>emanuele-em</b></sub></a><br /><a href="#design-emanuele-em" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=emanuele-em" title="Code">💻</a> <a href="#content-emanuele-em" title="Content">🖋</a></td>
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://gitgyan.com"><img src="https://avatars.githubusercontent.com/u/77503269?v=4?s=100" width="100px;" alt="Sanjay TM"/><br /><sub><b>Sanjay TM</b></sub></a><br /><a href="#design-tm-sanjay" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tm-sanjay" title="Code">💻</a></td>
