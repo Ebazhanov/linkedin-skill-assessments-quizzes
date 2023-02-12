@@ -830,3 +830,10 @@ box {
 - [x] have the same value of the name attribute
 - [ ] belong to the same field set
 - [ ] have the same value of the class attribute
+  
+#### Q85. Which statement about HTML syntax is _false_?
+  
+- [x] The value of a class attribute should be unique in an HTML document.
+- [ ] The `<img>` element does not have a closing `</img>` tag.
+- [ ] The `<h1>` element is the most important heading on the page.
+- [ ] The value of an id attribute should be unique in an HTML document.
