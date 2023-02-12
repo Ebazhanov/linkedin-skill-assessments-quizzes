@@ -759,3 +759,10 @@ D. longitude, latitude
 - [ ] Service settings
 - [ ] Connectors
 - [x] Network
+
+#### Q96. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
+
+- [ ] View the pivot table. 
+- [x] all of these answers
+- [ ] Rearrange pivot table fields. 
+- [ ] Drill down in the pivot table. 

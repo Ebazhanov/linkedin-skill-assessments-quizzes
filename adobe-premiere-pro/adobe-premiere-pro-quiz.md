@@ -392,9 +392,16 @@ E. Ellipse
 - [ ] panel presets
 - [ ] events
 
-#### Q50. Which statement is true about adaptive audio tracks?
+#### Q49. Which statement is true about adaptive audio tracks?
 
 - [ ] Input channel configuration determines channel routing
 - [ ] Adaptive tracks are unable to be routed to master track outputs
 - [ ] Channel routing is based on master track configuration
 - [ ] Adaptive tracks can only be routed using the Audio Mixer
+
+#### Q50. When adjusting a sequence's settings, selecting the Maximum Bit Depth in Adobe Premiere Pro for the video settings option is equivalent to which setting?
+
+- [ ] 4:0:0
+- [ ] 4:4:4
+- [ ] 4:2:2
+- [ ] 4:2:0
