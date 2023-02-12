@@ -817,3 +817,11 @@ D. Start When Clicked On
 - [ ] a section
 - [x] a slide
 - [ ] an existing file
+
+#### Q104. You are creating columns in a text box using the Format Shape menu. What properties of the column can you adjust under the Text Options tab?
+
+- [ ] space between lines of text and space between columns
+- [ ] number of columns and length of columns
+- [ ] only the number of columns
+- [x] number of columns and space between columns
+
