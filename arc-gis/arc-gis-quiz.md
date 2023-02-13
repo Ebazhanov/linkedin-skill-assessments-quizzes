@@ -116,3 +116,17 @@
 - [ ] color; colors
 - [ ] channel; channels
 - [ ] value; values
+
+#### Q16. Which Classification method places approximately the same number of values in each class \***\*\_\*\***.
+
+- [ ] defined intervals
+- [ ] equal intervals
+- [x] quantile
+- [ ] standard deviation
+
+#### Q17. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this ? \***\*\_\*\***.
+
+- [ ] variable data
+- [x] dynamic text
+- [ ] datestamp
+- [ ] system information
