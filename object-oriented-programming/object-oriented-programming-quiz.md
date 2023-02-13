@@ -782,3 +782,10 @@ public class Honda extends Car{}
 - [ ] value
 - [ ] value or reference, depending on the program
 - [x] reference
+
+#### Q103. What is encapsulation?
+
+- [ ] defining classes by focusing on what is important for a purpose
+- [x] defining data and relevant methods together in the same class
+- [ ] making all methods private
+- [ ] using words to define classes
