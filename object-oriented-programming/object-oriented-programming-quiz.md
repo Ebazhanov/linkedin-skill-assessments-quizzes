@@ -782,3 +782,10 @@ public class Honda extends Car{}
 - [ ] value
 - [ ] value or reference, depending on the program
 - [x] reference
+
+#### Q103. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
+
+- [ ] Yes, but only if it is a reference and not a primitive class.
+- [ ] Yes, since the value is a reference even though it is passed by value, it can be done.
+- [ ] No, you will get a compilation error.
+- [ ] No, a local copy will be initialized and will be lost as soon as it is out of scope.
