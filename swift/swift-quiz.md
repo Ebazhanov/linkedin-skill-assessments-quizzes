@@ -842,12 +842,15 @@ let val = i * 6.0
 - [ ] 30
 - [ ] 0
 
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
+
 #### Q62. What does this code print?
 
 ```swift
-enum Positions : Int {
+enum Positions: Int {
   case first, second, third, other
 }
+
 print (Positions.other.rawValue)
 ```
 
@@ -856,11 +859,13 @@ print (Positions.other.rawValue)
 - [ ] other
 - [ ] nil
 
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Raw Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149)
+
 #### Q63. What is printed to the console when this code is executed?
 
 ```swift
 "t".forEach { (char) in
-    print(char)
+  print(char)
 }
 ```
 
@@ -869,12 +874,17 @@ print (Positions.other.rawValue)
 - [x] t
 - [ ] zero
 
+References:
+
+- [_The Swift Programming Language: Language Guide: Strings and Characters: Working with Characters_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID290)
+- [Apple Developer: Documentation: Swift: String: forEach(_:)](https://developer.apple.com/documentation/swift/string/foreach(_:))
+
 #### Q64. What prints when this code is executed?
 
 ```swift
 let s1 = ["1", "2", "3"]
-    .filter { $0 > "0" }
-    .sorted { $0 > $1 }
+  .filter { $0 > "0" }
+  .sorted { $0 > $1 }
 print(s1)
 ```
 
@@ -883,37 +893,48 @@ print(s1)
 - [ ] [321]
 - [ ] ["1", "2", "3"]
 
+References:
+
+- [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](https://developer.apple.com/documentation/swift/sequence/filter(_:))
+- [Apple Developer: Documentation: Swift: Array: sorted()](https://developer.apple.com/documentation/swift/array/sorted())
+
 #### Q65. What enumeration feature allows them to store case-specific data?
 
-(Question does not make that much sense though. )
+- [x] Associated values
+- [ ] Integral values
+- [ ] Raw values
+- [ ] Custom values
 
-- [x] associated values
-- [ ] integral values
-- [ ] raw values
-- [ ] custom values
+Reference: [_The Swift Programming Language: Language Guide: Enumerations: Associated Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID148)
 
 #### Q66. In the code below, AOM must be a(n)?
 
 ```swift
-class AmP : MMM, AOM {
-  }
+class AmP: MMM, AOM { }
 ```
 
-- [ ] class
-- [x] protocol
-- [ ] enumeration
-- [ ] struct
+- [ ] Class
+- [x] Protocol
+- [ ] Enumeration
+- [ ] Struct
+
+References:
+
+- [_The Swift Programming Language: Language Guide: Inheritance: Subclassing_](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195)
+- [_The Swift Programming Language: Language Guide: Protocols: Protocol Syntax_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID268)
 
 #### Q67. What is the value of numbers in the code below?
 
 ```swift
-let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
+let numbers = [1, 2, 3, 4, 5, 6].filter { $0 % 2 == 0 }
 ```
 
-- [ ] [1,3,5]
+- [ ] [1, 3, 5]
 - [ ] []
-- [x] [2,4,6]
+- [x] [2, 4, 6]
 - [ ] nil
+
+Reference: [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](https://developer.apple.com/documentation/swift/sequence/filter(_:))
 
 #### Q68. What is the type of `vals` in this code?
 
@@ -926,6 +947,8 @@ let vals = ["a", 1, "Hi"]
 - [ ] Array<char>
 - [ ] [Generic]
 
+Reference: [_The Swift Programming Language: Language Guide: Type Casting_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)
+
 #### Q69. How can you extract val to `x` in tuple `vt`
 
 ```swift
@@ -933,27 +956,31 @@ let vt = (name: "ABC", val: 5)
 ```
 
 - [ ] let x = vt.1
-- [x] all of these answers
+- [x] All of these answers
 - [ ] let x = vt.val
 - [ ] let (`_`, x) = vt
 
-#### Q70. What is the type of x: let x = try?
+Reference: [_The Swift Programming Language: Language Guide: The Basics: Tuples_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)
+
+#### Q70. What is the type of x?
 
 ```swift
-String.init(from: decoder)
+let x = try? String.init(from: decoder)
 ```
 
 - [ ] String
-- [ ] String?
-- [x] String!
+- [x] String?
+- [ ] String!
 - [ ] try?
 
-  #### Q71. How many times is this loop executed?
+Reference: [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)
+
+#### Q71. How many times is this loop executed?
 
 ```swift
 let loopx = 5
 repeat {
-print (loopx)
+  print (loopx)
 } while loopx < 6
 ```
 
@@ -961,6 +988,8 @@ print (loopx)
 - [ ] Zero
 - [ ] Five
 - [x] Infinite
+
+Reference: [_The Swift Programming Language: Language Guide: Control Flow: While Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID124)
 
 #### Q72. How many values does vals have after this code is executed?
 
@@ -973,3 +1002,5 @@ vals.insert("5")
 - [ ] Eight
 - [x] Three
 - [ ] Four
+
+Reference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)
