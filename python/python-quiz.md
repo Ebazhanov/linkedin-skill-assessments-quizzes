@@ -1924,9 +1924,9 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 ```
 
 - [ ] columnsMat1; rowsMat1;
-- [ ] columnsMat1; rowsMat2;
+- [x] columnsMat1; rowsMat2;
 - [ ] columnsMat1; columnsMat2;
-- [x] columnsMat2; rowsMat1;
+- [ ] columnsMat2; rowsMat1;
 
 #### Q145. What is the output of this comprehension?
 
