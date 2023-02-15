@@ -1395,18 +1395,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/blog/2014/05/06/flux.html)
 
-#### Q118. What is this pattern called?
-
-```javascript
-const [count, setCount] = useState(0);
-```
-
-- [ ] code pushing
-- [ ] object destructuring
-- [ ] spread operating
-- [x] array destructuring
-
-#### Q119. Which choice is a correct refactor of the Greeting class component into a function component?
+#### Q118. Which choice is a correct refactor of the Greeting class component into a function component?
 
 ```javascript
 class Greeting extends React.Component {
@@ -1421,7 +1410,7 @@ class Greeting extends React.Component {
 - [ ] `const Greeting = props => { <h1>{props.name}</h1> }`
 - [x] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
 
-#### Q120. Why is the `waitlist` not updating correctly?
+#### Q119. Why is the `waitlist` not updating correctly?
 
 ```javascript
 const Waitlist = () => {
