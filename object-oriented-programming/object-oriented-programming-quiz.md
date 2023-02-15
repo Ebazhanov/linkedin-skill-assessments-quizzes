@@ -789,3 +789,10 @@ public class Honda extends Car{}
 - [ ] Yes, since the value is a reference even though it is passed by value, it can be done.
 - [ ] No, you will get a compilation error.
 - [ ] No, a local copy will be initialized and will be lost as soon as it is out of scope.
+
+#### Q104. What is encapsulation?
+
+- [ ] defining classes by focusing on what is important for a purpose
+- [x] defining data and relevant methods together in the same class
+- [ ] making all methods private
+- [ ] using words to define classes
