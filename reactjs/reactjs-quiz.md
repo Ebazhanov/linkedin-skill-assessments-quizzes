@@ -908,7 +908,7 @@ const [count, setCount] = useState(0);
 - [ ] public/manifest.json
 - [x] public/index.html
 
-#### Q75. The code below is rendering nothing and generate this error: "ReactDOM is not defined." How do you fix this issue?
+#### Q75. The code below is rendering nothing and generates this error: "ReactDOM is not defined." How do you fix this issue?
 
 ```javascript
 import React from 'react';
