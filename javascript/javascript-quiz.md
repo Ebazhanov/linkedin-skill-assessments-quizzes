@@ -2077,3 +2077,30 @@ let total = sum(4, ...values);
 - [x] constructor()
 
 [Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+
+#### Q153. Which expression evaluates to true?
+
+- [ ] Boolean(NaN)
+- [ ] Boolean(0)
+- [x] Boolean("false")
+- [ ] Boolean("")
+
+[Reference: Boolean object](https://www.w3schools.com/js/js_booleans.asp)
+
+#### Q154. How would you check if the word "pot" is in the word "potato"?
+
+- [ ] "pot".indexOf("potato") !== -1
+- [ ] "potato".includes("Pot")
+- [x] "potato".includes("pot")
+- [ ] "potato".contains("pot");
+
+[Reference: String.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+
+#### Q155. Which collection object allows a unique value to be inserted only once?
+
+- [ ] Map
+- [ ] Array
+- [x] Set
+- [ ] Object
+
+[Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
