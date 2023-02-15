@@ -12959,6 +12959,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "hajeklu",
+      "name": "Luboš Hájek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40526897?v=4",
+      "profile": "https://github.com/hajeklu",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
