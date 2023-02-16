@@ -39,7 +39,7 @@ END CATCH
 
 #### Q5. What is an example of a DDL command in SQL?
 
-- [X] `TRUNCATE TABLE`
+- [x] `TRUNCATE TABLE`
 - [ ] `DELETE`
 - [ ] `MERGE`
 - [x] `DROP`

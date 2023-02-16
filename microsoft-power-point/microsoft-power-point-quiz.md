@@ -824,4 +824,3 @@ D. Start When Clicked On
 - [ ] number of columns and length of columns
 - [ ] only the number of columns
 - [x] number of columns and space between columns
-

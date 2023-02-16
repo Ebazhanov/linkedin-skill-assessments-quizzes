@@ -1399,25 +1399,30 @@ export class ProductNameComponent {
 <span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Employed </span>
 ```
 
-- [ ] 
+- [ ]
+
 ```html
-      <span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
-        Employed
-      </span>
-```
-- [x] 
-```html
-      <span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
+<span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
+  Employed
+</span>
 ```
 
-- [ ] 
+- [x]
+
 ```html
-      <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Employed </span>
+<span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
 ```
 
-- [ ] 
+- [ ]
+
 ```html
-      <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
+<span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Employed </span>
+```
+
+- [ ]
+
+```html
+<span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
 ```
 
 #### Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?

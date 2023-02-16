@@ -497,8 +497,8 @@ useEffect(() => {
 
 - [ ] It will cause an error immediately.
 - [ ] It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.
-- [x] It will update the value of name once and not run again until name is changed from the outside.
-- [ ] It will cause an infinite loop.
+- [ ] It will update the value of name once and not run again until name is changed from the outside.
+- [x] It will cause an infinite loop.
 
 #### Q49. Which choice will not cause a React component to rerender?
 
@@ -654,10 +654,6 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
 #### Q59. How would you add to this code, from React Router, to display a component called About?
-
-```javascript
-<Route path="/:id" />
-```
 
 - [x] A
 
@@ -908,7 +904,7 @@ const [count, setCount] = useState(0);
 - [ ] public/manifest.json
 - [x] public/index.html
 
-#### Q75. The code below is rendering nothing and generate this error: "ReactDOM is not defined." How do you fix this issue?
+#### Q75. The code below is rendering nothing and generates this error: "ReactDOM is not defined." How do you fix this issue?
 
 ```javascript
 import React from 'react';
@@ -1255,18 +1251,7 @@ const PokeDex = (props) => {
 - [ ] setPokeDex()
 - [x] pokeDex
 
-#### Q103. When using a portal, what is the second argument?
-
-```javascript
-ReactDOM.createPortal(x, y);
-```
-
-- [ ] the current state
-- [ ] the rendered element
-- [ ] the App component
-- [x] the DOM element that exists outside of the parent component
-
-#### Q104. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
+#### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
 
 ```javascript
 const Greeting = ({ initName }) => {
@@ -1288,21 +1273,21 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - To pass a handler to onClick, we should always pass a function rather than execute a function. So we need to use callback here.
   `initName` is available in Greeting's function scope, so we can directly supply as an argument to hug().
 
-#### Q105. What is the name of the compiler used to transform JSX into JavaScript?
+#### Q104. What is the name of the compiler used to transform JSX into JavaScript?
 
 - [x] Babel
 - [ ] JSX Editor
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
-#### Q106. Which hook is used to prevent a function from being recreated on every component render?
+#### Q105. Which hook is used to prevent a function from being recreated on every component render?
 
 - [x] useCallback
 - [ ] useMemo
 - [ ] useRef
 - [ ] useTransition
 
-#### Q107. Why might you use the `useRef` hook?
+#### Q106. Why might you use the `useRef` hook?
 
 - [ ] To bind the function
 - [ ] To call a function
@@ -1311,7 +1296,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
 
-#### Q108. Which of the following is required to use React?
+#### Q107. Which of the following is required to use React?
 
 - [x] JavaScript
 - [ ] React Router
@@ -1320,7 +1305,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
 
-#### Q109. What is the correct way to get a value from context?
+#### Q108. What is the correct way to get a value from context?
 
 - [ ] const value = useContext(MyContext.Consumer)
 - [ ] const value = useContext(MyContext.Provider)
@@ -1329,7 +1314,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
-#### Q110. Why is ref used?
+#### Q109. Why is ref used?
 
 - [ ] to bind function
 - [ ] to call function
@@ -1338,7 +1323,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
 
-#### Q111. Choose the method which should be overridden to stop the component from updating?
+#### Q110. Choose the method which should be overridden to stop the component from updating?
 
 - [ ] componentDidMount
 - [ ] componentDidUpdate
@@ -1347,21 +1332,21 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
 
-#### Q112. What is the functionality of a “webpack” command?
+#### Q111. What is the functionality of a “webpack” command?
 
 - [ ] Runs react local development server
 - [ ] Transfers all JS files to down into one file
 - [ ] A module builder
 - [x] All of the above
 
-#### Q113. Choose the method which is not a part of ReactDOM?
+#### Q112. Choose the method which is not a part of ReactDOM?
 
 - [ ] ReactDOM.createPortal()
 - [ ] ReactDOM.hydrate()
 - [x] ReactDOM.destroy()
 - [ ] ReactDOM.findDOMnode()
 
-#### Q114. In react, the key should be?
+#### Q113. In react, the key should be?
 
 - [x] Unique among his siblings
 - [ ] Unique in DOM
@@ -1370,7 +1355,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/lists-and-keys.html#keys)
 
-#### Q115. Which company developed ReactJS?
+#### Q114. Which company developed ReactJS?
 
 - [ ] Google
 - [x] Meta (ex Facebook)
@@ -1379,7 +1364,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://github.com/facebook/react)
 
-#### Q116. Choose the library which is most often associated with react?
+#### Q115. Choose the library which is most often associated with react?
 
 - [ ] Chai
 - [ ] Sinon
@@ -1388,7 +1373,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/testing-recipes.html)
 
-#### Q117. What of the following is used in React.js to increase performance?
+#### Q116. What of the following is used in React.js to increase performance?
 
 - [ ] Original DOM
 - [x] Virtual DOM
@@ -1397,7 +1382,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/docs/optimizing-performance.html)
 
-#### Q118. Among The following options, choose the one which helps react for keeping their data uni-directional?
+#### Q117. Among The following options, choose the one which helps react for keeping their data uni-directional?
 
 - [ ] DOM
 - [x] flux
@@ -1406,18 +1391,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 [Reference](https://reactjs.org/blog/2014/05/06/flux.html)
 
-#### Q119. What is this pattern called?
-
-```javascript
-const [count, setCount] = useState(0);
-```
-
-- [ ] code pushing
-- [ ] object destructuring
-- [ ] spread operating
-- [x] array destructuring
-
-#### Q120. Which choice is a correct refactor of the Greeting class component into a function component?
+#### Q118. Which choice is a correct refactor of the Greeting class component into a function component?
 
 ```javascript
 class Greeting extends React.Component {
@@ -1432,7 +1406,7 @@ class Greeting extends React.Component {
 - [ ] `const Greeting = props => { <h1>{props.name}</h1> }`
 - [x] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
 
-#### Q121. Why is the `waitlist` not updating correctly?
+#### Q119. Why is the `waitlist` not updating correctly?
 
 ```javascript
 const Waitlist = () => {

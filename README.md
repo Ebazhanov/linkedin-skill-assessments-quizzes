@@ -11,7 +11,9 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1308-orange.svg?style=flat-square)](#contributors-)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1310-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1825,6 +1827,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlicanDursun"><img src="https://avatars.githubusercontent.com/u/55031061?v=4?s=100" width="100px;" alt="AlicanDursun"/><br /><sub><b>AlicanDursun</b></sub></a><br /><a href="#design-AlicanDursun" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AlicanDursun" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bbalsam"><img src="https://avatars.githubusercontent.com/u/43484084?v=4?s=100" width="100px;" alt="bbalsam"/><br /><sub><b>bbalsam</b></sub></a><br /><a href="#design-bbalsam" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=bbalsam" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hajeklu"><img src="https://avatars.githubusercontent.com/u/40526897?v=4?s=100" width="100px;" alt="Luboš Hájek"/><br /><sub><b>Luboš Hájek</b></sub></a><br /><a href="#design-hajeklu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hajeklu" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mrshahzeb7"><img src="https://avatars.githubusercontent.com/u/69900372?v=4?s=100" width="100px;" alt="mrshahzeb7"/><br /><sub><b>mrshahzeb7</b></sub></a><br /><a href="#design-mrshahzeb7" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mrshahzeb7" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/konjoinfinity"><img src="https://avatars.githubusercontent.com/u/46323883?v=4?s=100" width="100px;" alt="Wesley Scholl"/><br /><sub><b>Wesley Scholl</b></sub></a><br /><a href="#design-konjoinfinity" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=konjoinfinity" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
