@@ -1108,3 +1108,28 @@ func main() {
 #2: err = results.Scan(&g.GameId, &g.Title, &g.YearReleased)
 #3: games[g.GameId] = &g
 ```
+### Q57. Fill in the blanks
+ 1. Test files in Go must _____.
+ 2. Individual tests are identified by _____.
+ 3. You can run subtests by ______.
+ 4. You log the error and mark the test failed by _____.
+
+- [ ] be stored in a `/test/`subdirectory of that package
+<br/>functions accepting a `testing.Tester` parameter
+<br/>writing functions with names matching `^Subtest`
+<br/>calling `testing.AssertionFailed`
+
+- [x] end in `_test.go`
+<br/>function names matching `^Test[A-Z]`
+<br/>calling `t.Run()`
+<br/>calling `t.Errorf()`
+
+- [ ] begin with `test_`
+<br/>functions matching `[a-z]Test$`
+<br/>calling `testing.Subtest()`
+<br/>allowing `testing.Assert()` to fail its assertion
+
+- [ ] be stored in `/test/` root subdirectory for the project
+<br/>functions accepting a `testing.Test` parameter
+<br/>passing closures to `testing.AddSubtest()`
+<br/>returning an `error` from the function
