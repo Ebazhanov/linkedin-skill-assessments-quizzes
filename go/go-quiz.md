@@ -1022,3 +1022,89 @@ func main() {
 - [x] Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.
 
 - [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.
+
+### Q57. How would you complete this program to generate the specified output, assuming the SQL table
+
+```go
+===[Output]================
+1: &{GameId:1 Title:Wolfenstein YearReleased:1992}
+2: &{GameId:2 Title:Doom YearReleased:1993}
+3: &{GameId:3 Title:Quake YearReleased:1996}
+
+===[main.go]================
+package main
+
+import (
+        "database/sql"
+        "fmt"
+        _ "github.com/go-sql-driver/mysql"
+        "log"
+)
+
+type Game struct {
+        GameId       int
+        Title        string
+        YearReleased int
+}
+
+func main() {
+
+        conn, err := sql.Open("mysql",
+                "john_carmack:agiftw!@tcp(localhost:3306)/idsoftware")
+
+        if err != nil {
+                panic(err)
+        }
+        defer func() { _ = conn.Close() }()
+
+        results, err := conn.Query("SELECT game_id,title,year_released FROM games;")
+        if err != nil {
+                panic(err)
+        }
+        defer func() { _ = results.Close() }()
+
+        // #1 <=== What goes here?
+
+        for results.Next() {
+                var g Game
+
+                // #2 <=== What goes here?
+
+                if err != nil {
+                        panic(err)
+                }
+
+                // #3 <=== What goes here?
+
+        }
+
+        for i, g := range games {
+                fmt.Printf("%d: %+v\n", i, g)
+        }
+
+}
+```
+- [ ]
+```go
+#1: games := make([]*Game, results.RowsAffected())
+#2: g, err = results.Fetch()
+#3: games[results.Index()] = &g
+```
+- [ ]
+```go
+#1: games := []Game{}
+#2: g, err = results.Fetch()
+#3: games = append(games,g)
+```
+- [ ]
+```go
+#1: games := map[int]Game{}
+#2: err = results.Scan(&g)
+#3: games[g.GameId] = g
+```
+- [x]
+```go
+#1: games := make(map[int]*Game, 0)
+#2: err = results.Scan(&g.GameId, &g.Title, &g.YearReleased)
+#3: games[g.GameId] = &g
+```
