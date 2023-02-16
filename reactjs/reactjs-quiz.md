@@ -655,7 +655,6 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 
 #### Q59. How would you add to this code, from React Router, to display a component called About?
 
-
 - [x] A
 
 ```javascript

@@ -2105,11 +2105,11 @@ let total = sum(4, ...values);
 
 [Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
- #### Q156. How would you change the color of this header to pink?
-  
+#### Q156. How would you change the color of this header to pink?
+
 ```javascript
 <h2 id="cleverest">girls</h2>
-  ```
+```
 
 - [ ] document.getElementByName("cleverest").style.color = "pink";
 - [ ] document.getElementsByTagName("h2").style.color = "pink";

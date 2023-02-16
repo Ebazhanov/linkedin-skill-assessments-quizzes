@@ -877,7 +877,7 @@ Reference: [_The Swift Programming Language: Language Guide: The Basics: Raw Val
 References:
 
 - [_The Swift Programming Language: Language Guide: Strings and Characters: Working with Characters_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID290)
-- [Apple Developer: Documentation: Swift: String: forEach(_:)](https://developer.apple.com/documentation/swift/string/foreach(_:))
+- [Apple Developer: Documentation: Swift: String: forEach(\_:)](<https://developer.apple.com/documentation/swift/string/foreach(_:)>)
 
 #### Q64. What prints when this code is executed?
 
@@ -895,8 +895,8 @@ print(s1)
 
 References:
 
-- [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](https://developer.apple.com/documentation/swift/sequence/filter(_:))
-- [Apple Developer: Documentation: Swift: Array: sorted()](https://developer.apple.com/documentation/swift/array/sorted())
+- [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](<https://developer.apple.com/documentation/swift/sequence/filter(_:)>)
+- [Apple Developer: Documentation: Swift: Array: sorted()](<https://developer.apple.com/documentation/swift/array/sorted()>)
 
 #### Q65. What enumeration feature allows them to store case-specific data?
 
@@ -934,7 +934,7 @@ let numbers = [1, 2, 3, 4, 5, 6].filter { $0 % 2 == 0 }
 - [x] [2, 4, 6]
 - [ ] nil
 
-Reference: [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](https://developer.apple.com/documentation/swift/sequence/filter(_:))
+Reference: [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](<https://developer.apple.com/documentation/swift/sequence/filter(_:)>)
 
 #### Q68. What is the type of `vals` in this code?
 
