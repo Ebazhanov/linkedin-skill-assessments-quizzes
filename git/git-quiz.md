@@ -282,12 +282,12 @@ git push -u origin master
 - [ ] Same as before, git push -u origin master
 - [x] git push
 
-#### Q28. How would you create a custom shortcut or command across your git environment?
+#### Q28. How would you create a custom shortcut or command across your Git environment?
 
-- [ ] Run git hotfix with the shortcut name.
+- [ ] Run `git hotfix` with the shortcut name.
 - [ ] Assign a shortcut or command using git options file.
-- [ ] Use the git custom-key command.
-- [x] Create an alias using the git config command.
+- [ ] Use the `git custom-key` command.
+- [x] Create an alias using the `git config` command.
 
 #### Q29. What is the status of the beta-notes.js file in the following output?
 
@@ -692,12 +692,12 @@ Which of the following options is correct ?
 - [ ] a programmatic design pattern used to manage code between multiple engineering teams
 - [ ] a type of software that links a project with a GitHub repository
 
-#### Q83. What is the difference between using the git stash and git stash pop commands?
+#### Q83. What is the difference between using the `git stash` and `git stash pop` commands?
 
-- [ ] git stash removes a commit from the repo history, while git stash pop saves changes to multiple branches.
-- [ ] git stash saves changes to multiple branches, while git stash pop removes a commit from the repo history.
-- [ ] git stash removes the most recent commit, while git stash pop saves current changes.
-- [x] git stash creates a stash entry, while git stash pop places the saved state onto the working directory.
+- [ ] `git stash` removes a commit from the repo history, while `git stash pop` saves changes to multiple branches.
+- [ ] `git stash` saves changes to multiple branches, while `git stash pop` removes a commit from the repo history.
+- [ ] `git stash` removes the most recent commit, while `git stash pop` saves current changes.
+- [x] `git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory.
 
 #### Q84. Which command can be used to list the branches that have been merged into the currently checked-out branch?
 
@@ -778,7 +778,7 @@ Which of the following options is correct ?
 - [ ] git stash show -p stash@{1}
 - [ ] git stash show -p
 
-[reference here](https://stackoverflow.com/questions/10725729/see-whats-in-a-stash-without-applying-it)
+[reference here](https://git-scm.com/docs/git-stash)
 
 #### Q95. How would you delete a remote branch in your repository?
 
@@ -1022,7 +1022,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 ```bash
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-  brccoli
+  broccoli
 ```
 
 - [x] `git remove broccoli`
