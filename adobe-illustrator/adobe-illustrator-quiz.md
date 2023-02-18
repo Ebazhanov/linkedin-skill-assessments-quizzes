@@ -639,9 +639,11 @@
 ![Two objects](images/013.jpg?raw=true)
 
 - [ ] Press and hold the Option (Mac) or Alt (Windows) key, and drag the selected width point to the left.
-- [ ] Drag the selected width point left until it snaps to the same position as the adjacent width point.
+- [x] Drag the selected width point left until it snaps to the same position as the adjacent width point.
 - [ ] Delete the selected width point.
 - [ ] Double-click the selected width point and set the **Total Width** value to **0**.
+
+[Using the Width Tool in Illustrator](https://creativepro.com/using-the-width-tool-in-illustrator/)
 
 #### Q85. Why should you use the Simplify command before exporting a web graphic to SVG format?
 
