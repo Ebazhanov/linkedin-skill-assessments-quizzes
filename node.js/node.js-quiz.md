@@ -645,9 +645,11 @@ console.log(person);
 #### Q77. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
 
 - [ ] net
-- [ ] openssl
+- [x] openssl
 - [ ] cluster
 - [ ] events
+
+[Reference](https://nodejs.org/en/docs/meta/topics/dependencies/)
 
 #### Q78. What is the main purpose of the package-lock.json file?
 
