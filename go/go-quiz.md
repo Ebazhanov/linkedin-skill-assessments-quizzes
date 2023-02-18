@@ -1088,3 +1088,114 @@ return value is typed for the declared interface.
 5) an interface.
 
 >In Go, a type automatically satisfies an interface if it implements all the methods of that interface. There is no need to explicitly declare that a struct implements an interface using a specific keyword.
+=======
+### Q57. How would you complete this program to generate the specified output, assuming the SQL table
+
+```go
+===[Output]================
+1: &{GameId:1 Title:Wolfenstein YearReleased:1992}
+2: &{GameId:2 Title:Doom YearReleased:1993}
+3: &{GameId:3 Title:Quake YearReleased:1996}
+
+===[main.go]================
+package main
+
+import (
+        "database/sql"
+        "fmt"
+        _ "github.com/go-sql-driver/mysql"
+        "log"
+)
+
+type Game struct {
+        GameId       int
+        Title        string
+        YearReleased int
+}
+
+func main() {
+
+        conn, err := sql.Open("mysql",
+                "john_carmack:agiftw!@tcp(localhost:3306)/idsoftware")
+
+        if err != nil {
+                panic(err)
+        }
+        defer func() { _ = conn.Close() }()
+
+        results, err := conn.Query("SELECT game_id,title,year_released FROM games;")
+        if err != nil {
+                panic(err)
+        }
+        defer func() { _ = results.Close() }()
+
+        // #1 <=== What goes here?
+
+        for results.Next() {
+                var g Game
+
+                // #2 <=== What goes here?
+
+                if err != nil {
+                        panic(err)
+                }
+
+                // #3 <=== What goes here?
+
+        }
+
+        for i, g := range games {
+                fmt.Printf("%d: %+v\n", i, g)
+        }
+
+}
+```
+- [ ]
+```go
+#1: games := make([]*Game, results.RowsAffected())
+#2: g, err = results.Fetch()
+#3: games[results.Index()] = &g
+```
+- [ ]
+```go
+#1: games := []Game{}
+#2: g, err = results.Fetch()
+#3: games = append(games,g)
+```
+- [ ]
+```go
+#1: games := map[int]Game{}
+#2: err = results.Scan(&g)
+#3: games[g.GameId] = g
+```
+- [x]
+```go
+#1: games := make(map[int]*Game, 0)
+#2: err = results.Scan(&g.GameId, &g.Title, &g.YearReleased)
+#3: games[g.GameId] = &g
+```
+### Q57. Fill in the blanks
+ 1. Test files in Go must _____.
+ 2. Individual tests are identified by _____.
+ 3. You can run subtests by ______.
+ 4. You log the error and mark the test failed by _____.
+
+- [ ] be stored in a `/test/`subdirectory of that package
+<br/>functions accepting a `testing.Tester` parameter
+<br/>writing functions with names matching `^Subtest`
+<br/>calling `testing.AssertionFailed`
+
+- [x] end in `_test.go`
+<br/>function names matching `^Test[A-Z]`
+<br/>calling `t.Run()`
+<br/>calling `t.Errorf()`
+
+- [ ] begin with `test_`
+<br/>functions matching `[a-z]Test$`
+<br/>calling `testing.Subtest()`
+<br/>allowing `testing.Assert()` to fail its assertion
+
+- [ ] be stored in `/test/` root subdirectory for the project
+<br/>functions accepting a `testing.Test` parameter
+<br/>passing closures to `testing.AddSubtest()`
+<br/>returning an `error` from the function

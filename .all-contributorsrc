@@ -12989,6 +12989,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ltenfield",
+      "name": "Lawrence Turcotte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11895716?v=4",
+      "profile": "https://github.com/ltenfield",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "madseventwo",
+      "name": "Michael DiPaolo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51255499?v=4",
+      "profile": "https://github.com/madseventwo",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "codemaster08240328",
+      "name": "Smart-Codi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39701522?v=4",
+      "profile": "https://github.com/codemaster08240328",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "vivekDebugs",
+      "name": "Vivek Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49686162?v=4",
+      "profile": "https://www.linkedin.com/in/vivekkumar1503/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

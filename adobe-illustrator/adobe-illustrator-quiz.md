@@ -576,3 +576,138 @@
 - [x] The Stroke panel.
 - [ ] The Arrow panel.
 - [ ] Object > Path > Arrowheads.
+
+#### Q78. By default, what happens when you create two overlapping brush strokes of the same color with the Blob Brush tool?
+
+- [x] The brush strokes are merged into one object.
+- [ ] The two strokes are averaged.
+- [ ] The first stroke is erased.
+- [ ] The two strokes become a compound shape.
+
+[Using the Blob Brush in Illustrator](https://creativepro.com/using-the-blob-brush-in-illustrator)
+[Difference Between Compound Paths and Compound Shapes](https://www.vektorgarten.de/illustrator-compound-path-shape.html)
+
+#### Q79. Which transform setting allows you to scale an object and its drop shadow at the same time?
+
+- [ ] Transform Both
+- [ ] Constrain Proportions
+- [ ] Uniform Scale
+- [x] Scale Strokes & Effects
+
+[Adobe Help: Scale, shear, and distort objects](https://helpx.adobe.com/illustrator/using/scaling-shearing-distorting-objects.html)
+
+#### Q80. To create a pattern brush with custom corners and/or custom end points, what must you create first?
+
+- [ ] a graphic style
+- [ ] a symbol
+- [x] a pattern swatch
+- [ ] a swatch group
+
+[How to Create a Pattern Brush in Adobe Illustrator](https://www.webucator.com/article/how-to-create-a-pattern-brush-in-adobe-illustrator)
+
+#### Q81. Which Paintbrush tool setting should you adjust if you want to create paths with fewer anchor points?
+
+- [x] Fidelity
+- [ ] Opacity
+- [ ] Limit
+- [ ] Stroke Weight
+
+[Adobe Help: Brushes documentation #Paintbrush tool options](https://helpx.adobe.com/illustrator/using/brushes.html)
+
+#### Q82. This image shows a variable data project file for a business card. Which properties of the Color_Blocks variable are dynamic?
+
+![Business card](images/012.jpg?raw=true)
+
+- [ ] position on the artboard
+- [ ] size
+- [ ] color
+- [x] visibility
+
+[Adobe Help: Data merge using the Variables panel](https://helpx.adobe.com/illustrator/using/data-driven-graphics-templates-variables.html)
+
+#### Q83. If you group objects that are on different layers, all of the objects will `___`.
+
+- [ ] be placed in a new sublayer of the topmost layer of the elected objects
+- [ ] be placed in a newly created layer above the other layers
+- [x] be placed on the topmost layer of the selected objects
+- [ ] remain on the current layers
+
+[Adobe Help: Group and expand objects](https://helpx.adobe.com/illustrator/using/grouping-expanding-objects.html)
+
+#### Q84. Using the Width tool, how could you make the stroke on the top path match the bottom one?
+
+![Two objects](images/013.jpg?raw=true)
+
+- [ ] Press and hold the Option (Mac) or Alt (Windows) key, and drag the selected width point to the left.
+- [ ] Drag the selected width point left until it snaps to the same position as the adjacent width point.
+- [ ] Delete the selected width point.
+- [ ] Double-click the selected width point and set the **Total Width** value to **0**.
+
+#### Q85. Why should you use the Simplify command before exporting a web graphic to SVG format?
+
+- [x] to reduce the number of points that must be represented in the code
+- [ ] to remove invisible points and lines
+- [ ] to reduce the output resolution so it's appropriate for web graphics
+- [ ] to combine redundant objects
+
+[How to Optimize and Export SVGs in Adobe Illustrator](https://www.sitepoint.com/crash-course-optimizing-and-exporting-svgs-in-adobe-illustrator/)
+
+#### Q86. Using the Width tool, how do you change just one side of the stroke width?
+
+- [x] Select a width point, press and hold the Option (Mac) or Alt (Windows) key, and drag on it.
+- [ ] Select a width point and use the **Properties** panel to adjust the size of each side independently.
+- [ ] You cannot change just one side of the stroke width.
+- [ ] Select a width point, press and hold the Shift key, and drag on it.
+
+[Using the Width Tool in Illustrator](https://creativepro.com/using-the-width-tool-in-illustrator/)
+
+#### Q87. How can you change the pattern fill in this image so that the flowers overlap more with smaller gaps?
+
+!['Spring' Pattern Font](images/014.png?raw=true)
+
+- [ ] Use the **Overlap** buttons in the **Pattern Options** dialog box.
+- [ ] Select **Size Tile to Art** in the **Pattern Options** dialog box.
+- [x] Reduce the width and height in the **Pattern Options** dialog box.
+- [ ] Increase the number of copies of the flower used to make the pattern.
+
+[Adobe Help: Create and edit patterns](https://helpx.adobe.com/illustrator/using/create-edit-patterns.html)
+
+#### Q88. Using `___` can reduce file size and maintain consistency.
+
+- [ ] libraries
+- [ ] variables
+- [x] symbols
+- [ ] layers
+
+[9 ways to minimize file size in Illustrator](https://astutegraphics.com/learn/tutorial/9-ways-to-minimize-file-size-in-illustrator)
+
+#### Q89. You have access to the Creative Cloud library shown below, which was shared via the Collaborate feature library. For a particular document, you need to use the 10% Discount graphic but change the fill color to green. You're not allowed to change how this graphic appears for anyone else with access to the library. What must you do to accomplish this?
+
+![Sample library window](images/015.png?raw=true)
+
+- [ ] Right-click the graphic in the library and select **Place Linked**.
+- [ ] Drag the graphic into your document and use the **Properties** panel to change the fill.
+- [ ] Drag the graphic into your document and click the **Edit Original** button in the **Control** panel.
+- [x] Drag the graphic into your document while holding the Option (Mac) or Alt (Windows) key.
+
+[Adobe Help: Creative Cloud Libraries in Illustrator](https://helpx.adobe.com/illustrator/using/creative-cloud-libraries-sync-share-assets.html)
+
+#### Q90. Which statement is true when you crop a linked image?
+
+- [ ] You can adjust or remove the crop later on to show the entire linked image.
+- [x] A cropped copy of the image file is saved at the same location as the current document and is linked to the Illustrator file.
+- [ ] A warning appears telling you that pixels from the original image file will be permanently removed.
+- [ ] A cropped copy of the image file is saved on disk and linked to the Illustrator file.
+
+[How to crop and trim a photo in Adobe Illustrator](https://astutegraphics.com/learn/tutorial/how-to-crop-and-trim-a-photo-in-adobe-illustrator)
+
+#### Q91. What would you do in order to make the objects beneath the selected artwork visible inside the circle?
+
+![Rectangle with flower](images/016.png?raw=true)
+
+- [ ] Make a Live Paint group.
+- [ ] Make a clipping mask.
+- [x] Make a compound path.
+- [ ] Make a pattern.
+
+[Adobe Help: Combine objects](https://helpx.adobe.com/illustrator/using/combining-objects.html)

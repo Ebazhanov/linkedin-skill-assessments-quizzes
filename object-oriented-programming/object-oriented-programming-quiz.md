@@ -392,7 +392,7 @@
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
-#### Q54. How do object behavior and attributes differ?
+#### Q54. How do object behaviors and attributes differ?
 
 - [ ] Behavior describe dynamic properties; attributes are static.
 - [x] Attributes describe a state; behaviors describe a change.
@@ -723,7 +723,7 @@ public class Honda extends Car{}
 
 [Reference](https://www.interviewbit.com/blog/principles-of-oops/)
 
-#### Q95. How do object behaviour and attributes differ?
+#### Q95. How do object behaviours and attributes differ?
 
 - [ ] Behaviour describe dynamic properties; attributes are static.
 - [x] Attributes describe a state; behaviours describe a change.

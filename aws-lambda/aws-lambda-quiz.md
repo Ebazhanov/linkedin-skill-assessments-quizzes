@@ -324,7 +324,7 @@
 
 #### Q47. You want to minimize cold start time for your Lambda. What do you do?
 
-- [ ] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
+- [x] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
 - [ ] Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.
 - [ ] Do nothing. AWS minimizes cols start time by default.
 - [ ] Create a warm-up Lambda that calls your Lambda every minute
