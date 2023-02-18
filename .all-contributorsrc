@@ -12989,6 +12989,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ltenfield",
+      "name": "Lawrence Turcotte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11895716?v=4",
+      "profile": "https://github.com/ltenfield",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
