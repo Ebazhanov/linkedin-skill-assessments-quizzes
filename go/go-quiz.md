@@ -1031,12 +1031,12 @@ func main() {
 - [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.
 
 ### Q57. What will this code print?
-  
-  ```go
-  var n int
+
+```go
+var n int
 fmt.Printin (n)
-  ```
-  
+```
+
 - [ ] 0
 - [ ] nil
 - [x] a random value
@@ -1046,7 +1046,7 @@ fmt.Printin (n)
 > Therefore, the output of fmt.Println(n) will be a random integer value.
 
 ### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
-  
+
 - [x] %s
 - [ ] %b
 - [ ] %v
@@ -1055,7 +1055,7 @@ fmt.Printin (n)
 > In Go, the %s verb is used to format a string. When used with a custom type that has a String() method defined, the String() method will be automatically called and its return value will be used in the formatted string.
 
 ### Q59. Which is not a valid value for layout when calling time. Now ( ) . Format ( layout)?
-  
+
 - [ ] time.REC3339
 - [ ] "1970-01-01"
 - [ ] "Jan 2nd 2006"
@@ -1064,31 +1064,32 @@ fmt.Printin (n)
 > The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM.
 
 ### Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.
-  
-- [ ] var_JSONConverter = nil. (*Namespace)
-- [x] var_JSONConverter = (*Namespace) (nil)
-- [ ] type Namespace struct {
-        implements JSONConverter
-// The rest of the struct declaration goes here
-}
-- [ ] type Namespace struct {
-          JSONConverter
-// The rest of the struct declaration goes here
-}
 
->This syntax creates a variable _ with the type of JSONConverter and assigns to it a value of (*Namespace)(nil). This essentially checks that the Namespace struct satisfies the JSONConverter interface by ensuring that it can be assigned to a variable of type JSONConverter.
+- [ ] var_JSONConverter = nil. (\*Namespace)
+- [x] var_JSONConverter = (\*Namespace) (nil)
+- [ ] type Namespace struct {
+      implements JSONConverter
+      // The rest of the struct declaration goes here
+      }
+- [ ] type Namespace struct {
+      JSONConverter
+      // The rest of the struct declaration goes here
+      }
+
+> This syntax creates a variable \_ with the type of JSONConverter and assigns to it a value of (\*Namespace)(nil). This essentially checks that the Namespace struct satisfies the JSONConverter interface by ensuring that it can be assigned to a variable of type JSONConverter.
 
 ### Q61. Which statement about typing and interfaces is false?
-  
+
 - [ ] A method signature is the combination of a method name and the type(s) of its declared parameter(s) and return value(s).
 - [x] A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or
-return value is typed for the declared interface.
+      return value is typed for the declared interface.
 - [ ] An interface declares a list of methods and their signatures that a type must implement to be compatible with values typed for that interface.
 - [ ] Variable, parameters, and return values must be "typed" as one of 1) a built-in type, 2) a type alias, 3) a derived type, 4) a composite type, or
-5) an interface.
 
->In Go, a type automatically satisfies an interface if it implements all the methods of that interface. There is no need to explicitly declare that a struct implements an interface using a specific keyword.
-=======
+5. an interface.
+
+> # In Go, a type automatically satisfies an interface if it implements all the methods of that interface. There is no need to explicitly declare that a struct implements an interface using a specific keyword.
+
 ### Q57. How would you complete this program to generate the specified output, assuming the SQL table
 
 ```go
@@ -1150,52 +1151,62 @@ func main() {
 
 }
 ```
+
 - [ ]
+
 ```go
 #1: games := make([]*Game, results.RowsAffected())
 #2: g, err = results.Fetch()
 #3: games[results.Index()] = &g
 ```
+
 - [ ]
+
 ```go
 #1: games := []Game{}
 #2: g, err = results.Fetch()
 #3: games = append(games,g)
 ```
+
 - [ ]
+
 ```go
 #1: games := map[int]Game{}
 #2: err = results.Scan(&g)
 #3: games[g.GameId] = g
 ```
+
 - [x]
+
 ```go
 #1: games := make(map[int]*Game, 0)
 #2: err = results.Scan(&g.GameId, &g.Title, &g.YearReleased)
 #3: games[g.GameId] = &g
 ```
+
 ### Q57. Fill in the blanks
- 1. Test files in Go must _____.
- 2. Individual tests are identified by _____.
- 3. You can run subtests by ______.
- 4. You log the error and mark the test failed by _____.
+
+1.  Test files in Go must **\_**.
+2.  Individual tests are identified by **\_**.
+3.  You can run subtests by **\_\_**.
+4.  You log the error and mark the test failed by **\_**.
 
 - [ ] be stored in a `/test/`subdirectory of that package
-<br/>functions accepting a `testing.Tester` parameter
-<br/>writing functions with names matching `^Subtest`
-<br/>calling `testing.AssertionFailed`
+      <br/>functions accepting a `testing.Tester` parameter
+      <br/>writing functions with names matching `^Subtest`
+      <br/>calling `testing.AssertionFailed`
 
 - [x] end in `_test.go`
-<br/>function names matching `^Test[A-Z]`
-<br/>calling `t.Run()`
-<br/>calling `t.Errorf()`
+      <br/>function names matching `^Test[A-Z]`
+      <br/>calling `t.Run()`
+      <br/>calling `t.Errorf()`
 
 - [ ] begin with `test_`
-<br/>functions matching `[a-z]Test$`
-<br/>calling `testing.Subtest()`
-<br/>allowing `testing.Assert()` to fail its assertion
+      <br/>functions matching `[a-z]Test$`
+      <br/>calling `testing.Subtest()`
+      <br/>allowing `testing.Assert()` to fail its assertion
 
 - [ ] be stored in `/test/` root subdirectory for the project
-<br/>functions accepting a `testing.Test` parameter
-<br/>passing closures to `testing.AddSubtest()`
-<br/>returning an `error` from the function
+      <br/>functions accepting a `testing.Test` parameter
+      <br/>passing closures to `testing.AddSubtest()`
+      <br/>returning an `error` from the function
