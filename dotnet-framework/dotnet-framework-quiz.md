@@ -286,8 +286,8 @@
 
 #### Q41. What is a thread?
 
-- [x] A single operation that does not return a value and that usually executes asynchronously
-- [ ] the basic unit to which an operating system allocate processor time
+- [ ] A single operation that does not return a value and that usually executes asynchronously
+- [x] the basic unit to which an operating system allocate processor time
 - [ ] a series of related tasks or methods that together turn inputs into outputs
 - [ ] a program that is running on your computer
 
