@@ -39,6 +39,7 @@
 
 #### Q6. In the CAM workspace, which strategy removes a part's interior cavity?
 
+
 - [ ] Slot
 - [x] 2D Pocket
 - [ ] Bore
@@ -150,7 +151,7 @@
 - [x] Simulation
 - [ ] Render
 
-#### Q21. Which type of fillet applies two or more radius values to a selected edge?
+#### Q22. Which type of fillet applies two or more radius values to a selected edge?
 
 - [ ] G2
 - [x] Variable Radius
@@ -249,6 +250,7 @@
 - [ ] Plastic
 - [ ] Wood
 - [ ] Metal
+
 
 #### Q36. What do the red locks shown on these sketch icons represent?
 
