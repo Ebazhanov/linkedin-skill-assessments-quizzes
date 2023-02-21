@@ -13039,6 +13039,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "bardpedersen",
+      "name": "Bård Pedersen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72338855?v=4",
+      "profile": "https://www.linkedin.com/in/bard-pedersen",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
