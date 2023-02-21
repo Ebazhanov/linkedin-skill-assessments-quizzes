@@ -750,7 +750,7 @@ public class Honda extends Car{}
 
 - [ ] `class employee{ }; class stream{ }; class topper{ };`
 - [ ] `class employee{int rating;}; class stream:public employee{ };`
-- [ ] `class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`
+- [x] `class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`
 - [ ] `class employeef{int rating};}: class stream{ }: class topper: public employee{ }:`
 
 #### Q99. What is multilevel inheritance?
@@ -788,7 +788,7 @@ public class Honda extends Car{}
 - [ ] Yes, but only if it is a reference and not a primitive class.
 - [ ] Yes, since the value is a reference even though it is passed by value, it can be done.
 - [ ] No, you will get a compilation error.
-- [ ] No, a local copy will be initialized and will be lost as soon as it is out of scope.
+- [x] No, a local copy will be initialized and will be lost as soon as it is out of scope.
 
 #### Q104. What is encapsulation?
 
