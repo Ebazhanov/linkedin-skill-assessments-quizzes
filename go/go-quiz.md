@@ -1034,16 +1034,15 @@ func main() {
 
 ```go
 var n int
-fmt.Printin (n)
+fmt.Println (n)
 ```
 
-- [ ] 0
+- [x] 0
 - [ ] nil
-- [x] a random value
+- [ ] a random value
 - [ ] 1
 
-> This is because in Go, when a variable is declared but not explicitly initialized, it is assigned a default "zero value" based on its type. For integers like n, the zero value is 0. However, since n has not been initialized to any value before the fmt.Println statement, it will still contain the default value, which is a random value based on the memory location of the variable.
-> Therefore, the output of fmt.Println(n) will be a random integer value.
+> This is because in Go, when a variable is declared but not explicitly initialized, it is assigned a default [zero value](https://go.dev/tour/basics/12) based on its type. For integers like n, the zero value is 0.
 
 ### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
 
