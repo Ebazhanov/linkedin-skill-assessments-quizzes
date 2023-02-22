@@ -229,6 +229,8 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] It is a retiring module.
 - [ ] to provide utilities to test files
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/path.html)
+
 #### Q26. How do you make an HTTP server object active and listen to requests on certain ports?
 
 - [ ] server. start
@@ -263,6 +265,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] to provide methods to work with files
 - [ ] to provide methods to work with databases
 - [ ] to find new file systems
+
+**Explanation:** From official docs: [reference](https://nodejs.org/api/fs.html)
 
 #### Q30. What is the Node LTS version?
 
@@ -401,6 +405,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] dgram
 - [ ] inspector
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/async_hooks.html)
+
 #### Q49. Which Node.js module should you use when you need to decode raw data into strings?
 
 - [ ] buffer
@@ -485,6 +491,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] path.join
 - [ ] path.format
 - [ ] path.parse
+
+**Explanation:** From official docs: [reference](https://www.w3schools.com/nodejs/met_path_join.asp)
 
 #### Q59. What is the purpose of N-API?
 
