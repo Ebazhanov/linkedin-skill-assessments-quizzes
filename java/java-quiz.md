@@ -2112,15 +2112,15 @@ Queue<Rainfall>
 #### Q147. What is HashMap and Map?
 
 - [ ] HashMap is Interface and map is class that implements that
-- [ ] HashMap is class and map is interface that implements that
+- [x] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
 
 #### Q148. What invokes a thread's run() method?
 
-- [x] JVM invokes the thread's run() method when the thread is initially executed.
+- [ ] JVM invokes the thread's run() method when the thread is initially executed.
 - [ ] Main application running the thread.
-- [ ] start() method of the thread class.
+- [x] start() method of the thread class.
 - [ ] None of the above.
 
 **Explanation:** After a thread is started, via its `start()` method of the Thread class, the JVM invokes the thread's `run()` method when the thread is initially executed.
