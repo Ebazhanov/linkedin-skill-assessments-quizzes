@@ -2132,29 +2132,12 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 #### Q128. What is the backward-compatible method of turning a circle in an SVG into a link?
 
-- [ ]
+- [ ] `<html:a href="/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>`
+- [ ] `<a svg:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
+- [ ] `<a href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
+- [x] `<a href="/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
 
-```html <a svg:href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
-
-```
-
-- [ ]
-
-```html <a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></a>
-
-```
-
-- [ ]
-
-```html <a href:"/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>
-
-```
-
-- [ ]
-
-```html <html:a href:"/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>
-
-```
+[Source](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href)
 
 #### Q129. Users report that a form is not working. What is the culprit?
 
