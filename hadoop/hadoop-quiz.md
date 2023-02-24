@@ -507,7 +507,7 @@ FROM customers c;
 
 #### Q71. After loading data, **\_** and then run a(n) **\_** query for interactive queries.
 
-- [ ] invalidate metadata; Impala
+- [x] invalidate metadata; Impala
 - [ ] validate metadata; Impala
 - [ ] invalidate metadata; Hive
 - [ ] validate metadata; Hive
