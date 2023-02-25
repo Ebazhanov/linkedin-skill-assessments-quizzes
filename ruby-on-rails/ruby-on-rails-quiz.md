@@ -367,10 +367,18 @@ after_save :clear_cache, if: ->(model) { model.is_admin }
 before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 ```
 
-- [x] `encrypt_data`
-- [ ] `clear_cache`
+- [ ] `encrypt_data`
+- [x] `clear_cache`
 - [ ] `notify_admin_users`
 - [ ] None of these callbacks will be called when `is_admin` is true.
+[Explanation]:
+When saving the User model and model.is_admin is set to true, the after_save callback will be called.
+
+The before_save callback with the unless: ->(model) { model.is_admin } condition will not be called because the is_admin attribute is true.
+
+The before_destroy callback with the if: ->(model) { model.is_admin } condition will be called if the is_admin attribute is true and the record is being destroyed, but this is not relevant to the scenario of saving the User model.
+
+Therefore, only the after_save callback with the if: ->(model) { model.is_admin } condition will be called in this scenario. This callback will be triggered after the record has been saved, if the is_admin attribute is true. In this case, the clear_cache method will be called.
 
 #### Q36. In a Rails controller, what does the code `params.permit(:name, :sku)` do?
 
@@ -475,10 +483,12 @@ class AccessController < ActionController::Base
 end
 ```
 
-- [x] The string assigned to flash[:notice] will not be available until the next browser request.
+- [ ] The string assigned to flash[:notice] will not be available until the next browser request.
 - [ ] An instance variable should be used for flash[:notice]
-- [ ] This is an invalid syntax to use to assign valuse to flash[:notice]
+- [x] This is an invalid syntax to use to assign valuse to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
+[Explanation]:
+The cause of the bug is a syntax error in the line that sets the value of the flash[:notice] message. The string literal "You have been logged out" is not properly enclosed in the surrounding string literal.
 
 #### Q41. Which statement about ActiveRecord models is true?
 
@@ -986,7 +996,7 @@ end
 
 - [ ] The variable `@user` will be set to the object returned by `User.first` unless `session[:user_id]` has a value.
 - [ ] The result of `User.find_by_id` is irrelevant because the variable `@user` will always be set to the object returned by `User.first`.
-- [ ] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
+- [x] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
 - [ ] If `User.find_by_id ` returns nil or false, the variable `@user` will be set to the object returned by `User.first`.
 
 #### Q74. When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?
@@ -994,7 +1004,7 @@ end
 - [ ] only, except
 - [ ] match, resolve
 - [ ] action, path
-- [ ] member, collection
+- [x] member, collection
 
 #### Q75. You are rendering a partial with this code. What will display the user's name?
 
@@ -1016,4 +1026,4 @@ end
 - [ ] `params[:name]`
 - [ ] `@params.name`
 - [ ] `params.require(:category).permit(:name)`
-- [ ] `params[:category][:name]`
+- [x] `params[:category][:name]`
