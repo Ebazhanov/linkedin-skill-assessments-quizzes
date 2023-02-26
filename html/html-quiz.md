@@ -2074,7 +2074,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 label="Endnotes">Endnotes...</custom-footnote>
 ```
 
-- [ ] B
+- [x] B
 
 ```html
 <aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside>
@@ -2092,6 +2092,8 @@ label="Endnotes">Endnotes...</custom-footnote>
 ```html
 <aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
 ```
+
+[Source](https://www.w3.org/TR/wai-aria-practices-1.2/#doc_noteref)
 
 #### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
 
