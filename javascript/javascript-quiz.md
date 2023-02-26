@@ -1220,7 +1220,7 @@ console.log(animals.shift()); //Prints jaguar
 - [ ] `animals.filter(e => e === "jaguar");`
 - [ ] `animals.reverse();`
 - [x] `animals.shift();`
-- [] `animals.pop();`
+- [ ] `animals.pop();`
 
 [Reference Javascript Array shift()](https://www.w3schools.com/jsref/jsref_shift.asp)
 
