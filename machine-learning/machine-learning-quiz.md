@@ -758,7 +758,7 @@ During training, k-means partitions observations into k clusters. During inferen
 - [x] Decrease variance
 - [ ] Decrease bias
 
-**Explanation**: Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $Var(\bar{X})=\frac{Var(X)}{N}
+**Explanation**: Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $\text{Var}(\bar{X})=\frac{\text{Var}(X)}{N}$
 
 #### Q99. To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?
 
