@@ -255,3 +255,7 @@
 - [x] reserved words
 - [ ] retired objects
 - [ ] system names
+
+#### Q30. What is the operator for "not equal to"
+
+- [x] < >
