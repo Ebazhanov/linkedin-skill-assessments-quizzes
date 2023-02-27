@@ -800,3 +800,17 @@
 - [x] structured data
 - [ ] Data-Vocabulary.org
 - [ ] Google Result Generator
+    
+#### Q101. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?
+
+- [ ] Social signals provide a benefit only if they have structured data markup
+- [ ] Social signals are identical to backlinks
+- [ ] Google does not use social signals to determine rank
+- [ ] Social signals are used to determine topic authority
+    
+#### Q102. How many outbound links should you include in each blog posting?
+
+- [ ] at least 2
+- [ ] at least five
+- [ ] at least seven
+- [ ] as many as are relevent
