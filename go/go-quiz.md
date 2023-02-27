@@ -1209,3 +1209,16 @@ func main() {
       <br/>functions accepting a `testing.Test` parameter
       <br/>passing closures to `testing.AddSubtest()`
       <br/>returning an `error` from the function
+      
+#### Q58. Which type is a rune an alias for?
+
+- [ ] char
+- [ ] byte
+- [x] int32
+- [ ] string
+
+1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
+
+Relevant excerpt from the article:
+
+> _The Go language defines the word rune as an alias for the type int32, so programs can be clear when an integer value represents a code point._
