@@ -344,8 +344,10 @@
 
 - [ ] at the function level
 - [ ] at the alias or function level
-- [ ] at the version, alias, or function level
+- [x] at the version, alias, or function level
 - [ ] at the version or function level
+
+[Reference](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html)
 
 #### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
 
