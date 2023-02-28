@@ -13089,6 +13089,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "alex-yatseyko",
+      "name": "Alex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34627441?v=4",
+      "profile": "http://yatseyko.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
