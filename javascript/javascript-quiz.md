@@ -1214,17 +1214,15 @@ console.log(obj2.a, obj2.b);
 ```js
 let animals = ['jaguar', 'eagle'];
 //Missing Line
-console.log(animals.pop()); //Prints jaguar
+console.log(animals.shift()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
-- [x] `animals.reverse();`
-- [ ] `animals.shift();`
-- [x] `animals.pop();`
+- [ ] `animals.reverse();`
+- [x] `animals.shift();`
+- [ ] `animals.pop();`
 
-**Note:** `this question has two correct answers.`
-
-[Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+[Reference Javascript Array shift()](https://www.w3schools.com/jsref/jsref_shift.asp)
 
 #### Q94. What line is missing from this code?
 
