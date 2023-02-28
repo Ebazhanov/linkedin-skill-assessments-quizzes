@@ -1283,3 +1283,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] merge cells
 - [x] text orientation
 - [ ] wrap text
+
+#### Q145. What type of chart is this?
+
+![Q145](https://user-images.githubusercontent.com/48485675/221608974-f1fa1369-9a52-43d5-a738-5744ede084bc.png)
+
+- [x] histogram
+- [ ] waterfall
+- [ ] treemap
+- [ ] box and whisker
