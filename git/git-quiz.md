@@ -66,14 +66,10 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 ```
 
 - [ ] The commit is being tagged for release on the feature-user-location branch
-- [ ] A commit is being copied from its original branch over to the feature-user-location branch
-- [x] The commit is being cherry picked as the new HEAD of the commit history
+- [x] A commit is being copied from its original branch over to the feature-user-location branch
+- [ ] The commit is being cherry picked as the new HEAD of the commit history
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
-
-**Explanation:** Commits aren't copied when cherry picking, they are cherry picked. The changes introduced by the commit are applied and a new commit is then created. This allow us to get specific changes as if they were patches (in the GIT's book, this is actually called [Patching](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Patching "See this in the GIT's book")). As a new commit is created upon feature-user-location, HEAD also changes to match it. You can see this in `cat .git/HEAD` and `cat .git/refs/heads/feature-user-location` for this case. See `man git-cherry-pick` for details.
-
-**NOTE**: There are two versions of this question so far. The task is always "describe what is happening", the commands are always a `checkout` and a `cherry-pick`, and the correct answer is always the same.
 
 #### Q8. What does the following command do to the git repository?
 
@@ -264,12 +260,10 @@ git bisect good 69faab6268350295550de7d587bc323d
 
 #### Q26. Which of the following is true of the git push command?
 
-- [x] By default a push doesn't send tags to the remote repository.
+- [ ] By default a push doesn't send tags to the remote repository.
 - [ ] Commits can only be tagged when they are created.
-- [ ] Tags are pushed to the remote repository with their respective commits.
+- [x] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
-
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q27. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
 
@@ -314,16 +308,16 @@ modified: beta-notes.js
 #### Q31. What is the best way to characterize the git commit structure?
 
 - [ ] Data array
-- [x] Data log
-- [ ] Data snapshot
+- [ ] Data log
+- [x] Data snapshot
 - [ ] Data dictionary
 
 #### Q32. What change will the following command make to the staging area files?
 
 `git rm --cached testfile.js`
 
-- [x] testfile.js will be removed from the staging area and its changes no longer tracked.
-- [ ] testfile.js will be removed from the staging area but its changes will still be tracked.
+- [ ] testfile.js will be removed from the staging area and its changes no longer tracked.
+- [x] testfile.js will be removed from the staging area but its changes will still be tracked.
 - [ ] A copy of testfile.js will be cached on your desktop.
 - [ ] The current copy of testfile.js will be saved in the staging area.
 
@@ -366,7 +360,8 @@ modified: beta-notes.js
 
 - [ ] A set of files, representing the state of a project at a given point of time.
 - [ ] Reference to parent commit objects.
-- [x] An SHA1 name, a 40-character string that uniquely identifies the commit object.
+- [ ] An SHA1 name, a 40-character string that uniquely identifies the commit object.
+- [x] Reference to parent commit objects and a set of files, representing the state of a project at a given point of time, and an SHA1 name, a 40-character string that uniquely identifies the commit object.
 
 #### Q39. Which option enables inclusion of committer name in custom log format?
 
@@ -379,18 +374,17 @@ modified: beta-notes.js
 
 - [ ] 3
 - [ ] 5
-- [x] 2
-- [ ] 4
-
-[Reference link](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
-`In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.`
+- [ ] 2
+- [x] 4
 
 #### Q41. Which user should be created first during setting up of SSH?
 
-- [x] git
+- [ ] git
 - [ ] admin
 - [ ] root
-- [ ] None of these
+- [x] None of these
+
+*note*: The question is not specific enough to give a definitive answer, as it depends on the specific use case and configuration of the SSH setup.
 
 #### Q42. Which command will list tags with the 1.4.2 series?
 
@@ -402,8 +396,8 @@ modified: beta-notes.js
 #### Q43. Which of the following is an integration manager?
 
 - [ ] lieutenants
-- [x] benevolent dictator
-- [ ] Depends upon project type
+- [ ] benevolent dictator
+- [x] Depends upon project type
 - [ ] Depends upon data
 
 #### Q44. Which Git command begins tracking of a new file?
@@ -465,15 +459,15 @@ modified: beta-notes.js
 #### Q52. Which strategy is used by Git for merging two branches?
 
 - [ ] LIFO
-- [x] recursive
+- [ ] recursive
 - [ ] FIFO
-- [ ] octopus
+- [x] octopus
 
 #### Q53. What does refs store?
 
-- [x] SHA-1 value
+- [ ] SHA-1 value
 - [ ] None of these
-- [ ] Branch name
+- [x] Branch name
 - [ ] Project name
 
 #### Q54. What Language is used in GIT?
@@ -573,10 +567,10 @@ git checkout -b beta-test
 
 #### Q67. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
 
-- [x] git restore
+- [ ] git restore
 - [ ] git undo
 - [ ] git clean
-- [ ] git checkout
+- [x] git checkout
 
 #### Q68. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
@@ -601,16 +595,16 @@ git checkout -b beta-test
 
 #### Q71. What is the main issue with using git rebase when working with multiple developers?
 
-- [ ] Rebase affects only your repository and creates a diff in the master branch.
+- [x] Rebase affects only your repository and creates a diff in the master branch.
 - [ ] Rebase creates a temporary copy of the master branch in the remote repo.
 - [ ] Rebase moves the HEAD of the remote master branch one commit forward.
-- [x] Rebase deletes all commit history for the new feature branch.
+- [ ] Rebase deletes all commit history for the new feature branch.
 
 #### Q72. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
 
 - [ ] Git flow
-- [ ] Mainline flow
-- [x] Trunk-Based Development
+- [x] Mainline flow
+- [ ] Trunk-Based Development
 - [ ] GitHub flow
 
 #### Q73. Which option on the git log command allows you to limit output to commits made after certain date?
@@ -856,8 +850,8 @@ Which of the following options is correct ?
 
 - [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
 - [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
-- [ ] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
-- [x] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
+- [x] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
+- [ ] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
 
 #### Q104. What command takes changes from the master branch on the remote repository origin and merges then to the local checked-out branch?
 
@@ -936,10 +930,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q114. After staging changes to several files, you realize the changes to the config.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
 
-- [ ] git reset HEAD^ -- config.properties
+- [x] git reset HEAD^ -- config.properties
 - [ ] git rm config.properties
 - [ ] git rf config.properties
-- [x] git checkout HEAD -- config.properties
+- [ ] git checkout HEAD -- config.properties
 
 #### Q115. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
 
@@ -991,8 +985,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 - [ ] testfile.js would be reverted to a blank file.
 - [ ] testfile.js would be reset to its first saved state.
-- [ ] testfile.js would be reverted to its last saved copy.
-- [x] testfile.js would be removed from the stage/index area, if present.
+- [x] testfile.js would be reverted to its last saved copy.
+- [ ] testfile.js would be removed from the stage/index area, if present.
 
 [reference](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
 
@@ -1005,17 +999,17 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q123. When Git workflows contain a topic branch, what purpose does the topic branch serve?
 
-- [ ] Topic branches store unstable code until it is peer reviewed for integration into another feature branch. <url>
-- [x] Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into. <url>
-- [ ] Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall. <url>
-- [ ] Topic branches are short-lived branches used to store work related to a particular feature. <url>
+- [ ] Topic branches store unstable code until it is peer reviewed for integration into another feature branch.
+- [ ] Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into.
+- [ ] Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall.
+- [x] Topic branches are short-lived branches used to store work related to a particular feature.
 
 #### Q124. What practice can help reduce the chances of encountering a merge conflict?
 
-- [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
-- [ ] make large commits that introduce multiple features. <url>
-- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
-- [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>
+- [ ] Provide detailed commit messages that describe the changes being introduced by the commit.
+- [ ] make large commits that introduce multiple features.
+- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently.
+- [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts.
 
 #### Q125. You have changed your mind about adding broccoli to your project. How should you remove it?
 
@@ -1030,6 +1024,8 @@ Untracked files:
 - [ ] `git clean`
 - [ ] `git remove .`
 
+*notes:* `git rm broccoli`
+  
 #### Q126. What command can you use to remove untracked files from the working directory?
 
 - [ ] `git rm -all`
@@ -1113,15 +1109,6 @@ Explanation: A project's issues are visible to anyone who has access to the proj
 
 Explanation: Pull requests are the correct way to communicate that commits are ready for review and ultimate inclusion on the main branch.
 
-#### Q131. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
-
-- [x] Fork the project's repository to your GitHub account, clone the forked repository to your local machine, push changes to your repository, and submit a pull request to the target (upstream) repository.
-- [ ] Clone the project to your local machine and push updates directly to the project repository.
-- [ ] Use git commands to make a copy of the project so that you can work locally. Submit an issue to get your changes into the target repository.
-- [ ] Use git show push-notifications
-
-Explanation: GitHub provides forking functionality designed to allow you to work with projects where you aren't an owner or don't have write access. Forking makes a remote copy of the project in your repository that you can then clone locally. To submit updates to the target repository (upstream repository) you can submit a pull request.
-
 #### Q132. What is GitHub?
 
 - [ ] version control
@@ -1129,13 +1116,11 @@ Explanation: GitHub provides forking functionality designed to allow you to work
 - [ ] for keeping images
 - [ ] for social networking
 
-Explanation: GitHub is a popular hosting platform for developers to store their Git repositories and collaborate with other developers all around the world.
-
 #### Q133. Which statement is true of the git push command?
 
-- [x] By default, a push doesn’t send tags to the remote repository.
+- [ ] By default, a push doesn’t send tags to the remote repository.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
-- [ ] Tags are pushed to the remote repository with their respective commits.
+- [x] Tags are pushed to the remote repository with their respective commits.
 - [ ] Commits can be tagged only when they are created.
 
 #### Q134. Git Pull is a combination of?
