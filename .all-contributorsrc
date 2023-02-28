@@ -13109,6 +13109,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "snelsi",
+      "name": "Roman Zhuravlov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15171036?v=4",
+      "profile": "http://snelsi.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
