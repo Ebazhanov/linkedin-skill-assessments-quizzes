@@ -684,10 +684,12 @@ server.listen(port, hostname, () => {
 });
 ```
 
-- [ ] `server running at http://127.0.0.1:3000`
+- [x] `server running at http://127.0.0.1:3000`
 - [ ] `server running at port 3000`
 - [ ] `server running at http://localhost:3000/`
 - [ ] `server running at http://localhost:4000/`
+
+[Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
 
 #### Q80. Which choice is not a Node global object?
 
