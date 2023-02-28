@@ -13099,6 +13099,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ehrlinger",
+      "name": "John Ehrlinger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1110676?v=4",
+      "profile": "http://jehrlinger.wordpress.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
