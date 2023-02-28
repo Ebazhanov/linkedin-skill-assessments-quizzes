@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1321-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1322-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1842,6 +1842,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vivek-114"><img src="https://avatars.githubusercontent.com/u/48213072?v=4?s=100" width="100px;" alt="vivek-114"/><br /><sub><b>vivek-114</b></sub></a><br /><a href="#design-vivek-114" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vivek-114" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kayumuzzaman"><img src="https://avatars.githubusercontent.com/u/46846503?v=4?s=100" width="100px;" alt="Robin"/><br /><sub><b>Robin</b></sub></a><br /><a href="#design-kayumuzzaman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kayumuzzaman" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://yatseyko.com"><img src="https://avatars.githubusercontent.com/u/34627441?v=4?s=100" width="100px;" alt="Alex"/><br /><sub><b>Alex</b></sub></a><br /><a href="#design-alex-yatseyko" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alex-yatseyko" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://jehrlinger.wordpress.com"><img src="https://avatars.githubusercontent.com/u/1110676?v=4?s=100" width="100px;" alt="John Ehrlinger"/><br /><sub><b>John Ehrlinger</b></sub></a><br /><a href="#design-ehrlinger" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ehrlinger" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
