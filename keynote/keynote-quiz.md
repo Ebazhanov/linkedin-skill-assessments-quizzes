@@ -109,3 +109,57 @@ E. Press the Down Arrow key.
 - [ ] Right-click a photograph and select **Enhance Image**.
 - [ ] Click the **Enhance** button in the **Adjustments** panel.
 - [ ] Select the **Instant Alpha** option.
+
+#### Q15. How can you create an arrow with different end points?
+
+- [ ] Click Insert > Shape > Double Arrow
+- [ ] Click Insert > Line > Line with Arrowhead and customize it in the Style inspector
+- [ ] Click Insert > Line > Line with Two Arrowheads and customize it in the Style inspector
+- [ ] Click Insert > Shape > Arrow
+
+#### Q16. If you always want to use the same theme when creating a new presentation, how can you set this up?
+
+- [ ] Click Keynote > Preferences > General > Use theme
+- [ ] Click Document inspector > Change theme, then triple-click a theme
+- [ ] Click Document inspector > Change theme, then right-click a theme and select Default Theme
+- [ ] Click Keynote > Preferences > Slideshow > Lock theme
+
+#### Q17. When adding a table to a slide, what are the four table categories you can choose from?
+
+- [ ] Basic, Plain, Advanced, and Sums
+- [ ] Headers, Basic, Plain, and Sums
+- [ ] Headers, Basic, Custom, and Math
+- [ ] Basic, Plain, Colorful, and Sums
+
+#### Q18. When exporting to an animated GIF, which options can you customize? (Select 3 Items)
+A. Resolution
+B. File Format
+C. Frame Rate
+D. Compression
+E. Slides
+
+- [ ] A, B, E
+- [ ] A, D, E
+- [ ] A, C, E
+- [ ] B, C, E
+
+#### Q19. What is the best way to hide the mouse pointer when giving a presentation?
+
+- [ ] Open Keynote Preferences, select the Slideshow tab, and select Show pointer only on slides with links or movies.
+- [ ] Click Play > Play Slideshow
+- [ ] You cannot hide the mouse cursor, it is always visible.
+- [ ] Open Keynote Preferences, select the Slideshow tab, and select Show pointer when using the mouse or trackpad
+
+#### Q20. Which movie format produces the smallest file size for a Keynote presentation?
+
+- [ ] FLV
+- [ ] HEVC
+- [ ] MP4
+- [ ] MOV
+
+#### Q21. 
+![Four bar charts](images/Q21.png?raw=png)
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
