@@ -666,10 +666,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q86. Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
 
-- [x] Suggest that the team is probably underfitting the model to the data.
+- [ ] Suggest that the team is probably underfitting the model to the data.
 - [ ] Suggest that unsupervised learning will lead to more interesting results.
 - [ ] Make sure that they are picking the correct machine learning algorithms.
-- [ ] Encourage the team to ask more interesting questions.
+- [x] Encourage the team to ask more interesting questions.
 
 #### Q87. What is the difference between unstructured and structured data?
 
