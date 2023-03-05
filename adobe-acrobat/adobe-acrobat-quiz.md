@@ -192,3 +192,40 @@
 - [ ] LiveCycle Rights Management
 - [ ] Security Envelope
 - [ ] Email Review
+
+
+#### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
+
+- [ ] Press-ready PDF 
+- [ ] Optimized PDF
+- [ ] Certified PDF
+- [ ] Reader Extended PDF
+
+#### Q29. You plan to post a PDF form online and gather the submitted data in a database. What must you have to do this?
+
+- [ ] A web server which supports Microsoft Access
+- [ ] A web server which supports WebDAV and CGI
+- [ ] A web server which supports XML and FDF
+- [ ] A web server which supports Microsoft Excel
+
+#### Q30. You would like to use a drag-and-drop method to convert multiple selected PDF files from color to greyscale. What feature will allow you to do this?
+
+- [ ]  Action Wizard
+- [ ] Custom Tool
+- [ ] Preflight Droplet
+- [ ] Optimize PDF
+
+#### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+#### Q32. You provide an interactive PDF to a client that you created. The interactive PDF includes multiple embedded videos. However, the client cannot view the videos. What is a reason that the client might be unable to view the video?
+
+- [ ] A browser is not installed.
+- [ ] A GIF player is not installed.
+- [ ] Flash Player is not installed.
+- [ ] QuickTime is not installed.
+
