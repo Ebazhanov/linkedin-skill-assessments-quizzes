@@ -1913,14 +1913,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </dl>
 ```
 
-#### Q110. What is the difference between the `<div>` and the `<span>` tag?
-
-- [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
-- [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
-- [ ] `<div>` is the industry standard default tag, but you could use `<span>` if you prefer.
-- [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
-
-#### Q111. what does the a in the html a tag stands for?
+#### Q110. what does the a in the html a tag stands for?
 
 - [ ] assign
 - [ ] add tag
@@ -1929,21 +1922,21 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
 
-#### Q112. What is the correct HTML element for inserting a line break?
+#### Q111. What is the correct HTML element for inserting a line break?
 
 - [ ] `<break>`
 - [ ] `<lb>`
 - [x] `<br>`
 - [ ] `<a>`
 
-#### Q113. The HTML global attribute, "contenteditable" is used to
+#### Q112. The HTML global attribute, "contenteditable" is used to
 
 - [ ] Update content from the server
 - [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
 - [x] Specify whether the content of an element should be editable or not
 - [ ] Return the position of the first found occurrence of content inside a string
 
-#### Q114. HTML elements that aren't meant to store content or other elements are called **\_** elements
+#### Q113. HTML elements that aren't meant to store content or other elements are called **\_** elements
 
 - [x] void
 - [ ] independent
@@ -1952,7 +1945,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
 
-#### Q115. The **\_** attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to
+#### Q114. The **\_** attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to
 
 - [ ] to
 - [ ] of
@@ -1961,21 +1954,21 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3schools.com/tags/att_label_for.asp)
 
-#### Q116. Coding in HTML provides which of the following?
+#### Q115. Coding in HTML provides which of the following?
 
 - [ ] The responsiveness of the website
 - [ ] The style of the website
 - [x] The core website structure
 - [ ] The behavior of web elements
 
-#### Q117. Which HTML element is the container for all the renderable aspects of the document?
+#### Q116. Which HTML element is the container for all the renderable aspects of the document?
 
 - [ ] head
 - [x] body
 - [ ] title
 - [ ] meta
 
-#### Q118. The "h" in the HTML h1 tag is short for **\_**
+#### Q117. The "h" in the HTML h1 tag is short for **\_**
 
 - [ ] head
 - [ ] horizontal
@@ -1984,7 +1977,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3schools.com/html/html_headings.asp)
 
-#### Q119. Which is an invalid use of the `<a>` element?
+#### Q118. Which is an invalid use of the `<a>` element?
 
 - [ ] A
 
@@ -2021,14 +2014,14 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </a>
 ```
 
-#### Q120. How to display preformatted text in HTML?
+#### Q119. How to display preformatted text in HTML?
 
 - [ ] `<p>`
 - [x] `<pre>`
 - [ ] `<hr>`
 - [ ] All of the above
 
-#### Q121. Which is a valid title element?
+#### Q120. Which is a valid title element?
 
 - [ ] `<title><em>Exciting</em> title</title>`
 - [ ] `<title></title>`
@@ -2037,7 +2030,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3schools.com/tags/tag_title.asp)
 
-#### Q122. Which link contains a valid URL?
+#### Q121. Which link contains a valid URL?
 
 - [ ] `<link rel="stylesheet" href="/styles for me/styles.css">`
 - [ ] `<link rel="stylesheet" href="/styles|for|me/styles.css">`
@@ -2047,7 +2040,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 [Source 1](https://www.w3schools.com/tags/att_link_href.asp)
 [Source 2](https://www.sistrix.com/ask-sistrix/technical-seo/site-structure/do-i-have-to-convert-the-spaces-in-urls)
 
-#### Q123. Which example is missing a mandatory closing tag, making it invalid?
+#### Q122. Which example is missing a mandatory closing tag, making it invalid?
 
 - [ ] `<p>Simple paragraph`
 - [x] `<ul><li>Simple list</li>`
