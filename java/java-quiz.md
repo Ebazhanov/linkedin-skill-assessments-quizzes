@@ -1,3 +1,4 @@
+[new font](https://totheinnovation.com/java-linkedin-skill-assessment-answer/)
 ## Java
 
 #### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return?
