@@ -237,3 +237,35 @@
 - [ ] User must be owner of the SharePoint library.
 - [ ] The SharePoint site and library must be specified.
 - [x] File must be in a folder inside the SharePoint library.
+
+#### Q31. What is a business process flow?
+
+- [ ] Business process flows are automatically generated from business process flow charts in Microsoft Visio.
+- [x] Business process flows define a set of steps that guide people through a process to a desired outcome.
+- [ ] Accounting departments use business process flows to report on regular operations.
+- [ ] You can use business process flows to create routines that will automatically process business maintenance tasks, such as system backups.
+
+#### Q32. What rights do you give to other people with whom you share a flow directly from Power Automate?
+
+- [ ] You give them the rights to use the flow only. 
+- [ ] You give them the rights to use, edit, share, or delete the flow. 
+- [x] You give them the rights to use the flow, but you can extend the rights to edit or share for specific people.
+- [ ] You give them the rights to edit or share the flow.
+
+#### Q33. Who can use the Power Automate mobile app? 
+
+![Image of footer](images/Q30.png?raw=png)
+
+- [ ] Anyone who already has a Power Automate account can install and use the mobile app.
+- [ ] Anyone who purchases a Power Automate mobile license can install and use the mobile app.
+- [ ] The Power Automate app can be installed and used on mobile devices that are linked to Office 365 enterprise licenses.
+- [x] Anyone can install and use the Power Automate app on an Android or iOS device.
+
+#### Q34. You want a flow that sends an email if a new spreadsheet is added to a SharePoint library. What is the correct order for the steps shown?
+
+![Image of footer](images/Q34.png?raw=png)
+
+- [ ] A, B, D, E, C
+- [x] C, B, A, E, D
+- [ ] D, A, E, B, C
+- [ ] C, A, B, D, E
