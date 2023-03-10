@@ -810,7 +810,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] displaying the paragraph formatting at the insertion point
 - [ ] resestting or clearing paragraph or text-level formatting
-- [ ] recommending style changes for improved accessibility
+- [x] recommending style changes for improved accessibility
 - [ ] displaying the text-level formatting at the insertion point
 
 #### Q104. Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?
@@ -825,18 +825,18 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] The comment is deleted
 - [ ] There is no change to the comment
 - [ ] A reply is added to the comment
-- [ ] The comment appears dimmed
+- [x] The comment appears dimmed
 
 #### Q106. Using the Styles group in Word lets you quickly ______?
 
 - [ ] apply frames and artistic effects to graphics
 - [ ] modify page margins
 - [ ] apply a different theme
-- [ ] apply styles for heading levels, body text, and titles
+- [x] apply styles for heading levels, body text, and titles
 
 #### Q107. You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?
 
 - [ ] Citation
 - [ ] Table of Contents
-- [ ] Cross-Reference
+- [x] Cross-Reference
 - [ ] Table of Figures
