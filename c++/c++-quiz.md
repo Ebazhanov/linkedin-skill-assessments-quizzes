@@ -189,7 +189,7 @@ auto x = 4000.22;
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
-- [ ] lass that only consists of member variable, with no constructor, destructor nor member functions.
+- [ ] class that only consists of member variable, with no constructor, destructor nor member functions.
 - [ ] skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
 
 [Reference](https://www.mygreatlearning.com/blog/templates-in-cpp/)
@@ -757,6 +757,7 @@ std::vector<std::vector<int>> thematrix;
 - [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
+#### Q42.b. What is the statement equivalent to?
 
 ```cpp
 sprite->x
@@ -1507,7 +1508,7 @@ int checkConcatThreshold(string a, string b) {
 
 #### Q97. You need to define a C++ lambda function. You want the function to have access to only the variables that are local to it. The function should receive a single parameter, a name, and construct a simple greeting. How will you achieve this?
 
-- [] A
+- [ ] A
 
 ```cpp
 auto myVeryFirstLambda = [=] (string name) {
@@ -1515,7 +1516,7 @@ auto myVeryFirstLambda = [=] (string name) {
     };
 ```
 
-- [] B
+- [ ] B
 
 ```cpp
 myVeryFirstLambda = [&] (string name) {
@@ -1531,7 +1532,7 @@ auto myVeryFirstLambda = [] (string name) {
     };
 ```
 
-- [] D
+- [ ] D
 
 ```cpp
 myVeryFirstLambda = [] (string name) {
