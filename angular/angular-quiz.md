@@ -1447,3 +1447,9 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] It indicates that there will be multiple classes that handle the logic implementation for the custom validator.
 
 [StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
+	
+#### Q80. Which Angular CLI command would you use to run your unit tests in a process that reruns your test suite on file changes?
+- [ ] ng test --single-run=false
+- [ ] ng test --watch-files
+- [ ] ng test --progress
+- [ ] ng test
