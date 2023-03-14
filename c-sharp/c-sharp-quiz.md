@@ -805,3 +805,24 @@ void MyFunction()
 - [x] string is an alias for String
 
 [Reference](https://stackoverflow.com/q/7074)
+
+#### Q75. How would you return more than one value from a method?
+
+- [x] Use either a tuple or an out variable.
+- [ ] The only way is to use an out variable.
+- [ ] The only way is to use a tuple.
+- [ ] This cannot be done
+
+#### Q76. Which is a valid example of a derived class?
+
+- [ ] `public class PremiumUser sub User {}`
+- [x] `public class PremiumUser: User {}`
+- [ ] `public class PremiumUser -> sub User {}`
+- [ ] `public class User: PremiumUser {}`
+
+#### Q77. What is the correct way to call a static method named DebugString from a static class called InputManager?
+
+- [ ] `static InputManager.DebugString();`
+- [ ] `InputManager().DebugString;`
+- [ ] `new InputManager().DebugString();`
+- [x] `InputManager.DebugString();`
