@@ -577,4 +577,13 @@ mvn install
 - [ ] all of these answers
 - [ ] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
 
+#### Q72. Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?
+
+<img width="535" alt="5d697fe5498e21bcd2763c2a-1567198471328" src="https://user-images.githubusercontent.com/97866339/224229468-989d52e7-c3d3-4ff2-9514-a38e71d56b7d.png">
+
+- [ ] Plugins defined in the pluginManagement element can never be executed.
+- [ ] Plugins defined in the parent POM are not available in the child POM.
+- [ ] The Build Helper Maven Plugin works only on parent projects.
+- [ ] The plugin may not have been defined in the child POM.
+
 [maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)

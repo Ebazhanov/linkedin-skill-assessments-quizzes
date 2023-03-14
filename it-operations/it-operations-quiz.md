@@ -596,7 +596,7 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 
 #### Q72. What does the acronym RAID refer to?
 
-- [x] Redudant Array pf Independent Disk
+- [x] Redudant Array of Independent Disk
 - [ ] Repeating Architecture for Internal Drives
 - [ ] Recoverable Advanced Integration and Duplication
 - [ ] Replicated Array of Internal Devices
