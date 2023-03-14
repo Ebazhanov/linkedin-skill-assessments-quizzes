@@ -806,7 +806,9 @@
 - [ ] Social signals provide a benefit only if they have structured data markup
 - [ ] Social signals are identical to backlinks
 - [ ] Google does not use social signals to determine rank
-- [ ] Social signals are used to determine topic authority
+- [X] Social signals are used to determine topic authority
+    
+[reference](https://www.gcertificationcourse.com/which-statement-is-true-regarding-the-use-of-social/)
     
 #### Q102. How many outbound links should you include in each blog posting?
 

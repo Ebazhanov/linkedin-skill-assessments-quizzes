@@ -405,3 +405,55 @@ E. Ellipse
 - [ ] 4:4:4
 - [ ] 4:2:2
 - [ ] 4:2:0
+
+#### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
+
+- [ ] Choose the Convert After Effects Compositions to Clips option
+- [ ] Usd the Render and Replace option
+- [ ] Switch to After Effects first and choose the Render and Replace option
+- [ ] Choose Consolidate and Transcode
+
+#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+
+- [ ] fade in
+- [ ] fade out
+- [ ] crossfade
+- [x] cross dissolve
+
+#### Q53. Which file formats can be imported into an Adobe Premiere Pro project? (Select three items.)
+
+```markdown
+A. AI
+B. JPEG
+C. PSD
+D. DNG
+E. PDF
+```
+- [ ] A, C, E
+- [ ] A, B, C
+- [ ] B, D, E
+- [ ] B, C, D
+
+#### Q54. After importing items into your project, where do they appear?
+
+- [x] Project panel
+- [ ] Program Monitor panel
+- [ ] Source Monitor panel
+- [ ] Media Browser panel
+
+#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest
+
+![image](images/008.png?raw=png)
+
+- [ ] Hue vs. Luma
+- [ ] Hue vs. Hue
+- [ ] Luma vs. Saturation
+- [ ] Hue vs. Saturation
+
+#### Q56. Which bitrate encoding option yields the best balance of quality to file size, but takes longer to encode?
+
+- [ ] VBR, 1 Pass
+- [ ] VBR, 2 Pass
+- [ ] CBR
+- [X] Use Maximum Render Quality
+ 

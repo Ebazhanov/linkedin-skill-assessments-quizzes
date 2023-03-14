@@ -13169,6 +13169,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ErikBustos",
+      "name": "Erik Bustos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22849104?v=4",
+      "profile": "https://github.com/ErikBustos",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "trogfield",
+      "name": "trogfield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22109189?v=4",
+      "profile": "https://github.com/trogfield",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "simon-aichhorn",
+      "name": "simon-aichhorn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36436746?v=4",
+      "profile": "https://github.com/simon-aichhorn",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
