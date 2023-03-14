@@ -805,3 +805,16 @@ void MyFunction()
 - [x] string is an alias for String
 
 [Reference](https://stackoverflow.com/q/7074)
+    
+#### Q75. What values can be assigned to this variable?
+    
+```cs
+public string? nickname
+```
+
+- [ ] null
+- [ ] String values
+- [x] String values or null
+- [ ] String values with more than one character
+
+[Reference]()
