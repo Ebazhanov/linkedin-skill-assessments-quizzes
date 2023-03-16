@@ -286,10 +286,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 `console.log(arguments);`
 
-- [ ] ReferenceError: arguments is not defined
+- [x] ReferenceError: arguments is not defined
 - [ ] an empty string
 - [ ] undefined
-- [x] an object representing an array that has five elements
+- [ ] an object representing an array that has five elements
 
 #### Q33. Which choice is not a valid method on event emitters?
 
