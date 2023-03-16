@@ -209,9 +209,9 @@
 #### Q29. What is a method?
 
 - [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
-- [x] the exact same thing as a function and subroutine
+- [ ] the exact same thing as a function and subroutine
 - [ ] a set of variables that can change over time
-- [ ] a procedure associated with data and behaviour
+- [x] a procedure associated with data and behaviour
 
 #### Q30. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
 
@@ -796,3 +796,10 @@ public class Honda extends Car{}
 - [x] defining data and relevant methods together in the same class
 - [ ] making all methods private
 - [ ] using words to define classes
+
+#### Q105. object are passed by ___?
+
+- [x] value or reference, depending on the programmin language used
+- [ ] reference
+- [ ] value
+- [ ] value or reference, depending on program
