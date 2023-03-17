@@ -1049,3 +1049,6 @@ end
 - [ ] `params[:project].allowed`
 - [ ] `params.permit(:project).allow(:name, :visible, :description)`
 - [x] `params.require(:project).permit(:name, :visible, :description)`
+
+[Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
