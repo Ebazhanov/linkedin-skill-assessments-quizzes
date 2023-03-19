@@ -2457,3 +2457,17 @@ for i in range(m):
 - [x] m \* n
 
 **Explanation:** This code will run for m x n times, if you run this code, it will create m x n tuples. <br/> The first loop runs for m times and the inner loop will run for n times. While the single iteration of first loop will only be completed when all of the n iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... mth iterations for outer loop. Overall, both loops will run m x n times
+
+#### Q178. What will this comprehension provide you?
+
+```python
+{x : [y for y in range (1, x) if x % y == 0] for x in range (2, 100)}
+```
+
+- [x] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are their factors
+- [ ] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are a list from 1 to the key value itself (inclusive)
+- [ ] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the even numbers from 1 to the key value itself (inclusive)
+- [ ] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive)
+
+
+
