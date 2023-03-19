@@ -643,3 +643,33 @@ SELECT bal FROM Account WHERE acct='12345';
 - [ ] `SELECT first_name, email FROM Students WHERE department = "Humanities";`
 - [x] `SELECT first_name, email FROM Students WHERE department = 'Humanities';`
 - [ ] `SELECT 'first_name', 'email' FROM 'Students' WHERE 'department' = "Humanities";`
+
+#### Q52. Which statement deletes a table named Inventory from the Products database?
+
+- [ ] :
+
+```tsql
+  DROP TABLE Products.Inventory;
+```
+
+- [x] :
+
+```tsql
+  USE Products;
+  DROP TABLE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products;
+  DELETE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products.Inventory;
+  DROP TABLE Inventory;
+```
+> This statement first switches to the Products database using the `USE` command and then drops the Inventory table using the `DROP TABLE` command.
