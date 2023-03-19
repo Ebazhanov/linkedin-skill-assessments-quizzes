@@ -570,7 +570,16 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] It can specify how the app makes requests to HTTP.
 
 #### Q73. You want to match interfaces of different classes. which design pattern best fits this objective?
-- [ ] Decorator
+- [ ] Decorator
 - [ ] Bridge
 - [ ] Singleton
 - [x] Adapter
+
+#### Q75. What is the difference between covariance and contravariance?
+
+- [ ] In C#, covariance and contravariance disable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses it.
+- [X] In C#, covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
+- [ ] In C#, covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses itIn C#, covariance and contravariance disable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses it.
+- [ ] In C#, covariance and contravariance disables implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
+
+Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)
