@@ -214,7 +214,7 @@
 #### Q29. You are working toward managing cross-forest certificate enrollment deployment and need to copy objects in the source forest to the target forest. How do you keep the source and target forest synchronized?
 
 - [x] storage replication
-- [x] pkisync.ps1
+- [ ] pkisync.ps1
 - [ ] site replication
 - [ ] certificate templates
 
@@ -503,112 +503,105 @@
 - [ ] Storage Replica is incompatible.
 - [ ] Stretch Cluster
 
-#### Q67. You are working toward managing a cross-forest certificate enrollment deployment and need to copy objects in the source forest to the target forest. How do you keep the source and target forst synchonized?
-
-- [ ] certificate templates
-- [x] site replication
-- [ ] pkysync.ps1
-- [ ] storage replication
-
-#### Q68. Suppose you want to deploy a new Windows Server. You want an installation that has a reduced attack surface and more efficient use of memory and disk space. Which installation option would you use?
+#### Q67. Suppose you want to deploy a new Windows Server. You want an installation that has a reduced attack surface and more efficient use of memory and disk space. Which installation option would you use?
 
 - [ ] Windoes Server Datacenter
 - [x] Windows Server Minimal Server Interface
 - [ ] Windows Server (Desktop Experience)
 - [ ] Windoes Server Core
 
-#### Q69. A Windows Server machine configured to be a file server has which server role installed?
+#### Q68. A Windows Server machine configured to be a file server has which server role installed?
 
 - [ ] Print and Remote Services
 - [ ] Print and File Services
 - [x] Print and Document Services
 - [ ] Print and Network Services
 
-#### Q70. Your environment consists of legacy devices that use NetBIOS names. In the Add Roles and Features Wizard, which feature allows other computers and users to search and find these legacy devices through the wireless LAN?
+#### Q69. Your environment consists of legacy devices that use NetBIOS names. In the Add Roles and Features Wizard, which feature allows other computers and users to search and find these legacy devices through the wireless LAN?
 
 - [x] Wireless LAN Service
 - [ ] WINS Server
 - [ ] Windows Search Service
 - [ ] Windows Identity Foundation 3.5
 
-#### Q71. You work at a company with an Enterprise environment operating on Windows Server 2008. Sixty percent of the servers have 64-bit CPUs; the rest are 32-bit. Management has decided to upgrade to Windows Server 2012 R2. The budget for this upgrade is small. What would be your recommendation for a successful deployment of Windows Server 2012 R2 operating systems?
+#### Q70. You work at a company with an Enterprise environment operating on Windows Server 2008. Sixty percent of the servers have 64-bit CPUs; the rest are 32-bit. Management has decided to upgrade to Windows Server 2012 R2. The budget for this upgrade is small. What would be your recommendation for a successful deployment of Windows Server 2012 R2 operating systems?
 
 - [ ] Do not upgrade to Windows Server 2012 R2, as it would exceed the allocated budget.
 - [ ] Upgrade servers with 64-bit CPUs only, and discard servers with 32-bit CPUs.
 - [ ] Upgrade servers with 32-bit CPUs only.
 - [x] Upgrade servers with 32-bit CPUs to 64-bit CPUs before proceeding.
 
-#### Q72. Which of the following is not an option for evaluating Storage Spaces Direct in Windows Server 2016?
+#### Q71. Which of the following is not an option for evaluating Storage Spaces Direct in Windows Server 2016?
 
 - [ ] Hyper-V virtual machines
 - [ ] Validated server configuration from a partner
 - [ ] Any computer that has a hard disk
 - [ ] Existing hardware if it meets the requirements
 
-#### Q73. When you move a Hyper-V virtual machine from Windows Server 2012 R2 to Windows Server 2016, **\_**.
+#### Q72. When you move a Hyper-V virtual machine from Windows Server 2012 R2 to Windows Server 2016, **\_**.
 
 - [ ] It will run on the Server 2016 but cannot be moved back to the Server 2012
 - [ ] It will fail because the configuration of the virtual machine has to match the 2016 version
 - [ ] It will automatically update the virtual machine configuration to the 2016 version
 - [ ] The virtual machine configuration is not updated so it can be moved back to the Server 2012
 
-#### Q74. Installing Windows Server 2016 without a product key **\_**.
+#### Q73. Installing Windows Server 2016 without a product key **\_**.
 
 - [ ] Is only possible if you install it without the Desktop Experience
 - [ ] Is only possible if you install it as Standard
 - [ ] Is possible but it will not activate after installation
 - [ ] Is not possible
 
-#### Q75. What is the benefit of access control policy templates?
+#### Q74. What is the benefit of access control policy templates?
 
 - [ ] They allow an administrator to enforce policy settings by assigning a template to a group of relying parties
 - [ ] They allow adding Windows Server 2016 nodes to the existing farm while minimizing farm downtime
 - [ ] They make it easier to migrate from Active Directory Federation Services in Windows Server 2012 R2
 - [ ] They allow to add a new Windows Server 2016 Federation Servers to an existing
 
-#### Q76. The **\_** capability directly gives you the ability to implement site-to-site VPNs.
+#### Q75. The **\_** capability directly gives you the ability to implement site-to-site VPNs.
 
 - [ ] SET Architecture
 - [ ] RAS Gateway
 - [ ] NIC Teaming
 - [ ] Flow Engine
 
-#### Q77. The **\_** feature helps prevent malicious users from starting the denial of service attacks by using your DNS servers.
+#### Q76. The **\_** feature helps prevent malicious users from starting the denial of service attacks by using your DNS servers.
 
 - [ ] IPv6 Root Hints
 - [ ] Unknown Record Support
 - [ ] DNS-Based Authentication of Names Entities
 - [ ] Response Rate Limiting
 
-#### Q78. A user is added to multiple time-bound groups. His Kerberos ticket-granting ticket lifetime will be the **\_**.
+#### Q77. A user is added to multiple time-bound groups. His Kerberos ticket-granting ticket lifetime will be the **\_**.
 
 - [ ] Lowest time-to-live among all groups
 - [ ] Sum of the time-to-live values across all groups
 - [ ] Highest time-to-live among all groups
 - [ ] None of these answers
 
-#### Q79. Which Hyper-V switch feature helps you set up a virtual machine as a virtual appliance and direct specific VLAN traffic to it?
+#### Q78. Which Hyper-V switch feature helps you set up a virtual machine as a virtual appliance and direct specific VLAN traffic to it?
 
 - [ ] Internet Protocol v6
 - [ ] Trunk mode to a virtual machine
 - [ ] Network traffic monitoring
 - [ ] Isolated VLANs
 
-#### Q80. In **\_** replication scenario(s), the replicated servers or clusters can be far from each other.
+#### Q79. In **\_** replication scenario(s), the replicated servers or clusters can be far from each other.
 
 - [ ] Neither the server-to-server and cluster-to-cluster
 - [ ] Only the cluster-to-cluster
 - [ ] Only the server-to-server
 - [ ] Both the server-to-server and cluster-to-cluster
 
-#### Q81. The **\_** Windows Server 2016 feature helps with meeting service level agreements.
+#### Q80. The **\_** Windows Server 2016 feature helps with meeting service level agreements.
 
 - [ ] Object-Oriented PowerShell syntax
 - [ ] Active Memory Dumps
 - [ ] Cluster OS Rolling Upgrade
 - [ ] Network Name Diagnostics
 
-#### Q82. In the storage Qos deployment scenario based on Hyper-V using a Scale-Out File Server, **\_**.
+#### Q81. In the storage Qos deployment scenario based on Hyper-V using a Scale-Out File Server, **\_**.
 
 - [ ] You need a compute cluster with the Hyper-V role enabled
 - [ ] You need a computer cluster that has at least one server with the Hyper-V role enabled
