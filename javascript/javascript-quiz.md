@@ -1856,13 +1856,6 @@ if (/* Snipped goes here */){
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
 
-#### Q133. Which method converts a JSON string to a Javascript object?
-
-- [x] JSON.parse()
-- [ ] JSON.fromString();
-- [ ] JSON.stringify()
-- [ ] JSON.toObject()
-
 #### Q134. Which method do you use to attach one DOM mode to another?
 
 - [ ] attachNode()
