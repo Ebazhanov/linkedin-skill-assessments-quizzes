@@ -2112,7 +2112,7 @@ Queue<Rainfall>
 #### Q147. What is HashMap and Map?
 
 - [ ] HashMap is Interface and map is class that implements that
-- [x] HashMap is class and map is interface that implements that
+- [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
 
