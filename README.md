@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1333-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1338-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1858,6 +1858,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/simon-aichhorn"><img src="https://avatars.githubusercontent.com/u/36436746?v=4?s=100" width="100px;" alt="simon-aichhorn"/><br /><sub><b>simon-aichhorn</b></sub></a><br /><a href="#design-simon-aichhorn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=simon-aichhorn" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gulectufan"><img src="https://avatars.githubusercontent.com/u/65404074?v=4?s=100" width="100px;" alt="Tufan GÜLEÇ"/><br /><sub><b>Tufan GÜLEÇ</b></sub></a><br /><a href="#design-gulectufan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gulectufan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ugurberkecan"><img src="https://avatars.githubusercontent.com/u/42906958?v=4?s=100" width="100px;" alt="Uğur Berkecan Ünlü"/><br /><sub><b>Uğur Berkecan Ünlü</b></sub></a><br /><a href="#design-ugurberkecan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ugurberkecan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/revanthsonu"><img src="https://avatars.githubusercontent.com/u/40160940?v=4?s=100" width="100px;" alt="Revanth Naik"/><br /><sub><b>Revanth Naik</b></sub></a><br /><a href="#design-revanthsonu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=revanthsonu" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Lia-Pires"><img src="https://avatars.githubusercontent.com/u/102235852?v=4?s=100" width="100px;" alt="Lia Pires"/><br /><sub><b>Lia Pires</b></sub></a><br /><a href="#design-Lia-Pires" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Lia-Pires" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bambam320"><img src="https://avatars.githubusercontent.com/u/89107952?v=4?s=100" width="100px;" alt="Igor Mestechkin"/><br /><sub><b>Igor Mestechkin</b></sub></a><br /><a href="#design-Bambam320" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Bambam320" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AnirudhKaranth"><img src="https://avatars.githubusercontent.com/u/97871145?v=4?s=100" width="100px;" alt="Anirudh Karanth"/><br /><sub><b>Anirudh Karanth</b></sub></a><br /><a href="#design-AnirudhKaranth" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AnirudhKaranth" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KBobovskiy"><img src="https://avatars.githubusercontent.com/u/35502578?v=4?s=100" width="100px;" alt="KBobovskiy"/><br /><sub><b>KBobovskiy</b></sub></a><br /><a href="#design-KBobovskiy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KBobovskiy" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

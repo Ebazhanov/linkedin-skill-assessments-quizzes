@@ -1027,3 +1027,28 @@ end
 - [ ] `@params.name`
 - [ ] `params.require(:category).permit(:name)`
 - [x] `params[:category][:name]`
+
+#### Q77. Which missing line would best show the correct usage of strong parameters?
+
+```ruby
+class ProjectsController < ActionController::Base
+
+  def create
+    Project.create(project_params)
+  end
+
+  private
+
+  def project_params
+    # Missing line
+  end
+end
+```
+
+- [ ] `params[:project].allow(:name, :visible, :description)`
+- [ ] `params[:project].allowed`
+- [ ] `params.permit(:project).allow(:name, :visible, :description)`
+- [x] `params.require(:project).permit(:name, :visible, :description)`
+
+[Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
