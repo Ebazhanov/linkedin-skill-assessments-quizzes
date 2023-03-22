@@ -1856,13 +1856,6 @@ if (/* Snipped goes here */){
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
 
-#### Q134. Which method do you use to attach one DOM mode to another?
-
-- [ ] attachNode()
-- [x] appendChild()
-- [ ] querySelector()
-- [ ] getNode()
-
 #### Q135. How would you add a data item named animal with a value of sloth to local storage for the current domain?
 
 - [ ] LocalStorage.setItem("animal","sloth");
