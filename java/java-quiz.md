@@ -2084,9 +2084,9 @@ Queue<Rainfall>
 #### Q143. When you pass an object reference as an argument to a method call what gets passed?
 
 - [ ] a reference to a copy
-- [ ] a copy of the reference
+- [x] a copy of the reference
 - [ ] the object itself
-- [x] the original reference
+- [ ] the original reference
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
