@@ -1856,7 +1856,7 @@ if (/* Snipped goes here */){
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
 
-#### Q135. How would you add a data item named animal with a value of sloth to local storage for the current domain?
+#### Q133. How would you add a data item named animal with a value of sloth to local storage for the current domain?
 
 - [ ] LocalStorage.setItem("animal","sloth");
 - [x] document.localStorage.setItem("animal","sloth");
@@ -1865,7 +1865,7 @@ if (/* Snipped goes here */){
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q136. What value is printed to the console after this code execute?
+#### Q134. What value is printed to the console after this code execute?
 
 ```js
 let cat = Object.create({ type: 'lion' });
@@ -1884,7 +1884,7 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q137. What does this code print to the console?
+#### Q135. What does this code print to the console?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];
@@ -1908,7 +1908,7 @@ console.log(animals[1], clones[1]);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q138. What will be the output of the following code.
+#### Q136. What will be the output of the following code.
 
 ```js
 a=5;
@@ -1921,7 +1921,7 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-#### Q139. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
+#### Q137. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```js
 let cat = { type: "tiger", size: "large" };
@@ -1938,7 +1938,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
-#### Q140. Which document method is not used to get a reference to a DOM node?
+#### Q138. Which document method is not used to get a reference to a DOM node?
 
 - [x] document.getNode();
 - [ ] document.getElementsByClassName();
@@ -1947,7 +1947,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q141. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+#### Q139. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
 
 - [ ] node
 - [ ] instance variable
@@ -1956,14 +1956,14 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
 
-#### Q142. Which of the following are not server-side Javascript objects?
+#### Q140. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
 - [ ] FileUpload
 - [ ] Function
 - [x] All of the above
 
-#### Q143. What will be the output of the following code snippet?
+#### Q141. What will be the output of the following code snippet?
 
 ```javascript
 const obj1 = { first: 20, second: 30, first: 50 };
@@ -1975,21 +1975,21 @@ console.log(obj1);
 - [ ] first: 30 , second: 20
 - [ ] None of the above
 
-#### Q144. Which object in Javascript doesn’t have a prototype?
+#### Q142. Which object in Javascript doesn’t have a prototype?
 
 - [x] Base Object
 - [ ] All objects have prototype
 - [ ] None of the objects have prototype
 - [ ] None of the above
 
-#### Q145. What does … operator do in JS?
+#### Q143. What does … operator do in JS?
 
 - [x] Used to spread iterables to individual elements
 - [ ] Describe datatype of undefined
 - [ ] No such operator exists
 - [ ] None of the above
 
-#### Q146. How to stop an interval timer in Javascript?
+#### Q144. How to stop an interval timer in Javascript?
 
 - [x] clearInterval
 - [ ] clearTimer
@@ -1998,7 +1998,7 @@ console.log(obj1);
 
 [Reference](https://www.interviewbit.com/javascript-mcq/)
 
-#### Q147. What will be the output of the following code snippet?
+#### Q145. What will be the output of the following code snippet?
 
 ```javascript
 print(typeof NaN);
@@ -2009,7 +2009,7 @@ print(typeof NaN);
 - [ ] String
 - [ ] None of the above
 
-#### Q148. What will be the output of the following code snippet?
+#### Q146. What will be the output of the following code snippet?
 
 ```javascript
 <script type="text/javascript">a = 5 + "9"; document.write(a);</script>
@@ -2020,14 +2020,14 @@ print(typeof NaN);
 - [ ] Runtime Error
 - [x] 59
 
-#### Q149. Which of the following methods can be used to display data in some form using Javascript?
+#### Q147. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
 - [x] all of the above
 
-#### Q150. What value is assigned to total after this code executes?
+#### Q148. What value is assigned to total after this code executes?
 
 ```javascript
 function sum(num1, num2 = 2, num3 = 3) {
@@ -2044,7 +2044,7 @@ let total = sum(4, ...values);
 
 [Reference: Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-#### Q151. Which statement is applicable to the defer attribute of the HTML <script> tag?
+#### Q149. Which statement is applicable to the defer attribute of the HTML <script> tag?
 
 - [x] defer allows the browser to continue processing the page while the script loads in the background.
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
@@ -2053,7 +2053,7 @@ let total = sum(4, ...values);
 
 [Reference: defer html script attribute](https://www.w3schools.com/tags/att_script_defer.asp)
 
-#### Q152. Which method of a class is called to initialize an object of that class?
+#### Q150. Which method of a class is called to initialize an object of that class?
 
 - [ ] init()
 - [ ] create()
@@ -2062,7 +2062,7 @@ let total = sum(4, ...values);
 
 [Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
 
-#### Q153. Which expression evaluates to true?
+#### Q151. Which expression evaluates to true?
 
 - [ ] Boolean(NaN)
 - [ ] Boolean(0)
@@ -2071,7 +2071,7 @@ let total = sum(4, ...values);
 
 [Reference: Boolean object](https://www.w3schools.com/js/js_booleans.asp)
 
-#### Q154. How would you check if the word "pot" is in the word "potato"?
+#### Q152. How would you check if the word "pot" is in the word "potato"?
 
 - [ ] "pot".indexOf("potato") !== -1
 - [ ] "potato".includes("Pot")
@@ -2080,7 +2080,7 @@ let total = sum(4, ...values);
 
 [Reference: String.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 
-#### Q155. Which collection object allows a unique value to be inserted only once?
+#### Q153. Which collection object allows a unique value to be inserted only once?
 
 - [ ] Map
 - [ ] Array
@@ -2089,7 +2089,7 @@ let total = sum(4, ...values);
 
 [Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
-#### Q156. How would you change the color of this header to pink?
+#### Q154. How would you change the color of this header to pink?
 
 ```javascript
 <h2 id="cleverest">girls</h2>
