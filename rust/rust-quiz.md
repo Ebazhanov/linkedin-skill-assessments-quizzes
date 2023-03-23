@@ -529,3 +529,12 @@ struct person = Person {
 - [ ] Remove the private keyword.
 
 [Reference](https://doc.rust-lang.org/reference/visibility-and-privacy.html)
+
+#### Q46. Which choice is a compound data type?
+
+- [ ] char
+- [x] tuple
+- [ ] bool
+- [ ] i32
+
+[Reference](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types)
