@@ -574,3 +574,12 @@ fn main() {
 - [ ] when valid values are passed on the code
 
 [Reference](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+
+#### Q50. Which statement about arrays is true?
+
+- [x] [<T>; size of array] can initialize arrays.
+- [ ] Indexing, such as array.0, accesses elements in arrays.
+- [ ] A data structure for collections can contain different types of values.
+- [ ] Arrays are useful when you want to allocate data on the heap and then on the stack.
+
+[Reference](https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html)
