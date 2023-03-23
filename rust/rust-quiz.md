@@ -583,3 +583,16 @@ fn main() {
 - [ ] Arrays are useful when you want to allocate data on the heap and then on the stack.
 
 [Reference](https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html)
+
+#### Q51. How would you select the value 2.0 from this tuple?
+
+```rust
+let pt = Point2D(-1.0, 2.0)
+```
+
+- [ ] pt[1]
+- [ ] pt(1)
+- [ ] pt.iter().nth(1)
+- [x] pt.1
+
+[Reference](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
