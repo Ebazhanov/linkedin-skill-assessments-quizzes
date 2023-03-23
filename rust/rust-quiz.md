@@ -503,3 +503,20 @@ if x {
 - [ ] bool and std::sync::atomic::AtomicBool
 
 [Reference](https://doc.rust-lang.org/book/ch03-05-control-flow.html#if-expressions)
+
+#### Q44. How do you access the married data in this struct?
+
+```rust
+struct person = Person {
+    height: u64,
+    weight: u64,
+    married: bool
+}
+```
+
+- [ ] person.getMarried()
+- [ ] person[married]
+- [ ] person.value(married)
+- [x] person.married
+
+[Reference](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#accessing-fields-of-a-struct)
