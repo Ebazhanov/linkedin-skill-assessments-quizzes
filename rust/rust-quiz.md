@@ -488,3 +488,18 @@ enum Option_i32 {
 - [ ] when a metatrait is needed to use another trait
 
 [Reference](https://doc.rust-lang.org/rust-by-example/trait/supertraits.html)
+
+#### Q43. Which types are legal for x to be in this snippet?
+
+```rust
+if x {
+    println!("ok");
+}
+```
+
+- [ ] every type that implements the std::cmp::Truth trait
+- [x] only the primitive bool type
+- [ ] both bool and u8 (which is how bool is implemented under the hood)
+- [ ] bool and std::sync::atomic::AtomicBool
+
+[Reference](https://doc.rust-lang.org/book/ch03-05-control-flow.html#if-expressions)
