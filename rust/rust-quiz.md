@@ -538,3 +538,21 @@ struct person = Person {
 - [ ] i32
 
 [Reference](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types)
+
+#### Q47. How could you make this function compile?
+
+```rust
+fn main() {
+    let x = 5;
+    println!("The value of x is: {}", x);
+    x = 6;
+    println!("The value of x is: {}", x);
+}
+```
+
+- [ ] Use x only once in a println!() statement.
+- [ ] Place curly brackets around let x = 5.
+- [ ] Add const to let x = 6.
+- [x] Add mut to let x = 5.
+
+[Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
