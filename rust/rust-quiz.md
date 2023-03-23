@@ -596,3 +596,12 @@ let pt = Point2D(-1.0, 2.0)
 - [x] pt.1
 
 [Reference](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
+
+#### Q52. When writing tests, which macro should you use to assert equality between two values?
+
+- [x] assert_eq!()
+- [ ] assert_equal!()
+- [ ] is_equals!()
+- [ ] assert!()
+
+[Reference](https://doc.rust-lang.org/std/macro.assert_eq.html)
