@@ -520,3 +520,12 @@ struct person = Person {
 - [x] person.married
 
 [Reference](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#accessing-fields-of-a-struct)
+
+#### Q45. To mark a function as visible to other crates, what do you need to do to its definition?
+
+- [ ] Add the public keyword.
+- [x] Add the pub keywork.
+- [ ] Begin the function's name with a capital letter.
+- [ ] Remove the private keyword.
+
+[Reference](https://doc.rust-lang.org/reference/visibility-and-privacy.html)
