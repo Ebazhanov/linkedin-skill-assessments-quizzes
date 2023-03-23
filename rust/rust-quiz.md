@@ -556,3 +556,12 @@ fn main() {
 - [x] Add mut to let x = 5.
 
 [Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+
+#### Q48. Using .unwrap() will _.
+
+- [ ] let you choose the expected panic error message
+- [x] call panic! if there is an error or absence of value
+- [ ] unwrap the value inside an unsafe wrapper
+- [ ] return the error inside Ok()
+
+[Reference](https://doc.rust-lang.org/std/result/enum.Result.html#method.unwrap)
