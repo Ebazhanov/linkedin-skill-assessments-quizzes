@@ -565,3 +565,12 @@ fn main() {
 - [ ] return the error inside Ok()
 
 [Reference](https://doc.rust-lang.org/std/result/enum.Result.html#method.unwrap)
+
+#### Q49. When should the panic! macro be called instead of using std::result::Result?
+
+- [ ] when there is a way to encode the information in types used
+- [ ] when your code is expected to end in a good state
+- [x] when the situation is considered unrecoverable
+- [ ] when valid values are passed on the code
+
+[Reference](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
