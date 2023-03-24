@@ -488,3 +488,120 @@ enum Option_i32 {
 - [ ] when a metatrait is needed to use another trait
 
 [Reference](https://doc.rust-lang.org/rust-by-example/trait/supertraits.html)
+
+#### Q43. Which types are legal for x to be in this snippet?
+
+```rust
+if x {
+    println!("ok");
+}
+```
+
+- [ ] every type that implements the std::cmp::Truth trait
+- [x] only the primitive bool type
+- [ ] both bool and u8 (which is how bool is implemented under the hood)
+- [ ] bool and std::sync::atomic::AtomicBool
+
+[Reference](https://doc.rust-lang.org/book/ch03-05-control-flow.html#if-expressions)
+
+#### Q44. How do you access the married data in this struct?
+
+```rust
+struct person = Person {
+    height: u64,
+    weight: u64,
+    married: bool
+}
+```
+
+- [ ] person.getMarried()
+- [ ] person[married]
+- [ ] person.value(married)
+- [x] person.married
+
+[Reference](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#accessing-fields-of-a-struct)
+
+#### Q45. To mark a function as visible to other crates, what do you need to do to its definition?
+
+- [ ] Add the public keyword.
+- [x] Add the pub keywork.
+- [ ] Begin the function's name with a capital letter.
+- [ ] Remove the private keyword.
+
+[Reference](https://doc.rust-lang.org/reference/visibility-and-privacy.html)
+
+#### Q46. Which choice is a compound data type?
+
+- [ ] char
+- [x] tuple
+- [ ] bool
+- [ ] i32
+
+[Reference](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types)
+
+#### Q47. How could you make this function compile?
+
+```rust
+fn main() {
+    let x = 5;
+    println!("The value of x is: {}", x);
+    x = 6;
+    println!("The value of x is: {}", x);
+}
+```
+
+- [ ] Use x only once in a println!() statement.
+- [ ] Place curly brackets around let x = 5.
+- [ ] Add const to let x = 6.
+- [x] Add mut to let x = 5.
+
+[Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+
+#### Q48. Using .unwrap() will _.
+
+- [ ] let you choose the expected panic error message
+- [x] call panic! if there is an error or absence of value
+- [ ] unwrap the value inside an unsafe wrapper
+- [ ] return the error inside Ok()
+
+[Reference](https://doc.rust-lang.org/std/result/enum.Result.html#method.unwrap)
+
+#### Q49. When should the panic! macro be called instead of using std::result::Result?
+
+- [ ] when there is a way to encode the information in types used
+- [ ] when your code is expected to end in a good state
+- [x] when the situation is considered unrecoverable
+- [ ] when valid values are passed on the code
+
+[Reference](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+
+#### Q50. Which statement about arrays is true?
+
+- [x] [<T>; size of array] can initialize arrays.
+- [ ] Indexing, such as array.0, accesses elements in arrays.
+- [ ] A data structure for collections can contain different types of values.
+- [ ] Arrays are useful when you want to allocate data on the heap and then on the stack.
+
+[Reference](https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html)
+
+#### Q51. How would you select the value 2.0 from this tuple?
+
+```rust
+let pt = Point2D(-1.0, 2.0)
+```
+
+- [ ] pt[1]
+- [ ] pt(1)
+- [ ] pt.iter().nth(1)
+- [x] pt.1
+
+[Reference](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
+
+#### Q52. When writing tests, which macro should you use to assert equality between two values?
+
+- [x] assert_eq!()
+- [ ] assert_equal!()
+- [ ] is_equals!()
+- [ ] assert!()
+
+[Reference](https://doc.rust-lang.org/std/macro.assert_eq.html)
