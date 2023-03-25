@@ -673,3 +673,17 @@ SELECT bal FROM Account WHERE acct='12345';
   DROP TABLE Inventory;
 ```
 > This statement first switches to the Products database using the `USE` command and then drops the Inventory table using the `DROP TABLE` command.
+
+#### Q53. In a SELECT statement, which clause should always be used with the TOP clause in order to predictably indicate which rows are affected by TOP?
+
+- [ ] GROUP BY
+- [ ] HAVING
+- [ ] WHERE
+- [x] ORDER BY
+
+#### Q54. Which data type should you choose when you nedd to store dates and times that include time zone information?
+
+- [x] datetimeoffset
+- [ ] smalldatetime
+- [ ] datetime
+- [ ] datetime2
