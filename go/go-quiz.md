@@ -312,7 +312,7 @@ func Add(a, b int) {
 1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
 2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
-> `//go:build windows`  
+> `//go:build windows`
 > "Go versions 1.16 and earlier used a different syntax for build constraints, with a "// +build" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax."
 
 #### Q19. What is the correct way to pass this as a body of an HTTP POST request?
@@ -481,10 +481,10 @@ Relevant excerpt from the article:
 1. [Reference:](https://go.dev/play/p/gtne3iRL9AX)
 2. [testing package in Go](https://pkg.go.dev/testing), the relevant excerpt from the article:
 
-> `Fatal` is equivalent to `Log` followed by `FailNow`.  
-> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.  
-> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.  
-> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).  
+> `Fatal` is equivalent to `Log` followed by `FailNow`.
+> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.
+> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.
+> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).
 > Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
 
 #### Q31. What does `log.Fatal` do?
@@ -763,7 +763,7 @@ type userID int
 - [ ] FilePermission and userID
 - [ ] userID
 
-[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)  
+[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)
 [Reference 2](https://go.dev/tour/basics/3)
 
 #### Q47. Which of the following is correct about structures in Go?
@@ -1209,7 +1209,7 @@ func main() {
       <br/>functions accepting a `testing.Test` parameter
       <br/>passing closures to `testing.AddSubtest()`
       <br/>returning an `error` from the function
-      
+
 #### Q58. Which type is a rune an alias for?
 
 - [ ] char
@@ -1222,3 +1222,16 @@ func main() {
 Relevant excerpt from the article:
 
 > _The Go language defines the word rune as an alias for the type int32, so programs can be clear when an integer value represents a code point._
+
+### Q59. When can you use the := syntax to assign to multiple variables? For example:
+
+```go
+x, err := myFunc()
+```
+
+- [x] if it at least has not been declared in that lexical block
+- [ ] at all times, as it will overwrite existing variables
+- [ ] if no variables of those names is accessible
+- [ ] if none of the variables exist in that lexical block
+
+1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)
