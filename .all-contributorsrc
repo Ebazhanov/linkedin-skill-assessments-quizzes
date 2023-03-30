@@ -13299,6 +13299,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "PicchiSeba",
+      "name": "Sebastiano Picchi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38473030?v=4",
+      "profile": "https://github.com/PicchiSeba",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
