@@ -40,9 +40,9 @@
 #### Q6. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
 
 - [ ] Find labeled data of sunny days so that the machine will learn to identify bad weather.
-- [x] Use unsupervised learning have the machine look for anomalies in a massive weather database.
+- [ ] Use unsupervised learning have the machine look for anomalies in a massive weather database.
 - [ ] Create a training set of unusual patterns and ask the machine learning algorithms to classify them.
-- [ ] Create a training set of normal weather and have the machine look for similar patterns.
+- [x] Create a training set of normal weather and have the machine look for similar patterns.
 
 #### Q7. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?
 
