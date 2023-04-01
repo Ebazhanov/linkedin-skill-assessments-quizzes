@@ -14,14 +14,14 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1344-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
+>:warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
 #### PLEASE 🙏
 
-Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not
-have a great understanding about.
+Always add explanation (`or reference link`) to your answers.Use [online grammar checker](https://www.grammarly.com/).
+That would help anyone to better learn new concepts!
 
 #### Announcement 🎉:
 
