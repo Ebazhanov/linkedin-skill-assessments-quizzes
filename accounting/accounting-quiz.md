@@ -471,10 +471,21 @@ I'm not 100% sure on this.
 
 #### Q56. The actual price of a widget is $10 and the budgeted price is $7. What is the price variance for 1,000 widgets?
 
-- [ ] $3,000
+- [x] $3,000
 - [ ] $1,000
 - [ ] $3
 - [ ] $1,700
+
+> Actual Cost = $10 per widget
+Budgeted Cost = $7 per widget
+Quantity = 1,000 widgets
+
+Price Variance = (Actual Cost - Budgeted Cost) x Quantity
+Price Variance = ($10 - $7) x 1,000
+Price Variance = $3 x 1,000
+Price Variance = $3,000
+
+Therefore, the price variance for 1,000 widgets is $3,000.
 
 #### Q57. What is the major financial accounting report system used outside of the United States?
 
@@ -555,10 +566,12 @@ I'm not 100% sure on this.
 
 #### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
 
-- [ ] contribution margin per unit
+- [x] contribution margin per unit
 - [ ] segment margin per unit
 - [ ] gross profit per unit
 - [ ] contribution margin per machine hour
+
+> To determine the contribution margin per machine hour, the contribution margin for a product is divided by the number of machine hours required to produce that product. This calculation results in the amount of contribution margin earned for each machine hour used.
 
 #### Q69. The asset-turnover ratio calculation measures **\_**.
 
