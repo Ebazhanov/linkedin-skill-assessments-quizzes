@@ -2019,9 +2019,11 @@ Doggie::fetch
 #### Q137. What is the difference between the wait() and sleep methods?
 
 - [ ] Only Threads can wait, but any Object can be put to sleep.
-- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
-- [x] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [x] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [ ] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
 - [ ] Sleep allows for multi-threading whereas wait does not.
+
+[Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/notify.html)
 
 #### Q138. Which is the right way to declare an enumeration of cats?
 
