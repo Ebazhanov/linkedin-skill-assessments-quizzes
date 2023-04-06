@@ -98,11 +98,13 @@ public class Print implements InitializingBean {
 }
 ```
 
-- [x] Nothing will print
+- [ ] Nothing will print
 - [ ] startup
       init
 - [ ] init
-- [ ] startup
+- [x] startup
+
+Explanation: SpringApplication.run method returns the created Context, so main method will continue running and print "startup". Class Print is not a Spring Bean, because it is not annotated with @Component, so it will not be initialized. 
 
 #### Q13. Which println statement would you remove to stop this code throwing a null pointer exception?
 

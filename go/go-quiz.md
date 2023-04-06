@@ -312,7 +312,7 @@ func Add(a, b int) {
 1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
 2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
-> `//go:build windows`  
+> `//go:build windows`
 > "Go versions 1.16 and earlier used a different syntax for build constraints, with a "// +build" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax."
 
 #### Q19. What is the correct way to pass this as a body of an HTTP POST request?
@@ -481,10 +481,10 @@ Relevant excerpt from the article:
 1. [Reference:](https://go.dev/play/p/gtne3iRL9AX)
 2. [testing package in Go](https://pkg.go.dev/testing), the relevant excerpt from the article:
 
-> `Fatal` is equivalent to `Log` followed by `FailNow`.  
-> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.  
-> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.  
-> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).  
+> `Fatal` is equivalent to `Log` followed by `FailNow`.
+> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.
+> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.
+> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).
 > Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
 
 #### Q31. What does `log.Fatal` do?
@@ -763,7 +763,7 @@ type userID int
 - [ ] FilePermission and userID
 - [ ] userID
 
-[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)  
+[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)
 [Reference 2](https://go.dev/tour/basics/3)
 
 #### Q47. Which of the following is correct about structures in Go?
@@ -1030,7 +1030,7 @@ func main() {
 
 - [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.
 
-### Q57. What will this code print?
+#### Q57. What will this code print?
 
 ```go
 var n int
@@ -1044,7 +1044,7 @@ fmt.Println (n)
 
 > This is because in Go, when a variable is declared but not explicitly initialized, it is assigned a default [zero value](https://go.dev/tour/basics/12) based on its type. For integers like n, the zero value is 0.
 
-### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
+#### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
 
 - [x] %s
 - [ ] %b
@@ -1053,7 +1053,7 @@ fmt.Println (n)
 
 > In Go, the %s verb is used to format a string. When used with a custom type that has a String() method defined, the String() method will be automatically called and its return value will be used in the formatted string.
 
-### Q59. Which is not a valid value for layout when calling time. Now ( ) . Format ( layout)?
+#### Q59. Which is not a valid value for layout when calling time. Now ( ) . Format ( layout)?
 
 - [ ] time.REC3339
 - [ ] "1970-01-01"
@@ -1062,7 +1062,7 @@ fmt.Println (n)
 
 > The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM.
 
-### Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.
+#### Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.
 
 - [ ] var_JSONConverter = nil. (\*Namespace)
 - [x] var_JSONConverter = (\*Namespace) (nil)
@@ -1077,7 +1077,7 @@ fmt.Println (n)
 
 > This syntax creates a variable \_ with the type of JSONConverter and assigns to it a value of (\*Namespace)(nil). This essentially checks that the Namespace struct satisfies the JSONConverter interface by ensuring that it can be assigned to a variable of type JSONConverter.
 
-### Q61. Which statement about typing and interfaces is false?
+#### Q61. Which statement about typing and interfaces is false?
 
 - [ ] A method signature is the combination of a method name and the type(s) of its declared parameter(s) and return value(s).
 - [x] A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or
@@ -1089,7 +1089,7 @@ fmt.Println (n)
 
 > # In Go, a type automatically satisfies an interface if it implements all the methods of that interface. There is no need to explicitly declare that a struct implements an interface using a specific keyword.
 
-### Q57. How would you complete this program to generate the specified output, assuming the SQL table
+#### Q62. How would you complete this program to generate the specified output, assuming the SQL table
 
 ```go
 ===[Output]================
@@ -1183,7 +1183,7 @@ func main() {
 #3: games[g.GameId] = &g
 ```
 
-### Q57. Fill in the blanks
+#### Q63. Fill in the blanks
 
 1.  Test files in Go must **\_**.
 2.  Individual tests are identified by **\_**.
@@ -1209,8 +1209,8 @@ func main() {
       <br/>functions accepting a `testing.Test` parameter
       <br/>passing closures to `testing.AddSubtest()`
       <br/>returning an `error` from the function
-      
-#### Q58. Which type is a rune an alias for?
+
+#### Q64. Which type is a rune an alias for?
 
 - [ ] char
 - [ ] byte
@@ -1222,3 +1222,16 @@ func main() {
 Relevant excerpt from the article:
 
 > _The Go language defines the word rune as an alias for the type int32, so programs can be clear when an integer value represents a code point._
+
+#### Q65. When can you use the := syntax to assign to multiple variables? For example:
+
+```go
+x, err := myFunc()
+```
+
+- [x] if it at least has not been declared in that lexical block
+- [ ] at all times, as it will overwrite existing variables
+- [ ] if no variables of those names is accessible
+- [ ] if none of the variables exist in that lexical block
+
+1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)

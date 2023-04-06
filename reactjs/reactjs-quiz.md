@@ -497,8 +497,8 @@ useEffect(() => {
 
 - [ ] It will cause an error immediately.
 - [ ] It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.
-- [ ] It will update the value of name once and not run again until name is changed from the outside.
-- [x] It will cause an infinite loop.
+- [x] It will update the value of name once and not run again until name is changed from the outside.
+- [ ] It will cause an infinite loop.
 
 #### Q49. Which choice will not cause a React component to rerender?
 

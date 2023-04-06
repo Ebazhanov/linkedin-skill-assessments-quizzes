@@ -1221,7 +1221,7 @@ export interface AppSettings {
 - [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
 - [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
 - [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
-- [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
+- [x] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 
@@ -1443,7 +1443,7 @@ export class CustomValidatorDirective implements Validator {}
 
 - [ ] It indicates that the CustomValidatorDirective can be used on multiple form element types.
 - [ ] It allows for multiple instances of the CustomValidatorDirective to be instantiated. Without multi, the CustomValidatorDirective would be a singleton for the entire app.
-- [ ] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
+- [x] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
 - [ ] It indicates that there will be multiple classes that handle the logic implementation for the custom validator.
 
 [StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
@@ -1452,4 +1452,17 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] ng test --single-run=false
 - [ ] ng test --watch-files
 - [ ] ng test --progress
-- [ ] ng test
+- [x] ng test
+	
+#### Q81. What is the most common use for the ngOnDestory lifecle hook?
+- [ ] Remove dome elements from the components's view
+- [ ] All of theses answers
+- [ ] Delete any injected serviced the
+- [x] Unsubscribe from obervables and detach
+	
+#### Q82. What NgModule decorator metadata property is leverage to allow other ....?
+
+- [ ] public
+- [ ] experts
+- [ ] Shared
+- [x] declarations

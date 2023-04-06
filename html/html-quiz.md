@@ -153,7 +153,7 @@
 - [ ] `<div>` is the industry-standard default tag, but you could use `<span>` if you prefer.
 - [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
 
-#### Q16. What should fill the blank in the HTML code bellow?
+#### Q16. What should fill the blank in the HTML code below?
 
 ```html
 <form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>

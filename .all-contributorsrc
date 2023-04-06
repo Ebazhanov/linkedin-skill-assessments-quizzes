@@ -6988,7 +6988,8 @@
       "profile": "http://fb.com/elenderg",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "content"
       ]
     },
     {
@@ -13277,7 +13278,8 @@
       "profile": "https://github.com/zhatiayua",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "content"
       ]
     },
     {
@@ -13287,6 +13289,92 @@
       "profile": "https://www.linkedin.com/in/davidlaket/",
       "contributions": [
         "design",
+        "code"
+      ]
+    },
+    {
+      "login": "castilhera",
+      "name": "Paulo Castilho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32399161?v=4",
+      "profile": "https://github.com/castilhera",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "PicchiSeba",
+      "name": "Sebastiano Picchi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38473030?v=4",
+      "profile": "https://github.com/PicchiSeba",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "pjotar",
+      "name": "pjotar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16525325?v=4",
+      "profile": "https://github.com/pjotar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "RimelCHERIF",
+      "name": "Rimel CHERIF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52446873?v=4",
+      "profile": "https://github.com/RimelCHERIF",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Arsaluddin",
+      "name": "Arsal uddin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91743738?v=4",
+      "profile": "https://github.com/Arsaluddin",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "KasporskiDzmitry",
+      "name": "Dmitry Kasporsky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31612563?v=4",
+      "profile": "https://github.com/KasporskiDzmitry",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SoftwareDev1014",
+      "name": "SoftwareDev1014",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47503803?v=4",
+      "profile": "https://github.com/SoftwareDev1014",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Robvred",
+      "name": "@Robvred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12579254?v=4",
+      "profile": "https://github.com/Robvred",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "KasunShanaka",
+      "name": "Kasun Shanaka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62996748?v=4",
+      "profile": "https://github.com/KasunShanaka",
+      "contributions": [
         "code"
       ]
     }
