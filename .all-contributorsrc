@@ -13387,6 +13387,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "alex-kozin",
+      "name": "Alex Kozin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23097023?v=4",
+      "profile": "https://github.com/alex-kozin",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
