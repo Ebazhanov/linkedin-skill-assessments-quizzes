@@ -630,3 +630,12 @@
 - [ ] Call dropIndex({"<em>id</em>"}) to force its removal.
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/reference/method/db.collection.dropIndex/)
+
+#### Q87. To scale horizontally, what does MongoDB use?
+
+- [x] sharding
+- [ ] replication
+- [ ] partition
+- [ ] backup
+
+[MongoDB reference](https://www.mongodb.com/basics/scaling)
