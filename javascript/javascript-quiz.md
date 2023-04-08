@@ -1214,7 +1214,7 @@ console.log(obj2.a, obj2.b);
 ```js
 let animals = ['jaguar', 'eagle'];
 //Missing Line
-console.log(animals.shift()); //Prints jaguar
+console.log(animals.pop()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
@@ -1222,7 +1222,15 @@ console.log(animals.shift()); //Prints jaguar
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
-[Reference Javascript Array shift()](https://www.w3schools.com/jsref/jsref_shift.asp)
+[Reference Javascript Array pop()](https://www.w3schools.com/jsref/jsref_pop.asp)
+
+shift() - removes the FIRST element of an array and returns the removed item.
+
+pop() - removes the LAST element of an array and returns the removed item.
+
+reverse() - reverses the order of the elements in an array.
+
+filter() - get every element in the array that meets the condition.
 
 #### Q94. What line is missing from this code?
 

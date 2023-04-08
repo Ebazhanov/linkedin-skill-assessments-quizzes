@@ -513,35 +513,35 @@ CREATE TABLE Publishers (
 ```
 
 - [ ] :
-
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
 - [x] :
-
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
 
 - [ ] :
-
-```ALTER TABLE Books
-          ADD CONSTRAINT FK_Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID)
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK_Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID)
 ```
 
 - [ ] :
-
-```ALTER TABLE Publishers
-          ADD CONSTRAINT FK_Publishers_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Books (PublisherID) CASCADE DELETE
+```tsql
+ALTER TABLE Publishers
+ADD CONSTRAINT FK_Publishers_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Books (PublisherID) CASCADE DELETE
 ```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?

@@ -1391,3 +1391,40 @@ echo $smurf->name;
 - [ ] `$GLOBALS`
 - [ ] `$_SESSION`
 - [x] `$_SERVER`
+
+#### Q94. Using a for loop, how would you write PHP code to count backward from 10 to 1, in that order?
+
+- [ ] 
+```php
+<?
+for ($i=1; $i <= 10; $i++) {
+    echo $i;
+}
+?>
+```
+- [ ] 
+```php
+<?
+$i = 10;
+while($i>=0) {
+    echo $i;
+    $i--;
+}
+?>
+```
+- [ ] 
+```php
+<?
+    for($i = 10; $i > 0; $i++) {
+        print "$i <br />\n";
+    } // end for loop '''
+?>
+```
+- [x] 
+```php
+<?
+    for($i = 10; $i > 0; $i--) {
+        print "$i <br />\n";
+    } // end for loop
+?>
+```
