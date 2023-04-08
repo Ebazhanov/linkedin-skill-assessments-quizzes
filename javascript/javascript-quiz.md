@@ -2109,3 +2109,13 @@ let total = sum(4, ...values);
 - [x] document.getElementById("cleverest").style.color = "pink";
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
+  
+  
+#### Q155. What is unique about a generator function?
+  
+- [ ] It becomes a static function on the Object type.;
+- [ ] It has a static arguments array that accumulates with each invocation.;
+- [ ] It never has a return value.;
+- [X] The function execution can be paused and then resumed at a later point.
+  
+[Reference: developer.mozilla Iterators and Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
