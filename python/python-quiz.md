@@ -2469,5 +2469,9 @@ for i in range(m):
 - [ ] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the even numbers from 1 to the key value itself (inclusive)
 - [ ] a dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive)
 
+#### Q179. What operator do you use to assess equality between two elements?
 
-
+- [ ] =
+- [ ] &&
+- [ ] ||
+- [x] ==

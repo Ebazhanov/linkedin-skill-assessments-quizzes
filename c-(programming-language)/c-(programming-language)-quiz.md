@@ -1332,3 +1332,9 @@ strcpy(str1, str2);
 - [ ] str1: "abc" ; str2: "xyz"
 - [ ] str1: "xyz" ; str2: "abc"
 - [ ] str1: "abc" ; str2: "abc"
+
+#### Q84. Which is not one of the basic data types in C?
+- [x] array
+- [ ] float
+- [ ] long double
+- [ ] unsigned char
