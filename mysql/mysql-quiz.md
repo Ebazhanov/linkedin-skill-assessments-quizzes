@@ -377,17 +377,6 @@
 - [ ] `LOAD DATA LOCAL INFILE`
 - [ ] `extended INSERT statement`
 
-#### Q42. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
-
-![mysql Q43](images/mysql_q43.jpg?raw=true)
-
-- [ ] `AFTER INSERT`
-- [x] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
-- [ ] `IF EXISTS`
-
-`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
-
 #### Q43. Which is the correct syntax of an extended insert statement?
 
 - [ ] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
@@ -1135,7 +1124,9 @@ Table name: superheroes
 - [ ] IF EXISTS
 - [ ] CROSS JOIN
 - [x] BEFORE INSERT
-- [ ] AFTER INSERT
+- [ ] AFTER INSERT]
+
+`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
 #### Q118. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
 

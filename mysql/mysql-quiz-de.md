@@ -379,7 +379,7 @@
 
 #### F42. Sie arbeiten mit den Tabellen, wie in diesem Diagramm gezeigt. Sie müssen sicherstellen, dass jeder zur Tabelle „Einkäufe“ hinzugefügte Datensatz aus einer Kunden-ID besteht, die bereits in der Tabelle „Kunden“ vorhanden ist, und einer Fahrzeug-ID, die bereits in der Tabelle „Autos“ vorhanden ist. Sie entscheiden sich, einen Trigger für die Validierung zu verwenden. Welches verwendest du?
 
-![mysql Q43](images/mysql_q43.jpg?raw=true)
+![mysql Q43](images/mysql_q85.jpg?raw=true)
 
 - [ ] `AFTER INSERT`
 - [x] `BEFORE INSERT`
