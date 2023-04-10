@@ -847,13 +847,6 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
 - [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
 
-#### Q82. What methods does this Pointcut expression reference?
-
-- [x] all methods defined in the service package
-- [ ] The Pointcut is not valid.
-- [ ] all methods defined in a service interface
-- [ ] all methods defined in the service package or one of its subpackages
-
 #### Q83. What is a transaction isolation level?
 
 - [ ] executing each transaction in its own dedicated threadpool to facilitate thread isolation
@@ -881,3 +874,62 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] D, E, F
 - [ ] A, B, F
 - [x] B, D, E
+
+
+#### Q85. Which of the Service implementations will be created first?
+
+```java
+@SpringBootApplication
+public class App {
+
+     @Autowired
+     Service service;
+
+     public static void main(String[] args) {
+          SpringApplication.run(App.class, args);
+     }
+}
+@Primary
+@Component
+class Service2Impl implements Service {
+    
+    Service2Impl() {
+        System.out.println("Service2");
+    }
+}
+
+@Component("Service")
+class Service1Impl implements Service {
+    
+    Service1Impl() {
+        System.out.println("Service1");
+    }
+}
+
+interface Service{}
+```
+
+- [ ] Service1
+- [x] Service2
+- [ ] A NullPointerException is thrown at runtime.
+- [ ] There is no way to know until runtime.
+
+Explaination: [Primary indicates that a bean should be given preference when multiple candidates are qualified to autowire a single-valued dependency](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Primary.html)
+
+#### Q86. What methods does this Pointcut expression reference?
+
+```java
+     execution(* com.linkedin.service..*.*(..))
+```
+
+- [x] all methods defined in the service package or one of it's subpackages
+- [ ] all methods defined in the service package
+- [ ] The pointcut is not valid.
+- [ ] all methods defined in a service interface
+
+#### Q87. Which is not a core facet of Spring's ecosystem?
+
+- [ ] Spring Data
+- [ ] Spring MVC
+- [x] Spring Bootstrap
+- [ ] Spring Cloud
