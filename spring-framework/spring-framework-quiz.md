@@ -394,7 +394,7 @@ private String val;
 
 #### Q44. In the Spring Bean lifecycle pictured, what should the third step of the process be?
 
-![Alt text](https://usaupload.com/cache/plugins/filepreviewer/69009/c5e6eedce33819dd3b16bff7590d244b0fedf52561323c444b4b63e19e61e2e8/1100x800_cropped.jpg 'Spring bean lifecycle')
+![diagram](images/spring-framework_q44.png)
 
 - [ ] Persist bean definitions into a database
 - [x] Instance bean objects
