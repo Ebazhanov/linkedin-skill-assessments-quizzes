@@ -202,9 +202,9 @@
 #### Q27. Which formula correctly counts the number of numeric values in both B4:E4 and G4:I4?
 
 - [ ] =COUNT(B4:E4&G4:I4)
-- [ ] =COUNT(B4:E4,G4:I4)
+- [x] =COUNT(B4:E4,G4:I4)
 - [ ] =COUNT(B4:E4 G4:I4)
-- [x] =COUNT(B4:I4)
+- [ ] =COUNT(B4:I4)
 
 #### Q28. After activating a chart, which sequence adds a trendline to the chart?
 
