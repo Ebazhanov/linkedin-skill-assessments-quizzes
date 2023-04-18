@@ -7,7 +7,7 @@
 - [ ] **Design** view
 - [ ] **Form** view
 
-#### Q2. How can you add multiple view button controls to a form at once?
+#### Q2. How can you add multiple button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
 - [x] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
@@ -26,7 +26,7 @@
 
 #### Q4. The relationship field in this table has been created with what feature?
 
-`<p align="center"><img src="./images/question_4.png"></p>`
+<p align="center"><img src="./images/question_4.png"></p>
 
 - [x] lookup
 - [ ] reference integrity
@@ -49,7 +49,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-using-a-crosstab-query-8465b89c-2ff2-4cc8-ba60-2cd8484667e8)
 
-#### Q7. What currency format displays a thousand separator, but not a currency symbol, such as $ or €?
+#### Q7. What currency format displays a thousands separator, but not a currency symbol, such as $ or €?
 
 - [ ] Scientific
 - [x] Standard
@@ -67,7 +67,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65-4450-8917-93d83319b678)
 
-#### Q9. You want to create a form to view customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
+#### Q9. You want to create a form to view a customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
 - [ ] Use a form to display the customer details with a subform linked to their order information
 - [x] Create a split form that displays the customer information at the top and the order history in the table below
@@ -259,3 +259,45 @@
 #### Q30. What is the operator for "not equal to"
 
 - [x] < >
+
+#### Q31. You need to email a report to a coworker that maintains all formatting and page layout attributes. Which file format should you choose from the **Print Preview** ribbon?
+
+- [ ] Excel
+- [ ] HTML
+- [ ] Word
+- [ ] PDF
+
+#### Q32. Which section can a form *not* contain?
+
+- [ ] Group Header & Footer
+- [ ] Form Header & Footer
+- [ ] Detail
+- [ ] Page Header & Footer
+
+#### Q33. The **Run** button and the **View Datasheet** button do exactly the same thing for which query type?
+
+- [ ] select
+- [ ] append
+- [ ] make table
+- [ ] delete
+
+#### Q34. You have a database file that generates an error from a custom macro immediately after opening. How can you open the database and bypass the startup options to prevent the macro from running so that you can fix the error?
+
+- [ ] In the **Open File** dialog box, click the down arrow on the **Open** button and select **Disable Macros**.
+- [ ] Hold the Shift key while double-clicking the **database** icon.
+- [ ] Right-click the database icon and select **Run as Administrator**.
+- [ ] From the **File** menu, select **Open as Read-Only**.
+
+#### Q35. You want to ensure that a query recordset is read-only and cannot modify the underlying data tables it references. How can you do that?
+
+- [ ] Set the Recordset Type property to Snapshot.
+- [ ] Set the Output All Fields property to No.
+- [ ] Set the Link Master Fields property to No.
+- [ ] Set the Recordset Type property to Dynaset (Inconsistent Updates).
+
+#### Q36. Which form control object contains a number of option buttons, check boxes, or toggle buttons, and allows the user to make only a single selection?
+
+- [ ] option group
+- [ ] switch control
+- [ ] bound selection
+- [ ] object selector
