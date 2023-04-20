@@ -321,7 +321,7 @@ E. Ellipse
 #### Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?
 
 - [ ] Shadows
-- [ ] Contrast
+- [X] Contrast
 - [ ] Midtones
 - [ ] Blacks
 
