@@ -339,7 +339,7 @@ E. Ellipse
 - [ ] Sequence
 - [ ] File
 - [ ] Edit
-- [ ] Clip
+- [X] Clip
 
 #### Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?
 
@@ -353,7 +353,7 @@ E. Ellipse
 - [ ] Touch
 - [ ] Latch
 - [ ] Write
-- [ ] Read
+- [X] Read
 
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
@@ -404,7 +404,7 @@ E. Ellipse
 - [ ] 4:0:0
 - [ ] 4:4:4
 - [ ] 4:2:2
-- [ ] 4:2:0
+- [X] 4:2:0
 
 #### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
 
