@@ -280,7 +280,7 @@ E. M4A
 
 #### Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?
 
-- [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
+- [X] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Replace with After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.
