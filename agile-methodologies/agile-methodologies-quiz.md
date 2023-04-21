@@ -23,10 +23,10 @@
 
 #### Q4. A team member has been showing signs of great personal distress: crying at work, snapping at colleagues, having heated phone conversations. As Team Facilitator, what should you do?
 
-- [ ] Give the team member space and time to deal with their personal issues.
-- [ ] Tell the others on the team that their teammate needs some emotional support.
-- [x] Notify the team member's manager of your observations and ask the manager for help.
-- [ ] Ask the team member if they would like to talk about what might be going on with them personally.
+- [ ] Report this at the Sprint Release.
+- [x] Advise the PO as soon as possible. (Old answer: Notify the team member's manager of your observations and ask the manager for help.)
+- [ ] Point out the reasons why and collaborate on solutions.
+- [ ] Ask the PO to extend the sprint.
 
 #### Q5. Which statement describes the flow of work in the Scaled Agile Framework?
 
@@ -504,10 +504,10 @@
 
 #### Q70. Which phrase best describes an Agile team?
 
-- [ ] self-directed
-- [ ] self-managed
-- [ ] self-sustaining
-- [x] self-organizing
+- [ ] A silo-skilled, self-directed team led by a project manager.
+- [ ] A cross-functional, long-lived group without deadlines.
+- [x] A cross-functional, self-organized team with collective accountability.
+- [ ] A skilled, temporary team focused on a single project.
 
 #### Q71. Which technique does not help prioritize the backlog?
 
@@ -993,7 +993,7 @@ It's the same as Q81, just slightly differently phrased question.
 - [x] The actor can be the system itself
 - [ ] The actor does not have to be a specified role in the solution
 
-#### Q135. Which choice is not a recognized framework fr scaling agile?
+#### Q135. Which choice is not a recognized framework for scaling Agile?
 
 - [ ] LeSS
 - [ ] DA
@@ -1008,3 +1008,13 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] Sprint Demos
 - [ ] Retrospectives
 - [x] Sprint Planning
+
+#### Q137. When working with a Scrum team, who is chiefly responsible for ensuring that the project delivers value?
+
+- [ ] Product Owner
+- [x] Development Team
+- [ ] Scrum Master
+- [ ] Quality Assurance
+
+[Source](https://www.atlassian.com/agile/scrum/roles) `"The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, `**`the development team deliver the value`**`, and the scrum team to get to get better."`
+
