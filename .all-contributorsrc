@@ -13418,6 +13418,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "alexlogvin",
+      "name": "Alex Logvin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6129602?v=4",
+      "profile": "http://alexlogvin.altervista.org",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

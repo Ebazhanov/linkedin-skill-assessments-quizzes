@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1353-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1354-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 >:warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1884,6 +1884,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://mandymeindersma.com/"><img src="https://avatars.githubusercontent.com/u/17459171?v=4?s=100" width="100px;" alt="Mandy Meindersma"/><br /><sub><b>Mandy Meindersma</b></sub></a><br /><a href="#design-MandyMeindersma" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MandyMeindersma" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rahib777-7"><img src="https://avatars.githubusercontent.com/u/74979271?v=4?s=100" width="100px;" alt="LEGALISE PIRACY"/><br /><sub><b>LEGALISE PIRACY</b></sub></a><br /><a href="#design-Rahib777-7" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rahib777-7" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://alexlogvin.altervista.org"><img src="https://avatars.githubusercontent.com/u/6129602?v=4?s=100" width="100px;" alt="Alex Logvin"/><br /><sub><b>Alex Logvin</b></sub></a><br /><a href="#design-alexlogvin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alexlogvin" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
