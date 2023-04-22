@@ -339,7 +339,8 @@ E. Ellipse
 - [ ] Sequence
 - [ ] File
 - [ ] Edit
-- [ ] Clip
+- [X] Clip
+https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.
 
 #### Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?
 
@@ -353,7 +354,10 @@ E. Ellipse
 - [ ] Touch
 - [ ] Latch
 - [ ] Write
-- [ ] Read
+- [X] Read
+
+https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.
+
 
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
@@ -404,7 +408,9 @@ E. Ellipse
 - [ ] 4:0:0
 - [ ] 4:4:4
 - [ ] 4:2:2
-- [ ] 4:2:0
+- [X] 4:2:0
+
+https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910
 
 #### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
 
