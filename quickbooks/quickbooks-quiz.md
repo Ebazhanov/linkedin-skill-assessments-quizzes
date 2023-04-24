@@ -68,7 +68,7 @@
 - [ ] It allows you to get customer level detail later.
 - [ ] It gets the cash into your checking account as quickly as possible.
 - [ ] It automates the deposit system, so you don't have to physically go to the bank to complete the deposit.
-- [ ] It allows you to record daily "lump sum" sales quickly and efficiently.
+- [X] It allows you to record daily "lump sum" sales quickly and efficiently.
 
 #### Q11. You are running your Profit and Loss report and notice it is on a cash basis rather than an accrual basis. How can you correct this to show the correct basis?
 
