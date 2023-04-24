@@ -59,9 +59,11 @@
 #### Q9. Why would you use the Items tab when entering a bill?
 
 - [ ] to track freight charges separately from the expense account
-- [ ] to track expenses
+- [X] to track expenses
 - [ ] to assign a cost to a job or to purchase an inventory item
 - [ ] to track credits
+
+https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-entering-bill-track-freight-charges-separately-expense-account-b-track-q86659682
 
 #### Q10. Why is it good practice to use the Bank Deposit screen to record sales not tracked to individual customers?
 
