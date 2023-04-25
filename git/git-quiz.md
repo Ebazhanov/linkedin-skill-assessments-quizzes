@@ -570,7 +570,7 @@ git checkout -b beta-test
 - [ ] git restore
 - [ ] git undo
 - [ ] git clean
-- [x] git checkout
+- [x] git checkout .
 
 #### Q68. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
