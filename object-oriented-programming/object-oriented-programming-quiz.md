@@ -211,7 +211,7 @@
 - [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
 - [ ] the exact same thing as a function and subroutine
 - [ ] a set of variables that can change over time
-- [x] a procedure associated with data and behaviour
+- [x] They are functions attached to specific classes (or instances) in object-oriented programming.
 
 #### Q30. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
 
