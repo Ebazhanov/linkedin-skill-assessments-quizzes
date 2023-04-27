@@ -824,3 +824,11 @@ D. Start When Clicked On
 - [ ] number of columns and length of columns
 - [ ] only the number of columns
 - [x] number of columns and space between columns
+
+
+#### Q105. You would like several of the slides in your presentation to use the same font for the title text. The slides all use the same slide layout. What is the most efficient way to apply the desired font to those slides?
+
+- [ ] Change the font on each individual slide as it is added.
+- [ ] Use the Duplicate Selected Slides command.
+- [x] Change the font on the Slide Master for that layout.
+- [ ] Use the Reuse Slides command. 
