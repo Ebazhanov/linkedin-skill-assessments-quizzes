@@ -295,7 +295,7 @@ MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jen
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-- [ ] B
+- [x] B
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,
@@ -315,6 +315,9 @@ AND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
+
+[Explaination:]The correct Cypher code to execute a multiquery block would use commas to separate each query in a single statement. In this case, option B has all the queries separated by commas, making it the correct choice. Option A has the correct queries, but they are separated by "RETURN" which is not correct syntax for multiquery. Option C has an additional "AND" before the second query which is also not correct syntax. Option D has each query separated by semicolons, which would execute them as separate queries, not as a multiquery block.
+
 
 #### Q42. You need to create a scalable database that supports immutable writes. What do you use?
 
