@@ -956,12 +956,14 @@ def self.get_next_card(self):
 - [ ] `def get_max_num([57, 99, 31, 18])`
 - [ ] `call.get_max_num([57, 99, 31, 18])`
 
-#### Q73. How is comment created?
+#### Q73. How do you add a comment to existing Python script?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
-- [ ] `/_ This is a comment _\`
+- [ ] `/* This is a comment */`
 - [ ] `// This is a comment`
+
+[Reference](https://realpython.com/python-comments-guide/)
 
 #### Q74. What is the correct syntax for replacing the string apple in the list with the string orange?
 
@@ -1271,7 +1273,7 @@ print(num_list)
 - [ ] `[3,4,5]`
 - [ ] `[1,2,3]`
 
-**Explanation**:
+**Explanation**: `.remove()` is based on the value of the item, not the index; here, it is removing the item matching "2".  If you wanted to remove an item based on its index, you would use `.pop()`.
 
 ```python
 num_list = [1,2,3,4,5]
@@ -1621,7 +1623,7 @@ num_list[len(num_list) // 2]
 - [ ] mean
 - [x] median
 
-**Explanation:** The median is the value separating the higher half from the lower half of a data sample. Here it is 13.
+**Explanation:** `//` is the operator for floor division, which is a normal division operation that returns the largest possible integer, either less than or equal to the normal division result.  Here it is used to find the median, which is the value separating the higher half from the lower half of a data sample, by finding the index of the list item in the middle of the list.  (This is sufficient for a list with an odd number of items; if the list had an even number of items, you would average the values of the two middle items to find the median value.)
 
 #### Q118. What are the two main data structures in the Pandas library?
 
@@ -1808,6 +1810,10 @@ _init_() -always executed when the class is being initiated
 - [ ] `import math.sin`
 - [x] `from math import sin`
 - [ ] `import sin from math`
+
+[Reference](https://www.datacamp.com/tutorial/modules-in-python#more-on-import-statements)
+
+**Explanation:** The `from..import` statement allows you to import specific functions/variables from a module instead of importing everything. 
 
 #### Q133. What do you get if you apply numpy.sum() to a list that contains only Boolean values?
 
@@ -2146,7 +2152,7 @@ for i in range(5): pass
 
 **Explanation**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 
-#### Q156 What will be the value of y in this code?
+#### Q156. What will be the value of y in this code?
 
 ```python
 x = 5
@@ -2158,9 +2164,18 @@ y = 1 + (20 if x < 5 else 30)
 - [ ] 2
 - [x] 31
 
-**Explanation:**
-If x < 5 ==> y = 1 + 20
-Else y = 1 + 30
+[Reference](https://www.w3schools.com/python/python_conditions.asp)
+
+**Explanation:** If you have only one statement to execute, one for `if` and one for `else`, you can put it all on the same line.
+```python
+x = 5
+# This is the same statement expanded to multiple lines
+y = 1
+if (x < 5):
+    y += 20
+else:
+    y += 30
+```
 
 #### Q157.The process of pickling in Python includes?
 
