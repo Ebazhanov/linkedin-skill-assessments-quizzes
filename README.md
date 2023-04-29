@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1357-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1358-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 >:warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1888,6 +1888,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/ariacomputer"><img src="https://avatars.githubusercontent.com/u/10091898?v=4?s=100" width="100px;" alt="Aria Dahl"/><br /><sub><b>Aria Dahl</b></sub></a><br /><a href="#design-ariacomputer" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ariacomputer" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.xcrafted.co.uk"><img src="https://avatars.githubusercontent.com/u/21038876?v=4?s=100" width="100px;" alt="Mustafa Arifoglu"/><br /><sub><b>Mustafa Arifoglu</b></sub></a><br /><a href="#design-marifoglu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=marifoglu" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://yevhen999.vercel.app"><img src="https://avatars.githubusercontent.com/u/105009162?v=4?s=100" width="100px;" alt="Yevhen Leshchenko"/><br /><sub><b>Yevhen Leshchenko</b></sub></a><br /><a href="#design-Yevhen999" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Yevhen999" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/anubhav1206"><img src="https://avatars.githubusercontent.com/u/53504460?v=4?s=100" width="100px;" alt="Anubhav Adhikari"/><br /><sub><b>Anubhav Adhikari</b></sub></a><br /><a href="#design-anubhav1206" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=anubhav1206" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
