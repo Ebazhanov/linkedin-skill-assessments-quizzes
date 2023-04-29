@@ -186,8 +186,8 @@
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
-- [x] Escape all whitespaces expect space characters.
-- [ ] Escape line breaks.
+- [ ] Escape all whitespaces expect space characters.
+- [x] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
 
@@ -264,7 +264,7 @@
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```json
 {
@@ -284,7 +284,7 @@
 }
 ```
 
-- [x] E
+- [ ] E
 
 ```json
 {
@@ -296,16 +296,16 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [ ] yes
+- [x] yes
 - [ ] only if there is more than one item
-- [x] no
+- [ ] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
-- [ ] double quotes, slashes new lines, and carriage returns
-- [x] new lines and carriage returns only
+- [x] double quotes, slashes new lines, and carriage returns
+- [ ] new lines and carriage returns only
 - [ ] double quotes only
 
 #### Q21. Which is supported by YAML but not supported by JSON?
