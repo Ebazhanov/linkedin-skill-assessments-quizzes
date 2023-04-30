@@ -803,3 +803,13 @@ public class Honda extends Car{}
 - [ ] reference
 - [ ] value
 - [ ] value or reference, depending on program
+
+
+#### Q106. What is a method?
+
+- [x] a function associated with data and behavior
+- [ ] the exact same thing as a function and subroutine
+- [ ] a set of variables that can change over time
+- [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
+
+
