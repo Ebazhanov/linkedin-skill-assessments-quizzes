@@ -576,8 +576,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
-- [ ] UPC: "043875"
-- [x] "UPC": 043875
+- [x] UPC: "043875"
+- [ ] "UPC": 043875
 - [ ] UPC: '043875'
 
 #### Q44. Which data format is a JSON schema written in?
@@ -769,10 +769,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q67. Can you assume the order of keys in an object?
 
-- [x] No, but you can sort the keys with `JSON.sort()`.
+- [ ] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
-- [ ] No, you can never assume object keys will be in order.
+- [x] No, you can never assume object keys will be in order.
 
 #### Q68. With what character should object keys be enclosed?
 
