@@ -371,8 +371,8 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 - [x] `clear_cache`
 - [ ] `notify_admin_users`
 - [ ] None of these callbacks will be called when `is_admin` is true.
-[Explanation]:
-When saving the User model and model.is_admin is set to true, the after_save callback will be called.
+      [Explanation]:
+      When saving the User model and model.is_admin is set to true, the after_save callback will be called.
 
 The before_save callback with the unless: ->(model) { model.is_admin } condition will not be called because the is_admin attribute is true.
 
@@ -487,8 +487,8 @@ end
 - [ ] An instance variable should be used for flash[:notice]
 - [x] This is an invalid syntax to use to assign valuse to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
-[Explanation]:
-The cause of the bug is a syntax error in the line that sets the value of the flash[:notice] message. The string literal "You have been logged out" is not properly enclosed in the surrounding string literal.
+      [Explanation]:
+      The cause of the bug is a syntax error in the line that sets the value of the flash[:notice] message. The string literal "You have been logged out" is not properly enclosed in the surrounding string literal.
 
 #### Q41. Which statement about ActiveRecord models is true?
 
@@ -1051,4 +1051,3 @@ end
 - [x] `params.require(:project).permit(:name, :visible, :description)`
 
 [Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
-

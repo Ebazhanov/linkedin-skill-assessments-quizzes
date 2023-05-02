@@ -654,5 +654,5 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 
 - [ ] ()OPTIONS(colnames(x)<-NULL)
 - [ ] ()OPTIONS(max.print=5)
-- [ ] ()OPTIONS(continue="... ", 
+- [ ] ()OPTIONS(continue="... ",
 - [x] ()OPTIONS(stringAsFactors=TRUE

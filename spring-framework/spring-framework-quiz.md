@@ -104,7 +104,7 @@ public class Print implements InitializingBean {
 - [ ] init
 - [x] startup
 
-Explanation: SpringApplication.run method returns the created Context, so main method will continue running and print "startup". Class Print is not a Spring Bean, because it is not annotated with @Component, so it will not be initialized. 
+Explanation: SpringApplication.run method returns the created Context, so main method will continue running and print "startup". Class Print is not a Spring Bean, because it is not annotated with @Component, so it will not be initialized.
 
 #### Q13. Which println statement would you remove to stop this code throwing a null pointer exception?
 
@@ -875,7 +875,6 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] A, B, F
 - [x] B, D, E
 
-
 #### Q85. Which of the Service implementations will be created first?
 
 ```java
@@ -892,7 +891,7 @@ public class App {
 @Primary
 @Component
 class Service2Impl implements Service {
-    
+
     Service2Impl() {
         System.out.println("Service2");
     }
@@ -900,7 +899,7 @@ class Service2Impl implements Service {
 
 @Component("Service")
 class Service1Impl implements Service {
-    
+
     Service1Impl() {
         System.out.println("Service1");
     }

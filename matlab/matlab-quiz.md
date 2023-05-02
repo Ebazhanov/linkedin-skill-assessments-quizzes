@@ -1155,7 +1155,6 @@ else
 
 [Reference](https://www.mathworks.com/help/matlab/ref/if.html)
 
-
 #### Q78. What does b contain?
 
 ```

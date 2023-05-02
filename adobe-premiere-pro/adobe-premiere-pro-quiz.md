@@ -280,7 +280,7 @@ E. M4A
 
 #### Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?
 
-- [X] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
+- [x] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Replace with After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.
@@ -321,7 +321,7 @@ E. Ellipse
 #### Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?
 
 - [ ] Shadows
-- [X] Contrast
+- [x] Contrast
 - [ ] Midtones
 - [ ] Blacks
 
@@ -339,8 +339,8 @@ E. Ellipse
 - [ ] Sequence
 - [ ] File
 - [ ] Edit
-- [X] Clip
-https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.
+- [x] Clip
+      https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.
 
 #### Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?
 
@@ -354,10 +354,9 @@ https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-i
 - [ ] Touch
 - [ ] Latch
 - [ ] Write
-- [X] Read
+- [x] Read
 
 https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.
-
 
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
@@ -408,7 +407,7 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 - [ ] 4:0:0
 - [ ] 4:4:4
 - [ ] 4:2:2
-- [X] 4:2:0
+- [x] 4:2:0
 
 https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910
 
@@ -435,6 +434,7 @@ C. PSD
 D. DNG
 E. PDF
 ```
+
 - [ ] A, C, E
 - [ ] A, B, C
 - [ ] B, D, E
@@ -461,5 +461,4 @@ E. PDF
 - [ ] VBR, 1 Pass
 - [ ] VBR, 2 Pass
 - [ ] CBR
-- [X] Use Maximum Render Quality
- 
+- [x] Use Maximum Render Quality

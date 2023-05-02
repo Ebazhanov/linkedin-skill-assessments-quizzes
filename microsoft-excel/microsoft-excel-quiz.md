@@ -1293,7 +1293,6 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] treemap
 - [ ] box and whisker
 
-
 #### Q146. What type of chart is this?
 
 ![Q146](https://user-images.githubusercontent.com/125942986/223951588-6460e0d2-9c18-4232-b087-5741e3212d3c.png)

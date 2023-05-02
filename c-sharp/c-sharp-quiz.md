@@ -826,9 +826,9 @@ void MyFunction()
 - [ ] `InputManager().DebugString;`
 - [ ] `new InputManager().DebugString();`
 - [x] `InputManager.DebugString();`
-    
+
 #### Q78. What values can be assigned to this variable?
-    
+
 ```cs
 public string? nickname
 ```

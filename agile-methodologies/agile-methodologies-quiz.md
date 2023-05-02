@@ -1017,4 +1017,3 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] Quality Assurance
 
 [Source](https://www.atlassian.com/agile/scrum/roles) `"The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, `**`the development team deliver the value`**`, and the scrum team to get to get better."`
-

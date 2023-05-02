@@ -797,13 +797,12 @@ public class Honda extends Car{}
 - [ ] making all methods private
 - [ ] using words to define classes
 
-#### Q105. object are passed by ___?
+#### Q105. object are passed by \_\_\_?
 
 - [x] value or reference, depending on the programmin language used
 - [ ] reference
 - [ ] value
 - [ ] value or reference, depending on program
-
 
 #### Q106. What is a method?
 
@@ -811,5 +810,3 @@ public class Honda extends Car{}
 - [ ] the exact same thing as a function and subroutine
 - [ ] a set of variables that can change over time
 - [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
-
-

@@ -827,7 +827,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] A reply is added to the comment
 - [x] The comment appears dimmed
 
-#### Q106. Using the Styles group in Word lets you quickly ______?
+#### Q106. Using the Styles group in Word lets you quickly **\_\_**?
 
 - [ ] apply frames and artistic effects to graphics
 - [ ] modify page margins

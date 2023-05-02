@@ -193,10 +193,9 @@
 - [ ] Security Envelope
 - [ ] Email Review
 
-
 #### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
 
-- [ ] Press-ready PDF 
+- [ ] Press-ready PDF
 - [ ] Optimized PDF
 - [ ] Certified PDF
 - [ ] Reader Extended PDF
@@ -210,7 +209,7 @@
 
 #### Q30. You would like to use a drag-and-drop method to convert multiple selected PDF files from color to greyscale. What feature will allow you to do this?
 
-- [ ]  Action Wizard
+- [ ] Action Wizard
 - [ ] Custom Tool
 - [ ] Preflight Droplet
 - [ ] Optimize PDF
@@ -228,4 +227,3 @@
 - [ ] A GIF player is not installed.
 - [ ] Flash Player is not installed.
 - [ ] QuickTime is not installed.
-

@@ -757,6 +757,7 @@ std::vector<std::vector<int>> thematrix;
 - [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
+
 #### Q42.b. What is the statement equivalent to?
 
 ```cpp

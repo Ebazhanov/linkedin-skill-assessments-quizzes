@@ -267,7 +267,7 @@
 - [ ] Word
 - [ ] PDF
 
-#### Q32. Which section can a form *not* contain?
+#### Q32. Which section can a form _not_ contain?
 
 - [ ] Group Header & Footer
 - [ ] Form Header & Footer

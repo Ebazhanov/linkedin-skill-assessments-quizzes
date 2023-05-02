@@ -147,7 +147,7 @@
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/scale-based-symbol-sizing.htm)
 
-#### Q20. When trying to publish a web feature layer from ArcGIS Pro to ArcGIS Online, the analyzer returns the error message "Layer uses an unsupported renderer or property." Which symbology method would cause this error? 
+#### Q20. When trying to publish a web feature layer from ArcGIS Pro to ArcGIS Online, the analyzer returns the error message "Layer uses an unsupported renderer or property." Which symbology method would cause this error?
 
 - [x] unique values
 - [ ] dot density
