@@ -958,3 +958,54 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `"\s(_)(X 72(_)|\/||*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||*"`
 - [ ] `"|=(_)(X 72(_)|\/||*"`
+
+#### Q88. How can you change this array to make it valid?
+
+`{"rey",'leia',"ashoka",}`
+
+- [ ] `['rey', 'leia', "ashoka",}`
+- [ ] `['rey', 'leia', 'ashoka',}`
+- [x] `["rey", "leia", "ashoka"]`
+- [ ] `{"rey", "leia", "ashoka"}` 
+
+#### Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?
+
+- [ ] zero or more digits
+- [ ] one or more digits
+- [x] a period
+- [ ] a dollar sign
+
+#### Q90. Who would you modify the array below to store additional attributes for each student?
+
+```json
+{
+  "students": ["Tess", "Erin", "June"]
+}
+```
+
+- [x] Convert each student to an object, then add key/value paris to each student object as needed.
+- [ ] Add additional name/value pairs, separated by commas, after "students".
+- [ ] Convert each student into an array and add extra elements to the array.
+- [ ] Wrap the existing "students" key with curly braces.
+
+#### Q91. Which is *not* a valid JSON number
+
+- [ ] `99999999999999999999`
+- [x] `"42"`
+- [ ] `-32`
+- [ ] `1111.00.110011`
+
+#### Q92. What is the maximum string length in JSON?
+
+- [ ] 512 characters
+- [x] There is no defined limit.
+- [ ] 2,056 characters
+- [ ] 1,024 characters
+
+#### Q93. What method is used to export a JavaScript object into JSON notation?
+
+- [ ] `JSON.convert()`
+- [x] `JSON.stringify()`
+- [ ] `JSON.export()`
+- [ ] `JSON.string()`
+
