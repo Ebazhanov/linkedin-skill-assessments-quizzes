@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1362-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1363-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1895,6 +1895,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mohitgadhavi1"><img src="https://avatars.githubusercontent.com/u/37660846?v=4?s=100" width="100px;" alt="Mohit Gadhavi"/><br /><sub><b>Mohit Gadhavi</b></sub></a><br /><a href="#design-mohitgadhavi1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mohitgadhavi1" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pedrocostab"><img src="https://avatars.githubusercontent.com/u/40375460?v=4?s=100" width="100px;" alt="Pedro Basílio"/><br /><sub><b>Pedro Basílio</b></sub></a><br /><a href="#design-pedrocostab" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pedrocostab" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/realsanjeev"><img src="https://avatars.githubusercontent.com/u/45820805?v=4?s=100" width="100px;" alt="RealSanjeev"/><br /><sub><b>RealSanjeev</b></sub></a><br /><a href="#design-realsanjeev" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=realsanjeev" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/iamakashhazra"><img src="https://avatars.githubusercontent.com/u/4105390?v=4?s=100" width="100px;" alt="Akash Hazra"/><br /><sub><b>Akash Hazra</b></sub></a><br /><a href="#design-iamakashhazra" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=iamakashhazra" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
