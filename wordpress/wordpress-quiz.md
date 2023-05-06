@@ -733,7 +733,7 @@ var x = '16';
 - [ ] installing/using the Wordpress Multilingual Plugin.
 - [ ] using a gettext function to wrap transatable strings when writing code.
 
-#### Q83. The REST API provides data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access sute data via the REST API?
+#### Q83. The REST API provides data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access site data via the REST API?
 
 - [ ] Disable the REST API via the site's wp-config.php file.
 - [ ] Use the rest_authenticaton_errors() filter along with the is_user_logged_in() conditional to limit access to logged in users.
