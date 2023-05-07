@@ -693,3 +693,9 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] DOCX Windows) or DOCM (Mac)
 
 [Reference link](https://www.codetwo.com/admins-blog/export-outlook-contacts/)
+
+#### Q95. Without leaving the Email page, which is the most efficient way to add the contact of someone who sent you an email?
+-[ ] Copy and paste their email address into a new contact form.
+-[ ]  Open the email and press Ctrl+Q (Windows) or Command + Q (Mac).
+-[x]  On Windows, right-click the sender's name in the message and select Add to Outlook Contacts. On Mac, Control+click the sender's name in the message and select Open Outlook contact > Add to Contacts > Save and then Close.
+-[ ]  Double-click the sender's email address in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).
