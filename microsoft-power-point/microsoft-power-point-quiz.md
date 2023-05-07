@@ -831,3 +831,9 @@ D. Start When Clicked On
 - [ ] Use the Duplicate Selected Slides command.
 - [x] Change the font on the Slide Master for that layout.
 - [ ] Use the Reuse Slides command.
+
+#### Q106. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1?
+- [ ] Custom Number
+- [ ] AutoNumber
+- [ ] Align Number
+- [x] Start At
