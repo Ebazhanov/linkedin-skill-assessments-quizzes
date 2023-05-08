@@ -440,7 +440,7 @@ FROM customers c;
 - [ ] GROUP BY
 - [ ] FILTER
 - [ ] SUB-SELECT
-- [ ] SORT
+- [x] SORT
 
 #### Q62. What custom object should you implement to reduce IO in MapReduce?
 
