@@ -819,7 +819,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
 - [x] Create a custom dictionary that includes your specific terminology
- 
+
 [Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
 #### Q105. What happens when you resolve a comment?
@@ -854,11 +854,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 [Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
 
 #### Q109. What tasks are required to create a template from an existing document?
+
     A. Remove content specific to the existing document.
     B. Create a template folder for the file.
     C. Save the file as a template(.dotx) file.
     D. Open the template and use it.
-  
+
 - [x] A, C
 - [ ] A, B, C, D
 - [ ] A, B, C
