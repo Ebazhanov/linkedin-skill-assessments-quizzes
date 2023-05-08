@@ -818,7 +818,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
-- [ ] Create a custom dictionary that includes your specific terminology
+- [x] Create a custom dictionary that includes your specific terminology
+ 
+[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
 #### Q105. What happens when you resolve a comment?
 
