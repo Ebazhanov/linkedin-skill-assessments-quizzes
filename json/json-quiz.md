@@ -966,7 +966,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] `['rey', 'leia', "ashoka",}`
 - [ ] `['rey', 'leia', 'ashoka',}`
 - [x] `["rey", "leia", "ashoka"]`
-- [ ] `{"rey", "leia", "ashoka"}` 
+- [ ] `{"rey", "leia", "ashoka"}`
 
 #### Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?
 
@@ -988,7 +988,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] Convert each student into an array and add extra elements to the array.
 - [ ] Wrap the existing "students" key with curly braces.
 
-#### Q91. Which is *not* a valid JSON number
+#### Q91. Which is _not_ a valid JSON number
 
 - [ ] `99999999999999999999`
 - [x] `"42"`
@@ -1008,4 +1008,3 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `JSON.stringify()`
 - [ ] `JSON.export()`
 - [ ] `JSON.string()`
-
