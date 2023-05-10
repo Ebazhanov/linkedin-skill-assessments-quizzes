@@ -227,3 +227,61 @@
 - [ ] A GIF player is not installed.
 - [ ] Flash Player is not installed.
 - [ ] QuickTime is not installed.
+
+
+#### Q33. You make a last-minute change to some text in a client's PDF. When you change the text, the appearance of the corrected text does not match the surrounding text. What might be the cause of this issue?
+ 
+- [ ] The font is embedded in the PDF.
+- [ ] The surrounding text is in a locked layer.
+- [ ] The font is not embedded in the PDF.
+- [x] The required font is not active on your system. 
+
+#### Q34. To attach a PDF to an email for a client's approval, you need to considerably reduce the size of the PDF. Which method will give you the most extensive options for reducing file size?
+
+- [ ] File > Save As Other > Reduced Size PDF
+- [x] File > Save As Other > Optimized PDF             
+- [ ] File > Export To > Image
+- [ ] File > Export To > PostScript
+
+
+#### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
+
+- [ ]Preferences > Signatures > Identities & Trusted Certificates
+- [ ] Preferences > Signatures > Document Timestamping
+- [ ] Preferences > Signatures > Verification
+- [x] Preferences > Signatures > Creation and Appearance      
+
+#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
+
+- [ ] Edit the image settings in File > Save As Other > Optimized PDF.
+- [ ] Enable the Export All Images checkbox in Tools > Export PDF > Image.
+- [x] Turn off the Extract Pages as Separate Files checkbox in Organize Pages > Extract.  
+- [ ] Edit the conversion settings in File > Export > Image > JPEG.
+
+#### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
+
+- [ ] The text is redacted.
+- [ ] The text is in a locked layer.
+- [ ] The PDF has limited permissions.
+- [x] The PDF is a scanned document.          
+
+#### Q38. You are creating PDFs for a government agency. Which specification in the quote request from the agency contact indicates that the PDFs you submit must meet accessibility guidelines?
+
+- [x] Section 508 compliance           
+- [ ] Section 509a compliance
+- [ ] Section 510 compliance
+- [ ] Section 501c compliance
+
+#### Q39. In the PDF of a textbook, all of the necessary bookmarks have been created. Later, an editor rearranges the pages in one chapter. What will you have to do to ensure that the bookmarks now link to the correct pages?
+
+- [ ] Set bookmark destination.
+- [ ] Select the correct location and choose Go to Bookmark.
+- [x] Re-order the bookmarks in the Bookmarks pane by dragging.
+- [ ] Nothing, The bookmarks will still be correct.
+
+#### Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?
+
+- [x] The field name is incorrect.
+- [ ] The field font size is incorrect.
+- [ ] The field is set to multi-line.
+- [ ] The field location is incorrect.
