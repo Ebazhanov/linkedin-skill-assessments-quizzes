@@ -1631,6 +1631,6 @@ $('a.active').addClass('hover')
 ```
  
 - [ ] .parent('#main').addClass('processed');
-- [x] .parents('#main').addClass('processed'); (true)
+- [x] .parents('#main').addClass('processed'); 
 - [ ] .find('#main').addClass('processed');
 - [ ] .up('#main').addClass('processed');
