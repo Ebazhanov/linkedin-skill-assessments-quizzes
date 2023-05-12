@@ -1301,3 +1301,9 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] waterfall
 - [ ] treemap
 - [ ] box and whisker
+
+#### Q147. Which formula will calculate the number of blank cells in the range A1:A20
+- [x] =COUNTBLANK(A1:A20)
+- [ ] =COUNTA(A1:A20)
+- [ ] =COUNTIF(A1:A20,">0")
+- [ ] =COUNT(A1:A20)
