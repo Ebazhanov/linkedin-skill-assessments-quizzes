@@ -1235,3 +1235,16 @@ x, err := myFunc()
 - [ ] if none of the variables exist in that lexical block
 
 1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)
+
+
+#### Q66. How can You view the profiler output in cpu.pprof in the broswer?
+- [ ] go pprof -to SVG cpu.prof
+- [x] go tool pprof -http=:8080 cpu.pprof (true)
+- [ ] go tool pprof cpu.pprof
+- [ ] go tool trace cpu.pprof
+ 
+#### Q67. When does a variable of type interface{} evaluate to nil?
+- [x] It has been assingned a dynamic type whose value is nil.  (true)
+- [ ] It has been explicitly set to nil.
+- [ ] It has not been assigned a dynamic type.
+- [ ] It can not evaluate to nil.
