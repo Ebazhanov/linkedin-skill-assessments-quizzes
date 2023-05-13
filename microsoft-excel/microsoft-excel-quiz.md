@@ -1301,3 +1301,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] waterfall
 - [ ] treemap
 - [ ] box and whisker
+
+#### Q147. How do you override Excel's automatic axis scaling to enter custom axis maximum and minimum values?
+
+- [ ] You cannot do this in Excel.
+- [ ] Right-click the axis, select **Format Axis**, and scroll to the desired minimum and maximum values.
+- [ ] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
+- [ ] Click the individual axis values and change them manually.
