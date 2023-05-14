@@ -9,6 +9,7 @@ NSMutableString *s = [NSMutableString stringWithString: @"123"];
 
 - [x] 123456
 - [ ] 123
+- [ ] 123
 - [ ] 456
 - [ ] This code contains an error.
 
@@ -318,7 +319,7 @@ id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllo
 
 - [ ] NSString
 - [ ] NSArray
-- [ ] id
+- [x] id
 - [ ] NSDictionary
 
 #### Q33. What is significant about this function declaration?
@@ -416,7 +417,7 @@ NSlog(@"d1: %@", d1);
 - [ ] 8
 - [ ] nil
 - [ ] -1
-- [ ] undefined
+- [x] undefined
 
 #### Q41. Which thread should UI updates be processed on to avoid crashes and application lag?
 
