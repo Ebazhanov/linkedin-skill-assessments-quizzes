@@ -1004,6 +1004,8 @@ Table name: superheroes
 
 #### Q104. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
 
+![Q104](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/5c73a5c5-3e8b-4110-8068-dca25b323e57)
+
 - [ ] UNION ALL
 - [x] UNION
 - [ ] SHOW TOTALS
@@ -1141,3 +1143,14 @@ Table name: superheroes
 - [x] ENUM
 - [ ] LONGTEXT
 - [ ] TEXT
+
+#### Q120. Which statement would you _not_ use to filter data?
+
+![image](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/9cb0ae9d-1f6b-4f85-9d2f-44b6a7afd00c)
+
+
+- [ ] GROUP_BY 
+- [ ] MATCH
+- [ ] WHERE
+- [ ] LIKE
+
