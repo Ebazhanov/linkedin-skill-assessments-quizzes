@@ -818,7 +818,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
-- [ ] Create a custom dictionary that includes your specific terminology
+- [x] Create a custom dictionary that includes your specific terminology
+
+[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
 #### Q105. What happens when you resolve a comment?
 
@@ -840,3 +842,28 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Contents
 - [x] Cross-Reference
 - [ ] Table of Figures
+
+#### Q108. Which style type should you create in order to control font, font color, tab positions, and line breaks?
+
+- [ ] table
+- [ ] hybrid
+- [ ] character
+- [x] paragraph
+
+[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
+[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
+
+#### Q109. What tasks are required to create a template from an existing document?
+
+    A. Remove content specific to the existing document.
+    B. Create a template folder for the file.
+    C. Save the file as a template(.dotx) file.
+    D. Open the template and use it.
+
+- [x] A, C
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] B, C, D
+
+[Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
+[Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)

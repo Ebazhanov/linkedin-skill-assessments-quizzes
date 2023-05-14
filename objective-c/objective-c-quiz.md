@@ -424,3 +424,126 @@ NSlog(@"d1: %@", d1);
 - [ ] dispatch
 - [ ] background
 - [ ] main
+
+#### Q42. What is the value of val after this code is executed?
+
+```
+NSString *val = @"1.23";
+BOOL tf = val.boolValue;
+```
+
+- [ ] This code is invalid
+- [ ] YES
+- [x] NO
+- [ ] 1
+
+#### Q43. In this code, what does ThatOne refer to?
+
+```
+@interface TestClass : ThisOne <ThatOne>
+```
+
+- [ ] the parent class of TestClass 
+- [ ] the name of the category being created for ThisOne
+- [x] a protocoL impLemented by ThisOne
+- [ ] a helper file's name
+
+#### Q44. What is the value of result after this code is executed? 
+
+```
+NSString *result = [Ftest"
+    stringByTrimmingCharactersInSet.NSCharacterSet.alphanumericCharacterSet]; 
+```
+
+- [ ] "" 
+- [ ] "es"
+- [x] "test"
+- [ ] none of these answers
+
+#### Q45. When will self receive the notification based on this code? 
+
+```
+MyClass .classObj = [[MyClass allot] init];
+[class0bj add0bserver:self forKeyPath:@"name"
+              options:NSKeyValueObservingOptionNew context:NULL];
+```
+
+- [ ] none of these answers
+- [ ] class0bj will recieve the notification, not self.
+- [ ] when class0bj is set to "name"
+- [x] when the name property in the class0bj instance changes
+
+#### Q46. What is wrong with this code? 
+
+```
+[*"true" boolValue];
+```
+
+- [ ] String literal are not created with*.
+- [x] NSString doesn't have a boolValue function.
+- [ ] "true" has no meaning.
+- [ ] There is nothing wrong with this code.
+
+#### Q47. How many times does this loop execute?
+
+```
+int loopVal = 0;
+for (int i=0; i>loopVal; i--){
+    i--;
+}
+```
+
+- [ ] an infinite number of times
+- [ ] This code is invalid.
+- [x] zero
+- [ ] one
+
+#### Q48. What will this code print?
+
+```
+NSLog(@"%lu", @"test".length);
+```
+
+- [ ] "test"
+- [ ] Nothing, this code is invalid.
+- [x] 4
+- [ ] 0
+
+#### Q49. What is the value of numVtoInt after this code is executed?
+
+```
+NSNumber *numV = [NSNumber numberWithFloat:6.7];
+int numVtoInt = numV.intValue;
+```
+
+- [ ] 6
+- [ ] 0
+- [ ] 6.7
+- [x] 7
+
+#### Q50. What does this code print?
+
+```
+NSString *val = @"1.23";
+NSLog(@"%.04f", val.floatValue);
+```
+
+- [x] 1.2300
+- [ ] .04
+- [ ] This code is invalid
+- [ ] 1
+
+#### Q51. What is the maximum possible value of r1 in this code?
+
+```
+int r1 = arc4random() % 10;
+```
+
+- [ ] 0
+- [x] 9
+- [ ] 1
+- [ ] 10
+
+
+
+
