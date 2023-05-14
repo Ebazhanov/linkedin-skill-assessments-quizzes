@@ -1302,6 +1302,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] treemap
 - [ ] box and whisker
 
+
+#### Q147. How do you override Excel's automatic axis scaling to enter custom axis maximum and minimum values?
+
+- [ ] You cannot do this in Excel.
+- [ ] Right-click the axis, select **Format Axis**, and scroll to the desired minimum and maximum values.
+- [ ] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
+- [ ] Click the individual axis values and change them manually.
+
 #### Q147. Given the source data, how do you transform the middle PivotTable to appear like the rightmost PivotTable?
 ![Q147](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/67fc27f2-5ee3-4250-bc9e-17c19da31d9a)
 
@@ -1315,3 +1323,4 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] =COUNTA(A1:A20)
 - [ ] =COUNTIF(A1:A20,">0")
 - [ ] =COUNT(A1:A20)
+

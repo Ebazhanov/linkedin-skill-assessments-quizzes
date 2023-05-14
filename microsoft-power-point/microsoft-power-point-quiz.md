@@ -837,3 +837,10 @@ D. Start When Clicked On
 - [ ] AutoNumber
 - [ ] Align Number
 - [x] Start At
+
+#### Q107. While in Outline view, what does "promoting"" a paragraph do to its placement?
+
+- [ ] It copies the paragraph to the PowerPoint clipboard.
+- [ ] It moves the paragraph down one level in the outline.
+- [ ] It moves the paragraph up one level in the outline.
+- [ ] It moves the paragraph to the top of the outline.

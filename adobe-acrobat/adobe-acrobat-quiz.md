@@ -42,12 +42,12 @@
 - [ ] The file creator did not give the article a title.
 - [ ] You are viewing the PDF in Adobe Reader.
 
-#### Q7. As you examine large engineering documents, you would like to have the Marquee Zoom tool easily available all the time. What is the fastest way to add the Marquee Zoom tool to Common Tools?
+#### Q7. As you examine large engineering documents, you would like to have the **Marquee Zoom** tool easily available all the time. What is the fastest way to add the **Marquee Zoom** tool to **Common Tools**?
 
-- [ ] Right-click in the toolbar and select Show Page Navigation Tools.
-- [ ] Right-click in the toolbar and select Show Page Display Tools.
-- [x] Right-click in the toolbar and select Show Select & Zoom.
-- [ ] Right-click in the toolbar and select Customize Quick Tools.
+- [ ] Right-click in the toolbar and select **Show Page Navigation Tools**.
+- [ ] Right-click in the toolbar and select **Show Page Display Tools**.
+- [x] Right-click in the toolbar and select **Show Select & Zoom**.
+- [ ] Right-click in the toolbar and select **Customize Quick Tools**.
 
 #### Q8. A person at a printing service provider is having difficulty printing a PDF due to font issues. Where can the person find out which fonts are used in the document?
 
@@ -251,12 +251,19 @@
 - [ ] Preferences > Signatures > Verification
 - [x] Preferences > Signatures > Creation and Appearance      
 
-#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
+#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
 
-- [ ] Edit the image settings in File > Save As Other > Optimized PDF.
-- [ ] Enable the Export All Images checkbox in Tools > Export PDF > Image.
-- [x] Turn off the Extract Pages as Separate Files checkbox in Organize Pages > Extract.  
-- [ ] Edit the conversion settings in File > Export > Image > JPEG.
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+
+#### Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+- [ ] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
 
 #### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
 
@@ -267,10 +274,10 @@
 
 #### Q38. You are creating PDFs for a government agency. Which specification in the quote request from the agency contact indicates that the PDFs you submit must meet accessibility guidelines?
 
+- [ ] Section 501c compliance
 - [x] Section 508 compliance           
 - [ ] Section 509a compliance
 - [ ] Section 510 compliance
-- [ ] Section 501c compliance
 
 #### Q39. In the PDF of a textbook, all of the necessary bookmarks have been created. Later, an editor rearranges the pages in one chapter. What will you have to do to ensure that the bookmarks now link to the correct pages?
 
@@ -285,3 +292,38 @@
 - [ ] The field font size is incorrect.
 - [ ] The field is set to multi-line.
 - [ ] The field location is incorrect.
+
+#### Q42. Before you begin a PDF review, you want to change the default line thickness, line color, fill color, and other settings for the Comment panel's drawing tools. Where do you change these defaults?
+
+- [ ] **Comment panel menu**
+- [ ] **Properties Toolbar**
+- [ ] **Preferences > Commenting**
+- [ ] **Preferences > Reviewing**
+
+#### Q43. In a complex forms document, one field is currently a drop-down list field. However, the client specifies that it should instead be a multi-line text field. How can you do what the client requests?
+
+- [ ] Select the drop-down field and then click the **Dropdown** icon in the secondary toolbar.
+- [ ] Right-click the drop-down field and select **Properties** from the context menu.
+- [ ] Delete the drop-down field and create a text field in its place.
+- [ ] Select the drop-down field and then click **Prepare Form** in the right pane.
+
+#### Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?
+
+- [ ] Permissions
+- [ ] Certificates
+- [ ] Document Open
+- [ ] Compatibility
+
+#### Q45. Before distributing a document containing proprietary information, you want to make sure that the document content cannot be printed. However, you want to ensure that the text can be read by screen-reading software for any users who have visual impairments. Where can you find the settings that will allow these parameters?
+
+- [ ] **Accessibility > Set Alternate Text**
+- [ ] **Tools > Action Wizard**
+- [ ] **Accessibility > Reading Options**
+- [ ] **Document Properties > Password > Security > Settings**
+
+#### Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?
+
+- [ ] ![image](images/001.jpg?raw=jpg)
+- [ ] ![image](images/002.jpg?raw=jpg)
+- [ ] ![image](images/003.jpg?raw=jpg)
+- [ ] ![image](images/004.jpg?raw=jpg)
