@@ -473,7 +473,7 @@ FROM customers c;
 #### Q66. When you implement a custom Writable, you must also define which of these object?
 
 - [ ] a sort policy
-- [ ] a combiner policy
+- [x] a combiner policy
 - [ ] a compression policy
 - [ ] a filter policy
 
