@@ -831,3 +831,16 @@ D. Start When Clicked On
 - [ ] Use the Duplicate Selected Slides command.
 - [x] Change the font on the Slide Master for that layout.
 - [ ] Use the Reuse Slides command.
+
+#### Q106. Which tool provides the easiest way to to create and insert an organizational chart into a presentation
+- [x] smartArt 
+- [ ] 3D Models
+- [ ] shapes
+- [ ] charts
+#### Q107. What can You enable to help align objects on a slide?
+- [ ] Cascade 
+- [ ] Arrange all
+- [ ] Fit to window
+- [x] Gridlines 
+
+
