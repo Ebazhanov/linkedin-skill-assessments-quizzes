@@ -2070,7 +2070,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] B
 
 ```html
-<aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside>
+<aside role="sidebar">Sidebar...</aside><aside role="notes"Endnotes...</aside>
 ```
 
 - [ ] C
