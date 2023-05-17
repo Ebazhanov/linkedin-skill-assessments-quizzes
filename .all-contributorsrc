@@ -13608,6 +13608,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "l3nnartt",
+      "name": "Lennart Lösche",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69513317?v=4",
+      "profile": "https://lennartloesche.de/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
