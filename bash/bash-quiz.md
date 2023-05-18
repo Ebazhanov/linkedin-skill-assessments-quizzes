@@ -523,31 +523,10 @@ The regex must not be quoted to work properly.
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
 
-- [x] 
-```bash
-for i in $(ls); do
-  ...
-done
-```
-- [ ] 
-```bash
-for $(ls); do
-  ...
-done
-```
-- [ ] 
-```bash
-for i in $ls; do
-  ...
-done
-```
-- [ ] 
-```bash
-for $ls; do
-  ...
-done
-```
-
+- [x] `for i in $(ls); do ... done`
+- [ ] `for $(ls); do ... done`
+- [ ] `for i in $ls; do ... done`
+- [ ] `for $ls; do ... done`
 
 #### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
