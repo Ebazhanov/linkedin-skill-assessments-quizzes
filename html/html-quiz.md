@@ -2153,3 +2153,26 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] There is no method set on the form.
 - [ ] The form element is disabled.
 - [ ] The fieldset is disabled.
+
+#### Q130. What is wrong with this table?
+
+```html
+  <table>
+    <legend>A two body table!</legend>
+    <col>
+    <col>
+    <tbody><tr>
+      <td>Cell 1</td>
+      <td>Cell 1</td>
+    </tr></tbody>
+    <tbody><tr>
+      <td>Cell 1</td>
+      <td>Cell 1</td>
+    </tr></tbody>
+  </table>
+```
+
+- [ ] A table can only have one tbody element.
+- [ ] legend must appear at the end of a table element.
+- [ ] legend is not allowed in a table element.
+- [x] All col elements must be wrapped in a colgroup element.
