@@ -2176,3 +2176,5 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] legend must appear at the end of a table element.
 - [ ] legend is not allowed in a table element.
 - [x] All col elements must be wrapped in a colgroup element.
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
