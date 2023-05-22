@@ -840,3 +840,17 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Contents
 - [x] Cross-Reference
 - [ ] Table of Figures
+
+
+#### Q108. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
+- [ ] No Markup
+- [ ] Compare
+- [x] Version History
+- [ ] Track Changes
+* Explain
+> Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
+
+
+
+
+
