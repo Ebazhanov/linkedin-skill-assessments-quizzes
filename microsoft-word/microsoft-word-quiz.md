@@ -296,12 +296,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
 
-```
- A. Type "(TM)".
- B. On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then click **Insert**.
- C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
- D. Type "(R)".
-```
+
+    A. Type "(TM)".
+    B. On Windows: On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then   click **Insert**.
+    On Mac: On the **Insert** tab, click **Advanced Symbol > Special Characters**, select **Trademark**, and click **Insert**.
+    C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
+    D. Type "(R)".
+
 
 - [ ] B and D
 - [x] A and B
