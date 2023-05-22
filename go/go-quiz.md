@@ -1248,3 +1248,34 @@ x, err := myFunc()
 - [ ] It has been explicitly set to nil.
 - [ ] It has not been assigned a dynamic type.
 - [ ] It can not evaluate to nil.
+
+#### Q68. What value does a string variable hold if it has been allocated but not assigned?
+- [ ] nil
+- [ ] undefined
+- [ ] null
+- [x] ""
+
+> If a string variable has been allocated but not assigned a value, its default value is an empty string "". In Go, uninitialized string variables are automatically assigned the zero value for their respective type, which for strings is an empty string.
+
+#### Q69. Which built-in function is used to stop a program from continuing?
+- [x] panic
+- [ ] There is no such function.
+- [ ] raiseException
+- [ ] exit
+
+> The built-in function used to stop a program from continuing is `panic()`. When `panic()` is called, it triggers a panic, which stops the normal execution flow of the program and begins panicking. If the panic is not recovered, the program terminates.
+
+#### Q70. What will the output be?
+
+```go
+a,b := 1, 2
+b,c:= 3, 4
+fmt.Println(a, b, c)
+```
+
+- [x] 1 3 4
+- [ ] 1 2 3
+- [ ] 1 2 4
+- [ ] It will not compile.
+
+[Go Playground Example](https://go.dev/play/p/qUI50GNGWTq)

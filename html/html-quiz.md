@@ -713,7 +713,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q43. Which tag is the root element of an HTML document?
 
-- [ ] `<DOCTYPE html>`
+- [ ] `<!DOCTYPE html>`
 - [x] `<html>`
 - [ ] `<body>`
 - [ ] `<root>`
@@ -1488,15 +1488,14 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
 - [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
 
-#### Q90. The value attribute is associated with which set of tags ?
+#### Q90. The `value` attribute is associated with which set of tags?
 
 - [x] A
 
 ```html
 <li>
-  <input />
-  <option></option>
-</li>
+<input>
+<option>
 ```
 
 - [ ] B
@@ -1511,15 +1510,16 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <button>
-  <input />
-  <form></form>
-</button>
+<input>
+<form>
 ```
 
 - [ ] D
 
 ```html
-<input /> <label> <meter></meter></label>
+<input> 
+<label> 
+<meter>
 ```
 
 #### Q91. What is wrong with this code?
@@ -2070,7 +2070,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] B
 
 ```html
-<aside role="sidebar">Sidebar...</aside><aside role="notes"Endnotes...</aside>
+<aside role="sidebar">Sidebar...</aside><aside role="notes">Endnotes...</aside>
 ```
 
 - [ ] C
@@ -2178,3 +2178,15 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] All col elements must be wrapped in a colgroup element.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
+
+#### Q131. In this code, what is the purpose of the `id` attribute?
+
+```html
+<p id="warning">Be careful when installing this product.</p>
+```
+
+- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
+- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS and with JavaScript code.
+- [ ] It establishes that `warning` may be used for styling CSS several times per page.
+- [ ] It establishes that `warning` is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
+

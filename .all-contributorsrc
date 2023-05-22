@@ -13618,6 +13618,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Yummy-Yums",
+      "name": "Yummy-Yums",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77977520?v=4",
+      "profile": "https://github.com/Yummy-Yums",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Njuacha",
+      "name": "Njuacha Hubert Mikulowski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36202502?v=4",
+      "profile": "https://www.linkedin.com/in/hubert-mikulowski-njuacha/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hussein-esmail7",
+      "name": "Hussein Esmail",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31802504?v=4",
+      "profile": "https://www.husseinesmail.xyz/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "FlyTurtle61",
+      "name": "Bilgehan Bezir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72104028?v=4",
+      "profile": "https://bilgehanbezir.netlify.app/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
