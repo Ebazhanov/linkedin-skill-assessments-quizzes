@@ -837,10 +837,22 @@ D. Start When Clicked On
 - [ ] 3D Models
 - [ ] shapes
 - [ ] charts
+
 #### Q107. What can You enable to help align objects on a slide?
 - [ ] Cascade 
 - [ ] Arrange all
 - [ ] Fit to window
 - [x] Gridlines 
 
+#### Q108. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+- [ ] Custom Numer
+- [ ] AutoNumber
+- [ ] Align Number
+- [x] Start At
 
+#### Q109. While in Outline view, what does "promoting"" a paragraph do to its placement?
+
+- [ ] It copies the paragraph to the PowerPoint clipboard.
+- [ ] It moves the paragraph down one level in the outline.
+- [ ] It moves the paragraph up one level in the outline.
+- [ ] It moves the paragraph to the top of the outline.

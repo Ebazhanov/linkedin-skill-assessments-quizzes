@@ -440,7 +440,7 @@ FROM customers c;
 - [ ] GROUP BY
 - [ ] FILTER
 - [ ] SUB-SELECT
-- [ ] SORT
+- [x] SORT
 
 #### Q62. What custom object should you implement to reduce IO in MapReduce?
 
@@ -473,7 +473,7 @@ FROM customers c;
 #### Q66. When you implement a custom Writable, you must also define which of these object?
 
 - [ ] a sort policy
-- [ ] a combiner policy
+- [x] a combiner policy
 - [ ] a compression policy
 - [ ] a filter policy
 
