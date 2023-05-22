@@ -840,3 +840,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Contents
 - [x] Cross-Reference
 - [ ] Table of Figures
+
+
+#### Q108. When are mirrored margins typically used?
+- [x] when printing on both sides of the paper
+- [ ] when the document has a header or a footer
+- [ ] when the text is formatted into multiple columns
+- [ ] when you need all the margins to be the same size
+* Explain:
+> Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
