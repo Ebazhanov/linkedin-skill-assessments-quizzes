@@ -1556,3 +1556,10 @@ X+=a;
 - [ ] 3
 
 **Explanation :** `+=` means increasing value. So `x += a` is equivalent to `x = x + a`
+
+#### Q99. Once you are done writing to a file, what method will you call on the `ofstream` to notify the operating system?
+
+- [ ] printout()
+- [x] close()
+- [ ] destroy()
+- [ ] flush()
