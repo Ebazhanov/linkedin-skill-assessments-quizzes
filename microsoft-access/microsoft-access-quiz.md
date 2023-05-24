@@ -265,18 +265,18 @@
 - [ ] Excel
 - [ ] HTML
 - [ ] Word
-- [ ] PDF
+- [x] PDF
 
 #### Q32. Which section can a form _not_ contain?
 
-- [ ] Group Header & Footer
+- [x] Group Header & Footer
 - [ ] Form Header & Footer
 - [ ] Detail
 - [ ] Page Header & Footer
 
 #### Q33. The **Run** button and the **View Datasheet** button do exactly the same thing for which query type?
 
-- [ ] select
+- [x] select
 - [ ] append
 - [ ] make table
 - [ ] delete
@@ -284,20 +284,20 @@
 #### Q34. You have a database file that generates an error from a custom macro immediately after opening. How can you open the database and bypass the startup options to prevent the macro from running so that you can fix the error?
 
 - [ ] In the **Open File** dialog box, click the down arrow on the **Open** button and select **Disable Macros**.
-- [ ] Hold the Shift key while double-clicking the **database** icon.
+- [x] Hold the Shift key while double-clicking the **database** icon.
 - [ ] Right-click the database icon and select **Run as Administrator**.
 - [ ] From the **File** menu, select **Open as Read-Only**.
 
 #### Q35. You want to ensure that a query recordset is read-only and cannot modify the underlying data tables it references. How can you do that?
 
-- [ ] Set the Recordset Type property to Snapshot.
+- [x] Set the Recordset Type property to Snapshot.
 - [ ] Set the Output All Fields property to No.
 - [ ] Set the Link Master Fields property to No.
 - [ ] Set the Recordset Type property to Dynaset (Inconsistent Updates).
 
 #### Q36. Which form control object contains a number of option buttons, check boxes, or toggle buttons, and allows the user to make only a single selection?
 
-- [ ] option group
+- [x] option group
 - [ ] switch control
 - [ ] bound selection
 - [ ] object selector
