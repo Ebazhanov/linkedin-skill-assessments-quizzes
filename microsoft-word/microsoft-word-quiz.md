@@ -844,7 +844,20 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] Cross-Reference
 - [ ] Table of Figures
 
-#### Q108. Which style type should you create in order to control font, font color, tab positions, and line breaks?
+
+#### Q108. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
+
+- [ ]Save a copy of the file and type over it for each new letter.
+- [ ]Set the file as default theme.
+- [ ]Use the Format Painter to apply the format to new letters.
+- [x]Create a template by saving the file as a .dot file.
+
+explain:
+
+> 1. The best way to ensure that all your letters consistently have a professional-looking format is by creating a template.
+> 2. By saving the file as a .dot (Word template) file, you can easily access it each time you need to write a new letter and start with the pre-defined formatting. This method allows you to maintain consistency and save time by not having to recreate the format manually for each new letter.
+
+#### Q109. Which style type should you create in order to control font, font color, tab positions, and line breaks?
 
 - [ ] table
 - [ ] hybrid
@@ -854,7 +867,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 [Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
 [Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
 
-#### Q109. What tasks are required to create a template from an existing document?
+#### Q110. What tasks are required to create a template from an existing document?
 
     A. Remove content specific to the existing document.
     B. Create a template folder for the file.
