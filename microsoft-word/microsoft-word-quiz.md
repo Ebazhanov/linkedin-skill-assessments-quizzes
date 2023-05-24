@@ -296,12 +296,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
 
-```
- A. Type "(TM)".
- B. On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then click **Insert**.
- C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
- D. Type "(R)".
-```
+
+    A. Type "(TM)".
+    B. On Windows: On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then   click **Insert**.
+    On Mac: On the **Insert** tab, click **Advanced Symbol > Special Characters**, select **Trademark**, and click **Insert**.
+    C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
+    D. Type "(R)".
+
 
 - [ ] B and D
 - [x] A and B
@@ -818,7 +819,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
-- [ ] Create a custom dictionary that includes your specific terminology
+- [x] Create a custom dictionary that includes your specific terminology
+
+[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
 #### Q105. What happens when you resolve a comment?
 
@@ -842,6 +845,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Figures
 
 
+
 #### Q108. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
 - [ ] No Markup
 - [ ] Compare
@@ -849,8 +853,6 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Track Changes
 * Explain
 > Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
-
-
 
 
 
