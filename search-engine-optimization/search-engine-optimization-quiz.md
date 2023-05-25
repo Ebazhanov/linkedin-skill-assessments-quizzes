@@ -55,27 +55,27 @@
 
 ```markdown
     User-agent: Allbots
-    Disallow: \*
+    Disallow: *
 ```
 
 - [ ] :
 
 ```markdown
     User-agent: /
-    Disallow: \*
+    Disallow: *
 ```
 
 - [ ] :
 
 ```markdown
-    User-agent: /
+    User-agent: *
     Disallow:
 ```
 
 - [x] :
 
 ```markdown
-    User-agent: \*
+    User-agent: *
     Disallow: /
 ```
 
