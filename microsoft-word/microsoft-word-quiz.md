@@ -844,6 +844,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] Cross-Reference
 - [ ] Table of Figures
 
+
 #### Q108. When are mirrored margins typically used?
 - [x] when printing on both sides of the paper
 - [ ] when the document has a header or a footer
@@ -851,3 +852,44 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] when you need all the margins to be the same size
 * Explain:
 > Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
+
+
+#### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
+
+- [ ]Save a copy of the file and type over it for each new letter.
+- [ ]Set the file as default theme.
+- [ ]Use the Format Painter to apply the format to new letters.
+- [x]Create a template by saving the file as a .dot file.
+
+explain:
+
+> 1. The best way to ensure that all your letters consistently have a professional-looking format is by creating a template.
+> 2. By saving the file as a .dot (Word template) file, you can easily access it each time you need to write a new letter and start with the pre-defined formatting. This method allows you to maintain consistency and save time by not having to recreate the format manually for each new letter.
+
+#### Q110. Which style type should you create in order to control font, font color, tab positions, and line breaks?
+
+- [ ] table
+- [ ] hybrid
+- [ ] character
+- [x] paragraph
+
+[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
+[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
+
+#### Q111. What tasks are required to create a template from an existing document?
+
+    A. Remove content specific to the existing document.
+    B. Create a template folder for the file.
+    C. Save the file as a template(.dotx) file.
+    D. Open the template and use it.
+
+- [x] A, C
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] B, C, D
+
+[Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
+[Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)
+
+
+
