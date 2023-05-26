@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1379-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1380-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1916,6 +1916,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://bilgehanbezir.netlify.app/"><img src="https://avatars.githubusercontent.com/u/72104028?v=4?s=100" width="100px;" alt="Bilgehan Bezir"/><br /><sub><b>Bilgehan Bezir</b></sub></a><br /><a href="#design-FlyTurtle61" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=FlyTurtle61" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://mshittu.com"><img src="https://avatars.githubusercontent.com/u/54511108?v=4?s=100" width="100px;" alt="Muhammed Shittu"/><br /><sub><b>Muhammed Shittu</b></sub></a><br /><a href="#design-devshittu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=devshittu" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Clement-Fernandes"><img src="https://avatars.githubusercontent.com/u/72019007?v=4?s=100" width="100px;" alt="Clément FERNANDES"/><br /><sub><b>Clément FERNANDES</b></sub></a><br /><a href="#design-Clement-Fernandes" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Clement-Fernandes" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JaCKoP619"><img src="https://avatars.githubusercontent.com/u/36840967?v=4?s=100" width="100px;" alt="JaCKoP619"/><br /><sub><b>JaCKoP619</b></sub></a><br /><a href="#design-JaCKoP619" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=JaCKoP619" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
