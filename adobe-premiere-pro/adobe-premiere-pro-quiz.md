@@ -534,4 +534,3 @@ E. PDF
 - [ ] indicator
 - [ ] playhead
 - [ ] navigator
-

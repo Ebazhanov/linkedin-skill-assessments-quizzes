@@ -1446,13 +1446,13 @@ while($i>=0) {
 4 if (knights())
 5 printf "you are just and fair";
 6 else
-7 printf "NI!";       
+7 printf "NI!";
 ```
 
 - [ ] NI!
 - [ ] a syntax error
 - [ ] a shrubbery
-- [X] you are just and fair
+- [x] you are just and fair
 
 #### Q103. Which script defines the United States of America as a constant and prints this code?
 

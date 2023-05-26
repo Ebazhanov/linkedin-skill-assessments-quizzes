@@ -1111,9 +1111,7 @@ Table name: superheroes
 
 ![image](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/9cb0ae9d-1f6b-4f85-9d2f-44b6a7afd00c)
 
-
-- [ ] GROUP_BY 
+- [ ] GROUP_BY
 - [ ] MATCH
 - [ ] WHERE
 - [ ] LIKE
-

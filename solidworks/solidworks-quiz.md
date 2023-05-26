@@ -508,18 +508,21 @@
 - [ ] .drwdot
 
 #### Q64. Are planes required to start a 2D sketch?
+
 - [x] No, 2D sketches can be created on any planar face of a feature.
 - [ ] Yes, all sketches must begin on a plane, but the feature start point can be offset.
 - [ ] No, 2D sketches can be started at any point using the Create Floating Sketch option.
 - [ ] No, 2D sketches can be created on any flat or curved surface.
 
 #### Q65. How can you cut one body from another body within a multi-body part?
+
 - [ ] Use the Body Remove feature.
 - [x] Use the Combine feature with the Subtract operation.
 - [ ] Use the Cavity feature.
 - [ ] Use the Merge Result > Remove Body option.
 
 #### Q66. You want to share a SOLIDWORKS assembly with another SOLIDWORKS user so that user can edit it. What is the best way to do this?
+
 - [ ] Save the assembly as a sldasm file and send the file to the user.
 - [ ] Save the assembly as a single part (.sldprt file) to include all assembly contents.
 - [x] Use Pack and Go to package and send all assembly files.
