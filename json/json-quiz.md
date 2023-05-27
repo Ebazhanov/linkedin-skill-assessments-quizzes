@@ -296,9 +296,9 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [x] yes
+- [ ] yes
 - [ ] only if there is more than one item
-- [ ] no
+- [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
