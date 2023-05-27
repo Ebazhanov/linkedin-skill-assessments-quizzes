@@ -296,9 +296,9 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [x] yes
+- [ ] yes
 - [ ] only if there is more than one item
-- [ ] no
+- [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
@@ -1008,3 +1008,64 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `JSON.stringify()`
 - [ ] `JSON.export()`
 - [ ] `JSON.string()`
+
+#### Q94. How would you update this JSON to indicate that Jane is now available for part-time work ?
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false
+}
+```
+
+- [x]
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": true,
+  "seeking": "part-time"
+}
+```
+
+- [ ]
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available" : "true",
+  "seeking": "part-time"
+}
+```
+
+- [ ]
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false,
+  "seeking": "part-time"
+}
+```
+
+- [ ]
+
+```
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available" : "true",
+  "seeking": 'part-time'
+}
+```
+
+Hint: true needs to be a boolean and part-time a string so in double quotes.
