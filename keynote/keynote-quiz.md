@@ -132,6 +132,7 @@ E. Press the Down Arrow key.
 - [ ] Basic, Plain, Colorful, and Sums
 
 #### Q18. When exporting to an animated GIF, which options can you customize? (Select 3 Items)
+
 A. Resolution
 B. File Format
 C. Frame Rate
@@ -157,9 +158,11 @@ E. Slides
 - [ ] MP4
 - [ ] MOV
 
-#### Q21. 
+#### Q21.
+
 ![Four bar charts](images/Q21.png?raw=png)
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]

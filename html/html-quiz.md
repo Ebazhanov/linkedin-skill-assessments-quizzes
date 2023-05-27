@@ -713,7 +713,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q43. Which tag is the root element of an HTML document?
 
-- [ ] `<DOCTYPE html>`
+- [ ] `<!DOCTYPE html>`
 - [x] `<html>`
 - [ ] `<body>`
 - [ ] `<root>`
@@ -1488,7 +1488,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
 - [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
 
-#### Q90. The value attribute is associated with which set of tags ?
+#### Q90. The `value` attribute is associated with which set of tags?
 
 - [x] A
 
@@ -2070,7 +2070,8 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] B
 
 ```html
-<aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside>
+<aside role="sidebar">Sidebar...</aside>
+<aside role="notes">Endnotes...</aside>
 ```
 
 - [ ] C
@@ -2153,3 +2154,43 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] There is no method set on the form.
 - [ ] The form element is disabled.
 - [ ] The fieldset is disabled.
+
+#### Q130. What is wrong with this table?
+
+```html
+<table>
+  <legend>A two body table!</legend>
+  <col />
+  <col />
+  <tbody>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 1</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 1</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+- [ ] A table can only have one tbody element.
+- [ ] legend must appear at the end of a table element.
+- [ ] legend is not allowed in a table element.
+- [x] All col elements must be wrapped in a colgroup element.
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
+
+#### Q131. In this code, what is the purpose of the `id` attribute?
+
+```html
+<p id="warning">Be careful when installing this product.</p>
+```
+
+- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
+- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS and with JavaScript code.
+- [ ] It establishes that `warning` may be used for styling CSS several times per page.
+- [ ] It establishes that `warning` is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.

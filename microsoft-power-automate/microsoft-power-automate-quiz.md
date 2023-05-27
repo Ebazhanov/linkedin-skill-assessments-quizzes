@@ -247,12 +247,12 @@
 
 #### Q32. What rights do you give to other people with whom you share a flow directly from Power Automate?
 
-- [ ] You give them the rights to use the flow only. 
-- [ ] You give them the rights to use, edit, share, or delete the flow. 
+- [ ] You give them the rights to use the flow only.
+- [ ] You give them the rights to use, edit, share, or delete the flow.
 - [x] You give them the rights to use the flow, but you can extend the rights to edit or share for specific people.
 - [ ] You give them the rights to edit or share the flow.
 
-#### Q33. Who can use the Power Automate mobile app? 
+#### Q33. Who can use the Power Automate mobile app?
 
 ![Image of footer](images/Q30.png?raw=png)
 

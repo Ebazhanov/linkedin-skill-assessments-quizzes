@@ -603,9 +603,9 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 
 #### Q73. What is an example of a top-level domain (TLD)?
 
-- [ ] NET
+- [x] NET
 - [ ] HTTP
-- [x] //
+- [ ] //
 - [ ] DNS
 
 #### Q74. Jan is setting up a coffee shop's wireless network. Given the number of Wi-Fi networks within range, which are the best choices for a 2.4GHz Wi-Fi channel?
