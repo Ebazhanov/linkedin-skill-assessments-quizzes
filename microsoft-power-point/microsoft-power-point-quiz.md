@@ -824,3 +824,38 @@ D. Start When Clicked On
 - [ ] number of columns and length of columns
 - [ ] only the number of columns
 - [x] number of columns and space between columns
+
+#### Q105. You would like several of the slides in your presentation to use the same font for the title text. The slides all use the same slide layout. What is the most efficient way to apply the desired font to those slides?
+
+- [ ] Change the font on each individual slide as it is added.
+- [ ] Use the Duplicate Selected Slides command.
+- [x] Change the font on the Slide Master for that layout.
+- [ ] Use the Reuse Slides command.
+
+#### Q106. Which tool provides the easiest way to to create and insert an organizational chart into a presentation
+
+- [x] smartArt
+- [ ] 3D Models
+- [ ] shapes
+- [ ] charts
+
+#### Q107. What can You enable to help align objects on a slide?
+
+- [ ] Cascade
+- [ ] Arrange all
+- [ ] Fit to window
+- [x] Gridlines
+
+#### Q108. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+
+- [ ] Custom Numer
+- [ ] AutoNumber
+- [ ] Align Number
+- [x] Start At
+
+#### Q109. While in Outline view, what does "promoting"" a paragraph do to its placement?
+
+- [ ] It copies the paragraph to the PowerPoint clipboard.
+- [ ] It moves the paragraph down one level in the outline.
+- [ ] It moves the paragraph up one level in the outline.
+- [ ] It moves the paragraph to the top of the outline.

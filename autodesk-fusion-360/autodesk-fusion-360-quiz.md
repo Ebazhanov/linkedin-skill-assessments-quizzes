@@ -39,7 +39,6 @@
 
 #### Q6. In the CAM workspace, which strategy removes a part's interior cavity?
 
-
 - [ ] Slot
 - [x] 2D Pocket
 - [ ] Bore
@@ -251,11 +250,9 @@
 - [ ] Wood
 - [ ] Metal
 
-
 #### Q36. What do the red locks shown on these sketch icons represent?
 
 - [ ] The sketches are under-constrained.
 - [x] The sketches are fully constrained.
 - [ ] The sketches cannot be edited.
 - [ ] The sketches are locked.
-

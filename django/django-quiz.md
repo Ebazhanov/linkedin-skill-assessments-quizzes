@@ -688,7 +688,7 @@ model=Planet
 - [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
 - [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
 
-#### Q76. What is the purpose of the **init**.py file?
+#### Q76. What is the purpose of the \_\_init\_\_.py file?
 
 - [ ] to extend the set of modules found in a package
 - [ ] to allow compiled modules from different releases and different versions of Python to coexist

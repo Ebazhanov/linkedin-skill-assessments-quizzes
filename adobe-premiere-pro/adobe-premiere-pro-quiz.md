@@ -280,7 +280,7 @@ E. M4A
 
 #### Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?
 
-- [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
+- [x] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Replace with After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.
@@ -321,7 +321,7 @@ E. Ellipse
 #### Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?
 
 - [ ] Shadows
-- [ ] Contrast
+- [x] Contrast
 - [ ] Midtones
 - [ ] Blacks
 
@@ -339,7 +339,8 @@ E. Ellipse
 - [ ] Sequence
 - [ ] File
 - [ ] Edit
-- [ ] Clip
+- [x] Clip
+      https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.
 
 #### Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?
 
@@ -353,7 +354,9 @@ E. Ellipse
 - [ ] Touch
 - [ ] Latch
 - [ ] Write
-- [ ] Read
+- [x] Read
+
+https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.
 
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
@@ -404,7 +407,9 @@ E. Ellipse
 - [ ] 4:0:0
 - [ ] 4:4:4
 - [ ] 4:2:2
-- [ ] 4:2:0
+- [x] 4:2:0
+
+https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910
 
 #### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
 
@@ -413,7 +418,7 @@ E. Ellipse
 - [ ] Switch to After Effects first and choose the Render and Replace option
 - [ ] Choose Consolidate and Transcode
 
-#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+#### Q52. Which visual transition fades the end of one clip into the beginning of the next clip?
 
 - [ ] fade in
 - [ ] fade out
@@ -429,6 +434,7 @@ C. PSD
 D. DNG
 E. PDF
 ```
+
 - [ ] A, C, E
 - [ ] A, B, C
 - [ ] B, D, E
@@ -455,5 +461,76 @@ E. PDF
 - [ ] VBR, 1 Pass
 - [ ] VBR, 2 Pass
 - [ ] CBR
-- [X] Use Maximum Render Quality
- 
+- [x] Use Maximum Render Quality
+
+#### Q57. How many output audio tracks can an adaptive audio track be routed to?
+
+- [ ] 4
+- [ ] 8
+- [ ] 16
+- [ ] 32
+
+#### Q58. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?
+
+- [ ] Slide tool
+- [ ] Rolling Edit tool
+- [ ] Ripple Edit tool
+- [ ] Slip tool
+
+#### Q59. Which memory card structure format is NOT a dedicated viewing option in the Media Browser?
+
+- [ ] Sony DSLR
+- [ ] Canon RAW
+- [ ] XDCAM-HD
+- [ ] Canon XF
+
+#### Q60. What is NOT an option with the Remove Attributes command?
+
+- [ ] Effects
+- [ ] Motion
+- [ ] Speed
+- [ ] Opacity
+
+#### Q61. Suppose you use font X from Adobe Fonts in your project. What happens when you open a project and font X is missing from the local machine?
+
+- [ ] A substitute is automatically chosen based on your preferences.
+- [ ] The font automatically activates as long as there is an internet connection.
+- [ ] A warning appears so you can track down the font.
+- [ ] Nothing occurs—the graphics appear correct and the font is only needed to edit them.
+
+#### Q62. You have attached a hardware device for adjusting the color of your clips with touch. Where do you configure its preferences?
+
+- [ ] Preferences > Capture
+- [ ] Preferences > Audio Hardware
+- [ ] Preferences > Device Control
+- [ ] Preferences > Control Surface
+
+#### Q63. When importing an XML file, what happens to transitions that Adobe Premiere Pro determines aren't compatible?
+
+- [ ] The transitions are deleted.
+- [ ] The transitions are turned into Dip to Color transitions.
+- [ ] The import fails.
+- [ ] The transitions are turned into cross dissolves.
+
+#### Q64. What would happen if you dropped a transition onto this edit point?
+
+![image](images/012.png?raw=png)
+
+- [ ] You would get an End at Cut alignment.
+- [ ] You would get a Start at Cut alignment.
+- [ ] The clip is trimmed and a Center at Cut transition is applied.
+- [ ] Your would get a one-frame transition.
+
+#### Q65. Which export format supports inclusion of an alpha channel?
+
+- [ ] MOV
+- [ ] MP4
+- [ ] MPEG 2 for DVD
+- [ ] MXF OP1a
+
+#### Q66. Which user interface item identifies the current frame in the Program Monitor?
+
+- [ ] frame ruler
+- [ ] indicator
+- [ ] playhead
+- [ ] navigator

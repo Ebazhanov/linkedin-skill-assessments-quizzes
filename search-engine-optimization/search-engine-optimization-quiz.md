@@ -55,27 +55,27 @@
 
 ```markdown
     User-agent: Allbots
-    Disallow: \*
+    Disallow: *
 ```
 
 - [ ] :
 
 ```markdown
     User-agent: /
-    Disallow: \*
+    Disallow: *
 ```
 
 - [ ] :
 
 ```markdown
-    User-agent: /
+    User-agent: *
     Disallow:
 ```
 
 - [x] :
 
 ```markdown
-    User-agent: \*
+    User-agent: *
     Disallow: /
 ```
 
@@ -97,8 +97,8 @@
 
 - [ ] The site has been delisted from Google Search
 - [ ] A Google News sitemap was not provided within 30 days of setting up a publisher center account
-- [ ] The site kept updating the dates to make the content appear fres, without changing
-- [x] The articles have aged more than 365 days without any significant updates to the content or the site
+- [x] The site kept updating the dates to make the content appear fres, without changing
+- [ ] The articles have aged more than 365 days without any significant updates to the content or the site
 
 #### Q12. Which approach is not advisable to Geo-targeting your website?
 
@@ -375,9 +375,9 @@
 
 #### Q43. You are planning for the development of an e-commerce website. Which approach will be more beneficial for rankings?
 
-- [x] Optimize the front page of your website to drive traffic from all category search terms.
+- [ ] Optimize the front page of your website to drive traffic from all category search terms.
 - [ ] Optimize product category pages to drive traffic from individual category search terms.
-- [ ] Optimize all pages on the site for all category search terms.
+- [x] Optimize all pages on the site for all category search terms.
 - [ ] Optimize product pages to drive traffic from individual category search terms.
 
 #### Q44. What is the relationship of click depth to PageRank?
@@ -411,14 +411,14 @@
 #### Q48. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: \_Brad's Bagels: Baking Bagels in the Oven\_. What is a likely explanation?
 
 - [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
-- [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
+- [x] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
 - [ ] A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.
-- [x] Google generated a new title using text on the page that more closely matched the search query.
+- [ ] Google generated a new title using text on the page that more closely matched the search query.
 
 #### Q49. What alt attribute should be assigned to an image of a decorative line being used to separate content
 
-- [x] alt=""
-- [ ] alt="Thin black line being used to seperate two blocks of content"
+- [ ] alt=""
+- [x] alt="Thin black line being used to seperate two blocks of content"
 - [ ] alt="dec"
 - [ ] alt="thin-line"
 
@@ -800,16 +800,16 @@
 - [x] structured data
 - [ ] Data-Vocabulary.org
 - [ ] Google Result Generator
-    
+
 #### Q101. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?
 
 - [ ] Social signals provide a benefit only if they have structured data markup
 - [ ] Social signals are identical to backlinks
 - [ ] Google does not use social signals to determine rank
-- [X] Social signals are used to determine topic authority
-    
+- [x] Social signals are used to determine topic authority
+
 [reference](https://www.gcertificationcourse.com/which-statement-is-true-regarding-the-use-of-social/)
-    
+
 #### Q102. How many outbound links should you include in each blog posting?
 
 - [ ] at least 2

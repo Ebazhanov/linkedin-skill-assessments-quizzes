@@ -557,7 +557,7 @@ fn main() {
 
 [Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 
-#### Q48. Using .unwrap() will _.
+#### Q48. Using .unwrap() will \_.
 
 - [ ] let you choose the expected panic error message
 - [x] call panic! if there is an error or absence of value

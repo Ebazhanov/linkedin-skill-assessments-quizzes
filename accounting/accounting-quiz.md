@@ -477,8 +477,8 @@ I'm not 100% sure on this.
 - [ ] $1,700
 
 > Actual Cost = $10 per widget
-Budgeted Cost = $7 per widget
-Quantity = 1,000 widgets
+> Budgeted Cost = $7 per widget
+> Quantity = 1,000 widgets
 
 Price Variance = (Actual Cost - Budgeted Cost) x Quantity
 Price Variance = ($10 - $7) x 1,000
