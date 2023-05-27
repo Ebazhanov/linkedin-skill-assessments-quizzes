@@ -1020,7 +1020,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [x]
+- [x] A
 
 ```json
 {
@@ -1032,7 +1032,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -1044,7 +1044,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```json
 {
@@ -1056,9 +1056,9 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [ ]
+- [ ] D
 
-```
+```json
 {
   "name": "Jane",
   "job": "developer",
