@@ -59,16 +59,18 @@
 #### Q9. Why would you use the Items tab when entering a bill?
 
 - [ ] to track freight charges separately from the expense account
-- [ ] to track expenses
+- [x] to track expenses
 - [ ] to assign a cost to a job or to purchase an inventory item
 - [ ] to track credits
+
+https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-entering-bill-track-freight-charges-separately-expense-account-b-track-q86659682
 
 #### Q10. Why is it good practice to use the Bank Deposit screen to record sales not tracked to individual customers?
 
 - [ ] It allows you to get customer level detail later.
 - [ ] It gets the cash into your checking account as quickly as possible.
 - [ ] It automates the deposit system, so you don't have to physically go to the bank to complete the deposit.
-- [ ] It allows you to record daily "lump sum" sales quickly and efficiently.
+- [x] It allows you to record daily "lump sum" sales quickly and efficiently.
 
 #### Q11. You are running your Profit and Loss report and notice it is on a cash basis rather than an accrual basis. How can you correct this to show the correct basis?
 

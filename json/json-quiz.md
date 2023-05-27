@@ -186,8 +186,8 @@
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
-- [x] Escape all whitespaces expect space characters.
-- [ ] Escape line breaks.
+- [ ] Escape all whitespaces expect space characters.
+- [x] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
 
@@ -264,7 +264,7 @@
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```json
 {
@@ -284,7 +284,7 @@
 }
 ```
 
-- [x] E
+- [ ] E
 
 ```json
 {
@@ -296,16 +296,16 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [ ] yes
+- [x] yes
 - [ ] only if there is more than one item
-- [x] no
+- [ ] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
-- [ ] double quotes, slashes new lines, and carriage returns
-- [x] new lines and carriage returns only
+- [x] double quotes, slashes new lines, and carriage returns
+- [ ] new lines and carriage returns only
 - [ ] double quotes only
 
 #### Q21. Which is supported by YAML but not supported by JSON?
@@ -576,8 +576,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
-- [ ] UPC: "043875"
-- [x] "UPC": 043875
+- [x] UPC: "043875"
+- [ ] "UPC": 043875
 - [ ] UPC: '043875'
 
 #### Q44. Which data format is a JSON schema written in?
@@ -769,10 +769,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q67. Can you assume the order of keys in an object?
 
-- [x] No, but you can sort the keys with `JSON.sort()`.
+- [ ] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
-- [ ] No, you can never assume object keys will be in order.
+- [x] No, you can never assume object keys will be in order.
 
 #### Q68. With what character should object keys be enclosed?
 
@@ -958,3 +958,53 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `"\s(_)(X 72(_)|\/||*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||*"`
 - [ ] `"|=(_)(X 72(_)|\/||*"`
+
+#### Q88. How can you change this array to make it valid?
+
+`{"rey",'leia',"ashoka",}`
+
+- [ ] `['rey', 'leia', "ashoka",}`
+- [ ] `['rey', 'leia', 'ashoka',}`
+- [x] `["rey", "leia", "ashoka"]`
+- [ ] `{"rey", "leia", "ashoka"}`
+
+#### Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?
+
+- [ ] zero or more digits
+- [ ] one or more digits
+- [x] a period
+- [ ] a dollar sign
+
+#### Q90. Who would you modify the array below to store additional attributes for each student?
+
+```json
+{
+  "students": ["Tess", "Erin", "June"]
+}
+```
+
+- [x] Convert each student to an object, then add key/value paris to each student object as needed.
+- [ ] Add additional name/value pairs, separated by commas, after "students".
+- [ ] Convert each student into an array and add extra elements to the array.
+- [ ] Wrap the existing "students" key with curly braces.
+
+#### Q91. Which is _not_ a valid JSON number
+
+- [ ] `99999999999999999999`
+- [x] `"42"`
+- [ ] `-32`
+- [ ] `1111.00.110011`
+
+#### Q92. What is the maximum string length in JSON?
+
+- [ ] 512 characters
+- [x] There is no defined limit.
+- [ ] 2,056 characters
+- [ ] 1,024 characters
+
+#### Q93. What method is used to export a JavaScript object into JSON notation?
+
+- [ ] `JSON.convert()`
+- [x] `JSON.stringify()`
+- [ ] `JSON.export()`
+- [ ] `JSON.string()`

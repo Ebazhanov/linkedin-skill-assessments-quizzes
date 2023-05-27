@@ -514,34 +514,38 @@ CREATE TABLE Publishers (
 
 - [ ] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
 - [x] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
 
 - [ ] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK_Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID)
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK_Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID)
 ```
 
 - [ ] :
 
-```ALTER TABLE Publishers
-          ADD CONSTRAINT FK_Publishers_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Books (PublisherID) CASCADE DELETE
+```tsql
+ALTER TABLE Publishers
+ADD CONSTRAINT FK_Publishers_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Books (PublisherID) CASCADE DELETE
 ```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
@@ -672,6 +676,7 @@ SELECT bal FROM Account WHERE acct='12345';
   USE Products.Inventory;
   DROP TABLE Inventory;
 ```
+
 > This statement first switches to the Products database using the `USE` command and then drops the Inventory table using the `DROP TABLE` command.
 
 #### Q53. In a SELECT statement, which clause should always be used with the TOP clause in order to predictably indicate which rows are affected by TOP?

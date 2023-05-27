@@ -588,10 +588,10 @@ fun main() {
 }
 ```
 
-- [ ] Because name is a class parameter, not a property-it is unresolved `main()`.
+- [x] Because name is a class parameter, not a property-it is unresolved `main()`.
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
-- [x] Classes cannot be immutable. You need to change `var` to `val`
+- [ ] Classes cannot be immutable. You need to change `var` to `val`
 
 Note: By default, constructor parameters can only be used in the initializer blocks or property initializers declared in the class body. Therefore, to let the `greet` function have access to the `name` parameter, it should be declared as a property: `class Cat (val name: String) { ... }`
 

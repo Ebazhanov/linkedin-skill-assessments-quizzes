@@ -1214,7 +1214,7 @@ console.log(obj2.a, obj2.b);
 ```js
 let animals = ['jaguar', 'eagle'];
 //Missing Line
-console.log(animals.shift()); //Prints jaguar
+console.log(animals.pop()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
@@ -1222,7 +1222,15 @@ console.log(animals.shift()); //Prints jaguar
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
-[Reference Javascript Array shift()](https://www.w3schools.com/jsref/jsref_shift.asp)
+[Reference Javascript Array pop()](https://www.w3schools.com/jsref/jsref_pop.asp)
+
+shift() - removes the FIRST element of an array and returns the removed item.
+
+pop() - removes the LAST element of an array and returns the removed item.
+
+reverse() - reverses the order of the elements in an array.
+
+filter() - get every element in the array that meets the condition.
 
 #### Q94. What line is missing from this code?
 
@@ -2101,3 +2109,20 @@ let total = sum(4, ...values);
 - [x] document.getElementById("cleverest").style.color = "pink";
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
+
+#### Q155. Which line is missing from this code if you expect the code to evaluate to true?
+
+```js
+var compare = function (test1, test2) {
+  // Missing line
+};
+
+compare(1078, '1078'); // yields true
+```
+
+- [ ] `test1==test2;`
+- [ ] return test1===test2;
+- [x] return test1==test2;
+- [ ] return test1!=test2;
+
+[Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)

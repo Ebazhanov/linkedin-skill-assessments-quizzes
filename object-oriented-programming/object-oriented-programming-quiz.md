@@ -211,7 +211,7 @@
 - [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
 - [ ] the exact same thing as a function and subroutine
 - [ ] a set of variables that can change over time
-- [x] a procedure associated with data and behaviour
+- [x] They are functions attached to specific classes (or instances) in object-oriented programming.
 
 #### Q30. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
 
@@ -797,9 +797,16 @@ public class Honda extends Car{}
 - [ ] making all methods private
 - [ ] using words to define classes
 
-#### Q105. object are passed by ___?
+#### Q105. object are passed by \_\_\_?
 
 - [x] value or reference, depending on the programmin language used
 - [ ] reference
 - [ ] value
 - [ ] value or reference, depending on program
+
+#### Q106. What is a method?
+
+- [x] a function associated with data and behavior
+- [ ] the exact same thing as a function and subroutine
+- [ ] a set of variables that can change over time
+- [ ] a set of instructions designed to perform a frequently used operation within a program and return no values

@@ -384,7 +384,7 @@ modified: beta-notes.js
 - [ ] root
 - [x] None of these
 
-*note*: The question is not specific enough to give a definitive answer, as it depends on the specific use case and configuration of the SSH setup.
+_note_: The question is not specific enough to give a definitive answer, as it depends on the specific use case and configuration of the SSH setup.
 
 #### Q42. Which command will list tags with the 1.4.2 series?
 
@@ -570,7 +570,7 @@ git checkout -b beta-test
 - [ ] git restore
 - [ ] git undo
 - [ ] git clean
-- [x] git checkout
+- [x] git checkout .
 
 #### Q68. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
@@ -1024,8 +1024,8 @@ Untracked files:
 - [ ] `git clean`
 - [ ] `git remove .`
 
-*notes:* `git rm broccoli`
-  
+_notes:_ `git rm broccoli`
+
 #### Q126. What command can you use to remove untracked files from the working directory?
 
 - [ ] `git rm -all`

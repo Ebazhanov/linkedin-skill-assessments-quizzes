@@ -464,3 +464,73 @@
 - [ ] collinear
 - [x] concentric
 - [ ] fix
+
+#### Q58. Using Autodimension in drawing mode can create dimensions in which styles?
+
+- [x] baseline and ordinate
+- [ ] chain and baseline
+- [ ] ordinate and chain
+- [ ] chain and linear
+
+#### Q59. What type of sketch do you need to create a sheet metal part?
+
+- [ ] a closed sketch
+- [ ] an open sketch
+- [ ] an open and closed sketch
+- [x] You don't need a sketch to create sheet metal parts.
+
+#### Q60. How can you easily visualize parent/child arrows on the FeatureManager design tree?
+
+- [ ] In the FeatureManager design tree, right-click the top level of the part/assembly and select SOLIDWORKS PDM.
+- [ ] In the FeatureManager design tree, right-click the top level of the part/assembly and select Hide/Show Tree Items.
+- [ ] In the FeatureManager design tree, right-click the top level of the part/assembly and select Show Flat Tree View.
+- [x] In the FeatureManager design tree, right-click the top level of the part/assembly and select Dynamic Reference Visualization.
+
+#### Q61. You created a counterbore hole using the Hole Wizard. How can you automatically dimension all aspects of the counterbored hole in a drawing?
+
+- [ ] Use the Smart Dimension annotation tool.
+- [ ] Use the Datum Feature annotation tool.
+- [x] Use the Hole Callout annotation tool.
+- [ ] Use the Ordinate Dimension annotation tool.
+
+#### Q62. How can you add an angle to all extruded faces of a feature?
+
+- [ ] Set a Draft in the extrude feature.
+- [ ] Activate the Thin Feature option in the extrude feature.
+- [x] Set the end condition to Offset From Surface in the extrude feature.
+- [ ] Set the start condition to Offset in the extrude feature.
+
+#### Q63. What is the file extension for a SOLIDWORKS drawing template?
+
+- [ ] .dwg
+- [ ] .slddrw
+- [x] .slddrt
+- [ ] .drwdot
+
+#### Q64. Are planes required to start a 2D sketch?
+
+- [x] No, 2D sketches can be created on any planar face of a feature.
+- [ ] Yes, all sketches must begin on a plane, but the feature start point can be offset.
+- [ ] No, 2D sketches can be started at any point using the Create Floating Sketch option.
+- [ ] No, 2D sketches can be created on any flat or curved surface.
+
+#### Q65. How can you cut one body from another body within a multi-body part?
+
+- [ ] Use the Body Remove feature.
+- [x] Use the Combine feature with the Subtract operation.
+- [ ] Use the Cavity feature.
+- [ ] Use the Merge Result > Remove Body option.
+
+#### Q66. You want to share a SOLIDWORKS assembly with another SOLIDWORKS user so that user can edit it. What is the best way to do this?
+
+- [ ] Save the assembly as a sldasm file and send the file to the user.
+- [ ] Save the assembly as a single part (.sldprt file) to include all assembly contents.
+- [x] Use Pack and Go to package and send all assembly files.
+- [ ] Save the assembly as a 3D PDF and select the Enable Editing option.
+
+#### Q67. Which choice is not a category of mates in SOLIDWORKS?
+
+- [ ] Standard
+- [ ] Advanced
+- [x] Basic
+- [ ] Mechanical

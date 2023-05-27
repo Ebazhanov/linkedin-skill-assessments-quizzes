@@ -307,7 +307,7 @@ Reference: [_The Swift Programming Language: Language Guide: Collection Types: S
 - [ ] Initialize the closure as read-only.
 - [ ] Declare the closure variable as `lazy`.
 
-Reference: [\_The Swift Programming Language: Language Guide: Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
+Reference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting_](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
 
 #### Q24. What is wrong with this code?
 
