@@ -846,3 +846,12 @@ public string? nickname
 - [x] `a special method called automatically whenever an object is deleted or destroyed`
 
 [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/destructors)
+
+#### Q80. Which code snippet correctly declares a CustomInt type alias of type Int32?
+
+- [ ] `typealias CustomInt = System.Int32;`
+- [ ] `var<T> CustomInt = Int32;`
+- [x] `using CustomInt = System.Int32;`
+- [ ] `type CustomInt = System<Int32>;`
+
+[Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive)
