@@ -798,8 +798,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [x] no
-- [ ] yes
+- [ ] no
+- [x] yes
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
