@@ -973,21 +973,6 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
-
-```js
-useEffect(() => {
-  // do things
-}, []);
-```
-
-- [ ] componentWillUnmount
-- [ ] componentDidUpdate
-- [ ] render
-- [x] componentDidMount
-
-[Reference](https://reactjs.org/docs/react-component.html)
-
 #### Q79. What is the output of this code?
 
 ```js
