@@ -841,7 +841,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] true, false, null
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
-- [ ] true, false, null
 
 #### Q78. If an object key contains spaces, how can you access its value in JavaScript?
 
