@@ -306,9 +306,10 @@
 - [ ] Click Run > Debug Configurations > Arguments.
 
 #### Q44. In this image, what does the circled button do?
+
 ![image Q44](https://github.com/Beziu/linkedin-skill-assessments-quizzes/blob/master/eclipse/images/Eclipse-Q44.jpg)
 
- - [ ] It toggles collapsing and expanding all methods in a file.
- - [x] It toggles block selection mode in the editor.
- - [ ] It toggles showing whitespace in the code.
- - [ ] It toggles word wrap in the file.
+- [ ] It toggles collapsing and expanding all methods in a file.
+- [x] It toggles block selection mode in the editor.
+- [ ] It toggles showing whitespace in the code.
+- [ ] It toggles word wrap in the file.

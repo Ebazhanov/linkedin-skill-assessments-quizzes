@@ -444,24 +444,24 @@ BOOL tf = val.boolValue;
 @interface TestClass : ThisOne <ThatOne>
 ```
 
-- [ ] the parent class of TestClass 
+- [ ] the parent class of TestClass
 - [ ] the name of the category being created for ThisOne
 - [x] a protocoL impLemented by ThisOne
 - [ ] a helper file's name
 
-#### Q44. What is the value of result after this code is executed? 
+#### Q44. What is the value of result after this code is executed?
 
 ```
 NSString *result = [Ftest"
-    stringByTrimmingCharactersInSet.NSCharacterSet.alphanumericCharacterSet]; 
+    stringByTrimmingCharactersInSet.NSCharacterSet.alphanumericCharacterSet];
 ```
 
-- [ ] "" 
+- [ ] ""
 - [ ] "es"
 - [x] "test"
 - [ ] none of these answers
 
-#### Q45. When will self receive the notification based on this code? 
+#### Q45. When will self receive the notification based on this code?
 
 ```
 MyClass .classObj = [[MyClass allot] init];
@@ -474,13 +474,13 @@ MyClass .classObj = [[MyClass allot] init];
 - [ ] when class0bj is set to "name"
 - [x] when the name property in the class0bj instance changes
 
-#### Q46. What is wrong with this code? 
+#### Q46. What is wrong with this code?
 
 ```
 [*"true" boolValue];
 ```
 
-- [ ] String literal are not created with*.
+- [ ] String literal are not created with\*.
 - [x] NSString doesn't have a boolValue function.
 - [ ] "true" has no meaning.
 - [ ] There is nothing wrong with this code.
@@ -544,7 +544,3 @@ int r1 = arc4random() % 10;
 - [x] 9
 - [ ] 1
 - [ ] 10
-
-
-
-

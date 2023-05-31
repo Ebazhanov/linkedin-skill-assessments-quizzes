@@ -833,18 +833,21 @@ D. Start When Clicked On
 - [ ] Use the Reuse Slides command.
 
 #### Q106. Which tool provides the easiest way to to create and insert an organizational chart into a presentation
-- [x] smartArt 
+
+- [x] smartArt
 - [ ] 3D Models
 - [ ] shapes
 - [ ] charts
 
 #### Q107. What can You enable to help align objects on a slide?
-- [ ] Cascade 
+
+- [ ] Cascade
 - [ ] Arrange all
 - [ ] Fit to window
-- [x] Gridlines 
+- [x] Gridlines
 
 #### Q108. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+
 - [ ] Custom Numer
 - [ ] AutoNumber
 - [ ] Align Number

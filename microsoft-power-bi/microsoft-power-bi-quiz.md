@@ -766,9 +766,10 @@ D. longitude, latitude
 - [x] all of these answers
 - [ ] Rearrange pivot table fields.
 - [ ] Drill down in the pivot table.
+- 
 #### Q97. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
--[ ] drill down in the pivot table.
--[ ] Rearrange pivot table fields.
--[ ] view the pivot table
--[x] all of these answers 
+- [ ] drill down in the pivot table.
+- [ ] Rearrange pivot table fields.
+- [ ] view the pivot table
+- [x] all of these answers 
 

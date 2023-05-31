@@ -228,28 +228,26 @@
 - [ ] Flash Player is not installed.
 - [ ] QuickTime is not installed.
 
-
 #### Q33. You make a last-minute change to some text in a client's PDF. When you change the text, the appearance of the corrected text does not match the surrounding text. What might be the cause of this issue?
- 
+
 - [ ] The font is embedded in the PDF.
 - [ ] The surrounding text is in a locked layer.
 - [ ] The font is not embedded in the PDF.
-- [x] The required font is not active on your system. 
+- [x] The required font is not active on your system.
 
 #### Q34. To attach a PDF to an email for a client's approval, you need to considerably reduce the size of the PDF. Which method will give you the most extensive options for reducing file size?
 
 - [ ] File > Save As Other > Reduced Size PDF
-- [x] File > Save As Other > Optimized PDF             
+- [x] File > Save As Other > Optimized PDF
 - [ ] File > Export To > Image
 - [ ] File > Export To > PostScript
-
 
 #### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
 
 - [ ]Preferences > Signatures > Identities & Trusted Certificates
 - [ ] Preferences > Signatures > Document Timestamping
 - [ ] Preferences > Signatures > Verification
-- [x] Preferences > Signatures > Creation and Appearance      
+- [x] Preferences > Signatures > Creation and Appearance
 
 #### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
 
@@ -270,12 +268,12 @@
 - [ ] The text is redacted.
 - [ ] The text is in a locked layer.
 - [ ] The PDF has limited permissions.
-- [x] The PDF is a scanned document.          
+- [x] The PDF is a scanned document.
 
 #### Q38. You are creating PDFs for a government agency. Which specification in the quote request from the agency contact indicates that the PDFs you submit must meet accessibility guidelines?
 
 - [ ] Section 501c compliance
-- [x] Section 508 compliance           
+- [x] Section 508 compliance
 - [ ] Section 509a compliance
 - [ ] Section 510 compliance
 
