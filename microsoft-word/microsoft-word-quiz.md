@@ -843,12 +843,14 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Figures
 
 #### Q108. When are mirrored margins typically used?
+
 - [x] when printing on both sides of the paper
 - [ ] when the document has a header or a footer
 - [ ] when the text is formatted into multiple columns
 - [ ] when you need all the margins to be the same size
+
 * Explain:
-> Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
+  > Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
 
 #### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
 
@@ -873,12 +875,14 @@ explain:
 [Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
 
 #### Q109. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
+
 - [ ] No Markup
 - [ ] Compare
 - [x] Version History
 - [ ] Track Changes
+
 * Explain
-> Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
+  > Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
 
 #### Q111. What tasks are required to create a template from an existing document?
 

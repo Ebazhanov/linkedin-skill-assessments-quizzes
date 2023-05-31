@@ -1037,7 +1037,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
   "name": "Jane",
   "job": "developer",
   "skills": ["ruby", "rails", "javascript"],
-  "available" : "true",
+  "available": "true",
   "seeking": "part-time"
 }
 ```
@@ -1061,8 +1061,8 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
   "name": "Jane",
   "job": "developer",
   "skills": ["ruby", "rails", "javascript"],
-  "available" : "true",
-  "seeking": 'part-time'
+  "available": "true",
+  "seeking": "part-time"
 }
 ```
 
