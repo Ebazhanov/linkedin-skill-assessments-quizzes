@@ -1494,8 +1494,9 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <li>
-<input>
-<option>
+  <input />
+  <option></option>
+</li>
 ```
 
 - [ ] B
@@ -1510,16 +1511,15 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <button>
-<input>
-<form>
+  <input />
+  <form></form>
+</button>
 ```
 
 - [ ] D
 
 ```html
-<input> 
-<label> 
-<meter>
+<input /> <label> <meter></meter></label>
 ```
 
 #### Q91. What is wrong with this code?
@@ -2070,7 +2070,8 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] B
 
 ```html
-<aside role="sidebar">Sidebar...</aside><aside role="notes">Endnotes...</aside>
+<aside role="sidebar">Sidebar...</aside>
+<aside role="notes">Endnotes...</aside>
 ```
 
 - [ ] C
@@ -2157,19 +2158,23 @@ label="Endnotes">Endnotes...</custom-footnote>
 #### Q130. What is wrong with this table?
 
 ```html
-  <table>
-    <legend>A two body table!</legend>
-    <col>
-    <col>
-    <tbody><tr>
+<table>
+  <legend>A two body table!</legend>
+  <col />
+  <col />
+  <tbody>
+    <tr>
       <td>Cell 1</td>
       <td>Cell 1</td>
-    </tr></tbody>
-    <tbody><tr>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
       <td>Cell 1</td>
       <td>Cell 1</td>
-    </tr></tbody>
-  </table>
+    </tr>
+  </tbody>
+</table>
 ```
 
 - [ ] A table can only have one tbody element.
@@ -2189,4 +2194,3 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS and with JavaScript code.
 - [ ] It establishes that `warning` may be used for styling CSS several times per page.
 - [ ] It establishes that `warning` is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
-
