@@ -854,15 +854,13 @@ explain:
 > 1. The best way to ensure that all your letters consistently have a professional-looking format is by creating a template.
 > 2. By saving the file as a .dot (Word template) file, you can easily access it each time you need to write a new letter and start with the pre-defined formatting. This method allows you to maintain consistency and save time by not having to recreate the format manually for each new letter.
 
-#### Q109. Which style type should you create in order to control font, font color, tab positions, and line breaks?
-
-- [ ] table
-- [ ] hybrid
-- [ ] character
-- [x] paragraph
-
-[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
-[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
+#### Q109. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
+- [ ] No Markup
+- [ ] Compare
+- [x] Version History
+- [ ] Track Changes
+* Explain
+> Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
 
 #### Q110. What tasks are required to create a template from an existing document?
 
