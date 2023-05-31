@@ -1008,3 +1008,64 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `JSON.stringify()`
 - [ ] `JSON.export()`
 - [ ] `JSON.string()`
+
+#### Q94. How would you update this JSON to indicate that Jane is now available for part-time work ?
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false
+}
+```
+
+- [x] A
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": true,
+  "seeking": "part-time"
+}
+```
+
+- [ ] B
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available" : "true",
+  "seeking": "part-time"
+}
+```
+
+- [ ] C
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false,
+  "seeking": "part-time"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available" : "true",
+  "seeking": 'part-time'
+}
+```
+
+Hint: true needs to be a boolean and part-time a string so in double quotes.
