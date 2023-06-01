@@ -238,7 +238,6 @@
     6.Removes information.
 
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
 - [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
@@ -297,7 +296,9 @@
 #### Q19. Can trailing commas be used in objects and arrays?
 
 - [ ] yes
+- [ ] yes
 - [ ] only if there is more than one item
+- [x] no
 - [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
@@ -799,8 +800,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [x] no
-- [ ] yes
+- [ ] no
+- [x] yes
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
@@ -842,7 +843,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] true, false, null
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
-- [ ] true, false, null
 
 #### Q78. If an object key contains spaces, how can you access its value in JavaScript?
 
@@ -1039,7 +1039,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
   "name": "Jane",
   "job": "developer",
   "skills": ["ruby", "rails", "javascript"],
-  "available" : "true",
+  "available": "true",
   "seeking": "part-time"
 }
 ```
@@ -1063,8 +1063,8 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
   "name": "Jane",
   "job": "developer",
   "skills": ["ruby", "rails", "javascript"],
-  "available" : "true",
-  "seeking": 'part-time'
+  "available": "true",
+  "seeking": "part-time"
 }
 ```
 
