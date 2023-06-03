@@ -696,19 +696,20 @@ SELECT bal FROM Account WHERE acct='12345';
 #### Q55. What is the result of this query?
 
 ```tsql
-SELECT 123+'123' AS Result; 
+SELECT 123+'123' AS Result;
 ```
+
 - [ ] 123'123'
 - [ ] error
 - [x] 246
 - [ ] 123123
 
-#### Q56. What is the result of these three commands? 
+#### Q56. What is the result of these three commands?
 
 ```tsql
 CREATE TABLE MyNumbers (
     MyDecimalColumn decimal(5,2) NOT NULL
-);  
+);
 
 INSERT INTO MyNumbers VALUES (123), (45);
 
@@ -718,5 +719,5 @@ SELECT * FROM MyNumbers;
 - [ ] A
 - [ ] B
 - [x] C
-![Image of footer](images/Q56c.png?raw=png)
+      ![Image of footer](images/Q56c.png?raw=png)
 - [ ] D

@@ -306,12 +306,12 @@
 - [ ] approval notices and emails
 
 #### Q40. Some business processes take months or years to complete. Which strategies are useful when automating a long-running business approval process? (Select all that apply.)
- 
+
 A. Store the approvals in SharePoint.
 B. Turn off email notifications.
 C. Create two flows—one to send the request, another to handle responses.
-D. Store the approvals in the Common Data Service. 
-          
+D. Store the approvals in the Common Data Service.
+
 - [ ] C, D
 - [ ] A, C
 - [ ] A, B, C
@@ -346,8 +346,8 @@ D. Store the approvals in the Common Data Service.
 - [ ] a trigger that runs instantly when another flow finishes processing, if they are chained together
 - [ ] a trigger that initiates a flow without user interaction when some condition is met—for example, when an email is received or a record changes
 - [ ] a trigger that initiates a flow without user interaction at a set time for one or more instance
- 
-#### Q45. In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.) 
+
+#### Q45. In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.)
 
 ![Image of footer](images/Q45.png?raw=png)
 

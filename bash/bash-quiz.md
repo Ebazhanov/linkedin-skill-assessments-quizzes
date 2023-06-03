@@ -1057,16 +1057,18 @@ cat > notes -
 - [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
 
-
 #### Q83. Which command will allow you to see the documentation of any other Bash command ?
+
 - [x] Man {command}
 - [ ] help {command}
 - [ ] doc {command}
 - [ ] {command} -help
+
 #### Q84. What is the difference between these two conditional expressions ?
+
 [[$A==$B]]
 [[$A -eq $B]]
- 
+
 - [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
 - [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
 - [x] they are the same.
