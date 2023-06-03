@@ -296,7 +296,9 @@
 #### Q19. Can trailing commas be used in objects and arrays?
 
 - [ ] yes
+- [ ] yes
 - [ ] only if there is more than one item
+- [x] no
 - [x] no
 - [ ] only when arrays and objects contain more than 10 items
 

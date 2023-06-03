@@ -1054,7 +1054,7 @@ cat > notes -
 
 - [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
 
 #### Q83. Which command will allow you to see the documentation of any other Bash command ?

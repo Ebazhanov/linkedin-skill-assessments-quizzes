@@ -532,8 +532,8 @@ model=Planet
 
 #### Q55. What is WSGI?
 
-- [x] a server
-- [ ] an interface specification
+- [ ] a server
+- [x] an interface specification
 - [ ] a Python module
 - [ ] a framework
 
