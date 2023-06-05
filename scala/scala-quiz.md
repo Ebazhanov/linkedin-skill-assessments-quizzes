@@ -481,7 +481,7 @@ s"Foo $a?"
 
 #### Q57. In Scala, what is a precondition?
 
-- [ ] A calss of boolean operators
+- [ ] A class of boolean operators
 - [ ] A class of predefined error messages
 - [x] A constraint on values passed to a method or constructor
 - [ ] A constraint on where a method may be called from
