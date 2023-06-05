@@ -591,6 +591,3 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] In C#, covariance and contravariance disables implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
 
 Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)
-
-
-
