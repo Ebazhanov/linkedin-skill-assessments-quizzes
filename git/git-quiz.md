@@ -374,8 +374,9 @@ modified: beta-notes.js
 
 - [ ] 3
 - [ ] 5
-- [ ] 2
-- [x] 4
+- [x] 2
+- [ ] 4
+> In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase. [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing#:~:text=In%20Git%2C%20there%20are%20two%20main%20ways%20to%20integrate%20changes%20from%20one%20branch%20into%20another%3A%20the%20merge%20and%20the%20rebase)
 
 #### Q41. Which user should be created first during setting up of SSH?
 
