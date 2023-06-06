@@ -692,3 +692,48 @@ SELECT bal FROM Account WHERE acct='12345';
 - [ ] smalldatetime
 - [ ] datetime
 - [ ] datetime2
+
+#### Q55. What is the result of this query?
+
+```tsql
+SELECT 123+'123' AS Result;
+```
+
+- [ ] 123'123'
+- [ ] error
+- [x] 246
+- [ ] 123123
+
+#### Q56. What is the result of these three commands?
+
+```tsql
+CREATE TABLE MyNumbers (
+    MyDecimalColumn decimal(5,2) NOT NULL
+);
+
+INSERT INTO MyNumbers VALUES (123), (45);
+
+SELECT * FROM MyNumbers;
+```
+
+- [ ] A
+- [ ] B
+- [x] C
+      ![Image of footer](images/Q56c.png?raw=png)
+- [ ] D
+
+
+#### Q57. Given the table below , which query shows How many students are in each department ?
+![T-SQL-Q55](images/Q55.jpg)
+- [X] Select Department, COUNT(*) FROM Students GROUP BY Department;
+- [ ] SELECT COUNT(*) FROM Students;
+- [ ] SELECT Student BY Department;
+- [ ] SELECT COUNT(*) FROM Students ORDER BY Department;
+
+#### Q58. What is an example of a DDL command in SQL ?
+- [ ] merge
+- [x] drop 
+- [ ] delete
+- [ ] truncate table
+
+

@@ -516,17 +516,17 @@ The regex must not be quoted to work properly.
 
 #### Q43. How would you find the last copy command run in your history?
 
-- [ ] history | find cp
-- [x] history | grep cp\*\*
-- [ ] grep cp history
-- [ ] cp history
+- [ ] `history | find cp`
+- [x] `history | grep cp`
+- [ ] `grep cp history`
+- [ ] `cp history`
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
 
-- [x] `bash for i in $(ls); do ... done`
-- [ ] `bash for $(ls); do ... done`
-- [ ] `bash for i in $ls; do ... done`
-- [ ] `bash for $ls; do ... done`
+- [x] `for i in $(ls); do ... done`
+- [ ] `for $(ls); do ... done`
+- [ ] `for i in $ls; do ... done`
+- [ ] `for $ls; do ... done`
 
 #### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
@@ -1054,5 +1054,22 @@ cat > notes -
 
 - [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
+
+#### Q83. Which command will allow you to see the documentation of any other Bash command ?
+
+- [x] Man {command}
+- [ ] help {command}
+- [ ] doc {command}
+- [ ] {command} -help
+
+#### Q84. What is the difference between these two conditional expressions ?
+
+[[$A==$B]]
+[[$A -eq $B]]
+
+- [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
+- [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
+- [x] they are the same.
+- [ ] [[$A==$B]]is used for text comparisons whereas [[$a-eq $B]]is used for numeric comparisons.

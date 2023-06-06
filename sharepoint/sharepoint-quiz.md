@@ -443,12 +443,13 @@
 - [ ] SQL Server
 - [ ] Open Data
 
-#### Q56 What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
+#### Q56. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
 
 - [ ] By Users
 - [ ] By Groups
 - [ ] By site levels
 - [ ] By sites
+
 
 #### Q57. The News web part allows users to add a news post to the web part. What other item can users add to the News web part?
 
@@ -502,3 +503,18 @@ D. on-delete automatic trigger
 -[ ] A.C, D
 -[x] A, B,C
 -[ ] A, B, C, D
+
+#### Q64. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
+
+- [ ] team permissions
+- [ ] calendar URL
+- [ ] team name
+- [ ] calendar invite
+
+#### Q65. Which site collection feature allows for documents to be retrieved independent of their current location?
+
+- [ ] Document ID service
+- [ ] content type syndication hub
+- [ ] Document Sets
+- [ ] search engine sitemap
+
