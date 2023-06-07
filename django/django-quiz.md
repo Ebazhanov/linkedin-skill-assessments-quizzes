@@ -313,7 +313,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x] A
+- [ ] A
 
 ```python
 class Author (models.model):
@@ -322,7 +322,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] B
+- [x] B
 
 ```python
 class Author (models.model):
