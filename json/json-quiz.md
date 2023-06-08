@@ -238,7 +238,6 @@
     6.Removes information.
 
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
 - [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
@@ -296,9 +295,11 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [x] yes
+- [ ] yes
+- [ ] yes
 - [ ] only if there is more than one item
-- [ ] no
+- [x] no
+- [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
@@ -799,8 +800,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [x] no
-- [ ] yes
+- [ ] no
+- [x] yes
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
@@ -842,7 +843,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] true, false, null
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
-- [ ] true, false, null
 
 #### Q78. If an object key contains spaces, how can you access its value in JavaScript?
 
@@ -1008,3 +1008,64 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] `JSON.stringify()`
 - [ ] `JSON.export()`
 - [ ] `JSON.string()`
+
+#### Q94. How would you update this JSON to indicate that Jane is now available for part-time work ?
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false
+}
+```
+
+- [x] A
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": true,
+  "seeking": "part-time"
+}
+```
+
+- [ ] B
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": "true",
+  "seeking": "part-time"
+}
+```
+
+- [ ] C
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false,
+  "seeking": "part-time"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": "true",
+  "seeking": "part-time"
+}
+```
+
+Hint: true needs to be a boolean and part-time a string so in double quotes.

@@ -404,7 +404,7 @@ public class Jedi {
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
-#### Q24. Which statement is **NOT** true?
+#### Q24. "An anonymous class require a zero-argument constructor." that's not true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
 - [x] An anonymous class does not require a zero-argument constructor.

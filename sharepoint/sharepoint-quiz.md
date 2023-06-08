@@ -443,9 +443,78 @@
 - [ ] SQL Server
 - [ ] Open Data
 
-#### Q56 What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
+#### Q56. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
 
 - [ ] By Users
 - [ ] By Groups
 - [ ] By site levels
 - [ ] By sites
+
+
+#### Q57. The News web part allows users to add a news post to the web part. What other item can users add to the News web part?
+
+- [ ] a list
+- [ ] a news link
+- [x] a page
+- [ ] a form
+
+#### Q58. You need to create a new site as a SharePoint subsite that will not inherit permissions from the parent site. What must you do to block inheritance?
+
+- [ ] Create and assign users to the subsite.
+- [ ] Create or assign groups to the subsite.
+- [ ] Copy permissions from the parent site to the subsite.
+- [x] Block permissions inheritance from the parent site.
+
+#### Q59. You created a site collection and would like to give a manager in your organization the capability to add and maintain users. To which group do you add this manager without compromising security?
+
+- [ ] contributor
+- [ ] administrator
+- [x] owner
+- [ ] viewer
+
+#### Q60. How do you find site usage statistics in SharePoint Online?
+
+- [x] On the site home page, click the gear (Settings) icon and go to Site information. Select View all site settings, and then in the Site Administration section, select Site usage statistics.
+- [ ] On the Site contents page, click Site usage.
+- [ ] On the site home page, click the gear (Settings) icon, go to Site settings, and select Site usage.
+- [ ] In the SharePoint Admin Center, select the SharePoint File Activity report.
+
+#### Q61. An organization has deployed a SharePoint parent site that includes a four-level hierarchy of subsites. You want to add another subsite to this hierarchy. What is the hard limit on a subsite hierarchy?
+
+- [ ] There is a limit of up to ten subsites in a single hierarchy.
+- [x] There is a limit of up to five sites (one parent, four subsites) in a single hierarchy.
+- [ ] There is no hierarchy limit for subsites.
+- [ ] There is a limit of up to five subsites in a single hierarchy.
+
+#### Q62. You have created a new page in a SharePoint Online site. Which elements are displayed on the page by default?
+
+- [ ] the title area web part, the document library web part, and comments
+- [ ] the title area web part, the Yammer web part, and comments
+- [ ] the News web part, the title area web part, and comments
+- [x] the title area web part and comments(true)
+
+#### Q63. What initiates a SharePoint workflow? (Select all that apply.)
+A. manual trigger
+B. on-change automatic trigger
+C. on-create automatic trigger
+D. on-delete automatic trigger
+
+-[ ] B,C, D
+-[ ] A.C, D
+-[x] A, B,C
+-[ ] A, B, C, D
+
+#### Q64. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
+
+- [ ] team permissions
+- [ ] calendar URL
+- [ ] team name
+- [ ] calendar invite
+
+#### Q65. Which site collection feature allows for documents to be retrieved independent of their current location?
+
+- [ ] Document ID service
+- [ ] content type syndication hub
+- [ ] Document Sets
+- [ ] search engine sitemap
+

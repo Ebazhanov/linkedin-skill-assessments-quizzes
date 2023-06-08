@@ -1556,3 +1556,65 @@ X+=a;
 - [ ] 3
 
 **Explanation :** `+=` means increasing value. So `x += a` is equivalent to `x = x + a`
+
+#### Q99. Once you are done writing to a file, what method will you call on the `ofstream` to notify the operating system?
+
+- [ ] printout()
+- [x] close()
+- [ ] destroy()
+- [ ] flush()
+
+#### Q100. Which choice is not a C++ keyword?
+
+-[ ] static_assert -[ ] reinterpret_cast -[x] comPl -[ ] alignas
+
+#### Q101. The size_in_bits function seems to take any type of parameter. This can be done by overloading the function, or by letting the compiler take care of it by writing a template. Which choice is an implementation of that template?
+
+```cpp
+int main()
+{
+tout « size_in_bits(21) « endl;
+tout « size_in_bits('f') « endl;
+tout « size_in_bits(32.1f) « endl;
+tout « size_in_bits(32.1) « endl;
+return 0;
+}
+```
+
+-[X] A
+
+```cpp
+template <typename T>
+size_t size_in_bits(const T& a){
+return sizeof(a)*8;
+}
+```
+
+-[ ] B
+
+```cpp
+template size_t size_in_bits(const {int,float,double,char,long}& a){
+return sizeof(a)*8;
+}
+```
+
+-[x] C
+
+```cpp
+template <typename T {int,float,double,char,long>
+size_t size_in_bits(const T& a){
+return sizeof(a)*8;
+}
+```
+
+-[ ] D
+
+```cpp
+size_t size_in_bits(void * a){
+return sizeof(a)*8;
+}
+```
+
+#### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
+
+-[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream

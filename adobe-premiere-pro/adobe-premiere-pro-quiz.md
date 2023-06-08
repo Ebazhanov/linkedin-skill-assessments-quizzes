@@ -418,7 +418,7 @@ https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render
 - [ ] Switch to After Effects first and choose the Render and Replace option
 - [ ] Choose Consolidate and Transcode
 
-#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+#### Q52. Which visual transition fades the end of one clip into the beginning of the next clip?
 
 - [ ] fade in
 - [ ] fade out
@@ -520,3 +520,17 @@ E. PDF
 - [ ] You would get a Start at Cut alignment.
 - [ ] The clip is trimmed and a Center at Cut transition is applied.
 - [ ] Your would get a one-frame transition.
+
+#### Q65. Which export format supports inclusion of an alpha channel?
+
+- [ ] MOV
+- [ ] MP4
+- [ ] MPEG 2 for DVD
+- [ ] MXF OP1a
+
+#### Q66. Which user interface item identifies the current frame in the Program Monitor?
+
+- [ ] frame ruler
+- [ ] indicator
+- [ ] playhead
+- [ ] navigator

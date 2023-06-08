@@ -832,13 +832,28 @@ D. Start When Clicked On
 - [x] Change the font on the Slide Master for that layout.
 - [ ] Use the Reuse Slides command.
 
-#### Q106. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+#### Q106. Which tool provides the easiest way to to create and insert an organizational chart into a presentation
+
+- [x] smartArt
+- [ ] 3D Models
+- [ ] shapes
+- [ ] charts
+
+#### Q107. What can You enable to help align objects on a slide?
+
+- [ ] Cascade
+- [ ] Arrange all
+- [ ] Fit to window
+- [x] Gridlines
+
+#### Q108. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+
 - [ ] Custom Numer
 - [ ] AutoNumber
 - [ ] Align Number
 - [x] Start At
 
-#### Q107. While in Outline view, what does "promoting"" a paragraph do to its placement?
+#### Q109. While in Outline view, what does "promoting"" a paragraph do to its placement?
 
 - [ ] It copies the paragraph to the PowerPoint clipboard.
 - [ ] It moves the paragraph down one level in the outline.

@@ -1616,21 +1616,22 @@ $('.menu').find('a').css('color', 'red').end().find('.active').hide();
 - [ ] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
 - [ ] It changes the menu items in the first list to red, then returns the selection with no further changes.
 
-
 #### Q85. A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called "processed" to it?
+
 ```html
 <nav id="main">
-	<ul>
-		<li><a href="/" class="active">Home</a></li>
-		<li><a href="/about">About</a></li>
-	</ul>
+  <ul>
+    <li><a href="/" class="active">Home</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
 </nav>
 ```
+
 ```javascript
-$('a.active').addClass('hover')
+$('a.active').addClass('hover');
 ```
- 
+
 - [ ] .parent('#main').addClass('processed');
-- [x] .parents('#main').addClass('processed'); 
+- [x] .parents('#main').addClass('processed');
 - [ ] .find('#main').addClass('processed');
 - [ ] .up('#main').addClass('processed');

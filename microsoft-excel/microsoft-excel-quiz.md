@@ -1302,7 +1302,6 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] treemap
 - [ ] box and whisker
 
-
 #### Q147. How do you override Excel's automatic axis scaling to enter custom axis maximum and minimum values?
 
 - [ ] You cannot do this in Excel.
@@ -1311,16 +1310,17 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Click the individual axis values and change them manually.
 
 #### Q147. Given the source data, how do you transform the middle PivotTable to appear like the rightmost PivotTable?
+
 ![Q147](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/67fc27f2-5ee3-4250-bc9e-17c19da31d9a)
 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 - [ ] Below answer should be right
-- [x] Right-click any row field value in the pivot table and select Group. 
+- [x] Right-click any row field value in the pivot table and select Group.
 
 #### Q148. Which formula will calculate the number of blank cells in the range A1:A20
+
 - [x] =COUNTBLANK(A1:A20)
 - [ ] =COUNTA(A1:A20)
 - [ ] =COUNTIF(A1:A20,">0")
 - [ ] =COUNT(A1:A20)
-

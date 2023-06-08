@@ -619,7 +619,8 @@
 - [x] how users search on you site
 
 #### Q87. What does analytics set and read for each unique domain being tracked?
--[ ] HTML
--[x] cookies
--[ ] pixels
--[ ] sessions
+
+- [ ] HTML 
+- [x] cookies
+- [ ] pixels 
+- [ ] sessions

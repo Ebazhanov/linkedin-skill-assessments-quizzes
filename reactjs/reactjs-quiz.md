@@ -1441,3 +1441,17 @@ const Waitlist = () => {
 - [ ] There are likely repeated names inside of the `waitlist` array.
 
 [Reference](https://reactjs.org/docs/react-component.html#setstate)
+
+
+
+
+#### Q120. What is the pattern that is used in the Context.Consumer below?
+<Context.Consumer>
+{(isLoggedIn)=><b>{isLoggedIn ? "Online" : "Offline"}</b>}
+</Context.Consumer>
+
+- [ ] higher-order component
+- [ ] wish component
+- [x] Render Props
+- [ ] setup Componet
+

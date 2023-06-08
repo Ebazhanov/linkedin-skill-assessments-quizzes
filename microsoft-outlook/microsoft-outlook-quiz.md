@@ -213,7 +213,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] the current date in Day view
 - [ ] the current date in Week view
 
-#### Q30. When you @mention a colleague in an email message, what does *not* happen?
+#### Q30. When you @mention a colleague in an email message, what does _not_ happen?
 
 - [ ] Your colleague's name is highlighted in the message.
 - [x] The colleague is automatically added to the To line.
@@ -240,7 +240,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [x] A or B
 - [ ] A
 
-#### Q33. What permission level allows your delegates to read, create, change, and delete items that *they* created, but not items that *you* created?
+#### Q33. What permission level allows your delegates to read, create, change, and delete items that _they_ created, but not items that _you_ created?
 
 - [ ] Reader
 - [x] Author
@@ -554,7 +554,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
 - [x] The folder and its contents are moved to Deleted Items at the same time.
 
-#### Q76. You are organizing your Outlook folders. For all emails that are sent *directly* to you, they should appear in your Inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?
+#### Q76. You are organizing your Outlook folders. For all emails that are sent _directly_ to you, they should appear in your Inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?
 
 - [x] Create a Cc'd folder, and then create a rule to move all messages where you are on the cc line to that folder.
 - [ ] Create a rule to move all messages where you are in the cc line to the Deleted Items folder.
