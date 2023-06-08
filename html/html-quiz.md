@@ -181,7 +181,7 @@
 - [x] C
 
 ```html
-<img src="cubism.jpg" alt='Version of "Whistler\'s Mother" in cubist style'>
+<img src="cubism.jpg" alt='Version of "Whistler&apos;s Mother" in cubist style'>
 ```
 
 - [ ] D

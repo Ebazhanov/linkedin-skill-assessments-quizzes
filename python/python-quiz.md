@@ -1842,12 +1842,12 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 
 #### Q136. it is often the case that the pandas library is used for **_ data and NumPy for _** data.
 
-- [x] string; numerical
+- [ ] string; numerical
 - [ ] unstructured; structured
-- [ ] numerical; tabular
+- [x] numerical; tabular
 - [ ] tabular; numerical
 
-[Reference](https://www.interviewbit.com/blog/pandas-vs-numpy/)
+* Explanation: The pandas library is commonly used for working with tabular data, such as data in the form of tables or spreadsheets. It provides data structures and functions for data manipulation and analysis. On the other hand, NumPy is a powerful library for numerical computing in Python, and it is often used for performing mathematical operations on numerical data, such as arrays and matrices.
 
 #### Q137. What do you need to do to install additional packages into Python?
 
