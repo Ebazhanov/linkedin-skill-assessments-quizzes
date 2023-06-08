@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1385-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1386-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1924,6 +1924,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/justinyates887"><img src="https://avatars.githubusercontent.com/u/72110942?v=4?s=100" width="100px;" alt="Justin Yates"/><br /><sub><b>Justin Yates</b></sub></a><br /><a href="#design-justinyates887" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=justinyates887" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://alidevhere.com/"><img src="https://avatars.githubusercontent.com/u/53839118?v=4?s=100" width="100px;" alt="mohammad ali"/><br /><sub><b>mohammad ali</b></sub></a><br /><a href="#design-alidevhere" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alidevhere" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Madhav-2808"><img src="https://avatars.githubusercontent.com/u/113347221?v=4?s=100" width="100px;" alt="Madhav Singh"/><br /><sub><b>Madhav Singh</b></sub></a><br /><a href="#design-Madhav-2808" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Madhav-2808" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RgbMouse69"><img src="https://avatars.githubusercontent.com/u/119504381?v=4?s=100" width="100px;" alt="RgbMouse69"/><br /><sub><b>RgbMouse69</b></sub></a><br /><a href="#design-RgbMouse69" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RgbMouse69" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
