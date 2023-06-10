@@ -1618,3 +1618,66 @@ return sizeof(a)*8;
 #### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
 
 -[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream
+
+####  Q103. What will this object-oriented program print?
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std; 
+
+class Vehicle {
+public:
+	string fuel = "none";
+};
+
+class MotorizedVehicle : public Vehicle {
+public:
+	string fuel = "fossil";
+};
+
+class NextgenMotorizedVehicle : public MotorizedVehicle {
+public:
+	string fuel = "hydrogen";
+};
+
+int main() {
+	MotorizedVehicle aCar;
+	cout << aCar.fuel;
+	return 0;
+}
+```
+
+-[X] fossil
+-[ ] fossil none
+-[ ] hydrogen
+-[ ] none
+
+#### Q104. The program below is handling a stack container. What is the output of running the program?
+
+```cpp
+#include <iostream>
+#include <stack>
+
+int main()
+{
+	std::stack<int> stack;
+	stack.push(1);
+	stack.push(2);
+	stack.push(3);
+
+	stack.pop();
+
+	stack.push(4);
+
+	stack.top();
+	stack.pop();
+
+	std::cout << stack.top();
+}
+```
+
+[] 1
+[x] 2
+[] 3
+[] 4
