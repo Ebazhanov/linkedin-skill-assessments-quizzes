@@ -204,12 +204,22 @@ const element = <p>{message}</p>;
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
-- [ ] to change the layout of the screen
-- [x] when you need the browser to paint before the effect runs
+- [x] to change the layout of the screen
+- [] when you need the browser to paint before the effect runs
 
-[Reference](https://www.knowledgehut.com/blog/web-development/react-uselayouteffect)
 
-[Answer confirmed by multiple members of the community in this internal discussion](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3946)
+[Source] (https://react.dev/reference/react/useLayoutEffect)
+"useLayoutEffect is a version of useEffect that fires before the browser repaints the screen."
+
+[Explanation]The correct answer to the question "When do you use useLayoutEffect?" is:
+
+When you need to change the layout of the screen.
+
+useLayoutEffect is used when you need to perform DOM mutations that rely on the updated layout of the elements. It allows you to make changes to the DOM synchronously before the browser performs its painting step. This can be useful when you need to measure or manipulate the layout, such as accessing element dimensions or positions, calculating scroll offsets, or performing other operations that require up-to-date layout information.
+
+The other option provided as answer is not accurate:
+
+"When you need the browser to paint before the effect runs" is not correct. The purpose of useLayoutEffect is to run the effect synchronously after the DOM updates but before the browser paints, allowing you to make layout-related changes before the visual rendering occurs.
 
 **Explanation:**
 `useLayoutEffect` gets executed _before_ the `useEffect` hook without much concern for DOM mutation. Even though the React hook `useLayoutEffect` is set after the `useEffect` Hook, it gets triggered first!
