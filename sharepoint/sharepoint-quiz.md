@@ -241,7 +241,7 @@
 #### Q30. How can you standardize lists (including the data types, the format, and more) within your organization?
 
 - [ ] Create a custom app.
-- [ ] Change object permissions.
+- [x] Change object permissions.
 - [ ] Use a group of site columns.
 - [ ] Change user permissions for lists.
 
@@ -269,7 +269,7 @@
 #### Q34. When a user tries to create a new document in a SharePoint library, the default option is not Microsoft Word. What setting do you need to change in the library?
 
 - [ ] site template
-- [ ] document template
+- [x] document template
 - [ ] versioning
 - [ ] audience targeting
 
