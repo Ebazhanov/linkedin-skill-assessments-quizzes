@@ -13768,6 +13768,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "SigmaSkid",
+      "name": "Sigma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51486191?v=4",
+      "profile": "https://github.com/SigmaSkid",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
