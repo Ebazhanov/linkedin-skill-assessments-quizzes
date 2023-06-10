@@ -620,7 +620,7 @@
 
 #### Q87. What does analytics set and read for each unique domain being tracked?
 
-- [ ] HTML 
+- [ ] HTML
 - [x] cookies
-- [ ] pixels 
+- [ ] pixels
 - [ ] sessions

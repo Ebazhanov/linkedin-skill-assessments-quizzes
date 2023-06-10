@@ -722,18 +722,18 @@ SELECT * FROM MyNumbers;
       ![Image of footer](images/Q56c.png?raw=png)
 - [ ] D
 
-
 #### Q57. Given the table below , which query shows How many students are in each department ?
+
 ![T-SQL-Q55](images/Q55.jpg)
-- [X] Select Department, COUNT(*) FROM Students GROUP BY Department;
-- [ ] SELECT COUNT(*) FROM Students;
+
+- [x] Select Department, COUNT(\*) FROM Students GROUP BY Department;
+- [ ] SELECT COUNT(\*) FROM Students;
 - [ ] SELECT Student BY Department;
-- [ ] SELECT COUNT(*) FROM Students ORDER BY Department;
+- [ ] SELECT COUNT(\*) FROM Students ORDER BY Department;
 
 #### Q58. What is an example of a DDL command in SQL ?
+
 - [ ] merge
-- [x] drop 
+- [x] drop
 - [ ] delete
 - [ ] truncate table
-
-

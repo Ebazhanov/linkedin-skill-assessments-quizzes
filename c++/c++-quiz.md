@@ -1619,12 +1619,12 @@ return sizeof(a)*8;
 
 -[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream
 
-####  Q103. What will this object-oriented program print?
+#### Q103. What will this object-oriented program print?
 
 ```cpp
 #include <iostream>
 #include <string>
-using namespace std; 
+using namespace std;
 
 class Vehicle {
 public:
@@ -1648,10 +1648,7 @@ int main() {
 }
 ```
 
--[X] fossil
--[ ] fossil none
--[ ] hydrogen
--[ ] none
+-[X] fossil -[ ] fossil none -[ ] hydrogen -[ ] none
 
 #### Q104. The program below is handling a stack container. What is the output of running the program?
 

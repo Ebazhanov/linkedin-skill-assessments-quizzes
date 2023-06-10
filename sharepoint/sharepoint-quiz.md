@@ -450,7 +450,6 @@
 - [ ] By site levels
 - [ ] By sites
 
-
 #### Q57. The News web part allows users to add a news post to the web part. What other item can users add to the News web part?
 
 - [ ] a list
@@ -494,15 +493,13 @@
 - [x] the title area web part and comments(true)
 
 #### Q63. What initiates a SharePoint workflow? (Select all that apply.)
+
 A. manual trigger
 B. on-change automatic trigger
 C. on-create automatic trigger
 D. on-delete automatic trigger
 
--[ ] B,C, D
--[ ] A.C, D
--[x] A, B,C
--[ ] A, B, C, D
+-[ ] B,C, D -[ ] A.C, D -[x] A, B,C -[ ] A, B, C, D
 
 #### Q64. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
 
@@ -517,4 +514,3 @@ D. on-delete automatic trigger
 - [ ] content type syndication hub
 - [ ] Document Sets
 - [ ] search engine sitemap
-

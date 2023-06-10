@@ -207,7 +207,6 @@ const element = <p>{message}</p>;
 - [x] to change the layout of the screen
 - [] when you need the browser to paint before the effect runs
 
-
 [Source] (https://react.dev/reference/react/useLayoutEffect)
 "useLayoutEffect is a version of useEffect that fires before the browser repaints the screen."
 
@@ -1452,10 +1451,8 @@ const Waitlist = () => {
 
 [Reference](https://reactjs.org/docs/react-component.html#setstate)
 
-
-
-
 #### Q120. What is the pattern that is used in the Context.Consumer below?
+
 <Context.Consumer>
 {(isLoggedIn)=><b>{isLoggedIn ? "Online" : "Offline"}</b>}
 </Context.Consumer>
@@ -1464,4 +1461,3 @@ const Waitlist = () => {
 - [ ] wish component
 - [x] Render Props
 - [ ] setup Componet
-

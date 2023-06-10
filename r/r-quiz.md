@@ -239,8 +239,9 @@ v1<-c(1,2,3)
 v2<-c(4,5,6))
 vbound<-cbind(v1,v2)
 ```
+
 - [ ]
-none 
+  none
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?
 

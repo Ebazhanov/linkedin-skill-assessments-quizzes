@@ -818,15 +818,15 @@
 - [ ] as many as are relevent
 
 #### Q103. What tag would you use to indicate to Google that a language-specific version of a page exists for French speakers in Canada?
+
 - [ ] `<link rel="alternate" href="domain.com/fr/" hreflang="fr-ca" />`
 - [ ] `<link rel="canonical" href="domain.com/fr/" hreflang="fr-ca" />`
 - [ ] `<meta content-language="fr-ca" />`
 - [ ] `<a href lang="fr-ca" />`
-    
+
 #### Q104. What is the best type of domain name for a new business to use?
+
 - [ ] an exact match domain name
 - [ ] a partial match domain name
 - [ ] a broad match domain name
 - [ ] a domain name that fits their branding
-    
-    
