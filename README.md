@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1392-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1393-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1933,6 +1933,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/egbecheva"><img src="https://avatars.githubusercontent.com/u/34000861?v=4?s=100" width="100px;" alt="Evelina Becheva"/><br /><sub><b>Evelina Becheva</b></sub></a><br /><a href="#design-egbecheva" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=egbecheva" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/akshitgulyan"><img src="https://avatars.githubusercontent.com/u/103456810?v=4?s=100" width="100px;" alt="Akshit Gulyan"/><br /><sub><b>Akshit Gulyan</b></sub></a><br /><a href="#design-AkshitGulyan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AkshitGulyan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/arpitajana1220"><img src="https://avatars.githubusercontent.com/u/46591649?v=4?s=100" width="100px;" alt="Arpita Jana"/><br /><sub><b>Arpita Jana</b></sub></a><br /><a href="#design-arpitajana1220" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=arpitajana1220" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://pk-t-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/94980644?v=4?s=100" width="100px;" alt="Praveen Kumar"/><br /><sub><b>Praveen Kumar</b></sub></a><br /><a href="#design-sha0urya" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sha0urya" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
