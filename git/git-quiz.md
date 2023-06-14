@@ -260,10 +260,12 @@ git bisect good 69faab6268350295550de7d587bc323d
 
 #### Q26. Which of the following is true of the git push command?
 
-- [ ] By default a push doesn't send tags to the remote repository.
+- [x] By default a push doesn't send tags to the remote repository.
 - [ ] Commits can only be tagged when they are created.
-- [x] Tags are pushed to the remote repository with their respective commits.
+- [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging#:~:text=By%20default%2C%20the%20git%20push%20command%20doesn%E2%80%99t%20transfer%20tags%20to%20remote%20servers.%20You%20will%20have%20to%20explicitly%20push%20tags%20to%20a%20shared%20server%20after%20you%20have%20created%20them.%20This%20process%20is%20just%20like%20sharing%20remote%20branches%E2%80%89%E2%80%94%E2%80%89you%20can%20run%20git%20push%20origin%20%3Ctagname%3E.)
 
 #### Q27. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
 
