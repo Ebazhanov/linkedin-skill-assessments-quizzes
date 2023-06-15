@@ -13818,6 +13818,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "MSamiDev",
+      "name": "Mohammad Sami",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53607086?v=4",
+      "profile": "https://github.com/MSamiDev",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "eddiestefanescu",
+      "name": "eddiestefanescu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135341180?v=4",
+      "profile": "https://github.com/eddiestefanescu",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
