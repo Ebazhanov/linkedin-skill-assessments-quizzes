@@ -853,8 +853,10 @@ Which of the following options is correct ?
 
 - [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
 - [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
-- [x] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
-- [ ] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
+- [ ] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
+- [x] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
+
+[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#:~:text=Long%2DRunning%20Branches,them%20into%20others.)
 
 #### Q104. What command takes changes from the master branch on the remote repository origin and merges then to the local checked-out branch?
 
