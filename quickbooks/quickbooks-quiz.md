@@ -78,8 +78,8 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] Right-click the basis shown on the right side of the report and change it to Accrual.
 - [ ] Double-click the basis and change it to Accrual.
 - [x] In the upper-left corner of the screen, select the Accrual button.
-      
-- [Reference]In the upper-left corner of the screen, locate and select the Accrual button. This button is typically found in the toolbar or menu options. 
+
+[Reference]In the upper-left corner of the screen, locate and select the Accrual button. This button is typically found in the toolbar or menu options.
 
 #### Q12. Is it possible to merge two list entries?
 

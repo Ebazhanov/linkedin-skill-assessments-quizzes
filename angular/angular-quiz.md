@@ -561,7 +561,7 @@ export class HighlightDirective {
 
 ```html
 <form [formGroup]="form">
-  <input type="text" formControlName= "username">
+  <input type="text" formControlName="username" />
   ...
 </form>
 ```
@@ -569,15 +569,13 @@ export class HighlightDirective {
 - [ ] A
 
   ```html
-  <span *ngIf="username.minLength.invalid">
-      Username length is not valid
-  </span>
+  <span *ngIf="username.minLength.invalid"> Username length is not valid </span>
   ```
 
 - [ ] B
 
   ```html
-  <input type="text" formControlName="username" [showMinLength]="true">
+  <input type="text" formControlName="username" [showMinLength]="true" />
   ```
 
 - [ ] C
@@ -591,7 +589,7 @@ export class HighlightDirective {
 - [x] D
 
   ```html
-  <input type="text" formControlName="username" #userName="ngModer">
+  <input type="text" formControlName="username" #userName="ngModer" />
   <span *ngIf="userName.errors.minlength">
     Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
   </span>
@@ -659,9 +657,7 @@ export class BioComponent { }
 
   ```html
   <h1>Data Card</h1>
-  <app-bio>
-    Been around for four years.
-  </app-bio>
+  <app-bio> Been around for four years. </app-bio>
   ```
 
 - [ ] C
@@ -717,14 +713,15 @@ export class BioComponent { }
 
   ```html
   <h1>User Data</h1>
-  <p>Jenny Smith<p>
+  <p>Jenny Smith</p>
+  <p></p>
   ```
 
 - [ ] C
 
   ```html
   <app-user-card>
-      <app-title-card></app-title-card>
+    <app-title-card></app-title-card>
   </app-user-card>
   ```
 
@@ -732,8 +729,8 @@ export class BioComponent { }
 
   ```html
   <div app-user-card>
-      <h1 app-title-card>User Data</h1>
-      <p>Jenny Smith</p>
+    <h1 app-title-card>User Data</h1>
+    <p>Jenny Smith</p>
   </div>
   ```
 
@@ -910,9 +907,7 @@ export class OrderHistoryComponent {
 #### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
 
 ```html
-<div *ngIf="userIsActive; else inactive">
-  Currently active!
-</div>
+<div *ngIf="userIsActive; else inactive">Currently active!</div>
 ```
 
 - [ ] A
@@ -924,16 +919,14 @@ export class OrderHistoryComponent {
 - [ ] B
 
   ```html
-  <div *ngIf="inactive">
-      User is not active.
-  </div>
+  <div *ngIf="inactive">User is not active.</div>
   ```
 
 - [ ] C
 
   ```html
   <ng-template #else="inactive">
-      <div>User is not active.</div>
+    <div>User is not active.</div>
   </ng-template>
   ```
 
@@ -941,7 +934,7 @@ export class OrderHistoryComponent {
 
   ```html
   <ng-template #inactive>
-      <div>User is not active.</div>
+    <div>User is not active.</div>
   </ng-template>
   ```
 
@@ -1046,7 +1039,9 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 #### Q54. For the following template-driven forms example, what argument can be passed to the submit method in the click event to submit the data for the form?
 
 ```html
-<form #form="ngForm">  <input type="text" ngModel="firstName">  <input type="text" ngModel="lastName">  <button (click)="submit()">Save</button>
+<form #form="ngForm">
+  <input type="text" ngModel="firstName" /> <input type="text" ngModel="lastName" />
+  <button (click)="submit()">Save</button>
 </form>
 ```
 
@@ -1162,7 +1157,9 @@ export class TruncatePipe implements PipeTransform {
 #### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
 
 ```html
-<div *ngIf="location">  <h1>{{ location.name }}</h1>  <p>{{ location.description }}</p>
+<div *ngIf="location">
+  <h1>{{ location.name }}</h1>
+  <p>{{ location.description }}</p>
 </div>
 ```
 
@@ -1172,7 +1169,8 @@ export class TruncatePipe implements PipeTransform {
   <div *ngIf="location">
     <h1>{{ location.name }}</h1>
     <p>{{ location.description }}</p>
-  {{ endNgIf }}
+    {{ endNgIf }}
+  </div>
   ```
 
 - [ ] B
@@ -1251,9 +1249,7 @@ export interface AppSettings {
 #### Q67. In this template syntax, every time the items property is changed (added to, removed from, etc.), the ngFor structural directive re-runs its logic for all DOM elements in the loop. What syntax can be used to make this more performant?
 
 ```html
-<div *ngFor="let item of items">
-  {{ item.id }} - {{ item.name }}
-</div>
+<div *ngFor="let item of items">{{ item.id }} - {{ item.name }}</div>
 ```
 
 - [ ] `*ngFor="let item of items; let uniqueItem"`
@@ -1389,7 +1385,9 @@ export class ProductNameComponent {  @Input() productName: string
 - [ ] A
 
   ```html
-  <span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}"> Employed </span>
+  <span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
+    Employed
+  </span>
   ```
 
 - [x] B
