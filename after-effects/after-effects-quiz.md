@@ -32,7 +32,7 @@
 
 #### Q5. Where can you control the settings for footage created from an After Effects composition?
 
-- [ ] Render Queue panel
+- [x] Render Queue panel
 - [ ] Save As dialog box
 - [ ] Export Queue panel
 - [ ] Progress panel
