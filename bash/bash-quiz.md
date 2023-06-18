@@ -1075,3 +1075,15 @@ cat > notes -
 - [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
 - [x] they are the same.
 - [ ] [[$A==$B]]is used for text comparisons whereas [[$a-eq $B]]is used for numeric comparisons.
+
+#### Q85. What is the output of this code ?
+
+```bash
+VAR="united states"
+echo "${VAR^}"
+```
+
+- [ ] unitedstates
+- [ ] United States
+- [ ] United states
+- [ ] UNITED STATES
