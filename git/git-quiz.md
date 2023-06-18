@@ -1030,7 +1030,11 @@ Untracked files:
 - [ ] `git clean`
 - [ ] `git remove .`
 
+<<<<<<< HEAD
 Note: broccoli is an untracked file and will require git clean -f to be removed. On the other hand "git clean" by itself (without -f) may result in an error like this: *git clean fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing to clean*
+=======
+Note: broccoli is an untracked file and will require git clean -f to be removed. On the other hand "git clean" by itself (without -f) may result in an error like this: _git clean fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing to clean_
+>>>>>>> eabf07401dca2192893b1880e838ef587e743801
 [Reference](https://www.atlassian.com/git/tutorials/undoing-changes/git-clean#:~:text=%2Df%C2%A0or%C2%A0,a%20specific%20file.)
 
 #### Q126. What command can you use to remove untracked files from the working directory?
