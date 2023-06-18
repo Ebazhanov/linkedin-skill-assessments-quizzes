@@ -62,7 +62,7 @@
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
-- [ ] Click Import As > Composition – Retain Layer Size.
+- [x] Click Import As > Composition – Retain Layer Size.
 - [ ] Set the PSD sequence option.
 
 #### Q10. How can you render a file in the background and keep working in After Effects?
