@@ -67,7 +67,7 @@
 
 #### Q10. How can you render a file in the background and keep working in After Effects?
 
-- [ ] Click File > Export > Add to Adobe Media Encoder Queue.
+- [x] Click File > Export > Add to Adobe Media Encoder Queue.
 - [ ] Click File > Watch Folders.
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.
