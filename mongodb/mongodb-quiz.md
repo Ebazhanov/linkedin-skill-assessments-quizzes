@@ -328,7 +328,7 @@
 - [ ] `db.drop.customers({_id: 1});`
 - [x] `db.customers.remove({_id: 1});`
 
-__Note:__ db.collection.remove() is deprecated in the new mongosh. Use db.collection.deleteOne() or db.collection.deleteMany().
+**Note:** db.collection.remove() is deprecated in the new mongosh. Use db.collection.deleteOne() or db.collection.deleteMany().
 
 [References](https://www.mongodb.com/docs/mongodb-shell/crud/delete/)(https://www.mongodb.com/docs/v6.0/reference/method/db.collection.remove/)
 
@@ -353,7 +353,7 @@ __Note:__ db.collection.remove() is deprecated in the new mongosh. Use db.collec
 - [ ] `db.people.getIndexKeys();`
 - [x] `db.people.getIndexes();`
 
-__Note:__ An alternative method in the mongosh shell is listIndexes()
+**Note:** An alternative method in the mongosh shell is listIndexes()
 
 [Reference] (https://www.mongodb.com/docs/v6.0/reference/command/listIndexes/#mongodb-dbcommand-dbcmd.listIndexes)
 
@@ -364,7 +364,7 @@ __Note:__ An alternative method in the mongosh shell is listIndexes()
 - [x] Use the updateMany() command instead
 - [ ] Set the global multi option to True
 
-__Note:__ An alternative method for db is .update()
+**Note:** An alternative method for db is .update()
 
 [Reference:] (https://www.mongodb.com/docs/v6.0/reference/command/update/#mongodb-dbcommand-dbcmd.update)
 
@@ -382,7 +382,7 @@ __Note:__ An alternative method for db is .update()
 - [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
 
-__Note:__ If you want to analyze the performance of a query use .explain("executionStats")
+**Note:** If you want to analyze the performance of a query use .explain("executionStats")
 
 [Reference:] (https://www.mongodb.com/docs/v6.0/tutorial/analyze-query-plan/)
 
@@ -421,7 +421,7 @@ __Note:__ If you want to analyze the performance of a query use .explain("execut
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [x] MongoDB allows ad hoc queries.
 
-__Note:__ You don't need an index to perform ad hoc queries. Only pick one choice
+**Note:** You don't need an index to perform ad hoc queries. Only pick one choice
 [Reference:] (https://www.mongodb.com/docs/v6.3/query-api/)
 
 #### Q58. In MongoDB, what does a projection do?
@@ -461,17 +461,17 @@ __Note:__ You don't need an index to perform ad hoc queries. Only pick one choic
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
 
-__Argument:__
+**Argument:**
 
 _Why "The oplog will be saved on one of the secondary servers." is wrong:_
 
->MongoDB applies database operations on the primary and then records the operations on the primary's oplog. The secondary members then copy and apply these operations in an asynchronous process. All replica set members contain a copy of the oplog, in the local.oplog.rs collection, which allows them to maintain the current state of the database.
+> MongoDB applies database operations on the primary and then records the operations on the primary's oplog. The secondary members then copy and apply these operations in an asynchronous process. All replica set members contain a copy of the oplog, in the local.oplog.rs collection, which allows them to maintain the current state of the database.
 
-_Reasoning behind the right answer:_ 
+_Reasoning behind the right answer:_
 
->The oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases.
+> The oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases.
 
->Unlike other capped collections, the oplog can grow past its configured size limit to avoid deleting the majority commit point.
+> Unlike other capped collections, the oplog can grow past its configured size limit to avoid deleting the majority commit point.
 
 #### Q63. MongoDB ships with a variety of files. Which file runs the MongoDB shell?
 
@@ -480,7 +480,7 @@ _Reasoning behind the right answer:_
 - [ ] shell
 - [ ] mongo-shell
 
-__Note:__ mongosh is the new mongo shell, mongo is deprecated.
+**Note:** mongosh is the new mongo shell, mongo is deprecated.
 
 Starting in MongoDB v5.0,
 mongosh
@@ -532,8 +532,8 @@ replaces mongo as the preferred shell.
 
 Argument: You need a text index in order to perform a $text query on a field. $text query uses the text index under the hood
 
-References: 
-[$text query](https://www.mongodb.com/docs/v6.0/reference/operator/query/text/#examples) 
+References:
+[$text query](https://www.mongodb.com/docs/v6.0/reference/operator/query/text/#examples)
 [Text index](https://www.mongodb.com/docs/v6.0/core/index-text/)
 
 #### Q70. Which field is always included in a projection unless specifically excluded?
@@ -660,7 +660,7 @@ createIndex(), see Index Builds on Populated Collections.
 
 Argument: There is no -d option in the docs (https://www.mongodb.com/docs/database-tools/mongoimport/#options.)
 
-__Note:__ Assuming you are asked to drop a collection instead while importing, the use the --drop option.
+**Note:** Assuming you are asked to drop a collection instead while importing, the use the --drop option.
 
 #### Q83. To import a CSV file into MongoDB, which command should you issue?
 
