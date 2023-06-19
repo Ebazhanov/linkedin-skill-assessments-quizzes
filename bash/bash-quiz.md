@@ -1086,4 +1086,4 @@ echo "${VAR^}"
 - [ ] unitedstates
 - [ ] United States
 - [ ] United states
-- [ ] UNITED STATES
+- [x] UNITED STATES
