@@ -476,7 +476,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] setTimeout
 - [ ] Buffer
 
-**Explanation:** _`exports` may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports)._
+**Explanation:** `exports` may appear to be global but is not. [Refrence](https://nodejs.org/api/globals.html#exports)
 
 #### Q57. What is the correct way to pipe a readable stream and a writable stream?
 
@@ -690,12 +690,3 @@ server.listen(port, hostname, () => {
 - [ ] `server running at http://localhost:4000/`
 
 [Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
-
-#### Q80. Which choice is not a Node global object?
-
-- [ ] process
-- [x] exports
-- [ ] setTimeout
-- [ ] Buffer
-
-[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php#exports)
