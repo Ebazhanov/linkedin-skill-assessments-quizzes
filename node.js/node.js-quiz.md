@@ -91,7 +91,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 **Explanation:** From official docs: [reference](https://nodejs.org/en/docs/guides/debugging-getting-started/)
 
-#### Q11. How can you count the number of logical CPUs on the machine that is running Node?
+#### Q11. What command would you use to count the number of logical CPUs on the machine that is running Node?
 
 - [ ] node -p "process.cpus"
 - [ ] node -p "util.cpus().size"
