@@ -263,9 +263,9 @@
 
 #### Q36. What is the purpose of static constructor?
 
-- [x] to initialize all the members with static value
+- [ ] to initialize all the members with static value
 - [ ] to delete the static members when not required
-- [ ] to initialize the static members of class
+- [x] to initialize the static members of class
 - [ ] to clear all the static members' initialized values
 
 #### Q37. What are CRC Cards?
@@ -387,8 +387,8 @@
 
 #### Q53. What is the function of a user diagram?
 
-- [ ] It connects actors to use cases.
-- [x] It links actors to roles played in all use cases.
+- [x] It connects actors to use cases.
+- [ ] It links actors to roles played in all use cases.
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
@@ -644,10 +644,10 @@ public class Honda extends Car{}
 
 #### Q84. What is the difference between an interface and an abstract class?
 
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
-- [x] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
-- [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
 
 #### Q85. What parameters are required to be passed to a class constructor?
 
@@ -704,8 +704,8 @@ public class Honda extends Car{}
 
 - [ ] only 10 levels of inheritance
 - [ ] as many levels of inheritance as required within 10 minutes
-- [ ] as many levels of inheritance as required
-- [x] only the amount of levels memory permits, divided by processor speed
+- [x] as many levels of inheritance as required
+- [ ] only the amount of levels memory permits, divided by processor speed
 
 #### Q93. What is a virtual Method?
 
@@ -762,49 +762,35 @@ public class Honda extends Car{}
 
 [Reference](https://www.w3schools.com/cpp/cpp_inheritance_multilevel.asp)
 
-#### Q100. Can you have two classes with the same name in the same proiect?
+#### Q100. Can you have two classes with the same name in the same project?
 
 - [ ] No, you cannot.
 - [ ] Yes, as long as their constructors are different.
 - [ ] Yes, as long as their methods are different.
 - [x] Yes, as long as they are in different namespaces.
 
-#### Q101. What is the difference between an interface and an abstract class?
-
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
-- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
-- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
-
-#### Q102. Objects are passed by **\_**
+#### Q101. Objects are passed by **\_**
 
 - [ ] value or reference, depending on the programming language used
 - [ ] value
 - [ ] value or reference, depending on the program
 - [x] reference
 
-#### Q103. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
+#### Q102. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
 
 - [ ] Yes, but only if it is a reference and not a primitive class.
 - [ ] Yes, since the value is a reference even though it is passed by value, it can be done.
 - [ ] No, you will get a compilation error.
 - [x] No, a local copy will be initialized and will be lost as soon as it is out of scope.
 
-#### Q104. What is encapsulation?
+#### Q103. What is encapsulation?
 
 - [ ] defining classes by focusing on what is important for a purpose
 - [x] defining data and relevant methods together in the same class
 - [ ] making all methods private
 - [ ] using words to define classes
 
-#### Q105. object are passed by \_\_\_?
-
-- [x] value or reference, depending on the programmin language used
-- [ ] reference
-- [ ] value
-- [ ] value or reference, depending on program
-
-#### Q106. What is a method?
+#### Q104. What is a method?
 
 - [x] a function associated with data and behavior
 - [ ] the exact same thing as a function and subroutine
