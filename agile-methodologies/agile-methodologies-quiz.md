@@ -726,7 +726,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q98. When is the best time to update the team's burndown chart?
 
-- [ ] before the Sprint Retospective
+- [ ] before the Sprint Retrospective
 - [ ] after the daily stand-up
 - [x] before the daily Scrum
 - [ ] before quarterly planning
