@@ -708,12 +708,15 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
 
-- [ ] advise the PO as soon as possible
+- [x] advise the PO as soon as possible
 - [ ] point out the reasons why and collaborate on solutions
 - [ ] report this at the Sprint Review
-- [x] Ask the PO to extend the sprint
+- [ ] Ask the PO to extend the sprint
 
-[Reference](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
+Sprints cannot be extended.  The Scrum Guide is pretty clear on this: you don't extend sprints.  At the end of a sprint, if there is incomplete work: "All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog."  
+[Reference](https://www.scrum.org/forum/scrum-forum/6171/what-do-if-team-cannot-finish-all-items-sprint)
+Number 4: 
+4) What happens if the Developers cannot complete its work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in future if it is a problem. Understanding why this has happened will be critical.  
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
