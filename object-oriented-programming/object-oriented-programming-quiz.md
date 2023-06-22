@@ -773,7 +773,7 @@ public class Honda extends Car{}
 
 - [ ] value or reference, depending on the programming language used
 - [ ] value
-- [ ] value or reference, depending on the program
+- [ ] value or reference, depending on program
 - [x] reference
 
 #### Q102. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
