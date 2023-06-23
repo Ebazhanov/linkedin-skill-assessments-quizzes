@@ -13888,6 +13888,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "multitudes",
+      "name": "laurent b",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29355828?v=4",
+      "profile": "https://iosdev.space/@multitudes",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Mettchen",
+      "name": "Mettchen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75529387?v=4",
+      "profile": "https://github.com/Mettchen",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ivadham",
+      "name": "Ali Mahdavi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11696957?v=4",
+      "profile": "https://github.com/ivadham",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
