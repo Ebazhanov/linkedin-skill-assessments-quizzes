@@ -169,7 +169,7 @@
 
 - [ ] **Tools > Organize Pages**
 - [ ] **Tools > Accessibility**
-- [ ] **Took > Edit PDF**
+- [x] **Took > Edit PDF**
 - [ ] **File > Export to > Microsoft Word**
 
 #### Q25. You would like to convert a layered Visio file to PDF. However, that option is not available. How can you control the conversion of Visio layers to layers in the exported PDF?
@@ -203,7 +203,7 @@
 #### Q29. You plan to post a PDF form online and gather the submitted data in a database. What must you have to do this?
 
 - [ ] A web server which supports Microsoft Access
-- [ ] A web server which supports WebDAV and CGI
+- [x] A web server which supports WebDAV and CGI
 - [ ] A web server which supports XML and FDF
 - [ ] A web server which supports Microsoft Excel
 
@@ -211,7 +211,7 @@
 
 - [ ] Action Wizard
 - [ ] Custom Tool
-- [ ] Preflight Droplet
+- [x] Preflight Droplet
 - [ ] Optimize PDF
 
 #### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
@@ -225,7 +225,7 @@
 
 - [ ] A browser is not installed.
 - [ ] A GIF player is not installed.
-- [ ] Flash Player is not installed.
+- [x] Flash Player is not installed.
 - [ ] QuickTime is not installed.
 
 #### Q33. You make a last-minute change to some text in a client's PDF. When you change the text, the appearance of the corrected text does not match the surrounding text. What might be the cause of this issue?
