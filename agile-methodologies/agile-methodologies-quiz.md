@@ -746,10 +746,17 @@ Number 4:
 
 #### Q100. Which work descriptions are not written in the language of users?
 
-- [ ] tasks
+- [X] tasks
 - [ ] epics
-- [x] stories
+- [ ] stories
 - [ ] features
+
+It says: *NOT* written in the language of users. 
+A story, also referred to as a user story, is a short-form request that can be delivered in one sprint. It is written in simple language from the perspective of the user. 
+
+It should be Tasks:
+A task is a subsection of a story. It helps to break the story down and outline how it will be completed. Tasks tend to be more technical as they are used by members of the development team.   
+[Reference](https://www.wrike.com/agile-guide/epics-stories-tasks/)
 
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
 
