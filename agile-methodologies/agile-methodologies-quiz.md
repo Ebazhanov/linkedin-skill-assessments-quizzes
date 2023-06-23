@@ -732,7 +732,7 @@ Number 4:
 
 #### Q98. When is the best time to update the team's burndown chart?
 
-- [ ] before the Sprint Retospective
+- [ ] before the Sprint Retrospective
 - [ ] after the daily stand-up
 - [x] before the daily Scrum
 - [ ] before quarterly planning
