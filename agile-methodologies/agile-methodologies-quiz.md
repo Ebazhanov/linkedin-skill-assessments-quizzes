@@ -690,11 +690,14 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q94. What is the term for a team member who is "T-shaped"?
 
-- [x] cross-functional
+- [ ] cross-functional
 - [ ] jack-of-all-trades
-- [ ] generalizing specialist
+- [x] generalizing specialist
 - [ ] apprentice developer
 
+Cross-functional and generalizing specialist seem to be both correct but we talk more about cross functional teams, and in the case of a team member the term would be more like a generalizing specialist I believe
+[Reference](https://agilemodeling.com/essays/generalizingspecialists.htm#:~:text=Generalizing%20specialists%20are%20often%20referred,or%20even%20“renaissance%20professionals”.)
+This refers to teams:
 [Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
