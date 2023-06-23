@@ -1069,3 +1069,16 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 ```
 
 Hint: true needs to be a boolean and part-time a string so in double quotes.
+
+I have tried to put together all these questions in an interactive manner, I hope this helps everyone who wants to practice 
+
+Please check this out for a live demo and checkout the exam set 
+
+Step one : 
+Visit : 
+https://skillstest.me/mock-test/#/ 
+
+Step Two : 
+Select a topic such as HTML, Linux etc  and an exam set to practice 
+
+
