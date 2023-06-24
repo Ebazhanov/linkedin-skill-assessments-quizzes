@@ -804,10 +804,13 @@ A task is a subsection of a story. It helps to break the story down and outline 
 
 #### Q107. How can you improve interaction between team members?
 
-- [ ] Move people's workstation around in the team room to create new social possibilites
+- [x] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
-- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
+
+Moving people around and redesign the office space can improve interaction between team member and it is well documented: 
+[Reference](https://www.inc.com/jeff-miller/3-ways-to-design-an-office-for-collaboration-not-c.html)
 
 #### Q108. Which scale is typically used for Planning Poker?
 
