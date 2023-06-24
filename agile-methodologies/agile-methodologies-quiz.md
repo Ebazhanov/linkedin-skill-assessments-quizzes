@@ -901,10 +901,13 @@ It's the same as Q81, just slightly differently phrased question.
 
 #### Q120. Which type of Kanban diagram shows the number of issues in each of the states?
 
-- [x] burn down chart
+- [ ] burn down chart
 - [ ] control chart
 - [ ] burn up chart
-- [ ] cumulative flow
+- [x] cumulative flow
+
+[Reference](https://www.wrike.com/kanban-guide/faq/what-is-kanban-cumulative-flow-diagram/)
+A Kanban cumulative flow diagram visualizes your team's processes and helps identify areas of improvement
 
 #### Q121. Which of the following statements about a Kanban control chart is false?
 
