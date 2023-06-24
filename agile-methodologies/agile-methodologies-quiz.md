@@ -460,9 +460,13 @@
 #### Q64. What is the name of the technique that divides a story into smaller pieces?
 
 - [ ] mitosis
-- [ ] story slicing
-- [x] disaggregation
+- [x] story slicing
+- [ ] disaggregation
 - [ ] Divide and Conquer
+
+[Reference](https://www.linkedin.com/learning/agile-requirements-foundations/story-slicing-and-splitting)
+What is story slicing?
+To build features effectively, and deliver user value in increments, the functionality needs to be broken down further into smaller user stories. Many times the team keeps splitting the user stories into smaller pieces of value, so they can complete the story in a sprint. This is called story-slicing or splitting.
 
 #### Q65. A team member comes to you with a complaint about another team member. What should you do?
 
