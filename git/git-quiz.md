@@ -1123,12 +1123,6 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] for keeping images
 - [ ] for social networking
 
-#### Q133. Which statement is true of the git push command?
-
-- [ ] By default, a push doesn’t send tags to the remote repository.
-- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
-- [x] Tags are pushed to the remote repository with their respective commits.
-- [ ] Commits can be tagged only when they are created.
 
 #### Q134. Git Pull is a combination of?
 
