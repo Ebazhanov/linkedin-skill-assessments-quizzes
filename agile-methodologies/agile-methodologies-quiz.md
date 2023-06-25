@@ -190,10 +190,14 @@
 
 #### Q27. Who is responsible for a Scrum team's performance?
 
-- [x] the team
-- [ ] the Scrum Master
+- [ ] the team
+- [x] the Scrum Master
 - [ ] the Product Owner
 - [ ] the Engineering Manager
+
+It is one of the responsabilities of the Scrum Master!
+A Scrum Master is responsible for ensuring a Scrum team is operating as effectively as possible with Scrum values. This means they keep the team on track, plan and lead meetings, and work out any obstacles the team might face.
+[Reference](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
 
 #### Q28. Which statement concerning small, frequent releases of software is true?
 
