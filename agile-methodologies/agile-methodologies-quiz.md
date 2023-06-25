@@ -190,10 +190,14 @@
 
 #### Q27. Who is responsible for a Scrum team's performance?
 
-- [x] the team
-- [ ] the Scrum Master
+- [ ] the team
+- [x] the Scrum Master
 - [ ] the Product Owner
 - [ ] the Engineering Manager
+
+It is one of the responsabilities of the Scrum Master!
+A Scrum Master is responsible for ensuring a Scrum team is operating as effectively as possible with Scrum values. This means they keep the team on track, plan and lead meetings, and work out any obstacles the team might face.
+[Reference](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
 
 #### Q28. Which statement concerning small, frequent releases of software is true?
 
@@ -460,9 +464,13 @@
 #### Q64. What is the name of the technique that divides a story into smaller pieces?
 
 - [ ] mitosis
-- [ ] story slicing
-- [x] disaggregation
+- [x] story slicing
+- [ ] disaggregation
 - [ ] Divide and Conquer
+
+[Reference](https://www.linkedin.com/learning/agile-requirements-foundations/story-slicing-and-splitting)
+What is story slicing?
+To build features effectively, and deliver user value in increments, the functionality needs to be broken down further into smaller user stories. Many times the team keeps splitting the user stories into smaller pieces of value, so they can complete the story in a sprint. This is called story-slicing or splitting.
 
 #### Q65. A team member comes to you with a complaint about another team member. What should you do?
 
@@ -804,10 +812,13 @@ A task is a subsection of a story. It helps to break the story down and outline 
 
 #### Q107. How can you improve interaction between team members?
 
-- [ ] Move people's workstation around in the team room to create new social possibilites
+- [x] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
-- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
+
+Moving people around and redesign the office space can improve interaction between team member and it is well documented: 
+[Reference](https://www.inc.com/jeff-miller/3-ways-to-design-an-office-for-collaboration-not-c.html)
 
 #### Q108. Which scale is typically used for Planning Poker?
 
@@ -901,10 +912,13 @@ It's the same as Q81, just slightly differently phrased question.
 
 #### Q120. Which type of Kanban diagram shows the number of issues in each of the states?
 
-- [x] burn down chart
+- [ ] burn down chart
 - [ ] control chart
 - [ ] burn up chart
-- [ ] cumulative flow
+- [x] cumulative flow
+
+[Reference](https://www.wrike.com/kanban-guide/faq/what-is-kanban-cumulative-flow-diagram/)
+A Kanban cumulative flow diagram visualizes your team's processes and helps identify areas of improvement
 
 #### Q121. Which of the following statements about a Kanban control chart is false?
 
