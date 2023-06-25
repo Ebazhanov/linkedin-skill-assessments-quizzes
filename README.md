@@ -14,28 +14,28 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1403-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
+> ⚠️ DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
-#### PLEASE 🙏
+#### 🙏 PLEASE
 
-Always add explanation (`or reference link`) to your answers.Use [online grammar checker](https://www.grammarly.com/).
+Always add explanation (`or reference link`) to your answers. Use [online grammar checker](https://www.grammarly.com/).
 That would help anyone to better learn new concepts!
 
-#### Announcement 🎉:
+#### 🎉 Announcements
 
-1. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
-2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
+1. Column `Translation` have links to quizzes in different languages like Es, Fr, It and De.
+2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat.
 3. Playground before taking quiz using:
 
-- Web App https://linkedin-faq.github.io/md2practice/
-- Web App #2 https://linkedin-faq.github.io/skill-assessments-quizzes/
-- In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
+- [MD2Practice (Web App)](https://linkedin-faq.github.io/md2practice/)
+- [Skill Assessments Quizzes (Web App)](https://linkedin-faq.github.io/skill-assessments-quizzes/)
+- [LinkedIn Quizzed with Kodyfire (Terminal)](https://github.com/linkedin-faq/linkedin-quizzes-kodyfire)
 
-Want to contribute? Here is the source code https://github.com/linkedin-faq
+Want to contribute? [Here](https://github.com/linkedin-faq) is the source code.
 
-## Need help?
+## ❓ Need help?
 
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
@@ -43,7 +43,7 @@ Want to contribute? Here is the source code https://github.com/linkedin-faq
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
-## Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/) 🔥
+## 🔥 Open in VS Code view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/)
 
 ### Table of Contents
 
