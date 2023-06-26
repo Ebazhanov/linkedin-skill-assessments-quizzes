@@ -1104,7 +1104,7 @@ b = zeros(1, size(C,1);
 b = cellfun(@mean, C)
 ```
 
-- [ ] D
+- [x] D
 
 ```
 b = zeros(1, size(C,2);
