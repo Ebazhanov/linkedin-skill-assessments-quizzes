@@ -166,7 +166,7 @@
 - [ ] Calculate interest quickly.
 - [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
 - [x] Use more than one field per index.
-- [] Combine fields in different collations.
+- [ ] Combine fields in different collations.
 
 [Reference](https://www.mongodb.com/docs/v6.0/core/index-compound/)
 
@@ -316,7 +316,7 @@
 
 - [ ] restore
 - [ ] read/write
-- [] dbadmin
+- [ ] dbadmin
 - [x] delete collections
 
 [Reference](https://www.mongodb.com/docs/v6.0/reference/built-in-roles/#backup-and-restoration-roles)
@@ -509,12 +509,12 @@ replaces mongo as the preferred shell.
 - [x] db.customers.find({}).sort({name: -1})
 - [ ] db.customers.find({}).sort({name: 1})
 
-#### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
+#### Q67. Suppose you are using the `mongoimport` command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
 - [ ] The import command aborts without importing any records.
 - [x] The import command imports records upto but not including the record, and then aborts.
 - [x] The import command doesn't import the bad document but does import the rest.
-- [] The import command prompts you to correct the bad record.
+- [ ] The import command prompts you to correct the bad record.
 
 #### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
 
