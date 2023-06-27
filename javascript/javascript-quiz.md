@@ -973,21 +973,6 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
-
-```js
-useEffect(() => {
-  // do things
-}, []);
-```
-
-- [ ] componentWillUnmount
-- [ ] componentDidUpdate
-- [ ] render
-- [x] componentDidMount
-
-[Reference](https://reactjs.org/docs/react-component.html)
-
 #### Q79. What is the output of this code?
 
 ```js
@@ -2109,15 +2094,15 @@ let total = sum(4, ...values);
 - [x] document.getElementById("cleverest").style.color = "pink";
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
-  
+
 #### Q155. Which line is missing from this code if you expect the code to evaluate to true?
 
 ```js
-var compare = function(test1, test2) {
-    // Missing line
-}
+var compare = function (test1, test2) {
+  // Missing line
+};
 
-compare(1078, "1078"); // yields true
+compare(1078, '1078'); // yields true
 ```
 
 - [ ] `test1==test2;`

@@ -106,8 +106,10 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 
 - [ ] OnBecameInvisible
 - [ ] OnAnimatorMove
-- [ ] Reset
-- [x] OnTriggerEnter
+- [x] Reset
+- [ ] OnTriggerEnter
+
+* Explain- The Reset method is a MonoBehaviour method that runs by default in Editor mode. This method is called when the script is attached to a GameObject or reset in the Inspector. It allows you to initialize or reset the values of variables in the script, ensuring a consistent initial state when working in the Unity Editor.
 
 #### Q14. For the OnTriggerEnter function to invoke successfully on a collision between two objects, at least one must have which two components?
 

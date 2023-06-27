@@ -313,7 +313,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x] A
+- [ ] A
 
 ```python
 class Author (models.model):
@@ -322,7 +322,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] B
+- [x] B
 
 ```python
 class Author (models.model):
@@ -532,8 +532,8 @@ model=Planet
 
 #### Q55. What is WSGI?
 
-- [x] a server
-- [ ] an interface specification
+- [ ] a server
+- [x] an interface specification
 - [ ] a Python module
 - [ ] a framework
 
@@ -688,7 +688,7 @@ model=Planet
 - [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
 - [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
 
-#### Q76. What is the purpose of the \_\_init__.py file?
+#### Q76. What is the purpose of the \_\_init\_\_.py file?
 
 - [ ] to extend the set of modules found in a package
 - [ ] to allow compiled modules from different releases and different versions of Python to coexist

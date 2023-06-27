@@ -418,7 +418,7 @@ https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render
 - [ ] Switch to After Effects first and choose the Render and Replace option
 - [ ] Choose Consolidate and Transcode
 
-#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+#### Q52. Which visual transition fades the end of one clip into the beginning of the next clip?
 
 - [ ] fade in
 - [ ] fade out
@@ -464,6 +464,7 @@ E. PDF
 - [x] Use Maximum Render Quality
 
 
+
 #### Q57. What is true about changing the speed of a clip that has linked audio ?
 - [ ] The audio is pitch shifted to sound correct.
 - [ ] The audio changes to match the video.
@@ -489,3 +490,76 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] B,D,E
 - [ ] A,B,C
 - [x] A,C,E
+
+#### Q60. How many output audio tracks can an adaptive audio track be routed to?
+
+- [ ] 4
+- [ ] 8
+- [ ] 16
+- [ ] 32
+
+#### Q61. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?
+
+- [ ] Slide tool
+- [ ] Rolling Edit tool
+- [ ] Ripple Edit tool
+- [ ] Slip tool
+
+#### Q62. Which memory card structure format is NOT a dedicated viewing option in the Media Browser?
+
+- [ ] Sony DSLR
+- [ ] Canon RAW
+- [ ] XDCAM-HD
+- [ ] Canon XF
+
+#### Q63. What is NOT an option with the Remove Attributes command?
+
+- [ ] Effects
+- [ ] Motion
+- [ ] Speed
+- [ ] Opacity
+
+#### Q64. Suppose you use font X from Adobe Fonts in your project. What happens when you open a project and font X is missing from the local machine?
+
+- [ ] A substitute is automatically chosen based on your preferences.
+- [ ] The font automatically activates as long as there is an internet connection.
+- [ ] A warning appears so you can track down the font.
+- [ ] Nothing occurs—the graphics appear correct and the font is only needed to edit them.
+
+#### Q65. You have attached a hardware device for adjusting the color of your clips with touch. Where do you configure its preferences?
+
+- [ ] Preferences > Capture
+- [ ] Preferences > Audio Hardware
+- [ ] Preferences > Device Control
+- [ ] Preferences > Control Surface
+
+#### Q66. When importing an XML file, what happens to transitions that Adobe Premiere Pro determines aren't compatible?
+
+- [ ] The transitions are deleted.
+- [ ] The transitions are turned into Dip to Color transitions.
+- [ ] The import fails.
+- [ ] The transitions are turned into cross dissolves.
+
+#### Q67. What would happen if you dropped a transition onto this edit point?
+
+![image](images/012.png?raw=png)
+
+- [ ] You would get an End at Cut alignment.
+- [ ] You would get a Start at Cut alignment.
+- [ ] The clip is trimmed and a Center at Cut transition is applied.
+- [ ] Your would get a one-frame transition.
+
+#### Q68. Which export format supports inclusion of an alpha channel?
+
+- [ ] MOV
+- [ ] MP4
+- [ ] MPEG 2 for DVD
+- [ ] MXF OP1a
+
+#### Q69. Which user interface item identifies the current frame in the Program Monitor?
+
+- [ ] frame ruler
+- [ ] indicator
+- [ ] playhead
+- [ ] navigator
+

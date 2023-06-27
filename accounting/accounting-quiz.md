@@ -297,9 +297,9 @@
 - [ ] profitability analysis
 - [ ] cost-benefit analysis
 - [ ] life-cycle costing
-- [ ] activity analysis
+- [x] activity analysis
 
-I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle costing as well.
+[Reference]Activity analysis involves studying and evaluating the activities and processes within an organization to understand their cost implications. It helps in identifying the key activities that drive costs and analyzing their relationship with various cost drivers. By understanding these relationships, management can make informed decisions to optimize costs and improve overall efficiency..
 
 #### Q38. When independent auditors are able to maintain their actual independence, it is referred to as independence in \_\_\_\_.
 
