@@ -269,7 +269,7 @@ E. M4A
 - [ ] Premiere will insert white to fill the needed handles.
 - [ ] Premiere will insert black to fill the needed handles.
 - [ ] There is not enough media (handles) to cover the duration of the transition.
-- [ ] The transition is automatically shortened to use only the available media and the area under the diagonal lines will have no transitions applied.
+- [x] The transition is automatically shortened to use only the available media and the area under the diagonal lines will have no transitions applied.
 
 #### Q34. Your project has several sequences that are no longer needed. How would you use the Project Manager to produce a new version of the project that excludes the unwanted sequences?
 
@@ -306,7 +306,7 @@ E. Ellipse
 
 - [ ] A, B, C
 - [ ] A, C, E
-- [ ] B, C, E
+- [x] B, C, E
 - [ ] B, D, E
 
 #### Q38. Which option can create a color field that automatically adjusts size as you add or subtract from a text layer?
@@ -315,7 +315,7 @@ E. Ellipse
 
 - [ ] Choose Fill from the Appearance controls.
 - [ ] Choose Stroke from the Appearance controls.
-- [ ] Choose Background from the Appearance controls.
+- [x] Choose Background from the Appearance controls.
 - [ ] Choose Shadow from the Appearance controls.
 
 #### Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?
@@ -346,7 +346,7 @@ E. Ellipse
 
 - [ ] Creative Look
 - [ ] Faded Film
-- [ ] Input LUT
+- [x] Input LUT
 - [ ] Intensity
 
 #### Q43. Which Audio Mixer automation mode allows an automation to return to the previous state after any adjustments are made?
@@ -361,7 +361,7 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
 - [ ] Transcode
-- [ ] Copy and Create Proxies
+- [x] Copy and Create Proxies
 - [ ] Create Proxies
 - [ ] Copy
 
@@ -370,20 +370,20 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 - [ ] Convert Image Sequences to Clips
 - [ ] Convert After Effects Compositions to Clips
 - [ ] Include Preview Files
-- [ ] Consolidate and Transcode
+- [x] Consolidate and Transcode
 
 #### Q46. Which option is enabled to affect the view of the audio waveforms as shown below?
 
 ![image](images/011.png?raw=png)
 
 - [ ] Show Audio Time Units
-- [ ] Rectified Audio Waveform
+- [x] Rectified Audio Waveform
 - [ ] Large Audio Waveforms
 - [ ] Logarithmic Keyframe Scaling
 
 #### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's submenu should you select?
 
-- [ ] Undock Panel
+- [x] Undock Panel
 - [ ] Undock Frame
 - [ ] Maximize Panel
 - [ ] Maximize Frame
@@ -397,7 +397,7 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 
 #### Q49. Which statement is true about adaptive audio tracks?
 
-- [ ] Input channel configuration determines channel routing
+- [x] Input channel configuration determines channel routing
 - [ ] Adaptive tracks are unable to be routed to master track outputs
 - [ ] Channel routing is based on master track configuration
 - [ ] Adaptive tracks can only be routed using the Audio Mixer
@@ -413,7 +413,7 @@ https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render
 
 #### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
 
-- [ ] Choose the Convert After Effects Compositions to Clips option
+- [x] Choose the Convert After Effects Compositions to Clips option
 - [ ] Usd the Render and Replace option
 - [ ] Switch to After Effects first and choose the Render and Replace option
 - [ ] Choose Consolidate and Transcode
@@ -436,7 +436,7 @@ E. PDF
 ```
 
 - [ ] A, C, E
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] B, D, E
 - [ ] B, C, D
 
@@ -453,7 +453,7 @@ E. PDF
 
 - [ ] Hue vs. Luma
 - [ ] Hue vs. Hue
-- [ ] Luma vs. Saturation
+- [x] Luma vs. Saturation
 - [ ] Hue vs. Saturation
 
 #### Q56. Which bitrate encoding option yields the best balance of quality to file size, but takes longer to encode?
@@ -496,19 +496,19 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] 4
 - [ ] 8
 - [ ] 16
-- [ ] 32
+- [x] 32
 
 #### Q61. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?
 
 - [ ] Slide tool
 - [ ] Rolling Edit tool
-- [ ] Ripple Edit tool
+- [x] Ripple Edit tool
 - [ ] Slip tool
 
 #### Q62. Which memory card structure format is NOT a dedicated viewing option in the Media Browser?
 
 - [ ] Sony DSLR
-- [ ] Canon RAW
+- [x] Canon RAW
 - [ ] XDCAM-HD
 - [ ] Canon XF
 
@@ -516,14 +516,14 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 
 - [ ] Effects
 - [ ] Motion
-- [ ] Speed
+- [x] Speed
 - [ ] Opacity
 
 #### Q64. Suppose you use font X from Adobe Fonts in your project. What happens when you open a project and font X is missing from the local machine?
 
 - [ ] A substitute is automatically chosen based on your preferences.
 - [ ] The font automatically activates as long as there is an internet connection.
-- [ ] A warning appears so you can track down the font.
+- [x] A warning appears so you can track down the font.
 - [ ] Nothing occurs—the graphics appear correct and the font is only needed to edit them.
 
 #### Q65. You have attached a hardware device for adjusting the color of your clips with touch. Where do you configure its preferences?
@@ -531,14 +531,14 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] Preferences > Capture
 - [ ] Preferences > Audio Hardware
 - [ ] Preferences > Device Control
-- [ ] Preferences > Control Surface
+- [x] Preferences > Control Surface
 
 #### Q66. When importing an XML file, what happens to transitions that Adobe Premiere Pro determines aren't compatible?
 
 - [ ] The transitions are deleted.
 - [ ] The transitions are turned into Dip to Color transitions.
 - [ ] The import fails.
-- [ ] The transitions are turned into cross dissolves.
+- [x] The transitions are turned into cross dissolves.
 
 #### Q67. What would happen if you dropped a transition onto this edit point?
 
@@ -547,11 +547,11 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] You would get an End at Cut alignment.
 - [ ] You would get a Start at Cut alignment.
 - [ ] The clip is trimmed and a Center at Cut transition is applied.
-- [ ] Your would get a one-frame transition.
+- [x] Your would get a one-frame transition.
 
 #### Q68. Which export format supports inclusion of an alpha channel?
 
-- [ ] MOV
+- [x] MOV
 - [ ] MP4
 - [ ] MPEG 2 for DVD
 - [ ] MXF OP1a
@@ -560,6 +560,6 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 
 - [ ] frame ruler
 - [ ] indicator
-- [ ] playhead
+- [x] playhead
 - [ ] navigator
 
