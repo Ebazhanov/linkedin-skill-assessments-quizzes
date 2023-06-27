@@ -462,3 +462,30 @@ E. PDF
 - [ ] VBR, 2 Pass
 - [ ] CBR
 - [x] Use Maximum Render Quality
+
+
+#### Q57. What is true about changing the speed of a clip that has linked audio ?
+- [ ] The audio is pitch shifted to sound correct.
+- [ ] The audio changes to match the video.
+- [ ] The audio is not affected.
+- [x] If you use the Time Remapping tool, the audio changes at the same rate. 
+  
+
+  #### Q58.When exporting, Which file format creates no audio channels ?
+ - [ ] FLAC
+ - [x] DPX
+ - [ ] HEVC
+ - [ ] P2 Movie
+
+#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe 
+Premiere Pro ? (Select three Items.)
+A. You can media manager After Effects projects directly in Premiere Pro. 
+B. The amount of interim render files is reduced.
+C. It makes color correction fast and easy.
+D. You can easily make changes to a clip.
+E. It ensures that new After Effect composition settings are correct for a Premiere Pro sequence.
+
+- [ ] B,C,D
+- [ ] B,D,E
+- [ ] A,B,C
+- [x] A,C,E
