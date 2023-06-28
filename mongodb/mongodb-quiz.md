@@ -704,3 +704,12 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] backup
 
 [MongoDB reference](https://www.mongodb.com/basics/scaling)
+
+#### Q88. Your database collection holds web session information. One field, lastActivity, holds the timestamp of when the user was last active. You want to delete the user session after 30 minutes of inactivity. What is your best option?
+
+- [ ] Create Javascript function called via an interval timeout to delete all records older than 30 minutes.
+- [x] Create a TTL index on the lastActivity field and set expireAfterSeconds to 1800.
+- [ ] You have to create a stored procedure.
+- [ ] Every time you create a new record for expired older records and delete them.
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/core/index-ttl/)
