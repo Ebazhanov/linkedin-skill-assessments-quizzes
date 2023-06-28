@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1406-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1407-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > ⚠️ DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1952,6 +1952,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LucasDondo"><img src="https://avatars.githubusercontent.com/u/59975541?v=4?s=100" width="100px;" alt="Lucas Dondo"/><br /><sub><b>Lucas Dondo</b></sub></a><br /><a href="#design-LucasDondo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=LucasDondo" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://siddhesh.tech/"><img src="https://avatars.githubusercontent.com/u/68057995?v=4?s=100" width="100px;" alt="Siddhesh Agarwal"/><br /><sub><b>Siddhesh Agarwal</b></sub></a><br /><a href="#design-Siddhesh-Agarwal" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Siddhesh-Agarwal" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/slimerPuncher"><img src="https://avatars.githubusercontent.com/u/72827343?v=4?s=100" width="100px;" alt="slimerPuncher"/><br /><sub><b>slimerPuncher</b></sub></a><br /><a href="#design-slimerPuncher" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=slimerPuncher" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/saritashh"><img src="https://avatars.githubusercontent.com/u/137906927?v=4?s=100" width="100px;" alt="saritashh"/><br /><sub><b>saritashh</b></sub></a><br /><a href="#design-saritashh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=saritashh" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
