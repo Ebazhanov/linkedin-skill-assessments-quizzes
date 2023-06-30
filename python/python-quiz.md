@@ -303,7 +303,10 @@ queue.pop(0)
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.) Syntax : `map(fun, iter)` where fun : It is a function to which map passes each element of given iterable. iter : It is a iterable which is to be mapped.
+[reference](https://www.geeksforgeeks.org/python-map-function/)
+
+**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
