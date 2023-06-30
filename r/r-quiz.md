@@ -666,7 +666,7 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 
 - [ ] Each value in the first row is a character value, but the values in the third column include both character and numeric values.
 - [ ] By specifying the final row, 3, and no column specified, StDf[3, ] calls for the complete structure.
-- [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has mutiple rows: the data frame.
+- [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame.
 - [ ] Each value in the first column is a character value, but the values in the third row include both character and numeric values.
 
 #### Q62. Review line 1. What does the statement on line 3 return?
@@ -683,3 +683,10 @@ mtrx[, -1]
 - [ ] 
 - [ ] 
 - [x] [1] 4 5 6
+
+#### Q63. Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?
+
+- [x] The exclamation point in !is.na(pizza$week) reverses the meaning of the test it precedes.
+- [ ] !is.na(pizza$week) counts the number of NA values in the column.
+- [ ] !is.na(pizza$week) returns a vector of TRUE/FALSE values, in which TRUE is treated as a 0 and FALSE as a 1.
+- [ ] !is.na(pizza$week) counts the number of non-missing values in the column.
