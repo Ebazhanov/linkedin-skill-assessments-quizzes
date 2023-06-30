@@ -815,6 +815,9 @@ def __init__(self):
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
 
+In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree.
+[reference](https://en.wikipedia.org/wiki/Binary_search_tree#:~:text=In%20computer%20science%2C%20a%20binary,ones%20in%20its%20right%20subtree.)
+
 #### Q55. Why would you use a decorator?
 
 - [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
