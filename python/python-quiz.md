@@ -467,6 +467,9 @@ This function has constant time complexity i.e. O(1), because lists are randomly
 - [ ] Abstraction means that the data and the functionality of a class are combined into one entity.
 - [ ] Abstraction means that a class can inherit from more than one parent class.
 
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
+[reference](https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.)
+
 #### Q35. What does this function print?
 
 ```python
