@@ -241,6 +241,23 @@ instance.password
 - [ ] None. You can only build a queue from scratch.
 - [x] list
 
+Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
+Queue in Python can be implemented by the following ways:
+- list
+- collections.deque
+- queue.Queue
+
+  
+**Simple example**
+
+```python
+queue = []
+queue.append('a')
+queue.pop(0)
+```
+
+[reference](https://www.geeksforgeeks.org/queue-in-python/)
+
 #### Q20. What is the correct syntax for instantiating a new object of the type Game?
 
 - [ ] `my_game = class.Game()`
