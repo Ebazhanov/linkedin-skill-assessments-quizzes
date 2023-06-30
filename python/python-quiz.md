@@ -751,7 +751,11 @@ t1 = test()
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)
+The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower_case_with_underscores".[2]
+Within Usenet the term snake_case was first seen in the Rubycommunity in 2004,[3] used by Gavin Kistner, writing:
+BTW...what *do* you call that naming style? snake_case? That's what I'll call it until someone corrects me.
+
+[reference](https://en.wikipedia.org/wiki/Snake_case)
 
 #### Q50. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
