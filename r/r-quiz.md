@@ -690,3 +690,10 @@ mtrx[, -1]
 - [ ] !is.na(pizza$week) counts the number of NA values in the column.
 - [ ] !is.na(pizza$week) returns a vector of TRUE/FALSE values, in which TRUE is treated as a 0 and FALSE as a 1.
 - [ ] !is.na(pizza$week) counts the number of non-missing values in the column.
+
+#### Q64. How do you get documentation of an installed and loaded R package named dplyr and packages with dplyr as an alias?
+
+- [ ] help(dplyr)
+- [ ] ? dplyr
+- [x] ?? dplyr
+- [ ] Press the F1 key.
