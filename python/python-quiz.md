@@ -1097,6 +1097,22 @@ else;
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
+`defaultdict` is a container like dictionaries present in the module collections. The functionality of both dictionaries and `defaultdict` are almost same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exists.
+
+**example**
+
+```python
+# Function to return a default
+# values for keys that is not
+# present
+def def_value():
+    return "Not Present"
+      
+# Defining the dict
+d = defaultdict(def_value)
+```
+[reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
 #### Q79. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
 
 - [ ] `fruit_info['variety'] == 'Red Delicious'`
