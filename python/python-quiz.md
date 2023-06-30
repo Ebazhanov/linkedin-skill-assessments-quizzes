@@ -31,8 +31,6 @@ if any([True, False, False, False]) == True:
 - [ ] set
 - [ ] OrderedDict
 
-Every non-leaf node has just one child in a binary tree known as a Degenerate Binary tree. The tree effectively transforms into a linked list as a result, with each node linking to its single child.
-[reference](https://www.geeksforgeeks.org/introduction-to-degenerate-binary-tree/)
 [reference](https://www.scaler.com/topics/linked-list/)
 
 #### Q4. What statement about static methods is true?
@@ -50,11 +48,6 @@ Every non-leaf node has just one child in a binary tree known as a Degenerate Bi
 - [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
-
-class attributes are class variables that are inherited by every object of a class. The value of class attributes remain the same for every new object. 
-class attributes are defined outside the __init__() function.
-instance attributes, which are defined in the __init__() function, are class variables that allow us to define different values for each object of a class.
-[reference](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/#:~:text=Class and Instance Attributes in,same for every new object.)
 
 **Explanation:** Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
@@ -89,20 +82,6 @@ my_list
 - [ ] To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app.
 - [ ] To take a snapshot of all the packages and libraries in your virtual environment.
 - [ ] To scan the health of your Python ecosystem while inside a virtual environment.
-
-Command-line arguments are those which are passed during the calling of the program along with the calling statement. To achieve this using the sys module, the sys module provides a variable called sys.argv.
-
-**example**
-
-```Python
-import sys
-  
-# total arguments
-n = len(sys.argv)
-print("Total arguments passed:", n)
-```
-
-[reference](https://www.geeksforgeeks.org/python-sys-module/)
 
 [reference](https://docs.python.org/3/library/sys.html)
 
@@ -190,13 +169,6 @@ def sum(a, b):
 - [ ] `dictionary`
 - [ ] `You can only build a stack from scratch.`
 
-A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
-Stack in Python can be implemented using the following ways: 
-- list
-- Collections.deque
-- queue.LifoQueue
-[reference](https://www.geeksforgeeks.org/stack-in-python/)
-
 #### Q13. What would this expression return?
 
 ```python
@@ -215,9 +187,6 @@ return list(enumerate(college_years, 2019))
 - [ ] There is no real purpose for the `self` method; it's just historic computer science jargon that Python keeps to stay consistent with other programming languages.
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
-
-self represents the instance of the class. By using the “self”  we can access the attributes and methods of the class in python. It binds the attributes with the given arguments.
-[reference](https://www.geeksforgeeks.org/self-in-python-class/?ref=gcse)
 
 **Simple example**
 
@@ -272,23 +241,6 @@ instance.password
 - [ ] None. You can only build a queue from scratch.
 - [x] list
 
-Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
-Queue in Python can be implemented by the following ways:
-- list
-- collections.deque
-- queue.Queue
-
-  
-**Simple example**
-
-```python
-queue = []
-queue.append('a')
-queue.pop(0)
-```
-
-[reference](https://www.geeksforgeeks.org/queue-in-python/)
-
 #### Q20. What is the correct syntax for instantiating a new object of the type Game?
 
 - [ ] `my_game = class.Game()`
@@ -303,10 +255,7 @@ queue.pop(0)
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.) Syntax : `map(fun, iter)` where fun : It is a function to which map passes each element of given iterable. iter : It is a iterable which is to be mapped.
-[reference](https://www.geeksforgeeks.org/python-map-function/)
-
-**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
@@ -322,6 +271,9 @@ area
 - [x] If the return keyword is absent, the function will return `None`.
 - [ ] If the return keyword is absent, the function will return `True`.
 - [ ] The function will enter an infinite loop because it won't know when to stop executing its code.
+
+When the return statement is `None` or has no value or there is no return statement the function returns `None`.
+[reference](https://www.askpython.com/python/python-return-statement#)
 
 #### Q23. What is the purpose of the `pass` statement in Python?
 
