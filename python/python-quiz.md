@@ -51,6 +51,11 @@ Every non-leaf node has just one child in a binary tree known as a Degenerate Bi
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
+class attributes are class variables that are inherited by every object of a class. The value of class attributes remain the same for every new object. 
+class attributes are defined outside the __init__() function.
+instance attributes, which are defined in the __init__() function, are class variables that allow us to define different values for each object of a class.
+[reference](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/#:~:text=Class and Instance Attributes in,same for every new object.)
+
 **Explanation:** Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
