@@ -450,6 +450,9 @@ Both merge sort and quicksort employ a common algorithmic paradigm based on recu
 - [ ] O(n^2), also called quadratic time.
 - [ ] O(n), also called linear time.
 
+This function has constant time complexity i.e. O(1), because lists are randomly accessed so the last element can be reached in O(1) time that's why the time taken to add the new element at the end of the list is O(1).
+
+
 #### Q33. What is key difference between a `set` and a `list`?
 
 - [ ] A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
