@@ -653,7 +653,7 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 - [ ] [1]FALSE FALSE TRUE
 - [ ] [1]NA NA NA
 
-#### Q60. Which option setting can cause difficulty if you want to add to a variable`s possible values after you have designed an object`s initial data structure?
+#### Q60. Which option setting can cause difficulty if you want to add to a variable's possible values after you have designed an object's initial data structure?
 
 - [ ] ()OPTIONS(colnames(x)<-NULL)
 - [ ] ()OPTIONS(max.print=5)
