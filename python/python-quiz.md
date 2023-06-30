@@ -862,6 +862,10 @@ def calculate_sales_tax(subtotal):
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
+There are two main situations where mixins are used:
+You want to provide a lot of optional features for a class.
+You want to use one particular feature in a lot of different classes.
+[reference](https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-is-it-useful)
 [explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q61. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
