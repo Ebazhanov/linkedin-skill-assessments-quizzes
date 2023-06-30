@@ -277,7 +277,7 @@ Output: [1] 2 3 4
 - [ ] x[c(-1, 0, 0, 0)]
 - [x] x[c(-1, 2, 3, 4)]
 
-#### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how manu rows are in DFMerged?
+#### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how many rows are in DFMerged?
 
 ![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png?raw=png)
 
