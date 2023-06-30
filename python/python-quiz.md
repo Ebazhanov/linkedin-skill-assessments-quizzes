@@ -1044,7 +1044,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] :
+- [x] A:
 
 ```python
 num_people = 5
@@ -1057,7 +1057,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] B:
 
 ```python
 num_people = 5
@@ -1070,7 +1070,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] C:
 
 ```python
 num_people = 5
@@ -1083,7 +1083,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] D:
 
 ```python
 if num_people > 10;
