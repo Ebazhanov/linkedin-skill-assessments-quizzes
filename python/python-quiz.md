@@ -32,8 +32,8 @@ if any([True, False, False, False]) == True:
 - [ ] OrderedDict
 
 Every non-leaf node has just one child in a binary tree known as a Degenerate Binary tree. The tree effectively transforms into a linked list as a result, with each node linking to its single child.
-[Reference](https://www.geeksforgeeks.org/introduction-to-degenerate-binary-tree/)
-[Reference](https://www.scaler.com/topics/linked-list/)
+[reference](https://www.geeksforgeeks.org/introduction-to-degenerate-binary-tree/)
+[reference](https://www.scaler.com/topics/linked-list/)
 
 #### Q4. What statement about static methods is true?
 
