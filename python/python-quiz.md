@@ -935,6 +935,10 @@ def calculate_sales_tax(subtotal):
 - [ ] `python3 <_filename_> rundoctests`
 - [ ] `python3 doctest`
 
+There is also a command line shortcut for running testmod(). You can instruct the Python interpreter to run the doctest module directly from the standard library and pass the module name(s) on the command line:
+`python -m doctest -v example.py`
+This will import example.py as a standalone module and run testmod() on it. Note that this may not work correctly if the file is part of a package and imports other submodules from that package.  
+[reference](https://docs.python.org/3/library/doctest.html)  
 [tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q67. What is a lambda function ?
