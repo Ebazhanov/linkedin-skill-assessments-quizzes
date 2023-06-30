@@ -728,6 +728,7 @@ BTW...what *do* you call that naming style? snake_case? That's what I'll call it
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
 - [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
+Use an uppercase single letter, word, or words. Separate words with underscores to improve readability.
 [Reference](https://realpython.com/python-pep8/)
 
 #### Q51. Describe the functionality of a deque.
