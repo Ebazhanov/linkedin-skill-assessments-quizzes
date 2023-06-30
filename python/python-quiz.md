@@ -485,6 +485,9 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] Decrease and conquer
 - [x] Divide and conquer
 
+Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+[reference](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms#:~:text=Both%20merge%20sort%20and%20quicksort,to%20solve%20the%20original%20problem.)
+
 #### Q32. What is runtime complexity of the list's built-in `.append()` method?
 
 - [x] O(1), also called constant time.
