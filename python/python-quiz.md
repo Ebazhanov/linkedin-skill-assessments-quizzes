@@ -523,7 +523,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] :
+- [ ] A
 
 ```python
 def sum(a, b):
@@ -534,7 +534,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] :
+- [ ] B
 
 ```python
 def sum(a, b):
@@ -547,7 +547,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] :
+- [x] C
 
 ```python
 def sum(a, b):
@@ -561,7 +561,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] :
+- [ ] D
 
 ```python
 def sum(a, b):
