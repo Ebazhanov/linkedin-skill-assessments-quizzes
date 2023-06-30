@@ -216,6 +216,9 @@ return list(enumerate(college_years, 2019))
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
+self represents the instance of the class. By using the “self”  we can access the attributes and methods of the class in python. It binds the attributes with the given arguments.
+[reference](https://www.geeksforgeeks.org/self-in-python-class/?ref=gcse)
+
 **Simple example**
 
 ```python
