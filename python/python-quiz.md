@@ -31,8 +31,6 @@ if any([True, False, False, False]) == True:
 - [ ] set
 - [ ] OrderedDict
 
-Every non-leaf node has just one child in a binary tree known as a Degenerate Binary tree. The tree effectively transforms into a linked list as a result, with each node linking to its single child.
-[reference](https://www.geeksforgeeks.org/introduction-to-degenerate-binary-tree/)
 [reference](https://www.scaler.com/topics/linked-list/)
 
 #### Q4. What statement about static methods is true?
@@ -50,11 +48,6 @@ Every non-leaf node has just one child in a binary tree known as a Degenerate Bi
 - [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
-
-class attributes are class variables that are inherited by every object of a class. The value of class attributes remain the same for every new object. 
-class attributes are defined outside the __init__() function.
-instance attributes, which are defined in the __init__() function, are class variables that allow us to define different values for each object of a class.
-[reference](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/#:~:text=Class and Instance Attributes in,same for every new object.)
 
 **Explanation:** Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
@@ -89,20 +82,6 @@ my_list
 - [ ] To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app.
 - [ ] To take a snapshot of all the packages and libraries in your virtual environment.
 - [ ] To scan the health of your Python ecosystem while inside a virtual environment.
-
-Command-line arguments are those which are passed during the calling of the program along with the calling statement. To achieve this using the sys module, the sys module provides a variable called sys.argv.
-
-**example**
-
-```Python
-import sys
-  
-# total arguments
-n = len(sys.argv)
-print("Total arguments passed:", n)
-```
-
-[reference](https://www.geeksforgeeks.org/python-sys-module/)
 
 [reference](https://docs.python.org/3/library/sys.html)
 
@@ -190,13 +169,6 @@ def sum(a, b):
 - [ ] `dictionary`
 - [ ] `You can only build a stack from scratch.`
 
-A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
-Stack in Python can be implemented using the following ways: 
-- list
-- Collections.deque
-- queue.LifoQueue
-[reference](https://www.geeksforgeeks.org/stack-in-python/)
-
 #### Q13. What would this expression return?
 
 ```python
@@ -215,9 +187,6 @@ return list(enumerate(college_years, 2019))
 - [ ] There is no real purpose for the `self` method; it's just historic computer science jargon that Python keeps to stay consistent with other programming languages.
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
-
-self represents the instance of the class. By using the “self”  we can access the attributes and methods of the class in python. It binds the attributes with the given arguments.
-[reference](https://www.geeksforgeeks.org/self-in-python-class/?ref=gcse)
 
 **Simple example**
 
@@ -272,23 +241,6 @@ instance.password
 - [ ] None. You can only build a queue from scratch.
 - [x] list
 
-Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
-Queue in Python can be implemented by the following ways:
-- list
-- collections.deque
-- queue.Queue
-
-  
-**Simple example**
-
-```python
-queue = []
-queue.append('a')
-queue.pop(0)
-```
-
-[reference](https://www.geeksforgeeks.org/queue-in-python/)
-
 #### Q20. What is the correct syntax for instantiating a new object of the type Game?
 
 - [ ] `my_game = class.Game()`
@@ -303,10 +255,7 @@ queue.pop(0)
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.) Syntax : `map(fun, iter)` where fun : It is a function to which map passes each element of given iterable. iter : It is a iterable which is to be mapped.
-[reference](https://www.geeksforgeeks.org/python-map-function/)
-
-**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
@@ -323,12 +272,18 @@ area
 - [ ] If the return keyword is absent, the function will return `True`.
 - [ ] The function will enter an infinite loop because it won't know when to stop executing its code.
 
+When the return statement is `None` or has no value or there is no return statement the function returns `None`.
+[reference](https://www.askpython.com/python/python-return-statement#)
+
 #### Q23. What is the purpose of the `pass` statement in Python?
 
 - [ ] It is used to skip the `yield` statement of a generator and return a value of None.
 - [x] It is a null operation used mainly as a placeholder in functions, classes, etc.
 - [ ] It is used to pass control from one statement block to another.
 - [ ] It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.
+
+The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+[reference](https://realpython.com/python-pass/)
 
 #### Q24. What is the term used to describe items that may be passed into a function?
 
@@ -485,12 +440,18 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] Decrease and conquer
 - [x] Divide and conquer
 
+Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+[reference](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms#:~:text=Both%20merge%20sort%20and%20quicksort,to%20solve%20the%20original%20problem.)
+
 #### Q32. What is runtime complexity of the list's built-in `.append()` method?
 
 - [x] O(1), also called constant time.
 - [ ] O(log n), also called logarithmic time.
 - [ ] O(n^2), also called quadratic time.
 - [ ] O(n), also called linear time.
+
+This function has constant time complexity i.e. O(1), because lists are randomly accessed so the last element can be reached in O(1) time that's why the time taken to add the new element at the end of the list is O(1).
+
 
 #### Q33. What is key difference between a `set` and a `list`?
 
@@ -505,6 +466,9 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [x] Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.
 - [ ] Abstraction means that the data and the functionality of a class are combined into one entity.
 - [ ] Abstraction means that a class can inherit from more than one parent class.
+
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
+[reference](https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.)
 
 #### Q35. What does this function print?
 
@@ -559,7 +523,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] :
+- [ ] A
 
 ```python
 def sum(a, b):
@@ -570,7 +534,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] :
+- [ ] B
 
 ```python
 def sum(a, b):
@@ -583,7 +547,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] :
+- [x] C
 
 ```python
 def sum(a, b):
@@ -597,7 +561,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] :
+- [ ] D
 
 ```python
 def sum(a, b):
@@ -751,7 +715,11 @@ t1 = test()
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)
+The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower_case_with_underscores".[2]
+Within Usenet the term snake_case was first seen in the Rubycommunity in 2004,[3] used by Gavin Kistner, writing:
+BTW...what *do* you call that naming style? snake_case? That's what I'll call it until someone corrects me.
+
+[reference](https://en.wikipedia.org/wiki/Snake_case)
 
 #### Q50. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
@@ -760,6 +728,7 @@ t1 = test()
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
 - [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
+Use an uppercase single letter, word, or words. Separate words with underscores to improve readability.
 [Reference](https://realpython.com/python-pep8/)
 
 #### Q51. Describe the functionality of a deque.
@@ -769,7 +738,8 @@ t1 = test()
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
 
-**Explanation:** `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.
+Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends.
+[reference](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/?ref=gcse)
 
 #### Q52. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -815,12 +785,18 @@ def __init__(self):
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
 
+In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree.
+[reference](https://en.wikipedia.org/wiki/Binary_search_tree#:~:text=In%20computer%20science%2C%20a%20binary,ones%20in%20its%20right%20subtree.)
+
 #### Q55. Why would you use a decorator?
 
 - [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
 - [ ] A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
+
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it. 
+[reference](https://www.geeksforgeeks.org/decorators-in-python/)
 
 #### Q56. When would you use a for loop?
 
@@ -833,7 +809,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] :
+- [ ] A:
 
 ```python
 def tax(my_float):
@@ -841,21 +817,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] :
+- [ ] B:
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] :
+- [ ] C:
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] :
+- [x] D:
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -887,6 +863,10 @@ def calculate_sales_tax(subtotal):
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
+There are two main situations where mixins are used:
+You want to provide a lot of optional features for a class.
+You want to use one particular feature in a lot of different classes.
+[reference](https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-is-it-useful)
 [explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q61. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
@@ -919,6 +899,18 @@ def calculate_sales_tax(subtotal):
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
+It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
+
+**example**
+```python
+>>> f = open('workfile', 'w', encoding="utf-8")
+>>> with open('workfile', encoding="utf-8") as f:
+    read_data = f.read()
+# We can check that the file has been automatically closed.
+>>> f.closed
+True
+```
+
 [Reference](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 #### Q65. Why would you use a virtual environment?
@@ -935,6 +927,10 @@ def calculate_sales_tax(subtotal):
 - [ ] `python3 <_filename_> rundoctests`
 - [ ] `python3 doctest`
 
+There is also a command line shortcut for running testmod(). You can instruct the Python interpreter to run the doctest module directly from the standard library and pass the module name(s) on the command line:
+`python -m doctest -v example.py`
+This will import example.py as a standalone module and run testmod() on it. Note that this may not work correctly if the file is part of a package and imports other submodules from that package.  
+[reference](https://docs.python.org/3/library/doctest.html)  
 [tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q67. What is a lambda function ?
@@ -1044,7 +1040,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] :
+- [x] A:
 
 ```python
 num_people = 5
@@ -1057,7 +1053,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] B:
 
 ```python
 num_people = 5
@@ -1070,7 +1066,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] C:
 
 ```python
 num_people = 5
@@ -1083,7 +1079,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] :
+- [ ] D:
 
 ```python
 if num_people > 10;
@@ -1100,6 +1096,22 @@ else;
 - [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as strings or integers).
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
+
+`defaultdict` is a container like dictionaries present in the module collections. The functionality of both dictionaries and `defaultdict` are almost same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exists.
+
+**example**
+
+```python
+# Function to return a default
+# values for keys that is not
+# present
+def def_value():
+    return "Not Present"
+      
+# Defining the dict
+d = defaultdict(def_value)
+```
+[reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
 
 #### Q79. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
 
