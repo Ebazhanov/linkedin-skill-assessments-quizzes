@@ -769,7 +769,8 @@ t1 = test()
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
 
-**Explanation:** `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.
+Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends.
+[reference](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/?ref=gcse)
 
 #### Q52. What is the correct syntax for creating a variable that is bound to a set?
 
