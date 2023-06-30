@@ -822,6 +822,9 @@ def __init__(self):
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it. 
+[reference](https://www.geeksforgeeks.org/decorators-in-python/)
+
 #### Q56. When would you use a for loop?
 
 - [ ] Only in some situations, as loops are used only for certain type of programming.
