@@ -330,6 +330,9 @@ area
 - [ ] It is used to pass control from one statement block to another.
 - [ ] It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.
 
+The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+[reference](https://realpython.com/python-pass/)
+
 #### Q24. What is the term used to describe items that may be passed into a function?
 
 - [x] arguments
