@@ -833,7 +833,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] :
+- [ ] A:
 
 ```python
 def tax(my_float):
@@ -841,21 +841,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] :
+- [ ] B:
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] :
+- [ ] C:
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] :
+- [x] D:
 
 ```python
 def calculate_sales_tax(subtotal):
