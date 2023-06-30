@@ -90,6 +90,20 @@ my_list
 - [ ] To take a snapshot of all the packages and libraries in your virtual environment.
 - [ ] To scan the health of your Python ecosystem while inside a virtual environment.
 
+Command-line arguments are those which are passed during the calling of the program along with the calling statement. To achieve this using the sys module, the sys module provides a variable called sys.argv.
+
+**example**
+
+```Python
+import sys
+  
+# total arguments
+n = len(sys.argv)
+print("Total arguments passed:", n)
+```
+
+[reference](https://www.geeksforgeeks.org/python-sys-module/)
+
 [reference](https://docs.python.org/3/library/sys.html)
 
 #### Q9. What is the runtime of accessing a value in a dictionary by using its key?
