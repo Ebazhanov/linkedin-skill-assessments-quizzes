@@ -899,6 +899,18 @@ You want to use one particular feature in a lot of different classes.
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
+It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
+
+**example**
+```python
+>>> f = open('workfile', 'w', encoding="utf-8")
+>>> with open('workfile', encoding="utf-8") as f:
+    read_data = f.read()
+# We can check that the file has been automatically closed.
+>>> f.closed
+True
+```
+
 [Reference](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 #### Q65. Why would you use a virtual environment?
