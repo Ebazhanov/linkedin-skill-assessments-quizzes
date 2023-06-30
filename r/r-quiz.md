@@ -668,3 +668,18 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 - [ ] By specifying the final row, 3, and no column specified, StDf[3, ] calls for the complete structure.
 - [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has mutiple rows: the data frame.
 - [ ] Each value in the first column is a character value, but the values in the third row include both character and numeric values.
+
+#### Q62. Review line 1. What does the statement on line 3 return?
+
+```r
+mtrx <- matrix(1:6, 3, 2)
+
+mtrx[, -1]
+```
+
+![image](https://drive.google.com/uc?export=view&id=1ntrHVnNfCRvXfKjbpavh7CiIsv7izsJr)
+
+- [ ] 
+- [ ] 
+- [ ] 
+- [x] [1] 4 5 6
