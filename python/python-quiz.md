@@ -2448,7 +2448,7 @@ print(c)
 [ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
 ```
 
-- [x] `m _ n _ p`
+- [x] `m * n * p`
 - [ ] The greater value of `(m,n,p)`.
 - [ ] 1 million.
 - [ ] `m + n + p`
