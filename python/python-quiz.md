@@ -701,6 +701,9 @@ t1 = test()
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
 - [ ] A class method hold all of the data for a particular class.
 
+[Reference](https://pynative.com/python-class-method/)   
+Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method. 
+
 #### Q48. What does it mean for a function to have linear runtime?
 
 - [ ] You did not use very many advanced computer programming concepts in your code.
