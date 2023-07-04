@@ -689,8 +689,8 @@ public class Honda extends Car{}
 #### Q90. Which relationship best illustrates an abstract-concrete class relationship?
 
 - [ ] cat : kitten
-- [x] color : red
-- [ ] planet : moon
+- [ ] color : red
+- [x] planet : moon
 - [ ] truck : window
 
 #### Q91. What cannot be used for polymorphism?
