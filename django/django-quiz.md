@@ -536,9 +536,10 @@ model=Planet
 - [x] an interface specifications
 - [ ] a Python module
 - [ ] a framework
-Reference link :- https://wsgi.tutorial.codepoint.net/intro
 
-#### Q56. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?
+Reference link:- https://wsgi.tutorial.codepoint.net/intro
+
+#### Q56. Which generic view should be used for displaying the titles of all Django Reinhardt's songs?
 
 - [ ] DetailView
 - [ ] TittleView
