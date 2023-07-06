@@ -35,10 +35,12 @@ D. longitude, latitude
 
 #### Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
 
-- [x] a directive
-- [ ] a custom column
+- [ ] a directive
+- [x] a custom column
 - [ ] an indexed column
 - [ ] a parameter
+
+NOTE: The Power BI Documentation does not mention the word directive. The correct answer is B, NOT A!
 
 #### Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?
 
