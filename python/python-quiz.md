@@ -1908,8 +1908,8 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 
 - [ ] string; numerical
 - [ ] unstructured; structured
-- [x] numerical; tabular
-- [ ] tabular; numerical
+- [ ] numerical; tabular
+- [x] tabular; numerical
 
 * Explanation: The Pandas library is commonly used for working with tabular data, such as data in the form of tables or spreadsheets. It provides data structures and functions for data manipulation and analysis. On the other hand, NumPy is a powerful library for numerical computing in Python, and it is often used for performing mathematical operations on numerical data, such as arrays and matrices.
 
