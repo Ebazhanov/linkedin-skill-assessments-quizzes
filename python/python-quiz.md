@@ -2162,10 +2162,10 @@ else:
 
 ```
 
-- [ ] C
+- [x] C
 - [ ] A B
 - [ ] B
-- [x] A
+- [ ] A
 
 #### Q150. Suppose you have a variable named vector of type `np.array` with 10.000 elements. How can you turn vector into a variable named `matrix` with dimensions 100x100?
 
