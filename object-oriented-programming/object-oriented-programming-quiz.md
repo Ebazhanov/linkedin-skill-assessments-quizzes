@@ -178,6 +178,8 @@
 - [ ] a procedure-oriented language
 - [ ] if classes are supported, polymorphism will be supported
 
+[reference](https://www.tutorialspoint.com/what-is-the-difference-between-object-oriented-programming-and-object-based-programming#:~:text=Object%20Based%20Languages,-Object%20based%20languages&text=They%20does%20not%20support%20inheritance,not%20supports%20built%2Din%20objects.)
+
 #### Q25. Two classes combine private data members and provide public member functions to access and manipulate those data members. Where is abstraction used?
 
 - [ ] Abstraction is using a private access specifier for the data members.

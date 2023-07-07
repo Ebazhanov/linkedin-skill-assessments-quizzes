@@ -108,7 +108,18 @@ let y = x[0]
 - [ ] `2`
 - [ ] `nil`
 
-Reference: [Apple Developer: Documentation: Swift: Array: dropFirst(\_:)](<https://developer.apple.com/documentation/swift/array/dropfirst(_:)>)
+**explanation**  
+`dropFirst()` from `Swift.Collection.Array` returns a type of `ArraySlice<Element>`   
+as in the documentation pages:  
+`@inlinable public func dropFirst(_ k: Int = 1) -> ArraySlice<Element>`  
+
+The ArraySlice type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an ArraySlice instance presents a view onto the storage of a larger array. And because ArraySlice presents the same interface as Array, you can generally perform the same operations on a slice as you could on the original array.  
+
+**Slices Maintain Indices**  
+Unlike Array and ContiguousArray, the starting index for an ArraySlice instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice.  
+The above code returns a slice of value `["2"]` but the index did not change. `let y = x[1]` would give the expected result.  
+To safely reference the starting and ending indices of a slice, always use the startIndex and endIndex properties instead of specific values.  
+[Reference](https://developer.apple.com/documentation/swift/arrayslice)  
 
 #### Q9. What is the value of test in this code?
 
