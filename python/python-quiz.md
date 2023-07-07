@@ -2167,21 +2167,14 @@ else:
 - [ ] B
 - [ ] A
 
-#### Q150. Suppose you have a variable named vector of type `np.array` with 10.000 elements. How can you turn vector into a variable named `matrix` with dimensions 100x100?
-
-- [ ] `matrix = matrix(vector,100,100)`
-- [ ] `matrix = vector.to_matrix(100,100)`
-- [ ] `matrix = (vector.shape = (100,100))`
-- [x] `matrix = vector.reshape(100,100)`
-
-#### Q151. What is the maximum length of a Python identifier?
+#### Q150. What is the maximum length of a Python identifier?
 
 - [ ] 32
 - [ ] 16
 - [ ] 128
 - [x] No fixed length is specified.
 
-#### Q152. What will the value of the `i` variable be when the following loop finishes its execution?
+#### Q151. What will the value of the `i` variable be when the following loop finishes its execution?
 
 ```python
 for i in range(5): pass
@@ -2192,14 +2185,14 @@ for i in range(5): pass
 - [ ] 6
 - [x] 4
 
-#### Q153. `f-strings` are also called:
+#### Q152. `f-strings` are also called:
 
 - [ ] Formatted string expressions.
 - [ ] Functional strings.
 - [ ] Modulo formatted strings.
 - [x] Formatted string literals.
 
-#### Q154. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+#### Q153. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
 
 - [x] One.
 - [ ] All of the available CPUs.
@@ -2208,7 +2201,7 @@ for i in range(5): pass
 
 **Explanation:**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 
-#### Q155. What will be the value of `y` in this code?
+#### Q154. What will be the value of `y` in this code?
 
 ```python
 x = 5
@@ -2234,7 +2227,7 @@ else:
     y += 30
 ```
 
-#### Q156.The process of pickling in Python includes?
+#### Q155.The process of pickling in Python includes?
 
 - [x] Conversion of a Python object hierarchy into byte stream.
 - [ ] Conversion of a datatable into a list.
@@ -2243,7 +2236,7 @@ else:
 
 **Explanation:** Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
-#### Q157. What is the output of the following program?
+#### Q156. What is the output of the following program?
 
 ```python
 print("codescracker".endswith("er"))
@@ -2254,12 +2247,12 @@ print("codescracker".endswith("er"))
 - [ ] `2`
 - [ ] `False`
 
-#### Q158. Is list mutable in python?
+#### Q157. Is list mutable in python?
 
 - [x] True
 - [ ] False
 
-#### Q159. What is the output of the following program?
+#### Q158. What is the output of the following program?
 
 ```python
 print("programming".center())
@@ -2270,21 +2263,21 @@ print("programming".center())
 - [x] Error says `TypeError: center expected at least 1 argument, got 0`.
 - [ ] None of the above.
 
-#### Q160. Who created the Python programming language?
+#### Q159. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
 
-#### Q161. Which collection is ordered, changeable, and allows duplicate members?
+#### Q160. Which collection is ordered, changeable, and allows duplicate members?
 
 - [ ] Set
 - [ ] Tuple
 - [ ] Dictionary
 - [x] List
 
-#### Q162. What will be printed in the console if you run this code?
+#### Q161. What will be printed in the console if you run this code?
 
 ```python
 x = 1j
@@ -2298,7 +2291,7 @@ print(x**2 == -1)
 
 **Explanation:** The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
 
-#### Q163. What will be printed in the console if you run this code?
+#### Q162. What will be printed in the console if you run this code?
 
 ```python
 print(0xA + 0xB + 0xC)
@@ -2311,7 +2304,7 @@ print(0xA + 0xB + 0xC)
 
 **Explanation:** `A`, `B` and `C` are hexadecimal integers with values `10`, `11` and `12` respectively, so the sum of `A`, `B` and `C` is `33`.
 
-#### Q164. What will this code output to the screen?
+#### Q163. What will this code output to the screen?
 
 ```python
 for i in range(5):
@@ -2325,7 +2318,7 @@ else:
 - [x] `0 1 2 3 4 Done!`
 - [ ] You will get a syntax error.
 
-#### Q165. Which comparison of lists and tuples in Python is correct?
+#### Q164. Which comparison of lists and tuples in Python is correct?
 
 - [ ] Use lists instead of tuples when you have a collection of related but dissimilar objects.
 - [ ] Use tuples instead of lists when you have a common collection of similar objects.
@@ -2334,7 +2327,7 @@ else:
 
 [Reference](https://www.scaler.com/topics/python/tuples-in-python/)
 
-#### Q166. Consider the following code snippet that uses decorators to calculate the execution time of `execution_fn` function:
+#### Q165. Consider the following code snippet that uses decorators to calculate the execution time of `execution_fn` function:
 
 ```python
 import functools
@@ -2401,35 +2394,35 @@ MISSING_ARG_2 = rval
 MISSING_ARG_3 = func
 ```
 
-#### Q167. Which of the following statements defines a new object type named `Dog` in Python?
+#### Q166. Which of the following statements defines a new object type named `Dog` in Python?
 
 - [x] `class Dog:`
 - [ ] `Dog class:`
 - [ ] `Dog:`
 - [ ] `class Dog`
 
-#### Q168. To use pipelines in `scikit-learn`, import from the `scikit-learn._` submodule.
+#### Q167. To use pipelines in `scikit-learn`, import from the `scikit-learn._` submodule.
 
 - [ ] `preprocessing`
 - [x] `pipeline`
 - [ ] `filters`
 - [ ] `pipe_filter`
 
-#### Q169. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
+#### Q168. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
 
 - [ ] row
 - [ ] col
 - [x] 1
 - [ ] 0
 
-#### Q170. Data points in Pyplot are called...
+#### Q169. Data points in Pyplot are called...
 
 - [ ] ... pointers.
 - [ ] ... points.
 - [x] ... markers.
 - [ ] ... none of these.
 
-#### Q171. What does this code print?
+#### Q170. What does this code print?
 
 ```python
 a = np.array([[1, 2], [3, 4], [5, 6]])
@@ -2442,7 +2435,7 @@ print(c)
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
 
-#### Q172. Assume `m`, `n` and `p` are positive integers. In the following comprehension, how many times will the function `randint` be called?
+#### Q171. Assume `m`, `n` and `p` are positive integers. In the following comprehension, how many times will the function `randint` be called?
 
 ```python
 [ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
@@ -2453,7 +2446,7 @@ print(c)
 - [ ] 1 million.
 - [ ] `m + n + p`
 
-#### Q173. Suppose you have a class named `MyClass` which has multiple inheritance and methods with the same name in its ancestors. Which class method could you call to see which method will get priority when invoked?
+#### Q172. Suppose you have a class named `MyClass` which has multiple inheritance and methods with the same name in its ancestors. Which class method could you call to see which method will get priority when invoked?
 
 - [x] `MyClass.__mro__`
 - [ ] `MyClass.hierarchy()`
@@ -2462,7 +2455,7 @@ print(c)
 
 **Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.
 
-#### Q174. Suppose you have a list of employees described by the code below. You want to assign Alice the same salary as Charlie. Which choice will accomplish that?
+#### Q173. Suppose you have a list of employees described by the code below. You want to assign Alice the same salary as Charlie. Which choice will accomplish that?
 
 ```python
 employees = {
@@ -2488,7 +2481,7 @@ employees = {
 
 **Explanation:** This is accessing a key in a dictionary nested inside another dictionary. The command `employees['alice']['salary'] = employees['charlie']['salary']` assigns the value of the `salary` key in the dictionary of the employee `charlie` to the value of the `salary` key in the dictionary of the employee `alice`.
 
-#### Q175. You are given a piece of code. Assume `m` and `n` are already defined as some positive integer value. When it completes, how many tuples will my list contain?
+#### Q174. You are given a piece of code. Assume `m` and `n` are already defined as some positive integer value. When it completes, how many tuples will my list contain?
 
 ```python
 mylist = []
@@ -2507,7 +2500,7 @@ for i in range(m):
 
 The first loop runs for `m` times and the inner loop will run for `n` times. While the single iteration of first loop will only be completed when all of the `n` iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... `m`th iterations for outer loop. Overall, both loops will run `m` x `n` times.
 
-#### Q176. What will this comprehension provide you?
+#### Q175. What will this comprehension provide you?
 
 ```python
 {x : [y for y in range (1, x) if x % y == 0] for x in range (2, 100)}
