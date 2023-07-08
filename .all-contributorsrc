@@ -13978,6 +13978,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "superjarle",
+      "name": "Jarle Kvile",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70260762?v=4",
+      "profile": "https://github.com/superjarle",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sunset1117",
+      "name": "劉耀升 Vic Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41656144?v=4",
+      "profile": "https://github.com/sunset1117",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
