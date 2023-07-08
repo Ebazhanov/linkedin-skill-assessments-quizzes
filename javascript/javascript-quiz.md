@@ -1977,6 +1977,8 @@ console.log(obj1);
 - [ ] None of the objects have prototype
 - [ ] None of the above
 
+[Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+
 #### Q143. What does … operator do in JS?
 
 - [x] Used to spread iterables to individual elements
