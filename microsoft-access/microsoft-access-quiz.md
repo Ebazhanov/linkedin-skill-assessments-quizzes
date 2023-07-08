@@ -345,3 +345,12 @@ SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- Output:
 ```sql
 SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, Donna, Daniel
 ```
+
+#### Q38. When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?
+
+- [x] The calculation cannot use custom Visual Basic functions.
+- [ ] The calculation can include built-in functions.
+- [ ] The calculation can use fields from a related table.
+- [ ] The calculation can include fields from the same table.
+
+**Explanation: Double negative.** It's _not_ true that the calculation cannot use custom Visual Basic functions. => It's true that the calculation can use custom Visual Basic functions.
