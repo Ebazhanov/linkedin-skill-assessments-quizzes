@@ -372,3 +372,12 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, 
 - [x] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
 
 [Format Painter](https://www.youtube.com/watch?v=nyAZ-O_odbY)
+
+#### Q41.When adding a picture to a form, which Picture Size Mode property will keep the image at 100% of its original size, even if the bounding box is smaller?
+
+- [x] Clip
+- [ ] Locked
+- [ ] Stretch
+- [ ] Zoom
+
+[Form.PictureSizeMode property](https://learn.microsoft.com/en-us/office/vba/api/access.form.picturesizemode)
