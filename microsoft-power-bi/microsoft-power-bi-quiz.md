@@ -768,7 +768,6 @@ NOTE: The Power BI Documentation does not mention the word directive. The correc
 - [x] all of these answers
 - [ ] Rearrange pivot table fields.
 - [ ] Drill down in the pivot table.
--
 
 #### Q97. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
 
@@ -776,3 +775,14 @@ NOTE: The Power BI Documentation does not mention the word directive. The correc
 - [ ] Rearrange pivot table fields.
 - [ ] view the pivot table
 - [x] all of these answers
+
+#### Q98. Using Power BI service, you want to share a set of visualizations with your team so that they can, in turn, share the content with others. To do this, what should you share?
+
+- [ ] a report
+- [ ] a tile
+- [ ] a dashboard
+- [x] all of these answers
+
+[reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
+
+
