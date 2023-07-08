@@ -2177,6 +2177,8 @@ else:
 - [ ] 128
 - [x] No fixed length is specified.
 
+[reference](https://peps.python.org/pep-0008/) No No fixed length is specified but Pep-8 secifies under "Maximum Line Length" to "Limit all lines to a maximum of 79 characters".
+
 #### Q151. What will the value of the `i` variable be when the following loop finishes its execution?
 
 ```python
