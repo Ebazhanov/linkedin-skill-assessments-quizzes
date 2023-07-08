@@ -301,3 +301,47 @@
 - [ ] switch control
 - [ ] bound selection
 - [ ] object selector
+
+#### Q37. Which query criteria will return records for "Debra" and "Donna" but not "Daniel"?
+
+- [ ] `Like "*n*"`
+- [x] `Like "*[ro]*"`
+- [ ] `Like "De* or Do*"`
+- [ ] `Like "D*"`
+
+**Solution:**
+
+`MS Access > Create > Table > Rename Table1 to table_name > Add column first_name Short Text > Add Debra, Donna, Daniel`
+
+OR
+
+`MS Access > Create > Query Design > SQL View`
+
+```sql
+CREATE TABLE table_name (first_name Text);
+-- In MS Access SQL, you cannot directly insert multiple values into a column.
+INSERT INTO table_name (first_name) VALUES ('Debra');
+INSERT INTO table_name (first_name) VALUES ('Donna');
+INSERT INTO table_name (first_name) VALUES ('Daniel');
+-- Press F5 to refresh Datasheet View.
+```
+
+**Note:** In MS Access SQL Query, **_⚠ you need to execute each statement separately. ⚠_**
+
+**Check queries:**
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*n*"; -- Output: Donna, Daniel
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*[ro]*"; -- Output: Debra, Donna
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- Output: null
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, Donna, Daniel
+```
