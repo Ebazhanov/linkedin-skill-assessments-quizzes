@@ -2177,6 +2177,8 @@ else:
 - [ ] 128
 - [x] No fixed length is specified.
 
+[reference](https://peps.python.org/pep-0008/) No No fixed length is specified but Pep-8 secifies under "Maximum Line Length" to "Limit all lines to a maximum of 79 characters".
+
 #### Q151. What will the value of the `i` variable be when the following loop finishes its execution?
 
 ```python
@@ -2411,6 +2413,8 @@ MISSING_ARG_3 = func
 - [x] `pipeline`
 - [ ] `filters`
 - [ ] `pipe_filter`
+
+[reference](https://scikit-learn.org/stable/modules/compose.html) The correct syntax is actually: `from sklearn.pipeline import Pipeline`  
 
 #### Q168. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
 

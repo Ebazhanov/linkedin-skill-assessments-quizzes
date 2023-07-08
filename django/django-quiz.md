@@ -533,11 +533,13 @@ model=Planet
 #### Q55. What is WSGI?
 
 - [ ] a server
-- [x] an interface specification
+- [x] an interface specifications
 - [ ] a Python module
 - [ ] a framework
 
-#### Q56. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?
+Reference link:- https://wsgi.tutorial.codepoint.net/intro
+
+#### Q56. Which generic view should be used for displaying the titles of all Django Reinhardt's songs?
 
 - [ ] DetailView
 - [ ] TittleView

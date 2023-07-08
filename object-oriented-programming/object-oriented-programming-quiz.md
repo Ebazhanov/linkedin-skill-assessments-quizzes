@@ -312,10 +312,7 @@
 - [ ] to protect attributes from unwanted changes
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
-- [x] to avoid writing duplicate code
-- [ ] to separate class behavior from the more general
-
-**NOTE:** I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
+- [x] to separate class behavior from the more general
 
 #### Q43. In addition to attributes and behaviours, what quality must a class possess?
 
