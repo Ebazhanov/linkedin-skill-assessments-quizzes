@@ -363,3 +363,12 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, 
 - [ ] Macro Name
 
 [OnError Macro Action](https://support.microsoft.com/en-us/office/onerror-macro-action-942d771c-6c1c-4cb3-afb1-ce9289d81913)
+
+#### Q40. You have several label objects in a form. You customized the font and size of one, and want to format the others to match. What is the best way to do this?
+
+- [ ] Select the unformatted labels, click the Format Painter tool, then click the formatted label.
+- [ ] Select the formatted label, click the Format Painter tool, then drag a box around the unformatted labels.
+- [ ] Select all of the labels and then click the Format Painter tool.
+- [x] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
+
+[Format Painter](https://www.youtube.com/watch?v=nyAZ-O_odbY)
