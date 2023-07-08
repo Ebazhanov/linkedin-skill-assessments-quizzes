@@ -1898,7 +1898,7 @@ console.log(copyCat.type, copyCat.size);
 - [x] undefined large
 - [ ] lion large
 
-[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+[Reference]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 
 #### Q137. What does this code print to the console?
 
