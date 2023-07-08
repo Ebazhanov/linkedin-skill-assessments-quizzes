@@ -2414,6 +2414,8 @@ MISSING_ARG_3 = func
 - [ ] `filters`
 - [ ] `pipe_filter`
 
+[reference](https://scikit-learn.org/stable/modules/compose.html) The correct syntax is actually: `from sklearn.pipeline import Pipeline`  
+
 #### Q168. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
 
 - [ ] row
