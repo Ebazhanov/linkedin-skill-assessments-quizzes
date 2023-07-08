@@ -1059,14 +1059,14 @@ cat > notes -
 
 [Reference](https://www.tutorialsandyou.com/bash-shell-scripting/sed-command-to-print-palindrome-53.html)
 
-#### Q83. Which command will allow you to see the documentation of any other Bash command ?
+#### Q83. Which command will allow you to see the documentation of any other Bash command?
 
 - [x] Man {command}
 - [ ] help {command}
 - [ ] doc {command}
 - [ ] {command} -help
 
-#### Q84. What is the difference between these two conditional expressions ?
+#### Q84. What is the difference between these two conditional expressions?
 
 [[$A==$B]]
 [[$A -eq $B]]
@@ -1076,7 +1076,7 @@ cat > notes -
 - [x] they are the same.
 - [ ] [[$A==$B]]is used for text comparisons whereas [[$a-eq $B]]is used for numeric comparisons.
 
-#### Q85. What is the output of this code ?
+#### Q85. What is the output of this code?
 
 ```bash
 VAR="united states"
@@ -1087,3 +1087,22 @@ echo "${VAR^}"
 - [ ] United States
 - [ ] United states
 - [x] UNITED STATES
+
+#### Q86. What would happen if you ran the script below as it is written?
+
+```bash
+#!/bin/bash
+#condition 1
+if [ $foo = "bar" ]; then echo "foo is bar"
+fi
+#condition 2
+if [[ $foo = "bar" ]]; then echo "foo is bar"
+fi
+```
+
+- [x] Both conditions will fail.
+- [ ] Both conditions will succeed.
+- [ ] Condition 1 would succeed and Condition 2 would fail.
+- [ ] Condition 1 would fail and Condition 2 would succeed.
+
+**Explanation:** The script as written outputs `line 3: [: =: unary operator expected`. Define variable and assign value `foo="bar"`, and both conditions will succeed.
