@@ -58,10 +58,12 @@ NOTE: The Power BI Documentation does not mention the word directive. The correc
 
 #### Q7. You need to add a required color to a bar chart. How can you add an exact color value to an existing bar chart?
 
-- [x] Click the color in the visual (e.g., the bars) and right-click to select the color.
+- [ ] Click the color in the visual (e.g., the bars) and right-click to select the color.
 - [ ] You cannot select custom colors in a bar chart or related visual.
 - [ ] Select the value closest to this color from the color formatting options.
-- [ ] Enter the hex value into the color formatting options.
+- [x] Enter the hex value into the color formatting options.
+
+NOTE: To enter a specific custom color (e.g., required color) you need to enter the required hex value. The correct answer is D.
 
 #### Q8. The Excel function IF is nearly the same as which DAX function?
 
