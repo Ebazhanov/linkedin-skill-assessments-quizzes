@@ -354,3 +354,12 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, 
 - [ ] The calculation can include fields from the same table.
 
 **Explanation: Double negative.** It's _not_ true that the calculation cannot use custom Visual Basic functions. => It's true that the calculation can use custom Visual Basic functions.
+
+#### Q39. You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?
+
+- [ ] Skip
+- [x] Next
+- [ ] Fail
+- [ ] Macro Name
+
+[OnError Macro Action](https://support.microsoft.com/en-us/office/onerror-macro-action-942d771c-6c1c-4cb3-afb1-ce9289d81913)
