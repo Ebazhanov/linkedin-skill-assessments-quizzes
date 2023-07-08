@@ -1952,9 +1952,11 @@ console.log(json); // print {"type":"tiger"}
 #### Q140. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
-- [ ] FileUpload
+- [x] FileUpload
 - [ ] Function
-- [x] All of the above
+- [ ] All of the above
+
+[Reference](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
 
 #### Q141. What will be the output of the following code snippet?
 
