@@ -319,31 +319,31 @@ OR
 
 ```sql
 CREATE TABLE table_name (first_name Text);
--- In MS Access SQL, you cannot directly insert multiple values into a column.
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
 INSERT INTO table_name (first_name) VALUES ('Debra');
 INSERT INTO table_name (first_name) VALUES ('Donna');
 INSERT INTO table_name (first_name) VALUES ('Daniel');
 -- Press F5 to refresh Datasheet View.
 ```
 
-**Note:** In MS Access SQL Query, **_⚠ you need to execute each statement separately. ⚠_**
-
 **Check queries:**
 
 ```sql
-SELECT first_name FROM table_name WHERE first_name Like "*n*"; -- Output: Donna, Daniel
+SELECT first_name FROM table_name WHERE first_name Like "*n*"; -- Donna, Daniel
 ```
 
 ```sql
-SELECT first_name FROM table_name WHERE first_name Like "*[ro]*"; -- Output: Debra, Donna
+SELECT first_name FROM table_name WHERE first_name Like "*[ro]*"; -- Debra, Donna
 ```
 
 ```sql
-SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- Output: null
+SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- null
 ```
 
 ```sql
-SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, Donna, Daniel
+SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, Daniel
 ```
 
 #### Q38. When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?
@@ -381,3 +381,63 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Output: Debra, 
 - [ ] Zoom
 
 [Form.PictureSizeMode property](https://learn.microsoft.com/en-us/office/vba/api/access.form.picturesizemode)
+
+#### Q42. Which single-line query criteria would _not_ be equivalent to the multilinied one pictured?
+
+![img](https://drive.google.com/uc?export=view&id=1jbRn8vijxlaozB52Mtjoivamt-9S4NTs)
+
+- [x] `Or ("Houston","Boston","Chicago")`
+- [ ] `In ("Houston","Boston","Chicago")`
+- [ ] `"Houston" Or "Boston" Or "Chicago"`
+- [ ] `"houston" Or "boston" Or "chicago"`
+
+**Solution:**
+
+`MS Access > Create Tab > Table > Rename Table1 to Customers > Add column City Short Text > Add records Houston, Boston, Chicago`
+
+`Create Tab> Query Design > Add Table Customers > Field: City > Or "Houston" "Boston" "Chicago"`
+
+OR
+
+`MS Access > Create Tab > Query Design > SQL View`
+
+```sql
+CREATE TABLE Customers (City Text);
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
+INSERT INTO Customers (City) VALUES ('Houston');
+INSERT INTO Customers (City) VALUES ('Boston');
+INSERT INTO Customers (City) VALUES ('Chicago');
+-- Press F5 to refresh Datasheet View.
+
+SELECT Customers.City
+FROM Customers
+WHERE (((Customers.City)='Houston')) OR (((Customers.City)='Boston')) OR (((Customers.City)='Chicago'));
+```
+
+**Check queries:**
+
+```sql
+SELECT City
+FROM Customers
+WHERE City Or ("Houston","Boston","Chicago"); -- Syntax error (comma) in query expression
+```
+
+```sql
+SELECT City
+FROM Customers
+WHERE City In ("Houston","Boston","Chicago"); -- equivalent
+```
+
+```sql
+SELECT City
+FROM Customers
+WHERE City = "Houston" Or "Boston" Or "Chicago"; -- equivalent
+```
+
+```sql
+SELECT City
+FROM Customers
+WHERE City = "houston" Or "boston" Or "chicago"; -- equivalent
+```
