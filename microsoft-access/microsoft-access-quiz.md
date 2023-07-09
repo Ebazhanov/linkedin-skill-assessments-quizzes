@@ -301,3 +301,155 @@
 - [ ] switch control
 - [ ] bound selection
 - [ ] object selector
+
+#### Q37. Which query criteria will return records for "Debra" and "Donna" but not "Daniel"?
+
+- [ ] `Like "*n*"`
+- [x] `Like "*[ro]*"`
+- [ ] `Like "De* or Do*"`
+- [ ] `Like "D*"`
+
+**Solution:**
+
+`MS Access > Create > Table > Rename Table1 to table_name > Add column first_name Short Text > Add Debra, Donna, Daniel`
+
+OR
+
+`MS Access > Create > Query Design > SQL View`
+
+```sql
+CREATE TABLE table_name (first_name Text);
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
+INSERT INTO table_name (first_name) VALUES ('Debra');
+INSERT INTO table_name (first_name) VALUES ('Donna');
+INSERT INTO table_name (first_name) VALUES ('Daniel');
+-- Press F5 to refresh Datasheet View.
+```
+
+**Check queries:**
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*n*"; -- Donna, Daniel
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*[ro]*"; -- Debra, Donna
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- null
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, Daniel
+```
+
+#### Q38. When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?
+
+- [x] The calculation cannot use custom Visual Basic functions.
+- [ ] The calculation can include built-in functions.
+- [ ] The calculation can use fields from a related table.
+- [ ] The calculation can include fields from the same table.
+
+[Expression Builder](https://support.microsoft.com/en-au/office/use-the-expression-builder-56214db9-8b54-44f3-bc19-2a55427b5d4c)
+
+**Explanation: Double negative.** It's _not_ true that the calculation cannot use custom Visual Basic functions. => It's true that the calculation can use custom Visual Basic functions.
+
+#### Q39. You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?
+
+- [ ] Skip
+- [x] Next
+- [ ] Fail
+- [ ] Macro Name
+
+[OnError Macro Action](https://support.microsoft.com/en-us/office/onerror-macro-action-942d771c-6c1c-4cb3-afb1-ce9289d81913)
+
+#### Q40. You have several label objects in a form. You customized the font and size of one, and want to format the others to match. What is the best way to do this?
+
+- [ ] Select the unformatted labels, click the Format Painter tool, then click the formatted label.
+- [ ] Select the formatted label, click the Format Painter tool, then drag a box around the unformatted labels.
+- [ ] Select all of the labels and then click the Format Painter tool.
+- [x] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
+
+[Format Painter](https://www.youtube.com/watch?v=nyAZ-O_odbY)
+
+#### Q41.When adding a picture to a form, which Picture Size Mode property will keep the image at 100% of its original size, even if the bounding box is smaller?
+
+- [x] Clip
+- [ ] Locked
+- [ ] Stretch
+- [ ] Zoom
+
+[Form.PictureSizeMode property](https://learn.microsoft.com/en-us/office/vba/api/access.form.picturesizemode)
+
+#### Q42. Which single-line query criteria would _not_ be equivalent to the multilinied one pictured?
+
+![img](https://drive.google.com/uc?export=view&id=1jbRn8vijxlaozB52Mtjoivamt-9S4NTs)
+
+- [x] `Or ("Houston","Boston","Chicago")`
+- [ ] `In ("Houston","Boston","Chicago")`
+- [ ] `"Houston" Or "Boston" Or "Chicago"`
+- [ ] `"houston" Or "boston" Or "chicago"`
+
+**Solution:**
+
+`MS Access > Create Tab > Table > Rename Table1 to Customers > Add column City Short Text > Add records Houston, Boston, Chicago`
+
+`Create Tab> Query Design > Add Table Customers > Field: City > Or "Houston" "Boston" "Chicago"`
+
+OR
+
+`MS Access > Create Tab > Query Design > SQL View`
+
+```sql
+CREATE TABLE Customers (City Text);
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
+INSERT INTO Customers (City) VALUES ('Houston');
+INSERT INTO Customers (City) VALUES ('Boston');
+INSERT INTO Customers (City) VALUES ('Chicago');
+-- Press F5 to refresh Datasheet View.
+
+SELECT Customers.City
+FROM Customers
+WHERE (((Customers.City)='Houston')) OR (((Customers.City)='Boston')) OR (((Customers.City)='Chicago'));
+```
+
+**Check queries:**
+
+```sql
+SELECT City FROM Customers WHERE City Or ("Houston","Boston","Chicago"); -- Syntax error (comma) in query expression
+```
+
+```sql
+SELECT City FROM Customers WHERE City In ("Houston","Boston","Chicago"); -- equivalent
+```
+
+```sql
+SELECT City FROM Customers WHERE City = "Houston" Or "Boston" Or "Chicago"; -- equivalent
+```
+
+```sql
+SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- equivalent
+```
+
+#### Q43. When designing a form, you add a horizontal line object that is the full width of the Detail section. Yet when you view the form, the line goes only part way across the screen. How can you make the line extend to the edges of the screen?
+
+- [x] From the **Anchoring** menu, select **Stretch Across Top**.
+- [ ] From the **Align** menu, select **Full Justify**.
+- [ ] From the **Anchoring** menu, select **Top Right**.
+- [ ] From the **Size/Space** menu, select **To Fit**.
+
+[Stretch Across Top](https://support.microsoft.com/en-au/office/make-controls-stretch-shrink-or-move-as-you-resize-a-form-51fd88e0-43d3-4070-a298-18ba273f4cf8)
+
+#### Q44. A Decimal data type field with a Precision of 5 and a Scale of 3 can store how many digits on the left side of the decimal point?
+
+- [ ] three
+- [ ] eight
+- [x] two
+- [ ] five
+
+[Precision, Scale](https://learn.microsoft.com/en-us/sql/t-sql/data-types/precision-scale-and-length-transact-sql)
