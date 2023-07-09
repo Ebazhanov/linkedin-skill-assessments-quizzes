@@ -353,6 +353,8 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, D
 - [ ] The calculation can use fields from a related table.
 - [ ] The calculation can include fields from the same table.
 
+[Expression Builder](https://support.microsoft.com/en-au/office/use-the-expression-builder-56214db9-8b54-44f3-bc19-2a55427b5d4c)
+
 **Explanation: Double negative.** It's _not_ true that the calculation cannot use custom Visual Basic functions. => It's true that the calculation can use custom Visual Basic functions.
 
 #### Q39. You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?
@@ -419,25 +421,26 @@ WHERE (((Customers.City)='Houston')) OR (((Customers.City)='Boston')) OR (((Cust
 **Check queries:**
 
 ```sql
-SELECT City
-FROM Customers
-WHERE City Or ("Houston","Boston","Chicago"); -- Syntax error (comma) in query expression
+SELECT City FROM Customers WHERE City Or ("Houston","Boston","Chicago"); -- Syntax error (comma) in query expression
 ```
 
 ```sql
-SELECT City
-FROM Customers
-WHERE City In ("Houston","Boston","Chicago"); -- equivalent
+SELECT City FROM Customers WHERE City In ("Houston","Boston","Chicago"); -- equivalent
 ```
 
 ```sql
-SELECT City
-FROM Customers
-WHERE City = "Houston" Or "Boston" Or "Chicago"; -- equivalent
+SELECT City FROM Customers WHERE City = "Houston" Or "Boston" Or "Chicago"; -- equivalent
 ```
 
 ```sql
-SELECT City
-FROM Customers
-WHERE City = "houston" Or "boston" Or "chicago"; -- equivalent
+SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- equivalent
 ```
+
+#### Q43. When designing a form, you add a horizontal line object that is the full width of the Detail section. Yet when you view the form, the line goes only part way across the screen. How can you make the line extend to the edges of the screen?
+
+- [x] From the **Anchoring** menu, select **Stretch Across Top**.
+- [ ] From the **Align** menu, select **Full Justify**.
+- [ ] From the **Anchoring** menu, select **Top Right**.
+- [ ] From the **Size/Space** menu, select **To Fit**.
+
+[Stretch Across Top](https://support.microsoft.com/en-au/office/make-controls-stretch-shrink-or-move-as-you-resize-a-form-51fd88e0-43d3-4070-a298-18ba273f4cf8)
