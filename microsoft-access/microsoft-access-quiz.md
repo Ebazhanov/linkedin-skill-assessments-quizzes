@@ -444,3 +444,12 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 - [ ] From the **Size/Space** menu, select **To Fit**.
 
 [Stretch Across Top](https://support.microsoft.com/en-au/office/make-controls-stretch-shrink-or-move-as-you-resize-a-form-51fd88e0-43d3-4070-a298-18ba273f4cf8)
+
+#### Q44. A Decimal data type field with a Precision of 5 and a Scale of 3 can store how many digits on the left side of the decimal point?
+
+- [ ] three
+- [ ] eight
+- [x] two
+- [ ] five
+
+[Precision, Scale](https://learn.microsoft.com/en-us/sql/t-sql/data-types/precision-scale-and-length-transact-sql)
