@@ -2518,3 +2518,9 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are a list from 1 to the key value itself (inclusive).
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the even numbers from 1 to the key value itself (inclusive).
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive).
+
+#### Q176. What is a common use of Python's sys library?
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment
