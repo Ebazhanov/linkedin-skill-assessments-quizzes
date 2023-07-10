@@ -1282,3 +1282,10 @@ fmt.Println(a, b, c)
 - [ ] It will not compile.
 
 [Go Playground Example](https://go.dev/play/p/qUI50GNGWTq)
+
+### Q71. What is the operator for a logical AND condition? 
+
+- [ ] \+
+- [ ] and
+- [x] &&
+- [ ] ||
