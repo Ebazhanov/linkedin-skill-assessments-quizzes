@@ -1678,3 +1678,12 @@ int main()
 [x] 2
 [] 3
 [] 4
+
+#### Q105. Which choice is a valid way to overload the ternary conditional operator?
+
+- [ ] `void& operator ?:(const bool cond, const void& iftrue, const void& iffalse);`
+- [x] `The ternary operator is not overloadable.`
+- [ ] `void& operator conditional(const bool cond, const void& iftrue, const void& iffalse);`
+- [ ] `void* operator ?:(const bool cond, const void* iftrue, const void* iffalse);`
+
+[Reference](https://en.cppreference.com/w/cpp/language/operators)
