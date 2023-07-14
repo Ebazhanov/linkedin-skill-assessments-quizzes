@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1413-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1414-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > ⚠️ DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1961,6 +1961,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sunset1117"><img src="https://avatars.githubusercontent.com/u/41656144?v=4?s=100" width="100px;" alt="劉耀升 Vic Liu"/><br /><sub><b>劉耀升 Vic Liu</b></sub></a><br /><a href="#design-sunset1117" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sunset1117" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://suryansh.one"><img src="https://avatars.githubusercontent.com/u/58465650?v=4?s=100" width="100px;" alt="Suryansh"/><br /><sub><b>Suryansh</b></sub></a><br /><a href="#design-drk1rd" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=drk1rd" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MattewOosthuyse"><img src="https://avatars.githubusercontent.com/u/63950795?v=4?s=100" width="100px;" alt="Matthew Oosthuyse"/><br /><sub><b>Matthew Oosthuyse</b></sub></a><br /><a href="#design-MattewOosthuyse" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MattewOosthuyse" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FlorinChess"><img src="https://avatars.githubusercontent.com/u/78698161?v=4?s=100" width="100px;" alt="Florin Zamfir"/><br /><sub><b>Florin Zamfir</b></sub></a><br /><a href="#design-FlorinChess" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=FlorinChess" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

@@ -14018,6 +14018,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "FlorinChess",
+      "name": "Florin Zamfir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78698161?v=4",
+      "profile": "https://github.com/FlorinChess",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
