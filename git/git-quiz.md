@@ -771,10 +771,10 @@ Which of the following options is correct ?
 
 #### Q94. You stashed three sets of changes but cannot remember the contents of the first stash entry. What command would you use to see the details of the changes in the first of the three stash entries?
 
-- [x] git stash show -p stash@{2}
+- [ ] git stash show -p stash@{2}
 - [ ] git stash list
 - [ ] git stash show -p stash@{1}
-- [ ] git stash show -p
+- [x] git stash show -p
 
 [reference here](https://git-scm.com/docs/git-stash)
 
