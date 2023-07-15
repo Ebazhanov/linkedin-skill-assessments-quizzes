@@ -30,40 +30,40 @@
 
 #### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
 
-- [ ]
+- [ ] A
 
-```
-      RecycleView
-      RecyclerView.Adapter<T extends BaseAdapter>
-      RecyclerView.ViewHolder<T extends BaseViewHolder>
-      LinearLayoutManager
-```
-
-- [ ]
-
-```
-      RecycleView
-      RecyclerView.Adapter
-      RecyclerView.ViewHolder<T extends BaseViewHolder>
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter<T extends BaseAdapter>
+    RecyclerView.ViewHolder<T extends BaseViewHolder>
+    LinearLayoutManager
 ```
 
-- [ ]
+- [ ] B
 
-```
-      RecycleView
-      RecyclerView.Adapter
-      RecyclerView.ViewHolder
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter
+    RecyclerView.ViewHolder<T extends BaseViewHolder>
+    LinearLayoutManager
 ```
 
-- [x]
+- [ ] C
 
+```java
+    RecycleView
+    RecyclerView.Adapter
+    RecyclerView.ViewHolder
+    LinearLayoutManager
 ```
-      RecycleView
-      RecyclerView.Adapter<VH extends ViewHolder>
-      RecyclerView.ViewHolder
-      LinearLayoutManager
+
+- [x] D
+
+```java
+    RecycleView
+    RecyclerView.Adapter<VH extends ViewHolder>
+    RecyclerView.ViewHolder
+    LinearLayoutManager
 ```
 
 #### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
@@ -75,61 +75,61 @@
 
 #### Q7. You have created a NextActivity class that relies on a string containing some data that pass inside the intent Which code snippet allows you to launch your activity?
 
-- [ ]
+- [ ] A
 
-```
-        Intent(this, NextActivity::class.java).also { intent ->
-            startActivity(intent)
-        }
-```
-
-- [ ]
-
-```
-        Intent(this, NextActivity::class.java).apply {
-            put(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            activityStart(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).also { intent ->
+        startActivity(intent)
+    }
 ```
 
-- [x]
+- [ ] B
 
-```
-        Intent(this, NextActivity::class.java).apply {
-            putExtra(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            startActivity(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).apply {
+        put(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        activityStart(intent)
+    }
 ```
 
-- [ ]
+- [x] C
 
+```java
+    Intent(this, NextActivity::class.java).apply {
+        putExtra(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        startActivity(intent)
+    }
 ```
-        Intent(this, NextActivity::class.java).apply {
-            put(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            activityStart(intent)
-        }
+
+- [ ] D
+
+```java
+    Intent(this, NextActivity::class.java).apply {
+        put(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        activityStart(intent)
+    }
 ```
 
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
-- [ ] in build.gradle:include ':app',':about' ':settings'
-- [x] in settings.gradle:include ':app',':about' ':settings'
-- [ ] in settings.gradle:include ':about',':settings'
-- [ ] in gradle.properties:include ':app',':about' ':settings'
+- [ ] `in build.gradle:include ':app',':about' ':settings'`
+- [x] `in settings.gradle:include ':app',':about' ':settings'`
+- [ ] `in settings.gradle:include ':about',':settings'`
+- [ ] `in gradle.properties:include ':app',':about' ':settings'`
 
-#### Q9. What is the benifit of using @VisibleForTesting annotation?
+#### Q9. What is the benefit of using @VisibleForTesting annotation?
 
-- [x] to denote that a class, methos, or field has its visibility relaxed to make code testable
+- [x] to denote that a class, methods, or field has its visibility relaxed to make code testable
 - [ ] to denote that a class, method, or field is visible only in the test code
 - [ ] to denote that a class, method, or field has its visibility increased to make code less testable
-- [ ] to throw a run-time error if a class, methos, or field with this annotation is accessed improperly
+- [ ] to throw a run-time error if a class, methods, or field with this annotation is accessed improperly
 
 #### Q10. How would you specify in your build.gradle file that your app required at least API level 21 to run, but that it can be tested on API level 28?
 
-- [ ]
+- [ ] A
 
 ```
       defaultConfig {
@@ -139,7 +139,7 @@
       }
 ```
 
-- [ ]
+- [ ] B
 
 ```
       defaultConfig {
@@ -149,7 +149,7 @@
       }
 ```
 
-- [ ]
+- [ ] C
 
 ```
       defaultConfig {
@@ -159,7 +159,7 @@
       }
 ```
 
-- [x]
+- [x] D
 
 ```
       defaultConfig {
@@ -176,7 +176,7 @@
 - [ ] When onStop() is called in the target activity
 - [x] when calling finish() in the target activity
 
-[For more information](https://developer.android.com/reference/android/app/Activity)
+[Reference](https://developer.android.com/reference/android/app/Activity)
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 
@@ -198,7 +198,7 @@
 
 #### Q14. Given the fragment below, how would you get access to a TextView with an ID of text_home contained in the layout file of a Fragment class?
 
-```
+```java
     private lateinit var textView: TextView
     override fun onCreateView(...): View? {
         val root = inflator.inflator(R>layout.fragment_home, container, false)
@@ -251,7 +251,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 - [x] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
-**Explanation:** In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.
+**Explanation:** `In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.`
 
 #### Q20. Why is it problematic to define sizes using pixels on Android?
 
@@ -271,12 +271,11 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 #### Q22. Which drawable definition allows you to achieve the shape below?
 
-![img](image/shape.png)
+![img](image/shape.png?raw=png)
 
-- [ ]
+- [ ] A
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -286,20 +285,18 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
     </shape>
 ```
 
-- [ ]
+- [ ] B
 
-```
-    xml
+```xml
     <oval xmlns:android="http://schemas.android.com/apk/res/android">
         <stroke android:width="4dp" android:color="@android:color/black"/>
         <solid android:color="@android:color/white"/>
     </oval>
 ```
 
-- [x]
+- [x] C
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -309,10 +306,9 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
     </shape>
 ```
 
-- [ ]
+- [ ] D
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -372,8 +368,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 #### Q29. Which image best corresponds to the following `LinearLayout`?
 
-```
-    xml
+```xml
     <LinearLayout
         android:layout_width="match_parent"
 	android:layout_height="match_parent"
@@ -416,10 +411,12 @@ startActivity(dialerIntent)
 
 #### Q31. When should you store files in the `/assets` directory?
 
-- [x] when you need access to the original file names and file hierarchy [(Reference)](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
+- [x] when you need access to the original file names and file hierarchy
 - [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
+
+[Reference](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
 
 #### Q32. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
 
@@ -437,7 +434,7 @@ startActivity(dialerIntent)
 
 #### Q34. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
 
-- [ ]
+- [ ] A
 
 ```
 buildTypes {
@@ -450,7 +447,7 @@ buildTypes {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```
 buildTypes {
@@ -463,7 +460,7 @@ buildTypes {
 }
 ```
 
-- [x]
+- [x] C
 
 ```
 buildTypes {
@@ -476,7 +473,7 @@ buildTypes {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```
 buildTypes {
@@ -494,7 +491,9 @@ buildTypes {
 - [ ] JPG
 - [ ] PNG
 - [ ] MPEG
-- [x] WebP [(Reference)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
+- [x] WebP
+
+[Reference](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
 #### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 
@@ -507,10 +506,9 @@ buildTypes {
 
 ![img](image/04.jpeg)
 
-- [ ]
+- [ ] A
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -529,10 +527,9 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [x]
+- [x] B
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -551,10 +548,9 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] C
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -575,10 +571,9 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] D
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -607,17 +602,15 @@ xml
 
 #### Q39. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
 
-- [x]
+- [x] A
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity" />
 ```
 
-- [ ]
+- [ ] B
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.SEND" />
@@ -625,10 +618,9 @@ xml
 	</activity>
 ```
 
-- [ ]
+- [ ] C
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.MAIN" />
@@ -637,10 +629,9 @@ xml
 	</activity>
 ```
 
-- [ ]
+- [ ] D
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.VIEW" />
@@ -648,7 +639,7 @@ xml
 	</activity>
 ```
 
-**Explanation:** Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent
+**Explanation:** `Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent`
 
 #### Q40. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
 
@@ -700,10 +691,9 @@ xml
 
 ![img](image/43.jpeg)
 
-- [ ]
+- [ ] A
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	    android:shape-"oval">
 	    <gradient
@@ -713,10 +703,9 @@ xml
 	</shape>
 ```
 
-- [ ]
+- [ ] B
 
-```
-xml
+```xml
 	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
 	   <gradient
 	      android:startColor-"@android:color/white"
@@ -725,10 +714,9 @@ xml
 	</rectangle>
 ```
 
-- [x]
+- [x] C
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -738,10 +726,9 @@ xml
 	</shape>
 ```
 
-- [ ]
+- [ ] D
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -762,21 +749,23 @@ xml
 
 #### Q48. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
 
-    android {
-        ...
-        defaultConfig{...}
+```
+android {
+    ...
+    defaultConfig{...}
 
-        buildTypes{
-        debug{...}
-        releasae{...}
-    }
+    buildTypes{
+    debug{...}
+    releasae{...}
+}
 
-      flavorDimensions "environment"
-      productFlavors {
-         producation {...}
-         staging {...}
-      }
+    flavorDimensions "environment"
+    productFlavors {
+        producation {...}
+        staging {...}
     }
+}
+```
 
 - [ ] productionDebug.
 - [x] developmentDebug.
@@ -819,7 +808,7 @@ xml
 
 #### Q53. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
 
-```
+```xml
 <?xml version=1.0 encoding="utf-8"?>
 <resources>
     <dimen name="spacing_medium">8dp</dimen>
@@ -827,9 +816,9 @@ xml
 </resources>
 ```
 
-- [ ]
+- [ ] A
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -837,9 +826,10 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] B
 
-```<ImageView
+```xml
+<ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
    android:layout_heignt="wrap_content"
@@ -847,9 +837,9 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] C
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -858,9 +848,9 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [x]
+- [x] D
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -878,7 +868,7 @@ xml
 
 #### Q55. What is the chief purpose of line five in this code snippet?
 
-```
+```java
 override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
 
 	if (savedInstanceState != null) return
@@ -913,21 +903,12 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q58. You have created an AboutActivity class that displays details about your app. Which code snippet allows you to launch your activity?
 
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      startService(intent)
-      }
-- [x] Intent(this, AboutActivity::class.java).also { intent ->
-      startActivity(intent)
-      }
+- [ ] `Intent(this, AboutActivity::class).also { intent -> startService(intent)}`
+- [x] `Intent(this, AboutActivity::class.java).also { intent -> startActivity(intent)}`
+- [ ] `Intent(this, AboutActivity::class).also { intent -> activity(intent)}`
+- [ ] `Intent(this, AboutActivity::class).also { intent -> startActivity(intent)}`
 
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      activity(intent)
-      }
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      startActivity(intent)
-      }
-      Explanation: Intent(Context packageContext, Class<?> cls)
-      Notice: Class not KClass
+**Explanation**: `Intent(Context packageContext, Class<?> cls) Notice: Class not KClass`
 
 #### Q59. What is the use of AndroidManifest.xml file?
 
@@ -949,23 +930,24 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] ProGuard
 - [ ] Shrinker
 - [ ] D8
-      Explanation: When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle
+
+**Explanation**: `When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle`
 
 [Reference](https://developer.android.com/studio/build/shrink-code)
 
 #### Q62. Which layout hierarchy is likely to be drawn the most quickly?
 
 - [x] A
-      ![img](https://i.imgur.com/mT08jag.png)
+      ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - [ ] B
-      ![img](https://i.imgur.com/rz9eKYc.png)
+      ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - [ ] C
-      ![img](https://i.imgur.com/ETaHhaS.png)
+      ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - [ ] D
-      ![img](https://i.imgur.com/1QBrTwR.png)
+      ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### Q63. What is the current recommended way to handle long-running background tasks?
 
@@ -984,14 +966,16 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Google Cloud module
 
 1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+2. [Reference](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
 
 #### Q65. Which approach is not recommended for providing a useful offline state in your app?
 
 - [ ] caching data
 - [ ] storing data locally
 - [ ] queuing outbound requests to action when connectivity has been lost
-- [ ] always notifying users that connectivity has been lost
+- [x] always notifying users that connectivity has been lost
+
+[Reference](https://developer.android.com/docs/quality-guidelines/build-for-billions/connectivity#network-offline)
 
 #### Q66. If you need your app code to inspect information about the current build, which class should you use?
 
@@ -999,3 +983,200 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] `BuildInfo`
 - [ ] `ConfigParams`
 - [ ] `ConfigInfo`
+
+#### Q67. In the ConstraintLayout below, why wouldn't button expand to fill the width of parent?
+
+```xml
+    <androidx.constraintlayout.widget.ConstrantLayout
+        ...>
+	    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstrantLayout>
+```
+
+- [ ] `The button does not have a size`
+- [x] `The button is not constrained to the end of the parent container`
+- [ ] `Buttons cannot expand beyond their default size`
+- [ ] `The button should have its height set to 0dp as well`
+
+#### Q68. What is not a use case for idling resources in your Espresso tests?
+
+- [ ] `managing system services`
+- [x] `processing user input events`
+- [ ] `loading data from the internet or a local data source`
+- [ ] `perfoming bitmap transformatinos`
+
+#### Q69. What is not a type of resource for providing your app with strings?
+
+- [ ] `String`
+- [x] `Text`
+- [ ] `String-array`
+- [ ] `Plurals`
+
+#### Q70. What is not in the activity lifecycle?
+
+- [ ] `onPause()`
+- [ ] `onResume()`
+- [x] `onOpen()`
+- [ ] `onStart()`
+
+#### Q71. You want to allow users to take a picture in your app. Which code snippet is the correct approach?
+
+- [ ] A
+
+```java
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.shouldShowRequestPermissionRationale(thisActivity,
+      Manifest.permission.CAMERA) {
+        showCameraPreview()
+      }
+       else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+   }
+```
+
+- [x] B
+
+```java
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      == PackageManager.PERMISSION_GRANTED) {
+        showCameraPreview()
+      }
+      else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+      }
+  }
+```
+
+- [ ] C
+
+```java
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      showCameraPreview()
+  }
+```
+
+- [ ] D
+
+```java
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      != PackageManager.PERMISSION_GRANTED) {
+         showCameraPreview()
+       }
+       else {
+          requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+  }
+```
+
+#### Q72. Given the string resource below, which code snippet is valid?
+
+```
+<string name="upload_photo_notification">%1$d of %2$d photos uploaded</string>
+```
+
+- [ ] A
+
+```
+val string: String = getString(
+   R.string.upload_photo_notification,
+   "2",
+   "5"
+)
+```
+
+- [ ] B
+
+```
+val string: String = getString(
+   R.id.upload_photo_notification,
+   2,
+   5
+)
+```
+
+- [x] C
+
+```
+val string: String = getString(
+   R.string.upload_photo_notification,
+   2,
+   5
+)
+```
+
+- [ ] D
+
+```
+val string: String = getString(
+   R.id.upload_photo_notification,
+   "2",
+   "5"
+)
+```
+
+[Reference](https://developer.android.com/guide/topics/resources/string-resource#formatting-strings)
+
+#### Q73. Different languages have different rules for grammatical agreement with quantity. To support the following two strings in multiple languages in your app, what is the ideal resource definition?
+
+```
+"You have 1 day remaining"
+"You have 2 days remaining"
+```
+
+- [ ] A
+
+```
+<string name="trial_days_left_one"> You have %1$d day remaining</string>
+<string name="trial_days_left_other">You have %1$d days remaining</string>
+```
+
+- [ ] B
+
+```
+<plurals name="trial days left">
+    <plural quantity="one">You have %1$d day remaining</plural>
+    <plural quantity="other">You have %1$d days remaining</plural>
+</plurals>
+```
+
+- [x] C
+
+```
+<plurals name="trial_days_left">
+    <item quantity="one">You have %1$d day remaining</item>
+    <item quantity="other">You have %1$d days remaining</item>
+</plurals>
+```
+
+- [ ] D
+
+```
+<string name="trial_days_left">
+    <plural quantity="one">You have %1$d day remaining</plural>
+    <plural quantity="other">You have &1$d days remaining</plural>
+</string>
+```
+
+#### Q74. When would the operating system use the onTrimMemory() method?
+
+- [ ] `when the app is uninstalled`
+- [x] `when the app is backgrounded`
+- [ ] `when the device is in battery optimization mode`
+- [ ] `when network requests are made on the main thread`
+
+[Reference](https://developer.android.com/guide/topics/resources/string-resource#Plurals)

@@ -7,13 +7,13 @@
 - [ ] Gizmos
 - [x] Play mode tint
 
-#### Q2. A developer executes the C# code below, which finds any game objects tagged as “enemy” in a start event. But the developer notices that, when executed, FindGameObjectsWithTag returns NULL even though the scene contains objects tagged as “Enemy”. What is a possible cause?
+#### Q2. A developer executes the C# code below, which finds any game objects tagged as "enemy" in a start event. But the developer notices that, when executed, FindGameObjectsWithTag returns NULL even though the scene contains objects tagged as "Enemy". What is a possible cause?
 
-`GameObject[] MyEnemies = GameObject.FindGameObjectsWithTag(“Enemy”);`
+`GameObject[] MyEnemies = GameObject.FindGameObjectsWithTag("Enemy");`
 
 - [ ] The objects are animated
 - [ ] The objects are on the UI layer
-- [ ] The objects are not named “Enemy”
+- [ ] The objects are not named "Enemy"
 - [x] The objects are deactivated
 
 #### Q3. What does this code sample achieve? Float Answer = Random.value \* 10f;
@@ -79,8 +79,7 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 - [ ] Inches
 - [x] Meters
 
-Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
-[Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html)
+[Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html)Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
 
 #### Q10. The Collaborate feature of Unity Teams empowers whom to do what?
 
@@ -107,8 +106,10 @@ Unity's default units are in meters (Unreal Engine too). If you keep this in min
 
 - [ ] OnBecameInvisible
 - [ ] OnAnimatorMove
-- [ ] Reset
-- [x] OnTriggerEnter
+- [x] Reset
+- [ ] OnTriggerEnter
+
+* Explain- The Reset method is a MonoBehaviour method that runs by default in Editor mode. This method is called when the script is attached to a GameObject or reset in the Inspector. It allows you to initialize or reset the values of variables in the script, ensuring a consistent initial state when working in the Unity Editor.
 
 #### Q14. For the OnTriggerEnter function to invoke successfully on a collision between two objects, at least one must have which two components?
 
@@ -182,21 +183,21 @@ Unity's default units are in meters (Unreal Engine too). If you keep this in min
 - [ ] Group as many UI elements as possible onto only one canvas
 - [ ] Divide the screen into multiple canvas objects, each sized to a quarter of the screen size
 
-Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
-[Reference](https://unity.com/how-to/unity-ui-optimization-tips)
+[Reference](https://unity.com/how-to/unity-ui-optimization-tips) Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
 
 #### Q24. What does the C# Space attribute used below achieved?
 
-    [Space(20)]
-    Public string PlayerName;
+```c#
+[Space(20)]
+Public string PlayerName;
+```
 
 - [ ] It inserts 20 space characters as a default value into the string variable below
 - [ ] It inserts 20 pixels of margin on all edges around the variable inside the Object Inspector
 - [x] It inserts 20 pixels of empty space above the variable inside the Object Inspector
 - [ ] It inserts 20 pixels of empty space below the variable inside the Object Inspector
 
-This is a great way to customize your inspector without writing a new inspector script for it.
-[Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html)
+[Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html) This is a great way to customize your inspector without writing a new inspector script for it.
 
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
@@ -226,8 +227,7 @@ This is a great way to customize your inspector without writing a new inspector 
 - [ ] AnimationInfo
 - [ ] AnimatorUtility
 
-`OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
-[Reference](https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html)
+[Reference](https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html) `OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
 
@@ -273,7 +273,7 @@ This is a great way to customize your inspector without writing a new inspector 
 
 #### Q35. What does this code fragment do when attached to a rigged character?
 
-```
+```c#
     public Animator avatar;
     public Transform lookAtObj;
     void OnAnimatorIK(int layerIndex)
@@ -344,8 +344,7 @@ Quaternion.Euler converts the Euler number provided to the internally used Quart
 - [ ] It deletes the specified game object when the application terminates
 - [ ] It deletes the specified game object immidaitely
 
-> The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
-> [Reference](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)
+[Reference](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)`The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.`
 
 #### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
 
@@ -354,8 +353,7 @@ Quaternion.Euler converts the Euler number provided to the internally used Quart
 - [ ] ParamEQ
 - [ ] Audio Mixer groups
 
-Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.
-[Official Unity Tutorial:](https://www.youtube.com/watch?v=9tqi1aXlcpE)
+[Official Unity Tutorial:](https://www.youtube.com/watch?v=9tqi1aXlcpE)`Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.`
 
 #### Q43. Multiple animations may be mixed together on a single character, selectively on different limbs. Which Mecanim feature supports this?
 
@@ -364,8 +362,7 @@ Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ a
 - [ ] StateMachineBehaviour scripts
 - [ ] animation events
 
-Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.
-[Reference](https://docs.unity3d.com/Manual/class-AvatarMask.html)
+[Reference](https://docs.unity3d.com/Manual/class-AvatarMask.html)`Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.`
 
 #### Q44. What does the PlayableDirector component allow you to do?
 
@@ -374,8 +371,7 @@ Mip Maps are a technique that improves image quality and reduces rendering speed
 - [x] control the playback of a timeline instance in the scene
 - [ ] record a gameplay session to a video file
 
-The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.
-[Reference](https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html)
+[Reference](https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html)`The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.`
 
 #### Q45. What does the Grid component do?
 
@@ -391,7 +387,7 @@ The PlayableDirector component stores the link between a Timeline instance and a
 - [ ] signals
 - [ ] packets
 
-EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
+`EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.`
 
 1. [Reference](https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712)
 2. [Reference](https://blog.unity.com/technology/how-to-create-custom-timeline-markers)
@@ -400,7 +396,7 @@ EventSystem is not a timeline feature, neither are packets. Timeline signals are
 
 - [ ] A
 
-```
+```c#
 public class Health : MonoBehavior
 {
     private float HealthPoints = 100f;
@@ -422,7 +418,7 @@ public class Health : MonoBehavior
 
 - [ ] B
 
-```
+```c#
 public class Health : MonoBehavior
 {
     public UnityEvent OnHealthChanged;
@@ -444,7 +440,7 @@ public class Health : MonoBehavior
 
 - [x] C
 
-```
+```c#
 public class Health : MonoBehavior
 {
     public float HealthPoints
@@ -467,7 +463,7 @@ public class Health : MonoBehavior
 
 - [ ] D
 
-```
+```c#
 public class Health : MonoBehaviour
 {
     public float HealthPoints = 100f;
@@ -482,3 +478,64 @@ public class Health : MonoBehaviour
 
 `get` and `set` are the clear indicators that a C# property is being used.
 [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
+
+#### Q48. Which statement is not true?
+
+- [ ] A Coroutines will continue running on deactivated objects
+- [ ] B All component scripts inherit from `MonoBehaviour`
+- [x] C Only humanoid characters feature bones
+- [ ] D The `Update` function is never called automatically while an object is deactivated
+
+[Reference](https://docs.unity3d.com/2017.3/Documentation/Manual/GenericAnimations.html)
+
+#### Q49. When is the `Reset` method of `MonoBehaviour` invoked automatially?
+
+- [ ] A When a game object moves from one scene to another
+- [x] B When adding a component to an object or resetting its values in Edit mode
+- [ ] C When a scene begins or is restarted
+- [ ] D When the scene begins or restarts for a deactivated game object
+
+[Reference](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Reset.html)`Reset` is called when the user hits the Reset button in the Inspector's context menu or when adding the component the first time. This function is only called in editor mode.
+
+#### Q50. Which C# attribute allows a class and its methods to run inside the editor during Edit mode?
+
+- [ ] A [Range(0,10)]
+- [ ] B [Live]
+- [ ] C [RunInEditor]
+- [x] D [ExecuteAlways]
+
+`ExecuteAlways` makes instances of a script always execute, both as part of Play Mode and when editing. By default, MonoBehaviours are only executed in Play Mode and only if they are on GameObjects in the main stage containing the user Scenes. By adding this attribute, any instance of the MonoBehaviour will have its callback functions executed at all times.
+
+1. [Reference](https://docs.unity3d.com/ScriptReference/ExecuteAlways.html)
+   Do not fall for `[RunInEditor]`! It looks similar to `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
+2. [Reference](https://docs.unity3d.com/ScriptReference/MonoBehaviour-runInEditMode.html)
+
+#### Q51. The `IsPointerOverGameObject` static function of the `EventSystem` class is useful for creating which behaviour?
+
+- [ ] A moving UI elements in sync with the cursor as it drags across the screen
+- [ ] B changing the highlight of buttons as the cursor moves over them
+- [x] C preventing mouse clicks on game objects behind the UI canvas <- i believe this is the correct answer but supervision would be helpful
+- [ ] D identifying which 3D object the cursor is hovering over
+
+#### Q52. Which C# code fragment continuously updates an object's yaw (Y rotation)?
+
+- [ ] `c# transform.localRotation *= Quaternion.Euler(0f, RotSpeed * Time.deltaTime, 0f);`
+- [x] `c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime);`
+- [ ] `c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime);`
+- [ ] `c# transform.SetParent(null);`
+
+#### Q53. What can you to improve the searchability of you project's assets?
+
+- [x] labels
+- [ ] tags
+- [ ] instance IDs
+- [ ] layers
+
+#### Q54. The Y keyboard shortcut activates which in-editor tool?
+
+- [ ] Hide
+- [ ] Scale
+- [ ] Transform
+- [x] Rotate
+
+> `Observation`: I tested it in Unity itself and pressing it activated the rotate, scale and transform function, in the documentation (unity 2018.2) it says that it is a unified one, in the documentation of the most recent unity (2022.2) I did not find anything different

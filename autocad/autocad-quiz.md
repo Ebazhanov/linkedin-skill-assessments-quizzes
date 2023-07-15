@@ -30,10 +30,10 @@
 
 #### Q5. When working in a layout, if a viewport is activated and locked and you accidentally zoom in or out, what happens to your viewport scale?
 
-- [ ] Nothing. The viewport scale remains the same.
+- [x] Nothing. The viewport scale remains the same.
 - [ ] The viewport scale returns to the default 1:1 scale.
 - [ ] The viewport scale changes to the next available standard scale.
-- [x] The viewport scale changes to a nonstandard scale.
+- [ ] The viewport scale changes to a nonstandard scale.
 
 #### Q6. Dynamic Input (DYNMODE) is switched on by default. Which function key do you use to control the Dynamic Input toggle?
 
@@ -197,7 +197,7 @@
 
 #### Q29. When plotting in AutoCAD, the default plotting style is a color-dependent plot style table (CTB). You can also use named plot style tables (STB). You can change a CTB drawing to an STB drawing using which command?
 
-- [ ] CONVERTPSTYLES
+- [x] CONVERTPSTYLES
 - [ ] CONVSTYLES
 - [ ] CONVERTPLOT
 - [ ] CONVPLOTSTYLE
@@ -250,7 +250,7 @@
 #### Q32. The Quick Access toolbar (QAT) is located in the top left of the AutoCAD application window. Which two commands in the QAT allow you to go backward and forward in your AutoCAD workflow?
 
 - [ ] Left and Right
-- [ ] Undo and Redo
+- [x] Undo and Redo
 - [ ] Rewind and Fast
 - [ ] Forward Unfix and Fix
 
@@ -280,7 +280,7 @@
 - [ ] internal and external quadrants
 - [ ] internal and external circumference
 - [ ] internal and external diameter
-- [ ] internal and external radius
+- [x] internal and external radius
 
 #### Q37. An inscribed polygopoln gives you what type of point at the end of the polygon radius?
 
@@ -312,7 +312,7 @@
 
 #### Q41. When working with objects in your drawings, you normally define their properties via their respective layers. However, you can define individual object properties with the Properties panel on the Home tab of the AutoCAD ribbon. Individual color and linetype can be defined there, along with what other typical object property?
 
-![q42](images/q42_autocad.png)
+![q42](images/q42_autocad.png?raw=png)
 
 - [ ] description
 - [x] plottable or not plottable
@@ -342,7 +342,7 @@
 
 #### Q45. The navigation bar is normally on by default and is located to the right-hand side of the drawing area. Which variable controls the display of the navigation bar, and to what value does it need to be set for the navigation bar to display on the screen?
 
-- [ ] The NAVBARDISPLAY value should be set to 1
+- [x] The NAVBARDISPLAY value should be set to 1
 - [ ] The NAVBARDISPLAY value should be set to 0.
 - [ ] The NAVIGATIONBARDISPLAYON value should be set to 1.
 - [ ] The NAVIGATIONBARDISPLAYON value should be set to 0.
@@ -358,7 +358,7 @@
 
 - [ ] the status bar
 - [ ] the navigation bar
-- [ ] the Quick Access toolbar (QAT)
+- [x] the Quick Access toolbar (QAT)
 - [ ] the info bar
 
 #### Q48. When drafting with object snaps and object snap tracking, what other drafting setting can you use to set object snap tracking points?
@@ -393,7 +393,7 @@
 
 - [ ] Create Separate Hatches
 - [ ] Associative Boundaries
-- [ ] Set the HATCHMULTIPLE variable to 0 (OFF).
+- [x] Set the HATCHMULTIPLE variable to 0 (OFF).
 - [ ] Set the HATCHMULTIPLE variable to 1 (ON).
 
 #### Q53. AutoCAD allows you to select individual objects cumulatively to create a selection set. You can remove individual objects from that selection by using a mouse click combined with which keystroke?
@@ -416,15 +416,17 @@
 - [x] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a FUZZ DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MINIGAP DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MIN GAP DISTANCE. This is the minimum gap distance for automatic joining.
+      
+![q55](images/q75_autocad.png?raw=png)
 
-#### Q56. When creating a block with attributes, why should you use underscores between words in the attribute tag?
+#### Q56. When creating a block with attributes, why should you use underscores (_) between words in the attribute tag?
 
 - [ ] Attribute tags must have an underscore to be recognized for data extraction.
 - [ ] Attribute tags do not allow spaces.
-- [x] Attribute tags need an underscore to be recognized by the BLOCK command.
-- [ ] Attribute tags must have an underscore in them.
+- [x] Attribute tags need an underscore to be recognized by the Block command (BLOCK).
+- [ ] Attribute tags need an underscore to be visible on the drawing.
 
-#### Q57. To insert a table in a drawing, you use the TABLE command. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
+#### Q57. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
 
 - [ ] a table dimension style
 - [x] a table style
@@ -511,7 +513,7 @@
 #### Q69. When using the Polyline (PLINE) command to draw an arrowhead, what polyline properties do you need to use?
 
 - [ ] the Halfwidth setting
-- [x] starting width and ending widths
+- [x] starting width and ending width
 - [ ] polyline start and polyline end
 - [ ] the START and END variables in the PLINE command
 
@@ -545,7 +547,7 @@
 
 #### Q74. When using the POLYGON command in AutoCAD, you can create an inscribed polygon and a circumscribed polygon. What other type of polygon is available?
 
-![q75](images/q75_autocad.png)
+![q75](images/q75_autocad.png?raw=png)
 
 - [ ] side polygon
 - [ ] polyline polygon
@@ -554,9 +556,9 @@
 
 #### Q75. When using blocks in a drawing, a selected block displays only one grip: the insertion point. How would you get a block to display all of its associated grips?
 
-![q76](images/q76_autocad.png)
+![q76](images/q76_autocad.png?raw=png)
 
-- [ ] Change the GRIPBLOCK system variable to 1.
+- [x] Change the GRIPBLOCK system variable to 1.
 - [ ] Select the block and change it in the Properties palette.
 - [ ] Change the GRIPBLOCK system variable to 0.
 - [ ] Select the block and change it in the right-click shortcut menu.
@@ -566,11 +568,32 @@
 - [ ] Linesize
 - [ ] Linestyle
 - [ ] Lineweight
-- [ ] Linetype
+- [x] Linetype
 
 #### Q77. You selected multiple items and four of the items where not supposed to be selected. How do you deselect them?
 
 - [ ] Hold down Alt (Windows) or Option (Mac) and select the four items.
 - [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
 - [ ] Simply select them.
-- [ ] Hold down Shift and select the four items.
+- [x] Hold down Shift and select the four items.
+
+#### Q78. How can you define the angle at which a rectangle is placed in the Rectangle command (RECTANGLE)?
+
+- [x] Use the ROTATION option on the ribbon after you have selected the first point of the rectangle.
+- [ ] Use the ROTATION option in the submenu after you have placed the second point of the rectangle.
+- [ ] Use the ROTATION option in the submenu after you have placed the first point of the rectangle.
+- [ ] Use the ROTATION option in the Properties palette after you have selected the rectangle.
+
+#### Q79. Why would you use viewports?
+
+- [ ] To save specific views of a 2D model. Then even if you rotate or move that model, you can umped back to the saved view.
+- [ ] To save specific views of a 3D model. Then even if you rotate or move that model, you can jump back to the saved view.
+- [x] To display views of model space. You create, scale and place viewports in paper space on a layout.
+- [ ] To display views of paper space. You create, sclae and place viewports in model space.
+
+#### Q80. You have designed a shaft with a 1-inch diameter. Your specifications state that it is acceptable for this shaft diameter to be 0.05 inch smaller or 0.05 inch larger than 1 inch. Which tolerance method would you use to dimension this shaft?
+
+- [x] Engineering.
+- [ ] Deviation.
+- [ ] Fractional.
+- [ ] Symmetricl.

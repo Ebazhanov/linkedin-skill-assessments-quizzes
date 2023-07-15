@@ -13,10 +13,11 @@
 ```
 
 - [ ] ![A](images/Q1-A.jpg)
-- [x]
-  ![B](images/Q1-B.jpg)
+- [x] ![B](images/Q1-B.jpg)
 - [ ] ![C](images/Q1-C.jpg)
 - [ ] ![D](images/Q1-D.jpg)
+
+[Sample](https://jsfiddle.net/mrvahid/zohd8k2n/)
 
 #### Q2. Variables declared with the let keyword have what type of scope?
 
@@ -138,14 +139,14 @@ h1 {
 - [x] no users
 - [ ] screen reader users
 
-#### Q16. Which choice is not part of CSS box model
+#### Q16. Which choice is not part of CSS box model?
 
 - [ ] margin
 - [ ] border
 - [ ] padding
 - [x] paragraph
 
-#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name
+#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name?
 
 - [ ] https
 - [ ] org
@@ -158,6 +159,8 @@ h1 {
 - [x] `<ul>`
 - [ ] `<main>`
 - [ ] `<nav>`
+
+[Source: ARIA landmarks in HTML5](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html)
 
 #### Q19. Which statement is true when an HTML tag has been deprecated?
 
@@ -172,6 +175,8 @@ h1 {
 - [ ] Font sizes are expressed relative to the font size of the parent elements
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
+
+[Source: CSS units](https://www.w3schools.com/cssref/css_units.asp)
 
 #### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
@@ -203,8 +208,6 @@ h1 {
 - [x] two
 
 #### Q24. Which style will change the color of the text?
-
-![A](images/Q24.png)
 
 ```html
 <cite>Noam Chomsky</cite>
@@ -271,7 +274,7 @@ cite {
 - [ ] Items stay in a column until you add some flex properties.
 - [ ] Items display in a row, lined up at the start, and stretch to fill the container
 
-#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each/
+#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.
 
 - [ ] `flex: 1 0 0;`
 - [ ] `flex: initial;`
@@ -287,10 +290,12 @@ cite {
 
 #### Q30. What will this loop print?
 
-          let max = 3;
-          for (i = 0; i > max; i++) {
-            document.write("skrt ");
-          }
+```
+let max = 3;
+for (i = 0; i > max; i++) {
+  document.write("skrt ");
+}
+```
 
 - [ ] skrt skrt skrt
 - [ ] skrt skrt
@@ -342,8 +347,8 @@ const user = {
 
 #### Q36. A webpage has `rel="preconnect"` added to a link resource. What will this do?
 
-```
-<link rel="preconnect" href="https://example.com">
+```html
+<link rel="preconnect" href="https://example.com" />
 ```
 
 - [ ] It will tell the browser that this link is a site belonging to the current domain.
@@ -351,7 +356,7 @@ const user = {
 - [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
 
-[web.dev](https://web.dev/preconnect-and-dns-prefetch/)
+[Source: web.dev](https://web.dev/preconnect-and-dns-prefetch/)
 
 #### Q37. Which choice is _not_ a render blocking resource?
 
@@ -369,7 +374,7 @@ const user = {
 - [ ] the CSS specification
 - [ ] MDN property pages
 
-[Web platform tests site](https://web-platform-tests.org/)
+[Source: Web platform tests site](https://web-platform-tests.org/)
 
 #### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
 
@@ -385,14 +390,14 @@ const user = {
 - [x] all \<a> tags whose href attribute ends with "org"
 - [ ] all \<a> tags whose href attribute contains "org"
 
-#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?
+#### Q41. Which choice <em>is not a result</em> of invoking strict mode in JavaScript?
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
 - [x] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
 
-[MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+[Source: MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 #### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
 
@@ -500,9 +505,9 @@ console.log(currencies);
 #### Q52. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?
 
 - [ ] flex: 0 0 100;
-- [x] flex: 1 0 0;
+- [ ] flex: 1 0 0;
 - [ ] flex: 0 0 auto;
-- [ ] flex: 1 1 auto;
+- [x] flex: 1 1 auto;
 
 [Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
 
@@ -533,7 +538,7 @@ console.log(currencies);
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
 
-#### Q56. What is the definition of the phrase “Time to Interactive”?
+#### Q56. What is the definition of the phrase "Time to Interactive"?
 
 - [ ] when the browser displays the first bit of content from the DOM
 - [x] when the user can consistently interact with all of the page elements
@@ -592,7 +597,7 @@ console.log(currencies);
 ```css
 .box {
   background-color: blue;
-  background: url(images/star.png) no-repeat left top;
+  background: url(images/star.png?raw=png) no-repeat left top;
 }
 ```
 
@@ -610,49 +615,48 @@ console.log(currencies);
 
 #### Q64. Which code example would center `.box` inside `.container`?
 
-```hmtl
+```html
 <div class="container">
-    <div class="box">what a lovely box, very centered
-    </div>
+  <div class="box">what a lovely box, very centered</div>
 </div>
 ```
 
 - [ ] A
 
-  ```css
-  .container {
-    display: flex;
-    align-items: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align-items: center;
+}
+```
 
 - [x] B
 
-  ```css
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
 
 - [ ] C
 
-  ```css
-  .box {
-    align-items: center;
-    justify-content: center;
-  }
-  ```
+```css
+.box {
+  align-items: center;
+  justify-content: center;
+}
+```
 
 - [ ] D
 
-  ```css
-  .container {
-    display: flex;
-    align: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align: center;
+}
+```
 
 #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
 
@@ -699,3 +703,137 @@ box {
 - [x] 220px
 - [ ] 200px
 - [ ] 260px
+
+#### Q70. How would you round the value 11.354 to the nearest full integer?
+
+- [ ] round(11.354);
+- [x] Math.round(11.354);
+- [ ] Math.rnd(11.354);
+- [ ] Maths.round(11.354);
+
+#### Q70. What is the JavaScript compiler Babel used for?
+
+- [x] converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers
+- [ ] used to bundle individual JS files for use in your website
+- [ ] convert older JS code into modern ECMAScript 2015+ code
+- [ ] it is a SSR library that can enhance SEO and accessibility of your site
+
+#### Q71. What is the correct way to link to an external stylesheet from the head of an HTML document?
+
+- [x] `<link rel="stylesheet" href="styles.css">`
+- [ ] `<script type="text/css" href="styles.css"></script>`
+- [ ] `<script type="text/css" src="styles.css">`
+- [ ] `<link rel="css" href="styles.css">`
+
+#### Q72. Which href attribute creates a link to the telephone number 1-(704) 555-1151?
+
+- [x] href = "tel:+17045551151"
+- [ ] href="17045551151"
+- [ ] href="phone:+1704551151"
+- [ ] href="call:+17045551151"
+
+#### Q73. In the color value hsl(38, 90%, 60%), what does 38 represent?
+
+- [x] the tint of the color matching 38 degrade on the color wheel
+- [ ] the opacity of the color indicating 38% of fully opacity
+- [ ] the brightness of the color matching a brightness of 38%
+- [ ] the intensity of the color matching an intensity of 38%
+
+[Source: W3 Schools](<[https://www.w3schools.com/accessibility/accessibility_skip_links.php](https://www.w3schools.com/colors/colors_hsl.asp)>)
+
+#### Q74. What is a skiplink?
+
+- [ ] a replacement for inaccessible navigation
+- [ ] a method of allowing a screen-reader user to skip between headings
+- [x] a link placed early in the <body> to allow the user to skip to the main content
+- [ ] a link to allow users to skip video that automatically plays on a website
+
+[Source: W3 Schools](https://www.w3schools.com/accessibility/accessibility_skip_links.php)
+
+#### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
+
+- [ ] it will speed up loading of the image when used with a JavaScript library
+- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [x] In supporting browsers, images will load only when they are in or near the visible viewport
+- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+
+#### Q76. What is GraphQL?
+
+- [ ] a React library for storing data
+- [ ] a Vue.js library for storing and manipulating data
+- [x] a query language for fetching data from APIs
+- [ ] a new database format designed to replace MySQL
+
+[Source: GraphQL official website](https://graphql.org/)
+
+#### Q77. Which choice will place a multiline text input field on the page?
+
+- [ ] `<multiline></multiline>`
+- [x] `<textarea></textarea>`
+- [ ] `<input type="multiline">`
+- [ ] `<input type="textarea">`
+
+#### Q78. Which browser is not based on Chromium?
+
+- [x] Firefox
+- [ ] Opera
+- [ ] Chrome
+- [ ] Edge
+
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+
+```css
+@font-face {
+  font-family: Helvetica;
+  font-display: swap;
+}
+```
+
+- [ ] The browser will show no content until the web font loads.
+- [ ] The browser will ignore the web font.
+- [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
+- [x] The browser will load a system font while waiting for the web font to load.
+
+#### Q80. What does the term "code splitting" mean with regard to JavasScript performance?
+
+- [ ] allowing the browser to ignore code that it believes will perform badly
+- [x] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] removing unused code from JavaScript files
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+
+#### Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?
+
+- [ ] div
+- [x] td
+- [ ] figure
+- [ ] p
+
+#### Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?
+
+- [ ] title
+- [ ] data
+- [ ] src
+- [x] alt
+
+#### Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?
+
+- [ ] focus-show
+- [x] :focus-visible
+- [ ] :focus-ring
+- [ ] focus-keyboard
+
+[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/)
+
+#### Q84. To create a collection of radio buttons associated with the same field, each <input> tag must \_\_\_\_.
+
+- [ ] have the same value of the id attribute
+- [x] have the same value of the name attribute
+- [ ] belong to the same field set
+- [ ] have the same value of the class attribute
+
+#### Q85. Which statement about HTML syntax is _false_?
+
+- [x] The value of a class attribute should be unique in an HTML document.
+- [ ] The `<img>` element does not have a closing `</img>` tag.
+- [ ] The `<h1>` element is the most important heading on the page.
+- [ ] The value of an id attribute should be unique in an HTML document.

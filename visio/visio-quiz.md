@@ -87,19 +87,19 @@
 
 - [ ] A
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] B
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] C
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] D
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 #### Q10. Some Business Process Model Notation (BPMN) shapes are further annotated by attaching a callout shape. Which option is associated with a callout shape?
 
@@ -124,7 +124,7 @@
 
 #### Q13. What does the icon in the lower-right corner of the organizational shape indicate?
 
-![image](images/005.png)
+![image](images/005.png?raw=png)
 
 - [ ] Belt shape
 - [x] hidden subordinates
@@ -210,7 +210,7 @@
 
 #### Q25. Which of these options is available when you select some shapes and then click the arrow on the Position button in the Arrange group on the Home tab?
 
-![image](images/006.png)
+![image](images/006.png?raw=png)
 
 - [x] Auto Align
 - [ ] Auto Space
@@ -308,7 +308,7 @@
 
 - [ ] Visio list
 - [ ] list
-- [x] variable list
+- [x] vari list
 - [ ] fixed list
 
 #### Q36. Which is not one of the seven properties in the Layer Properties dialog box?
@@ -317,3 +317,57 @@
 - [ ] Group
 - [ ] Active
 - [ ] Color
+
+#### Q37. Where are the commands you need to change the position or alignment of the text block in a shape?
+
+- [x] on the **home** tab, in the **Paragraph** goup
+- [ ] on the **home** tab, in the **Tools** goup
+- [ ] on the **Design** tab, in the **Alignment** goup
+- [ ] on the **Design** tab, in the **Paragraph** goup
+
+#### Q38. The Function shape data field in flowchart shapes automatically displays what text when the shape is placed into a swimlane?
+
+- [ ] the header text of the swimlane
+- [x] the value of the swimlane's Title Shape Data field
+- [ ] the name of the swimlane phase where the shape resides
+- [ ] the value of the Owner shape data field
+
+[!reference](https://support.microsoft.com/en-us/office/create-a-cross-functional-flowchart-in-visio-for-the-web-3546da67-a092-431a-b47a-bbb808edf581)
+
+#### Q39. Which is not an example of a reason that a shape designer might use sets of shapes grouped together to create a more sophisticated appearance or behavior?
+
+- [x] to display text in multiple places on the shape
+- [ ] to protect the alignment of subshapes within the group
+- [ ] to prevent different parts of the shape from responding differently to external changes
+- [ ] to display different colors on different parts of the grouped shape
+
+**EXPLANATION** (Others do)
+[!reference](https://support.microsoft.com/en-us/office/clarify-the-structure-of-diagrams-by-using-containers-and-lists-4da621a4-3572-4c9b-9559-bbe4f6c9b08f)
+
+#### Q40. Which of the four levels of the diagram design hierarchy includes alternate colors and shape designs so you can add your own flair to a drawing while retaining the overall look?
+
+- [x] variant
+- [ ] effects
+- [ ] themes
+- [ ] quick styles
+
+#### Q41. When using AutoConnect, what determines the fours shapes that will appear in the AutoConnect mini toolbar?
+
+- [ ] They are the four **Quick Shapes** selected in the Visio options.
+- [ ] They are the four most recently used shapes
+- [ ] They are the four most frequently useed shapes
+- [x] They are the first four shapes in teh **Quick Shapes** section of the current stencil
+
+#### Q42. Which is one of the eight supported Visio shape data types?
+
+- [ ] XML
+- [ ] Integer
+- [ ] Floating Point
+- [ ] Fixed List
+
+#### Q43. You're able to select a shape on your drawing, but you can't work with it as you expect. What could be preventing you from working with this shape after it is selected?
+
+- [ ] The shape is protected against selection
+- [ ] The shape is connected to another shape
+- [ ] The shape is part of a locked layer
+- [ ] The shape is in a group

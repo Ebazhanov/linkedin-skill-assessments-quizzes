@@ -29,7 +29,7 @@ c = b(1, ceil(end/2));
 
 #### Q4. Which code block contains the correct syntax for a `while` loop?
 
-- [ ]
+- [ ] A
 
 ```
 a = 0;
@@ -39,7 +39,7 @@ while a < 5
 end
 ```
 
-- [ ]
+- [ ] B
 
 ```
 a = 0;
@@ -47,7 +47,7 @@ while(a < 5)
     a = a + 1;
 ```
 
-- [ ]
+- [ ] C
 
 ```
 a = 0;
@@ -55,7 +55,7 @@ while a < 5:
     a = a + 1;
 ```
 
-- [x]
+- [x] D
 
 ```
 a = 0;
@@ -75,7 +75,7 @@ a =
      1     9    46     6    19
 ```
 
-- [x]
+- [x] A
 
 ```
 b =
@@ -84,7 +84,7 @@ b =
      9     8
 ```
 
-- [ ]
+- [ ] B
 
 ```
 b =
@@ -95,13 +95,13 @@ b =
 
 #### Q6. You have written a function `myfun` and want to measure how long it takes to run. Which code segment will return in `t` the time in seconds it takes `myfun` to run?
 
-- [ ]
+- [ ] A
 
 ```
 t = cputime(myfun());
 ```
 
-- [x]
+- [x] A
 
 ```
 tic;
@@ -109,7 +109,7 @@ myfun();
 toc;
 ```
 
-- [ ]
+- [ ] C
 
 ```
 timer.start;
@@ -117,7 +117,7 @@ myfun()
 t = timer.stop;
 ```
 
-- [ ]
+- [ ] D
 
 ```
 t = timer(myfun());
@@ -224,7 +224,7 @@ c = conv(a,b)
 
 #### Q18. Which choice is correct syntax for a `switch` statement?
 
-- [x]
+- [x] A
 
 ```
 x = 7;
@@ -236,7 +236,7 @@ switch x
 end
 ```
 
-- [ ]
+- [ ] B
 
 ```
 x = 7;
@@ -248,7 +248,7 @@ switch x :
 end
 ```
 
-- [ ]
+- [ ] C
 
 ```
 x = 7;
@@ -260,7 +260,7 @@ switch x
 end
 ```
 
-- [ ]
+- [ ] D
 
 ```
 x = 7;
@@ -283,21 +283,21 @@ e = c / (~a - b == c - d);
 ```
 
 - [ ] Error
-- [ ]
+- [ ] B
 
 ```
 c =
     NaN
 ```
 
-- [x]
+- [x] C
 
 ```
 c =
     Inf
 ```
 
-- [ ]
+- [ ] D
 
 ```
 c =
@@ -313,7 +313,7 @@ c =
 
 #### Q21. Which choice has a different final result in `f10` than the other three?
 
-- [ ]
+- [ ] A
 
 ```
 f10 = 1;
@@ -322,9 +322,9 @@ for i = 1:10
 end
 ```
 
-- [ ]
-  `f10 = factorial(10)`
-- [x]
+- [ ] B
+      `f10 = factorial(10)`
+- [x] C
 
 ```MATLAB
 f10 = 1;
@@ -335,24 +335,24 @@ while i <= 10
 end
 ```
 
-- [ ]
-  `f10 = prod(1:10)`
+- [ ] D
+      `f10 = prod(1:10)`
 
 #### Q22. Which choice will NOT give you a 5 x 5 identity matrix?
 
-- [ ]
+- [ ] A
 
 ```
 a = rand(5);
 round(a * inv(a))
 ```
 
-- [ ]
-  `diag(ones(5, 1))`
-- [x]
-  `identity(5)`
-- [ ]
-  `eye(5)`
+- [ ] B
+      `diag(ones(5, 1))`
+- [x] C
+      `identity(5)`
+- [ ] D
+      `eye(5)`
 
 #### Q23. Which statement creates this structure?
 
@@ -364,9 +364,9 @@ dog =
     weight: 32
 ```
 
-- [ ]
-  `dog = struct('name', 'Bindy'; 'breed', 'border collie'; 'weight', 32);`
-- [x]
+- [ ] A
+      `dog = struct('name', 'Bindy'; 'breed', 'border collie'; 'weight', 32);`
+- [x] B
 
 ```
 dog.name   = 'Bindy';
@@ -374,7 +374,7 @@ dog.breed  = 'border collie';
 dog.weight = 32;
 ```
 
-- [ ]
+- [ ] C
 
 ```
 dog = {
@@ -384,7 +384,7 @@ dog = {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```
 dog('name')   = 'Bindy';
@@ -437,7 +437,7 @@ b= [1 2 3 4];
 
 #### Q27. Which choice replaces all `a`s with `o`s?
 
-- [ ]
+- [ ] A
 
 ```
 for i = 1:length(fruit)
@@ -445,7 +445,7 @@ for i = 1:length(fruit)
 end
 ```
 
-- [ ]
+- [ ] B
 
 ```
 for i = 1:length(fruit)
@@ -453,7 +453,7 @@ for i = 1:length(fruit)
 end
 ```
 
-- [x]
+- [x] C
 
 ```
 for i = 1:length(fruit)
@@ -461,7 +461,7 @@ for i = 1:length(fruit)
 end
 ```
 
-- [ ]
+- [ ] D
 
 ```
 for i = 1:length(fruit)
@@ -546,18 +546,17 @@ menu_string =
 
 #### Q36. Which code snippet sets a new random seed based on the current time and saves the current settings of the random number generator?
 
-- [x]
-  `rng_settings_curr = rng('shuffle');`
-- [ ]
+- [x] `rng_settings_curr = rng('shuffle');`
+- [ ] B
 
 ```
 rng(time());
 rng_settings_curr = rng();
 ```
 
-- [ ]
-  `rng_settings_curr = rand('shuffle');`
-- [ ]
+- [ ] C
+      `rng_settings_curr = rand('shuffle');`
+- [ ] D
 
 ```
 rng('shuffle');
@@ -566,11 +565,9 @@ rng_settings_curr = rng();
 
 #### Q37. You have a matrix `data` in which each column is mono audio recording from a room in your house. You've noticed that each column has a very different mean and when you plot them all on the same graph, the spread across the y axis make it impossible to see anything. You want to subtract the mean from each column. Which code block will accomplish this?
 
-- [ ]
-  `data_nomean = data - repmat(median(data), size(data, 1), 1);`
-- [x]
-  `data_nomean = bsxfun(@minus, data, mean(data));`
-- [ ]
+- [ ] `data_nomean = data - repmat(median(data), size(data, 1), 1);`
+- [x] `data_nomean = bsxfun(@minus, data, mean(data));`
+- [ ] .
 
 ```
 data_nomean = zeros(size(data));
@@ -579,12 +576,12 @@ for i = 1:size(data, 1)
 end
 ```
 
-- [ ]
-  `data_nomean = zscore(data');`
+- [ ] .
+      `data_nomean = zscore(data');`
 
 #### Q38. Which code block results in an array `b` containing the mean values of each array within `C`?
 
-- [ ]
+- [ ] .
 
 ```
 b = zeros(1, size(C, 2));
@@ -593,9 +590,9 @@ for i_C = 1:size(C, 2)
 end
 ```
 
-- [ ]
-  `b = cellfun(@mean, C);`
-- [ ]
+- [ ] .
+      `b = cellfun(@mean, C);`
+- [ ] .
 
 ```
 b = zeros(1, size(C, 1));
@@ -604,8 +601,8 @@ for i_C = 1:size(C, 1)
 end
 ```
 
-- [x]
-  `b = cellfun(@(m) mean(m(:)), C)`
+- [x] .
+      `b = cellfun(@(m) mean(m(:)), C)`
 
 #### Q39. Which statement creates a logical array that is 1 if the element in `passwords` contains a digit and 0 if it does not?
 
@@ -658,9 +655,9 @@ colorbar
 
 `a = 1:10;`
 
-- [x]
-  `b = a(randi(10, 1, 10));`
-- [ ]
+- [x] :
+      `b = a(randi(10, 1, 10));`
+- [ ] :
 
 ```
 m = perms(a);
@@ -668,14 +665,14 @@ i = randi(factorial(10), 1);
 b = a(m(i, :))
 ```
 
-- [ ]
+- [ ] :
 
 ```
 [s, j] = sort(rand(10, 1));
 b      = a(i);
 ```
 
-- [ ]
+- [ ] :
 
 ```
 b = a(randperm(10));
@@ -720,7 +717,7 @@ x = 9.0646 6.4362 7.8266 8.3945 5.6135 4.8186 2.8862 10.9311 1.1908 3.2586
 y = 15.4357 11.0923 14.1417 14.9506 8.7687 8.0416 5.1662 20.5005 1.0978
 ```
 
-- [x]
+- [x] :
 
 ```
 coeff_line = polyfit(x,y,1)
@@ -732,7 +729,7 @@ hold on
 plot(x_linemy_line)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 figure
@@ -744,7 +741,7 @@ y_line = polyval(coeff_line,x_line);
 plot(x_line,y_line)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 figure
@@ -756,7 +753,7 @@ y_line = polyval(coeff_line,x_line);
 hold on; plot(x_line,y_line)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 coeff_line = polyfit(x,y,1);
@@ -815,18 +812,20 @@ a = a^2;
 - [ ] functions on the path
 - [ ] built-in functions
 - [ ] functions within the current file
-- [ ] functions within the current directory
+- [x] functions within the current directory
+
+[Reference](https://www.mathworks.com/help/matlab/matlab_env/files-and-folders-that-matlab-accesses.html)
 
 #### Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?
 
-- [ ]
+- [ ] :
 
 ```
 function mystery_func(a) :
     return a
 ```
 
-- [x]
+- [x] :
 
 ```
 function b = mystery_func(a)
@@ -834,7 +833,7 @@ function b = mystery_func(a)
 end
 ```
 
-- [ ]
+- [ ] :
 
 ```
 def b = mystery_func(a)
@@ -842,7 +841,7 @@ def b = mystery_func(a)
 end
 ```
 
-- [ ]
+- [ ] :
 
 ```
 function mystery_func(a)
@@ -862,13 +861,15 @@ c = b + 3;
 a(1:2,1) = c;
 ```
 
+- [ ] :
+
 ```
 a =
     6   3
     7   4
 ```
 
-- [ ]
+- [x] :
 
 ```
 a =
@@ -876,7 +877,7 @@ a =
     7   4
 ```
 
-- [x]
+- [ ] :
 
 ```
 a =
@@ -884,15 +885,13 @@ a =
     7
 ```
 
-- [ ]
+- [ ] :
 
 ```
 a =
     6
     7
 ```
-
-- [ ]
 
 [Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)
 
@@ -972,3 +971,198 @@ a = [ 1 2 3 4];
 - [ ] to avoid HDF5 overhead in MAT-file
 - [x] to include a variable greater that 2GB
 - [ ] to use compression by default
+
+#### Q65. Which choice cannot add a directory to the search path?
+
+- [ ] the **path** function
+- [x] the **savepath** function
+- [ ] using **Set Path** in the **Environment** menu
+- [ ] the **addpath** function
+
+[Reference](https://www.mathworks.com/help/matlab/ref/savepath.html)
+
+#### Q66. Which is not a function to plot three-dimensional data?
+
+- [ ] mesh
+- [ ] surf
+- [ ] contour
+- [x] grid
+
+[Reference](https://www.mathworks.com/help/matlab/ref/grid.html)
+
+#### Q67. What is the reason to save a MAT-file using the v-7.3 flag?
+
+- [ ] to use compression by default
+- [ ] to ensure backward compatibility
+- [x] to include a variable greater than 2GB
+- [ ] to avoid HDF5 overhead in MAT-file
+
+[Reference](https://www.mathworks.com/matlabcentral/answers/169755-saving-variable-with-v7-3-flag-check)
+
+#### Q68. This graph could be the result of which block of code?
+
+![MatLab Q41](images/matlab_Q41.png?raw=png)
+
+- [x] `a = randn(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = rand(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = randi(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = rng(1,1000); histogram(a) ylabel('counts')`
+
+#### Q69. What is a key difference between && and &?
+
+- [ ] && is a logical operator and & is not.
+- [ ] && is always slower than &
+- [x] && employs short-circuiting behavior and & does not.
+- [ ] && is a bitwise operator and & is not.
+
+[Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)
+
+#### Q70. What is the result of this code?
+
+```
+s="abcd"; s(3)='x'
+```
+
+- [ ] "abxd"
+- [ ] abxd
+- [x] a 1x 3 string array
+- [ ] a run-time error
+
+#### Q71. In which case would you use varargin in a function you write?
+
+- [ ] You want to count the number of input arguments.
+- [x] You want to include optional input arguments.
+- [ ] You want the workspace variable names of the input arguments.
+- [ ] You want the data types of the input arguments.
+
+#### Q72. What does e contain?
+
+```
+c = [9 8 0];
+d = [0 0 1];
+e = union(c,d);
+```
+
+- [ ] `e = [0 0 1 9 8 0]`
+- [ ] `e = [9 8 0 0 0 1]`
+- [x] `e = [0 1 8 9]`
+- [ ] `e = [1 8 9]`
+
+#### Q73. What does this function print?
+
+```
+a = 1;
+for i_loop = 1:6
+    disp(a);
+end
+```
+
+- [x] nothing will print
+
+#### Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?
+
+- [x] type "a=10;" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.
+- [ ] Type "a=10; continue;" into the command window
+- [ ] Type "a=10;" into the command window. Then click the Run button in the debugger window
+- [ ] Type "a=10;" into the function file, before the statement that's throwing an error. Then type "return;" into the command window
+
+#### Q75. Which statement returns the character array 'alone'?
+
+```
+b = ['stand' 'alone'];
+```
+
+- [ ] b(7:11)
+- [ ] b(2)
+- [x] b(6:end)
+- [ ] b(1,2)
+
+#### Q76. Which statement returns the character array 'alone'?
+
+```
+c = {rand(20,10) rand(23,2) rand(14,5)}
+```
+
+- [ ] A
+
+```
+  b = cellfun(@(m) mean(m(:)), C
+```
+
+- [ ] B
+
+```
+b = zeros(1, size(C,1);
+    for i_C = 1:size(C,1)
+        b(1_C) = mean(C{i_C}(:));
+    end
+```
+
+- [ ] C
+
+```
+b = cellfun(@mean, C)
+```
+
+- [ ] D
+
+```
+b = zeros(1, size(C,2);
+    for i_C = 1:size(C,2)
+        b(1_C) = mean(C(i_C));
+    end
+```
+
+#### Q77. Which choice uses the proper syntax for an `if else` statement?
+
+- [ ] A
+
+```
+if (a > 1):
+    b = 2;
+else:
+    b = 3;
+```
+
+- [ ] B
+
+```
+if (a > 1){
+    b = 2;
+} else{
+    b = 3;
+}
+```
+
+- [x] C
+
+```
+if (a > 1)
+    b = 2;
+else
+    b = 3;
+end
+```
+
+- [ ] D
+
+```
+if (a > 1)
+    b = 2;
+else
+    b = 3;
+```
+
+[Reference](https://www.mathworks.com/help/matlab/ref/if.html)
+
+#### Q78. What does b contain?
+
+```
+a = [9 8 8 19 6 1 9 6 6 19];
+b = unique(a);
+```
+
+- [x] `b = [1 6 8 9 19]`
+- [ ] `b = [1 6 8 9]`
+- [ ] `b = [1 6 6 6 8 8 9 9 19 19]`
+- [ ] `b = [1 6 6 8 8 9]`

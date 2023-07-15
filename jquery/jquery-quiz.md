@@ -1,6 +1,6 @@
 ## jQuery
 
-#### Q1. What's the difference between these two snippets?
+#### Q1. What is the difference between these two snippets?
 
 ```js
 $('button').on('click', function () {
@@ -350,7 +350,7 @@ $.each(tonsOfItems, function (idx, item) {
 - [x] A
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -363,7 +363,7 @@ $.get('hhttp://httpbin.org/delay/2')
 - [ ] B
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .catch(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -376,7 +376,7 @@ $.get('hhttp://httpbin.org/delay/2')
 - [ ] C
 
 ```js
-$.get('hhttp://httpbin.org/delay/2', function (response1) {
+$.get('http://httpbin.org/delay/2', function (response1) {
   // Data from first GET is here as 'response1'
 
   $.get('http://httpbin.org/delay/2', function (response2) {
@@ -388,7 +388,7 @@ $.get('hhttp://httpbin.org/delay/2', function (response1) {
 - [ ] D
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return response;
@@ -604,7 +604,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 - [ ] `$('*').find('p')`
 - [ ] `$('p').length()`
 
-#### Q28. As with many areas of JavaScript, keeping track of the meaning of **this** is important and sometimes tricky. What does **this** mean at each of the two points in this custom plugin snippet?
+#### Q28. As with many areas of JavaScript, keeping track of the meaning of `this` is important and sometimes tricky. What does `this` mean at each of the two points in this custom plugin snippet?
 
 ```js
 $.fn.customPlugin = function () {
@@ -691,6 +691,8 @@ $('#main-menu').click(function (event) {
 - [x] `event.stopPropagation();`
 - [ ] `event.preventDefault();`
 - [ ] `event.stop();`
+
+[Difference between preventDefault, stopPropagation & return false](https://www.educative.io/answers/difference-between-preventdefault-stoppropagation-return-false)
 
 #### Q32. Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process?
 
@@ -828,6 +830,9 @@ $('#menu').addClass(function () {
 - [ ] `$(document).on('ajax-complete', function() { console.count('An AJAX request completed'); });`
 - [ ] `$('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });`
 - [x] `$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`
+
+[Source: ajaxComplete](https://www.w3schools.com/jquery/ajax_ajaxcomplete.asp)
+**Explanation**: `Note: As of jQuery version 1.8, this method should only be attached to document.`
 
 #### Q43. Given this set of checkboxes, how can you select the one with the value "blimp"?
 
@@ -1004,10 +1009,14 @@ $('.leaf').closest('.items');
 $('.leaf').parents('.items');
 ```
 
-- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+
+[Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
+
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect. This can be seen using this snippet: $('.leaf').closest('.items').each(function(i, obj) {console.log(obj)}); $('.leaf').parents('.items').each(function(i, obj) {console.log(obj)}); `
 
 #### Q55. What does this line of code do?
 
@@ -1207,6 +1216,8 @@ $('custom').dequeue();
 
 `The target property can be the element that registered for the event or a descendant of it. It is often useful to compare event.target to this in order to determine if the event is being handled due to event bubbling.`
 
+[Extra reading: Event Bubbling and capturing](https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing)
+
 #### Q65. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
 
 ```JavaScript
@@ -1319,7 +1330,7 @@ $.fn.myTraverse = function() {
 
 #### Q67. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
 
-- [ ] A
+- [x] A
 
 ```js
 $('#element').on('animationend', function () {
@@ -1360,6 +1371,8 @@ $('#element')
 1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
 2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
 
+**Explanation**: `Although A is not complete as it could include animationend webkitAnimationEnd oAnimationEnd, other choices are incorrect. The last choice could be also correct if it were .promise().done instead`
+
 #### Q68. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
 ```html
@@ -1395,9 +1408,8 @@ $('#element')
 - [ ] `slideDown()` requires the element to have a height set in pixels. `animate()` does not.
 - [ ] Effects created with `animate()` must be run over at least 100 milliseconds, where `slideDown()` can run as quickly as 50ms.
 
-[Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
-
-[Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
+1. [Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
+2. [Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
 
 #### Q71. What is the main difference between the `contents()` and `children()` functions?
 
@@ -1409,7 +1421,7 @@ $('#element')
 1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
 2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
 
-#### Q72. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+#### Q72. If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
 
 - [ ] jQuery 3 compressed
 - [ ] jQuery 3 slim
@@ -1432,33 +1444,33 @@ $(function({
 - [ ] B
 
 ```js
-$(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
 - [ ] C
 
 ```js
-$.when(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
 - [x] D
 
 ```js
-$.ready(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
@@ -1493,33 +1505,25 @@ https://api.jquery.com/detach/
 - [x] A
 
 ```js
-$('.items > li')
-  .first().fadeOut()
-  .nextUntil('.active').fadeTo('fast', 0.5);
+$('.items > li').first().fadeOut().nextUntil('.active').fadeTo('fast', 0.5);
 ```
 
 - [ ] B
 
 ```js
-$('.items')
-  .children(':first-child').fadeOut()
-  .filter('.active').fadeTo('fast', 0.5);
+$('.items').children(':first-child').fadeOut().filter('.active').fadeTo('fast', 0.5);
 ```
 
 - [ ] C
 
 ```js
-$('.items > li')
-  .first().fadeOut()
-  .nextAll('.active').fadeOut(50);
+$('.items > li').first().fadeOut().nextAll('.active').fadeOut(50);
 ```
 
 - [ ] D
 
 ```js
-$('.items')
-  .find('li:first-child').fadeOut()
-  .next('.active').fadeTo('fast', 0.5);
+$('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5);
 ```
 
 1. https://api.jquery.com/fadeTo/
@@ -1532,3 +1536,102 @@ $('.items')
 - [x] Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.
 - [ ] Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.
 - [ ] DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible.
+
+#### Q77. What is the purpose of the jQuery.fx.off global property?
+
+- [ ] It turns off animations that are used to provide motion effect, but appearance effects remain enabled.
+- [ ] It causes animation effects that are triggered via functions to instead be executed using CSS.
+- [x] It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect.
+- [ ] It globally disables animations that are triggered by CSS class changes.
+
+[Source: jQuery.fx.off Property](https://www.w3schools.com/jquery/prop_jquery_fx_off.asp)
+
+#### Q78. When you use custom Jquery selection extensions, such as :animated, on a page with lots of DOM elements, you can run into performance issues. What is the best practice for managing those issues?
+
+- [ ] Select `$(document.body)` first, then use .filter with the custom extension.
+- [ ] Use the custom extension with `.has()`.
+- [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
+- [x] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+
+#### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
+
+- [x] ajaxStop fires when all open requests have completed, while ajaxComplete fires when an individual request completes.
+- [ ] There is no difference. They are aliases of each other.
+- [ ] ajaxStop fires when an error has been encountered, while ajaxComplete fires when a successful request completes.
+- [ ] ajaxComplete fires when all open requests have completed, while ajaxStop fires when an individual request completes.
+
+#### Q80. The :only-child selector selects **\_**.
+
+- [ ] all elements that are child elements.
+- [ ] elements that have no siblings.
+- [ ] elements that have only one child element.
+- [x] only the child elements of a given element.
+
+#### Q81. Because querySelectorAll and querySelector are in the native DOM API of modern browsers, you don't need jQuery to do many kinds of DOM selections. But the jQuery selector engine does provide extensions that browsers do not support natively. Which extension is supported only by jQuery and _not_ by querySelector or querySelectorAll?
+
+- [ ] :parent, which can select elements that have children
+- [x] :visible, which can select elements that jQuery considers to be visible
+- [ ] :contains, which can select elements by the text they contain
+- [ ] :nth-of-type, which can select elements that are the nth element of their type within their parent
+
+[Source: Selectors Level 4](https://drafts.csswg.org/selectors/)
+
+#### Q82. jQuery is quite large, and developers often do not use all of its functionality on a project. Beyond using the slim build of jQuery 3, how can you use some of jQuery, but not all?
+
+- [ ] None of these--the only viable options are the full build or slim build of jQuery.
+- [ ] Download the minified build from the JQuery CDN and strip out functions manually.
+- [x] Download the source code from GitHub and build a custom version that excludes the unnecessary modules.
+- [ ] Download the developer build from code.jquery.com and gzip it.
+
+[Source: jQuery GitHub repo](https://github.com/jquery/jquery#modules)
+
+**Explanation**: Special builds can be created that exclude subsets of jQuery functionality. This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
+
+#### Q83. jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?
+
+- [ ] forced CSS-equivalent hardware acceleration of all jQuery animations
+- [ ] animation of color transitions (background or foreground) without using CSS
+- [ ] duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class
+- [ ] more easing options for timing animations
+
+#### Q84. Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does?
+
+```html
+<ul class="menu">
+  <li><a href="#" class="active">Home</a></li>
+  <li><a href="#">Page 2</a></li>
+</ul>
+<ul class="active submenu">
+  <li><a href="#">Subpage 1</a></li>
+  <li><a href="#">Subpage 2</a></li>
+</ul>
+```
+
+```js
+$('.menu').find('a').css('color', 'red').end().find('.active').hide();
+```
+
+- [ ] It changes the menu items in the first list to red, then hides the second list of menu items.
+- [ ] It changes all menu items in both lists to red, then hides all items with the active class.
+- [ ] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
+- [ ] It changes the menu items in the first list to red, then returns the selection with no further changes.
+
+#### Q85. A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called "processed" to it?
+
+```html
+<nav id="main">
+  <ul>
+    <li><a href="/" class="active">Home</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+```
+
+```javascript
+$('a.active').addClass('hover');
+```
+
+- [ ] .parent('#main').addClass('processed');
+- [x] .parents('#main').addClass('processed');
+- [ ] .find('#main').addClass('processed');
+- [ ] .up('#main').addClass('processed');

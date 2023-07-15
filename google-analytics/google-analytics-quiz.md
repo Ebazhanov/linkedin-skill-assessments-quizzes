@@ -34,7 +34,7 @@
 
 #### Q5. What are the icons highlighted below used for?
 
-![Google Analytics Icons](https://i.imgur.com/LZzFesL.png)
+![Google Analytics Icons](https://i.imgur.com/LZzFesL.png?raw=png)
 
 - [x] to change the way the data table is displayed
 - [ ] to adjust the date range
@@ -197,7 +197,9 @@
 - [ ] directly after the `<body>` tag
 - [ ] directly before the `</body>` tag
 
-#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL? `.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
+#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL?
+
+`.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
 
 - [ ] Configure calculated metrics.
 - [ ] Use a custom import.
@@ -206,12 +208,12 @@
 
 #### Q29. What is this report an example of?
 
-![Tree map](https://i.imgur.com/CJFjxxD.png)
+![Tree map](https://i.imgur.com/CJFjxxD.png?raw=png)
 
-- [ ] cohort analysis
-- [ ] funnel visualization
-- [ ] user flow
-- [x] treemap
+- [ ] Cohort analysis
+- [ ] Funnel visualization
+- [ ] User flow
+- [x] Treemaps
 
 #### Q30. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 
@@ -362,10 +364,10 @@
 
 #### Q51. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
 
-- [x] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
-- [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
-- [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [x] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [x] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
+- [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
+- [x] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q52. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 
@@ -381,7 +383,7 @@
 - [ ] Referral
 - [ ] Organic Search
 
-#### Q54. Which is an example of a micro goal?
+#### Q54. Which choice is an example of a micro goal?
 
 - [x] signing up for an account after clicking an ad
 - [ ] playing a video before signing up
@@ -564,3 +566,61 @@
 - [ ] Visitors, Visits, Actions, and Catalog
 - [x] Users, Sessions, Hits, and Products
 - [ ] Users, Sessions, Actions, and Catalog
+
+#### Q80. What is a view filter?
+
+- [ ] a way to permanently modify data after it appears in reports
+- [ ] a way to temporarily modify data before it appears in reports
+- [x] a way to temporarily modify data after it appears in reports
+- [ ] a way to permanently modify data before it appears in reports
+
+#### Q81. How would you access to this report?
+
+![checkout](https://i.imgur.com/8xDRzAI.jpeg)
+
+- [ ] Ecommerce > Sales Performance
+- [ ] Goals > Goal Flow
+- [x] Ecommerce > Checkout Behavior
+- [ ] Events > Event Flow
+
+#### Q82. If your site was accessible at both / and /home.html, what do you configure to consolidate entries under /?
+
+- [x] default page
+- [ ] master view
+- [ ] master page
+- [ ] default view
+
+#### Q83. What are table filters?
+
+- [ ] on dimensions only
+- [ ] permanent
+- [ ] on metrics only
+- [x] temporary
+
+#### Q84. What is a risk of using the Compare to Previous Period option?
+
+- [ ] it is not possible to compare previous periods with sampled data pulled ad hoc
+- [ ] The same amount of days selected for the Date Range will be used for the coparison
+- [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
+- [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
+
+#### Q85. What report displays the exact word(s) a user typed into Google to trigger your google ad?
+
+- [ ] Acquisition > Campaign > Paid Keywords
+- [x] Acquisition > Google Ads > Search queries
+- [ ] Acquisition > Google Ads > Keywords
+- [ ] Acquisition > Campaign > Organic Keywords
+
+#### Q86. What does the Site Search Report Display
+
+- [ ] How users search Google
+- [ ] in-page analytics
+- [ ] waht pages are missing from you site
+- [x] how users search on you site
+
+#### Q87. What does analytics set and read for each unique domain being tracked?
+
+- [ ] HTML
+- [x] cookies
+- [ ] pixels
+- [ ] sessions

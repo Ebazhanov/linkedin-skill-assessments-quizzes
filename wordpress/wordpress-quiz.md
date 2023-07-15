@@ -65,22 +65,22 @@
 
 #### Q10. What color is the paragraph nested within the div?
 
-```<html>
+```html
 <head>
-        <style>
-                body { color: black; }
+    <style>
+        body { color: black; }
 
-                p { color: blue; }
+        p { color: blue; }
 
-                div { color: green; }
+        div { color: green; }
 
-                p { color: red; }
-        </style>
+        p { color: red; }
+    </style>
 </head>
 <body>
-        <div>
-                <p>This is a paragraph inside a div.</p>
-        </div>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
 </body>
 </html>
 ```
@@ -90,7 +90,9 @@
 - [x] red
 - [ ] green
 
-#### Q11. Theme developers can take advantage of the Customizer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
+#### Q11. Theme developers can take advantage of the
+
+izer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
 
 - [ ] widgets, containers, sections, settings
 - [ ] containers, hooks, settings, styles
@@ -114,8 +116,8 @@
 #### Q14. Which of the following file types is NOT involved in translating WordPress?
 
 - [ ] .po
-- [x] .pot
-- [ ] .mot
+- [ ] .pot
+- [x] .mot
 - [ ] .mo
 
 #### Q15. What is the default priority for an action hook or filter?
@@ -171,33 +173,33 @@
 
 - [ ] .
 
-```
-$.ready(function() {
-// do stuff
+```js
+$.ready(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
-```
-(function($) {
-// do stuff
-})( jQuery );
+```js
+(function ($) {
+  // do stuff
+})(jQuery);
 ```
 
 - [x] .
 
-```
-$(function() {
-// do stuff
+```js
+$(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
-```
-jQuery(function($) {
-// do stuff
+```js
+jQuery(function ($) {
+  // do stuff
 });
 ```
 
@@ -224,9 +226,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 ```
 
 - [ ] This is how WordPress detects a plugin's presence. This ensures that the plugin is running from the /wp-content/plugins/ directory. If it is not, the plugin should not run.
-- [x] This is a way to prevent naming collisions. ABSPATH is the absolute path to the plugin's directory. If ABSPATH is defined by another WordPress plugin with the same directory slug, the plugin should not run.
-- [ ] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore the plugin should not run.
+- [ ] This is a way to prevent naming collisions. ABSPATH is the absolute path to the plugin's directory. If ABSPATH is defined by another WordPress plugin with the same directory slug, the plugin should not run.
+- [x] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore the plugin should not run.
 - [ ] This is a compatibility checker. ABSPATH is defined in WordPress core. The plugin checks that the minimum version of WordPress needed to support the plugin is installed. If it is not, the plugin should not run.
+
+[Reference](https://stackoverflow.com/questions/43212340/what-is-meant-by-if-defined-abspath)
 
 #### Q26. Which is a best practice for working with WordPress CSS?
 
@@ -288,10 +292,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
-- [ ] register_post_type
+- [x] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
-- [x] init
+- [ ] init
 
 #### Q35. What is the role of a WordPress theme?
 
@@ -302,10 +306,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q36. What is the core mission of WordPress?
 
-- [x] to make free software
-- [ ] to democratize publishing and the freedoms that come with open source
+- [ ] to make free software
+- [x] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
+
+[Reference](https://wordpress.com/about/)
 
 #### Q37. Which of the following is NOT a suggested security improvement for your WordPress website?
 
@@ -318,10 +324,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q38. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
 
+- [ ] Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
+
 ```
-Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
 get_header( '<script src="/my-script.js"></script>' );
-Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
+```
+
+- [ ] Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
+
+```
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 function load_scripts() {
@@ -329,8 +340,11 @@ function load_scripts() {
     echo '<script src="/my-script.js"></script>';
     }
 }
+```
 
-Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
+- [ ] Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
+
+```
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
     function load_scripts() {
         if ( is_page( 'contact' ) ) {
@@ -339,10 +353,13 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
     }
 ```
 
-- [ ] Link to the script directly from a template named page-contact.php, like this:
-- [ ] <head>
-- [ ] <script src="/my-script.js"></script>
-- [ ] </head>
+- [x] Link to the script directly from a template named page-contact.php, like this:
+
+```
+<head>
+  <script src="/my-script.js"></script>
+</head>
+```
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
 
@@ -363,7 +380,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Use the registerBlockName() function.
 - [ ] Use the createGutenBlock() function.
 - [ ] Use a block template.
-- [ ] Use the registerBlockType() function.
+- [x] Use the registerBlockType() function.
 
 #### Q42. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
 
@@ -392,7 +409,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q45. On a regular WordPress install, what is the difference between transients and the object cache?
 
-- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [x] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
 - [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
@@ -403,6 +420,8 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] unique keys and salts
 - [ ] accessibility
 - [ ] documentation
+
+[Reference](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
 
 #### Q47. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
@@ -436,7 +455,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
 
-**Explanation**: [More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
+[More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
 
 #### Q51. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
 
@@ -459,7 +478,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] the software is free to use
 - [ ] the software is free to modify
 
-#### Q54. Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q54. Review the HTML on line 1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 ```
 <input type="text" id="title" name="title" />
@@ -467,7 +486,7 @@ $title = $_POST[ 'title' ];
 ```
 
 - [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
-- [x] The code sample does not use sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [x] The code sample does not sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
 - [ ] There is no error. The code follows WordPress best practices.
 - [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
 
@@ -475,16 +494,18 @@ $title = $_POST[ 'title' ];
 
 #### Q55. Which of these CSS classs naming convention is correct according to WordPress CSS Coding Standards?
 
-- [ ] `.selector-name`
-- [x] `.selector_name`
+- [x] `.selector-name`
+- [ ] `.selector_name`
 - [ ] `.selectorName`
 - [ ] `div.selector_name`
+
+[Reference - Avoid Underscores](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#selectors)
 
 #### Q56. Which folder in a WordPress install is not affected by an automatic WordPress update?
 
 - [ ] `/wp-admin`
-- [x] `root`
-- [ ] `/wp-content`
+- [ ] `root`
+- [x] `/wp-content`
 - [ ] `/wp-includes`
 
 #### Q57. What are transients?
@@ -535,7 +556,7 @@ $title = $_POST[ 'title' ];
 - [ ] is_page_template()
 - [x] is_single()
 
-[Ref](https://developer.wordpress.org/reference/functions/is_single/)
+[Reference](https://developer.wordpress.org/reference/functions/is_single/)
 
 #### Q63. Wordpress core and many plugins store data in the database in a special format as represented by the sample below. What format is this called?
 
@@ -546,7 +567,7 @@ $title = $_POST[ 'title' ];
 - [ ] PHP array
 - [ ] text array
 
-[Ref](https://wpengine.com/support/wordpress-serialized-data/)
+[Reference](https://wpengine.com/support/wordpress-serialized-data/)
 
 #### Q64. What is this code sample an example of?
 
@@ -572,18 +593,9 @@ endif;
 - [ ] functions.php style.css script.js
 - [x] functions.php style.css
 
-[Ref](https://kinsta.com/blog/wordpress-child-theme/)
+[Reference](https://kinsta.com/blog/wordpress-child-theme/)
 
-#### Q66. You can harden your Wordpress site security by adding **\_** to your wp-config.php file?
-
-- [ ] hashes and reCAPTCHA
-- [ ] database username and passwords
-- [ ] custom action hooks and filters
-- [x] unique keys and salts
-
-[Ref](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
-
-#### Q67. In the WordPress template hierarchy, which file could not be used to display an archive?
+#### Q66. In the WordPress template hierarchy, which file could not be used to display an archive?
 
 - [ ] `archive.php`
 - [x] `index.php`
@@ -592,7 +604,7 @@ endif;
 
 [Reference](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
-#### Q68. Why can't you modify the query in a template page?
+#### Q67. Why can't you modify the query in a template page?
 
 - [ ] The query can only be run inside the Loop.
 - [x] You can modify the query in a template page if you use `pre_get_posts()`.
@@ -601,7 +613,7 @@ endif;
 
 [Reference](https://webcraft.tools/how-to-modify-the-main-wordpress-query/)
 
-#### Q69. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+#### Q68. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
 
 - [ ] WordPress settings
 - [x] Customizer
@@ -610,7 +622,7 @@ endif;
 
 [Reference](https://wordpress.org/support/article/creating-a-favicon/)
 
-#### Q70. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+#### Q69. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 
 - [ ] `apply_filters( 'Hello World!', 'mytextdomain' );`
 - [ ] `esc_html( 'Hello World!', 'mytextdomain' );`
@@ -619,16 +631,18 @@ endif;
 
 [Reference](https://wordpress.stackexchange.com/questions/231685/how-to-get-a-translated-string-from-a-language-other-than-the-current-one)
 
-#### Q71. Which of these are best practices in accessibility?
+#### Q70. Which of these are best practices in accessibility?
 
 - [ ] Do not skip heading levels.
 - [ ] Be sure there is proper color contrast between background and text.
 - [ ] If an activity can be completed with a mouse, it must also be accessible by keyboard.
 - [x] all of these answers
 
-#### Q72. JavaScript variables can hold many data types. Which data type does the following variable represent?
+#### Q71. JavaScript variables can hold many data types. Which data type does the following variable represent?
 
-`var x = "16"`
+```js
+var x = '16';
+```
 
 - [ ] Boolean
 - [ ] Number
@@ -637,44 +651,100 @@ endif;
 
 [Reference](https://www.w3schools.com/js/js_datatypes.asp)
 
-#### Q73. You would use a post instead of a page when the content is **\_**.
+#### Q72. You would use a post instead of a page when the content is **\_**.
 
 - [ ] for a top-level menu item
 - [ ] nested (has a parent/child relationship with another piece of content)
 - [x] when the content is part of a blog.
 - [ ] evergreen
 
-#### Q74. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
+#### Q73. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
 
 - [ ] formatting
 - [ ] widgets
 - [ ] layout
 - [x] shortcodes
 
-#### Q81. What service is used to manage user profile photos across any WordPress site?
+#### Q74. What service is used to manage user profile photos across any WordPress site?
 
 - [x] Gravatar
 - [ ] WordPress.org
 - [ ] None. Just upload a profile photo from your site user account.
 - [ ] Profile Photo plugin
 
-#### Q82. Which is not a benefit of DRY code?
+#### Q75. Which is not a benefit of DRY code?
 
 - [ ] The code can be reused.
 - [x] The code is less abstracted.
 - [ ] The code is easier to read.
 - [ ] The code is easier to maintain.
 
-#### Q83. Which of these does not impact your site speed?
+#### Q76. Which of these does not impact your site speed?
 
 - [ ] caching
 - [ ] your web host
 - [x] inactive plugins
 - [ ] content delivery network (CDN)
 
-#### Q84. Where do you configure global settings for comments on your WordPress site?
+#### Q77. Where do you configure global settings for comments on your WordPress site?
 
 - [ ] Tools screen
 - [ ] wp-config.php
 - [ ] cPanel
 - [x] Discussion Settings
+
+#### Q78. What can you not configure via wp-config.php?
+
+- [x] changing the default user role
+- [ ] changing the default wp_table prefix
+- [ ] changing your site or WordPress address
+- [ ] changing the default number of post revisions
+
+#### Q79. When it comes to best practice for WordPress development, what is the preferred method for adding a custom post type (CPT) to a site?
+
+- [ ] Add CPTs via phpMyAdmin.
+- [x] Add CPTs via a plugin.
+- [ ] Add CPTs via a parent theme.
+- [ ] Add CPTs via a child theme.
+
+[Reference](https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/)
+
+#### Q80. What is a way you can both harden your site's security and improve how Google presents you site in search results?
+
+- [x] Install an SSL certificate.
+- [ ] Install a security plugin on your site.
+- [ ] Use a third-party security monitoring service.
+- [ ] Require user to log in to view content.
+
+#### Q81. Review the HTML on line 1.The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+
+1. `<input type="text" id="title" name="title" />`
+2. `$title = $_POST[ 'title' ]`
+
+- [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __($_POST['title'])`
+- [x] The code sample does not sanitize the form data. It should use the sanitize_text_field() function and look like this: `$title = sanitize_text_field($_POST['title']);`.
+- [ ] There is no error. The code follows Wordpress best practice.
+- [ ] The sample does not use GET method. It should be wrapped in the ger_post_field() function and look like this: `$title = get_post_field($_GET['title']);`.
+
+#### Q82. Which of these is not a part of the internationalization and localization process?
+
+- [ ] using a tool like Poedit to parse source code and extract translatable strings into a POT file.
+- [x] translators translating the PO file, one for each language.
+- [ ] installing/using the Wordpress Multilingual Plugin.
+- [ ] using a gettext function to wrap transatable strings when writing code.
+
+#### Q83. The REST API provides data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access site data via the REST API?
+
+- [ ] Disable the REST API via the site's wp-config.php file.
+- [ ] Use the rest_authenticaton_errors() filter along with the is_user_logged_in() conditional to limit access to logged in users.
+- [x] Use the Disable REST API plugin.
+- [ ] Use the rest_authenticaton_errors() filter along with cookie authentication to limit access to logged in users.
+
+#### Q84. Which of these refers to a WordPress security token that is used to verify that a request was made by the right person or client?
+
+- [ ] Salt
+- [ ] Cookie
+- [x] Nonce
+- [ ] Transient
+
+[Reference](https://www.hostinger.com/tutorials/wordpress-nonce)

@@ -25,7 +25,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q4. Review the image shown. What does the exclamation point adjacent to the thumbnail imply?
 
-![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png)
+![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png?raw=true)
 
 - [ ] The image has been edited in Photoshop.
 - [ ] The photo is marked as picked.
@@ -43,7 +43,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q6. Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?
 
-![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png)
+![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png?raw=true)
 
 - [ ] A
 - [x] B
@@ -82,7 +82,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q11. In the image shown, what do the blue areas indicate?
 
-![In the image shown, what do the blue areas indicate?](images/Q11.png)
+![In the image shown, what do the blue areas indicate?](images/Q11.png?raw=png)
 
 - [x] crushed details in the shadows
 - [ ] a special effect applied to the image
@@ -121,7 +121,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q16. In the image shown, what is the icon circled in yellow?
 
-![Image with a yellow circle](images/Q16.png)
+![Image with a yellow circle](images/Q16.png?raw=true)
 
 - [ ] Virtual copy
 - [ ] Synced with Lightroom
@@ -134,3 +134,30 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Capture Date
 - [ ] Rating
 - [ ] Camera Serial Number
+
+#### Q18. Which of these is not present as an option when exporting a photobook?
+
+- [ ] Post to Blurb
+- [ ] Export as PDF
+- [x] Export to Print
+- [ ] Export as JPEG
+
+[Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
+
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_\_ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q20. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.
+
+- [ ] JPG
+- [x] DNG
+- [ ] TIF
+- [ ] Raw
+
+[Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)

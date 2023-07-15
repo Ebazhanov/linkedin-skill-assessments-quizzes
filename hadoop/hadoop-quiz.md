@@ -216,7 +216,7 @@
 
 - [ ] Override the default Partitioner.
 - [ ] Skip bad records.
-- [ ] Break up Mappers that do more than one task into multiple Mappers.
+- [x] Break up Mappers that do more than one task into multiple Mappers.
 - [ ] Combine Mappers that do one task into large Mappers.
 
 #### Q32. When implemented on a public cloud, with what does Hadoop processing interact?
@@ -320,14 +320,14 @@
 #### Q46. HQL queries produce which job types?
 
 - [ ] Impala
-- [ ] MapReduce
+- [x] MapReduce
 - [ ] Spark
 - [ ] Pig
 
 #### Q47. Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?
 
-    1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
-    2
+1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
+2
 
 - [ ] as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
 - [x] as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
@@ -362,7 +362,7 @@
 - [ ] lookup store
 - [ ] registry
 
-#### Q52. To view the execution details of an Impala query plan, which function would you use ?
+#### Q52. To view the execution details of an Impala query plan, which function would you use?
 
 - [x] explain
 - [ ] query action
@@ -376,7 +376,7 @@
 - [ ] replication
 - [ ] high availability
 
-[Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)
+[Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#Snapshots)
 
 #### Q54. Hadoop Common is written in which language?
 
@@ -402,7 +402,7 @@
 #### Q57. Hadoop Common consists of which components?
 
 - [ ] Spark and YARN
-- [ ] HDFS and MapReduce
+- [x] HDFS and MapReduce
 - [ ] HDFS and S3
 - [ ] Spark and MapReduce
 
@@ -411,11 +411,11 @@
 - [ ] Cloudera
 - [ ] Microsoft
 - [ ] Google
-- [ ] Amazon
+- [x] Amazon
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [ ] Reporter
+- [x] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer
@@ -425,11 +425,11 @@
 - [ ] all data
 - [ ] no data
 - [ ] existing data
-- [ ] new data
+- [x] new data
 
 #### Q61. Which statement should you add to improve the performance of the following query?
 
-```
+```sql
 SELECT
   c.id,
   c.name,
@@ -440,18 +440,18 @@ FROM customers c;
 - [ ] GROUP BY
 - [ ] FILTER
 - [ ] SUB-SELECT
-- [ ] SORT
+- [x] SORT
 
 #### Q62. What custom object should you implement to reduce IO in MapReduce?
 
 - [ ] Comparator
 - [ ] Mapper
-- [ ] Combiner
+- [x] Combiner
 - [ ] Reducer
 
 #### Q63. You can optimize Hive queries using which method?
 
-- [ ] secondary indices
+- [x] secondary indices
 - [ ] summary statistics
 - [ ] column-based statistics
 - [ ] a primary key index
@@ -459,21 +459,21 @@ FROM customers c;
 #### Q64. If you are processing a single action on each input, what type of job should you create?
 
 - [ ] partition-only
-- [ ] map-only
+- [x] map-only
 - [ ] reduce-only
 - [ ] combine-only
 
 #### Q65. The simplest possible MapReduce job optimization is to perform which of these actions?
 
 - [ ] Add more master nodes.
-- [ ] Implement optimized InputSplits.
+- [x] Implement optimized InputSplits.
 - [ ] Add more DataNodes.
 - [ ] Implement a custom Mapper.
 
 #### Q66. When you implement a custom Writable, you must also define which of these object?
 
 - [ ] a sort policy
-- [ ] a combiner policy
+- [x] a combiner policy
 - [ ] a compression policy
 - [ ] a filter policy
 
@@ -483,3 +483,48 @@ FROM customers c;
 - [ ] hadoop fs -copy <toDir> <fromDir>
 - [x] hadoop fs -copyFromLocal <fromDir> <toDir>
 - [ ] hadoop fs -copyFromLocal <toDir> <fromDir>
+
+#### Q68. Delete a Hive **\_** table and you will delete the table **\_**.
+
+- [ ] managed; metadata
+- [ ] external; data and metadata
+- [ ] external; metadata
+- [x] managed; data
+
+#### Q69. To see how Hive executed a JOIN operation, use the \_ statement and look for the \_ value.
+
+- [x] EXPLAIN; JOIN Operator
+- [ ] QUERY; MAP JOIN Operator
+- [ ] EXPLAIN; MAP JOIN Operator
+- [ ] QUERY; JOIN Operator
+
+#### Q70. Pig operates in mainly how many nodes?
+
+- [x] Two
+- [ ] Three
+- [ ] Four
+- [ ] Five
+
+#### Q71. After loading data, **\_** and then run a(n) **\_** query for interactive queries.
+
+- [x] invalidate metadata; Impala
+- [ ] validate metadata; Impala
+- [ ] invalidate metadata; Hive
+- [ ] validate metadata; Hive
+
+#### Q72. In Hadoop MapReduce job code, what must be static?
+
+ - [ ] configuration
+ - [x] Mapper and Reducer
+ - [ ] Mapper
+ - [ ] Reducer
+
+[Reference](https://stackoverflow.com/questions/14828131/do-mappers-and-reducers-in-hadoop-have-to-be-static-classes)
+
+#### Q73. In Hadoop simple mode, which object determines the identity of a client process?
+ - [ ] Kerberos ticket
+ - [ ] kubernetes token
+ - [ ] guest operating system
+ - [x] host operating system
+
+[Reference](http://doc.isilon.com/ECS/3.2/DataAccessGuide/vipr_c_hdfs_security_model.html)

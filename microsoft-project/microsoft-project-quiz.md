@@ -337,3 +337,24 @@
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Finish (SF)
 - [x] Finish-to-Finish (FF)
+
+#### Q45. In a project, duration can have different units. Which duration unit is _not_ valid?
+
+- [ ] weeks
+- [ ] hours
+- [ ] days
+- [x] quarters
+
+#### Q46. You would like to import a CSV file into a Microsoft Project file. Project displays a message about opening a file in an older format. How can you open this file?
+
+- [] Add a place in the Open File window.
+- [x] Use the Advanced tab in the Project Options dialog box.
+- [] Use the General tab in the Project Options dialog box.
+- [] Use the Microsoft Project Trust Center.
+
+#### Q47. A certain resource has a workload that varies for a task. The task spans five days and is slow to start, ramps up in the middle, and then eventually tapers off as it comes to an end. Which approach would you use to adjust and represent varying workload?
+
+- [x] resource contouring
+- [] resource constraining
+- [] resource leveling
+- [] resource splitting

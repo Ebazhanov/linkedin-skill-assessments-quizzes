@@ -42,12 +42,12 @@
 - [ ] The file creator did not give the article a title.
 - [ ] You are viewing the PDF in Adobe Reader.
 
-#### Q7. As you examine large engineering documents, you would like to have the Marquee Zoom tool easily available all the time. What is the fastest way to add the Marquee Zoom tool to Common Tools?
+#### Q7. As you examine large engineering documents, you would like to have the **Marquee Zoom** tool easily available all the time. What is the fastest way to add the **Marquee Zoom** tool to **Common Tools**?
 
-- [ ] Right-click in the toolbar and select Show Page Navigation Tools.
-- [ ] Right-click in the toolbar and select Show Page Display Tools.
-- [x] Right-click in the toolbar and select Show Select & Zoom.
-- [ ] Right-click in the toolbar and select Customize Quick Tools.
+- [ ] Right-click in the toolbar and select **Show Page Navigation Tools**.
+- [ ] Right-click in the toolbar and select **Show Page Display Tools**.
+- [x] Right-click in the toolbar and select **Show Select & Zoom**.
+- [ ] Right-click in the toolbar and select **Customize Quick Tools**.
 
 #### Q8. A person at a printing service provider is having difficulty printing a PDF due to font issues. Where can the person find out which fonts are used in the document?
 
@@ -91,7 +91,7 @@
 - [ ] BMP
 - [x] PSD
 
-#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, “You cannot edit this file as a form due to its security settings.” What method can you use to edit the form?
+#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, "You cannot edit this file as a form due to its security settings." What method can you use to edit the form?
 
 - [ ] File > Properties > Custom
 - [ ] File > Save a Copy
@@ -169,7 +169,7 @@
 
 - [ ] **Tools > Organize Pages**
 - [ ] **Tools > Accessibility**
-- [ ] **Took > Edit PDF**
+- [x] **Took > Edit PDF**
 - [ ] **File > Export to > Microsoft Word**
 
 #### Q25. You would like to convert a layered Visio file to PDF. However, that option is not available. How can you control the conversion of Visio layers to layers in the exported PDF?
@@ -192,3 +192,136 @@
 - [ ] LiveCycle Rights Management
 - [ ] Security Envelope
 - [ ] Email Review
+
+#### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
+
+- [ ] Press-ready PDF
+- [ ] Optimized PDF
+- [ ] Certified PDF
+- [ ] Reader Extended PDF
+
+#### Q29. You plan to post a PDF form online and gather the submitted data in a database. What must you have to do this?
+
+- [ ] A web server which supports Microsoft Access
+- [x] A web server which supports WebDAV and CGI
+- [ ] A web server which supports XML and FDF
+- [ ] A web server which supports Microsoft Excel
+
+#### Q30. You would like to use a drag-and-drop method to convert multiple selected PDF files from color to greyscale. What feature will allow you to do this?
+
+- [ ] Action Wizard
+- [ ] Custom Tool
+- [x] Preflight Droplet
+- [ ] Optimize PDF
+
+#### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+#### Q32. You provide an interactive PDF to a client that you created. The interactive PDF includes multiple embedded videos. However, the client cannot view the videos. What is a reason that the client might be unable to view the video?
+
+- [ ] A browser is not installed.
+- [ ] A GIF player is not installed.
+- [x] Flash Player is not installed.
+- [ ] QuickTime is not installed.
+
+#### Q33. You make a last-minute change to some text in a client's PDF. When you change the text, the appearance of the corrected text does not match the surrounding text. What might be the cause of this issue?
+
+- [ ] The font is embedded in the PDF.
+- [ ] The surrounding text is in a locked layer.
+- [ ] The font is not embedded in the PDF.
+- [x] The required font is not active on your system.
+
+#### Q34. To attach a PDF to an email for a client's approval, you need to considerably reduce the size of the PDF. Which method will give you the most extensive options for reducing file size?
+
+- [ ] File > Save As Other > Reduced Size PDF
+- [x] File > Save As Other > Optimized PDF
+- [ ] File > Export To > Image
+- [ ] File > Export To > PostScript
+
+#### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
+
+- [ ]Preferences > Signatures > Identities & Trusted Certificates
+- [ ] Preferences > Signatures > Document Timestamping
+- [ ] Preferences > Signatures > Verification
+- [x] Preferences > Signatures > Creation and Appearance
+
+#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+
+#### Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+- [ ] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
+
+#### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
+
+- [ ] The text is redacted.
+- [ ] The text is in a locked layer.
+- [ ] The PDF has limited permissions.
+- [x] The PDF is a scanned document.
+
+#### Q38. You are creating PDFs for a government agency. Which specification in the quote request from the agency contact indicates that the PDFs you submit must meet accessibility guidelines?
+
+- [ ] Section 501c compliance
+- [x] Section 508 compliance
+- [ ] Section 509a compliance
+- [ ] Section 510 compliance
+
+#### Q39. In the PDF of a textbook, all of the necessary bookmarks have been created. Later, an editor rearranges the pages in one chapter. What will you have to do to ensure that the bookmarks now link to the correct pages?
+
+- [ ] Set bookmark destination.
+- [ ] Select the correct location and choose Go to Bookmark.
+- [x] Re-order the bookmarks in the Bookmarks pane by dragging.
+- [ ] Nothing, The bookmarks will still be correct.
+
+#### Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?
+
+- [x] The field name is incorrect.
+- [ ] The field font size is incorrect.
+- [ ] The field is set to multi-line.
+- [ ] The field location is incorrect.
+
+#### Q42. Before you begin a PDF review, you want to change the default line thickness, line color, fill color, and other settings for the Comment panel's drawing tools. Where do you change these defaults?
+
+- [ ] **Comment panel menu**
+- [ ] **Properties Toolbar**
+- [ ] **Preferences > Commenting**
+- [ ] **Preferences > Reviewing**
+
+#### Q43. In a complex forms document, one field is currently a drop-down list field. However, the client specifies that it should instead be a multi-line text field. How can you do what the client requests?
+
+- [ ] Select the drop-down field and then click the **Dropdown** icon in the secondary toolbar.
+- [ ] Right-click the drop-down field and select **Properties** from the context menu.
+- [ ] Delete the drop-down field and create a text field in its place.
+- [ ] Select the drop-down field and then click **Prepare Form** in the right pane.
+
+#### Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?
+
+- [ ] Permissions
+- [ ] Certificates
+- [ ] Document Open
+- [ ] Compatibility
+
+#### Q45. Before distributing a document containing proprietary information, you want to make sure that the document content cannot be printed. However, you want to ensure that the text can be read by screen-reading software for any users who have visual impairments. Where can you find the settings that will allow these parameters?
+
+- [ ] **Accessibility > Set Alternate Text**
+- [ ] **Tools > Action Wizard**
+- [ ] **Accessibility > Reading Options**
+- [ ] **Document Properties > Password > Security > Settings**
+
+#### Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?
+
+- [ ] ![image](images/001.jpg?raw=jpg)
+- [ ] ![image](images/002.jpg?raw=jpg)
+- [ ] ![image](images/003.jpg?raw=jpg)
+- [ ] ![image](images/004.jpg?raw=jpg)

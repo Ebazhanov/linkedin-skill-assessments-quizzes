@@ -2,10 +2,10 @@
 
 #### Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
 
-    A. house numbers, street names
-    B. geospatial data
-    C. city names, country names
-    D. longitude, latitude
+A. house numbers, street names
+B. geospatial data
+C. city names, country names
+D. longitude, latitude
 
 - [x] A, B, C, D
 - [ ] A, C, D
@@ -35,10 +35,12 @@
 
 #### Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
 
-- [x] a directive
-- [ ] a custom column
+- [ ] a directive
+- [x] a custom column
 - [ ] an indexed column
 - [ ] a parameter
+
+NOTE: The Power BI Documentation does not mention the word directive. The correct answer is B, NOT A!
 
 #### Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?
 
@@ -56,10 +58,12 @@
 
 #### Q7. You need to add a required color to a bar chart. How can you add an exact color value to an existing bar chart?
 
-- [x] Click the color in the visual (e.g., the bars) and right-click to select the color.
+- [ ] Click the color in the visual (e.g., the bars) and right-click to select the color.
 - [ ] You cannot select custom colors in a bar chart or related visual.
 - [ ] Select the value closest to this color from the color formatting options.
-- [ ] Enter the hex value into the color formatting options.
+- [x] Enter the hex value into the color formatting options.
+
+NOTE: To enter a specific custom color (e.g., required color) you need to enter the required hex value. The correct answer is D.
 
 #### Q8. The Excel function IF is nearly the same as which DAX function?
 
@@ -75,6 +79,8 @@
 - [ ] assigned a data type
 - [ ] sorted by primary key
 
+[Reference](https://www.scaler.com/topics/sql-server/)
+
 #### Q10. Power BI's Publish to Web option allows you to embed visualizations within **\_**. (Select all that apply.)
 
     A. blog posts
@@ -87,7 +93,7 @@
 - [ ] A, B, C
 - [x] A, B, C, D
 
-#### Q11. What can you do within the Power BI Desktop #### Query Settings pane? (Select all that apply.)
+#### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
     A. Rename a query step.
     B. Delete a query step.
@@ -101,7 +107,7 @@
 
 [proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
 
-#### Q12. After you enter text in the #### Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
+#### Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
 - [ ] filter and group
 - [ ] sort and filter
@@ -274,10 +280,10 @@
 
 #### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
-A. They must be stored in the same folder.
-B. They must have the same schema.
-C. They must have the same file type.
-D. They must have no duplicate data rows.
+    A. They must be stored in the same folder.
+    B. They must have the same schema.
+    C. They must have the same file type.
+    D. They must have no duplicate data rows.
 
 - [ ] B, C
 - [x] A, B, C
@@ -421,7 +427,7 @@ D. They must have no duplicate data rows.
 
 - [ ] A, B, D
 - [ ] A, B, C, D
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] A, B
 
 #### Q54. What does the usage metric "Most Consumed Dashboards by Users" include? (Select all that apply.)
@@ -438,7 +444,7 @@ D. They must have no duplicate data rows.
 
 #### Q55. How can you allow users to filter an entire report to display information for the last week, last two weeks, or last month?
 
-- [ ] Add a date field to the report filter area and set filtering to Relative date filtering.
+- [x] Add a date field to the report filter area and set filtering to Relative date filtering.
 - [ ] all of these answers
 - [ ] Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.
 - [ ] Add a slicer for a date field to the report. Click the upper right corner and select Relative.
@@ -527,8 +533,9 @@ D. They must have no duplicate data rows.
 
     A. A slicer makes it easier for users to filter
     B. Users should be able to see both filtered and nonfiltered values.
+    C. ????????
 
-- [ ] A and B
+- [x] A and B
 - [ ] B and C
 - [ ] A and C
 - [ ] There is no reason to use a slicer rather than a report-level filter.
@@ -543,7 +550,7 @@ D. They must have no duplicate data rows.
 #### Q68. In the Power BI service, filters are applied in what view?
 
 - [ ] Filter
-- [ ] Editing
+- [x] Editing
 - [ ] Reading
 - [ ] Query
 
@@ -556,7 +563,7 @@ D. They must have no duplicate data rows.
 
 #### Q70. What can you use Power BI for?
 
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] to create visualizations
 - [ ] to model data
 - [ ] to generate reports
@@ -566,25 +573,25 @@ D. They must have no duplicate data rows.
 - [ ] to transform data
 - [ ] to add members to your team or group
 - [ ] to grant permission to view a specific table
-- [ ] to relate tables
+- [x] to relate tables
 
 #### Q72. What do you call a visualization that has the single purpose of filtering other visuals in the view?
 
 - [ ] waterfall
 - [ ] none of these answers
 - [ ] ArcGIS visual
-- [ ] slicer
+- [x] slicer
 
 #### Q73. To share a dashboard and your comments from a mobile device, \_ the dashboard.
 
-- [ ] comment and share
+- [x] comment and share
 - [ ] annotate and share
 - [ ] publish
 - [ ] team share
 
 #### Q74. In the Power Query Editor, you have selected multiple columns. How do you set them all to the Whole Number data type?
 
-- [ ] Click **Data Type Any** and select **Whole Number**.
+- [x] Click **Data Type Any** and select **Whole Number**.
 - [ ] Select **Group By** and select **Whole Number**.
 - [ ] Right-click the primary key and select **Whole Number**.
 - [ ] Right-click any column and select **Format Data**
@@ -599,7 +606,7 @@ D. They must have no duplicate data rows.
 #### Q76. What are the first steps to connect to a data table on Wikipedia from Power BI Desktop?
 
 - [ ] **Get Data > OData feed > Web URL**
-- [ ] **Get Data > Web > Enter Web URL**
+- [x] **Get Data > Web > Enter Web URL**
 - [ ] **Get Data > Web Table > Enter Web URL**
 - [ ] **Get Data > Data Source > Enter Web URL**
 
@@ -616,3 +623,168 @@ D. They must have no duplicate data rows.
 - [ ] gauge chart
 - [x] treemap
 - [ ] waterfall
+
+#### Q79. Of the Power BI tools, only Power BI Desktop allows you to do what?
+
+- [x] all of these answers.
+- [ ] Work offline.
+- [ ] Create data models.
+- [ ] Add DAX calculations.
+
+#### Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.)
+
+    A. Access the advanced editing commands.
+    B. View the M code created by the Power Query Editor.
+    C. Enter M code to shape your data.
+    D. Edit the M code created by the Power Query Editor.
+
+- [ ] A, B
+- [ ] A,B,C,D
+- [x] B,C,D
+- [ ] A,B,C
+
+#### Q81. Why might you use the DAX DIVIDE function rather than a forward slash (/) when creating a measure? (Select all that apply.)
+
+    A. DIVIDE does not raise an error when the denominator is zero.
+    B. DIVIDE is faster.
+    C. A forward slash does not work with text columns.
+    D. DIVIDE stores the numerator and denominator locally.
+
+- [ ] A,B,C,D
+- [ ] A,B
+- [ ] B,C
+- [x] A
+
+#### Q82. when creating a new relationship between the Continents and Countries tables, this error is returned: "One of the columns must have unique values." How can you fix this? (Select all that apply.)
+
+    A. Add another table with unique keys
+    B. Remove duplicate rows so the Countries table has a column with unique IDs
+    C. Remove duplicate rows so the Continents table has a column with unique IDs.
+    D. Correct the cardinality of the relationship
+
+- [ ] A, C, D
+- [ ] B, C
+- [x] A, B
+- [ ] B, C, D
+
+[Proof link](https://docs.microsoft.com/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)
+
+#### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
+
+    A. A slicer makes it easier for users to filter.
+    B. Users should be able to see both filtered and unfiltered values.
+    C. Query speed is critical.
+
+- [ ] B and C
+- [x] A and B
+- [ ] There is no reason to use a slicer rather than a report-level filter.
+- [ ] A and C
+
+#### Q84. You have pinned a bar chart visualization to a dashboard. If you then modify the bar chart in the underlying report, what will the dashboard display?
+
+- [ ] It will display nothing. You will need to re-pin the bar chart to the dashboard.
+- [x] It will display the bar chart as it appears in the report now.
+- [ ] It will display an error message where the bar chart had been pinned.
+- [ ] It will display the bar chart as it appeared when it was pinned.
+
+#### Q85. In the Power Query Editor, how do you add an index column to an existing dataset?
+
+- [ ] On the Transform tab, click Add Column > Index.
+- [x] On the Add Column tab, click Add Index Column.
+- [ ] none of these answers
+- [ ] On the Home tab, click Add Index Column.
+
+#### Q86. Power BI desktop has a **\_** tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.
+
+- [ ] Simulation
+- [x] Performance Analyzer
+- [ ] Reporting Analytics
+- [ ] DAX Studio
+
+#### Q87. When you are looking for outliers, Z-scores above **\_** are a good starting point.
+
+- [ ] 30
+- [x] 3
+- [ ] 10
+- [ ] 100
+
+#### Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not **\_**.
+
+- [ ] calculations
+- [x] time
+- [ ] magnitude
+- [ ] rate
+
+#### Q89. In Power BI's Power Query Editor, a field data type shown as **\_** means the money data type.
+
+- [ ] a pile of coins icon
+- [ ] Money
+- [x] $
+- [ ] a stack of bills icon
+
+#### Q90. Which of the following choices is not a viewing option in the view selector of Power BI Desktop?
+
+- [ ] report view
+- [ ] model view
+- [x] query view
+- [ ] data view
+
+#### Q91. Which value for the type parameter in the DAX function PATHITEM indicates integer?
+
+- [ ] 0
+- [ ] "Integer"
+- [ ] TRUE
+- [x] 1
+
+#### Q92. Which type of chart in Power BI is beneficial for helping you visualize data over time?
+
+- [ ] pie charts
+- [ ] stacked column charts
+- [ ] tree maps
+- [x] line charts
+
+#### Q93. To combine multiple tables into a single table in Power BI, use the **\_** tool in the query editor.
+
+- [x] Append
+- [ ] Combine
+- [ ] Query
+- [ ] Report
+
+#### Q94. Which time intelligence function in DAX can be used for seeing month-on-month data?
+
+- [x] ParallelPeriod
+- [ ] TotalYTD
+- [ ] SamePeriodLastYear
+- [ ] MonthOnMonth
+
+#### Q95. Which part of Microsoft's data gateway's configuration allows you to switch between TCP and HTTPS modes?
+
+- [ ] Diagnostics
+- [ ] Service settings
+- [ ] Connectors
+- [x] Network
+
+#### Q96. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
+
+- [ ] View the pivot table.
+- [x] all of these answers
+- [ ] Rearrange pivot table fields.
+- [ ] Drill down in the pivot table.
+
+#### Q97. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
+
+- [ ] drill down in the pivot table.
+- [ ] Rearrange pivot table fields.
+- [ ] view the pivot table
+- [x] all of these answers
+
+#### Q98. Using Power BI service, you want to share a set of visualizations with your team so that they can, in turn, share the content with others. To do this, what should you share?
+
+- [ ] a report
+- [ ] a tile
+- [ ] a dashboard
+- [x] all of these answers
+
+[reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
+
+

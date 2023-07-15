@@ -241,7 +241,7 @@
 #### Q30. How can you standardize lists (including the data types, the format, and more) within your organization?
 
 - [ ] Create a custom app.
-- [ ] Change object permissions.
+- [x] Change object permissions.
 - [ ] Use a group of site columns.
 - [ ] Change user permissions for lists.
 
@@ -269,34 +269,34 @@
 #### Q34. When a user tries to create a new document in a SharePoint library, the default option is not Microsoft Word. What setting do you need to change in the library?
 
 - [ ] site template
-- [ ] document template
+- [x] document template
 - [ ] versioning
 - [ ] audience targeting
 
 #### Q35. A SharePoint site document library has become disorganized with numerous folders. How can you disable folder creation without modifying any permissions?
 
-- [x]
+- [x] :
 
 ```
 1. Library Settings
 2. Advanced Settings
 ```
 
-- [ ]
+- [ ] :
 
 ```
 1. Site Settings
 2. Manage Site Features
 ```
 
-- [ ]
+- [ ] :
 
 ```
 1. Library Settings
 2. Audience Targeting Settings
 ```
 
-- [ ]
+- [ ] :
 
 ```
 1. Site Settings
@@ -327,7 +327,7 @@
 #### Q39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?
 
 - [ ] a subsite can have a single mailbox
-- [x] a susite cannot have a mailbox
+- [x] a subsite cannot have a mailbox
 - [ ] a subsite canhave any number of mailboxes
 - [ ] a subsite can have a shared mailbox with the parent site
 
@@ -337,3 +337,180 @@
 - [ ] Team Site Visitors
 - [ ] Excel Serices Viewers
 - [ ] Everyone except external users
+
+#### Q41. You are using SharePoint Online. While the modern user experience has improved features, many users are more familiar with the classic experience. As a result, you decide to set the defaults to the classic experience. At what levels can this default be set?
+
+- [ ] tenant, site
+- [ ] site collection, tenant
+- [x] library, list, site, site collection
+- [ ] library, list
+
+#### Q42. You would like to use a SharePoint list app while traveling. What allows access to the app without directly interacting with SharePoint?
+
+- [x] PowerApps
+- [ ] Forms
+- [ ] Power Automate
+- [ ] Delve
+
+#### Q43. During the creation of a SharePoint site, permission inheritance was selected. Now the site owner wants to create brand-new permissions. How can the site owner accomplish this?
+
+- [x] Disable inheritance and set new permissions.
+- [ ] Delete inheritance and apply new permissions.
+- [ ] Create a new site.
+- [ ] Re-create the site in place without inheritance.
+
+#### Q44. Your organization wants everyone to create new documents using specific formats. How can you implement this in SharePoint?
+
+- [ ] Create a workflow that sends all documents to a single document library where a user can convert them to the organization's desired format.
+- [x] Create a custom default document templates as the basis for all new files in the SharePoint document libraries.
+- [ ] Create a policy that allows only documents using the organization's desired format to be added to the SharePoint document libraries.
+- [ ] Create a flow that converts the formats of all documents in SharePoint to the organization's desired format.
+
+#### Q45. You want to view permission levels for a SharePoint organization. Where can you find the Permission Levels link to view this permissions?
+
+- [ ] in the root site of a site collection
+- [ ] in each individual site level
+- [ ] in any site content library and site settings
+- [x] in any site via the Site Settings option
+
+#### Q46. You are configuring search options for a SharePoint site. Which statement regarding indexing is true?
+
+- [ ] When a top-level site is excluded from indexing, the remaining site in the collection can still be indexed.
+- [ ] When a site is excluded from indexing, the subsites are still indexed.
+- [x] When a site is excluded from indexing, so are the subsites.
+- [ ] When a top-level site is excluded from indexing, the entire collection is excluded.
+
+#### Q47. In a SharePoint modern list, which option is not possible?
+
+- [ ] exporting the list to Excel
+- [ ] syncing the list to OneDrive
+- [ ] connecting the list to Power Automate
+- [x] creating and saving views
+
+#### Q48. While viewing a SharePoint group membership list, what navigation is available to access other SharePoint groups?
+
+- [ ] The Quick Launch toolbar displays links to other groups for easy access.
+- [x] The top navigation menu in SharePoint is updated with links to groups for easy access.
+- [ ] The current group membership page provides shortcuts at the bottom of the page to other groups.
+- [ ] The Getting Started links are updated with groups for easy access.
+
+#### Q49. A user mentios that a list in one site seems different in another site, although the lists are essentially the same. What settings is causing the discrepancy between the lists?
+
+- [ ] the object permissions
+- [ ] the user permissions
+- [x] the list experience settings
+- [ ] the site template settings
+
+#### Q50. How can you set up users to add a status option of an item in a document library?
+
+- [ ] Create a flow to automate the updating of the item status.
+- [x] Add a Choice column to the library with a list of status options, and require that the column contain information.
+- [ ] Add a column where users can type in the status of the item, and require that the column contain information.
+- [ ] Create a flow to add the Choice column each time an item is added to the document library.
+
+#### Q51. You need to build a new SharePoint subsite for your organization. What site template categories are available by default?
+
+- [x] Collaboration, Enterprise, Publishing
+- [ ] Team Site, Blog, Document Center
+- [ ] Team Site, Blog, Community Site
+- [ ] Community Site, Blog, Developer Site
+
+#### Q52. You have created a SharePoint site using the Publishing Portal template. Which permissions for this site are not found in a collaborative site?
+
+- [ ] owners, readers
+- [ ] visitors, managers
+- [x] approvers, designers
+- [ ] members, visitors
+
+#### Q53. A user asks you to add a photo repository to a SharePoint site. You inform the user that SharePoint has a prebuilt application that fulfills the need. What type of application is this?
+
+- [ ] Collection
+- [ ] Site
+- [ ] List
+- [x] Library
+
+#### Q54. You want to allow users to install site add-ins for a SharePoint farm. What must you configure first?
+
+- [ ] an App URL
+- [ ] an app request
+- [ ] an App store
+- [x] an App Catalog
+
+#### Q55. You are tasked with configuring Business Connectivity Services (BCS) for SharePoint. Which BCS data source uses HTTP, Atom, and JavaScript Object Notation (JSON) to connect to web-based data?
+
+- [ ] SQL Azure
+- [ ] Windows Communication Foundation
+- [ ] SQL Server
+- [x] Open Data
+
+#### Q56. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
+
+- [ ] By Users
+- [x] By Groups
+- [ ] By site levels
+- [ ] By sites
+
+#### Q57. The News web part allows users to add a news post to the web part. What other item can users add to the News web part?
+
+- [ ] a list
+- [ ] a news link
+- [x] a page
+- [ ] a form
+
+#### Q58. You need to create a new site as a SharePoint subsite that will not inherit permissions from the parent site. What must you do to block inheritance?
+
+- [ ] Create and assign users to the subsite.
+- [ ] Create or assign groups to the subsite.
+- [ ] Copy permissions from the parent site to the subsite.
+- [x] Block permissions inheritance from the parent site.
+
+#### Q59. You created a site collection and would like to give a manager in your organization the capability to add and maintain users. To which group do you add this manager without compromising security?
+
+- [ ] contributor
+- [ ] administrator
+- [x] owner
+- [ ] viewer
+
+#### Q60. How do you find site usage statistics in SharePoint Online?
+
+- [x] On the site home page, click the gear (Settings) icon and go to Site information. Select View all site settings, and then in the Site Administration section, select Site usage statistics.
+- [ ] On the Site contents page, click Site usage.
+- [ ] On the site home page, click the gear (Settings) icon, go to Site settings, and select Site usage.
+- [ ] In the SharePoint Admin Center, select the SharePoint File Activity report.
+
+#### Q61. An organization has deployed a SharePoint parent site that includes a four-level hierarchy of subsites. You want to add another subsite to this hierarchy. What is the hard limit on a subsite hierarchy?
+
+- [ ] There is a limit of up to ten subsites in a single hierarchy.
+- [x] There is a limit of up to five sites (one parent, four subsites) in a single hierarchy.
+- [ ] There is no hierarchy limit for subsites.
+- [ ] There is a limit of up to five subsites in a single hierarchy.
+
+#### Q62. You have created a new page in a SharePoint Online site. Which elements are displayed on the page by default?
+
+- [ ] the title area web part, the document library web part, and comments
+- [ ] the title area web part, the Yammer web part, and comments
+- [ ] the News web part, the title area web part, and comments
+- [x] the title area web part and comments(true)
+
+#### Q63. What initiates a SharePoint workflow? (Select all that apply.)
+
+A. manual trigger
+B. on-change automatic trigger
+C. on-create automatic trigger
+D. on-delete automatic trigger
+
+-[ ] B,C, D -[ ] A.C, D -[x] A, B,C -[ ] A, B, C, D
+
+#### Q64. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
+
+- [ ] team permissions
+- [x] calendar URL
+- [ ] team name
+- [ ] calendar invite
+
+#### Q65. Which site collection feature allows for documents to be retrieved independent of their current location?
+
+- [x] Document ID service
+- [ ] content type syndication hub
+- [ ] Document Sets
+- [ ] search engine sitemap

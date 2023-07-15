@@ -31,6 +31,8 @@ if any([True, False, False, False]) == True:
 - [ ] set
 - [ ] OrderedDict
 
+[reference](https://www.scaler.com/topics/linked-list/)
+
 #### Q4. What statement about static methods is true?
 
 - [ ] Static methods are called static because they always return `None`.
@@ -47,17 +49,16 @@ if any([True, False, False, False]) == True:
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation**
-Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
+**Explanation:** Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
 
 `count, fruit, price = (2, 'apple', 3.5)`
 
-- [ ] `tuple assignment`
-- [x] `tuple unpacking`
-- [ ] `tuple matching`
-- [ ] `tuple duplication`
+- [ ] Tuple assignment.
+- [x] Tuple unpacking.
+- [ ] Tuple matching.
+- [ ] Tuple duplication.
 
 #### Q7. What built-in list method would you use to remove items from a list?
 
@@ -75,12 +76,14 @@ my_list
 >>>[2,3]
 ```
 
-#### Q8. What is one of the most common use of Python's sys library?
+#### Q8. What is one of the most common use of Python's `sys` library?
 
-- [x] to capture command-line arguments given at a file's runtime
-- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
-- [ ] to take a snapshot of all the packages and libraries in your virtual environment
-- [ ] to scan the health of your Python ecosystem while inside a virtual environment
+- [x] To capture command-line arguments given at a file's runtime.
+- [ ] To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app.
+- [ ] To take a snapshot of all the packages and libraries in your virtual environment.
+- [ ] To scan the health of your Python ecosystem while inside a virtual environment.
+
+[reference](https://docs.python.org/3/library/sys.html)
 
 #### Q9. What is the runtime of accessing a value in a dictionary by using its key?
 
@@ -156,7 +159,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation** - use `'''` to start the doc and add output of the cell after `>>>`
+**Explanation:** Use `'''` to start the doc and add output of the cell after `>>>`
 
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
@@ -220,12 +223,16 @@ instance.password
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
+[Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
 #### Q18. What is the purpose of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
 - [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
+
+[Reference](https://www.scaler.com/topics/python/python-if-else-statement/)
 
 #### Q19. What built-in Python data type is best suited for implementing a queue?
 
@@ -265,12 +272,18 @@ area
 - [ ] If the return keyword is absent, the function will return `True`.
 - [ ] The function will enter an infinite loop because it won't know when to stop executing its code.
 
+When the return statement is `None` or has no value or there is no return statement the function returns `None`.
+[reference](https://www.askpython.com/python/python-return-statement#)
+
 #### Q23. What is the purpose of the `pass` statement in Python?
 
 - [ ] It is used to skip the `yield` statement of a generator and return a value of None.
 - [x] It is a null operation used mainly as a placeholder in functions, classes, etc.
 - [ ] It is used to pass control from one statement block to another.
 - [ ] It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.
+
+The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+[reference](https://realpython.com/python-pass/)
 
 #### Q24. What is the term used to describe items that may be passed into a function?
 
@@ -313,7 +326,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ] <br>
+- [ ] A
 
 ```python
 output = []
@@ -330,7 +343,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x] <br>
+- [x] B
 
 ```python
 i = 0
@@ -343,7 +356,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -356,7 +369,7 @@ return groceries
 ]
 ```
 
-- [ ]  <br>
+- [ ] D
 
 ```python
 i = 0
@@ -376,14 +389,15 @@ return output
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
-**Explanation** - `all()` returns true if all in the list are True, see example below
+**Explanation:** `all()` returns `True` if all in the list are `True`. See example below:
 
 ```python
-test = [True,False,False,False]
+test = [True, False, False, False]
 if all(test) is True:
-    print('Yeah all are True')
+    print('Yeah, all of them are true.')
 else:
-    print('There is an imposter')
+    print('There is an imposter.')
+
 >>> 'There is an imposter'
 ```
 
@@ -391,28 +405,28 @@ else:
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x] <br>
+- [x] A
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 >>> dice = Game(self)
@@ -421,17 +435,23 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 
 #### Q31. What is the algorithmic paradigm of quick sort?
 
-- [ ] backtracking
-- [ ] dynamic programming
-- [ ] decrease and conquer
-- [x] divide and conquer
+- [ ] Backtracking
+- [ ] Dynamic programming
+- [ ] Decrease and conquer
+- [x] Divide and conquer
+
+Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+[reference](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms#:~:text=Both%20merge%20sort%20and%20quicksort,to%20solve%20the%20original%20problem.)
 
 #### Q32. What is runtime complexity of the list's built-in `.append()` method?
 
-- [x] O(1), also called constant time
-- [ ] O(log n), also called logarithmic time
-- [ ] O(n^2), also called quadratic time
-- [ ] O(n), also called linear time
+- [x] O(1), also called constant time.
+- [ ] O(log n), also called logarithmic time.
+- [ ] O(n^2), also called quadratic time.
+- [ ] O(n), also called linear time.
+
+This function has constant time complexity i.e. O(1), because lists are randomly accessed so the last element can be reached in O(1) time that's why the time taken to add the new element at the end of the list is O(1).
+
 
 #### Q33. What is key difference between a `set` and a `list`?
 
@@ -447,6 +467,9 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] Abstraction means that the data and the functionality of a class are combined into one entity.
 - [ ] Abstraction means that a class can inherit from more than one parent class.
 
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
+[reference](https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.)
+
 #### Q35. What does this function print?
 
 ```python
@@ -459,7 +482,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x] <br>
+- [x] A
 
 ```python
 a 1
@@ -473,13 +496,13 @@ c 2
 c 3
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 aaa
@@ -490,7 +513,7 @@ ccc
 333
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 a 1 2 3
@@ -500,7 +523,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] <br>
+- [ ] A
 
 ```python
 def sum(a, b):
@@ -511,7 +534,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 def sum(a, b):
@@ -524,7 +547,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] <br>
+- [x] C
 
 ```python
 def sum(a, b):
@@ -538,7 +561,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 def sum(a, b):
@@ -569,12 +592,24 @@ def sum(a, b):
 **Example**
 
 ```python
-import math
-radius = [1,2,3]
-area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
-area
->>> [3.14, 12.57, 28.27]
+# namedtuple function accepts the following arguments to generate a class
+from collections import namedtuple
+>>> Point = namedtuple('Point',['x','y'])
+>>> point = Point(100, 200)
+>>> point
+    Point(x=100, y=200)
+
+# Which let you use both unpacking and iteration to access
+>>> x, y = point
+>>> print(f'({x}, {y})')
+    (100, 200)
+>>> for coordinate in point:
+        print(coordinate)
+    100
+    200
 ```
+
+[Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
@@ -607,7 +642,7 @@ fruit_info = {
 - [x] `True`
 - [ ] `None`
 
-**Explanation** - `!=` is equivalent to **not equal to** in python
+**Explanation:** In Python, `!=` is equivalent to _not equal to_.
 
 #### Q42. What does a class's `__init__()` method do?
 
@@ -666,6 +701,9 @@ t1 = test()
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
 - [ ] A class method hold all of the data for a particular class.
 
+[Reference](https://pynative.com/python-class-method/)   
+Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method. 
+
 #### Q48. What does it mean for a function to have linear runtime?
 
 - [ ] You did not use very many advanced computer programming concepts in your code.
@@ -680,7 +718,11 @@ t1 = test()
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)
+The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower_case_with_underscores".[2]
+Within Usenet the term snake_case was first seen in the Rubycommunity in 2004,[3] used by Gavin Kistner, writing:
+BTW...what *do* you call that naming style? snake_case? That's what I'll call it until someone corrects me.
+
+[reference](https://en.wikipedia.org/wiki/Snake_case)
 
 #### Q50. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
@@ -689,6 +731,9 @@ t1 = test()
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
 - [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
+Use an uppercase single letter, word, or words. Separate words with underscores to improve readability.
+[Reference](https://realpython.com/python-pep8/)
+
 #### Q51. Describe the functionality of a deque.
 
 - [ ] A deque adds items to one side and remove items from the other side.
@@ -696,7 +741,8 @@ t1 = test()
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
 
-**Explanation** - `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.
+Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends.
+[reference](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/?ref=gcse)
 
 #### Q52. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -707,40 +753,43 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self):
     pass
 ```
 
-#### Q54. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
+#### Q54. Which of the following is TRUE About how numeric data would be organised in a Binary Search Tree?
 
-- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
+- [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
+
+In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree.
+[reference](https://en.wikipedia.org/wiki/Binary_search_tree#:~:text=In%20computer%20science%2C%20a%20binary,ones%20in%20its%20right%20subtree.)
 
 #### Q55. Why would you use a decorator?
 
@@ -749,6 +798,9 @@ def __init__(self):
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it. 
+[reference](https://www.geeksforgeeks.org/decorators-in-python/)
+
 #### Q56. When would you use a for loop?
 
 - [ ] Only in some situations, as loops are used only for certain type of programming.
@@ -756,9 +808,11 @@ def __init__(self):
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
 
+[Reference](https://www.interviewbit.com/python-cheat-sheet/)
+
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] <br>
+- [ ] A:
 
 ```python
 def tax(my_float):
@@ -766,21 +820,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] <br>
+- [ ] B:
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] <br>
+- [ ] C:
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] <br>
+- [x] D:
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -812,6 +866,10 @@ def calculate_sales_tax(subtotal):
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
+There are two main situations where mixins are used:
+You want to provide a lot of optional features for a class.
+You want to use one particular feature in a lot of different classes.
+[reference](https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-is-it-useful)
 [explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q61. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
@@ -828,7 +886,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the _last in first out_ approach
+**Explanation:** Stack uses the _last in first out_ approach.
 
 #### Q63. What is a base case in a recursive function?
 
@@ -844,7 +902,19 @@ def calculate_sales_tax(subtotal):
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
-[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
+
+**example**
+```python
+>>> f = open('workfile', 'w', encoding="utf-8")
+>>> with open('workfile', encoding="utf-8") as f:
+    read_data = f.read()
+# We can check that the file has been automatically closed.
+>>> f.closed
+True
+```
+
+[Reference](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 #### Q65. Why would you use a virtual environment?
 
@@ -860,6 +930,10 @@ def calculate_sales_tax(subtotal):
 - [ ] `python3 <_filename_> rundoctests`
 - [ ] `python3 doctest`
 
+There is also a command line shortcut for running testmod(). You can instruct the Python interpreter to run the doctest module directly from the standard library and pass the module name(s) on the command line:
+`python -m doctest -v example.py`
+This will import example.py as a standalone module and run testmod() on it. Note that this may not work correctly if the file is part of a package and imports other submodules from that package.  
+[reference](https://docs.python.org/3/library/doctest.html)  
 [tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q67. What is a lambda function ?
@@ -898,28 +972,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q71. What is the correct syntax of creating an instance method?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card(self):
@@ -933,14 +1007,16 @@ def self.get_next_card(self):
 - [ ] `def get_max_num([57, 99, 31, 18])`
 - [ ] `call.get_max_num([57, 99, 31, 18])`
 
-#### Q73. How is comment created?
+#### Q73. How do you add a comment to existing Python script?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
-- [ ] `/_ This is a comment _\`
+- [ ] `/* This is a comment */`
 - [ ] `// This is a comment`
 
-#### Q74. What is the correct syntax for replacing the string apple in the list with the string orange?
+[Reference](https://realpython.com/python-comments-guide/)
+
+#### Q74. What is the correct syntax for replacing the string `apple` in the list with the string `orange`?
 
 ```python
 my_list = ['kiwi', 'apple', 'banana']
@@ -967,7 +1043,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] <br>
+- [x] A:
 
 ```python
 num_people = 5
@@ -980,7 +1056,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] B:
 
 ```python
 num_people = 5
@@ -993,7 +1069,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] C:
 
 ```python
 num_people = 5
@@ -1006,7 +1082,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] D:
 
 ```python
 if num_people > 10;
@@ -1024,6 +1100,22 @@ else;
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
+`defaultdict` is a container like dictionaries present in the module collections. The functionality of both dictionaries and `defaultdict` are almost same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exists.
+
+**example**
+
+```python
+# Function to return a default
+# values for keys that is not
+# present
+def def_value():
+    return "Not Present"
+      
+# Defining the dict
+d = defaultdict(def_value)
+```
+[reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
 #### Q79. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
 
 - [ ] `fruit_info['variety'] == 'Red Delicious'`
@@ -1033,10 +1125,10 @@ else;
 
 #### Q80. When would you use a `while` loop?
 
-- [ ] when you want to minimize the use of strings in your code
-- [ ] when you want to run code in one file while code in another file is also running
-- [x] when you want some code to continue running as long as some condition is true
-- [ ] when you need to run two or more chunks of code at once within the same file
+- [ ] When you want to minimize the use of strings in your code.
+- [ ] When you want to run code in one file while code in another file is also running.
+- [x] When you want some code to continue running as long as some condition is true.
+- [ ] When you need to run two or more chunks of code at once within the same file.
 
 **Simple Example**
 
@@ -1049,7 +1141,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1057,7 +1149,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1065,7 +1157,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1165,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1173,7 @@ def __init__(attr1, attr2):
     self.attr2 = attr2
 ```
 
-**Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.
+**Explanation:**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.
 
 #### Q82. What would this recursive function print if it is called with no parameters?
 
@@ -1094,7 +1186,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 1
@@ -1105,7 +1197,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1113,7 +1205,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1124,7 +1216,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 1
@@ -1147,18 +1239,18 @@ np.ones([1,2,3,4,5])
 ```
 
 - [ ] It returns a 5x5 matric; each row will have the values 1,2,3,4,5.
-- [ ] It returns an array with the values 1,2,3,4,5
-- [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5
+- [ ] It returns an array with the values 1,2,3,4,5.
+- [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5.
 - [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
 
 [Reference](https://www.geeksforgeeks.org/numpy-ones-python/)
 
 #### Q85. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?
 
-- [ ] Make sure the file is on the system PATH
-- [ ] Create a symbolic link to allow better access to the file
-- [x] Copy the file to the same directory as where the script is running from
-- [ ] Add the path to the file to the PYTHONPATH environment variable
+- [ ] Make sure the file is on the system `PATH`.
+- [ ] Create a symbolic link to allow better access to the file.
+- [x] Copy the file to the same directory as where the script is running from.
+- [ ] Add the path to the file to the `PYTHONPATH` environment variable.
 
 #### Q86. what will this command return?
 
@@ -1166,24 +1258,26 @@ np.ones([1,2,3,4,5])
 {x for x in range(100) if x%3 == 0}
 ```
 
-- [x] a set of all the multiples of 3 less then 100
-- [ ] a set of all the number from 0 to 100 multiplied by 3
-- [ ] a list of all the multiples of 3 less then 100
-- [ ] a set of all the multiples of 3 less then 100 excluding 0
+- [ ] A set of all the multiples of 3 less than 100.
+- [ ] A set of all the number from 0 to 100 multiplied by 3.
+- [x] A list of all the multiples of 3 less than 100.
+- [ ] A set of all the multiples of 3 less than 100 excluding 0.
+
+[reference](https://www.w3schools.com/python/python_lists_comprehension.asp) It is a `List Comprehension` so it will return a 'list`!
 
 #### Q87. What does the // operator in Python 3 allow you to do?
 
-- [x] Perform integer division
-- [ ] Perform operations on exponents
-- [ ] Find the remainder of a division operation
-- [ ] Perform floating point division
+- [x] Perform integer division.
+- [ ] Perform operations on exponents.
+- [ ] Find the remainder of a division operation.
+- [ ] Perform floating point division.
 
 #### Q88. What file is imported to use dates in python?
 
-- [x] datetime
-- [ ] dateday
-- [ ] daytime
-- [ ] timedate
+- [x] `datetime`
+- [ ] `dateday`
+- [ ] `daytime`
+- [ ] `timedate`
 
 #### Q89. What is the correct syntax for defining a class called Game?
 
@@ -1213,10 +1307,10 @@ print(a[[False, True, False, False]])
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
-#### Q92. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+#### Q92. Suppose you have a string variable defined as y="stuff;thing;junk;". What would be the output from this code?
 
 ```python
-z = y.split(‘;’)
+z = y.split(';')
 len(z)
 ```
 
@@ -1225,13 +1319,13 @@ len(z)
 - [ ] 0
 - [ ] 3
 
-**Explanation**:
+**Explanation:**:
 
-```
-y=”stuff;thing;junk”
+```python
+y="stuff;thing;junk"
 	len(z) ==> 3
 
-y=”stuff;thing;junk;”
+y="stuff;thing;junk;"
 	len(z) ==> 4
 ```
 
@@ -1248,12 +1342,12 @@ print(num_list)
 - [ ] `[3,4,5]`
 - [ ] `[1,2,3]`
 
-**Explanation**:
+**Explanation:**: `.remove()` is based on the value of the item, not the index; here, it is removing the item matching "2". If you wanted to remove an item based on its index, you would use `.pop()`.
 
 ```python
 num_list = [1,2,3,4,5]
 
-num_list.pop(3)
+num_list.pop(2)
 >>> [1,2,4,5]
 
 num_list.remove(2)
@@ -1278,26 +1372,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 print(2^10)
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 print(2**10)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = 1
@@ -1343,7 +1437,7 @@ print (f"The number is {number}")
 - [x] `The number is 3`
 - [ ] `the number is 3`
 - [ ] `THE NUMBER IS 3`
-- [ ] It throws a TypeError because the integer must be cast to a string.
+- [ ] It throws a `TypeError` because the integer must be cast to a string.
 
 [Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
 
@@ -1363,16 +1457,15 @@ print (f"The number is {number}")
 - [ ] `append('a')`
 - [ ] `read('r')`
 
-[Reference](https://docs.python.org/3/library/functions.html#open)
-
-[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+1. [Reference](https://docs.python.org/3/library/functions.html#open)
+2. [Reference](https://www.w3schools.com/python/ref_list_append.asp)
 
 #### Q101. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
 
-- [x] vectorization
-- [ ] attributions
-- [ ] accelaration
-- [ ] functional programming
+- [x] Vectorization.
+- [ ] Attributions.
+- [ ] Accelaration.
+- [ ] Functional programming.
 
 #### Q102. What built-in Python data type can be used as a hash table?
 
@@ -1413,7 +1506,7 @@ for letter in my_dictionary.values():
 - [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
 - [ ] `letters4 = list(my_dictionary)`
 
-**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+**Explanation:** The first one (the correct option) returns the list of the values (the numbers). The rest of the options return a list of the keys.
 
 #### Q105. When an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
 
@@ -1440,12 +1533,12 @@ for letter in my_dictionary.values():
 
 #### Q108. What Python mechanism is best suited for telling a user they are using a deprecated function
 
-- [ ] sys.stdout
-- [ ] traceback
-- [x] warnings
-- [ ] exceptions
+- [ ] `sys.stdout`
+- [ ] Traceback
+- [x] Warnings
+- [ ] Exceptions
 
-#### Q109. What will be the value of x after running this code?
+#### Q109. What will be the value of `x` after running this code?
 
 ```python
 x = {1,2,3,4,5}
@@ -1489,7 +1582,7 @@ def be_friendly(greet = "How are you!", name):
 
 #### Q112. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [x] <br>
+- [x] :
 
 ```python
 a = np.zeros([3,4])
@@ -1497,7 +1590,7 @@ b = a.copy()
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.empty([3,4])
@@ -1505,7 +1598,7 @@ b = np.empty([3,4])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.zeros([3,4])
@@ -1513,7 +1606,7 @@ b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.array([1, np.nan])
@@ -1575,7 +1668,9 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-#### Q116. What is the correct syntax for creating a vaiable that is bound to a list?
+**Explanation:** Understanding this answer requires knowledge of linear algebra. Some systems of equations can be solved by the method of _diagonalization_, which involves finding the **eigenvectors and eigenvalues** of the system's matrix and multiplying related matrices.
+
+#### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
 - [x] `my_list = [2, 'apple', 3.5]`
@@ -1597,7 +1692,7 @@ num_list[len(num_list) // 2]
 - [ ] mean
 - [x] median
 
-**Explanation:** The median is the value separating the higher half from the lower half of a data sample. Here it is 13.
+**Explanation:** `//` is the operator for floor division, which is a normal division operation that returns the largest possible integer, either less than or equal to the normal division result. Here it is used to find the median, which is the value separating the higher half from the lower half of a data sample, by finding the index of the list item in the middle of the list. (This is sufficient for a list with an odd number of items; if the list had an even number of items, you would average the values of the two middle items to find the median value.)
 
 #### Q118. What are the two main data structures in the Pandas library?
 
@@ -1608,7 +1703,7 @@ num_list[len(num_list) // 2]
 
 [Reference](https://pandas.pydata.org/docs/user_guide/dsintro.html)
 
-#### Q119. Suppose you have a variale named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
+#### Q119. Suppose you have a variable named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
 
 - [ ] `matrix = (vector.shape = (100,100))`
 - [ ] `matrix = vector.to_matrix(100,100)`
@@ -1619,10 +1714,10 @@ num_list[len(num_list) // 2]
 
 #### Q120. Which choice is an immutable data type?
 
-- [ ] dictionnary
-- [ ] list
-- [ ] set
-- [x] string
+- [ ] Dictionnary
+- [ ] List
+- [ ] Set
+- [x] String
 
 [Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
 
@@ -1637,39 +1732,39 @@ myFunction("")
 myFunction()
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from France
 Hello, I am from France
 Hello, I am from France
 ```
 
-- [x] <br>
+- [x] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from France
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from France
 Hello, I am from France
 ```
 
-#### Q122. Choose the option below for which instance of the class cannot be created
+#### Q122. Choose the option below for which instance of the class cannot be created.
 
 - [ ] Anonymous Class
 - [ ] Parent Class
@@ -1680,7 +1775,7 @@ Hello, I am from France
 
 #### Q123. Using Pandas, we load a data set from Kaggle, as structured in the image below. Which command will return the total number of survivors?
 
-![Q129](images/Q129.png)
+![Q129](images/Q129.png?raw=png)
 
 - [x] `sum(titanic['Survived'])`
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
@@ -1700,15 +1795,15 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `list(zip(characters, actors))`
-- [ ] <br>
+- [x] `zip(characters, actors)`
+- [ ]
 
-```python
-d = {}
+  ```python
+  d = {}
 
-for x in range(1, len(characters)):
-    d[x] = actors[x]
-```
+  for x in range(1, len(characters)):
+      d[x] = actors[x]
+  ```
 
 - [ ] `{x:y for x in characters for y in actors}`
 
@@ -1718,14 +1813,14 @@ for x in range(1, len(characters)):
 {x : x*x for x in range(1,100)}
 ```
 
-- [ ] a dictionary with x as a key, and x squared as its value; from 1 to 100
-- [x] a dictionary with x as a key, and x squared as its value; from 1 to 99
-- [ ] a set of tuples, consisting of (x, x squared); from 1 to 99
-- [ ] a list with all numbers squared from 1 to 99
+- [ ] A dictionary with `x` as a key, and `x` squared as its value; from 1 to 100.
+- [x] A dictionary with `x` as a key, and `x` squared as its value; from 1 to 99.
+- [ ] A set of tuples, consisting of (`x`, `x` squared); from 1 to 99.
+- [ ] A list with all numbers squared from 1 to 99.
 
 #### Q126. Jaccard Similarity is a formula that tells you how similar two sets are. It is defined as the cardinality of the intersection divided by the cardinality of the union. Which choice is an accurate implementation in Python?
 
-![Q132](images/Q132.png)
+![Q132](images/Q132.png?raw=png)
 
 - [ ] `def jaccard(a, b): return len (a | b) / len (a & b)`
 - [x] `def jaccard(a, b): return len (a & b) / len (a | b)`
@@ -1765,3 +1860,669 @@ for x in range(1, len(characters)):
 - [ ] Strings can only be enclosed in single quotes (').
 - [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
 - [ ] Strings can only be enclosed in double quotes (").
+
+#### Q131. What is the correct syntax for defining an `_init_()` method that takes no parameters?
+
+- [ ] `def*init*(self): pass`
+- [ ] `class*init*(self): pass`
+- [ ] `class*init*(): pass`
+- [x] `def*init*(): pass`
+
+`()` - empty parameter.
+`self` - refers to all instances within a class.
+`_init_` - a reserved method, AKA a constructor.
+`_init_()` - always executed when the class is being initiated.
+
+#### Q132. Suppose you need to use the `sin` function from the `math` library. What is the correct syntax for importing only that function?
+
+- [ ] `using math.sin`
+- [ ] `import math.sin`
+- [x] `from math import sin`
+- [ ] `import sin from math`
+
+[Reference](https://www.datacamp.com/tutorial/modules-in-python#more-on-import-statements)
+
+**Explanation:** The `from..import` statement allows you to import specific functions/variables from a module instead of importing everything.
+
+#### Q133. What do you get if you apply numpy.sum() to a list that contains only Boolean values?
+
+- [ ] `0`
+- [x] `the count of all True values`
+- [ ] `a type error`
+- [ ] `None`
+
+#### Q134. What will this code print?
+
+```python
+print ("foo" if (256).bit_length() > 8 else "bar")
+```
+
+- [ ] `True`
+- [x] `foo`
+- [ ] You will get an error message because constant integer values are not classes.
+- [ ] `bar`
+
+#### Q135. If you do not explicitly return a value from a function, what happens?
+
+- [ ] If the return keyword is absent, the function will return `True`.
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] The function will return a `RuntimeError` if you do not return a value.
+- [x] If the return keyword is absent the function will return `None`.
+
+#### Q136. It is often the case that the pandas library is used for **_ data and NumPy for _** data.
+
+- [ ] string; numerical
+- [ ] unstructured; structured
+- [ ] numerical; tabular
+- [x] tabular; numerical
+
+* Explanation: The Pandas library is commonly used for working with tabular data, such as data in the form of tables or spreadsheets. It provides data structures and functions for data manipulation and analysis. On the other hand, NumPy is a powerful library for numerical computing in Python, and it is often used for performing mathematical operations on numerical data, such as arrays and matrices.
+
+#### Q137. What do you need to do to install additional packages into Python?
+
+- [ ] Use a C compiler like `gcc` or `clang`.
+- [x] Use a package manager like `pip` or `conda`.
+- [ ] Use an IDE like Notepad++ or Idle.
+- [ ] Use a package manager like NPM or NuGet.
+
+#### Q138. The image below was created using Matplotlib. It is a distribution plot of a list of integers filled with numbers using the function **\_** and plotted with **\_**.
+
+![Q132](images/Q138.png?raw=png)
+
+- [ ] `random.uniform(0,50);plt.hist`
+- [x] `random.gauss(50,20);plt.hist`
+- [ ] `random();plt.scatter`
+- [ ] `random.triangular(0,50);plt.bar`
+
+[Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)
+
+#### Q139. In this code fragment, what will be the values of `a` and `b`?
+
+```python
+import numpy as np
+
+a = np.arange(100)
+b = a[50:60:2]
+```
+
+- [x] `a`: all integers from 0 to 99 (inclusive); `b`: all even integers from 50 to 58 (inclusive).
+- [ ] `a`: all integers from 0 to 100 (inclusive); `b`: all even integers from 50 to 60 (inclusive).
+- [ ] `a`: all integers from 0 to 99 (inclusive); `b`: all even integers from 50 to 60 (inclusive).
+- [ ] `a`: all integers from 0 to 99 (inclusive); `b`: all odd integers from 49 to 59 (inclusive).
+
+#### Q140. When using NumPy in Python, how do you check the dimensionality (number and length of dimensions) of an object called `my_object`?
+
+- [ ] `my_object.get_shape()`
+- [x] `my_object.shape`
+- [ ] `my_object.dim()`
+- [ ] `len(my_object)`
+
+#### Q141. Assume you have a non-empty list named `mylist` and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
+
+- [ ] `len(mylist); len(mylist)`
+- [x] `1; len(mylist)`
+- [ ] `2; len(mylist)`
+- [ ] `0; len(mylist)`
+
+**Explanation:** Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
+
+#### Q142. If a function does not have a return statement, what does it really return?
+
+- [ ] `0`
+- [ ] `True`
+- [x] `None`
+- [ ] `False`
+
+#### Q143. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+
+```python
+import numpy as np
+
+def can_matrices_be_multiplied (matrix1, matrix2):
+    rowsMat1, columnsMat1 = matrix1.shape
+    rowsMat2, columnsMat2 = matrix2.shape
+
+    if _____ == ______ :
+        print('The matrices can be multipled!')
+        return True
+    else:
+        return False
+```
+
+- [ ] columnsMat1; rowsMat1;
+- [x] columnsMat1; rowsMat2;
+- [ ] columnsMat1; columnsMat2;
+- [ ] columnsMat2; rowsMat1;
+
+#### Q144. What is the output of this comprehension?
+
+`[(x, x+1) for x in range(1,5)] `
+
+- [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
+- [ ] [1,2,3,4,5]
+- [ ] [(1, 2), (2, 3), (3, 4)]
+- [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
+
+#### Q145. In Python, a class method must have \_**\_ as a function decorator, and the first parameter of the method will be a reference to \_\_**.
+
+- [x] @classmethod; the class
+- [ ] inline; the class
+- [ ] static; self
+- [ ] @static; self
+
+[Reference](https://docs.python.org/3/library/functions.html#classmethod)
+
+#### Q146. Which snippet of code will print _My name is Joffrey, son of Robert_?
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = super.name
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+- [x] :
+
+```python
+class Father():
+    name = 'Robert'
+
+
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = self.name
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
+
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", super.name)
+
+king = Person("Joffrey")
+king.introduce()
+```
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", base.name)
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+**Explanation:** In the first, super does not have `.name` (should be `self.name`). The third drops Robert, and `base` is not defined in the 4th.
+
+#### Q147.
+
+```python
+animals = {
+    'a': ['ant', 'antelope', 'armadillo'],
+    'b': ['beetle', 'bear', 'bat'],
+    'c': ['cat', 'cougar', 'camel']
+}
+
+animals = defaultdict(list, animals)
+
+print(animals['b'])
+print(animals['d'])
+```
+
+- [x] A
+
+```python
+      ['beetle', 'bear', 'bat']
+      []
+```
+
+- [ ] B
+
+```python
+      ['beetle', 'bear', 'bat']
+      # an exception will be thrown
+```
+
+- [ ] C
+
+```python
+      ['beetle', 'bear', 'bat']
+      None
+```
+
+- [ ] D
+
+```python
+      ['bat', 'bear', 'beetle']
+      []
+```
+
+**Explanation:** Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
+
+[Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
+#### Q148. What will this line of code return? (Assume `n` is already defined as any positive integer value.)
+
+```python
+[x*2 for x in range(1,n)]
+```
+
+- [x] A list with all the even numbers less than 2\*n.
+- [ ] A dictionary with all the even numbers less than 2\*n.
+- [ ] A list with all the odd numbers less than 2\*n.
+- [ ] A list with all the even numbers less than or equal to 2\*n.
+
+[Reference](https://www.w3schools.com/python/ref_func_range.asp)
+
+#### Q149. What does this code print in the console?
+
+```python
+x = 18
+
+if x > 10:
+	if x > 15:
+		print('A')
+	else:
+		print('B')
+else:
+	print('C')
+
+```
+
+- [x] C
+- [ ] A B
+- [ ] B
+- [ ] A
+
+#### Q150. What is the maximum length of a Python identifier?
+
+- [ ] 32
+- [ ] 16
+- [ ] 128
+- [x] No fixed length is specified.
+
+[reference](https://peps.python.org/pep-0008/) No No fixed length is specified but Pep-8 secifies under "Maximum Line Length" to "Limit all lines to a maximum of 79 characters".
+
+#### Q151. What will the value of the `i` variable be when the following loop finishes its execution?
+
+```python
+for i in range(5): pass
+```
+
+- [ ] 5
+- [ ] The variable becomes unavailable.
+- [ ] 6
+- [x] 4
+
+#### Q152. `f-strings` are also called:
+
+- [ ] Formatted string expressions.
+- [ ] Functional strings.
+- [ ] Modulo formatted strings.
+- [x] Formatted string literals.
+
+#### Q153. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+
+- [x] One.
+- [ ] All of the available CPUs.
+- [ ] Two.
+- [ ] Three.
+
+**Explanation:**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
+
+#### Q154. What will be the value of `y` in this code?
+
+```python
+x = 5
+y = 1 + (20 if x < 5 else 30)
+```
+
+- [ ] `False`
+- [ ] `21`
+- [ ] `2`
+- [x] `31`
+
+[Reference](https://www.w3schools.com/python/python_conditions.asp)
+
+**Explanation:** If you have only one statement to execute, one for `if` and one for `else`, you can put it all on the same line.
+
+```python
+x = 5
+# This is the same statement expanded to multiple lines
+y = 1
+if (x < 5):
+    y += 20
+else:
+    y += 30
+```
+
+#### Q155.The process of pickling in Python includes?
+
+- [x] Conversion of a Python object hierarchy into byte stream.
+- [ ] Conversion of a datatable into a list.
+- [ ] Conversion of a byte stream into Python object hierarchy.
+- [ ] Conversion of a list into a datatable.
+
+[reference](https://docs.python.org/3/library/pickle.html#:~:text=“Pickling”%20is%20the%20process%20whereby,back%20into%20an%20object%20hierarchy.)  
+“Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy.
+
+#### Q156. What is the output of the following program?
+
+```python
+print("codescracker".endswith("er"))
+```
+
+- [x] `True`
+- [ ] `1`
+- [ ] `2`
+- [ ] `False`
+
+#### Q157. Is list mutable in python?
+
+- [x] True
+- [ ] False
+
+#### Q158. What is the output of the following program?
+
+```python
+print("programming".center())
+```
+
+- [ ] `cr`
+- [ ] `programming`
+- [x] Error says `TypeError: center expected at least 1 argument, got 0`.
+- [ ] None of the above.
+
+#### Q159. Who created the Python programming language?
+
+- [ ] Tim Berners-Lee
+- [ ] Ada Lovelace
+- [x] Guido van Rossum
+- [ ] Alan Turing
+
+#### Q160. Which collection is ordered, changeable, and allows duplicate members?
+
+- [ ] Set
+- [ ] Tuple
+- [ ] Dictionary
+- [x] List
+
+#### Q161. What will be printed in the console if you run this code?
+
+```python
+x = 1j
+print(x**2 == -1)
+```
+
+- [ ] A runtime error telling you that the variable `j` has not been initialized.
+- [x] `True`
+- [ ] `1j`
+- [ ] `False`
+
+**Explanation:** The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
+
+#### Q162. What will be printed in the console if you run this code?
+
+```python
+print(0xA + 0xB + 0xC)
+```
+
+- [x] `33`
+- [ ] `63`
+- [ ] `0xA + 0xB + 0xC`
+- [ ] `None`
+
+**Explanation:** `A`, `B` and `C` are hexadecimal integers with values `10`, `11` and `12` respectively, so the sum of `A`, `B` and `C` is `33`.
+
+#### Q163. What will this code output to the screen?
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+```
+
+- [ ] `1 2 3 4 5 Done!`
+- [ ] `0 1 2 3 4 5 Done!`
+- [x] `0 1 2 3 4 Done!`
+- [ ] You will get a syntax error.
+
+#### Q164. Which comparison of lists and tuples in Python is correct?
+
+- [ ] Use lists instead of tuples when you have a collection of related but dissimilar objects.
+- [ ] Use tuples instead of lists when you have a common collection of similar objects.
+- [x] Use tuples instead of lists for functions that need to return multiple values.
+- [ ] Use lists instead of tuples when the position of elements is important.
+
+[Reference](https://www.scaler.com/topics/python/tuples-in-python/)
+
+#### Q165. Consider the following code snippet that uses decorators to calculate the execution time of `execution_fn` function:
+
+```python
+import functools
+import time
+
+def timer(MISSING_ARG_1):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.perf_counter()
+        rval = func(*args, **kwargs)
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+        print(f"Executed in {duration:.4f} seconds")
+        return MISSING_ARG_2
+    return MISSING_ARG_3
+
+@timer
+def execution_fn():
+    for i in range(3):
+        time.sleep(1)
+
+execution_fn()
+```
+
+**Which of the following choices are the missing arguments?**
+
+- [ ] :
+
+```
+MISSING_ARG_1 = wrapper
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+- [x] :
+
+```
+MISSING_ARG_1 = func
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+#### Q166. Which of the following statements defines a new object type named `Dog` in Python?
+
+- [x] `class Dog:`
+- [ ] `Dog class:`
+- [ ] `Dog:`
+- [ ] `class Dog`
+
+#### Q167. To use pipelines in `scikit-learn`, import from the `scikit-learn._` submodule.
+
+- [ ] `preprocessing`
+- [x] `pipeline`
+- [ ] `filters`
+- [ ] `pipe_filter`
+
+[reference](https://scikit-learn.org/stable/modules/compose.html) The correct syntax is actually: `from sklearn.pipeline import Pipeline`  
+
+#### Q168. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
+
+- [ ] row
+- [ ] col
+- [x] 1
+- [ ] 0
+
+#### Q169. Data points in Pyplot are called...
+
+- [ ] ... pointers.
+- [ ] ... points.
+- [x] ... markers.
+- [ ] ... none of these.
+
+#### Q170. What does this code print?
+
+```python
+a = np.array([[1, 2], [3, 4], [5, 6]])
+c = a[(a > 3) & (a < 11)]
+print(c)
+```
+
+- [ ] `[[3, 4], [5, 6]]`
+- [ ] `[False, False, False, True, True, True]`
+- [ ] `[[0,0], [3, 4], [5, 6]]`
+- [x] `[4 5 6]`
+
+#### Q171. Assume `m`, `n` and `p` are positive integers. In the following comprehension, how many times will the function `randint` be called?
+
+```python
+[ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
+```
+
+- [x] `m * n * p`
+- [ ] The greater value of `(m,n,p)`.
+- [ ] 1 million.
+- [ ] `m + n + p`
+
+#### Q172. Suppose you have a class named `MyClass` which has multiple inheritance and methods with the same name in its ancestors. Which class method could you call to see which method will get priority when invoked?
+
+- [x] `MyClass.__mro__`
+- [ ] `MyClass.hierarchy()`
+- [ ] `callable(MyClass)`
+- [ ] `dir(MyClass)`
+
+**Explanation:** MRO stands for Method Resolution Order. It returns a list of types the class is derived from, in the order they are searched for methods.
+
+#### Q173. Suppose you have a list of employees described by the code below. You want to assign Alice the same salary as Charlie. Which choice will accomplish that?
+
+```python
+employees = {
+    'alice':{
+        'position':'Lead Developer',
+        'salary':1000
+    },
+    'bob':{
+        'position': 'Lead Artist',
+        'salary':2000
+    },
+    'charlie':{
+        'position':'cfo',
+        'salary':3000
+    }
+}
+```
+
+- [x] `employess['alice']['salary'] = employees['charlie']['salary']`
+- [ ] `employees.alice.salary = employees.charlie.salary`
+- [ ] `employees['alice'][1] = employees['charlie'][1]`
+- [ ] `employees['alice'].salary = employees['charlie'].salary`
+
+**Explanation:** This is accessing a key in a dictionary nested inside another dictionary. The command `employees['alice']['salary'] = employees['charlie']['salary']` assigns the value of the `salary` key in the dictionary of the employee `charlie` to the value of the `salary` key in the dictionary of the employee `alice`.
+
+#### Q174. You are given a piece of code. Assume `m` and `n` are already defined as some positive integer value. When it completes, how many tuples will my list contain?
+
+```python
+mylist = []
+
+for i in range(m):
+    for j in range(n):
+        mylist.append((i,j))
+```
+
+- [ ] `m`
+- [ ] `m + n`
+- [ ] `n`
+- [x] `m \* n`
+
+**Explanation:** This code will run for `m` x `n` times, if you run this code, it will create `m` x `n` tuples.
+
+The first loop runs for `m` times and the inner loop will run for `n` times. While the single iteration of first loop will only be completed when all of the `n` iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... `m`th iterations for outer loop. Overall, both loops will run `m` x `n` times.
+
+#### Q175. What will this comprehension provide you?
+
+```python
+{x : [y for y in range (1, x) if x % y == 0] for x in range (2, 100)}
+```
+
+- [x] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are their factors.
+- [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are a list from 1 to the key value itself (inclusive).
+- [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the even numbers from 1 to the key value itself (inclusive).
+- [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive).
+
+#### Q176. What is a common use of Python's sys library?
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment

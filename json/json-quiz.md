@@ -17,19 +17,19 @@
 ]
 ```
 
-- [ ]
+- [ ] A
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [ ]
+- [x] B
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [x]
+- [ ] C
 
 ```json
 {
@@ -39,7 +39,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -85,7 +85,7 @@
 - [ ] `:`
 - [ ] `{`
 
-#### Q8. Which date type is part of the JSON standard?
+#### Q8. Which data type is part of the JSON standard?
 
 - [x] Boolean
 - [ ] map
@@ -116,7 +116,7 @@
 }
 ```
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -133,7 +133,7 @@
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -150,7 +150,7 @@
 }
 ```
 
-- [x]
+- [x] C
 
 ```json
 {
@@ -167,7 +167,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -186,8 +186,8 @@
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
-- [x] Escape all whitespaces expect space characters.
-- [ ] Escape line breaks.
+- [ ] Escape all whitespaces expect space characters.
+- [x] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
 
@@ -238,13 +238,12 @@
     6.Removes information.
 
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 - [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
 - [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -254,17 +253,7 @@
 }
 ```
 
-- [ ]
-
-```json
-{
-"host": "Atlanta",
-"year": 1996,
-/_ Centennial Olympics _/
-}
-```
-
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -274,28 +263,50 @@
 }
 ```
 
-- [x]
+- [x] C
 
 ```json
 {
   "host": "Atlanta",
   "year": 1996,
-  "comments": "Centennial Olympics"
+  "comment": "Centennial Olympics"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  \"Centennial Olympics\"
+}
+```
+
+- [ ] E
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "\"Centennial Olympics"
 }
 ```
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
 - [ ] yes
+- [ ] yes
 - [ ] only if there is more than one item
+- [x] no
 - [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
-- [ ] double quotes, slashes new lines, and carriage returns
-- [x] new lines and carriage returns only
+- [x] double quotes, slashes new lines, and carriage returns
+- [ ] new lines and carriage returns only
 - [ ] double quotes only
 
 #### Q21. Which is supported by YAML but not supported by JSON?
@@ -389,9 +400,9 @@ null
 
 #### Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`
 
-- [x] `"constant": "6.022E23"`
+- [ ] `"constant": "6.022E23"`
 - [ ] `"constant": "6\.022\E23"`
-- [ ] `constant: 6.022E23`
+- [x] `constant: 6.022E23`
 - [ ] `constant: "6.022E23"`
 
 [Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
@@ -406,8 +417,8 @@ null
 #### Q30. Why do so many APIs use JSON?
 
 - [ ] Because it's object-based.
-- [ ] Because it's a simple and adaptable format for sharing data.
-- [x] Because it's based on JavaScript.
+- [x] Because it's a simple and adaptable format for sharing data.
+- [ ] Because it's based on JavaScript.
 - [ ] Because it is derived from SGML.
 
 #### Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
@@ -566,11 +577,9 @@ Note: None of the above options appear to be correct. A correct answer would be 
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
-- [ ] UPC: "043875"
+- [x] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
-
-**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -733,10 +742,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q63. What characters are used to enclose an array?
 
-- [ ] []
-- [x] {}
-- [ ] ""
-- [ ] ()
+- [x] `[]`
+- [ ] `{}`
+- [ ] `""`
+- [ ] `()`
 
 #### Q64. What is the official MIME type for JSON?
 
@@ -745,7 +754,7 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] application/json
 - [ ] data/json
 
-#### Q65. What character cannot be part of string within JSON without additional formatting?
+#### Q65. Which character cannot be part of string within JSON without additional formatting?
 
 - [ ] /
 - [x] "
@@ -761,10 +770,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q67. Can you assume the order of keys in an object?
 
-- [x] No, but you can sort the keys with `JSON.sort()`.
+- [ ] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
-- [ ] No, you can never assume object keys will be in order.
+- [x] No, you can never assume object keys will be in order.
 
 #### Q68. With what character should object keys be enclosed?
 
@@ -791,8 +800,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [x] no
-- [ ] yes
+- [ ] no
+- [x] yes
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
@@ -834,7 +843,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] true, false, null
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
-- [ ] true, false, null
 
 #### Q78. If an object key contains spaces, how can you access its value in JavaScript?
 
@@ -934,3 +942,130 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] It has a rewritable structure.
 - [x] It has an array-only structure.
 - [ ] It has a table structure.
+
+#### Q86. What is supported by YAML but not supported by JSON?
+
+- [ ] arrays
+- [ ] null values
+- [x] comments
+- [ ] nested
+
+`YAML supports # comments but not JSON`
+
+#### Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)
+
+- [ ] `"'|=(_)(X 72(_)|\/||*'"`
+- [x] `"\s(_)(X 72(_)|\/||*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||*"`
+- [ ] `"|=(_)(X 72(_)|\/||*"`
+
+#### Q88. How can you change this array to make it valid?
+
+`{"rey",'leia',"ashoka",}`
+
+- [ ] `['rey', 'leia', "ashoka",}`
+- [ ] `['rey', 'leia', 'ashoka',}`
+- [x] `["rey", "leia", "ashoka"]`
+- [ ] `{"rey", "leia", "ashoka"}`
+
+#### Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?
+
+- [ ] zero or more digits
+- [ ] one or more digits
+- [x] a period
+- [ ] a dollar sign
+
+#### Q90. Who would you modify the array below to store additional attributes for each student?
+
+```json
+{
+  "students": ["Tess", "Erin", "June"]
+}
+```
+
+- [x] Convert each student to an object, then add key/value paris to each student object as needed.
+- [ ] Add additional name/value pairs, separated by commas, after "students".
+- [ ] Convert each student into an array and add extra elements to the array.
+- [ ] Wrap the existing "students" key with curly braces.
+
+#### Q91. Which is _not_ a valid JSON number
+
+- [ ] `99999999999999999999`
+- [x] `"42"`
+- [ ] `-32`
+- [ ] `1111.00.110011`
+
+#### Q92. What is the maximum string length in JSON?
+
+- [ ] 512 characters
+- [x] There is no defined limit.
+- [ ] 2,056 characters
+- [ ] 1,024 characters
+
+#### Q93. What method is used to export a JavaScript object into JSON notation?
+
+- [ ] `JSON.convert()`
+- [x] `JSON.stringify()`
+- [ ] `JSON.export()`
+- [ ] `JSON.string()`
+
+#### Q94. How would you update this JSON to indicate that Jane is now available for part-time work ?
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false
+}
+```
+
+- [x] A
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": true,
+  "seeking": "part-time"
+}
+```
+
+- [ ] B
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": "true",
+  "seeking": "part-time"
+}
+```
+
+- [ ] C
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": false,
+  "seeking": "part-time"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "name": "Jane",
+  "job": "developer",
+  "skills": ["ruby", "rails", "javascript"],
+  "available": "true",
+  "seeking": "part-time"
+}
+```
+
+Hint: true needs to be a boolean and part-time a string so in double quotes.

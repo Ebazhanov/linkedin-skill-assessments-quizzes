@@ -160,7 +160,7 @@
 
 #### Q22. You are hosting an application configured to stream media to its clients on TCP ports 3380-3384, 3386-3388, and 3390. The Inbound tab below shows three incoming security group policies attached to this instance. Which policy should you use?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] The rule that exposes TCP ports 3380-3390 would also publicly expose port 3389 (RDP) to the entire internet. Write separate rules to only expose the needed ports.
 - [ ] The first security group rule allows all traffic into this instance. Exposing your entire instance to the whole internet leaves the server open to various attacks of the other services running on different port numbers.
@@ -293,8 +293,8 @@ FlowLog:
 
 #### Q37. Where is the best place to store database backups on an EC2 instance that is configured as a database server?
 
-- [x] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
-- [ ] EBS volume attached to the instance
+- [ ] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
+- [x] EBS volume attached to the instance
 - [ ] instance attached to the instance
 - [ ] instance storage, with a script that replicates the database backups to another instance in a different availability zone.
 
@@ -315,7 +315,9 @@ FlowLog:
 #### Q40. You have 14 on-premise web servers, 4 database servers, 6 servers using GIS software, 3 file servers, and 4 development servers. What considerations should you take into account when migrating these servers into AWS?
 
 - [ ] AWS does not have a way to separate billing for compute costs, so you will need to design a way to split the budget between departments.
+- [ ] Software licensing costs are always included in services such as RDS, so factor the loss of use of your on-premise licenses in your budget.
 - [x] New AWS accounts are limited to 20 on-demand EC2 instances. Submit a request to increase your rate limits before starting a migration.
+- [ ] The only way to transfer large amounts of database data up to AWS is via S3, which can have a slow upload speed. Plan for this delay and cost in your migration plan.
 
 #### Q41. As your web application grows and your application monitoring needs become more complex, which additional log monitoring service should you NOT consider?
 
@@ -385,7 +387,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q47. In the S3 console, underneath the Access column, what does the public badge next to the bucket name indicate?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [x] All objects within this bucket are assigned public access and could be readable or writable by anyone on the internet. Ensure no sensitive data is being publicly shared within this bucket.
 - [ ] All objects within this bucket are writable, which means that the public internet has the ability to upload any file directly to your S3 bucket. Your S3 bucket could be used to serve malware.
@@ -443,7 +445,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q55. the outbound rules of a security group only allow traffic going to 0.0.0.0/0 on TCP Port 22 (SSH) and TCP port 3306 (MySQL). Review the inbound rules listed in the image below. What is the most important issue to fix with this security group configuration, for an Ubuntu EC2 instance acting as a web server?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - [ ] The outbound rules block UDP port 53, so the server will not be able to resolve any DNS lookups.
 - [x] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
@@ -538,17 +540,19 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
 #### Q65. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an Ubuntu EC2 instance configured as a web server?
 
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
+
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
-- [x] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
+- [ ] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
       Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
-- [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
+- [x] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
       secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
 - [ ] All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
 
 #### Q66. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [x] A
 
@@ -616,7 +620,7 @@ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
 #### Q71. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [ ] A
 
@@ -719,13 +723,13 @@ aws ecs create-service \
 - [ ] Stop the instance and create an AMI image. Launch the image using a new key pair.
 - [ ] Contact AWS support. A support specialist can remotely restore access to your instance and send you a new key pair.
 - [ ] You can not connect to this EC2 instance. The key pair is displayed only one time. If you lose it, you have lost all access to this instance. Connect the EBS volume to another instance to recover your files.
-- [x] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh.authorized_keys using the same file from the new instance.
+- [x] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh/authorized_keys using the same file from the new instance.
 
 [Reference](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
 #### Q81. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - [ ] Establish a connection between your two data centers and connect the second data center to the first through a private tunnel. Traffic will flow from the second data center and then through the first data, and then into AWS.
 - [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.
@@ -772,3 +776,205 @@ aws ecs create-service \
 - [ ] store for small duration
 - [x] cost
 - [ ] cross-region
+
+#### Q87. After installing AWS Amplify's CLI, what command allows the user to connect an AWS account with the local install?
+
+- [ ] amplify admin
+- [x] amplify configure
+- [ ] amplify connect
+- [ ] amplify init
+
+[Reference](https://docs.amplify.aws/cli/start/install/#option-2-follow-the-instructions)
+
+#### Q88. How do you limit access to an S3 bucket by source IP address?
+
+- [ ] Create the S3 bucket as a target for Application Load Balancer. Use Web Application Firewall (WAF) to create a rule to limit access to the S3 bucket by source IP.
+- [ ] You can not limit access to an S3 bucket by IP address.
+- [ ] In the preperties of the S3 bucket, add an access control option that limit access to the bucket by source IP address. Input the list of IPs into dialog.
+- [x] Create a bucket policy with a condition that limit access to a list of approved IP addresses. Attach this policy to the bucket.
+
+#### Q89. What is the benefits of using S3 Glacier for storage?
+
+- [ ] granual fetching
+- [ ] cross-region caching
+- [ ] speed of access
+- [x] cost
+
+#### Q90. Which of these AWS services can be related to Lambda via a trigger?
+
+- [ ] Cognito Sync Trigger, SNS
+- [ ] SNS, SQS
+- [x] all of these answers
+- [ ] SQS, DynamoDB
+
+#### Q91. When creating a RESTful API into a DynamoDB table, which is the right service to facilitate this?
+
+- [ ] API Sync
+- [ ] AppSync
+- [ ] CloudAPI
+- [x] API Gateway
+
+[Reference](https://aws.amazon.com/blogs/compute/using-amazon-api-gateway-as-a-proxy-for-dynamodb/)
+
+#### Q92. Which AWS service is valid data source for AppSync?
+
+- [x] DynamoDB table
+- [ ] ElastiCache
+- [ ] none of these answers
+- [ ] Step Functions
+
+[Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
+
+#### Q93. If a single instance has failed to launch within 24 hours due to some issues during a set up of Auto-scaling. Then what will happen to the Auto-Scaling condition?
+
+- [ ] Auto Scaling will continue to launch the instance for straight 3 days
+- [x] The Auto Scaling group will be automatically terminated.
+- [ ] In a separate region Auto Scaling will start an instance
+- [ ] Auto Scaling will remove the scaling process
+
+#### Q94. Point out the wrong statement.
+
+- [ ] Amazon Machine Instances are sized at various levels and rented on a computing/hour basis
+- [ ] The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
+- [ ] A number of tools are used to support EC2 services
+- [x] None of the mentioned
+
+#### Q95. In terms of Amazon VPC design, a VPC with a single public subnet is ideal for which of the following application designs?
+
+- [x] A single-tier application
+- [ ] A serverless application
+- [ ] A microservice application
+- [ ] A multi-tier application
+
+#### Q96. If you stop and restart an EC2 instance, does it retain its private IP address?
+
+- [x] Yes, the instance retains its private IP addresses
+- [ ] No, it retains only the public IP addresses
+- [ ] No, it retains only the Elastic IP addresses
+- [ ] No, it does not retain its private IP addresses
+
+#### Q97. All the Amazon EC2 instances you launch into a nondefault VPC are **\_** by default.
+
+- [ ] stateless
+- [ ] protected
+- [ ] public
+- [x] private
+
+#### Q98. When you launch an instance into a dedicated-tenancy VPC, what happens?
+
+- [x] Your instance is automatically a Dedicated instance, regardless of the instance's specific tenancy attribute
+- [ ] You receive an error message notifying you that you must set your instance's tenancy attribute to dedicated
+- [ ] Your instance launch fails, but AWS prompts you to launch a new one with the tenancy attribute set to dedicated
+- [ ] Your instance launch fails immediately
+
+#### Q99. Use the **\_** protocol in a VPC security group to communicate with a DB instance.
+
+- [ ] SSH
+- [ ] SSL
+- [x] TCP
+- [ ] UDP
+
+#### 100. Which is default user in Ec2 Linux-red hat/amazon.
+
+- [ ] root
+- [ ] Ec2user
+- [x] ec2-user
+- [ ] linux
+
+#### Q101. When using Systems Manager, you can create policies through Systems Manager \_\_\_\_.
+
+- [ ] Policy Manager
+- [ ] State Manager
+- [x] Documents
+- [ ] Inventory
+
+#### Q102. Businesses are increasingly moving towards hybrid cloud environments with automated IT. What Amazon EC2 State Manager feature is particularly useful for these companies?
+
+- [ ] validity
+- [x] consistency
+- [ ] reliability
+- [ ] redundancy
+
+#### Q103. Your DevOps manager has noticed that there is a problem with the installation of the MySQL software in one of your Windows instances and asks you to repair it. What would be the recommended way to fix this issue with AWS Systems Manager?
+
+- [ ] Write a Power Shell script that re-installs the msi file and run it with Run Command.
+- [ ] Execute the AWS-ApplyPatchBaseline command.
+- [ ] Allow State Manager to automatically fix it on batch.
+- [x] Use Run Command to execute the AWS-InstallApplication document.
+
+#### Q104. Within EC2 Systems Manager, you can use Patch \_\_\_\_ to pick the patches you want to install with your instances.
+
+- [ ] Levels
+- [ ] Manager
+- [x] Baselines
+- [ ] Policy
+
+#### Q105. When is an AWS Batch job's status runnable?
+
+- [ ] When a submitted job's resources are being deployed
+- [ ] When a submitted job has been evaluated
+- [x] When a submitted, evaluated job has zero dependencies outstanding
+- [ ] When a submitted job is next in the job queue
+
+#### Q106. Which statement regarding AWS Batch automated retries is correct?
+
+- [ ] Each job is provided a single job attempt by default, but a user can modify this to unlimited attempts if desired.
+- [ ] Each job is provided a single job attempt by default, but the AWS Batch job scheduler may modify this after evaluating the submitted job.
+- [x] Each job is provided a single job attempt by default, but a user can modify this to as many as 10 attempts if desired.
+- [ ] Each job is limited to a single attempt before being classified as succeeded or failed.
+
+#### Q107. What AWS Batch job parameter can you specify to prevent an unsuccessful job from being stuck in a loop?
+
+- [x] The duration of job timeout
+- [ ] A resource expenditure cap
+- [ ] The number of automated job retries
+- [ ] An AWS Batch job agent
+
+#### Q108. In which of the following AWS Batch components can a user set a priority level, for time-sensitive or low-priority jobs?
+
+- [ ] Within the job scheduler
+- [ ] Within the job itself
+- [ ] Within the job definition
+- [x] Within a job queue
+
+#### Q109. You may invalidate up to **\_** path files each month from Amazon CloudFront at no additional charge.
+
+- [ ] 100
+- [ ] 5,000
+- [x] 1,000
+- [ ] 500
+
+#### Q110. Which of the following is recommended when you want to analyze Access Logs of a single stream more quickly and accurately for a given period?
+
+- [ ] Check all the log files you receive for a given period one by one.
+- [ ] Analyze all the log files line by line.
+- [x] Combine all the log files you receive for a given period into one file.
+- [ ] Compare log files with Amazon CloudWatch results.
+
+#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to \***\*\_\*\***.
+
+- [x] `*` (all files) and cannot be changed
+- [ ] HTML files and cannot be changed
+- [ ] HTML files and can be changed
+- [ ] `*` (all files) and can be changed
+
+#### Q112. In Amazon CloudFront, if you add a CNAME for www.example.com to your distribution, you also need to create (or update) a CNAME record with your DNS service.
+
+- [x] TRUE
+- [ ] False, you cannot add a CNAME to your distribution.
+- [ ] False, you should add a CNAME record with your CloudWatch metrics and not the DNS.
+- [ ] False, it is not necessary to create a CNAME record with your DNS service as it is done automatically by Amazon.
+
+#### Q113. Which of the following statements is true of Amazon CloudFront when you can control how long your objects stay in a CloudFront cache before it forwards another request to your origin?
+
+- [x] All answers listed are correct.
+- [ ] Reducing the duration allows you to serve dynamic content.
+- [ ] Increasing the duration means your customers get better performance.
+- [ ] A longer duration also reduces the load on your origin.
+
+#### Q114. You are tasked with supporting users of a mobile app. The app allows users to view content (e.g., images) but only upload images if they are logged in to the app via Cognito. Which option would require the least amount of development time and provide the highest security to prevent non-authenticated users from posting content?
+
+- [ ] Create a Cognito Identity Pool with roles for both authorized and unauthorized user and appropriate permissions on those roles.
+- [ ] Switch API access keys at run-time based on the user's log in state.
+- [ ] Set policies on the database table (DynamoDB or RDS) for user permissions.
+- [x] Expose an API Gateway for public use to fetch content and a second API for writing content requiring an auth token.

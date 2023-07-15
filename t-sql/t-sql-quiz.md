@@ -39,14 +39,14 @@ END CATCH
 
 #### Q5. What is an example of a DDL command in SQL?
 
-- [ ] `TRUNCATE TABLE`
+- [x] `TRUNCATE TABLE`
 - [ ] `DELETE`
 - [ ] `MERGE`
 - [x] `DROP`
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -55,7 +55,7 @@ END CATCH
   ORDER BY MaxPlayers, GameType;
 ```
 
-- [x]
+- [x] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -64,7 +64,7 @@ END CATCH
   ORDER BY GameType;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, count(Players) AS MaxPlayers, NumberOfGames
@@ -73,7 +73,7 @@ END CATCH
   ORDER BY GameType;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -96,20 +96,26 @@ END CATCH
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x] 
+- [x] :
+
 ```SELECT * FROM Students
    WHERE team NOT 'Chemistry Cats';
 ```
-- [ ] 
+
+- [ ] :
+
 ```SELECT * FROM Students
    WHERE team <> 'Chemistry Cats';
 ```
-      
-- [ ] 
+
+- [ ] :
+
 ```SELECT * FROM Students
    WHERE team != 'Chemistry Cats';
 ```
-- [ ] 
+
+- [ ] :
+
 ```SELECT * FROM Students
    WHERE NOT team = 'Chemistry Cats';
 ```
@@ -238,12 +244,14 @@ SELECT ProductID, ProductName, SerialNumber
 FROM Products______ ;
 ```
 
-- [x] `WHERE SerialNumer LIKE '%10_3'`
-- [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
-- [ ] `WHERE SerialNumer LIKE '%10"_"3'`
-- [ ] `WHERE SerialNumer LIKE '%10[_]3'`
+- [ ] `WHERE SerialNumber LIKE '%10_3'`
+- [ ] `WHERE SerialNumber LIKE ('%10'+'_'+'3')`
+- [ ] `WHERE SerialNumber LIKE '%10"_"3'`
+- [x] `WHERE SerialNumber LIKE '%10[_]3'`
 
-> The underscore will match any single character so you must bracket it to match a literal `_`, otherwise you could potentially return a serial number ending in '1013', for example.
+> The underscore will match any single character, therefore you need to wrap the literal `_` with square brackets, otherwise, it may return a serial number ending with '1013', '10A3', etc.
+
+[Reference link](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-wildcard-characters-as-literals)
 
 #### Q23. When no join type between multiple tables in a query's `FROM` clause is specified, what type of join is assumed?
 
@@ -344,7 +352,7 @@ CREATE TABLE Books (
 
 - [ ] `NO DUPLICATES`
 - [ ] `UNIQUE CONSTRAINT AK_Books_BookISBN`
-- [ ] D`UPLICATE CONSTRAINT (AK_Books_BookISBN)`
+- [ ] `DUPLICATE CONSTRAINT (AK_Books_BookISBN)`
 - [x] `CONSTRAINT AK_Books_BookISBN UNIQUE`
 
 #### Q32. Given a table with the following structure, which query will not return the lowest grade earned by any student?
@@ -356,7 +364,7 @@ CREATE TABLE Students (
 );
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT StudentName
@@ -364,7 +372,7 @@ FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT TOP(1) Grade
@@ -372,14 +380,14 @@ FROM Students
 ORDER BY Grade;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT MIN(Grade)
 FROM Students
 ```
 
-- [x]
+- [x] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -387,9 +395,9 @@ FROM Students
 ORDER BY Grade;
 ```
 
-> **Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
+**Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
 
-- [x]
+- [x] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -397,7 +405,7 @@ FROM Students
 GROUP BY Grade;
 ```
 
-> **Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
+**Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
 
 #### Q33. Refer to the figure below.
 
@@ -436,7 +444,7 @@ END;
 ![T-SQL-Q36](images/Q36.jpg)
 
 - [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
-- [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas`;`
+- [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas;`
 - [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
 - [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 
@@ -485,7 +493,7 @@ GROUP BY OrderID
 ORDER BY OrderID;
 ```
 
-- [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
+- [x] Yes, a `WHERE` clause cannot be used with an aggregate function.
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
@@ -504,30 +512,40 @@ CREATE TABLE Publishers (
 );
 ```
 
-- [ ]
+- [ ] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
-- [ ] 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+
+- [x] :
+
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
-- [ ] 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK_Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID)
+
+- [ ] :
+
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK_Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID)
 ```
-- [ ] 
-```ALTER TABLE Publishers
-          ADD CONSTRAINT FK_Publishers_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Books (PublisherID) CASCADE DELETE
+
+- [ ] :
+
+```tsql
+ALTER TABLE Publishers
+ADD CONSTRAINT FK_Publishers_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Books (PublisherID) CASCADE DELETE
 ```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
@@ -570,10 +588,10 @@ _______
 
 #### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
 
-- [ ] `BEGIN TRAN myTransaction BEGIN LOG;BEGIN TRAN myTransaction BEGIN LOG;`
-- [ ] `BEGIN TRAN myTransaction WITH LOG;BEGIN TRAN myTransaction WITH LOG;`
-- [ ] `BEGIN TRAN myTransaction WITH MARK;BEGIN TRAN myTransaction WITH MARK;`
-- [ ] `BEGIN TRAN WITH MARK myTransaction;BEGIN TRAN WITH MARK myTransaction;`
+- [ ] `BEGIN TRAN myTransaction BEGIN LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH LOG;`
+- [x] `BEGIN TRAN myTransaction WITH MARK;`
+- [ ] `BEGIN TRAN WITH MARK myTransaction;`
 
 #### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
 
@@ -588,3 +606,134 @@ _______
 - [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+
+#### Q49. What is the result of this query?
+
+```sql
+SELECT 123+'abc' AS Result;
+```
+
+- [ ] 123abc
+- [ ] 123'abc'
+- [ ] '123abc'
+- [x] error
+
+> Conversion failed when converting the varchar value 'abc' to data type int.
+
+#### Q50.What output will the following SQL sequence produce? Assume that the tables have been created and all the columns exist.
+
+```tsql
+INSERT INTO Account (acct,bal) VALUES ('12345', 100);
+UPDATE Account SET bal=bal+100;
+BEGIN;
+UPDATE Account SET bal=bal+100.
+ROLLBACK;
+SELECT bal FROM Account WHERE acct='12345';
+);
+```
+
+- [ ] 100
+- [x] 200
+- [ ] 300
+- [ ] `You will get an error because ROLLBACK deletes the row that was update`
+
+[Reference link](https://www.geeksforgeeks.org/sql-transactions/)
+
+#### Q51. The Marketing department wants to send an email to each member of the Humanities department. Based on the table below, which query gives them the first name and email address of each member of that department?
+
+![T-SQL-Q36](images/Q36.jpg)
+
+- [ ] `SELECT first_name, email FROM Students WHERE department = Humanities;`
+- [ ] `SELECT first_name, email FROM Students WHERE department = "Humanities";`
+- [x] `SELECT first_name, email FROM Students WHERE department = 'Humanities';`
+- [ ] `SELECT 'first_name', 'email' FROM 'Students' WHERE 'department' = "Humanities";`
+
+#### Q52. Which statement deletes a table named Inventory from the Products database?
+
+- [ ] :
+
+```tsql
+  DROP TABLE Products.Inventory;
+```
+
+- [x] :
+
+```tsql
+  USE Products;
+  DROP TABLE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products;
+  DELETE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products.Inventory;
+  DROP TABLE Inventory;
+```
+
+> This statement first switches to the Products database using the `USE` command and then drops the Inventory table using the `DROP TABLE` command.
+
+#### Q53. In a SELECT statement, which clause should always be used with the TOP clause in order to predictably indicate which rows are affected by TOP?
+
+- [ ] GROUP BY
+- [ ] HAVING
+- [ ] WHERE
+- [x] ORDER BY
+
+#### Q54. Which data type should you choose when you nedd to store dates and times that include time zone information?
+
+- [x] datetimeoffset
+- [ ] smalldatetime
+- [ ] datetime
+- [ ] datetime2
+
+#### Q55. What is the result of this query?
+
+```tsql
+SELECT 123+'123' AS Result;
+```
+
+- [ ] 123'123'
+- [ ] error
+- [x] 246
+- [ ] 123123
+
+#### Q56. What is the result of these three commands?
+
+```tsql
+CREATE TABLE MyNumbers (
+    MyDecimalColumn decimal(5,2) NOT NULL
+);
+
+INSERT INTO MyNumbers VALUES (123), (45);
+
+SELECT * FROM MyNumbers;
+```
+
+- [ ] A
+- [ ] B
+- [x] C
+      ![Image of footer](images/Q56c.png?raw=png)
+- [ ] D
+
+#### Q57. Given the table below , which query shows How many students are in each department ?
+
+![T-SQL-Q55](images/Q55.jpg)
+
+- [x] Select Department, COUNT(\*) FROM Students GROUP BY Department;
+- [ ] SELECT COUNT(\*) FROM Students;
+- [ ] SELECT Student BY Department;
+- [ ] SELECT COUNT(\*) FROM Students ORDER BY Department;
+
+#### Q58. What is an example of a DDL command in SQL ?
+
+- [ ] merge
+- [x] drop
+- [ ] delete
+- [ ] truncate table

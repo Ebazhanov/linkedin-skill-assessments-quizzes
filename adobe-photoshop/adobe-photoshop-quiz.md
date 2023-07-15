@@ -68,11 +68,13 @@
 
 #### Q9. Which options are available when using the Free Transform command on a Smart Object?
 
-    A. Content-Aware Scale
-    B. Scale
-    C. Warp
-    D. Distort
-    E. Perspective Warp
+```markdown
+A. Content-Aware Scale
+B. Scale
+C. Warp
+D. Distort
+E. Perspective Warp
+```
 
 - [ ] C,D
 - [ ] D,E
@@ -102,12 +104,12 @@
 - [ ] TIFF
 - [ ] BMP
 
-#### Q13. What is the best way to save multiple images into a single PDF?
+#### Q13. What is the best way to save multiple full-size images into a single PDF?
 
-- [ ] Save each PDF separately first and then combine them.
-- [ ] Check to see if you have Acrobat Professional installed.
 - [x] Use the PDF Presentation command.
-- [ ] Click File > Export > Export Layers to Files.
+- [ ] Click **File > Export > Export Layers to Files**.
+- [ ] Check to see if you have Acrobat DC installed.
+- [ ] Save each PDF separately first and then combine them.
 
 #### Q14. What option cannot be adjusted with the Print command directly in the Print window?
 
@@ -219,7 +221,7 @@
 - [ ] Actually, you cannot use filters on video files.
 - [ ] Convert the video file to an animated gif.
 
-#### Q28. Which file format does **not** support layers?
+#### Q28. Which file format does not support layers?
 
 - [x] Photoshop EPS
 - [ ] Photoshop PDF
@@ -261,7 +263,7 @@
 - [ ] scriptlet
 - [ ] image process
 
-#### Q34. Which tool is not found in the Select and Mask taskspace?
+#### Q34. Which tool is not found in the Select and Mask workspace?
 
 - [ ] Refine Edge
 - [ ] Quick Select
@@ -293,7 +295,7 @@
 - [ ] View > Show > Selection Edges
 - [x] View > Show > Pixel Grid
 
-#### Q38. To save a panel layout arrangement, what should you create?
+#### Q38. what should you create to save a panel layout arrangement?
 
 - [ ] A tool set
 - [ ] A layer set
@@ -421,9 +423,9 @@
 #### Q53. Where do you find natural media brushes?
 
 - [ ] Photoshop does not have natural media brushes.
-- [ ] In the **Brushes** panel, select a brush and then select **Convert to natural media**.
-- [x] In the **Brushes** panel, select **Legacy Brushes**.
-- [ ] in the **Tool Presents** panel.
+- [ ] In the Brushes panel, select a brush and then select Convert to natural media.
+- [x] In the Brushes panel, select Legacy Brushes.
+- [ ] in the Tool Presents panel.
 
 #### Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
 
@@ -480,7 +482,7 @@
 
 - [ ] It converts the image from a raster image to a vector infographics
 - [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
-- [ ] It references an image in a separate file that retains its resolutions.
+- [x] It references an image in a separate file that retains its resolutions.
 - [ ] It uses a layer mask for nondestructive editing.
 
 #### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
@@ -500,9 +502,11 @@
 #### Q64. What is the outcome if you make a selection and then add an adjustment layer?
 
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
-- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [x] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
+
+[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
 
 #### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
 
@@ -523,7 +527,7 @@
 - [ ] Click the guide with the Selection tool, then select **Edit > Clear**.
 - [ ] Select **View > Clear Guides**.
 - [ ] Double-click the point where the guide touches the ruler.
-- [ ] Drag the guide back to the ruler.
+- [x] Drag the guide back to the ruler.
 
 #### Q68. If you want to change the resolution of an image using the **Pixels per Inch setting**, which command do you use?
 
@@ -531,3 +535,326 @@
 - [x] Image Size
 - [ ] Canvas Size
 - [ ] Apply Image
+
+#### Q69. Which tool can you use to manually darken an area of an image
+
+- [x] Burn
+- [ ] Sharpen
+- [ ] Blur
+- [ ] Dodge
+
+#### Q70. How many layer masks can be added to an image?
+
+- [x] up to 8000
+- [] up to 2000
+- [] infinite
+- [] 0
+
+#### Q71. Which method is a high-quality scaling algorithm for enlarging image?
+
+- [x] Bicubic Sharper
+- [ ] Bilinear
+- [ ] Preserve Details 2.0
+- [ ] Nearest Neighbor
+
+#### Q72. How can you make the magic wand tool select fewer variations of a color?
+
+- [x] clear the contiguous checkbox
+- [ ] decrease the tolerance
+- [ ] increase the tolerance
+- [ ] increase the simple size
+
+#### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
+
+- [x] anti-aliasing
+- [ ]
+- [ ]
+- [ ]
+
+#### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
+
+- [ ] Magic Wand
+- [x] Refine Edge
+- [ ] Quick Select
+- [ ] Lasso
+
+#### Q75. Which sets of tool has a content-aware mode ?
+
+- [ ] Perspective Corp
+- [ ] Marquee
+- [ ] Lasso
+- [x] Patch
+
+#### Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
+
+- [x] Libraries
+- [ ] Files
+- [ ] Layer Comps
+- [ ] Glyphs
+
+#### Q77. What should you create in order to save a panel layout arrangement?
+
+- [ ] a layer set
+- [x] a tool set
+- [ ] a keyboard shortcut
+- [ ] a workspace
+
+#### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
+
+- [ ] You need to convert the image to a Smart Object before using this tool.
+- [ ] You must first change the blending mode to Screen
+- [ ] The Spot Healing Brush tool cannot be used on a transparent layer
+- [x] The Sample all layers check box on the toolbar is not selected
+
+#### Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
+
+- [ ] Multiply
+- [ ] Screen
+- [x] Color
+- [ ] Hard Light
+
+#### Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?
+
+- [ ] B, C, and D
+- [ ] B
+- [x] B and C
+- [ ] A
+
+#### Q81. What is the difference between the Healing Brush Tool and the Spot Healing Brush tool?
+
+- [ ] The spot healing brush tool needs a source point, but the healing brush automatically samples pixels nearby.
+- [x] The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.
+- [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+- [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+
+#### Q82. Which tool is _not_ found in the _Select and Mask_ workspace?
+
+- [ ] Quick select
+- [ ] Magic wand
+- [ ] Lasso
+- [x] Refine Edge
+
+#### Q83. Which Select and Mask workspace tool allows you to select fine hairs?
+
+- [ ] Object Selection
+- [ ] Brush
+- [ ] Quick Selection
+- [x] Refine Edge
+
+#### Q84. Which option is found in the Path Operations drop-down menu?
+
+- [ ] Divide
+- [ ] Combine Shapes
+- [x] Minus Back
+- [ ] Outline
+
+#### Q85. Which file formats does the Save for Web command support? (Select all that apply.) A. SVG B. JPEG C. PNG D. GIF E. MP4
+
+- [x] A, B, C
+- [ ] B, C, D
+- [ ] B, D, E
+- [ ] A, C, E
+
+#### Q86. Which method was used to soften the edges of this selection?
+
+![Which method was used to soften the edges of this selection?](images/image01.jpeg?raw=true)
+
+- [ ] Expand
+- [ ] Smooth
+- [x] Feather
+- [ ] Frow
+
+#### Q87. What can be said about the Curves adjustment shown here?
+
+![What can be said about the Curves adjustment shown here?](images/image02.jpeg?raw=true)
+
+- [ ] It will prevent shadows from pluhhing up.
+- [x] It will increase the midtone contrast.
+- [ ] It will decrease the overall saturation.
+- [ ] It will prevent highlights from being blown out.
+
+#### Q88. Why is the Sycamore Leaf 1 layer underlined, as shown?
+
+![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/image03.jpeg?raw=true)
+
+- [ ] The Sycamore Leaf 1 layer is the base layer of a clipping mask.
+- [ ] The Sycamore Leaf 1 layer is linked layer.
+- [x] The Sycamore Leaf 1 layer is Smart Object.
+- [ ] The Sycamore Leaf 1 layer is selected.
+
+#### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
+
+![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/image04.png?raw=true)
+
+- [ ] A
+- [ ] B, C and D
+- [ ] B
+- [x] B and C
+
+#### Q90. What special layer type applies nondestructive color correction to all of the layers below it ?
+
+- [ ] layer comp
+- [x] adjustment layer
+- [ ] layer mask
+- [ ] fill layer
+
+#### Q91. Which command would permanently join two layers into one?
+
+- [x] Group
+- [ ] Merge
+- [ ] Combine
+- [ ] Link
+
+#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q93. Which menu contains the duplicate layer option in photoshop?
+
+- [x] Layer
+- [ ] Filter
+- [ ] Image
+- [ ] Select
+
+[Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)
+
+#### Q94. When a Hue/Saturation adjustment layer is selected in the Layers panel, what do you do in the Properties panel to decrease the saturation for only a selected color range?
+
+- [ ] Click the On-image adjustment tool, hover over the image with what has become an eyedropper cursor, and drag to the left.
+- [x] Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image.
+- [ ] Enable the On-image adjustment tool, select the hue you would like from the image, and then adjust the slider that appears below Colorize
+- [ ] Click the On-image adiustment tool, hover over the image with what has become an evedropper cursor, and drag to the right.
+
+#### Q95. You need to preserve layers in your file. Which file format do you use?
+
+- [ ] GIF
+- [x] PSD
+- [ ] JPEG
+- [ ] PNG
+
+#### Q96. Which RGB control do you click to add a single control point to the Curves adjustment?
+
+![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png?raw=png)
+
+- [ ] A (on-image adjustment tool)
+- [ ] B (sample in image to set black point)
+- [ ] C (sample in image to set white point)
+- [ ] D (sample in image to set gray point)
+
+#### Q97. What is the easiest way to export all layers in a document as individual files?
+
+- [ ] Click **File > Scripts > Image Processor**.
+- [ ] Click **File > Export > Export Layer Comps to Files**.
+- [ ] Click **File > Export > Layers to Files**.
+- [ ] Click **File > Scripts > Load files into stack**.
+
+#### Q98. Which options bar icon subtracts from a selection?
+
+![Which options bar icon subtracts from a selection?](images/Q97.png?raw=png)
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+#### Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?
+
+- [ ] Pattern Stamp Tool
+- [ ] History Brush Tool
+- [x] Clone Stamp Tool
+- [ ] Eraser Tool
+
+#### Q100. A Filter name or menu item followed by an elipsis (...) means that the filter or menu item \_?
+
+- [ ] works in 16-bit mode
+- [x] is optimize for multiple processors
+- [ ] has an interface
+- [ ] has no interface
+
+#### Q101. The Background of your image is white. There is a red solid color adjustment layer mask that is black with a white circle, as shown. With nothing else selected, what happens to the image when you select the layer mask and then select Image > Adjustment > Invert?
+
+- [ ] The red circle changes to cyan, but the color outside the circle remains red although it is still transparent. You can see the cyan only in the thumbnail in the Layes panel.
+- [ ] The circle changes from red to cyan
+- [x] The red circle with white around it changes to a white circle with red around it.
+- [ ] The circle disappears
+
+#### Q102. Which features allow you to push pixels from their original location to modify an image?
+
+A. Dodge
+B. Droplet
+C. Smudge
+D. Sponge
+E. Liquify
+
+- [ ] B, E
+- [ ] A, C, D, E
+- [x] B, D, E
+- [ ] C, E
+
+#### Q103. How can you edit an Illustrator AI file that you placed as a Smart Object?
+
+- [ ] Select the Direct Selection tool and click the edge of the graphic.
+- [x] Click Layer > Smart Object > Reset Transform.
+- [ ] Double-click the selected graphic on the canvas.
+- [ ] Double-click the graphic's thumbnails in the Layers panel.
+
+#### Q104. How many layer masks can a single layer have applied without using groups or Smart Objects?
+
+- [ ] 2
+- [ ] 1
+- [x] 8000
+- [ ] infinite
+
+#### Q105. What is the difference between the Healing Brush tool and the Spot Healing Brush tool?
+
+- [ ] The Spot Healing Brush tool does not match texture, lighting,shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
+- [x] The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby.
+- [ ] The Healing Brush tool does not match texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
+- [ ] The Healing Brush tool needs a source point, but the Spot Healing Brush automatically samples pixels nearby.
+
+#### Q106. The options bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
+
+- [ ] Window > Options
+- [x] View > Show > Show extra options
+- [ ] Window > Tool Presets
+- [ ] Edit > Toolbar
+
+#### Q107. What i the best way to save multiple full-size images into a single PDF?
+
+- [x] Use the PDF Presentation command
+- [ ] Check to see if you have Acrobat DC Installed
+- [ ] Save each PDF separately first and the combine them
+- [ ] Click File > Export > Export Layers to Files
+
+#### Q108. Which panel allow you to record commands for future playback on another image?
+
+- [x] Actions
+- [ ] Inspector
+- [ ] Scripts
+- [ ] Layers
+
+#### Q109. How do you nondestructively use the Clone Stamp tool on a rasterized layer?
+
+- [x] Create a new layer above it and set the Clone Stamp tool's Sample setting to Current & below
+- [ ] Add a Photo Filter adjustment layer above the layer. Then use the Clone Stamp Toool.
+- [ ] Convert it ot a Smart Object. Then use the Clone Stampa Tool
+- [ ] While the layer selected, set the Clone Stamp tool's Sample setting to Current & Below.
+
+#### Q110. What must you do to use Version History?
+
+- [ ] Go to the Timeline
+- [ ] From the History panel flyout menu, select Version History
+- [ ] Click File > Version History to enable it
+- [x] Save as a cloud document
+
+#### Q111. Which set of tools has a content-aware mode?
+
+- [ ] Perspective Crop
+- [x] Patch
+- [ ] Marquee
+- [ ] Lasso

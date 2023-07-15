@@ -60,10 +60,10 @@
 
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
-- [ ] Insert tab.
-- [ ] Design tab.
-- [x] References tab.
-- [ ] Layout tab.
+- [ ] Insert
+- [ ] Design
+- [x] References
+- [ ] Layout
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
@@ -116,7 +116,7 @@
 
 #### Q17. What happens in this SmartArt object when you press the Delete key?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] The boxes resize to maintain the same overall height.
 - [ ] The object is deleted and a hole is left behind.
@@ -125,7 +125,7 @@
 
 #### Q18. What happens in this SmartArt diagram when you delete the selected object?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [ ] The text from the deleted box merges with the next box's text.
 - [ ] The selected object is deleted and the spacing is preserved where the object was.
@@ -192,7 +192,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q26. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] Insert > Text
 - [x] Columns dialog box
@@ -252,7 +252,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q34. Which formatting option was used to create the effect shown below?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [ ] Drop Cap
 - [x] Subscript
@@ -296,12 +296,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
 
-```
- A. Type "(TM)".
- B. On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then click **Insert**.
- C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
- D. Type "(R)".
-```
+    A. Type "(TM)".
+    B. On Windows: On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then   click **Insert**.
+    On Mac: On the **Insert** tab, click **Advanced Symbol > Special Characters**, select **Trademark**, and click **Insert**.
+    C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
+    D. Type "(R)".
 
 - [ ] B and D
 - [x] A and B
@@ -317,7 +316,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
 - [ ] Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.
-- [x] Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.
+- [x] On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
 #### Q41. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
@@ -389,7 +388,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q50. In the image below, what do the red bars next to the text indicate?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] Draw tools were used in these areas.
 - [x] Changes were made to these areas.
@@ -433,10 +432,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
 
-A. OneDrive
-B. SharePoint document library
-C. Google Drive
-D. DropBox
+    A. OneDrive
+    B. SharePoint document library
+    C. Google Drive
+    D. DropBox
 
 - [ ] A
 - [ ] A, B, C, D
@@ -463,12 +462,10 @@ D. DropBox
 
 #### Q59. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
 
-```markdown
-A. Colleague's name appears in the Share panel.
-B. Colleague's picture appears in the upper-right corner of the ribbon.
-C. A banner notification pops up as the colleague edits the document.
-D. A flag icon with the colleague's name appears where their edit is being made.
-```
+    A. Colleague's name appears in the Share panel.
+    B. Colleague's picture appears in the upper-right corner of the ribbon.
+    C. A banner notification pops up as the colleague edits the document.
+    D. A flag icon with the colleague's name appears where their edit is being made.
 
 - [ ] A, B, C
 - [ ] B, C, D
@@ -520,53 +517,44 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Line
 - [ ] Bar
 
-#### Q65. What is the difference between a footnote and an endnote?
+#### Q65. In the image below, where do you click to hide comments when a document prints?
 
-Duplicated with Q33.
-
-- [ ] An endnote always appears on the bottom of the same page that it references
-- [ ] Footnote use Arabic numerals and endnotes use letters.
-- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
-- [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
-
-#### Q66. In the image below, where do you click to hide comments when a document prints?
-
-![image](https://i.imgur.com/JjdzceL.png)
+![image](https://i.imgur.com/JjdzceL.png?raw=png)
 
 - [ ] A
 - [x] B
 - [ ] C
 - [ ] D
 
-#### Q67. Which page orientation should you select to accommodate a wide chart or table?
+#### Q66. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Tall
-- [x] Portrait
+- [ ] Portrait
 - [ ] Wide
-- [ ] Landscape
+- [x] Landscape
 
-#### Q68. What is the first step in sharing a document that is currently saved on your local hard drive?
+#### Q67. What is the first step in sharing a document that is currently saved on your local hard drive?
 
 - [ ] Get a sharing link for the document.
 - [ ] Create a new document in OneDrive.
 - [x] Upload the document to OneDrive.
 - [ ] Send an invitation to the document.
 
-#### Q69. You are working in another application and want to move text into a Word document. How can you do it?
+#### Q68. You are working in another application and want to move text into a Word document. How can you do it?
 
 - [ ] Export the text from the other application as a Word document.
 - [x] Use the Insert command and select the Word document.
 - [ ] Select the text and save it as Word document.
 - [ ] Use the Clipboard to copy and paste text into the Word document.
 
-#### Q70. What is typically created as the first page of a document and contains information such as the document title and author?
+#### Q69. What is typically created as the first page of a document and contains information such as the document title and author?
 
 - [x] cover page
 - [ ] master page
 - [ ] blank page
 - [ ] table of contents page
 
-#### Q71. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+#### Q70. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
 - [x] check Accessibility
 - [ ] inspect document
@@ -575,81 +563,70 @@ Duplicated with Q33.
 
 [Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
 
-#### Q72. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
+#### Q71. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
 
 - [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
 - [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
 - [x] On the status bar, select Word Count to display file information, including the number of paragraphs.
 - [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
 
-#### Q73. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
+#### Q72. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
 
 - [x] On the View tab of the ribbon, click Split.
 - [ ] Save a duplicate copy of your document, then view both documents side by side.
 - [ ] On the Insert tab of the ribbon, create a bookmark for the location that you want to read.
 - [ ] On the View tab of the ribbon, click New Window.
 
-#### Q74. What is the purpose of adding alternative text (alt text) to an image in your document?
+#### Q73. What is the purpose of adding alternative text (alt text) to an image in your document?
 
 - [ ] Alt text improves accessibility in your document.
 - [x] all of these answers
 - [ ] Alt text describes what appears in the image.
 - [ ] Screen readers read the text aloud for users with visual impairments.
 
-#### Q75. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
+#### Q74. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
 
 - [ ] Insert Footnote
 - [ ] Insert Citation
 - [x] Insert Caption
 - [ ] Insert Table of Figures
 
-#### Q76. In this image, what do the red lines next to the text indicate?
-
-Duplicated with Q50.
-
-![image](https://i.imgur.com/JUbaoyO.png)
-
-- [x] Changes were made to these areas.
-- [ ] Draw tools were used in these areas.
-- [ ] Track Changes has been disabled.
-- [ ] Comments were added to these areas.
-
-#### Q77. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
+#### Q75. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
 
 - [ ] In Line with Text
 - [x] With Text Wrapping
 - [ ] Behind Text
 - [ ] Through
 
-#### Q78. You want to place a triangle shape on your page. Where do you find the shape?
+#### Q76. You want to place a triangle shape on your page. Where do you find the shape?
 
 - [ ] On the Insert tab, click SmartArt.
 - [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
 - [ ] On the Insert tab, click Icons.
 - [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
 
-#### Q79. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
+#### Q77. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
 
 - [x] Collated
 - [ ] Print One-Sided
 - [ ] Uncollated
 - [ ] Print on Both Sides
 
-#### Q80. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
+#### Q78. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
 
 - [x] Read Mode (Windows) or Focus (Mac)
 - [ ] Draft view
 - [ ] Web Layout view
 - [ ] Outline view
 
-#### Q81. You want a different header and footer to appear on alternating pages. Which option should you choose?
+#### Q79. You want a different header and footer to appear on alternating pages. Which option should you choose?
 
 - [x] Different Odd & Even Pages
 - [ ] Insert Alt Header/Footer
 - [ ] Display on Odd Pages Only
 - [ ] Different First Page
 
-#### Q82. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
+#### Q80. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
 
 - [ ] Open any document, change your font settings, and save as a template.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
@@ -658,56 +635,56 @@ Duplicated with Q50.
 
 [Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)
 
-#### Q83. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
+#### Q81. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
 - [ ] Right-click the picture and select **Crop**.
-- [ ] In **Picture Tools**, select **Remove Background**.
+- [x] In **Picture Tools**, select **Remove Background**.
 - [ ] In **Picture Tools**, select **Picture Effects**.
 - [ ] Right-click the picture and select **Size and Position**.
 
-#### Q84. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
+#### Q82. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
 
 - [ ] SmartArt
 - [ ] drop-down list
 - [x] combo box
 - [ ] check box
 
-#### Q85. There is a circle shape in your document. Which of the shape's style can you format?
+#### Q83. There is a circle shape in your document. Which of the shape's style can you format?
 
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] Outline
 - [ ] Effects
 - [ ] Fill
 
-#### Q86. A word theme is composed of settings for which document attributes?
+#### Q84. A word theme is composed of settings for which document attributes?
 
 - [ ] fonts and paragraph spacing
 - [ ] colors, fonts, paragraph spacing, and effects
 - [ ] colors, fonts, and paragraph spacing
-- [ ] colors, fonts, and effects
+- [x] colors, fonts, and effects
 
-#### Q87. When using the Compare function, the differences between two documents are outlined **\_**.
+#### Q85. When using the Compare function, the differences between two documents are outlined **\_**.
 
-- [ ] in red
+- [x] in red
 - [ ] on the most recent of the two documents
 - [ ] on the original document
 - [ ] on a third document
 
-#### Q88. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?
+#### Q86. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?
 
 - [ ] Insert an object.
 - [ ] Insert a caption.
 - [ ] Insert AutoText.
-- [ ] Insert alt text.
+- [x] Insert alt text.
 
-#### Q89. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
+#### Q87. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
 
 - [ ] Insert a column break at the beginning of the second page.
 - [ ] Insert a page break at the end of the first page.
-- [ ] Insert a section break at the end of the first page.
+- [x] Insert a section break at the end of the first page.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
-#### Q90. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
+#### Q88. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
 
     A. theme
     B. style set
@@ -717,4 +694,207 @@ Duplicated with Q50.
 - [ ] D
 - [ ] A or B
 - [ ] C or D
-- [ ] A, B, or C
+- [x] A, B, or C
+
+#### Q89. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
+
+- [x] Continuous
+- [ ] Even Page
+- [ ] Next Page
+- [ ] Odd Page
+
+#### Q90. Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?
+
+- [x] Group
+- [ ] Merge
+- [ ] Copy
+- [ ] Combine
+
+#### Q91. Which function turns a document into a webpage?
+
+- [ ] Style
+- [x] Format
+- [ ] Translate
+- [ ] Transform
+
+#### Q92. Which is not a text wrapping option for a picture?
+
+- [x] justify
+- [ ] through
+- [ ] behind text
+- [ ] tight
+
+#### Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?
+
+- [ ] In paragraph settings, click Indent and Spacing > pagination and select Keep with next
+- [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
+- [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
+- [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
+
+#### Q94. Double clicking in the left margin will \_ the paragraph to the right.
+
+- [ ] double indent
+- [x] select
+- [ ] delete
+- [ ] underline
+
+#### Q95. When using Track Changes, what formatting indicates that text has been deleted?
+
+- [x] strikethrough
+- [ ] wavy line
+- [ ] italic
+- [ ] underline
+
+#### Q96. What action allows you to quickly access a specific document from your list of saved files?
+
+- [ ] Pin to list
+- [ ] Add to chooser
+- [x] Mark as favorite
+- [ ] Drag to Home tab
+
+#### Q97. When you create a macro, you can assign it to a **\_**. (Select all that apply.)
+
+    A. keyboard shortcut
+    B. specific user
+    C. style pane
+    D. group on the ribbon
+
+- [ ] D
+- [x] A
+- [ ] A, C, D
+- [ ] A, B, C
+
+[Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)
+
+#### Q98. Both boxes contain a white arrow, but it is visible only in the second box. What command was applied to the second box to make the arrow visible?
+
+![Q98.png](images/Q98.png)
+
+- [ ] Bring to front
+- [ ] WordArt
+- [ ] Group
+- [x] Send to back
+
+#### Q99. Which selecton handle should you drag to rotate the object?
+
+![Q99.png](images/Q99.png)
+
+- [ ] G
+- [ ] E
+- [x] A
+- [ ] C
+
+#### Q100. You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?
+
+- [ ] Insert a new comment
+- [ ] Reply to the comment
+- [x] Delete the comment
+- [ ] Resolve the comment
+
+#### Q101. What action allow you to quickly access a specific docuemnt from your list of saved file?
+
+- [ ] List
+- [ ] Go to file
+- [x] Bookmark
+- [ ] Jump
+
+#### Q102. Which page orientation should you select to accomdate a wide chart or table?
+
+- [ ] Wide
+- [ ] Potrait
+- [x] Landscape
+- [ ] None of the above
+
+#### Q103. For what task can you not use the style inspector?
+
+- [ ] displaying the paragraph formatting at the insertion point
+- [ ] resestting or clearing paragraph or text-level formatting
+- [x] recommending style changes for improved accessibility
+- [ ] displaying the text-level formatting at the insertion point
+
+#### Q104. Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?
+
+- [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
+- [ ] Add your terminology to the default Word dictionary
+- [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
+- [x] Create a custom dictionary that includes your specific terminology
+
+[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
+
+#### Q105. What happens when you resolve a comment?
+
+- [ ] The comment is deleted
+- [ ] There is no change to the comment
+- [ ] A reply is added to the comment
+- [x] The comment appears dimmed
+
+#### Q106. Using the Styles group in Word lets you quickly **\_\_**?
+
+- [ ] apply frames and artistic effects to graphics
+- [ ] modify page margins
+- [ ] apply a different theme
+- [x] apply styles for heading levels, body text, and titles
+
+#### Q107. You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?
+
+- [ ] Citation
+- [ ] Table of Contents
+- [x] Cross-Reference
+- [ ] Table of Figures
+
+#### Q108. When are mirrored margins typically used?
+
+- [x] when printing on both sides of the paper
+- [ ] when the document has a header or a footer
+- [ ] when the text is formatted into multiple columns
+- [ ] when you need all the margins to be the same size
+
+* Explain:
+  > Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
+
+#### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
+
+- [ ]Save a copy of the file and type over it for each new letter.
+- [ ]Set the file as default theme.
+- [ ]Use the Format Painter to apply the format to new letters.
+- [x]Create a template by saving the file as a .dot file.
+
+explain:
+
+> 1. The best way to ensure that all your letters consistently have a professional-looking format is by creating a template.
+> 2. By saving the file as a .dot (Word template) file, you can easily access it each time you need to write a new letter and start with the pre-defined formatting. This method allows you to maintain consistency and save time by not having to recreate the format manually for each new letter.
+
+#### Q110. Which style type should you create in order to control font, font color, tab positions, and line breaks?
+
+- [ ] table
+- [ ] hybrid
+- [ ] character
+- [x] paragraph
+
+[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
+[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
+
+#### Q109. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
+
+- [ ] No Markup
+- [ ] Compare
+- [x] Version History
+- [ ] Track Changes
+
+* Explain
+  > Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
+
+#### Q111. What tasks are required to create a template from an existing document?
+
+    A. Remove content specific to the existing document.
+    B. Create a template folder for the file.
+    C. Save the file as a template(.dotx) file.
+    D. Open the template and use it.
+
+- [x] A, C
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] B, C, D
+
+[Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
+[Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)
