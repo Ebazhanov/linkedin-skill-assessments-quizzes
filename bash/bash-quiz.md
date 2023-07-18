@@ -53,6 +53,8 @@ echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 - [ ] 3
 - [ ] 600
 
+[reference](https://www.cyberciti.biz/faq/bash-scripting-using-awk/). AWK is a programming language that is designed for processing text-based data, either in files or data streams, or using shell pipes. In other words you can combine awk with shell scripts or directly use at a shell prompt.
+
 #### Q5. The command below will search the root filesystem for files named "finance.db". In this context, what information is being sent to /dev/null?
 
 ```bash
