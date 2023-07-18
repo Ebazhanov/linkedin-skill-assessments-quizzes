@@ -147,6 +147,9 @@
 - [ ] Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
 
+[Reference](https://www.infoworld.com/article/3029325/exploring-association-aggregation-and-composition-in-oop.html#:~:text=Association%20in%20object%20oriented%20programming&text=An%20association%20is%20a%20“using,and%20there%20is%20no%20owner.)  
+Association is a semantically weak relationship (a semantic dependency) between otherwise unrelated objects. An association is a “using” relationship between two or more objects in which the objects have their own lifetime and there is no owner.
+
 #### Q22. How are user stories different from use cases?
 
 - [x] User Stories are shorter and less detailed.
