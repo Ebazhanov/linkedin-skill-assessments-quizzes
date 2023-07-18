@@ -87,6 +87,8 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
 - [x] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
+[reference](http://redsymbol.net/articles/unofficial-bash-strict-mode/). The set -e option instructs bash to immediately exit if any command [1] has a non-zero exit status. You wouldn't want to set this for your command-line shell, but in a script it's massively helpful. In all widely used general-purpose programming languages, an unhandled runtime error - whether that's a thrown exception in Java, or a segmentation fault in C, or a syntax error in Python - immediately halts execution of the program; subsequent lines are not executed.
+
 #### Q9. The **\_** keyword pauses the script to get input from standard input.
 
 - [ ] get
