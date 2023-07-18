@@ -40,6 +40,8 @@ done
 - [ ] `{ command; }`
 - [ ] `(( command ))`
 
+[reference](https://en.wikiversity.org/wiki/Bash_programming/Subshells). Subshells are one way for a programmer to capture (usually with the intent of processing) the output from a program or script. Commands to be run inside a subshell are enclosed inside single parentheses and preceeded by a dollar sign: DIRCONTENTS=$(ls -l) echo ${DIRCONTENTS}
+
 #### Q4. Using "awk", what would the output of this command string be?
 
 ```bash
