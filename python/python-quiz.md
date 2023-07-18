@@ -272,8 +272,8 @@ area
 - [ ] If the return keyword is absent, the function will return `True`.
 - [ ] The function will enter an infinite loop because it won't know when to stop executing its code.
 
-When the return statement is `None` or has no value or there is no return statement the function returns `None`.
-[reference](https://www.askpython.com/python/python-return-statement#)
+[reference](https://www.askpython.com/python/python-return-statement#). When the return statement is `None` or has no value or there is no return statement the function returns `None`.
+
 
 #### Q23. What is the purpose of the `pass` statement in Python?
 
@@ -1993,6 +1993,9 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [x] columnsMat1; rowsMat2;
 - [ ] columnsMat1; columnsMat2;
 - [ ] columnsMat2; rowsMat1;
+
+[reference](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices#).
+A matrix can be multiplied by any other matrix that has the same number of rows as the first has columns. I.E. A matrix with 2 columns can be multiplied by any matrix with 2 rows
 
 #### Q144. What is the output of this comprehension?
 
