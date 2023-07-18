@@ -145,6 +145,8 @@ mysql < file.sql > out.txt
 - [x] Ctrl + R
 - [ ] Alt + R
 
+Note: On the Mac it will show `bck-i-search:` instead of `(reverse-i-search)`.
+
 #### Q15. Which arithmetic expression will give the most precise answer?
 
 - [ ] `var=$( expr 10 / 8 )`
