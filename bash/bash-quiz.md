@@ -69,6 +69,13 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 - [ ] `cat textfile | sed '/^$/d`
 - [ ] `sed -i 's/^$//' textfile`
 
+[reference](https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions)   
+sed : sed is a stream editor. A stream editor is used to perform basic text transformations on an input stream.   
+-i[SUFFIX] : This option specifies that files are to be edited in-place.   
+'/^$/d' : regex is between the //. ^ is the beginning of the line, $ is the end of the line. ^$ means the start and end have nothing in between.  
+d : Delete the pattern space; immediately start next cycle.  
+Warning, this example above will not work on a mac terminal due to different UNIX flavours.  
+
 #### Q7. Assuming that user1 existed, what would be the result of this command string?
 
 ```bash
