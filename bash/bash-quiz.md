@@ -62,6 +62,8 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 - [ ] the names of files that match finance.db
 - [ ] information sent to the standard output-that is, the path to files the find command has located
 
+[reference](https://www.cyberciti.biz/faq/how-to-redirect-standard-error-in-bash/). Syntax to redirect stderr (standard error) to a file: `command 2> errors.txt`.
+
 #### Q6. To permanently remove empty lines from a file called textfile, which command could you use?
 
 - [x] `sed -i '/^$/d' textfile`
