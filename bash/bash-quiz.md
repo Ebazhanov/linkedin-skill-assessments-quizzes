@@ -127,6 +127,8 @@ mysql < file.sql > out.txt
 - [x] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
+[reference](https://en.wikipedia.org/wiki/Setuid#:~:text=The%20Linux%20and%20Unix%20access,to%20change%20behaviour%20in%20directories.). The Linux and Unix access rights flags setuid and setgid (short for set user identity and set group identity)[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories. 
+
 #### Q13. In order to extract text from the first column of file called textfile, which command would you use?
 
 - [ ] `cat {$1,textfile}`
