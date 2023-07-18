@@ -1258,12 +1258,12 @@ np.ones([1,2,3,4,5])
 {x for x in range(100) if x%3 == 0}
 ```
 
-- [ ] A set of all the multiples of 3 less than 100.
+- [x] A set of all the multiples of 3 less than 100.
 - [ ] A set of all the number from 0 to 100 multiplied by 3.
-- [x] A list of all the multiples of 3 less than 100.
+- [ ] A list of all the multiples of 3 less than 100.
 - [ ] A set of all the multiples of 3 less than 100 excluding 0.
 
-[reference](https://www.w3schools.com/python/python_lists_comprehension.asp) It is a `List Comprehension` so it will return a 'list`!
+[reference](https://www.geeksforgeeks.org/comprehensions-in-python/) It is a `Set Comprehension` because in '{}', curly brackets, so it will return a 'Set`!
 
 #### Q87. What does the // operator in Python 3 allow you to do?
 
