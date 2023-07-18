@@ -93,6 +93,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It would print the UID, comment, and home directory of user1 separated by hyphens.
 - [x] It would show the username, UID, and home directory of user1 separated by hyphens.
 
+[reference](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/). Traditionally, the /etc/passwd file is used to keep track of every registered user that has access to a system. The /etc/passwd file is a colon-separated file that contains the following information: 1-`Username`, 2-`Password`, 3-`User ID (UID)`, 4-`Group ID (GID)`, 5-`User ID Info (GECOS)`, 6-`Home directory`, 7-`Command/shell`
 #### Q8. What happens if you use the `"set -e"` in a Bash script?
 
 - [ ] It will cause Bash to exit if a function or subshell returns a nonzero status code.
