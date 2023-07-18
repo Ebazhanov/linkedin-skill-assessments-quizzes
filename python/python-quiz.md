@@ -2271,6 +2271,9 @@ print("programming".center())
 - [x] Error says `TypeError: center expected at least 1 argument, got 0`.
 - [ ] None of the above.
 
+[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is default) as the fill character.  
+Syntax: `string.center(length, character)` where `length` is required!
+
 #### Q159. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
