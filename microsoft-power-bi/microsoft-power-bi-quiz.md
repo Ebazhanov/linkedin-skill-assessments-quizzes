@@ -92,8 +92,10 @@ NOTE: DAX does not have IFX or IFS functions. The correct answer is B.
 
 - [ ] A,C
 - [ ] C
-- [ ] A, B, C
-- [x] A, B, C, D
+- [x] A, B, C
+- [ ] A, B, C, D
+
+NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C 
 
 #### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
