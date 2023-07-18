@@ -172,6 +172,8 @@ Note: On the Mac it will show `bck-i-search:` instead of `(reverse-i-search)`.
 - [ ] `var=$(( 10 / 8 ))`
 - [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
+[reference](https://www.geeksforgeeks.org/bc-command-linux-examples/). The bc command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations. The division with 2 digit precision will be passed to `bc`, evaluated, and assigned to the variable.
+
 #### Q16. What is the result of this script?
 
 ```bash
