@@ -80,7 +80,7 @@ sed : sed is a stream editor. A stream editor is used to perform basic text tran
 -i[SUFFIX] : This option specifies that files are to be edited in-place.   
 '/^$/d' : regex is between the //. ^ is the beginning of the line, $ is the end of the line. ^$ means the start and end have nothing in between.  
 d : Delete the pattern space; immediately start next cycle.  
-Warning, this example above will not work on a mac terminal due to different UNIX flavours.  
+Warning, this example above will not work on a mac terminal due to different UNIX flavours. There is a way to make it work on a mac adding an extra flag `-e`, or even just `--` (found on [StackOverflow](https://stackoverflow.com/questions/4247068/sed-command-with-i-option-failing-on-mac-but-works-on-linux)):  `sed -i -e '/^$/d' textfile.txt`   
 
 #### Q7. Assuming that user1 existed, what would be the result of this command string?
 
