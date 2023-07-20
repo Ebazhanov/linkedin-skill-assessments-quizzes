@@ -209,6 +209,10 @@ echo "${VAR#*/html}"
 - [ ] `/var/www/html/website.com/`
 - [ ] Nothing will be echoed on the screen.
 
+[reference]()
+What is happening here quoting the POSIX shell specification: `${parameter#[word]}`. Remove Smallest Prefix Pattern. The word shall be expanded to produce a pattern. The parameter expansion shall then result in parameter, with the smallest portion of the prefix matched by the pattern deleted.  
+For instance `${VAR#?}` expands to the value of $VAR with the first character deleted. And `${VAR#*/html}` expands to include all characters to and including the `/html` text which will be deleted from the variable producing the output of `/website.com/html/`
+
 #### Q19. If prompted for text at the standard input, you can tell the command you're done entering text with what key combination?
 
 - [ ] Ctrl + A (Windows) or Command + A (Mac)
