@@ -2170,10 +2170,10 @@ else:
 
 ```
 
-- [x] C
+- [ ] C
 - [ ] A B
 - [ ] B
-- [ ] A
+- [x] A
 
 #### Q150. What is the maximum length of a Python identifier?
 
