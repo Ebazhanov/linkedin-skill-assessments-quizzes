@@ -1132,3 +1132,10 @@ fi
 - [ ] Condition 1 would fail and Condition 2 would succeed.
 
 **Explanation:** The script as written outputs `line 3: [: =: unary operator expected`. Define variable and assign value `foo="bar"`, and both conditions will succeed.
+
+#### Q87. Which variable contains the number of arguments passed to a script from the command line?
+
+- [x] `$#`
+- [ ] `$@`
+- [ ] `0`
+- [ ] `$!`
