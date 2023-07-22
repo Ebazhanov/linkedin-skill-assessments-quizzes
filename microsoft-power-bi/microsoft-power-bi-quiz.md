@@ -114,9 +114,11 @@ NOTE: Documentation talks about blog posts, websites, emails or social media, bu
 #### Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
 - [ ] filter and group
-- [ ] sort and filter
+- [x] sort and filter
 - [ ] sort, filter, and group
-- [x] sort and group
+- [ ] sort and group
+
+NOTE: Power BI won't group your text, but it does filter and sort it. 
 
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
