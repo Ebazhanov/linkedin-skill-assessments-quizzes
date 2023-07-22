@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1416-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1417-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > ⚠️ DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
@@ -1966,6 +1966,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MelekZmerli"><img src="https://avatars.githubusercontent.com/u/85803635?v=4?s=100" width="100px;" alt="Melek"/><br /><sub><b>Melek</b></sub></a><br /><a href="#design-MelekZmerli" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MelekZmerli" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://nakigoe.github.io"><img src="https://avatars.githubusercontent.com/u/44026576?v=4?s=100" width="100px;" alt="moesocio"/><br /><sub><b>moesocio</b></sub></a><br /><a href="#design-moesocio" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=moesocio" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/alanJames00"><img src="https://avatars.githubusercontent.com/u/112971020?v=4?s=100" width="100px;" alt="Alan James"/><br /><sub><b>Alan James</b></sub></a><br /><a href="#design-alanJames00" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alanJames00" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
