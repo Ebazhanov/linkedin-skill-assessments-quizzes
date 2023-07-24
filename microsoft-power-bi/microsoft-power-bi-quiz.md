@@ -122,13 +122,12 @@ NOTE: Power BI won't group your text, but it does filter and sort it.
 
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
-- [x] Press Ctrl+Z.
+- [ ] Press Ctrl+Z.
 - [ ] Select Undo from the toolbar.
-- [ ] You cannot undo the deletion of a dashboard.
+- [x] You cannot undo the deletion of a dashboard.
 - [ ] Recover it from the Recycle Bin.
 
-1. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
-2. [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
+NOTE: You cannot undo the deletion of a dashboard in PowerBI Service. The links that were previously provided addressed PowerBI Desktop, not PowerBI Service.
 
 #### Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a **\_** table that contains product information is a \_ table .
 
