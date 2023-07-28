@@ -174,9 +174,11 @@ NOTE: You cannot undo the deletion of a dashboard in PowerBI Service. The links 
 #### Q19. What tool can you use in Power BI Desktop to reduce data?
 
 - [ ] report editor
-- [ ] Power Query Editor
+- [x] Power Query Editor
 - [ ] dashboard
-- [x] data modeler
+- [ ] data modeler
+
+NOTE: Data gets processed and reduced in the Power query editor. Corect answer is B.
 
 #### Q20. What is NOT a valid data connection type for Power BI Desktop?
 
