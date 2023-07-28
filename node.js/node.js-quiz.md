@@ -684,9 +684,10 @@ server.listen(port, hostname, () => {
 });
 ```
 
-- [x] `server running at http://127.0.0.1:3000`
+- [ ] `server running at http://127.0.0.1:3000`
 - [ ] `server running at port 3000`
 - [ ] `server running at http://localhost:3000/`
 - [ ] `server running at http://localhost:4000/`
+- [x] `Hello World`
 
 [Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
