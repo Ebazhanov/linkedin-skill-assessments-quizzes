@@ -618,39 +618,21 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
-#### Q73. Which choice is a core module in Node?
-
-- [x] crypto
-- [ ] chalk
-- [ ] webpack
-- [ ] request
-
-[Reference](https://nodejs.org/api/documentation.html)
-
-#### Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+#### Q73. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
 
 - [ ] resolve
 - [ ] reverse
 - [x] lookup
 - [ ] resolve4
 
-#### Q75. What is one way to check that a value is a date object in Node?
-
-- [ ] console.isDate(value)
-- [ ] util.date(value)
-- [ ] assert.isDate(value)
-- [x] util.types.isDate(value)
-
-[Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
-
-#### Q76. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
+#### Q74. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
 
 - [ ] the local .modules folder, then the parents' node_modules folder
 - [x] the local node_modules folder, then the parents' node_modules folder
 - [ ] the .modules folder under the home directory
 - [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
 
-#### Q77. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
+#### Q75. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
 
 - [ ] net
 - [x] openssl
@@ -659,14 +641,14 @@ console.log(person);
 
 [Reference](https://nodejs.org/en/docs/meta/topics/dependencies/)
 
-#### Q78. What is the main purpose of the package-lock.json file?
+#### Q76. What is the main purpose of the package-lock.json file?
 
 - [ ] to be a system file
 - [x] to provide an exact, single representation of the dependency tree
 - [ ] to serve as a module to export dependencies
 - [ ] to be a log for the application
 
-#### Q79. What response will you get when you send a get requests to the server with this code?
+#### Q77. What response will you get when you send a get requests to the server with this code?
 
 ```
 const http = require('http');
