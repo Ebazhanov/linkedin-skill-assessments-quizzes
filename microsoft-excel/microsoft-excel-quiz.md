@@ -1331,3 +1331,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] NPV
 - [ ] Goal Seek
 - [ ] Scenario Manager
+
+#### Q150. You have filtered a table. How can you tell which column a table is sorted by?
+
+- [ ] The sorted by column heading will be italicized
+- [ ] The sorted by column heading will be bold
+- [x] The sorted by column heading filter will have an arrow icon
+- [ ] The sorted by column will be lightly shaded
