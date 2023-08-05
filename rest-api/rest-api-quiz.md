@@ -540,3 +540,10 @@
 - [ ] 404 Not Found
 
 [Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
+
+#### Q70. What is the recommended method and URL pattern for creating a specific calendar event?
+
+- [x] POST /events
+- [ ] POST /createEvent
+- [ ] POST /addNewEvent
+- [ ] GET /events
