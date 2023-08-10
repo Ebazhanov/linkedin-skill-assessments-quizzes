@@ -4,12 +4,12 @@
 
 ## If I found something weird or incorrect, what should I do?
 
-> You can create a PR to your liking and add any improvements, so we can quickly merge it
+> You can create a PR to your liking and add any improvements, so we can quickly merge it.
 
 ## How can I get on the list of contributors?
 
-> after your PR is merged, you will be automatically become a contributor and will be appeared in the Readme.md as the contributor.
+> After your PR is merged, you will be automatically become a contributor and will be appeared in the Readme.md as the contributor.
 
 ## PLEASE
 
-> add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about
+> Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.

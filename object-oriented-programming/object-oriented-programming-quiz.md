@@ -128,10 +128,12 @@
 
 #### Q19. Which statement is true?
 
-- [x] A default parameter's constructor is not equivalent to the default constructor
+- [ ] A default parameter's constructor is not equivalent to the default constructor
 - [ ] A default constructor is inherited from a parent class
-- [ ] A default constructor can be called explicitly
+- [x] A default constructor can be called explicitly
 - [ ] A default constructor cannot be defined by the coder
+
+[reference](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)#:~:text=The%20constructors%20can%20be%20called,also%20called%20the%20shorthand%20method.&text=Example%20e%20%3D%20Example(0%2C,50)%3B%20%2F%2F%20Implicit%20call.) It is even mentioned in Wikipedia: "The constructors can be called explicitly or implicitly. The method of calling the constructor implicitly is also called the shorthand method."
 
 #### Q20. Which of the following is NOT an advantage of using getters and setters?
 
@@ -146,6 +148,9 @@
 - [ ] Association is the process where model elements cooperate to provide higher-level behavior.
 - [ ] Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
+
+[Reference](https://www.infoworld.com/article/3029325/exploring-association-aggregation-and-composition-in-oop.html#:~:text=Association%20in%20object%20oriented%20programming&text=An%20association%20is%20a%20“using,and%20there%20is%20no%20owner.)  
+Association is a semantically weak relationship (a semantic dependency) between otherwise unrelated objects. An association is a “using” relationship between two or more objects in which the objects have their own lifetime and there is no owner.
 
 #### Q22. How are user stories different from use cases?
 
@@ -177,6 +182,8 @@
 - [ ] a class-based language
 - [ ] a procedure-oriented language
 - [ ] if classes are supported, polymorphism will be supported
+
+[reference](https://www.tutorialspoint.com/what-is-the-difference-between-object-oriented-programming-and-object-based-programming#:~:text=Object%20Based%20Languages,-Object%20based%20languages&text=They%20does%20not%20support%20inheritance,not%20supports%20built%2Din%20objects.)
 
 #### Q25. Two classes combine private data members and provide public member functions to access and manipulate those data members. Where is abstraction used?
 
@@ -263,9 +270,9 @@
 
 #### Q36. What is the purpose of static constructor?
 
-- [x] to initialize all the members with static value
+- [ ] to initialize all the members with static value
 - [ ] to delete the static members when not required
-- [ ] to initialize the static members of class
+- [x] to initialize the static members of class
 - [ ] to clear all the static members' initialized values
 
 #### Q37. What are CRC Cards?
@@ -310,10 +317,7 @@
 - [ ] to protect attributes from unwanted changes
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
-- [x] to avoid writing duplicate code
-- [ ] to separate class behavior from the more general
-
-**NOTE:** I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
+- [x] to separate class behavior from the more general
 
 #### Q43. In addition to attributes and behaviours, what quality must a class possess?
 
@@ -387,8 +391,8 @@
 
 #### Q53. What is the function of a user diagram?
 
-- [ ] It connects actors to use cases.
-- [x] It links actors to roles played in all use cases.
+- [x] It connects actors to use cases.
+- [ ] It links actors to roles played in all use cases.
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
@@ -644,10 +648,10 @@ public class Honda extends Car{}
 
 #### Q84. What is the difference between an interface and an abstract class?
 
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
-- [x] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
-- [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
 
 #### Q85. What parameters are required to be passed to a class constructor?
 
@@ -704,8 +708,8 @@ public class Honda extends Car{}
 
 - [ ] only 10 levels of inheritance
 - [ ] as many levels of inheritance as required within 10 minutes
-- [ ] as many levels of inheritance as required
-- [x] only the amount of levels memory permits, divided by processor speed
+- [x] as many levels of inheritance as required
+- [ ] only the amount of levels memory permits, divided by processor speed
 
 #### Q93. What is a virtual Method?
 
@@ -762,49 +766,35 @@ public class Honda extends Car{}
 
 [Reference](https://www.w3schools.com/cpp/cpp_inheritance_multilevel.asp)
 
-#### Q100. Can you have two classes with the same name in the same proiect?
+#### Q100. Can you have two classes with the same name in the same project?
 
 - [ ] No, you cannot.
 - [ ] Yes, as long as their constructors are different.
 - [ ] Yes, as long as their methods are different.
 - [x] Yes, as long as they are in different namespaces.
 
-#### Q101. What is the difference between an interface and an abstract class?
-
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
-- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
-- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
-- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
-
-#### Q102. Objects are passed by **\_**
+#### Q101. Objects are passed by **\_**
 
 - [ ] value or reference, depending on the programming language used
 - [ ] value
-- [ ] value or reference, depending on the program
+- [ ] value or reference, depending on program
 - [x] reference
 
-#### Q103. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
+#### Q102. If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the function and their new value will return to the caller?
 
 - [ ] Yes, but only if it is a reference and not a primitive class.
 - [ ] Yes, since the value is a reference even though it is passed by value, it can be done.
 - [ ] No, you will get a compilation error.
 - [x] No, a local copy will be initialized and will be lost as soon as it is out of scope.
 
-#### Q104. What is encapsulation?
+#### Q103. What is encapsulation?
 
 - [ ] defining classes by focusing on what is important for a purpose
 - [x] defining data and relevant methods together in the same class
 - [ ] making all methods private
 - [ ] using words to define classes
 
-#### Q105. object are passed by \_\_\_?
-
-- [x] value or reference, depending on the programmin language used
-- [ ] reference
-- [ ] value
-- [ ] value or reference, depending on program
-
-#### Q106. What is a method?
+#### Q104. What is a method?
 
 - [x] a function associated with data and behavior
 - [ ] the exact same thing as a function and subroutine

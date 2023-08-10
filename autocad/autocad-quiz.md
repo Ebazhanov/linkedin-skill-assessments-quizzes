@@ -358,7 +358,7 @@
 
 - [ ] the status bar
 - [ ] the navigation bar
-- [ ] the Quick Access toolbar (QAT)
+- [x] the Quick Access toolbar (QAT)
 - [ ] the info bar
 
 #### Q48. When drafting with object snaps and object snap tracking, what other drafting setting can you use to set object snap tracking points?
@@ -416,15 +416,17 @@
 - [x] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a FUZZ DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MINIGAP DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MIN GAP DISTANCE. This is the minimum gap distance for automatic joining.
+      
+![q55](images/q75_autocad.png?raw=png)
 
-#### Q56. When creating a block with attributes, why should you use underscores between words in the attribute tag?
+#### Q56. When creating a block with attributes, why should you use underscores (_) between words in the attribute tag?
 
 - [ ] Attribute tags must have an underscore to be recognized for data extraction.
 - [ ] Attribute tags do not allow spaces.
-- [x] Attribute tags need an underscore to be recognized by the BLOCK command.
-- [ ] Attribute tags must have an underscore in them.
+- [x] Attribute tags need an underscore to be recognized by the Block command (BLOCK).
+- [ ] Attribute tags need an underscore to be visible on the drawing.
 
-#### Q57. To insert a table in a drawing, you use the TABLE command. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
+#### Q57. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
 
 - [ ] a table dimension style
 - [x] a table style
@@ -511,7 +513,7 @@
 #### Q69. When using the Polyline (PLINE) command to draw an arrowhead, what polyline properties do you need to use?
 
 - [ ] the Halfwidth setting
-- [x] starting width and ending widths
+- [x] starting width and ending width
 - [ ] polyline start and polyline end
 - [ ] the START and END variables in the PLINE command
 

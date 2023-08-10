@@ -118,7 +118,7 @@
 - [ ] Machine learning servers can host larger databases.
 - [ ] The algorithms can run on unstructured data.
 
-#### Q17. You work for an insurance company. Which machine learning project would add the most value for the company!
+#### Q17. You work for an insurance company. Which machine learning project would add the most value for the company?
 
 - [ ] Create an artificial neural network that would host the company directory.
 - [x] Use machine learning to better predict risk.
@@ -285,7 +285,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] unsupervised learning
 - [ ] algorithms
 
-**Explanation**: This one is pretty straight forward and a fundamental concept.
+**Explanation**: This one is pretty straightforward and a fundamental concept.
 [Source:](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data?
@@ -369,7 +369,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 - [ ] regression analysis
 - [ ] unsupervised learning
-- [ ] high -variance modeling
+- [ ] high-variance modeling
 - [x] ensemble modeling
 
 #### Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?
@@ -407,7 +407,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] unsupervised machine learning
 - [x] reinforcement learning
 
-#### Q55. The model will be trained with data in one single batch is known as ?
+#### Q55. The model will be trained with data in one single batch is known as?
 
 - [ ] Batch learning
 - [ ] Offline learning
@@ -478,7 +478,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 **Explanation**: The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.
 
-#### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
+#### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many customers complain that they get very few matches. What is a likely problem with your model?
 
 - [ ] Your training set is too large.
 - [ ] You are underfitting the model to the data.
@@ -525,7 +525,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Help avoiding the vanishing/exploding gradient problem
 - [ ] Their ability to activate each neurons individually.
 
-#### Q70. Which loss function would fit best in a categorical (discrete) supervised learning ?
+#### Q70. Which loss function would fit best in a categorical (discrete) supervised learning?
 
 - [ ] kullback-leibler (KL) loss
 - [x] Binary Crossentropy
@@ -560,7 +560,7 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q73. You need to quickly label thousands of images to train a model. What should you do?
 
 - [ ] Set up a cluster of machines to label the images
-- [ ] Create a subset of the images and label then yourself
+- [ ] Create a subset of the images and label them yourself
 - [x] Use naive Bayes to automatically generate labels.
 - [ ] Hire people to manually label the images
 
@@ -573,7 +573,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] high bias, high variance
 - [x] low bias, low variance
 
-  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`
+  `// since the data is accurately classified and is neither overfitting nor underfitting the dataset`
 
 #### Q75. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?
 
@@ -717,7 +717,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 - [ ] Bias is when your predicted values are scattered.
 - [x] Bias is the gap between your predicted value and the outcome.
-- [ ] Bias is when your data is wrong for differnet reasons.
+- [ ] Bias is when your data is wrong for different reasons.
 - [ ] Bias is when your values are always off by the same percentage.
 
 #### Q94. Which project might be best suited for supervised machine learning?
@@ -879,7 +879,7 @@ Which of these statements do you agree with?
 - [x] reinforcement learning.
 - [ ] supervised learning.
 
-**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the enviroment and get rewards or penalizations [Source](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)
+**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the environment and gets rewards or penalizations [Source](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)
 
 #### Q114. An organization that owns dozens of shopping malls want to create a machine learning product that will use facial recognition to identify customers. What is one of the main challenges with developing such a product?
 

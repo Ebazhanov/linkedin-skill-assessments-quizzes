@@ -10,8 +10,8 @@ printf("%d", !b);
 
 - [ ] False
 - [ ] 0
-- [x] 1
-- [ ] This code has an error.
+- [ ] 1
+- [x] This code has an error.
 
 #### Q2. Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)
 
@@ -1556,3 +1556,134 @@ X+=a;
 - [ ] 3
 
 **Explanation :** `+=` means increasing value. So `x += a` is equivalent to `x = x + a`
+
+#### Q99. Once you are done writing to a file, what method will you call on the `ofstream` to notify the operating system?
+
+- [ ] printout()
+- [x] close()
+- [ ] destroy()
+- [ ] flush()
+
+#### Q100. Which choice is not a C++ keyword?
+
+-[ ] static_assert -[ ] reinterpret_cast -[x] comPl -[ ] alignas
+
+#### Q101. The size_in_bits function seems to take any type of parameter. This can be done by overloading the function, or by letting the compiler take care of it by writing a template. Which choice is an implementation of that template?
+
+```cpp
+int main()
+{
+tout « size_in_bits(21) « endl;
+tout « size_in_bits('f') « endl;
+tout « size_in_bits(32.1f) « endl;
+tout « size_in_bits(32.1) « endl;
+return 0;
+}
+```
+
+-[X] A
+
+```cpp
+template <typename T>
+size_t size_in_bits(const T& a){
+return sizeof(a)*8;
+}
+```
+
+-[ ] B
+
+```cpp
+template size_t size_in_bits(const {int,float,double,char,long}& a){
+return sizeof(a)*8;
+}
+```
+
+-[x] C
+
+```cpp
+template <typename T {int,float,double,char,long>
+size_t size_in_bits(const T& a){
+return sizeof(a)*8;
+}
+```
+
+-[ ] D
+
+```cpp
+size_t size_in_bits(void * a){
+return sizeof(a)*8;
+}
+```
+
+#### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
+
+-[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream
+
+#### Q103. What will this object-oriented program print?
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Vehicle {
+public:
+	string fuel = "none";
+};
+
+class MotorizedVehicle : public Vehicle {
+public:
+	string fuel = "fossil";
+};
+
+class NextgenMotorizedVehicle : public MotorizedVehicle {
+public:
+	string fuel = "hydrogen";
+};
+
+int main() {
+	MotorizedVehicle aCar;
+	cout << aCar.fuel;
+	return 0;
+}
+```
+
+-[X] fossil -[ ] fossil none -[ ] hydrogen -[ ] none
+
+#### Q104. The program below is handling a stack container. What is the output of running the program?
+
+```cpp
+#include <iostream>
+#include <stack>
+
+int main()
+{
+	std::stack<int> stack;
+	stack.push(1);
+	stack.push(2);
+	stack.push(3);
+
+	stack.pop();
+
+	stack.push(4);
+
+	stack.top();
+	stack.pop();
+
+	std::cout << stack.top();
+}
+```
+
+[] 1
+[x] 2
+[] 3
+[] 4
+
+#### Q105. Which choice is a valid way to overload the ternary conditional operator?
+
+- [ ] `void& operator ?:(const bool cond, const void& iftrue, const void& iffalse);`
+- [x] `The ternary operator is not overloadable.`
+- [ ] `void& operator conditional(const bool cond, const void& iftrue, const void& iffalse);`
+- [ ] `void* operator ?:(const bool cond, const void* iftrue, const void* iffalse);`
+
+[Reference](https://en.cppreference.com/w/cpp/language/operators)
