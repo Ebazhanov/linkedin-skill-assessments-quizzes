@@ -1004,3 +1004,13 @@ vals.insert("5")
 - [ ] Four
 
 Reference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)
+
+ #### Q73. What is the base class in this code ?
+
+class LSN: MMM{
+}
+
+- [x] MMM
+- [ ] LSN
+- [ ] There is no base class.
+- [ ] This code is invalid.
