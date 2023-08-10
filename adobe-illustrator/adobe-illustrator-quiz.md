@@ -713,3 +713,10 @@
 - [ ] Make a pattern.
 
 [Adobe Help: Combine objects](https://helpx.adobe.com/illustrator/using/combining-objects.html)
+
+#### Q92. what does the outline color of a selected path or bounding box indicate?
+
+- [ ] the layer containing the path
+- [ ] the current stroke profile
+- [ ] the artboard containing the path
+- [x] the current stroke color
