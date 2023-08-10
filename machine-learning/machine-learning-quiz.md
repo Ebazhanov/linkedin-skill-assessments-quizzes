@@ -889,3 +889,20 @@ Which of these statements do you agree with?
 - [ ] Most machine learning algorithms are not designed for video.
 
 **Explanation**: there are many ethical questions about consent and privacy in machine learning algorithms [Source](https://www.nature.com/articles/d41586-020-03187-3)
+
+
+
+#### Q115. What is the difference between unstructured and structured data ?
+ - [ ] Unstructured data is much easier to store.
+ - [x] Structured data has clearly defined data types.
+ - [ ] Unstructured data is always text.
+ - [ ] Structured data is much more popular.
+
+
+#### Q116. You work for a startup that is trying to develop a software tool that will scan the internet for  pictures of people using specific products. The chief executive is very interested in using machine learning algorithms. what would you recommend as the best place to start ?
+
+- [ ] Create a data lake with an unsupervised machine learning alogrithm.
+- [ ] Using an unsupervised machine learning algorithm to cluster together all the photographs
+- [x] Use supervised machine learning to classify photographs based on a predetermined training set.
+- [ ] Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.
+
