@@ -576,6 +576,13 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] Singleton
 - [x] Adapter
 
+#### Q74. What is IL?
+
+- [x] an object-oriented programming language that is a partially compiled code that .NET developers will then compile to native machine code
+- [ ] a programming language methodology that enables developers to change data using a succinct yet expressive syntax by instilling Microsoft .NET-based languages with the capability to make queries
+- [ ] a programming language that .NET developers use, and that represents the lowest possible level for a language that humans can still read
+- [ ] a programming language that .NET developers cannot use, and that represents the lowest possible level for a language that humans cannot read
+
 #### Q75. What is the difference between covariance and contravariance?
 
 - [ ] In C#, covariance and contravariance disable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses it.

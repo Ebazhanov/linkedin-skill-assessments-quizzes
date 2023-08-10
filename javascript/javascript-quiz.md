@@ -973,21 +973,6 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
-
-```js
-useEffect(() => {
-  // do things
-}, []);
-```
-
-- [ ] componentWillUnmount
-- [ ] componentDidUpdate
-- [ ] render
-- [x] componentDidMount
-
-[Reference](https://reactjs.org/docs/react-component.html)
-
 #### Q79. What is the output of this code?
 
 ```js
@@ -1890,7 +1875,7 @@ console.log(copyCat.type, copyCat.size);
 - [x] undefined large
 - [ ] lion large
 
-[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 
 #### Q135. What does this code print to the console?
 
@@ -1967,9 +1952,11 @@ console.log(json); // print {"type":"tiger"}
 #### Q140. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
-- [ ] FileUpload
+- [x] FileUpload
 - [ ] Function
-- [x] All of the above
+- [ ] All of the above
+
+[Reference](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
 
 #### Q141. What will be the output of the following code snippet?
 
@@ -1989,6 +1976,8 @@ console.log(obj1);
 - [ ] All objects have prototype
 - [ ] None of the objects have prototype
 - [ ] None of the above
+
+[Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 #### Q143. What does … operator do in JS?
 
@@ -2109,15 +2098,15 @@ let total = sum(4, ...values);
 - [x] document.getElementById("cleverest").style.color = "pink";
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
-  
+
 #### Q155. Which line is missing from this code if you expect the code to evaluate to true?
 
 ```js
-var compare = function(test1, test2) {
-    // Missing line
-}
+var compare = function (test1, test2) {
+  // Missing line
+};
 
-compare(1078, "1078"); // yields true
+compare(1078, '1078'); // yields true
 ```
 
 - [ ] `test1==test2;`

@@ -192,3 +192,10 @@
 - [ ] Gestion des droits LiveCycle
 - [ ] Enveloppe de sécurité
 - [ ] Examen des e-mails
+
+#### Q28.A client provides a paper copy of an important document, but has lost the original file. Unfortunately, there are several misspelled words in the document. You scan the document, then convert it to a PDF using the File> Create > PDF from File... option. What can you choose to repair the file?
+
+- [x] Tools > Edit PDF
+- [ ] Tools > Export PDF
+- [ ] Tools > Print Production
+- [ ] Tools > Organize Pages

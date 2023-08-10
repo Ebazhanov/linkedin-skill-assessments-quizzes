@@ -77,7 +77,9 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] You cannot change the basis for just one report.
 - [ ] Right-click the basis shown on the right side of the report and change it to Accrual.
 - [ ] Double-click the basis and change it to Accrual.
-- [ ] In the upper-left corner of the screen, select the Accrual button.
+- [x] In the upper-left corner of the screen, select the Accrual button.
+
+[Reference]In the upper-left corner of the screen, locate and select the Accrual button. This button is typically found in the toolbar or menu options.
 
 #### Q12. Is it possible to merge two list entries?
 
@@ -466,10 +468,13 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 #### Q67. What is a QuickReport in QuickBooks?
 
+
 - [ ]  A QuickBooks report in graphical format
 - [x]  A Predesigned report that shows more detail about the data you are currently viewing on screen
 - [ ]  A snapshot of the profile and Loss report 
 - [ ]  Any QuickBooks report
+
+
 
 
 

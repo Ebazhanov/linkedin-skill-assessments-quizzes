@@ -40,6 +40,8 @@ done
 - [ ] `{ command; }`
 - [ ] `(( command ))`
 
+[reference](https://en.wikiversity.org/wiki/Bash_programming/Subshells). Subshells are one way for a programmer to capture (usually with the intent of processing) the output from a program or script. Commands to be run inside a subshell are enclosed inside single parentheses and preceeded by a dollar sign: DIRCONTENTS=$(ls -l) echo ${DIRCONTENTS}
+
 #### Q4. Using "awk", what would the output of this command string be?
 
 ```bash
@@ -50,6 +52,8 @@ echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 - [ ] 123
 - [ ] 3
 - [ ] 600
+
+[reference](https://www.cyberciti.biz/faq/bash-scripting-using-awk/). AWK is a programming language that is designed for processing text-based data, either in files or data streams, or using shell pipes. In other words you can combine awk with shell scripts or directly use at a shell prompt.
 
 #### Q5. The command below will search the root filesystem for files named "finance.db". In this context, what information is being sent to /dev/null?
 
@@ -62,12 +66,21 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 - [ ] the names of files that match finance.db
 - [ ] information sent to the standard output-that is, the path to files the find command has located
 
+[reference](https://www.cyberciti.biz/faq/how-to-redirect-standard-error-in-bash/). Syntax to redirect stderr (standard error) to a file: `command 2> errors.txt`.
+
 #### Q6. To permanently remove empty lines from a file called textfile, which command could you use?
 
 - [x] `sed -i '/^$/d' textfile`
 - [ ] `sed '/^$/d' textfile`
 - [ ] `cat textfile | sed '/^$/d`
 - [ ] `sed -i 's/^$//' textfile`
+
+[reference](https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions)   
+sed : sed is a stream editor. A stream editor is used to perform basic text transformations on an input stream.   
+-i[SUFFIX] : This option specifies that files are to be edited in-place.   
+'/^$/d' : regex is between the //. ^ is the beginning of the line, $ is the end of the line. ^$ means the start and end have nothing in between.  
+d : Delete the pattern space; immediately start next cycle.  
+Warning, this example above will not work on a mac terminal due to different UNIX flavours. There is a way to make it work on a mac adding an extra flag `-e`, or even just `--` (found on [StackOverflow](https://stackoverflow.com/questions/4247068/sed-command-with-i-option-failing-on-mac-but-works-on-linux)):  `sed -i -e '/^$/d' textfile.txt`   
 
 #### Q7. Assuming that user1 existed, what would be the result of this command string?
 
@@ -80,12 +93,15 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It would print the UID, comment, and home directory of user1 separated by hyphens.
 - [x] It would show the username, UID, and home directory of user1 separated by hyphens.
 
+[reference](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/). Traditionally, the /etc/passwd file is used to keep track of every registered user that has access to a system. The /etc/passwd file is a colon-separated file that contains the following information: 1-`Username`, 2-`Password`, 3-`User ID (UID)`, 4-`Group ID (GID)`, 5-`User ID Info (GECOS)`, 6-`Home directory`, 7-`Command/shell`
 #### Q8. What happens if you use the `"set -e"` in a Bash script?
 
 - [ ] It will cause Bash to exit if a function or subshell returns a nonzero status code.
 - [ ] It will cause Bash to exit if a conditional returns a non-zero status code.
 - [ ] It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
 - [x] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
+
+[reference](http://redsymbol.net/articles/unofficial-bash-strict-mode/). The set -e option instructs bash to immediately exit if any command [1] has a non-zero exit status. You wouldn't want to set this for your command-line shell, but in a script it's massively helpful. In all widely used general-purpose programming languages, an unhandled runtime error - whether that's a thrown exception in Java, or a segmentation fault in C, or a syntax error in Python - immediately halts execution of the program; subsequent lines are not executed.
 
 #### Q9. The **\_** keyword pauses the script to get input from standard input.
 
@@ -127,6 +143,8 @@ mysql < file.sql > out.txt
 - [x] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
+[reference](https://en.wikipedia.org/wiki/Setuid#:~:text=The%20Linux%20and%20Unix%20access,to%20change%20behaviour%20in%20directories.). The Linux and Unix access rights flags setuid and setgid (short for set user identity and set group identity)[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories. 
+
 #### Q13. In order to extract text from the first column of file called textfile, which command would you use?
 
 - [ ] `cat {$1,textfile}`
@@ -145,12 +163,16 @@ mysql < file.sql > out.txt
 - [x] Ctrl + R
 - [ ] Alt + R
 
+Note: On the Mac it will show `bck-i-search:` instead of `(reverse-i-search)`.
+
 #### Q15. Which arithmetic expression will give the most precise answer?
 
 - [ ] `var=$( expr 10 / 8 )`
 - [ ] `(( var= 10 /8 ))`
 - [ ] `var=$(( 10 / 8 ))`
 - [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
+
+[reference](https://www.geeksforgeeks.org/bc-command-linux-examples/). The bc command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations. The division with 2 digit precision will be passed to `bc`, evaluated, and assigned to the variable.
 
 #### Q16. What is the result of this script?
 
@@ -186,6 +208,10 @@ echo "${VAR#*/html}"
 - [ ] `/html/website.com/html/`
 - [ ] `/var/www/html/website.com/`
 - [ ] Nothing will be echoed on the screen.
+
+[reference]()
+What is happening here quoting the POSIX shell specification: `${parameter#[word]}`. Remove Smallest Prefix Pattern. The word shall be expanded to produce a pattern. The parameter expansion shall then result in parameter, with the smallest portion of the prefix matched by the pattern deleted.  
+For instance `${VAR#?}` expands to the value of $VAR with the first character deleted. And `${VAR#*/html}` expands to include all characters to and including the `/html` text which will be deleted from the variable producing the output of `/website.com/html/`
 
 #### Q19. If prompted for text at the standard input, you can tell the command you're done entering text with what key combination?
 
@@ -516,17 +542,17 @@ The regex must not be quoted to work properly.
 
 #### Q43. How would you find the last copy command run in your history?
 
-- [ ] history | find cp
-- [x] history | grep cp\*\*
-- [ ] grep cp history
-- [ ] cp history
+- [ ] `history | find cp`
+- [x] `history | grep cp`
+- [ ] `grep cp history`
+- [ ] `cp history`
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
 
-- [x] `bash for i in $(ls); do ... done`
-- [ ] `bash for $(ls); do ... done`
-- [ ] `bash for i in $ls; do ... done`
-- [ ] `bash for $ls; do ... done`
+- [x] `for i in $(ls); do ... done`
+- [ ] `for $(ls); do ... done`
+- [ ] `for i in $ls; do ... done`
+- [ ] `for $ls; do ... done`
 
 #### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
@@ -1054,5 +1080,62 @@ cat > notes -
 
 - [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
+
+[Reference](https://www.tutorialsandyou.com/bash-shell-scripting/sed-command-to-print-palindrome-53.html)
+
+#### Q83. Which command will allow you to see the documentation of any other Bash command?
+
+- [x] Man {command}
+- [ ] help {command}
+- [ ] doc {command}
+- [ ] {command} -help
+
+#### Q84. What is the difference between these two conditional expressions?
+
+[[$A==$B]]
+[[$A -eq $B]]
+
+- [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
+- [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
+- [x] they are the same.
+- [ ] [[$A==$B]]is used for text comparisons whereas [[$a-eq $B]]is used for numeric comparisons.
+
+#### Q85. What is the output of this code?
+
+```bash
+VAR="united states"
+echo "${VAR^}"
+```
+
+- [ ] unitedstates
+- [ ] United States
+- [ ] United states
+- [x] UNITED STATES
+
+#### Q86. What would happen if you ran the script below as it is written?
+
+```bash
+#!/bin/bash
+#condition 1
+if [ $foo = "bar" ]; then echo "foo is bar"
+fi
+#condition 2
+if [[ $foo = "bar" ]]; then echo "foo is bar"
+fi
+```
+
+- [x] Both conditions will fail.
+- [ ] Both conditions will succeed.
+- [ ] Condition 1 would succeed and Condition 2 would fail.
+- [ ] Condition 1 would fail and Condition 2 would succeed.
+
+**Explanation:** The script as written outputs `line 3: [: =: unary operator expected`. Define variable and assign value `foo="bar"`, and both conditions will succeed.
+
+#### Q87. Which variable contains the number of arguments passed to a script from the command line?
+
+- [x] `$#`
+- [ ] `$@`
+- [ ] `0`
+- [ ] `$!`

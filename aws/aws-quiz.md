@@ -974,7 +974,7 @@ aws ecs create-service \
 
 #### Q114. You are tasked with supporting users of a mobile app. The app allows users to view content (e.g., images) but only upload images if they are logged in to the app via Cognito. Which option would require the least amount of development time and provide the highest security to prevent non-authenticated users from posting content?
 
-- [] Create a Cognito Identity Pool with roles for both authorized and unauthorized user and appropriate permissions on those roles.
-- [] Switch API access keys at run-time based on the user's log in state.
-- [] Set policies on the database table (DynamoDB or RDS) for user permissions.
+- [ ] Create a Cognito Identity Pool with roles for both authorized and unauthorized user and appropriate permissions on those roles.
+- [ ] Switch API access keys at run-time based on the user's log in state.
+- [ ] Set policies on the database table (DynamoDB or RDS) for user permissions.
 - [x] Expose an API Gateway for public use to fetch content and a second API for writing content requiring an auth token.
