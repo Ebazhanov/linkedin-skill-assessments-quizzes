@@ -1301,3 +1301,40 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] waterfall
 - [ ] treemap
 - [ ] box and whisker
+
+#### Q147. How do you override Excel's automatic axis scaling to enter custom axis maximum and minimum values?
+
+- [ ] You cannot do this in Excel.
+- [ ] Right-click the axis, select **Format Axis**, and scroll to the desired minimum and maximum values.
+- [ ] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
+- [ ] Click the individual axis values and change them manually.
+
+#### Q147. Given the source data, how do you transform the middle PivotTable to appear like the rightmost PivotTable?
+
+![Q147](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/67fc27f2-5ee3-4250-bc9e-17c19da31d9a)
+
+- [ ]
+- [ ]
+- [ ] Below answer should be right
+- [x] Right-click any row field value in the pivot table and select Group.
+
+#### Q148. Which formula will calculate the number of blank cells in the range A1:A20
+
+- [x] =COUNTBLANK(A1:A20)
+- [ ] =COUNTA(A1:A20)
+- [ ] =COUNTIF(A1:A20,">0")
+- [ ] =COUNT(A1:A20)
+
+#### Q149. A mortgage lender requires a 20% down payment and is offering a 30-year loan with a 3.5% interest rate. Which Excel function can you use to calculate the maximum purchase price you can afford?
+
+- [ ] Power Query
+- [x] NPV
+- [ ] Goal Seek
+- [ ] Scenario Manager
+
+#### Q150. You have filtered a table. How can you tell which column a table is sorted by?
+
+- [ ] The sorted by column heading will be italicized
+- [ ] The sorted by column heading will be bold
+- [x] The sorted by column heading filter will have an arrow icon
+- [ ] The sorted by column will be lightly shaded
