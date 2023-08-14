@@ -2532,3 +2532,9 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
 - [x] to capture command-line arguments given at a file's runtime
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
+
+#### Q177. What is a the output of 17 % 15 ?
+- [ ] 17
+- [ ] 15
+- [x] 2
+- [ ] 16
