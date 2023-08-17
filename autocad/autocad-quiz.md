@@ -597,3 +597,52 @@
 - [ ] Deviation.
 - [ ] Fractional.
 - [ ] Symmetricl.
+
+#### Q81. When using the Point command and the Donut command to create drawing object, you might add them to their own individual layers. Why would you do this?
+
+- [ ] In case the layer needs to be switched off or frozen for clarity in a drawing.
+- [x] In case the layer needs to be locked so that it cannot be used by anyone else.
+- [ ] In case the layer isn’t needed any more. 
+- [ ] In case the layer need to be renamed for project purposes
+
+#### Q82. You can make a global linetype scale change by typing “TLSCALE” and pressing Enter (Windows) or Return (MAC). The default value for LTSCALE is 1. What does this represent?
+
+- [ ] 1%
+- [ ] 100%
+- [x] LTSCALE is ON (1)
+- [ ] LTSCALE is OFF (1)
+
+#### Q83. Which drafting setting can you use to restrict your cursor to specified angles?
+
+- [ ] Grid (GRID)
+- [ ] Dynamic Input (DYNMODE)
+- [ ] Selection Cycling (SELECTIONCYCLING)
+- [x] Polar Tracking (POLAR)
+
+#### Q84. What is the file extension of an AutoCAD Drawing Standard file?
+
+- [ ] DWGS
+- [x] DWGSTDS
+- [ ] DWFS
+- [ ] DWS
+
+#### Q85. With default setting in place, double-clicking the mouse wheel invokes which AutoCAD command?
+
+- [ ] Zoom Previous
+- [ ] Zoom Windows  
+- [x] Zoom Extents
+- [ ] Zoom All
+
+#### Q86. A window selection selects only the objects _____ the window selection.
+
+- [ ] Completely encompassed by
+- [x] Crossed by -- Crossing selection (window Left top to right bottom)
+- [ ] Completely outside by
+- [ ] Not encompassed by
+
+#### Q87. When using the Hatch command with Pick Point selection method, which mode should be turned OFF to make sure the hatch is a single entity?
+
+- [x] Create Separate Hatches
+- [ ] Associative Boundaries
+- [ ] Hatch Associative (HPASSOC)
+- [ ] Hatch Multiple (HATCHMULTIPLE)
