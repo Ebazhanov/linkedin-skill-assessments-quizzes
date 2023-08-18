@@ -1056,3 +1056,12 @@ cat > notes -
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
+
+#### Q83. To add a value to the current environment, what command should you use ?
+
+- [ ] shell_add
+- [ ] save
+- [ ] echo
+- [x] export
+
+
