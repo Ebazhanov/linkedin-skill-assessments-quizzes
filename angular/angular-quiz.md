@@ -21,7 +21,7 @@ export class UserDetailsComponent {
 
 #### Q2. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
 
-- [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
+- [ ] Add the string name given to the FormControl to an attribute named controls on the `<form>` element to indicate what fields it should include.
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
 - [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
@@ -67,10 +67,10 @@ export class OrderService {
 }
 ```
 
-- [ ] this.httpClient.url(this.orderUrl).post(order);
-- [ ] this.httpClient.send(this.orderUrl, order);
-- [ ] this.httpClient.post<Order>(this.orderUrl, order);
-- [x] this.httpClient.post<Order>(this.orderUrl, order).subscribe();
+- [ ] `this.httpClient.url(this.orderUrl).post(order);`
+- [ ] `this.httpClient.send(this.orderUrl, order);`
+- [ ] `this.httpClient.post<Order>(this.orderUrl, order);`
+- [x] `this.httpClient.post<Order>(this.orderUrl, order).subscribe();`
 
 [Angular.io - Sending data to server](https://angular.io/guide/http#sending-data-to-a-server)
 
@@ -103,37 +103,37 @@ export class OrderService {
 
 - [ ] A
 
-```ts
-<ul>
-  <li [ngFor]="let productName of productNames">{{ productName }}</li>
-</ul>
-```
+  ```html
+  <ul>
+    <li [ngFor]="let productName of productNames">{{ productName }}</li>
+  </ul>
+  ```
 
 - [ ] B
 
-```ts
-<ul>
-  <li ngFor="let productName of productNames">{{ productName }}</li>
-</ul>
-```
+  ```html
+  <ul>
+    <li ngFor="let productName of productNames">{{ productName }}</li>
+  </ul>
+  ```
 
 - [x] C
 
-```ts
-<ul>
-  <li *ngFor="let productName of productNames">{{ productName }}</li>
-</ul>
-```
+  ```html
+  <ul>
+    <li *ngFor="let productName of productNames">{{ productName }}</li>
+  </ul>
+  ```
 
 - [ ] D
 
-```ts
-<ul>
-  <? for productName in productNames { ?>
-  <li>{{ productName }}</li>
-  <? } ?>
-</ul>
-```
+  ```html
+  <ul>
+    <? for productName in productNames { ?>
+    <li>{{ productName }}</li>
+    <? } ?>
+  </ul>
+  ```
 
 [Angular.io- Structural Directives](https://angular.io/guide/built-in-directives#listing-items-with-ngfor)
 
@@ -228,27 +228,27 @@ export class ShoppingCartComponent {
 
 - [ ] A
 
-```html
-<button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
-```
+  ```html
+  <button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
+  ```
 
 - [x] B
 
-```html
-<button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
-```
+  ```html
+  <button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
+  ```
 
 - [ ] C
 
-```html
-<button (click)="submit(userForm.value)" [ngForm.disabled]="userForm.valid">Save</button>
-```
+  ```html
+  <button (click)="submit(userForm.value)" [ngForm.disabled]="userForm.valid">Save</button>
+  ```
 
 - [ ] D
 
-```html
-<button (click)="submit(userForm.value)" *ngIf="userForm.valid">Save</button>
-```
+  ```html
+  <button (click)="submit(userForm.value)" *ngIf="userForm.valid">Save</button>
+  ```
 
 [Angular.io - Submit the form with ngSubmit](https://angular.io/guide/forms#submit-the-form-with-ngsubmit)
 
@@ -462,16 +462,16 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 ```ts
 @Component({
  . . .
- template: '<ng-content></ng-content›'
+ template: '<ng-content></ng-content>'
 })
 export class TabsListComponent {
  @ContentChildren(TabComponent) tabs;
 }
 ```
 
-- [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the <ng-content> element at runtime.
+- [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the `<ng-content>` element at runtime.
 - [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is instantiated.
-- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into the <ng-content> for this component.
+- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into the `<ng-content>` for this component.
 - [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_ elements.
 
 [betterprogramming.pub](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
@@ -550,7 +550,7 @@ export class HighlightDirective {
 
 [StackOverflow](https://stackoverflow.com/a/46207423)
 
-#### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
+#### Q35. In reactive forms, what Angular form class type is used on the native DOM `<form>` element to wire it up?
 
 - [ ] `FormArray`
 - [ ] `FormControl`
@@ -560,42 +560,40 @@ export class HighlightDirective {
 #### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive forms markup for the username field?
 
 ```html
-<form [formGroup]="form"›
-  <input type="text" formControlName= "username"›
+<form [formGroup]="form">
+  <input type="text" formControlName="username" />
   ...
 </form>
 ```
 
 - [ ] A
 
-```ts
-    <span *ngIf="username.minLength.invalid"›
-        Username length is not valid
-    </span>
-```
+  ```html
+  <span *ngIf="username.minLength.invalid"> Username length is not valid </span>
+  ```
 
 - [ ] B
 
-```ts
-<input type="text" formControlName="username" [showMinLength]="true"›
-```
+  ```html
+  <input type="text" formControlName="username" [showMinLength]="true" />
+  ```
 
 - [ ] C
 
-```ts
-    <span *ngIf="form.get('username').getError('minLength') as minLengthError">
-      Username must be at least {{ minLengthError.requiredLength }} characters.
-    </span>
-```
+  ```html
+  <span *ngIf="form.get('username').getError('minLength') as minLengthError">
+    Username must be at least {{ minLengthError.requiredLength }} characters.
+  </span>
+  ```
 
 - [x] D
 
-```ts
-<input type="text" formControlName="username" #userName="ngModer">
-    <span *ngIf="userName.errors.minlength"›
-      Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
-    </span>
-```
+  ```html
+  <input type="text" formControlName="username" #userName="ngModer" />
+  <span *ngIf="userName.errors.minlength">
+    Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
+  </span>
+  ```
 
 [Codecraft](https://codecraft.tv/courses/angular/forms/template-driven/)
 
@@ -646,44 +644,42 @@ export class BioComponent { }
 
 - [x] A
 
-```ts
- <app-card>
-  <h1>Data Card</hl>
-  <app-bio>
-   Been around for four years.
-  </app-bio>
- </app-card>
-```
+  ```html
+  <app-card>
+    <h1>Data Card</hl>
+    <app-bio>
+      Been around for four years.
+    </app-bio>
+  </app-card>
+  ```
 
 - [ ] B
 
-```ts
-<h1>Data Card</h1>
- <app-bio>
-  Been around for four years.
- </app-bio>
-```
+  ```html
+  <h1>Data Card</h1>
+  <app-bio> Been around for four years. </app-bio>
+  ```
 
 - [ ] C
 
-```ts
-<app-card>
-  <h1>Data Card</hl>
-  <ng-content></ng-content>
-  <app-bio>
-   Been around for four years.
-   <ng-content></ng-content>
-  </app-bio>
-</app-card>
-```
+  ```html
+  <app-card>
+    <h1>Data Card</hl>
+    <ng-content></ng-content>
+    <app-bio>
+      Been around for four years.
+      <ng-content></ng-content>
+    </app-bio>
+  </app-card>
+  ```
 
 - [ ] D
 
-```ts
-<app-card>
-  <h1>Data Card</hl>
-</app-card>
-```
+  ```html
+  <app-card>
+    <h1>Data Card</hl>
+  </app-card>
+  ```
 
 #### Q40. Given the app-title-card component in the code below, what DOM will the app-user-card component render?
 
@@ -704,38 +700,39 @@ export class BioComponent { }
 
 - [x] A
 
-```ts
-<app-user-card>
-  <app-title-card>
-    <h1>User Data</h1>
-  </app-title-card>
-  <p>Jenny Smith</p>
-</app-user-card>
-```
+  ```html
+  <app-user-card>
+    <app-title-card>
+      <h1>User Data</h1>
+    </app-title-card>
+    <p>Jenny Smith</p>
+  </app-user-card>
+  ```
 
 - [ ] B
 
-```ts
-<h1>User Data</h1>
-<p>Jenny Smith<p>
-```
+  ```html
+  <h1>User Data</h1>
+  <p>Jenny Smith</p>
+  <p></p>
+  ```
 
 - [ ] C
 
-```ts
-<app-user-card>
-  <app-title-card></app-title-card>
-</app-user-card>
-```
+  ```html
+  <app-user-card>
+    <app-title-card></app-title-card>
+  </app-user-card>
+  ```
 
 - [ ] D
 
-```ts
-<div app-user-card>
-  <h1 app-title-card>User Data</h1>
-  <p>Jenny Smith</p>
-</div>
-```
+  ```html
+  <div app-user-card>
+    <h1 app-title-card>User Data</h1>
+    <p>Jenny Smith</p>
+  </div>
+  ```
 
 #### Q41. Pick the matching code for the custom provider registration that the @Inject () decorator is looking for:
 
@@ -745,29 +742,29 @@ constructor(@Inject('Logger') private logger) { }
 
 - [ ] A
 
-```ts
-providers: [Logger];
-```
+  ```ts
+  providers: [Logger];
+  ```
 
 - [x] B
 
-```ts
-providers: [{ provide: 'Logger', useClass: Logger }];
-```
+  ```ts
+  providers: [{ provide: 'Logger', useClass: Logger }];
+  ```
 
 - [ ] C
 
-```ts
-@Injectable({
-    providedln: 'root'
-})
-```
+  ```ts
+  @Injectable({
+      providedln: 'root'
+  })
+  ```
 
 - [ ] D
 
-```ts
-providers: [{ provide: 'Logger' }];
-```
+  ```ts
+  providers: [{ provide: 'Logger' }];
+  ```
 
 1. [StackOverflow](https://stackoverflow.com/a/37315355)
 2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/)
@@ -871,18 +868,18 @@ export class OrderService {
 - [ ] B `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
 - [x] C
 
-```ts
-const options = { params: new HttpParams().set('year', year) };
-return this.httpClient.get<Order[]>(this.ordersUrl, options);
-```
+  ```ts
+  const options = { params: new HttpParams().set('year', year) };
+  return this.httpClient.get<Order[]>(this.ordersUrl, options);
+  ```
 
 - [ ] D
 
-```ts
-getOrdersByYear(year: number): Observable<Order[]> {
-    return this.httpClient.addParam('year', year).get<Order[]>(this.ordersUrl, year);
-}
-```
+  ```ts
+  getOrdersByYear(year: number): Observable<Order[]> {
+      return this.httpClient.addParam('year', year).get<Order[]>(this.ordersUrl, year);
+  }
+  ```
 
 1. [StackOverflow](https://stackoverflow.com/a/34475594)
 2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-pass-url-parameters-query-strings/#httpparams)
@@ -909,41 +906,37 @@ export class OrderHistoryComponent {
 
 #### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
 
-```ts
-<div *ngIf="userIsActive; else inactive">
-  Currently active!
-</div>
+```html
+<div *ngIf="userIsActive; else inactive">Currently active!</div>
 ```
 
 - [ ] A
 
-```ts
-<div #inactive>User is not active.</div>
-```
+  ```html
+  <div #inactive>User is not active.</div>
+  ```
 
 - [ ] B
 
-```ts
-<div *ngIf="inactive">
-  User is not active.
-</div>
-```
+  ```html
+  <div *ngIf="inactive">User is not active.</div>
+  ```
 
 - [ ] C
 
-```ts
-<ng-template #else="inactive">
-  <div>User is not active.</div>
-</ng-template>
-```
+  ```html
+  <ng-template #else="inactive">
+    <div>User is not active.</div>
+  </ng-template>
+  ```
 
 - [x] D
 
-```ts
-<ng-template #inactive>
-  <div>User is not active.</div>
-</ng-template>
-```
+  ```html
+  <ng-template #inactive>
+    <div>User is not active.</div>
+  </ng-template>
+  ```
 
 [Angular.io](https://angular.io/api/common/NgIf)
 
@@ -951,39 +944,39 @@ export class OrderHistoryComponent {
 
 - [ ] A
 
-```ts
-{
+  ```ts
+  {
     path: 'users',
     lazy: './users/users.module#UsersModule'
-}
-```
+  }
+  ```
 
 - [x] B
 
-```ts
-{
+  ```ts
+  {
     path: 'users',
     loadChildren: () => import('./users/users.module').then(m => m.UserModule)
-}
-```
+  }
+  ```
 
 - [ ] C
 
-```ts
-{
+  ```ts
+  {
     path: 'users',
     loadChildren: './users/users.module#UsersModule'
-}
-```
+  }
+  ```
 
 - [ ] D
 
-```ts
-{
+  ```ts
+  {
     path: 'users',
     module: UsersModule
-}
-```
+  }
+  ```
 
 [Angular.io - Lazy Loading Modules](https://angular.io/guide/lazy-loading-ngmodules)
 
@@ -1045,11 +1038,10 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 
 #### Q54. For the following template-driven forms example, what argument can be passed to the submit method in the click event to submit the data for the form?
 
-```ts
+```html
 <form #form="ngForm">
-	<input type="text" ngModel="firstName">
-	<input type="text" ngModel="lastName">
-	<button (click)="submit()">Save</button>
+  <input type="text" ngModel="firstName" /> <input type="text" ngModel="lastName" />
+  <button (click)="submit()">Save</button>
 </form>
 ```
 
@@ -1116,11 +1108,9 @@ export class UsersComponent implements OnInit {
 #### Q58. How would you make use of this directive in markup based on its selector value
 
 ```ts
-@Directive({
-	selector: '[appTruncate]'
+@Directive({  selector: '[appTruncate]'
 })
-export class TruncateDirective{
-	. . .
+export class TruncateDirective{  . . .
 }
 ```
 
@@ -1166,48 +1156,49 @@ export class TruncatePipe implements PipeTransform {
 
 #### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
 
-```ts
+```html
 <div *ngIf="location">
-	<h1>{{ location.name }}</h1>
-	<p>{{ location.description }}</p>
+  <h1>{{ location.name }}</h1>
+  <p>{{ location.description }}</p>
 </div>
 ```
 
 - [ ] A
 
-```ts
-<div *ngIf="location">
-	<h1>{{ location.name }}</h1>
-	<p>{{ location.description }}</p>
-{{ endNgIf }}
-```
+  ```html
+  <div *ngIf="location">
+    <h1>{{ location.name }}</h1>
+    <p>{{ location.description }}</p>
+    {{ endNgIf }}
+  </div>
+  ```
 
 - [ ] B
 
-```ts
-<ng-template *ngIf="location">
-	<h1>{{ location.name }}</h1>
-	<p>{{ location.description }}</p>
-</ng-template>
-```
+  ```html
+  <ng-template *ngIf="location">
+    <h1>{{ location.name }}</h1>
+    <p>{{ location.description }}</p>
+  </ng-template>
+  ```
 
 - [ ] C
 
-```ts
-<div *ngIf="location" [display]=" ' hidden' ">
-	<h1>{{ location.name }}</h1>
-	<p>{{ location.description }}</p>
-</div>
-```
+  ```html
+  <div *ngIf="location" [display]=" ' hidden' ">
+    <h1>{{ location.name }}</h1>
+    <p>{{ location.description }}</p>
+  </div>
+  ```
 
 - [x] D
 
-```ts
-<ng-container *ngIf="location">
-	<h1>{{ location.name }}</h1>
-	<p>{{ location.description }}</p>
-</ng-container>
-```
+  ```html
+  <ng-container *ngIf="location">
+    <h1>{{ location.name }}</h1>
+    <p>{{ location.description }}</p>
+  </ng-container>
+  ```
 
 #### Q63. Describe the usage of this code:
 
@@ -1244,26 +1235,21 @@ export interface AppSettings {
 #### Q66. What is the outlet property used for in this router definition object?
 
 ```ts
-{
-	path: 'document',
-	component: DocumentComponent,
-	outlet: 'document-box'
+{  path: 'document',  component: DocumentComponent,  outlet: 'document-box'
 }
 ```
 
-- [ ] it will locate all instancess of <document-box> in the DOM and inser a DocumentComponent element into them on route navigation.
-- [ ] It declares that the DocumentComponent can be used as a child to a <<document-box> element in addition ot being routed to.
-- [x] It us used to target a <router-outlet> element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
+- [ ] it will locate all instancess of `<document-box>` in the DOM and inser a DocumentComponent element into them on route navigation.
+- [ ] It declares that the DocumentComponent can be used as a child to a `<document-box>` element in addition ot being routed to.
+- [x] It us used to target a `<router-outlet>` element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
 - [ ] It is a source of power for the router. (definitely not the answer :P)
 
 [Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer
 
 #### Q67. In this template syntax, every time the items property is changed (added to, removed from, etc.), the ngFor structural directive re-runs its logic for all DOM elements in the loop. What syntax can be used to make this more performant?
 
-```javascript
-<div *ngFor="let item of items">
-  {{ item.id }} - {{ item.name }}
-</div>
+```html
+<div *ngFor="let item of items">{{ item.id }} - {{ item.name }}</div>
 ```
 
 - [ ] `*ngFor="let item of items; let uniqueItem"`
@@ -1295,13 +1281,10 @@ ng build --configuration=production --progress=false
 
 #### Q70. What is the Input decorator used for in this component class?
 
-```javascript
-@Component({
-	selector:'app-product-name',
-	...
+```ts
+@Component({  selector:'app-product-name',  ...
 })
-export class ProductNameComponent {
-	@Input() productName: string
+export class ProductNameComponent {  @Input() productName: string
 }
 ```
 
@@ -1352,8 +1335,8 @@ export class ProductNameComponent {
 ```
 
 - [ ] neither of these answers
-- [ ] Add (click)="onSubmit()" to the <button> element.
-- [x] Add (ngSubmit )="onSubmit ()" to the <form> element.
+- [ ] Add (click)="onSubmit()" to the `<button>` element.
+- [x] Add (ngSubmit )="onSubmit ()" to the `<form>` element.
 - [ ] both of these answers
 
 [Angular - Forms](https://angular.io/guide/forms)
@@ -1388,7 +1371,7 @@ export class ProductNameComponent {
 
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
 - [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
-- [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
+- [ ] Add the string name given to the FormControl to an attribute named controls on the `<form>` element to indicate what fields it should include.
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
 
 [Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
@@ -1399,31 +1382,31 @@ export class ProductNameComponent {
 <span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Employed </span>
 ```
 
-- [ ]
+- [ ] A
 
-```html
-<span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
-  Employed
-</span>
-```
+  ```html
+  <span class="{{ isActive ? 'is-active' : '' }}" class="{{ canToggle ? 'can-toggle' : '' }}">
+    Employed
+  </span>
+  ```
 
-- [x]
+- [x] B
 
-```html
-<span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
-```
+  ```html
+  <span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
+  ```
 
-- [ ]
+- [ ] C
 
-```html
-<span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Employed </span>
-```
+  ```html
+  <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Employed </span>
+  ```
 
-- [ ]
+- [ ] D
 
-```html
-<span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
-```
+  ```html
+  <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
+  ```
 
 #### Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?
 
@@ -1468,3 +1451,10 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] experts
 - [ ] Shared
 - [x] declarations
+
+#### Q83. What is the difference between the CanActivate and the CanLoad rout guards?
+- [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate 
+stops routing to a component in that NgModule , but the module is still loaded.
+- [ ] CanActivate and CanLoad do the exact same thing.
+- [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
+- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table . CanActivate is used to manage access to routes at the time they are requested 

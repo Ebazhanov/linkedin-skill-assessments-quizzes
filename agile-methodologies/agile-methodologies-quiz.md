@@ -190,10 +190,14 @@
 
 #### Q27. Who is responsible for a Scrum team's performance?
 
-- [x] the team
-- [ ] the Scrum Master
+- [ ] the team
+- [x] the Scrum Master
 - [ ] the Product Owner
 - [ ] the Engineering Manager
+
+It is one of the responsabilities of the Scrum Master!
+A Scrum Master is responsible for ensuring a Scrum team is operating as effectively as possible with Scrum values. This means they keep the team on track, plan and lead meetings, and work out any obstacles the team might face.
+[Reference](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
 
 #### Q28. Which statement concerning small, frequent releases of software is true?
 
@@ -460,9 +464,13 @@
 #### Q64. What is the name of the technique that divides a story into smaller pieces?
 
 - [ ] mitosis
-- [ ] story slicing
-- [x] disaggregation
+- [x] story slicing
+- [ ] disaggregation
 - [ ] Divide and Conquer
+
+[Reference](https://www.linkedin.com/learning/agile-requirements-foundations/story-slicing-and-splitting)
+What is story slicing?
+To build features effectively, and deliver user value in increments, the functionality needs to be broken down further into smaller user stories. Many times the team keeps splitting the user stories into smaller pieces of value, so they can complete the story in a sprint. This is called story-slicing or splitting.
 
 #### Q65. A team member comes to you with a complaint about another team member. What should you do?
 
@@ -690,11 +698,14 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q94. What is the term for a team member who is "T-shaped"?
 
-- [x] cross-functional
+- [ ] cross-functional
 - [ ] jack-of-all-trades
-- [ ] generalizing specialist
+- [x] generalizing specialist
 - [ ] apprentice developer
 
+Cross-functional and generalizing specialist seem to be both correct but we talk more about cross functional teams, and in the case of a team member the term would be more like a generalizing specialist I believe
+[Reference](https://agilemodeling.com/essays/generalizingspecialists.htm#:~:text=Generalizing%20specialists%20are%20often%20referred,or%20even%20“renaissance%20professionals”.)
+This refers to teams:
 [Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
@@ -708,12 +719,15 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
 
-- [ ] advise the PO as soon as possible
+- [x] advise the PO as soon as possible
 - [ ] point out the reasons why and collaborate on solutions
 - [ ] report this at the Sprint Review
-- [x] Ask the PO to extend the sprint
+- [ ] Ask the PO to extend the sprint
 
-[Reference](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
+Sprints cannot be extended.  The Scrum Guide is pretty clear on this: you don't extend sprints.  At the end of a sprint, if there is incomplete work: "All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog."  
+[Reference](https://www.scrum.org/forum/scrum-forum/6171/what-do-if-team-cannot-finish-all-items-sprint)
+Number 4: 
+4) What happens if the Developers cannot complete its work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in future if it is a problem. Understanding why this has happened will be critical.  
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
@@ -726,7 +740,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q98. When is the best time to update the team's burndown chart?
 
-- [ ] before the Sprint Retospective
+- [ ] before the Sprint Retrospective
 - [ ] after the daily stand-up
 - [x] before the daily Scrum
 - [ ] before quarterly planning
@@ -740,10 +754,17 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q100. Which work descriptions are not written in the language of users?
 
-- [ ] tasks
+- [X] tasks
 - [ ] epics
-- [x] stories
+- [ ] stories
 - [ ] features
+
+It says: *NOT* written in the language of users. 
+A story, also referred to as a user story, is a short-form request that can be delivered in one sprint. It is written in simple language from the perspective of the user. 
+
+It should be Tasks:
+A task is a subsection of a story. It helps to break the story down and outline how it will be completed. Tasks tend to be more technical as they are used by members of the development team.   
+[Reference](https://www.wrike.com/agile-guide/epics-stories-tasks/)
 
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
 
@@ -791,10 +812,13 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q107. How can you improve interaction between team members?
 
-- [ ] Move people's workstation around in the team room to create new social possibilites
+- [x] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
-- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
+
+Moving people around and redesign the office space can improve interaction between team member and it is well documented: 
+[Reference](https://www.inc.com/jeff-miller/3-ways-to-design-an-office-for-collaboration-not-c.html)
 
 #### Q108. Which scale is typically used for Planning Poker?
 
@@ -888,10 +912,13 @@ It's the same as Q81, just slightly differently phrased question.
 
 #### Q120. Which type of Kanban diagram shows the number of issues in each of the states?
 
-- [x] burn down chart
+- [ ] burn down chart
 - [ ] control chart
 - [ ] burn up chart
-- [ ] cumulative flow
+- [x] cumulative flow
+
+[Reference](https://www.wrike.com/kanban-guide/faq/what-is-kanban-cumulative-flow-diagram/)
+A Kanban cumulative flow diagram visualizes your team's processes and helps identify areas of improvement
 
 #### Q121. Which of the following statements about a Kanban control chart is false?
 
@@ -1017,3 +1044,10 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] Quality Assurance
 
 [Source](https://www.atlassian.com/agile/scrum/roles) `"The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, `**`the development team deliver the value`**`, and the scrum team to get to get better."`
+
+#### Q138. There are several configurations of the Scaled Agile Framework in Version 5.0. Which is not one oth the configurations?
+
+- [ ] Full SAFe
+- [ ] Large Solution SAFe
+- [x] SAFe Popular
+- [ ] Essential SAFe

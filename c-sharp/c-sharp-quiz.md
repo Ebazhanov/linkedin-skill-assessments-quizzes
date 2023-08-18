@@ -532,7 +532,7 @@ public static void Main(string[] args)
 - [ ] Namespaces calculate code coverage at runtime.
 - [ ] Namespaces compile application code together at compile time.
 - [ ] Namespaces group code together into a single repository.
-- [x] Namespaces separate code into groupings, control access, and void naming collisions.
+- [x] Namespaces separate code into groupings, control access, and avoid naming collisions.
 
 [Official documentation: namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
 
@@ -837,3 +837,21 @@ public string? nickname
 - [ ] String values
 - [x] String values or null
 - [ ] String values with more than one character
+
+#### Q79. What is a destructor?
+
+- [ ] `a special called automatically whenever an object is created or updated`
+- [ ] `an implicit method called automatically when thread pools are processed concurrently`
+- [ ] `an explicit method called automatically when the compiler starts running`
+- [x] `a special method called automatically whenever an object is deleted or destroyed`
+
+[Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/destructors)
+
+#### Q80. Which code snippet correctly declares a CustomInt type alias of type Int32?
+
+- [ ] `typealias CustomInt = System.Int32;`
+- [ ] `var<T> CustomInt = Int32;`
+- [x] `using CustomInt = System.Int32;`
+- [ ] `type CustomInt = System<Int32>;`
+
+[Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive)

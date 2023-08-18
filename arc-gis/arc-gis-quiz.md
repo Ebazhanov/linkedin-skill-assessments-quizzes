@@ -56,27 +56,27 @@
 
 - [ ] from a higher scale to a lower scale
 - [ ] from a smaller scale to a larger scale
-- [ ] from a lower scale to a higher scale
+- [x] from a lower scale to a higher scale
 - [ ] from a larger scale to a smaller scale
 
 #### Q8. Where are parcel fabrics, geometric networks, and topologies created?
 
 - [ ] inside of file geodatabases
 - [ ] inside of enterprise geodatabases
-- [ ] inside of feature datasets
+- [x] inside of feature datasets
 - [ ] inside of feature classes
 
 #### Q9. Which of these methods is best for sharing a map with colleagues who do not have ArcMap or ArcGis Pro?
 
 - [ ] Export the map to PDF and send your colleagues the PDF.
 - [ ] Export the map to KML and ask your colleagues to download Google Earth.
-- [ ] Publish the map as a service and then create a web map that you can share with your colleagues
+- [x] Publish the map as a service and then create a web map that you can share with your colleagues
 - [ ] Export the map to a map package, and ask your colleagues to download and install the free Map Package Viewer software
 
 #### Q10. You built a model and verified that it works as intended by running it on your own data files. What is the best way to share the entire procedure with colleagues so that they can study it, reproduce your results exactly, and then apply the model to their own data?
 
 - [ ] Convert the model to Python and upload the results to ArcGIS Online as a service.
-- [ ] Create a geoprocessing package.
+- [x] Create a geoprocessing package.
 - [ ] Run the consolidated Model tool to gather the model and input datasets into a shared folder
 - [ ] Create a map Package
 
@@ -89,7 +89,7 @@
 
 #### Q12. When you create a bookmark of your current map view, what is being saved?
 
-- [ ] the map's current scale and center point
+- [x] the map's current scale and center point
 - [ ] the visibility status of each layer
 - [ ] the center point of the current view
 - [ ] the map's current scale
@@ -106,7 +106,7 @@
 #### Q14. By default, as what do all geoprocessing tools run from dialog boxes execute?
 
 - [ ] Python Scripts
-- [ ] foreground processes
+- [x] foreground processes
 - [ ] background processes
 - [ ] in-memory processes
 
@@ -143,7 +143,7 @@
 - [ ] Right click the map in the **Contents** pane and click **Set Reference Scale**.
 - [ ] Right click the data layer and choose **Symbology > Variable**.
 - [ ] Turn on the option for **Zoom Symbology and Labels** in the map's properties.
-- [ ] In the **Layer Properties** dialog box, click **Display**, and then clear **Fixed Sizing**
+- [x] In the **Layer Properties** dialog box, click **Display**, and then clear **Fixed Sizing**
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/scale-based-symbol-sizing.htm)
 
@@ -167,7 +167,7 @@
 
 #### Q22. You need to attach photographs to a geodatabase feature class called `Bus_Stops`. To enable this capability using ArcCatalog, you right-click the `Bus_Stops` feature class, point to Manage, and then click **Create Attachments**. What does this create in the geodatabase?
 
-- [ ] A geodatabase table called `Bus_Stops_REL` is created that references a `Bus_Stops_ATTACHMENTS` folder in the same parent folder as the geodatabase
+- [x] A geodatabase table called `Bus_Stops_REL` is created that references a `Bus_Stops_ATTACHMENTS` folder in the same parent folder as the geodatabase
 - [ ] A geodatabase table called `Bus_Stops_ATTACH` and a relationship class called `Bus_Stops_ATTACHREL` are created.
 - [ ] A feature class called `Bus_Stops_ATTACH` and a relationship class called `Bus_Stops_RELATION` are created.
 - [ ] A new raster feature dataset called `Bus_Stops_ATTACHMENTS` is created.
@@ -185,7 +185,7 @@
 
 - [ ] Script the procedure using Python..
 - [ ] Build an ArcGIS model.
-- [ ] Build an ArcGIS Pro task.
+- [x] Build an ArcGIS Pro task.
 - [ ] Publish an ArcGIS Online story map.
 
 #### Q25. When creating a feature class, which field data type would be the most appropriate to store values in the expected range of 1,000 to 10,000?
