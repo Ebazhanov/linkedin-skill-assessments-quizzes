@@ -1083,14 +1083,13 @@ cat > notes -
 - [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
 
-[Reference](https://www.tutorialsandyou.com/bash-shell-scripting/sed-command-to-print-palindrome-53.html)
 
-#### Q83. Which command will allow you to see the documentation of any other Bash command?
+#### Q83. To add a value to the current environment, what command should you use ?
 
-- [x] Man {command}
-- [ ] help {command}
-- [ ] doc {command}
-- [ ] {command} -help
+- [ ] shell_add
+- [ ] save
+- [ ] echo
+- [x] export
 
 #### Q84. What is the difference between these two conditional expressions?
 
@@ -1139,3 +1138,4 @@ fi
 - [ ] `$@`
 - [ ] `0`
 - [ ] `$!`
+
