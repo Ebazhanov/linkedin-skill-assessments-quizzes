@@ -1073,7 +1073,7 @@ Note: broccoli is an untracked file and will require git clean -f to be removed.
 
 #### Q128. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
 
-- [ ] ⠀
+- [x] ⠀
 
 ```bash
 git rm wrongfile
@@ -1094,7 +1094,7 @@ git commit -m "Removed file"
   git commit -m "Removed file"
 ```
 
-- [x] ⠀
+- [ ] ⠀
 
 ```bash
   git rm --cached wrongfile
