@@ -1123,7 +1123,6 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] for keeping images
 - [ ] for social networking
 
-
 #### Q134. Git Pull is a combination of?
 
 - [ ] Add and commit.

@@ -724,10 +724,9 @@ This refers to teams:
 - [ ] report this at the Sprint Review
 - [ ] Ask the PO to extend the sprint
 
-Sprints cannot be extended.  The Scrum Guide is pretty clear on this: you don't extend sprints.  At the end of a sprint, if there is incomplete work: "All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog."  
+Sprints cannot be extended. The Scrum Guide is pretty clear on this: you don't extend sprints. At the end of a sprint, if there is incomplete work: "All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog."  
 [Reference](https://www.scrum.org/forum/scrum-forum/6171/what-do-if-team-cannot-finish-all-items-sprint)
-Number 4: 
-4) What happens if the Developers cannot complete its work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in future if it is a problem. Understanding why this has happened will be critical.  
+Number 4: 4) What happens if the Developers cannot complete its work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in future if it is a problem. Understanding why this has happened will be critical.
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
@@ -754,16 +753,16 @@ Number 4:
 
 #### Q100. Which work descriptions are not written in the language of users?
 
-- [X] tasks
+- [x] tasks
 - [ ] epics
 - [ ] stories
 - [ ] features
 
-It says: *NOT* written in the language of users. 
-A story, also referred to as a user story, is a short-form request that can be delivered in one sprint. It is written in simple language from the perspective of the user. 
+It says: _NOT_ written in the language of users.
+A story, also referred to as a user story, is a short-form request that can be delivered in one sprint. It is written in simple language from the perspective of the user.
 
 It should be Tasks:
-A task is a subsection of a story. It helps to break the story down and outline how it will be completed. Tasks tend to be more technical as they are used by members of the development team.   
+A task is a subsection of a story. It helps to break the story down and outline how it will be completed. Tasks tend to be more technical as they are used by members of the development team.  
 [Reference](https://www.wrike.com/agile-guide/epics-stories-tasks/)
 
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
@@ -817,7 +816,7 @@ A task is a subsection of a story. It helps to break the story down and outline 
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
 
-Moving people around and redesign the office space can improve interaction between team member and it is well documented: 
+Moving people around and redesign the office space can improve interaction between team member and it is well documented:
 [Reference](https://www.inc.com/jeff-miller/3-ways-to-design-an-office-for-collaboration-not-c.html)
 
 #### Q108. Which scale is typically used for Planning Poker?

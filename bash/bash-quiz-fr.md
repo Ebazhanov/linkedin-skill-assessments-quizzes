@@ -1009,6 +1009,7 @@ Références:
 - [ ] $
 
 #### Q78. VAR="united states"
+
         echo "${VAR^}"
 
 - [ ] unitedstates

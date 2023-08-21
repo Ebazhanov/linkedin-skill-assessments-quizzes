@@ -126,9 +126,9 @@
 
 #### Q14. For a dynamic simulation, what Playback Speed setting ensures reliable interactive viewport performance at the most accurate frame rate?
 
-- [x] Play Every Frame, Max Real-Time (current frame rate *1)
+- [x] Play Every Frame, Max Real-Time (current frame rate \*1)
 - [ ] Continuos
-- [ ] Real-time (current frame rate *1)
+- [ ] Real-time (current frame rate \*1)
 - [ ] Play Every Frame, Free
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=GUID-C81F159D-46AA-42EA-AD40-662ACE3DC25B)
@@ -214,8 +214,7 @@
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-EE660E20-02A3-49E6-96CC-EC11C8371E04)
 
-
-#### Q24. What is the fundamental property of all polygon mesh vertices 
+#### Q24. What is the fundamental property of all polygon mesh vertices
 
 - [x] A vertex always has a mesurable position
 - [ ] A vertex always lies on a curve
@@ -229,7 +228,7 @@
 - [ ] Atmosphere
 - [ ] Local Illumination
 
-#### Q26. All new primitives are assigned to what type of material? 
+#### Q26. All new primitives are assigned to what type of material?
 
 - [ ] Phong
 - [ ] Blinn
