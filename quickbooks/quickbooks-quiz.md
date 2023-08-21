@@ -465,3 +465,11 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] The diamond indicates that the list entry cannot be deleted because it is in use.
 - [ ] The diamond indicates that the list entry has open transactions.
 - [ ] The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.
+
+#### Q67. What is a QuickReport in QuickBooks?
+
+- [ ]  A QuickBooks report in graphical format
+- [x]  A Predesigned report that shows more detail about the data you are currently viewing on screen
+- [ ]  A snapshot of the profile and Loss report 
+- [ ]  Any QuickBooks report
+

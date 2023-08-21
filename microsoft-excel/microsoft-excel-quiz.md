@@ -1324,3 +1324,17 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] =COUNTA(A1:A20)
 - [ ] =COUNTIF(A1:A20,">0")
 - [ ] =COUNT(A1:A20)
+
+#### Q149. A mortgage lender requires a 20% down payment and is offering a 30-year loan with a 3.5% interest rate. Which Excel function can you use to calculate the maximum purchase price you can afford?
+
+- [ ] Power Query
+- [x] NPV
+- [ ] Goal Seek
+- [ ] Scenario Manager
+
+#### Q150. You have filtered a table. How can you tell which column a table is sorted by?
+
+- [ ] The sorted by column heading will be italicized
+- [ ] The sorted by column heading will be bold
+- [x] The sorted by column heading filter will have an arrow icon
+- [ ] The sorted by column will be lightly shaded

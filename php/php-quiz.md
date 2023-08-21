@@ -1493,3 +1493,26 @@ while($i>=0) {
 2 define('states','fifty');
 3 $K = 'strval'; echo "Our {$K(Country)} has {$K(FIFTY)} states.";
 ```
+
+#### Q104. What does this code output?
+
+```php
+1 try{
+2 echo "bodacious";
+3 throw new Exception();
+4 } catch (Exception $e) {
+5 echo "egregious";
+7 } finally {
+8 echo "excellent";
+9 }
+```
+
+- [ ] bodacious
+      excellent
+- [ ] egregious
+      excellent
+- [x] bodacious
+      egregious
+      excellent
+- [ ] bodacious
+      egregious

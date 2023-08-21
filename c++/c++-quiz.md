@@ -10,8 +10,8 @@ printf("%d", !b);
 
 - [ ] False
 - [ ] 0
-- [x] 1
-- [ ] This code has an error.
+- [ ] 1
+- [x] This code has an error.
 
 #### Q2. Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)
 
@@ -1678,3 +1678,12 @@ int main()
 [x] 2
 [] 3
 [] 4
+
+#### Q105. Which choice is a valid way to overload the ternary conditional operator?
+
+- [ ] `void& operator ?:(const bool cond, const void& iftrue, const void& iffalse);`
+- [x] `The ternary operator is not overloadable.`
+- [ ] `void& operator conditional(const bool cond, const void& iftrue, const void& iffalse);`
+- [ ] `void* operator ?:(const bool cond, const void* iftrue, const void* iffalse);`
+
+[Reference](https://en.cppreference.com/w/cpp/language/operators)

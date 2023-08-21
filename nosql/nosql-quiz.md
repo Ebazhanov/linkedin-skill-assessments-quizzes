@@ -367,4 +367,11 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] a graph database
 - [ ] a ledger database
 
+#### Q49. Which command gets all documents in a MongoDB datastore where the status equals A or the quantity is less than 30?
+
+- [ ] db.inventory.find( { status: "a", qty: { $lt: 30 } } )
+- [x] db.inventory.find( { $or: [ { status: "A" }, { qty: { $lt: 30 } } ] } )
+- [ ] db.inventory.find( { status: "A", qty: { $lt: 30 } } )
+- [ ] db.inventory.find( { $or: [ { status: "a" }, { qty: { $lt: 30 } } ] } )
+
 [store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)

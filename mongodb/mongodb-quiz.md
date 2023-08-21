@@ -166,7 +166,7 @@
 - [ ] Calculate interest quickly.
 - [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
 - [x] Use more than one field per index.
-- [] Combine fields in different collations.
+- [ ] Combine fields in different collations.
 
 [Reference](https://www.mongodb.com/docs/v6.0/core/index-compound/)
 
@@ -316,7 +316,7 @@
 
 - [ ] restore
 - [ ] read/write
-- [] dbadmin
+- [ ] dbadmin
 - [x] delete collections
 
 [Reference](https://www.mongodb.com/docs/v6.0/reference/built-in-roles/#backup-and-restoration-roles)
@@ -330,7 +330,9 @@
 
 **Note:** db.collection.remove() is deprecated in the new mongosh. Use db.collection.deleteOne() or db.collection.deleteMany().
 
-[References](https://www.mongodb.com/docs/mongodb-shell/crud/delete/)(https://www.mongodb.com/docs/v6.0/reference/method/db.collection.remove/)
+References:
+[db.collection.remove()](https://www.mongodb.com/docs/v6.0/reference/method/db.collection.remove/)
+[db.collection.delete()](https://www.mongodb.com/docs/mongodb-shell/crud/delete/)
 
 #### Q47. Using the MongoDB shell, how do you remove the customer collection and its indexes?
 
@@ -355,7 +357,7 @@
 
 **Note:** An alternative method in the mongosh shell is listIndexes()
 
-[Reference] (https://www.mongodb.com/docs/v6.0/reference/command/listIndexes/#mongodb-dbcommand-dbcmd.listIndexes)
+[Reference](https://www.mongodb.com/docs/v6.0/reference/command/listIndexes/#mongodb-dbcommand-dbcmd.listIndexes)
 
 #### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
@@ -366,7 +368,7 @@
 
 **Note:** An alternative method for db is .update()
 
-[Reference:] (https://www.mongodb.com/docs/v6.0/reference/command/update/#mongodb-dbcommand-dbcmd.update)
+[Reference](https://www.mongodb.com/docs/v6.0/reference/command/update/#mongodb-dbcommand-dbcmd.update)
 
 #### Q51. To cleanly shut down MongoDB, what command should you use from the MongoDB shell?
 
@@ -384,7 +386,7 @@
 
 **Note:** If you want to analyze the performance of a query use .explain("executionStats")
 
-[Reference:] (https://www.mongodb.com/docs/v6.0/tutorial/analyze-query-plan/)
+[Reference](https://www.mongodb.com/docs/v6.0/tutorial/analyze-query-plan/)
 
 #### Q53. When no parameters are passed to `explain()`, what mode does it run in?
 
@@ -422,7 +424,7 @@
 - [x] MongoDB allows ad hoc queries.
 
 **Note:** You don't need an index to perform ad hoc queries. Only pick one choice
-[Reference:] (https://www.mongodb.com/docs/v6.3/query-api/)
+[Reference](https://www.mongodb.com/docs/v6.3/query-api/)
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -509,12 +511,16 @@ replaces mongo as the preferred shell.
 - [x] db.customers.find({}).sort({name: -1})
 - [ ] db.customers.find({}).sort({name: 1})
 
-#### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
+#### Q67. Suppose you are using the `mongoimport` command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
 - [ ] The import command aborts without importing any records.
-- [x] The import command imports records upto but not including the record, and then aborts.
+- [ ] The import command imports records upto but not including the record, and then aborts.
 - [x] The import command doesn't import the bad document but does import the rest.
-- [] The import command prompts you to correct the bad record.
+- [ ] The import command prompts you to correct the bad record.
+
+**Note:** By default, mongoimport continues an operation when it encounters duplicate key and document validation errors.
+
+[Reference](https://www.mongodb.com/docs/database-tools/mongoimport/#std-option-mongoimport.--stopOnError)
 
 #### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
 
@@ -526,7 +532,7 @@ replaces mongo as the preferred shell.
 #### Q69. You need to be able to quickly find a word in a text field. What should you do?
 
 - [x] Create a text index on the field and do a $text Query.
-- [ ] Create an single field index in descending order, and do a query for the word.
+- [ ] Create a single field index in descending order, and do a query for the word.
 - [ ] Do a $text query.
 - [ ] Create a $regex on the fields, and do a $regex query.
 
@@ -704,3 +710,12 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] backup
 
 [MongoDB reference](https://www.mongodb.com/basics/scaling)
+
+#### Q88. Your database collection holds web session information. One field, lastActivity, holds the timestamp of when the user was last active. You want to delete the user session after 30 minutes of inactivity. What is your best option?
+
+- [ ] Create Javascript function called via an interval timeout to delete all records older than 30 minutes.
+- [x] Create a TTL index on the lastActivity field and set expireAfterSeconds to 1800.
+- [ ] You have to create a stored procedure.
+- [ ] Every time you create a new record for expired older records and delete them.
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/core/index-ttl/)

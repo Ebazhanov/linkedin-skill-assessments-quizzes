@@ -498,7 +498,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q64. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
 
 - [ ] screenshot
-- [x] text box.
+- [x] text box
 - [ ] icon
 - [ ] 3D model
 
@@ -512,7 +512,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q66. Which option can be used to import selected slides from a previously created presentation into a new presention without manually copying and pasting them?
 
 - [ ] Slide Zoom
-- [x] Reuse Slide
+- [x] Reuse Slides
 - [ ] Slides from Outline
 - [ ] Add Section
 
@@ -746,7 +746,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q96. You inserted audio into a presentation. Which two options must you enable for the audio to play throughout all slides and repeat until it is stopped?
 
 ```
-A. Loop untill Stopped
+A. Loop until Stopped
 B. Play Across Slides
 C. Rewind after Playing
 D. Start When Clicked On
@@ -795,10 +795,10 @@ D. Start When Clicked On
 
 ![Q101](images/Q101.png)
 
-- [ ] Picture Style
-- [x] Artistic Effect
+- [ ] Picture Styles
+- [x] Artistic Effects
 - [ ] Picture Layout
-- [ ] Picture Effect
+- [ ] Picture Effects
 
 #### Q102. To create a stacked image with the campfire icon on top of the yellow circle, select the campfire icon, then drag it to the center of the yellow circle, What is the next step?
 
