@@ -2095,7 +2095,7 @@ king.introduce()
 
 **Explanation:** In the first, super does not have `.name` (should be `self.name`). The third drops Robert, and `base` is not defined in the 4th.
 
-#### Q147.
+#### Q147. What does this code output in the console, assuming defaultdict has already been imported?
 
 ```python
 animals = {
