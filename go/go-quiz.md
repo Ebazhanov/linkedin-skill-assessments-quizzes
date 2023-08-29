@@ -20,25 +20,25 @@
 
 #### Q3. Which is _not_ a valid loop construct in Go?
 
-- [x]
+- [x] &shy;
 
 ```go
       do { ... } while i < 5
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       for _,c := range "hello" { ... }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       for i := 1; i < 5; i++ { ... }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       for i < 5 { ... }
@@ -52,25 +52,25 @@
 values := []int{1, 1, 2}
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       values.append(3)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       values.insert(3, 3)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       append(values, 3)
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
       values = append(values, 3)
@@ -97,25 +97,25 @@ const (
 
 #### Q6. Which is the _only_ valid import statement in Go?
 
-- [ ]
+- [ ] &shy;
 
 ```go
       import "github/gin-gonic/gin"
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       import "https://github.com/gin-gonic/gin"
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       import "../template"
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
       import "github.com/gin-gonic/gin"
@@ -321,25 +321,25 @@ func Add(a, b int) {
 data := "A group of Owls is called a parliament"
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
   resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
@@ -714,7 +714,7 @@ Program exited.
 func worker(m Message) Result
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 go func() {
@@ -723,7 +723,7 @@ go func() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 go func() {
@@ -732,7 +732,7 @@ go func() {
 } ()
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
 go func() {
@@ -741,7 +741,7 @@ go func() {
 } ()
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 go ch <- worker(m)
@@ -847,27 +847,27 @@ func main() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       ctx.SetTimeout(3*time.Second)
       req.AttachContext(ctx)
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
       req = req.WithContext(ctx)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
       ctx.SetTimeout(3*time.Second)
@@ -879,25 +879,25 @@ func main() {
 
 #### Q53. If you have a struct named Client defined in the same .go file as the statement, how do you export a variable with a default value so the variable is accessible by other packages?
 
-- [ ]
+- [ ] &shy;
 
   ```go
   let Default := new Client()
   ```
 
-- [ ]
+- [ ] &shy;
 
   ```go
   public default = &Client()
   ```
 
-- [x]
+- [x] &shy;
 
   ```go
   var Default = &Client{}
   ```
 
-- [ ]
+- [ ] &shy;
 
   ```go
   export default := new Client{}
@@ -1151,7 +1151,7 @@ func main() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 #1: games := make([]*Game, results.RowsAffected())
@@ -1159,7 +1159,7 @@ func main() {
 #3: games[results.Index()] = &g
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 #1: games := []Game{}
@@ -1167,7 +1167,7 @@ func main() {
 #3: games = append(games,g)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```go
 #1: games := map[int]Game{}
@@ -1175,7 +1175,7 @@ func main() {
 #3: games[g.GameId] = g
 ```
 
-- [x]
+- [x] &shy;
 
 ```go
 #1: games := make(map[int]*Game, 0)

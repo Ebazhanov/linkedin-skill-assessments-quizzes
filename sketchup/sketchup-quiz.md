@@ -44,9 +44,9 @@
 
 #### Q7. In LayOut, how can you set the default lenght of dimension leader lines?
 
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 - [x] 1.Create a dimension and click and drag each leader line to your desire length with the select-tool. 2. Right-click the leader line and select Copy. 3. Continue to draw subsequence dimension with the new leader line length applied.
 
 #### Q8. Which tool allows you to scale an edge to a new size that you specify by the typing in the desired measurement?
@@ -61,7 +61,7 @@
 - [x] 2.Double click and adjacent edge where it says tangent to edge while inference color is magenta.
 - [ ] 2.Right click and select trim.
 - [ ] you cannot do this only with 2 point arc tool
-- [ ]
+- [ ] &shy;
 
 #### Q10. What is the best way to click in the measurement box?
 
@@ -73,15 +73,15 @@
 #### Q11. You have created a 3D model and are concerned that some of the edges that are intended to be aligned with the axis and not. How can you check this?
 
 - [x] Click Camera > Standar View > By Axis
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 
 #### Q12. The drawing on the left has hidden line style...
 
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 - [x] In the Style Window, select the edit tab, click The Edges icon and select the back edge option.
 
 #### Q13. Which arrow key allows you to toggle between parallel and perpendicular (magenta) inference direction?

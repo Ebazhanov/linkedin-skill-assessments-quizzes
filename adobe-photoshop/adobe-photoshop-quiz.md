@@ -567,9 +567,9 @@ E. Perspective Warp
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 

@@ -100,28 +100,28 @@
 
 #### Q10. Which components are typically found on the motherboard?
 
-- [x]
+- [x] &shy;
   basic I/O
   graphics
   NIC
   battery
   expansion slots
 
-- [ ]
+- [ ] &shy;
   basic I/O
   cooling
   NIC
   graphics
   expansion slots
 
-- [ ]
+- [ ] &shy;
   basic I/O
   graphics
   NIC
   mass storage
   expansion slots
 
-- [ ]
+- [ ] &shy;
   basic I/O
   graphics
   NIC

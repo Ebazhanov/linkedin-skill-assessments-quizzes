@@ -216,7 +216,7 @@ print(deliver)
 
 #### Q25. Which set of two statements-followed by the cbind() function-results in a data frame named vbound?
 
-- [ ]
+- [ ] &shy;
 
 ```r
 v1<-list(1,2,3)
@@ -224,7 +224,7 @@ v2<-list(c(4,5,6))
 vbound<-cbind(v1,v2)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```r
 v1<-c(1,2,3)
@@ -232,7 +232,7 @@ v2<-list(4,5,6))
 vbound<-cbind(v1,v2)
 ```
 
-- [x]
+- [x] &shy;
 
 ```r
 v1<-c(1,2,3)
@@ -240,7 +240,7 @@ v2<-c(4,5,6))
 vbound<-cbind(v1,v2)
 ```
 
-- [ ]
+- [ ] &shy;
   none
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?

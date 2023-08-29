@@ -204,7 +204,7 @@
 
 #### Q30. Single-line text can be added anywhere in a drawing. If middle-center justified text with height of 0 was required in model space that was 300 millimeters high, what workflow would you use?
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -213,7 +213,7 @@
 5. Specify the height.
 6. Specify the rotation angle.
 
-- [x]
+- [x] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -222,7 +222,7 @@
 5. Pick a middle point.
 6. Type text.
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -231,7 +231,7 @@
 5. Pick a middle point.
 6. Type text.
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.

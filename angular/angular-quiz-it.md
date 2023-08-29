@@ -101,7 +101,7 @@ export class OrderService {
 
 #### D8. Qual è la sintassi del modello corretta per l'utilizzo della direttiva strutturale ngFor incorporata per eseguire il rendering di un elenco di productNames?
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <ul>
@@ -109,7 +109,7 @@ export class OrderService {
 </ul>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <ul>
@@ -117,7 +117,7 @@ export class OrderService {
 </ul>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
 <ul>
@@ -125,7 +125,7 @@ export class OrderService {
 </ul>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <ul>
@@ -226,25 +226,25 @@ export class ShoppingCartComponent {
 </form>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```html
 <button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
 ```
 
-- [x]
+- [x] &shy;
 
 ```html
 <button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```html
 <button (click)="submit(userForm.value)" [ngForm.disabled]="userForm.valid">Save</button>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```html
 <button (click)="submit(userForm.value)" *ngIf="userForm.valid">Save</button>
@@ -569,7 +569,7 @@ export class HighlightDirective {
 </form>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
   <span *ngIf="username.minLength.invalid"›
@@ -577,13 +577,13 @@ export class HighlightDirective {
   </span>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
   <span *ngIf="form.get('username').getError('minLength') as minLengthError">
@@ -591,7 +591,7 @@ export class HighlightDirective {
   </span>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
   <input type="text" formControlName="username" #userName="ngModer">
@@ -648,7 +648,7 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
  <app-card>
@@ -659,7 +659,7 @@ export class BioComponent { }
  </app-card>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <h1>Data Card</h1>
@@ -668,7 +668,7 @@ export class BioComponent { }
  </app-bio>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <app-card>
@@ -681,7 +681,7 @@ export class BioComponent { }
 </app-card>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <app-card>
@@ -706,7 +706,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
 <app-user-card>
@@ -717,14 +717,14 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <h1>User Data</h1>
 <p>Jenny Smith<p>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <app-user-card>
@@ -732,7 +732,7 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <div app-user-card>
@@ -747,19 +747,19 @@ export class BioComponent { }
 constructor(@Inject('Logger') private logger) { }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 providers: [Logger];
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
 providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 @Injectable({
@@ -767,7 +767,7 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 })
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 providers: [{ provide: 'Logger' }];
@@ -874,14 +874,14 @@ export class OrderService {
 
 - [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
 - [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
-- [x]
+- [x] &shy;
 
 ```ts
 const options = { params: new HttpParams().set('year', year) };
 return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 getOrdersByYear(year: number): Observable<Order[]> {
@@ -922,13 +922,13 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </div>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <div #inactive>User is not active.</div>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <div *ngIf="inactive">
@@ -936,7 +936,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </div>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <ng-template #else="inactive">
@@ -944,7 +944,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 </ng-template>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
 <ng-template #inactive>
@@ -956,7 +956,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 
 #### D50. Qual è la sintassi corretta per una definizione di route per caricare pigramente un modulo di feature?
 
-- [ ]
+- [ ] &shy;
 
 ```
   {
@@ -965,7 +965,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```
 {
@@ -974,7 +974,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
 {
@@ -983,7 +983,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
 {
@@ -1175,7 +1175,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <div *ngIf="location">
@@ -1184,7 +1184,7 @@ export class TruncatePipe implements PipeTransform {
 {{ endNgIf }}
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <ng-template *ngIf="location">
@@ -1193,7 +1193,7 @@ export class TruncatePipe implements PipeTransform {
 </ng-template>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```ts
 <div *ngIf="location" [display]=" ' hidden' ">
@@ -1202,7 +1202,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- [x]
+- [x] &shy;
 
 ```ts
 <ng-container *ngIf="location">

@@ -204,7 +204,7 @@
 
 #### D30. Il testo a riga singola può essere aggiunto in qualsiasi punto di un disegno. Se fosse richiesto un testo giustificato al centro centrale con altezza pari a 0 nello spazio del modello alto 300 millimetri, quale flusso di lavoro utilizzeresti?
 
-- [ ]
+- [ ] &shy;
 
 1.  Fare clic con il pulsante destro del mouse e selezionare Giustifica.
 2.  Seleziona MC.
@@ -213,7 +213,7 @@
 5.  Specificare l'altezza.
 6.  Specificate l'angolo di rotazione.
 
-- [x]
+- [x] &shy;
 
 1.  Fare clic con il pulsante destro del mouse e selezionare Giustifica.
 2.  Seleziona MC.
@@ -222,7 +222,7 @@
 5.  Scegliete un punto intermedio.
 6.  Digitare testo.
 
-- [ ]
+- [ ] &shy;
 
 1.  Fare clic con il pulsante destro del mouse e selezionare Giustifica.
 2.  Seleziona MC.
@@ -231,7 +231,7 @@
 5.  Scegliete un punto intermedio.
 6.  Digitare testo.
 
-- [ ]
+- [ ] &shy;
 
 1.  Fare clic con il pulsante destro del mouse e selezionare Giustifica.
 2.  Seleziona MC.

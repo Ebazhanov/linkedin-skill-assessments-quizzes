@@ -673,17 +673,17 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q92. You have a meeting from 2 to 3 p.m. next friday and have been invited to a second meeting in a different bulding starting at 3 p.m.. You want to attend both meetings but need time to get from the first to the second. What is an efficient way to respond to the organizer of the second meeting to allot 30 minutes of travel?
 
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
 - [ ] decline and propose new time
 - [x] tenctative and propose new time
 
 #### Q93. What happens when you try to add new account on Outlook?
 
 - [x] transmission
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 
 #### Q94. When you back up or export your contacts directly from Outlook without using additional applications, what type of file will you export?
 
