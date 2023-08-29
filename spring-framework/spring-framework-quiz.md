@@ -474,25 +474,25 @@ Explanation: missing `@Autowired` on `private TestService service` or on the set
 2. A point during the execution of a program, such as the execution of a method or the handling of an exception.
 3. An action taken by an aspect at a particular join point.
 
-- [ ]
+- [ ] &shy;
   ```
   1. Pointcut
   2. Advice
   3. Join point
   ```
-- [ ]
+- [ ] &shy;
   ```
   1. Join point
   2. Pointcut
   3. Advice
   ```
-- [ ]
+- [ ] &shy;
   ```
   1. Advice
   2. Pointcut
   3. Join point
   ```
-- [x]
+- [x] &shy;
   ```
   1. Pointcut
   2. Join point

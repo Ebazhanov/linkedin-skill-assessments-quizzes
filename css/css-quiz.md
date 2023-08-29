@@ -513,22 +513,22 @@ p {
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png?raw=png)
 
-- [x]
+- [x] &shy;
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
   - Example 3: `flex-direction: column;`
   - Example 4: `flex-direction: column-reverse;`
-- [ ]
+- [ ] &shy;
   - Example 1: `flex-direction: row-reverse;`
   - Example 2: `flex-direction: row;`
   - Example 3: `flex-direction: column-reverse;`
   - Example 4: `flex-direction: column;`
-- [ ]
+- [ ] &shy;
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
   - Example 3: `flex-direction: column;`
   - Example 4: `flex-direction: reverse-column;`
-- [ ]
+- [ ] &shy;
   - Example 1: `flex-direction: column;`
   - Example 2: `flex-direction: column-reverse;`
   - Example 3: `flex-direction: row;`

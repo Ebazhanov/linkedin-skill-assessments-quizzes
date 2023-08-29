@@ -162,7 +162,7 @@ E. Slides
 
 ![Four bar charts](images/Q21.png?raw=png)
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;

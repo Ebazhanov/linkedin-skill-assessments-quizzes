@@ -283,18 +283,18 @@ insert into students(firstname,lastname)values('mark','twain');
 select * from students;
 ```
 
-- [ ]
+- [ ] &shy;
   studentid firstname lastname
   1 1001 mark twain
 
-- [ ]
+- [ ] &shy;
   studentid firstname lastname
   1 1 mark twain
 
 - [x] studentid firstname lastname
       1 1000 mark twain
 
-- [ ]
+- [ ] &shy;
   studentid firstname lastname
   1 null mark twain
 

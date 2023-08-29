@@ -30,7 +30,7 @@
 
 #### D5. Qual è il set corretto di classi di componenti necessario per implementare un RecyclerView di elementi che visualizza un elenco di widget verticalmente?
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -39,7 +39,7 @@
   LinearLayoutManager
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -48,7 +48,7 @@
   LinearLayoutManager
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -57,7 +57,7 @@
   LinearLayoutManager
 ```
 
-- [x]
+- [x] &shy;
 
 ```java
   RecycleView
@@ -75,7 +75,7 @@
 
 #### D7. È stata creata una classe NextActivity che si basa su una stringa contenente alcuni dati che passano all'interno dell'intento Quale frammento di codice consente di avviare l'attività?
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).also { intent ->
@@ -83,7 +83,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -93,7 +93,7 @@
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -103,7 +103,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -129,7 +129,7 @@
 
 #### D10. Come si specifica nel file build.gradle che l'app richiede almeno il livello API 21 per l'esecuzione, ma che può essere testata al livello API 28?
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -139,7 +139,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -149,7 +149,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -159,7 +159,7 @@
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```
   defaultConfig {
@@ -273,7 +273,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 ![img](image/shape.png?raw=png)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -285,7 +285,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <oval xmlns:android="http://schemas.android.com/apk/res/android">
@@ -294,7 +294,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </oval>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -306,7 +306,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -432,7 +432,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 #### D34. Desideri abilitare il monitoraggio analitico solo in `release` costruisce. Come è possibile creare un nuovo campo nel generato `BuildConfig` per memorizzare quel valore?
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -445,7 +445,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -458,7 +458,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```
   buildTypes {
@@ -471,7 +471,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -502,7 +502,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 ![img](image/04.jpeg)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -523,7 +523,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -543,7 +543,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -566,7 +566,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -596,13 +596,13 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 #### D39. Quale definizione impedirà ad altre app di accedere al tuo `Activity` tramite un `intent`?
 
-- [x]
+- [x] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity" />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -612,7 +612,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </activity>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -623,7 +623,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </activity>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -685,7 +685,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 ![img](image/43.jpeg)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -697,7 +697,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
@@ -708,7 +708,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </rectangle>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -720,7 +720,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -810,7 +810,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 </resources>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <ImageView
@@ -820,7 +820,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
       android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <ImageView
@@ -831,7 +831,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
     android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <ImageView
@@ -842,7 +842,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
       android:src=@drawable/map_pin />
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
     <ImageView

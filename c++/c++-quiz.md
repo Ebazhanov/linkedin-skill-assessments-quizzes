@@ -1401,7 +1401,7 @@ int main() {
 
 #### Q93. Which choice would be a recursive solution to the factorial n! problem?
 
-- [ ]
+- [ ] &shy;
 
 ```cpp
 void fact(int n) {
@@ -1412,7 +1412,7 @@ void fact(int n) {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```cpp
 int fact(int n) {
@@ -1423,7 +1423,7 @@ int fact(int n) {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```cpp
 int fact(int n) {
@@ -1434,7 +1434,7 @@ int fact(int n) {
 }
 ```
 
-- [x]
+- [x] &shy;
 
 ```cpp
 int fact(int n) {

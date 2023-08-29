@@ -170,7 +170,7 @@ if ($email === false) {
 
 #### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -180,7 +180,7 @@ if ($email === false) {
   5?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -190,7 +190,7 @@ if ($email === false) {
   5?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -200,7 +200,7 @@ if ($email === false) {
   5?>
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   1 <?php
@@ -212,7 +212,7 @@ if ($email === false) {
 
 #### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
-- [x]
+- [x] &shy;
 
 ```php
   1 class MyClass {
@@ -224,7 +224,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -236,7 +236,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -248,7 +248,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -324,7 +324,7 @@ function process(...$vals) {
 
 #### Q29. Which is the way to create an array of "seasons"?
 
-- [ ]
+- [ ] &shy;
 
 ```php
 seasons=array(
@@ -459,7 +459,7 @@ echo "No, mail is not set";
 
 #### Q44. Which code snippet demonstrates encapsulation?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow extends Animal {
@@ -467,7 +467,7 @@ echo "No, mail is not set";
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow {
@@ -477,7 +477,7 @@ echo "No, mail is not set";
   $daisy->milk = "creamy";
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow {
@@ -488,7 +488,7 @@ echo "No, mail is not set";
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   class Cow {
@@ -521,28 +521,28 @@ echo "No, mail is not set";
 </books>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = simplexml_load_string('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   $books = simplexml_load_file('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = SimpleXMLElement('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = SimpleXML('books.xml');
@@ -607,28 +607,28 @@ isset($_POST['submit'])
 
 #### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   report_errors = E_ALL
   display_errors = On
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   error_reporting = E_ALL
   display_errors = On
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = Off
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   error_reporting = E_ALL & ~E_NOTICE
@@ -1394,7 +1394,7 @@ echo $smurf->name;
 
 #### Q101. Using a for loop, how would you write PHP code to count backward from 10 to 1, in that order?
 
-- [ ]
+- [ ] &shy;
 
 ```php
 <?
@@ -1404,7 +1404,7 @@ for ($i=1; $i <= 10; $i++) {
 ?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
 <?
@@ -1416,7 +1416,7 @@ while($i>=0) {
 ?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
 <?
@@ -1426,7 +1426,7 @@ while($i>=0) {
 ?>
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
 <?
@@ -1459,7 +1459,7 @@ while($i>=0) {
 **Our country is United States of America**
 **Our country has a total of 50 states**
 
-- [ ]
+- [ ] &shy;
 
 ```php
 1 define('country',"United States of America");
@@ -1468,7 +1468,7 @@ while($i>=0) {
 4 echo "Our country has a total of ".states." states";
 ```
 
-- [X]
+- [x] &shy;
 
 ```php
 1 define('country',"United States of America");
@@ -1477,7 +1477,7 @@ while($i>=0) {
 4 echo "Our country has a total of ".states." states";
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
 1 define(country,"United States of America");
@@ -1486,7 +1486,7 @@ while($i>=0) {
 4 echo "Our country has a total of ".states." states";
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
 1 define('country',"United States of America");

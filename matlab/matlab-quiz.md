@@ -624,7 +624,7 @@ end
 
 ![MatLab Q39](images/matlab_Q39.jpg)
 
-- [ ]
+- [ ] &shy;
 
 ```
 figure
@@ -634,7 +634,7 @@ surf(r)
 colorbar
 ```
 
-- [x]
+- [x] &shy;
 
 ```
 figure

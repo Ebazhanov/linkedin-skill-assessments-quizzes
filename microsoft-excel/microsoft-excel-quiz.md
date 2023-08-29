@@ -1313,8 +1313,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 ![Q147](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/67fc27f2-5ee3-4250-bc9e-17c19da31d9a)
 
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
 - [ ] Below answer should be right
 - [x] Right-click any row field value in the pivot table and select Group.
 

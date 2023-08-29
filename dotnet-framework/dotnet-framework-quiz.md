@@ -311,7 +311,7 @@
 
 > Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
-- [ ]
+- [ ] &shy;
 
 ```c#
 public IFormResult ReceivedDataByRequest()
@@ -321,7 +321,7 @@ public IFormResult ReceivedDataByRequest()
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```c#
 public IActionResult ReceivedDataByRequest()
@@ -331,7 +331,7 @@ public IActionResult ReceivedDataByRequest()
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```c#
 public IFormResult ReceivedDataByRequest()
@@ -341,7 +341,7 @@ public IFormResult ReceivedDataByRequest()
 }
 ```
 
-- [x]
+- [x] &shy;
 
 ```c#
 public IActionResult ReceivedDataByRequest()

@@ -204,7 +204,7 @@
 
 #### Q30. Le texte d’une seule ligne peut être ajouté n’importe où dans un dessin. Si un texte justifié au centre du milieu avec une hauteur de 0 était requis dans un espace de modèle de 300 millimètres de haut, quel flux de travail utiliseriez-vous ?
 
-- [ ]
+- [ ] &shy;
 
 1.  Cliquez avec le bouton droit de la souris et sélectionnez Justifier.
 2.  Sélectionnez MC.
@@ -213,7 +213,7 @@
 5.  Spécifiez la hauteur.
 6.  Spécifiez l’angle de rotation.
 
-- [x]
+- [x] &shy;
 
 1.  Cliquez avec le bouton droit de la souris et sélectionnez Justifier.
 2.  Sélectionnez MC.
@@ -222,7 +222,7 @@
 5.  Choisissez un point médian.
 6.  Tapez du texte.
 
-- [ ]
+- [ ] &shy;
 
 1.  Cliquez avec le bouton droit de la souris et sélectionnez Justifier.
 2.  Sélectionnez MC.
@@ -231,7 +231,7 @@
 5.  Choisissez un point médian.
 6.  Tapez du texte.
 
-- [ ]
+- [ ] &shy;
 
 1.  Cliquez avec le bouton droit de la souris et sélectionnez Justifier.
 2.  Sélectionnez MC.

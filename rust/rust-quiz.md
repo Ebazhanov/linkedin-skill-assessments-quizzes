@@ -145,7 +145,7 @@ fn main() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```rust
 for c in text.chars() {
@@ -157,7 +157,7 @@ for c in text.chars() {
 }
 ```
 
-- [x]
+- [x] &shy;
 
 ```rust
 for c in text.chars() {
@@ -166,7 +166,7 @@ for c in text.chars() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```rust
 for c in text.chars() {
@@ -175,7 +175,7 @@ for c in text.chars() {
 }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```rust
 for c in text.chars() {

@@ -204,7 +204,7 @@
 
 #### P30. El texto de una sola línea se puede agregar en cualquier lugar de un dibujo. Si se requiriera texto justificado en el centro medio con una altura de 0 en un espacio de modelo de 300 milímetros de altura, ¿qué flujo de trabajo utilizaría?
 
-- [ ]
+- [ ] &shy;
 
 1.  Haga clic con el botón derecho y seleccione Justificar.
 2.  Seleccione MC.
@@ -213,7 +213,7 @@
 5.  Especifique la altura.
 6.  Especifique el ángulo de rotación.
 
-- [x]
+- [x] &shy;
 
 1.  Haga clic con el botón derecho y seleccione Justificar.
 2.  Seleccione MC.
@@ -222,7 +222,7 @@
 5.  Elige un punto medio.
 6.  Escriba texto.
 
-- [ ]
+- [ ] &shy;
 
 1.  Haga clic con el botón derecho y seleccione Justificar.
 2.  Seleccione MC.
@@ -231,7 +231,7 @@
 5.  Elige un punto medio.
 6.  Escriba texto.
 
-- [ ]
+- [ ] &shy;
 
 1.  Haga clic con el botón derecho y seleccione Justificar.
 2.  Seleccione MC.
