@@ -2190,7 +2190,9 @@ label="Endnotes">Endnotes...</custom-footnote>
 <p id="warning">Be careful when installing this product.</p>
 ```
 
-- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
+- [x] It establishes that `warning` is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
 - [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS and with JavaScript code.
 - [ ] It establishes that `warning` may be used for styling CSS several times per page.
 - [ ] It establishes that `warning` is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
