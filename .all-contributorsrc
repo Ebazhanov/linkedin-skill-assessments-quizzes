@@ -14138,6 +14138,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Daethyra",
+      "name": "Daemon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109057945?v=4",
+      "profile": "https://beacons.ai/daethyra",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
