@@ -2538,3 +2538,55 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [ ] 15
 - [x] 2
 - [ ] 16
+
+
+#### Q178. How would you create a list of tuples matching these lists of characters and actors?
+``` python
+characters = ["Iron Man", "Spider Man", "Captain America"]
+actors = ["Downey", "Holland", "Evans"]
+
+#example output : [("Iron Man", "Downey), ("Spider Man", "Holland"), ("Captain America", "Evans")]
+```
+- [x] zip (characters, actors)
+- [ ] {x:y for x in characters for y in actors}
+- [ ] [(x,y) for x in characters for y in actors]
+- [ ] 
+```python
+d = {}
+for x in range(1, len(characters)):
+    d[x] = actors [x]
+```
+
+#### Q179. What will this code output to the screen?
+``` python
+for i in range(5):
+print (i)
+else:
+print("Done!")
+```
+- [x] 
+```python
+1
+2
+3
+4
+Done!
+```
+- [ ] You will get a syntax error.
+- [ ] 
+``` python
+0
+1
+3
+4
+5
+Done!
+```
+- [ ] 
+``` python
+1
+3
+4
+5
+Done!
+```
