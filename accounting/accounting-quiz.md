@@ -596,7 +596,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 #### Q72. Flexible budgets are created to demonstrate how **\_**.
 
-- [ ] changes in activity levels affect predicted revenue and costs
+- [x] changes in activity levels affect predicted revenue and costs
 - [ ] management need to make changes to budget targets following poor performance
 - [ ] an inaccurate operational budget results from poor budgeting data
 - [ ] current results fully align to budgetary allocations
