@@ -259,6 +259,7 @@ git bisect good 69faab6268350295550de7d587bc323d
 - [ ] Stash the related commits under a new hash.
 
 #### Q26. Which of the following is true of the git push command?
+
 **Note:** Which statement is true of the `git push` command?
 
 - [x] By default a push doesn't send tags to the remote repository.
@@ -695,7 +696,7 @@ Which of the following options is correct ?
 - [ ] `git stash` removes a commit from the repo history, while `git stash pop` saves changes to multiple branches.
 - [ ] `git stash` saves changes to multiple branches, while `git stash pop` removes a commit from the repo history.
 - [ ] `git stash` removes the most recent commit, while `git stash pop` saves current changes.
-- [x] `git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory.  
+- [x] `git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory.
 
 #### Q84. Which command can be used to list the branches that have been merged into the currently checked-out branch?
 

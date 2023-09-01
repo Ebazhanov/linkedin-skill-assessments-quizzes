@@ -1283,7 +1283,7 @@ fmt.Println(a, b, c)
 
 [Go Playground Example](https://go.dev/play/p/qUI50GNGWTq)
 
-### Q71. What is the operator for a logical AND condition? 
+### Q71. What is the operator for a logical AND condition?
 
 - [ ] \+
 - [ ] and

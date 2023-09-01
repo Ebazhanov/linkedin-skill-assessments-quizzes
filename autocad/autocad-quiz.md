@@ -416,10 +416,10 @@
 - [x] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a FUZZ DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MINIGAP DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MIN GAP DISTANCE. This is the minimum gap distance for automatic joining.
-      
+
 ![q55](images/q75_autocad.png?raw=png)
 
-#### Q56. When creating a block with attributes, why should you use underscores (_) between words in the attribute tag?
+#### Q56. When creating a block with attributes, why should you use underscores (\_) between words in the attribute tag?
 
 - [ ] Attribute tags must have an underscore to be recognized for data extraction.
 - [ ] Attribute tags do not allow spaces.
@@ -602,7 +602,7 @@
 
 - [ ] In case the layer needs to be switched off or frozen for clarity in a drawing.
 - [x] In case the layer needs to be locked so that it cannot be used by anyone else.
-- [ ] In case the layer isn’t needed any more. 
+- [ ] In case the layer isn’t needed any more.
 - [ ] In case the layer need to be renamed for project purposes
 
 #### Q82. You can make a global linetype scale change by typing “TLSCALE” and pressing Enter (Windows) or Return (MAC). The default value for LTSCALE is 1. What does this represent?
@@ -629,11 +629,11 @@
 #### Q85. With default setting in place, double-clicking the mouse wheel invokes which AutoCAD command?
 
 - [ ] Zoom Previous
-- [ ] Zoom Windows  
+- [ ] Zoom Windows
 - [x] Zoom Extents
 - [ ] Zoom All
 
-#### Q86. A window selection selects only the objects _____ the window selection.
+#### Q86. A window selection selects only the objects **\_** the window selection.
 
 - [ ] Completely encompassed by
 - [x] Crossed by -- Crossing selection (window Left top to right bottom)

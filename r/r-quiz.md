@@ -241,7 +241,7 @@ vbound<-cbind(v1,v2)
 ```
 
 - [ ] &shy;
-  none
+      none
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?
 
@@ -679,9 +679,9 @@ mtrx[, -1]
 
 ![image](https://drive.google.com/uc?export=view&id=1ntrHVnNfCRvXfKjbpavh7CiIsv7izsJr)
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 - [x] [1] 4 5 6
 
 #### Q63. Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?

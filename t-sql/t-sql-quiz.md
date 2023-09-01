@@ -284,19 +284,19 @@ select * from students;
 ```
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 1001 mark twain
+      studentid firstname lastname
+      1 1001 mark twain
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 1 mark twain
+      studentid firstname lastname
+      1 1 mark twain
 
 - [x] studentid firstname lastname
       1 1000 mark twain
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 null mark twain
+      studentid firstname lastname
+      1 null mark twain
 
 #### Q27. Given a table with the following structure, which query returns all student names with the highest grade?
 

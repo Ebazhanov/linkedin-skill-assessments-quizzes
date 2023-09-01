@@ -95,7 +95,7 @@ NOTE: DAX does not have IFX or IFS functions. The correct answer is B.
 - [x] A, B, C
 - [ ] A, B, C, D
 
-NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C 
+NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C
 
 #### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
@@ -118,7 +118,7 @@ NOTE: Documentation talks about blog posts, websites, emails or social media, bu
 - [ ] sort, filter, and group
 - [ ] sort and group
 
-NOTE: Power BI won't group your text, but it does filter and sort it. 
+NOTE: Power BI won't group your text, but it does filter and sort it.
 
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
@@ -793,5 +793,3 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [x] all of these answers
 
 [reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
-
-

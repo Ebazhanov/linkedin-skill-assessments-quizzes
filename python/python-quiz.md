@@ -274,7 +274,6 @@ area
 
 [reference](https://www.askpython.com/python/python-return-statement#). When the return statement is `None` or has no value or there is no return statement the function returns `None`.
 
-
 #### Q23. What is the purpose of the `pass` statement in Python?
 
 - [ ] It is used to skip the `yield` statement of a generator and return a value of None.
@@ -452,7 +451,6 @@ Both merge sort and quicksort employ a common algorithmic paradigm based on recu
 
 This function has constant time complexity i.e. O(1), because lists are randomly accessed so the last element can be reached in O(1) time that's why the time taken to add the new element at the end of the list is O(1).
 
-
 #### Q33. What is key difference between a `set` and a `list`?
 
 - [ ] A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
@@ -468,7 +466,7 @@ This function has constant time complexity i.e. O(1), because lists are randomly
 - [ ] Abstraction means that a class can inherit from more than one parent class.
 
 Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
-[reference](https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.)
+[reference](<https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.>)
 
 #### Q35. What does this function print?
 
@@ -701,8 +699,8 @@ t1 = test()
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
 - [ ] A class method hold all of the data for a particular class.
 
-[Reference](https://pynative.com/python-class-method/)   
-Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method. 
+[Reference](https://pynative.com/python-class-method/)  
+Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method.
 
 #### Q48. What does it mean for a function to have linear runtime?
 
@@ -720,7 +718,7 @@ Class methods are methods that are called on the class itself, not on a specific
 
 The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower_case_with_underscores".[2]
 Within Usenet the term snake_case was first seen in the Rubycommunity in 2004,[3] used by Gavin Kistner, writing:
-BTW...what *do* you call that naming style? snake_case? That's what I'll call it until someone corrects me.
+BTW...what _do_ you call that naming style? snake_case? That's what I'll call it until someone corrects me.
 
 [reference](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -798,7 +796,7 @@ In computer science, a binary search tree (BST), also called an ordered or sorte
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
-Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it. 
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
 [reference](https://www.geeksforgeeks.org/decorators-in-python/)
 
 #### Q56. When would you use a for loop?
@@ -905,6 +903,7 @@ You want to use one particular feature in a lot of different classes.
 It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
 
 **example**
+
 ```python
 >>> f = open('workfile', 'w', encoding="utf-8")
 >>> with open('workfile', encoding="utf-8") as f:
@@ -1110,10 +1109,11 @@ else;
 # present
 def def_value():
     return "Not Present"
-      
+
 # Defining the dict
 d = defaultdict(def_value)
 ```
+
 [reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
 
 #### Q79. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
@@ -2422,7 +2422,7 @@ MISSING_ARG_3 = func
 - [ ] `filters`
 - [ ] `pipe_filter`
 
-[reference](https://scikit-learn.org/stable/modules/compose.html) The correct syntax is actually: `from sklearn.pipeline import Pipeline`  
+[reference](https://scikit-learn.org/stable/modules/compose.html) The correct syntax is actually: `from sklearn.pipeline import Pipeline`
 
 #### Q168. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
 
@@ -2528,29 +2528,33 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive).
 
 #### Q176. What is a common use of Python's sys library?
+
 - [ ] to take a snapshot of all the packages and libraries in your virtual environment
 - [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
 - [x] to capture command-line arguments given at a file's runtime
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
 
 #### Q177. What is a the output of 17 % 15 ?
+
 - [ ] 17
 - [ ] 15
 - [x] 2
 - [ ] 16
 
-
 #### Q178. How would you create a list of tuples matching these lists of characters and actors?
-``` python
+
+```python
 characters = ["Iron Man", "Spider Man", "Captain America"]
 actors = ["Downey", "Holland", "Evans"]
 
 #example output : [("Iron Man", "Downey), ("Spider Man", "Holland"), ("Captain America", "Evans")]
 ```
+
 - [x] zip (characters, actors)
 - [ ] {x:y for x in characters for y in actors}
 - [ ] [(x,y) for x in characters for y in actors]
-- [ ] 
+- [ ]
+
 ```python
 d = {}
 for x in range(1, len(characters)):
@@ -2558,13 +2562,16 @@ for x in range(1, len(characters)):
 ```
 
 #### Q179. What will this code output to the screen?
-``` python
+
+```python
 for i in range(5):
 print (i)
 else:
 print("Done!")
 ```
-- [x] 
+
+- [x]
+
 ```python
 1
 2
@@ -2572,9 +2579,11 @@ print("Done!")
 4
 Done!
 ```
+
 - [ ] You will get a syntax error.
-- [ ] 
-``` python
+- [ ]
+
+```python
 0
 1
 3
@@ -2582,8 +2591,10 @@ Done!
 5
 Done!
 ```
-- [ ] 
-``` python
+
+- [ ]
+
+```python
 1
 3
 4

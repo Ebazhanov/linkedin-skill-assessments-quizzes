@@ -133,7 +133,7 @@
 - [x] A default constructor can be called explicitly
 - [ ] A default constructor cannot be defined by the coder
 
-[reference](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)#:~:text=The%20constructors%20can%20be%20called,also%20called%20the%20shorthand%20method.&text=Example%20e%20%3D%20Example(0%2C,50)%3B%20%2F%2F%20Implicit%20call.) It is even mentioned in Wikipedia: "The constructors can be called explicitly or implicitly. The method of calling the constructor implicitly is also called the shorthand method."
+[reference](<https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)#:~:text=The%20constructors%20can%20be%20called,also%20called%20the%20shorthand%20method.&text=Example%20e%20%3D%20Example(0%2C,50)%3B%20%2F%2F%20Implicit%20call.>) It is even mentioned in Wikipedia: "The constructors can be called explicitly or implicitly. The method of calling the constructor implicitly is also called the shorthand method."
 
 #### Q20. Which of the following is NOT an advantage of using getters and setters?
 

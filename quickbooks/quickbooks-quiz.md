@@ -468,8 +468,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 #### Q67. What is a QuickReport in QuickBooks?
 
-- [ ]  A QuickBooks report in graphical format
-- [x]  A Predesigned report that shows more detail about the data you are currently viewing on screen
-- [ ]  A snapshot of the profile and Loss report 
-- [ ]  Any QuickBooks report
-
+- [ ] A QuickBooks report in graphical format
+- [x] A Predesigned report that shows more detail about the data you are currently viewing on screen
+- [ ] A snapshot of the profile and Loss report
+- [ ] Any QuickBooks report

@@ -514,17 +514,18 @@ FROM customers c;
 
 #### Q72. In Hadoop MapReduce job code, what must be static?
 
- - [ ] configuration
- - [x] Mapper and Reducer
- - [ ] Mapper
- - [ ] Reducer
+- [ ] configuration
+- [x] Mapper and Reducer
+- [ ] Mapper
+- [ ] Reducer
 
 [Reference](https://stackoverflow.com/questions/14828131/do-mappers-and-reducers-in-hadoop-have-to-be-static-classes)
 
 #### Q73. In Hadoop simple mode, which object determines the identity of a client process?
- - [ ] Kerberos ticket
- - [ ] kubernetes token
- - [ ] guest operating system
- - [x] host operating system
+
+- [ ] Kerberos ticket
+- [ ] kubernetes token
+- [ ] guest operating system
+- [x] host operating system
 
 [Reference](http://doc.isilon.com/ECS/3.2/DataAccessGuide/vipr_c_hdfs_security_model.html)

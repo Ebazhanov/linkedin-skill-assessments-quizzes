@@ -1453,8 +1453,8 @@ export class CustomValidatorDirective implements Validator {}
 - [x] declarations
 
 #### Q83. What is the difference between the CanActivate and the CanLoad rout guards?
-- [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate 
-stops routing to a component in that NgModule , but the module is still loaded.
+
+- [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule , but the module is still loaded.
 - [ ] CanActivate and CanLoad do the exact same thing.
 - [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
-- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table . CanActivate is used to manage access to routes at the time they are requested 
+- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table . CanActivate is used to manage access to routes at the time they are requested

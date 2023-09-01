@@ -75,12 +75,12 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 - [ ] `cat textfile | sed '/^$/d`
 - [ ] `sed -i 's/^$//' textfile`
 
-[reference](https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions)   
-sed : sed is a stream editor. A stream editor is used to perform basic text transformations on an input stream.   
--i[SUFFIX] : This option specifies that files are to be edited in-place.   
+[reference](https://www.gnu.org/software/sed/manual/sed.html#sed-regular-expressions)  
+sed : sed is a stream editor. A stream editor is used to perform basic text transformations on an input stream.  
+-i[SUFFIX] : This option specifies that files are to be edited in-place.  
 '/^$/d' : regex is between the //. ^ is the beginning of the line, $ is the end of the line. ^$ means the start and end have nothing in between.  
 d : Delete the pattern space; immediately start next cycle.  
-Warning, this example above will not work on a mac terminal due to different UNIX flavours. There is a way to make it work on a mac adding an extra flag `-e`, or even just `--` (found on [StackOverflow](https://stackoverflow.com/questions/4247068/sed-command-with-i-option-failing-on-mac-but-works-on-linux)):  `sed -i -e '/^$/d' textfile.txt`   
+Warning, this example above will not work on a mac terminal due to different UNIX flavours. There is a way to make it work on a mac adding an extra flag `-e`, or even just `--` (found on [StackOverflow](https://stackoverflow.com/questions/4247068/sed-command-with-i-option-failing-on-mac-but-works-on-linux)): `sed -i -e '/^$/d' textfile.txt`
 
 #### Q7. Assuming that user1 existed, what would be the result of this command string?
 
@@ -94,6 +94,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [x] It would show the username, UID, and home directory of user1 separated by hyphens.
 
 [reference](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/). Traditionally, the /etc/passwd file is used to keep track of every registered user that has access to a system. The /etc/passwd file is a colon-separated file that contains the following information: 1-`Username`, 2-`Password`, 3-`User ID (UID)`, 4-`Group ID (GID)`, 5-`User ID Info (GECOS)`, 6-`Home directory`, 7-`Command/shell`
+
 #### Q8. What happens if you use the `"set -e"` in a Bash script?
 
 - [ ] It will cause Bash to exit if a function or subshell returns a nonzero status code.
@@ -143,7 +144,7 @@ mysql < file.sql > out.txt
 - [x] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
-[reference](https://en.wikipedia.org/wiki/Setuid#:~:text=The%20Linux%20and%20Unix%20access,to%20change%20behaviour%20in%20directories.). The Linux and Unix access rights flags setuid and setgid (short for set user identity and set group identity)[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories. 
+[reference](https://en.wikipedia.org/wiki/Setuid#:~:text=The%20Linux%20and%20Unix%20access,to%20change%20behaviour%20in%20directories.). The Linux and Unix access rights flags setuid and setgid (short for set user identity and set group identity)[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories.
 
 #### Q13. In order to extract text from the first column of file called textfile, which command would you use?
 
@@ -211,7 +212,7 @@ echo "${VAR#*/html}"
 
 [reference]()
 What is happening here quoting the POSIX shell specification: `${parameter#[word]}`. Remove Smallest Prefix Pattern. The word shall be expanded to produce a pattern. The parameter expansion shall then result in parameter, with the smallest portion of the prefix matched by the pattern deleted.  
-For instance `${VAR#?}` expands to the value of $VAR with the first character deleted. And `${VAR#*/html}` expands to include all characters to and including the `/html` text which will be deleted from the variable producing the output of `/website.com/html/`
+For instance `${VAR#?}` expands to the value of $VAR with the first character deleted. And `${VAR#\*/html}`expands to include all characters to and including the`/html`text which will be deleted from the variable producing the output of`/website.com/html/`
 
 #### Q19. If prompted for text at the standard input, you can tell the command you're done entering text with what key combination?
 
@@ -1083,7 +1084,6 @@ cat > notes -
 - [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
 
-
 #### Q83. To add a value to the current environment, what command should you use ?
 
 - [ ] shell_add
@@ -1138,4 +1138,3 @@ fi
 - [ ] `$@`
 - [ ] `0`
 - [ ] `$!`
-
