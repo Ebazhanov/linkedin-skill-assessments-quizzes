@@ -545,3 +545,29 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [x] Front Door
 - [ ] Application Gateway
 - [ ] API Management
+
+#### Q71. You need to create an application in Azure Active Directory representing the Kineteco Web App so you can assign directory permissions to the app. To create the application identity, which command will you run?
+
+- [ ] appName="KinetecoWebApp"
+
+      az ad app permission grant -display-name $appName \
+          --homepage "http://localhost/$appName" \
+	  --identifier-uris [http://localhost/$appName](http://localhost/$appName)
+
+- [ ] appName="KinetecoWebApp"
+
+      az ad app create -display-name $appName \
+          --homepage "http://localhost/$appName" \
+          --identifier-uris [http://localhost/$appName](http://localhost/$appName)
+
+- [ ] appName="KinetecoWebApp"
+
+      az ad app credential create -display-name $appName \
+          --homepage "http://localhost/$appName" \
+          --identifier-uris [http://localhost/$appName](http://localhost/$appName)
+
+- [ ] appName="KinetecoWebApp"
+
+      az ad app permission add -display-name $appName \
+          --homepage "http://localhost/$appName" \
+          --identifier-uris [http://localhost/$appName](http://localhost/$appName)
