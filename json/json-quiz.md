@@ -150,7 +150,7 @@
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```json
 {
@@ -167,7 +167,7 @@
 }
 ```
 
-- [ ] D
+- [x] D
 
 ```json
 {
@@ -237,9 +237,8 @@
     5.Requests information from a specific source.
     6.Removes information.
 
-- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
+- [x] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
+- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
@@ -295,12 +294,12 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [ ] yes
-- [ ] yes
+- [x] yes
 - [ ] only if there is more than one item
-- [x] no
-- [x] no
+- [ ] no
 - [ ] only when arrays and objects contain more than 10 items
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#:~:text=JavaScript%20has%20allowed%20trailing%20commas%20in%20array%20literals%20since%20the%20beginning.%20Trailing%20commas%20are%20now%20also%20allowed%20in%20object%20literals%2C%20function%20parameters%2C%20named%20imports%2C%20named%20exports%2C%20and%20more.) **Explanation**: Trailing commas can be used in objects and arrays.
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
