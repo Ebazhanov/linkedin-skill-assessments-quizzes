@@ -11,9 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1427-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1428-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -1983,6 +1981,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/HanzalaSheikh"><img src="https://avatars.githubusercontent.com/u/132583844?v=4?s=100" width="100px;" alt="Hanzala"/><br /><sub><b>Hanzala</b></sub></a><br /><a href="#design-HanzalaSheikh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=HanzalaSheikh" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://beacons.ai/daethyra"><img src="https://avatars.githubusercontent.com/u/109057945?v=4?s=100" width="100px;" alt="Daemon"/><br /><sub><b>Daemon</b></sub></a><br /><a href="#design-Daethyra" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Daethyra" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/saras008"><img src="https://avatars.githubusercontent.com/u/17946130?v=4?s=100" width="100px;" alt="saras008"/><br /><sub><b>saras008</b></sub></a><br /><a href="#design-saras008" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=saras008" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mdadsh"><img src="https://avatars.githubusercontent.com/u/51800796?v=4?s=100" width="100px;" alt="mdadsh"/><br /><sub><b>mdadsh</b></sub></a><br /><a href="#design-mdadsh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mdadsh" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
