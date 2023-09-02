@@ -680,8 +680,8 @@ public class Honda extends Car{}
 
 - [ ] which programming language will be used.
 - [ ] the programmer responsible for implementation.
-- [ ] interacting classes.
-- [x] attributes.
+- [x] interacting classes.
+- [ ] attributes.
 
 #### Q89. What is the best name for the function that corrects this assessment?
 
