@@ -554,7 +554,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
           --homepage "http://localhost/$appName" \
 	  --identifier-uris [http://localhost/$appName](http://localhost/$appName)
 
-- [ ] appName="KinetecoWebApp"
+- [x] appName="KinetecoWebApp"
 
       az ad app create -display-name $appName \
           --homepage "http://localhost/$appName" \
