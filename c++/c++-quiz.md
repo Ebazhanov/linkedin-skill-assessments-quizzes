@@ -1566,7 +1566,10 @@ X+=a;
 
 #### Q100. Which choice is not a C++ keyword?
 
--[ ] static_assert -[ ] reinterpret_cast -[x] comPl -[ ] alignas
+- [ ] static_assert
+- [ ] reinterpret_cast
+- [x] comPl
+- [ ] alignas
 
 #### Q101. The size_in_bits function seems to take any type of parameter. This can be done by overloading the function, or by letting the compiler take care of it by writing a template. Which choice is an implementation of that template?
 
@@ -1581,7 +1584,7 @@ return 0;
 }
 ```
 
--[X] A
+- [X] A
 
 ```cpp
 template <typename T>
@@ -1590,7 +1593,7 @@ return sizeof(a)*8;
 }
 ```
 
--[ ] B
+- [ ] B
 
 ```cpp
 template size_t size_in_bits(const {int,float,double,char,long}& a){
@@ -1598,7 +1601,7 @@ return sizeof(a)*8;
 }
 ```
 
--[x] C
+- [x] C
 
 ```cpp
 template <typename T {int,float,double,char,long>
@@ -1607,7 +1610,7 @@ return sizeof(a)*8;
 }
 ```
 
--[ ] D
+- [ ] D
 
 ```cpp
 size_t size_in_bits(void * a){
@@ -1617,7 +1620,10 @@ return sizeof(a)*8;
 
 #### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
 
--[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream
+- [X] fstream
+- [ ] cstdlib
+- [ ] filestream
+- [ ] iostream
 
 #### Q103. What will this object-oriented program print?
 
@@ -1648,7 +1654,10 @@ int main() {
 }
 ```
 
--[X] fossil -[ ] fossil none -[ ] hydrogen -[ ] none
+- [X] fossil
+- [ ] fossil none
+- [ ] hydrogen
+- [ ] none
 
 #### Q104. The program below is handling a stack container. What is the output of running the program?
 
@@ -1674,10 +1683,10 @@ int main()
 }
 ```
 
-[] 1
-[x] 2
-[] 3
-[] 4
+- [ ] 1
+- [x] 2
+- [ ] 3
+- [ ] 4
 
 #### Q105. Which choice is a valid way to overload the ternary conditional operator?
 
