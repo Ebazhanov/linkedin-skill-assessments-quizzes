@@ -253,7 +253,7 @@ name = models.CharField(max_length=100)
 - [ ] use aggregate functions more easily
 - [ ] build reusable QuerySets
 
-#### Q29. Which is not a Django filed type for holding integers?
+#### Q29. Which is not a Django field type for holding integers?
 
 - [ ] SmallIntegerField
 - [x] NegativeIntegerField
