@@ -657,7 +657,7 @@ ls -l
 - [x] There is an access control list
 - [ ] There is an extended attribute such as immutable set
 
-#### Q51. In Bash, what does the comment below do?
+#### Q51. In Bash, what does the command below do?
 
 ```bash
 cd -
