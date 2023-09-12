@@ -478,7 +478,7 @@ END;
 SELECT MyValue AS Result FROM MyTable;
 ```
 
-- [ ] 5
+- [x] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
