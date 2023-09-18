@@ -589,10 +589,12 @@ null
 
 #### Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?
 
-- [x] "variance": "-0.0823"
+- [x] "variance": -0.0823
 - [ ] variance: "-0.0823"
 - [ ] "variance": "\-0.0823"
 - [ ] variance: -0.0823
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html)
 
 #### Q46. With what character should key/value pairs be separated?
 
