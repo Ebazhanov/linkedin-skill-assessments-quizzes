@@ -545,12 +545,12 @@ null
 
 #### Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?
 
-- [x] "lastVisit": "null"
+- [x] "lastVisit": null
 - [ ] lastVisit: null
 - [ ] "lastVisit": 0
 - [ ] "lastVisit": undefined
 
-Note: None of the above options appear to be correct. A correct answer would be `"lastVisit": null`
+[Reference](https://json-schema.org/understanding-json-schema/reference/null.html)
 
 #### Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 
