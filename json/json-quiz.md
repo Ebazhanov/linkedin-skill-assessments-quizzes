@@ -401,7 +401,7 @@ null
 
 - [ ] `"constant": "6.022E23"`
 - [ ] `"constant": "6\.022\E23"`
-- [x] `constant: 6.022E23`
+- [x] `"constant": 6.022E23`
 - [ ] `constant: "6.022E23"`
 
 [Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
@@ -545,12 +545,12 @@ null
 
 #### Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?
 
-- [x] "lastVisit": "null"
+- [x] "lastVisit": null
 - [ ] lastVisit: null
 - [ ] "lastVisit": 0
 - [ ] "lastVisit": undefined
 
-Note: None of the above options appear to be correct. A correct answer would be `"lastVisit": null`
+[Reference](https://json-schema.org/understanding-json-schema/reference/null.html)
 
 #### Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 
@@ -589,10 +589,12 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?
 
-- [x] "variance": "-0.0823"
+- [x] "variance": -0.0823
 - [ ] variance: "-0.0823"
 - [ ] "variance": "\-0.0823"
 - [ ] variance: -0.0823
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html)
 
 #### Q46. With what character should key/value pairs be separated?
 
