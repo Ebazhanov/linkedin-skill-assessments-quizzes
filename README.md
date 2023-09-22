@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1433-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1434-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -1989,6 +1989,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nouri-muhammad"><img src="https://avatars.githubusercontent.com/u/142153367?v=4?s=100" width="100px;" alt="Nouri Muhammad"/><br /><sub><b>Nouri Muhammad</b></sub></a><br /><a href="#design-nouri-muhammad" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nouri-muhammad" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/NourKhashan"><img src="https://avatars.githubusercontent.com/u/15859529?v=4?s=100" width="100px;" alt="Nour"/><br /><sub><b>Nour</b></sub></a><br /><a href="#design-NourKhashan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=NourKhashan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vermee81"><img src="https://avatars.githubusercontent.com/u/1096256?v=4?s=100" width="100px;" alt="Vermee81"/><br /><sub><b>Vermee81</b></sub></a><br /><a href="#design-Vermee81" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Vermee81" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://johnmarquez.me"><img src="https://avatars.githubusercontent.com/u/12912585?v=4?s=100" width="100px;" alt="John O. Morales-Marquez"/><br /><sub><b>John O. Morales-Marquez</b></sub></a><br /><a href="#design-jmarquez-cs" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jmarquez-cs" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

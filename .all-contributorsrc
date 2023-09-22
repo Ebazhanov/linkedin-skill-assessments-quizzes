@@ -14218,6 +14218,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "jmarquez-cs",
+      "name": "John O. Morales-Marquez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12912585?v=4",
+      "profile": "http://johnmarquez.me",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
