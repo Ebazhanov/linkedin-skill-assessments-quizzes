@@ -1020,7 +1020,7 @@ echo "$VAR"
 
 - [ ] `<pre> This is... a string of characters</pre>`
 - [ ] `<pre> This is...a string of characters</pre>`
-- [ ] `<pre>This is... a string of characters</pre>`
+- [x] `<pre>This is... a string of characters</pre>`
 - [ ] `<pre>This is...a string of characters</pre>`
 
 References:
