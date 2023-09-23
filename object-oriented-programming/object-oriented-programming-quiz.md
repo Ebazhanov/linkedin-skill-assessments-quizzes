@@ -317,7 +317,7 @@ Association is a semantically weak relationship (a semantic dependency) between 
 - [ ] to protect attributes from unwanted changes
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
-- [x] to separate class behavior from the more general
+- [x] to separate class behavior from the more general to more specific
 
 #### Q43. In addition to attributes and behaviours, what quality must a class possess?
 
