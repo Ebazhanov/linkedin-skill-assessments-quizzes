@@ -14238,6 +14238,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ShaigroRB",
+      "name": "Robin Boucher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17238438?v=4",
+      "profile": "http://shaigro.dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
