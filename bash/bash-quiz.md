@@ -557,10 +557,10 @@ The regex must not be quoted to work properly.
 
 #### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
-- [x] |
-- [ ] ->
-- [ ] \#
-- [ ] @
+- [x] `|`
+- [ ] `->`
+- [ ] `\#`
+- [ ] `@`
 
 #### Q46. In the script shown below, what is **greeting**?
 
@@ -808,10 +808,10 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- [x] <b>s/\(.*\)variable\(.*variable\)/\1rock\2/'</b>
-- [ ] s/variable/rock/'
-- [ ] s/variable/rock/g'
-- [ ] s/(.*\)variable\(.*variable\)/\1rock\2/'
+- [x] `s/\(.*\)variable\(.*variable\)/\1rock\2/'`
+- [ ] `s/variable/rock/'`
+- [ ] `s/variable/rock/g'`
+- [ ] `s/(.*\)variable\(.*variable\)/\1rock\2/'`
 
 #### Q62. To make a Bash script named script.sh executable, what should you run?
 
@@ -861,17 +861,17 @@ echo 'Hello, $(whoami)!'
 
 #### Q68. How can you copy a directory to another system with compression?
 
-- [ ] tar -ssh user@192.158.1.1 /bin/newfile
-- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
+- [ ] `tar -ssh user@192.158.1.1 /bin/newfile`
+- [x] `tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"`
 - [ ] You can't compress the stream
-- [ ] scp -r directory user@192.168.1.1:/tmp
+- [ ] `scp -r directory user@192.168.1.1:/tmp`
 
 #### Q69. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
 
-- [x] alias lh='ls -lah'
-- [ ] link lh='ls -lah'
-- [ ] alias 'ls -lah'=lh
-- [ ] lh | ls -lah
+- [x] `alias lh='ls -lah'`
+- [ ] `link lh='ls -lah'`
+- [ ] `alias 'ls -lah'=lh`
+- [ ] `lh | ls -lah`
 
 #### Q70. Which statement will print all of the fully qualified .csv files in the home directory or subdirectories while not displaying any errors?
 
