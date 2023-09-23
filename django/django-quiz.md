@@ -186,8 +186,8 @@ name = models.CharField(max_length=100)
 #### Q19. Should you create a custom user model for new projects?
 
 - [ ] No. Using a custom user model could break the admin interface and some third-party apps.
-- [ ] Yes. It is easier to make changes once it goes into production.
-- [x] No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.
+- [x] Yes. It is easier to make changes once it goes into production.
+- [ ] No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.
 - [ ] Yes, as there is no other option.
 
 #### Q20. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?
