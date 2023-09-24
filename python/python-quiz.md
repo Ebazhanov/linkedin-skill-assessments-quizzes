@@ -2497,7 +2497,7 @@ employees = {
 
 **Explanation:** This is accessing a key in a dictionary nested inside another dictionary. The command `employees['alice']['salary'] = employees['charlie']['salary']` assigns the value of the `salary` key in the dictionary of the employee `charlie` to the value of the `salary` key in the dictionary of the employee `alice`.
 
-#### Q174. You are given a piece of code. Assume `m` and `n` are already defined as some positive integer value. When it completes, how many tuples will my list contain?
+#### Q174. You are given this piece of code. Assume `m` and `n` are already defined as some positive integer value. When it completes, how many tuples will my list contain?
 
 ```python
 mylist = []
