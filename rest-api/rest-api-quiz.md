@@ -540,3 +540,12 @@
 - [ ] 404 Not Found
 
 [Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
+
+#### Q70. Which HTTP verb is normally used to retrieve or create a resource in an API?
+
+- [ ] `RETRIEVE`
+- [ ] `FORM`
+- [x] `GET`
+- [ ] `READ`
+
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
