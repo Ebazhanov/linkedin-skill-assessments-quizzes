@@ -1696,3 +1696,10 @@ int main()
 - [ ] `void* operator ?:(const bool cond, const void* iftrue, const void* iffalse);`
 
 [Reference](https://en.cppreference.com/w/cpp/language/operators)
+
+#### Q106. Which class hierarchy represents an example of multilevel inheritance?
+
+- [ ] In the same program, at different points, a given class derives individually from more than one different class.
+- [ ] A first class derives directly, at the same time, from a second and third class.
+- [x] In the same program, at different points, a given class derives individually from more than two different classes.
+- [ ] A first classderives from a second class, and that second class is already derived from a thrid class

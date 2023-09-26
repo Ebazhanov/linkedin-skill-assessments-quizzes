@@ -2016,7 +2016,7 @@ Doggie::fetch
 
 [Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
 
-#### Q137. What is the difference between the wait() and sleep methods?
+#### Q137. What is the difference between the wait() and sleep() methods?
 
 - [ ] Only Threads can wait, but any Object can be put to sleep.
 - [x] A wait can be woken up by another Thread calling notify whereas a sleep cannot.

@@ -1017,7 +1017,8 @@ int main()
 - [x] dynamic memory
 - [ ] fragmented memory
 
-[Reference](https://devdocs.io/c/memory/calloc , https://devdocs.io/c/memory/malloc )
+[Calloc](https://devdocs.io/c/memory/calloc)
+[Malloc](https://devdocs.io/c/memory/malloc)
 
 #### Q65. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
 
