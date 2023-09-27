@@ -124,7 +124,7 @@ val task = launch {
 - [x] There is no implicit conversion from `Int` to `Long`
 - [ ] All integers in Kotlin are of type `Long`
 
-[reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions)
+[reference](https://kotlinlang.org/docs/numbers.html#explicit-number-conversions)
 
 #### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
 
