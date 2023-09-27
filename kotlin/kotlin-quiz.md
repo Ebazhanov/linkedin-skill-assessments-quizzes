@@ -129,8 +129,8 @@ val task = launch {
 when (die) {
   1 -> println("die is 1")
   2 -> println("die is 2")
-  ___ -> printlin("die is between 3 and 6")
-  else -> printlin("die is unknown")
+  ___ -> println("die is between 3 and 6")
+  else -> println("die is unknown")
 }
 ```
 
