@@ -88,7 +88,7 @@ fun add(a: Int, b: Int): Int {
 
 ```kotlin
 fun showHashCode(obj: Any){
-  println("${obj.hasCode()}")
+  println("${obj.hashCode()}")
 }
 fun main() {
   showHashCode(1)
@@ -99,6 +99,8 @@ fun main() {
 - [ ] The integer is always a class
 - [ ] The compiler runs an implicit `.toClass()` method on the integer
 - [x] The integer is autoboxed to a Kotlin Int class
+
+[reference](https://kotlinlang.org/docs/numbers.html#numbers-representation-on-the-jvm)
 
 #### Q9. You have started a long-running coroutine whose job you have assigned to a variable named **task**. If the need arose, how could you abort the coroutine?
 
