@@ -14278,6 +14278,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "danielsacco",
+      "name": "Daniel Sacco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37663427?v=4",
+      "profile": "https://www.linkedin.com/in/danielsacco/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
