@@ -32,7 +32,8 @@ class Airplane(private val name: String) : Aircraft() {
 - [ ] Abstract function always returns null
 - [x] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
-[reference](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/4183#issuecomment-1214288158)
+[reference](https://kotlinlang.org/docs/inheritance.html#derived-class-initialization-order)
+[discussion](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/4183#issuecomment-1214288158)
 
 #### Q3. Kotlin interfaces and abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
 
