@@ -801,6 +801,8 @@ println("The length of the quote is $quote.length")
 - [ ] The length of the quote is `21`
 - [x] The length of the quote is `The eagle has landed..length`
 
+[reference](https://kotlinlang.org/docs/strings.html#string-templates)
+
 #### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
 
 ```kotlin
