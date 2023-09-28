@@ -789,6 +789,8 @@ class BB() : AA() {
 - [x] You need to add an `open` modifier to `AA.price` and an `override` modifier to `BB.price`.
 - [ ] You need to add a `public` modifier to `AA.price` and a `protected` modifier to `BB.price`.
 
+[reference](https://kotlinlang.org/docs/inheritance.html#overriding-properties)
+
 #### Q58. What is the output of this code?
 
 ```kotlin
@@ -800,6 +802,8 @@ println("The length of the quote is $quote.length")
 - [ ] A compilation error is displayed.
 - [ ] The length of the quote is `21`
 - [x] The length of the quote is `The eagle has landed..length`
+
+[reference](https://kotlinlang.org/docs/strings.html#string-templates)
 
 #### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
 
@@ -813,6 +817,8 @@ fun main() {
 - [x] `.sortedDescending()`
 - [ ] `.sort("DESC")`
 
+[reference](https://kotlinlang.org/docs/collection-ordering.html#natural-order)
+
 #### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
 
 - [ ] `lateinit var name: String` // lateinit is modifier not delegate
@@ -820,12 +826,16 @@ fun main() {
 - [x] `var name: String by Delegates.notNull()`
 - [ ] `var name: String? = null`
 
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/)
+
 #### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
 
 - [x] `Delegates.vetoable()`
 - [ ] `Delegates.cancellable()`
 - [ ] `Delegates.observer()`
 - [ ] `Delegates.watcher()`
+
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/vetoable.html)
 
 #### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
 
@@ -920,6 +930,8 @@ fun main() {
 - [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
+[reference](https://kotlinlang.org/docs/scope-functions.html#run)
+
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
 - [ ] Option 1
@@ -971,12 +983,16 @@ fun main() {
 - [x] The message "Invoked from an instance." is displayed. // the second "()" is equals to .invoke()
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
+[reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator)
+
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
 - [ ] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
 - [x] `val mileage = 566` (Note: inferred)
 - [ ] `const int mileage = 566`
+
+[reference](https://kotlinlang.org/docs/properties.html#getters-and-setters)
 
 #### Q72. What is the preferred way to create an immutable variable of type long?
 
