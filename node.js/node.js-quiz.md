@@ -298,7 +298,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] once
 - [ ] off
 
-#### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
+#### Q34. Which special object is an instance of EventEmitter?
 
 - [x] process
 - [ ] Buffer
