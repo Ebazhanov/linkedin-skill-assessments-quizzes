@@ -981,6 +981,8 @@ fun main() {
 - [x] The message "Invoked from an instance." is displayed. // the second "()" is equals to .invoke()
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
+[reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator)
+
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
 - [ ] `val mileage:Int = 566`
