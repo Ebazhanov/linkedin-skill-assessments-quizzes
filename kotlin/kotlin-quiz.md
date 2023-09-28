@@ -990,6 +990,8 @@ fun main() {
 - [x] `val mileage = 566` (Note: inferred)
 - [ ] `const int mileage = 566`
 
+[reference](https://kotlinlang.org/docs/properties.html#getters-and-setters)
+
 #### Q72. What is the preferred way to create an immutable variable of type long?
 
 - [ ] `var longInt = 10L`
