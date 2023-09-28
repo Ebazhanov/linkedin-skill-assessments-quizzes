@@ -833,6 +833,8 @@ fun main() {
 - [ ] `Delegates.observer()`
 - [ ] `Delegates.watcher()`
 
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/vetoable.html)
+
 #### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
 
 - [ ] `val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()`
