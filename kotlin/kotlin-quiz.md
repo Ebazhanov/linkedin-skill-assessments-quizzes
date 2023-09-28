@@ -928,6 +928,8 @@ fun main() {
 - [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
+[reference](https://kotlinlang.org/docs/scope-functions.html#run)
+
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
 - [ ] Option 1
