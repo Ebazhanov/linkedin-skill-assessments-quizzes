@@ -824,6 +824,8 @@ fun main() {
 - [x] `var name: String by Delegates.notNull()`
 - [ ] `var name: String? = null`
 
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/)
+
 #### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
 
 - [x] `Delegates.vetoable()`
