@@ -815,6 +815,8 @@ fun main() {
 - [x] `.sortedDescending()`
 - [ ] `.sort("DESC")`
 
+[reference](https://kotlinlang.org/docs/collection-ordering.html#natural-order)
+
 #### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
 
 - [ ] `lateinit var name: String` // lateinit is modifier not delegate
