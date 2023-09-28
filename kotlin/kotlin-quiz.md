@@ -769,6 +769,8 @@ data class Student(val firstName: String, val lastName: String)
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
 
+[reference](https://kotlinlang.org/docs/collection-grouping.html)
+
 #### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes are needed to resolve the compilation error?
 
 ```kotlin
