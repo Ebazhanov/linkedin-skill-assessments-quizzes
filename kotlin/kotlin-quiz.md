@@ -787,6 +787,8 @@ class BB() : AA() {
 - [x] You need to add an `open` modifier to `AA.price` and an `override` modifier to `BB.price`.
 - [ ] You need to add a `public` modifier to `AA.price` and a `protected` modifier to `BB.price`.
 
+[reference](https://kotlinlang.org/docs/inheritance.html#overriding-properties)
+
 #### Q58. What is the output of this code?
 
 ```kotlin
