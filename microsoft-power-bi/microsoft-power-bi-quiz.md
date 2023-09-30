@@ -792,4 +792,17 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [ ] a dashboard
 - [x] all of these answers
 
+#### Q99. What is true about paginated reports? (Select all that apply)
+
+    A. They are formatted to fit well on a page.
+    B. They shrink the report data to fit on a page.
+    C. They truncate the report data to fit on a single page.
+    D. They are both printable and shareable.
+
+- [x] A, D
+- [ ] B or C, both on user choice
+- [ ] A. B, D
+- [ ] A, C, D
+
+
 [reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
