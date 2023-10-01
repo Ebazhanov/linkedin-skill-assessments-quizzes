@@ -1516,3 +1516,26 @@ while($i>=0) {
       excellent
 - [ ] bodacious
       egregious
+
+
+#### Q105. Passing by reference is a way to pass a variable to a function and modify it inside the function, and have that modification stick when the variable is used outside the function. Which code correctly uses passing by reference to modify the variable for use outside the function?
+
+- [ ] 1 function append($initial){ return $newString = $initial . ' belong to us'; }
+      2 $initialString = 'All your base are’;
+      3 $initialString = append($initialString);
+      4 echo $initialString;
+
+- [ ] 1 function append(&$initial){ return $newString = $initial . ' belong to us'; }
+      2 $initialString = 'All your base are’;
+      3 append($initialString);
+      4 echo $initialString;
+
+- [ ] 1 function append(&$initial){ return $newString = $initial . ' belong to us'; }
+      2 $initialString = 'All your base are’;
+      3 $initialString = append($initialString);
+      4 echo $initialString;
+
+- [x] 1 function append(&$initial){ $initial = $initial . ' belong to us'; }
+      2 $initialString = 'All your base are’;
+      3 append($initialString);
+      4 echo $initialString;
