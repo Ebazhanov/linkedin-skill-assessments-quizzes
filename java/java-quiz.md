@@ -2321,3 +2321,41 @@ public class Course {
 - [ ] 1. true 2. true
 
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
+
+#### Q163. Which interface definition allows this code to compile
+```java
+int length = 5;
+Square square = x -> x*x;
+int a = square.calculate(length);
+```
+
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    void calculate(int x);
+}
+```
+- [x] 
+```java
+@FunctionalInterface
+public interface Square {
+    int calculate(int x);
+}
+```
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    int calculate(int... x);
+}
+```
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    void calculate(int x, int y);
+}
+```
+
+[Reference](https://www.baeldung.com/java-8-functional-interfaces)
