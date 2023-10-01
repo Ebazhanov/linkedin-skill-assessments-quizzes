@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1441-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1444-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -1999,6 +1999,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Redhawk18"><img src="https://avatars.githubusercontent.com/u/77415970?v=4?s=100" width="100px;" alt="Redhawk"/><br /><sub><b>Redhawk</b></sub></a><br /><a href="#design-Redhawk18" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Redhawk18" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/danielsacco/"><img src="https://avatars.githubusercontent.com/u/37663427?v=4?s=100" width="100px;" alt="Daniel Sacco"/><br /><sub><b>Daniel Sacco</b></sub></a><br /><a href="#design-danielsacco" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=danielsacco" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gabrielsalvador"><img src="https://avatars.githubusercontent.com/u/8077421?v=4?s=100" width="100px;" alt="Gabriel Salvador"/><br /><sub><b>Gabriel Salvador</b></sub></a><br /><a href="#design-gabrielsalvador" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gabrielsalvador" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrAnayDongre"><img src="https://avatars.githubusercontent.com/u/56868253?v=4?s=100" width="100px;" alt="MrAnayDongre"/><br /><sub><b>MrAnayDongre</b></sub></a><br /><a href="#design-MrAnayDongre" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MrAnayDongre" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vivekkumarsahu07"><img src="https://avatars.githubusercontent.com/u/80661612?v=4?s=100" width="100px;" alt="VIVEK KUMAR SAHU"/><br /><sub><b>VIVEK KUMAR SAHU</b></sub></a><br /><a href="#design-Vivekkumarsahu07" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Vivekkumarsahu07" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Naman065Malik"><img src="https://avatars.githubusercontent.com/u/86320160?v=4?s=100" width="100px;" alt="Naman Malik"/><br /><sub><b>Naman Malik</b></sub></a><br /><a href="#design-Naman065Malik" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Naman065Malik" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
