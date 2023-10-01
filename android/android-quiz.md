@@ -1180,3 +1180,28 @@ val string: String = getString(
 - [ ] `when network requests are made on the main thread`
 
 [Reference](https://developer.android.com/guide/topics/resources/string-resource#Plurals)
+
+#### Q75. In your app, you have a RecyclerView of items. You want to have a different configuration for portrait and landscape modes. which code snippet would allow you to best support the layout below?
+
+![img](image/Q75.png)
+
+- [ ] 
+```
+recyclerView.setLayoutManager(GridLayoutManager(this, 3))
+```
+
+- [ ]
+```
+val coulumnCount = resources.getInteger(R.integer.column_count)
+recyclerView.setLayoutManager(GridLayoutManager(this, columnCount))
+```
+- [ ]
+```
+recyclerView.setLayoutManager(LinearLayoutManager(this))
+```
+- [ ]
+```
+val coulumnCount = resources.getInteger(R.integer.column_count)
+recyclerView.setLayoutManager(LinearLayoutManager(this, columnCount))
+```
+

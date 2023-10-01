@@ -404,7 +404,7 @@ public class Jedi {
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
-#### Q24. Which statement is **NOT** true?
+#### Q24. "An anonymous class require a zero-argument constructor." that's not true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
 - [x] An anonymous class does not require a zero-argument constructor.
@@ -2016,12 +2016,14 @@ Doggie::fetch
 
 [Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
 
-#### Q137. What is the difference between the wait() and sleep methods?
+#### Q137. What is the difference between the wait() and sleep() methods?
 
 - [ ] Only Threads can wait, but any Object can be put to sleep.
-- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
-- [x] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [x] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [ ] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
 - [ ] Sleep allows for multi-threading whereas wait does not.
+
+[Reference](https://docs.oracle.com/javase/tutorial/essential/concurrency/notify.html)
 
 #### Q138. Which is the right way to declare an enumeration of cats?
 
@@ -2084,9 +2086,9 @@ Queue<Rainfall>
 #### Q143. When you pass an object reference as an argument to a method call what gets passed?
 
 - [ ] a reference to a copy
-- [ ] a copy of the reference
+- [x] a copy of the reference
 - [ ] the object itself
-- [x] the original reference
+- [ ] the original reference
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
@@ -2112,7 +2114,7 @@ Queue<Rainfall>
 #### Q147. What is HashMap and Map?
 
 - [ ] HashMap is Interface and map is class that implements that
-- [x] HashMap is class and map is interface that implements that
+- [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
 

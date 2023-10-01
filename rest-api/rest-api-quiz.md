@@ -81,7 +81,7 @@
 - [ ] `It offers better security.`
 - [x] `It reduce load on servers.`
 
-#### Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?
+#### Q12. Your API resource does not allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?
 
 - [ ] `409 Conflict`
 - [ ] `400 Bad Request`
@@ -540,3 +540,12 @@
 - [ ] 404 Not Found
 
 [Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
+
+#### Q70. Which HTTP verb is normally used to retrieve or create a resource in an API?
+
+- [ ] `RETRIEVE`
+- [ ] `FORM`
+- [x] `GET`
+- [ ] `READ`
+
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)

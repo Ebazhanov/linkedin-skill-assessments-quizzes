@@ -1898,7 +1898,7 @@ console.log(copyCat.type, copyCat.size);
 - [x] undefined large
 - [ ] lion large
 
-[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+[Reference]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 
 #### Q137. What does this code print to the console?
 
@@ -1975,9 +1975,11 @@ console.log(json); // print {"type":"tiger"}
 #### Q142. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
-- [ ] FileUpload
+- [x] FileUpload
 - [ ] Function
-- [x] All of the above
+- [ ] All of the above
+
+[Reference](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
 
 #### Q143. What will be the output of the following code snippet?
 
@@ -1997,6 +1999,8 @@ console.log(obj1);
 - [ ] All objects have prototype
 - [ ] None of the objects have prototype
 - [ ] None of the above
+
+[Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 #### Q145. What does … operator do in JS?
 

@@ -204,7 +204,7 @@
 
 #### Q30. Single-line text can be added anywhere in a drawing. If middle-center justified text with height of 0 was required in model space that was 300 millimeters high, what workflow would you use?
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -213,7 +213,7 @@
 5. Specify the height.
 6. Specify the rotation angle.
 
-- [x]
+- [x] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -222,7 +222,7 @@
 5. Pick a middle point.
 6. Type text.
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -231,7 +231,7 @@
 5. Pick a middle point.
 6. Type text.
 
-- [ ]
+- [ ] &shy;
 
 1. Right-click and select Justify.
 2. Select MC.
@@ -358,7 +358,7 @@
 
 - [ ] the status bar
 - [ ] the navigation bar
-- [ ] the Quick Access toolbar (QAT)
+- [x] the Quick Access toolbar (QAT)
 - [ ] the info bar
 
 #### Q48. When drafting with object snaps and object snap tracking, what other drafting setting can you use to set object snap tracking points?
@@ -417,14 +417,16 @@
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MINIGAP DISTANCE. This is the minimum gap distance for automatic joining.
 - [ ] When in the PEDIT command, select multiple lines to convert; then when selecting the Join option, you are prompted for a MIN GAP DISTANCE. This is the minimum gap distance for automatic joining.
 
-#### Q56. When creating a block with attributes, why should you use underscores between words in the attribute tag?
+![q55](images/q75_autocad.png?raw=png)
+
+#### Q56. When creating a block with attributes, why should you use underscores (\_) between words in the attribute tag?
 
 - [ ] Attribute tags must have an underscore to be recognized for data extraction.
 - [ ] Attribute tags do not allow spaces.
-- [x] Attribute tags need an underscore to be recognized by the BLOCK command.
-- [ ] Attribute tags must have an underscore in them.
+- [x] Attribute tags need an underscore to be recognized by the Block command (BLOCK).
+- [ ] Attribute tags need an underscore to be visible on the drawing.
 
-#### Q57. To insert a table in a drawing, you use the TABLE command. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
+#### Q57. What is a prerequisite to control a table's appearance before inserting a table into a drawing?
 
 - [ ] a table dimension style
 - [x] a table style
@@ -511,7 +513,7 @@
 #### Q69. When using the Polyline (PLINE) command to draw an arrowhead, what polyline properties do you need to use?
 
 - [ ] the Halfwidth setting
-- [x] starting width and ending widths
+- [x] starting width and ending width
 - [ ] polyline start and polyline end
 - [ ] the START and END variables in the PLINE command
 
@@ -595,3 +597,52 @@
 - [ ] Deviation.
 - [ ] Fractional.
 - [ ] Symmetricl.
+
+#### Q81. When using the Point command and the Donut command to create drawing object, you might add them to their own individual layers. Why would you do this?
+
+- [ ] In case the layer needs to be switched off or frozen for clarity in a drawing.
+- [x] In case the layer needs to be locked so that it cannot be used by anyone else.
+- [ ] In case the layer isn’t needed any more.
+- [ ] In case the layer need to be renamed for project purposes
+
+#### Q82. You can make a global linetype scale change by typing “TLSCALE” and pressing Enter (Windows) or Return (MAC). The default value for LTSCALE is 1. What does this represent?
+
+- [ ] 1%
+- [ ] 100%
+- [x] LTSCALE is ON (1)
+- [ ] LTSCALE is OFF (1)
+
+#### Q83. Which drafting setting can you use to restrict your cursor to specified angles?
+
+- [ ] Grid (GRID)
+- [ ] Dynamic Input (DYNMODE)
+- [ ] Selection Cycling (SELECTIONCYCLING)
+- [x] Polar Tracking (POLAR)
+
+#### Q84. What is the file extension of an AutoCAD Drawing Standard file?
+
+- [ ] DWGS
+- [x] DWGSTDS
+- [ ] DWFS
+- [ ] DWS
+
+#### Q85. With default setting in place, double-clicking the mouse wheel invokes which AutoCAD command?
+
+- [ ] Zoom Previous
+- [ ] Zoom Windows
+- [x] Zoom Extents
+- [ ] Zoom All
+
+#### Q86. A window selection selects only the objects **\_** the window selection.
+
+- [ ] Completely encompassed by
+- [x] Crossed by -- Crossing selection (window Left top to right bottom)
+- [ ] Completely outside by
+- [ ] Not encompassed by
+
+#### Q87. When using the Hatch command with Pick Point selection method, which mode should be turned OFF to make sure the hatch is a single entity?
+
+- [x] Create Separate Hatches
+- [ ] Associative Boundaries
+- [ ] Hatch Associative (HPASSOC)
+- [ ] Hatch Multiple (HATCHMULTIPLE)

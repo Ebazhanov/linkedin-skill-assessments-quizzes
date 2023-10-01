@@ -35,10 +35,12 @@ D. longitude, latitude
 
 #### Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
 
-- [x] a directive
-- [ ] a custom column
+- [ ] a directive
+- [x] a custom column
 - [ ] an indexed column
 - [ ] a parameter
+
+NOTE: The Power BI Documentation does not mention the word directive. The correct answer is B, NOT A!
 
 #### Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?
 
@@ -56,17 +58,21 @@ D. longitude, latitude
 
 #### Q7. You need to add a required color to a bar chart. How can you add an exact color value to an existing bar chart?
 
-- [x] Click the color in the visual (e.g., the bars) and right-click to select the color.
+- [ ] Click the color in the visual (e.g., the bars) and right-click to select the color.
 - [ ] You cannot select custom colors in a bar chart or related visual.
 - [ ] Select the value closest to this color from the color formatting options.
-- [ ] Enter the hex value into the color formatting options.
+- [x] Enter the hex value into the color formatting options.
+
+NOTE: To enter a specific custom color (e.g., required color) you need to enter the required hex value. The correct answer is D.
 
 #### Q8. The Excel function IF is nearly the same as which DAX function?
 
 - [ ] SWITCH
-- [ ] IF
-- [x] IFX
+- [x] IF
+- [ ] IFX
 - [ ] IFS
+
+NOTE: DAX does not have IFX or IFS functions. The correct answer is B.
 
 #### Q9. Consider the Power BI extract, transform, and load process (ETL). During this process, data is read and then
 
@@ -86,8 +92,10 @@ D. longitude, latitude
 
 - [ ] A,C
 - [ ] C
-- [ ] A, B, C
-- [x] A, B, C, D
+- [x] A, B, C
+- [ ] A, B, C, D
+
+NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C
 
 #### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
@@ -106,19 +114,20 @@ D. longitude, latitude
 #### Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
 - [ ] filter and group
-- [ ] sort and filter
+- [x] sort and filter
 - [ ] sort, filter, and group
-- [x] sort and group
+- [ ] sort and group
+
+NOTE: Power BI won't group your text, but it does filter and sort it.
 
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
-- [x] Press Ctrl+Z.
+- [ ] Press Ctrl+Z.
 - [ ] Select Undo from the toolbar.
-- [ ] You cannot undo the deletion of a dashboard.
+- [x] You cannot undo the deletion of a dashboard.
 - [ ] Recover it from the Recycle Bin.
 
-1. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
-2. [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
+NOTE: You cannot undo the deletion of a dashboard in PowerBI Service. The links that were previously provided addressed PowerBI Desktop, not PowerBI Service.
 
 #### Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a **\_** table that contains product information is a \_ table .
 
@@ -165,9 +174,11 @@ D. longitude, latitude
 #### Q19. What tool can you use in Power BI Desktop to reduce data?
 
 - [ ] report editor
-- [ ] Power Query Editor
+- [x] Power Query Editor
 - [ ] dashboard
-- [x] data modeler
+- [ ] data modeler
+
+NOTE: Data gets processed and reduced in the Power query editor. Corect answer is B.
 
 #### Q20. What is NOT a valid data connection type for Power BI Desktop?
 
@@ -766,3 +777,32 @@ D. longitude, latitude
 - [x] all of these answers
 - [ ] Rearrange pivot table fields.
 - [ ] Drill down in the pivot table.
+
+#### Q97. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?
+
+- [ ] drill down in the pivot table.
+- [ ] Rearrange pivot table fields.
+- [ ] view the pivot table
+- [x] all of these answers
+
+#### Q98. Using Power BI service, you want to share a set of visualizations with your team so that they can, in turn, share the content with others. To do this, what should you share?
+
+- [ ] a report
+- [ ] a tile
+- [ ] a dashboard
+- [x] all of these answers
+
+#### Q99. What is true about paginated reports? (Select all that apply)
+
+    A. They are formatted to fit well on a page.
+    B. They shrink the report data to fit on a page.
+    C. They truncate the report data to fit on a single page.
+    D. They are both printable and shareable.
+
+- [x] A, D
+- [ ] B or C, both on user choice
+- [ ] A. B, D
+- [ ] A, C, D
+
+
+[reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)

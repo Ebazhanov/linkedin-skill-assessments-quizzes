@@ -32,7 +32,8 @@ class Airplane(private val name: String) : Aircraft() {
 - [ ] Abstract function always returns null
 - [x] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
-[reference](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/4183#issuecomment-1214288158)
+[reference](https://kotlinlang.org/docs/inheritance.html#derived-class-initialization-order)
+[discussion](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/4183#issuecomment-1214288158)
 
 #### Q3. Kotlin interfaces and abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
 
@@ -87,7 +88,7 @@ fun add(a: Int, b: Int): Int {
 
 ```kotlin
 fun showHashCode(obj: Any){
-  println("${obj.hasCode()}")
+  println("${obj.hashCode()}")
 }
 fun main() {
   showHashCode(1)
@@ -98,6 +99,8 @@ fun main() {
 - [ ] The integer is always a class
 - [ ] The compiler runs an implicit `.toClass()` method on the integer
 - [x] The integer is autoboxed to a Kotlin Int class
+
+[reference](https://kotlinlang.org/docs/numbers.html#numbers-representation-on-the-jvm)
 
 #### Q9. You have started a long-running coroutine whose job you have assigned to a variable named **task**. If the need arose, how could you abort the coroutine?
 
@@ -121,7 +124,7 @@ val task = launch {
 - [x] There is no implicit conversion from `Int` to `Long`
 - [ ] All integers in Kotlin are of type `Long`
 
-[reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions)
+[reference](https://kotlinlang.org/docs/numbers.html#explicit-number-conversions)
 
 #### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
 
@@ -129,8 +132,8 @@ val task = launch {
 when (die) {
   1 -> println("die is 1")
   2 -> println("die is 2")
-  ___ -> printlin("die is between 3 and 6")
-  else -> printlin("die is unknown")
+  ___ -> println("die is between 3 and 6")
+  else -> println("die is unknown")
 }
 ```
 
@@ -588,10 +591,10 @@ fun main() {
 }
 ```
 
-- [ ] Because name is a class parameter, not a property-it is unresolved `main()`.
+- [x] Because name is a class parameter, not a property-it is unresolved `main()`.
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
-- [x] Classes cannot be immutable. You need to change `var` to `val`
+- [ ] Classes cannot be immutable. You need to change `var` to `val`
 
 Note: By default, constructor parameters can only be used in the initializer blocks or property initializers declared in the class body. Therefore, to let the `greet` function have access to the `name` parameter, it should be declared as a property: `class Cat (val name: String) { ... }`
 
@@ -766,6 +769,8 @@ data class Student(val firstName: String, val lastName: String)
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
 
+[reference](https://kotlinlang.org/docs/collection-grouping.html)
+
 #### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes are needed to resolve the compilation error?
 
 ```kotlin
@@ -784,6 +789,8 @@ class BB() : AA() {
 - [x] You need to add an `open` modifier to `AA.price` and an `override` modifier to `BB.price`.
 - [ ] You need to add a `public` modifier to `AA.price` and a `protected` modifier to `BB.price`.
 
+[reference](https://kotlinlang.org/docs/inheritance.html#overriding-properties)
+
 #### Q58. What is the output of this code?
 
 ```kotlin
@@ -795,6 +802,8 @@ println("The length of the quote is $quote.length")
 - [ ] A compilation error is displayed.
 - [ ] The length of the quote is `21`
 - [x] The length of the quote is `The eagle has landed..length`
+
+[reference](https://kotlinlang.org/docs/strings.html#string-templates)
 
 #### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
 
@@ -808,6 +817,8 @@ fun main() {
 - [x] `.sortedDescending()`
 - [ ] `.sort("DESC")`
 
+[reference](https://kotlinlang.org/docs/collection-ordering.html#natural-order)
+
 #### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
 
 - [ ] `lateinit var name: String` // lateinit is modifier not delegate
@@ -815,12 +826,16 @@ fun main() {
 - [x] `var name: String by Delegates.notNull()`
 - [ ] `var name: String? = null`
 
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/)
+
 #### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
 
 - [x] `Delegates.vetoable()`
 - [ ] `Delegates.cancellable()`
 - [ ] `Delegates.observer()`
 - [ ] `Delegates.watcher()`
+
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.properties/-delegates/vetoable.html)
 
 #### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
 
@@ -915,6 +930,8 @@ fun main() {
 - [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
+[reference](https://kotlinlang.org/docs/scope-functions.html#run)
+
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
 - [ ] Option 1
@@ -966,12 +983,16 @@ fun main() {
 - [x] The message "Invoked from an instance." is displayed. // the second "()" is equals to .invoke()
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
+[reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator)
+
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
 - [ ] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
 - [x] `val mileage = 566` (Note: inferred)
 - [ ] `const int mileage = 566`
+
+[reference](https://kotlinlang.org/docs/properties.html#getters-and-setters)
 
 #### Q72. What is the preferred way to create an immutable variable of type long?
 

@@ -30,7 +30,7 @@
 
 #### Q5. Quel est l’ensemble correct de classes de composants nécessaires pour implémenter un RecyclerView d’éléments qui affiche une liste de widgets verticalement ?
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -39,7 +39,7 @@
   LinearLayoutManager
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -48,7 +48,7 @@
   LinearLayoutManager
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   RecycleView
@@ -57,7 +57,7 @@
   LinearLayoutManager
 ```
 
-- [x]
+- [x] &shy;
 
 ```java
   RecycleView
@@ -75,7 +75,7 @@
 
 #### Q7. Vous avez créé une classe NextActivity qui repose sur une chaîne contenant des données qui passent à l’intérieur de l’intention Quel extrait de code vous permet de lancer votre activité ?
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).also { intent ->
@@ -83,7 +83,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -93,7 +93,7 @@
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -103,7 +103,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```java
   Intent(this, NextActivity::class.java).apply {
@@ -129,7 +129,7 @@
 
 #### Q10. Comment spécifieriez-vous dans votre fichier build.gradle que votre application nécessitait au moins le niveau d’API 21 pour s’exécuter, mais qu’elle peut être testée au niveau d’API 28 ?
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -139,7 +139,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -149,7 +149,7 @@
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   defaultConfig {
@@ -159,7 +159,7 @@
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```
   defaultConfig {
@@ -273,7 +273,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 ![img](image/shape.png?raw=png)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -285,7 +285,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <oval xmlns:android="http://schemas.android.com/apk/res/android">
@@ -294,7 +294,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </oval>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -306,7 +306,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -432,7 +432,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q34. Vous souhaitez activer le suivi analytique uniquement dans `release` Construit. Comment créer un nouveau champ dans le champ généré `BuildConfig` classe pour stocker cette valeur ?
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -445,7 +445,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -458,7 +458,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```
   buildTypes {
@@ -471,7 +471,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```
   buildTypes {
@@ -502,7 +502,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 ![img](image/04.jpeg)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -523,7 +523,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -543,7 +543,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -566,7 +566,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <androidx.constraintlayout.widget.ConstraintLayout
@@ -589,13 +589,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q38. Quel ensemble de sources est `_not_` disponible par défaut lorsqu’Android Studio crée un nouveau projet ?
 
-- [x]
+- [x] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity" />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -605,7 +605,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </activity>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -616,7 +616,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </activity>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <activity android:name=".ExampleActivity">
@@ -678,7 +678,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 ![img](image/43.jpeg)
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -690,7 +690,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
@@ -701,7 +701,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </rectangle>
 ```
 
-- [x]
+- [x] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -713,7 +713,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
   </shape>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <shape xmlns:android-"http://schemas.android.com/apk/res/android"
@@ -803,7 +803,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 </resources>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <ImageView
@@ -813,7 +813,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
       android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```xml
   <ImageView
@@ -824,7 +824,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] &shy;
 
 ````xml
   <ImageView
@@ -834,7 +834,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
       android:layout_marginBottom="@resources/spacing_medium"
       android:src=@drawable/map_pin />
 
-- [x]
+- [x] &shy;
 
 ```xml
     <ImageView

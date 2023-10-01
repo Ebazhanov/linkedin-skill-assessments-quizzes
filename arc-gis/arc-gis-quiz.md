@@ -56,27 +56,27 @@
 
 - [ ] from a higher scale to a lower scale
 - [ ] from a smaller scale to a larger scale
-- [ ] from a lower scale to a higher scale
+- [x] from a lower scale to a higher scale
 - [ ] from a larger scale to a smaller scale
 
 #### Q8. Where are parcel fabrics, geometric networks, and topologies created?
 
 - [ ] inside of file geodatabases
 - [ ] inside of enterprise geodatabases
-- [ ] inside of feature datasets
+- [x] inside of feature datasets
 - [ ] inside of feature classes
 
 #### Q9. Which of these methods is best for sharing a map with colleagues who do not have ArcMap or ArcGis Pro?
 
 - [ ] Export the map to PDF and send your colleagues the PDF.
 - [ ] Export the map to KML and ask your colleagues to download Google Earth.
-- [ ] Publish the map as a service and then create a web map that you can share with your colleagues
+- [x] Publish the map as a service and then create a web map that you can share with your colleagues
 - [ ] Export the map to a map package, and ask your colleagues to download and install the free Map Package Viewer software
 
 #### Q10. You built a model and verified that it works as intended by running it on your own data files. What is the best way to share the entire procedure with colleagues so that they can study it, reproduce your results exactly, and then apply the model to their own data?
 
 - [ ] Convert the model to Python and upload the results to ArcGIS Online as a service.
-- [ ] Create a geoprocessing package.
+- [x] Create a geoprocessing package.
 - [ ] Run the consolidated Model tool to gather the model and input datasets into a shared folder
 - [ ] Create a map Package
 
@@ -89,7 +89,7 @@
 
 #### Q12. When you create a bookmark of your current map view, what is being saved?
 
-- [ ] the map's current scale and center point
+- [x] the map's current scale and center point
 - [ ] the visibility status of each layer
 - [ ] the center point of the current view
 - [ ] the map's current scale
@@ -106,13 +106,13 @@
 #### Q14. By default, as what do all geoprocessing tools run from dialog boxes execute?
 
 - [ ] Python Scripts
-- [ ] foreground processes
+- [x] foreground processes
 - [ ] background processes
 - [ ] in-memory processes
 
 #### Q15. A grayscale raster is said to have a single \***\*\_\*\*** while a full-color RGB raster has three \***\*\_\*\***.
 
-- [ ] band; bands
+- [x] band; bands
 - [ ] color; colors
 - [ ] channel; channels
 - [ ] value; values
@@ -130,3 +130,67 @@
 - [x] dynamic text
 - [ ] datestamp
 - [ ] system information
+
+#### Q18. Linear referencing datasets are comprised of what two data types? \***\*\_\*\***.
+
+- [ ] polyline feaature classes and point location tables
+- [ ] line event tables and point event tables
+- [ ] reference control points feature class and target tables
+- [x] route feature classes and event tables
+
+#### Q19. How can you link the size of text and symbols to a specific zoom level of the map so that they increase and decrease in size as you zoom in and out? \***\*\_\*\***.
+
+- [ ] Right click the map in the **Contents** pane and click **Set Reference Scale**.
+- [ ] Right click the data layer and choose **Symbology > Variable**.
+- [ ] Turn on the option for **Zoom Symbology and Labels** in the map's properties.
+- [x] In the **Layer Properties** dialog box, click **Display**, and then clear **Fixed Sizing**
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/scale-based-symbol-sizing.htm)
+
+#### Q20. When trying to publish a web feature layer from ArcGIS Pro to ArcGIS Online, the analyzer returns the error message "Layer uses an unsupported renderer or property." Which symbology method would cause this error?
+
+- [x] unique values
+- [ ] dot density
+- [ ] graduated symbols
+- [ ] unclassed colors
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/sharing/analyzer-error-messages/00085-layer-uses-an-unsupported-renderer.htm)
+
+#### Q21. Which data source cannot be added to ArcGIS Online to be used as a hosted feature layer?
+
+- [ ] Microsoft Excel workbooks
+- [ ] personal geodatabases
+- [x] Google Sheets spreadhssts stored in Google Drive
+- [ ] GeoJSON files
+
+[Reference](https://enterprise.arcgis.com/en/portal/latest/use/publish-features.htm)
+
+#### Q22. You need to attach photographs to a geodatabase feature class called `Bus_Stops`. To enable this capability using ArcCatalog, you right-click the `Bus_Stops` feature class, point to Manage, and then click **Create Attachments**. What does this create in the geodatabase?
+
+- [x] A geodatabase table called `Bus_Stops_REL` is created that references a `Bus_Stops_ATTACHMENTS` folder in the same parent folder as the geodatabase
+- [ ] A geodatabase table called `Bus_Stops_ATTACH` and a relationship class called `Bus_Stops_ATTACHREL` are created.
+- [ ] A feature class called `Bus_Stops_ATTACH` and a relationship class called `Bus_Stops_RELATION` are created.
+- [ ] A new raster feature dataset called `Bus_Stops_ATTACHMENTS` is created.
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/editing/edit-file-attachments.htm#:~:text=Enable%20attachments,-By%20default%2C%20features&text=On%20the%20Analysis%20tab%2C%20in,enable%20and%20click%20Enable%20Attachments.&text=and%20choose%20the%20source%20geodatabase,you%20want%20to%20attach%20files.)
+
+#### Q23. A file geodatabase table field that will be used to store scans of historical records in `.pdf` format needs to be what data type?
+
+- [x] attachment
+- [ ] blob
+- [ ] document
+- [ ] OLE object
+
+#### Q24. You want to create a tool for your organization that will walk users through a best-practice workflow in a consistent manner. What is the best way to go about this?
+
+- [ ] Script the procedure using Python..
+- [ ] Build an ArcGIS model.
+- [x] Build an ArcGIS Pro task.
+- [ ] Publish an ArcGIS Online story map.
+
+#### Q25. When creating a feature class, which field data type would be the most appropriate to store values in the expected range of 1,000 to 10,000?
+
+- [ ] double
+- [x] short integer
+- [ ] float
+- [ ] long integer

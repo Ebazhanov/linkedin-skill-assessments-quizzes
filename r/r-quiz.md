@@ -216,7 +216,7 @@ print(deliver)
 
 #### Q25. Which set of two statements-followed by the cbind() function-results in a data frame named vbound?
 
-- [ ]
+- [ ] &shy;
 
 ```r
 v1<-list(1,2,3)
@@ -224,7 +224,7 @@ v2<-list(c(4,5,6))
 vbound<-cbind(v1,v2)
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```r
 v1<-c(1,2,3)
@@ -232,13 +232,16 @@ v2<-list(4,5,6))
 vbound<-cbind(v1,v2)
 ```
 
-- [ ]
+- [x] &shy;
 
 ```r
 v1<-c(1,2,3)
 v2<-c(4,5,6))
 vbound<-cbind(v1,v2)
 ```
+
+- [ ] &shy;
+      none
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?
 
@@ -274,7 +277,7 @@ Output: [1] 2 3 4
 - [ ] x[c(-1, 0, 0, 0)]
 - [x] x[c(-1, 2, 3, 4)]
 
-#### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how manu rows are in DFMerged?
+#### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how many rows are in DFMerged?
 
 ![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png?raw=png)
 
@@ -649,3 +652,48 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 - [x] [1]TRUE TRUE FALSE
 - [ ] [1]FALSE FALSE TRUE
 - [ ] [1]NA NA NA
+
+#### Q60. Which option setting can cause difficulty if you want to add to a variable's possible values after you have designed an object's initial data structure?
+
+- [ ] ()OPTIONS(colnames(x)<-NULL)
+- [ ] ()OPTIONS(max.print=5)
+- [ ] ()OPTIONS(continue="... ",
+- [x] ()OPTIONS(stringAsFactors=TRUE
+
+#### Q61. In this image below, the data frame on lines 1 through 4 is named StDf. StDf contains no factors. Why does statement on line 6 return "character" while the statement on line 7 returns "data.frame"?
+
+![image](https://drive.google.com/uc?export=view&id=16KtAh4dhn2fyImFbcX8KLDgRqNHIFtKm)
+
+- [ ] Each value in the first row is a character value, but the values in the third column include both character and numeric values.
+- [ ] By specifying the final row, 3, and no column specified, StDf[3, ] calls for the complete structure.
+- [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame.
+- [ ] Each value in the first column is a character value, but the values in the third row include both character and numeric values.
+
+#### Q62. Review line 1. What does the statement on line 3 return?
+
+```r
+mtrx <- matrix(1:6, 3, 2)
+
+mtrx[, -1]
+```
+
+![image](https://drive.google.com/uc?export=view&id=1ntrHVnNfCRvXfKjbpavh7CiIsv7izsJr)
+
+- [ ]
+- [ ]
+- [ ]
+- [x] [1] 4 5 6
+
+#### Q63. Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?
+
+- [x] The exclamation point in !is.na(pizza$week) reverses the meaning of the test it precedes.
+- [ ] !is.na(pizza$week) counts the number of NA values in the column.
+- [ ] !is.na(pizza$week) returns a vector of TRUE/FALSE values, in which TRUE is treated as a 0 and FALSE as a 1.
+- [ ] !is.na(pizza$week) counts the number of non-missing values in the column.
+
+#### Q64. How do you get documentation of an installed and loaded R package named dplyr and packages with dplyr as an alias?
+
+- [ ] help(dplyr)
+- [ ] ? dplyr
+- [x] ?? dplyr
+- [ ] Press the F1 key.

@@ -104,12 +104,12 @@ E. Perspective Warp
 - [ ] TIFF
 - [ ] BMP
 
-#### Q13. What is the best way to save multiple images into a single PDF?
+#### Q13. What is the best way to save multiple full-size images into a single PDF?
 
-- [ ] Save each PDF separately first and then combine them.
-- [ ] Check to see if you have Acrobat Professional installed.
 - [x] Use the PDF Presentation command.
-- [ ] Click File > Export > Export Layers to Files.
+- [ ] Click **File > Export > Export Layers to Files**.
+- [ ] Check to see if you have Acrobat DC installed.
+- [ ] Save each PDF separately first and then combine them.
 
 #### Q14. What option cannot be adjusted with the Print command directly in the Print window?
 
@@ -567,9 +567,9 @@ E. Perspective Warp
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+- [ ] &shy;
+- [ ] &shy;
 
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 

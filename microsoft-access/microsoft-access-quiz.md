@@ -7,7 +7,7 @@
 - [ ] **Design** view
 - [ ] **Form** view
 
-#### Q2. How can you add multiple view button controls to a form at once?
+#### Q2. How can you add multiple button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
 - [x] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
@@ -26,7 +26,7 @@
 
 #### Q4. The relationship field in this table has been created with what feature?
 
-`<p align="center"><img src="./images/question_4.png"></p>`
+<p align="center"><img src="./images/question_4.png"></p>
 
 - [x] lookup
 - [ ] reference integrity
@@ -49,7 +49,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-using-a-crosstab-query-8465b89c-2ff2-4cc8-ba60-2cd8484667e8)
 
-#### Q7. What currency format displays a thousand separator, but not a currency symbol, such as $ or €?
+#### Q7. What currency format displays a thousands separator, but not a currency symbol, such as $ or €?
 
 - [ ] Scientific
 - [x] Standard
@@ -67,7 +67,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65-4450-8917-93d83319b678)
 
-#### Q9. You want to create a form to view customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
+#### Q9. You want to create a form to view a customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
 - [ ] Use a form to display the customer details with a subform linked to their order information
 - [x] Create a split form that displays the customer information at the top and the order history in the table below
@@ -259,3 +259,197 @@
 #### Q30. What is the operator for "not equal to"
 
 - [x] < >
+
+#### Q31. You need to email a report to a coworker that maintains all formatting and page layout attributes. Which file format should you choose from the **Print Preview** ribbon?
+
+- [ ] Excel
+- [ ] HTML
+- [ ] Word
+- [x] PDF
+
+#### Q32. Which section can a form _not_ contain?
+
+- [x] Group Header & Footer
+- [ ] Form Header & Footer
+- [ ] Detail
+- [ ] Page Header & Footer
+
+#### Q33. The **Run** button and the **View Datasheet** button do exactly the same thing for which query type?
+
+- [x] select
+- [ ] append
+- [ ] make table
+- [ ] delete
+
+#### Q34. You have a database file that generates an error from a custom macro immediately after opening. How can you open the database and bypass the startup options to prevent the macro from running so that you can fix the error?
+
+- [ ] In the **Open File** dialog box, click the down arrow on the **Open** button and select **Disable Macros**.
+- [x] Hold the Shift key while double-clicking the **database** icon.
+- [ ] Right-click the database icon and select **Run as Administrator**.
+- [ ] From the **File** menu, select **Open as Read-Only**.
+
+#### Q35. You want to ensure that a query recordset is read-only and cannot modify the underlying data tables it references. How can you do that?
+
+- [x] Set the Recordset Type property to Snapshot.
+- [ ] Set the Output All Fields property to No.
+- [ ] Set the Link Master Fields property to No.
+- [ ] Set the Recordset Type property to Dynaset (Inconsistent Updates).
+
+#### Q36. Which form control object contains a number of option buttons, check boxes, or toggle buttons, and allows the user to make only a single selection?
+
+- [x] option group
+- [ ] switch control
+- [ ] bound selection
+- [ ] object selector
+
+#### Q37. Which query criteria will return records for "Debra" and "Donna" but not "Daniel"?
+
+- [ ] `Like "*n*"`
+- [x] `Like "*[ro]*"`
+- [ ] `Like "De* or Do*"`
+- [ ] `Like "D*"`
+
+**Solution:**
+
+`MS Access > Create > Table > Rename Table1 to table_name > Add column first_name Short Text > Add Debra, Donna, Daniel`
+
+OR
+
+`MS Access > Create > Query Design > SQL View`
+
+```sql
+CREATE TABLE table_name (first_name Text);
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
+INSERT INTO table_name (first_name) VALUES ('Debra');
+INSERT INTO table_name (first_name) VALUES ('Donna');
+INSERT INTO table_name (first_name) VALUES ('Daniel');
+-- Press F5 to refresh Datasheet View.
+```
+
+**Check queries:**
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*n*"; -- Donna, Daniel
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "*[ro]*"; -- Debra, Donna
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "De* or Do*"; -- null
+```
+
+```sql
+SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, Daniel
+```
+
+#### Q38. When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?
+
+- [x] The calculation cannot use custom Visual Basic functions.
+- [ ] The calculation can include built-in functions.
+- [ ] The calculation can use fields from a related table.
+- [ ] The calculation can include fields from the same table.
+
+[Expression Builder](https://support.microsoft.com/en-au/office/use-the-expression-builder-56214db9-8b54-44f3-bc19-2a55427b5d4c)
+
+**Explanation: Double negative.** It's _not_ true that the calculation cannot use custom Visual Basic functions. => It's true that the calculation can use custom Visual Basic functions.
+
+#### Q39. You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?
+
+- [ ] Skip
+- [x] Next
+- [ ] Fail
+- [ ] Macro Name
+
+[OnError Macro Action](https://support.microsoft.com/en-us/office/onerror-macro-action-942d771c-6c1c-4cb3-afb1-ce9289d81913)
+
+#### Q40. You have several label objects in a form. You customized the font and size of one, and want to format the others to match. What is the best way to do this?
+
+- [ ] Select the unformatted labels, click the Format Painter tool, then click the formatted label.
+- [ ] Select the formatted label, click the Format Painter tool, then drag a box around the unformatted labels.
+- [ ] Select all of the labels and then click the Format Painter tool.
+- [x] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
+
+[Format Painter](https://www.youtube.com/watch?v=nyAZ-O_odbY)
+
+#### Q41.When adding a picture to a form, which Picture Size Mode property will keep the image at 100% of its original size, even if the bounding box is smaller?
+
+- [x] Clip
+- [ ] Locked
+- [ ] Stretch
+- [ ] Zoom
+
+[Form.PictureSizeMode property](https://learn.microsoft.com/en-us/office/vba/api/access.form.picturesizemode)
+
+#### Q42. Which single-line query criteria would _not_ be equivalent to the multilinied one pictured?
+
+![img](https://drive.google.com/uc?export=view&id=1jbRn8vijxlaozB52Mtjoivamt-9S4NTs)
+
+- [x] `Or ("Houston","Boston","Chicago")`
+- [ ] `In ("Houston","Boston","Chicago")`
+- [ ] `"Houston" Or "Boston" Or "Chicago"`
+- [ ] `"houston" Or "boston" Or "chicago"`
+
+**Solution:**
+
+`MS Access > Create Tab > Table > Rename Table1 to Customers > Add column City Short Text > Add records Houston, Boston, Chicago`
+
+`Create Tab> Query Design > Add Table Customers > Field: City > Or "Houston" "Boston" "Chicago"`
+
+OR
+
+`MS Access > Create Tab > Query Design > SQL View`
+
+```sql
+CREATE TABLE Customers (City Text);
+
+-- Note: In MS Access SQL, you cannot directly insert multiple values into a column.
+-- Note: In MS Access SQL, you need to execute each statement separately.
+INSERT INTO Customers (City) VALUES ('Houston');
+INSERT INTO Customers (City) VALUES ('Boston');
+INSERT INTO Customers (City) VALUES ('Chicago');
+-- Press F5 to refresh Datasheet View.
+
+SELECT Customers.City
+FROM Customers
+WHERE (((Customers.City)='Houston')) OR (((Customers.City)='Boston')) OR (((Customers.City)='Chicago'));
+```
+
+**Check queries:**
+
+```sql
+SELECT City FROM Customers WHERE City Or ("Houston","Boston","Chicago"); -- Syntax error (comma) in query expression
+```
+
+```sql
+SELECT City FROM Customers WHERE City In ("Houston","Boston","Chicago"); -- equivalent
+```
+
+```sql
+SELECT City FROM Customers WHERE City = "Houston" Or "Boston" Or "Chicago"; -- equivalent
+```
+
+```sql
+SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- equivalent
+```
+
+#### Q43. When designing a form, you add a horizontal line object that is the full width of the Detail section. Yet when you view the form, the line goes only part way across the screen. How can you make the line extend to the edges of the screen?
+
+- [x] From the **Anchoring** menu, select **Stretch Across Top**.
+- [ ] From the **Align** menu, select **Full Justify**.
+- [ ] From the **Anchoring** menu, select **Top Right**.
+- [ ] From the **Size/Space** menu, select **To Fit**.
+
+[Stretch Across Top](https://support.microsoft.com/en-au/office/make-controls-stretch-shrink-or-move-as-you-resize-a-form-51fd88e0-43d3-4070-a298-18ba273f4cf8)
+
+#### Q44. A Decimal data type field with a Precision of 5 and a Scale of 3 can store how many digits on the left side of the decimal point?
+
+- [ ] three
+- [ ] eight
+- [x] two
+- [ ] five
+
+[Precision, Scale](https://learn.microsoft.com/en-us/sql/t-sql/data-types/precision-scale-and-length-transact-sql)

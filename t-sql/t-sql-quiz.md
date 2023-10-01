@@ -283,20 +283,20 @@ insert into students(firstname,lastname)values('mark','twain');
 select * from students;
 ```
 
-- [ ]
-  studentid firstname lastname
-  1 1001 mark twain
+- [ ] &shy;
+      studentid firstname lastname
+      1 1001 mark twain
 
-- [ ]
-  studentid firstname lastname
-  1 1 mark twain
+- [ ] &shy;
+      studentid firstname lastname
+      1 1 mark twain
 
 - [x] studentid firstname lastname
       1 1000 mark twain
 
-- [ ]
-  studentid firstname lastname
-  1 null mark twain
+- [ ] &shy;
+      studentid firstname lastname
+      1 null mark twain
 
 #### Q27. Given a table with the following structure, which query returns all student names with the highest grade?
 
@@ -478,7 +478,7 @@ END;
 SELECT MyValue AS Result FROM MyTable;
 ```
 
-- [ ] 5
+- [x] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
@@ -514,34 +514,38 @@ CREATE TABLE Publishers (
 
 - [ ] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
 - [x] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
 
 - [ ] :
 
-```ALTER TABLE Books
-          ADD CONSTRAINT FK_Books_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID)
+```tsql
+ALTER TABLE Books
+ADD CONSTRAINT FK_Books_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Publishers (PublisherID)
 ```
 
 - [ ] :
 
-```ALTER TABLE Publishers
-          ADD CONSTRAINT FK_Publishers_PublisherID
-          FOREIGN KEY (PublisherID)
-          REFERENCES Books (PublisherID) CASCADE DELETE
+```tsql
+ALTER TABLE Publishers
+ADD CONSTRAINT FK_Publishers_PublisherID
+FOREIGN KEY (PublisherID)
+REFERENCES Books (PublisherID) CASCADE DELETE
 ```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
@@ -672,4 +676,64 @@ SELECT bal FROM Account WHERE acct='12345';
   USE Products.Inventory;
   DROP TABLE Inventory;
 ```
+
 > This statement first switches to the Products database using the `USE` command and then drops the Inventory table using the `DROP TABLE` command.
+
+#### Q53. In a SELECT statement, which clause should always be used with the TOP clause in order to predictably indicate which rows are affected by TOP?
+
+- [ ] GROUP BY
+- [ ] HAVING
+- [ ] WHERE
+- [x] ORDER BY
+
+#### Q54. Which data type should you choose when you nedd to store dates and times that include time zone information?
+
+- [x] datetimeoffset
+- [ ] smalldatetime
+- [ ] datetime
+- [ ] datetime2
+
+#### Q55. What is the result of this query?
+
+```tsql
+SELECT 123+'123' AS Result;
+```
+
+- [ ] 123'123'
+- [ ] error
+- [x] 246
+- [ ] 123123
+
+#### Q56. What is the result of these three commands?
+
+```tsql
+CREATE TABLE MyNumbers (
+    MyDecimalColumn decimal(5,2) NOT NULL
+);
+
+INSERT INTO MyNumbers VALUES (123), (45);
+
+SELECT * FROM MyNumbers;
+```
+
+- [ ] A
+- [ ] B
+- [x] C
+      ![Image of footer](images/Q56c.png?raw=png)
+- [ ] D
+
+#### Q57. Given the table below , which query shows How many students are in each department ?
+
+![T-SQL-Q55](images/Q55.jpg)
+
+- [x] Select Department, COUNT(\*) FROM Students GROUP BY Department;
+- [ ] SELECT COUNT(\*) FROM Students;
+- [ ] SELECT Student BY Department;
+- [ ] SELECT COUNT(\*) FROM Students ORDER BY Department;
+
+#### Q58. What is an example of a DDL command in SQL ?
+
+- [ ] merge
+- [x] drop
+- [ ] delete
+- [ ] truncate table

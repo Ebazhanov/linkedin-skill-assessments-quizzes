@@ -296,12 +296,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
 
-```
- A. Type "(TM)".
- B. On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then click **Insert**.
- C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
- D. Type "(R)".
-```
+    A. Type "(TM)".
+    B. On Windows: On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then   click **Insert**.
+    On Mac: On the **Insert** tab, click **Advanced Symbol > Special Characters**, select **Trademark**, and click **Insert**.
+    C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
+    D. Type "(R)".
 
 - [ ] B and D
 - [x] A and B
@@ -818,7 +817,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
-- [ ] Create a custom dictionary that includes your specific terminology
+- [x] Create a custom dictionary that includes your specific terminology
+
+[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
 #### Q105. What happens when you resolve a comment?
 
@@ -827,7 +828,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] A reply is added to the comment
 - [x] The comment appears dimmed
 
-#### Q106. Using the Styles group in Word lets you quickly ______?
+#### Q106. Using the Styles group in Word lets you quickly **\_\_**?
 
 - [ ] apply frames and artistic effects to graphics
 - [ ] modify page margins
@@ -840,3 +841,60 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Table of Contents
 - [x] Cross-Reference
 - [ ] Table of Figures
+
+#### Q108. When are mirrored margins typically used?
+
+- [x] when printing on both sides of the paper
+- [ ] when the document has a header or a footer
+- [ ] when the text is formatted into multiple columns
+- [ ] when you need all the margins to be the same size
+
+* Explain:
+  > Mirrored margins are commonly used when printing on both sides of a paper to ensure that the content is aligned correctly on each side. It helps maintain consistency and prevents any shift or misalignment when the paper is flipped to print on the other side.
+
+#### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
+
+- [ ]Save a copy of the file and type over it for each new letter.
+- [ ]Set the file as default theme.
+- [ ]Use the Format Painter to apply the format to new letters.
+- [x]Create a template by saving the file as a .dot file.
+
+explain:
+
+> 1. The best way to ensure that all your letters consistently have a professional-looking format is by creating a template.
+> 2. By saving the file as a .dot (Word template) file, you can easily access it each time you need to write a new letter and start with the pre-defined formatting. This method allows you to maintain consistency and save time by not having to recreate the format manually for each new letter.
+
+#### Q110. Which style type should you create in order to control font, font color, tab positions, and line breaks?
+
+- [ ] table
+- [ ] hybrid
+- [ ] character
+- [x] paragraph
+
+[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
+[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
+
+#### Q109. You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?
+
+- [ ] No Markup
+- [ ] Compare
+- [x] Version History
+- [ ] Track Changes
+
+* Explain
+  > Using the Version History feature, you can view and restore earlier versions of the document that were saved over time. It allows you to track the changes made to the document and revert back to a previous state if needed. This feature is helpful for recovering the document to a point before the unwanted changes were made.
+
+#### Q111. What tasks are required to create a template from an existing document?
+
+    A. Remove content specific to the existing document.
+    B. Create a template folder for the file.
+    C. Save the file as a template(.dotx) file.
+    D. Open the template and use it.
+
+- [x] A, C
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] B, C, D
+
+[Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
+[Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)

@@ -362,7 +362,7 @@
 - [ ] lookup store
 - [ ] registry
 
-#### Q52. To view the execution details of an Impala query plan, which function would you use ?
+#### Q52. To view the execution details of an Impala query plan, which function would you use?
 
 - [x] explain
 - [ ] query action
@@ -376,7 +376,7 @@
 - [ ] replication
 - [ ] high availability
 
-[Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)
+[Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#Snapshots)
 
 #### Q54. Hadoop Common is written in which language?
 
@@ -440,7 +440,7 @@ FROM customers c;
 - [ ] GROUP BY
 - [ ] FILTER
 - [ ] SUB-SELECT
-- [ ] SORT
+- [x] SORT
 
 #### Q62. What custom object should you implement to reduce IO in MapReduce?
 
@@ -473,7 +473,7 @@ FROM customers c;
 #### Q66. When you implement a custom Writable, you must also define which of these object?
 
 - [ ] a sort policy
-- [ ] a combiner policy
+- [x] a combiner policy
 - [ ] a compression policy
 - [ ] a filter policy
 
@@ -511,3 +511,21 @@ FROM customers c;
 - [ ] validate metadata; Impala
 - [ ] invalidate metadata; Hive
 - [ ] validate metadata; Hive
+
+#### Q72. In Hadoop MapReduce job code, what must be static?
+
+- [ ] configuration
+- [x] Mapper and Reducer
+- [ ] Mapper
+- [ ] Reducer
+
+[Reference](https://stackoverflow.com/questions/14828131/do-mappers-and-reducers-in-hadoop-have-to-be-static-classes)
+
+#### Q73. In Hadoop simple mode, which object determines the identity of a client process?
+
+- [ ] Kerberos ticket
+- [ ] kubernetes token
+- [ ] guest operating system
+- [x] host operating system
+
+[Reference](http://doc.isilon.com/ECS/3.2/DataAccessGuide/vipr_c_hdfs_security_model.html)

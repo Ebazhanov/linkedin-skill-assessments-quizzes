@@ -165,8 +165,10 @@
 
 - [ ] Calculate interest quickly.
 - [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
-- [ ] Use more than one field per index.
-- [x] Combine fields in different collations.
+- [x] Use more than one field per index.
+- [ ] Combine fields in different collations.
+
+[Reference](https://www.mongodb.com/docs/v6.0/core/index-compound/)
 
 #### Q25. Why are ad-hoc queries useful?
 
@@ -314,8 +316,10 @@
 
 - [ ] restore
 - [ ] read/write
-- [x] dbadmin
-- [ ] delete collections
+- [ ] dbadmin
+- [x] delete collections
+
+[Reference](https://www.mongodb.com/docs/v6.0/reference/built-in-roles/#backup-and-restoration-roles)
 
 #### Q46. Which MongoDB shell command deletes a single document?
 
@@ -323,6 +327,12 @@
 - [ ] `db.customers.drop({_id: 1});`
 - [ ] `db.drop.customers({_id: 1});`
 - [x] `db.customers.remove({_id: 1});`
+
+**Note:** db.collection.remove() is deprecated in the new mongosh. Use db.collection.deleteOne() or db.collection.deleteMany().
+
+References:
+[db.collection.remove()](https://www.mongodb.com/docs/v6.0/reference/method/db.collection.remove/)
+[db.collection.delete()](https://www.mongodb.com/docs/mongodb-shell/crud/delete/)
 
 #### Q47. Using the MongoDB shell, how do you remove the customer collection and its indexes?
 
@@ -345,12 +355,20 @@
 - [ ] `db.people.getIndexKeys();`
 - [x] `db.people.getIndexes();`
 
+**Note:** An alternative method in the mongosh shell is listIndexes()
+
+[Reference](https://www.mongodb.com/docs/v6.0/reference/command/listIndexes/#mongodb-dbcommand-dbcmd.listIndexes)
+
 #### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
 - [ ] Use the replaceMany() command instead
 - [ ] Use the updateMulti() command instead
 - [x] Use the updateMany() command instead
 - [ ] Set the global multi option to True
+
+**Note:** An alternative method for db is .update()
+
+[Reference](https://www.mongodb.com/docs/v6.0/reference/command/update/#mongodb-dbcommand-dbcmd.update)
 
 #### Q51. To cleanly shut down MongoDB, what command should you use from the MongoDB shell?
 
@@ -365,6 +383,10 @@
 - [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
 - [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
+
+**Note:** If you want to analyze the performance of a query use .explain("executionStats")
+
+[Reference](https://www.mongodb.com/docs/v6.0/tutorial/analyze-query-plan/)
 
 #### Q53. When no parameters are passed to `explain()`, what mode does it run in?
 
@@ -383,7 +405,7 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [x] mongo-daemon
+- [ ] mongo-daemon
 - [ ] daemon
 - [x] mongod
 
@@ -396,10 +418,13 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [x] MongoDB does not allow ad hoc queries; all queries require an index.
+- [] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [x] MongoDB allows ad hoc queries.
+
+**Note:** You don't need an index to perform ad hoc queries. Only pick one choice
+[Reference](https://www.mongodb.com/docs/v6.3/query-api/)
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -425,16 +450,30 @@
 #### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
 - [ ] `Use db.collection.set({$_id:pretty})`
-- [ ] `Create a second index`
-- [x] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.find().pretty()`
+- [ ] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
+
+[Reference:](https://www.mongodb.com/docs/manual/reference/method/cursor.pretty/)
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
-- [x] `The oplog will be saved on one of the secondary servers.`
-- [ ] `The oplog is capped collection and can't run out of memory`
+- [ ] `The oplog will be saved on one of the secondary servers.`
+- [x] `The oplog is capped collection and can't run out of memory`
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
+
+**Argument:**
+
+_Why "The oplog will be saved on one of the secondary servers." is wrong:_
+
+> MongoDB applies database operations on the primary and then records the operations on the primary's oplog. The secondary members then copy and apply these operations in an asynchronous process. All replica set members contain a copy of the oplog, in the local.oplog.rs collection, which allows them to maintain the current state of the database.
+
+_Reasoning behind the right answer:_
+
+> The oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases.
+
+> Unlike other capped collections, the oplog can grow past its configured size limit to avoid deleting the majority commit point.
 
 #### Q63. MongoDB ships with a variety of files. Which file runs the MongoDB shell?
 
@@ -442,6 +481,14 @@
 - [ ] mongo-s
 - [ ] shell
 - [ ] mongo-shell
+
+**Note:** mongosh is the new mongo shell, mongo is deprecated.
+
+Starting in MongoDB v5.0,
+mongosh
+replaces mongo as the preferred shell.
+
+[Reference:] (https://www.mongodb.com/docs/mongodb-shell/)
 
 #### Q64. How can you view the execution performance statistics for a query?
 
@@ -464,12 +511,16 @@
 - [x] db.customers.find({}).sort({name: -1})
 - [ ] db.customers.find({}).sort({name: 1})
 
-#### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
+#### Q67. Suppose you are using the `mongoimport` command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
 - [ ] The import command aborts without importing any records.
 - [ ] The import command imports records upto but not including the record, and then aborts.
-- [ ] The import command doesn't import the bad document but does import the rest.
-- [x] The import command prompts you to correct the bad record.
+- [x] The import command doesn't import the bad document but does import the rest.
+- [ ] The import command prompts you to correct the bad record.
+
+**Note:** By default, mongoimport continues an operation when it encounters duplicate key and document validation errors.
+
+[Reference](https://www.mongodb.com/docs/database-tools/mongoimport/#std-option-mongoimport.--stopOnError)
 
 #### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
 
@@ -480,10 +531,16 @@
 
 #### Q69. You need to be able to quickly find a word in a text field. What should you do?
 
-- [ ] Create a text index on the field and do a $text Query.
-- [ ] Create an single field index in descending order, and do a query for the word.
-- [x] Do a $text query.
+- [x] Create a text index on the field and do a $text Query.
+- [ ] Create a single field index in descending order, and do a query for the word.
+- [ ] Do a $text query.
 - [ ] Create a $regex on the fields, and do a $regex query.
+
+Argument: You need a text index in order to perform a $text query on a field. $text query uses the text index under the hood
+
+References:
+[$text query](https://www.mongodb.com/docs/v6.0/reference/operator/query/text/#examples)
+[Text index](https://www.mongodb.com/docs/v6.0/core/index-text/)
 
 #### Q70. Which field is always included in a projection unless specifically excluded?
 
@@ -498,8 +555,10 @@
 
 - [ ] Create a user account.
 - [ ] Register online.
-- [ ] Create a data directory.
-- [x] Establish security credentials.
+- [x] Create a data directory.
+- [ ] Establish security credentials.
+
+Note: The question in case is ambiguous. In the mongo docs, on the Windows Installation section, it clearly specifies the need for creating a data directory. However, that does not seem to be the case for Unix based systems. So, that gives use the closest possible solution for a specific platform. If we extrapolate that to the question, that seems to be the most reasonable solution.
 
 [mongodb site](https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/#verify-integrity-of-mongodb-packages)
 
@@ -572,6 +631,14 @@
 
 [MongoDB reference](https://www.mongodb.com/docs/v4.0/reference/method/db.collection.createIndex/#options)
 
+_Concurrency Changed in version 4.2._
+
+_MongoDB uses an optimized build process that obtains and holds an exclusive lock on the specified collection at the start and end of the index build. All subsequent operations on the collection must wait until createIndex() releases the exclusive lock._
+_createIndex() allows interleaving read and write operations during the majority of the index build._
+
+For more information on the locking behavior of
+createIndex(), see Index Builds on Populated Collections.
+
 #### Q80. When using aggregation $convert. which is not a parameter?
 
 - [ ] input
@@ -592,10 +659,14 @@
 
 #### Q82. When using the mongoimport command, how can you drop the database before importing?
 
-- [x] Use the -d option.
+- [ ] Use the -d option.
 - [ ] Use the mongooverwrite command instead of mongoimport.
 - [ ] Use the -drop option.
-- [ ] Drop the database manually before importing.
+- [x] Drop the database manually before importing.
+
+Argument: There is no -d option in the docs (https://www.mongodb.com/docs/database-tools/mongoimport/#options.)
+
+**Note:** Assuming you are asked to drop a collection instead while importing, the use the --drop option.
 
 #### Q83. To import a CSV file into MongoDB, which command should you issue?
 
@@ -630,3 +701,21 @@
 - [ ] Call dropIndex({"<em>id</em>"}) to force its removal.
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/reference/method/db.collection.dropIndex/)
+
+#### Q87. To scale horizontally, what does MongoDB use?
+
+- [x] sharding
+- [ ] replication
+- [ ] partition
+- [ ] backup
+
+[MongoDB reference](https://www.mongodb.com/basics/scaling)
+
+#### Q88. Your database collection holds web session information. One field, lastActivity, holds the timestamp of when the user was last active. You want to delete the user session after 30 minutes of inactivity. What is your best option?
+
+- [ ] Create Javascript function called via an interval timeout to delete all records older than 30 minutes.
+- [x] Create a TTL index on the lastActivity field and set expireAfterSeconds to 1800.
+- [ ] You have to create a stored procedure.
+- [ ] Every time you create a new record for expired older records and delete them.
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/core/index-ttl/)

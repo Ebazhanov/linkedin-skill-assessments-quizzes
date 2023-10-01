@@ -498,7 +498,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q64. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
 
 - [ ] screenshot
-- [x] text box.
+- [x] text box
 - [ ] icon
 - [ ] 3D model
 
@@ -512,7 +512,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q66. Which option can be used to import selected slides from a previously created presentation into a new presention without manually copying and pasting them?
 
 - [ ] Slide Zoom
-- [x] Reuse Slide
+- [x] Reuse Slides
 - [ ] Slides from Outline
 - [ ] Add Section
 
@@ -746,7 +746,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q96. You inserted audio into a presentation. Which two options must you enable for the audio to play throughout all slides and repeat until it is stopped?
 
 ```
-A. Loop untill Stopped
+A. Loop until Stopped
 B. Play Across Slides
 C. Rewind after Playing
 D. Start When Clicked On
@@ -795,10 +795,10 @@ D. Start When Clicked On
 
 ![Q101](images/Q101.png)
 
-- [ ] Picture Style
-- [x] Artistic Effect
+- [ ] Picture Styles
+- [x] Artistic Effects
 - [ ] Picture Layout
-- [ ] Picture Effect
+- [ ] Picture Effects
 
 #### Q102. To create a stacked image with the campfire icon on top of the yellow circle, select the campfire icon, then drag it to the center of the yellow circle, What is the next step?
 
@@ -824,3 +824,56 @@ D. Start When Clicked On
 - [ ] number of columns and length of columns
 - [ ] only the number of columns
 - [x] number of columns and space between columns
+
+#### Q105. You would like several of the slides in your presentation to use the same font for the title text. The slides all use the same slide layout. What is the most efficient way to apply the desired font to those slides?
+
+- [ ] Change the font on each individual slide as it is added.
+- [ ] Use the Duplicate Selected Slides command.
+- [x] Change the font on the Slide Master for that layout.
+- [ ] Use the Reuse Slides command.
+
+#### Q106. Which tool provides the easiest way to to create and insert an organizational chart into a presentation
+
+- [x] smartArt
+- [ ] 3D Models
+- [ ] shapes
+- [ ] charts
+
+#### Q107. What can You enable to help align objects on a slide?
+
+- [ ] Cascade
+- [ ] Arrange all
+- [ ] Fit to window
+- [x] Gridlines
+
+#### Q108. Which Bullets and Numbering function should you use to start a numbered list at a value other than 1 ?
+
+- [ ] Custom Numer
+- [ ] AutoNumber
+- [ ] Align Number
+- [x] Start At
+
+#### Q109. While in Outline view, what does "promoting"" a paragraph do to its placement?
+
+- [ ] It copies the paragraph to the PowerPoint clipboard.
+- [ ] It moves the paragraph down one level in the outline.
+- [x] It moves the paragraph up one level in the outline.
+- [ ] It moves the paragraph to the top of the outline.
+
+#### Q110. You want to create the image on the right from the one on the left - i.e., place the blue star behind both of the others. How can you do this with a single command?
+
+![img](images/Q110.png)
+
+- [ ] Select the blue star and click Send Backward.
+- [x] Select the blue star and click Send to Back.
+- [ ] Select the gold star and click Bring to Front.
+- [ ] Select the red star and click Bring Forward.
+
+#### Q111. When you provide alt text for an image, what type of control are you including?
+- [ ] layout
+- [ ] presentation
+- [x] accesibility
+- [ ] password protection
+
+
+[Reference](https://support.microsoft.com/en-au/office/layer-objects-on-slides-81cccf31-9219-4c89-b7ba-9f25ad429c4a#:~:text=Move%20an%20object%20to%20the,object%20behind%20all%20other%20objects.)

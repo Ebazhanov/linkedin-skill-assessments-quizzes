@@ -269,7 +269,7 @@ E. M4A
 - [ ] Premiere will insert white to fill the needed handles.
 - [ ] Premiere will insert black to fill the needed handles.
 - [ ] There is not enough media (handles) to cover the duration of the transition.
-- [ ] The transition is automatically shortened to use only the available media and the area under the diagonal lines will have no transitions applied.
+- [x] The transition is automatically shortened to use only the available media and the area under the diagonal lines will have no transitions applied.
 
 #### Q34. Your project has several sequences that are no longer needed. How would you use the Project Manager to produce a new version of the project that excludes the unwanted sequences?
 
@@ -280,7 +280,7 @@ E. M4A
 
 #### Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?
 
-- [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
+- [x] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > Replace with After Effects Composition.
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.
@@ -306,7 +306,7 @@ E. Ellipse
 
 - [ ] A, B, C
 - [ ] A, C, E
-- [ ] B, C, E
+- [x] B, C, E
 - [ ] B, D, E
 
 #### Q38. Which option can create a color field that automatically adjusts size as you add or subtract from a text layer?
@@ -315,13 +315,13 @@ E. Ellipse
 
 - [ ] Choose Fill from the Appearance controls.
 - [ ] Choose Stroke from the Appearance controls.
-- [ ] Choose Background from the Appearance controls.
+- [x] Choose Background from the Appearance controls.
 - [ ] Choose Shadow from the Appearance controls.
 
 #### Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?
 
 - [ ] Shadows
-- [ ] Contrast
+- [x] Contrast
 - [ ] Midtones
 - [ ] Blacks
 
@@ -339,13 +339,14 @@ E. Ellipse
 - [ ] Sequence
 - [ ] File
 - [ ] Edit
-- [ ] Clip
+- [x] Clip
+      https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.
 
 #### Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?
 
 - [ ] Creative Look
 - [ ] Faded Film
-- [ ] Input LUT
+- [x] Input LUT
 - [ ] Intensity
 
 #### Q43. Which Audio Mixer automation mode allows an automation to return to the previous state after any adjustments are made?
@@ -353,12 +354,14 @@ E. Ellipse
 - [ ] Touch
 - [ ] Latch
 - [ ] Write
-- [ ] Read
+- [x] Read
+
+https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.
 
 #### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
 
 - [ ] Transcode
-- [ ] Copy and Create Proxies
+- [x] Copy and Create Proxies
 - [ ] Create Proxies
 - [ ] Copy
 
@@ -367,20 +370,20 @@ E. Ellipse
 - [ ] Convert Image Sequences to Clips
 - [ ] Convert After Effects Compositions to Clips
 - [ ] Include Preview Files
-- [ ] Consolidate and Transcode
+- [x] Consolidate and Transcode
 
 #### Q46. Which option is enabled to affect the view of the audio waveforms as shown below?
 
 ![image](images/011.png?raw=png)
 
 - [ ] Show Audio Time Units
-- [ ] Rectified Audio Waveform
+- [x] Rectified Audio Waveform
 - [ ] Large Audio Waveforms
 - [ ] Logarithmic Keyframe Scaling
 
 #### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's submenu should you select?
 
-- [ ] Undock Panel
+- [x] Undock Panel
 - [ ] Undock Frame
 - [ ] Maximize Panel
 - [ ] Maximize Frame
@@ -394,7 +397,7 @@ E. Ellipse
 
 #### Q49. Which statement is true about adaptive audio tracks?
 
-- [ ] Input channel configuration determines channel routing
+- [x] Input channel configuration determines channel routing
 - [ ] Adaptive tracks are unable to be routed to master track outputs
 - [ ] Channel routing is based on master track configuration
 - [ ] Adaptive tracks can only be routed using the Audio Mixer
@@ -404,16 +407,18 @@ E. Ellipse
 - [ ] 4:0:0
 - [ ] 4:4:4
 - [ ] 4:2:2
-- [ ] 4:2:0
+- [x] 4:2:0
+
+https://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910
 
 #### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
 
-- [ ] Choose the Convert After Effects Compositions to Clips option
+- [x] Choose the Convert After Effects Compositions to Clips option
 - [ ] Usd the Render and Replace option
 - [ ] Switch to After Effects first and choose the Render and Replace option
 - [ ] Choose Consolidate and Transcode
 
-#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+#### Q52. Which visual transition fades the end of one clip into the beginning of the next clip?
 
 - [ ] fade in
 - [ ] fade out
@@ -429,8 +434,9 @@ C. PSD
 D. DNG
 E. PDF
 ```
+
 - [ ] A, C, E
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] B, D, E
 - [ ] B, C, D
 
@@ -447,7 +453,7 @@ E. PDF
 
 - [ ] Hue vs. Luma
 - [ ] Hue vs. Hue
-- [ ] Luma vs. Saturation
+- [x] Luma vs. Saturation
 - [ ] Hue vs. Saturation
 
 #### Q56. Which bitrate encoding option yields the best balance of quality to file size, but takes longer to encode?
@@ -455,5 +461,104 @@ E. PDF
 - [ ] VBR, 1 Pass
 - [ ] VBR, 2 Pass
 - [ ] CBR
-- [X] Use Maximum Render Quality
- 
+- [x] Use Maximum Render Quality
+
+#### Q57. What is true about changing the speed of a clip that has linked audio ?
+
+- [ ] The audio is pitch shifted to sound correct.
+- [ ] The audio changes to match the video.
+- [ ] The audio is not affected.
+- [x] If you use the Time Remapping tool, the audio changes at the same rate.
+
+  #### Q58.When exporting, Which file format creates no audio channels ?
+
+- [ ] FLAC
+- [x] DPX
+- [ ] HEVC
+- [ ] P2 Movie
+
+#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe
+
+Premiere Pro ? (Select three Items.)
+A. You can media manager After Effects projects directly in Premiere Pro.
+B. The amount of interim render files is reduced.
+C. It makes color correction fast and easy.
+D. You can easily make changes to a clip.
+E. It ensures that new After Effect composition settings are correct for a Premiere Pro sequence.
+
+- [ ] B,C,D
+- [ ] B,D,E
+- [ ] A,B,C
+- [x] A,C,E
+
+#### Q60. How many output audio tracks can an adaptive audio track be routed to?
+
+- [ ] 4
+- [ ] 8
+- [ ] 16
+- [x] 32
+
+#### Q61. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?
+
+- [ ] Slide tool
+- [ ] Rolling Edit tool
+- [x] Ripple Edit tool
+- [ ] Slip tool
+
+#### Q62. Which memory card structure format is NOT a dedicated viewing option in the Media Browser?
+
+- [ ] Sony DSLR
+- [x] Canon RAW
+- [ ] XDCAM-HD
+- [ ] Canon XF
+
+#### Q63. What is NOT an option with the Remove Attributes command?
+
+- [ ] Effects
+- [ ] Motion
+- [x] Speed
+- [ ] Opacity
+
+#### Q64. Suppose you use font X from Adobe Fonts in your project. What happens when you open a project and font X is missing from the local machine?
+
+- [ ] A substitute is automatically chosen based on your preferences.
+- [ ] The font automatically activates as long as there is an internet connection.
+- [x] A warning appears so you can track down the font.
+- [ ] Nothing occurs—the graphics appear correct and the font is only needed to edit them.
+
+#### Q65. You have attached a hardware device for adjusting the color of your clips with touch. Where do you configure its preferences?
+
+- [ ] Preferences > Capture
+- [ ] Preferences > Audio Hardware
+- [ ] Preferences > Device Control
+- [x] Preferences > Control Surface
+
+#### Q66. When importing an XML file, what happens to transitions that Adobe Premiere Pro determines aren't compatible?
+
+- [ ] The transitions are deleted.
+- [ ] The transitions are turned into Dip to Color transitions.
+- [ ] The import fails.
+- [x] The transitions are turned into cross dissolves.
+
+#### Q67. What would happen if you dropped a transition onto this edit point?
+
+![image](images/012.png?raw=png)
+
+- [ ] You would get an End at Cut alignment.
+- [ ] You would get a Start at Cut alignment.
+- [ ] The clip is trimmed and a Center at Cut transition is applied.
+- [x] Your would get a one-frame transition.
+
+#### Q68. Which export format supports inclusion of an alpha channel?
+
+- [x] MOV
+- [ ] MP4
+- [ ] MPEG 2 for DVD
+- [ ] MXF OP1a
+
+#### Q69. Which user interface item identifies the current frame in the Program Monitor?
+
+- [ ] frame ruler
+- [ ] indicator
+- [x] playhead
+- [ ] navigator

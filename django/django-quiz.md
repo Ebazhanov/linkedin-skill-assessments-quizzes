@@ -186,8 +186,8 @@ name = models.CharField(max_length=100)
 #### Q19. Should you create a custom user model for new projects?
 
 - [ ] No. Using a custom user model could break the admin interface and some third-party apps.
-- [ ] Yes. It is easier to make changes once it goes into production.
-- [x] No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.
+- [x] Yes. It is easier to make changes once it goes into production.
+- [ ] No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.
 - [ ] Yes, as there is no other option.
 
 #### Q20. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?
@@ -253,7 +253,7 @@ name = models.CharField(max_length=100)
 - [ ] use aggregate functions more easily
 - [ ] build reusable QuerySets
 
-#### Q29. Which is not a Django filed type for holding integers?
+#### Q29. Which is not a Django field type for holding integers?
 
 - [ ] SmallIntegerField
 - [x] NegativeIntegerField
@@ -313,7 +313,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x] A
+- [ ] A
 
 ```python
 class Author (models.model):
@@ -322,7 +322,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] B
+- [x] B
 
 ```python
 class Author (models.model):
@@ -532,12 +532,14 @@ model=Planet
 
 #### Q55. What is WSGI?
 
-- [x] a server
-- [ ] an interface specification
+- [ ] a server
+- [x] an interface specifications
 - [ ] a Python module
 - [ ] a framework
 
-#### Q56. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?
+Reference link:- https://wsgi.tutorial.codepoint.net/intro
+
+#### Q56. Which generic view should be used for displaying the titles of all Django Reinhardt's songs?
 
 - [ ] DetailView
 - [ ] TittleView
@@ -688,7 +690,7 @@ model=Planet
 - [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
 - [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
 
-#### Q76. What is the purpose of the **init**.py file?
+#### Q76. What is the purpose of the \_\_init\_\_.py file?
 
 - [ ] to extend the set of modules found in a package
 - [ ] to allow compiled modules from different releases and different versions of Python to coexist

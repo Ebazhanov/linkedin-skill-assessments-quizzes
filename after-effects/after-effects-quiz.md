@@ -32,7 +32,7 @@
 
 #### Q5. Where can you control the settings for footage created from an After Effects composition?
 
-- [ ] Render Queue panel
+- [x] Render Queue panel
 - [ ] Save As dialog box
 - [ ] Export Queue panel
 - [ ] Progress panel
@@ -62,12 +62,12 @@
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
-- [ ] Click Import As > Composition – Retain Layer Size.
+- [x] Click Import As > Composition – Retain Layer Size.
 - [ ] Set the PSD sequence option.
 
 #### Q10. How can you render a file in the background and keep working in After Effects?
 
-- [ ] Click File > Export > Add to Adobe Media Encoder Queue.
+- [x] Click File > Export > Add to Adobe Media Encoder Queue.
 - [ ] Click File > Watch Folders.
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.

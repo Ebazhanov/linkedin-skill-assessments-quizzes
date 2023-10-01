@@ -100,33 +100,33 @@
 
 #### Q10. Which components are typically found on the motherboard?
 
-- [x]
-  basic I/O
-  graphics
-  NIC
-  battery
-  expansion slots
+- [x] &shy;
+      basic I/O
+      graphics
+      NIC
+      battery
+      expansion slots
 
-- [ ]
-  basic I/O
-  cooling
-  NIC
-  graphics
-  expansion slots
+- [ ] &shy;
+      basic I/O
+      cooling
+      NIC
+      graphics
+      expansion slots
 
-- [ ]
-  basic I/O
-  graphics
-  NIC
-  mass storage
-  expansion slots
+- [ ] &shy;
+      basic I/O
+      graphics
+      NIC
+      mass storage
+      expansion slots
 
-- [ ]
-  basic I/O
-  graphics
-  NIC
-  power supply
-  expansion slots
+- [ ] &shy;
+      basic I/O
+      graphics
+      NIC
+      power supply
+      expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 
@@ -339,7 +339,7 @@
 - [ ] Restart the computer.
 - [ ] Review the output of the netstat utility to check for incoming connections to the file.
 
-#### Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
+#### Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the office?
 
 - [ ] DNS
 - [ ] FTP
@@ -383,7 +383,7 @@
 - [ ] cable
 - [x] dial-up
 
-#### Q46. What is a fixed disk
+#### Q46. What is a fixed disk?
 
 - [ ] mass storage that has been repaired
 - [x] nonremovable mass storage
@@ -501,35 +501,12 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [x] 254
 - [ ] 256
 
-#### Q62. Tania was told to address an issue in the UEFI. How is it accessed?
-
-- [ ] by using the System Configuration Utility (MSCONFIG)
-- [x] from the BIOS
-- [ ] from the computer's startup menu
-- [ ] on the network
-
-<not duplicate, pls do not delete, the explanation below>
-
 #### Q62. Tania was told to change a setting in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
 - [ ] from the BIOS
 - [x] from the computer's startup menu
 - [ ] on the network
-
-```
-Q62. Tania was told to address an issue in the UEFI. How is it accessed?
-
-And the answer changed from
-"from the BIOS" to
-"from the computer's startup menu"
-
-The phrase "to adress an issues in UEFI" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.
-
-I changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.
-
-To get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.
-```
 
 #### Q63. What is the technical reason why you must properly eject media?
 
@@ -603,9 +580,9 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 
 #### Q73. What is an example of a top-level domain (TLD)?
 
-- [ ] NET
+- [x] NET
 - [ ] HTTP
-- [x] //
+- [ ] //
 - [ ] DNS
 
 #### Q74. Jan is setting up a coffee shop's wireless network. Given the number of Wi-Fi networks within range, which are the best choices for a 2.4GHz Wi-Fi channel?
@@ -614,3 +591,12 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] 3, 10, 12
 - [x] 1, 6, 11
 - [ ] 1, 2, 8
+
+#### Q75. When elevated access is required, what steps must a user take?
+
+- [ ] Type the administrator account password.
+- [ ] Hold the Shift key and try again.
+- [ ] Sign out and sign in again with an administrator account.
+- [x] User account permissions are elevated in Settings or Preferences.
+
+// Not sure about this one

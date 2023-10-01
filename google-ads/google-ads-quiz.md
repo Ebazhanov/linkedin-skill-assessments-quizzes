@@ -212,8 +212,8 @@
 
 #### Q31. In a text ad, the display URL is made up of the domain from your final URL and up to two **\_\_\_**.
 
-- [x] descriptions
-- [ ] paths
+- [ ] descriptions
+- [x] paths
 - [ ] keywords
 - [ ] tracking tags
 
@@ -239,7 +239,7 @@
 
 - [ ] Dynamic Search Ads
 - [ ] Responsive Search Ads
-- [ ] Universal Search Ads
+- [x] Universal Search Ads
 - [ ] Programmatic Search Ads
 
 #### Q35. Which keyword is of the "phrase match" type?

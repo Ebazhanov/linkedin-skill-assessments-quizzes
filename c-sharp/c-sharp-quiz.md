@@ -532,7 +532,7 @@ public static void Main(string[] args)
 - [ ] Namespaces calculate code coverage at runtime.
 - [ ] Namespaces compile application code together at compile time.
 - [ ] Namespaces group code together into a single repository.
-- [x] Namespaces separate code into groupings, control access, and void naming collisions.
+- [x] Namespaces separate code into groupings, control access, and avoid naming collisions.
 
 [Official documentation: namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
 
@@ -714,7 +714,7 @@ public int Password
 #### Q66. Do you need to declare an out variable before you use it?
 
 - [x] `No, you can declare an out in the parameter list.`
-- [ ] `Out variables are no longer part of C#.`
+- [ ] `No, Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
 
@@ -826,9 +826,9 @@ void MyFunction()
 - [ ] `InputManager().DebugString;`
 - [ ] `new InputManager().DebugString();`
 - [x] `InputManager.DebugString();`
-    
+
 #### Q78. What values can be assigned to this variable?
-    
+
 ```cs
 public string? nickname
 ```
@@ -837,3 +837,21 @@ public string? nickname
 - [ ] String values
 - [x] String values or null
 - [ ] String values with more than one character
+
+#### Q79. What is a destructor?
+
+- [ ] `a special called automatically whenever an object is created or updated`
+- [ ] `an implicit method called automatically when thread pools are processed concurrently`
+- [ ] `an explicit method called automatically when the compiler starts running`
+- [x] `a special method called automatically whenever an object is deleted or destroyed`
+
+[Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/destructors)
+
+#### Q80. Which code snippet correctly declares a CustomInt type alias of type Int32?
+
+- [ ] `typealias CustomInt = System.Int32;`
+- [ ] `var<T> CustomInt = Int32;`
+- [x] `using CustomInt = System.Int32;`
+- [ ] `type CustomInt = System<Int32>;`
+
+[Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive)

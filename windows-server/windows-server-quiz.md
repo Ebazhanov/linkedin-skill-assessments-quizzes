@@ -607,3 +607,10 @@
 - [ ] You need a computer cluster that has at least one server with the Hyper-V role enabled
 - [ ] You need Hyper-V configured using Cluster Shared Volumes for storage
 - [ ] You don't actually need a Scale-Out File Server cluster functioning as a storage cluste
+
+#### Q82. When doing a bare metal restore of your Windows Server 2012 R2 server, how would you recover your system from an image?
+
+- [ ] Boot into Windows Recovery Environment.
+- [x] Use a third-party backup tool.
+- [ ] Run wbadmin.msc from a command prompt.
+- [ ] Add additional physical disks to the server.

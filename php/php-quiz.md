@@ -74,7 +74,7 @@ if ($email === false) {
 - [ ] GET is intended for changing the server state and it carries more data than POST.
 - [ ] GET is more secure than POST and should be used for sensitive information.
 
-#### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the ** is less than, equal to, or greater than the other.
+#### Q8. The **operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the** is less than, equal to, or greater than the other
 
 - [ ] greater-than; right
 - [x] spaceship; left
@@ -170,7 +170,7 @@ if ($email === false) {
 
 #### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -180,7 +180,7 @@ if ($email === false) {
   5?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -190,7 +190,7 @@ if ($email === false) {
   5?>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 <?php
@@ -200,7 +200,7 @@ if ($email === false) {
   5?>
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   1 <?php
@@ -212,7 +212,7 @@ if ($email === false) {
 
 #### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
-- [x]
+- [x] &shy;
 
 ```php
   1 class MyClass {
@@ -224,7 +224,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -236,7 +236,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -248,7 +248,7 @@ if ($email === false) {
   7 $userclass = new MyClass;
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   1 class MyClass {
@@ -308,7 +308,7 @@ function process(...$vals) {
 - [ ] `class Unicorn implements Horse {}`
 - [ ] `class Horse inherits Unicorn {}`
 
-#### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_
+#### Q27. Both triple === and double == can be used to **variables in php. If you want to hear that string "33" and the number 33 are equal, you would use** . If you want to check if an array contains a particular string value at a particular index, you would use \_
 
 - [x] compare; doubles; triples
 - [ ] compare; triples; doubles
@@ -324,7 +324,7 @@ function process(...$vals) {
 
 #### Q29. Which is the way to create an array of "seasons"?
 
-- [ ]
+- [ ] &shy;
 
 ```php
 seasons=array(
@@ -339,7 +339,7 @@ seasons=array(
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
 
-#### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for ** members and `self::$member` should be used for ** members.
+#### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for **members and `self::$member` should be used for** members
 
 - [ ] private, public
 - [ ] object,primitive
@@ -443,7 +443,7 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-#### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+#### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in
 
 - [x] NULL
 - [ ] TRUE
@@ -459,7 +459,7 @@ echo "No, mail is not set";
 
 #### Q44. Which code snippet demonstrates encapsulation?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow extends Animal {
@@ -467,7 +467,7 @@ echo "No, mail is not set";
   }
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow {
@@ -477,7 +477,7 @@ echo "No, mail is not set";
   $daisy->milk = "creamy";
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   class Cow {
@@ -488,7 +488,7 @@ echo "No, mail is not set";
   }
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   class Cow {
@@ -521,28 +521,28 @@ echo "No, mail is not set";
 </books>
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = simplexml_load_string('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   $books = simplexml_load_file('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = SimpleXMLElement('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   $books = SimpleXML('books.xml');
@@ -573,7 +573,7 @@ function doStuff($haystack, $needle) {
 - [x] `startsWith`
 - [ ] `contains`
 
-#### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ** . If you want to store information across multiple pages, you should use the ** ?
+#### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the **. If you want to store information across multiple pages, you should use the** ?
 
 - [ ] request; response
 - [ ] response; request
@@ -607,28 +607,28 @@ isset($_POST['submit'])
 
 #### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
 
-- [ ]
+- [ ] &shy;
 
 ```php
   report_errors = E_ALL
   display_errors = On
 ```
 
-- [x]
+- [x] &shy;
 
 ```php
   error_reporting = E_ALL
   display_errors = On
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = Off
 ```
 
-- [ ]
+- [ ] &shy;
 
 ```php
   error_reporting = E_ALL & ~E_NOTICE
@@ -880,7 +880,7 @@ for (;;) {
 
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
-#### Q64. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
+#### Q64. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?
 
 - [x] use myApp\myNamespace\{ClassA, ClassB, ClassC};
 - [ ] use myApp\myNamespace\ClassA, ClassB, ClassC;
@@ -914,7 +914,7 @@ for (;;) {
 
 [reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
 
-#### Q68. Describe what happens if you run this code in a testing environment:
+#### Q68. Describe what happens if you run this code in a testing environment
 
 ```php
 $capitals = ['UK' => 'London', 'France' => 'Paris'];
@@ -1009,7 +1009,7 @@ print $match[1]."\n";
 - [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
 
-#### Q79. Create an associative array using `$array1` as the keys and `$array2` as the values:
+#### Q79. Create an associative array using `$array1` as the keys and `$array2` as the values
 
 `$array1 = ['country', 'capital', 'language'];`
 `$array2 = ['France', 'Paris', 'French'];`
@@ -1052,16 +1052,16 @@ print $match[1]."\n";
 
 - [ ] `$i = 0;`
       `while ($i <= 10) {`
-      ` echo $i++ . '<br/>';`
+      `echo $i++ . '<br/>';`
       `}`
 
 - [ ] `while ($i &lt;= 10) {`
-      ` echo ++$i . '<br/>';`
+      `echo ++$i . '<br/>';`
       `}`
 
 - [x] `$i = 0;`
       `while ($i < 10) {`
-      ` echo ++$i . '<br/>';`
+      `echo ++$i . '<br/>';`
       `}`
 
 #### Q83. Which are types of control structures in PHP?
@@ -1385,9 +1385,134 @@ echo $smurf->name;
 4  )
 ```
 
-#### Q93. Which super global variable holds information about headers, paths, and script locations?
+#### Q100. Which super global variable holds information about headers, paths, and script locations?
 
 - [ ] `$_GET`
 - [ ] `$GLOBALS`
 - [ ] `$_SESSION`
 - [x] `$_SERVER`
+
+#### Q101. Using a for loop, how would you write PHP code to count backward from 10 to 1, in that order?
+
+- [ ] &shy;
+
+```php
+<?
+for ($i=1; $i <= 10; $i++) {
+    echo $i;
+}
+?>
+```
+
+- [ ] &shy;
+
+```php
+<?
+$i = 10;
+while($i>=0) {
+    echo $i;
+    $i--;
+}
+?>
+```
+
+- [ ] &shy;
+
+```php
+<?
+    for($i = 10; $i > 0; $i++) {
+        print "$i <br />\n";
+    } // end for loop '''
+?>
+```
+
+- [x] &shy;
+
+```php
+<?
+    for($i = 10; $i > 0; $i--) {
+        print "$i <br />\n";
+    } // end for loop
+?>
+```
+
+#### Q102. What is the output of this code?
+
+```php
+1 function knights(){
+2 return "a shrubbery";
+3 }
+
+4 if (knights())
+5 printf "you are just and fair";
+6 else
+7 printf "NI!";
+```
+
+- [ ] NI!
+- [ ] a syntax error
+- [ ] a shrubbery
+- [x] you are just and fair
+
+#### Q103. Which script defines the United States of America as a constant and prints this code?
+
+**Our country is United States of America**
+**Our country has a total of 50 states**
+
+- [ ] &shy;
+
+```php
+1 define('country',"United States of America");
+2 define('states',50);
+3 echo "Our country is "country"<br>";
+4 echo "Our country has a total of ".states." states";
+```
+
+- [x] &shy;
+
+```php
+1 define('country',"United States of America");
+2 define('states',50);
+3 echo "Our country is ".country."<br>";
+4 echo "Our country has a total of ".states." states";
+```
+
+- [ ] &shy;
+
+```php
+1 define(country,"United States of America");
+2 define('states',50);
+3 echo "Our country is ".country."<br>";
+4 echo "Our country has a total of ".states." states";
+```
+
+- [ ] &shy;
+
+```php
+1 define('country',"United States of America");
+2 define('states','fifty');
+3 $K = 'strval'; echo "Our {$K(Country)} has {$K(FIFTY)} states.";
+```
+
+#### Q104. What does this code output?
+
+```php
+1 try{
+2 echo "bodacious";
+3 throw new Exception();
+4 } catch (Exception $e) {
+5 echo "egregious";
+7 } finally {
+8 echo "excellent";
+9 }
+```
+
+- [ ] bodacious
+      excellent
+- [ ] egregious
+      excellent
+- [x] bodacious
+      egregious
+      excellent
+- [ ] bodacious
+      egregious

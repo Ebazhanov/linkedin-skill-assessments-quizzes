@@ -295,7 +295,7 @@ MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jen
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-- [ ] B
+- [x] B
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,
@@ -315,6 +315,8 @@ AND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
+
+[Explaination:]The correct Cypher code to execute a multiquery block would use commas to separate each query in a single statement. In this case, option B has all the queries separated by commas, making it the correct choice. Option A has the correct queries, but they are separated by "RETURN" which is not correct syntax for multiquery. Option C has an additional "AND" before the second query which is also not correct syntax. Option D has each query separated by semicolons, which would execute them as separate queries, not as a multiquery block.
 
 #### Q42. You need to create a scalable database that supports immutable writes. What do you use?
 
@@ -364,5 +366,12 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [x] a document database
 - [ ] a graph database
 - [ ] a ledger database
+
+#### Q49. Which command gets all documents in a MongoDB datastore where the status equals A or the quantity is less than 30?
+
+- [ ] db.inventory.find( { status: "a", qty: { $lt: 30 } } )
+- [x] db.inventory.find( { $or: [ { status: "A" }, { qty: { $lt: 30 } } ] } )
+- [ ] db.inventory.find( { status: "A", qty: { $lt: 30 } } )
+- [ ] db.inventory.find( { $or: [ { status: "a" }, { qty: { $lt: 30 } } ] } )
 
 [store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)

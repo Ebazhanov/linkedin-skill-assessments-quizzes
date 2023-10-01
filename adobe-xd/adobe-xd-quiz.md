@@ -158,3 +158,44 @@
 - [ ] Drag individual images into the grid.
 - [ ] Ensure that all images are in the same format.
 - [x] Import the images and rearrange them in the Repeat Grid.
+
+#### Q22. Adobe Experience Design (XD) is marketed as a **\_\_\_** application.
+
+- [] web design
+- [] screen layout
+- [x] screen prototyping
+- [] mobile design
+
+#### Q23. What is the maximum number of interactions that can be applied to a selected element?
+
+- [] two
+- [] four
+- [x] three
+- [] one
+
+#### Q24. Four more artboards for your current XD project have been created in Photoshop. How would you add them to your XD project?
+
+- [x] Import the .psd into the document.
+- [] Place the .psd into an XD artboard.
+- [] Import one artboard at a time.
+- [] Open the .psd in XD.
+
+#### Q25. How can you apply a hover and a tap trigger interaction to one object in XD?
+
+- [] Create multiple duplicate artboards.
+- [] You cannot apply hover and tap interactions to one object.
+- [] Create multiple, layered shapes.
+- [x] Create component states.
+
+#### Q26. When a menu slides in over the artboard and the artboard blurs, what effect has been applied?
+
+- [x] background blur
+- [] Darken Blend mode
+- [] color overlay
+- [] object blur
+
+#### Q27. What does a folder icon in the Layers panel indicate?
+
+-[] a symbol
+-[] a component -[x] a group
+-[] a screen element

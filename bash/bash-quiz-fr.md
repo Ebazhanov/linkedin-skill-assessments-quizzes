@@ -1007,3 +1007,12 @@ Références:
 - [ ] &&
 - [x] &
 - [ ] $
+
+#### Q78. VAR="united states"
+
+        echo "${VAR^}"
+
+- [ ] unitedstates
+- [x] United States
+- [ ] United states
+- [ ] UNITED STATES

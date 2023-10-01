@@ -381,10 +381,12 @@ autopsy is for forensic analysis
 
 #### Q49. You are responsible for managing security of your organization's public cloud infrastructure. You need to implement security to protect the data and applications running in a variety of IaaS and PaaS services, including a new Kubernetes cluster. What type of solution is best suited to this requirement?
 
-- [ ] Cloud Workload Protection Platforms (CWPP)
+- [x] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Security Posture Management (CSPM)
-- [x] Cloud Access Security Brokers (CASBs)
+- [ ] Cloud Access Security Brokers (CASBs)
 - [ ] Intrusion Detection and Prevention System (IDPS)
+
+[Explanation](https://www.gartner.com/reviews/market/cloud-workload-protection-platforms)
 
 #### Q50. Sharing account credentials violates the **\_** aspect of access control.
 

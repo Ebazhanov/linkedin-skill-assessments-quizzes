@@ -624,7 +624,7 @@ end
 
 ![MatLab Q39](images/matlab_Q39.jpg)
 
-- [ ]
+- [ ] &shy;
 
 ```
 figure
@@ -634,7 +634,7 @@ surf(r)
 colorbar
 ```
 
-- [x]
+- [x] &shy;
 
 ```
 figure
@@ -1154,3 +1154,15 @@ else
 ```
 
 [Reference](https://www.mathworks.com/help/matlab/ref/if.html)
+
+#### Q78. What does b contain?
+
+```
+a = [9 8 8 19 6 1 9 6 6 19];
+b = unique(a);
+```
+
+- [x] `b = [1 6 8 9 19]`
+- [ ] `b = [1 6 8 9]`
+- [ ] `b = [1 6 6 6 8 8 9 9 19 19]`
+- [ ] `b = [1 6 6 8 8 9]`

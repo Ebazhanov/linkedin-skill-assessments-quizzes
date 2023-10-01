@@ -59,23 +59,27 @@
 #### Q9. Why would you use the Items tab when entering a bill?
 
 - [ ] to track freight charges separately from the expense account
-- [ ] to track expenses
+- [x] to track expenses
 - [ ] to assign a cost to a job or to purchase an inventory item
 - [ ] to track credits
+
+https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-entering-bill-track-freight-charges-separately-expense-account-b-track-q86659682
 
 #### Q10. Why is it good practice to use the Bank Deposit screen to record sales not tracked to individual customers?
 
 - [ ] It allows you to get customer level detail later.
 - [ ] It gets the cash into your checking account as quickly as possible.
 - [ ] It automates the deposit system, so you don't have to physically go to the bank to complete the deposit.
-- [ ] It allows you to record daily "lump sum" sales quickly and efficiently.
+- [x] It allows you to record daily "lump sum" sales quickly and efficiently.
 
 #### Q11. You are running your Profit and Loss report and notice it is on a cash basis rather than an accrual basis. How can you correct this to show the correct basis?
 
 - [ ] You cannot change the basis for just one report.
 - [ ] Right-click the basis shown on the right side of the report and change it to Accrual.
 - [ ] Double-click the basis and change it to Accrual.
-- [ ] In the upper-left corner of the screen, select the Accrual button.
+- [x] In the upper-left corner of the screen, select the Accrual button.
+
+[Reference]In the upper-left corner of the screen, locate and select the Accrual button. This button is typically found in the toolbar or menu options.
 
 #### Q12. Is it possible to merge two list entries?
 
@@ -461,3 +465,10 @@
 - [ ] The diamond indicates that the list entry cannot be deleted because it is in use.
 - [ ] The diamond indicates that the list entry has open transactions.
 - [ ] The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.
+
+#### Q67. What is a QuickReport in QuickBooks?
+
+- [ ] A QuickBooks report in graphical format
+- [x] A Predesigned report that shows more detail about the data you are currently viewing on screen
+- [ ] A snapshot of the profile and Loss report
+- [ ] Any QuickBooks report
