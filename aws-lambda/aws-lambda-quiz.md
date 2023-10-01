@@ -452,4 +452,46 @@
 
 **Explanation**
 
-In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.
+- `In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.`
+
+#### Q63. Can we use pakages with AWS Lambda?
+
+- [ ] No, AWS Lambda does not support the use of external packages.
+- [x] Yes, AWS Lambda supports the use of custom and NPM packages
+- [ ] AWS Lambda only supports built-in packages.
+- [ ] Packages can be used but require additional fees.
+
+#### Q64. Are AWS Lambda functions available and to what extent?
+
+- [ ] AWS Lambda functions are available 24/7 without any limitations.
+- [ ] AWS Lambda functions are available but may experience scheduled downtimes.
+- [x] AWS Lambda functions are highly available with redundancy and replications.
+- [ ] AWS Lambda functions are available only during business hours.
+
+#### Q65. Is there any default limit to be applied at a functional level?
+
+- [ ] Yes, there is a default limit to be applied at a functional level.
+- [x] No, there is no default limit to be applied at a functional level.
+- [ ] The default limit depends on the AWS Lambda service plan.
+- [ ] Functional limits are set by users during configuration.
+
+#### Q66. How long can an AWS Lambda function execute?
+
+- [ ] 60 seconds
+- [x] 300 seconds
+- [ ] 600 seconds
+- [ ] 30 seconds
+
+#### Q67. How does AWS Lambda secure my code?
+
+- [ ] AWS Lambda stores code in plaintext without encryption
+- [x] AWS Lambda encrypts and stores it in Amazon S3.
+- [ ] AWS Lambda does not provide any security measures for code.
+- [ ] AWS Lambda relies on third-party security tools for code protection.
+
+#### Q68. Which languages are supported by AWS Lambda?
+
+- [x] Python, C#, JavaScript and Java
+- [ ] Ruby, PHP, Swift
+- [ ] C++ and Rust
+- [ ] HTML and CSS
