@@ -453,3 +453,63 @@
 **Explanation**
 
 In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.
+
+#### Q63. What does AWS Lambda mean?
+- [ ] a) AWS Lambda is a database service offered by AWS.
+- [x] b) AWS Lambda is a serverless computing service provided by AWS.
+- [ ] c) AWS Lambda is a machine learning framework developed by AWS.
+- [ ] d) AWS Lambda is an IoT platform developed by AWS.
+
+#### Q64. What restrictions apply to AWS Lambda function code?
+- [x] a) Lambda imposes restrictions on the use of outbound network connections.
+- [ ] b) Lambda imposes restrictions on trace calls for debugging.
+- [ ] c) Lambda allows unlimited TCP port 25 traffic.
+- [ ] d) Lambda imposes restrictions on the execution time of functions.
+
+#### Q65. How long can an AWS Lambda function execute?
+- [ ] a) 60 seconds
+- [x] b) 300 seconds
+- [ ] c) 600 seconds
+- [ ] d) 30 seconds
+
+#### Q66. How does AWS Lambda secure my code?
+- [ ] a) AWS Lambda stores code in plaintext without encryption.
+- [x] b) AWS Lambda encrypts code and stores it in Amazon S3.
+- [ ] c) AWS Lambda does not provide any security measures for code.
+- [ ] d) AWS Lambda relies on third-party security tools for code protection.
+
+#### Q67. Which languages are supported by AWS Lambda?
+- [x] a) Python, C#, JavaScript, and Java
+- [ ] b) Ruby, PHP, and Swift
+- [ ] c) C++ and Rust
+- [ ] d) HTML and CSS
+
+#### Q68. What is the definition of Auto-Scaling?
+- [ ] a) Auto-Scaling is a feature that automatically scales AWS Lambda functions.
+- [x] b) Auto-Scaling is a feature that automatically scales AWS EC2 instances.
+- [ ] c) Auto-Scaling is a feature that automatically scales AWS S3 storage.
+- [ ] d) Auto-Scaling is a feature that automatically scales AWS RDS databases.
+
+#### Q69. Is the infrastructure accessible on which the AWS Lambda runs?
+- [ ] a) Yes, users have full access to the underlying infrastructure.
+- [x] b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access.
+- [ ] c) Users have access to infrastructure but with limited permissions.
+- [ ] d) Users can request access to infrastructure from AWS support.
+
+#### Q70. Can I use packages with AWS Lambda?
+- [ ] a) No, AWS Lambda does not support the use of external packages.
+- [x] b) Yes, AWS Lambda supports the use of custom and NPM packages.
+- [ ] c) AWS Lambda only supports built-in AWS packages.
+- [ ] d) Packages can be used but require additional fees.
+
+#### Q71. Are AWS Lambda functions available and to what extent?
+- [ ] a) AWS Lambda functions are available 24/7 without any limitations.
+- [ ] b) AWS Lambda functions are available but may experience scheduled downtimes.
+- [x] c) AWS Lambda functions are highly available with redundancy and replication.
+- [ ] d) AWS Lambda functions are available only during business hours.
+
+#### Q72. Is there any default limit to be applied at a functional level?
+- [ ] a) Yes, there is a default limit applied at a functional level.
+- [x] b) No, there is no default limit applied at a functional level.
+- [ ] c) The default limit depends on the AWS Lambda service plan.
+- [ ] d) Functional limits are set by users during configuration.
