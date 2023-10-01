@@ -593,6 +593,6 @@ mvn install
 ![img](q73.png)
 
 - [ ] always
-- [ ] when the system property debug is not set to true, or is not defined
+- [x] when the system property debug is not set to true, or is not defined
 - [ ] when the system property debug is set to !true
-- [x] never
+- [ ] never
