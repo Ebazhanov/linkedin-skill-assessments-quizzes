@@ -1954,6 +1954,13 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 
 #### Q132. Which keyword would you add to make this method the entry point of the program?
 
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Your program logic here
+    }
+}
+```
 - [ ] exception
 - [ ] args
 - [x] static
