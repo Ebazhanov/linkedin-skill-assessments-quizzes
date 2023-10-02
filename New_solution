@@ -1,0 +1,13 @@
+Solution to New question #6149
+*****question 1*****
+
+What method can you use to check if form data has been changed when using a Form instance?
+has_changed()
+
+*****question 2*****
+
+Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production?
+It's fine, you just need to keep both instances synchronized.
+
+
+
