@@ -1052,12 +1052,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q115. The amount of sales tax on each sale is calculated as the selling price times the quantity sold times the sales tax rate. What formula would you use in celle E4 to then be able ro copy that cell to the rest of the column?
 
-(missing screenshot)
+![image](images/Q115.png?raw=png)
 
-- [x] =C4*D4*$B$1
-- [ ] =(C4*D4)*B1
-- [ ] =C4*D4*B1
-- [ ] =C4*D4(*B1)
+- [x] =C4\*D4*$B$1
+- [ ] =(C4\*D4)*B1
+- [ ] =C4\*D4*B1
+- [ ] =C4\*D4(*B1)
 
 #### Q116. Which is not a way to edit a formula in a cell?
 
