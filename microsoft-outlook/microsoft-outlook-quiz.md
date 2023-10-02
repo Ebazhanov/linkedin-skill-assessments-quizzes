@@ -294,7 +294,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q40. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?
 
 - [ ] Export your contacts to Excel, which ash lots of columns; add the data; and then import the contacts back to Outlook
-- [ ] Use the Field Chooser to create two new columns of type Date in the folder
+- [x] Use the Field Chooser to create two new columns of type Date in the folder
 - [ ] Create a custom contacts form that includes two text boxes to collect this data
 - [ ] All of these answers
 
@@ -307,7 +307,7 @@ C. Because the unread messages count for the Inbox folder will not include Proje
 D. Because you cannot create a search folder for a subfolder
 ```
 
-- [ ] A and C
+- [x] A and C
 - [ ] A, C, and D
 - [ ] A and B
 - [ ] B and D
@@ -706,4 +706,5 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] It stops incoming emails but allows outgoing emails.
 - [ ] It disconnects the computer from the network to avoid network slowdowns.
 - [ ] It allows incoming emails but stops outgoing emails.
-- [ ] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
+- [x] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
+[Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)
