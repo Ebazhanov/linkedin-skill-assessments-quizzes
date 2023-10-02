@@ -2320,13 +2320,18 @@ public class Course {
 - [ ] 1. true 2. false
 - [ ] 1. true 2. true
 
-#### Q163. Which can be thrown using the throw statement
+[Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
+
+#### Q163. What allows the programmer to destroy an object x?
 
 
-- [ ] 1. Error
-- [ ] 2. Throwable
-- [ ] 3. Exception
-- [x] 4. All of the above
+- [ ] 1. x.delete()
+- [ ] 2. x.finalize()
+- [ ] 3. Runtime.getRuntime().gc()
+- [x] 4. Only the garbage collection system can destroy an object.
+
+[Reference](<https://www.studytonight.com/java/garbage-collection.php>) //No, the Garbage Collection can not be forced explicitly. We may request JVM for garbage collection by calling System.gc() method. But This does not guarantee that JVM will perform the garbage collection
+
 
 #### Q164. How many objects are eligible for garbage collection till flag
 
@@ -2355,5 +2360,5 @@ public class Test
 - [ ] 3. 2
 - [ ] 4. 4
 
+[Reference](<https://www.indiabix.com/java-programming/garbage-collections/>) // question no 5.
 
-[Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
