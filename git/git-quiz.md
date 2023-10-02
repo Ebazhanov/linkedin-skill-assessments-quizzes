@@ -7,6 +7,8 @@
 - [ ] git --option
 - [ ] git --current
 
+[Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
+
 #### Q2. What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
@@ -33,12 +35,16 @@ git merge --squash HEAD@{1}
 - `git reset --hard HEAD~5` resets the current branch to the commit just before the last 5 (see `man gitrevisions` for details about this notation and other cool alternatives like `HEAD@{2 days ago}`). As it is a hard reset, it will also overwrite every change in the working tree as well. See `man git-reset`.
 - `git merge --squash HEAD@{1}` HEAD@{1} is where the branch was just before the previous command (again, see `man gitrevisions`). This command sets the state of the index to be as it would just after a merge from that commit. This whole operation could be a way to take 5 commits from a branch in which you started a new feature and squash them to a single commit, a meaningful one.
 
+[Reference](https://stackoverflow.com/questions/70962338/documentation-of-default-target-of-git-merge-squash)
+
 #### Q4. Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?
 
 - [ ] Checkout the push-notifications branch and run git merge beta
 - [ ] Checkout the master branch and run git merge beta -> push-notifications
 - [ ] Delete the push-notifications branch and it will be committed to the master branch automatically
 - [x] Checkout the beta branch and run git merge push-notifications
+
+[Reference](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 #### Q5. Which of the following is true you when you use the following command?
 
@@ -49,6 +55,8 @@ git merge --squash HEAD@{1}
 - [ ] All new files are staged
 - [ ] Only updated files are staged
 
+[Reference](https://git-scm.com/docs/git-add)
+
 #### Q6. What will the following command print to the Terminal?
 
 `git remote -v`
@@ -57,6 +65,8 @@ git merge --squash HEAD@{1}
 - [ ] The current git version you're running
 - [ ] An inline editor for modifying remote repositories
 - [ ] The last 5 git versions you've installed
+
+[Reference](https://git-scm.com/docs/git-remote)
 
 #### Q7. Looking at the following commands, describe what is happening.
 
@@ -71,6 +81,8 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
 
+[Reference](https://git-scm.com/docs/git-cherry-pick)
+
 #### Q8. What does the following command do to the git repository?
 
 `git reset --soft HEAD^`
@@ -80,12 +92,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
 - [x] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
 
+[Reference](https://git-scm.com/docs/git-reset)
+
 #### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 
 - [ ] Manually backtrack through your commit history.
 - [ ] Use git search -diff to compare all commits in your repository history.
 - [ ] Run a git rebase to find the buggy commit.
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
+
+[Reference](https://git-scm.com/docs/git-bisect)
 
 #### Q10. Why would the following command be used?
 
@@ -96,12 +112,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] To delete the last 10 commits and reset the HEAD
 - [ ] In order to locally cache the last 10 commits
 
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
+
 #### Q11. Why would you use a pre-receive hook in your remote repository?
 
 - [ ] You wouldn't, you would use it in the local repository
 - [x] To execute a script when a remote receives a push that is triggered before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
+
+[Reference](https://git-scm.com/docs/githooks)
 
 #### Q12. What option can you use to apply git configurations across your entire git environment?
 
@@ -110,12 +130,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [x] `--global`
 - [ ] `--update`
 
+[Reference](https://git-scm.com/docs/git-config)
+
 #### Q13. How could you squash multiple commits together without using git merge --squash?
 
 - [ ] Caching
 - [ ] You can't. git merge --squash is the only git command for that operation.
 - [x] Rebasing
 - [ ] Reflogging
+
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
 
 #### Q14. If you cloned an existing git repository, what would happen?
 
@@ -124,12 +148,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
+[Reference](https://git-scm.com/docs/git-clone)
+
 #### Q15. How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the `diff-tree` command with the commit hash.
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
+
+[Reference](https://git-scm.com/docs/git-diff-tree)
 
 #### Q16. What files is this .gitignore programmed to leave out?
 
@@ -145,6 +173,8 @@ build/
 - [ ] Only the build directory
 - [x] All files in the build directory, as well as files ending with .txt or .metadata
 - [ ] Only files with .swift and .txt extensions.
+
+[Reference](https://git-scm.com/docs/gitignore)
 
 A line starting with `#` serves as a comment. Hence `# .swift` does not do anything. See `man gitignore`.
 
@@ -258,6 +288,8 @@ git bisect good 69faab6268350295550de7d587bc323d
 - [x] Squash the related commits together into a single coherent commit.
 - [ ] Stash the related commits under a new hash.
 
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
+
 #### Q26. Which of the following is true of the git push command?
 
 **Note:** Which statement is true of the `git push` command?
@@ -280,12 +312,16 @@ git push -u origin master
 - [ ] Same as before, git push -u origin master
 - [x] git push
 
+[Reference](https://git-scm.com/docs/git-push)
+
 #### Q28. How would you create a custom shortcut or command across your Git environment?
 
 - [ ] Run `git hotfix` with the shortcut name.
 - [ ] Assign a shortcut or command using git options file.
 - [ ] Use the `git custom-key` command.
 - [x] Create an alias using the `git config` command.
+
+[Reference](https://git-scm.com/docs/git-config)
 
 #### Q29. What is the status of the beta-notes.js file in the following output?
 
