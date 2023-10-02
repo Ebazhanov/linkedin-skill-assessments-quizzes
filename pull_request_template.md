@@ -5,8 +5,8 @@ in [Suggestion how to contribute](CONTRIBUTING.md)
 
 ### DOD
 
-- [x] I have added new quiz{'s}
-- [x] I have added new reference link{'s}
+- [ ] I have added new quiz{'s}
+- [ ] I have added new reference link{'s}
 - [ ] I have made small correction/improvements
 
 ### Changes / Instructions
