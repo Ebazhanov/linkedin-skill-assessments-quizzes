@@ -2320,4 +2320,40 @@ public class Course {
 - [ ] 1. true 2. false
 - [ ] 1. true 2. true
 
+#### Q163. Which can be thrown using the throw statement
+
+
+- [ ] 1. Error
+- [ ] 2. Throwable
+- [ ] 3. Exception
+- [x] 4. All of the above
+
+#### Q164. How many objects are eligible for garbage collection till flag
+
+```java
+public class Test 
+{
+    public static void main(String [] args) 
+    {
+        Test obj1 = new Test();
+        Test obj2 = m1(obj1); 
+        Test obj4 = new Test();
+        obj2 = obj4;               //Flag
+        doComplexStuff();
+    }
+    static Test m1(Test mx) 
+    {
+        mx = new Test();
+        return mx;
+    }
+}
+
+```
+
+- [ ] 1. 0
+- [x] 2. 1
+- [ ] 3. 2
+- [ ] 4. 4
+
+
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
