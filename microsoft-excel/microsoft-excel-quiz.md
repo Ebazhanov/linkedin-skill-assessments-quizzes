@@ -1013,7 +1013,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q120. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
 
-![Image](images/Q120.png?raw=true)
+![Image](images/Q120.jpg?raw=true)
 
 - [ ] `=AVERAGEIF(D:D,K2,H:H,5,G:G)`
 - [ ] `=AVERAGEIF(G:G,D:D,K2,H:H,5)`
