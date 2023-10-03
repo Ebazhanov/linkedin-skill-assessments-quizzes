@@ -575,7 +575,7 @@ mvn install
 - [ ] It disables put requests to headers.
 - [ ] It sets the headers for all GET requests.
 - [ ] all of these answers
-- [ ] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
+- [x] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
 
 #### Q72. Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?
 
