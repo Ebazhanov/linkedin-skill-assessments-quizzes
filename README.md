@@ -25,6 +25,10 @@
 Always add explanation (`or reference link`) to your answers. Use [online grammar checker](https://www.grammarly.com/).
 That would help anyone to better learn new concepts!
 
+#### ❗️Want to participate in Hacktoberfest 2023, please read the rules carefully:
+
+- [https://hacktoberfest.com/participation/](https://hacktoberfest.com/participation/)
+
 #### 🎉 Announcements
 
 1. Column `Translation` have links to quizzes in different languages like Es, Fr, It and De.
