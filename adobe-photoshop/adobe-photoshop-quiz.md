@@ -858,3 +858,19 @@ E. Liquify
 - [x] Patch
 - [ ] Marquee
 - [ ] Lasso
+
+#### Q112. Which option( s) in the Select and Mask workspace gives the best result on organic edges for complex selections?
+
+- [x] Smooth
+- [x] Edge Detection Radius and Smart RadiusFeather
+- [ ] Quick Selection tool
+- [ ] Something wrong with this question? Give feedback
+
+#### Q113.How can you switch the main window back to a traditional layout to view one image at a time?
+
+![How can you switch the main window back to a traditional layout to view one image at a time?](images/Q113.png)
+
+- [x] Click Window > Arrange > consolidate All to Tabs.
+- [ ] Click Window > Arrange > Tile All Horizontally.
+- [ ] Click Window > Arrange > Match zoom.
+- [ ] Click window > Arrange > Tile.
