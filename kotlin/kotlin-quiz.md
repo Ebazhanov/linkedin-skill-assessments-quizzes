@@ -437,10 +437,12 @@ class UserService{
 
 #### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
 
-- [x] `val max3 = a.max(b)` (Extension Function is One of the idiomatic Solutions in Kotlin)
+- [ ] `val max3 = a.max(b)`
 - [ ] `val max = a > b ? a : b`
-- [ ] `val max = if (a > b) a else b`
+- [x] `val max = if (a > b) a else b`
 - [ ] `if (a > b) max = a else max = b`
+
+[reference](https://kotlinlang.org/docs/idioms.html#if-expression)
 
 #### Q36. You have an enum class Signal that represents the state of a network connection. You want to print the position number of the SENDING enum. Which line of code does that?
 
