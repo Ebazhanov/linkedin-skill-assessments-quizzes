@@ -2102,7 +2102,7 @@ Queue<Rainfall>
 - [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
-- [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
 
 #### Q145. What is UNICODE?
 
