@@ -697,3 +697,11 @@ mtrx[, -1]
 - [ ] ? dplyr
 - [x] ?? dplyr
 - [ ] Press the F1 key.
+
+#### Q65. In the image below, the data frame named iris includes a numeric vector named Petal.Length. Do the functions labeled Pair 1 and Pair 2 return the same information?
+![image](https://github.com/ManchurianMan/images/blob/main/petals.png?raw=true)
+
+- [x]  No, both the length and the class of the returned structures are different.
+- [ ]  Yes, both pairs of statements return an object with the same length and class.
+- [ ]  No, the length is the same but the class is different.
+- [ ]   No, the class is the same but the length is different.
