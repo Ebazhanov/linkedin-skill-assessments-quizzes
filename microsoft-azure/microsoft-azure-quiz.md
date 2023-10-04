@@ -552,7 +552,8 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 
       az ad app permission grant -display-name $appName \
           --homepage "http://localhost/$appName" \
-	  --identifier-uris [http://localhost/$appName](http://localhost/$appName)
+
+  --identifier-uris [http://localhost/$appName](http://localhost/$appName)
 
 - [x] appName="KinetecoWebApp"
 

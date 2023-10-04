@@ -164,10 +164,10 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q21. If you want to use third-party filters and make them nondestructive, what is the best workflow?
 
--[ ] Click Photo > Edit In and select the desired plugin.
--[ ] Click File > Plug-in Extras.
--[ ] Click Photo > Edit In > Open in Photoshop as Smart Object.
--[x] Click Photo > Edit In > Edit in Photoshop
+- [ ] Click Photo > Edit In and select the desired plugin.
+- [ ] Click File > Plug-in Extras. 
+- [ ] Click Photo > Edit In > Open in Photoshop as Smart Object. 
+- [x] Click Photo > Edit In > Edit in Photoshop
 
 #### Q22. What is NOT an advantage of grouping images into a regular collection?
 
@@ -240,7 +240,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 ![What do you call information saved with an image file, such as the date of capture and type of camera?](images/Q29.png)
 
-- [ ] Level 
+- [ ] Level
 - [ ] Auto
 - [ ] Full
 - [x] Guided
@@ -253,6 +253,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ]camera data
 
 #### Q31. Suppose, as shown here, that you see no folders in the Folders list despite knowing some have been imported. How can you fix this?
+
 ![Suppose, as shown here, that you see no folders in the Folders list despite knowing some have been imported. How can you fix this?](images/Q31.png)
 
 - [ ] Double-click the disclosure triangle next to a drive's name.
@@ -261,6 +262,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Reimport the folders.
 
 #### Q32. In this image, the Adjustment brush is having an unwanted effect on some areas. What is the best way to clean this up?
+
 ![In this image, the Adjustment brush is having an unwanted effect on some areas. What is the best way to clean this up?](images/Q32.png)
 
 - [ ] Hold down the Shift key to paint over the unwanted areas.
@@ -283,6 +285,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Adobe RGB
 
 #### Q35. Which color label set is in use?
+
 ![Which color label set is in use?](images/Q35.png)
 
 - [ ] a custom set
@@ -362,11 +365,3 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [x] в
 - [ ] A
 - [ ] P
-
-
-
-
-
-
-
-

@@ -905,6 +905,7 @@ Which of these statements do you agree with?
 - [ ] Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.
 
 #### Q117. What is the definition of reinforcement learning?
+
 - [x] The machine iterates through different models to continuously improve the outcome.
 - [ ] The developer reinforces what they already know.
 - [ ] The machine reinforces supervised learning.

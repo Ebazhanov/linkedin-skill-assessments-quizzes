@@ -1320,7 +1320,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q159. Which formula will calculate the number of blank cells in the range A1:A20
 
-- [x] `=COUNTBLANK(A1:A20)` 
+- [x] `=COUNTBLANK(A1:A20)`
 - [ ] `=COUNTA(A1:A20)`
 - [ ] `=COUNTIF(A1:A20,">0")`
 - [ ] `=COUNT(A1:A20)`

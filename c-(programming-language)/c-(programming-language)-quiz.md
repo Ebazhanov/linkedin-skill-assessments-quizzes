@@ -1316,7 +1316,6 @@ default:
       Choice B No choice
 - [ ] Program gives no output as it is erroneous
 
-
 #### Q82. String variable str1 has the value of "abc", and string variable str2 has the value "xyz". What are the values of str1 and str2 after this statement is executed?
 
 ```c

@@ -1584,7 +1584,7 @@ return 0;
 }
 ```
 
-- [X] A
+- [x] A
 
 ```cpp
 template <typename T>
@@ -1620,7 +1620,7 @@ return sizeof(a)*8;
 
 #### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
 
-- [X] fstream
+- [x] fstream
 - [ ] cstdlib
 - [ ] filestream
 - [ ] iostream
@@ -1654,7 +1654,7 @@ int main() {
 }
 ```
 
-- [X] fossil
+- [x] fossil
 - [ ] fossil none
 - [ ] hydrogen
 - [ ] none
@@ -1712,4 +1712,3 @@ int main()
 - [ ] None of the above
 
 [Reference](https://en.cppreference.com/w/cpp/io/cout)
-

@@ -339,7 +339,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Your mailbox is not ser for random synchronization.
 - [ ] The mailbox is offline.
 - [ ] The mailbox is a shared mailbox.
-[Reference](https://support.microsoft.com/en-us/office/focused-inbox-for-outlook-f445ad7f-02f4-4294-a82e-71d8964e3978)
+      [Reference](https://support.microsoft.com/en-us/office/focused-inbox-for-outlook-f445ad7f-02f4-4294-a82e-71d8964e3978)
 
 #### Q46. For efficiency, how should you save a search that you run frequently?
 
@@ -384,7 +384,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] From Contacts
 - [ ] From Address Book
 - [ ] From Room List
-[Reference](https://learn.microsoft.com/en-us/outlook/troubleshoot/calendaring/cannot-add-an-internet-calendar)
+      [Reference](https://learn.microsoft.com/en-us/outlook/troubleshoot/calendaring/cannot-add-an-internet-calendar)
 
 #### Q52. Which criteria can you select to filter email in the Focused folder?
 
@@ -497,7 +497,7 @@ D. Because you cannot create a search folder for a subfolder
 - [x] messages
 - [ ] tasks
 - [ ] meetings
-[Reference](https://support.microsoft.com/en-gb/office/manage-email-messages-by-using-rules-c24f5dea-9465-4df4-ad17-a50704d66c59_
+      [Reference](https://support.microsoft.com/en-gb/office/manage-email-messages-by-using-rules-c24f5dea-9465-4df4-ad17-a50704d66c59_
 
 #### Q68. You want to change the default font used for new messages and in the Notes field in Calendar, Contacts, and Tasks. How do you do this?
 
@@ -505,7 +505,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Click File > Options > General > Stationery and Fonts (Windows) or Outlook > Preferences > Composing (Mac).
 - [x] Click File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac).
 - [ ] Select the desired font in a new message. Outlook will use it for future messages and notes.
-[Reference](https://answers.microsoft.com/en-us/outlook_com/forum/all/change-note-font-size-in-outlook-365/cf130bfa-6c7f-4f1c-b42d-223c82ec6468)
+      [Reference](https://answers.microsoft.com/en-us/outlook_com/forum/all/change-note-font-size-in-outlook-365/cf130bfa-6c7f-4f1c-b42d-223c82ec6468)
 
 #### Q69. What does the Groups section contain in Outlook?
 
@@ -711,4 +711,4 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] It disconnects the computer from the network to avoid network slowdowns.
 - [ ] It allows incoming emails but stops outgoing emails.
 - [x] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
-[Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)
+      [Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)

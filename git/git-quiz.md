@@ -6,8 +6,7 @@
 - [x] git --version
 - [ ] git --option
 - [ ] git --current
-[Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
-
+      [Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
 
 [Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
 

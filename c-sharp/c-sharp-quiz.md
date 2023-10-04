@@ -860,7 +860,7 @@ public string? nickname
 
 - [ ] `an object of pass by reference type`
 - [ ] `a value type that cannot hold constants`
-- [x] `set of named integral constants` 
+- [x] `set of named integral constants`
 - [ ] `an object of pass by value type`
 
 #### Q82. What is the readonly keyword used for in field declarations?
@@ -869,5 +869,3 @@ public string? nickname
 - [x] `to declare a field whose value can be assigned only before the constructor exits`
 - [ ] `to declare a static variable that must be set at compile time`
 - [ ] `to declare a static variable that must be set at runtime`
-
-

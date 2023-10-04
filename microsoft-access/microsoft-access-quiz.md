@@ -454,14 +454,14 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 [Precision, Scale](https://learn.microsoft.com/en-us/sql/t-sql/data-types/precision-scale-and-length-transact-sql)
 
-#### Q45. A  databse has a form with the AllowEdits property  set to No. You open the form using an OpenForm macro step with the Data Mode property set to Edit. Given this, which statement is true?
+#### Q45. A databse has a form with the AllowEdits property set to No. You open the form using an OpenForm macro step with the Data Mode property set to Edit. Given this, which statement is true?
 
 - [ ] You cannot edit existing records but can add new records.
 - [ ] You cannot edit or add records.
 - [ ] You can edit existing records but cannot add new records.
 - [ ] You can edit existing records and new records.
 
-#### Q46. What rule type must you choose to conditionally format a value in a report based  on another value in the same record?
+#### Q46. What rule type must you choose to conditionally format a value in a report based on another value in the same record?
 
 - [ ] Field Value Is...
 - [ ] Evaluation Is...

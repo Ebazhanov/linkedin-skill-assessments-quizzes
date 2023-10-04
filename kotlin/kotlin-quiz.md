@@ -1346,4 +1346,3 @@ class Empty
 - [ ] Null safety is a way to allow all variables to be null by default.
 - [ ] Null safety is a feature that enforces strict type checking.
 - [ ] Null safety is a feature that allows any value to be treated as null.
-

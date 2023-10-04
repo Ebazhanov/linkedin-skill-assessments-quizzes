@@ -11,7 +11,9 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1460-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
