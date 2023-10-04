@@ -866,6 +866,8 @@ E. Liquify
 - [ ] Quick Selection tool
 - [ ] Something wrong with this question? Give feedback
 
+[Reference](https://helpx.adobe.com/in/photoshop/using/select-mask.html)
+
 #### Q113.How can you switch the main window back to a traditional layout to view one image at a time?
 
 ![How can you switch the main window back to a traditional layout to view one image at a time?](images/Q113.png)
@@ -874,3 +876,5 @@ E. Liquify
 - [ ] Click Window > Arrange > Tile All Horizontally.
 - [ ] Click Window > Arrange > Match zoom.
 - [ ] Click window > Arrange > Tile.
+
+[Reference](https://helpx.adobe.com/in/photoshop/using/viewing-multiple-images.html)
