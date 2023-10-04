@@ -201,7 +201,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] the libuv library
 - [ ] the c-ares library
-- [x] the VM (like VS or Chakra)
+- [x] the VM (like V8 or Chakra)
 - [ ] the repl module
 
 #### Q24. Looking at the code below, what does the console show?
@@ -298,7 +298,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] once
 - [ ] off
 
-#### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
+#### Q34. Which special object is an instance of EventEmitter?
 
 - [x] process
 - [ ] Buffer

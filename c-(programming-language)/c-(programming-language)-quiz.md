@@ -557,7 +557,7 @@ main(){
 
 #### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
 
-- [x] :
+- [ ] :
 
 ```c
 struct a {
@@ -565,7 +565,7 @@ struct a {
 };
 ```
 
-- [ ] :
+- [x] :
 
 ```c
 struct a {
@@ -1017,7 +1017,8 @@ int main()
 - [x] dynamic memory
 - [ ] fragmented memory
 
-[Reference](https://devdocs.io/c/memory/calloc , https://devdocs.io/c/memory/malloc )
+[Calloc](https://devdocs.io/c/memory/calloc)
+[Malloc](https://devdocs.io/c/memory/malloc)
 
 #### Q65. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
 
