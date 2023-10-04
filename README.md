@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1451-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1452-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2017,6 +2017,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayush-yadavv"><img src="https://avatars.githubusercontent.com/u/115359450?v=4?s=100" width="100px;" alt="Ayush Yadav"/><br /><sub><b>Ayush Yadav</b></sub></a><br /><a href="#design-ayush-yadavv" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayush-yadavv" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/s403o"><img src="https://avatars.githubusercontent.com/u/38042656?v=4?s=100" width="100px;" alt="Eslam Adel"/><br /><sub><b>Eslam Adel</b></sub></a><br /><a href="#design-s403o" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=s403o" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ro4i7"><img src="https://avatars.githubusercontent.com/u/88114930?v=4?s=100" width="100px;" alt="Rohit Raj"/><br /><sub><b>Rohit Raj</b></sub></a><br /><a href="#design-ro4i7" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ro4i7" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
