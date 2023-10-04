@@ -804,5 +804,4 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [ ] A. B, D
 - [ ] A, C, D
 
-
 [reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)

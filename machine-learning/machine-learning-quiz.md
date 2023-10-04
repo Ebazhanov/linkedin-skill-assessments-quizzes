@@ -207,10 +207,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q28. Self-organizing maps are specialized neural network for which type of machine learning?
 
-- [x] semi-supervised learning
+- [ ] semi-supervised learning
 - [ ] supervised learning
 - [ ] reinforcement learning
-- [ ] unsupervised learning
+- [x] unsupervised learning
 
 #### Q29. Which statement about K-means clustering is true?
 
@@ -903,3 +903,12 @@ Which of these statements do you agree with?
 - [ ] Using an unsupervised machine learning algorithm to cluster together all the photographs
 - [x] Use supervised machine learning to classify photographs based on a predetermined training set.
 - [ ] Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.
+
+#### Q117. What is the definition of reinforcement learning?
+
+- [x] The machine iterates through different models to continuously improve the outcome.
+- [ ] The developer reinforces what they already know.
+- [ ] The machine reinforces supervised learning.
+- [ ] It is about reinforcing unknown data.
+
+**Explanation:** Reinforcement learning is fundamentally an iterative process. [Source](https://developer.ibm.com/learningpaths/get-started-automated-ai-for-decision-making-api/what-is-automated-ai-for-decision-making/)

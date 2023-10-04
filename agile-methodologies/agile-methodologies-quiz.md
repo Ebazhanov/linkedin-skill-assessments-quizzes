@@ -1052,8 +1052,8 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 - [ ] Essential SAFe
 
 #### Q139. What is Lean Canvas?
+
 - [ ] It is a tool to plan future product releases
 - [x] It is used to decompose the solution into epics, features and stories
 - [ ] It is a technique for projecting growth in market share
 - [ ] It is a template for lightweight business plans that makes your assumptions explicit
-
