@@ -6,6 +6,8 @@
 - [x] git --version
 - [ ] git --option
 - [ ] git --current
+[Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
+
 
 #### Q2. What command lets you create a connection between a local and remote repository?
 
@@ -40,6 +42,8 @@ git merge --squash HEAD@{1}
 - [ ] Delete the push-notifications branch and it will be committed to the master branch automatically
 - [x] Checkout the beta branch and run git merge push-notifications
 
+[Reference](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
 #### Q5. Which of the following is true you when you use the following command?
 
 `git add -A`
@@ -49,6 +53,9 @@ git merge --squash HEAD@{1}
 - [ ] All new files are staged
 - [ ] Only updated files are staged
 
+[Reference](https://www.geeksforgeeks.org/difference-between-git-add-a-and-git-add/)
+
+
 #### Q6. What will the following command print to the Terminal?
 
 `git remote -v`
@@ -57,6 +64,8 @@ git merge --squash HEAD@{1}
 - [ ] The current git version you're running
 - [ ] An inline editor for modifying remote repositories
 - [ ] The last 5 git versions you've installed
+
+[Reference](https://www.javatpoint.com/git-remote)
 
 #### Q7. Looking at the following commands, describe what is happening.
 
@@ -71,6 +80,12 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
 
+Explanation:
+
+'git checkout feature-user-location' switches to the 'feature-user-location' branch.
+'git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231' applies the changes from the specified commit ('kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231') to the current branch (feature-user-location). This effectively copies the commit from its original branch to the feature-user-location branch.
+So, this sequence of commands is cherry-picking a specific commit onto the feature-user-location branch.
+
 #### Q8. What does the following command do to the git repository?
 
 `git reset --soft HEAD^`
@@ -80,12 +95,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
 - [x] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
 
+[Reference](https://stackoverflow.com/questions/24568936/what-is-difference-between-git-reset-hard-head1-and-git-reset-soft-head)
+
 #### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 
 - [ ] Manually backtrack through your commit history.
 - [ ] Use git search -diff to compare all commits in your repository history.
 - [ ] Run a git rebase to find the buggy commit.
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
+
+[Reference](https://stackoverflow.com/questions/69552866/how-to-diagnose-a-problem-in-git-commit-history)
 
 #### Q10. Why would the following command be used?
 
@@ -96,12 +115,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] To delete the last 10 commits and reset the HEAD
 - [ ] In order to locally cache the last 10 commits
 
+[Reference](https://stackoverflow.com/questions/363908/how-do-i-use-git-rebase-i-to-rebase-all-changes-in-a-branch)
+
 #### Q11. Why would you use a pre-receive hook in your remote repository?
 
 - [ ] You wouldn't, you would use it in the local repository
 - [x] To execute a script when a remote receives a push that is triggered before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
+
+[Reference](https://docs.github.com/en/enterprise-server@3.10/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks)
 
 #### Q12. What option can you use to apply git configurations across your entire git environment?
 
@@ -110,12 +133,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [x] `--global`
 - [ ] `--update`
 
+[Reference](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+
 #### Q13. How could you squash multiple commits together without using git merge --squash?
 
 - [ ] Caching
 - [ ] You can't. git merge --squash is the only git command for that operation.
 - [x] Rebasing
 - [ ] Reflogging
+
+[Reference](https://stackoverflow.com/questions/31409736/squash-commits-directly-on-feature-without-rebase-or-merge)
 
 #### Q14. If you cloned an existing git repository, what would happen?
 
@@ -124,12 +151,16 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
+[Reference](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
 #### Q15. How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the `diff-tree` command with the commit hash.
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
+
+[Reference](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
 
 #### Q16. What files is this .gitignore programmed to leave out?
 
