@@ -296,9 +296,9 @@
 
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
-- [ X] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
+- [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.
-- [x] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
+- [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
 #### Q44. What service deploys Lambdas regionally?
