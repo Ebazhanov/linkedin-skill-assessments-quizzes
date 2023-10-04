@@ -103,3 +103,10 @@
 - [x] Reverse Print Order
 - [ ] Last Sheet to Bottom
 - [ ] Set Sheets to Plot in Reverse
+
+#### Q15. Topography is made up of contour lines of differing levels. The Label Contours command allows you to add a contour label to show the contour heights visually in views. How do you place a contour label?
+
+- [x] Pick two points passing through one or more contour lines.
+- [ ] Use the Tag by Category tool.
+- [ ] Select the contour line and right-click.
+- [ ] Drag a window selection over the contour line and edit on the Properties palette.
