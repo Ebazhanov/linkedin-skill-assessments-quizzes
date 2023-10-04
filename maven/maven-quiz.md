@@ -587,3 +587,12 @@ mvn install
 - [ ] The plugin may not have been defined in the child POM.
 
 [maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)
+
+#### Q73. This image shows a POM file with a profile. When will this profile be activated?
+
+![img](q73.png)
+
+- [ ] always
+- [x] when the system property debug is not set to true, or is not defined
+- [ ] when the system property debug is set to !true
+- [ ] never

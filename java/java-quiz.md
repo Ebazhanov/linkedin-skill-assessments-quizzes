@@ -1954,6 +1954,13 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 
 #### Q132. Which keyword would you add to make this method the entry point of the program?
 
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Your program logic here
+    }
+}
+```
 - [ ] exception
 - [ ] args
 - [x] static
@@ -2362,3 +2369,40 @@ public class Test
 
 [Reference](<https://www.indiabix.com/java-programming/garbage-collections/>) // question no 5.
 
+#### Q165. Which interface definition allows this code to compile
+```java
+int length = 5;
+Square square = x -> x*x;
+int a = square.calculate(length);
+```
+
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    void calculate(int x);
+}
+```
+- [x] 
+```java
+@FunctionalInterface
+public interface Square {
+    int calculate(int x);
+}
+```
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    int calculate(int... x);
+}
+```
+- [ ] 
+```java
+@FunctionalInterface
+public interface Square {
+    void calculate(int x, int y);
+}
+```
+
+[Reference](https://www.baeldung.com/java-8-functional-interfaces)
