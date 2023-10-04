@@ -9,6 +9,7 @@
 [![Analytics](https://img.shields.io/badge/analytics-ossinsight-red)](https://ossinsight.io/analyze/Ebazhanov/linkedin-skill-assessments-quizzes)
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
+[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
@@ -45,7 +46,7 @@ Want to contribute? [Here](https://github.com/linkedin-faq) is the source code.
 
 ## ❓ Need help?
 
-[![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
+[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blue&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 - [Open new issue](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/new/choose)
 
