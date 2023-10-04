@@ -1703,3 +1703,13 @@ int main()
 - [ ] A first class derives directly, at the same time, from a second and third class.
 - [x] In the same program, at different points, a given class derives individually from more than two different classes.
 - [ ] A first classderives from a second class, and that second class is already derived from a thrid class
+
+#### Q107. Which of the following is the correct syntax to print the message in C++ language?
+
+- [ ] Out <<"Hello world!
+- [ ] Cout << Hello world! ;
+- [x] cout <<"Hello world!";
+- [ ] None of the above
+
+[Reference](https://en.cppreference.com/w/cpp/io/cout)
+

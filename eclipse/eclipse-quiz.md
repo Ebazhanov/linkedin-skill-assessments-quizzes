@@ -30,6 +30,8 @@
 
 #### Q5. In this image, what does the circled button do?
 
+![image Q5](https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/main/eclipse/images/Eclipse-Q5.jpg)
+
 - [ ] It expands the comparison between the two files to include whitespace.
 - [ ] It allows you to delete the line of code to which it is connected.
 - [x] It allows changes from one version of a file to be applied to another version of the file.
@@ -64,6 +66,8 @@
 - [ ] the test class name
 
 #### Q10. In this image, what does the circled icon in the Problems view do?
+
+![image Q10](https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/main/eclipse/images/Eclipse-Q10.jpg)
 
 - [ ] It sends the currently selected problem to another view.
 - [ ] It indents the currently selected problem.
@@ -193,7 +197,7 @@
 
 #### Q28. In the image below, what does the circled button do?
 
-![image Q28](https://github.com/Beziu/linkedin-skill-assessments-quizzes/blob/master/eclipse/images/Eclipse-Q28.jpg)
+![image Q28](https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/main/eclipse/images/Eclipse-Q28.jpg)
 
 - [ ] It links the Editor and Navigator, causing the Editor to switch to the file selected in the Package Explorer and vice versa.
 - [ ] It expands Libraries when you are in the Java perspective.
@@ -233,19 +237,19 @@
 - [ ] view the Design and Source tabs of one XML file at the same time
 - [ ] drag code from one Editor pane into another
 - [ ] split the editor either horizontally or vertically
-- [ ] all of these answers
+- [x] all of these answers
 
 #### Q34. Why might you run the Project > Clean command?
 
 - [ ] to remedy an issue where the source code seemsaccurate, but Git is indicating a merge conflict
 - [ ] to remedy syntax errors within the source code, causing the project not to build
 - [ ] to discard any existing build state before building the project, which can remedy issues where the source code seems accurate yet fails to build
-- [ ] to recompile only the source code files that have changed since the last build, which can shorten the build time for long-running builds
+- [x] to recompile only the source code files that have changed since the last build, which can shorten the build time for long-running builds
 
 #### Q35. How can you terminate debugging in the Debug view?
 
 - [ ] Right-click an item in the stack trace and select Terminate/Disconnect All.
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] Right-click your application and select Terminate.
 - [ ] Right-click a thread and select Terminate and Remove.
 
@@ -307,7 +311,7 @@
 
 #### Q44. In this image, what does the circled button do?
 
-![image Q44](https://github.com/Beziu/linkedin-skill-assessments-quizzes/blob/master/eclipse/images/Eclipse-Q44.jpg)
+![image Q44](https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/main/eclipse/images/Eclipse-Q44.png)
 
 - [ ] It toggles collapsing and expanding all methods in a file.
 - [x] It toggles block selection mode in the editor.
