@@ -207,10 +207,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q28. Self-organizing maps are specialized neural network for which type of machine learning?
 
-- [x] semi-supervised learning
+- [ ] semi-supervised learning
 - [ ] supervised learning
 - [ ] reinforcement learning
-- [ ] unsupervised learning
+- [x] unsupervised learning
 
 #### Q29. Which statement about K-means clustering is true?
 
