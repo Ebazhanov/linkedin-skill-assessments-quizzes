@@ -20,7 +20,7 @@
 - [ ] A
 
 ```json
-["red", "blue", "green"]
+["red", "green", "blue"]
 ```
 
 - [x] B
@@ -161,7 +161,7 @@
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
     },
-    "animated": false,
+    "animated": true,
     "tags": [116, 943, 234, 38793]
   }
 }
@@ -1070,3 +1070,11 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 ```
 
 Hint: true needs to be a boolean and part-time a string so in double quotes.
+
+#### Q95. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
+- [ ] ""
+- [ ] 0
+- [ ] FALSE
+- [x] null
+
+**Explanation:** The other options won't work as well, as demonstrated by [this StackOverflow post](https://stackoverflow.com/questions/21120999/representing-null-in-json).

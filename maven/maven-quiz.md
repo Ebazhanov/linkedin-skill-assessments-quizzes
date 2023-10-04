@@ -575,7 +575,7 @@ mvn install
 - [ ] It disables put requests to headers.
 - [ ] It sets the headers for all GET requests.
 - [ ] all of these answers
-- [ ] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
+- [x] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
 
 #### Q72. Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?
 
@@ -587,3 +587,12 @@ mvn install
 - [ ] The plugin may not have been defined in the child POM.
 
 [maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)
+
+#### Q73. This image shows a POM file with a profile. When will this profile be activated?
+
+![img](q73.png)
+
+- [ ] always
+- [x] when the system property debug is not set to true, or is not defined
+- [ ] when the system property debug is set to !true
+- [ ] never
