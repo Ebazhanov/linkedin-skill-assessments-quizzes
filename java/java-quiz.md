@@ -2329,7 +2329,47 @@ public class Course {
 
 [Reference](<http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf>) //check page number 47 and example number 4.:-}
 
-#### Q163. Which interface definition allows this code to compile
+#### Q163. What allows the programmer to destroy an object x?
+
+
+- [ ] 1. x.delete()
+- [ ] 2. x.finalize()
+- [ ] 3. Runtime.getRuntime().gc()
+- [x] 4. Only the garbage collection system can destroy an object.
+
+[Reference](<https://www.studytonight.com/java/garbage-collection.php>) //No, the Garbage Collection can not be forced explicitly. We may request JVM for garbage collection by calling System.gc() method. But This does not guarantee that JVM will perform the garbage collection
+
+
+#### Q164. How many objects are eligible for garbage collection till flag
+
+```java
+public class Test 
+{
+    public static void main(String [] args) 
+    {
+        Test obj1 = new Test();
+        Test obj2 = m1(obj1); 
+        Test obj4 = new Test();
+        obj2 = obj4;               //Flag
+        doComplexStuff();
+    }
+    static Test m1(Test mx) 
+    {
+        mx = new Test();
+        return mx;
+    }
+}
+
+```
+
+- [ ] 1. 0
+- [x] 2. 1
+- [ ] 3. 2
+- [ ] 4. 4
+
+[Reference](<https://www.indiabix.com/java-programming/garbage-collections/>) // question no 5.
+
+#### Q165. Which interface definition allows this code to compile
 ```java
 int length = 5;
 Square square = x -> x*x;
