@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1458-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1460-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2026,6 +2026,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Adrija-G"><img src="https://avatars.githubusercontent.com/u/108509197?v=4?s=100" width="100px;" alt="Adrija"/><br /><sub><b>Adrija</b></sub></a><br /><a href="#design-Adrija-G" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Adrija-G" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ManchurianMan"><img src="https://avatars.githubusercontent.com/u/84538245?v=4?s=100" width="100px;" alt="Benjamin Thompson"/><br /><sub><b>Benjamin Thompson</b></sub></a><br /><a href="#design-ManchurianMan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ManchurianMan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LostZor0"><img src="https://avatars.githubusercontent.com/u/126610447?v=4?s=100" width="100px;" alt="Dipesh Banerjee"/><br /><sub><b>Dipesh Banerjee</b></sub></a><br /><a href="#design-LostZor0" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=LostZor0" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/siddharthkekre"><img src="https://avatars.githubusercontent.com/u/40489787?v=4?s=100" width="100px;" alt="Siddharth Kekre"/><br /><sub><b>Siddharth Kekre</b></sub></a><br /><a href="#design-iSiddharth20" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=iSiddharth20" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
