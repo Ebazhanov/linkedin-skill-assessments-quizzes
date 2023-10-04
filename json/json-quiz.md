@@ -20,7 +20,7 @@
 - [ ] A
 
 ```json
-["red", "blue", "green"]
+["red", "green", "blue"]
 ```
 
 - [x] B
