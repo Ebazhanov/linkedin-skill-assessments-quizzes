@@ -294,7 +294,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q40. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?
 
 - [ ] Export your contacts to Excel, which ash lots of columns; add the data; and then import the contacts back to Outlook
-- [ ] Use the Field Chooser to create two new columns of type Date in the folder
+- [x] Use the Field Chooser to create two new columns of type Date in the folder
 - [ ] Create a custom contacts form that includes two text boxes to collect this data
 - [ ] All of these answers
 
@@ -307,7 +307,7 @@ C. Because the unread messages count for the Inbox folder will not include Proje
 D. Because you cannot create a search folder for a subfolder
 ```
 
-- [ ] A and C
+- [x] A and C
 - [ ] A, C, and D
 - [ ] A and B
 - [ ] B and D
@@ -335,10 +335,11 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q45. Suppose you select a message in Focused Inbox and then chose Move to Other, but the message does not move. What is the most likely cause?
 
-- [ ] Clutter is prioritizing the messages.
+- [x] Clutter is prioritizing the messages.
 - [ ] Your mailbox is not ser for random synchronization.
 - [ ] The mailbox is offline.
 - [ ] The mailbox is a shared mailbox.
+      [Reference](https://support.microsoft.com/en-us/office/focused-inbox-for-outlook-f445ad7f-02f4-4294-a82e-71d8964e3978)
 
 #### Q46. For efficiency, how should you save a search that you run frequently?
 
@@ -379,10 +380,11 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q51. When adding a calendar to view, which is not a valid option?
 
-- [ ] From Internet
+- [x] From Internet
 - [ ] From Contacts
 - [ ] From Address Book
 - [ ] From Room List
+      [Reference](https://learn.microsoft.com/en-us/outlook/troubleshoot/calendaring/cannot-add-an-internet-calendar)
 
 #### Q52. Which criteria can you select to filter email in the Focused folder?
 
@@ -417,7 +419,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] importance level
 - [ ] priority level
 - [ ] category
-- [ ] due date
+- [x] due date
 
 #### Q57. What happens when you drag an email to the Calendar icon?
 
@@ -458,7 +460,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] Create subcategories for the folders based on frequency of use.
 - [ ] Assign the frequently used folders to the same color category.
-- [ ] Save the folders to Favorites.
+- [x] Save the folders to Favorites.
 - [ ] Assign each folder a priority number.
 
 #### Q63. You accidentally delete an email from your inbox. How can you retrieve the deleted email?
@@ -492,20 +494,22 @@ D. Because you cannot create a search folder for a subfolder
 #### Q67. In Outlook, a rule is applied to
 
 - [ ] contacts
-- [ ] messages
+- [x] messages
 - [ ] tasks
 - [ ] meetings
+      [Reference](https://support.microsoft.com/en-gb/office/manage-email-messages-by-using-rules-c24f5dea-9465-4df4-ad17-a50704d66c59_
 
 #### Q68. You want to change the default font used for new messages and in the Notes field in Calendar, Contacts, and Tasks. How do you do this?
 
 - [ ] Change the fonts used for mail in File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac). The fonts used in the Notes field in Calendar, Contacts, and Tasks cannot be changed.
 - [ ] Click File > Options > General > Stationery and Fonts (Windows) or Outlook > Preferences > Composing (Mac).
-- [ ] Click File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac).
+- [x] Click File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac).
 - [ ] Select the desired font in a new message. Outlook will use it for future messages and notes.
+      [Reference](https://answers.microsoft.com/en-us/outlook_com/forum/all/change-note-font-size-in-outlook-365/cf130bfa-6c7f-4f1c-b42d-223c82ec6468)
 
 #### Q69. What does the Groups section contain in Outlook?
 
-- [ ] Microsoft 365 Groups you are a member of
+- [x] Microsoft 365 Groups you are a member of
 - [ ] Microsoft 365 Groups across your company
 - [ ] Contact Groups across your company
 - [ ] Contact Groups you have created
@@ -528,7 +532,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] Change the From field to your colleague's email address.
 - [ ] Forward the email to the colleague before anyone responds.
-- [ ] Click Delivery Options > Have Replies sent to.
+- [x] Click Delivery Options > Have Replies sent to.
 - [ ] Include the colleague's email address in the To field.
 
 #### Q73. The commands on which bar are available in all Outlook applications?
@@ -706,4 +710,5 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] It stops incoming emails but allows outgoing emails.
 - [ ] It disconnects the computer from the network to avoid network slowdowns.
 - [ ] It allows incoming emails but stops outgoing emails.
-- [ ] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
+- [x] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
+      [Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)
