@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1449-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1450-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2013,6 +2013,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sarthak-dms"><img src="https://avatars.githubusercontent.com/u/103513895?v=4?s=100" width="100px;" alt="sarthak-dms"/><br /><sub><b>sarthak-dms</b></sub></a><br /><a href="#design-sarthak-dms" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sarthak-dms" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://muhrifqii.com"><img src="https://avatars.githubusercontent.com/u/6963502?v=4?s=100" width="100px;" alt="Muhammad Rifqi Fatchurrahman"/><br /><sub><b>Muhammad Rifqi Fatchurrahman</b></sub></a><br /><a href="#design-muhrifqii" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=muhrifqii" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Cretus-iosDev"><img src="https://avatars.githubusercontent.com/u/84556881?v=4?s=100" width="100px;" alt="Rutik Maraskolhe"/><br /><sub><b>Rutik Maraskolhe</b></sub></a><br /><a href="#design-Cretus-iosDev" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Cretus-iosDev" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayush-yadavv"><img src="https://avatars.githubusercontent.com/u/115359450?v=4?s=100" width="100px;" alt="Ayush Yadav"/><br /><sub><b>Ayush Yadav</b></sub></a><br /><a href="#design-ayush-yadavv" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayush-yadavv" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
