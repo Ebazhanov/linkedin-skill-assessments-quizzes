@@ -829,4 +829,4 @@
 - [ ] an exact match domain name
 - [ ] a partial match domain name
 - [ ] a broad match domain name
-- [ ] a domain name that fits their branding
+- [x] a domain name that fits their branding
