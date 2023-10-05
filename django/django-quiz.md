@@ -712,3 +712,17 @@ Reference link:- https://wsgi.tutorial.codepoint.net/intro
 - [ ] \[projectname\]/\[projectname\]/settings.py
 - [ ] \[PYTHON_ROOT\]/settings.py
 - [ ] \[DJANGO_ROOT]/settings.py
+
+#### Q79. What method can you use to check if form data has been changed when using a Form instance?
+
+- [x] changed_data()
+- [ ] has changed()
+- [ ] has_updated()
+- [ ] is_modified()
+
+#### Q80. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production?
+
+- [ ] It's the most efficient way to build a project
+- [ ] There's less chance of introducing bugs since SQLite already works out of the box
+- [ ] It's a bad idea and could lead to issues down the road
+- [x] It's fine, you just need to keep both instances synchronized
