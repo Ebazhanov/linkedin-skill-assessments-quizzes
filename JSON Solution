@@ -1,0 +1,11 @@
+In JSON (JavaScript Object Notation), you can use a minus (-) sign to represent negative numbers,
+but you typically do not use a plus (+) sign for positive numbers. JSON represents positive numbers without any sign.
+
+For example, in JSON:
+
+- Positive number: `42`
+- Negative number: `-42`
+
+So, the answer to your question is "yes" for using a minus sign to represent negative numbers in JSON,
+but it's not common to use a plus sign for positive numbers in JSON because positive numbers are represented
+without any sign.
