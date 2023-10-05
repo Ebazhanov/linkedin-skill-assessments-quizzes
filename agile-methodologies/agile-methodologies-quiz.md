@@ -1030,10 +1030,10 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 
 #### Q136. Where are teams most likely to find the first signs of potential problems?
 
-- [ ] Daily Scrums
+- [x] Daily Scrums
 - [ ] Sprint Demos
 - [ ] Retrospectives
-- [x] Sprint Planning
+- [ ] Sprint Planning
 
 #### Q137. When working with a Scrum team, who is chiefly responsible for ensuring that the project delivers value?
 
