@@ -596,3 +596,6 @@ mvn install
 - [x] when the system property debug is not set to true, or is not defined
 - [ ] when the system property debug is set to !true
 - [ ] never
+
+#### Q74. What command can you use to run the goal of the compiler plugin?
+- [ ] mvn compiler:compile
