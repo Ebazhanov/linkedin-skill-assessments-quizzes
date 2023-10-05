@@ -598,4 +598,5 @@ mvn install
 - [ ] never
 
 #### Q74. What command can you use to run the goal of the compiler plugin?
+
 - [ ] mvn compiler:compile

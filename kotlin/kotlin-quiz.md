@@ -1348,6 +1348,7 @@ class Empty
 - [ ] Null safety is a feature that allows any value to be treated as null.
 
 #### Q113. Why does this code snippet not compile?
+
 ```kotlin
 interface Vehicle
 

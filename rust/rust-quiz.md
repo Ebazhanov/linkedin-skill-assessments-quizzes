@@ -616,6 +616,7 @@ let pt = Point2D(-1.0, 2.0)
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
 #### Q54 .Rust is known to be memory safe. Which feature is the main reason for the memory safety of Rust?
+
 - [x] ownership
 - [ ] borrowing
 - [ ] lifetimes
@@ -624,6 +625,7 @@ let pt = Point2D(-1.0, 2.0)
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
 #### Q55 . To support Dynamic Sized variables, what should we use in place of "f32"?
+
 - [ ] Not supportedin Rust
 - [ ] use array
 - [x] ?sized
@@ -632,6 +634,7 @@ let pt = Point2D(-1.0, 2.0)
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
 #### Q56 . What is "Drop" in Rust used for?
+
 - [ ] run code as multi-threaded
 - [x] run code when variable is out of scope
 - [ ] run code and drop it if error comes
@@ -640,6 +643,7 @@ let pt = Point2D(-1.0, 2.0)
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
 #### Q57 . In Rust, how is a macro from the above Rust code snippet used?
+
 - [ ] foo(x)
 - [ ] #foo
 - [x] foo!()
@@ -647,7 +651,8 @@ let pt = Point2D(-1.0, 2.0)
 
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
-#### Q58 .  Which library does Rust use for memory allocation?
+#### Q58 . Which library does Rust use for memory allocation?
+
 - [ ] tcmalloc
 - [ ] mimalloc
 - [ ] ptmalloc
@@ -655,7 +660,8 @@ let pt = Point2D(-1.0, 2.0)
 
 [Reference](https://iq.opengenus.org/questions-on-rust/)
 
-#### Q59 .  Who designed Rust from scratch in 2006?
+#### Q59 . Who designed Rust from scratch in 2006?
+
 - [x] Graydon Hoare
 - [ ] Yukihiro Matsumoto
 - [ ] Guido Van Rossum

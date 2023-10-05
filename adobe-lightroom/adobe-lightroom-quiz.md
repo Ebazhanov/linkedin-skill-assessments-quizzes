@@ -165,8 +165,8 @@ Note: I just use synchronization. After digging into settings I was able only to
 #### Q21. If you want to use third-party filters and make them nondestructive, what is the best workflow?
 
 - [ ] Click Photo > Edit In and select the desired plugin.
-- [ ] Click File > Plug-in Extras. 
-- [ ] Click Photo > Edit In > Open in Photoshop as Smart Object. 
+- [ ] Click File > Plug-in Extras.
+- [ ] Click Photo > Edit In > Open in Photoshop as Smart Object.
 - [x] Click Photo > Edit In > Edit in Photoshop
 
 #### Q22. What is NOT an advantage of grouping images into a regular collection?

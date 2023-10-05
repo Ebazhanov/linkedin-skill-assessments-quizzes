@@ -685,8 +685,8 @@ null
 
 ```json
 {
-  series: "Star Trek",
-  episodes: "The Trouble with Tribbles"
+  "series": "Star Trek",
+  "episodes": "The Trouble with Tribbles"
 }
 ```
 
@@ -1081,6 +1081,7 @@ Hint: true needs to be a boolean and part-time a string so in double quotes.
 **Explanation:** The other options won't work as well, as demonstrated by [this StackOverflow post](https://stackoverflow.com/questions/21120999/representing-null-in-json).
 
 #### Q96. What is true about paginated reports? (Select all that apply.)
+
 A. They are formatted to fit well on a page.
 
 B. They shrink the report data to fit on a page.
@@ -1089,8 +1090,8 @@ C. They truncate the report data to fit on a single page.
 
 D. They are both printable and shareable.
 
-- [X] A,D
-- [ ] B OR C 
+- [x] A,D
+- [ ] B OR C
 - [ ] A,B,D
 - [ ] A,C,D
 
@@ -1098,4 +1099,3 @@ D. They are both printable and shareable.
 A. They are formatted to fit well on a page.
 D. They are both printable and shareable.
 So the correct options are A and D.
-

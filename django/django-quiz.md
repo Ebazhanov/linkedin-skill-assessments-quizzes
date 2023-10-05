@@ -716,13 +716,13 @@ Reference link:- https://wsgi.tutorial.codepoint.net/intro
 #### Q79. What would you write to define the relationship between a book and an author--assuming a book has only one author-in a Django model?
 
 - [x] A
-      
+
 ```python
 class Author (models.Model):
   name = models. CharField (max_length=100)
 class Book(models .Model):
   author = models. ForeignKey (Author, on_delete=models. CASCADE)
-  ```
+```
 
 - [ ] B
 
@@ -734,7 +734,7 @@ class Book(models .Model):
 ```
 
 - [ ] C
-      
+
 ```python
 class Author (models .Model):
   name = models.CharField (max_length=100)
@@ -743,7 +743,7 @@ class Book (models .Author) :
 ```
 
 - [ ] D
-      
+
 ```python
 class Author (models. Model):
   book = models. ForeignKey (Book, on_delete=models.CASCADE)
