@@ -237,8 +237,8 @@
     5.Requests information from a specific source.
     6.Removes information.
 
-- [x] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
+- [] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
+- [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
