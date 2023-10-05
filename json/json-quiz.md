@@ -685,8 +685,8 @@ null
 
 ```json
 {
-  "series": "Star Trek",
-  "episodes": "The Trouble with Tribbles"
+  series: "Star Trek",
+  episodes: "The Trouble with Tribbles"
 }
 ```
 
