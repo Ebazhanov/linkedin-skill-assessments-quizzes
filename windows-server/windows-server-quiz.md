@@ -392,7 +392,7 @@
 - [ ] DFS
 - [ ] RDS
 - [ ] IIS
-- [ ] AD DS
+- [x] AD DS
 
 #### Q54. You want to ensure there are redundant DHCP services available for your network. What should you set up on your server to make this possible?
 
@@ -603,7 +603,7 @@
 
 #### Q81. In the storage Qos deployment scenario based on Hyper-V using a Scale-Out File Server, **\_**.
 
-- [ ] You need a compute cluster with the Hyper-V role enabled
+- [x] You need a compute cluster with the Hyper-V role enabled
 - [ ] You need a computer cluster that has at least one server with the Hyper-V role enabled
 - [ ] You need Hyper-V configured using Cluster Shared Volumes for storage
 - [ ] You don't actually need a Scale-Out File Server cluster functioning as a storage cluste
