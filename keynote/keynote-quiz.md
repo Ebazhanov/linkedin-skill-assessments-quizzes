@@ -16,6 +16,8 @@
 - [ ] Action
 - [x] Build Out
 
+[Reference](https://support.apple.com/en-in/guide/keynote/tan72234bb6/mac)
+
 #### Q3. For the shown below, how can you make the landscape photo fit cleanly within the circle shape?
 
 ![Landscape photo with circle shape](images/Q3.png?raw=png)
@@ -27,10 +29,12 @@
 
 #### Q4. You want a clock and countdown timer to display, only to you, while you're giving your Keynote presentation. How do you configure this?
 
-- [ ] Click **Play > Customize Presenter Display**.
+- [x] Click **Play > Customize Presenter Display**.
 - [ ] Click **Keynote > Preferences**, then select the **Remote** tab.
-- [x] Click **Keynote > Preferences**, then select the **Slideshow** tab.
+- [ ] Click **Keynote > Preferences**, then select the **Slideshow** tab.
 - [ ] Click **Play > Rehearse Slideshow**.
+
+[Reference](https://discussions.apple.com/thread/3767979#:~:text=Keynote%20%3E%20Preferences%20%3E%20click%20Presenter%20Display,choose%20the%20option%20you%20want.)
 
 #### Q5. When presenting a slideshow, how can you proceed to the next slide? (Choose 3 items.)
 
@@ -45,6 +49,8 @@ E. Press the Down Arrow key.
 - [ ] B, C, D
 - [ ] C, D, E
 
+[Reference](https://support.apple.com/lt-lt/guide/keynote-ipad/tanca56e7da3/ipados)
+
 #### Q6. When you're presenting a Keynote slideshow, how can you display a script or similar information that only you can see?
 
 - [ ] Use the **Outline** view.
@@ -52,12 +58,16 @@ E. Press the Down Arrow key.
 - [ ] Use the **Comments** view.
 - [x] Use the **Presenter Notes** view.
 
+[Reference](https://support.apple.com/en-in/guide/keynote/tand1a4ee7c/mac)
+
 #### Q7. What type of chart can you manipulate during a presentation to change the information that is displayed?
 
 - [ ] 2D
 - [ ] 3D
 - [x] Interactive
 - [ ] Live Data
+
+[Reference](https://support.apple.com/en-in/guide/keynote/tan9e7c35220/mac)
 
 #### Q8. You build a Keynote presentation but decide that you want to give it a new look. What's the easiest way to do this?
 
@@ -76,9 +86,11 @@ E. Press the Down Arrow key.
 #### Q10. How can you print presenter notes?
 
 - [ ] In the **Print** dialog box, select **Grid**.
-- [x] In the **Print** dialog box, select **Outline**.
+- [ ] In the **Print** dialog box, select **Outline**.
 - [ ] In the **Print** dialog box, select **Page Attributes**.
-- [ ] In the **Print** dialog box, select **Handout**.
+- [x] In the **Print** dialog box, select **Handout**.
+
+[Reference](https://discussions.apple.com/thread/3932675)
 
 #### Q11. What technique was used to transform the circle shown below into the new shape on the right?
 
@@ -96,12 +108,16 @@ E. Press the Down Arrow key.
 - [ ] Move In
 - [ ] Fade and Move
 
+[Reference]https://support.apple.com/en-in/guide/keynote/tanff5ae749e/mac#:~:text=A%20Magic%20Move%20is%20a,when%20you%20play%20your%20presentation.)
+
 #### Q13. How can you invite multiple users to make edits to the same documents?
 
 - [x] Click **Share > Collaborate with Others**.
 - [ ] Click **Share > Send a Copy > Mail**.
 - [ ] Click **Share > Use Keynote Live**.
 - [ ] Click **Share > Send a Copy > AirDrop**.
+
+[Reference](https://support.apple.com/en-in/HT206181)
 
 #### Q14. How can you fix common image problems with a single click?
 
@@ -117,6 +133,8 @@ E. Press the Down Arrow key.
 - [x] Click Insert > Line > Line with Two Arrowheads and customize it in the Style inspector
 - [ ] Click Insert > Shape > Arrow
 
+[Reference](https://support.apple.com/en-in/guide/keynote/tan411206157/mac)
+
 #### Q16. If you always want to use the same theme when creating a new presentation, how can you set this up?
 
 - [x] Click Keynote > Preferences > General > Use theme
@@ -124,12 +142,16 @@ E. Press the Down Arrow key.
 - [ ] Click Document inspector > Change theme, then right-click a theme and select Default Theme
 - [ ] Click Keynote > Preferences > Slideshow > Lock theme
 
+[Reference](https://support.apple.com/en-in/guide/keynote/tanb343cb739/mac#:~:text=You%20can%20set%20Keynote%20to,Theme%20to%20select%20a%20theme.)
+
 #### Q17. When adding a table to a slide, what are the four table categories you can choose from?
 
 - [ ] Basic, Plain, Advanced, and Sums
 - [ ] Headers, Basic, Plain, and Sums
 - [ ] Headers, Basic, Custom, and Math
 - [x] Basic, Plain, Colorful, and Sums
+
+[Reference](https://www.idownloadblog.com/2021/03/29/tables-in-keynote/)
 
 #### Q18. When exporting to an animated GIF, which options can you customize? (Select 3 Items)
 
@@ -144,6 +166,8 @@ E. Slides
 - [x] A, C, E
 - [ ] B, C, E
 
+[Reference](https://support.apple.com/guide/keynote/create-an-animated-gif-tan30ff1f63c/mac)
+
 #### Q19. What is the best way to hide the mouse pointer when giving a presentation?
 
 - [x] Open Keynote Preferences, select the Slideshow tab, and select Show pointer only on slides with links or movies.
@@ -151,12 +175,16 @@ E. Slides
 - [ ] You cannot hide the mouse cursor, it is always visible.
 - [ ] Open Keynote Preferences, select the Slideshow tab, and select Show pointer when using the mouse or trackpad
 
+[Reference](https://support.polleverywhere.com/hc/en-us/articles/1260801551289-Mouse-not-visible-in-slideshow-mode-of-Keynote)
+
 #### Q20. Which movie format produces the smallest file size for a Keynote presentation?
 
 - [ ] FLV
 - [ ] HEVC
 - [x] MP4
 - [ ] MOV
+
+[Reference](https://videoconvert.minitool.com/video-converter/smallest-video-format.html#:~:text=265%20is%20the%20successor%20to,get%20a%20small%20file%20size.)
 
 #### Q21.
 
