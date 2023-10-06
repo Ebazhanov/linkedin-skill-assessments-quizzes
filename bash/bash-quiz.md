@@ -665,7 +665,7 @@ cd -
 
 - [x] It moves you to the directory you were previously in.
 - [ ] It moves you to your home folder (whatever your current working directory happens to be).
-- [ ] It deletes the current directory
+- [ ] It deletes the current directory.
 - [ ] It moves you one directory above your current working directory.
 
 #### Q52. What does this command do?
