@@ -291,6 +291,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] undefined
 - [ ] an object representing an array that has five elements
 
+**Explanation:**: [Reference Article](https://docs.google.com/document/d/1cdFn3qRKwsYjMtedZaMUd-RUGHYzxKxSnS_2043yqyk/edit?usp=sharing)
+
 #### Q33. Which choice is not a valid method on event emitters?
 
 - [x] start
