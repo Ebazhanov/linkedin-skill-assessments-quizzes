@@ -743,8 +743,8 @@ null
 
 #### Q63. What characters are used to enclose an array?
 
-- [ ] `{}`
 - [x] `[]`
+- [ ] `{}`
 - [ ] `""`
 - [ ] `()`
 
