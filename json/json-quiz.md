@@ -801,8 +801,8 @@ null
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [ ] no
 - [x] yes
+- [ ] no
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
