@@ -2124,7 +2124,7 @@ if (true) {
 }
 
 function fScope() {
-  var second = "got this!";
+  var second = 'got this!';
 }
 fScope();
 console.log(first);
@@ -2132,13 +2132,12 @@ console.log(second);
 ```
 
 - [ ] You  
-      undefined
+       undefined
 - [x] You  
-      ReferenceError
+       ReferenceError
 - [ ] undefined  
-      undefined
+       undefined
 - [ ] You  
-      got this!
+       got this!
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
-

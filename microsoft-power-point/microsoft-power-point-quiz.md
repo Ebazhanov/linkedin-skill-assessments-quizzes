@@ -869,18 +869,18 @@ D. Start When Clicked On
 - [ ] Select the gold star and click Bring to Front.
 - [ ] Select the red star and click Bring Forward.
 
-#### Q111. When you provide alt text for an image, what type of control are you including?
-
-- [ ] layout
-- [ ] presentation
-- [x] accesibility
-- [ ] password protection
-
 [Reference](https://support.microsoft.com/en-au/office/layer-objects-on-slides-81cccf31-9219-4c89-b7ba-9f25ad429c4a#:~:text=Move%20an%20object%20to%20the,object%20behind%20all%20other%20objects.)
 
-#### Q112. How would you ensure a uniform appearance and placement across your slides even though the content might be different?
+#### Q111. How would you ensure a uniform appearance and placement across your slides even though the content might be different?
 
 - [ ] Use styles.
 - [ ] Use embedded fonts.
 - [x] Use consistent layouts.
 - [ ] Use numbered lists.
+
+#### Q112. When you provide alt text for an image, what type of control are you including?
+
+- [ ] password protection
+- [ ] layout
+- [x] accessibility
+- [ ] presentation

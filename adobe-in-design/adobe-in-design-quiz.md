@@ -418,7 +418,7 @@
 
 ![Alt text](images/question_55.png)
 
-- [x] The color swatch is a spot color. 
+- [x] The color swatch is a spot color.
 - [ ] The color is too light to print.
 - [ ] The color is set to LAB color mode.
 - [ ] The color is not correctly bound to the text.
