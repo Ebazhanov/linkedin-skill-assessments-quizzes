@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1469-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1470-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2042,6 +2042,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vaibhav-009"><img src="https://avatars.githubusercontent.com/u/100083207?v=4?s=100" width="100px;" alt="Vaibhav"/><br /><sub><b>Vaibhav</b></sub></a><br /><a href="#design-vaibhav-009" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vaibhav-009" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/alienishi"><img src="https://avatars.githubusercontent.com/u/128703909?v=4?s=100" width="100px;" alt="Aditya Aryaman Das"/><br /><sub><b>Aditya Aryaman Das</b></sub></a><br /><a href="#design-alienishi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alienishi" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://hamidg.netlify.app"><img src="https://avatars.githubusercontent.com/u/123867876?v=4?s=100" width="100px;" alt="Hamid Goodarzi"/><br /><sub><b>Hamid Goodarzi</b></sub></a><br /><a href="#design-HamidG420" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=HamidG420" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rohxn16"><img src="https://avatars.githubusercontent.com/u/142105763?v=4?s=100" width="100px;" alt="Rohan Dey"/><br /><sub><b>Rohan Dey</b></sub></a><br /><a href="#design-Rohxn16" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rohxn16" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
