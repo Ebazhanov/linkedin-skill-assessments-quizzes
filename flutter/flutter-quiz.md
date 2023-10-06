@@ -135,7 +135,7 @@ class MyWidgetState extends State<MyWidget> {
 }
 ```
 
--[x]:
+- [x]:
 ```dart
 class MyWidget extends StatefulWidget {
   @override
