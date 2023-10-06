@@ -307,7 +307,7 @@
 
 #### Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?
 
-- [ ] Permissions
+- [x] Permissions
 - [ ] Certificates
 - [ ] Document Open
 - [ ] Compatibility
@@ -316,7 +316,7 @@
 
 - [ ] **Accessibility > Set Alternate Text**
 - [ ] **Tools > Action Wizard**
-- [ ] **Accessibility > Reading Options**
+- [x] **Accessibility > Reading Options**
 - [ ] **Document Properties > Password > Security > Settings**
 
 #### Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?
