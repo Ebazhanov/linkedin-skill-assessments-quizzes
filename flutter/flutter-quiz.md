@@ -107,7 +107,7 @@
 
 ### Q18. In Flutter, which code sample illustrates the correct way to define a StatefulWidget class with its associated State class?
 
-- [ ]:
+- [ ] :
 ```dart
 class MyWidget extends StatelessWidget {
   @override
@@ -117,7 +117,7 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 class MyWidget extends StatefulWidget {
   @override
@@ -125,7 +125,7 @@ class MyWidget extends StatefulWidget {
 }
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 class MyWidgetState extends State<MyWidget> {
   @override
@@ -135,7 +135,7 @@ class MyWidgetState extends State<MyWidget> {
 }
 ```
 
-- [x]:
+- [x] :
 ```dart
 class MyWidget extends StatefulWidget {
   @override
@@ -152,7 +152,7 @@ class _MyWidgetState extends State<MyWidget> {
 
 ### Q19. Which code sample in Flutter demonstrates the correct way to navigate to a new screen using the Navigator when a button is pressed?
 
-- [ ]:
+- [ ] :
 ```dart
 RaisedButton(
   onPressed: () {
@@ -162,7 +162,7 @@ RaisedButton(
 )
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 FlatButton(
   onPressed: () {
@@ -172,7 +172,7 @@ FlatButton(
 )
 ```
 
-- [x]:
+- [x] :
 ```dart
 ElevatedButton(
   onPressed: () {
@@ -182,7 +182,7 @@ ElevatedButton(
 )
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 InkWell(
   onTap: () {
@@ -194,14 +194,14 @@ InkWell(
 
 ### Q20. Which code sample in Flutter demonstrates the correct way to create a list of items using a ListView.builder widget?
 
--  [ ]:
+-  [ ] :
 ```dart
 ListView(
   children: List.generate(10, (index) => ListTile(title: Text('Item $index'))),
 )
 ```
 
-- [x]:
+- [x] :
 ```dart
 ListView.builder(
   itemCount: 10,
@@ -211,14 +211,14 @@ ListView.builder(
 )
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 Column(
   children: List.generate(10, (index) => ListTile(title: Text('Item $index'))),
 )
 ```
 
-- [ ]:
+- [ ] :
 ```dart
 GridView.builder(
   itemCount: 10,
