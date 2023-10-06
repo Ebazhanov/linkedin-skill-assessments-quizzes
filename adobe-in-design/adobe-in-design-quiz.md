@@ -344,7 +344,8 @@
 - [ ] the Character panel
 
 #### 46. When applying a color to text, why is it a problem to use the registration color instead of black?
-- [ ]Registration does not print or export to PDF when applied to text.
+
+- [ ] Registration does not print or export to PDF when applied to text.
 - [ ] You can choose the registration color only for registration and trim marks.
 - [ ] You cannot use Find/Change for text set to the registration swatch.
 - [x] The registration swatch prints on all color plates.
@@ -360,7 +361,7 @@
 
 #### 48. When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no imageappears within the frame. What is most likely the cause of this?
 
-- [ ]   The image has been set to Nonprinting.
+- [ ] The image has been set to Nonprinting.
 - [ ] The image is too small to see.
 - [x] The image has been moved completely outside the bounds of the frame.
 - [ ] The blend mode of the image has been changed to Hard Light.
@@ -380,3 +381,111 @@
 - [x] a word within a paragraph
 
 [Ref.](https://helpx.adobe.com/in/indesign/using/adding-transparency-effects.html#:~:text=Affects%20only%20text%20inside%20the,to%20individual%20words%20or%20letters.)
+
+#### 51. Why might you press the W key when no objects are selected on your page?
+
+- [ ] because too many layers are enabled
+- [x] to see the page without guides or frame edges
+- [ ] to split the document window
+- [ ] to hide the Tools panel
+
+#### 52. Given the document shown, what feature do you need to choose in the Print dialog box to print correctly?
+
+![Alt text](images/question_52.png)
+
+- [x] Text as Black
+- [ ] Print Visible and Printable Layers
+- [ ] Scale to Fit
+- [ ] Use Document Bleed Settings
+
+#### 53. You have designed a 32-page magazine and you want to export it as a PDF to send to a printer.Which option in this Export AdobePDF dialog is probably set incorrectly?
+
+![Alt text](images/question_53.png)
+
+- [ ] Create Acrobat Layers
+- [ ] Pages
+- [ ] Export As??
+- [x] Layout
+
+#### 54. What is the best reason to use the Effects panel?
+
+- [ ] to control interactive behavior such as animation
+- [ ] to warp text into an arc
+- [x] to change the transparency of a selected object's fill or stroke
+- [ ] to apply nested or GREP styles
+
+#### 55. What can you infer about the LightGreen color?
+
+![Alt text](images/question_55.png)
+
+- [x] The color swatch is a spot color. 
+- [ ] The color is too light to print.
+- [ ] The color is set to LAB color mode.
+- [ ] The color is not correctly bound to the text.
+
+#### 56. The frame on the left is being moved. What does the green arrow indicate?
+
+![Alt text](images/question_56.png)
+
+- [ ] The space between the two frames matches the grid spacing preference.
+- [ ] The space between the two frames is below the spacing limit set in Preferences.
+- [ ] The two frames are not yet aligned.
+- [ ] The space between the two frames equals the space between the frame and some other frame.??
+
+#### 57. What does a yellow triangle icon in the Links panel indicate about an image?
+
+- [ ] The image is low-resolution.
+- [x] The image is modified.
+- [ ] The image is missing.
+- [ ] The image is colorized.
+
+#### 58. Which panel is best suited for converting 10 images into a single slideshow on a page?
+
+- [ ] object States
+- [ ] Transform
+- [ ] Effects
+- [x] Media
+
+#### 59. Why might you turn off Allow Document Pages to Shuffle in the Pages panel menu?
+
+- [ ] You want the page thumbnails to appear vertically in the panel.
+- [ ] You have finished the layout and want to prepare for print.
+- [x] You want to ensure pages do not get moved out of order.
+- [ ] You want to create a three-page spread.4
+
+#### 60. Which statement about importing a Microsoft Word document into InDesign is true?
+
+- [ ] Paragraph and character styles are removed and local lnDesign formatting is applied.
+- [ ] lmages, hyperlinks, and special characters are stripped out.
+- [ ] Paragraph and character styles are mapped automatically when styles are named identically.
+- [ ] Footnotes, endnotes, and tables of contents are stripped out.
+
+#### 61. You select a frame and click Object > Arrange > Send to Back. The frame still appears above another object on your page. What is the most likely reason?
+
+- [ ] The two objects are on a master page.
+- [x] The objects are on two different layers.
+- [ ] You did not choose the layer in the Layers panel first.
+- [ ] The objects are on two different pages on the spread.
+
+#### 62. You are creating a set of radio buttons for an interactive form in the Buttons and Forms panel. Which rule is true?
+
+- [ ] The Event field must be the same for each object.
+- [x] The name field must be the same for all the objects.
+- [ ] You must group the objects.
+- [ ] The objects must share the same fill and stroke colors.
+
+#### 63. What is one reason to use a nested line style?
+
+- [ ] to apply a bold font to all the text in the first line of a paragraph
+- [ ] to apply a border around a paragraph that automatically resizes when the text is edited
+- [x] to make only the first line of a paragraph align to the baseline grid
+- [ ] to apply drop caps in the first line of a paragraph
+
+#### 64. what does the circled i icon indicate?
+
+![Alt text](images/question_64.png)
+
+- [ ] The field is blank and needs text.
+- [ ] The field contains nonvisible characters.
+- [ ] A GREP expression has been attached.
+- [ ] InDesign is searching for text formatting.
