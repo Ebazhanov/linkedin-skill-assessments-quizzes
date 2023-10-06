@@ -743,8 +743,8 @@ null
 
 #### Q63. What characters are used to enclose an array?
 
-- [x] `[]`
 - [ ] `{}`
+- [x] `[]`
 - [ ] `""`
 - [ ] `()`
 
@@ -801,8 +801,8 @@ null
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [ ] no
 - [x] yes
+- [ ] no
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
