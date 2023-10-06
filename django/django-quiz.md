@@ -713,14 +713,52 @@ Reference link:- https://wsgi.tutorial.codepoint.net/intro
 - [ ] \[PYTHON_ROOT\]/settings.py
 - [ ] \[DJANGO_ROOT]/settings.py
 
-#### Q79. What method can you use to check if form data has been changed when using a Form instance?
+#### Q79. What would you write to define the relationship between a book and an author--assuming a book has only one author-in a Django model?
+
+- [x] A
+
+```python
+class Author (models.Model):
+  name = models. CharField (max_length=100)
+class Book(models .Model):
+  author = models. ForeignKey (Author, on_delete=models. CASCADE)
+```
+
+- [ ] B
+
+```python
+class Author (models.Model):
+  name = models. CharField(max length=100)
+class Book(models .Model):
+  author = models. ForeignKey (Author)
+```
+
+- [ ] C
+
+```python
+class Author (models .Model):
+  name = models.CharField (max_length=100)
+class Book (models .Author) :
+  author = Author. name
+```
+
+- [ ] D
+
+```python
+class Author (models. Model):
+  book = models. ForeignKey (Book, on_delete=models.CASCADE)
+class Book(models.Model):
+  name = models. CharField (max length=100)
+```
+
+#### Q80. What method can you use to check if form data has been changed when using a Form instance?
 
 - [x] changed_data()
 - [ ] has changed()
 - [ ] has_updated()
 - [ ] is_modified()
 
-#### Q80. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production?
+#### Q81. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production?
 
 - [ ] It's the most efficient way to build a project
 - [ ] There's less chance of introducing bugs since SQLite already works out of the box

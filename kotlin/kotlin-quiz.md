@@ -1346,3 +1346,20 @@ class Empty
 - [ ] Null safety is a way to allow all variables to be null by default.
 - [ ] Null safety is a feature that enforces strict type checking.
 - [ ] Null safety is a feature that allows any value to be treated as null.
+
+#### Q113. Why does this code snippet not compile?
+
+```kotlin
+interface Vehicle
+
+fun main() {
+  val myCar = Vehicle()
+}
+```
+
+- [x] Vehicle is an interface.
+- [ ] Vehicle needs an init block.
+- [ ] The keyword new is missing.
+- [ ] Vehicle lacks a constructor.
+
+[reference](https://kotlinlang.org/docs/interfaces.html)
