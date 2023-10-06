@@ -1100,10 +1100,10 @@ A. They are formatted to fit well on a page.
 D. They are both printable and shareable.
 So the correct options are A and D.
 
-#### Q97. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting
-stories languish or don't get done. What should you do?
+#### Q97. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
+
 - [ ] During story point estimation, increase the points assigned to the least interesting stories so the team can boost their velocity.
-- [X] Share your observation with the team and invite them to own and solve the problem.
+- [x] Share your observation with the team and invite them to own and solve the problem.
 - [ ] Ask the team to use a lottery system to assign each story.
 - [ ] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.
 
