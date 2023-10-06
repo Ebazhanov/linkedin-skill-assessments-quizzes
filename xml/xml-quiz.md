@@ -385,7 +385,7 @@
 - [ ] `/car[price>20000]/make/model`
 - [ ] `/car[price>=20000 and @year>=2009]/make/model`
 - [ ] `//car[price>=20000 and @year>2008]/model`
-- [ ] `/cars/car[price>=20000 and year>2008]/model`
+- [x] `/cars/car[price>=20000 and price[@year>'2008']]/model`
 
 NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Report the question.
 
