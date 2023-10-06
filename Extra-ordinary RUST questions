@@ -1,0 +1,93 @@
+**Question:** What is Rust?
+
+**Answer:** Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker that prevents data races and dangling pointers. Rust is also relatively fast, with performance comparable to C and C++.
+
+**Question:** What are the key features of Rust?
+
+**Answer:** The key features of Rust include:
+
+* Memory safety without a garbage collector
+* Zero-cost abstractions for high-level programming
+* Concurrency support with ownership, borrowing, and lifetimes
+* A strong, static type system
+* Minimal runtime
+
+**Question:** What is the difference between ownership and borrowing in Rust?
+
+**Answer:** Ownership in Rust is a system for ensuring that memory is only used by one piece of code at a time. This helps to prevent memory leaks and data races. Borrowing in Rust allows code to temporarily access data owned by another piece of code without taking ownership of it.
+
+**Question:** What is the borrowing checker?
+
+**Answer:** The borrowing checker is a tool that Rust uses to ensure that memory is used safely. The borrowing checker analyzes code to make sure that no two pieces of code are trying to access the same data at the same time.
+
+**Question:** What are traits?
+
+**Answer:** Traits are a way to define common functionality for different types of data. Traits can be used to implement polymorphism and to write more generic code.
+
+**Question:** What is the difference between a struct and an enum?
+
+**Answer:** A struct is a way to define a composite data type. An enum is a way to define a set of possible values for a variable.
+
+**Question:** What is async/await?
+
+**Answer:** Async/await is a way to write concurrent code in Rust. Async/await allows code to run asynchronously, which means that it can run without blocking the main thread.
+
+**Question:** How do I read and write files in Rust?
+
+**Answer:** To read and write files in Rust, you can use the `std::fs` module. This module provides functions for opening, reading, writing, and closing files.
+
+**Question:** How do I use networking in Rust?
+
+**Answer:** To use networking in Rust, you can use the `std::net` module. This module provides functions for creating and using TCP and UDP sockets.
+
+**Question:** How do I build a web server in Rust?
+
+**Answer:** To build a web server in Rust, you can use the `hyper` library. Hyper is a popular web framework for Rust that provides a high-level API for building web servers.
+
+**Question:** How do I write a command-line application in Rust?
+
+**Answer:** To write a command-line application in Rust, you can use the `clap` library. Clap is a popular command-line parsing library for Rust that provides a high-level API for parsing command-line arguments.
+
+**Question:** How do I write concurrent code in Rust?
+
+**Answer:** To write concurrent code in Rust, you can use the `std::sync` module. This module provides functions for synchronizing code and for sharing data between threads.
+
+**Question:** How do I test Rust code?
+
+**Answer:** To test Rust code, you can use the `cargo test` command. This command will run all of the unit tests in your project.
+
+**Question:** How do I debug Rust code?
+
+**Answer:** To debug Rust code, you can use the `gdb` debugger. GDB is a powerful debugger that can be used to debug code written in a variety of languages, including Rust.
+
+ **Question:**  What are Rust macros, and how do they differ from regular functions?
+
+  **Answer:**  Rust macros are a way to define custom syntax extensions. They differ from regular functions in that they operate on the abstract syntax tree (AST) of the code during compile time, allowing for powerful code generation and metaprogramming.
+
+ **Question:** Discuss the role of the Rust Package Manager (Cargo) in managing dependencies and building projects.
+
+ **Answer:** Cargo is Rust's package manager and build tool. It simplifies dependency management, project setup, and building. It automatically downloads and builds dependencies, compiles code, runs tests, and generates documentation, making it easy to manage Rust projects.
+
+ **Question:** What is the Rust standard library, and what are some common modules and types it provides?
+
+ **Answer:** The Rust standard library is a collection of modules and types that come with Rust by default. It includes modules for common data structures, I/O operations, threading, and more. Some common types and modules include Vec, HashMap, std::io, and std::thread, among others. These provide essential functionality for Rust programs.
+
+ **Question:** Explain the ownership system in Rust. How does it help prevent memory-related bugs like null pointer dereferences and data races?
+
+  **Answer:** Rust's ownership system involves three key principles: ownership, borrowing, and lifetimes. It helps prevent memory-related bugs by ensuring that a value's ownership is well-defined and that only one owner can modify it at a time. Borrowing allows multiple references to the same data, but the borrowing rules ensure that data races are impossible. Lifetimes ensure that references don't outlive the data they point to.
+
+ **Question:** What are lifetimes in Rust, and how do they relate to the borrowing system?
+
+  **Answer:** Lifetimes in Rust are annotations that specify the scope for which references are valid. They help ensure that borrowed references don't outlive the data they point to, preventing dangling references and memory safety issues.
+
+ **Question:** Describe the difference between mutable and immutable references in Rust. When would you use one over the other?
+
+  **Answer:** Immutable references (&T) allow reading data without modifying it, and multiple immutable references can coexist. Mutable references (&mut T) allow modifying data, but only one mutable reference can exist at a time. Use immutable references for read-only access and mutable references when you need to modify data.
+
+ **Question:** How does Rust handle error handling, and what are the differences between Result and Option types?
+
+   **Answer:**  Rust uses the Result and Option enums for error handling. Result is typically used for operations that can return an error, while Option is used for cases where a value might be absent. Both types encourage explicit handling of potential errors, helping to write robust and safe code.
+
+ **Question:** What is a Rust "trait," and how is it used for code reusability and polymorphism?
+
+   **Answer:**  A trait in Rust defines a set of methods that a type must implement. Traits enable code reusability and polymorphism by allowing different types to implement the same behavior. You can use traits to write generic code that works with various types that share common functionality.
