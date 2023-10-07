@@ -1316,14 +1316,7 @@ default:
       Choice B No choice
 - [ ] Program gives no output as it is erroneous
 
-#### Q82. Which of the following is the correct syntax to print the message in C++ language?
-
-- [ ] Out <<"Hello world!
-- [ ] Cout << Hello world! ;
-- [x] cout <<"Hello world!";
-- [ ] None of the above
-
-#### Q83. String variable str1 has the value of "abc", and string variable str2 has the value "xyz". What are the values of str1 and str2 after this statement is executed?
+#### Q82. String variable str1 has the value of "abc", and string variable str2 has the value "xyz". What are the values of str1 and str2 after this statement is executed?
 
 ```c
 strcpy(str1, str2);
@@ -1334,7 +1327,7 @@ strcpy(str1, str2);
 - [ ] str1: "xyz" ; str2: "abc"
 - [ ] str1: "abc" ; str2: "abc"
 
-#### Q84. Which is not one of the basic data types in C?
+#### Q83. Which is not one of the basic data types in C?
 
 - [x] array
 - [ ] float

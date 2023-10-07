@@ -20,7 +20,7 @@
 - [ ] A
 
 ```json
-["red", "blue", "green"]
+["red", "green", "blue"]
 ```
 
 - [x] B
@@ -161,7 +161,7 @@
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
     },
-    "animated": false,
+    "animated": true,
     "tags": [116, 943, 234, 38793]
   }
 }
@@ -237,8 +237,8 @@
     5.Requests information from a specific source.
     6.Removes information.
 
-- [x] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
-- [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
+- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
+- [x] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
@@ -801,8 +801,8 @@ null
 
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
-- [ ] no
 - [x] yes
+- [ ] no
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
@@ -1070,3 +1070,41 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 ```
 
 Hint: true needs to be a boolean and part-time a string so in double quotes.
+
+#### Q95. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
+
+- [ ] ""
+- [ ] 0
+- [ ] FALSE
+- [x] null
+
+**Explanation:** The other options won't work as well, as demonstrated by [this StackOverflow post](https://stackoverflow.com/questions/21120999/representing-null-in-json).
+
+#### Q96. What is true about paginated reports? (Select all that apply.)
+
+A. They are formatted to fit well on a page.
+
+B. They shrink the report data to fit on a page.
+
+C. They truncate the report data to fit on a single page.
+
+D. They are both printable and shareable.
+
+- [x] A,D
+- [ ] B OR C
+- [ ] A,B,D
+- [ ] A,C,D
+
+**Explanation:** The true statements about paginated reports are:
+A. They are formatted to fit well on a page.
+D. They are both printable and shareable.
+So the correct options are A and D.
+
+#### Q97. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
+
+- [ ] During story point estimation, increase the points assigned to the least interesting stories so the team can boost their velocity.
+- [x] Share your observation with the team and invite them to own and solve the problem.
+- [ ] Ask the team to use a lottery system to assign each story.
+- [ ] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.
+
+**Explanation:** Encourage open communication within the team and involve them in problem-solving to find a solution that works best for their specific context and helps address the issue of disinterest in certain stories.

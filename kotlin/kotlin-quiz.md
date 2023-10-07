@@ -437,10 +437,12 @@ class UserService{
 
 #### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
 
-- [x] `val max3 = a.max(b)` (Extension Function is One of the idiomatic Solutions in Kotlin)
+- [ ] `val max3 = a.max(b)`
 - [ ] `val max = a > b ? a : b`
-- [ ] `val max = if (a > b) a else b`
+- [x] `val max = if (a > b) a else b`
 - [ ] `if (a > b) max = a else max = b`
+
+[reference](https://kotlinlang.org/docs/idioms.html#if-expression)
 
 #### Q36. You have an enum class Signal that represents the state of a network connection. You want to print the position number of the SENDING enum. Which line of code does that?
 
@@ -1180,3 +1182,184 @@ class Empty
 - [x] A higher-order function is a function that takes a function as a parameter, or returns a function.
 
 [reference](https://kotlinlang.org/docs/lambdas.html)
+
+#### Q90. What is Kotlin?
+
+- [ ] A markup language commonly used for web development.
+- [x] A general-purpose, statically typed, open-source programming language.
+- [ ] A relational database management system.
+- [ ] A web framework for building dynamic web applications.
+
+#### Q91. Who developed Kotlin?
+
+- [ ] Google
+- [ ] Apple
+- [ ] Microsoft
+- [x] JetBrains
+
+#### Q92. Which of the following platforms can Kotlin be used for?
+
+- [x] Android app development
+- [x] Server-side applications
+- [x] Web development
+- [x] Desktop application development
+
+#### Q93. What are some key features of Kotlin?
+
+- [x] Conciseness
+- [x] Null safety
+- [x] Full Java interoperability
+- [x] Smart Cast
+- [x] Extension functions
+- [ ] Automatic memory management
+
+#### Q94. Why do some developers switch to Kotlin from Java?
+
+- [x] Kotlin is more concise and cleaner.
+- [x] Kotlin offers useful features not present in Java.
+- [x] Kotlin has good support for Android development.
+- [x] Kotlin is interoperable with Java.
+- [x] All of the above
+
+#### Q95. How does Kotlin work on Android?
+
+- [ ] Kotlin code is compiled directly to machine code.
+- [ ] Kotlin code is interpreted at runtime.
+- [x] Kotlin code is compiled into Java bytecode and runs on the JVM.
+- [ ] Kotlin code is compiled into C++ code for Android.
+
+#### Q96. What is the difference between variable declaration with `var` and `val` in Kotlin?
+
+- [x] `var` is used for mutable variables, while `val` is used for immutable variables.
+- [ ] `var` is used for immutable variables, while `val` is used for mutable variables.
+- [ ] `var` and `val` are interchangeable; there is no difference.
+- [ ] `var` and `val` are used for completely different purposes.
+
+#### Q97. What is the difference between variable declaration with `val` and `const` in Kotlin?
+
+- [ ] There is no difference; `val` and `const` can be used interchangeably.
+- [ ] `val` variables must be initialized at compile-time, while `const` variables can be initialized at runtime.
+- [ ] `const` is used for mutable variables, while `val` is used for immutable variables.
+- [x] `const` is used for compile-time constants, while `val` is used for immutable variables that can be initialized at runtime.
+
+#### Q98. How can you create a singleton in Kotlin?
+
+- [ ] By defining a private constructor in the class.
+- [x] By using an `object`.
+- [ ] By declaring a class as `final`.
+- [ ] By implementing the `Singleton` interface.
+
+#### Q99. What is a primary constructor in Kotlin?
+
+- [ ] It is a constructor that can only be called from within the same class.
+- [ ] It is a constructor that has no parameters.
+- [x] It is the constructor defined in the class header.
+- [ ] It is a constructor that is used for deserialization.
+
+#### Q100. What do you understand by Null safety in Kotlin?
+
+- [x] Null safety is a feature that helps prevent null pointer exceptions in code.
+- [ ] Null safety is a way to force variables to always have null values.
+- [ ] Null safety is a technique for creating nullable variables.
+- [ ] Null safety is a feature to allow null values without checks.
+
+#### Q101. How can you ensure null safety in Kotlin?
+
+- [ ] By using the `!!` operator to force variables to be non-null.
+- [x] By using safe calls (`?.`) and the Elvis operator (`?:`).
+- [ ] By declaring all variables as nullable.
+- [ ] Null safety cannot be ensured in Kotlin.
+
+#### Q102. What is a data class in Kotlin?
+
+- [ ] A class used for storing confidential data.
+- [x] A class designed to hold data with automatically generated methods.
+- [ ] A class used to create instances of other classes.
+- [ ] A class used to define the structure of data in a database.
+
+#### Q103. What is the default behavior of Kotlin classes?
+
+- [ ] All classes are open by default.
+- [x] All classes are final by default.
+- [ ] All classes are abstract by default.
+- [ ] All classes are static by default.
+
+#### Q104. Does Kotlin provide support for primitive data types?
+
+- [x] No, Kotlin does not provide support for primitive data types like in Java.
+- [ ] Yes, Kotlin supports primitive data types in addition to objects.
+- [ ] Only for certain primitive data types, such as `int`.
+- [ ] Yes, Kotlin provides support for primitive data types like in Java.
+
+#### Q105. Does Kotlin provide support for macros?
+
+- [ ] Yes, Kotlin has a rich set of macros for code generation.
+- [ ] No, Kotlin does not support macros.
+- [x] Yes, Kotlin supports macros for advanced metaprogramming.
+- [ ] Macros are not needed in Kotlin as it uses a different approach.
+
+#### Q106. What is the use of the `open` keyword in Kotlin?
+
+- [ ] The `open` keyword is used to declare a variable as mutable.
+- [x] The `open` keyword is used to allow a class or function to be subclassed or overridden.
+- [ ] The `open` keyword is used to specify a class as abstract.
+- [ ] The `open` keyword is used to indicate that a variable is always null.
+
+#### Q107. What do you understand by the Ranges operator in Kotlin?
+
+- [x] The Ranges operator is used to iterate within a range of values.
+- [ ] The Ranges operator is used to perform bitwise operations.
+- [ ] The Ranges operator is used to concatenate strings.
+- [ ] The Ranges operator is used for logical comparisons.
+
+#### Q108. Where should we use `var` and where `val` in Kotlin?
+
+- [ ] `var` and `val` can be used interchangeably; there is no difference.
+- [x] Use `var` for mutable variables and `val` for immutable variables.
+- [ ] Use `var` for integers and `val` for strings.
+- [ ] Use `var` for class properties and `val` for local variables.
+
+#### Q109. What is the difference between a safe call (`?.`) and a null check (`!!`) in Kotlin?
+
+- [x] The safe call (`?.`) checks if a variable is null and returns null if it is, while the null check (`!!`) throws a `KotlinNullPointerException` if the variable is null.
+- [ ] The safe call (`?.`) and null check (`!!`) perform the same operation.
+- [ ] The safe call (`?.`) and null check (`!!`) both return the value of the variable if it is null.
+- [ ] The safe call (`?.`) and null check (`!!`) are not valid Kotlin operators.
+
+#### Q110. What is the basic difference between `fold` and `reduce` in Kotlin?
+
+- [x] `fold` takes an initial accumulator value and applies a binary operation to the elements and the accumulator, while `reduce` uses the first element as the initial accumulator value.
+- [ ] `fold` and `reduce` are equivalent and can be used interchangeably.
+- [ ] `fold` can only be used with collections, while `reduce` can be used with any data type.
+- [ ] `fold` and `reduce` are both used for filtering elements in a collection.
+
+#### Q111. What are the advantages of "when" over "switch" in Kotlin?
+
+- [x] "when" in Kotlin is more concise and powerful than "switch" in Java.
+- [ ] "when" in Kotlin is less flexible than "switch" in Java.
+- [ ] "when" in Kotlin can only be used with integers.
+- [ ] "when" in Kotlin is less efficient than "switch" in Java.
+
+#### Q112. What do you understand by Null safety in Kotlin?
+
+- [x] Null safety is a feature that aims to eliminate null reference exceptions.
+- [ ] Null safety is a way to allow all variables to be null by default.
+- [ ] Null safety is a feature that enforces strict type checking.
+- [ ] Null safety is a feature that allows any value to be treated as null.
+
+#### Q113. Why does this code snippet not compile?
+
+```kotlin
+interface Vehicle
+
+fun main() {
+  val myCar = Vehicle()
+}
+```
+
+- [x] Vehicle is an interface.
+- [ ] Vehicle needs an init block.
+- [ ] The keyword new is missing.
+- [ ] Vehicle lacks a constructor.
+
+[reference](https://kotlinlang.org/docs/interfaces.html)

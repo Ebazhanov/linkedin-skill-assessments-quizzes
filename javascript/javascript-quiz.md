@@ -2115,3 +2115,29 @@ compare(1078, '1078'); // yields true
 - [ ] return test1!=test2;
 
 [Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+
+#### Q156. What is the output of this code?
+
+```js
+if (true) {
+  var first = 'You';
+}
+
+function fScope() {
+  var second = 'got this!';
+}
+fScope();
+console.log(first);
+console.log(second);
+```
+
+- [ ] You  
+       undefined
+- [x] You  
+       ReferenceError
+- [ ] undefined  
+       undefined
+- [ ] You  
+       got this!
+
+[Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
