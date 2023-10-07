@@ -1,0 +1,41 @@
+1. What is the MMAPv1 storage engine, and how does it differ from WiredTiger in MongoDB?
+
+Explanation: MMAPv1 and WiredTiger are two storage engines available in MongoDB. MMAPv1 uses memory-mapped files and is the legacy storage engine. WiredTiger, introduced in MongoDB 3.0, is the default storage engine and offers features like compression, support for document-level locking, and better performance for write-intensive workloads.
+
+2. What is a compound index in MongoDB, and when should you use it?
+
+Explanation: A compound index in MongoDB involves multiple fields in a single index. It can be useful when queries involve filtering or sorting on multiple fields. By creating a compound index, you can optimize query performance for these multi-field operations.
+
+3. How does MongoDB handle replication, and what are the components of a replica set?
+
+Explanation: MongoDB supports replication through replica sets. A replica set consists of multiple MongoDB servers, with one primary and several secondary nodes. Data is automatically replicated from the primary to the secondaries, providing data redundancy and high availability. In the event of primary failure, one of the secondaries can be elected as the new primary.
+
+4. What is the difference between sharding and replication in MongoDB?
+
+Explanation: Sharding and replication serve different purposes in MongoDB:
+
+Replication provides data redundancy and high availability by maintaining multiple copies (replicas) of data on different servers.
+Sharding horizontally partitions data across multiple servers or shards to distribute the data and workload for improved scalability.
+5. Explain the concept of "Write Concern" in MongoDB, and why is it important?
+
+Explanation: Write concern in MongoDB determines the level of acknowledgment a write operation requires from the server. It impacts data durability and performance. For example, a write concern of "majority" ensures that data is written to a majority of nodes in a replica set, providing high data durability but potentially slower write performance.
+
+6. What are the advantages and disadvantages of using embedded documents in MongoDB?
+
+Explanation: Embedded documents in MongoDB allow you to nest one document within another. Advantages include reduced query complexity and improved read performance for certain operations. However, disadvantages may include increased write complexity and limitations on query flexibility when dealing with deeply nested data.
+
+7. How does MongoDB handle schema evolution and versioning in a NoSQL database?
+
+Explanation: MongoDB is schema-less, which means it can handle schema evolution gracefully. New fields can be added to documents without affecting existing data, and documents can have varying structures within the same collection. This flexibility is advantageous for applications that evolve over time.
+
+8. What is the Aggregation Pipeline in MongoDB, and how does it work?
+
+Explanation: The Aggregation Pipeline in MongoDB is a framework for performing data transformation and aggregation operations on documents in a collection. It consists of multiple stages, each processing documents in sequence. Stages can filter, group, project, and perform various operations on the data. It's a powerful tool for complex data transformations and analysis.
+
+9. Explain the concept of "Capped Collections" in MongoDB and when they are useful.
+
+Explanation: Capped collections in MongoDB are fixed-size collections that maintain the insertion order of documents. Once a capped collection reaches its size limit, older documents are automatically removed to make space for new ones. Capped collections are useful for log data or event storage where you want to keep a rolling history of recent events.
+
+10. What is the Geospatial Index in MongoDB, and how can it be used for location-based queries?
+
+Explanation: Geospatial indexes in MongoDB support location-based queries and allow you to efficiently find documents based on their geographical coordinates. You can perform operations like finding documents within a certain radius of a point or finding the nearest documents to a given location.
