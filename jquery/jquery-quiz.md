@@ -1589,7 +1589,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 
 #### Q83. jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?
 
-- [ ] forced CSS-equivalent hardware acceleration of all jQuery animations
+- [x] forced CSS-equivalent hardware acceleration of all jQuery animations
 - [ ] animation of color transitions (background or foreground) without using CSS
 - [ ] duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class
 - [ ] more easing options for timing animations
@@ -1635,3 +1635,11 @@ $('a.active').addClass('hover');
 - [x] .parents('#main').addClass('processed');
 - [ ] .find('#main').addClass('processed');
 - [ ] .up('#main').addClass('processed');
+
+
+#### Q86. When might you want to use custom queues for animations instead of relying on the built-in FX queue?
+
+- [ ] when you want to have multiple sequences of animations on a single element that run with independent timings
+- [ ] when you want to time jQuery animations and CSS animations, since addClass has no duration setting
+- [x] all of these answers
+- [ ] when you want to time custom animations of several different elements without lots of nested callbacks
