@@ -1712,3 +1712,73 @@ int main()
 - [ ] None of the above
 
 [Reference](https://en.cppreference.com/w/cpp/io/cout)
+
+#### Q108.What is Object-Oriented Programming (OOP)?
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. It focuses on modeling real-world entities and their interactions through the use of objects, classes, inheritance, polymorphism, and encapsulation.
+
+#### Q109.What are the four fundamental principles of OOP, and explain each briefly?
+The four fundamental principles of OOP are:
+Encapsulation: It is the concept of bundling data (attributes) and methods (functions) that operate on that data into a single unit called a class.
+Inheritance: It allows a new class (derived or subclass) to inherit properties and behaviors from an existing class (base or superclass).
+Polymorphism: It enables objects of different classes to be treated as objects of a common superclass. It allows for method overriding and dynamic method binding.
+Abstraction: Abstraction is the process of simplifying complex reality by modeling classes based on their essential properties and behaviors while hiding unnecessary details.
+
+#### Q110.What is a class in C++?
+A class in C++ is a blueprint or template for creating objects. It defines the structure and behavior of objects by specifying attributes (data members) and methods (member functions).
+
+#### Q111.What is an object in C++?
+An object in C++ is an instance of a class. It is a tangible entity that can store data and perform actions as defined by the class.
+
+#### Q111.Differentiate between a class and an object.
+A class is a blueprint or template that defines the structure and behavior of objects. An object is an instance of a class, representing a specific entity with its own data and methods.
+
+#### Q112.Explain the concept of encapsulation in C++.
+Encapsulation is the principle of bundling data (attributes) and methods (functions) that operate on that data into a single unit called a class. It provides data hiding and restricts access to the internal state of an object, allowing controlled interaction through public methods.
+
+#### Q113.What is inheritance in C++? Explain the types of inheritance.
+Inheritance allows a new class (derived or subclass) to inherit properties and behaviors from an existing class (base or superclass). Types of inheritance include single inheritance (one base class), multiple inheritance (multiple base classes), hierarchical inheritance (multiple derived classes from a single base class), and multilevel inheritance (deriving a class from another derived class).
+
+#### Q114.What is polymorphism in C++? Explain its types.
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. Types of polymorphism include compile-time (function overloading) and runtime (function overriding) polymorphism.
+
+#### Q115.What is abstraction in C++?
+Abstraction is the process of simplifying complex reality by modeling classes based on their essential properties and behaviors while hiding unnecessary details. It helps in managing complexity and making code more understandable.
+
+#### Q116.What is a constructor in C++? Differentiate between a constructor and a destructor.
+A constructor is a special member function in a class that is automatically called when an object of the class is created. It is used to initialize the object's attributes.
+A destructor is a special member function in a class that is called when an object goes out of scope or is explicitly deleted. It is used to release resources and perform cleanup tasks.
+
+#### Q117.Explain the concept of method overloading.
+Method overloading is a feature in C++ that allows a class to have multiple methods with the same name but different parameters. The compiler determines which method to call based on the number or types of arguments provided.
+
+#### Q118.What is operator overloading, and how is it implemented in C++?
+Operator overloading is the ability to define new behaviors for existing operators when used with user-defined types (objects). It is implemented by defining special member functions like operator+(), operator-(), etc., within a class.
+
+#### Q119.What is a friend function in C++? Why is it used?
+A friend function is a function that is not a member of a class but is allowed to access the private and protected members of the class. It is used when external functions need access to class internals.
+
+#### Q120.What is a virtual function in C++? How does it differ from a regular function?
+A virtual function is a member function in a base class that can be overridden by derived classes. It enables dynamic binding, allowing the appropriate function to be called at runtime based on the object's actual type. Regular functions are resolved at compile time.
+
+#### Q121.What is a pure virtual function? How is it declared?
+A pure virtual function is a virtual function in a base class that has no implementation in the base class and must be overridden by any derived class. It is declared by appending "= 0" to the function declaration in the base class.
+
+#### Q122.Explain the concept of dynamic binding and static binding.
+Dynamic binding, also known as late binding, occurs when the function to be called is determined at runtime. It is associated with virtual functions and polymorphism.
+Static binding, also known as early binding, occurs when the function to be called is determined at compile time. It is associated with non-virtual functions.
+
+#### Q123.What is a base class and a derived class in C++?
+A base class (also known as a superclass) is a class from which other classes (derived or subclasses) inherit properties and behaviors.
+A derived class (also known as a subclass) is a class that inherits properties and behaviors from a base class and can add or modify them.
+
+#### Q124.What is the difference between public, private, and protected access specifiers?
+public: Members with public access specifier are accessible from anywhere in the program.
+private: Members with private access specifier are only accessible within the class that defines them.
+protected: Members with protected access specifier are accessible within the class that defines them and by derived classes.
+
+#### Q125.What is the difference between new and malloc() for memory allocation in C++?
+new is an operator in C++ that not only allocates memory but also constructs an object by calling its constructor. It is type-safe and returns a pointer to the allocated object.
+malloc() is a function in C that allocates raw memory without calling constructors. It returns a void pointer, and you need to cast it to the appropriate type.
+
+#### Q126.Explain the concept of multiple inheritance and its associated challenges.
+Multiple inheritance is a feature in C++ that allows a class to inherit properties and behaviors from multiple base classes. Challenges include ambiguity (when two base classes have the same member name), the diamond problem (ambiguity in the presence of multiple inheritance paths), and complexity in managing and understanding class hierarchies.
