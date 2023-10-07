@@ -1058,13 +1058,13 @@ end
 ```
 
 - [ ] :
-      
+
 ```
 111111
 ```
 
 - [ ] :
-      
+
 ```
 1 1 1 1 1 1
 ```
@@ -1081,11 +1081,10 @@ end
 ```
 
 - [x] :
-  
+
 ```
 nothing will print
 ```
-
 
 #### Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?
 

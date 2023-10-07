@@ -6,7 +6,6 @@
 - [x] git --version
 - [ ] git --option
 - [ ] git --current
-      [Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
 
 [Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
 
@@ -47,7 +46,7 @@ git merge --squash HEAD@{1}
 
 [Reference](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
-#### Q5. Which of the following is true you when you use the following command?
+#### Q5. Which of the following is true when you use the following command?
 
 `git add -A`
 
@@ -56,8 +55,8 @@ git merge --squash HEAD@{1}
 - [ ] All new files are staged
 - [ ] Only updated files are staged
 
-- [Reference](https://git-scm.com/docs/git-add)
-- [Reference](https://www.geeksforgeeks.org/difference-between-git-add-a-and-git-add/)
+[Reference](https://git-scm.com/docs/git-add)
+[Reference](https://www.geeksforgeeks.org/difference-between-git-add-a-and-git-add/)
 
 #### Q6. What will the following command print to the Terminal?
 
@@ -68,8 +67,8 @@ git merge --squash HEAD@{1}
 - [ ] An inline editor for modifying remote repositories
 - [ ] The last 5 git versions you've installed
 
-- [Reference](https://git-scm.com/docs/git-remote)
-- [Reference](https://www.javatpoint.com/git-remote)
+[Reference](https://git-scm.com/docs/git-remote)
+[Reference](https://www.javatpoint.com/git-remote)
 
 #### Q7. Looking at the following commands, describe what is happening.
 
@@ -84,8 +83,6 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
 
-[Reference](https://git-scm.com/docs/git-cherry-pick)
-
 Explanation:
 
 'git checkout feature-user-location' switches to the 'feature-user-location' branch.
@@ -96,13 +93,13 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 
 `git reset --soft HEAD^`
 
-- [ ] It deletes all previous commits and reset the repository history back to its initial state.
+- [ ] It deletes all previous commits and resets the repository history back to its initial state.
 - [ ] It resets the working branch to the first commit.
-- [ ] It keeps the HEAD at the current commit, but clears all previous commits.
+- [ ] It keeps the HEAD at the current commit but clears all previous commits.
 - [x] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
 
-- [Reference](https://git-scm.com/docs/git-reset)
-- [Reference](https://stackoverflow.com/questions/24568936/what-is-difference-between-git-reset-hard-head1-and-git-reset-soft-head)
+[Reference](https://git-scm.com/docs/git-reset)
+[Reference](https://stackoverflow.com/questions/24568936/what-is-the-difference-between-git-reset-hard-head1-and-git-reset-soft-head)
 
 #### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 
@@ -111,8 +108,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [ ] Run a git rebase to find the buggy commit.
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
 
-- [Reference](https://git-scm.com/docs/git-bisect)
-- [Reference](https://stackoverflow.com/questions/69552866/how-to-diagnose-a-problem-in-git-commit-history)
+[Reference](https://git-scm.com/docs/git-bisect)
+[Reference](https://stackoverflow.com/questions/69552866/how-to-diagnose-a-problem-in-git-commit-history)
 
 #### Q10. Why would the following command be used?
 
@@ -123,8 +120,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [ ] To delete the last 10 commits and reset the HEAD
 - [ ] In order to locally cache the last 10 commits
 
-- [Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
-- [Reference](https://stackoverflow.com/questions/363908/how-do-i-use-git-rebase-i-to-rebase-all-changes-in-a-branch)
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
+[Reference](https://stackoverflow.com/questions/363908/how-do-i-use-git-rebase-i-to-rebase-all-changes-in-a-branch)
 
 #### Q11. Why would you use a pre-receive hook in your remote repository?
 
@@ -133,8 +130,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
-- [Reference](https://git-scm.com/docs/githooks)
-- [Reference](https://docs.github.com/en/enterprise-server@3.10/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks)
+[Reference](https://git-scm.com/docs/githooks)
+[Reference](https://docs.github.com/en/enterprise-server@3.10/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks)
 
 #### Q12. What option can you use to apply git configurations across your entire git environment?
 
@@ -143,8 +140,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [x] `--global`
 - [ ] `--update`
 
-- [Reference](https://git-scm.com/docs/git-config)
-- [Reference](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+[Reference](https://git-scm.com/docs/git-config)
+[Reference](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
 
 #### Q13. How could you squash multiple commits together without using git merge --squash?
 
@@ -153,8 +150,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [x] Rebasing
 - [ ] Reflogging
 
-- [Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
-- [Reference](https://stackoverflow.com/questions/31409736/squash-commits-directly-on-feature-without-rebase-or-merge)
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
+[Reference](https://stackoverflow.com/questions/31409736/squash-commits-directly-on-feature-without-rebase-or-merge)
 
 #### Q14. If you cloned an existing git repository, what would happen?
 
@@ -163,8 +160,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
-- [Reference](https://git-scm.com/docs/git-clone)
-- [Reference](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+[Reference](https://git-scm.com/docs/git-clone)
+[Reference](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 #### Q15. How can you display a list of files added or modified in a specific commit?
 
@@ -173,8 +170,8 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
 
-- [Reference](https://git-scm.com/docs/git-diff-tree)
-- [Reference](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
+[Reference](https://git-scm.com/docs/git-diff-tree)
+[Reference](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
 
 #### Q16. What files is this .gitignore programmed to leave out?
 

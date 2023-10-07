@@ -1636,7 +1636,6 @@ $('a.active').addClass('hover');
 - [ ] .find('#main').addClass('processed');
 - [ ] .up('#main').addClass('processed');
 
-
 #### Q86. When might you want to use custom queues for animations instead of relying on the built-in FX queue?
 
 - [ ] when you want to have multiple sequences of animations on a single element that run with independent timings
