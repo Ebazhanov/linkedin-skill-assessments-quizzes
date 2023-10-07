@@ -220,12 +220,16 @@ modified: beta-notes.js
 - [ ] Two copies of beta-notes.js were created, but only one is being tracked
 - [ ] There are two tracked copies of beta-notes.js, but one was removed from the commit
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 #### Q19. Where are files stored before they are committed to the local repository?
 
 - [ ] Saved files
 - [ ] git documents
 - [x] Staging area
 - [ ] git cache
+
+[Reference](https://www.geeksforgeeks.org/what-is-a-git-repository/)
 
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
@@ -351,6 +355,8 @@ modified: beta-notes.js
 - [x] beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.
 - [ ] beta-notes.js is untracked but has been added to the current commit.
 - [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 #### Q30. What command would let you modify your previous commit?
 
