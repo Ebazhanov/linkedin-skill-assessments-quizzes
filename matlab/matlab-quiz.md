@@ -1057,7 +1057,35 @@ for i_loop = 1:6
 end
 ```
 
-- [x] nothing will print
+- [ ] :
+      
+```
+111111
+```
+
+- [ ] :
+      
+```
+1 1 1 1 1 1
+```
+
+- [ ] :
+
+```
+1
+1
+1
+1
+1
+1
+```
+
+- [x] :
+  
+```
+nothing will print
+```
+
 
 #### Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?
 
@@ -1083,13 +1111,13 @@ b = ['stand' 'alone'];
 c = {rand(20,10) rand(23,2) rand(14,5)}
 ```
 
-- [ ] A
+- [ ] :
 
 ```
   b = cellfun(@(m) mean(m(:)), C
 ```
 
-- [ ] B
+- [ ] :
 
 ```
 b = zeros(1, size(C,1);
@@ -1098,13 +1126,13 @@ b = zeros(1, size(C,1);
     end
 ```
 
-- [ ] C
+- [ ] :
 
 ```
 b = cellfun(@mean, C)
 ```
 
-- [ ] D
+- [ ] :
 
 ```
 b = zeros(1, size(C,2);
@@ -1115,7 +1143,7 @@ b = zeros(1, size(C,2);
 
 #### Q77. Which choice uses the proper syntax for an `if else` statement?
 
-- [ ] A
+- [ ] :
 
 ```
 if (a > 1):
@@ -1124,7 +1152,7 @@ else:
     b = 3;
 ```
 
-- [ ] B
+- [ ] :
 
 ```
 if (a > 1){
@@ -1134,7 +1162,7 @@ if (a > 1){
 }
 ```
 
-- [x] C
+- [x] :
 
 ```
 if (a > 1)
@@ -1144,7 +1172,7 @@ else
 end
 ```
 
-- [ ] D
+- [ ] :
 
 ```
 if (a > 1)
