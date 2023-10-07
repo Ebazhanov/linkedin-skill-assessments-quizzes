@@ -161,9 +161,11 @@
 #### Q23. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
 
 - [ ] a list box field
-- [ ] a multi-line text field
+- [x] a multi-line text field
 - [ ] a drop-down field
 - [ ] a text field with rich text formatting
+
+[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)
 
 #### Q24. A client sent a PDF to be included as a page in a book you are designing. The client misspelled several words in the PDF. The PDF is a scan of text. What can you do to fix the misspelled words?
 
@@ -177,7 +179,9 @@
 - [ ] Click **Create Layer Set**.
 - [ ] Click **Add Layers**.
 - [ ] Deselect the **Convert All Pages in Drawing** option.
-- [ ] Select **Retain Some Layers in the Selected Page**.
+- [x] Select **Retain Some Layers in the Selected Page**.
+
+[Reference](https://www.adobe.com/acrobat/hub/how-to-convert-visio-to-pdf.html)
 
 #### Q26. A small section of a 28-page PDF has been updated with new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?
 
