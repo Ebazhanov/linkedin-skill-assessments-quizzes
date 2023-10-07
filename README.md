@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1473-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1474-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2048,6 +2048,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/saisumith770"><img src="https://avatars.githubusercontent.com/u/67259068?v=4?s=100" width="100px;" alt="saisumith770"/><br /><sub><b>saisumith770</b></sub></a><br /><a href="#design-saisumith770" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=saisumith770" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AnupamSrivastava003"><img src="https://avatars.githubusercontent.com/u/125076213?v=4?s=100" width="100px;" alt="Anupam Srivastava"/><br /><sub><b>Anupam Srivastava</b></sub></a><br /><a href="#design-AnupamSrivastava003" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AnupamSrivastava003" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shorya18"><img src="https://avatars.githubusercontent.com/u/73016660?v=4?s=100" width="100px;" alt="Shorya Agarwal"/><br /><sub><b>Shorya Agarwal</b></sub></a><br /><a href="#design-Shorya18" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Shorya18" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Keshav-Pahwa"><img src="https://avatars.githubusercontent.com/u/83963387?v=4?s=100" width="100px;" alt="Keshav Pahwa"/><br /><sub><b>Keshav Pahwa</b></sub></a><br /><a href="#design-Keshav-Pahwa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Keshav-Pahwa" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
