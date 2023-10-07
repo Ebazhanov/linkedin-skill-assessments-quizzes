@@ -9,7 +9,6 @@
 
 [Reference](https://www.howtogeek.com/759319/how-to-check-and-update-your-git-version/)
 
-
 #### Q2. What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
@@ -59,7 +58,6 @@ git merge --squash HEAD@{1}
 [Reference](https://git-scm.com/docs/git-add)
 [Reference](https://www.geeksforgeeks.org/difference-between-git-add-a-and-git-add/)
 
-
 #### Q6. What will the following command print to the Terminal?
 
 `git remote -v`
@@ -71,7 +69,6 @@ git merge --squash HEAD@{1}
 
 [Reference](https://git-scm.com/docs/git-remote)
 [Reference](https://www.javatpoint.com/git-remote)
-
 
 #### Q7. Looking at the following commands, describe what is happening.
 
@@ -104,7 +101,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 [Reference](https://git-scm.com/docs/git-reset)
 [Reference](https://stackoverflow.com/questions/24568936/what-is-the-difference-between-git-reset-hard-head1-and-git-reset-soft-head)
 
-
 #### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 
 - [ ] Manually backtrack through your commit history.
@@ -114,7 +110,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 
 [Reference](https://git-scm.com/docs/git-bisect)
 [Reference](https://stackoverflow.com/questions/69552866/how-to-diagnose-a-problem-in-git-commit-history)
-
 
 #### Q10. Why would the following command be used?
 
@@ -138,7 +133,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 [Reference](https://git-scm.com/docs/githooks)
 [Reference](https://docs.github.com/en/enterprise-server@3.10/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks)
 
-
 #### Q12. What option can you use to apply git configurations across your entire git environment?
 
 - [ ] `--all`
@@ -148,7 +142,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 
 [Reference](https://git-scm.com/docs/git-config)
 [Reference](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
-
 
 #### Q13. How could you squash multiple commits together without using git merge --squash?
 
@@ -170,7 +163,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 [Reference](https://git-scm.com/docs/git-clone)
 [Reference](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-
 #### Q15. How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
@@ -180,7 +172,6 @@ So, this sequence of commands is cherry-picking a specific commit onto the featu
 
 [Reference](https://git-scm.com/docs/git-diff-tree)
 [Reference](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
-
 
 #### Q16. What files is this .gitignore programmed to leave out?
 

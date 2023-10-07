@@ -13,3 +13,7 @@
 ## PLEASE
 
 > Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.
+
+## IMPORTANT
+
+> the ONLY questions can be accepted from this source https://www.linkedin.com/skill-assessments/hub/quizzes/

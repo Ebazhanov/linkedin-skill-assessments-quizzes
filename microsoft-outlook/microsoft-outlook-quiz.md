@@ -713,7 +713,7 @@ D. Because you cannot create a search folder for a subfolder
 - [x] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
       [Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)
 
-#### Q97. You are working in Outlook and need to share contacts folder with Abby, Baldur and Javier. You assign Javier _____ permissions so he can **create, edit, and delete his own items and those created by others**. Abby and Baldur need to **view all the items, add contacts, and edit the contacts they create**, so you grant them _____ permissions.
+#### Q97. You are working in Outlook and need to share contacts folder with Abby, Baldur and Javier. You assign Javier **\_** permissions so he can **create, edit, and delete his own items and those created by others**. Abby and Baldur need to **view all the items, add contacts, and edit the contacts they create**, so you grant them **\_** permissions.
 
 - [x] Editor; Author
 - [ ] Owner; Author

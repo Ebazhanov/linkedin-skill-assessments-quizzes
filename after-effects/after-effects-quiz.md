@@ -88,6 +88,7 @@
 - [ ] Double-click a property in the Timeline to add it to the Essential Graphics panel.
 
 [Reference link](https://helpx.adobe.com/after-effects/using/creating-motion-graphics-templates.html)
+
 #### Q13. You have applied the Auto Levels effect but notice flickering in the results. How can you reduce this?
 
 - [ ] Adjust the Black Clip property.
@@ -101,7 +102,8 @@
 - [ ] Spot
 - [x] Point
 - [ ] Parallel
-[Reference link](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
+      [Reference link](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
+
 #### Q15. Which effect recovers alpha-channel detail from a scene keyed by a typical keying effect, including recovering detail lost due to compression artifacts?
 
 - [ ] Keying > Advanced Spill Suppressor
@@ -122,7 +124,7 @@
 - [ ] Link all layers and then change the composition settings.
 - [x] Click File > Scripts > Scale Composition.jsx.
 - [ ] In the Composition Settings dialog box, scale the composition dimensions and the layers will scale to match.
-[Reference link](https://community.adobe.com/t5/after-effects-discussions/changed-composition-size-scale-all-layers-to-match/td-p/8793449)
+      [Reference link](https://community.adobe.com/t5/after-effects-discussions/changed-composition-size-scale-all-layers-to-match/td-p/8793449)
 
 #### Q18. Holding the Shift key when rotating a 3D layer constrains the rotation to how many degrees?
 
@@ -130,14 +132,16 @@
 - [ ] 30
 - [x] 45
 - [ ] 15
-[Reference link](https://helpx.adobe.com/in/after-effects/using/3d-layers.html#:~:text=Shift-drag%20to%20constrain%20your%20manipulations%20to%2045-degree%20increments.)
+      [Reference link](https://helpx.adobe.com/in/after-effects/using/3d-layers.html#:~:text=Shift-drag%20to%20constrain%20your%20manipulations%20to%2045-degree%20increments.)
+
 #### Q19. How can you choose which frame of a composition to show as a thumbnail image for the composition in the Project panel?
 
 - [x] Select the desired frame in the Composition Settings dialog box.
 - [ ] Move the playhead to the desired frame and click Composition > Set Poster Time.
 - [ ] You cannot change the thumbnail image.You cannot change the thumbnail image.
 - [ ] From the Render Queue, go to Render Settings to set the thumbnail image.
-[Reference link](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/after-effects/after-effects-quiz.md)
+      [Reference link](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/after-effects/after-effects-quiz.md)
+
 #### Q20. When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?
 
 - [ ] Type "PP" twice with the Timeline panel active.
