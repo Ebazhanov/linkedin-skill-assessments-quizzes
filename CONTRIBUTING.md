@@ -12,8 +12,7 @@
 
 ## Adding Answers
 
-> Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they 
-may not have a great understanding about.
+> Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about.
 
 ## Adding Questions
 
