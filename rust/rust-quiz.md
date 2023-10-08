@@ -691,6 +691,7 @@ fn main() {
 ```
 
 - [ ] &shy;
+
 ```rust
 for c in text.chars() {
     if let Some(count) = &mut counts.get(&c) {
@@ -702,6 +703,7 @@ for c in text.chars() {
 ```
 
 - [x] &shy;
+
 ```rust
 for c in text.chars() {
     let count = counts.entry(c).or_insert(0);
@@ -710,6 +712,7 @@ for c in text.chars() {
 ```
 
 - [ ] &shy;
+
 ```rust
 for c in text.chars() {
     let count = counts.entry(c);
@@ -718,6 +721,7 @@ for c in text.chars() {
 ```
 
 - [ ] &shy;
+
 ```rust
 for c in text.chars() {
     counts.entry(c).or_insert(0).map(|x| x + 1);
@@ -739,6 +743,7 @@ fn main() {
     let heart_eyed_cat = '😻';
 }
 ```
+
 - [x] Both are character literals.
 - [ ] `heart_eyed_cat` is an invalid expression.
 - [ ] `c` is a string literal and `heart_eyed_cat` is a character literal.
