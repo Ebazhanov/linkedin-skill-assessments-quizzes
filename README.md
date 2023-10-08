@@ -23,12 +23,11 @@
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
-#### 🙏 PLEASE
+#### 🙏 Adding Answers
 
-Always add an explanation (or reference link) to your answers. Use [Grammarly](https://www.grammarly.com/) for correct grammar and spelling.
-This will help anyone to better learn new concepts!
+Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar is correct. 
 
-#### ❗️Want to participate in Hacktoberfest 2023? Then please read the rules carefully:
+#### ❗️ Looking to participate in Hacktoberfest 2023? Please read the rules carefully:
 
 - [Hacktoberfest Participation Guidelines](https://hacktoberfest.com/participation/)
 
