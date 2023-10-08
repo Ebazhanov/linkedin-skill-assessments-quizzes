@@ -1970,6 +1970,21 @@ public class Main {
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+```java
+//This is how the original bunny class looks
+class Bunny{
+    String name;
+    int weight;
+
+    Bunny(String name){
+        this.name = name;
+    }
+    public static void main(String args[]){
+        Bunny bunny = new Bunny("Bunny 1");
+    }
+}
+
+```
 
 - [x] Implement the comparable interface by overriding the compareTo method.
 - [ ] Add the keyword default to the weight variable.

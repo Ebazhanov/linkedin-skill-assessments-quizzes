@@ -800,3 +800,93 @@ public class Honda extends Car{}
 - [ ] the exact same thing as a function and subroutine
 - [ ] a set of variables that can change over time
 - [ ] a set of instructions designed to perform a frequently used operation within a program and return no values
+
+#### Q105.What is the most accurate example of the Liskov substitution principle?
+
+- [ ] A
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla FlyingCar{}
+public class Honda Car{}
+
+- [ ] B
+public class Car{
+   public void fly(){}
+}
+public class Tesla extends Car{}
+public class Honda extends Car{}
+
+- [ ] C
+public class Car{
+public void fly(){}
+}
+public class Tesla Car{}
+public class Honda Car{}
+
+- [x] D
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla extends FlyingCar{}
+public class Honda extends Car{}
+[reference link](https://stackoverflow.com/a/44913313/1573267)
+
+#### Q106 what describes an agrregation
+
+- [ ] A class of resources
+- [ ] A group of methods
+- [x] A collection of objects
+- [ ] A list of children
+
+#### 107. Which choice is a benefit of using dependency injection?
+
+- [x] loose coupling
+- [ ] code reusability
+- [ ] lazy initialization
+- [ ] data abstraction
+
+#### Q108. What cannot be used for polymorphism?
+
+- [ ] overloading constructors
+- [ ] overloading member functions
+- [x] static member functions
+- [ ] overloading predefined operator
+#### Q109. An instance of which type of class cannot be created?
+
+- [ ] Protected class
+- [ ] Base class
+- [ ] Anonymous class
+- [x] Abstract class
+
+#### Q110. From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?
+
+- [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Software entities should be open for extension, but closed for modification.
+- [ ] Many client-specific interfaces are better than one general-purpose interface.
+- [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
+#### Q111. What are the five Creational Design patterns by the Gang of Four ?
+
+- [ ] Observer, State, Strategy, Template Method, and Visitor.
+- [ ] Composite, Visitor, State, Prototype, and Singleton.
+- [ ] Composite, Builder, Factory Method, Prototype, and Singleton.
+- [x] Abstract Factory, Builder, Factory Method, Prototype, and Singleton.
+
+#### Q112. What is the difference between an interface and an abstract class?
+
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [x] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces.
+- [ ] Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can implement only one interface.
+
+#### Q113. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] cat : kitten
+- [ ] color : red
+- [x] planet : moon
+- [ ] truck : window

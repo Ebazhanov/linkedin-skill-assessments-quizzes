@@ -73,7 +73,7 @@
 
 #### Q10. In the image shown, the text is on a path. You want to move the text farther to the right along the path. How can you accomplish this?
 
-![Q10](images/question_10.jpg)
+![Q10](images/question_10.png)
 
 - [ ] Drag the blue square D.
 - [ ] Drag the side handle B
@@ -110,7 +110,7 @@
 
 #### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
 
-![Q15](images/question_15.jpg)
+![Q15](images/question_15.png)
 
 - [ ] Global Light
 - [ ] the Screen blending mode
@@ -119,7 +119,7 @@
 
 #### Q16. In the image shown, what do the colored frame edges indicate?
 
-![Q16](images/question_16.jpg)
+![Q16](images/question_16.png)
 
 - [ ] which layer each object is on
 - [x] which master page each object is on
@@ -135,7 +135,7 @@
 
 #### Q18. In the image shown, what can you infer about how this document will print?
 
-![Q18](images/question_18.jpg)
+![Q18](images/question_18.png)
 
 - [ ] The page wil be scaled to fit the paper.
 - [x] All document layers will be visible
