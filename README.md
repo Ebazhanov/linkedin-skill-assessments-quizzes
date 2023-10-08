@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1480-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1481-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2057,6 +2057,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.cmarghin.com/"><img src="https://avatars.githubusercontent.com/u/74823355?v=4?s=100" width="100px;" alt="CMarghin"/><br /><sub><b>CMarghin</b></sub></a><br /><a href="#design-CH4R4F" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=CH4R4F" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/VinayKokate22"><img src="https://avatars.githubusercontent.com/u/114766745?v=4?s=100" width="100px;" alt="VinayKokate22"/><br /><sub><b>VinayKokate22</b></sub></a><br /><a href="#design-VinayKokate22" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=VinayKokate22" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aneeshd27"><img src="https://avatars.githubusercontent.com/u/98216256?v=4?s=100" width="100px;" alt="aneesh27"/><br /><sub><b>aneesh27</b></sub></a><br /><a href="#design-aneeshd27" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aneeshd27" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Mary-0165"><img src="https://avatars.githubusercontent.com/u/146911989?v=4?s=100" width="100px;" alt="Mary-0165"/><br /><sub><b>Mary-0165</b></sub></a><br /><a href="#design-Mary-0165" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Mary-0165" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
