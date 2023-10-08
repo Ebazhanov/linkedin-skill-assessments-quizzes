@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1477-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1478-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
@@ -2052,6 +2052,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aryan-rohit"><img src="https://avatars.githubusercontent.com/u/114604099?v=4?s=100" width="100px;" alt="aryan-rohit"/><br /><sub><b>aryan-rohit</b></sub></a><br /><a href="#design-aryan-rohit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aryan-rohit" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ved142"><img src="https://avatars.githubusercontent.com/u/78460491?v=4?s=100" width="100px;" alt="Ved Prakash"/><br /><sub><b>Ved Prakash</b></sub></a><br /><a href="#design-Ved142" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Ved142" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vatsalya-vyas"><img src="https://avatars.githubusercontent.com/u/140804211?v=4?s=100" width="100px;" alt="Vatsalya Vyas"/><br /><sub><b>Vatsalya Vyas</b></sub></a><br /><a href="#design-vatsalya-vyas" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vatsalya-vyas" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.cmarghin.com/"><img src="https://avatars.githubusercontent.com/u/74823355?v=4?s=100" width="100px;" alt="CMarghin"/><br /><sub><b>CMarghin</b></sub></a><br /><a href="#design-CH4R4F" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=CH4R4F" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
