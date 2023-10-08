@@ -804,37 +804,37 @@ public class Honda extends Car{}
 #### Q105.What is the most accurate example of the Liskov substitution principle?
 
 - [ ] A
-public class Car{
-}
-public class FlyingCars extends Car{
-   public void fly(){}
-}
-public class Tesla FlyingCar{}
-public class Honda Car{}
+      public class Car{
+      }
+      public class FlyingCars extends Car{
+      public void fly(){}
+      }
+      public class Tesla FlyingCar{}
+      public class Honda Car{}
 
 - [ ] B
-public class Car{
-   public void fly(){}
-}
-public class Tesla extends Car{}
-public class Honda extends Car{}
+      public class Car{
+      public void fly(){}
+      }
+      public class Tesla extends Car{}
+      public class Honda extends Car{}
 
 - [ ] C
-public class Car{
-public void fly(){}
-}
-public class Tesla Car{}
-public class Honda Car{}
+      public class Car{
+      public void fly(){}
+      }
+      public class Tesla Car{}
+      public class Honda Car{}
 
 - [x] D
-public class Car{
-}
-public class FlyingCars extends Car{
-   public void fly(){}
-}
-public class Tesla extends FlyingCar{}
-public class Honda extends Car{}
-[reference link](https://stackoverflow.com/a/44913313/1573267)
+      public class Car{
+      }
+      public class FlyingCars extends Car{
+      public void fly(){}
+      }
+      public class Tesla extends FlyingCar{}
+      public class Honda extends Car{}
+      [reference link](https://stackoverflow.com/a/44913313/1573267)
 
 #### Q106 what describes an agrregation
 
@@ -856,6 +856,7 @@ public class Honda extends Car{}
 - [ ] overloading member functions
 - [x] static member functions
 - [ ] overloading predefined operator
+
 #### Q109. An instance of which type of class cannot be created?
 
 - [ ] Protected class

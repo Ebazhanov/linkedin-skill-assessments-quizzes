@@ -1480,7 +1480,7 @@ const Waitlist = () => {
 
 [Reference](https://www.geeksforgeeks.org/explain-the-purpose-of-render-in-reactjs/)
 
-#### Q123. What is the use of super(props) in React.js? 
+#### Q123. What is the use of super(props) in React.js?
 
 - [ ] To call the constructor of the parent class
 - [ ] To initialize this.props in the constructor
@@ -1489,7 +1489,7 @@ const Waitlist = () => {
 
 [Reference](https://www.geeksforgeeks.org/what-is-the-use-of-superprops/)
 
-#### Q124. What is Redux in React.js? 
+#### Q124. What is Redux in React.js?
 
 - [x] A state container for JavaScript apps
 - [ ] A tool for building UI components
@@ -1498,7 +1498,7 @@ const Waitlist = () => {
 
 [Reference](https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/)
 
-#### Q125. What is the purpose of the virtual DOM in React.js, and how does it improve performance in web applications?? 
+#### Q125. What is the purpose of the virtual DOM in React.js, and how does it improve performance in web applications??
 
 - [ ] The virtual DOM is used to store user authentication data securely.
 - [ ] The virtual DOM is a backup copy of the actual DOM, created for debugging purposes.

@@ -1970,6 +1970,7 @@ public class Main {
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+
 ```java
 //This is how the original bunny class looks
 class Bunny{

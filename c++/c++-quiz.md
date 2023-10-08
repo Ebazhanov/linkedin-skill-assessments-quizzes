@@ -1717,17 +1717,17 @@ int main()
 
 ```cpp
 #include<iostream>
-#include<algorithm> 
-#include<string.h> 
+#include<algorithm>
+#include<string.h>
 using namespace std;
 bool compare(char c1, char c2){
-return tolower(c1) > tolower(c2);    //LINE-1 
+return tolower(c1) > tolower(c2);    //LINE-1
 }
 int main(){
 char arr1[20] = "C++ Program", arr2[20] = "C Program";
 cout << lexicographical_compare(arr1, arr1+strlen(arr1), arr2, arr2+strlen(arr2),
 compare);
-return 0; 
+return 0;
 }
 ```
 
@@ -1742,15 +1742,15 @@ return 0;
 
 ```cpp
 #include <iostream>
-#include <algorithm> 
-using namespace std; 
+#include <algorithm>
+using namespace std;
 int main() {
-int data[] = {1,2,3,4,5}; 
+int data[] = {1,2,3,4,5};
 int key = 5;
-if(binary_search(__________))    //LINE-1 
+if(binary_search(__________))    //LINE-1
 cout << "found";
 else
-cout << "not found"; 
+cout << "not found";
 return 0;
 }
 ```
@@ -1766,14 +1766,14 @@ return 0;
 
 ```cpp
 #include <iostream>
-#include <algorithm> 
-using namespace std; 
+#include <algorithm>
+using namespace std;
 int main () {
-int data[] = {50, 30, 40, 10, 20}; 
+int data[] = {50, 30, 40, 10, 20};
 sort (&data[1], &data[4]);
-for (int i = 0; i < 5; i++) 
+for (int i = 0; i < 5; i++)
 cout << data[i] << " ";
-return 0; 
+return 0;
 }
 ```
 
@@ -1788,16 +1788,16 @@ return 0;
 
 ```cpp
 #include <iostream>
-#include <algorithm> 
-using namespace std; 
+#include <algorithm>
+using namespace std;
 int main() {
 int element[5];
-for(int i = 1; i <= 5; i++) 
+for(int i = 1; i <= 5; i++)
 *(element + i - 1) = i * 5;
-rotate(element, element + 4, element + 5); 
-rotate(element, element + 1, element + 4); 
+rotate(element, element + 4, element + 5);
+rotate(element, element + 1, element + 4);
 for (int i = 0; i < 5; ++i)
-cout << element[i] << " "; 
+cout << element[i] << " ";
 return 0;
 }
 ```
@@ -1811,20 +1811,20 @@ return 0;
 
 #### Q112. Consider the following code segment. What will be the output?
 
-```cpp                 
+```cpp
 #include <iostream>
-#include <vector> 
-using namespace std; 
+#include <vector>
+using namespace std;
 int main() {
-const int size = 3, c = 65; 
-vector<char> vc(size, ’A’); 
+const int size = 3, c = 65;
+vector<char> vc(size, ’A’);
 for (int i = 1; i <= 2; i++)
 vc.push_back(65 + i);
 vc.resize(10, 90);
 vc.resize(8);
-for (int i = 0; i < vc.size(); i++) 
+for (int i = 0; i < vc.size(); i++)
 cout << vc[i] << " ";
-return 0; 
+return 0;
 }
 ```
 
@@ -1842,11 +1842,11 @@ return 0;
 #include <string>
 using namespace std;
 int main(void) {
-string s1 = "C++ "; 
+string s1 = "C++ ";
 string s2 = "Program";
-__________________;    //LINE-1 
+__________________;    //LINE-1
 cout << s1;
-return 0; 
+return 0;
 }
 ```
 
@@ -1861,17 +1861,17 @@ return 0;
 
 ```cpp
 #include <iostream>
-#include <algorithm> 
-using namespace std; 
+#include <algorithm>
+using namespace std;
 int main() {
-int data[] = { 1, 2, 3, 4, 5 }; 
+int data[] = { 1, 2, 3, 4, 5 };
 for (int i = 0; i < 1; i++) {
 int j = data[i];
-replace(data, data + 5, j, *(_________________));    //LINE-1 
+replace(data, data + 5, j, *(_________________));    //LINE-1
 }
-for (int i = 0; i < 5; ++i) 
+for (int i = 0; i < 5; ++i)
 cout << data[i] << " ";
-return 0; 
+return 0;
 }
 ```
 
@@ -1880,28 +1880,28 @@ return 0;
 - [ ] data + i - 4
 - [ ] data + i - 5
 
-[Reference](https://www.geeksforgeeks.org/stdstringreplace-stdstringreplace_if-c/) 
+[Reference](https://www.geeksforgeeks.org/stdstringreplace-stdstringreplace_if-c/)
 
 #### Q115. Consider the following code segment. What will be the output?
 
 ```cpp
 #include <iostream>
-#include <cstring> 
+#include <cstring>
 #include <stack>
-using namespace std; 
+using namespace std;
 int main(){
-char str[10] = "123456789"; 
+char str[10] = "123456789";
 stack<char> s1, s2;
 int i;
-for(i = 0; i < strlen(str)/2; i++) 
+for(i = 0; i < strlen(str)/2; i++)
 s1.push(str[i]);
-for(i=i-1; i < strlen(str); i++) 
+for(i=i-1; i < strlen(str); i++)
 s2.push(str[i]);
 while (!s1.empty()) {
-s2.push(s1.top()); s1.pop(); 
+s2.push(s1.top()); s1.pop();
 }
 while (!s2.empty()) {
-cout << s2.top(); s2.pop(); 
+cout << s2.top(); s2.pop();
 }
 return 0;
 }
@@ -1922,11 +1922,11 @@ const int *p = &i;
 int * const q = &i;
 int const *r = &i;
 int const * const s = &i;
-*p = 10; //STMT-1 
-*q = 10; //STMT-2 
-*r = 10; //STMT-3 
+*p = 10; //STMT-1
+*q = 10; //STMT-2
+*r = 10; //STMT-3
 *s = 10; //STMT-4
-``` 
+```
 
 - [ ] STMT-1
 - [x] STMT-2
@@ -1943,10 +1943,10 @@ using namespace std;
 char add(char c1 = ’a’) { return c1; }
 char add(char c1 = ’a’, char c2 = ’b’) { return c1 + c2 - ’a’;}
 char add(char c1 = ’a’, int d1 = 100){ return c1 + d1 - ’a’; }
-char add(char c1 = ’a’, char c2 = ’b’, char c3) { return c1 + c2 + c3 - ’a’; } 
+char add(char c1 = ’a’, char c2 = ’b’, char c3) { return c1 + c2 + c3 - ’a’; }
 int main() {
-char c = add(’o’, ’k’); 
-cout << c << endl; 
+char c = add(’o’, ’k’);
+cout << c << endl;
 return 0;
 }
 ```
@@ -1962,11 +1962,11 @@ return 0;
 
 ```cpp
 #include <iostream>
-using namespace std; 
+using namespace std;
 #define SQR(x) (x)*(x)
-int main() { 
+int main() {
 int a=3;
-cout << SQR(a++) << endl; 
+cout << SQR(a++) << endl;
 return 0;
 }
 ```
@@ -1983,17 +1983,17 @@ return 0;
 ```cpp
 #include<iostream>
 #define X 1
-using namespace std; 
+using namespace std;
 int main(){
 int i;
 const int i1 = 2;
 const int i2 = i1; //LINE-1
-i2 = X; 
-i = i1; 
-i1 = i; 
+i2 = X;
+i = i1;
+i1 = i;
 return 0;
-//LINE-2 
-//LINE-3 
+//LINE-2
+//LINE-3
 //LINE-4
 }
 ```
@@ -2007,12 +2007,12 @@ return 0;
 
 ```cpp
 #include<iostream>
-using namespace std; 
+using namespace std;
 int main(){
-int a = 5; 
-int &b = a+1; 
+int a = 5;
+int &b = a+1;
 a = a*b;
-cout << a << " " << b; 
+cout << a << " " << b;
 return 0;
 }
 ```
@@ -2020,22 +2020,22 @@ return 0;
 - [ ] 36
 - [ ] 30
 - [ ] 25
-- [x] Compilation Error: invalid initialization of non-const reference 
+- [x] Compilation Error: invalid initialization of non-const reference
 
 #### Q121. Consider the following code segment. What will be the output?
 
 ```cpp
 #include <iostream>
 using namespace std;
-int& func(int& i) {     //LINE-1 
+int& func(int& i) {     //LINE-1
 return i = i+5;
 }
 int main() {
-int x = 1, y = 2; 
+int x = 1, y = 2;
 int& z = func(x);
-cout << x << " " << z << " "; 
+cout << x << " " << z << " ";
 func(x) = y;
-cout << x << " " << z; 
+cout << x << " " << z;
 return 0;
 }
 ```
@@ -2052,21 +2052,21 @@ return 0;
 ```cpp
 #include <iostream>
 using namespace std;
-void compute(int n1, int n2, ________, ________){ //LINE-1 
+void compute(int n1, int n2, ________, ________){ //LINE-1
 n3 = n1 + n2;
-*n4 = n1 * n2; 
+*n4 = n1 * n2;
 }
 int main(){
-int a = 100, b = 200, c = 0, d = 0; 
-compute(a, b, c, &d); //LINE-2 
+int a = 100, b = 200, c = 0, d = 0;
+compute(a, b, c, &d); //LINE-2
 cout << c << ", ";
-cout << d; 
+cout << d;
 return 0;
 }
 ```
 
-- [ ] int n3, int* n4
-- [x] int& n3, int *n4
+- [ ] int n3, int\* n4
+- [x] int& n3, int \*n4
 - [ ] int* n3, int* n4
 - [ ] int& n3, int& n4
 
@@ -2074,14 +2074,14 @@ return 0;
 
 ```cpp
 #include <iostream>
-using namespace std; 
+using namespace std;
 int main() {
-int a = 2, *b; 
+int a = 2, *b;
 *b = 5;
 int * const ptr;    // LINE-1
 // LINE-2
-ptr = b; 
-cout << *ptr; 
+ptr = b;
+cout << *ptr;
 return 0;
 }
 ```
@@ -2098,36 +2098,36 @@ return 0;
 using namespace std;
 void fun(int a = 5) { cout << a << endl; }
 //LINE-1
-int fun(int x = 10) { cout << x << endl; return 0; }    //LINE-2 
+int fun(int x = 10) { cout << x << endl; return 0; }    //LINE-2
 int main() {
-fun(); 
+fun();
 return 0;
 }
 ```
 
 - [ ] 5
 - [ ] 10
-- [ ] 5 
+- [ ] 5
 - [x] Compilation error at LINE-2: ambiguating new declaration of ’int fun(int)’
 
-#### Q125. Consider the following code segment. Fill in the blank at LINE-1 such that the program will print 5 + i3 
+#### Q125. Consider the following code segment. Fill in the blank at LINE-1 such that the program will print 5 + i3
 
 ```cpp
 #include<iostream>
-using namespace std; 
+using namespace std;
 struct complex{
 int re, im;
-void show(){ cout << re << " + i" << im; } 
+void show(){ cout << re << " + i" << im; }
 };
-______________________________________{ //Line-1 
+______________________________________{ //Line-1
 c2.re = c1.re+c2.re;
-c2.im = c1.im+c2.im; 
+c2.im = c1.im+c2.im;
 return c2;
 }
 int main(){
-struct complex c1={2,5},c2{3,-2}; 
+struct complex c1={2,5},c2{3,-2};
 struct complex t = c1 + c2;
-t.show(); 
+t.show();
 return 0;
 }
 ```
@@ -2143,21 +2143,21 @@ return 0;
 
 ```cpp
 #include<iostream>
-using namespace std; 
+using namespace std;
 class myClass{
-int pra = 5; 
+int pra = 5;
 public:
 int pub = 10;
-void set_pr(int x){ pra = x; } 
+void set_pr(int x){ pra = x; }
 void set_pu(int x){ pub = x; }
 };
-int main(){ 
-myClass m; 
+int main(){
+myClass m;
 int a, b;
-a = m.pra; //LINE-1 
-b = m.pub; //LINE-2 
-m.set_pr(100); //LINE-3 
-m.set_pu(200); //LINE-4 
+a = m.pra; //LINE-1
+b = m.pub; //LINE-2
+m.set_pr(100); //LINE-3
+m.set_pu(200); //LINE-4
 return 0;
 }
 ```
@@ -2168,17 +2168,16 @@ return 0;
 - [ ] LINE-4
 
 [Reference](https://stackoverflow.com/questions/4855422/c-classes-public-private-and-protected)
- 
- 
-#### Q127. Consider the following class. Fill in the blanks with proper access specifiers so that member y can be accessed from outside of the class but member x cannot be accessed. 
+
+#### Q127. Consider the following class. Fill in the blanks with proper access specifiers so that member y can be accessed from outside of the class but member x cannot be accessed.
 
 ```cpp
 class Test{
 ________:
-int x; 
+int x;
 ________:
 int y;
-/* Some more code */ 
+/* Some more code */
 };
 ```
 

@@ -1110,74 +1110,75 @@ So the correct options are A and D.
 **Explanation:** Encourage open communication within the team and involve them in problem-solving to find a solution that works best for their specific context and helps address the issue of disinterest in certain stories.
 
 #### Q98. Which is the valid JSON equivalent of the data shown?
+
 {
-	photo: {
-	width: 1600,
-	height: 900,
-	binaries: {
-	url: 'https://www.example.com/images/34097349843',
-	thumbnail: 'https://www.example.com/images/thumbs/34097349843'
-	},
-	animated: false,
-	tags: [116, 943, 234, 38793],
-	}
+photo: {
+width: 1600,
+height: 900,
+binaries: {
+url: 'https://www.example.com/images/34097349843',
+thumbnail: 'https://www.example.com/images/thumbs/34097349843'
+},
+animated: false,
+tags: [116, 943, 234, 38793],
+}
 }
 
 - [ ] A
-{
-  "photo": {
-    "width": 1600,
-    "height": 900,
-    "binaries": {
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-    },
-    "animated": "false",
-    "tags": [116, 943, 234, 38793]
-  }
-}
+      },
+      "animated": "false",
+      "tags": [116, 943, 234, 38793]
+      }
+      }
 
 - [ ] B
-{
-  "photo": {
-    "width": 1600,
-    "height": 900,
-    "binaries": {
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-    },
-    "animated": false,
-    "tags": [116, 943, 234, 38793]
-  }
-}
+      },
+      "animated": false,
+      "tags": [116, 943, 234, 38793]
+      }
+      }
 
 - [ ] C
-{
-  "photo": {
-    "width": 1600,
-    "height": 900,
-    "binaries": {
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-    },
-    "animated": true,
-    "tags": [116, 943, 234, 38793]
-  }
-}
+      },
+      "animated": true,
+      "tags": [116, 943, 234, 38793]
+      }
+      }
 
 - [x] D
-{
-  "photo": {
-    "width": "1600",
-    "height": "900",
-    "binaries": {
+      {
+      "photo": {
+      "width": "1600",
+      "height": "900",
+      "binaries": {
       "url": "https://www.example.com/images/34097349843",
       "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-    },
-    "animated": "false",
-    "tags": ["116", "943", "234", "38793"]
-  }
-}
+      },
+      "animated": "false",
+      "tags": ["116", "943", "234", "38793"]
+      }
+      }
 
 #### Q99. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
@@ -1208,50 +1209,54 @@ So the correct options are A and D.
 - [ ] JSON.parse() is missing an argument.
 - [x] The value supplied to JSON.parse() is not a string.
 - [ ] Nothing is wrong with it.
+
 #### Q103. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
+
 {
-  "avengers": [
-    "iron man",
-    "hulk",
-    "thor",
-    "black widow",
-    "ant man",
-    "spider man'
-  ]
+"avengers": [
+"iron man",
+"hulk",
+"thor",
+"black widow",
+"ant man",
+"spider man'
+]
 }
+
 - [x] A
-{
-  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
-}
+      {
+      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
+      }
 
 - [ ] B
-{
-  'avengers': [
-  {'iron man',
-  'hulk',
-  'thor',
-  'black widow',
-  'ant man',
-  'spider man'}
-  ]
-}
+      {
+      'avengers': [
+      {'iron man',
+      'hulk',
+      'thor',
+      'black widow',
+      'ant man',
+      'spider man'}
+      ]
+      }
 
 - [ ] C
-{
-  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
-}
+      {
+      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
+      }
 
 - [ ] D
-{
-  "avengers": {[
-    "iron man",
-    "hulk",
-    "thor",
-    "black widow",
-    "ant man",
-    "spider man"
-  ]}
-}
+      {
+      "avengers": {[
+      "iron man",
+      "hulk",
+      "thor",
+      "black widow",
+      "ant man",
+      "spider man"
+      ]}
+      }
+
 #### Q104. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 
 - [ ] 128514
