@@ -2561,6 +2561,8 @@ for x in range(1, len(characters)):
     d[x] = actors [x]
 ```
 
+
+
 #### Q179. What will this code output to the screen?
 
 ```python
