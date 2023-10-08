@@ -492,7 +492,7 @@ end
 
 #### Q41. Which statement about ActiveRecord models is true?
 
-- [ ] Each database column requres adding a matching attr_accessor declaration in the ActiveRecord model.
+- [ ] Each database column requires adding a matching attr_accessor declaration in the ActiveRecord model.
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
 - [x] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
 - [ ] ActiveRecord models can have only attributes that have a matching database column

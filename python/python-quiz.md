@@ -255,7 +255,7 @@ instance.password
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
@@ -439,7 +439,7 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] Decrease and conquer
 - [x] Divide and conquer
 
-Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblem's that are similar to the original problem, recursively solves the subproblem's, and finally combines the solutions to the subproblem's to solve the original problem.
 [reference](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms#:~:text=Both%20merge%20sort%20and%20quicksort,to%20solve%20the%20original%20problem.)
 
 #### Q32. What is runtime complexity of the list's built-in `.append()` method?
@@ -779,7 +779,7 @@ def __init__(self):
     pass
 ```
 
-#### Q54. Which of the following is TRUE About how numeric data would be organised in a Binary Search Tree?
+#### Q54. Which of the following is TRUE About how numeric data would be organized in a Binary Search Tree?
 
 - [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
@@ -946,7 +946,7 @@ This will import example.py as a standalone module and run testmod() on it. Note
 
 **Explanation:**
 
-> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
+> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introduced in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
 
 #### Q68. What is the primary difference between lists and tuples?
 
@@ -1238,7 +1238,7 @@ import numpy as np
 np.ones([1,2,3,4,5])
 ```
 
-- [ ] It returns a 5x5 matric; each row will have the values 1,2,3,4,5.
+- [ ] It returns a 5x5 matrix; each row will have the values 1,2,3,4,5.
 - [ ] It returns an array with the values 1,2,3,4,5.
 - [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5.
 - [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
@@ -1714,7 +1714,7 @@ num_list[len(num_list) // 2]
 
 #### Q120. Which choice is an immutable data type?
 
-- [ ] Dictionnary
+- [ ] Dictionary
 - [ ] List
 - [ ] Set
 - [x] String
@@ -1973,7 +1973,7 @@ b = a[50:60:2]
 - [x] `None`
 - [ ] `False`
 
-#### Q143. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+#### Q143. Suppose you want to double-check if two matrices can be multiplied using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropriate variables?
 
 ```python
 import numpy as np
@@ -1983,7 +1983,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
     rowsMat2, columnsMat2 = matrix2.shape
 
     if _____ == ______ :
-        print('The matrices can be multipled!')
+        print('The matrices can be multiplied!')
         return True
     else:
         return False
@@ -2182,7 +2182,7 @@ else:
 - [ ] 128
 - [x] No fixed length is specified.
 
-[reference](https://peps.python.org/pep-0008/) No No fixed length is specified but Pep-8 secifies under "Maximum Line Length" to "Limit all lines to a maximum of 79 characters".
+[reference](https://peps.python.org/pep-0008/) No No fixed length is specified but Pep-8 specifies under "Maximum Line Length" to "Limit all lines to a maximum of 79 characters".
 
 #### Q151. What will the value of the `i` variable be when the following loop finishes its execution?
 
@@ -2240,9 +2240,9 @@ else:
 #### Q155.The process of pickling in Python includes?
 
 - [x] Conversion of a Python object hierarchy into byte stream.
-- [ ] Conversion of a datatable into a list.
+- [ ] Conversion of a data table into a list.
 - [ ] Conversion of a byte stream into Python object hierarchy.
-- [ ] Conversion of a list into a datatable.
+- [ ] Conversion of a list into a data table.
 
 [reference](https://docs.python.org/3/library/pickle.html#:~:text=“Pickling”%20is%20the%20process%20whereby,back%20into%20an%20object%20hierarchy.)  
 “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy.
