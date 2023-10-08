@@ -220,12 +220,16 @@ modified: beta-notes.js
 - [ ] Two copies of beta-notes.js were created, but only one is being tracked
 - [ ] There are two tracked copies of beta-notes.js, but one was removed from the commit
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 #### Q19. Where are files stored before they are committed to the local repository?
 
 - [ ] Saved files
 - [ ] git documents
 - [x] Staging area
 - [ ] git cache
+
+[Reference](https://www.geeksforgeeks.org/what-is-a-git-repository/)
 
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
@@ -352,6 +356,8 @@ modified: beta-notes.js
 - [ ] beta-notes.js is untracked but has been added to the current commit.
 - [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 #### Q30. What command would let you modify your previous commit?
 
 - [ ] --fix
@@ -359,12 +365,16 @@ modified: beta-notes.js
 - [ ] --modify
 - [x] --amend
 
+[Reference](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+
 #### Q31. What is the best way to characterize the git commit structure?
 
 - [ ] Data array
 - [ ] Data log
 - [x] Data snapshot
 - [ ] Data dictionary
+
+[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 #### Q32. What change will the following command make to the staging area files?
 
@@ -375,12 +385,16 @@ modified: beta-notes.js
 - [ ] A copy of testfile.js will be cached on your desktop.
 - [ ] The current copy of testfile.js will be saved in the staging area.
 
+[Reference](https://git-scm.com/docs/git-rm)
+
 #### Q33. After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the git reset --soft HEAD to roll back one commit.
 - [x] Run git branch -d `<branch name>` to delete the merged branch.
 - [ ] Use git clear-all to clean up any hanging files.
 - [ ] Run git rebase to move the current commit to its original location.
+
+[Reference](https://www.w3docs.com/snippets/git/how-to-delete-already-merged-git-branches.html#:~:text=Make%20sure%20you%20are%20on,branches%20you%20want%20to%20delete.)
 
 #### Q34. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
@@ -389,6 +403,8 @@ modified: beta-notes.js
 - [ ] Save your work with git local-cache.
 - [x] Use git stash to save your work and come back later and reapply the stashed commit.
 
+[Reference](https://git-scm.com/docs/git-stash)
+
 #### Q35. What command would you use to create a new git repository?
 
 - [ ] git add
@@ -396,12 +412,16 @@ modified: beta-notes.js
 - [ ] git new
 - [x] git init
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+
 #### Q36. While working on a feature branch you try to use "git rerere" to solve a recurring merge conflict but nothing is happening. What could be causing this issue?
 
 - [ ] The "-all" option isn't added to the command.
 - [x] "rerere.enabled" isn't enable in the config file.
 - [ ] The commit hash is missing.
 - [ ] The filepath isn't specified.
+
+[Reference](https://git-scm.com/docs/git-rerere)
 
 #### Q37. Which setting determines what pager is used when Git pages output?
 
@@ -423,6 +443,8 @@ modified: beta-notes.js
 - [ ] %cr
 - [ ] %cd
 - [x] %cn
+
+[Reference](https://git-scm.com/docs/pretty-formats)
 
 #### Q40. How many ways are present in Git to integrate changes from one branch into another?
 
@@ -462,12 +484,16 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [ ] begin
 - [ ] track
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 #### Q45. Which of the following is called dumb protocol?
 
 - [ ] All of these
 - [ ] SSH
 - [ ] Git
 - [x] HTTP
+
+[Reference](https://git-scm.com/book/en/v2/Git-Internals-Transfer-Protocols)
 
 #### Q46. Which key press returns a set of suggestions to pick from, when writing a Git command?
 
@@ -483,6 +509,8 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [ ] Integrated Development Environment
 - [ ] Web-Based Repository Hosting Service
 
+[Reference](https://en.wikipedia.org/wiki/Git)
+
 #### Q48. Which command gets a copy of an existing Git repository?
 
 - [ ] duplicate
@@ -490,12 +518,16 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [ ] copy
 - [x] clone
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+
 #### Q49. How does Git think of its data?
 
 - [ ] File
 - [ ] None of these
 - [x] Snapshot
 - [ ] Folder
+
+[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 #### Q50. Which option enables inclusion of author name in custom log format?
 
@@ -525,6 +557,8 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [x] Branch name
 - [ ] Project name
 
+[Reference](https://git-scm.com/book/en/v2/Git-Internals-Git-References)
+
 #### Q54. What Language is used in GIT?
 
 - [x] C
@@ -538,6 +572,8 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [x] pub
 - [ ] key
 - [ ] pk
+
+[Reference](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key)
 
 #### Q56. What is the difference between initializing a normal repo and a bare repo?
 
@@ -560,6 +596,8 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [ ] heavy and annotated
 - [x] lightweight and annotated
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
 #### Q59. After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
 - [x] git diff --cached
@@ -573,6 +611,8 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 - [ ] deletes the stash
 - [ ] lists everything in the stash
 - [ ] throws away the oldest entry
+
+[Reference](https://git-scm.com/docs/git-stash)
 
 #### Q61. What command creates a new branch from the currently checked-out branch?
 
@@ -641,6 +681,8 @@ git checkout -b beta-test
 - [ ] Delete the task commits and recommit with a new message.
 - [ ] Use git cherry-pick to place the commits in another branch.
 
+[Reference](https://www.geeksforgeeks.org/git-squash/)
+
 #### Q70. Which command correctly creates a lightweight tag?
 
 - [x] `git tag v3.8.1`
@@ -692,6 +734,8 @@ git checkout -b beta-test
 - [ ] It deletes all previous commits and resets the repository history back to its initial state.
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
 
+[Reference](https://git-scm.com/docs/git-reset)
+
 #### Q77. What is the difference between Git and SVN?
 
 - [ ] Git works only on Linux, while SVN works on all operating systems.
@@ -714,6 +758,8 @@ git checkout -b beta-test
 - [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
 - [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
+
+[Reference](https://git-scm.com/docs/git-reset)
 
 #### Q80. Consider the following Git workflow:
 
@@ -944,6 +990,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] an area where changes from a branch in the remote repository are stored before they are applied to a local branch
 - [x] an area that stores information about changes that will be included in the next commit
 
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 #### Q108. What command would you use to stage changes to the index strictly for properties files in the current directory?
 
 - [x] `git add *.properties`
@@ -957,6 +1005,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] staged files that Git does not know about because the have not been committed
 - [x] files in the working directory that Git does not know about because they have not been staged or committed
 - [ ] files in the remote repository that Git does not know about because they have not been tagged
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 #### Q110. What type of Git hook could be used to validate that a commit message contains a ticket number?
 
@@ -1014,6 +1064,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
 
+[reference](https://www.atlassian.com/git/tutorials/cherry-pick#:~:text=git%20cherry%2Dpick%20is%20a,be%20useful%20for%20undoing%20changes.)
+
 #### Q118. How would you describe a forked repository?
 
 - [ ] - a deleted or archived copy of a repository
@@ -1022,6 +1074,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] - a separate copy of a repository
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
+[reference](https://www.geeksforgeeks.org/git-fork/)
 
 #### Q119. How can you exclude untracked files within the working directory from a Git repository?
 
@@ -1038,6 +1091,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] `git pull <url>`
 - [x] `git clone <url>`
 - [ ] `git replicate <url>`
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 #### Q121. What would happen if you ran the `git reset testfile.js` command?
 
@@ -1152,6 +1207,8 @@ git commit -m "Removed file"
   git commit -m "Removed file"
 ```
 
+[Reference](https://git-scm.com/docs/git-rm)
+
 #### Q129. What is the best way to report a bug to a GitHub project?
 
 - [ ] Send an email to a project owner.
@@ -1184,12 +1241,16 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] fetch and merge.
 - [ ] None of these.
 
+[Reference](https://www.atlassian.com/git/tutorials/syncing/git-pull#:~:text=The%20git%20pull%20command%20is%20actually%20a%20combination%20of%20two,will%20enter%20a%20merge%20workflow.)
+
 #### Q135. What is the command to set the user email for the current repository?
 
 - [ ] git email.user
 - [x] git config user.email
 - [ ] git config email
 - [ ] All of the above.
+
+[Reference](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 
 #### Q136. **\_** will rewind your project to a specific point in time, losing all commits that came after it. **\_** will keep changes in those rewound commits as local modifications
 
