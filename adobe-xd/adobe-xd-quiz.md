@@ -87,7 +87,7 @@
 
 - [ ] Designed at 3X
 - [ ] Designed for Web
-- [ ] Designed at 1X
+- [x] Designed at 1X
 - [ ] Designed at 2X
 
 #### Q13. What does this wire attached to a component indicate?
@@ -117,7 +117,7 @@
 
 #### Q16. After completing a project, you deactivated a couple of Adobe fonts. Now you need to make changes to the XD file. How do you reenable the Adobe fonts in XD?
 
-- [ ] Open your Creative Cloud fonts and click Enable.
+- [x] Open your Creative Cloud fonts and click Enable.
 - [ ] Enable the fonts in your computer's fonts settings.
 - [ ] Adobe fonts are automatically reactivated through the Creative Cloud.
 - [ ] Relink the fonts to your Creative Cloud library.
