@@ -15,20 +15,20 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1481-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 👉 Remember, I am not asking for any support or donation! If you find any source with asking for that, it is fake! 🫵
+> 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
 
-> :warning:DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
+> :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
 #### 🙏 PLEASE
 
-Always add explanation (`or reference link`) to your answers. Use [online grammar checker](https://www.grammarly.com/).
-That would help anyone to better learn new concepts!
+Always add an explanation (or reference link) to your answers. Use [Grammarly](https://www.grammarly.com/) for correct grammar and spelling.
+This will help anyone to better learn new concepts!
 
-#### ❗️Want to participate in Hacktoberfest 2023, please read the rules carefully:
+#### ❗️Want to participate in Hacktoberfest 2023? Then please read the rules carefully:
 
-- [https://hacktoberfest.com/participation/](https://hacktoberfest.com/participation/)
+- [Hacktoberfest Participation Guidelines](https://hacktoberfest.com/participation/)
 
 #### 🎉 Announcements
 
@@ -144,6 +144,10 @@ Want to contribute? [Here](https://github.com/linkedin-faq) is the source code.
 | [Windows Server](windows-server/windows-server-quiz.md)                                           |                  |                                                                                                                                                                                                                                                                                  | 68        | 57      |                                                                                                                                                                       |
 | [WordPress](wordpress/wordpress-quiz.md)                                                          |                  |                                                                                                                                                                                                                                                                                  | 80        | 73      | [@ruslanbes](https://github.com/ruslanbes), [@Amsal1](https://github.com/Amsal1)                                                                                      |
 | [XML](xml/xml-quiz.md)                                                                            |                  |                                                                                                                                                                                                                                                                                  | 43        | 42      | [@ruslanbes](https://github.com/ruslanbes)                                                                                                                            |
+
+## License
+
+This project is licensed under the [AGPL-3.0 License](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/LICENSE).
 
 ## Contributors ✨
 
