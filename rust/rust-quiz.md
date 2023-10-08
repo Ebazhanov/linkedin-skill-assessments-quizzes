@@ -668,3 +668,109 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] David flanagan
 
 [Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q60. Which types are _not_ allowed within an enum variant's body?
+
+- [ ] zero-sized types
+- [ ] structs
+- [x] trait objects
+- [ ] floating-point numbers
+
+#### Q61. Which example correctly uses std::collections::HashMap's Entry API to populate counts?
+
+```rust
+use std::collections::HashMap;
+fn main() {
+    let mut counts = HashMap::new();
+    let text = "LinkedIn Learning";
+    for c in text.chars() {
+        // Complete this block
+    }
+    println!("{:?}", counts);
+}
+```
+
+- [ ] &shy;
+```rust
+for c in text.chars() {
+    if let Some(count) = &mut counts.get(&c) {
+        counts.insert(c, *count + 1);
+    } else {
+        counts.insert(c, 1);
+    };
+}
+```
+
+- [x] &shy;
+```rust
+for c in text.chars() {
+    let count = counts.entry(c).or_insert(0);
+    *count += 1;
+}
+```
+
+- [ ] &shy;
+```rust
+for c in text.chars() {
+    let count = counts.entry(c);
+    *count += 1;
+}
+```
+
+- [ ] &shy;
+```rust
+for c in text.chars() {
+    counts.entry(c).or_insert(0).map(|x| x + 1);
+}
+```
+
+#### Q62. To convert a `Result` to an `Option`, which method should you use?
+
+- [ ] `.as_option()`
+- [x] `.ok()`
+- [ ] `.to_option()`
+- [ ] `.into()`
+
+#### Q63. Which statement about this code is true?
+
+```rust
+fn main() {
+    let c = 'z';
+    let heart_eyed_cat = '😻';
+}
+```
+- [x] Both are character literals.
+- [ ] `heart_eyed_cat` is an invalid expression.
+- [ ] `c` is a string literal and `heart_eyed_cat` is a character literal.
+- [ ] Both are string literals.
+
+#### Q64. What is an alternative way of writing `slice` that produces the same result?
+
+```rust
+...
+let s = String::form("hello");
+let slice = &s[0..2];
+```
+
+- [ ] let slice = &s[len + 2];
+- [ ] let slice = &s[len - 2];
+- [ ] let slice = &s.copy(0..2);
+- [x] let slice = &s[..2];
+
+#### Q65. How would you select the value 2.0 from this tuple?
+
+```rust
+let pt = Point2D(-1.0, 2.0)
+```
+
+- [ ] pt[1]
+- [ ] pt(1)
+- [ ] pt.iter().nth(1)
+- [x] pt.1
+
+#### Q66. Which statement about enums is false?
+
+- [ ] Enums are useful in matching patterns.
+- [ ] Option is an enum type.
+- [ ] Enum variants can have different types with associated data.
+- [x] the term _enum_ is short for _enummap_
