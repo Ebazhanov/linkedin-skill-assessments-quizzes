@@ -12,7 +12,7 @@
 #### Q2. How is a forEach statement different from a for statement?
 
 - [ ] Only a for statement uses a callback function.
-- [x] A for statement is generic, but a forEach statement can be used only with an array.
+- [x] A for statement is more generic and can be used with various iterable objects, while a forEach statement is mainly designed for arrays but can also be used with other iterable objects like Sets.
 - [ ] Only a forEach statement lets you specify your own iterator.
 - [ ] A forEach statement is generic, but a for statement can be used only with an array.
 
