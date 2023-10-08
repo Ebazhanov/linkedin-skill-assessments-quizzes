@@ -1246,8 +1246,8 @@ class Main {
 }
 ```
 
-- [x] It will not compile.
-- [ ] "HelloWorld!"
+- [] It will not compile.
+- [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
 
