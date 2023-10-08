@@ -1968,6 +1968,8 @@ public class Main {
 - [ ] String
 
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
+To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is:static
+The main method must be declared as public static void main(String[] args) to serve as the entry point for a Java program
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
 
