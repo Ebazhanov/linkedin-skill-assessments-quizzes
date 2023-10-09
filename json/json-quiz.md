@@ -195,6 +195,7 @@
   }
 }
 ```
+
 [Reference](https://www.geeksforgeeks.org/json-data-types/)
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
@@ -312,6 +313,7 @@
   "comment": "\"Centennial Olympics"
 }
 ```
+
 [Reference](https://www.geeksforgeeks.org/json-data-types/)
 
 #### Q19. Can trailing commas be used in objects and arrays?
@@ -428,7 +430,6 @@ null
 - [ ] smart (curly) quotes
 - [ ] single or double quotes
 - [ ] single quotes
-
 
 [Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
 
