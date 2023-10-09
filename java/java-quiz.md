@@ -2169,7 +2169,7 @@ Queue<Rainfall>
 - [x] Math.max(x,y)
 - [ ] Math.maximum(x,y)
 
-#### Q151. `void accept(T t)` is method of -?
+#### Q151. `void accept(T t)` is method of which Java functional interface?
 
 - [x] Consumer
 - [ ] Producer
