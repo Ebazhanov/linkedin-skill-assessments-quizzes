@@ -891,3 +891,73 @@ public class Honda extends Car{}
 - [ ] color : red
 - [x] planet : moon
 - [ ] truck : window
+
+#### Q114. Which choice is a benefit of using dependency injection?
+
+- [x] loose coupling
+- [ ] code reusability
+- [ ] lazy initialization
+- [ ] data abstraction
+
+#### Q115. **\_** describes an aggregation
+
+- [ ] A class of resources
+- [ ] A group of methods
+- [x] A collection of objects
+- [ ] A list of children
+
+#### Q116. Which type of function can be used for polymorphism?
+
+- [x] virtual function
+- [ ] inline function
+- [ ] undefined function
+- [ ] private function
+
+#### Q117. Which choice is a benefit of using dependency injection?
+
+- [x] loose coupling
+- [ ] code reusability
+- [ ] lazy initialization
+- [ ] data abstraction
+
+#### Q118. Are you required to return an object if it was passed by reference to a function, and why or why not?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [x] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
+
+#### Q119. From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?
+
+- [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Software entities should be open for extension, but closed for modification.
+- [ ] Many client-specific interfaces are better than one general-purpose interface.
+- [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
+#### Q120. In addition to responsibilities, what should be listed on Class-responsability-collaboration (CRC) cards?
+
+- [ ] which programming language will be used.
+- [ ] the programmer responsible for implementation.
+- [x] interacting classes.
+- [ ] attributes.
+
+#### Q121. What is the best name for the function that corrects this assessment?
+
+- [ ] makeResult()
+- [ ] questionScore()
+- [x] calculateScore()
+- [ ] getAnswers()
+
+#### Q122. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] cat : kitten
+- [ ] color : red
+- [x] planet : moon
+- [ ] truck : window
+
+#### Q123. What cannot be used for polymorphism?
+
+- [ ] overloading constructors
+- [ ] overloading member functions
+- [x] static member functions
+- [ ] overloading predefined operator
