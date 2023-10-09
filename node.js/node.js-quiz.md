@@ -292,6 +292,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] an object representing an array that has five elements
 
 **Explanation:**: [Reference Article](https://docs.google.com/document/d/1cdFn3qRKwsYjMtedZaMUd-RUGHYzxKxSnS_2043yqyk/edit?usp=sharing)
+The output of executing console.log(arguments); in Node.js will be a ReferenceError: arguments is not defined.
+The arguments object is not available in Node.js, as it is a specific feature of the browser JavaScript environment. In browsers, the arguments object is an array-like object that contains all of the arguments that were passed to a function. However, in Node.js, there is no arguments object, and the only way to access the arguments that were passed to a function is to explicitly declare them in the function's parameter list.
 
 #### Q33. Which choice is not a valid method on event emitters?
 

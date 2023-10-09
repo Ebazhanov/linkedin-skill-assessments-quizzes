@@ -1246,8 +1246,8 @@ class Main {
 }
 ```
 
-- [x] It will not compile.
-- [ ] "HelloWorld!"
+- [] It will not compile.
+- [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
 
@@ -1968,8 +1968,26 @@ public class Main {
 - [ ] String
 
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
+To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is:static
+The main method must be declared as public static void main(String[] args) to serve as the entry point for a Java program
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+
+```java
+//This is how the original bunny class looks
+class Bunny{
+    String name;
+    int weight;
+
+    Bunny(String name){
+        this.name = name;
+    }
+    public static void main(String args[]){
+        Bunny bunny = new Bunny("Bunny 1");
+    }
+}
+
+```
 
 - [x] Implement the comparable interface by overriding the compareTo method.
 - [ ] Add the keyword default to the weight variable.
@@ -2151,7 +2169,7 @@ Queue<Rainfall>
 - [x] Math.max(x,y)
 - [ ] Math.maximum(x,y)
 
-#### Q151. `void accept(T t)` is method of -?
+#### Q151. `void accept(T t)` is method of which Java functional interface?
 
 - [x] Consumer
 - [ ] Producer

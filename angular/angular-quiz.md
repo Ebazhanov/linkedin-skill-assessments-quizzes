@@ -1141,7 +1141,7 @@ export class TruncatePipe implements PipeTransform {
 ```
 
 - [ ] `{{ 'some long text' | truncate:10 }}`
-- [x] `'some long text' | truncate:10:true`
+- [x] `{{ 'some long text' | truncate:10:true }}`
 - [ ] `{{ 'some long text' | truncate }}`
 - [ ] all of these answers
 
@@ -1219,7 +1219,7 @@ export interface AppSettings {
 - [ ] By.css() helper method is needed
 - [ ] A text fixture is required to run the service for the unit test.
 - [ ] None. A service can be instantiated and unit tested on its own.
-- [x] The TestBed class iss needed to instantiate the service.
+- [x] The TestBed class is needed to instantiate the service.
 
 [Angular unit tests](https://angular.io/guide/testing-services) - recheck answers
 

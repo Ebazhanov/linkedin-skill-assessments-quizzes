@@ -1100,11 +1100,173 @@ A. They are formatted to fit well on a page.
 D. They are both printable and shareable.
 So the correct options are A and D.
 
-#### Q97. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting
-stories languish or don't get done. What should you do?
+#### Q97. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
+
 - [ ] During story point estimation, increase the points assigned to the least interesting stories so the team can boost their velocity.
-- [X] Share your observation with the team and invite them to own and solve the problem.
+- [x] Share your observation with the team and invite them to own and solve the problem.
 - [ ] Ask the team to use a lottery system to assign each story.
 - [ ] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.
 
 **Explanation:** Encourage open communication within the team and involve them in problem-solving to find a solution that works best for their specific context and helps address the issue of disinterest in certain stories.
+
+#### Q98. Which is the valid JSON equivalent of the data shown?
+
+{
+photo: {
+width: 1600,
+height: 900,
+binaries: {
+url: 'https://www.example.com/images/34097349843',
+thumbnail: 'https://www.example.com/images/thumbs/34097349843'
+},
+animated: false,
+tags: [116, 943, 234, 38793],
+}
+}
+
+- [ ] A
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+      },
+      "animated": "false",
+      "tags": [116, 943, 234, 38793]
+      }
+      }
+
+- [ ] B
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+      },
+      "animated": false,
+      "tags": [116, 943, 234, 38793]
+      }
+      }
+
+- [ ] C
+      {
+      "photo": {
+      "width": 1600,
+      "height": 900,
+      "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+      },
+      "animated": true,
+      "tags": [116, 943, 234, 38793]
+      }
+      }
+
+- [x] D
+      {
+      "photo": {
+      "width": "1600",
+      "height": "900",
+      "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+      },
+      "animated": "false",
+      "tags": ["116", "943", "234", "38793"]
+      }
+      }
+
+#### Q99. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
+
+- [ ] FALSE
+- [ ] 0
+- [ ] ""
+- [x] null
+
+#### Q100. What does JSON with padding (JSON-P) use to make a request?
+
+- [ ] an `<origin>` element
+- [ ] a header request
+- [x] the `<script>` element
+- [ ] the XMLHttpRequest object
+
+#### Q101. Which whitespace characters should be escaped within a string?
+
+- [ ] All whitespace is allowed.
+- [x] double quotes, slashes new lines, and carriage returns
+- [ ] new lines and carriage returns only
+- [ ] double quotes only
+
+#### Q102. What’s wrong with this JavaScript?
+
+`JSON.parse({"first": "Sarah", "last": "Connor"}) ;`
+
+- [ ] JSON should be wrapped with curly braces.
+- [ ] JSON.parse() is missing an argument.
+- [x] The value supplied to JSON.parse() is not a string.
+- [ ] Nothing is wrong with it.
+
+#### Q103. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
+
+{
+"avengers": [
+"iron man",
+"hulk",
+"thor",
+"black widow",
+"ant man",
+"spider man'
+]
+}
+
+- [x] A
+      {
+      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
+      }
+
+- [ ] B
+      {
+      'avengers': [
+      {'iron man',
+      'hulk',
+      'thor',
+      'black widow',
+      'ant man',
+      'spider man'}
+      ]
+      }
+
+- [ ] C
+      {
+      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
+      }
+
+- [ ] D
+      {
+      "avengers": {[
+      "iron man",
+      "hulk",
+      "thor",
+      "black widow",
+      "ant man",
+      "spider man"
+      ]}
+      }
+
+#### Q104. Which reference to the Unicode character U+1F602 complies with the JSON standard?
+
+- [ ] 128514
+- [ ] d83dde02
+- [x] \uD83D\uDE02
+- [ ] \&#128514;
+
+#### Q105. How should comments be formatted in JSON?
+
+- [ ] Wrap the comments in single quotes and place it at the bottom of the file.
+- [ ] Wrap the comments in double parentheses.
+- [ ] Escape comments by placing two slashes at the start of the comment.
+- [x] JSON does not support comments.

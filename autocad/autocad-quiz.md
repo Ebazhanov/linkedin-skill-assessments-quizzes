@@ -635,14 +635,63 @@
 
 #### Q86. A window selection selects only the objects **\_** the window selection.
 
-- [ ] Completely encompassed by
-- [x] Crossed by -- Crossing selection (window Left top to right bottom)
-- [ ] Completely outside by
-- [ ] Not encompassed by
+- [ ] Completely encompassed by.
+- [x] Crossed by -- Crossing selection (window Left top to right bottom).
+- [ ] Completely outside by.
+- [ ] Not encompassed by.
 
 #### Q87. When using the Hatch command with Pick Point selection method, which mode should be turned OFF to make sure the hatch is a single entity?
 
-- [x] Create Separate Hatches
-- [ ] Associative Boundaries
-- [ ] Hatch Associative (HPASSOC)
-- [ ] Hatch Multiple (HATCHMULTIPLE)
+- [x] Create Separate Hatches.
+- [ ] Associative Boundaries.
+- [ ] Hatch Associative (HPASSOC).
+- [ ] Hatch Multiple (HATCHMULTIPLE).
+
+#### Q89. You want to constrain a line such that it is always horizontal. Which tool could help you acomplish this?
+
+- [ ] Geometric Constraint (GCHORIZONTAL).
+- [x] Horizontal Line (HORIZONTAL).
+- [ ] Line (LINE).
+- [ ] Polyline (PLINE).
+
+#### Q90. When working with layers in your drawings, you may regularly go to the Layer drop-down menu on the **Layers** panel on the **Home** tab of the ribbon. Which part of the AutoCAD interface can you customize to allow **Layer** drop-down menu to be available regardless of which ribbon tab you are currently using?
+
+- [ ] The Status Bar.
+- [ ] The Navigation Bar.
+- [x] The Quick Access Toolbar (QAT).
+- [ ] The Info Bar.
+
+#### Q91. When drawing a Start, Center, End arc, which key do you press to draw the arc in a clockwise direction?
+
+- [ ] D (direction).
+- [ ] C (clockwise).
+- [x] Ctrl (Windows) or Command (Mac).
+- [ ] Alt (Windows) or Option (Mac).
+
+#### Q92. When using the Point command (POINT) and the Donut command (DONUT) to create drawing objects, you might add them to their own individual layers. Why would you do this?
+
+- [x] in case the layer needs to be switched off or frozen for clarity in a drawing.
+- [ ] in case the layer isn't needed any more.
+- [ ] in case the layer needs to be locked so that it cannot be used by anyone else.
+- [ ] in case the layer needs to be renamed for project purposes.
+
+#### Q93. Which drafting setting can you use to restrict your cursor to specified angles?
+
+- [x] Polar Tracking (POLAR).
+- [ ] Selection Cycling (SELECTIONCYCLING).
+- [ ] Dynamic Input (DYNMODE).
+- [ ] Grid (GRID).
+
+#### Q94. When using the Hatch command (HATCH) with the Pick Point selection method, which mode should be turned OFF to make sure the resulting hatch is a single entity?
+
+- [ ] Hatch Associative (HPASSOC).
+- [x] Hatch Multiple (HATCHMULTIPLE).
+- [ ] Associative Boundaries.
+- [ ] Create Separate Hatches.
+
+#### Q95. You can make a global linetype scale change by typing "LTSCALE" and pressing Enter (Windows) or Return (Mac). The default value for LTSCALE is 1. What does this represent?
+
+- [ ] 100%
+- [ ] LTSCALE is OFF (1).
+- [x] LTSCALE is ON (1).
+- [ ] 1 %

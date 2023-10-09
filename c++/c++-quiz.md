@@ -1712,3 +1712,622 @@ int main()
 - [ ] None of the above
 
 [Reference](https://en.cppreference.com/w/cpp/io/cout)
+
+#### Q108. Consider the following program. What will be the output/error?
+
+```cpp
+#include<iostream>
+#include<algorithm>
+#include<string.h>
+using namespace std;
+bool compare(char c1, char c2){
+return tolower(c1) > tolower(c2);    //LINE-1
+}
+int main(){
+char arr1[20] = "C++ Program", arr2[20] = "C Program";
+cout << lexicographical_compare(arr1, arr1+strlen(arr1), arr2, arr2+strlen(arr2),
+compare);
+return 0;
+}
+```
+
+- [x] 1
+- [ ] 0
+- [ ] -1
+- [ ] Compilation Error: function is not defined
+
+[Reference](https://www.geeksforgeeks.org/tolower-function-in-cpp/)
+
+#### Q109. Consider the following code segment. Fill in the blank at LINE-1 so that the program will print "not found"?
+
+```cpp
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+int data[] = {1,2,3,4,5};
+int key = 5;
+if(binary_search(__________))    //LINE-1
+cout << "found";
+else
+cout << "not found";
+return 0;
+}
+```
+
+- [ ] &data[0], &data[5], key
+- [ ] data, data+5, key
+- [x] &data[0], &data[4], key
+- [x] data+1, data+4, key
+
+[Reference](https://www.geeksforgeeks.org/binary-search-algorithms-the-c-standard-template-library-stl/)
+
+#### Q110. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main () {
+int data[] = {50, 30, 40, 10, 20};
+sort (&data[1], &data[4]);
+for (int i = 0; i < 5; i++)
+cout << data[i] << " ";
+return 0;
+}
+```
+
+- [ ] 10 20 30 40 50
+- [ ] 10 30 40 50 20
+- [x] 50 10 30 40 20
+- [ ] 50 10 20 30 40
+
+[Reference](https://cplusplus.com/reference/algorithm/sort/)
+
+#### Q111. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+int element[5];
+for(int i = 1; i <= 5; i++)
+*(element + i - 1) = i * 5;
+rotate(element, element + 4, element + 5);
+rotate(element, element + 1, element + 4);
+for (int i = 0; i < 5; ++i)
+cout << element[i] << " ";
+return 0;
+}
+```
+
+- [ ] 5 10 15 20 25
+- [x] 5 10 15 25 20
+- [ ] 20 10 15 25 5
+- [ ] 25 5 10 15 20
+
+[Reference](https://en.cppreference.com/w/cpp/algorithm/rotate)
+
+#### Q112. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+const int size = 3, c = 65;
+vector<char> vc(size, ’A’);
+for (int i = 1; i <= 2; i++)
+vc.push_back(65 + i);
+vc.resize(10, 90);
+vc.resize(8);
+for (int i = 0; i < vc.size(); i++)
+cout << vc[i] << " ";
+return 0;
+}
+```
+
+- [x] A A A B C Z Z Z
+- [ ] A A B B C Z Z Z
+- [ ] A A A B C Z Z
+- [ ] A A A B C Z Z Z Z
+
+[Reference](https://en.cppreference.com/w/cpp/container/vector)
+
+#### Q113. Consider the following code segment. Choose the appropriate option to fill in the blank at LINE-1, such that the output of the code would be: C++ Program.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+int main(void) {
+string s1 = "C++ ";
+string s2 = "Program";
+__________________;    //LINE-1
+cout << s1;
+return 0;
+}
+```
+
+- [x] s1 += s2
+- [ ] strcat(s1, s2)
+- [x] s1.append(s2)
+- [ ] s1.insert(s2)
+
+[Reference](https://www.geeksforgeeks.org/stdstringappend-in-c/)
+
+#### Q114. Consider the following code segment. Fill in the blank at LINE-1 such that the output is 5 2 3 4 5
+
+```cpp
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+int data[] = { 1, 2, 3, 4, 5 };
+for (int i = 0; i < 1; i++) {
+int j = data[i];
+replace(data, data + 5, j, *(_________________));    //LINE-1
+}
+for (int i = 0; i < 5; ++i)
+cout << data[i] << " ";
+return 0;
+}
+```
+
+- [x] data + 4 - i
+- [ ] data + 5 - i
+- [ ] data + i - 4
+- [ ] data + i - 5
+
+[Reference](https://www.geeksforgeeks.org/stdstringreplace-stdstringreplace_if-c/)
+
+#### Q115. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+#include <cstring>
+#include <stack>
+using namespace std;
+int main(){
+char str[10] = "123456789";
+stack<char> s1, s2;
+int i;
+for(i = 0; i < strlen(str)/2; i++)
+s1.push(str[i]);
+for(i=i-1; i < strlen(str); i++)
+s2.push(str[i]);
+while (!s1.empty()) {
+s2.push(s1.top()); s1.pop();
+}
+while (!s2.empty()) {
+cout << s2.top(); s2.pop();
+}
+return 0;
+}
+```
+
+- [x] 1234987654
+- [ ] 123498765
+- [ ] 1234897654
+- [ ] 123459876
+
+[Reference](https://en.cppreference.com/w/cpp/container/stack)
+
+#### Q116. Consider the following code segment. Which statement/statements is/are correct?
+
+```cpp
+int i = 5;
+const int *p = &i;
+int * const q = &i;
+int const *r = &i;
+int const * const s = &i;
+*p = 10; //STMT-1
+*q = 10; //STMT-2
+*r = 10; //STMT-3
+*s = 10; //STMT-4
+```
+
+- [ ] STMT-1
+- [x] STMT-2
+- [ ] STMT-3
+- [ ] STMT-4
+
+[Reference](https://www.geeksforgeeks.org/const-keyword-in-cpp/)
+
+#### Q117. Consider the following program. What will be the output/error(s)?
+
+```cpp
+#include <iostream>
+using namespace std;
+char add(char c1 = ’a’) { return c1; }
+char add(char c1 = ’a’, char c2 = ’b’) { return c1 + c2 - ’a’;}
+char add(char c1 = ’a’, int d1 = 100){ return c1 + d1 - ’a’; }
+char add(char c1 = ’a’, char c2 = ’b’, char c3) { return c1 + c2 + c3 - ’a’; }
+int main() {
+char c = add(’o’, ’k’);
+cout << c << endl;
+return 0;
+}
+```
+
+- [ ] y
+- [ ] z
+- [x] Compilation Error: default argument missing for "char add(char, char, char)"
+- [x] Compilation Error: call of overload "add(char, char)" is ambiguous
+
+[Reference](https://learn.microsoft.com/en-us/cpp/cpp/function-overloading?view=msvc-170)
+
+#### Q118. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+using namespace std;
+#define SQR(x) (x)*(x)
+int main() {
+int a=3;
+cout << SQR(a++) << endl;
+return 0;
+}
+```
+
+- [x] 12
+- [ ] 25
+- [ ] 9
+- [ ] 16
+
+[Reference](https://www.geeksforgeeks.org/output-of-the-program-use-macros-carefully/)
+
+#### Q119. Consider the following code segment. Which line/s will give you an error?
+
+```cpp
+#include<iostream>
+#define X 1
+using namespace std;
+int main(){
+int i;
+const int i1 = 2;
+const int i2 = i1; //LINE-1
+i2 = X;
+i = i1;
+i1 = i;
+return 0;
+//LINE-2
+//LINE-3
+//LINE-4
+}
+```
+
+- [ ] LINE-1
+- [x] LINE-2
+- [ ] LINE-3
+- [x] LINE-4
+
+#### Q120. Consider the following code segment. What will be the output/error?
+
+```cpp
+#include<iostream>
+using namespace std;
+int main(){
+int a = 5;
+int &b = a+1;
+a = a*b;
+cout << a << " " << b;
+return 0;
+}
+```
+
+- [ ] 36
+- [ ] 30
+- [ ] 25
+- [x] Compilation Error: invalid initialization of non-const reference
+
+#### Q121. Consider the following code segment. What will be the output?
+
+```cpp
+#include <iostream>
+using namespace std;
+int& func(int& i) {     //LINE-1
+return i = i+5;
+}
+int main() {
+int x = 1, y = 2;
+int& z = func(x);
+cout << x << " " << z << " ";
+func(x) = y;
+cout << x << " " << z;
+return 0;
+}
+```
+
+- [x] 6 6 2 2
+- [ ] 6 6 7 7
+- [ ] 1 1 2 2
+- [ ] 1 1 7 7
+
+[Reference](https://www.ibm.com/docs/en/zos/2.4.0?topic=calls-pass-by-reference-c-only)
+
+#### Q122. Consider the following code segment. Choose the appropriate option to fill in the blanks at LINE-1, such that the output of the code would be: 300 20000.
+
+```cpp
+#include <iostream>
+using namespace std;
+void compute(int n1, int n2, ________, ________){ //LINE-1
+n3 = n1 + n2;
+*n4 = n1 * n2;
+}
+int main(){
+int a = 100, b = 200, c = 0, d = 0;
+compute(a, b, c, &d); //LINE-2
+cout << c << ", ";
+cout << d;
+return 0;
+}
+```
+
+- [ ] int n3, int\* n4
+- [x] int& n3, int \*n4
+- [ ] int* n3, int* n4
+- [ ] int& n3, int& n4
+
+#### Q123. Consider the following code segment. What will be the output/error?
+
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+int a = 2, *b;
+*b = 5;
+int * const ptr;    // LINE-1
+// LINE-2
+ptr = b;
+cout << *ptr;
+return 0;
+}
+```
+
+- [ ] <garbage value>
+- [ ] 5
+- [x] Compilation Error at LINE-1: uninitialized const ’ptr’
+- [x] Compilation Error at LINE-2: assignment of read-only variable ’ptr’
+
+#### Q124. Consider the following code segment. What will be the output/error?
+
+```cpp
+#include <iostream>
+using namespace std;
+void fun(int a = 5) { cout << a << endl; }
+//LINE-1
+int fun(int x = 10) { cout << x << endl; return 0; }    //LINE-2
+int main() {
+fun();
+return 0;
+}
+```
+
+- [ ] 5
+- [ ] 10
+- [ ] 5
+- [x] Compilation error at LINE-2: ambiguating new declaration of ’int fun(int)’
+
+#### Q125. Consider the following code segment. Fill in the blank at LINE-1 such that the program will print 5 + i3
+
+```cpp
+#include<iostream>
+using namespace std;
+struct complex{
+int re, im;
+void show(){ cout << re << " + i" << im; }
+};
+______________________________________{ //Line-1
+c2.re = c1.re+c2.re;
+c2.im = c1.im+c2.im;
+return c2;
+}
+int main(){
+struct complex c1={2,5},c2{3,-2};
+struct complex t = c1 + c2;
+t.show();
+return 0;
+}
+```
+
+- [x] complex operator+(complex &c1, complex &c2)
+- [ ] complex operator+(const complex &c1, const complex &c2)
+- [ ] operator+(complex &c1, complex &c2)
+- [ ] complex +(complex &c1, complex &c2)
+
+[Reference](https://www.w3schools.com/cpp/cpp_structs.asp)
+
+#### Q126. Consider the following program. Which line/s will generate an error?
+
+```cpp
+#include<iostream>
+using namespace std;
+class myClass{
+int pra = 5;
+public:
+int pub = 10;
+void set_pr(int x){ pra = x; }
+void set_pu(int x){ pub = x; }
+};
+int main(){
+myClass m;
+int a, b;
+a = m.pra; //LINE-1
+b = m.pub; //LINE-2
+m.set_pr(100); //LINE-3
+m.set_pu(200); //LINE-4
+return 0;
+}
+```
+
+- [x] LINE-1
+- [ ] LINE-2
+- [ ] LINE-3
+- [ ] LINE-4
+
+[Reference](https://stackoverflow.com/questions/4855422/c-classes-public-private-and-protected)
+
+#### Q127. Consider the following class. Fill in the blanks with proper access specifiers so that member y can be accessed from outside of the class but member x cannot be accessed.
+
+```cpp
+class Test{
+________:
+int x;
+________:
+int y;
+/* Some more code */
+};
+```
+
+- [ ] public, public
+- [ ] public, private
+- [ ] private, public
+- [x] private, private
+
+#### Q128. Which C++ Standard did add in-class default member initializers?
+
+- [ ] C++98
+- [x] C++11
+- [] C++14
+- [ ] C++17.
+
+#### Q129. Can you use auto type deduction for non-static data members?
+
+- [ ] Yes, since C++11
+- [x] No
+- [ ] Yes, since C++20
+
+#### Q130. Do you need to define a static inline data member in a cpp file?
+
+- [x] No, the definition happens at the same place where a static inline member is declared.
+- [ ] Yes, the compiler needs the definition in a cpp file.
+- [ ] Yes, the compiler needs a definition in all translation units that use this variable.
+
+[Reference](https://en.cppreference.com/w/cpp/language/bit_field)
+
+#### Q131. What's the output of the following code:
+
+```cpp
+struct S {
+    int a { 10 };
+    int b { 42 };
+};
+S s { 1 };
+std::cout << s.a << ", " << s.b;
+```
+
+- [ ] Output is: 1, 0
+- [ ] Output is: 10, 42
+- [x] Output is: 1, 42
+
+#### Q132. Can a static inline variable be non-constant?
+
+- [x] Yes, it's just a regular variable.
+- [] No, inline variables must be constant.
+
+#### Q133. Consider the following code:
+
+```cpp
+struct C {
+    C(int x) : a(x) { }
+    int a { 10 };
+    int b { 42 };
+};
+C c(0);
+
+```
+
+- [] C::a is initialized twice. The first time, it's initialized with 10 and then the second time with 0 in the constructor.
+- [x] C::a is initialized only once with 0 in the constructor.
+- [ ]The code doesn't compile because the compiler cannot decide how to initialize the C::a member.
+- [ ] 2 bytes
+
+#### Q134. What happens when you throw an exception from a constructor?
+
+- [ ]The object is considered "created" so it will follow the regular lifetime of an object.
+- [x] The object is considered "partially created," and thus, the compiler won't call its destructor.
+- [ ] he compiler calls std::terminate as you cannot throw exceptions from constructors.
+
+#### Q135. What happens when you compile this code?
+
+```cpp
+struct Point { int x; int y; };
+Point pt {.y = 10, .x = 11 };
+std::cout << pt.x << ", " << pt.y;
+```
+
+- [x] The code doesn't compile. Designators have to be in the same order as the data members in the Point class.
+- [] The code compiles and prints 11, 10.
+- [ ] The code compiles and prints 10, 11.
+
+#### Q136. Will this code work in C++11?
+
+```cpp
+struct User { std::string name = "unknown"; unsigned age { 0 }; };
+User u { "John", 101 };
+```
+
+- [ ] Yes, the code compiles in C++11 mode.
+- [x] The code compiles starting with C++14 mode.
+- [ ] The code doesn't compile even in C++20.
+
+#### Q137. Assume you have a std::map<string, int> m;. Select the single true statement about the following loop:
+
+```cpp
+for (const pair<string, int>& elem : m)
+```
+
+- [ ] A The loop properly iterates over the map, creating no extra copies.
+
+- [x] B The loop will create a copy of each element in the map as the type of elem mismatches.
+
+- [ ] C The code won't compile as a const pair cannot bind to a map.
+
+#### Q138. Identify the correct extension of the user-defined header file in C++.
+
+- [ ] .cpp
+- [] .hg
+- [x] .h
+- [ ] .hf
+
+#### Q139.Identify the incorrect constructor type.
+
+```cpp
+auto x = 4000.22;
+```
+
+- [x] Friend Constructor
+- [ ] Default Constructor
+- [ ] Parameterised Constructor
+- [ ] CopyConstructor
+
+#### Q140.Which of the following data type is supported in C++ but not in C?
+
+- [x] bool
+- [ ] int
+- [ ] double
+- [ ] float
+- [ ]
+
+#### Q141. Identify the correct syntax for declaring arrays in C++.
+
+- [x] int arr[10]
+- [ ] array arr[10]
+- [ ] array{10}
+- [ ] int arr
+
+#### Q142.Size of wchat_t is.
+
+- [ ] 2
+- [ ] 4
+- [] 2 or 4
+- [x] Depends on number of bits in system
+
+#### Q143.Which of the following loops is best when we know the number of iterations?
+
+- [ ] While
+- [x] For
+- [ ] Do
+- [ ] All of the above

@@ -1,15 +1,19 @@
-## When I want to create PR request?
+## When should I create a Pull Request?
 
-> Any changes or new questions even without an answer can be a great help! Please do not hesitate to create any new PR, as we do not have a strict requirements for that matter.
+> Any changes or new questions even without an answer can be a great help! Please do not hesitate to create any new PR, as we do not have strict requirements regarding this matter.
 
-## If I found something weird or incorrect, what should I do?
+## If I find something weird or incorrect, what should I do?
 
-> You can create a PR to your liking and add any improvements, so we can quickly merge it.
+> You can create a PR to your liking to add any improvements, so we can quickly merge it.
 
 ## How can I get on the list of contributors?
 
-> After your PR is merged, you will be automatically become a contributor and will be appeared in the Readme.md as the contributor.
+> After your PR is merged, you will be automatically become a contributor and will appear in `README.md` as one.
 
-## PLEASE
+## Adding Answers
 
-> Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.
+> Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about.
+
+## Adding Questions
+
+> Questions will ONLY be accepted from [here](https://www.linkedin.com/skill-assessments/hub/quizzes/).

@@ -712,3 +712,17 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] It allows incoming emails but stops outgoing emails.
 - [x] It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.
       [Reference](https://support.microsoft.com/en-us/office/work-offline-in-outlook-f3a1251c-6dd5-4208-aef9-7c8c9522d633)
+
+#### Q97. You are working in Outlook and need to share contacts folder with Abby, Baldur and Javier. You assign Javier **\_** permissions so he can **create, edit, and delete his own items and those created by others**. Abby and Baldur need to **view all the items, add contacts, and edit the contacts they create**, so you grant them **\_** permissions.
+
+- [x] Editor; Author
+- [ ] Owner; Author
+- [ ] Editor; Reviewer
+- [ ] Author; Reviewer
+
+#### Q98. Shanti Keller is the only person named Shanti in your contacts. You have typed "Shanti" in the To address box, and the name Shanti Adams appears. Why might this happen?
+
+- [ ] Shanti Adams appears in your coworker's personal contact list. Although you and your coworker do not share an Outlook account, Shanti Adams appears in your personal contacts, too.
+- [ ] Shanti Adams was mentioned in a Teams meeting and was listed in the Meeting Insights without an email address.
+- [x] You previously received and replied to an email from Shanti Adams. Autocomplete is now automatically suggesting her name and email address.
+- [ ] It is random. If you type "Shanti" again, Shanti Keller may appear.

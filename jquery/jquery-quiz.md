@@ -1444,34 +1444,31 @@ $(function({
 - [ ] B
 
 ```js
-$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 - [ ] C
 
 ```js
-$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 - [x] D
 
 ```js
-$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 #### Q74. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
@@ -1589,7 +1586,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 
 #### Q83. jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?
 
-- [ ] forced CSS-equivalent hardware acceleration of all jQuery animations
+- [x] forced CSS-equivalent hardware acceleration of all jQuery animations
 - [ ] animation of color transitions (background or foreground) without using CSS
 - [ ] duration for .addClass() and .removeClass(), so CSS properties can be animated over time simply by adding a class
 - [ ] more easing options for timing animations
@@ -1635,3 +1632,10 @@ $('a.active').addClass('hover');
 - [x] .parents('#main').addClass('processed');
 - [ ] .find('#main').addClass('processed');
 - [ ] .up('#main').addClass('processed');
+
+#### Q86. When might you want to use custom queues for animations instead of relying on the built-in FX queue?
+
+- [ ] when you want to have multiple sequences of animations on a single element that run with independent timings
+- [ ] when you want to time jQuery animations and CSS animations, since addClass has no duration setting
+- [x] all of these answers
+- [ ] when you want to time custom animations of several different elements without lots of nested callbacks
