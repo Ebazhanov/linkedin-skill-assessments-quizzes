@@ -1,0 +1,12 @@
+Question 161:
+Which of the following represents the time complexity of an algorithm?
+
+Answer Options:
+
+O(N*N)
+O(1)
+O(A+B)
+O(A*B)
+
+Explanation:
+The answer option 'O(AB)' should be corrected to 'O(A*B)' to accurately represent the time complexity. 
