@@ -63,7 +63,7 @@
 - [ ] bank reconciliations
 - [ ] approval process
 
-[source] `'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unathorized transactions - so its a control too. segregate duties also ensures that.`
+[source] `'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unauthorized transactions - so its a control too. segregate duties also ensures that.`
 
 #### Q10. Which budgeting approach request justification of all expenditures?
 
@@ -124,7 +124,7 @@
 - [ ] all consulting engagements (wrong ans)
 
 [Reference](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
-`'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audt committee approved or fees disclosed etc. but there are exceptions.'`
+`'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audit committee approved or fees disclosed etc. but there are exceptions.'`
 
 #### Q18. Proper segregation of functional responsibilities calls for separation of
 
@@ -219,7 +219,7 @@
 #### Q29. A business purchased office equipment by issuing a one-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
 
 - [ ] Debt asset, credit equity
-- [ ] Debt liablity, credit asset.
+- [ ] Debt liability, credit asset.
 - [x] Debit asset, credit liability
 - [ ] Debit equity, credit asset.
 
@@ -396,7 +396,7 @@ I'm not 100% sure on this.
 #### Q46. Which is not a task usually associated with activity-based costing (ABC)?
 
 - [ ] applying an activity rate for each cost pool
-- [ ] identitying specific cost drivers
+- [ ] identifying specific cost drivers
 - [x] appropriately allocating overhead costs to cost pools
 - [ ] applying a single cost rate across processes
 
@@ -419,7 +419,7 @@ I'm not 100% sure on this.
 #### Q49. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
 
 - [ ] cost-benefit analysis
-- [ ] life-cycte costing
+- [ ] life-cycle costing
 - [ ] profitability analysis
 - [x] activity analysis
 

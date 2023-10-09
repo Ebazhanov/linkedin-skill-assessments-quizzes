@@ -149,7 +149,7 @@
 - [ ] You cannot apply a color swatch to a color stop in the **Gradient** panel.
 - [x] Drag the color stop over the color in the **Swatches** panel.
 
-#### 20. Suppose you apply a gradient to a frame, then select New Gradient Swatch in the Swatches panel manu. Which feature is not saved in the gradient swatch?
+#### 20. Suppose you apply a gradient to a frame, then select New Gradient Swatch in the Swatches panel menu. Which feature is not saved in the gradient swatch?
 
 - [ ] color mode (RGB or CMYK)
 - [ ] color stops
@@ -226,7 +226,7 @@
 - [ ] Object > Arrange
 - [ ] Object > Text Frame Options
 
-#### 31. You are creating a flyer to be printed, and you want the background color to extend past the edge of the page. Which setting in the New Document dialog box will help you accomplush this??
+#### 31. You are creating a flyer to be printed, and you want the background color to extend past the edge of the page. Which setting in the New Document dialog box will help you accomplish this??
 
 - [ ] Slug guides
 - [x] Bleed
@@ -322,7 +322,7 @@
 - [x] Edit > Paste Into
 - [ ] Object > Arrange
 
-#### 43. While formatting some text in InDesign, you apply a paragraph style that uses the Adelle Regular font. However, after applying thestyle, all of the text is formatted using Adelle Bold.The paragraph style shows no overrides. What is most likely the cause of this?
+#### 43. While formatting some text in InDesign, you apply a paragraph style that uses the Adelle Regular font. However, after applying the style, all of the text is formatted using Adelle Bold.The paragraph style shows no overrides. What is most likely the cause of this?
 
 - [ ] An object style is also applied to the text.
 - [ ] The font is damaged.
@@ -359,7 +359,7 @@
 - [x] ln the Effects panel, click the word Fill and change the opacity.
 - [ ] ln the Swatches panel, edit the Paper swatch to be partially transparent.
 
-#### 48. When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no imageappears within the frame. What is most likely the cause of this?
+#### 48. When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no image appears within the frame. What is most likely the cause of this?
 
 - [ ] The image has been set to Nonprinting.
 - [ ] The image is too small to see.
@@ -456,7 +456,7 @@
 #### 60. Which statement about importing a Microsoft Word document into InDesign is true?
 
 - [ ] Paragraph and character styles are removed and local lnDesign formatting is applied.
-- [ ] lmages, hyperlinks, and special characters are stripped out.
+- [ ] Images, hyperlinks, and special characters are stripped out.
 - [ ] Paragraph and character styles are mapped automatically when styles are named identically.
 - [ ] Footnotes, endnotes, and tables of contents are stripped out.
 
