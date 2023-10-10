@@ -9,7 +9,7 @@
 
 [reference](https://www.geeksforgeeks.org/abstract-classes-in-python/)
 
-#### Q2. What happens when you use the build-in function `any()` on a list?
+#### Q2. What happens when you use the built-in function `any()` on a list?
 
 - [ ] The `any()` function will randomly return any item from the list.
 - [x] The `any()` function returns True if any item in the list evaluates to True. Otherwise, it returns False.
@@ -37,19 +37,19 @@ if any([True, False, False, False]) == True:
 
 - [ ] Static methods are called static because they always return `None`.
 - [ ] Static methods can be bound to either a class or an instance of a class.
-- [x] Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
+- [x] Static methods serve mostly as utility methods or helper methods since they can't access or modify a class's state.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 
 [reference](https://www.geeksforgeeks.org/class-method-vs-static-method-python)
 
 #### Q5. What are attributes?
 
-- [ ] Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.
+- [ ] Attributes are long-form versions of an `if/else` statement, used when testing for equality between objects.
 - [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation:** Attributes are defined under the class, and arguments go under the functions. Arguments usually refer to parameters, whereas attributes are the constructors of the class or an instance of a class.
+**Explanation:** Attributes are defined under the class, and arguments go under the functions. arguments usually refer to parameters, whereas attributes are the constructors of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
 
@@ -76,7 +76,7 @@ my_list
 >>>[2,3]
 ```
 
-#### Q8. What is one of the most common use of Python's `sys` library?
+#### Q8. What is one of the most common uses of Python's `sys` library?
 
 - [x] To capture command-line arguments given at a file's runtime.
 - [ ] To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app.
@@ -159,7 +159,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation:** Use `'''` to start the doc and add output of the cell after `>>>`
+**Explanation:** Use `'''` to start the doc and add the output of the cell after `>>>`
 
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
@@ -255,7 +255,7 @@ instance.password
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+**Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using a map would be like this
 
 ```python
 import math
@@ -312,7 +312,7 @@ The pass statement is used as a placeholder for future code. When the pass state
 - [ ] The runtime cannot be determined unless you know how many nodes are in the singly linked list.
 - [ ] The runtime is O(1) because you can index directly to a node in a singly linked list.
 
-#### Q28. Given the following three list, how would you create a new list that matches the desired output printed below?
+#### Q28. Given the following three lists, how would you create a new list that matches the desired output printed below?
 
 ```python
 fruits = ['Apples', 'Oranges', 'Bananas']
@@ -386,7 +386,7 @@ return output
 - [ ] The `all()` function returns a Boolean value that answers the question "Are all the items in this list the same?
 - [ ] The `all()` function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
 - [ ] The `all()` function will return all the values in the list.
-- [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
+- [x] The `all()` function returns True if all items in the list are evaluated to True. Otherwise, it returns False.
 
 **Explanation:** `all()` returns `True` if all in the list are `True`. See example below:
 
@@ -439,10 +439,10 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] Decrease and conquer
 - [x] Divide and conquer
 
-Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblem's that are similar to the original problem, recursively solves the subproblem's, and finally combines the solutions to the subproblem's to solve the original problem.
+Both merge sort and quicksort employ a common algorithmic paradigm based on recursion. This paradigm, divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
 [reference](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms#:~:text=Both%20merge%20sort%20and%20quicksort,to%20solve%20the%20original%20problem.)
 
-#### Q32. What is runtime complexity of the list's built-in `.append()` method?
+#### Q32. What is the runtime complexity of the list's built-in `.append()` method?
 
 - [x] O(1), also called constant time.
 - [ ] O(log n), also called logarithmic time.
@@ -451,21 +451,21 @@ Both merge sort and quicksort employ a common algorithmic paradigm based on recu
 
 This function has constant time complexity i.e. O(1), because lists are randomly accessed so the last element can be reached in O(1) time that's why the time taken to add the new element at the end of the list is O(1).
 
-#### Q33. What is key difference between a `set` and a `list`?
+#### Q33. What is the key difference between a `set` and a `list`?
 
-- [ ] A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
+- [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
 - [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
-- [x] A set is an unordered collection unique items. A list is an ordered collection of non-unique items.
+- [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
 
 #### Q34. What is the definition of abstraction as applied to object-oriented Python?
 
-- [ ] Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.
+- [ ] Abstraction means that a different style of code can be used since many details are already known to the program behind the scenes.
 - [x] Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.
 - [ ] Abstraction means that the data and the functionality of a class are combined into one entity.
 - [ ] Abstraction means that a class can inherit from more than one parent class.
 
-Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user.
+Abstraction in Python is defined as a process of handling complexity by hiding unnecessary information from the user.
 [reference](<https://www.mygreatlearning.com/blog/abstraction-in-python/#:~:text=What%20is%20Abstraction%20in%20Python,oriented%20programming%20(OOP)%20languages.>)
 
 #### Q35. What does this function print?
@@ -519,7 +519,7 @@ b 1 2 3
 c 1 2 3
 ```
 
-#### Q36. Pick correct representation of doctest for function in Python.
+#### Q36. Pick the correct representation of doctest for a function in Python.
 
 - [ ] A
 
@@ -571,7 +571,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
+**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the output. If you write this correctly you can also run the doctest using the build-in doctest module
 
 #### Q37. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
@@ -597,7 +597,7 @@ from collections import namedtuple
 >>> point
     Point(x=100, y=200)
 
-# Which let you use both unpacking and iteration to access
+# Which lets you use both unpacking and iteration to access
 >>> x, y = point
 >>> print(f'({x}, {y})')
     (100, 200)
@@ -645,7 +645,7 @@ fruit_info = {
 #### Q42. What does a class's `__init__()` method do?
 
 - [ ] It makes classes aware of each other if more than one class is defined in a single code file.
-- [ ] It is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
+- [ ] It is included to preserve backward compatibility from Python 3 to Python 2, but it no longer needs to be used in Python 3.
 - [x] It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
 - [ ] It initializes any imports you may have included at the top of your file.
 
@@ -690,14 +690,14 @@ t1 = test()
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-**Explanation:** - Try running the example of the Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+**Explanation:** - Try running the example of the Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if it hasn't been specified, which is the instance itself.
 
 #### Q47. What statement about the class methods is true?
 
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
-- [x] A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
+- [x] A class method can modify the state of the class, but it can't directly modify the state of an instance that inherits from that class.
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
-- [ ] A class method hold all of the data for a particular class.
+- [ ] A class method holds all of the data for a particular class.
 
 [Reference](https://pynative.com/python-class-method/)  
 Class methods are methods that are called on the class itself, not on a specific object instance. Therefore, it belongs to a class level, and all class instances share a class method.
@@ -716,7 +716,7 @@ Class methods are methods that are called on the class itself, not on a specific
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower*case_with_underscores".[2]
+The use of underscores as word separators dates back to the late 1960s. It is particularly associated with C, is found in The C Programming Language (1978), and contrasted with the Pascal case (a type of camel case). However, the convention traditionally had no specific name: the Python programming language style guide refers to it simply as "lower*case_with_underscores".[2]
 Within Usenet the term snake_case was first seen in the Rubycommunity in 2004,[3] used by Gavin Kistner, writing:
 BTW...what \_do* you call that naming style? snake_case? That's what I'll call it until someone corrects me.
 
@@ -734,12 +734,12 @@ Use an uppercase single letter, word, or words. Separate words with underscores 
 
 #### Q51. Describe the functionality of a deque.
 
-- [ ] A deque adds items to one side and remove items from the other side.
-- [ ] A deque adds items to either or both sides, but only removes items from the top.
-- [x] A deque adds items at either or both ends, and remove items at either or both ends.
-- [ ] A deque adds items only to the top, but remove from either or both sides.
+- [ ] A deque adds items to one side and removes items from the other side.
+- [ ] A deque adds items to either or both sides but only removes items from the top.
+- [x] A deque adds items at either or both ends and removes items at either or both ends.
+- [ ] A deque adds items only to the top but removes them from either or both sides.
 
-Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends.
+Deque or Double Ended Queue is a generalized version of the Queue data structure that allows inserting and deletion at both ends.
 [reference](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/?ref=gcse)
 
 #### Q52. What is the correct syntax for creating a variable that is bound to a set?
