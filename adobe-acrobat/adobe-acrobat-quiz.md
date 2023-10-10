@@ -126,7 +126,7 @@
 - [ ] Tools > Edit PDF
 - [ ] Tools > Action Wizard
 
-#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is diaplyed by default in the drop-down field?
+#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
 
 - [x] Select the instructional text entry in the Dropdown Properties dialog box.
 - [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
@@ -253,7 +253,7 @@
 - [ ] Preferences > Signatures > Verification
 - [x] Preferences > Signatures > Creation and Appearance
 
-#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
 
 - [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
 - [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
