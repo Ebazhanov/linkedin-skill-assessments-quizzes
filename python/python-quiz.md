@@ -49,7 +49,7 @@ if any([True, False, False, False]) == True:
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation:** Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
+**Explanation:** Attributes are defined under the class, and arguments go under the functions. Arguments usually refer to parameters, whereas attributes are the constructors of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
 
