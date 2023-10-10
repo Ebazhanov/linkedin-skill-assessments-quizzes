@@ -979,7 +979,7 @@ aws ecs create-service \
 - [ ] Set policies on the database table (DynamoDB or RDS) for user permissions.
 - [x] Expose an API Gateway for public use to fetch content and a second API for writing content requiring an auth token.
 
-#### Q115. If a user requires programmatic access to your AWS resources, what is required to authenticate? 
+#### Q115. If a user requires programmatic access to your AWS resources, what is required to authenticate?
 
 - [x] Access Keys
 - [ ] Key pair
@@ -988,7 +988,7 @@ aws ecs create-service \
 
 [Reference](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
-#### Q116. ___________ are predefined, out-of-the-box policies that grant permissions for common use cases to eliminate the need to determine what permissions are needed.
+#### Q116. ****\_\_\_**** are predefined, out-of-the-box policies that grant permissions for common use cases to eliminate the need to determine what permissions are needed.
 
 - [ ] Resource policies
 - [x] AWS managed policies
@@ -997,7 +997,7 @@ aws ecs create-service \
 
 [Reference](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
-#### Q117. Within an IAM policy, the ______ ___ ______ are top-level policy elements whereas the rest of them are statement-level elements.
+#### Q117. Within an IAM policy, the **\_\_** **\_ \_\_\_\_** are top-level policy elements whereas the rest of them are statement-level elements.
 
 - [ ] ID and Principal
 - [ ] Version and ID

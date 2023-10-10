@@ -573,7 +573,6 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
           --homepage "http://localhost/$appName" \
           --identifier-uris [http://localhost/$appName](http://localhost/$appName)
 
-
 #### Q72. In the Azure Service Bus, what is the purpose of the dead letter queue?
 
 - [ ] It is used to ensure that the Azure Bus Service queue can deliver messages in a First-In-First-Out manner.
