@@ -573,7 +573,8 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
           --homepage "http://localhost/$appName" \
           --identifier-uris [http://localhost/$appName](http://localhost/$appName)
 
-          
+
+
 #### Q72. In the Azure Service Bus, what is the purpose of the dead letter queue?
 
 - [ ] It is used to ensure that the Azure Bus Service queue can deliver messages in a First-In-First-Out manner.
@@ -619,15 +620,15 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 
 [Ref](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
 
-
 #### Q77. This question requires that you evaluate the underlined text to determine if it is correct.
+
 An organization that hosts its infrastructure in a private cloud can close its data center.
 Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If
-the statement is incorrect, select the answer choice that makes the statement correct. 
+the statement is incorrect, select the answer choice that makes the statement correct.
 
-- [ ] No change is needed. 
-- [ ] in a hybrid cloud 
-- [x] in the public cloud 
+- [ ] No change is needed.
+- [ ] in a hybrid cloud
+- [x] in the public cloud
 - [ ] on a Hyper-V host
 
 Explanation/Reference:
@@ -646,15 +647,14 @@ you provide.
 
 [Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)
 
-
-
 #### Q78.What are two characteristics of the public cloud? Each correct answer presents a complete solution.
+
 NOTE: Each correct selection is worth one point.
 
-- [ ] dedicated hardware 
-- [ ] limited storage 
-- [X] metered pricing
-- [X] self-service management
+- [ ] dedicated hardware
+- [ ] limited storage
+- [x] metered pricing
+- [x] self-service management
 - [ ] unsecured connections
 
 Explanation/Reference:
@@ -671,17 +671,16 @@ C: Storage is not limited. You can have as much storage as you like.
 
 [Ref](https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/4-cloud-deployment-models)
 
-
-
 #### Q79. Your company hosts an accounting application named App1 that is used by all the customers of the
-company. 
+
+company.
 App1 has low usage during the first three weeks of each month and very high usage during the last week of
-each month. 
+each month.
 Which benefit of Azure Cloud Services supports cost management for this type of usage pattern?
 
 - [ ] high availabilit
-- [ ]  high latency
-- [X] elasticity
+- [ ] high latency
+- [x] elasticity
 - [ ] load balancing
 
 Explanation/Reference:
@@ -697,17 +696,16 @@ the purchase or maintenance of additional resources and equipment.
 
 [Ref](https://azure.microsoft.com/en-gb/overview/what-is-elastic-computing/)
 
+#### Q80. You plan to migrate a web application to Azure. The web application is accessed by external users.
 
-
-#### Q80. You plan to migrate a web application to Azure. The web application is accessed by external users. 
 You need to recommend a cloud deployment solution to minimize the amount of administrative effort used to
-manage the web application. 
+manage the web application.
 What should you include in the recommendation?
 
-- [ ]  Software as a Service (SaaS)
-- [x]  Platform as a Service (PaaS)
+- [ ] Software as a Service (SaaS)
+- [x] Platform as a Service (PaaS)
 - [ ] Infrastructure as a Service (IaaS)
-- [ ]  Database as a Service (DaaS)
+- [ ] Database as a Service (DaaS)
 
 Explanation/Reference:
 Explanation:
@@ -718,10 +716,10 @@ Services.
 
 [Ref](https://docs.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-app-services)
 
+#### Q81. You have an on-premises network that contains 100 servers.
 
-#### Q81. You have an on-premises network that contains 100 servers. 
 You need to recommend a solution that provides additional resources to your users. The solution must
-minimize capital and operational expenditure costs. 
+minimize capital and operational expenditure costs.
 What should you include in the recommendation?
 
 - [ ] a complete migration to the public cloud
@@ -745,15 +743,13 @@ of the new infrastructure to host the private cloud
 
 [Ref](https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/4-cloud-deployment-models)
 
+#### Q82. You plan to migrate several servers from an on-premises network to Azure.
 
-
-#### Q82. You plan to migrate several servers from an on-premises network to Azure. 
 What is an advantage of using a public cloud service for the servers over an on-premises network
-
 
 - [ ] The public cloud is owned by the public, NOT a private corporation
 - [ ] The public cloud is a crowd-sourcing solution that provides corporations with the ability to enhance the cloud
-- [X] The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud
+- [x] The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud
 - [ ] All public cloud resources can be freely accessed by every member of the public
 
 Explanation/Reference:
@@ -768,14 +764,13 @@ B: The public cloud is a not crowd-sourcing solution. In the case of Microsoft A
 C: It is not true that public cloud resources can be freely accessed by every member of the public. You pay for a cloud subscription and create accounts for your users to access your cloud resources. No one can
 access your cloud resources until you create user accounts and provide the appropriate access permissions.
 
-
-
 #### Q83. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.
+
 You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.
 You need to identify which expenditure model to use for the planned Azure solution.
 Which expenditure model should you identify?
 
-- [X] operational
+- [x] operational
 - [ ] elastic
 - [ ] capital
 - [ ] scalable
@@ -789,8 +784,8 @@ fundamentally and positively affect the cost of a service you use by merely shut
 
 [Ref](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/appendix/azure-scaffold)
 
-
 #### Q84. Your company has an on-premises network that contains multiple servers.
+
 The company plans to reduce the following administrative responsibilities of network administrators:
 Backing up application data
 Replacing failed server hardware
@@ -802,7 +797,7 @@ You need to identify which administrative responsibilities will be eliminated af
 Which two responsibilities should you identify? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
 
-- [X] Replacing failed server hardware
+- [x] Replacing failed server hardware
 - [ ] Backing up application data
 - [x] Updating server operating systems
 - [ ] Managing permissions to shared documents
@@ -819,15 +814,14 @@ D: Microsoft do not manage the operating systems you run on the virtual machines
 responsibility to ensure that the operating systems are updated.
 E: Microsoft have no control over the shared folders you host on the virtual machines. Therefore, it is your responsibility to ensure that folder permissions are configured appropriately.
 
-
-
 #### Q85. A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure Resource Manager templates.
+
 You need to recommend which Azure service will minimize the administrative effort required to deploy and
-remove the virtual machines. 
+remove the virtual machines.
 What should you recommend?
 
 - [ ] Azure Reserved Virtual Machine (VM) Instances
-- [X] Azure DevTest Labs
+- [x] Azure DevTest Labs
 - [ ] Azure virtual machine scale sets
 - [ ] Microsoft Managed Desktop
 
