@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1486-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1487-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2070,6 +2068,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Adi-456"><img src="https://avatars.githubusercontent.com/u/116885696?v=4?s=100" width="100px;" alt="Aditya Gupta"/><br /><sub><b>Aditya Gupta</b></sub></a><br /><a href="#design-Adi-456" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Adi-456" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://haxkd.github.io/"><img src="https://avatars.githubusercontent.com/u/33129246?v=4?s=100" width="100px;" alt="Abul Hasan"/><br /><sub><b>Abul Hasan</b></sub></a><br /><a href="#design-haxkd" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=haxkd" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sudhanshu-77"><img src="https://avatars.githubusercontent.com/u/97780892?v=4?s=100" width="100px;" alt="Sudhanshu Tripathi"/><br /><sub><b>Sudhanshu Tripathi</b></sub></a><br /><a href="#design-sudhanshu-77" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sudhanshu-77" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
