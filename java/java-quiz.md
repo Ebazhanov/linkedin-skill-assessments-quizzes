@@ -1246,7 +1246,7 @@ class Main {
 }
 ```
 
-- [] It will not compile.
+- [ ] It will not compile.
 - [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
@@ -2171,8 +2171,8 @@ Queue<Rainfall>
 
 #### Q151. `void accept(T t)` is method of which Java functional interface?
 
-- [x] Consumer
 - [ ] Producer
+- [x] Consumer
 - [ ] Both
 - [ ] None
 
@@ -2450,3 +2450,11 @@ public interface Square {
 
 [Reference](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
 
+#### Q167. Calculate the space complexity of the following program.
+
+- [ ] O(1)
+- [x] O(N)
+- [ ] O(N^2)
+- [ ] O(log(N))
+
+//In this program, a dynamic array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).

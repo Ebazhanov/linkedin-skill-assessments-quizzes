@@ -6,7 +6,7 @@
 
 - [x] The fill color would be converted to CMYK values
 - [ ] The fill color would be unchanged.
-- [ ] Illustrator would display an error because you can't paste an object with RGB colors into a CMYK file.
+- [ ] Illustrator would display an error because you can't paste an object with RGB colors into a CMYK file.
 - [ ] The fill color would remain RGB but its appearance would change.
 
 #### Q2. You want to add some stars to the circular background object in the image below, using a scatter brush. How can you ensure that the stars appear only inside the circle?
@@ -29,7 +29,7 @@
 
 - [x] clicking or dragging the first point in the path
 - [ ] choosing Object > Path > Join
-- [ ] pressing Return (Mac) or Enter (Windows)
+- [ ] pressing Return (Mac) or Enter (Windows)
 - [ ] switching to a different tool
 
 #### Q5. Which effect was used to give depth to the outline of California below?

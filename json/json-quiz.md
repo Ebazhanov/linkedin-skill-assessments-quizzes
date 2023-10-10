@@ -7,6 +7,8 @@
 - [ ] JsonSchema
 - [ ] JSONschema
 
+[Reference](https://json-schema.org/learn/getting-started-step-by-step)
+
 #### Q2. Which code is the closest JSON equivalent of the data shown?
 
 ```
@@ -55,12 +57,16 @@
 - [ ] JSON.toString()
 - [ ] JSON.objectify()
 
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
 #### Q4. Which data type is NOT part of JSON standard?
 
 - [ ] string
 - [ ] number
 - [x] date
 - [ ] array
+
+[Reference](https://www.ibm.com/docs/en/baw/19.x?topic=format-json-properties-data-type-conversions)
 
 #### Q5. Which term is commonly used to refer to converting data to JSON?
 
@@ -78,6 +84,8 @@
 - [ ] "accountNum": 000605802
 - [ ] accountNum: 000605802
 
+[Reference](https://www.microfocus.com/documentation/silk-performer/195/en/silkperformer-195-webhelp-en/GUID-6AFC32B4-6D73-4FBA-AD36-E42261E2D77E.html)
+
 #### Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?
 
 - [ ] `/`
@@ -85,12 +93,16 @@
 - [ ] `:`
 - [ ] `{`
 
+[Reference](https://www.lambdatest.com/free-online-tools/json-escape)
+
 #### Q8. Which data type is part of the JSON standard?
 
 - [x] Boolean
 - [ ] map
 - [ ] promise
 - [ ] function
+
+[Reference](https://www.ibm.com/docs/en/baw/19.x?topic=format-json-properties-data-type-conversions)
 
 #### Q9. Which key name is used to specify properties that must be included for JSON to be valid?
 
@@ -184,9 +196,11 @@
 }
 ```
 
+[Reference](https://www.geeksforgeeks.org/json-data-types/)
+
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
-- [ ] Escape all whitespaces expect space characters.
+- [ ] Escape all whitespaces except space characters.
 - [x] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
@@ -200,12 +214,16 @@
 - [ ] number
 - [ ] object
 
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
+
 #### Q13. If you need to store the loggedIn status of a user in JSON as a boolean, what is the correct syntax?
 
 - [ ] "loggedIn": (true)
 - [ ] loggedIn: "true"
 - [x] "loggedIn": true
 - [ ] loggedIn: {true}
+
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
 
 #### Q14. What does JSON with padding (JSON-P) use to make a request?
 
@@ -221,12 +239,16 @@
 - [ ] NaN
 - [x] null
 
+[Reference](https://cswr.github.io/JsonSchema/spec/basic_types/#:~:text=JSON%20Documents%20can%20be%20either,can%20be%20any%20of%20these.)
+
 #### Q16. Which JavaScript method converts JSON to a JavaScript value?
 
 - [x] JSON.parse()
 - [ ] JSON.stringify()
 - [ ] JSON.toString()
 - [ ] JSON.objectify()
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 
 #### Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.
 
@@ -292,6 +314,8 @@
 }
 ```
 
+[Reference](https://www.geeksforgeeks.org/json-data-types/)
+
 #### Q19. Can trailing commas be used in objects and arrays?
 
 - [x] yes
@@ -308,12 +332,16 @@
 - [ ] new lines and carriage returns only
 - [ ] double quotes only
 
+[Reference](https://www.lambdatest.com/free-online-tools/json-escape)
+
 #### Q21. Which is supported by YAML but not supported by JSON?
 
 - [ ] nested
 - [x] comments
 - [ ] arrays
 - [ ] null values
+
+[Reference](https://builtin.com/software-engineering-perspectives/yaml-vs-json)
 
 #### Q22. Which is an invalid JSON value?
 
@@ -329,6 +357,8 @@
 - [ ] Wrap the date in double quotes.
 - [ ] Add a "date" key to your object and include the date as string.
 
+[Reference](https://www.w3docs.com/snippets/javascript/the-right-json-date-format.html#:~:text=To%20represent%20dates%20in%20JavaScript,JSON%20is%20serialized%20and%20deserialized.)
+
 #### Q24. What’s wrong with this JavaScript?
 
 `JSON.parse({"first": "Sarah", "last": "Connor"}) ;`
@@ -337,6 +367,8 @@
 - [ ] JSON.parse() is missing an argument.
 - [x] The value supplied to JSON.parse() is not a string.
 - [ ] Nothing is wrong with it.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 
 #### Q25. What does this JavaScript code print?
 
@@ -390,12 +422,16 @@ null
 - [ ] JSONFiddle
 - [ ] TextEdit
 
+[Reference](https://jsonlint.com/)
+
 #### Q27. What characters denote strings in JSON?
 
 - [x] double quotes
 - [ ] smart (curly) quotes
 - [ ] single or double quotes
 - [ ] single quotes
+
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
 
 #### Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`
 
@@ -419,6 +455,8 @@ null
 - [x] Because it's a simple and adaptable format for sharing data.
 - [ ] Because it's based on JavaScript.
 - [ ] Because it is derived from SGML.
+
+[Reference](https://www.oracle.com/in/database/what-is-json/#:~:text=JSON%20has%20gained%20momentum%20in,no%20additional%20code%20for%20parsing.)
 
 #### Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
 
@@ -495,12 +533,16 @@ null
 - [ ] 1
 - [x] true
 
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
+
 #### Q34. Which array is valid JSON?
 
 - [ ] ['tatooine', 'hoth', 'dagobah']
 - [ ] [tatooine, hoth, dagobah]
 - [ ] ["tatooine", "hoth", "dagobah",]
 - [x] ["tatooine", "hoth", "dagobah"]
+
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
 
 #### Q35. What data type is encoded in the outermost component of the JSON shown?
 
@@ -520,6 +562,8 @@ null
 - [ ] number
 - [ ] string
 
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
+
 #### Q36. Which is ignored by JSON but treated as significant by YAML?
 
 - [ ] trailing commas
@@ -535,6 +579,8 @@ null
 - [ ] 0
 - [ ] ""
 - [x] null
+
+[Reference](https://cswr.github.io/JsonSchema/spec/basic_types/#:~:text=JSON%20Documents%20can%20be%20either,can%20be%20any%20of%20these.)
 
 #### Q38. How do you assign a number value in JSON?
 
@@ -566,6 +612,8 @@ null
 - [ ] 'largest': 'blue whale'
 - [ ] largest: "blue whale"
 
+[Reference](https://cswr.github.io/JsonSchema/spec/basic_types/#:~:text=JSON%20Documents%20can%20be%20either,can%20be%20any%20of%20these.)
+
 #### Q42. Which key name is used to specify data type in a JSON schema?
 
 - [ ] data
@@ -573,12 +621,16 @@ null
 - [ ] schematype
 - [x] type
 
+[Reference](https://json-schema.org/understanding-json-schema/reference/type)
+
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
 - [x] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
+
+[Reference](https://cswr.github.io/JsonSchema/spec/basic_types/#:~:text=JSON%20Documents%20can%20be%20either,can%20be%20any%20of%20these.)
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -603,12 +655,16 @@ null
 - [ ] semicolon
 - [ ] comma
 
+[Reference](https://www.microfocus.com/documentation/silk-performer/195/en/silkperformer-195-webhelp-en/GUID-6AFC32B4-6D73-4FBA-AD36-E42261E2D77E.html)
+
 #### Q47. What character separates keys from values?
 
 - [x] :
 - [ ] ->
 - [ ] ::
 - [ ] .
+
+[Reference](https://www.microfocus.com/documentation/silk-performer/195/en/silkperformer-195-webhelp-en/GUID-6AFC32B4-6D73-4FBA-AD36-E42261E2D77E.html)
 
 #### Q48. If a string contains line breaks, what should you do?
 
@@ -631,6 +687,8 @@ null
 - [ ] As a string in ISO 8583 format
 - [x] As a string in ISO 8601 format
 
+[Reference](https://www.w3docs.com/snippets/javascript/the-right-json-date-format.html#:~:text=To%20represent%20dates%20in%20JavaScript,JSON%20is%20serialized%20and%20deserialized.)
+
 #### Q51. Is the JSON code shown here valid?
 
 ![JSON object with key "Vehicles" containing an array of emojis](images/Q51/Q51.jpeg)
@@ -647,6 +705,8 @@ null
 - [ ] struct
 - [ ] indexed hash
 
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
+
 #### Q53. What are valid values in JSON?
 
 - [ ] arrays, strings, numbers, true/false
@@ -660,6 +720,8 @@ null
 - [x] "key": "value"
 - [ ] key, "value"
 - [ ] 'key': 'value'
+
+[Reference](https://www.microfocus.com/documentation/silk-performer/195/en/silkperformer-195-webhelp-en/GUID-6AFC32B4-6D73-4FBA-AD36-E42261E2D77E.html)
 
 #### Q55. What data type is encoded in the outermost component of the JSON shown?
 
@@ -884,7 +946,7 @@ variance: -0.0823
 - [x] "variance": "-0.0823"
 - [ ] "variance": "\-0.0823"
 
-[Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
+[Reference](https://www.w3schools.com/js/js_json_datatypes.asp)
 
 #### Q83. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?
 

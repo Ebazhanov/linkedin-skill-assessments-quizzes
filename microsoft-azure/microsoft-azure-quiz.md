@@ -572,3 +572,48 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
       az ad app permission add -display-name $appName \
           --homepage "http://localhost/$appName" \
           --identifier-uris [http://localhost/$appName](http://localhost/$appName)
+
+#### Q72. In the Azure Service Bus, what is the purpose of the dead letter queue?
+
+- [ ] It is used to ensure that the Azure Bus Service queue can deliver messages in a First-In-First-Out manner.
+- [ ] It can be used for load balancing queues.
+- [ ] It is a duplicate queue used as a backup queue.
+- [x] It is used to store messages which could not be delivered.
+
+[Ref](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues)
+
+#### Q73. You have a WCF application on-premises behind a firewall, and you need to expose it to an Azure web role. Which of the following services would be the best solution?
+
+- [ ] Azure Data Management Gateway
+- [ ] Service Bus Topics
+- [ ] Azure On-Premises Data Gateway
+- [x] WCF Relay
+
+[Ref](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-hybrid-connections-dotnet-get-started)
+
+#### Q74. When using Azure Service Bus, a single message sent to a topic can be received by multiple subscriptions. Is this true?
+
+- [x] Yes
+- [ ] Yes, if the message metadata allows it
+- [ ] No
+- [ ] No, the first subscription to process it gets it
+
+[Ref](https://azure.microsoft.com/en-us/documentation/articles/service-bus-fundamentals-hybrid-solutions/#topics)
+
+#### Q75. You're designing a solution that needs to be low cost and to expose a WCF application that lives on-premises to a Web API that lives in Azure. Which of the following will be added to your design?
+
+- [ ] A point-to-site VPN
+- [ ] A site-to-site VPN
+- [x] WCF Relay
+- [ ] Self-Hosted Integration Runtime
+
+[Ref](https://docs.microsoft.com/en-us/azure/azure-relay/service-bus-dotnet-hybrid-app-using-service-bus-relay)
+
+#### Q76. What are the core messaging entities in Azure Service Bus?
+
+- [ ] Queues, transactions, and messages
+- [x] Queues, topics, and subscriptions
+- [ ] Topics, subscriptions, and message sessions
+- [ ] Queues, message locks, and transactions
+
+[Ref](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
