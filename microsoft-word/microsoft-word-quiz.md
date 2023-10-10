@@ -775,7 +775,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Group
 - [x] Send to back
 
-#### Q99. Which selecton handle should you drag to rotate the object?
+#### Q99. Which selection handle should you drag to rotate the object?
 
 ![Q99.png](images/Q99.png)
 
@@ -798,17 +798,17 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] Bookmark
 - [ ] Jump
 
-#### Q102. Which page orientation should you select to accomdate a wide chart or table?
+#### Q102. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Wide
-- [ ] Potrait
+- [ ] Portrait
 - [x] Landscape
 - [ ] None of the above
 
 #### Q103. For what task can you not use the style inspector?
 
 - [ ] displaying the paragraph formatting at the insertion point
-- [ ] resestting or clearing paragraph or text-level formatting
+- [ ] resetting or clearing paragraph or text-level formatting
 - [x] recommending style changes for improved accessibility
 - [ ] displaying the text-level formatting at the insertion point
 
