@@ -53,49 +53,7 @@ C: Storage is not limited. You can have as much storage as you like.
 
 
 
-
-#### Q3. Your corporate web application is hosted in Azure regional data centres around the world. You need to route user requests to the closest service endpoint based on response latency. Which routing method should you use?
-
-- [x] No change is needed
-- [ ] Deploy a VPN
-- [ ] pay to transfer all the website data to Azure
-- [ ] reduce the number of connections to the website
-
-Explanation/Reference:
-Explanation:
-When planning to migrate a public website to Azure, you must plan to pay monthly usage costs. This is
-because Azure uses the pay-as-you-go model.
-Incorrect Answers:
-B: You do not need a VPN for Azure web sites.
-C: You do not pay to transfer data into Azure web sites.
-D: You do not need to reduce the number of connections to the website.
-
-
-
-#### Q4. Note: This question is part of a series of questions that present the same scenario. Each question in
-the series contains a unique solution that might meet the stated goals. Some question sets might
-have more than one correct solution, while others might not have a correct solution. 
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-questions will not appear in the review screen. 
-Your company plans to migrate all its data and resources to Azure. 
-The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in
-Azure. 
-You need to deploy an Azure environment that meets the company migration plan. 
-Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server
-installed.
-Does this meet the goal?
-
-- [ ] Yes
-- [X] No
-
-Explanation/Reference:
-Explanation:
-Azure App Service is a PaaS (Platform as a Service) service. However, Azure virtual machines are an IaaS
-(Infrastructure as a Service) service. Therefore, this solution does not meet the goal.
-
-
-
-#### Q5. Your company hosts an accounting application named App1 that is used by all the customers of the
+#### Q3. Your company hosts an accounting application named App1 that is used by all the customers of the
 company. 
 App1 has low usage during the first three weeks of each month and very high usage during the last week of
 each month. 
@@ -121,7 +79,7 @@ the purchase or maintenance of additional resources and equipment.
 
 
 
-#### Q6. You plan to migrate a web application to Azure. The web application is accessed by external users. 
+#### Q4. You plan to migrate a web application to Azure. The web application is accessed by external users. 
 You need to recommend a cloud deployment solution to minimize the amount of administrative effort used to
 manage the web application. 
 What should you include in the recommendation?
@@ -141,8 +99,7 @@ Services.
 [Ref](https://docs.microsoft.com/en-us/azure/security/fundamentals/paas-applications-using-app-services)
 
 
-
-#### Q7. You have an on-premises network that contains 100 servers. 
+#### Q5. You have an on-premises network that contains 100 servers. 
 You need to recommend a solution that provides additional resources to your users. The solution must
 minimize capital and operational expenditure costs. 
 What should you include in the recommendation?
@@ -170,7 +127,7 @@ of the new infrastructure to host the private cloud
 
 
 
-#### Q8. You plan to migrate several servers from an on-premises network to Azure. 
+#### Q6. You plan to migrate several servers from an on-premises network to Azure. 
 What is an advantage of using a public cloud service for the servers over an on-premises network
 
 
@@ -193,67 +150,7 @@ access your cloud resources until you create user accounts and provide the appro
 
 
 
-#### Q9. Note: This question is part of a series of questions that present the same scenario. Each question in
-the series contains a unique solution that might meet the stated goals. Some question sets might
-have more than one correct solution, while others might not have a correct solution.
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-questions will not appear in the review screen.
-You plan to deploy several Azure virtual machines.
-You need to ensure that the services running on the virtual machines are available if a single data center
-fails.
-Solution: You deploy the virtual machines to two or more scale sets.
-Does this meet the goal?
-
-- [ ] YES
-- [X] NO
-
-Explanation/Reference:
-Explanation:
-This answer does not specify that the scale set will be configured across multiple data centers so this solution
-does not meet the goal.
-Azure virtual machine scale sets let you create and manage a group of load balanced VMs. The number of
-VM instances can automatically increase or decrease in response to demand or a defined schedule. Scale
-sets provide high availability to your applications, and allow you to centrally manage, configure, and update
-many VMs. 
-Virtual machines in a scale set can be deployed across multiple update domains and fault domains to
-maximize availability and resilience to outages due to data center outages, and planned or unplanned
-maintenance events.
-
-[Ref](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/availability)
-
-
-
-
-#### Q10. Note: This question is part of a series of questions that present the same scenario. Each question in
-the series contains a unique solution that might meet the stated goals. Some question sets might
-have more than one correct solution, while others might not have a correct solution.
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-questions will not appear in the review screen.
-You plan to deploy several Azure virtual machines.
-You need to ensure that the services running on the virtual machines are available if a single data center
-fails.
-Solution: You deploy the virtual machines to two or more availability zones.
-Does this meet the goal?
-
-
-- [X] YES
-- [ ] NO
-
-Explanation/Reference:
-Explanation:
-Availability zones expand the level of control you have to maintain the availability of the applications and
-data on your VMs. An Availability Zone is a physically separate zone, within an Azure region. There are three
-Availability Zones per supported Azure region.
-Each Availability Zone has a distinct power source, network, and cooling. By architecting your solutions to
-use replicated VMs in zones, you can protect your apps and data from the loss of a datacenter. If one zone is
-compromised, then replicated apps and data are instantly available in another zone.
-
-[Ref](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/availability)
-
-
-
-
-#### Q11. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.
+#### Q7. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.
 You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.
 You need to identify which expenditure model to use for the planned Azure solution.
 Which expenditure model should you identify?
@@ -273,9 +170,7 @@ fundamentally and positively affect the cost of a service you use by merely shut
 [Ref](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/appendix/azure-scaffold)
 
 
-
-
-#### Q12. Your company has an on-premises network that contains multiple servers.
+#### Q8. Your company has an on-premises network that contains multiple servers.
 The company plans to reduce the following administrative responsibilities of network administrators:
 Backing up application data
 Replacing failed server hardware
@@ -306,27 +201,7 @@ E: Microsoft have no control over the shared folders you host on the virtual mac
 
 
 
-
-#### Q13. You plan to provision Infrastructure as a Service (IaaS) resources in Azure.
-Which resource is an example of IaaS?
-
-- [ ] an Azure web app
-- [x] an Azure virtual machine
-- [ ] an Azure logic app
-- [ ] an Azure SQL database
-
-Explanation/Reference:
-Explanation:
-An Azure virtual machine is an example of Infrastructure as a Service (IaaS).
-Azure web app, Azure logic app and Azure SQL database are all examples of Platform as a Service (Paas).
-
-[Ref](https://azure.microsoft.com/en-gb/overview/what-is-iaas/)
-[Ref](https://azure.microsoft.com/en-gb/overview/what-is-paas/)
-
-
-
-
-#### Q14. A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure Resource Manager templates.
+#### Q9. A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure Resource Manager templates.
 You need to recommend which Azure service will minimize the administrative effort required to deploy and
 remove the virtual machines. 
 What should you recommend?
@@ -346,26 +221,3 @@ Scale up your load testing by provisioning multiple test agents and create pre-p
 
 [Ref](https://docs.microsoft.com/en-us/azure/lab-services/devtest-lab-overview)
 
-
-
-#### Q15. Note: This question is part of a series of questions that present the same scenario. Each question in
-the series contains a unique solution that might meet the stated goals. Some question sets might
-have more than one correct solution, while others might not have a correct solution.
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-questions will not appear in the review screen.
-You plan to deploy several Azure virtual machines.
-You need to ensure that the services running on the virtual machines are available if a single data center
-fails.
-Solution: You deploy the virtual machines to two or more resource groups.
-Does this meet the goal?
-
-- [ ] Yes
-- [X] No
-
-Explanation/Reference:
-Explanation:
-A resource group is a logical container for Azure resources. When you create a resource group, you specify
-which location to create the resource group in. However, when you create a virtual machine and place it in
-the resource group, the virtual machine can still be in a different location (different datacenter). Therefore, creating multiple resource groups, even if they are in separate datacenters does not ensure that the services running on the virtual machines are available if a single data center fails.
-
-[Ref](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview#resource-groups)
