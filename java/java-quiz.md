@@ -2171,8 +2171,8 @@ Queue<Rainfall>
 
 #### Q151. `void accept(T t)` is method of which Java functional interface?
 
-- [x] Consumer
 - [ ] Producer
+- [x] Consumer
 - [ ] Both
 - [ ] None
 
