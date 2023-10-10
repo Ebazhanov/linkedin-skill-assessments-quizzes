@@ -988,7 +988,7 @@ aws ecs create-service \
 
 [Reference](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
-#### Q116. ****\_\_\_**** are predefined, out-of-the-box policies that grant permissions for common use cases to eliminate the need to determine what permissions are needed.
+#### Q116. \***\*\_\_\_\*\*** are predefined, out-of-the-box policies that grant permissions for common use cases to eliminate the need to determine what permissions are needed.
 
 - [ ] Resource policies
 - [x] AWS managed policies
