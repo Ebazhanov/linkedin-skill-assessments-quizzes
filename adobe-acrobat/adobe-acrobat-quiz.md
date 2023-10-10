@@ -260,13 +260,6 @@
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
 
-#### Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
-
-- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
-- [ ] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
-- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
-- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
-
 #### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
 
 - [ ] The text is redacted.
@@ -288,6 +281,15 @@
 - [x] Re-order the bookmarks in the Bookmarks pane by dragging.
 - [ ] Nothing, The bookmarks will still be correct.
 
+#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+- [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
+
+[Reference]([Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html))
+
 #### Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?
 
 - [x] The field name is incorrect.
@@ -299,15 +301,19 @@
 
 - [ ] **Comment panel menu**
 - [ ] **Properties Toolbar**
-- [ ] **Preferences > Commenting**
+- [x] **Preferences > Commenting**
 - [ ] **Preferences > Reviewing**
+
+[Reference](https://helpx.adobe.com/in/acrobat/using/commenting-pdfs.html)
 
 #### Q43. In a complex forms document, one field is currently a drop-down list field. However, the client specifies that it should instead be a multi-line text field. How can you do what the client requests?
 
 - [ ] Select the drop-down field and then click the **Dropdown** icon in the secondary toolbar.
-- [ ] Right-click the drop-down field and select **Properties** from the context menu.
+- [x] Right-click the drop-down field and select **Properties** from the context menu.
 - [ ] Delete the drop-down field and create a text field in its place.
 - [ ] Select the drop-down field and then click **Prepare Form** in the right pane.
+
+[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)
 
 #### Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?
 
