@@ -2,14 +2,14 @@
 
 #### Q1. In WordPress, what is the Loop used to do?
 
-- [ ] It displays a single page.
+- [ ] It displays a single page
 - [ ] It displays posts on an archive.
-- [ ] It displays a single post.
-- [x] all of these answers
+- [ ] It displays a single post
+- [x] All of the above
 
 #### Q2. Who owns the trademark for WordPress and WordCamp names and logos?
 
-- [x] WordPress Foundation (The WordPress Foundation owns and oversees the trademarks for the WordPress and WordCamp names and logos.)
+- [x] WordPress Foundation (The WordPress Foundation owns and oversees the trademarks for the WordPress and WordCamp names and logos)
 - [ ] WordPress.com
 - [ ] Matt Mullenweg
 - [ ] Automattic
@@ -24,7 +24,7 @@
 #### Q4. The REST API is a simple way to get data in and out of WordPress over HTTP. Applications using the REST API should be written in which programming language?
 
 - [ ] PHP
-- [x] any programming language that can make HTTP requests and interpret JSON
+- [x] Any programming language that can make HTTP requests and interpret JSON
 - [ ] Java
 - [ ] Node.js
 
@@ -39,8 +39,8 @@
 
 - [ ] Plugins are available in free or premium (paid) versions.
 - [ ] Plugins can extend WordPress core functionality.
-- [x] all of these answers
 - [ ] Plugins add site-specific features.
+- [x] All of the above
 
 #### Q7. Akismet is a plugin that comes automatically installed with WordPress. What does it do?
 
@@ -53,8 +53,8 @@
 
 - [ ] Only load scripts and styles on pages where they are needed.
 - [ ] Minify CSS and JavaScript files.
-- [x] all of these answers
 - [ ] Use a CDN.
+- [x] All of the above
 
 #### Q9. The REST API utilizes which data format?
 
@@ -127,7 +127,7 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 - [ ] 0
 - [ ] 5
 
-#### Q16. What's the primary difference between template tags prefaced with the **versus get_the**?
+#### Q16. What is the primary difference between template tags prefaced with the **versus get_the**?
 
 - [ ] Template tags prefaced with the \_ don't accept arguments.
 - [ ] Template tags prefaced with the \_ can be used directly within a template.
