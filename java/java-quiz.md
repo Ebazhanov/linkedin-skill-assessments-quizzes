@@ -1246,7 +1246,7 @@ class Main {
 }
 ```
 
-- [] It will not compile.
+- [ ] It will not compile.
 - [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
@@ -2431,3 +2431,12 @@ public interface Square {
 ```
 
 [Reference](https://www.baeldung.com/java-8-functional-interfaces)
+
+
+#### Q166. Calculate the space complexity of the following program.
+- [ ] O(1)
+- [x] O(N)
+- [ ] O(N^2)
+- [ ] O(log(N))
+
+//In this program, a dynamic array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
