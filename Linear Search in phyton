@@ -1,0 +1,26 @@
+def linear_search(arr, target):
+    """
+    Perform linear search to find the target in the given list.
+
+    Args:
+    arr (list): The list to be searched.
+    target: The element to be searched for in the list.
+
+    Returns:
+    int: Index of the target element if found, -1 otherwise.
+    """
+    for index, element in enumerate(arr):
+        if element == target:
+            return index
+    return -1
+
+# Example usage
+arr = [2, 5, 1, 9, 7, 3, 6]
+target = 7
+
+result = linear_search(arr, target)
+
+if result != -1:
+    print(f"Element found at index {result}.")
+else:
+    print("Element not found in the list.")
