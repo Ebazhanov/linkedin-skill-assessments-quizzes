@@ -288,7 +288,7 @@
 - [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
 - [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
 
-[Reference]([Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html))
+[Reference](<[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)>)
 
 #### Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?
 
