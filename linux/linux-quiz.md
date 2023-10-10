@@ -921,16 +921,16 @@ cat < in.txt > out.txt
 
 [Reference](https://linuxhandbook.com/redirection-linux/)
 
-#### Q112. In a shell script, _____ means OR.
+#### Q112. In a shell script, **\_** means OR.
 
 - [x] ||
 - [ ] &
 - [ ] |
 - [ ] &&
-      
+
 [Reference](https://www.geeksforgeeks.org/basic-operators-in-shell-scripting/)
 
-#### Q113. On a Linux or Unix system using X Window, the GVim * register _____.
+#### Q113. On a Linux or Unix system using X Window, the GVim \* register **\_**.
 
 - [x] contains text that is highlighted or selected with the mouse
 - [ ] is the same thing as the + register

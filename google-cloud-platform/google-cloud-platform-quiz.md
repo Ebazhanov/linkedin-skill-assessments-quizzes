@@ -615,7 +615,7 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] Admin Activity
 - [ ] Data Access
 
-#### Q75. When setting the condition for a rule in Google Cloud Armor, _____ mode allows you to filter only by IP address or CIDR range.
+#### Q75. When setting the condition for a rule in Google Cloud Armor, **\_** mode allows you to filter only by IP address or CIDR range.
 
 - [ ] IP/CIDR
 - [ ] Advanced
@@ -651,7 +651,7 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 
 [Reference](https://cloud.google.com/storage/docs/access-control/create-manage-lists)
 
-#### Q79. In Google Cloud Platform, the _____ role grants read-only access to the Access Transparency logs and to Data Access audit logs, in addition to the access granted by the Logs Viewer role.
+#### Q79. In Google Cloud Platform, the **\_** role grants read-only access to the Access Transparency logs and to Data Access audit logs, in addition to the access granted by the Logs Viewer role.
 
 - [x] Private Logs Viewer
 - [ ] Project Writer
