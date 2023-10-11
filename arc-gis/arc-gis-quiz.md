@@ -210,3 +210,12 @@
 - [x] For the Manufacturer field, create the list of values as a coded-value domain.
 
 [Reference](https://doc.arcgis.com/en/arcgis-online/manage-data/hosted-web-layers.htm)
+
+#### Q28. You add a north arrow to a layout in ArcGIS Pro. Which direction does it point by default?
+
+- [x] Map North
+- [ ] Magnetic North
+- [ ] True North
+- [ ] Grid North
+      
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
