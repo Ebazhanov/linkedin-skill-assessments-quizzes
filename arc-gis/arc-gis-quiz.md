@@ -217,5 +217,5 @@
 - [ ] Magnetic North
 - [ ] True North
 - [ ] Grid North
-      
+
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
