@@ -339,10 +339,10 @@ public class SampleController {
 
 #### Q40. How do you inject a dependency into a Spring bean?
 
-- [x] any of these answers
+- [ ] Use field injection.
 - [ ] Annotate a Setter method with the @Autowired annotation.
 - [ ] Specify parameters in the constructor with an optional @Autowired annotation.
-- [ ] Use field injection.
+- [x] Any of the above.
 
 #### Q41. Consider the properties file application.properties. How would you load the property my.property?
 
@@ -427,9 +427,9 @@ private String val;
 #### Q48. How does the transaction propagation setting impact the behavior of transactions?
 
 - [ ] It ensures that transactions that are commited to the database are propagated to all the shards of a clustered database system.
-- [ ] None of these answers is correct.
-- [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
 - [x] It enforces that a logical transaction scope is created for each method that determines rollback-only status, with an outer transaction scope being logically independent from the inner transaction scope.
+- [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
+- [ ] None of the above
 
 #### Q49. What is printed when this code is run as a @SpringBootApplication?
 
@@ -577,10 +577,10 @@ Explanation: `@Bean`-method in `@Configuration` must be overridable. Remove the 
 
 #### Q58. Assuming no additional configuration is provided, what is the first selection criteria Spring uses to choose a bean when autowiring a property?
 
-- [ ] none of these answers
+- [x] bean name
 - [ ] bean type
 - [ ] bean size
-- [x] bean name
+- [ ] None of the above
 
 #### Q59. What is the result of calling the map controller method using the following HTTP request?
 
@@ -681,9 +681,9 @@ class Service {}
 `within(com.linkedin.service..*)`
 
 - [ ] any join point only within the service package
-- [ ] This is not valid Pointcut expression
-- [ ] any method in a class that autowires a service bean
 - [x] any join point within the service package or one of its subpackages
+- [ ] any method in a class that autowires a service bean
+- [ ] This is not valid Pointcut expression
 
 #### Q66. What is the output from invoking this Actuator endpoint in an unmodified Spring Boot application generated using Spring Intializr?
 
@@ -923,8 +923,8 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 
 - [x] all methods defined in the service package or one of it's subpackages
 - [ ] all methods defined in the service package
-- [ ] The pointcut is not valid.
 - [ ] all methods defined in a service interface
+- [ ] The pointcut is invalid.
 
 #### Q87. Which is not a core facet of Spring's ecosystem?
 
