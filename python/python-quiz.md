@@ -60,12 +60,16 @@ if any([True, False, False, False]) == True:
 - [ ] Tuple matching.
 - [ ] Tuple duplication.
 
+[Reference](https://www.w3schools.com/python/python_tuples_unpack.asp)
+
 #### Q7. What built-in list method would you use to remove items from a list?
 
 - [ ] `.delete()` method
 - [ ] `pop(my_list)`
 - [ ] `del(my_list)`
 - [x] `.pop()` method
+
+[Reference](https://www.w3schools.com/python/ref_list_pop.asp)
 
 **example**
 
@@ -188,6 +192,8 @@ return list(enumerate(college_years, 2019))
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
+[Reference](https://www.geeksforgeeks.org/self-in-python-class/)
+
 **Simple example**
 
 ```python
@@ -248,12 +254,16 @@ instance.password
 - [x] `my_game = Game()`
 - [ ] `my_game = Game.create()`
 
+[Reference](https://www.w3schools.com/python/python_classes.asp)
+
 #### Q21. What does the built-in `map()` function do?
 
 - [ ] It creates a path from multiple values in an iterable to a single value.
 - [x] It applies a function to each item in an iterable and returns the value of that function.
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
+
+[Reference](https://www.geeksforgeeks.org/python-map-function/)
 
 **Explanation:** - The syntax for `map()` function is `list(map(function,iterable))`. The simple area finder using a map would be like this
 
@@ -298,12 +308,16 @@ The pass statement is used as a placeholder for future code. When the pass state
 - [ ] `queue`
 - [ ] `sorted list`
 
-#### Q26. When does a for loop stop iterating?
+[Reference](https://www.w3schools.com/python/python_dictionaries.asp)
+
+#### Q26. When does a For loop stop iterating?
 
 - [ ] when it encounters an infinite loop
 - [ ] when it encounters an if/else statement that contains a break keyword
 - [x] when it has assessed each item in the iterable it is working on or a break keyword is encountered
 - [ ] when the runtime for the loop exceeds O(n^2)
+
+[Reference](https://www.w3schools.com/python/python_for_loops.asp)
 
 #### Q27. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
 
@@ -387,6 +401,8 @@ return output
 - [ ] The `all()` function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list are evaluated to True. Otherwise, it returns False.
+
+[Reference](https://www.geeksforgeeks.org/python-all-function/)
 
 **Explanation:** `all()` returns `True` if all in the list are `True`. See example below:
 
@@ -648,6 +664,8 @@ fruit_info = {
 - [ ] It is included to preserve backward compatibility from Python 3 to Python 2, but it no longer needs to be used in Python 3.
 - [x] It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
 - [ ] It initializes any imports you may have included at the top of your file.
+
+[Reference](https://www.geeksforgeeks.org/__init__-in-python/)
 
 **Example:**
 
@@ -954,6 +972,8 @@ This will import example.py as a standalone module and run testmod() on it. Note
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
+
+[Reference](https://www.geeksforgeeks.org/python-difference-between-list-and-tuple/)
 
 #### Q69. What does a generator return?
 
