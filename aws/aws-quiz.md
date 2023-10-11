@@ -978,3 +978,48 @@ aws ecs create-service \
 - [ ] Switch API access keys at run-time based on the user's log in state.
 - [ ] Set policies on the database table (DynamoDB or RDS) for user permissions.
 - [x] Expose an API Gateway for public use to fetch content and a second API for writing content requiring an auth token.
+
+#### Q115. If a user requires programmatic access to your AWS resources, what is required to authenticate?
+
+- [x] Access Keys
+- [ ] Key pair
+- [ ] MFA activated on the user account
+- [ ] A role association
+
+[Reference](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
+
+#### Q116. \***\*\_\_\_\*\*** are predefined, out-of-the-box policies that grant permissions for common use cases to eliminate the need to determine what permissions are needed.
+
+- [ ] Resource policies
+- [x] AWS managed policies
+- [ ] Customer managed policies
+- [ ] Inline policies
+
+[Reference](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
+
+#### Q117. Within an IAM policy, the **\_\_** **\_ \_\_\_\_** are top-level policy elements whereas the rest of them are statement-level elements.
+
+- [ ] ID and Principal
+- [ ] Version and ID
+- [ ] ID and Statement
+- [x] Version and Statement
+
+[Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html)
+
+#### Q118. Return traffic to all EC2 instances in a VPC's new public subnet is somehow blocked. You would like to ensure that return traffic from all potential clients is received moving forward. Which port range should you allow to ensure that return traffic from all potential clients is received?
+
+- [ ] 1-1024
+- [x] 1024-65535
+- [ ] 1024-50000
+- [ ] 1-65535
+
+[Reference](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html#VPC_ACLs_Ephemeral_Ports)
+
+#### Q119. You manage AWS credentials for a company that is onboarding two new employees: one is an HR administrator, and the other is a developer. The Dev team is large and has an IAM group within the company's AWS accounts, but Human Resources currently has a single employee with no plans to expand the department. It is company policy to provide long-term credentials to AWS employees in a manner that allows simple reassignment in the case of any promotions or resignations. How can you provide appropriate AWS access to the new developer and follow company policy? (Choose 2 answers)
+
+- [ ] Attach appropriate IAM policies to the new developer's IAM user.
+- [x] Add the new developer to the Developer IAM Group.
+- [ ] Attach a new IAM role to the new developer's IAM user.
+- [x] Create a new IAM user for the developer.
+
+[Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)

@@ -14738,6 +14738,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "haxkd",
+      "name": "Abul Hasan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33129246?v=4",
+      "profile": "https://haxkd.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sudhanshu-77",
+      "name": "Sudhanshu Tripathi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97780892?v=4",
+      "profile": "https://github.com/sudhanshu-77",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "siddwarr",
+      "name": "Siddharth Warrier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117698635?v=4",
+      "profile": "https://github.com/siddwarr",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

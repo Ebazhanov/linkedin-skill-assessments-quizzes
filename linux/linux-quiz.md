@@ -911,3 +911,48 @@ cat < in.txt > out.txt
 - [x] `assemble` is used to build existing RAID arrays.
 - [ ] `assemble` is a synonym for `create`.
 - [ ] `assemble` is used to build new RAID arrays.
+
+#### Q111. Which of the following types is not a default type of input/output in Linux?
+
+- [ ] standard error
+- [ ] standard input
+- [ ] standard output
+- [x] standard file
+
+[Reference](https://linuxhandbook.com/redirection-linux/)
+
+#### Q112. In a shell script, **\_** means OR.
+
+- [x] ||
+- [ ] &
+- [ ] |
+- [ ] &&
+
+[Reference](https://www.geeksforgeeks.org/basic-operators-in-shell-scripting/)
+
+#### Q113. On a Linux or Unix system using X Window, the GVim \* register **\_**.
+
+- [x] contains text that is highlighted or selected with the mouse
+- [ ] is the same thing as the + register
+- [ ] is unused
+- [ ] contains all yank, delete, change, and put operations
+
+[Reference](https://github.com/hieuvp/learning-linux/blob/master/vim-masterclass/vim-graphical-user-interfaces-gvim-and-macvim/README.md)
+
+#### Q114. What system mode does Linux runlevel 0 indicate?
+
+- [x] system halt
+- [ ] multi user
+- [ ] single user mode
+- [ ] system reboot
+
+[Reference](http://www.tldp.org/LDP/sag/html/major-services.html)
+
+#### Q115. Which of the following choices is not a mode in Vi?
+
+- [ ] insert
+- [ ] line
+- [x] edit
+- [ ] command
+
+[Reference](https://github.com/hieuvp/learning-linux/blob/master/vim-masterclass/vim-graphical-user-interfaces-gvim-and-macvim/README.md)
