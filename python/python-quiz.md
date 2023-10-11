@@ -203,7 +203,7 @@ instance.password
 #### Q15. Which of these is NOT a characteristic of namedtuples?
 
 - [ ] You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.
-- [ ] Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.
+- [ ] Each member of a namedtuple object can be indexed directly, just like in a regular `tuple`.
 - [ ] `namedtuples` are just as memory efficient as regular `tuples`.
 - [x] No import is needed to use `namedtuples` because they are available in the standard library.
 
@@ -782,26 +782,26 @@ def __init__(self):
 #### Q54. Which of the following is TRUE About how numeric data would be organized in a Binary Search Tree?
 
 - [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
-- [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
-- [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
-- [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
+- [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complications that arise with very deep trees.
+- [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to be ordered in any particular way.
+- [ ] The smallest numeric value would go in the topmost node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their node.
 
 In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree.
 [reference](https://en.wikipedia.org/wiki/Binary_search_tree#:~:text=In%20computer%20science%2C%20a%20binary,ones%20in%20its%20right%20subtree.)
 
 #### Q55. Why would you use a decorator?
 
-- [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
+- [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object-oriented programming.
 - [ ] A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
-- [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
+- [x] You use the decorator to alter the functionality of a function without having to modify the function code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
-Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+Decorators allow us to wrap another function to extend the behavior of the wrapped function, without permanently modifying it.
 [reference](https://www.geeksforgeeks.org/decorators-in-python/)
 
 #### Q56. When would you use a for loop?
 
-- [ ] Only in some situations, as loops are used only for certain type of programming.
+- [ ] Only in some situations, as loops are used only for certain types of programming.
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
@@ -814,7 +814,7 @@ Decorators allow us to wrap another function in order to extend the behaviour of
 
 ```python
 def tax(my_float):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+    ''' Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
     pass
 ```
 
@@ -822,14 +822,14 @@ def tax(my_float):
 
 ```python
 def tx(amt):
-    '''Gets the tax on an amount.'''
+    ''' Gets the tax on an amount.'''
 ```
 
 - [ ] C:
 
 ```python
 def sales_tax(amount):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+    ''' Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
 - [x] D:
@@ -875,21 +875,21 @@ You want to use one particular feature in a lot of different classes.
 - [ ] Add items to a stack in O(1) time and remove items from a stack on O(n) time.
 - [x] Add items to a stack in O(1) time and remove items from a stack in O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
-- [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
+- [ ] Add items to a stack in O(n) time and remove items from a stack in O(n) time.
 
 #### Q62. Which statement accurately describes how items are added to and removed from a stack?
 
-- [ ] a stacks adds items to one side and removes items from the other side.
-- [x] a stacks adds items to the top and removes items from the top.
-- [ ] a stacks adds items to the top and removes items from anywhere in the stack.
-- [ ] a stacks adds items to either end and removes items from either end.
+- [ ] a stack adds items to one side and removes items from the other side.
+- [x] a stack adds items to the top and removes items from the top.
+- [ ] a stack adds items to the top and removes items from anywhere in the stack.
+- [ ] a stack adds items to either end and removes items from either end.
 
 **Explanation:** Stack uses the _last in first out_ approach.
 
 #### Q63. What is a base case in a recursive function?
 
 - [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
-- [ ] The base case is summary of the overall problem that needs to be solved.
+- [ ] The base case is a summary of the overall problem that needs to be solved.
 - [ ] The base case is passed in as an argument to a function whose body makes use of recursion.
 - [ ] The base case is similar to a base class, in that it can be inherited by another object.
 
@@ -900,7 +900,7 @@ You want to use one particular feature in a lot of different classes.
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
-It is good practice to use the with keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
+It is good practice to use the 'with' keyword when dealing with file objects. The advantage is that the file is properly closed after its suite finishes, even if an exception is raised at some point. Using with is also much shorter than writing equivalent try-finally blocks:
 
 **example**
 
@@ -938,7 +938,7 @@ This will import example.py as a standalone module and run testmod() on it. Note
 #### Q67. What is a lambda function ?
 
 - [ ] any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing
-- [ ] a function that get executed when decorators are used
+- [ ] a function that gets executed when decorators are used
 - [ ] any function whose definition is contained within five lines of code or fewer
 - [x] a small, anonymous function that can take any number of arguments but has only expression to evaluate
 
@@ -946,7 +946,7 @@ This will import example.py as a standalone module and run testmod() on it. Note
 
 **Explanation:**
 
-> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introduced in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
+> The lambda notation is an anonymous function that can take any number of arguments with only a single expression (i.e., cannot be overloaded). It has been introduced in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
 
 #### Q68. What is the primary difference between lists and tuples?
 
@@ -967,9 +967,9 @@ This will import example.py as a standalone module and run testmod() on it. Note
 - [ ] Instance attributes can be changed, but class attributes cannot be changed
 - [x] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
 - [ ] There is no difference between class attributes and instance attributes
-- [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
+- [ ] Class attributes belong just to the class, not to the instance of that class. Instance attributes are shared among all instances of a class
 
-#### Q71. What is the correct syntax of creating an instance method?
+#### Q71. What is the correct syntax for creating an instance method?
 
 - [ ] :
 
@@ -1006,7 +1006,7 @@ def self.get_next_card(self):
 - [ ] `def get_max_num([57, 99, 31, 18])`
 - [ ] `call.get_max_num([57, 99, 31, 18])`
 
-#### Q73. How do you add a comment to existing Python script?
+#### Q73. How do you add a comment to an existing Python script?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
@@ -1033,14 +1033,14 @@ my_list = ['kiwi', 'apple', 'banana']
 - [x] Your code will get stuck in an infinite loop.
 - [ ] You will get a WhileLoopError.
 
-#### Q76. Describe the functionality of a queue?
+#### Q76. Describe the functionality of a queue.
 
 - [x] A queue adds items to either end and removes items from either end.
 - [ ] A queue adds items to the top and removes items from the top.
-- [ ] A queue adds items to the top, and removes items from anywhere in, a list.
+- [ ] A queue adds items to the top and removes items from anywhere in, a list.
 - [ ] A queue adds items to the top and removes items from anywhere in the queue.
 
-#### Q77. Which choice is the most syntactically correct example of the conditional branching?
+#### Q77. Which choice is the most syntactically correct example of conditional branching?
 
 - [x] A:
 
@@ -1099,13 +1099,13 @@ else;
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
-`defaultdict` is a container like dictionaries present in the module collections. The functionality of both dictionaries and `defaultdict` are almost same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exists.
+`defaultdict` is a container like dictionary present in the module collections. The functionality of both dictionaries and `defaultdict` are almost the same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exist.
 
 **example**
 
 ```python
 # Function to return a default
-# values for keys that is not
+# values for keys that are not
 # present
 def def_value():
     return "Not Present"
@@ -1259,7 +1259,7 @@ np.ones([1,2,3,4,5])
 ```
 
 - [x] A set of all the multiples of 3 less than 100.
-- [ ] A set of all the number from 0 to 100 multiplied by 3.
+- [ ] A set of all the numbers from 0 to 100 multiplied by 3.
 - [ ] A list of all the multiples of 3 less than 100.
 - [ ] A set of all the multiples of 3 less than 100 excluding 0.
 
@@ -1272,7 +1272,7 @@ np.ones([1,2,3,4,5])
 - [ ] Find the remainder of a division operation.
 - [ ] Perform floating point division.
 
-#### Q88. What file is imported to use dates in python?
+#### Q88. What file is imported to use dates in Python?
 
 - [x] `datetime`
 - [ ] `dateday`
@@ -1365,9 +1365,9 @@ num_list.remove(2)
 
 [Reference](https://www.w3schools.com/python/python_tuples.asp)
 
-#### Q95. Which fragment of code will print exactly the same output as this fragment?
+#### Q95. Which fragment of code will print the same output as this fragment?
 
-```python
+```Python
 import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
@@ -1464,7 +1464,7 @@ print (f"The number is {number}")
 
 - [x] Vectorization.
 - [ ] Attributions.
-- [ ] Accelaration.
+- [ ] Acceleration.
 - [ ] Functional programming.
 
 #### Q102. What built-in Python data type can be used as a hash table?
@@ -1518,7 +1518,7 @@ for letter in my_dictionary.values():
 #### Q106. When would you use a try/except block in code?
 
 - [x] You use `try/except` blocks when you want to run some code, but need a way to execute different code if an exception is raised.
-- [ ] You use `try/except` blocks inside of unit tests so that the unit testes will always pass.
+- [ ] You use `try/except` blocks inside of unit tests so that the unit tests will always pass.
 - [ ] You use `try/except` blocks so that you can demonstrate to your code reviewers that you tried a new approach, but if the new approach is not what they were looking for, they can leave comments under the `except` keyword.
 - [ ] You use `try/except` blocks so that none of your functions or methods return `None`.
 
@@ -1528,7 +1528,7 @@ for letter in my_dictionary.values():
 
 - [x] `because of the level of indentation after the for loop`
 - [ ] `because of the end keyword at the end of the for loop`
-- [ ] `because of the block is surrounded by brackets ({})`
+- [ ] `because the block is surrounded by brackets ({})`
 - [ ] `because of the blank space at the end of the body of the for loop`
 
 #### Q108. What Python mechanism is best suited for telling a user they are using a deprecated function
@@ -1613,7 +1613,7 @@ a = np.array([1, np.nan])
 np.array_equal(a,a)
 ```
 
-#### Q113. How do you add a comment to existing Python script?
+#### Q113. How do you add a comment to an existing Python script?
 
 - [ ] `// This is a comment`
 - [x] `# This is a comment`
@@ -1957,7 +1957,7 @@ b = a[50:60:2]
 - [ ] `my_object.dim()`
 - [ ] `len(my_object)`
 
-#### Q141. Assume you have a non-empty list named `mylist` and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
+#### Q141. Assume you have a non-empty list named `mylist` and you want to search for a specific value. The minimum number of comparisons will be \_**_ and the maximum number of comparisons will be _**?
 
 - [ ] `len(mylist); len(mylist)`
 - [x] `1; len(mylist)`
@@ -1966,7 +1966,7 @@ b = a[50:60:2]
 
 **Explanation:** Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
 
-#### Q142. If a function does not have a return statement, what does it really return?
+#### Q142. If a function does not have a return statement, what does it return?
 
 - [ ] `0`
 - [ ] `True`
@@ -1995,7 +1995,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [ ] columnsMat2; rowsMat1;
 
 [reference](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices#).
-A matrix can be multiplied by any other matrix that has the same number of rows as the first has columns. I.E. A matrix with 2 columns can be multiplied by any matrix with 2 rows
+A matrix can be multiplied by any other matrix that has the same number of rows as the first columns. I.E. A matrix with 2 columns can be multiplied by any matrix with 2 rows
 
 #### Q144. What is the output of this comprehension?
 
@@ -2258,7 +2258,7 @@ print("codescracker".endswith("er"))
 - [ ] `2`
 - [ ] `False`
 
-#### Q157. Is list mutable in python?
+#### Q157. Is the list mutable in Python?
 
 - [x] True
 - [ ] False
@@ -2341,7 +2341,7 @@ else:
 
 [Reference](https://www.scaler.com/topics/python/tuples-in-python/)
 
-#### Q165. Consider the following code snippet that uses decorators to calculate the execution time of `execution_fn` function:
+#### Q165. Consider the following code snippet that uses decorators to calculate the execution time of the `execution_fn` function:
 
 ```python
 import functools
@@ -2451,7 +2451,7 @@ print(c)
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
 
-#### Q171. Assume `m`, `n` and `p` are positive integers. In the following comprehension, how many times will the function `randint` be called?
+#### Q171. Assume `m`, `n`, and `p` are positive integers. In the following comprehension, how many times will the function `randint` be called?
 
 ```python
 [ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
@@ -2514,7 +2514,7 @@ for i in range(m):
 
 **Explanation:** This code will run for `m` x `n` times, if you run this code, it will create `m` x `n` tuples.
 
-The first loop runs for `m` times and the inner loop will run for `n` times. While the single iteration of first loop will only be completed when all of the `n` iterations of inner loop are completed. This is the same process for 2nd, 3rd, ... `m`th iterations for outer loop. Overall, both loops will run `m` x `n` times.
+The first loop runs for `m` times and the inner loop will run for `n` times. The single iteration of the first loop will only be completed when all of the `n` iterations of an inner loop are completed. This is the same process for 2nd, and 3rd, ... `m`th iterations for outer loop. Overall, both loops will run `m` x `n` times.
 
 #### Q175. What will this comprehension provide you?
 
@@ -2534,7 +2534,7 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [x] to capture command-line arguments given at a file's runtime
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
 
-#### Q177. What is a the output of 17 % 15 ?
+#### Q177. What is the output of 17 % 15 ?
 
 - [ ] 17
 - [ ] 15
