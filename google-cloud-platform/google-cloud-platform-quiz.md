@@ -357,7 +357,7 @@
 
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
 
-#### Q43. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types-with minimum effort. What do you do?
+#### Q43. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types--with minimum effort. What do you do?
 
 - [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that contained use discounts have been automatically applied to your bill.
 - [x] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that sustained use discounts have been automatically applied to your bill.
