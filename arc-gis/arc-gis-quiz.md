@@ -195,7 +195,14 @@
 - [ ] float
 - [ ] long integer
 
-#### Q26. You need to prepare an ArcGIS Online hosted feature layer that will be used to collect fire hydrant maintenance data using the Collector for ArcGIS mobile app. You would like Collector to display a drop-down menu of valid choices for the hydrant manufacturer attribute so that data can be entered with just a couple of taps, as pictured. How would you do this?
+#### Q26. If you are looking for all features containing a specific company name in the attribute table, but don't know the name of the column containing the company name, or even which layers it is in, which tool should you use to search all of the attributes in all of the layers at once?
+
+- [x] Find
+- [ ] Select by Attribute
+- [ ] Select by Location
+- [ ] Definition Query
+
+#### Q27. You need to prepare an ArcGIS Online hosted feature layer that will be used to collect fire hydrant maintenance data using the Collector for ArcGIS mobile app. You would like Collector to display a drop-down menu of valid choices for the hydrant manufacturer attribute so that data can be entered with just a couple of taps, as pictured. How would you do this?
 
 - [ ] Attach the list of values as a subtype of the Hydrant feature layer.
 - [ ] For the Manufacturer field, create the list of values as a range domain.
