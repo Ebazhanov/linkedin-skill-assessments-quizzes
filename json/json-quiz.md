@@ -1332,3 +1332,17 @@ tags: [116, 943, 234, 38793],
 - [ ] Wrap the comments in double parentheses.
 - [ ] Escape comments by placing two slashes at the start of the comment.
 - [x] JSON does not support comments.
+
+#### Q106. What is the purpose of JSON-P (JSON with padding) in web development, and how is it typically used?
+
+- [ ] To validate JSON data before parsing it in JavaScript.
+- [ ] To provide additional padding for JSON objects to improve readability.
+- [x] To overcome the same-origin policy limitation when making cross-domain AJAX requests.
+- [ ] To compress JSON data for faster transmission over the network.
+
+#### Q107. In a JSON document, how can you represent a key that contains special characters, such as spaces or hyphens, to ensure proper parsing and access in JavaScript?
+
+- [ ] Wrap the key in single quotes.
+- [x] Enclose the key in square brackets.
+- [ ] backslashes before special characters.
+- [ ] Enclose the key in double quotes.
