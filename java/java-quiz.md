@@ -2434,9 +2434,18 @@ public interface Square {
 
 
 #### Q166. Calculate the space complexity of the following program.
+
+```void createArray(int n) {
+    int[] arr = new int[n];
+    for (int i = 0; i < n; i++) {
+        arr[i] = i * 2;
+    }
+}
+```
+
 - [ ] O(1)
 - [x] O(N)
 - [ ] O(N^2)
 - [ ] O(log(N))
 
-//In this program, a dynamic array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+//In this program, a array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
