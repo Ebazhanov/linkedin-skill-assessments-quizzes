@@ -194,3 +194,12 @@
 - [x] short integer
 - [ ] float
 - [ ] long integer
+
+
+#### Q26. If you are looking for all features containing a specific company name in the attribute table, but don't know the name of the column containing the company name, or even which layers it is in, which tool should you use to search all of the attributes in all of the layers at once?
+
+- [x] Find
+- [ ] Select by Attribute
+- [ ] Select by Location
+- [ ] Definition Query
+
