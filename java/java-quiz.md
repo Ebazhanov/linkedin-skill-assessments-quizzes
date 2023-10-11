@@ -7,12 +7,12 @@
 - [ ] awb
 - [ ] traw
 
-**Reasoning:** The substring method is accepting two arguments.
+**Reasoning:** The substring method accepts two arguments.
 
-- The first argument being the index to start(includes that char at 2)
+- The first argument is the index to start(includes that char at 2)
 - and the second the index of the string to end the substring(excludes the char at 5).
 - Strings in Java are like arrays of chars.
-- Therefore, the method will return "raw" as those are the chars in indexes 2,3, and 4.
+- Therefore, the method will return "raw" as those are the chars in indexes 2,3 and 4.
 - You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
 
 #### Q2. How can you achieve runtime polymorphism in Java?
@@ -22,7 +22,7 @@
 - [x] method overriding
 - [ ] method calling
 
-#### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true?
+#### Q3. Given the following definitions, which of these expressions will **NOT** evaluate to true?
 
 `boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;`
 
@@ -31,7 +31,7 @@
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
 
-**Reasoning:** i2 && b1 is not allowed between int and boolean.
+**Reasoning:** i2 && b1 are not allowed between int and boolean.
 
 #### Q4. What is the output of this code?
 
@@ -51,7 +51,7 @@
 - [ ] 123
 - [ ] 1234
 
-**Reasoning:** array.size() is invalid, to get size or length of array array.length can be used.
+**Reasoning:** array.size() is invalid, to get the size or length of the array array.length can be used.
 
 #### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"?
 
@@ -400,7 +400,7 @@ public class Jedi {
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
 
-**Note:** This code won't compile, possibly broken code sample.
+**Note:** This code won't compile, possibly a broken code sample.
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
@@ -797,7 +797,7 @@ public TheClass() {
 }
 ```
 
-**Explanation:** `final` class members are allowed to be assigned only in three places: declaration, constructor or an instance-initializer block.
+**Explanation:** `final` class members are allowed to be assigned only in three places: declaration, constructor, or an instance-initializer block.
 
 #### Q49. How many times f will be printed?
 
@@ -894,8 +894,8 @@ public class TestReal {
 ```
 
 ```
-The default Java type which Java will be using for a float variable will be double.
-So, even if you declare any variable as float, what the compiler has to actually do is to assign a double value to a float variable,
+The default Java type which Java will be used for a float variable will be double.
+So, even if you declare any variable as float, what the compiler has to do is assign a double value to a float variable,
 which is not possible. So, to tell the compiler to treat this value as a float, that 'F' is used.
 ```
 
@@ -1324,7 +1324,7 @@ public class Main {
 - [ ] 4
 - [x] 3
 
-#### Q93. Which class acts as root class for Java Exception hierarchy?
+#### Q93. Which class acts as the root class for the Java Exception hierarchy?
 
 - [ ] Clonable
 - [x] Throwable
@@ -1476,7 +1476,7 @@ int forestCount = forestSpecies.size();
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
 
-#### Q105. What is a problem with this code?
+#### Q105. What is the problem with this code?
 
 ```java
 import java.util.ArrayList;
@@ -1641,7 +1641,7 @@ System.out.println(list1);
 - [ ] `if(time == money){}`
 - [ ] `if(time = money){}`
 
-#### Q113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with in order to continue execution.
+#### Q113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with to continue execution.
 
 - [ ] exception,assertion
 - [ ] AbnormalException, AccidentalException
@@ -1752,7 +1752,7 @@ public class Main {
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
 
-#### Q120. What variable type should be declared for capitalize?
+#### Q120. What variable type should be declared for capitalization?
 
 ```shell
 List<String> songTitles = Arrays.asList("humble", "element", "dna");
@@ -1968,7 +1968,7 @@ public class Main {
 - [ ] String
 
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
-To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is:static
+To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is: static
 The main method must be declared as public static void main(String[] args) to serve as the entry point for a Java program
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
@@ -2102,7 +2102,7 @@ Queue<Rainfall>
 - [ ] java.io.timestamp
 - [ ] java.sql.time
 
-#### Q142. What is the size of float and double in java?
+#### Q142. What is the size of float and double in Java?
 
 - [x] 32 and 64
 - [ ] 32 and 32
@@ -2176,7 +2176,7 @@ Queue<Rainfall>
 - [ ] Both
 - [ ] None
 
-#### Q152. Which of these does `Stream filter()` operates on?
+#### Q152. Which of these does `Stream filter()` operate on?
 
 - [x] Predicate
 - [ ] Interface
@@ -2336,7 +2336,7 @@ public class Course {
 - [x] O(AB)
 - [ ] O(A\*B)
 
-#### Q162. What do these expressions evaluate to?
+#### Q162. What do these expressions evaluate?
 
     1. true && false
     2. true && false || true
@@ -2447,4 +2447,4 @@ public interface Square {
 - [ ] O(N^2)
 - [ ] O(log(N))
 
-//In this program, a array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
