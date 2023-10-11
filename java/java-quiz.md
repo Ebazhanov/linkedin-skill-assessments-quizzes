@@ -2432,7 +2432,6 @@ public interface Square {
 
 [Reference](https://www.baeldung.com/java-8-functional-interfaces)
 
-
 #### Q166. Calculate the space complexity of the following program.
 
 ```void createArray(int n) {
