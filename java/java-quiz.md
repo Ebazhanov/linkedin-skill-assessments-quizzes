@@ -2450,14 +2450,17 @@ public interface Square {
 
 [Reference](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
 
+
 #### Q167. Calculate the space complexity of the following program.
 
-```void createArray(int n) {
+```java
+void createArray(int n) {
     int[] arr = new int[n];
     for (int i = 0; i < n; i++) {
         arr[i] = i * 2;
     }
 }
+```
 
 - [ ] O(1)
 - [x] O(N)
