@@ -2621,3 +2621,32 @@ Done!
 5
 Done!
 ```
+
+
+#### Q180. When is the `if __name__ == "__main__":` block executed in a Python script?
+
+- [ ] Always, as it is required in every Python script.
+- [ ] Only when the script is executed directly from the command line or as the main program.
+- [ ] Only when the script contains syntax errors.
+- [x] Only when the script is imported as a module in another script.
+
+The `if __name__ == "__main__":` block is executed when the script is run directly but not when it's imported as a module in another script.
+[reference](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
+
+#### Q181. What will be the output of the following Python code?
+```python 
+def square(x): 
+	return x * x 
+	
+numbers = [1, 2, 3, 4, 5] 
+squared_numbers = map(square, numbers) 
+result = list(squared_numbers) 
+print(result)
+```
+- [x] `[1, 4, 9, 16, 25]`
+- [ ] `[1, 2, 3, 4, 5]`
+- [ ] `[1, 8, 27, 64, 125]`
+- [ ] `[2, 4, 6, 8, 10]`
+
+The code defines a `square` function to calculate the square of a number. It then uses the `map` function to apply this function to each element in the `numbers` list, resulting in a new iterable. Finally, the `list` constructor is used to convert this iterable into a list. The output will be a list of squared numbers.
+[reference](https://docs.python.org/3/library/functions.html#map)
