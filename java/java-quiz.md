@@ -2448,3 +2448,36 @@ public interface Square {
 - [ ] O(log(N))
 
 //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+---
+#### Q167. What will be the output of the following Java code?
+
+    import java.util.*;
+    public class genericstack <E>
+    {
+        Stack <E> stk = new Stack <E>();
+	public void push(E obj) 
+        {
+            stk.push(obj);
+	}
+	public E pop()
+        {
+            E obj = stk.pop();
+	    return obj;
+	}
+    }
+    class Output
+    {
+        public static void main(String args[])
+        {
+            genericstack <String> gs = new genericstack<String>();
+            gs.push("Hello");
+            System.out.println(gs.pop());
+        }
+    }
+   ---
+options are:-
+a)[] H
+b)[x] Hello
+c)[]Runtime Error
+d)[]Compilation Error
+
