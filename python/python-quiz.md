@@ -2575,7 +2575,7 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] [(x,y) for x in characters for y in actors]
 - [ ]
 
-```python
+```
 d = {}
 for x in range(1, len(characters)):
     d[x] = actors [x]
@@ -2583,7 +2583,7 @@ for x in range(1, len(characters)):
 
 #### Q179. What will this code output to the screen?
 
-```python
+```
 for i in range(5):
 print (i)
 else:
@@ -2592,7 +2592,7 @@ print("Done!")
 
 - [x]
 
-```python
+```
 1
 2
 3
@@ -2603,7 +2603,7 @@ Done!
 - [ ] You will get a syntax error.
 - [ ]
 
-```python
+```
 0
 1
 3
@@ -2614,7 +2614,7 @@ Done!
 
 - [ ]
 
-```python
+```
 1
 3
 4
