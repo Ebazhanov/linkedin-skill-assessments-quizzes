@@ -2622,7 +2622,6 @@ Done!
 Done!
 ```
 
-
 #### Q180. When is the `if __name__ == "__main__":` block executed in a Python script?
 
 - [ ] Always, as it is required in every Python script.
@@ -2634,15 +2633,17 @@ The `if __name__ == "__main__":` block is executed when the script is run direct
 [reference](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
 
 #### Q181. What will be the output of the following Python code?
-```python 
-def square(x): 
-	return x * x 
-	
-numbers = [1, 2, 3, 4, 5] 
-squared_numbers = map(square, numbers) 
-result = list(squared_numbers) 
+
+```python
+def square(x):
+	return x * x
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(square, numbers)
+result = list(squared_numbers)
 print(result)
 ```
+
 - [x] `[1, 4, 9, 16, 25]`
 - [ ] `[1, 2, 3, 4, 5]`
 - [ ] `[1, 8, 27, 64, 125]`
