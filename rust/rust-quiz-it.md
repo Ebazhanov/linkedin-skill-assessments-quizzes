@@ -11,8 +11,9 @@
 
 "ruggine".
 str::thread::spawn(|| {
-     println!("LinkedIn");
+println!("LinkedIn");
 });
+
 ```
 
 - [x] una chiusura
@@ -83,8 +84,9 @@ let fetta = &s[0..2];
 
 "ruggine".
 fn incremento(i: T) {
-     // corpo eliso
+// corpo eliso
 }
+
 ```
 
 - [ ] \*mut T
@@ -149,12 +151,13 @@ fn principale() {
 
 "ruggine".
 per c in text.chars() {
-     if let Some(count) = &mut counts.get(&c) {
-         conta.inserisci(c, *conta + 1);
-     } altro {
-         conta.inserisci(c, 1);
-     };
+if let Some(count) = &mut counts.get(&c) {
+conta.inserisci(c, \*conta + 1);
+} altro {
+conta.inserisci(c, 1);
+};
 }
+
 ```
 
 - [x] &timido;
@@ -170,9 +173,10 @@ per c in text.chars() {
 
 "ruggine".
 per c in text.chars() {
-     lascia contare = conta.voce(c);
-     *conta += 1;
+lascia contare = conta.voce(c);
+\*conta += 1;
 }
+
 ```
 
 - [ ] &Timido;
@@ -191,7 +195,7 @@ per c in text.chars() {
 usa std::collections::HashMap;
 
 fn main() -> Risultato<(), Box<dyn std::error::Error>> {
-     let mut v = Vec::<u8>::new();
+let mut v = Vec::<u8>::new();
 
      let a = "LinkedIn";
      sia b = 123;
@@ -202,7 +206,9 @@ fn main() -> Risultato<(), Box<dyn std::error::Error>> {
      println!("{:?}", v);
 
      OK(())
+
 }
+
 ```
 
 - [X] :
@@ -217,8 +223,10 @@ scrivi!(&mut v, "{}{}{}", a, b, c)?;
 v.scrivere(a)?;
 v.scrivere(b)?;
 v.scrivere(c)?;
+
 ```
 
 - [ ] :
 
 "ruggine".
+```
