@@ -756,4 +756,4 @@ var x = '16';
 - [ ] Use a plugin like Query Monitor or Debug Bar.
 - [x] All of these answers.
 
-[Reference]([https://www.hostinger.com/tutorials/wordpress-nonce](https://gtmetrix.com/)https://gtmetrix.com/)
+[Reference](<[https://www.hostinger.com/tutorials/wordpress-nonce](https://gtmetrix.com/)https://gtmetrix.com/>)
