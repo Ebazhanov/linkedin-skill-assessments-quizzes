@@ -77,7 +77,7 @@
 - [ ] Do not autofit
 - [ ] Shrink text on overflow
 - [ ] None of these answers
-      
+
 #### Q11. Which three shadow properties can be adjusted in PowerPoint?
 
 ```
