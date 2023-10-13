@@ -290,6 +290,9 @@ else {
 - [ ] Part A executes because (x & y) results in a nonzero value, or true.
 - [ ] Part B executes because the statement (x & y) is invalid, thus false.
 
+[Reference](https://stackoverflow.com/questions/63867765/dont-understand-why-if-5-2-is-false)
+
+
 #### Q20. What is a valid definition for the `get_length` function, which returns the length of a null-terminated string?
 
 - [x] A
@@ -366,6 +369,8 @@ printf("%d", --i);
 - [ ] 0,0,1,0
 - [ ] 1,0,1,0
 
+[Reference](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/)
+
 #### Q24. What is true about the variable named `ptr`?
 
 ```cpp
@@ -390,6 +395,7 @@ std::printf("c is %d and d is %c",c,d);
 - [ ] c is A and d is 3
 - [x] c is 3 and d is A
 - [ ] c is c and d is d
+
 
 #### Q26. What is the output of this code?
 
@@ -420,6 +426,10 @@ x=+a;
 - [ ] 7
 - [x] -3
 - [ ] 13
+
+So x **+=** a would simply mean (x = x + a), here that yields x = 10 + (-3) = 7.
+But, here it is (x **=+** a) : This is equivalent to x = +a. Here, the unary plus operator + is used. However, the unary plus operator doesn't change the sign of the value; it simply ensures that the value is positive. So, it effectively does nothing in this context 
+[Reference](https://stackoverflow.com/questions/6958401/the-difference-between-and)
 
 #### Q29. Which statement is true?
 
