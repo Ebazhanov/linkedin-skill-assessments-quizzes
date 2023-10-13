@@ -2331,3 +2331,10 @@ auto x = 4000.22;
 - [x] For
 - [ ] Do
 - [ ] All of the above
+
+#### Q144.Which keyword is used to define the macros in c++?
+
+- [ ] #macro
+- [x] #define
+- [ ]  macro
+- [ ] keyword
