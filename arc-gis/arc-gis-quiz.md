@@ -219,3 +219,12 @@
 - [ ] Grid North
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
+
+#### Q29. Which classification method places approximately the same number of values in each class?
+
+- [ ] Defined Interval
+- [ ] Equal Interval
+- [x] Quantile
+- [ ] Standard Deviation
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)
