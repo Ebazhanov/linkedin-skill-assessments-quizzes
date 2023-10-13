@@ -2625,9 +2625,9 @@ Done!
 #### Q180. When is the `if __name__ == "__main__":` block executed in a Python script?
 
 - [ ] Always, as it is required in every Python script.
-- [ ] Only when the script is executed directly from the command line or as the main program.
+- [x] Only when the script is executed directly from the command line or as the main program.
 - [ ] Only when the script contains syntax errors.
-- [x] Only when the script is imported as a module in another script.
+- [ ] Only when the script is imported as a module in another script.
 
 The `if __name__ == "__main__":` block is executed when the script is run directly but not when it's imported as a module in another script.
 [reference](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
