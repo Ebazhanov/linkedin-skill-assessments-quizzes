@@ -678,43 +678,47 @@ server.listen(port, hostname, () => {
 
 [Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
 
-
 Q78. What is the primary function of the npm command in Node.js development?
+
 - [ ] To install and manage Node.js versions.
 - [x] To manage packages and dependencies for Node.js projects.
 - [ ] To run JavaScript code in the browser.
 - [ ] To create and manage databases for Node.js applications.
-      
+
 Explanation: The npm command is the Node Package Manager and is primarily used to manage packages and dependencies for Node.js projects. It allows developers to install, update, and manage packages from the npm registry.
 
 Q79. In Node.js, how can you handle asynchronous operations effectively to avoid callback hell?
+
 - [ ] Use global variables to share data between asynchronous functions.
 - [ ] Avoid using asynchronous functions altogether.
 - [ ] Use synchronous functions to ensure order of execution.
 - [x] Use Promises, async/await, or libraries like async.js to manage asynchronous operations in a more structured way.
-      
+
 Explanation: To handle asynchronous operations effectively and avoid callback hell, it's recommended to use Promises, async/await, or libraries like async.js. These techniques provide a more structured and readable way to work with asynchronous code.
 
 Q80. Which core module in Node.js can be used to create web servers?
+
 - [ ] fs (File System)
 - [ ] http (HTTP Client)
 - [ ] url (URL Parsing)
 - [x] http (HTTP Server)
-      
+
 Explanation: The http core module in Node.js can be used to create web servers. It provides the necessary functionality to handle HTTP requests and responses, making it possible to create web applications and APIs.
 
 Q81. What is the purpose of the os module in Node.js?
+
 - [ ] To work with the file system and perform I/O operations.
 - [ ] To create and manage child processes.
 - [x] To provide information about the host operating system, such as CPU, memory, and network interfaces.
 - [ ] To parse and manipulate URLs.
-      
+
 Explanation: The os module in Node.js is used to provide information about the host operating system. It offers functions to access details about the CPU, memory, and network interfaces, making it useful for system-related tasks.
 
 Q82. How can you serve static files, such as HTML, CSS, and images, in a Node.js web application?
+
 - [ ] Use the url module to serve static files.
 - [ ] Embed the static files directly into JavaScript code.
 - [x] Use middleware like express.static in combination with the Express.js framework to serve static files.
 - [ ] Write custom JavaScript functions to serve each static file individually.
-      
+
 Explanation: To serve static files in a Node.js web application, you can use middleware like express.static in combination with the Express.js framework. This middleware simplifies the process of serving HTML, CSS, images, and other static assets.
