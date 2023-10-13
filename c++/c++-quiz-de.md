@@ -65,7 +65,7 @@ else
 `using namespace std;`
 
 - [ ] Wenn der Code eine Funktion aufruft, die in zwei verschiedenen Bibliotheken mit demselben Prototypen, aber womöglich unterschiedlichen Implementierungen definiert ist, tritt wegen Mehrdeutigkeit ein Kompilierfehler auf.
-- [ ] Sie bindet automatisch alle Headerdateien in die Standardbibliothek ein (cstdint, cstdlib, cstdio, iostream usw.).
+- [x] Sie bindet automatisch alle Headerdateien in die Standardbibliothek ein (cstdint, cstdlib, cstdio, iostream usw.).
 - [ ] Sie veranlasst den Compiler dazu zu erzwingen, dass ausschließlich Headerdateien aus der Standardbibliothek eingebunden werden, und führt zu Kompilierfehlern, wenn eine andere Headerdatei eingebunden wird.
 - [ ] Der kopilierte Code ist wegen all der importierten Symbole immer größer.
 
