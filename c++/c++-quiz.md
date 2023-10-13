@@ -2336,5 +2336,5 @@ auto x = 4000.22;
 
 - [ ] #macro
 - [x] #define
-- [ ]  macro
+- [ ] macro
 - [ ] keyword
