@@ -219,3 +219,12 @@
 - [ ] Grid North
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
+
+#### Q29. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
+
+- [ ] Variable data
+- [x] Dynamic text
+- [ ] Datestamp
+- [ ] System information
+
+[Reference](https://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/working-with-dynamic-text.htm)

@@ -538,4 +538,31 @@ public class Health : MonoBehaviour
 - [ ] Transform
 - [x] Rotate
 
+#### Q55. What does the Input.touchCount variable represent?
+
+- [ ] The number of keyboard inputs.
+- [ ] The number of mouse clicks.
+- [x] The number of touches currently present on the screen.
+- [ ] The number of frame updates.
+
+[Reference](https://docs.unity3d.com/ScriptReference/Input-touchCount.html)
+
+#### Q56. During gameplay, you need to serialize selected variables (data) of all enemies to send over a network for parsing to generate statistics about the current play session. Which Unity class helps convert object data to JSON text format?
+
+- [ ] XMLSerializer
+- [ ] BinaryFormatter
+- [ ] JsonSerializer
+- [x] JsonUtility
+
+[Reference](https://docs.unity3d.com/Manual/script-Serialization.html)
+
+#### Q57. Which texture format is generally avoided in Unity?
+
+- [ ] PNG
+- [x] Uncompressed
+- [ ] JPEG
+- [ ] GIF
+
+[Reference](https://docs.unity3d.com/Manual/texture-compression-formats.html)
+
 > `Observation`: I tested it in Unity itself and pressing it activated the rotate, scale and transform function, in the documentation (unity 2018.2) it says that it is a unified one, in the documentation of the most recent unity (2022.2) I did not find anything different
