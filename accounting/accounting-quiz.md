@@ -614,3 +614,13 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] limited competition in the company's industry resulting in increasing profitability
 - [ ] the audit committee's approval of specific accounting methods and principles
 - [ ] year-end financial adjustments significantly impacting the financial results
+
+
+#### Q75. Which step of the accounting cycle involves checking to see if total debits equal total credits?
+
+- [ ] normal balances on the ledgers
+- [ ] closing entries
+- [ ] post-closing trial balance
+- [x] preparation of the trial balance
+
+
