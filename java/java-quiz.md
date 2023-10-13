@@ -2465,26 +2465,26 @@ void createArray(int n) {
 - [x] O(N)
 - [ ] O(N^2)
 - [ ] O(log(N)
- <<<<<<< patch-1
-//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+      <<<<<<< patch-1
+      //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
-  
 ---
+
 #### Q167. What will be the output of the following Java code?
 
     import java.util.*;
     public class genericstack <E>
     {
         Stack <E> stk = new Stack <E>();
-	public void push(E obj) 
+    public void push(E obj)
         {
             stk.push(obj);
-	}
-	public E pop()
+    }
+    public E pop()
         {
             E obj = stk.pop();
-	    return obj;
-	}
+        return obj;
+    }
     }
     class Output
     {
@@ -2495,10 +2495,11 @@ void createArray(int n) {
             System.out.println(gs.pop());
         }
     }
-   ---
+
+---
+
 options are:-
 a)[] H
 b)[x] Hello
 c)[]Runtime Error
 d)[]Compilation Error
-
