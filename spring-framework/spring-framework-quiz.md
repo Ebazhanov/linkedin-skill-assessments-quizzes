@@ -932,3 +932,11 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 - [ ] Spring MVC
 - [x] Spring Bootstrap
 - [ ] Spring Cloud
+
+#### Q88. A__________is a key-value map of data used to render the page, and the________ is a template of the page that is filled with data.
+
+- [ ] model; view
+- [ ] hashmap; serviet
+- [x] view; model
+- [ ] request; view
+      
