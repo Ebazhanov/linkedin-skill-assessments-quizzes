@@ -2450,7 +2450,6 @@ public interface Square {
 
 [Reference](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
 
-
 #### Q167. Calculate the space complexity of the following program.
 
 ```java
