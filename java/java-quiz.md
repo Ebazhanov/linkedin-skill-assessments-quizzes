@@ -2498,8 +2498,9 @@ void createArray(int n) {
 
 ---
 
-options are:-
-a)[] H
-b)[x] Hello
-c)[]Runtime Error
-d)[]Compilation Error
+#### Q167. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
+
+- [x] It is used to specify that a method or code block is asynchronous, allowing multiple threads to execute it concurrently.
+- [ ] It is used to mark a method or code block as thread-safe, ensuring that only one thread can execute it at a time.
+- [ ] It indicates that the method or code block is highly optimized for performance and will run faster than non-synchronized methods.
+- [ ] It is used to prevent a method or code block from being executed by any thread, making it effectively "locked."
