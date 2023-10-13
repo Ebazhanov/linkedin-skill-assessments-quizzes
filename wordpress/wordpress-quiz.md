@@ -748,3 +748,12 @@ var x = '16';
 - [ ] Transient
 
 [Reference](https://www.hostinger.com/tutorials/wordpress-nonce)
+
+#### Q85. Which of these refers to a WordPress security token that is used to verify that a request was made by the right person or client?
+
+- [ ] Use an online tool like GTmetrix, Pingdom, Lighthouse, or WebPageTest.
+- [ ] Use your web browser's developer tools.
+- [ ] Use a plugin like Query Monitor or Debug Bar.
+- [x] All of these answers.
+
+[Reference](<[https://www.hostinger.com/tutorials/wordpress-nonce](https://gtmetrix.com/)https://gtmetrix.com/>)
