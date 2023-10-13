@@ -222,7 +222,6 @@
 
 #### Q29. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
 
-
 - [ ] Variable data
 - [x] Dynamic text
 - [ ] Datestamp
