@@ -496,7 +496,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 #### Q58. What type of audit evidence would be considered the weakest type?
 
-- [ ] oral evidence
+- [x] oral evidence
 - [ ] physical examination
 - [ ] confirmation
 - [ ] documentary evidence
@@ -622,5 +622,3 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] closing entries
 - [ ] post-closing trial balance
 - [x] preparation of the trial balance
-
-
