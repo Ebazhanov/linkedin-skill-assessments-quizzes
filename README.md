@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1493-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1494-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2079,6 +2077,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sofawho"><img src="https://avatars.githubusercontent.com/u/146117256?v=4?s=100" width="100px;" alt="sofawho"/><br /><sub><b>sofawho</b></sub></a><br /><a href="#design-sofawho" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sofawho" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rahul-Dabholkar"><img src="https://avatars.githubusercontent.com/u/109458437?v=4?s=100" width="100px;" alt="Rahul Dabholkar"/><br /><sub><b>Rahul Dabholkar</b></sub></a><br /><a href="#design-Rahul-Dabholkar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rahul-Dabholkar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dliz05"><img src="https://avatars.githubusercontent.com/u/86371128?v=4?s=100" width="100px;" alt="Aliza Dixit"/><br /><sub><b>Aliza Dixit</b></sub></a><br /><a href="#design-Dliz05" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Dliz05" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
