@@ -102,15 +102,15 @@ union {
 char str[20]="Hi, there!";
 int main(){
     char *p=&str[4];
-    std::count<<*p++;
-    std::count<<p;
+    std::cout<<*p++;
+    std::cout<<p;
     return 0;
     }
 ```
 
 - [ ] tthere!
 - [ ] uhere!
-- [ ] there!
+- [x] there!
 - [ ] tuhere!
 
 #### Q8. Wie könnte eine gültige Überladung für den ternären Bedingungsoperator erreicht werden?
