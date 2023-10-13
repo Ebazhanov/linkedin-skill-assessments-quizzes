@@ -290,6 +290,9 @@ else {
 - [ ] Part A executes because (x & y) results in a nonzero value, or true.
 - [ ] Part B executes because the statement (x & y) is invalid, thus false.
 
+[Reference](https://stackoverflow.com/questions/63867765/dont-understand-why-if-5-2-is-false)
+
+
 #### Q20. What is a valid definition for the `get_length` function, which returns the length of a null-terminated string?
 
 - [x] A
@@ -366,6 +369,8 @@ printf("%d", --i);
 - [ ] 0,0,1,0
 - [ ] 1,0,1,0
 
+[Reference](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/)
+
 #### Q24. What is true about the variable named `ptr`?
 
 ```cpp
@@ -390,6 +395,7 @@ std::printf("c is %d and d is %c",c,d);
 - [ ] c is A and d is 3
 - [x] c is 3 and d is A
 - [ ] c is c and d is d
+
 
 #### Q26. What is the output of this code?
 
@@ -420,6 +426,10 @@ x=+a;
 - [ ] 7
 - [x] -3
 - [ ] 13
+
+So x **+=** a would simply mean (x = x + a), here that yields x = 10 + (-3) = 7.
+But, here it is (x **=+** a) : This is equivalent to x = +a. Here, the unary plus operator + is used. However, the unary plus operator doesn't change the sign of the value; it simply ensures that the value is positive. So, it effectively does nothing in this context 
+[Reference](https://stackoverflow.com/questions/6958401/the-difference-between-and)
 
 #### Q29. Which statement is true?
 
@@ -1445,6 +1455,7 @@ int fact(int n) {
 }
 ```
 
+
 #### Q94. A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?
 
 - [ ] The program is terminated. This calls the destructor of static duration objects.
@@ -1687,6 +1698,17 @@ int main()
 - [x] 2
 - [ ] 3
 - [ ] 4
+
+#Detailed explanaition:
+
+Now here we are suppose to implement stack data structure which follows the **FILO** or (First IN Last Out) principle, 
+*stack.push()* -> pushes an element into the from the end array.
+*stack.pop()* -> removes an element from the end of the array.
+*stack.top()* -> Just gives us the topmost element of the array.
+Now following the sequences of push and pop: **[1,2,3]** then pop function is used,
+Newly formed array is: **[1,2,4]** then top is used to retrieve topmost element '4' then again pop function is used which removes 4.
+thus, resulting array is: 1,2.
+Then is prints the topmost element (ie: 2).  
 
 #### Q105. Which choice is a valid way to overload the ternary conditional operator?
 
@@ -2022,6 +2044,10 @@ return 0;
 - [ ] 25
 - [x] Compilation Error: invalid initialization of non-const reference
 
+#Detailed explanaition:
+The error is occurring because it is trying to create a reference to a temporary value. In the line int &b = a+1; we are attempting to create a reference b to the result of the expression a + 1, which is a temporary value. References must be bound to an actual object, not a temporary value or an expression that does not have a memory location.
+
+
 #### Q121. Consider the following code segment. What will be the output?
 
 ```cpp
@@ -2309,7 +2335,7 @@ auto x = 4000.22;
 - [ ] int
 - [ ] double
 - [ ] float
-- [ ]
+
 
 #### Q141. Identify the correct syntax for declaring arrays in C++.
 
@@ -2318,18 +2344,20 @@ auto x = 4000.22;
 - [ ] array{10}
 - [ ] int arr
 
+[Reference]:(https://en.cppreference.com/w/cpp/language/array)
+
 #### Q142.Size of wchat_t is.
 
 - [ ] 2
 - [ ] 4
-- [] 2 or 4
+- [ ] 2 or 4
 - [x] Depends on number of bits in system
 
 #### Q143.Which of the following loops is best when we know the number of iterations?
 
-- [ ] While
-- [x] For
-- [ ] Do
+- [ ] while
+- [x] for
+- [ ] do
 - [ ] All of the above
 
 #### Q144.Which keyword is used to define the macros in c++?
