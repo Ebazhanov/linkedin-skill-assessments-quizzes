@@ -41,6 +41,7 @@ str::thread::spawn(|| {
 #### Q5. Quelle commande « cargo » vérifie les erreurs d'un programme sans créer d'exécutable binaire ?
 
 -[ ] cargo --version
+
 - [ ] initialisation du fret
 - [ ] construction de marchandises
 - [x] contrôle de fret
@@ -119,7 +120,7 @@ incrément fn (i : T) {
 
 - [ ] `.ignorer()`
 - [ ] `un trait de soulignement (_)`
-- [X] ..
+- [x] ..
 - [ ] sauter
 
 #### Q15. Définir un \_ nécessite un paramètre de durée de vie.
@@ -205,7 +206,7 @@ fn main() -> Résultat<(), Box<dyn std::error::Error>> {
 }
 ```
 
-- [X] :
+- [x] :
 
 ```rouille
 écrire!(&mut v, "{}{}{}", a, b, c) ?;
@@ -222,3 +223,5 @@ v.write(c) ?;
 - [ ] :
 
 ```rouille
+
+```
