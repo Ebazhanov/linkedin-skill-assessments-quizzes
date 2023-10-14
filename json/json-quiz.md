@@ -1345,9 +1345,9 @@ Explanation:- JSON-P, or JSON with padding, serves the purpose of overcoming the
 #### Q107. In a JSON document, how can you represent a key that contains special characters, such as spaces or hyphens, to ensure proper parsing and access in JavaScript?
 
 - [ ] Wrap the key in single quotes.
-- [x] Enclose the key in square brackets.
+- [ ] Enclose the key in square brackets.
 - [ ] backslashes before special characters.
-- [ ] Enclose the key in double quotes.
+- [x] Enclose the key in double quotes.
 
 Explanation:- When you have a key in a JSON document that contains special characters, spaces, or hyphens, it is essential to enclose the key in double quotes. JSON requires keys to be represented within double quotes to ensure proper parsing and access in JavaScript. This ensures that JavaScript can correctly interpret keys with special characters or spaces and access their associated values.
 

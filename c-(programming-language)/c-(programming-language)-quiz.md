@@ -41,7 +41,7 @@ while(1)
 }
 ```
 
-#### Q2. What will this code print on the screen?
+#### Q2. What will be the output of the code below?
 
 ```c
 int f1 (int a, int b)
@@ -1333,3 +1333,78 @@ strcpy(str1, str2);
 - [ ] float
 - [ ] long double
 - [ ] unsigned char
+
+#### Q84. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
+
+- [ ] :
+
+```c
+struct a {
+    void *f1;
+};
+```
+
+- [x] :
+
+```c
+struct a {
+    void (*f1)();
+};
+```
+
+- [ ] :
+
+```c
+struct a {
+    *(void *f1)();
+};
+```
+
+- [ ] :
+
+```c
+struct a {
+    void *f1();
+};
+```
+
+#### Q85. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
+
+- [ ] substr(str1, str2);
+- [x] strstr(str1, str2);
+- [ ] substring(str1, str2);
+- [ ] strspn(str1, str2);
+
+#### Q86. How are static functions different from global functions?
+
+- [ ] Static functions must be declared in advance of being defined.
+- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions always return the same value.
+- [x] Static functions can be accessed only in the file where they are declared.
+
+#### Q87. What does this program display?
+
+```c
+main(){
+    char *p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int i;
+    for (i=0;i<5;i++) *p++; *p++;
+    printf("%c",*p++);
+}
+```
+
+- [ ] K
+- [ ] M
+- [ ] H
+- [x] G
+
+#### Q88. What is not a valid command with this declaration?
+
+```c
+char *string[20] = { "one", "two", "three"};
+```
+
+- [ ] `printf("%c", string[1][2]);`
+- [x] `printf("%s", string[1][2]);`
+- [ ] `printf("%s", string[1]);`
+- [ ] `printf(string[1]);`
