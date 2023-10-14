@@ -2370,7 +2370,7 @@ auto x = 4000.22;
 - [ ]Prefix++
 
 #### Q146.How can we restrict dynamic allocation of objects of a class using new?
-  
+
 - [ ]By overloading new operator
 - [ ]By making an empty private new operator.
 - [x]By making an empty private new and new[] operators

@@ -2143,10 +2143,10 @@ console.log(second);
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
 
 #### Q157. Events related to the browser window can be handled by?
+
 - [ ] Onclicks
 - [x] Window
 - [ ] querySelector
 - [ ] None of the above
-      
-[Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
 
+[Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
