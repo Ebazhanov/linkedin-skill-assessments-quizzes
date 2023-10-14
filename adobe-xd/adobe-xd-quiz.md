@@ -182,21 +182,21 @@
 
 #### Q25. How can you apply a hover and a tap trigger interaction to one object in XD?
 
-- [] Create multiple duplicate artboards.
-- [] You cannot apply hover and tap interactions to one object.
-- [] Create multiple, layered shapes.
+- [ ] Create multiple duplicate artboards.
+- [ ] You cannot apply hover and tap interactions to one object.
+- [ ] Create multiple, layered shapes.
 - [x] Create component states.
 
 #### Q26. When a menu slides in over the artboard and the artboard blurs, what effect has been applied?
 
 - [x] background blur
-- [] Darken Blend mode
-- [] color overlay
-- [] object blur
+- [ ] Darken Blend mode
+- [ ] color overlay
+- [ ] object blur
 
 #### Q27. What does a folder icon in the Layers panel indicate?
 
--[ ] a symbol
--[ ] a component
--[x] a group
--[ ] a screen element
+- [ ] a symbol
+- [ ] a component
+- [x] a group
+- [ ] a screen element
