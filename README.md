@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1494-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1503-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2087,6 +2087,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/shivsagar002"><img src="https://avatars.githubusercontent.com/u/99870508?v=4?s=100" width="100px;" alt="Shiv sagar"/><br /><sub><b>Shiv sagar</b></sub></a><br /><a href="#design-shivsagar002" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=shivsagar002" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://prateek271.github.io/PortFolio-Page/"><img src="https://avatars.githubusercontent.com/u/66623022?v=4?s=100" width="100px;" alt="Prateek Kumar Singh"/><br /><sub><b>Prateek Kumar Singh</b></sub></a><br /><a href="#design-praTeek271" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=praTeek271" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sohamgupta.hashnode.dev"><img src="https://avatars.githubusercontent.com/u/97831613?v=4?s=100" width="100px;" alt="Soham Gupta"/><br /><sub><b>Soham Gupta</b></sub></a><br /><a href="#design-gupta-soham" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gupta-soham" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ankur249"><img src="https://avatars.githubusercontent.com/u/105782132?v=4?s=100" width="100px;" alt="ankur249"/><br /><sub><b>ankur249</b></sub></a><br /><a href="#design-ankur249" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ankur249" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/codrrk08"><img src="https://avatars.githubusercontent.com/u/95128123?v=4?s=100" width="100px;" alt="Risshi Kudeshia"/><br /><sub><b>Risshi Kudeshia</b></sub></a><br /><a href="#design-codrrk08" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=codrrk08" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

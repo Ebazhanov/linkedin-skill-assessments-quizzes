@@ -43,7 +43,7 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q4. Which of the following shows the contents of vector v1 and v2 after running this code?
+#### Q4. What are the vectors v1 and v2 after executing the code?
 
 ```cpp
 std::vector<int> v1{1,2,3},v2;
@@ -2361,3 +2361,17 @@ auto x = 4000.22;
 - [x] #define
 - [ ] macro
 - [ ] keyword
+
+#### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
+
+- [ ]Postfix ++
+- [ ]Comparison Operator
+- [x]Insertion Operator <<
+- [ ]Prefix++
+
+#### Q146.How can we restrict dynamic allocation of objects of a class using new?
+
+- [ ]By overloading new operator
+- [ ]By making an empty private new operator.
+- [x]By making an empty private new and new[] operators
+- [ ]By overloading new operator and new[] operators

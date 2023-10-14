@@ -120,7 +120,7 @@ div a
 
 **Note:**an alternative to the question above.`
 
-#### Q10. What is the line-height property primarily used for?
+#### Q10. What is the use of line-height property?
 
 - [x] to control the height of the space between two lines of content
 - [ ] to control the height of the space between heading elements

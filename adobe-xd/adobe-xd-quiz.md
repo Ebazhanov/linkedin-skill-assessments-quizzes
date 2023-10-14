@@ -27,7 +27,7 @@
 - [ ] Add a new interaction.
 - [x] Add a new state.
 
-#### Q4. You want to share your project to a blog or social media. How would you accomplish this?
+#### Q4. You want to share your project on a blog or social media. How would you accomplish this?
 
 - [x] Link to the project from your Creative Cloud account.
 - [ ] Use the prototype link.
@@ -48,7 +48,7 @@
 - [ ] Press the Shift key when dragging the guide.
 - [ ] Drag the guide to its location on the artboard.
 
-#### Q7. Your developer notifies you that the left alignment of some the text in a slide in menu is off by 2 pixels. How did the developer catch this?
+#### Q7. Your developer notifies you that the left alignment of some of the text in a slide-in menu is off by 2 pixels. How did the developer catch this?
 
 - [x] The distance values are shown in the developer's share screen.
 - [ ] The developer rolled over them in the developer's share screen.
@@ -62,7 +62,7 @@
 - [ ] Right-click the component you want to replace and select Edit Master in Source Document.
 - [ ] Drag the new component from the Assets panel on top of the existing component in the project.
 
-#### Q9. You created a button and converted it to a component in order to make the button interactive. When you open the Component (Master) area in the Property Inspector and click Default State, you notice the button already has one state applied to it. What state is applied?
+#### Q9. You created a button and converted it to a component to make the button interactive. When you open the Component (Master) area in the Property Inspector and click Default State, you notice the button already has one state applied to it. What state is applied?
 
 - [x] Hover
 - [ ] Drag
@@ -79,7 +79,7 @@
 #### Q11. Device preview requires a \_
 
 - [ ] mobile device with NFC
-- [ ] bluetooth connection
+- [ ] Bluetooth connection
 - [ ] USB connection
 - [x] wireless connection
 
@@ -136,7 +136,7 @@
 - [ ] the component.
 - [ ] only the text in the symbol.
 - [x] only the instance.
-- [ ] all copies of the component in XD document
+- [ ] all copies of the component in the XD document
 
 #### Q19. You are previewing your XD project on an iPhone. How would you browse an artboard on the phone?
 
@@ -159,26 +159,26 @@
 - [ ] Ensure that all images are in the same format.
 - [x] Import the images and rearrange them in the Repeat Grid.
 
-#### Q22. Adobe Experience Design (XD) is marketed as a **\_\_\_** application.
+#### Q22. Adobe Experience Design (XD) is marketed as a ___ application.
 
-- [] web design
-- [] screen layout
+- [ ] web design
+- [ ] screen layout
 - [x] screen prototyping
-- [] mobile design
+- [ ] mobile design
 
 #### Q23. What is the maximum number of interactions that can be applied to a selected element?
 
-- [] two
-- [] four
+- [ ] two
+- [ ] four
 - [x] three
-- [] one
+- [ ] one
 
 #### Q24. Four more artboards for your current XD project have been created in Photoshop. How would you add them to your XD project?
 
 - [x] Import the .psd into the document.
-- [] Place the .psd into an XD artboard.
-- [] Import one artboard at a time.
-- [] Open the .psd in XD.
+- [ ] Place the .psd into an XD artboard.
+- [ ] Import one artboard at a time.
+- [ ] Open the .psd in XD.
 
 #### Q25. How can you apply a hover and a tap trigger interaction to one object in XD?
 

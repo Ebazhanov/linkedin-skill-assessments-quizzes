@@ -268,7 +268,7 @@ Association is a semantically weak relationship (a semantic dependency) between 
 - [x] method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter
 - [ ] method overriding, because it display the same method name, different parameters, and same return type
 
-#### Q36. What is the purpose of static constructor?
+#### Q36. What is the usage of static constructor?
 
 - [ ] to initialize all the members with static value
 - [ ] to delete the static members when not required
