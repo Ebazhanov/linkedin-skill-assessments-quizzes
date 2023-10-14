@@ -9,7 +9,7 @@
 
 #### Q2. A PDF containing complex engineering drawings is failing to print completely. The printing device is an older model with a small amount of RAM. What setting might enable you to print the complex file without error?
 
-- [x] Print as image
+- [x] Print as an image
 - [ ] Auto-orientation
 - [ ] Print in grayscale
 - [ ] Custom scale
@@ -63,21 +63,21 @@
 - [ ] Create Custom Tool
 - [ ] Customize Quick Tools
 
-#### Q10. You are printing a PDF of an instruction manual. On some pages the only content is a video, but you would like a visual representation of the video area in the printed version. Which option in the Print dialog box will ensure that the video areas will print?
+#### Q10. You are printing a PDF of an instruction manual. On some pages, the only content is a video, but you would like a visual representation of the video area in the printed version. Which option in the Print dialog box will ensure that the video areas will print?
 
 - [ ] More Options
 - [ ] Document and Markups
 - [x] Advanced > Output
 - [ ] Document and Stamps
 
-#### Q11. In an effort to clean up a PDF form, you wish to align the top edges of a row of five fields. You used the Select tool (black arrow) to drag around the fields to select them all. You want to align all the fields to the top edge of the fifth field. How can you do that?
+#### Q11. To clean up a PDF form, you wish to align the top edges of a row of five fields. You used the Select tool (black arrow) to drag around the fields to select them all. You want to align all the fields to the top edge of the fifth field. How can you do that?
 
 - [ ] Alt-click (Windows) or Option-Click (Mac) in the fifth field to make it the origin field.
 - [ ] Click once more in the fifth field to make it the origin field.
 - [x] Ctrl-click (Windows) or Command-click (Mac) in the fifth field to make it the origin field.
 - [ ] Shift-click in the fifth field to make it the origin field.
 
-#### Q12. You prefer seeing documents in the single document view, rather than in the tabbed document view. To accomplish this, you went to Edit > Preferences > General, and then cleared the check box for the tabbed preference. However, PDFs are still opening as tabs. How can you resolve this issue?
+#### Q12. You prefer seeing documents in the single document view, rather than in the tabbed document view. To accomplish this, you went to Edit > Preferences > General and then cleared the check box for the tabbed preference. However, PDFs are still opening as tabs. How can you resolve this issue?
 
 - [ ] Reboot your computer.
 - [ ] Switch from Tools view to Home view.
@@ -91,7 +91,7 @@
 - [ ] BMP
 - [x] PSD
 
-#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, "You cannot edit this file as a form due to its security settings." What method can you use to edit the form?
+#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you choose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form of security to the file, but you see an alert, "You cannot edit this file as a form due to its security settings." What method can you use to edit the form?
 
 - [ ] File > Properties > Custom
 - [ ] File > Save a Copy
@@ -119,17 +119,17 @@
 - [ ] Select **Tools** > **Enhance Scans** > **Enhance Scanned Document**.
 - [ ] Right-click the image and select **Add Image**.
 
-#### Q18. You receive a PDF of a manuscript to be printed as an on-demand book. The writer also sent a new, single-page PDF to be added to the manuscript as the book's cover. Where can you go to accomplish this ?
+#### Q18. You receive a PDF of a manuscript to be printed as an on-demand book. The writer also sent a new, single-page PDF to be added to the manuscript as the book's cover. Where can you go to accomplish this?
 
 - [ ] Tools > Compare Files
 - [x] Tools > Organize Pages
 - [ ] Tools > Edit PDF
 - [ ] Tools > Action Wizard
 
-#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
+#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field display the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
 
 - [x] Select the instructional text entry in the Dropdown Properties dialog box.
-- [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
+- [ ] Choose to commit Selected Value Immediately in the Dropdown Properties dialog box.
 - [ ] Choose Sort Items in the Dropdown Properties dialog box.
 - [ ] Choose Format Category > Special in the Dropdown Properties dialog box.
 
@@ -142,7 +142,7 @@
 
 [Reference](https://helpx.adobe.com/experience-manager/kb/Stopwordlist.html)
 
-#### Q21. You create a PDF portfolio, and you would like to add encryption, without having to deal with each individual file. To encrypt a complete portfolio with a certificate, to verify via digital signature, where would you go to start?
+#### Q21. You create a PDF portfolio, and you would like to add encryption, without having to deal with each file. To encrypt a complete portfolio with a certificate, to verify via digital signature, where would you go to start?
 
 - [ ] **Tools > Protect**
 - [ ] **Tools > Certificates**
@@ -158,7 +158,7 @@
 
 [Reference](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html)
 
-#### Q23. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
+#### Q23. In a fillable form, you would like the user to be able to enter their text in a multi-choice form field if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
 
 - [ ] a list box field
 - [x] a multi-line text field
@@ -183,12 +183,12 @@
 
 [Reference](https://www.adobe.com/acrobat/hub/how-to-convert-visio-to-pdf.html)
 
-#### Q26. A small section of a 28-page PDF has been updated with new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?
+#### Q26. A small section of a 28-page PDF has been updated with a new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?
 
 - [ ] From the 28-page PDF, extract and save the three pages as a new PDF. For each of the two three-page PDFs, choose **File > Export to > Text (Plain).**
 - [ ] Arrange the two PDFs in side-by-side windows in Acrobat. Scroll to the first page of the section in the larger PDF, and compare the visually, line by line.
 - [ ] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
-- [ ] Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of it text.
+- [ ] Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of its text.
 
 #### Q27. You need to send multiple documents to a potential client, and you would like to add security to all of the documents at once. What is the easiest method?
 
@@ -197,7 +197,7 @@
 - [ ] Security Envelope
 - [ ] Email Review
 
-#### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
+#### Q28. You need to reduce the resolution of image content in an existing PDF while controlling the look of the images. Which option allows you to change the resolution of image content with options?
 
 - [ ] Press-ready PDF
 - [ ] Optimized PDF
@@ -218,14 +218,14 @@
 - [x] Preflight Droplet
 - [ ] Optimize PDF
 
-#### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
+#### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and the Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
 
 - [ ] A
 - [ ] B
 - [ ] C
 - [ ] D
 
-#### Q32. You provide an interactive PDF to a client that you created. The interactive PDF includes multiple embedded videos. However, the client cannot view the videos. What is a reason that the client might be unable to view the video?
+#### Q32. You provide an interactive PDF to a client that you created. The interactive PDF includes multiple embedded videos. However, the client cannot view the videos. What is the reason that the client might be unable to view the video?
 
 - [ ] A browser is not installed.
 - [ ] A GIF player is not installed.
@@ -260,7 +260,7 @@
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
 
-#### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
+#### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can see the word on at least one page, a search returns no results. What might cause this?
 
 - [ ] The text is redacted.
 - [ ] The text is in a locked layer.
@@ -281,7 +281,7 @@
 - [x] Re-order the bookmarks in the Bookmarks pane by dragging.
 - [ ] Nothing, The bookmarks will still be correct.
 
-#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
 
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
