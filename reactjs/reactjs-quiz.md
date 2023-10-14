@@ -1191,6 +1191,8 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png?raw=png)
 
+Explanation: function that called without parameter will use its param default value, thus x will always be default to 1 and y will always be default to 2.
+
 #### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
@@ -1246,6 +1248,8 @@ ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
 
+[Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
+
 #### Q102. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
 
 ```javascript
@@ -1259,6 +1263,9 @@ const PokeDex = (props) => {
 - [ ] this.props.pokeDex
 - [ ] setPokeDex()
 - [x] pokeDex
+
+Explanation: useState always return an array with two values, the state itself (on first value) and the set function that lets you update the state (on second value)
+[useState Reference](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
 #### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
 
@@ -1289,12 +1296,16 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
+[JSX Transform with Babel](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
 #### Q105. Which hook is used to prevent a function from being recreated on every component render?
 
 - [x] useCallback
 - [ ] useMemo
 - [ ] useRef
 - [ ] useTransition
+
+[React Hooks useCallback docuementation](https://react.dev/reference/react/useCallback)
 
 #### Q106. Why might you use the `useRef` hook?
 
