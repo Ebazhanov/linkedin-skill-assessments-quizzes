@@ -220,7 +220,6 @@
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
 
-
 #### Q29. Which classification method places approximately the same number of values in each class?
 
 - [ ] Defined Interval
@@ -238,4 +237,3 @@
 - [ ] System information
 
 [Reference](https://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/working-with-dynamic-text.htm)
-
