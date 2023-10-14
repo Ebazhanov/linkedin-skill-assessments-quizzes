@@ -37,7 +37,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)
 
-#### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
+#### Q6. How can I place a ghosted logo or text behind the regular text in my document using a specific feature?
 
 - [ ] Background.
 - [x] Watermark.
