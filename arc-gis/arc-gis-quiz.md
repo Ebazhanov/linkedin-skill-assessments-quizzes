@@ -99,7 +99,7 @@
 ![What geoprocessing tool, when applied to the Point Data Layer, is most likely responsible for the data shown in the Result Layer?](images/Q13.png)
 
 - [ ] Dissolve
-- [ ] Buffer
+- [x] Buffer
 - [ ] Merge
 - [ ] Intersect
 
