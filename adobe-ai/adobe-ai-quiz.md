@@ -59,7 +59,7 @@ A map of Southern California includes many info circles shaded in light blue.
 
 #### Q8. How can you reverse the direction of all the arrows on the spiral in the image below?
 
-A red lines spirals clockwise in, towards the center. Arrows along the line point in that direction.
+A red line spirals clockwise in, towards the center. Arrows along the line point in that direction.
 
 - [x] Select Object > Path > Reverse Path Direction.
 - [ ] Select Effect > 3D > Rotate.
@@ -93,7 +93,7 @@ A red lines spirals clockwise in, towards the center. Arrows along the line poin
 
 - [ ] Switch to any other workspace, and then switch back to Essentials.
 - [ ] Quit Illustrator, press and hold Command+Shift+Option (Mac) or Ctrl+Shift+Alt (Windows), and relaunch Illustrator.
-- [x] Choose Reset Essentials from the Workspace menu or the workspace switcher.
+- [x] Choose Reset Essentials from the Workspace menu or the Workspace switcher.
 - [ ] Quit and relaunch Illustrator.
 
 #### Q13. Your boss likes the new logo you've designed but would like to see some variations using different color schemes. Which feature could you use to generate these variations quickly?
@@ -207,7 +207,7 @@ A yellow rectangle has a circular selection in the center.
 - [ ] Make Compound Path
 - [x] Make Clipping Mask
 
-#### Q28. The Symbol Sprayer tool has been used to apply a number of symbol instances to an illustration. You would like to modify the appearance of some instances using graphic styles. How would this be achieved?
+#### Q28. The Symbol Sprayer tool has been used to apply several symbol instances to an illustration. You would like to modify the appearance of some instances using graphic styles. How would this be achieved?
 
 - [x] Select instances with the Group Selection tool and then choose the desired graphic style.
 - [ ] Symbol instances in a symbol set cannot be overridden.
@@ -316,7 +316,7 @@ A yellow rectangle has a circular selection in the center.
 - [ ] set the Export Type to Movie Clip
 - [ ] delete the symbol and expand all instances
 - [ ] convert the symbol to a static symbol
-- [x] break the link to the symbol
+- [x] Break the link to the symbol
 
 #### Q43. In the gift card shown below, the magenta flower petals need to be printed with a varnish. How would you set up the file so the varnish is applied over the magenta color of the petals?
 
@@ -336,7 +336,7 @@ A yellow rectangle has a circular selection in the center.
 
 #### Q45. Why would you turn on the Ignore Artboards option in the Print dialog box?
 
-- [x] to prevent Illustrator from printing marks showing the borders of artboards
+- [x] to prevent Illustrator from printing marks showing the borders of the artboards
 - [ ] to print all artboards on one piece of paper
 - [ ] to prevent Illustrator from printing the names of artboards
 - [ ] to scale each artboard to the media size
@@ -355,7 +355,7 @@ A yellow rectangle has a circular selection in the center.
 - [x] to include custom guides with the symbol so each instance is placed in the same position relative to the artboard
 - [ ] to allow instances of the symbol to be scaled without distorting the corners
 
-#### Q48. What can you do in order to edit text in just one placed instance of a symbol?
+#### Q48. What can you do to edit text in just one placed instance of a symbol?
 
 - [x] Click the Edit Symbol button in the Control panel or Properties panel.
 - [ ] Edit the symbol instance name.
