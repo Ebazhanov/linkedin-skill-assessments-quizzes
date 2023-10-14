@@ -34,7 +34,7 @@ NSInteger i = str.integerValue;
 - [ ] nil
 - [ ] test more
 
-#### Q4. What does this code print?
+#### Q4. What is the output of the code given below?
 
 ```
     NSPredicate *p2 = [NSPredicate predicateWithBlock:^BOOL(NSString*  evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings) {
