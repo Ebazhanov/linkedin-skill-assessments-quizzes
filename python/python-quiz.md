@@ -105,7 +105,7 @@ my_list
 
 **Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`
 
-#### Q11. What is the correct way to write a doctest?
+#### Q11. What is the proper format for writing a doctest?
 
 - [ ] A
 
