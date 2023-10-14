@@ -43,7 +43,7 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q4. Which of the following shows the contents of vector v1 and v2 after running this code?
+#### Q4. What are the vectors v1 and v2 after executing the code?
 
 ```cpp
 std::vector<int> v1{1,2,3},v2;
