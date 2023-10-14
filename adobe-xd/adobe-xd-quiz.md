@@ -159,7 +159,7 @@
 - [ ] Ensure that all images are in the same format.
 - [x] Import the images and rearrange them in the Repeat Grid.
 
-#### Q22. Adobe Experience Design (XD) is marketed as a ___ application.
+#### Q22. Adobe Experience Design (XD) is marketed as a \_\_\_ application.
 
 - [ ] web design
 - [ ] screen layout

@@ -2145,7 +2145,7 @@ console.log(second);
 #### Q155. What is the output for the code given below?
 
 ```js
-console.log("hello"+"world");
+console.log('hello' + 'world');
 ```
 
 - [x] helloworld!
