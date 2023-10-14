@@ -748,7 +748,6 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] `db.restaurants.createIndex("2dsphere":"location")`
 - [ ] `db.restaurants.createIndex({geospatial: "location"})`
 
-
 #### Q93. What happens to a Replica set oplog if it runs out of memory?
 
 - [ ] `The oplog will be saved on one of the secondary servers.`

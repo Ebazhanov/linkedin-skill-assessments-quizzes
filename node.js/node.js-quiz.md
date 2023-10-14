@@ -724,6 +724,7 @@ Q82. How can you serve static files, such as HTML, CSS, and images, in a Node.js
 Explanation: To serve static files in a Node.js web application, you can use middleware like express.static in combination with the Express.js framework. This middleware simplifies the process of serving HTML, CSS, images, and other static assets.
 
 Q84. How can you terminate a Node.js application programmatically?
+
 - [ ] Using the process.terminate() method
 - [ ] Sending a SIGSTOP signal
 - [ ] Using the exit() method
@@ -732,6 +733,7 @@ Q84. How can you terminate a Node.js application programmatically?
 Explanation : To terminate a Node.js application, you can either send a SIGINT signal or call process.exit() programmatically.
 
 Q85. What is the purpose of the child_process module in Node.js?
+
 - [ ] To create and manage child processes in a separate thread for parallel execution.
 - [ ] To provide access to child elements of JSON data.
 - [ ] To handle file I/O operations in a separate thread.
@@ -740,11 +742,10 @@ Q85. What is the purpose of the child_process module in Node.js?
 Explanation : The child_process module is used for creating and managing child processes to run external commands or scripts independently.
 
 Q86. What is the primary purpose of the cluster module in Node.js?
+
 - [ ] To manage user authentication and authorization.
 - [x] To take advantage of multicore systems by forking multiple Node.js processes and distributing the workload among them.
 - [ ] To create clusters of data storage for efficient data handling.
 - [ ] To provide clustering for network communication.
 
 Explanation : The primary purpose of the cluster module in Node.js is to utilize multicore systems efficiently by forking multiple Node.js processes to distribute workloads.
-
-
