@@ -2141,3 +2141,11 @@ console.log(second);
        got this!
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
+#### Q157. What is the output of this code?
+```js
+console.log(10+10);
+```
+- [ ] 10
+- [x] 20
+- [ ] 30
+- [ ] 40
