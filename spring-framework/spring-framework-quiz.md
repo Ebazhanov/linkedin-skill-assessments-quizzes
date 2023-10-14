@@ -16,12 +16,16 @@
 - [ ] A REST service has a pool of resources composed of allocations of memory that allow a request to be processed.
 - [ ] A resource for a REST service is an explicit allocation of a thread or CPU cycles to allow a request to be processed.
 
+[Rest Service in Spring](https://spring.io/guides/tutorials/rest/)
+
 #### Q3. Which of these is a valid Advice annotation?
 
 - [ ] @AfterError
 - [x] @AfterReturning
 - [ ] @AfterException
 - [ ] @AfterExecution
+
+[Spring Advice Type Annotation](https://www.baeldung.com/spring-aop-advice-tutorial)
 
 #### Q4. What does a ViewResolver do?
 
@@ -30,6 +34,8 @@
 - [ ] It creates a unique view determined by the uers's browser type,supporting cross-browser compatibility.
 - [ ] It maps custom parameters to SQL views in the database, allowing for dynamic content to be created in the response.
 
+[View Resolution in Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/viewresolver.html)
+
 #### Q5. How are Spring Data repositories implemented by Spring at runtime?
 
 - [ ] Spring automatically generated code for you based on your YAML config that defined a MethodInterceptor chain that intercept calls to the instance and computed SQL on the fly.
@@ -37,12 +43,16 @@
 - [ ] The Spring JDK proxy creates a separate runtime process that acts as an intermediary between the database and the Web server, and intercepts calls to the instance and handles requests.
 - [ ] Spring automatically generated code for you based on your XML config files that define a SpringMethodAutoGeneration factory that intercepts calls to the instance and creates dynamic method that computer SQL on the fly.
 
+[Explained QnA](https://stackoverflow.com/questions/38509882/how-are-spring-data-repositories-actually-implemented)
+
 #### Q6. What is SpEL and how is it used in Spring?
 
 - [ ] SpEL(Spring Expression Language) runs in the JVM and can act as a drop-in replacement for Groovy or other languages.
 - [x] SpEL(Spring Expression Language) supports boolean and relational operators and regular expressions, and is used for querying a graph of objects at runtime.
 - [ ] SpEL(Spring Expression Language) allows you to build, configure,and execute tasks such as building artifacts and downloading object dependencies.
 - [ ] SpEL(Spring Expression Language) natively transpiles one JVM language to another, allowing for greater flexibility.
+
+[Spring Expression Documentation](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html)
 
 #### Q7. The process of linking aspects with other objects to create an advised object is called
 
