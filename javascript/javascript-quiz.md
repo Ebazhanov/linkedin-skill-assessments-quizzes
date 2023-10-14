@@ -2141,3 +2141,13 @@ console.log(second);
        got this!
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
+#### Q155. What is the output for the code given below?
+
+```js
+console.log("hello"+"world");
+```
+
+- [x] helloworld!
+- [ ] helloworld !
+- [ ] hello world!
+- [ ] hello world !
