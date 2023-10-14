@@ -2142,7 +2142,18 @@ console.log(second);
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
 
-#### Q157. What is the output of this code?
+#### Q155. What is the output for the code given below?
+
+```js
+console.log("hello"+"world");
+```
+
+- [x] helloworld!
+- [ ] helloworld !
+- [ ] hello world!
+- [ ] hello world !
+
+#### Q156. What is the output of this code?
 
 ```js
 console.log(10 + 10);
@@ -2153,7 +2164,7 @@ console.log(10 + 10);
 - [ ] 30
 - [ ] 40
 
-#### Q158. Events related to the browser window can be handled by?
+#### Q157. Events related to the browser window can be handled by?
 
 - [ ] Onclicks
 - [x] Window
