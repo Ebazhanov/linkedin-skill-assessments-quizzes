@@ -2154,9 +2154,11 @@ console.log("hello"+"world");
 - [ ] hello world !
 
 #### Q156. What is the output of this code?
+
 ```js
-console.log(10+10);
+console.log(10 + 10);
 ```
+
 - [ ] 10
 - [x] 20
 - [ ] 30
