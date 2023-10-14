@@ -1361,6 +1361,7 @@ Explanation:- When you have a key in a JSON document that contains special chara
 #### Q109. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
 - [ ] A
+
 ```json
 {
 "host": "Atlanta",
@@ -1370,6 +1371,7 @@ Explanation:- When you have a key in a JSON document that contains special chara
 ```
 
 - [ ] B
+
 ```json
 {
   "host": "Atlanta",
@@ -1379,6 +1381,7 @@ Explanation:- When you have a key in a JSON document that contains special chara
 ```
 
 - [x] C
+
 ```json
 {
   "host": "Atlanta",
@@ -1388,6 +1391,7 @@ Explanation:- When you have a key in a JSON document that contains special chara
 ```
 
 - [ ] D
+
 ```json
 {
   "host": "Atlanta",
@@ -1397,6 +1401,7 @@ Explanation:- When you have a key in a JSON document that contains special chara
 ```
 
 - [ ] E
+
 ```json
 {
   "host": "Atlanta",
@@ -1436,4 +1441,3 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] `"|=(_)(X 72(_)|\/||\*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
 - [x] `"\s(_)(X 72(_)|\/||\*"`
-
