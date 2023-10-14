@@ -58,7 +58,7 @@
 - [x] Pin to list.
 - [ ] Mark as favorite.
 
-#### Q9. You want to add a caption to a table. Which tab contains this option?
+#### Q9. Which tab contains the option to add caption to a table?
 
 - [ ] Insert
 - [ ] Design
