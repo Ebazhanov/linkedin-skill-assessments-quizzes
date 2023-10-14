@@ -25,7 +25,7 @@
 
 #### Q4. Which feature analyzes the content of your slides and offers suggested options?
 
-- [x] Design ideas
+- [x] Design ideas/ Designer
 - [ ] Smartart
 - [ ] Browse for Themes
 - [ ] Add-Ins
@@ -42,23 +42,23 @@
 #### Q6. Which tab is best for adding various types of objects to slides?
 
 - [ ] Animations
-- [ ] view
+- [ ] View
 - [ ] File
 - [x] Insert
 
 #### Q7. Which SmartArt category can you use to make informational graphics out of bullet points?
 
-- [x] all of these answers
+- [x] All of these answers
 - [ ] Pyramid
 - [ ] List
 - [ ] Matrix
 
 #### Q8. What is NOT checked when you run the Accessibility Checker?
 
-- [ ] reading order
-- [ ] slide titles
-- [ ] missing alt text
-- [x] grammar
+- [ ] Reading order
+- [ ] Slide titles
+- [ ] Missing alt text
+- [x] Grammar
 
 [Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
 
@@ -75,8 +75,8 @@
 
 - [x] Resize shape to fit text
 - [ ] Do not autofit
-- [ ] none of these answers
 - [ ] Shrink text on overflow
+- [ ] None of these answers
 
 #### Q11. Which three shadow properties can be adjusted in PowerPoint?
 
@@ -93,7 +93,7 @@ E. Distance
 - [ ] B, C, D
 - [x] C, D, E
 
-#### Q12. You want your presentation to play continuously on screen, What option must you set?
+#### Q12. If you want your presentation to play continuously on screen, what option must you set?
 
 - [ ] Use Presenter view
 - [ ] Advance slides manually
@@ -109,7 +109,7 @@ E. Distance
 - [ ] There are no options for print output.
 - [ ] You can compress only one image at a time.
 
-#### Q14. You have a Word document you would like to import as an outline into a PowerPoint presentation. How should you format the text in your Word document that you want to be the slide content?
+#### Q14. You have a Word document you would like to import as an outline into a PowerPoint presentation. How should you format the text in the Word document that you want to be the content of the?
 
 - [x] Heading Style 2
 - [ ] Subtitle
@@ -129,21 +129,21 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] by date
 - [ ] by urgency
 
-#### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
+#### Q16. Which Arrow Options choice will hide the mouse cursor while presenting, except when the cursor is moved?
 
 - [x] Automatic
 - [ ] Hidden
-- [ ] none of these answers
+- [ ] None of these answers
 - [ ] Visible
 
 `If hidden is selected the courser stays hidden no matter what.`
 
 #### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
-- [ ] donut chart
-- [x] line or area chart
-- [ ] area chart
-- [ ] pie chart
+- [ ] Donut chart
+- [x] Line or area chart
+- [ ] Area chart
+- [ ] Pie chart
 
 #### Q18. If you want to create an organizational chart, which SmartArt category works best?
 
@@ -189,7 +189,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Use animation triggers.
 - [ ] Use video timings.
 
-#### Q24. When inserting pictures, how can you avoid distorting the pictureif it is resized later?
+#### Q24. When inserting pictures, how can you avoid distorting the picture if it is resized later?
 
 - [ ] Use best scale for slide show.
 - [x] Lock the aspect ratio.
