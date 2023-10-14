@@ -90,7 +90,7 @@
 - [x] =`SUM(A3,A6)`
 - [ ] =`SUM(A3,A4,A5,A6)`
 
-#### Q13. Which custom format will make the cells in column A appear like the corresponding cells in column B?
+#### Q13. What custom formatting can be applied to make the cells in column A resemble the cells in column B?
 
 - [ ] `MMM-YYYY`
 - [x] `MMMM-YYYY`

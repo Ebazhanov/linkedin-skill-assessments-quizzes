@@ -12,16 +12,16 @@
 - [ ] Congratulate the team on their great work.
 - [x] Stand outside the circle of developers and listen for impediments.
 - [ ] The Scrum Master should not attend—this meeting is for developers only.
-- [ ] Ask each developer what they did since the last daily standup.
+- [ ] Ask each developer what they have done since the last daily standup.
 
 #### Q3. Which factor should not be considered during Sprint Planning?
 
 - [ ] the team's velocity
 - [x] the number of stories in the product backlog
-- [ ] the stories that are ready
+- [ ] the ready stories
 - [ ] the team's capacity
 
-#### Q4. A team member has been showing signs of great personal distress: crying at work, snapping at colleagues, having heated phone conversations. As Team Facilitator, what should you do?
+#### Q4. A team member has been showing signs of great personal distress: crying at work, snapping at colleagues, and having heated phone conversations. As a Team Facilitator, what should you do?
 
 - [ ] Report this at the Sprint Release.
 - [x] Advise the PO as soon as possible. (Old answer: Notify the team member's manager of your observations and ask the manager for help.)
@@ -49,7 +49,7 @@
 - [x] cost of delay
 - [ ] return on investment
 
-#### Q8. Why should you apply Weighted Shortest Job First?
+#### Q8. Why should you apply for the Weighted Shortest Job First?
 
 - [ ] to maximize the return on investment
 - [x] to determine the economic sequencing of the backlog
@@ -65,7 +65,7 @@
 - [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
-[Reference](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
+[Reference](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher-quality product. If there's a failure, it will occur early and relatively inexpensively.`
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 
@@ -130,7 +130,7 @@
 - [ ] This is a good idea because awards can motivate people to do their best.
 - [x] This is unhelpful because it can destroy the team unity essential to achieving high performance.
 
-#### Q19. What is a difference between a team's task board and a Kanban?
+#### Q19. What is the difference between a team's task board and a Kanban?
 
 - [x] A Kanban has an explicit rule to limit WIP.
 - [ ] A Kanban shows the backlog of work.
@@ -158,7 +158,7 @@
 - [ ] in the Complex regime
 - [ ] in the Complicated regime
 - [ ] in the Chaotic regime
-- [x] in the Obvious regime
+- [x] In the Obvious regime
 
 #### Q23. A manager informs you that a developer from another team is between assignments, and she wants to place the developer on your team for a few sprints. What should you do?
 
@@ -171,7 +171,7 @@
 
 - [x] Share the feedback from the PO and challenge the team to increase their velocity.
 - [ ] Ask the PO to explain the business context to the team.
-- [ ] Explain the impact of technical debt to the PO and the benefits of devoting some capacity to reducing it.
+- [ ] Explain the impact of technical debt on the PO and the benefits of devoting some capacity to reducing it.
 - [ ] Hold a Value Stream Mapping workshop to identify and reduce waste.
 
 #### Q25. What is the name of the practice in which a cross-functional team collaborates intensively to develop a new product idea?
@@ -190,12 +190,12 @@
 
 #### Q27. Who is responsible for a Scrum team's performance?
 
-- [ ] the team
+- [ ] The team
 - [x] the Scrum Master
 - [ ] the Product Owner
 - [ ] the Engineering Manager
 
-It is one of the responsabilities of the Scrum Master!
+It is one of the responsibilities of the Scrum Master!
 A Scrum Master is responsible for ensuring a Scrum team is operating as effectively as possible with Scrum values. This means they keep the team on track, plan and lead meetings, and work out any obstacles the team might face.
 [Reference](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
 
@@ -224,7 +224,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 
 #### Q31. Which statement is true about the actor in a user story?
 
-- [ ] The actor does not have to be a specified role in the solution.
+- [ ] The actor does not have to have a specified role in the solution.
 - [ ] There must be multiple personas for each actor.
 - [x] The actor can be the system itself.
 - [ ] The system cannot be the actor.
@@ -234,7 +234,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 #### Q32. Which statement is true about Agile?
 
 - [ ] Agile requires a high degree of up-front planning.
-- [ ] Once the requirements are agreed to, the team can complete work.
+- [ ] Once the requirements are agreed to, the team can complete the work.
 - [x] Agile requires a high degree of discipline.
 - [ ] Agile works best when there is no contract.
 
@@ -256,12 +256,12 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 
 #### Q35. When the team needs to make a decision, what is the best course of action?
 
-- [x] Try to achieve concensus.
+- [x] Try to achieve consensus.
 - [ ] Take a vote and the majority rules.
-- [ ] Identify the person who is most knowledgeable and ask them to decide.
+- [ ] Identify the most knowledgeable person and ask them to decide.
 - [ ] Let the most senior member of the team decide.
 
-#### Q36. Which action is something the Team Facillitator should NOT do?
+#### Q36. Which action is something the Team facilitator should NOT do?
 
 - [ ] Embrace servant leadership.
 - [x] Estimate story points.
@@ -278,7 +278,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 #### Q38. Which statement about technical debt is true?
 
 - [ ] Technical debt is another name for bugs
-- [ ] It is at the Product Owner's description to allocate effort to reduce technical debt.
+- [ ] It is at the Product Owner's discretion to allocate effort to reduce technical debt.
 - [x] Adding technical debt should be avoided at all costs.
 - [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.
 
@@ -296,7 +296,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 - [ ] story point estimating
 - [x] code reviews
 
-#### Q41. Which task is not the Product Owners responsibility?
+#### Q41. Which task is not the product owner's responsibility?
 
 - [ ] estimating story points
 - [ ] refining acceptance criteria
@@ -312,7 +312,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 
 #### Q43. You have noticed a pattern that the most interesting stories on the Sprint Backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
 
-- [ ] Use a lottery system assign each story.
+- [ ] Use a lottery system to assign each story.
 - [ ] Share your observation with the team and invite them to own and solve the problem.
 - [ ] During story point estimation increase the points assigned to the least interesting stories so the team can boost their velocity.
 - [x] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.
@@ -326,7 +326,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 
 #### Q45. On what are personas typically based?
 
-- [ ] a sponsors or team members' personalities and traits
+- [ ] a sponsor or team members' personalities and traits
 - [ ] what the developers think is user friendly
 - [x] real people, archetypal users, or composites of multiple users
 - [ ] descriptions of the product's functionality and use
@@ -366,13 +366,13 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 #### Q50. Which is the best definition of story points?
 
 - [x] They are a relative measure of the effort needed to complete a story.
-- [ ] They a measure of development time only, test time is considered separately.
+- [ ] They are a measure of development time only, test time is considered separately.
 - [ ] They are a relative measure of the value of a story.
 - [ ] They are a measure of time to complete a story.
 
 #### Q51. What is a Scrum of Scrums?
 
-- [x] It is technique for two or more teams working together coordinate their efforts.
+- [x] It is a technique for two or more teams working together to coordinate their efforts.
 - [ ] It is another name for the Scrum Master Community of Practice.
 - [ ] It is an information radiator used to compare the velocity of several teams.
 - [ ] It is the system demo for teams on the same release train.
@@ -386,10 +386,10 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 
 #### Q53. Why should a team do refactoring?
 
-- [ ] It assigns developers to other teams in order to eliminate personality conflicts.
+- [ ] It assigns developers to other teams to eliminate personality conflicts.
 - [ ] It improves the functionality of the product,
 - [ ] It recalibrates the success criteria for the product in the marketplace.
-- [x] It improves the design, which can lead improved development efficiency and maintainability.
+- [x] It improves the design, which can lead to improved development efficiency and maintainability.
 
 #### Q54. Which choice is not a benefit generally associated with product demonstrations?
 
@@ -436,7 +436,7 @@ A Scrum Master is responsible for ensuring a Scrum team is operating as effectiv
 #### Q60. What happens in Sprint 0?
 
 - [ ] The team delivers no story points in that sprint.
-- [ ] The team does regression testing prior to release to production.
+- [ ] The team does regression testing before production release.
 - [x] The team prepares to work on the product backlog.
 - [ ] This is the time to inspect and adapt.
 
@@ -475,9 +475,9 @@ To build features effectively, and deliver user value in increments, the functio
 #### Q65. A team member comes to you with a complaint about another team member. What should you do?
 
 - [ ] Bring the complaint to the other person and try to resolve the issue.
-- [ ] Ask them to talk to the other person and try to work it.
+- [ ] Ask them to talk to the other person and try to work it out.
 - [ ] Notify HR of the problem and ask them to handle it.
-- [x] Invite both people a meeting and try mediate the conflict.
+- [x] Invite both people to a meeting and try to mediate the conflict.
 
 #### Q66. What is the forming-storming-norming, performing model of team development known as?
 
@@ -503,12 +503,12 @@ To build features effectively, and deliver user value in increments, the functio
 - [ ] DevOps Center of Excellence
 - [ ] Scrum of Scrums
 
-#### Q69. As an Agile coach, what should be your attitude toward your team members individual goals and motivations?
+#### Q69. As an Agile coach, what should be your attitude toward your team members' individual goals and motivations?
 
-- [ ] Understand them—try align personal motivations with the team's progress toward the project goals.
+- [ ] Understand them—try to align personal motivations with the team's progress toward the project goals.
 - [ ] Nurture them-goals are the reason why people want to be at work.
 - [ ] Disregard them — personal views have no bearing on reaching the project goals.
-- [x] Leverage them — use personal goals encourage team members raise their performance levels.
+- [x] Leverage them — use personal goals to encourage team members to raise their performance levels.
 
 #### Q70. Which phrase best describes an Agile team?
 
@@ -528,9 +528,9 @@ To build features effectively, and deliver user value in increments, the functio
 
 #### Q72. What does the Definition of Ready mean?
 
-- [ ] The story has been tested end is ready for release to production.
+- [ ] The story has been tested and is ready for production release.
 - [x] The story is ready to be brought into a sprint.
-- [ ] The stakeholders are ready to discuss their requirements for story.
+- [ ] The stakeholders are ready to discuss their requirements for the story.
 - [ ] The team has completed sprint 0 and is ready to work.
 
 [Reference](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
@@ -548,14 +548,14 @@ To build features effectively, and deliver user value in increments, the functio
 
 - [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
 - [ ] It is the number of teams that a Team Facilitator can support concurrently.
-- [ ] It means the team determines their avalaibility for the next sprint.
+- [ ] It means the team determines their availability for the next sprint.
 - [x] It is the maximum number of stories that will be allowed in a sprint.
 
-#### Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
+#### Q75. The team is complaining that they send requests for clarification to the Product Owner, but these requests go unanswered. What action should you take?
 
-- [ ] If there is a question about story, tell the developers to use their best judgement, avoid delay, and discuss the issue in sprint review.
+- [ ] If there is a question about the story, tell the developers to use their best judgment, avoid delay, and discuss the issue in sprint review.
 - [ ] Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.
-- [ ] Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.
+- [ ] Develop a service-level agree (SLA) that defines certain response times for different types of requests and ask the Product Owner to sign off on it.
 - [x] Schedule a problem-solving session with the Product Owner and the other team members.
 
 #### Q76. Which choice is a pillar of Lean?
@@ -574,13 +574,13 @@ To build features effectively, and deliver user value in increments, the functio
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
 
-1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer.
+1. [Reference](https://agilemanifesto.org/principles) - The first paragraph clearly points out that Agile is about delivering value to the customer.
 2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and
 3. [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
 
 #### Q78. What is a user story?
 
-- [ ] A description of what an actor wants to do in order to accomplish a goal
+- [ ] A description of what an actor wants to do to accomplish a goal
 - [ ] A description of archetypal users so the developers can make the solution user-friendly
 - [ ] A report from the field about a user's experience with the product
 - [x] The Agile term for a requirement
@@ -606,7 +606,7 @@ To build features effectively, and deliver user value in increments, the functio
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-[Reference](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
+[Reference](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master, and Developers. All 3 roles generate Value in their contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
 
 #### Q82. Which statement about the Agile Manifesto is true?
 
@@ -636,7 +636,7 @@ To build features effectively, and deliver user value in increments, the functio
 - [ ] Every member of the team can make changes to any part of the code as necessary.
 - [ ] If someone is at fault, then the whole team is at fault.
 - [x] The team shares equally in the profits that the product generates.
-- [ ] The team, not the individuals, receive performance evaluations.
+- [ ] The team, not the individuals, receives performance evaluations.
 
 #### Q86. According to the Agile Manifesto, how often should developers and business people work together?
 
@@ -663,13 +663,13 @@ To build features effectively, and deliver user value in increments, the functio
 
 - [x] It has been discredited because it is too expensive.
 - [ ] In pair programming, two developers share one computer and take turns at the keyboard.
-- [ ] It is a great way to teach someone who is new to the team.
+- [ ] It is a great way to teach someone new to the team.
 - [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
 #### Q90. People with a fixed mindset \_ .
 
 - [x] have better focus and longer attention spans
-- [ ] are more goal oriented
+- [ ] are more goal-oriented
 - [ ] tend to be more resilient
 - [ ] are more afraid of failure
 
@@ -694,7 +694,7 @@ To build features effectively, and deliver user value in increments, the functio
 - [ ] thin vertical slice
 - [ ] structured coding
 
-ITIOO isn't a thing, thin verticle slicing is refering to what work you prioritise, and structured code has nothing to so with stories.
+ITIOO isn't a thing, thin verticle slicing is referring to what work you prioritise, and structured code has nothing to do with stories.
 
 #### Q94. What is the term for a team member who is "T-shaped"?
 
@@ -706,7 +706,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 Cross-functional and generalizing specialist seem to be both correct but we talk more about cross functional teams, and in the case of a team member the term would be more like a generalizing specialist I believe
 [Reference](https://agilemodeling.com/essays/generalizingspecialists.htm#:~:text=Generalizing%20specialists%20are%20often%20referred,or%20even%20“renaissance%20professionals”.)
 This refers to teams:
-[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organizations, when they move to Agile ways of working, is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
@@ -717,7 +717,7 @@ This refers to teams:
 
 [Reference](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
 
-#### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
+#### Q96. The team is not going to complete its Sprint Commitment. As a Team Facilitator, what should you do?
 
 - [x] advise the PO as soon as possible
 - [ ] point out the reasons why and collaborate on solutions
@@ -726,7 +726,7 @@ This refers to teams:
 
 Sprints cannot be extended. The Scrum Guide is pretty clear on this: you don't extend sprints. At the end of a sprint, if there is incomplete work: "All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog."  
 [Reference](https://www.scrum.org/forum/scrum-forum/6171/what-do-if-team-cannot-finish-all-items-sprint)
-Number 4: 4) What happens if the Developers cannot complete its work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in future if it is a problem. Understanding why this has happened will be critical.
+Number 4: 4) What happens if the Developers cannot complete their work by the end of the Sprint? The Developers inform the Product Owner. The Scrum Team should then inspect & adapt to prevent this in the future if it is a problem. Understanding why this has happened will be critical.
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
@@ -735,7 +735,7 @@ Number 4: 4) What happens if the Developers cannot complete its work by the end 
 - [ ] having type A personality (def not this :P)
 - [ ] being someone who takes charge
 
-[Reference](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
+[Reference](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `nonverified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
 
 #### Q98. When is the best time to update the team's burndown chart?
 
@@ -756,7 +756,7 @@ Number 4: 4) What happens if the Developers cannot complete its work by the end 
 - [x] tasks
 - [ ] epics
 - [ ] stories
-- [ ] features
+- [ ] Features
 
 It says: _NOT_ written in the language of users.
 A story, also referred to as a user story, is a short-form request that can be delivered in one sprint. It is written in simple language from the perspective of the user.
@@ -767,7 +767,7 @@ A task is a subsection of a story. It helps to break the story down and outline 
 
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
 
-- [ ] Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint
+- [ ] Ask the Product Owner to accept the story with the promise that the team will complete it in the next sprint
 - [ ] Ask them to slice the story to reflect the work done and the work to be donef
 - [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
 - [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
@@ -800,7 +800,7 @@ A task is a subsection of a story. It helps to break the story down and outline 
 - [ ] Refactoring improves the design of the system
 - [ ] Refactoring improves the maintainability of the code
 
-#### Q106. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
+#### Q106. In the Scaled Agile Framework, consecutive iterations are grouped into a PI. What is a PI?
 
 - [ ] Project Increment
 - [ ] Portfolio Increment
@@ -811,12 +811,12 @@ A task is a subsection of a story. It helps to break the story down and outline 
 
 #### Q107. How can you improve interaction between team members?
 
-- [x] Move people's workstation around in the team room to create new social possibilites
-- [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
+- [x] Move people's workstations around in the team room to create new social possibilities
+- [ ] Since no one has come to you with a complaint, assume that the limited interaction works for everyone
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
 
-Moving people around and redesign the office space can improve interaction between team member and it is well documented:
+Moving people around and redesigning the office space can improve the interaction between team members and it is well documented:
 [Reference](https://www.inc.com/jeff-miller/3-ways-to-design-an-office-for-collaboration-not-c.html)
 
 #### Q108. Which scale is typically used for Planning Poker?
@@ -840,7 +840,7 @@ Moving people around and redesign the office space can improve interaction betwe
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-It's the same as Q81, just slightly differently phrased question.
+It's the same as Q81, just a slightly differently phrased question.
 
 #### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
 
@@ -849,12 +849,12 @@ It's the same as Q81, just slightly differently phrased question.
 - [x] Ask all meeting participants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
-#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct conversions. How can you encourage conversation between team members?
+#### Q112. As the Scrum Master, you've observed that team members are more comfortable communicating via instant messaging than through direct conversions. How can you encourage conversation between team members?
 
-- [ ] Move people's workstation around in the team room to create new social possibilities.
+- [ ] Move people's workstations around in the team room to create new social possibilities.
 - [x] Since no one has come to you with a complaint, assume that the limited conversation works for everyone.
 - [ ] Tell the team that you see this as a problem and ask them to solve it.
-- [ ] Ask the team if they can think of ways to increase direct converstaion.
+- [ ] Ask the team if they can think of ways to increase direct conversation.
 
 #### Q113. What is the expected outcome of the Daily Scrum meeting?
 
@@ -982,11 +982,11 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 - [ ] veracity
 - [ ] voluminous
 
-#### Q130. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
+#### Q130. Having a mindset focused on growth and opportunity is healthy for Agile team members. How can you display a growth mindset?
 
 - [x] See challenges as opportunities
 - [ ] Point out the failures of others
-- [ ] Quit while you're ahed
+- [ ] Quit while you're ahead
 - [ ] Celebrate only when you succeed
 
 #### Q131. Which statement about the Agile Manifesto is true?
@@ -998,7 +998,7 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 
 [Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
 
-#### Q132. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
+#### Q132. Progress toward a sprint goal is in jeopardy because you have not received sales data. What should you do?
 
 - [ ] Be sure to mention the issue in the next Scrum
 - [x] Share the problem with your team to see if they can create a solution
@@ -1044,7 +1044,7 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 
 [Source](https://www.atlassian.com/agile/scrum/roles) `"The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, `**`the development team deliver the value`**`, and the scrum team to get to get better."`
 
-#### Q138. There are several configurations of the Scaled Agile Framework in Version 5.0. Which is not one oth the configurations?
+#### Q138. There are several configurations of the Scaled Agile Framework in Version 5.0. Which is not one of the configurations?
 
 - [ ] Full SAFe
 - [ ] Large Solution SAFe
@@ -1054,11 +1054,11 @@ A Kanban cumulative flow diagram visualizes your team's processes and helps iden
 #### Q139. What is Lean Canvas?
 
 - [ ] It is a tool to plan future product releases
-- [x] It is used to decompose the solution into epics, features and stories
+- [x] It is used to decompose the solution into epics, features, and stories
 - [ ] It is a technique for projecting growth in market share
 - [ ] It is a template for lightweight business plans that makes your assumptions explicit
 
-#### Q140. As a Scrum Master you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
+#### Q140. As a Scrum Master, you have noticed a pattern that the most interesting stories on the sprint backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
 
 - [ ] During story point estimation, increase the points assigned to the least interesting stories so the team can boost their velocity.
 - [x] Share your observation with the team and invite them to own and solve the problem.
