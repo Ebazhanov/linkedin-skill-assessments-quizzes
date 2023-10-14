@@ -749,3 +749,37 @@ Q86. What is the primary purpose of the cluster module in Node.js?
 - [ ] To provide clustering for network communication.
 
 Explanation : The primary purpose of the cluster module in Node.js is to utilize multicore systems efficiently by forking multiple Node.js processes to distribute workloads.
+
+Q87. Which method of the fs module in Node.js is used to check if a file exists asynchronously?
+- [ ] fs.existsSync
+- [x] fs.access
+- [ ] fs.existsSync
+- [ ] fs.stat
+
+Explanation: The fs.access method in Node.js is used to check if a file exists asynchronously. It is a recommended way to check for the existence of a file as it does not throw an error if the file doesn't exist, and it's more efficient than using fs.exists or fs.stat. If the file exists, the callback function will be called with no error. If the file doesn't exist, the callback will be called with an error.
+
+Q88. Which core module in Node.js is used for network programming and creating network applications?
+- [ ] http
+- [ ] os
+- [ ] fs
+- [x] net
+
+Explanation: The net core module in Node.js is used for network programming and creating network applications. It provides the necessary functionality for creating both TCP and Unix socket servers and clients.
+
+Q89. What is the purpose of the util.promisify method in Node.js?
+- [ ] To create a new Promise object.
+- [ ] To convert a function that returns a Promise into a callback-style function.
+- [x] To convert a callback-style function into a function that returns a Promise.
+- [ ] To handle synchronous operations.
+
+Explanation: The util.promisify method in Node.js is used to convert a callback-style function into a function that returns a Promise. It simplifies working with asynchronous functions by allowing you to use async/await syntax and Promise-based error handling.
+
+Q90. Which Node.js module provides an interface for interacting with the file system, including reading and writing files?
+- [ ] http
+- [x] fs
+- [ ] net
+- [ ] os
+
+Explanation: The fs module in Node.js provides an interface for interacting with the file system. It allows you to perform various file-related operations, including reading and writing files, creating directories, and more.
+
+
