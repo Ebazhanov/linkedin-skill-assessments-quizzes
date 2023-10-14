@@ -1442,3 +1442,10 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] `"|=(_)(X 72(_)|\/||\*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
 - [x] `"\s(_)(X 72(_)|\/||\*"`
+
+#### Q113. What are the valid number types in JSON?
+
+- [ ] Whole Numbers and Decimals
+- [ ] Real Numbers and Fractions
+- [x] Integer, Floating Points, and Exponents (Scientific Notation, e.g., 3e4)
+- [ ] Prime Numbers and Complex Numbers
