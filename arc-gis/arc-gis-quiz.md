@@ -220,6 +220,7 @@
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
 
+
 #### Q29. Which classification method places approximately the same number of values in each class?
 
 - [ ] Defined Interval
@@ -228,3 +229,13 @@
 - [ ] Standard Deviation
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)
+
+#### Q29. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
+
+- [ ] Variable data
+- [x] Dynamic text
+- [ ] Datestamp
+- [ ] System information
+
+[Reference](https://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/working-with-dynamic-text.htm)
+

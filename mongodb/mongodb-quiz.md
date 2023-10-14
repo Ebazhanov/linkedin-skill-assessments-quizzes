@@ -719,3 +719,45 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] Every time you create a new record for expired older records and delete them.
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/core/index-ttl/)
+
+#### Q89. In the MongoDB shell, how can you tell if an index was used with a query?
+
+- [x] db.customers.find({lastName: 'smith'}).explain()
+- [ ] db.customers.find({lastName: 'smith'}).perf()
+- [ ] db.customers.find({lastName: 'smith'}).plan()
+- [ ] db.customers.find({lastName: 'smith'}).usedIndex()
+
+#### Q90. You need to be able to quickly find a word in a text field. What should you do?
+
+- [x] Create a text index on the field and do a $text Query.
+- [ ] Create a single field index in descending order, and do a query for the word.
+- [ ] Do a $text query.
+- [ ] Create a $regex on the fields, and do a $regex query.
+
+#### Q91. What is the name of the default file used to configure MongoDB?
+
+- [ ] mongo.config
+- [x] mongod.conf
+- [ ] config.sys
+- [ ] .mdbconfig
+
+#### Q92. You have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
+
+- [x] `db.restaurants.createIndex({location: "2dsphere"})`
+- [ ] `db.restaurants.geospatial({location: "2dsphere"})`
+- [ ] `db.restaurants.createIndex("2dsphere":"location")`
+- [ ] `db.restaurants.createIndex({geospatial: "location"})`
+
+#### Q93. What happens to a Replica set oplog if it runs out of memory?
+
+- [ ] `The oplog will be saved on one of the secondary servers.`
+- [x] `The oplog is capped collection and can't run out of memory`
+- [ ] `The MongoDB instance will fail`
+- [ ] `The oplog will stop recording logging information`
+
+#### Q94. Using the MongoDB shell, how do you remove the customer collection and its indexes?
+
+- [ ] `db.customers.remove({}).indexes();`
+- [ ] `db.customers.remove({});`
+- [x] `db.customers.drop();`
+- [ ] `db.customers.delete();`

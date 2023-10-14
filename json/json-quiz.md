@@ -1340,9 +1340,104 @@ tags: [116, 943, 234, 38793],
 - [x] To overcome the same-origin policy limitation when making cross-domain AJAX requests.
 - [ ] To compress JSON data for faster transmission over the network.
 
+Explanation:- JSON-P, or JSON with padding, serves the purpose of overcoming the same-origin policy limitation in web development. The same-origin policy restricts web pages from making AJAX requests to a different domain for security reasons. JSON-P works by wrapping JSON data in a JavaScript function call, allowing data to be retrieved from an external domain as if it were a script. This technique is commonly used for securely fetching data from external APIs, making it a valuable tool for cross-domain data exchange in web applications.
+
 #### Q107. In a JSON document, how can you represent a key that contains special characters, such as spaces or hyphens, to ensure proper parsing and access in JavaScript?
 
 - [ ] Wrap the key in single quotes.
 - [x] Enclose the key in square brackets.
 - [ ] backslashes before special characters.
 - [ ] Enclose the key in double quotes.
+
+Explanation:- When you have a key in a JSON document that contains special characters, spaces, or hyphens, it is essential to enclose the key in double quotes. JSON requires keys to be represented within double quotes to ensure proper parsing and access in JavaScript. This ensures that JavaScript can correctly interpret keys with special characters or spaces and access their associated values.
+
+#### Q108. Which is ignored by JSON but treated as significant by YAML?
+
+- [ ] trailing commas
+- [ ] trailing decimals
+- [x] whitespace
+- [ ] leading zeroes
+
+#### Q109. Which code uses valid JSON syntax for the text "Centennial Olympics?
+
+- [ ] A
+
+```json
+{
+"host": "Atlanta",
+"year": 1996
+/_ Centennial Olympics _/
+}
+```
+
+- [ ] B
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996
+  // Centennial Olympics
+}
+```
+
+- [x] C
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "Centennial Olympics"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  \"Centennial Olympics\"
+}
+```
+
+- [ ] E
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "\"Centennial Olympics"
+}
+```
+
+#### Q110. What data type is encoded in the outermost component of the JSON shown?
+
+```json
+[
+  {
+    "year": 2024
+  },
+  {
+    "location": "unknown"
+  }
+]
+```
+
+- [ ] object
+- [x] array
+- [ ] number
+- [ ] string
+
+#### Q111. What does JSON with padding (JSON-P) use to make a request?
+
+- [ ] an `<origin>` element
+- [ ] a header request
+- [x] the `<script>` element
+- [ ] the XMLHttpRequest object
+
+#### Q112. Which is an invalid JSON value?
+
+- [ ] `"'|=(_)(X 72(_)|\/||\*'"`
+- [ ] `"|=(_)(X 72(_)|\/||\*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
+- [x] `"\s(_)(X 72(_)|\/||\*"`
