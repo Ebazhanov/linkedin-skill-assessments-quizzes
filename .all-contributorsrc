@@ -14848,6 +14848,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rot8",
+      "name": "Oliver Brinkmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44167792?v=4",
+      "profile": "https://github.com/rot8",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
