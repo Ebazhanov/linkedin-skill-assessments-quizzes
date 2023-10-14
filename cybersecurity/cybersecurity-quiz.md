@@ -103,7 +103,7 @@
 - [ ] digital signature
 - [x] symmetric encryption
 
-#### Q14. What is the difference between DRP and BCP
+#### Q14. What is the difference between DRP and BCP?
 
 - [x] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
 - [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
