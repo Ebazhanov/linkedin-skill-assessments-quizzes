@@ -549,6 +549,7 @@
 - [ ] `READ`
 
 #### Q71. To create a new resource, what HTTP response code should you receive?
+
 - [ ] `200`
 - [ ] `405`
 - [x] `201`
