@@ -23,7 +23,7 @@
 - [ ] a solid layer with a black background that can be parented to any layer in the composition
 - [ ] a visible layer that can be parented to any layer in the composition
 
-#### Q4. What adjustment in the Lumetri Color effect can help restore edge detail to footage?
+#### Q4. What adjustment in the Lumetri Color effect can help restore edge detail to the footage?
 
 - [ ] Contrast
 - [ ] Clarity
@@ -37,14 +37,14 @@
 - [ ] Export Queue panel
 - [ ] Progress panel
 
-#### Q6. Which blur effect supports the use of a depth matte to define the focal range?
+#### Q6. Which blur effect supports using a depth matte to define the focal range?
 
 - [x] Camera Lens Blur
 - [ ] Bilateral Blur
 - [ ] Smart BlurS
 - [ ] Channel Blur
 
-#### Q7. How can you create a direct relationship between two layer properties?
+#### Q7. How can you create a direct relationship between two-layer properties?
 
 - [x] Use the pick whip to enable Parenting.
 - [ ] Use grouping.
@@ -58,7 +58,7 @@
 - [ ] Posterize Time
 - [ ] CC Wide Time
 
-#### Q9. An image was created on a transparent background in Photoshop using different dimensions to this After Effects composition. Which option was used when importing the PSD file shown below to place the image at its original scale and position?
+#### Q9. An image was created on a transparent background in Photoshop using different dimensions to this After Effects composition. Which option was used when importing the PSD file below to place the image at its original scale and position?
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
@@ -80,9 +80,9 @@
 - [x] Position
 - [ ] Geometry Options
 
-#### Q12. You want to include controls from an After Effects composition in the Essential Graphics panel. What is one way to do this?
+#### Q12. You'd like to include controls from an After Effects composition in the Essential Graphics panel. What is one way to do this?
 
-- [ ] Command+click (Mac) or Ctrl+click (Windows) a property in the Timeline to add it to the Essential Graphics panel.
+- [ ] Command+click (Mac) or Ctrl+click (Windows) property in the Timeline to add it to the Essential Graphics panel.
 - [ ] Select Add Formatting.
 - [x] Drag a property from the Timeline into the Essential Graphics panel.
 - [ ] Double-click a property in the Timeline to add it to the Essential Graphics panel.
@@ -134,11 +134,11 @@
 - [ ] 15
       [Reference link](https://helpx.adobe.com/in/after-effects/using/3d-layers.html#:~:text=Shift-drag%20to%20constrain%20your%20manipulations%20to%2045-degree%20increments.)
 
-#### Q19. How can you choose which frame of a composition to show as a thumbnail image for the composition in the Project panel?
+#### Q19. How can you choose which frame of composition to show as a thumbnail image for the composition in the Project panel?
 
 - [x] Select the desired frame in the Composition Settings dialog box.
 - [ ] Move the playhead to the desired frame and click Composition > Set Poster Time.
-- [ ] You cannot change the thumbnail image.You cannot change the thumbnail image.
+- [ ] You cannot change the thumbnail image. You cannot change the thumbnail image.
 - [ ] From the Render Queue, go to Render Settings to set the thumbnail image.
       [Reference link](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/after-effects/after-effects-quiz.md)
 
