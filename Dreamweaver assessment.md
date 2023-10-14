@@ -14,7 +14,6 @@
 - [ ] automatic text wrapping in Code view
 - [ ] an extra space between an element's content and border
 
-
 #### Q3. You have created a link to the LinkedIn website by selecting the link text and typing “www.LinkedIn.com” into the Link field of the Dreamweaver Property Inspector dialog box. But when you come to test it, it doesn't work. What's the problem?
 
 - [ ] There's nothing wrong with the link. If it fails, it's because the internet connection is down.
@@ -24,12 +23,10 @@
 
 #### Q4. When creating an internal link in a Dreamweaver template, from where is the correct path?
 
-
 - [x] the Templates folder
 - [ ] the current page
 - [ ] the Library folder
 - [ ] the site root
-
 
 #### Q5. A favicon is often added to the <head> element to display a small image or logo alongside the page title in the browser tab. What's the correct way of inserting a favicon (assuming you have the relevant icon in your images folder)?
 
