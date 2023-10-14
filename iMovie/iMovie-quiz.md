@@ -23,9 +23,9 @@
 
 #### Q4. Which option lets you make a voice sound sped up, but still keeps audio and video in sync?
 
-- [x] Pitch Up 
+- [x] Pitch Up
 - [ ] Auto Tune
-- [ ] Cosmic 
+- [ ] Cosmic
 - [ ] Pitch Down
 
 #### Q5. How can you access additional title templates?
