@@ -9,7 +9,7 @@
 
 #### Q2. If you want to apply the same editing from one image to another, what should you use?
 
-- [ ] metadata
+- [ ] Metadata
 - [ ] Image settings
 - [ ] Edit settings
 - [x] Develop settings
@@ -144,7 +144,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 [Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
 
-#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_\_ .
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however, Vibrance is more specific to \_\_.
 
 - [x] Midtones
 - [ ] Shadows
@@ -153,7 +153,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 [Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
 
-#### Q20. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.
+#### Q20. At the time of sharing a Lightroom preset, which format is used to export the image having the desired preset?
 
 - [ ] JPG
 - [x] DNG
@@ -162,7 +162,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 [Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)
 
-#### Q21. If you want to use third-party filters and make them nondestructive, what is the best workflow?
+#### Q21. If you want to use third-party filters and make them non-destructive, what is the best workflow?
 
 - [ ] Click Photo > Edit In and select the desired plugin.
 - [ ] Click File > Plug-in Extras.
@@ -247,7 +247,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q30. What do you call information saved with an image file, such as the date of capture and type of camera?
 
-- [x] metadata
+- [x] Metadata
 - [ ] file data
 - [ ] sidecar files
 - [ ]camera data
@@ -257,7 +257,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 ![Suppose, as shown here, that you see no folders in the Folders list despite knowing some have been imported. How can you fix this?](images/Q31.png)
 
 - [ ] Double-click the disclosure triangle next to a drive's name.
-- [ ] Double-click the disclosure triangle next to the Folders label.
+- [ ] Double-click the disclosure triangle next to the Folder label.
 - [x] Click the X on the Folders search box to clear the filtered view.
 - [ ] Reimport the folders.
 
@@ -277,7 +277,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [x] Filmstrip panel
 - [ ] Navigator panel
 
-#### Q34. Which color space is most compatible for internet delivery?
+#### Q34. Which color space is most compatible with internet delivery?
 
 - [ ] ProPhoto RGB
 - [ ] Display P3
