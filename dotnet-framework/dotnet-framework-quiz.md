@@ -600,19 +600,23 @@ Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dot
 Redirect;
 RedirectPermanent
 ```
+
 - [ ] &shy;
+
 ```c#
 RedirectToAction;
 RedirectToActionPermanent
 ```
 
 - [ ] &shy;
+
 ```c#
 RedirectToRoute;
 RedirectToRoutePermanent
 ```
 
 - [x] &shy;
+
 ```c#
 RedirectUp;
 RedirectUpPermanent
