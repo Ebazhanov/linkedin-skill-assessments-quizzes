@@ -1520,13 +1520,13 @@ const Waitlist = () => {
 
 #### Q126. You run the following code and get this error message: "invalid hook call." what is wrong with the code?
 
-``` javascript
-import React from "react";
+```javascript
+import React from 'react';
 
 const [poked, setPoked] = React.useState(false);
 
-function PokeButton(){
-  return <button onClick = {() => setPoked(true)}>{poked? "You have left a poke." : "Poke"}</button>
+function PokeButton() {
+  return <button onClick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
 }
 ```
 
@@ -1535,18 +1535,15 @@ function PokeButton(){
 - [ ] useState is not imported correctly. Import useState directly instead of importing react.
 - [ ] PokeButton is a pure function and therefore cannot have any local state.
 
-#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked  is not defined". What is wrong with their code?
+#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked is not defined". What is wrong with their code?
 
-``` javascript
-function PokeButton(){
+```javascript
+function PokeButton() {
   const { poked, setPoked } = usestate(false);
-  return (
-    <button onclick={() => setPoked(true)}>
-      {poked? "You have left a poke." : "Poke"}
-    </button>
-  );
+  return <button onclick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
 }
 ```
+
 - [ ] onClick prop should be onclick.
 - [ ] The click handler passed to the onClick prop is inlined. Move this handler into a variable outside of JSX.
 - [ ] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
@@ -1554,12 +1551,11 @@ function PokeButton(){
 
 #### Q128. This componenet is loaded dynamically. What should you replace XXXX with to complete the code?
 
-``` javascript
-
+```javascript
 const OtherComponent = React.lazy(() => import('./OtherComponent.js'));
 
 function MyComponent() {
-  return(
+  return (
     <XXXX fallback={<spinner />}>
       <OtherComponent />
     </XXXX>
@@ -1572,7 +1568,7 @@ function MyComponent() {
 - [x] Suspense
 - [ ] Lazy
 
-#### Q129. Elements in lists in React should have ____ that are _____ .
+#### Q129. Elements in lists in React should have \_**\_ that are \_\_\_** .
 
 - [ ] keys ; unique
 - [ ] keys ; indexes
