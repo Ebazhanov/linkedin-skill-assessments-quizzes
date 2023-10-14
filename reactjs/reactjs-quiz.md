@@ -1517,3 +1517,82 @@ const Waitlist = () => {
 - [ ] The virtual DOM is a database used to store component states.
 
 [Reference](https://medium.com/@vinaynkokate/demystifying-dynamic-web-applications-understanding-the-dom-and-web-browser-interactions-cc1b113adfa)
+
+#### Q126. You run the following code and get this error message: "invalid hook call." what is wrong with the code?
+
+``` javascript
+import React from "react";
+
+const [poked, setPoked] = React.useState(false);
+
+function PokeButton(){
+  return <button onClick = {() => setPoked(true)}>{poked? "You have left a poke." : "Poke"}</button>
+}
+```
+
+- [x] The useState call needs to be called inside of the PokeButton component.
+- [ ] The react package is likely not installed correctly.
+- [ ] useState is not imported correctly. Import useState directly instead of importing react.
+- [ ] PokeButton is a pure function and therefore cannot have any local state.
+
+#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked  is not defined". What is wrong with their code?
+
+``` javascript
+function PokeButton(){
+  const { poked, setPoked } = usestate(false);
+  return (
+    <button onclick={() => setPoked(true)}>
+      {poked? "You have left a poke." : "Poke"}
+    </button>
+  );
+}
+```
+- [ ] onClick prop should be onclick.
+- [ ] The click handler passed to the onClick prop is inlined. Move this handler into a variable outside of JSX.
+- [ ] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
+- [x] poked and setPoked are not destructured in the correct order.
+
+#### Q128. This componenet is loaded dynamically. What should you replace XXXX with to complete the code?
+
+``` javascript
+
+const OtherComponent = React.lazy(() => import('./OtherComponent.js'));
+
+function MyComponent() {
+  return(
+    <XXXX fallback={<spinner />}>
+      <OtherComponent />
+    </XXXX>
+  );
+}
+```
+
+- [ ] Component
+- [ ] Fragment
+- [x] Suspense
+- [ ] Lazy
+
+#### Q129. Elements in lists in React should have ____ that are _____ .
+
+- [ ] keys ; unique
+- [ ] keys ; indexes
+- [ ] style ; inline
+- [ ] values ; not-null
+
+#### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
+
+- [ ] useRef
+- [x] useMemo
+- [ ] memo
+- [ ] useCallback
+
+#### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
+
+```javascript
+useEffect(callNetworkFunc, XXXX);
+```
+
+- [ ] [userInput]
+- [x] userInput
+- [ ] undefined
+- [ ] []
