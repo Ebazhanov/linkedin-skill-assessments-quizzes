@@ -1138,3 +1138,11 @@ fi
 - [ ] `$@`
 - [ ] `0`
 - [ ] `$!`
+
+#### Q88. In Bash scripting, what does the "shebang" (#!) at the beginning of a script indicate, and why is it important?
+
+- [ ] It indicates the location of the Bash interpreter that should be used to execute the script.
+- [ ] It specifies the version of Bash required to run the script.
+- [ ] It marks the script as executable.
+- [x] It helps the system identify the script's interpreter, ensuring the correct interpreter is used.
+
