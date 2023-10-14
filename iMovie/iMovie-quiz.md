@@ -1,8 +1,5 @@
 ## iMovie
 
-[Reference 1](https://fiverrskilltestanswerall.blogspot.com/2022/04/linkedin-imovie-assessment-answers.html)
-[Reference 2](https://theanswershome.com/imovie-linkedin-assessment-answers/)
-
 #### Q1. How do you add a folder to the Favorites section of the Import window?
 
 - [x] Right-click the folder and select Favorite.
