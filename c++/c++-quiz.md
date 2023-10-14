@@ -2363,7 +2363,7 @@ auto x = 4000.22;
 - [ ] keyword
 
 #### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
-  
+
 - [ ]Postfix ++
 - [ ]Comparison Operator
 - [x]Insertion Operator <<
