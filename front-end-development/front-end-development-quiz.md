@@ -837,3 +837,10 @@ box {
 - [ ] The `<img>` element does not have a closing `</img>` tag.
 - [ ] The `<h1>` element is the most important heading on the page.
 - [ ] The value of an id attribute should be unique in an HTML document.
+
+#### Q86. Which command has no Syntax error in CSS ?
+
+- [ ] p {font-size: 16em;}
+- [ ] h2 {colour: yellow;}
+- [ ] div {border-radius: 5px}
+- [x] #my-div {background-color: blue;}
