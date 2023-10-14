@@ -41,7 +41,7 @@ while(1)
 }
 ```
 
-#### Q2. What will this code print on the screen?
+#### Q2. What will be the output of the code below?
 
 ```c
 int f1 (int a, int b)
