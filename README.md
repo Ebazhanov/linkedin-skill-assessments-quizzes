@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1505-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1506-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2091,6 +2091,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/codrrk08"><img src="https://avatars.githubusercontent.com/u/95128123?v=4?s=100" width="100px;" alt="Risshi Kudeshia"/><br /><sub><b>Risshi Kudeshia</b></sub></a><br /><a href="#design-codrrk08" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=codrrk08" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/malivinayak"><img src="https://avatars.githubusercontent.com/u/66154908?v=4?s=100" width="100px;" alt="Vinayak Mali"/><br /><sub><b>Vinayak Mali</b></sub></a><br /><a href="#design-malivinayak" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=malivinayak" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kaushal1717"><img src="https://avatars.githubusercontent.com/u/121810303?v=4?s=100" width="100px;" alt="Kaushal Padaliya"/><br /><sub><b>Kaushal Padaliya</b></sub></a><br /><a href="#design-kaushal1717" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kaushal1717" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TanyaAgarwal28"><img src="https://avatars.githubusercontent.com/u/67827730?v=4?s=100" width="100px;" alt="Tanya Agarwal"/><br /><sub><b>Tanya Agarwal</b></sub></a><br /><a href="#design-TanyaAgarwal28" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TanyaAgarwal28" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
