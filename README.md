@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1496-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1497-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2082,6 +2080,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dliz05"><img src="https://avatars.githubusercontent.com/u/86371128?v=4?s=100" width="100px;" alt="Aliza Dixit"/><br /><sub><b>Aliza Dixit</b></sub></a><br /><a href="#design-Dliz05" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Dliz05" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://linktr.ee/abhishekkshuklaaaaa"><img src="https://avatars.githubusercontent.com/u/93446673?v=4?s=100" width="100px;" alt="Abhishek Shukla"/><br /><sub><b>Abhishek Shukla</b></sub></a><br /><a href="#design-Shuklaaa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Shuklaaa" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Suyash878"><img src="https://avatars.githubusercontent.com/u/141909257?v=4?s=100" width="100px;" alt="Suyash878"/><br /><sub><b>Suyash878</b></sub></a><br /><a href="#design-Suyash878" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Suyash878" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rot8"><img src="https://avatars.githubusercontent.com/u/44167792?v=4?s=100" width="100px;" alt="Oliver Brinkmann"/><br /><sub><b>Oliver Brinkmann</b></sub></a><br /><a href="#design-rot8" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rot8" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
