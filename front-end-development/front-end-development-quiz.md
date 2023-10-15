@@ -511,7 +511,7 @@ console.log(currencies);
 
 [Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
 
-#### Q53. What does the term "tree shaking" mean with regard to JavaScript performance?
+#### Q53. What is the meaning of "tree shaking" in relation to JavaScript performance?
 
 - [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
 - [x] removing unused code from the JavaScript files
