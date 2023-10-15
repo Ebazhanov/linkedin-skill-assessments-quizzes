@@ -1030,3 +1030,11 @@ aws ecs create-service \
 - [x] Amazon RDS
 - [ ] Amazon MQ
 - [ ] Amazon VPC
+
+#### Q121. Which AWS database service is a fully managed, serverless, multi-model database that supports document, key-value, and wide-column data models?
+
+- [ ] Amazon RDS
+- [ ] Amazon Redshift
+- [x] Amazon DynamoDB
+- [ ] Amazon Neptune
+- [ ] Amazon Aurora
