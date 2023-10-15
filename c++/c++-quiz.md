@@ -2377,6 +2377,7 @@ auto x = 4000.22;
 - [ ]By overloading new operator and new[] operators
 
 #### Q147.What is the time complexity of the below code?
+
 ```cpp
 for(int i=0;i<n;i++){
    for(int j=0;j<n;j++){
@@ -2384,11 +2385,12 @@ for(int i=0;i<n;i++){
     }
 }
 ```
+
 - [ ] O(n*n*n)
-- [x] O(n*n)
+- [x] O(n\*n)
 - [ ] O(n)
 - [ ] O(1)
-  
+
 #### Q148.What is the output of the code given below?
 
 ```cpp
