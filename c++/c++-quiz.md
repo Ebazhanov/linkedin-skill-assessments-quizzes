@@ -1,6 +1,6 @@
 ## C++
 
-#### Q1. What is printed from this code?
+#### Q1. What is the output of this code?
 
 ```cpp
 vector<int> v(22);
