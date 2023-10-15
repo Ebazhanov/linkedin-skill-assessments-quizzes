@@ -47,7 +47,7 @@
 - [ ] Create an AM role for the account administrator with the highest privileges. Do not store the root password, but when the root account is needed reset the password on the root account via email confirmation and repeat this procedure.
 - [ ] Store your randomly generated password in your organizational secrets database using a service such as 1Password or LastPass, and only grant access to this secret to the DevOps team.
 - [ ] Create IAM accounts for your administrators and attach the AdministratorAccess policy to their accounts. Disable the root account in the user settings.
-- [x] Create an IAM role for the account administrator with the highest privileges and do not use the root account in day-today operations. Enable two-factor authentication on the root account
+- [x] Create an IAM role for the account administrator with the highest privileges and do not use the root account in day-to-day operations. Enable two-factor authentication on the root account
 
 #### Q8. Which Elastic Load Balancing option supports Lambda as a target?
 
@@ -69,7 +69,7 @@
 
 - [ ] All images in the AWS Marketplace incur additional hourly fees in addition to the charges from the instance size you select.
 - [ ] You can only launch images that were created by other users on your AWS account, so you pay only for the instance size you select and the S3 storage costs for the base image.
-- [x] Each image has its own pricing that could either be free, or include charges for software licensing costs. You will also pay for the instance the image runs on
+- [x] Each image has its own pricing that could either be free or include charges for software licensing costs. You will also pay for the instance the image runs on
 - [ ] All images in the AWS Marketplace contain only open-source software with no additional fees and are created by other AWS users. You will pay only for the instance size you select.
 
 #### Q11. When using an ECS cluster with EC2 instances, what maintenance tasks should you perform on the EC2s?
@@ -114,7 +114,7 @@
 - [ ] The primary key should be a partition key of the title field.
 - [ ] The primary key should be the title field and the partition key should be the genres field.
 - [ ] The primary key should be a composite key comprised of a partition key on the title field and a sort key on the year field.
-- [x] The primary key should be created as a completely unique value, such a sequential numerical list of movie IDs. The partition key should be title field for fast lookup.
+- [x] The primary key should be created as a completely unique value, such as a sequential numerical list of movie IDs. The partition key should be the title field for fast lookup.
 
 #### Q16. What data store provides a simple and quick way of storing basic user attributes in an object-based format?
 
@@ -123,7 +123,7 @@
 - [ ] Neptune
 - [x] DynamoDB
 
-#### Q17. You need a schemaless database. Which Amazon database service provides that solution?
+#### Q17. You need a schematic database. Which Amazon database service provides that solution?
 
 - [ ] ORDS
 - [ ] Aurora
@@ -155,7 +155,7 @@
 
 - [ ] Check the routing tables for the VPC.
 - [x] Verify that the assigned security groups allow TCP port 1433 traffic from your current IP address.
-- [ ] Check the policies within Windows Firewall.
+- [ ] Check the policies within the Windows Firewall.
 - [ ] Verify that you are connecting to the instance using a user that is not sa.
 
 #### Q22. You are hosting an application configured to stream media to its clients on TCP ports 3380-3384, 3386-3388, and 3390. The Inbound tab below shows three incoming security group policies attached to this instance. Which policy should you use?
@@ -240,7 +240,7 @@
 
 #### Q31. What's the best practice for horizontally scaling a legacy ASP.NET web application that relies on Active Directory and is currently deployed to a single Windows EC2 instance?
 
-- [x] Use Sysprep to shut down the instance during a maintenance window. Create an AMI image and place both servers behind Application Load Balancer with sticky sessions.
+- [x] Use Sysprep to shut down the instance during a maintenance window. Create an AMI image and place both servers behind the Application Load Balancer with sticky sessions.
 - [ ] Launch a new EC2 with the latest version of Windows Server and install the application again. Use Application Load Balancer and sticky sessions to balance between both servers.
 - [ ] Create a clone of the server using an AMI image and user Application Load Balancer to balance the traffic between both instances using sticky sessions.
 - [ ] Horizontal scaling is not the best practice in this situation. Increase the size of the existing EC2 instance and vertically scale the application.
@@ -305,7 +305,7 @@ FlowLog:
 - [x] You cannot create a CIDR block with a netmask larger than /16
 - [ ] You can have only 10 subnets within a VPC
 
-#### Q39. You have a Linux EC2 instance that is not responding to requests and you can not connect to it via SSH. Using the EC2 console, you issued a command to stop the instance, but for the past 10 minutes the instance has been in the "stopping" state. What is the next step you should take?
+#### Q39. You have a Linux EC2 instance that is not responding to requests and you can not connect to it via SSH. Using the EC2 console, you issued a command to stop the instance, but for the past 10 minutes, the instance has been in the "stopping" state. What is the next step you should take?
 
 - [x] Issue another stop action via the EC2 console, and choose the option to forcefully stop the instance.
 - [ ] Create an AMI image of the instance, and choose the option to take the image without restarting the instance.
@@ -314,7 +314,7 @@ FlowLog:
 
 #### Q40. You have 14 on-premise web servers, 4 database servers, 6 servers using GIS software, 3 file servers, and 4 development servers. What considerations should you take into account when migrating these servers into AWS?
 
-- [ ] AWS does not have a way to separate billing for compute costs, so you will need to design a way to split the budget between departments.
+- [ ] AWS does not have a way to separate billing for computing costs, so you will need to design a way to split the budget between departments.
 - [ ] Software licensing costs are always included in services such as RDS, so factor the loss of use of your on-premise licenses in your budget.
 - [x] New AWS accounts are limited to 20 on-demand EC2 instances. Submit a request to increase your rate limits before starting a migration.
 - [ ] The only way to transfer large amounts of database data up to AWS is via S3, which can have a slow upload speed. Plan for this delay and cost in your migration plan.
@@ -328,7 +328,7 @@ FlowLog:
 
 #### Q42. You have a T2 EC2 instance that is critical to your infrastructure. How would you monitor the most important metric for this instance?
 
-- [x] Turn on CloudWatch Auto Recovery and put monitors on the System Status and Instance Status checks for the instance to notify you when either is in alarm.
+- [x] Turn on CloudWatch Auto Recovery and put monitors on the System Status and Instance Status check for the instance to notify you when either is in alarm.
 - [ ] Use CloudWatch to put monitors on the remaining CPU credits. If you run out of CPU credit the instance will be stopped.
 
 #### Q43. Which feature can be used to respond to a sudden increase in web traffic?
