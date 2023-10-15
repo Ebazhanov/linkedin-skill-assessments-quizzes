@@ -1340,12 +1340,14 @@ Alignment** tab, click**\_\*\*.
 - [ ] The sorted by column will be lightly shaded
 
 #### Q162. How many users can open a excel file at same time?
+
 - [ ] 64
 - [ ] 128
 - [x] 256
 - [ ] 512
 
 #### Q163. How to specify cell range from A9 to A99 in Excel?
+
 - [x] (A9 ∶ A99)
 - [ ] (A9 - A99)
 - [ ] (A9 , A99)
