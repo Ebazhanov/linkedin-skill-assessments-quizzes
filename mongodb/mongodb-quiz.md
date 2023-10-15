@@ -762,8 +762,4 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [x] `db.customers.drop();`
 - [ ] `db.customers.delete();`
 
-#### Q95. A MongoDB instance has at least what three files?
-- [X] data, namespace, and journal
-- [ ] namespace, journal, and log  
-- [ ] journal, data, and database
-- [ ] data, log, and journal
+
