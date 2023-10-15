@@ -872,10 +872,10 @@ public string? nickname
 
 #### Q83. Which statement is true of C# methods?
 
-- [ ]  `Methods store variables.`
-- [x]  `Methods are actions that an object can take`
-- [ ]  `A method can be used only once per C# file.`
-- [ ]  `A method determines the state of a given property.`
+- [ ] `Methods store variables.`
+- [x] `Methods are actions that an object can take`
+- [ ] `A method can be used only once per C# file.`
+- [ ] `A method determines the state of a given property.`
 
 [Official documentation: Methods (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
 
@@ -887,7 +887,3 @@ public string? nickname
 - [x] `ArgumentNullException`
 
 [Official documentation: ArgumentNullException Class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception?view=net-5.0)
-
-
-
-
