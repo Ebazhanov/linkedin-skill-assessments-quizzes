@@ -2376,7 +2376,20 @@ auto x = 4000.22;
 - [x]By making an empty private new and new[] operators
 - [ ]By overloading new operator and new[] operators
 
-#### Q147.What is the output of the code given below?
+#### Q147.What is the time complexity of the below code?
+```cpp
+for(int i=0;i<n;i++){
+   for(int j=0;j<n;j++){
+       cout<<"hello";
+    }
+}
+```
+- [ ] O(n*n*n)
+- [x] O(n*n)
+- [ ] O(n)
+- [ ] O(1)
+  
+#### Q148.What is the output of the code given below?
 
 ```cpp
 int a=10;
