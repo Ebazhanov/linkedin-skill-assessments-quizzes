@@ -886,8 +886,7 @@ E. Liquify
 - [x] Clear the Delete Cropped Pixels check box.
 - [ ] Select the Delete Cropped Pixels check box.
 
-#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which c
-ommand do you use?
+#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which command do you use?
 
 - [ ] Canvas Size
 - [ ] Calculations
