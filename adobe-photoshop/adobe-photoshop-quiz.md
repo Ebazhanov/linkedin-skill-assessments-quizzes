@@ -886,9 +886,17 @@ E. Liquify
 - [x] Clear the Delete Cropped Pixels check box.
 - [ ] Select the Delete Cropped Pixels check box.
 
-#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which command do you use?
+#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which c
+ommand do you use?
 
 - [ ] Canvas Size
 - [ ] Calculations
 - [x] Image Size
 - [ ] Apply Image
+
+#### Q116. ____ editing software Photoshop uses raster-based images to edit photos.
+
+- [ ] Photo
+- [ ] Video
+- [x] Both A and B
+- [ ] None of these
