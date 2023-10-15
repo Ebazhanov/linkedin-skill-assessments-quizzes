@@ -15098,6 +15098,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Spyrosigma",
+      "name": "SATYAM NAMDEV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111422209?v=4",
+      "profile": "https://github.com/Spyrosigma",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "thevirengarg",
+      "name": "Virender Garg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111726483?v=4",
+      "profile": "https://github.com/thevirengarg",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
