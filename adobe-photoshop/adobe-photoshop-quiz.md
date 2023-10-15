@@ -893,7 +893,7 @@ E. Liquify
 - [x] Image Size
 - [ ] Apply Image
 
-#### Q116. ____ editing software Photoshop uses raster-based images to edit photos.
+#### Q116. \_\_\_\_ editing software Photoshop uses raster-based images to edit photos.
 
 - [ ] Photo
 - [ ] Video

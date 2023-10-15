@@ -846,11 +846,13 @@ box {
 - [x] #my-div {background-color: blue;}
 
 #### Q87. What type of CSS is the following snippet?
+
 ```
 <h1 style="color:blue;">
   A Blue Heading
 </h1>
 ```
+
 - [x] Inline
 - [ ] Internal
 - [ ] External
