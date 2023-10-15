@@ -1,6 +1,6 @@
 ## C++
 
-#### Q1. What is printed from this code?
+#### Q1. What is the output of this code?
 
 ```cpp
 vector<int> v(22);
@@ -239,7 +239,7 @@ int main(){
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-#### Q17. What is the output of this piece of code?
+#### Q17. What is the output of the code given below?
 
 ```cpp
 int8_t a=200;
@@ -2376,7 +2376,7 @@ auto x = 4000.22;
 - [x]By making an empty private new and new[] operators
 - [ ]By overloading new operator and new[] operators
 
-#### Q145.What is the time complexity of the below code?
+#### Q147.What is the time complexity of the below code?
 ```cpp
 for(int i=0;i<n;i++){
    for(int j=0;j<n;j++){
@@ -2388,3 +2388,15 @@ for(int i=0;i<n;i++){
 - [x] O(n*n)
 - [ ] O(n)
 - [ ] O(1)
+  
+#### Q148.What is the output of the code given below?
+```cpp
+int a=10;
+int k=++a;
+int m=a++;
+cout<<k+m;
+```
+- [ ]20
+- [ ]21
+- [x]22
+- [ ]23

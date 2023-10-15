@@ -35,7 +35,7 @@
 - [ ] `<bold>`
 - [ ] `<b>`
 
-#### Q6. When is the `<link>` tag used?
+#### Q6. What is the use of `<link>` tag?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
 - [x] when linking style sheets, favicons, and preloading assets
