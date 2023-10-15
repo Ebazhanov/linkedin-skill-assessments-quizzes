@@ -1025,6 +1025,7 @@ aws ecs create-service \
 [Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)
 
 #### Q120. Which of the following is a fully-managed AWS database service?
+
 - [ ] Amazon s3
 - [x] Amazon RDS
 - [ ] Amazon MQ
