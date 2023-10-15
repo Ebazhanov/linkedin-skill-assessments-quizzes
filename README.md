@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1516-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1517-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2109,6 +2107,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/rohan37kumar"><img src="https://avatars.githubusercontent.com/u/130988597?v=4?s=100" width="100px;" alt="Rohan Kumar"/><br /><sub><b>Rohan Kumar</b></sub></a><br /><a href="#design-rohan37kumar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rohan37kumar" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/neetukuniyal06"><img src="https://avatars.githubusercontent.com/u/147978102?v=4?s=100" width="100px;" alt="neetukuniyal06"/><br /><sub><b>neetukuniyal06</b></sub></a><br /><a href="#design-neetukuniyal06" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=neetukuniyal06" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/anujshandillya"><img src="https://avatars.githubusercontent.com/u/95935183?v=4?s=100" width="100px;" alt="anujshandillya"/><br /><sub><b>anujshandillya</b></sub></a><br /><a href="#design-anujshandillya" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=anujshandillya" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mateenshamsi"><img src="https://avatars.githubusercontent.com/u/101262736?v=4?s=100" width="100px;" alt="Abdulmateen"/><br /><sub><b>Abdulmateen</b></sub></a><br /><a href="#design-mateenshamsi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mateenshamsi" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
