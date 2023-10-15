@@ -335,3 +335,17 @@
 - [ ] ![image](images/002.jpg?raw=jpg)
 - [ ] ![image](images/003.jpg?raw=jpg)
 - [ ] ![image](images/004.jpg?raw=jpg)
+
+#### Q47. You need to submit a PDF to a commercial printing company. They specify that the PDF shall only contain CMYK image content, with no RB images, no layers, and no live transparency. Which preset will meet these specifications?
+
+- [ ] PDF/X-3
+- [ ] PDF/X-4
+- [x] PDF/X-1a
+- [ ] PDF/X-1b
+
+#### Q48. A historical society asks you to design a book that will honor the society's founders. They want a PDF version of the book that ensures that the file will be readable in the distant future. What PDF format is designed for future readability?
+
+- [ ] PDF/X-1a
+- [ ] PDF/X-3 
+- [ ] PDF/X-4
+- [x] PDF/A-1a
