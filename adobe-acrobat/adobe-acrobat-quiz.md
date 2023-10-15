@@ -346,6 +346,6 @@
 #### Q48. A historical society asks you to design a book that will honor the society's founders. They want a PDF version of the book that ensures that the file will be readable in the distant future. What PDF format is designed for future readability?
 
 - [ ] PDF/X-1a
-- [ ] PDF/X-3 
+- [ ] PDF/X-3
 - [ ] PDF/X-4
 - [x] PDF/A-1a
