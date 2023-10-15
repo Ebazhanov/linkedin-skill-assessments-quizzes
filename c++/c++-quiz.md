@@ -2375,3 +2375,15 @@ auto x = 4000.22;
 - [ ]By making an empty private new operator.
 - [x]By making an empty private new and new[] operators
 - [ ]By overloading new operator and new[] operators
+  
+#### Q147.What is the output of the code given below?
+```cpp
+int a=10;
+int k=++a;
+int m=a++;
+cout<<k+m;
+```
+- [ ]20
+- [ ]21
+- [x]22
+- [ ]23
