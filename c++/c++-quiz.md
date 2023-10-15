@@ -2390,12 +2390,14 @@ for(int i=0;i<n;i++){
 - [ ] O(1)
   
 #### Q148.What is the output of the code given below?
+
 ```cpp
 int a=10;
 int k=++a;
 int m=a++;
 cout<<k+m;
 ```
+
 - [ ]20
 - [ ]21
 - [x]22
