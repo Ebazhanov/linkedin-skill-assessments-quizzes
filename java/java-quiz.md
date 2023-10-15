@@ -2118,10 +2118,10 @@ Queue<Rainfall>
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction();
-- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 
 #### Q145. What is UNICODE?
 
