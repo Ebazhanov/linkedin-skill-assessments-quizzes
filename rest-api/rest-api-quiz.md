@@ -555,6 +555,8 @@
 - [x] `201`
 - [ ] `204`
 
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
 #### Q72. You are developing a RESTful API for a new project on GitHub. Security is a top priority, and you want to ensure that only authorized users can access specific endpoints. Which of the following mechanisms should you use to achieve this goal?
 
 - [ ] API rate limiting
@@ -563,4 +565,3 @@
 - [ ] HTTP Basic Auth
 
 
-[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
