@@ -14,7 +14,7 @@
 - [x] AutoCAD prompts you if you want to turn off that layer.
 - [ ] AutoCAD turns off the current drafting layer with no prompt.
 
-#### Q3. Sometimes you will need to match properties of one object to another using the Match Properties (MATCHPROP) command. When matching the properties of an existing viewport to a new one, which setting do you turn off in Match Properties to ensure that the viewport scale is not matched across to the new viewport?
+#### Q3. Sometimes you will need to match the properties of one object to another using the Match Properties (MATCHPROP) command. When matching the properties of an existing viewport to a new one, which setting do you turn off in Match Properties to ensure that the viewport scale is not matched across to the new viewport?
 
 - [ ] Special Properties/Viewport
 - [ ] Basic Properties/Layer
@@ -63,7 +63,7 @@
 - [ ] block origin point
 - [x] insertion point
 
-#### Q10. External reference files (XREFs) link external drawings to the host drawing. You can set the XREF path type to no path, relative path, or full path. What value should be used for the relative path type?
+#### Q10. External reference files (XREFs) link external drawings to the host drawing. You can set the XREF path type to no path, relative path, or full path. What value should be used for the relative path-type?
 
 - [ ] REFPATHTYPE = 2
 - [ ] REFPATHTYPE = 3
@@ -98,7 +98,7 @@
 - [ ] only the objects completely encompassed by the crossing selection
 - [x] only the objects completely encompassed and crossed by the crossing selection
 
-#### Q15. You can dimension objects in AutoCAD from the Annotation panel on the Home tab of the ribbon. Where else can you dimension on the ribbon?
+#### Q15. You can dimension objects in AutoCAD from the Annotation panel on the Home tab of the ribbon. Where else can you dimension the ribbon?
 
 - [x] the Dimension panel on the Annotate tab
 - [ ] the Dimensional panel on the Parametric tab
@@ -150,7 +150,7 @@
 
 - [ ] the status bar
 - [x] a right-click shortcut menu after object selection
-- [ ] the Quick Access toolbar (QAT)
+- [ ] the Quick Access Toolbar (QAT)
 - [ ] the navigation bar
 
 #### Q23. System variables can be monitored in AutoCAD. When monitored, they can also be reset to preferred values. What command is used to control these system variables?
@@ -324,12 +324,12 @@
 - [ ] setting the spacing distance in the Properties palette
 - [ ] setting the spacing distance on the right-click shortcut menu
 - [ ] the Distribute option
-- [x] the Set Spacing option
+- [x] The Set Spacing option
 
 #### Q43. When utilizing named views in the Model tab to navigate, why should you keep an eye on your current drafting layer?
 
 - [ ] Each named view has its own current drafting layer.
-- [ ] Each named view can be saved with a layer snapshot, which might change your current drafting layer.
+- [ ] Each named view can be saved with a layered snapshot, which might change your current drafting layer.
 - [ ] Each named view has its own current drafting layer, with the layer name being the same as the name of the named view.
 - [ ] Each named view changes the current drafting layer to a default drafting layer.
 
@@ -337,7 +337,7 @@
 
 - [ ] to make sure AutoCAD works properly
 - [ ] to isolate all the blocks you are using in the current drawing
-- [ ] to stop anyone seeing which AutoCAD palettes you are using
+- [ ] to stop anyone from seeing which AutoCAD palettes you are using
 - [x] to automatically hide the palette content and display only the docked palette title bar
 
 #### Q45. The navigation bar is normally on by default and is located to the right-hand side of the drawing area. Which variable controls the display of the navigation bar, and to what value does it need to be set for the navigation bar to display on the screen?
@@ -534,9 +534,9 @@
 #### Q72. Using the Array command, you have the option to create an associative array. What does this mean?
 
 - [ ] When dimensioning an array, the dimensions displayed are associative.
-- [x] The arrayed objects becomes a single entity and, when selected, display as a single entity.
-- [ ] The arrayed objects become associated to the X and Y coordinates used for the array.
-- [ ] The array is associated to the linetype scale.
+- [x] The arrayed objects become a single entity and, when selected, display as a single entity.
+- [ ] The arrayed objects become associated with the X and Y coordinates used for the array.
+- [ ] The array is associated with the linetype scale.
 
 #### Q73. When drawing a Start, Center, End arc, which key do you press to draw the arc in a clockwise direction?
 
@@ -570,7 +570,7 @@
 - [ ] Lineweight
 - [x] Linetype
 
-#### Q77. You selected multiple items and four of the items where not supposed to be selected. How do you deselect them?
+#### Q77. You selected multiple items and four of the items were not supposed to be selected. How do you deselect them?
 
 - [ ] Hold down Alt (Windows) or Option (Mac) and select the four items.
 - [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
@@ -588,22 +588,22 @@
 
 - [ ] To save specific views of a 2D model. Then even if you rotate or move that model, you can umped back to the saved view.
 - [ ] To save specific views of a 3D model. Then even if you rotate or move that model, you can jump back to the saved view.
-- [x] To display views of model space. You create, scale and place viewports in paper space on a layout.
-- [ ] To display views of paper space. You create, sclae and place viewports in model space.
+- [x] To display views of model space. You create, scale, and place viewports in paper space on a layout.
+- [ ] To display views of paper space. You create, scale, and place viewports in model space.
 
 #### Q80. You have designed a shaft with a 1-inch diameter. Your specifications state that it is acceptable for this shaft diameter to be 0.05 inch smaller or 0.05 inch larger than 1 inch. Which tolerance method would you use to dimension this shaft?
 
 - [x] Engineering.
 - [ ] Deviation.
 - [ ] Fractional.
-- [ ] Symmetricl.
+- [ ] Symmetrical.
 
-#### Q81. When using the Point command and the Donut command to create drawing object, you might add them to their own individual layers. Why would you do this?
+#### Q81. When using the Point command and the Donut command to create a drawing object, you might add them to their own individual layers. Why would you do this?
 
 - [ ] In case the layer needs to be switched off or frozen for clarity in a drawing.
 - [x] In case the layer needs to be locked so that it cannot be used by anyone else.
-- [ ] In case the layer isn’t needed any more.
-- [ ] In case the layer need to be renamed for project purposes
+- [ ] In case the layer isn’t needed anymore.
+- [ ] In case the layer needs to be renamed for project purposes
 
 #### Q82. You can make a global linetype scale change by typing “TLSCALE” and pressing Enter (Windows) or Return (MAC). The default value for LTSCALE is 1. What does this represent?
 
@@ -626,7 +626,7 @@
 - [ ] DWFS
 - [ ] DWS
 
-#### Q85. With default setting in place, double-clicking the mouse wheel invokes which AutoCAD command?
+#### Q85. With the default setting in place, double-clicking the mouse wheel invokes which AutoCAD command?
 
 - [ ] Zoom Previous
 - [ ] Zoom Windows
@@ -640,14 +640,14 @@
 - [ ] Completely outside by.
 - [ ] Not encompassed by.
 
-#### Q87. When using the Hatch command with Pick Point selection method, which mode should be turned OFF to make sure the hatch is a single entity?
+#### Q87. When using the Hatch command with the Pick Point selection method, which mode should be turned OFF to make sure the hatch is a single entity?
 
 - [x] Create Separate Hatches.
 - [ ] Associative Boundaries.
 - [ ] Hatch Associative (HPASSOC).
 - [ ] Hatch Multiple (HATCHMULTIPLE).
 
-#### Q89. You want to constrain a line such that it is always horizontal. Which tool could help you acomplish this?
+#### Q89. You want to constrain a line such that it is always horizontal. Which tool could help you accomplish this?
 
 - [ ] Geometric Constraint (GCHORIZONTAL).
 - [x] Horizontal Line (HORIZONTAL).
@@ -661,7 +661,7 @@
 - [x] The Quick Access Toolbar (QAT).
 - [ ] The Info Bar.
 
-#### Q91. When drawing a Start, Center, End arc, which key do you press to draw the arc in a clockwise direction?
+#### Q91. When drawing a Start, Center, or End arc, which key do you press to draw the arc in a clockwise direction?
 
 - [ ] D (direction).
 - [ ] C (clockwise).
@@ -671,7 +671,7 @@
 #### Q92. When using the Point command (POINT) and the Donut command (DONUT) to create drawing objects, you might add them to their own individual layers. Why would you do this?
 
 - [x] in case the layer needs to be switched off or frozen for clarity in a drawing.
-- [ ] in case the layer isn't needed any more.
+- [ ] in case the layer isn't needed anymore.
 - [ ] in case the layer needs to be locked so that it cannot be used by anyone else.
 - [ ] in case the layer needs to be renamed for project purposes.
 
