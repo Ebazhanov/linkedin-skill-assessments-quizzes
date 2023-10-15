@@ -2506,3 +2506,10 @@ void createArray(int n) {
 - [ ] It is used to mark a method or code block as thread-safe, ensuring that only one thread can execute it at a time.
 - [ ] It indicates that the method or code block is highly optimized for performance and will run faster than non-synchronized methods.
 - [ ] It is used to prevent a method or code block from being executed by any thread, making it effectively "locked."
+
+#### Q169. In Java, which of the following statements about the "transient" modifier is true?
+
+- [ ] Transient variables cannot be accessed outside their declaring class.
+- [ ] Transient variables are automatically initialized with a default value.
+- [x] Transient variables are not serialized when an object is serialized.
+- [ ] Transient is a keyword used to define inner classes.
