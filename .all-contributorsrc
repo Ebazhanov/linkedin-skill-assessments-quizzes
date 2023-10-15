@@ -14978,6 +14978,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Sentious",
+      "name": "sentious",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115402871?v=4",
+      "profile": "https://github.com/Sentious",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
