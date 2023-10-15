@@ -2212,7 +2212,7 @@ int y;
 
 - [ ] C++98
 - [x] C++11
-- [] C++14
+- [ ] C++14
 - [ ] C++17.
 
 #### Q129. Can you use auto type deduction for non-static data members?
@@ -2247,7 +2247,7 @@ std::cout << s.a << ", " << s.b;
 #### Q132. Can a static inline variable be non-constant?
 
 - [x] Yes, it's just a regular variable.
-- [] No, inline variables must be constant.
+- [ ] No, inline variables must be constant.
 
 #### Q133. Consider the following code:
 
@@ -2261,14 +2261,14 @@ C c(0);
 
 ```
 
-- [] C::a is initialized twice. The first time, it's initialized with 10 and then the second time with 0 in the constructor.
+- [ ] C::a is initialized twice. The first time, it's initialized with 10 and then the second time with 0 in the constructor.
 - [x] C::a is initialized only once with 0 in the constructor.
-- [ ]The code doesn't compile because the compiler cannot decide how to initialize the C::a member.
+- [ ] The code doesn't compile because the compiler cannot decide how to initialize the C::a member.
 - [ ] 2 bytes
 
 #### Q134. What happens when you throw an exception from a constructor?
 
-- [ ]The object is considered "created" so it will follow the regular lifetime of an object.
+- [ ] The object is considered "created" so it will follow the regular lifetime of an object.
 - [x] The object is considered "partially created," and thus, the compiler won't call its destructor.
 - [ ] he compiler calls std::terminate as you cannot throw exceptions from constructors.
 
@@ -2281,7 +2281,7 @@ std::cout << pt.x << ", " << pt.y;
 ```
 
 - [x] The code doesn't compile. Designators have to be in the same order as the data members in the Point class.
-- [] The code compiles and prints 11, 10.
+- [ ] The code compiles and prints 11, 10.
 - [ ] The code compiles and prints 10, 11.
 
 #### Q136. Will this code work in C++11?
@@ -2310,7 +2310,7 @@ for (const pair<string, int>& elem : m)
 #### Q138. Identify the correct extension of the user-defined header file in C++.
 
 - [ ] .cpp
-- [] .hg
+- [ ] .hg
 - [x] .h
 - [ ] .hf
 
@@ -2364,17 +2364,17 @@ auto x = 4000.22;
 
 #### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
 
-- [ ]Postfix ++
-- [ ]Comparison Operator
-- [x]Insertion Operator <<
-- [ ]Prefix++
+- [ ] Postfix ++
+- [ ] Comparison Operator
+- [x] Insertion Operator <<
+- [ ] Prefix++
 
 #### Q146.How can we restrict dynamic allocation of objects of a class using new?
 
-- [ ]By overloading new operator
-- [ ]By making an empty private new operator.
-- [x]By making an empty private new and new[] operators
-- [ ]By overloading new operator and new[] operators
+- [ ] By overloading new operator
+- [ ] By making an empty private new operator.
+- [x] By making an empty private new and new[] operators
+- [ ] By overloading new operator and new[] operators
 
 #### Q147.What is the time complexity of the below code?
 
