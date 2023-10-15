@@ -2653,6 +2653,7 @@ The code defines a `square` function to calculate the square of a number. It the
 [reference](https://docs.python.org/3/library/functions.html#map)
 
 #### Q182. Which of the following is not a valid built-in function in Python?
+
 - [] int
 - [] string
 - [] boolean
