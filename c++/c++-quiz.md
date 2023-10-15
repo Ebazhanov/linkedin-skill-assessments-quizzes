@@ -239,7 +239,7 @@ int main(){
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-#### Q17. What is the output of this piece of code?
+#### Q17. What is the output of the code given below?
 
 ```cpp
 int8_t a=200;
