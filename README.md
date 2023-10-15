@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1511-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1512-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2100,6 +2100,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://chaudharyakash.com/"><img src="https://avatars.githubusercontent.com/u/68101395?v=4?s=100" width="100px;" alt="Akash Chaudhary"/><br /><sub><b>Akash Chaudhary</b></sub></a><br /><a href="#design-akashchaudhary-git" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=akashchaudhary-git" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sentious"><img src="https://avatars.githubusercontent.com/u/115402871?v=4?s=100" width="100px;" alt="sentious"/><br /><sub><b>sentious</b></sub></a><br /><a href="#design-Sentious" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Sentious" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sh4d0wy"><img src="https://avatars.githubusercontent.com/u/85192629?v=4?s=100" width="100px;" alt="Saksham Bhugra"/><br /><sub><b>Saksham Bhugra</b></sub></a><br /><a href="#design-sh4d0wy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sh4d0wy" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/advait1601"><img src="https://avatars.githubusercontent.com/u/105768690?v=4?s=100" width="100px;" alt="advait1601"/><br /><sub><b>advait1601</b></sub></a><br /><a href="#design-advait1601" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=advait1601" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
