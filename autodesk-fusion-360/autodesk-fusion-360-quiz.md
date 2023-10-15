@@ -58,7 +58,7 @@
 - [ ] Offset Plane
 - [ ] Plane at Angle
 
-#### Q9. Which hole type automatically enters a diameter value based on the type of fastener it will accomodate?
+#### Q9. Which hole type automatically enters a diameter value based on the type of fastener it will accommodate?
 
 - [ ] Clearance
 - [x] Simple
@@ -116,7 +116,7 @@
 
 #### Q17. What translator converts the screen toolpath into language the CNC machine understands?
 
-- [x] a post processor
+- [x] a post-processor
 - [ ] G-code
 - [ ] NC-code
 - [ ] a code processor
