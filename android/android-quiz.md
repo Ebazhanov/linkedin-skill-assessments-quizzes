@@ -24,8 +24,8 @@
 #### Q4. Why might push notifications stop working?
 
 - [x] all of these answers
-- [ ] The device token is not being sent to push provider correctly.
-- [ ] Google Play Services is not installed on the deivce/emulator.
+- [ ] The device token is not being sent to push the provider correctly.
+- [ ] Google Play Services is not installed on the device/emulator.
 - [ ] Battery optimization is turned on on the device.
 
 #### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
@@ -66,7 +66,7 @@
     LinearLayoutManager
 ```
 
-#### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
+#### Q6. The Android system kills the process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With a combination of process and activity state is most likely to be killed?
 
 - [x] Process:In the background;Activity:Is stopped
 - [ ] Process:In the background;Activity:Is paused
@@ -427,9 +427,9 @@ startActivity(dialerIntent)
 
 #### Q33. When would you use the `ActivityCompat.shouldShowRequestPermissionRationale()` function?
 
-- [ ] when a user first opens your app and you want to provide an explanation for the use of a given permission
+- [ ] when a user first opens your app and you want to explain the use of a given permission
 - [ ] when a user has previously denied the request for a given permission and selects "Tell me more"
-- [ ] when a user has previously denied the request for a given permission and you want to provide an explanation for its use
+- [ ] when a user has previously denied the request for a given permission and you want to explain its use
 - [x] when a user has previously denied the request for a given permission and selected "Don't ask again," but you need the permission for your app to function
 
 #### Q34. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
@@ -794,7 +794,7 @@ android {
 
 `Conversion to Dalvik format filed: Unable to execute dex: method ID not in [0, 0xffff]: 65536`
 
-- [ ] You have included incorect format information in your build.gradle file.
+- [ ] You have included incorrect format information in your build.gradle file.
 - [ ] You have added more than 20 dependencies to your build.gradle.
 - [x] You have exceeded the total number of methods that can be referenced within a single DEX file.
 - [ ] You have a NullPointerException in your code.
@@ -913,8 +913,8 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 #### Q59. What is the use of AndroidManifest.xml file?
 
 - [x] It describes the component of the application
-- [ ] It declares the minimum level of the android API that the application requires
-- [ ] It facilitates to provide a uinque name for the application by specifying package name
+- [ ] It declares the minimum level of the Android API that the application requires
+- [ ] It facilitates providing a uinque name for the application by specifying the package name
 - [ ] All of the above
 
 #### Q60. Which attribute of the element <uses-sdk> is used to specify the minimum API Level required for the application to run?
@@ -984,7 +984,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] `ConfigParams`
 - [ ] `ConfigInfo`
 
-#### Q67. In the ConstraintLayout below, why wouldn't button expand to fill the width of parent?
+#### Q67. In the ConstraintLayout below, why wouldn't the button expand to fill the width of the parent?
 
 ```xml
     <androidx.constraintlayout.widget.ConstrantLayout
