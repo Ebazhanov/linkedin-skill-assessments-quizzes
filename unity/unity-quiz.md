@@ -33,7 +33,7 @@
 > Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
 > [Reference](https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html)
 
-#### Q5. Orthographic cameras remove which visual effect?
+#### Q5. Which visual effects are removed by Orthographic cameras?
 
 - [ ] Gamma color space
 - [ ] Depth of field
