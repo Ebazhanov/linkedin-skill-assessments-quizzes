@@ -262,6 +262,7 @@
 - [ ] Imports 3D models
 
 #### Q37. Which of the following is a keyframe interpolation method in After Effects that creates smooth, flowing animations between keyframes?
+
 - [ ] Linear
 - [x] Bezier
 - [ ] Step
