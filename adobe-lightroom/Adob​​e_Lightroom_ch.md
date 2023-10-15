@@ -34,7 +34,7 @@
 
 [參考 (adobe.com)](https://helpx.adobe.com/in/lightroom-classic/help/locate-missing-photos.html)
 
-#### Q5。 將原始檔案的曝光調整-1相當於在相機中做什麼？
+#### Q5。 將原始檔案的曝光調整-1 相當於在相機中做什麼？
 
 - [ ] 將光圈打開一檔
 - [x] 將光圈關閉一光圈
