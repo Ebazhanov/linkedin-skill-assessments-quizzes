@@ -7,7 +7,7 @@
 - [ ] Title and Content
 - [ ] Title Onty
 
-#### Q2. What do you use to align objects on a slide to one another?
+#### Q2. What do you use to align objects on a slide with each other?
 
 - [ ] Layout tools
 - [x] Arrange tools
