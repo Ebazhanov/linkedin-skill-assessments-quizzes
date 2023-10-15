@@ -563,5 +563,3 @@
 - [x] OAuth 2.0
 - [ ] Basic Authentication
 - [ ] HTTP Basic Auth
-
-
