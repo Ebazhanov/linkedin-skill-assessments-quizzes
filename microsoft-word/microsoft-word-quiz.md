@@ -517,6 +517,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Line
 - [ ] Bar
 
+Explanation-
+A pie chart only reads a single data series from a data source and ignores all others. You can determine which series is to be used by choosing Pie.
+
 #### Q65. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png?raw=png)
