@@ -566,3 +566,10 @@
 - [x] b) No, there is no default limit applied at a functional level.
 - [ ] c) The default limit depends on the AWS Lambda service plan.
 - [ ] d) Functional limits are set by users during configuration.
+
+#### Q73. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?
+
+- [x] The default 5 mintutes timeout.
+- [ ] Lambda does not allow vedio encoding.
+- [ ] s3 transfer bottlenecks
+- [ ] s3 cannot talk to Lambda
