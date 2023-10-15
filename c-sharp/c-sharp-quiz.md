@@ -114,7 +114,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 [Official documentation: Anonymous Types](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types)
 
-#### Q9. When would you use a Dictionary rather that an Array type in your application?
+#### Q9. When would you use a Dictionary rather than an Array type in your application?
 
 - [ ] when you need a jagged collection structure
 - [ ] when you need to store values of the same type
