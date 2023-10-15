@@ -1115,3 +1115,10 @@ Table name: superheroes
 - [ ] MATCH
 - [ ] WHERE
 - [ ] LIKE
+
+#### Q116. In MySQL, which JOIN type returns all rows from the left table and the matching rows from the right table, and fills in with NULL values if there is no match on the right side?
+
+- [ ] INNER JOIN
+- [x] LEFT JOIN (or LEFT OUTER JOIN)
+- [ ] RIGHT JOIN (or RIGHT OUTER JOIN)
+- [ ] FULL JOIN (or FULL OUTER JOIN)
