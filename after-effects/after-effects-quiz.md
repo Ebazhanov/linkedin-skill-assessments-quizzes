@@ -197,3 +197,72 @@
 - [ ] 256
 - [ ] 128
 - [x] 127
+
+#### Q28. What is Adobe After Effects primarily used for?
+
+- [ ] Vector Illustration
+- [ ] Video Editing
+- [ ] 3D Modeling
+- [x] Motion Graphics and Visual Effects
+
+#### Q29. Which panel in After Effects allows you to organize and control your project assets?
+
+- [ ] Composition panel
+- [ ] Timeline panel
+- [x] Project panel
+- [ ] Effects panel
+
+#### Q30. In After Effects, what does the "Keyframe" function allow you to do?
+
+- [ ] Adjust color balance
+- [x] Animate properties over time
+- [ ] Render a video
+- [ ] Apply audio effects
+
+#### Q31. Which file format is commonly used for importing and exporting video in After Effects?
+
+- [ ] PSD
+- [x] MOV
+- [ ] AI
+- [ ] MP3
+
+#### Q32. What is the purpose of the "Puppet Pin Tool" in After Effects?
+
+- [ ] To create masks
+- [x] To warp and animate images
+- [ ] To add text layers
+- [ ] To apply color correction
+
+#### Q33. What is the workspace layout called where you can preview your composition in After Effects?
+
+- [ ] Timeline workspace
+- [ ] Effects workspace
+- [ ] Preview workspace
+- [x] Composition workspace
+
+#### Q34. Which of the following effects in After Effects allows you to simulate the appearance of real-world camera depth of field?
+
+- [ ] Gaussian Blur
+- [x] Lens Blur
+- [ ] Radial Blur
+- [ ] Mosaic
+
+#### Q35. What does the "Wiggle Expression" do in After Effects?
+
+- [x] Adds random motion to a layer
+- [ ] Applies a color effect to text
+- [ ] Generates 3D text
+- [ ] Converts 2D footage to 3D
+
+#### Q36. In After Effects, what does the "Track Matte" feature do?
+
+- [x] Creates transitions between two video clips
+- [ ] Records audio
+- [ ] Rotates a composition
+- [ ] Imports 3D models
+
+#### Q37. Which of the following is a keyframe interpolation method in After Effects that creates smooth, flowing animations between keyframes?
+- [ ] Linear
+- [x] Bezier
+- [ ] Step
+- [ ] Exponential
