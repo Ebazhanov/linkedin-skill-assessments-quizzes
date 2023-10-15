@@ -2651,3 +2651,11 @@ print(result)
 
 The code defines a `square` function to calculate the square of a number. It then uses the `map` function to apply this function to each element in the `numbers` list, resulting in a new iterable. Finally, the `list` constructor is used to convert this iterable into a list. The output will be a list of squared numbers.
 [reference](https://docs.python.org/3/library/functions.html#map)
+
+#### Q182. Which of the following is not a valid built-in function in Python?
+- [] int
+- [] string
+- [] boolean
+- [x] array
+
+[Source](https://docs.python.org/3/library/functions.html)
