@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1508-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1509-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2099,6 +2097,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TanyaAgarwal28"><img src="https://avatars.githubusercontent.com/u/67827730?v=4?s=100" width="100px;" alt="Tanya Agarwal"/><br /><sub><b>Tanya Agarwal</b></sub></a><br /><a href="#design-TanyaAgarwal28" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TanyaAgarwal28" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sidwar007"><img src="https://avatars.githubusercontent.com/u/65236872?v=4?s=100" width="100px;" alt="Siddharth"/><br /><sub><b>Siddharth</b></sub></a><br /><a href="#design-sidwar007" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sidwar007" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/05hiteshbansal"><img src="https://avatars.githubusercontent.com/u/83907989?v=4?s=100" width="100px;" alt="Hitesh Bansal"/><br /><sub><b>Hitesh Bansal</b></sub></a><br /><a href="#design-05hiteshbansal" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=05hiteshbansal" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://chaudharyakash.com/"><img src="https://avatars.githubusercontent.com/u/68101395?v=4?s=100" width="100px;" alt="Akash Chaudhary"/><br /><sub><b>Akash Chaudhary</b></sub></a><br /><a href="#design-akashchaudhary-git" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=akashchaudhary-git" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
