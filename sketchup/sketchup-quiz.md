@@ -118,3 +118,73 @@
 - [ ] Righ-Click
 - [ ] Righ-Click
 - [x] Click view > Selection Plane Direct
+
+#### Q18. What is SketchUp primarily used for?
+
+ - [ ] 2D drawing
+ - [x] 3D modeling
+ - [ ] Photo editing
+ - [ ] Word processing
+
+#### Q19. Which of the following tools in SketchUp allows you to create a straight line segment between two points?
+ 
+ - [ ] Push/Pull
+ - [ ] Eraser
+ - [x] Line
+ - [ ] Move
+
+#### Q20. In SketchUp, what is the keyboard shortcut to orbit the camera view?
+ 
+ - [x] O
+ - [ ] R
+ - [ ] V
+ - [ ] P
+
+#### Q21. What is the purpose of the "Follow Me" tool in SketchUp?
+ 
+ - [ ] To move objects along a path
+ - [ ] To create a path for animations
+ - [x] To extrude a 2D shape along a 3D path
+ - [ ] To generate text labels
+
+#### Q22. Which of the following file formats is commonly used for importing and exporting 3D models in SketchUp?
+ 
+ - [ ] .JPG
+ - [ ] .PDF
+ - [x] .SKP
+ - [ ] .TXT
+
+#### Q23. What is the name of the 3D warehouse where SketchUp users can find and share 3D models?
+ 
+ - [ ] 3D Central
+ - [ ] 3D Depot
+ - [x] 3D Warehouse
+ - [ ] 3D Exchange
+
+#### Q24. Which toolbar in SketchUp contains tools for drawing shapes like rectangles, circles, and polygons?
+ 
+ - [ ] File
+ - [ ] Edit
+ - [x] Draw
+ - [ ] View
+
+#### Q25. What does the "Component" feature in SketchUp allow you to do?
+ 
+ - [x] Group objects together for easy editing and duplication
+ - [ ] Change the background color of your model
+ - [ ] Render 3D models into 2D images
+ - [ ] Import 2D images into your model
+
+#### Q26. Which axis represents the blue color in the SketchUp interface?
+ 
+ - [ ] Red
+ - [ ] Green
+ - [x] Blue
+ - [ ] Yellow
+
+#### Q27. What tool in SketchUp is used to create a 3D model from a 2D shape by pushing or pulling it into 3D space?
+ 
+ - [x] Extrude
+ - [ ] Revolve
+ - [ ] Loft
+ - [ ] Selection Plane
