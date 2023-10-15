@@ -375,3 +375,21 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] db.inventory.find( { $or: [ { status: "a" }, { qty: { $lt: 30 } } ] } )
 
 [store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)
+
+#### Q50. Benefit of using NoSQL database?
+
+- [ ] Strict data modeling
+- [ ] Limited scalability
+- [x] Easy schema evolution
+- [ ] Limited data storage capacity
+
+[Explaination:]One of the bendfits of using NoSQL databases is easy schema evolution. NoSQL databases are designed to handle flexible data models, which can be easily modified and updated as the data evolves. This makes it easier to handle changing.
+
+#### Q51. NoSQL databases are most often referred to as?
+
+- [ ] Relational
+- [x] Distributed
+- [ ] Object-oriented
+- [ ] Network
+
+[Explaination:]Since this non-relational database design does not require a schema, it offers rapid scalability to manage large and typically unstructured data sets. NoSQL is also type of distributed database, which means that information is copied and stored on various servers, which can be remote or local.
