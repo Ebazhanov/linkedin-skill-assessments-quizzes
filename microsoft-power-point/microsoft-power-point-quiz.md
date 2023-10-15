@@ -905,3 +905,12 @@ D. Start When Clicked On
 - [ ] iconicon
 - [ ] 3D model3D model
 - [ ] screenshot
+
+#### Q116. Which choice describes the result of importing this Word outline into a presentation?
+
+![img](images/Q116.png)
+
+- [ ] Two slides will be created from the outline.
+- [x] One slide will be created with seven bullet items.
+- [ ] Two sections will be created, one with three slides and one with two slides.
+- [ ] Seven slides will be created from the outline.
