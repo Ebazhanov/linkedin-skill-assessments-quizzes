@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1512-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1513-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2103,6 +2103,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sentious"><img src="https://avatars.githubusercontent.com/u/115402871?v=4?s=100" width="100px;" alt="sentious"/><br /><sub><b>sentious</b></sub></a><br /><a href="#design-Sentious" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Sentious" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sh4d0wy"><img src="https://avatars.githubusercontent.com/u/85192629?v=4?s=100" width="100px;" alt="Saksham Bhugra"/><br /><sub><b>Saksham Bhugra</b></sub></a><br /><a href="#design-sh4d0wy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sh4d0wy" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/advait1601"><img src="https://avatars.githubusercontent.com/u/105768690?v=4?s=100" width="100px;" alt="advait1601"/><br /><sub><b>advait1601</b></sub></a><br /><a href="#design-advait1601" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=advait1601" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vinay94278"><img src="https://avatars.githubusercontent.com/u/106542979?v=4?s=100" width="100px;" alt="Vinay Adatiya"/><br /><sub><b>Vinay Adatiya</b></sub></a><br /><a href="#design-Vinay94278" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Vinay94278" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
