@@ -1289,3 +1289,31 @@ fmt.Println(a, b, c)
 - [ ] and
 - [x] &&
 - [ ] ||
+
+### Q72. What is an anonymous function in Go?
+
+- [ ] A function with no return type.
+- [ ] A function with no parameters.
+- [x] A function without a name.
+- [ ] A function declared inside another function.
+
+### Q73.Which keyword is used to declare an anonymous function in Go?
+
+- [ ] `func`
+- [ ] `lambda`
+- [x] `func()`
+- [ ] `anonymous`
+
+#### Q74. What is the main advantage of using anonymous functions in Go?
+
+- [ ] They always have better performance than named functions.
+- [ ] They can have multiple return values.
+- [x] They can be defined inline where they are used.
+- [ ] They have a shorter syntax than named functions.
+
+#### Q75. What is the syntax for calling an anonymous function immediately after its declaration in Go?
+
+- [ ] `functionName(){}`
+- [ ] `call functionName(){}`
+- [x] `func(){}()`
+- [ ] `execute func(){}`
