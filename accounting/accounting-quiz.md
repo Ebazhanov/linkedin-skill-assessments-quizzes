@@ -42,7 +42,7 @@
 - [x] direct materials, direct labor, and both variable and fixed overhead
 - [ ] direct materials, direct and indirect labor, and variable overhead
 
-#### Q7. Which answer best describes accruals and deferrals?
+#### Q7. Which are accruals and deferrals?
 
 - [ ] Accruals are past cash receipts and payments, while deferrals are expected future cash receipts and payments.
 - [ ] Both accruals and deferrals are both expected future cash receipts and payments.
