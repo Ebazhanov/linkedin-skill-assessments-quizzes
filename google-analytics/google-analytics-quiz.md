@@ -551,7 +551,7 @@
 - [ ] Destination
 - [ ] Duration
 - [ ] Pages/Screens per Session
-- [ ] Event
+- [x] Event
 
 #### Q78. What is an interaction that causes data to be sent to Analytics?
 

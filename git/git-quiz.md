@@ -904,9 +904,9 @@ Which of the following options is correct ?
 
 #### Q98. After checking out a specific commit, you receive a warning message indicating You are in 'detached HEAD' state. What is Git warning you of?
 
-- [x] You are not working on the most recent commit of a branch.
+- [ ] You are not working on the most recent commit of a branch.
 - [ ] A teammate has flagged the code with an issue.
-- [ ] The commit does not have a parent.
+- [x] The commit does not have a parent.
 - [ ] The branch has not been pushed to the remote repository.
 
 [reference here](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)

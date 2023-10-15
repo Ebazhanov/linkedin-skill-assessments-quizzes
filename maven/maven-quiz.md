@@ -600,3 +600,12 @@ mvn install
 #### Q74. What command can you use to run the goal of the compiler plugin?
 
 - [ ] mvn compiler:compile
+
+#### Q75. In order to leverage a single execution of an Apache Maven goal on a multimodule project, from which directory should you execute the goal?
+
+- [x] the directory with the parent POM
+- [ ] the workspace directory
+- [ ] the development directory
+- [ ] the module directory
+
+[!reference](https://maven.apache.org/guides/mini/guide-multiple-modules.html)

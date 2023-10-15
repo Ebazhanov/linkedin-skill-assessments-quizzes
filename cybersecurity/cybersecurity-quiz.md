@@ -103,7 +103,7 @@
 - [ ] digital signature
 - [x] symmetric encryption
 
-#### Q14. What is the difference between DRP and BCP
+#### Q14. What is the difference between DRP and BCP?
 
 - [x] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
 - [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
@@ -1022,3 +1022,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] SMS message
 
 [Reference](https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/) `"(...)All in all, MFA is still very effective at preventing most mass and automated attacks; however, users should be aware that there are ways to bypass some MFA solutions, such as those relying on SMS-based verification."`
+
+#### Q133. Which of the following is NOT a common authentication factor used in cybersecurity?
+
+- [ ] Something you know
+- [ ] Something you have
+- [ ] Something you are
+- [x] Something you want

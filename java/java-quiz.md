@@ -2464,6 +2464,45 @@ void createArray(int n) {
 - [ ] O(1)
 - [x] O(N)
 - [ ] O(N^2)
-- [ ] O(log(N))
+- [ ] O(log(N)
 
-//In this program, a dynamic array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+      //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+
+---
+
+#### Q167. What will be the output of the following Java code?
+
+    import java.util.*;
+    public class genericstack <E>
+    {
+        Stack <E> stk = new Stack <E>();
+    public void push(E obj)
+        {
+            stk.push(obj);
+    }
+    public E pop()
+        {
+            E obj = stk.pop();
+        return obj;
+    }
+    }
+    class Output
+    {
+        public static void main(String args[])
+        {
+            genericstack <String> gs = new genericstack<String>();
+            gs.push("Hello");
+            System.out.println(gs.pop());
+        }
+    }
+
+---
+
+//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+
+#### Q168. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
+
+- [x] It is used to specify that a method or code block is asynchronous, allowing multiple threads to execute it concurrently.
+- [ ] It is used to mark a method or code block as thread-safe, ensuring that only one thread can execute it at a time.
+- [ ] It indicates that the method or code block is highly optimized for performance and will run faster than non-synchronized methods.
+- [ ] It is used to prevent a method or code block from being executed by any thread, making it effectively "locked."

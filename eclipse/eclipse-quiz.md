@@ -184,9 +184,9 @@
 #### Q26. When viewing an XML file in Eclipse, how can you view the file in a visual hierarchy (as opposed to code alone)?
 
 - [ ] You cannot do this in Eclipse.
-- [ ] Select the Editor tab for the XML file and then click the Design tab at the bottom of the editor window.
+- [x] Select the Editor tab for the XML file and then click the Design tab at the bottom of the editor window.
 - [ ] Double-click the open tab in the Editor.
-- [ ] In the Package Explorer, right-click the file and select Open With > Desgign Editor.
+- [ ] In the Package Explorer, right-click the file and select Open With > Design Editor.
 
 #### Q27. How can you view all the commits for a single file?
 
@@ -199,21 +199,21 @@
 
 ![image Q28](https://raw.githubusercontent.com/Ebazhanov/linkedin-skill-assessments-quizzes/main/eclipse/images/Eclipse-Q28.jpg)
 
-- [ ] It links the Editor and Navigator, causing the Editor to switch to the file selected in the Package Explorer and vice versa.
+- [x] It links the Editor and Navigator, causing the Editor to switch to the file selected in the Package Explorer and vice versa.
 - [ ] It expands Libraries when you are in the Java perspective.
 - [ ] It minimizes the left view
 - [ ] It collapses open folders in the Package Explorer view.
 
 #### Q29. Why might you create multiple debug configurations for the same project?
 
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] to debug using a different JRE
 - [ ] to customize environment variables
 - [ ] to customize arguments
 
 #### Q30. You are searching for code using the Search dialog, and no results appear. What is a likely cause?
 
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] The scope of the search is too narrow.
 - [ ] The type of search is not appropriate for the language of the code.
 - [ ] There is a typo in the search parameters.

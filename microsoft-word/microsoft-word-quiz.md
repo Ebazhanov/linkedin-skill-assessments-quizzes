@@ -37,7 +37,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)
 
-#### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
+#### Q6. How can I place a ghosted logo or text behind the regular text in my document using a specific feature?
 
 - [ ] Background.
 - [x] Watermark.
@@ -58,7 +58,7 @@
 - [x] Pin to list.
 - [ ] Mark as favorite.
 
-#### Q9. You want to add a caption to a table. Which tab contains this option?
+#### Q9. Which tab contains the option to add caption to a table?
 
 - [ ] Insert
 - [ ] Design
@@ -517,6 +517,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Line
 - [ ] Bar
 
+Explanation-
+A pie chart only reads a single data series from a data source and ignores all others. You can determine which series is to be used by choosing Pie.
+
 #### Q65. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png?raw=png)
@@ -898,3 +901,10 @@ explain:
 
 [Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
 [Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)
+
+#### Q112. Which of the following is an example of page orientation?
+
+- [x] Landscape
+- [ ] subscript
+- [ ] A4
+- [ ] All of the above

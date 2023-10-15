@@ -956,3 +956,10 @@ cat < in.txt > out.txt
 - [ ] command
 
 [Reference](https://github.com/hieuvp/learning-linux/blob/master/vim-masterclass/vim-graphical-user-interfaces-gvim-and-macvim/README.md)
+
+#### Q116. which command used for delete a user?
+
+- [x] userdel
+- [ ] rm -rf username
+- [ ] mv
+- [ ] delete

@@ -1191,6 +1191,8 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png?raw=png)
 
+Explanation: function that called without parameter will use its param default value, thus x will always be default to 1 and y will always be default to 2.
+
 #### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
@@ -1246,6 +1248,8 @@ ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
 
+[Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
+
 #### Q102. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
 
 ```javascript
@@ -1259,6 +1263,9 @@ const PokeDex = (props) => {
 - [ ] this.props.pokeDex
 - [ ] setPokeDex()
 - [x] pokeDex
+
+Explanation: useState always return an array with two values, the state itself (on first value) and the set function that lets you update the state (on second value)
+[useState Reference](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
 #### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
 
@@ -1289,12 +1296,16 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
+[JSX Transform with Babel](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
 #### Q105. Which hook is used to prevent a function from being recreated on every component render?
 
 - [x] useCallback
 - [ ] useMemo
 - [ ] useRef
 - [ ] useTransition
+
+[React Hooks useCallback docuementation](https://react.dev/reference/react/useCallback)
 
 #### Q106. Why might you use the `useRef` hook?
 
@@ -1506,3 +1517,78 @@ const Waitlist = () => {
 - [ ] The virtual DOM is a database used to store component states.
 
 [Reference](https://medium.com/@vinaynkokate/demystifying-dynamic-web-applications-understanding-the-dom-and-web-browser-interactions-cc1b113adfa)
+
+#### Q126. You run the following code and get this error message: "invalid hook call." what is wrong with the code?
+
+```javascript
+import React from 'react';
+
+const [poked, setPoked] = React.useState(false);
+
+function PokeButton() {
+  return <button onClick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
+}
+```
+
+- [x] The useState call needs to be called inside of the PokeButton component.
+- [ ] The react package is likely not installed correctly.
+- [ ] useState is not imported correctly. Import useState directly instead of importing react.
+- [ ] PokeButton is a pure function and therefore cannot have any local state.
+
+#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked is not defined". What is wrong with their code?
+
+```javascript
+function PokeButton() {
+  const { poked, setPoked } = usestate(false);
+  return <button onclick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
+}
+```
+
+- [ ] onClick prop should be onclick.
+- [ ] The click handler passed to the onClick prop is inlined. Move this handler into a variable outside of JSX.
+- [ ] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
+- [x] poked and setPoked are not destructured in the correct order.
+
+#### Q128. This componenet is loaded dynamically. What should you replace XXXX with to complete the code?
+
+```javascript
+const OtherComponent = React.lazy(() => import('./OtherComponent.js'));
+
+function MyComponent() {
+  return (
+    <XXXX fallback={<spinner />}>
+      <OtherComponent />
+    </XXXX>
+  );
+}
+```
+
+- [ ] Component
+- [ ] Fragment
+- [x] Suspense
+- [ ] Lazy
+
+#### Q129. Elements in lists in React should have \_**\_ that are \_\_\_** .
+
+- [ ] keys ; unique
+- [ ] keys ; indexes
+- [ ] style ; inline
+- [ ] values ; not-null
+
+#### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
+
+- [ ] useRef
+- [x] useMemo
+- [ ] memo
+- [ ] useCallback
+
+#### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
+
+```javascript
+useEffect(callNetworkFunc, XXXX);
+```
+
+- [ ] [userInput]
+- [x] userInput
+- [ ] undefined
+- [ ] []

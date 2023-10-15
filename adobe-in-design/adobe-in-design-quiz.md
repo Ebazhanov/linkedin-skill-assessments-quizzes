@@ -82,9 +82,9 @@
 
 #### Q11. When you select a rectangular frame on the page, InDesign displays a yellow square near the frame's upper-right corner. What does this allow you to do?
 
-- [x] Change the corners from square to rounded.
+- [x] Change the corners from square to round.
 - [ ] Anchor the object into another frame.
-- [ ] Change teh layer or z-order of the frame.
+- [ ] Change the layer or z-order of the frame.
 - [ ] Link the frame to another frame.
 
 #### Q12. What action can the Pen tool perform on a selected object?
@@ -98,7 +98,7 @@
 
 - [x] You have a bullet list of six items that you want to split into two columns in the middle of a text frame.
 - [ ] You are changing the number of columns on a page and want to ensure the text flows properly.
-- [ ] You want a line or top shaded borded to span across the top of a multicolumn frame.
+- [ ] You want a line or top shaded board to span across the top of a multicolumn frame.
 - [ ] You have a heading that you want to span across two threaded text frames
 
 #### Q14. Which statement about tables is true?
@@ -108,7 +108,7 @@
 - [ ] Tables must contain more than one cell.
 - [ ] Tables cannot be anchored in a story in a text frame
 
-#### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
+#### Q15. Which feature would you use to create the effect shown, where the grouped circles blend but not the object behind them?
 
 ![Q15](images/question_15.png)
 
@@ -137,9 +137,9 @@
 
 ![Q18](images/question_18.png)
 
-- [ ] The page wil be scaled to fit the paper.
+- [ ] The page will be scaled to fit the paper.
 - [x] All document layers will be visible
-- [ ] Some of the InDesign page will be cropped off.
+- [ ] Some of the InDesign pages will be cropped off.
 - [ ] The master page P is applied to the document pages.
 
 #### Q19. After you click a color stop in the **Gradient** panel to select it, how can you set its color to a swatch in the **Swatches** panel?
@@ -156,7 +156,7 @@
 - [x] angle
 - [ ] type (linear or radial)
 
-#### 21. Which export format lets you gather viewer stats, such as number of views?
+#### 21. Which export format lets you gather viewer stats, such as several views?
 
 - [ ] Publish online
 - [ ] PDF (Interactive)
@@ -187,7 +187,7 @@
 #### 25. What does the icon to the right of the page thumbnail indicate?
 
 - [ ] The page thumbnail in the Pages panel appears rotated.
-- [ ] The page appears rotated in the document window, but will print unrotated.
+- [ ] The page appears rotated in the document window but will print unrotated.
 - [ ] There are one or more items on this page that are rotated or flagged for rotation.
 - [x] The page is marked to be rotated when exported or printed.
 
@@ -205,7 +205,7 @@
 - [x] Window > Workspace
 - [ ] View > Extras
 
-#### 28. Your document measurements display in picas. How can you change this to centimeters?
+#### 28. Your document measurements are displayed in picas. How can you change this to centimeters?
 
 - [ ] Click Layout > Ruler Guides.
 - [ ] Click Layout > Numbering & Section Options.
@@ -217,7 +217,7 @@
 - [x] Drag master page B over the page 3 icon
 - [ ] You cannot apply master page B to this page
 - [ ] Drag the page 3 icon over master page B
-- [ ] master page B is already applied
+- [ ] Master page B is already applied
 
 #### 30. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
 
@@ -238,7 +238,7 @@
 -A. The guides are on a layer that has printing disabled.
 -B. The guides are on a locked Layer.
 -C. The guides are being controlled using an object style.
--D. Lock guides has been enabled.
+-D. Lock guides have been enabled.
 -E. The guides are on a master page.
 
 - [ ] B, D, E (maybe)
@@ -249,14 +249,14 @@
 #### 33. You have an InDesign document with text on one layer and images on another. You want images with a text wrap applied to not wrap text when the layer is hidden. Where would you find the option to control this?
 
 - [x] in the Layer Options dialog box
-- [ ] in the Object Export Option dialog box
+- [ ] in the Object Export Options dialog box
 - [ ] This happens automatically in InDesign
 - [ ] You cannot accomplish this in InDesign
 
 #### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
 
     A. The color switches to black.
-    B. The color you clicked is applied to the text.
+    B. The color you click is applied to the text.
     C. The color appears as a swatch in the Swatches panel.
     D. The color appears in the Color panel.
     E. If the image is in RGB mode, the text color is also set to RGB mode.
@@ -280,14 +280,14 @@
 - [ ] the hyperlink is stopped or paused
 - [ ] the content of the hyperlink is anchored
 
-#### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task
+#### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task?
 
 - [ ] Break link to style
 - [ ] Update Style
 - [x] Redefine Style (pretty sure)
 - [ ] New style
 
-#### 38. What is a key difference between File > Document Setup and File > Adjust Layout?
+#### 38. What is the key difference between File > Document Setup and File > Adjust Layout?
 
 - [ ] One lets you change the page orientation (portrait vs. Landscape)
 - [ ] One lets you change page size but not margin size
@@ -301,7 +301,7 @@
 - [ ] page transitions
 - [ ] audio annotations
 
-#### 40. How do you apply a Fade In animation to the selected object?
+#### 40. How do you apply a Fade animation to the selected object?
 
 - [ ] In the Effects panel, select Fade In
 - [ ] Select Object > Content > Fade In
@@ -322,7 +322,7 @@
 - [x] Edit > Paste Into
 - [ ] Object > Arrange
 
-#### 43. While formatting some text in InDesign, you apply a paragraph style that uses the Adelle Regular font. However, after applying the style, all of the text is formatted using Adelle Bold.The paragraph style shows no overrides. What is most likely the cause of this?
+#### 43. While formatting some text in InDesign, you apply a paragraph style that uses the Adelle Regular font. However, after applying the style, all of the text is formatted using Adelle Bold. The paragraph style shows no overrides. What is most likely the cause of this?
 
 - [ ] An object style is also applied to the text.
 - [ ] The font is damaged.
@@ -336,7 +336,7 @@
 - [ ] another term for the slug area
 - [ ] the space between the bleed and the slug
 
-#### 45. Where do you set left and right indents for type in a selected text frame?
+#### 45. Where do you set left and right indents for typing in a selected text frame?
 
 - [ ]in Type > Type Variables
 - [x]the Paragraph panel
@@ -350,13 +350,13 @@
 - [ ] You cannot use Find/Change for text set to the registration swatch.
 - [x] The registration swatch prints on all color plates.
 
-#### 47. This text frame is filled with Paper and there are only two frames (the text frame and the image behind it).How would you achievethis effect, where you can see through the frame but not the text?
+#### 47. This text frame is filled with Paper and there are only two frames (the text frame and the image behind it). How would you achieve this effect, where you can see through the frame but not the text?
 
 ![Alt text](images/question_47.png)
 
 - [ ] Create a new color swatch in the Swatches panel based on Paper, and lower its opacity value.
 - [ ] ln the Effects panel, select Ghost Back from the FX menu.
-- [x] ln the Effects panel, click the word Fill and change the opacity.
+- [x] ln the Effects panel, click the word Fill, and change the opacity.
 - [ ] ln the Swatches panel, edit the Paper swatch to be partially transparent.
 
 #### 48. When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no image appears within the frame. What is most likely the cause of this?
@@ -398,7 +398,7 @@
 - [ ] Scale to Fit
 - [ ] Use Document Bleed Settings
 
-#### 53. You have designed a 32-page magazine and you want to export it as a PDF to send to a printer.Which option in this Export AdobePDF dialog is probably set incorrectly?
+#### 53. You have designed a 32-page magazine and you want to export it as a PDF to send to a printer. Which option in this Export AdobePDF dialog is probably set incorrectly?
 
 ![Alt text](images/question_53.png)
 
@@ -455,7 +455,7 @@
 
 #### 60. Which statement about importing a Microsoft Word document into InDesign is true?
 
-- [ ] Paragraph and character styles are removed and local lnDesign formatting is applied.
+- [ ] Paragraph and character styles are removed and local InDesign formatting is applied.
 - [ ] Images, hyperlinks, and special characters are stripped out.
 - [ ] Paragraph and character styles are mapped automatically when styles are named identically.
 - [ ] Footnotes, endnotes, and tables of contents are stripped out.
@@ -478,7 +478,7 @@
 
 - [ ] to apply a bold font to all the text in the first line of a paragraph
 - [ ] to apply a border around a paragraph that automatically resizes when the text is edited
-- [x] to make only the first line of a paragraph align to the baseline grid
+- [x] to make only the first line of a paragraph align with the baseline grid
 - [ ] to apply drop caps in the first line of a paragraph
 
 #### 64. what does the circled i icon indicate?

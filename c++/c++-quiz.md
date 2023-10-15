@@ -1,6 +1,6 @@
 ## C++
 
-#### Q1. What is printed from this code?
+#### Q1. What is the output of this code?
 
 ```cpp
 vector<int> v(22);
@@ -43,7 +43,7 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q4. Which of the following shows the contents of vector v1 and v2 after running this code?
+#### Q4. What are the vectors v1 and v2 after executing the code?
 
 ```cpp
 std::vector<int> v1{1,2,3},v2;
@@ -239,7 +239,7 @@ int main(){
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-#### Q17. What is the output of this piece of code?
+#### Q17. What is the output of the code given below?
 
 ```cpp
 int8_t a=200;
@@ -289,6 +289,8 @@ else {
 - [x] Part B executes because (x & y) results in 0, or false.
 - [ ] Part A executes because (x & y) results in a nonzero value, or true.
 - [ ] Part B executes because the statement (x & y) is invalid, thus false.
+
+[Reference](https://stackoverflow.com/questions/63867765/dont-understand-why-if-5-2-is-false)
 
 #### Q20. What is a valid definition for the `get_length` function, which returns the length of a null-terminated string?
 
@@ -366,6 +368,8 @@ printf("%d", --i);
 - [ ] 0,0,1,0
 - [ ] 1,0,1,0
 
+[Reference](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/)
+
 #### Q24. What is true about the variable named `ptr`?
 
 ```cpp
@@ -420,6 +424,10 @@ x=+a;
 - [ ] 7
 - [x] -3
 - [ ] 13
+
+So x **+=** a would simply mean (x = x + a), here that yields x = 10 + (-3) = 7.
+But, here it is (x **=+** a) : This is equivalent to x = +a. Here, the unary plus operator + is used. However, the unary plus operator doesn't change the sign of the value; it simply ensures that the value is positive. So, it effectively does nothing in this context
+[Reference](https://stackoverflow.com/questions/6958401/the-difference-between-and)
 
 #### Q29. Which statement is true?
 
@@ -1576,10 +1584,10 @@ X+=a;
 ```cpp
 int main()
 {
-tout « size_in_bits(21) « endl;
-tout « size_in_bits('f') « endl;
-tout « size_in_bits(32.1f) « endl;
-tout « size_in_bits(32.1) « endl;
+cout « size_in_bits(21) « endl;
+cout « size_in_bits('f') « endl;
+cout « size_in_bits(32.1f) « endl;
+cout « size_in_bits(32.1) « endl;
 return 0;
 }
 ```
@@ -1687,6 +1695,17 @@ int main()
 - [x] 2
 - [ ] 3
 - [ ] 4
+
+#Detailed explanaition:
+
+Now here we are suppose to implement stack data structure which follows the **FILO** or (First IN Last Out) principle,
+_stack.push()_ -> pushes an element into the from the end array.
+_stack.pop()_ -> removes an element from the end of the array.
+_stack.top()_ -> Just gives us the topmost element of the array.
+Now following the sequences of push and pop: **[1,2,3]** then pop function is used,
+Newly formed array is: **[1,2,4]** then top is used to retrieve topmost element '4' then again pop function is used which removes 4.
+thus, resulting array is: 1,2.
+Then is prints the topmost element (ie: 2).
 
 #### Q105. Which choice is a valid way to overload the ternary conditional operator?
 
@@ -2022,6 +2041,9 @@ return 0;
 - [ ] 25
 - [x] Compilation Error: invalid initialization of non-const reference
 
+#Detailed explanaition:
+The error is occurring because it is trying to create a reference to a temporary value. In the line int &b = a+1; we are attempting to create a reference b to the result of the expression a + 1, which is a temporary value. References must be bound to an actual object, not a temporary value or an expression that does not have a memory location.
+
 #### Q121. Consider the following code segment. What will be the output?
 
 ```cpp
@@ -2190,7 +2212,7 @@ int y;
 
 - [ ] C++98
 - [x] C++11
-- [] C++14
+- [ ] C++14
 - [ ] C++17.
 
 #### Q129. Can you use auto type deduction for non-static data members?
@@ -2225,7 +2247,7 @@ std::cout << s.a << ", " << s.b;
 #### Q132. Can a static inline variable be non-constant?
 
 - [x] Yes, it's just a regular variable.
-- [] No, inline variables must be constant.
+- [ ] No, inline variables must be constant.
 
 #### Q133. Consider the following code:
 
@@ -2239,14 +2261,14 @@ C c(0);
 
 ```
 
-- [] C::a is initialized twice. The first time, it's initialized with 10 and then the second time with 0 in the constructor.
+- [ ] C::a is initialized twice. The first time, it's initialized with 10 and then the second time with 0 in the constructor.
 - [x] C::a is initialized only once with 0 in the constructor.
-- [ ]The code doesn't compile because the compiler cannot decide how to initialize the C::a member.
+- [ ] The code doesn't compile because the compiler cannot decide how to initialize the C::a member.
 - [ ] 2 bytes
 
 #### Q134. What happens when you throw an exception from a constructor?
 
-- [ ]The object is considered "created" so it will follow the regular lifetime of an object.
+- [ ] The object is considered "created" so it will follow the regular lifetime of an object.
 - [x] The object is considered "partially created," and thus, the compiler won't call its destructor.
 - [ ] he compiler calls std::terminate as you cannot throw exceptions from constructors.
 
@@ -2259,7 +2281,7 @@ std::cout << pt.x << ", " << pt.y;
 ```
 
 - [x] The code doesn't compile. Designators have to be in the same order as the data members in the Point class.
-- [] The code compiles and prints 11, 10.
+- [ ] The code compiles and prints 11, 10.
 - [ ] The code compiles and prints 10, 11.
 
 #### Q136. Will this code work in C++11?
@@ -2288,7 +2310,7 @@ for (const pair<string, int>& elem : m)
 #### Q138. Identify the correct extension of the user-defined header file in C++.
 
 - [ ] .cpp
-- [] .hg
+- [ ] .hg
 - [x] .h
 - [ ] .hf
 
@@ -2309,7 +2331,6 @@ auto x = 4000.22;
 - [ ] int
 - [ ] double
 - [ ] float
-- [ ]
 
 #### Q141. Identify the correct syntax for declaring arrays in C++.
 
@@ -2318,18 +2339,20 @@ auto x = 4000.22;
 - [ ] array{10}
 - [ ] int arr
 
+[Reference]: (https://en.cppreference.com/w/cpp/language/array)
+
 #### Q142.Size of wchat_t is.
 
 - [ ] 2
 - [ ] 4
-- [] 2 or 4
+- [ ] 2 or 4
 - [x] Depends on number of bits in system
 
 #### Q143.Which of the following loops is best when we know the number of iterations?
 
-- [ ] While
-- [x] For
-- [ ] Do
+- [ ] while
+- [x] for
+- [ ] do
 - [ ] All of the above
 
 #### Q144.Which keyword is used to define the macros in c++?
@@ -2338,3 +2361,46 @@ auto x = 4000.22;
 - [x] #define
 - [ ] macro
 - [ ] keyword
+
+#### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
+
+- [ ] Postfix ++
+- [ ] Comparison Operator
+- [x] Insertion Operator <<
+- [ ] Prefix++
+
+#### Q146.How can we restrict dynamic allocation of objects of a class using new?
+
+- [ ] By overloading new operator
+- [ ] By making an empty private new operator.
+- [x] By making an empty private new and new[] operators
+- [ ] By overloading new operator and new[] operators
+
+#### Q147.What is the time complexity of the below code?
+
+```cpp
+for(int i=0;i<n;i++){
+   for(int j=0;j<n;j++){
+       cout<<"hello";
+    }
+}
+```
+
+- [ ] O(n*n*n)
+- [x] O(n\*n)
+- [ ] O(n)
+- [ ] O(1)
+
+#### Q148.What is the output of the code given below?
+
+```cpp
+int a=10;
+int k=++a;
+int m=a++;
+cout<<k+m;
+```
+
+- [ ] 20
+- [x] 21
+- [ ] 22
+- [ ] 23

@@ -35,7 +35,7 @@
 - [ ] `<bold>`
 - [ ] `<b>`
 
-#### Q6. When is the `<link>` tag used?
+#### Q6. What is the use of `<link>` tag?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
 - [x] when linking style sheets, favicons, and preloading assets
@@ -58,7 +58,7 @@
 - [ ] `itemscope` `itemref="http://schema.org/PostalAddress"`
 - [ ] `itemid="address"` `itemtype="http://schema.org/PostalAddress"`
 
-#### Q8. When should you use the `<aside>` element?
+#### Q8. What is the use of `<aside>` element?
 
 - [x] when the content can be removed without detracting from the page's message
 - [ ] for anything you want to move to the side, like a pull quote box, a sidebar, or an image with text wrapping around it

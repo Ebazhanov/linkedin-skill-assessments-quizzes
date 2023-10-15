@@ -884,3 +884,24 @@ D. Start When Clicked On
 - [ ] layout
 - [x] accessibility
 - [ ] presentation
+
+#### Q113. In Normal view, which pane is used to add text and reference information for the speaker?In Normal view, which pane is used to add text and reference information for the speaker?
+
+- [x] NotesNotes
+- [ ] CommentsComments
+- [ ] SlideSlide
+- [ ] ReadingReading
+
+#### Q114. You want to use a chart from an existing Excel file in your presentation. You need to ensure that the data is always up to date in PowerPoint, even when the workbook is updated in Excel. Which method should you use to do this and include only the chart?You want to use a chart from an existing Excel file in your presentation. You need to ensure that the data is always up to date in PowerPoint, even when the workbook is updated in Excel. Which method should you use to do this and include only the chart?
+
+- [x] Copy the chart in Excel and in the presentation, and select Paste Special using the Link Data option.Copy the chart in Excel and in the presentation, and select Paste Special using the Link Data option.
+- [ ] Copy the chart in Excel and in the presentation, Paste Special using an Embed Workbook option.Copy the chart in Excel and in the presentation, Paste Special using an Embed Workbook option.
+- [ ] Copy the chart in Excel and in the presentation, Paste Special as a Picture.Copy the chart in Excel and in the presentation, Paste Special as a Picture.
+- [ ] In the presentation, insert an object and select Create from File.In the presentation, insert an object and select Create from File.
+
+#### Q115. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
+
+- [x] text box
+- [ ] iconicon
+- [ ] 3D model3D model
+- [ ] screenshot

@@ -511,7 +511,7 @@ console.log(currencies);
 
 [Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
 
-#### Q53. What does the term "tree shaking" mean with regard to JavaScript performance?
+#### Q53. What is the meaning of "tree shaking" in relation to JavaScript performance?
 
 - [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
 - [x] removing unused code from the JavaScript files
@@ -837,3 +837,10 @@ box {
 - [ ] The `<img>` element does not have a closing `</img>` tag.
 - [ ] The `<h1>` element is the most important heading on the page.
 - [ ] The value of an id attribute should be unique in an HTML document.
+
+#### Q86. Which command has no Syntax error in CSS ?
+
+- [ ] p {font-size: 16em;}
+- [ ] h2 {colour: yellow;}
+- [ ] div {border-radius: 5px}
+- [x] #my-div {background-color: blue;}

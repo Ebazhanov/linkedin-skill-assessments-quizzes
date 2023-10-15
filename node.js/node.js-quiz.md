@@ -677,3 +677,111 @@ server.listen(port, hostname, () => {
 - [x] `Hello World`
 
 [Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
+
+Q78. What is the primary function of the npm command in Node.js development?
+
+- [ ] To install and manage Node.js versions.
+- [x] To manage packages and dependencies for Node.js projects.
+- [ ] To run JavaScript code in the browser.
+- [ ] To create and manage databases for Node.js applications.
+
+Explanation: The npm command is the Node Package Manager and is primarily used to manage packages and dependencies for Node.js projects. It allows developers to install, update, and manage packages from the npm registry.
+
+Q79. In Node.js, how can you handle asynchronous operations effectively to avoid callback hell?
+
+- [ ] Use global variables to share data between asynchronous functions.
+- [ ] Avoid using asynchronous functions altogether.
+- [ ] Use synchronous functions to ensure order of execution.
+- [x] Use Promises, async/await, or libraries like async.js to manage asynchronous operations in a more structured way.
+
+Explanation: To handle asynchronous operations effectively and avoid callback hell, it's recommended to use Promises, async/await, or libraries like async.js. These techniques provide a more structured and readable way to work with asynchronous code.
+
+Q80. Which core module in Node.js can be used to create web servers?
+
+- [ ] fs (File System)
+- [ ] http (HTTP Client)
+- [ ] url (URL Parsing)
+- [x] http (HTTP Server)
+
+Explanation: The http core module in Node.js can be used to create web servers. It provides the necessary functionality to handle HTTP requests and responses, making it possible to create web applications and APIs.
+
+Q81. What is the purpose of the os module in Node.js?
+
+- [ ] To work with the file system and perform I/O operations.
+- [ ] To create and manage child processes.
+- [x] To provide information about the host operating system, such as CPU, memory, and network interfaces.
+- [ ] To parse and manipulate URLs.
+
+Explanation: The os module in Node.js is used to provide information about the host operating system. It offers functions to access details about the CPU, memory, and network interfaces, making it useful for system-related tasks.
+
+Q82. How can you serve static files, such as HTML, CSS, and images, in a Node.js web application?
+
+- [ ] Use the url module to serve static files.
+- [ ] Embed the static files directly into JavaScript code.
+- [x] Use middleware like express.static in combination with the Express.js framework to serve static files.
+- [ ] Write custom JavaScript functions to serve each static file individually.
+
+Explanation: To serve static files in a Node.js web application, you can use middleware like express.static in combination with the Express.js framework. This middleware simplifies the process of serving HTML, CSS, images, and other static assets.
+
+Q84. How can you terminate a Node.js application programmatically?
+
+- [ ] Using the process.terminate() method
+- [ ] Sending a SIGSTOP signal
+- [ ] Using the exit() method
+- [x] Sending a SIGINT signal (e.g., with process.kill(process.pid, 'SIGINT')) or calling process.exit()
+
+Explanation : To terminate a Node.js application, you can either send a SIGINT signal or call process.exit() programmatically.
+
+Q85. What is the purpose of the child_process module in Node.js?
+
+- [ ] To create and manage child processes in a separate thread for parallel execution.
+- [ ] To provide access to child elements of JSON data.
+- [ ] To handle file I/O operations in a separate thread.
+- [x] To create and manage child processes for running external commands or scripts in a separate process.
+
+Explanation : The child_process module is used for creating and managing child processes to run external commands or scripts independently.
+
+Q86. What is the primary purpose of the cluster module in Node.js?
+
+- [ ] To manage user authentication and authorization.
+- [x] To take advantage of multicore systems by forking multiple Node.js processes and distributing the workload among them.
+- [ ] To create clusters of data storage for efficient data handling.
+- [ ] To provide clustering for network communication.
+
+Explanation : The primary purpose of the cluster module in Node.js is to utilize multicore systems efficiently by forking multiple Node.js processes to distribute workloads.
+
+Q87. Which method of the fs module in Node.js is used to check if a file exists asynchronously?
+
+- [ ] fs.existsSync
+- [x] fs.access
+- [ ] fs.existsSync
+- [ ] fs.stat
+
+Explanation: The fs.access method in Node.js is used to check if a file exists asynchronously. It is a recommended way to check for the existence of a file as it does not throw an error if the file doesn't exist, and it's more efficient than using fs.exists or fs.stat. If the file exists, the callback function will be called with no error. If the file doesn't exist, the callback will be called with an error.
+
+Q88. Which core module in Node.js is used for network programming and creating network applications?
+
+- [ ] http
+- [ ] os
+- [ ] fs
+- [x] net
+
+Explanation: The net core module in Node.js is used for network programming and creating network applications. It provides the necessary functionality for creating both TCP and Unix socket servers and clients.
+
+Q89. What is the purpose of the util.promisify method in Node.js?
+
+- [ ] To create a new Promise object.
+- [ ] To convert a function that returns a Promise into a callback-style function.
+- [x] To convert a callback-style function into a function that returns a Promise.
+- [ ] To handle synchronous operations.
+
+Explanation: The util.promisify method in Node.js is used to convert a callback-style function into a function that returns a Promise. It simplifies working with asynchronous functions by allowing you to use async/await syntax and Promise-based error handling.
+
+Q90. Which Node.js module provides an interface for interacting with the file system, including reading and writing files?
+
+- [ ] http
+- [x] fs
+- [ ] net
+- [ ] os
+
+Explanation: The fs module in Node.js provides an interface for interacting with the file system. It allows you to perform various file-related operations, including reading and writing files, creating directories, and more.

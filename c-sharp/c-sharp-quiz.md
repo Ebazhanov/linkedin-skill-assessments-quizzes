@@ -869,3 +869,21 @@ public string? nickname
 - [x] `to declare a field whose value can be assigned only before the constructor exits`
 - [ ] `to declare a static variable that must be set at compile time`
 - [ ] `to declare a static variable that must be set at runtime`
+
+#### Q83. Which statement is true of C# methods?
+
+- [ ] `Methods store variables.`
+- [x] `Methods are actions that an object can take`
+- [ ] `A method can be used only once per C# file.`
+- [ ] `A method determines the state of a given property.`
+
+[Official documentation: Methods (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+
+#### Q84 Which is a valid built-in C# Exception class?
+
+- [ ] `ArgumentNullValue`
+- [ ] `InvalidFormatFoundException`
+- [ ] `IndexOutOfPocket`
+- [x] `ArgumentNullException`
+
+[Official documentation: ArgumentNullException Class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception?view=net-5.0)

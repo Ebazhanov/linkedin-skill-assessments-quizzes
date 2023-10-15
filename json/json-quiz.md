@@ -748,7 +748,8 @@ null
 ```json
 {
   "series": "Star Trek",
-  "episodes": "The Trouble with Tribbles"
+  "episodes": "The Trouble with Tribbles",
+  "season": 3
 }
 ```
 
@@ -1345,8 +1346,106 @@ Explanation:- JSON-P, or JSON with padding, serves the purpose of overcoming the
 #### Q107. In a JSON document, how can you represent a key that contains special characters, such as spaces or hyphens, to ensure proper parsing and access in JavaScript?
 
 - [ ] Wrap the key in single quotes.
-- [x] Enclose the key in square brackets.
+- [ ] Enclose the key in square brackets.
 - [ ] backslashes before special characters.
-- [ ] Enclose the key in double quotes.
+- [x] Enclose the key in double quotes.
 
 Explanation:- When you have a key in a JSON document that contains special characters, spaces, or hyphens, it is essential to enclose the key in double quotes. JSON requires keys to be represented within double quotes to ensure proper parsing and access in JavaScript. This ensures that JavaScript can correctly interpret keys with special characters or spaces and access their associated values.
+
+#### Q108. Which is ignored by JSON but treated as significant by YAML?
+
+- [ ] trailing commas
+- [ ] trailing decimals
+- [x] whitespace
+- [ ] leading zeroes
+
+#### Q109. Which code uses valid JSON syntax for the text "Centennial Olympics?
+
+- [ ] A
+
+```json
+{
+"host": "Atlanta",
+"year": 1996
+/_ Centennial Olympics _/
+}
+```
+
+- [ ] B
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996
+  // Centennial Olympics
+}
+```
+
+- [x] C
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "Centennial Olympics"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  \"Centennial Olympics\"
+}
+```
+
+- [ ] E
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "\"Centennial Olympics"
+}
+```
+
+#### Q110. What data type is encoded in the outermost component of the JSON shown?
+
+```json
+[
+  {
+    "year": 2024
+  },
+  {
+    "location": "unknown"
+  }
+]
+```
+
+- [ ] object
+- [x] array
+- [ ] number
+- [ ] string
+
+#### Q111. What does JSON with padding (JSON-P) use to make a request?
+
+- [ ] an `<origin>` element
+- [ ] a header request
+- [x] the `<script>` element
+- [ ] the XMLHttpRequest object
+
+#### Q112. Which is an invalid JSON value?
+
+- [ ] `"'|=(_)(X 72(_)|\/||\*'"`
+- [ ] `"|=(_)(X 72(_)|\/||\*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
+- [x] `"\s(_)(X 72(_)|\/||\*"`
+
+#### Q113. What are the valid number types in JSON?
+
+- [ ] Whole Numbers and Decimals
+- [ ] Real Numbers and Fractions
+- [x] Integer, Floating Points, and Exponents (Scientific Notation, e.g., 3e4)
+- [ ] Prime Numbers and Complex Numbers

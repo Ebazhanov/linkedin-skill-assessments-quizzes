@@ -72,7 +72,7 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 - [ ] Cinemachine Free Look
 - [ ] Cinemachine Brain
 
-#### Q9. When building assets like meshes for Unity. It is good practice to use which measurement unit?
+#### Q9. When building assets like meshes for Unity. Which measurement unit is the most suitable to use?
 
 - [ ] Cubits
 - [ ] Feet

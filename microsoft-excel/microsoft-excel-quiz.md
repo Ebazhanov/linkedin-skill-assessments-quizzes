@@ -90,7 +90,7 @@
 - [x] =`SUM(A3,A6)`
 - [ ] =`SUM(A3,A4,A5,A6)`
 
-#### Q13. Which custom format will make the cells in column A appear like the corresponding cells in column B?
+#### Q13. What custom formatting can be applied to make the cells in column A resemble the cells in column B?
 
 - [ ] `MMM-YYYY`
 - [x] `MMMM-YYYY`
@@ -1338,3 +1338,17 @@ Alignment** tab, click**\_\*\*.
 - [ ] The sorted by column heading will be bold
 - [x] The sorted by column heading filter will have an arrow icon
 - [ ] The sorted by column will be lightly shaded
+
+#### Q162. How many users can open a excel file at same time?
+
+- [ ] 64
+- [ ] 128
+- [x] 256
+- [ ] 512
+
+#### Q163. How to specify cell range from A9 to A99 in Excel?
+
+- [x] (A9 ∶ A99)
+- [ ] (A9 - A99)
+- [ ] (A9 , A99)
+- [ ] (A9 to A99)

@@ -482,7 +482,7 @@ model=Planet
 
 #### Q49. What is the result of this template code?
 
-{{"live long and prosper"|truncate:3}}
+{{"live long and prosper"|truncatewords:3}}
 
 - [x] live long and ...
 - [ ] live long and
@@ -764,3 +764,10 @@ class Book(models.Model):
 - [ ] There's less chance of introducing bugs since SQLite already works out of the box
 - [ ] It's a bad idea and could lead to issues down the road
 - [x] It's fine, you just need to keep both instances synchronized
+
+#### Q82. How does Django handle URL routing?
+
+- [ ] by using classes
+- [ ] by using functiones
+- [x] by using regular expressions
+- [ ] by using fixed path
