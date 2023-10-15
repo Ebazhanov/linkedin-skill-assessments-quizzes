@@ -33,7 +33,7 @@
 > Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
 > [Reference](https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html)
 
-#### Q5. Orthographic cameras remove which visual effect?
+#### Q5. Which visual effects are removed by Orthographic cameras?
 
 - [ ] Gamma color space
 - [ ] Depth of field
@@ -42,7 +42,7 @@
 
 Gamma color space and bloom are related to graphics. Depth of field is related to objects bluring when at a certain distance from the camera.
 
-1. [Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html)
+1. [Reference](https://docs.unity3d.com/2022.3/Documentation/Manual/CamerasOverview.html)
 2. [Reference](https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#OrthographicCamera)
 
 #### Q6. What is Cinemachine Virtual Camera used for?

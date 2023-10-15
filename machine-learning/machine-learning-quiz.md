@@ -912,3 +912,9 @@ Which of these statements do you agree with?
 - [ ] It is about reinforcing unknown data.
 
 **Explanation:** Reinforcement learning is fundamentally an iterative process. [Source](https://developer.ibm.com/learningpaths/get-started-automated-ai-for-decision-making-api/what-is-automated-ai-for-decision-making/)
+
+#### Q118. Least square regression solves a maximum likelihood estimation problem under a linear model
+
+- [x] True
+- [ ] False
+      **Explanation: ** Least squares regression is a method used to find the best-fitting linear relationship between a dependent variable and one or more independent variables. It minimizes the sum of the squared differences between the observed and predicted values, which is equivalent to maximizing the likelihood of the observed data under a Gaussian noise assumption.

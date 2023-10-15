@@ -103,7 +103,7 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [x] du
 - [ ] df
 
-#### Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What happened?
+#### Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What could have happened?
 
 - [ ] The backup drive is corrupted and needs to be re-created.
 - [x] When the backup drive was duplicates, the label was as well. When booted, the system mounted the old duplicates drive by its identical label.
