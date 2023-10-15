@@ -878,3 +878,17 @@ E. Liquify
 - [ ] Click window > Arrange > Tile.
 
 [Reference](https://helpx.adobe.com/in/photoshop/using/viewing-multiple-images.html)
+
+#### Q114. How do you nondestructively crop an image without permanently discarding pixels?
+
+- [ ] Click Image > Trim and select Transparent Pixels.
+- [ ] Make a selection and click Image > Crop.
+- [x] Clear the Delete Cropped Pixels check box.
+- [ ] Select the Delete Cropped Pixels check box.
+
+#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which command do you use?
+
+- [ ] Canvas Size
+- [ ] Calculations
+- [x] Image Size
+- [ ] Apply Image
