@@ -1584,10 +1584,10 @@ X+=a;
 ```cpp
 int main()
 {
-tout « size_in_bits(21) « endl;
-tout « size_in_bits('f') « endl;
-tout « size_in_bits(32.1f) « endl;
-tout « size_in_bits(32.1) « endl;
+cout « size_in_bits(21) « endl;
+cout « size_in_bits('f') « endl;
+cout « size_in_bits(32.1f) « endl;
+cout « size_in_bits(32.1) « endl;
 return 0;
 }
 ```
