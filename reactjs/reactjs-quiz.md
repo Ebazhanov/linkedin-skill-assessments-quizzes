@@ -205,7 +205,7 @@ const element = <p>{message}</p>;
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [x] to change the layout of the screen
-- [] when you need the browser to paint before the effect runs
+- [ ] when you need the browser to paint before the effect runs
 
 [Source] (https://react.dev/reference/react/useLayoutEffect)
 "useLayoutEffect is a version of useEffect that fires before the browser repaints the screen."
@@ -1539,15 +1539,15 @@ function PokeButton() {
 
 ```javascript
 function PokeButton() {
-  const { poked, setPoked } = usestate(false);
+  const { poked, setPoked } = useState(false);
   return <button onclick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
 }
 ```
 
 - [ ] onClick prop should be onclick.
 - [ ] The click handler passed to the onClick prop is inlined. Move this handler into a variable outside of JSX.
-- [ ] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
-- [x] poked and setPoked are not destructured in the correct order.
+- [x] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
+- [ ] poked and setPoked are not destructured in the correct order.
 
 #### Q128. This componenet is loaded dynamically. What should you replace XXXX with to complete the code?
 
@@ -1570,7 +1570,7 @@ function MyComponent() {
 
 #### Q129. Elements in lists in React should have \_**\_ that are \_\_\_** .
 
-- [ ] keys ; unique
+- [x] keys ; unique
 - [ ] keys ; indexes
 - [ ] style ; inline
 - [ ] values ; not-null
@@ -1578,9 +1578,9 @@ function MyComponent() {
 #### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
 
 - [ ] useRef
-- [x] useMemo
+- [ ] useMemo
 - [ ] memo
-- [ ] useCallback
+- [x] useCallback
 
 #### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
 
@@ -1588,7 +1588,18 @@ function MyComponent() {
 useEffect(callNetworkFunc, XXXX);
 ```
 
-- [ ] [userInput]
-- [x] userInput
+- [x] [userInput]
+- [ ] userInput
 - [ ] undefined
 - [ ] []
+
+#### Q132. When is the Hello component displayed?
+
+```javascript
+<div>{isLoggedIn ? <Hello />: null}</div>
+```
+
+- [ ] when isLoggedIn is false
+- [x] when isLoggedIn is true
+- [ ] when isLoggedIn is false and the Hello function is invoked
+- [ ] never
