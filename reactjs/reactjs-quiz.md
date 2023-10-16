@@ -1535,11 +1535,11 @@ function PokeButton() {
 - [ ] useState is not imported correctly. Import useState directly instead of importing react.
 - [ ] PokeButton is a pure function and therefore cannot have any local state.
 
-#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked is not defined". What is wrong with their code?
+#### Q127. A colleague comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown: "setPoked is not defined". What is wrong with their code?
 
 ```javascript
 function PokeButton() {
-  const { poked, setPoked } = usestate(false);
+  const { poked, setPoked } = useState(false);
   return <button onclick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
 }
 ```
