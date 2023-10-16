@@ -1549,7 +1549,7 @@ function PokeButton() {
 - [ ] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
 - [x] poked and setPoked are not destructured in the correct order.
 
-#### Q128. This componenet is loaded dynamically. What should you replace XXXX with to complete the code?
+#### Q128. This component is loaded dynamically. What should you replace XXXX with to complete the code?
 
 ```javascript
 const OtherComponent = React.lazy(() => import('./OtherComponent.js'));
