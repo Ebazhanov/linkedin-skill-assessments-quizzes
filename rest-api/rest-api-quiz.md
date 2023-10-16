@@ -563,3 +563,73 @@
 - [x] OAuth 2.0
 - [ ] Basic Authentication
 - [ ] HTTP Basic Auth
+
+#### Q73. What does "REST" stand for in RESTful API
+
+- [ ] Representational Entity State Transfer
+- [x] Representational State Transfer
+- [ ] Resource Entity State Transfer
+- [ ] Resource State Transfer
+
+#### Q74. Which HTTP methods are commonly used in RESTful APIs for CRUD operations?
+
+- [x] GET, POST, PUT, DELETE
+- [ ] READ, CREATE, UPDATE, DELETE
+- [ ] FETCH, ADD, MODIFY, ERASE
+- [ ] REQUEST, INSERT, CHANGE, REMOVE
+
+#### Q75. In a RESTful API, which HTTP method is typically used to retrieve data from a server?
+
+- [ ] POST
+- [ ] PUT
+- [x] GET
+- [ ] DELETE
+
+#### Q76. What is the primary benefit of using RESTful APIs?
+
+- [ ] Real-time data synchronization
+- [x] Simplicity, scalability, and statelessness
+- [ ] Tight coupling between client and server
+- [ ] Complex security protocols
+
+#### Which status code indicates a successful HTTP GET request in a RESTful API?
+
+- [x] 200 OK
+- [ ] 201 Created
+- [ ] 204 No Content
+- [ ] 404 Not Found
+
+#### In REST, what does the term "resource" refer to?
+
+- [ ] A physical device on the server
+- [x] A URL endpoint that represents a piece of data
+- [ ] The client's computing resources
+- [ ] The data format used in API responses
+
+#### What is the purpose of an HTTP POST request in a RESTful API?
+
+- [ ] To retrieve data from the server
+- [ ] To update an existing resource on the server
+- [x] To create a new resource on the server
+- [ ] To delete a resource from the server
+
+#### Which HTTP header is often used in RESTful APIs to request a specific version of the resource?
+
+- [ ] Authorization
+- [ ] User-Agent
+- [x] Accept
+- [ ] Content-Type
+
+#### What is the term for the unique identifier for a resource in a RESTful API?
+
+- [ ] Endpoint
+- [ ] URL
+- [ ] Resource ID
+- [x] URI
+
+#### In REST, what is the principle of "statelessness"?
+
+- [x] Each request from a client to a server must contain all the information needed to understand and process the request.
+- [ ] The server should maintain the client's state to improve performance.
+- [ ] Server responses should be cached to reduce the load on the server.
+- [ ] Clients should maintain the server's state for better communication.
