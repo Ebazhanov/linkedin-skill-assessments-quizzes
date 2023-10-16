@@ -2172,3 +2172,12 @@ console.log(10 + 10);
 - [ ] None of the above
 
 [Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
+
+#### Q157. How do you define a function in JavaScript?
+
+- [x] function myFunction() {}
+- [] def myFunction() {}
+- [] var myFunction = () => {}
+- [] func myFunction() {}
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
