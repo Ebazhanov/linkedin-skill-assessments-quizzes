@@ -496,3 +496,14 @@
 - [ ] The image frame needs to be set to `Send to Back` so that it does not interfere with text. Right click the image frame and select `Send to Back`.
 - [ ] The `Display Performance` setting is not set high enough to show type. Click `View > Display Performance > High Quality`.
 - [x] The image frame has Text Wrap settings in place. Right-click the type in question and select `Text Frame Options > Ignore Text Wrap`.
+
+[Ref.](https://community.adobe.com/t5/indesign-discussions/text-keeps-disappearing-when-it-is-moved-around-the-page/m-p/9269196)
+
+#### 66. After you click a color stop in the `Gradient` panel to select it, how can you set its color to a swatch in the `Swatches` panel?
+
+- [x] Double-click the swatch.
+- [ ] Option-click (Mac) or Alt-click (Windows) the swatch.
+- [ ] You cannot apply a color swatch to a color stop in the `Gradient` panel.
+- [ ] Drag the color stop over the color in the `Swatches` panel.
+
+[Ref.](https://www.peachpit.com/articles/article.aspx?p=1324235&seqNum=8)
