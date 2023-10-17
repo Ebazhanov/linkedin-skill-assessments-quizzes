@@ -1029,3 +1029,73 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Something you have
 - [ ] Something you are
 - [x] Something you want
+
+#### Q134. Which of the following best describes a "Honeytoken" in cybersecurity?
+
+- [x] A deceptive network host that appears legitimate to attackers.
+- [ ] A user-friendly interface for managing network traffic.
+- [ ] An encryption key used in secure communication.
+- [ ] A hardware device for two-factor authentication.
+
+#### Q135. What is the primary purpose of a "Bastion Host" in a network security architecture?
+
+- [x] To host publicly accessible services while protecting the internal network.
+- [ ] To intercept and analyze all network traffic for security purposes.
+- [ ] To act as a backup server in case the main server fails.
+- [ ] To facilitate secure communication between two remote networks.
+
+#### Q136. In network analysis, what does the term "Port Mirroring" refer to?
+
+- [x] A process of copying network packets to a specific destination for analysis.
+- [ ] A method of encrypting data during transmission to secure it.
+- [ ] A mechanism for load balancing network traffic.
+- [ ] A firewall rule that allows traffic through specific network ports.
+
+#### Q137. Which of the following is NOT a common method of concealing malicious software on a network?
+
+- [ ] Polymorphic malware
+- [ ] Rootkit
+- [x] Packet Sniffing
+- [ ] Stealthy tunneling protocols
+
+#### Q138. In the context of cybersecurity, what does the acronym "IDS" stand for?
+
+- [ ] Internet Domain System
+- [x] Intrusion Detection System
+- [ ] Internet Data Security
+- [ ] Integrated Defense Strategy
+
+#### Q139. What does a "Man-in-the-Middle (MitM)" attack involve?
+
+- [x] Intercepting communication between two parties without their knowledge.
+- [ ] Cracking encrypted passwords.
+- [ ] Disrupting network services with a Distributed Denial of Service (DDoS) attack.
+- [ ] Installing malicious software on a network server.
+
+#### Q140. Which of the following is an essential element of a Public Key Infrastructure (PKI)?
+
+- [ ] A firewall for network security.
+- [x] A trusted Certificate Authority (CA).
+- [ ] A virtual private network (VPN).
+- [ ] A network router.
+
+#### Q141. What type of encryption is typically used to secure wireless network traffic in a WPA3 network?
+
+- [ ] WEP (Wired Equivalent Privacy)
+- [x] AES (Advanced Encryption Standard)
+- [ ] SSL (Secure Sockets Layer)
+- [ ] DES (Data Encryption Standard)
+
+#### Q142. Which network security protocol is used to provide secure, encrypted communication over the Internet, often used for securing websites?
+
+- [ ] SSH (Secure Shell)
+- [ ] SNMP (Simple Network Management Protocol)
+- [x] HTTPS (Hypertext Transfer Protocol Secure)
+- [ ] ICMP (Internet Control Message Protocol)
+
+#### Q143. What does the term "Zero-Day Vulnerability" refer to in cybersecurity?
+
+- [ ] A vulnerability that has been known and patched for zero days.
+- [x] A vulnerability that is not yet known to the software vendor or the public.
+- [ ]A vulnerability that affects zero network devices.
+- [ ] A vulnerability that cannot be exploited.
