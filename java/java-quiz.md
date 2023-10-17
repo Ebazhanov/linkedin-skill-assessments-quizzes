@@ -2468,8 +2468,6 @@ void createArray(int n) {
 
 //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
-
-
 #### Q167. What will be the output of the following Java code?
 
 ```java
@@ -2504,7 +2502,6 @@ void createArray(int n) {
 - [ ] Compilation Error
 
 //In this program, The code defines a generic stack class, pushes the string "Hello" onto the stack, and then pops and prints "Hello," resulting in the output "Hello."
-
 
 #### Q168. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
 
