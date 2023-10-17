@@ -759,10 +759,10 @@ char *is_even(char *str);
 std::vector<std::vector<int>> thematrix;
 ```
 
-- [ ] There's nothing wrong with it.
+- [x] There's nothing wrong with it.
 - [ ] An `std::vector` cannot contain more `std::vector` containers as its elements.
 - [ ] The correct syntax should be: `std::vector[std::vector[int]] thematrix;`
-- [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
+- [ ] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
 
