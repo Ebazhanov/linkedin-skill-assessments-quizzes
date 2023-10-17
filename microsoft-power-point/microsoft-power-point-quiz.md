@@ -71,7 +71,7 @@
 
 `Table Tools -> Design Tab -> Table Styles`
 
-#### Q10. Which option changes a text box so that it automatically changes shape to fit longer text?
+#### Q10. Which option facilitates a text box to automatically changes shape to fit longer text?
 
 - [x] Resize shape to fit text
 - [ ] Do not autofit
