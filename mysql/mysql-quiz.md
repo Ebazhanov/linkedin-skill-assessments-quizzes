@@ -827,12 +827,12 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-#### Q90. How are permissions implemented in MySQL?
+#### Q90. What is the default authentication plugin used in MySQL 8.0 and later versions?
 
-- [ ] encrypted algorithms
-- [x] access control lists
-- [ ] user settings
-- [ ] administrator schema
+- [ ] SHA-1
+- [ ] MD5
+- [ ] SHA256
+- [x] caching_sha2_password
 
 #### Q91. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 
@@ -1004,19 +1004,19 @@ Table name: superheroes
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
 
-#### Q104. "COUNT" keyword belongs to which categories in Mysql?
+#### Q104. Which MySQL privilege allows a user to create and drop indexes on a table?
 
-- [x] Aggregate functions
-- [ ] Operators
-- [ ] Clauses
-- [ ] All of the mentioned`
+- [x] ALTER
+- [ ] INDEX
+- [ ] CREATE
+- [ ] INSERT
 
-#### Q105. Which among the following belongs to an "aggregate function"?
+#### Q105. Which MySQL privilege is needed to create new databases and tables?
 
-- [x] COUNT
-- [ ] UPPER
-- [ ] LOWER
-- [ ] All of the mentioned
+- [ ] ALTER
+- [x] CREATE
+- [ ] UPDATE
+- [ ] SELECT
 
 #### Q106. What is the meaning of "HAVING" clause in Mysql?
 
@@ -1100,18 +1100,18 @@ Table name: superheroes
 - [ ] ENABLE FULL TEXT(description) car
 - [ ] SEARCH FULL TEXT(description) car
 
-#### Q114. You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
+#### Q114. Which statement is used to revoke a specific privilege from a user in MySQL?
 
-- [ ] VARCHAR
-- [x] ENUM
-- [ ] LONGTEXT
-- [ ] TEXT
+- [ ] REMOVE PRIVILEGE
+- [ ] DROP PRIVILEGE
+- [x] REVOKE
+- [ ] DELETE PRIVILEGE
 
 #### Q115. Which statement would you _not_ use to filter data?
 
 ![image](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/9cb0ae9d-1f6b-4f85-9d2f-44b6a7afd00c)
 
-- [ ] GROUP_BY
+- [x] GROUP_BY
 - [ ] MATCH
 - [ ] WHERE
 - [ ] LIKE
