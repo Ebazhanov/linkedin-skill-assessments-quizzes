@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1491-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1492-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2075,6 +2073,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JoyelJohny"><img src="https://avatars.githubusercontent.com/u/81413791?v=4?s=100" width="100px;" alt="Joyel Johny"/><br /><sub><b>Joyel Johny</b></sub></a><br /><a href="#design-JoyelJohny" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=JoyelJohny" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://harshalwebfolio.netlify.app"><img src="https://avatars.githubusercontent.com/u/105191619?v=4?s=100" width="100px;" alt="Harshal Honde"/><br /><sub><b>Harshal Honde</b></sub></a><br /><a href="#design-harshalhonde21" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=harshalhonde21" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/IndraniSom"><img src="https://avatars.githubusercontent.com/u/121074944?v=4?s=100" width="100px;" alt="Indrani Som"/><br /><sub><b>Indrani Som</b></sub></a><br /><a href="#design-IndraniSom" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=IndraniSom" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sofawho"><img src="https://avatars.githubusercontent.com/u/146117256?v=4?s=100" width="100px;" alt="sofawho"/><br /><sub><b>sofawho</b></sub></a><br /><a href="#design-sofawho" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sofawho" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
