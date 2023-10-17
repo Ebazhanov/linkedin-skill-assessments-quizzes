@@ -551,8 +551,8 @@ main(){
 #### Q39. By default, C Functions are what type of functions?
 
 - [ ] global
-- [ ] static
-- [x] library
+- [x] static
+- [ ] library
 - [ ] system
 
 #### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
