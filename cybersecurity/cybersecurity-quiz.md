@@ -1029,3 +1029,52 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Something you have
 - [ ] Something you are
 - [x] Something you want
+
+#### Q134. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
+
+- [ ] duqu
+- [ ] agent BTZ
+- [x] stuxnet
+- [ ] flame
+
+#### Q135. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
+
+- [ ] in the risk assessment documentation
+- [x] in the risk register
+- [ ] in the business impact ledger
+- [ ] in the Orange Book
+
+#### Q136. Which of the following terms is used to describe a collection of unrelated patches?
+
+- [x] Hotfix
+- [ ] Update
+- [ ] Security Fix
+- [ ] Service Pack
+
+#### Q137. How often should security teams conduct a review of the privileged access that a user has to sensitive systems?
+
+- [x] On a periodic basis
+- [x] When a User leaves the organisation
+- [x] When a User changes roles
+- [ ] On a daily basis
+
+#### Q138. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
+
+- [ ] Eradication / Remediation
+- [ ] Certification
+- [ ] Reporting
+- [x] Lessons Learned
+
+#### Q139. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+
+- [x] asymmetric
+- [ ] symmetric
+- [ ] hashing
+- [ ] all of these answers
+
+#### Q140. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+
+- [ ] Reporting
+- [ ] Recovery
+- [x] Eradiction / Remediation
+- [ ] Lessons Learned
