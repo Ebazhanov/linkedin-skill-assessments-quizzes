@@ -919,3 +919,53 @@ Which of these statements do you agree with?
 - [ ] False
 
 **Explanation: ** Least squares regression is a method used to find the best-fitting linear relationship between a dependent variable and one or more independent variables. It minimizes the sum of the squared differences between the observed and predicted values, which is equivalent to maximizing the likelihood of the observed data under a Gaussian noise assumption.
+
+
+#### Q119. What is one reason not to use the same data for both your training set and your testing set?
+
+- [ ] You will almost certainly underfit the model.
+- [ ] You will pick the wrong algorithm.
+- [ ] You might not have enough data for both.
+- [x] You will almost certainly overfit the model.
+
+#### Q120. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?
+
+- [ ] Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.
+- [ ] There is no way to identify bias in the data.
+- [ ] Machine learning algorithms are powerful enough to eliminate bias from the data.
+- [x] All human-created data is biased, and data scientists need to account for that.
+
+#### Q121. What is the difference between unstructured and structured data?
+
+- [ ] Unstructured data is always text.
+- [ ] Unstructured data is much easier to store.
+- [x] Structured data has clearly defined data types.
+- [ ] Structured data is much more popular.
+
+#### Q88. You work for a startup that is trying to develop a software tool that will scan the internet for pictures of people using specific tools. The chief executive is very interested in using machine learning algorithms. What would you recommend as the best place to start?
+
+- [ ] Using an unsupervised machine learning algorithm to cluster together all the photographs.
+- [ ] Crate a data lake with an unsupervised machine learning algorithm.
+- [ ] Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.
+- [x] Use supervised machine learning to classify photographs based on a predetermined training set.
+
+#### Q122. In supervised machine learning, data scientist often have the challenge of balancing between underfitting or overfitting their data model. They often have to adjust the training set to make better predictions. What is this balance called?
+
+- [ ] the under/over challenge
+- [ ] balance between clustering classification
+- [x] bias-variance trade-off
+- [ ] the multiclass training set challenge
+
+#### Q123. What is conditional probability?
+
+- [x] the probability that doing one thing has an impact on another thing
+- [ ] the probability that certain conditions are met
+- [ ] the probability that, based on certain conditions, something will always be incorrect
+- [ ] the probability of something being the correct answer
+
+#### Q124. K-means clustering is what type of machine learning algorithm?
+
+- [ ] reinforcement
+- [ ] supervised
+- [x] unsupervised
+- [ ] classification
