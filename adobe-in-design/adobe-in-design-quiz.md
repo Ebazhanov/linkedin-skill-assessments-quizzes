@@ -496,3 +496,5 @@
 - [ ] The image frame needs to be set to `Send to Back` so that it does not interfere with text. Right click the image frame and select `Send to Back`.
 - [ ] The `Display Performance` setting is not set high enough to show type. Click `View > Display Performance > High Quality`.
 - [x] The image frame has Text Wrap settings in place. Right-click the type in question and select `Text Frame Options > Ignore Text Wrap`.
+
+[Ref.](https://community.adobe.com/t5/indesign-discussions/text-keeps-disappearing-when-it-is-moved-around-the-page/m-p/9269196)
