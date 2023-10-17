@@ -2301,9 +2301,9 @@ User u { "John", 101 };
 for (const pair<string, int>& elem : m)
 ```
 
-- [ ] A The loop properly iterates over the map, creating no extra copies.
+- [x] A The loop properly iterates over the map, creating no extra copies.
 
-- [x] B The loop will create a copy of each element in the map as the type of elem mismatches.
+- [ ] B The loop will create a copy of each element in the map as the type of elem mismatches.
 
 - [ ] C The code won't compile as a const pair cannot bind to a map.
 
