@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1526-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1527-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2121,6 +2119,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/sahoo-smruti-ranjan"><img src="https://avatars.githubusercontent.com/u/8217389?v=4?s=100" width="100px;" alt="Smruti Ranjan Sahoo"/><br /><sub><b>Smruti Ranjan Sahoo</b></sub></a><br /><a href="#design-c99SRS" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=c99SRS" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://parthasarathidey.tech"><img src="https://avatars.githubusercontent.com/u/131694386?v=4?s=100" width="100px;" alt="Partha Sarathi Dey"/><br /><sub><b>Partha Sarathi Dey</b></sub></a><br /><a href="#design-parthasdey2304" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=parthasdey2304" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bratajit-03"><img src="https://avatars.githubusercontent.com/u/106532791?v=4?s=100" width="100px;" alt="Bratajit Das"/><br /><sub><b>Bratajit Das</b></sub></a><br /><a href="#design-Bratajit-03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Bratajit-03" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ihgazi"><img src="https://avatars.githubusercontent.com/u/44411308?v=4?s=100" width="100px;" alt="Irfan Habeeb Gazi"/><br /><sub><b>Irfan Habeeb Gazi</b></sub></a><br /><a href="#design-ihgazi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ihgazi" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
