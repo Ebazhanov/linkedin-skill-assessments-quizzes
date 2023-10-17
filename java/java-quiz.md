@@ -2118,10 +2118,10 @@ Queue<Rainfall>
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
-- [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = () -> MyClass.myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction();
-- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 
 #### Q145. What is UNICODE?
 
@@ -2466,12 +2466,11 @@ void createArray(int n) {
 - [ ] O(N^2)
 - [ ] O(log(N)
 
-      //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
-
----
+//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
 #### Q167. What will be the output of the following Java code?
 
+```java
     import java.util.*;
     public class genericstack <E>
     {
@@ -2495,10 +2494,14 @@ void createArray(int n) {
             System.out.println(gs.pop());
         }
     }
+```
 
----
+- [ ] H
+- [x] Hello
+- [ ] Runtime Error
+- [ ] Compilation Error
 
-//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+//In this program, The code defines a generic stack class, pushes the string "Hello" onto the stack, and then pops and prints "Hello," resulting in the output "Hello."
 
 #### Q168. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
 
@@ -2513,3 +2516,21 @@ void createArray(int n) {
 - [ ] Transient variables are automatically initialized with a default value.
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
+
+#### Q170. What will be the output of the following Java code snippet?
+
+```java
+class abc
+{
+    public static void main(String args[])
+    {
+        if(args.length>0)
+        System.out.println(args.length);
+    }
+}
+```
+
+- [x] The snippet compiles and runs but does not print anything.
+- [ ] The snippet compiles, runs and prints 0.
+- [ ] The snippet compiles, runs and prints 1.
+- [ ] The snippet does not compile.

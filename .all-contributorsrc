@@ -15118,6 +15118,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "c99SRS",
+      "name": "Smruti Ranjan Sahoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8217389?v=4",
+      "profile": "http://www.linkedin.com/in/sahoo-smruti-ranjan",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "parthasdey2304",
+      "name": "Partha Sarathi Dey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131694386?v=4",
+      "profile": "https://parthasarathidey.tech",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Bratajit-03",
+      "name": "Bratajit Das",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106532791?v=4",
+      "profile": "https://github.com/Bratajit-03",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1535,7 +1535,7 @@ function PokeButton() {
 - [ ] useState is not imported correctly. Import useState directly instead of importing react.
 - [ ] PokeButton is a pure function and therefore cannot have any local state.
 
-#### Q127. A collegue comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown : "setPoked is not defined". What is wrong with their code?
+#### Q127. A colleague comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown: "setPoked is not defined". What is wrong with their code?
 
 ```javascript
 function PokeButton() {
@@ -1574,6 +1574,7 @@ function MyComponent() {
 - [ ] keys ; indexes
 - [ ] style ; inline
 - [ ] values ; not-null
+      [Source: React Docs](https://legacy.reactjs.org/docs/lists-and-keys.html)
 
 #### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
 
@@ -1581,6 +1582,8 @@ function MyComponent() {
 - [ ] useMemo
 - [ ] memo
 - [x] useCallback
+
+[Source: CodeDamn](https://codedamn.com/news/reactjs/usememo-and-usecallback-hooks)
 
 #### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
 
