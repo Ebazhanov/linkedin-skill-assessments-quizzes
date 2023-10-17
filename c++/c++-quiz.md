@@ -2365,8 +2365,8 @@ auto x = 4000.22;
 #### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
 
 - [ ] Postfix ++
-- [ ] Comparison Operator
-- [x] Insertion Operator <<
+- [x] Comparison Operator
+- [ ] Insertion Operator <<
 - [ ] Prefix++
 
 #### Q146.How can we restrict dynamic allocation of objects of a class using new?
