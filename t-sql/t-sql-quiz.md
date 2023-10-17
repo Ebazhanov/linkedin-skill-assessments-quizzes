@@ -737,3 +737,28 @@ SELECT * FROM MyNumbers;
 - [x] drop
 - [ ] delete
 - [ ] truncate table
+
+#### Q59. Which statement deletes a table named Inventory from the Products database?
+
+- [ ] :
+```tsql
+  DROP TABLE Products.Inventory;
+```
+
+- [x] :
+```tsql
+  USE Products;
+  DROP TABLE Inventory;
+```
+
+- [ ] :
+```tsql
+  USE Products;
+  DELETE Inventory;
+```
+
+- [ ] :
+```tsql
+  USE Products.Inventory;
+  DROP TABLE Inventory;
+```
