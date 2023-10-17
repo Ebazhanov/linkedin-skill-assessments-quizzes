@@ -2118,10 +2118,10 @@ Queue<Rainfall>
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction();
-- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
 
 #### Q145. What is UNICODE?
 
@@ -2516,3 +2516,21 @@ void createArray(int n) {
 - [ ] Transient variables are automatically initialized with a default value.
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
+
+#### Q170. What will be the output of the following Java code snippet?
+
+```java
+class abc
+{
+    public static void main(String args[])
+    {
+        if(args.length>0)
+        System.out.println(args.length);
+    }
+}
+```
+
+- [x] The snippet compiles and runs but does not print anything.
+- [ ] The snippet compiles, runs and prints 0.
+- [ ] The snippet compiles, runs and prints 1.
+- [ ] The snippet does not compile.
