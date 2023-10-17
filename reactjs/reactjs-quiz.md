@@ -1599,7 +1599,7 @@ useEffect(callNetworkFunc, XXXX);
 #### Q132. When is the Hello component displayed?
 
 ```javascript
-<div>{isLoggedIn ? <Hello />: null}</div>
+<div>{isLoggedIn ? <Hello /> : null}</div>
 ```
 
 - [ ] when isLoggedIn is false
