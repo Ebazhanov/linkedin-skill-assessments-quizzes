@@ -827,7 +827,6 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-
 #### Q91. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 
 - [ ] `UNDO`
@@ -1086,7 +1085,6 @@ Table name: superheroes
 - [ ] MERGE TABLE car ADD FULL TEXT(description)
 - [ ] ENABLE FULL TEXT(description) car
 - [ ] SEARCH FULL TEXT(description) car
-
 
 #### Q115. Which statement would you _not_ use to filter data?
 

@@ -1574,7 +1574,7 @@ function MyComponent() {
 - [ ] keys ; indexes
 - [ ] style ; inline
 - [ ] values ; not-null
-[Source: React Docs](https://legacy.reactjs.org/docs/lists-and-keys.html)
+      [Source: React Docs](https://legacy.reactjs.org/docs/lists-and-keys.html)
 
 #### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
 
@@ -1582,7 +1582,7 @@ function MyComponent() {
 - [ ] useMemo
 - [ ] memo
 - [x] useCallback
-[Source: CodeDamn](https://codedamn.com/news/reactjs/usememo-and-usecallback-hooks)
+      [Source: CodeDamn](https://codedamn.com/news/reactjs/usememo-and-usecallback-hooks)
 
 #### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
 
