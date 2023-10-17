@@ -1570,10 +1570,11 @@ function MyComponent() {
 
 #### Q129. Elements in lists in React should have \_**\_ that are \_\_\_** .
 
-- [ ] keys ; unique
+- [x] keys ; unique
 - [ ] keys ; indexes
 - [ ] style ; inline
 - [ ] values ; not-null
+[Source: React Docs](https://legacy.reactjs.org/docs/lists-and-keys.html)
 
 #### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
 
