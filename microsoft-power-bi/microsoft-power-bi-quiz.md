@@ -805,3 +805,31 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [ ] A, C, D
 
 [reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
+
+#### Q100. What is the primary function of the Power Query Editor in Power BI?
+
+- [ ] Data modeling
+- [x] Data transformation and preparation
+- [ ] Data visualization
+- [ ] Data sharing and collaboration
+
+#### Q101. What is the purpose of DAX (Data Analysis Expressions) in Power BI?
+
+- [ ] To create visualizations
+- [ ] To design data models
+- [x] To perform advanced data calculations and aggregations
+- [ ] To connect to external data sources
+
+#### Q102. In Power BI, what is a "calculated column" used for?
+
+- [ ] It's a calculated measure used in visuals.
+- [ ] It's a calculated field that aggregates data.
+- [x] It's a column that you add to a table with a formula.
+- [ ] It's a column that displays hierarchical data.
+
+#### Q103. Which type of Power BI visual is most suitable for comparing values across categories using bars of varying lengths?
+
+- [ ] Line chart
+- [ ] Scatter plot
+- [ ] Pie chart
+- [x] Bar chart
