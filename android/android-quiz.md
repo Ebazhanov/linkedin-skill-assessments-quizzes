@@ -1210,3 +1210,35 @@ recyclerView.setLayoutManager(LinearLayoutManager(this))
 val coulumnCount = resources.getInteger(R.integer.column_count)
 recyclerView.setLayoutManager(LinearLayoutManager(this, columnCount))
 ```
+
+#### Q76. You need to remove an Event based on its ID from your API, Which code snippet defines that request in Retrofit?
+
+- [ ] @DELETE("events)
+      fun deleteEvent(@Path("id") id: Long): Call<Unit>
+- [x] @DELETE("events/{id}")
+      fun deleteEvent(@Path("id") id: Long): Call<Unit>
+- [ ] @REMOVE("events/{id}")
+      fun deleteEvent(@Path("id") id: Long): Call<Unit>
+- [x] @DELETE("events/{id}")
+      fun deleteEvent(@Path("id") id: Long): Call<Unit>
+
+      
+#### Q77. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
+- [ ] Users can select their favorite photo apps to take pictures.
+- [ ] You do not have to make a permission request in your app to take a picture.
+- [x] You have full control over the user experience. The app that handles the camera `intent` will respect your design choices.
+- [ ] You do not have to design the UI. The app that handles the camera `intent` will provide the UI.
+
+
+#### Q78. What is the current recommended way to handle long-running background tasks?
+- [x] WorkManager
+- [ ] AsyncTask
+- [ ] IntentService
+- [ ] Thread
+
+
+#### Q79. What is the benefit of using @VisibleForTesting annotation?
+- [x] to denote that a class, method, or field has its visibility relaxed to make code testable
+- [ ] to denote that a class, method, or field is visible only in the test code
+- [ ] to denote that a class, method, or field has its visibility increased to make code less testable
+- [ ] to throw a run-time error if a class, method, or field with this annotation is accessed improperly
