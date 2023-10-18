@@ -771,3 +771,24 @@ class Book(models.Model):
 - [ ] by using functiones
 - [x] by using regular expressions
 - [ ] by using fixed path
+
+#### Q83. What is the purpose of Django's middleware?
+
+- [ ] To define the database schema
+- [ ] To manage URL routing
+- [x] To handle HTTP requests and responses globally
+- [ ] To create user interfaces
+
+#### Q84. Which of the following is true about Django's Object-Relational Mapping (ORM)?
+
+- [ ] It's used to define URL routing in a Django application.
+- [x] It allows you to query the database using Python code.
+- [ ] It's used to define the structure of HTML templates.
+- [ ] It's responsible for managing user authentication.
+
+#### Q85. Which of the following is true about Django's "many-to-many" field in a model?
+
+- [ ] It's used to define a one-to-one relationship between two models.
+- [ ] It creates a foreign key relationship between two models.
+- [x] It allows multiple objects to be associated with each other.
+- [ ] It enforces unique constraints on a field.
