@@ -926,3 +926,12 @@ Which of these statements do you agree with?
 - [ ] linear regression and scatter plots
 - [ ] pivot table
 - [ ] K-means cluster diagram
+
+#### Q120. Which of the following is not a supervised learning
+
+- [x] PCA
+- [ ] Naive Bayes
+- [ ] Linear Regression
+- [ ] Decision Tree
+
+**Explanation:** Principal Component Analysis (PCA) is one of the most commonly used Unsupervised Machine Learning Algorithms, While Naive Bayes, Linear Regression and Decision Tree are Supervised Machine Learning Algorithms
