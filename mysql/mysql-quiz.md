@@ -167,7 +167,7 @@
 - [ ] STRUCTURE table;
 - [x] DESCRIBE table;
 
-#### Q14. MySQL uses security based on \_ for all connections, queries, and other operations that users can attempt to perform.
+#### Q14. MySQL uses security based on \_ for all connections, queries, and other operations that users can attempt to perform. or How are permissions implemented in MySQL?
 
 - [ ] administrator schema
 - [ ] encrypted algorithms
@@ -827,13 +827,6 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-#### Q90. How are permissions implemented in MySQL?
-
-- [ ] encrypted algorithms
-- [x] access control lists
-- [ ] user settings
-- [ ] administrator schema
-
 #### Q91. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 
 - [ ] `UNDO`
@@ -940,10 +933,10 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
 
 #### Q97. Why would you use stored functions?
 
-- [ ] for formulas and business rules that you want to apply to columns in an SQL query
-- [x] for formulas and business rules that should be applied on a specific trigger event like on inserts
+- [x] for formulas and business rules that you want to apply to columns in an SQL query
+- [ ] for formulas and business rules that should be applied on a specific trigger event like on inserts
 - [ ] to automatically modify the data of a table based on a query
-- [ ] for reusing recurring queries
+- [x] for reusing recurring queries
 
 #### Q98. What steps do you need to take to normalize the table from this diagram?
 
@@ -1010,13 +1003,6 @@ Table name: superheroes
 - [ ] Operators
 - [ ] Clauses
 - [ ] All of the mentioned`
-
-#### Q105. Which among the following belongs to an "aggregate function"?
-
-- [x] COUNT
-- [ ] UPPER
-- [ ] LOWER
-- [ ] All of the mentioned
 
 #### Q106. What is the meaning of "HAVING" clause in Mysql?
 
@@ -1100,18 +1086,11 @@ Table name: superheroes
 - [ ] ENABLE FULL TEXT(description) car
 - [ ] SEARCH FULL TEXT(description) car
 
-#### Q114. You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
-
-- [ ] VARCHAR
-- [x] ENUM
-- [ ] LONGTEXT
-- [ ] TEXT
-
 #### Q115. Which statement would you _not_ use to filter data?
 
 ![image](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/9cb0ae9d-1f6b-4f85-9d2f-44b6a7afd00c)
 
-- [ ] GROUP_BY
+- [x] GROUP_BY
 - [ ] MATCH
 - [ ] WHERE
 - [ ] LIKE
