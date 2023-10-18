@@ -927,11 +927,11 @@ Which of these statements do you agree with?
 - [ ] pivot table
 - [ ] K-means cluster diagram
 
-#### Q120. Which of the following is not a supervised learning
+#### Q120. The total types of the layer in radial basis function in neural networks is ______
 
-- [x] PCA
-- [ ] Naive Bayes
-- [ ] Linear Regression
-- [ ] Decision Tree
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 4
 
-**Explanation:** Principal Component Analysis (PCA) is one of the most commonly used Unsupervised Machine Learning Algorithms, While Naive Bayes, Linear Regression and Decision Tree are Supervised Machine Learning Algorithms
+**Explanation:** Radial Basis Functions are a special class of feed-forward neural networks consisting of three layers: an input layer, a hidden layer, and an output layer.
