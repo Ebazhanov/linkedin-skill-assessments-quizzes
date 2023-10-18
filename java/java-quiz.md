@@ -2543,7 +2543,6 @@ class abc
 - [ ] The snippet compiles, runs and prints 1.
 - [ ] The snippet does not compile.
 
-
 #### Q171. Which of these class allows us to define our own formatting pattern for dates and time?
 
 - [ ] DefinedDateFormat
