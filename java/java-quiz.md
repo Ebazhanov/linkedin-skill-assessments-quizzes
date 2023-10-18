@@ -2517,7 +2517,14 @@ void createArray(int n) {
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
 
-#### Q170. What will be the output of the following Java code snippet?
+#### Q170. The following prototype shows that a Cylinder subclass is derived from a superclass called Circle.
+
+- [ ] Class Circle extends Cylinder.
+- [ ] Class Cylinder derived Circle.
+- [x] Class Cylinder extends Circle.
+- [ ] Class Circle derived Cylinder.
+
+#### Q171. What will be the output of the following Java code snippet?
 
 ```java
 class abc
