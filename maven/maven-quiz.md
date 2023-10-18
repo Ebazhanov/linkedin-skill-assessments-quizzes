@@ -599,7 +599,7 @@ mvn install
 
 #### Q74. What command can you use to run the goal of the compiler plugin?
 
-- [ ] mvn compiler:compile
+- [x] mvn compiler:compile
 - [ ] mvn compiler
 - [x] mvn test-compile
 - [ ] mvn compiler:test
