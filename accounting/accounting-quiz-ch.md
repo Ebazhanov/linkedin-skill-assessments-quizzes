@@ -112,7 +112,7 @@
 - [ ] 3
 - [ ] 2
 - [ ] 0.5
-- [X] 0.33
+- [x] 0.33
 
 #### Q17. Wàibù shěnjì shī zài zhíxíng zhíwù shí bìxū bǎochí dúlì
 
@@ -158,7 +158,7 @@
 - [ ] Shěnjì shī kěyǐ jiěshì shìyòng yú gùkè jīngyíng suǒzài guójiā de kuàijì yuánzé.
 - [ ] Shěnjì shī shòuguò guǎngfàn de jiàoyù, chāoyuèle kuàijìshī de yāoqiú
 - [ ] shěnhé yuán kěyǐ shìyìng kuàisù biànhuà de zhíyè.
-- [X] shěnjì shī yǒngyǒu shōují hé jiěshì shěnjì zhèngjù de zhuānyè zhīshì.
+- [x] shěnjì shī yǒngyǒu shōují hé jiěshì shěnjì zhèngjù de zhuānyè zhīshì.
 
 [Láiyuán]`' MT: Shěnjì shī zhuānzhù yú shōují hé jiěshì tèdìng bùmén de shěnjì zhèngjù. Shěnjì shī hé kuàijìshī dōu shúxī kèhù de jīngyíng yuánzé'`
 
@@ -224,7 +224,6 @@
 - [ ] 在被審核方中僅擁有間接經濟利益
 - [x] 採取公正的觀點
 
-
 #### Q32。 什麼會導致銀行增加存款人的帳戶？
 
 - [ ] 收取應收票據
@@ -239,14 +238,12 @@
 - [ ] 流動負債是超過 5 年的債務。
 - [x] 流動負債是一年內到期的債務。
 
-
 #### Q34。 變動成本和固定成本在相關範圍內如何運作？
 
 - [x] 每單位變動成本不變，每單位固定成本變動。
 - [ ] 每單位固定成本不變，每單位變動成本變動。
 - [ ] 總變動成本和總固定成本都不同。
 - [ ] 總變動成本與總固定成本不變。
-
 
 #### Q35。 哪一個答案可以定義為投資中心的邊際貢獻減去可追溯到投資中心的固定成本？
 
@@ -255,14 +252,12 @@
 - [x] 段邊距
 - [ ] 投資報酬率 (ROI)
 
-
 #### Q36。 如果審計師希望發現誇大的銷售額，那麼審計師應該從哪些方面追蹤交易？
 
 - [ ] 顧客採購訂單寄至銷售日記帳
 - [ ] 採購訂單的現金收據
 - [x] 銷售日記帳到出貨單據
 - [ ] 貨運單據到現金收據
-
 
 #### Q37。 管理階層採用什麼正式的分析方法來確定適當的成本驅動因素和對生產成本的影響？
 
@@ -355,12 +350,13 @@
 - [x] 借記商品庫存，貸記現金。
 
 #### Q46。 這通常不是一項任務
+
 - Zhōuqí chéngběn kuàijì
 - [x] huódòng fēnxī
 
 #### Q38. Dāng dúlì shěnjì shī nénggòu bǎochí qí shíjì de dúlì xìng shí, chēng wèi\_\_\_\_ de dúlì xìng.
 
-- [X] shìshí
+- [x] shìshí
 - [ ] wàimào
 - [ ] zǒngtǐ
 - [ ] xiāngxìn
@@ -368,18 +364,16 @@
 #### Q39. Zài yìngyòng běn liàng lìrùn fēnxī (CVP) shí, bìxū zūnzhòng mǒu xiē jiǎshè. Nǎge dá'àn bùshì zhèxiē jiǎshè zhī yī?
 
 - [ ] Dānwèi xiāoshòu jiàgé jiāng wéichí bù biàn.
-- [X] shíjì dānwèi biàndòng chéngběn jiāng suí shēngchǎn fànwéi ér biàndòng.
+- [x] shíjì dānwèi biàndòng chéngběn jiāng suí shēngchǎn fànwéi ér biàndòng.
 - [ ] Chéngběn háng wèi biǎoshì wèi xiàngjiāo zhíxiàn.
 - [ ] Dānwèi gùdìng chéngběn jiāng huì jiàngdī.
-
 
 #### Q40. Guānyú yǒng xù páncún zhìdù, nǎ yī xiàng shuōfǎ shì zhèngquè de?
 
 - [ ] Xiānjìn xiān chū de xiāoshòu chéngběn jiāng yǔ dìngqí kùcún xìtǒng zhōng de xiāngtóng.
 - [ ] Píngjūn chéngběn wánquán jīyú dānwèi chéngběn jiǎndān píngjūn zhí.
 - [ ] Hòujìn xiān chū de xiāoshòu chéngběn jiāng yǔ dìngqí kùcún xìtǒng zhōng de xiāngtóng.
-- [X] měi cì xiāoshòu hòu gēnjù píngjūn chéngběn fǎ jìsuàn xīn de píngjūn zhí.
-
+- [x] měi cì xiāoshòu hòu gēnjù píngjūn chéngběn fǎ jìsuàn xīn de píngjūn zhí.
 
 #### Q41. Nǎ zhǒng lèixíng de qǐyè zuì yǒu kěnéng shǐyòng zuòyè dìngdān chéngběn xìtǒng?
 
@@ -414,4 +408,4 @@
 - [ ] Jiè jì shāngpǐn kùcún. Xìnyòng yìngfù zhàng kuǎn.
 - [ ] Jiè jì gòumǎi, dài jì xiànjīn.
 - [ ] Jiè jì cǎigòu tuìhuò, dài jì xiāoshòu shāngpǐn chéngběn.
-- [X] jiè jì shāngpǐn kùcún, dài jì xiànjīn.
+- [x] jiè jì shāngpǐn kùcún, dài jì xiànjīn.
