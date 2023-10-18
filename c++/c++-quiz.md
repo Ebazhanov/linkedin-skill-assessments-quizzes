@@ -36,10 +36,10 @@ typedef struct{
 }child_t;
 ```
 
-- [x] 7 bits.
+- [ ] 7 bits.
 - [ ] 25 bytes.
 - [ ] 1 bit.
-- [ ] 1 byte.
+- [x] 1 byte.
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
