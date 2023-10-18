@@ -1250,7 +1250,7 @@ class Main {
 - [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
-The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
+      The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
 
 #### Q88. How would you use the TaxCalculator to determine the amount of tax on $50?
 
