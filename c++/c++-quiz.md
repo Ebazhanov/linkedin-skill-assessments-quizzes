@@ -170,9 +170,9 @@ typedef struct {
 #### Q11. What is an lvalue?
 
 - [ ] It's a constant expression, meaning an expression composed of constants and operations.
-- [x] It's an expression that represents an object with an address.
+- [ ] It's an expression that represents an object with an address.
 - [ ] It's an expression suitable for the left-hand side operand in a binary operation.
-- [ ] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
+- [x] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
 
 #### Q12. What does auto type specifier do in this line of code (since C++11)?
 
