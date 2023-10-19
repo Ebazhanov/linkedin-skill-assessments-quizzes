@@ -210,7 +210,7 @@ else
 
 [Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
-#### Q15. What is the output of this code?
+#### Q15. What is the output of the code given below?
 
 ```cpp
 #include <iostream>
@@ -257,7 +257,7 @@ else
 
 Note: a variant of the question below.
 
-#### Q18. What is the output of this piece of code?
+#### Q18. What is the output of this block of code?
 
 ```cpp
 int8_t a=200;
@@ -273,7 +273,7 @@ std::cout<<", b="<<(int)b;
 
 Note: Implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 200 to -56
 
-#### Q19. What results from executing this code snippet?
+#### Q19. What is the output after executing this code snippet?
 
 ```cpp
 int x=5, y=2;
@@ -383,7 +383,7 @@ void *ptr;
 
 [Reference](https://en.cppreference.com/w/cpp/language/pointer)
 
-#### Q25. What is the output of this code?
+#### Q25. What is the output of the code given below?
 
 ```cpp
 int c=3; char d='A';
@@ -413,7 +413,7 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
 - [x] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
 
-#### Q28. What is the value of `x` after running this code?
+#### Q28. What is the value of `x` after executing this code?
 
 ```cpp
 int x=10, a=-3;
@@ -541,7 +541,7 @@ public class Dog extends Animal {
 };
 ```
 
-#### Q34. What is the output of this code?
+#### Q34. What is the output of this code given below?
 
 ```cpp
 #include <cstdio>

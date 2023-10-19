@@ -1606,3 +1606,54 @@ useEffect(callNetworkFunc, XXXX);
 - [x] when isLoggedIn is true
 - [ ] when isLoggedIn is false and the Hello function is invoked
 - [ ] never
+
+#### Q133. When do you use `useLayoutEffect`?
+
+- [ ] to optimize for all devices
+- [ ] to complete the update
+- [x] to change the layout of the screen
+- [ ] when you need the browser to paint before the effect runs
+
+#### Q134. What of the following is used in React.js to increase performance?
+
+- [ ] Original DOM
+- [x] Virtual DOM
+- [ ] Both of the above
+- [ ] None of the above
+
+#### Q115. Choose the library which is most often associated with react?
+
+- [ ] Chai
+- [ ] Sinon
+- [x] Jest
+- [ ] Mocha
+
+[Reference](https://reactjs.org/docs/testing-recipes.html)
+
+#### Q135. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
+
+#### Q84. Which tool is not part of Create React App?
+
+- [ ] React
+- [x] jQuery
+- [ ] webpack
+- [ ] ReactDOM
+
+#### Q136. Which answer best describes a function component?
+
+- [ ] A function component is the same as a class component.
+- [x] A function component accepts a single props object and returns a React element.
+- [ ] A function component is the only way to create a component.
+- [ ] A function component is required to create a React component.
+
+#### Q137. Which library does the `fetch()` function come from?
+
+- [ ] FetchJS
+- [ ] ReactDOM
+- [x] No library. `fetch()` is supported by most browsers.
+- [ ] React
