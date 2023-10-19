@@ -71,7 +71,7 @@
 
 `Table Tools -> Design Tab -> Table Styles`
 
-#### Q10. Which option changes a text box so that it automatically changes shape to fit longer text?
+#### Q10. Which option facilitates a text box to automatically changes shape to fit longer text?
 
 - [x] Resize shape to fit text
 - [ ] Do not autofit
@@ -905,3 +905,12 @@ D. Start When Clicked On
 - [ ] iconicon
 - [ ] 3D model3D model
 - [ ] screenshot
+
+#### Q116. Which choice describes the result of importing this Word outline into a presentation?
+
+![img](images/Q116.png)
+
+- [ ] Two slides will be created from the outline.
+- [x] One slide will be created with seven bullet items.
+- [ ] Two sections will be created, one with three slides and one with two slides.
+- [ ] Seven slides will be created from the outline.

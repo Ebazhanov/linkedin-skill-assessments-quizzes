@@ -36,10 +36,10 @@ typedef struct{
 }child_t;
 ```
 
-- [x] 7 bits.
+- [ ] 7 bits.
 - [ ] 25 bytes.
 - [ ] 1 bit.
-- [ ] 1 byte.
+- [x] 1 byte.
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
@@ -170,9 +170,9 @@ typedef struct {
 #### Q11. What is an lvalue?
 
 - [ ] It's a constant expression, meaning an expression composed of constants and operations.
-- [x] It's an expression that represents an object with an address.
+- [ ] It's an expression that represents an object with an address.
 - [ ] It's an expression suitable for the left-hand side operand in a binary operation.
-- [ ] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
+- [x] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
 
 #### Q12. What does auto type specifier do in this line of code (since C++11)?
 
@@ -210,7 +210,7 @@ else
 
 [Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
-#### Q15. What is the output of this code?
+#### Q15. What is the output of the code given below?
 
 ```cpp
 #include <iostream>
@@ -257,7 +257,7 @@ else
 
 Note: a variant of the question below.
 
-#### Q18. What is the output of this piece of code?
+#### Q18. What is the output of this block of code?
 
 ```cpp
 int8_t a=200;
@@ -273,7 +273,7 @@ std::cout<<", b="<<(int)b;
 
 Note: Implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 200 to -56
 
-#### Q19. What results from executing this code snippet?
+#### Q19. What is the output after executing this code snippet?
 
 ```cpp
 int x=5, y=2;
@@ -383,7 +383,7 @@ void *ptr;
 
 [Reference](https://en.cppreference.com/w/cpp/language/pointer)
 
-#### Q25. What is the output of this code?
+#### Q25. What is the output of the code given below?
 
 ```cpp
 int c=3; char d='A';
@@ -413,7 +413,7 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
 - [x] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
 
-#### Q28. What is the value of `x` after running this code?
+#### Q28. What is the value of `x` after executing this code?
 
 ```cpp
 int x=10, a=-3;
@@ -541,7 +541,7 @@ public class Dog extends Animal {
 };
 ```
 
-#### Q34. What is the output of this code?
+#### Q34. What is the output of this code given below?
 
 ```cpp
 #include <cstdio>
@@ -759,10 +759,10 @@ char *is_even(char *str);
 std::vector<std::vector<int>> thematrix;
 ```
 
-- [ ] There's nothing wrong with it.
+- [x] There's nothing wrong with it.
 - [ ] An `std::vector` cannot contain more `std::vector` containers as its elements.
 - [ ] The correct syntax should be: `std::vector[std::vector[int]] thematrix;`
-- [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
+- [ ] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
 
@@ -2301,9 +2301,9 @@ User u { "John", 101 };
 for (const pair<string, int>& elem : m)
 ```
 
-- [ ] A The loop properly iterates over the map, creating no extra copies.
+- [x] A The loop properly iterates over the map, creating no extra copies.
 
-- [x] B The loop will create a copy of each element in the map as the type of elem mismatches.
+- [ ] B The loop will create a copy of each element in the map as the type of elem mismatches.
 
 - [ ] C The code won't compile as a const pair cannot bind to a map.
 
@@ -2365,8 +2365,8 @@ auto x = 4000.22;
 #### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
 
 - [ ] Postfix ++
-- [ ] Comparison Operator
-- [x] Insertion Operator <<
+- [x] Comparison Operator
+- [ ] Insertion Operator <<
 - [ ] Prefix++
 
 #### Q146.How can we restrict dynamic allocation of objects of a class using new?
@@ -2401,6 +2401,6 @@ cout<<k+m;
 ```
 
 - [ ] 20
-- [x] 21
-- [ ] 22
+- [ ] 21
+- [x] 22
 - [ ] 23

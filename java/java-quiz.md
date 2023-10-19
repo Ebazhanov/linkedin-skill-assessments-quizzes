@@ -1250,6 +1250,7 @@ class Main {
 - [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
+      The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
 
 #### Q88. How would you use the TaxCalculator to determine the amount of tax on $50?
 
@@ -1897,6 +1898,8 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
 - [ ] err
 - [ ] in
 
+[Reference](https://www.whitman.edu/mathematics/java_tutorial/java/system/iostreams.html)
+
 #### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
 
 ```java
@@ -2466,12 +2469,11 @@ void createArray(int n) {
 - [ ] O(N^2)
 - [ ] O(log(N)
 
-      //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
-
----
+//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
 #### Q167. What will be the output of the following Java code?
 
+```java
     import java.util.*;
     public class genericstack <E>
     {
@@ -2495,10 +2497,14 @@ void createArray(int n) {
             System.out.println(gs.pop());
         }
     }
+```
 
----
+- [ ] H
+- [x] Hello
+- [ ] Runtime Error
+- [ ] Compilation Error
 
-//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+//In this program, The code defines a generic stack class, pushes the string "Hello" onto the stack, and then pops and prints "Hello," resulting in the output "Hello."
 
 #### Q168. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
 
@@ -2514,8 +2520,15 @@ void createArray(int n) {
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
 
-#### Q170. What will be the output of the following Java code snippet?
+#### Q170. The following prototype shows that a Cylinder subclass is derived from a superclass called Circle.
 
+- [ ] Class Circle extends Cylinder.
+- [ ] Class Cylinder derived Circle.
+- [x] Class Cylinder extends Circle.
+- [ ] Class Circle derived Cylinder.
+
+#### Q171. What will be the output of the following Java code snippet?
+  
 ```java
 class abc
 {
@@ -2531,3 +2544,12 @@ class abc
 - [ ] The snippet compiles, runs and prints 0.
 - [ ] The snippet compiles, runs and prints 1.
 - [ ] The snippet does not compile.
+
+#### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
+
+- [ ] DefinedDateFormat
+- [x] SimpleDateFormat
+- [ ] ComplexDateFormat
+- [ ] UsersDateFormat
+
+// The DateFormat is a concrete subclass of DateFormat. It allows you to define your own formatting patterns that are used to display date and time information.
