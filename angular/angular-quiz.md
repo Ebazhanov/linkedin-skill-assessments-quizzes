@@ -1464,11 +1464,11 @@ export class CustomValidatorDirective implements Validator {}
 ```ts
 @Component({
   selector: 'app-date-card',
-  template: ''
+  template: '',
 })
 export class DateCardComponent {
   currentYear() {
-    return (new Date()).getFullYear();
+    return new Date().getFullYear();
   }
 }
 ```
