@@ -2528,7 +2528,7 @@ void createArray(int n) {
 - [ ] Class Circle derived Cylinder.
 
 #### Q171. What will be the output of the following Java code snippet?
-  
+
 ```java
 class abc
 {
