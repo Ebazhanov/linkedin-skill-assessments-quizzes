@@ -1607,14 +1607,12 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] when isLoggedIn is false and the Hello function is invoked
 - [ ] never
 
-
 #### Q133. When do you use `useLayoutEffect`?
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [x] to change the layout of the screen
 - [ ] when you need the browser to paint before the effect runs
-
 
 #### Q134. What of the following is used in React.js to increase performance?
 
