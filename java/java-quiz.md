@@ -1898,6 +1898,8 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
 - [ ] err
 - [ ] in
 
+[Reference](https://www.whitman.edu/mathematics/java_tutorial/java/system/iostreams.html)
+
 #### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
 
 ```java
