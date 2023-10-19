@@ -927,7 +927,7 @@ Which of these statements do you agree with?
 - [ ] pivot table
 - [ ] K-means cluster diagram
 
-#### Q120. The total types of the layer in radial basis function in neural networks is ______
+#### Q120. The total types of the layer in radial basis function in neural networks is **\_\_**
 
 - [ ] 1
 - [ ] 2
