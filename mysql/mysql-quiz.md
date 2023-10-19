@@ -1101,3 +1101,10 @@ Table name: superheroes
 - [x] LEFT JOIN (or LEFT OUTER JOIN)
 - [ ] RIGHT JOIN (or RIGHT OUTER JOIN)
 - [ ] FULL JOIN (or FULL OUTER JOIN)
+
+#### Q117. What does SQL stand for in MySQL?
+
+-[x] Structured Query Language
+-[ ] Simple Query Language
+-[ ] System Query Language
+-[ ] Structured Question Language

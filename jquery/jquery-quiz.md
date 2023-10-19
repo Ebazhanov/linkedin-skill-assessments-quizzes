@@ -1639,3 +1639,9 @@ $('a.active').addClass('hover');
 - [ ] when you want to time jQuery animations and CSS animations, since addClass has no duration setting
 - [x] all of these answers
 - [ ] when you want to time custom animations of several different elements without lots of nested callbacks
+
+#### Q87. Which symbol is commonly used to represent the jQuery object?
+-[x] $
+-[ ] #
+-[ ] %
+-[ ] &
