@@ -1250,6 +1250,7 @@ class Main {
 - [x] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
+      The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
 
 #### Q88. How would you use the TaxCalculator to determine the amount of tax on $50?
 
@@ -2119,7 +2120,7 @@ Queue<Rainfall>
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
 - [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
-- [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
+- [ ] Function<Integer, Integer> funcReference = () -> MyClass.myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction();
 
@@ -2517,7 +2518,14 @@ void createArray(int n) {
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
 
-#### Q170. What will be the output of the following Java code snippet?
+#### Q170. The following prototype shows that a Cylinder subclass is derived from a superclass called Circle.
+
+- [ ] Class Circle extends Cylinder.
+- [ ] Class Cylinder derived Circle.
+- [x] Class Cylinder extends Circle.
+- [ ] Class Circle derived Cylinder.
+
+#### Q171. What will be the output of the following Java code snippet?
 
 ```java
 class abc

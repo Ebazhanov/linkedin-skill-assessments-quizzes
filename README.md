@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1524-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1529-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2119,6 +2119,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Spyrosigma"><img src="https://avatars.githubusercontent.com/u/111422209?v=4?s=100" width="100px;" alt="SATYAM NAMDEV"/><br /><sub><b>SATYAM NAMDEV</b></sub></a><br /><a href="#design-Spyrosigma" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Spyrosigma" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/thevirengarg"><img src="https://avatars.githubusercontent.com/u/111726483?v=4?s=100" width="100px;" alt="Virender Garg"/><br /><sub><b>Virender Garg</b></sub></a><br /><a href="#design-thevirengarg" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=thevirengarg" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/sahoo-smruti-ranjan"><img src="https://avatars.githubusercontent.com/u/8217389?v=4?s=100" width="100px;" alt="Smruti Ranjan Sahoo"/><br /><sub><b>Smruti Ranjan Sahoo</b></sub></a><br /><a href="#design-c99SRS" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=c99SRS" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://parthasarathidey.tech"><img src="https://avatars.githubusercontent.com/u/131694386?v=4?s=100" width="100px;" alt="Partha Sarathi Dey"/><br /><sub><b>Partha Sarathi Dey</b></sub></a><br /><a href="#design-parthasdey2304" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=parthasdey2304" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bratajit-03"><img src="https://avatars.githubusercontent.com/u/106532791?v=4?s=100" width="100px;" alt="Bratajit Das"/><br /><sub><b>Bratajit Das</b></sub></a><br /><a href="#design-Bratajit-03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Bratajit-03" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ihgazi"><img src="https://avatars.githubusercontent.com/u/44411308?v=4?s=100" width="100px;" alt="Irfan Habeeb Gazi"/><br /><sub><b>Irfan Habeeb Gazi</b></sub></a><br /><a href="#design-ihgazi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ihgazi" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.raunakmishra.com.np/"><img src="https://avatars.githubusercontent.com/u/52267072?v=4?s=100" width="100px;" alt="Raunak Kumar"/><br /><sub><b>Raunak Kumar</b></sub></a><br /><a href="#design-Raunakkumarr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Raunakkumarr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Priyank911"><img src="https://avatars.githubusercontent.com/u/109425795?v=4?s=100" width="100px;" alt="Panchal Priyank .s"/><br /><sub><b>Panchal Priyank .s</b></sub></a><br /><a href="#design-Priyank911" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Priyank911" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
