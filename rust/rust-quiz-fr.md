@@ -265,7 +265,7 @@ v.write(c) ?;
 
 [ ] La durée d'exécution d'un programme Rust.
 [ ] Une mesure de la vitesse d'exécution d'un programme Rust.
- ] Une étiquette temporelle sur une variable spécifiant sa durée de vie.
+] Une étiquette temporelle sur une variable spécifiant sa durée de vie.
 [x] Une marque temporelle définissant la durée de validité des références.
 
 #### Q24 : Quel est le système de construction et de gestion de paquets le plus utilisé en Rust ?
@@ -277,7 +277,7 @@ v.write(c) ?;
 
 #### Q25 : Quel type de programmation promeut Rust pour éviter les erreurs de programmation ?
 
- ] Programmation linéaire
+] Programmation linéaire
 [ ] Programmation statique
 [ ] Programmation flexible
 [x] Programmation sécurisée
