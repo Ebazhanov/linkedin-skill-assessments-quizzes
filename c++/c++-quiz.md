@@ -2404,3 +2404,24 @@ cout<<k+m;
 - [ ] 21
 - [x] 22
 - [ ] 23
+
+#### Q149. Which C++ construct is used for exception handling?
+
+- [x] try-catch
+- [ ]if-else
+- [ ]for loop
+- [ ]switch-case
+
+#### Q150. What is the purpose of the `break` statement in a loop in C++?
+
+- [ ] Exit the program
+- [ ] Skip the current iteration and continue with the next one
+- [x] Terminate the loop
+- [ ] Return a value
+
+#### Q151. In C++, what is the purpose of the `const` keyword when used with a variable?
+
+- [x] It makes the variable immutable
+- [ ] It changes the data type
+- [ ] It defines a constant function
+- [ ] It makes the variable a pointer
