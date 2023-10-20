@@ -1055,9 +1055,9 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 #### Q91. Which is _not_ a valid JSON number
 
 - [ ] `99999999999999999999`
-- [x] `"42"`
+- [ ] `"42"`
 - [ ] `-32`
-- [ ] `1111.00.110011`
+- [x] `1111.00.110011`
 
 #### Q92. What is the maximum string length in JSON?
 
