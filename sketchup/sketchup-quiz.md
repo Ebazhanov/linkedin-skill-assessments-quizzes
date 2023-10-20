@@ -242,5 +242,5 @@
 
 - [x] a) Click File > Save
 - [ ] b) Use the Export tool
-- [ ] c) Press Ctrl+S (or Command+S on Mac)
+- [x] c) Press Ctrl+S (or Command+S on Mac)
 - [ ] d) It's automatically saved
