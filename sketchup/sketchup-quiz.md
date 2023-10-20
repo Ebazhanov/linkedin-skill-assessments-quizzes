@@ -240,7 +240,7 @@
 
 #### Q35. How do you save your work in SketchUp?
 
-- [ ] a) Click File > Save
+- [x] a) Click File > Save
 - [ ] b) Use the Export tool
 - [ ] c) Press Ctrl+S (or Command+S on Mac)
-- [x] d) It's automatically saved
+- [ ] d) It's automatically saved
