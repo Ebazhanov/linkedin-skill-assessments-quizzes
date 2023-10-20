@@ -2546,10 +2546,3 @@ class abc
 - [ ] The snippet does not compile.
 
 #### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
-
-- [ ] DefinedDateFormat
-- [x] SimpleDateFormat
-- [ ] ComplexDateFormat
-- [ ] UsersDateFormat
-
-// The DateFormat is a concrete subclass of DateFormat. It allows you to define your own formatting patterns that are used to display date and time information.
