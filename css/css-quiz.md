@@ -2493,7 +2493,7 @@ input.invalid {
 
 #### Q163. What elements does the accent-color property target?
 
-- [ ] <a> - Hyperlink tags
-- [x] <input> - Input tags
-- [ ] <br> - Line break tags
-- [ ] <img> - Image tags
+- [ ] `<a>  Hyperlink tags`
+- [x] `<input>  Input tags`
+- [ ] `<br>  Line break tags`
+- [ ] `<img>  Image tags`
