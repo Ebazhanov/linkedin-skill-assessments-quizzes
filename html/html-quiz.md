@@ -2206,7 +2206,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
-### Q133. The ****\_**** element is used to render simple graphics such as line art, graphs, and other custom graphical elements on the client side.
+### Q133. The \***\*\_\*\*** element is used to render simple graphics such as line art, graphs, and other custom graphical elements on the client side.
 
 - [ ] metadata
 - [ ] css
