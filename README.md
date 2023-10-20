@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1530-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1531-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2127,6 +2125,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.raunakmishra.com.np/"><img src="https://avatars.githubusercontent.com/u/52267072?v=4?s=100" width="100px;" alt="Raunak Kumar"/><br /><sub><b>Raunak Kumar</b></sub></a><br /><a href="#design-Raunakkumarr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Raunakkumarr" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Priyank911"><img src="https://avatars.githubusercontent.com/u/109425795?v=4?s=100" width="100px;" alt="Panchal Priyank .s"/><br /><sub><b>Panchal Priyank .s</b></sub></a><br /><a href="#design-Priyank911" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Priyank911" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vidhijain27"><img src="https://avatars.githubusercontent.com/u/130988632?v=4?s=100" width="100px;" alt="Vidhi Jain"/><br /><sub><b>Vidhi Jain</b></sub></a><br /><a href="#design-vidhijain27" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vidhijain27" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Avtech04"><img src="https://avatars.githubusercontent.com/u/97428742?v=4?s=100" width="100px;" alt="Ayush Varshney"/><br /><sub><b>Ayush Varshney</b></sub></a><br /><a href="#design-Avtech04" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Avtech04" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
