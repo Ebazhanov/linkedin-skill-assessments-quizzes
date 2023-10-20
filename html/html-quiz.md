@@ -2205,3 +2205,12 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [] A line break
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+
+
+### Q133. The _________ element is used to render simple graphics such as line art, graphs, and other custom graphical elements on the client side.
+
+- [ ] metadata
+- [ ] css
+- [x] canvas
+- [ ] art
+
