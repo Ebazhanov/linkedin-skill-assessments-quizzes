@@ -2483,3 +2483,17 @@ input.invalid {
 - [x] The vertical margins of block elements in the normal flow.
 - [ ] The horizontal margins of block elements in the normal flow.
 - [ ] The vertical margins of inline elements in the normal flow.
+
+#### Q162. In CSS, which of the following is NOT an effect of inert attribute?
+
+- [ ] Prevents the click event from being fired when user clicks on an element.
+- [x] Makes the element interactive.
+- [ ] Prevents the focus event from being fired when an element gains focus.
+- [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
+
+#### Q163. What elements does the accent-color property target?
+
+- [ ] <a> - Hyperlink tags
+- [x] <input> - Input tags
+- [ ] <br> - Line break tags
+- [ ] <img> - Image tags
