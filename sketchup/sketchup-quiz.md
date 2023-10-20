@@ -188,3 +188,59 @@
 - [ ] Revolve
 - [ ] Loft
 - [ ] Selection Plane
+
+#### Q28. What is SketchUp primarily used for?
+
+- [ ] a) 2D drafting
+- [x] b) 3D modeling
+- [ ] c) Video editing
+- [ ] d) Spreadsheet calculations
+
+#### Q29. Which tool in SketchUp is used to create straight lines?
+
+- [ ] a) Eraser tool
+- [x] b) Line tool
+- [ ] c) Arc tool
+- [ ] d) Rotate tool
+
+#### Q30. How can you navigate in the 3D environment of SketchUp?
+
+- [ ] a) Use the keyboard arrow keys
+- [ ] b) Use the Paint tool
+- [x] c) Use the Scroll Wheel and Pan tool
+- [ ] d) Use the Text tool
+
+#### Q31. To create a 3D object in SketchUp, you typically start with which tool?
+
+- [ ] a) Move tool
+- [ ] b) Zoom tool
+- [x] c) Rectangle tool
+- [ ] d) Tape measure tool
+
+#### Q32. What does the Push/Pull tool do in SketchUp?
+
+- [ ] a) Measures distances
+- [x] b) Expands 2D shapes into 3D objects
+- [ ] c) Creates text notes
+- [ ] d) Adds color to surfaces
+
+#### Q33. How do you prevent objects from automatically fusing together in SketchUp?
+
+- [ ] a) You can't prevent it
+- [ ] b) Use the Rotate tool
+- [x] c) Group the objects
+- [ ] d) Use the Paint tool
+
+#### Q34. Which extension is required to export a SketchUp model as an STL file?
+
+- [ ] a) It's built-in and doesn't require an extension
+- [ ] b) SketchUp OBJ
+- [ ] c) SketchUp 3DS
+- [x] d) SketchUp STL
+
+#### Q35. How do you save your work in SketchUp?
+
+- [x] a) Click File > Save
+- [ ] b) Use the Export tool
+- [ ] c) Press Ctrl+S (or Command+S on Mac)
+- [ ] d) It's automatically saved
