@@ -15228,6 +15228,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "javiidiazglez",
+      "name": "Javi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72259510?v=4",
+      "profile": "https://github.com/javiidiazglez",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Tanmay-Giram",
+      "name": "Tammay Giram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95128407?v=4",
+      "profile": "https://github.com/Tanmay-Giram",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

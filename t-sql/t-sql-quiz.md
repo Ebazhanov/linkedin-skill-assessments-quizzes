@@ -567,8 +567,8 @@ _______
 
 - [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
-- [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
-- [x] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+- [x] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
+- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
 

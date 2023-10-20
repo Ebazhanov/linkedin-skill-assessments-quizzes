@@ -599,7 +599,10 @@ mvn install
 
 #### Q74. What command can you use to run the goal of the compiler plugin?
 
-- [ ] mvn compiler:compile
+- [x] mvn compiler:compile
+- [ ] mvn compiler
+- [x] mvn test-compile
+- [ ] mvn compiler:test
 
 #### Q75. In order to leverage a single execution of an Apache Maven goal on a multimodule project, from which directory should you execute the goal?
 
