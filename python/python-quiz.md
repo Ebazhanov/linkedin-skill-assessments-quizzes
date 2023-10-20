@@ -2663,7 +2663,4 @@ The code defines a `square` function to calculate the square of a number. It the
 
 #### Q183. Which of the following is not a valid Python data type?
 
--[ ] int
--[x] char
--[ ] float
--[ ] str
+-[ ] int -[x] char -[ ] float -[ ] str

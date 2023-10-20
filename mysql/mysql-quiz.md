@@ -1104,7 +1104,4 @@ Table name: superheroes
 
 #### Q117. What does SQL stand for in MySQL?
 
--[x] Structured Query Language
--[ ] Simple Query Language
--[ ] System Query Language
--[ ] Structured Question Language
+-[x] Structured Query Language -[ ] Simple Query Language -[ ] System Query Language -[ ] Structured Question Language

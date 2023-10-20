@@ -1641,7 +1641,5 @@ $('a.active').addClass('hover');
 - [ ] when you want to time custom animations of several different elements without lots of nested callbacks
 
 #### Q87. Which symbol is commonly used to represent the jQuery object?
--[x] $
--[ ] #
--[ ] %
--[ ] &
+
+-[x] $ -[ ] # -[ ] % -[ ] &
