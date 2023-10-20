@@ -919,3 +919,19 @@ Which of these statements do you agree with?
 - [ ] False
 
 **Explanation: ** Least squares regression is a method used to find the best-fitting linear relationship between a dependent variable and one or more independent variables. It minimizes the sum of the squared differences between the observed and predicted values, which is equivalent to maximizing the likelihood of the observed data under a Gaussian noise assumption.
+
+#### Q118. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
+
+- [x] multiclass classification diagram
+- [ ] linear regression and scatter plots
+- [ ] pivot table
+- [ ] K-means cluster diagram
+
+#### Q120. The total types of the layer in radial basis function in neural networks is **\_\_**
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 4
+
+**Explanation:** Radial Basis Functions are a special class of feed-forward neural networks consisting of three layers: an input layer, a hidden layer, and an output layer.

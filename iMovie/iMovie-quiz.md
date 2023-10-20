@@ -35,7 +35,7 @@
 - [ ] Create your own title template.
 - [ ] Choose a theme.
 
-#### Q6. You're trying to share a movie via email, but the 4K resolution is grayed out. What is the most likelv cause?
+#### Q6. You're trying to share a movie via email, but the 4K resolution is grayed out. What is the most likely cause?
 
 - [x] The original project is less than 4K resolution.
 - [ ] You must choose YouTube for 4K sharing
@@ -74,10 +74,10 @@
 
 #### Q11. Which color in the audio waveform indicates clipped audio?
 
-- [x] red
-- [ ] orange
-- [ ] yellow
-- [ ] white
+- [x] Red
+- [ ] Orange
+- [ ] Yellow
+- [ ] White
 
 #### Q12. What does a red bar in the multislider controls indicate?
 
@@ -86,7 +86,7 @@
 - [ ] The lightest or darkest areas have been adjusted too aggressively, which may lead to clipped details.
 - [x] The saturation for a clip is too intense and should be dialed back or balanced before exporting
 
-#### Q13. How do you set the frame rate for a project in Movie?
+#### Q13. How do you set the frame rate for a project in iMovie?
 
 - [x] It is determined by the first clip you add to the timeline.
 - [ ] Click iMovie > Preferences.
@@ -166,7 +166,7 @@
 #### Q22. To adjust the intensity of color in a clip, what slider do you use?
 
 - [ ] Color Temperature
-- [ ] multislider controls
+- [ ] Multislider controls
 - [x] Saturation
 - [ ] Vibrancy
 
