@@ -201,3 +201,12 @@
 - [ ] You receive lifetime updates and support.
 - [ ] You can negotiate a lower price.
 - [x] You get tailored support and technical assistance in addition to the same price as offered by Autodesk.
+
+#### Q29. When you first start Revit Architecture, the program opens to:
+
+- [ ] A new project
+- [ ] The configuration dialog
+- [ ] The last project you worked on
+- [x] The Recent files window.
+
+[Source](https://www.proprofs.com/quiz-school/quizshow.php?title=njqxmza4x88x&q=1)
