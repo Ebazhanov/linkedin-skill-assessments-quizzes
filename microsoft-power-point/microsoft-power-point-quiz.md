@@ -915,7 +915,6 @@ D. Start When Clicked On
 - [ ] Two sections will be created, one with three slides and one with two slides.
 - [ ] Seven slides will be created from the outline.
 
-
 #### Q117. How do you eliminate the blank columns on the char, as indicated by the arrow in this image?
 
 ![img](images/Q117.png)

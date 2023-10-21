@@ -1125,4 +1125,3 @@ Tabellenname: Superhelden
 - [x] `SELECT COUNT(DISTINCT product_id) FROM sales;`
 - [ ] `SELECT SUM(DISTINCT product_id) FROM sales;`
 - [ ] `SELECT product_id FROM sales;`
-
