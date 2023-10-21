@@ -318,12 +318,13 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [x] yes
+- [ ] yes
 - [ ] only if there is more than one item
-- [ ] no
+- [x] no
 - [ ] only when arrays and objects contain more than 10 items
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#:~:text=JavaScript%20has%20allowed%20trailing%20commas%20in%20array%20literals%20since%20the%20beginning.%20Trailing%20commas%20are%20now%20also%20allowed%20in%20object%20literals%2C%20function%20parameters%2C%20named%20imports%2C%20named%20exports%2C%20and%20more.) **Explanation**: Trailing commas can be used in objects and arrays.
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#:~:text=JSON%2C%20however%2C%20disallows%20all%20trailing%20commas.)
+
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
