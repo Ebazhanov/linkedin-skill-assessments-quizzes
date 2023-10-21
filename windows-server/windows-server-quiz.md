@@ -1,6 +1,6 @@
 ## Windows Server
 
-#### Q1. You need to create a file share for your company that must be accessible from all branch offices and its share path must have the name Work Share. Which server role do you install?
+#### Q1. You need to create a file share for your company that must be accessible from all branch offices, and its share path must have the name Work Share. Which server role do you install?
 
 ![Windows Server Q01](images/windows-server_Q01.jpg)
 
@@ -16,7 +16,7 @@
 - [ ] DFS Replication
 - [ ] File and Storage Services
 
-#### Q3. Which type ot DNS record is most commonly used in a forward lookup zone to resolve a host name to a specific IP address?
+#### Q3. Which type of DNS record is most commonly used in a forward lookup zone to resolve a hostname to a specific IP address?
 
 - [ ] an MX record
 - [x] an A record
@@ -30,14 +30,14 @@
 - [ ] a disk consolidation
 - [ ] a disk defragmentation
 
-#### Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML tile is stored at the root of the D: drive. What PowerShell command do you run to configure the server?
+#### Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML file is stored at the root of the D: drive. What PowerShell command do you run to configure the server?
 
 - [ ] `Install-WindowsServices -ConfigurationFilePath d:\PowerShellConfig.xml`
 - [ ] `Install-WindowsFeature -ConfigurationFilePath d:\root\PowerShellConfigFile.xml`
 - [ ] `Install-WindowsRole -ConfigurationFilePath d:\FileServerConfig.xml`
 - [x] `Install-WindowsFeature -ConfigurationFiIePath d:\FileServerConfig.xml`
 
-#### Q6. When configuring a CA which role service provides a web interface for users to easily request and renew certificates?
+#### Q6. When configuring a CA, which role service provides a web interface for users to easily request and renew certificates?
 
 - [ ] Network Device Enrollment Service
 - [x] Certification Authority Web Enrollment
@@ -76,14 +76,14 @@
 - [ ] RDS User Mode
 - [ ] RDA Application Mode
 
-#### Q10. How would you link a unique users policy made for the Human Resources Department users in your domain?
+#### Q10. How would you link a unique user policy made for the Human Resources Department users in your domain?
 
 - [ ] Link the GPO to the Human Resources OU.
 - [ ] Link the GPO to the Default Domain Policy.
 - [ ] Link the GPO to the domain root
 - [x] Link the GPO to the Computers OU.
 
-#### Q11. You've deployed a Server Core installation of Windows Server 2016. Which is NOT a way to update the server?
+#### Q11. You've deployed a server-core installation of Windows Server 2016. Which is NOT a way to update the server?
 
 - [x] Configure the server to use a WSUS server with Group Policy.
 - [ ] Run the following command: `Net stop wuauserv %systemroot%\system32\Cscript scregedit.wsf /AU 4 Net start wuauserv`.
@@ -106,7 +106,7 @@
 - [x] GC
 - [ ] PTR
 
-#### Q14. Your Hyper-V server has two physical disks installed, Disk 1 is a C: drive that hosts the Windows system files, and disk 2 is a D: drive that has no data. You need to connect the D: drive to a newly created VM using a pass-through disk configuration. What is true about the D: drive?
+#### Q14. Your Hyper-V server has two physical disks installed, Disk 1 is a C: drive that hosts the Windows system files, and Disk 2 is a D: drive that has no data. You need to connect the D: drive to a newly created VM using a pass-through disk configuration. What is true about the D: drive?
 
 - [ ] The physical disk must be in a RAID 6 configuration.
 - [x] The physical disk must be reformatted.
@@ -120,21 +120,21 @@
 - [ ] Stretch Cluster
 - [ ] Storage Spaces
 
-#### Q16. You are setting up new branch that has 50 client computers, all of which have been joined to the existing Active Directory domain. You deployed a DHCP server and were able to log in with your domain admin credentials, however the local clients are not receiving IP addresses. What is the cause of this issue?
+#### Q16. You are setting up a new branch that has 50 client computers, all of which have been joined to the existing Active Directory domain. You deployed a DHCP server and were able to log in with your domain admin credentials, however, the local clients are not receiving IP addresses. What is the cause of this issue?
 
 - [ ] The DHCP server is not part of the DHCP Servers OU in AD.
 - [x] The DHCP server has not been authorized.
 - [ ] Your domain admin account is not part of the local computer's Administrators group.
 - [ ] The DHCP server is not part of the AD domain.
 
-#### Q17. You want to verify that a DHCP server has been authorized use in Active Directory. Which cmdlet do you run in Windows PowerShell?
+#### Q17. You want to verify that a DHCP server has been authorized to use in Active Directory. Which cmdlet do you run in Windows PowerShell?
 
 - [ ] Add-DhcpServerInDC
 - [x] Get-DhcpServerInDC
 - [ ] Get-WindowsFeature DHCP
 - [ ] Instä11-WindowsFeature DHCP
 
-#### Q18. You log in to the domain controller to manage some user and computer accounts in Active Directory (AS) and you cannot find the AD tools. To resolve this using the Add Roles and Features Wizard, which feature would you install without any unnecessary services?
+#### Q18. You log in to the domain controller to manage some user and computer accounts in Active Directory (AS), and you cannot find the AD tools. To resolve this using the Add Roles and Features Wizard, which feature would you install without any unnecessary services?
 
 - [ ] Hyper-V Management Tools
 - [ ] Remove Server Administration Tools
@@ -148,7 +148,7 @@
 - [x] Use the New-NetFirewallRule command in PowerShell.
 - [ ] use the Enable-NetFirewallRule in PowerShell.
 
-#### Q20. A basic DHCP server can provide clients with an IP address, subnet mask, default gateway, DNS IP address. and what other IP address?
+#### Q20. A basic DHCP server can provide clients with an IP address, subnet mask, default gateway, and DNS IP address. and what other IP address?
 
 - [ ] file server
 - [x] WINS server
@@ -165,7 +165,7 @@
 #### Q22. You want to secure your Windows server so the built-in web browser can navigate only to sites listed in Internet Explorer's 'trusted sites' list. How can you configure this security capability?
 
 - [ ] Go to the Manager and enable IE Enhanced Security Configuration.
-- [ ] Go to Internet Explorer's Internet Options end add unauthorized website URLs te the 'restricted sites' list.
+- [ ] Go to Internet Explorer's Internet Options and add unauthorized website URLs to the 'restricted sites' list.
 - [x] Go to Internet Explorer's Internet Options and add authorized website URLs to the 'trusted sites' list.
 - [ ] Go to the Control Panel and enable user Account Control.
 
@@ -176,10 +176,10 @@
 - [ ] You need to re-add the printer to the Print Management console.
 - [ ] The printer lost connection to the network.
 
-#### Q24. You built a container image on Nano Server. The container image has multiple layers, including a custom application built for your company, and your development team pushed the image to your Azure image registry. What happens if you attempt to pull that image to a new server with previously downloaded OS images?
+#### Q24. You built a container image on the Nano Server. The container image has multiple layers, including a custom application built for your company, and your development team pushed the image to your Azure image registry. What happens if you attempt to pull that image to a new server with previously downloaded OS images?
 
-- [ ] Your custom layers will be pulled from your Azure registry and you will receive an notifying you of the missing base image.
-- [x] You will receive an notifying you of the missing base image and you will not be allowed to pull the image.
+- [ ] Your custom layers will be pulled from your Azure registry, and you will receive a notification of the missing base image.
+- [x] You will receive a notification of the missing base image, and you will not be allowed to pull the image.
 - [ ] All layers will be downloaded from your Azure registry.
 - [ ] The base OS image layers will automatically be pulled from Microsoft's registry at Docker Hub, and your custom layers will be pulled from your Azure registry.
 
@@ -204,7 +204,7 @@
 - [ ] Perform a direct copy of database files and private keys to a file share.
 - [ ] Schedule an incremental backup of the server.
 
-#### Q28. You must configure set of three DNS IP addresses to be given to clients that receive IP configuration from your DHCP server. The DNS IP will apply to all DHCP created on the server. Where on your DHCP do you configure this setting?
+#### Q28. You must configure a set of three DNS IP addresses to be given to clients that receive IP configuration from your DHCP server. The DNS IP will apply to all DHCP created on the server. Where on your DHCP do you configure this setting?
 
 - [ ] Server Options
 - [ ] Scope Options
@@ -225,7 +225,7 @@
 - [x] Personal under Local Computer
 - [ ] Client Authentication Computer
 
-#### Q31. You are preparing a Windows Server 2016 server image for deployment. You want to further customize your server by adding applications and device drivers, and to test your computer in Windows environment. What sysprep.exe parameters would you select when customizing your server image?
+#### Q31. You are preparing a Windows Server 2016 server image for deployment. You want to further customize your server by adding applications and device drivers and to test your computer in a Windows environment. What sysprep.exe parameters would you select when customizing your server image?
 
 ![Windows Server Q32](images/windows-server_Q32.jpg)
 
@@ -234,14 +234,14 @@
 - [x] C
 - [ ] D
 
-#### Q32. A domain GPO must apply to users based on the location of the computer to which they are logging in. You set up this ability by using which group policy feature?
+#### Q32. A domain GPO must apply to users based on the location of the computer to which they are logging in. Did you set up this ability by using which group policy feature?
 
 - [ ] inheritance
 - [ ] administrative
 - [x] loopback
 - [ ] filter
 
-#### Q33. You are planning to install a SAN that will utilize iSCSI storage. You want to provide automatic discovery, management and configuration of iSCSI devices. After running the Get-WindowsFeature \* PowerShell command, which should you install?
+#### Q33. You are planning to install a SAN that will utilize iSCSI storage. You want to provide automatic discovery, management, and configuration of iSCSI devices. After running the Get-WindowsFeature \* PowerShell command, which should you install?
 
 - [ ] Network Load Balancing
 - [ ] EnhancedStorage
@@ -257,7 +257,7 @@
 - [ ] The Windows server license is not compatible with the feature.
 - [ ] The file share groups must be configured first.
 
-#### Q35. When installing the AD DS server role, which will NOT be installed as part of the requited features and services for AD DS to run?
+#### Q35. When installing the AD DS server role, which will NOT be installed as part of the required features and services for AD DS to run?
 
 - [ ] DFS Replication
 - [ ] DFS Namespaces
@@ -266,12 +266,12 @@
 
 #### Q36. Which is NOT a reason to deploy a DHCP super scope in your network?
 
-- [ ] The current address pool is almost depleted and more clients will added.
+- [ ] The current address pool is almost depleted, and more clients will added.
 - [x] Clients will be migrated to a new scope in a phased approach.
 - [ ] More than one DHCP server wants to manage separate logical IP networks on the same physical network segment.
 - [ ] A proven failover option is required so clients are always connected.
 
-#### Q37. You prestaged a computer in Active Directory in a domain controller at company headquarters. After 30 minutes, that new computer object is still not available at the branch office domain What should you run from prompt to get a summary of the AD replication status in your domain from the perspective of all domain controllers?
+#### Q37. You pre staged a computer in Active Directory in a domain controller at company headquarters. After 30 minutes, that new computer object is still not available at the branch office domain What should you run from the prompt to get a summary of the AD replication status in your domain from the perspective of all domain controllers?
 
 - [ ] `repadmin /replsum`
 - [x] `repadmin /showrepl *`
@@ -285,10 +285,10 @@
 - [ ] Set up Windows client configuration.
 - [ ] Install the DHCPv6 server role.
 
-#### Q39. In the Add Roles and Features Wizard window, you are unable to remove Active Directory domain Services—the check box is greyed out. How can you remove AC DS from a Windows Server 2012 R2?
+#### Q39. In the Add Roles and Features Wizard window, you are unable to remove Active Directory Domain Services—the check box is greyed out. How can you remove AC DS from a Windows Server 2012 R2?
 
 - [ ] Click Next and review the Features section.
-- [ ] Click Previous choose a different server.
+- [ ] Click Previous and choose a different server.
 - [ ] Click Cancel and restart the server.
 - [x] Click Cancel and open the Remove Roles and Features Wizard.
 
