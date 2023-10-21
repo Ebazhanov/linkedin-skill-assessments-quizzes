@@ -2386,10 +2386,12 @@ for(int i=0;i<n;i++){
 }
 ```
 
-- [ ] O(n*n*n)
-- [x] O(n\*n)
+- [ ] O(n^3)
+- [x] O(n^2)
 - [ ] O(n)
 - [ ] O(1)
+
+[Reference] : https://medium.com/enjoy-algorithm/analysis-of-loop-in-programming-cc9a644ef8cd#:~:text=At%20each%20step%20of%20the%20iteration%2C%20the%20nested%20loop%20is,%20%3D%20O(n%C2%B2).
 
 #### Q148.What is the output of the code given below?
 
@@ -2404,6 +2406,8 @@ cout<<k+m;
 - [ ] 21
 - [x] 22
 - [ ] 23
+
+Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m becomes 22.
 
 #### Q149. Which C++ construct is used for exception handling?
 

@@ -86,7 +86,7 @@ let fruit = 'apple';
 
 #### Q10. What is the `<label>` element used for?
 
-- [ ] to identify the difference parts of a figure
+- [ ] to identify the different parts of a figure
 - [x] to explain what needs to be entered into a form field
 - [ ] as a caption for images
 - [ ] as a heading for tables
@@ -267,12 +267,12 @@ cite {
 - [x] `galaxies = ["Milky Way", "Whirlpool", "Andromeda"];`
 - [ ] `var galaxies = {"Milky Way", "Whirlpool", "Andromeda"};`
 
-#### Q27. Which description correctly describes the initial values of flex items if the only thing you have done is apply `display: flex` to their parent?
+#### Q27. Which description correctly describes the initial values of flex items if you have applied `display: flex` to their parent?
 
 - [x] Items display in a row, lined up at the start, and do not stretch to fill the container
 - [ ] Items display in a column, lined up at the start, and do not stretch to fill the container
 - [ ] Items stay in a column until you add some flex properties.
-- [ ] Items display in a row, lined up at the start, and stretch to fill the container
+- [ ] Items display in a row, lined up at the start, and stretched to fill the container
 
 #### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.
 
@@ -283,7 +283,7 @@ cite {
 
 #### Q29. A video on your webpage does not display and the console shows an error about mixed content. What is happening?
 
-- [ ] The webapge is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.
+- [ ] The webpage is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.
 - [ ] Your browser does not support HTML5 video.
 - [ ] The video is from a source that cannot be displayed in your location for legal reasons.
 - [x] The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.
@@ -569,7 +569,7 @@ console.log(currencies);
 
 - [x] It is a piece of code that provides modern functionality in browsers that do not support it.
 - [ ] It is a piece of code that hides broken content from old browsers.
-- [ ] It is a term for languages such as Saas that compliles to CSS.
+- [ ] It is a term for languages such as Saas that compile to CSS.
 - [ ] It is a script that runs to add vendor prefixes to modern CSS.
 
 [Source: Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
@@ -753,9 +753,9 @@ box {
 #### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
 
 - [ ] it will speed up loading of the image when used with a JavaScript library
-- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [ ] in supporting browsers, images will be highly compressed, therefore loading more quickly
 - [x] In supporting browsers, images will load only when they are in or near the visible viewport
-- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+- [ ] In supporting browsers, images will not load unless the user explicitly requests image loading
 
 #### Q76. What is GraphQL?
 

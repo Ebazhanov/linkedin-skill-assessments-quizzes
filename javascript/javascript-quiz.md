@@ -1,5 +1,7 @@
 ## JavaScript
 
+[Assessment link(linkedin)](https://www.linkedin.com/skill-assessments/JavaScript/quiz-intro/)
+
 #### Q1. Which operator returns true if the two compared values are not equal?
 
 - [ ] `<>`
@@ -572,7 +574,7 @@ f2();
 - [x] You are calling a method named reduce on an object that's declared but has no value.
 - [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
-- [ ] You are calling a method named reduce on an object that's has a null value.
+- [ ] You are calling a method named reduce on an object that has a null value.
 
 **Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`
 
@@ -756,7 +758,7 @@ printA();
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
-- [ ] for loops can be nested; whereas forEach loops cannot.
+- [ ] for loops can be nested; whereas forEach loop cannot.
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
@@ -1097,8 +1099,8 @@ const foo = {
 
 - [ ] There is no difference.
 - [ ] The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.
-- [x] The map() methods returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
-- [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
+- [x] The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
+- [ ] The `forEach()` method returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
 
 1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
@@ -1671,7 +1673,7 @@ console.log(z);
 
 [Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-#### Q122. Given this code, which statement will evaluate to false?
+#### Q122. Given this code, which statement will be evaluated as false?
 
 ```js
 const a = { x: 1 };
@@ -1901,7 +1903,7 @@ console.log(animals[1], clones[1]);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q136. What will be the output of the following code.
+#### Q136. What will be the output of the following code?
 
 ```js
 a=5;
