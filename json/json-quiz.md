@@ -327,8 +327,8 @@
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
-- [ ] All whitespace is allowed.
-- [x] double quotes, slashes new lines, and carriage returns
+- [x] All whitespace is allowed.
+- [ ] double quotes, slashes new lines, and carriage returns
 - [ ] new lines and carriage returns only
 - [ ] double quotes only
 
