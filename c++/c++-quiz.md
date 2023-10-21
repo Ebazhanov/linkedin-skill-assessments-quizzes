@@ -2442,7 +2442,7 @@ public:
 	   }
 	~A(){
 		cout<<"Destructor called\n";
-	    } 
+	    }
 };
 int main(int argc, char const *argv[])
 {
