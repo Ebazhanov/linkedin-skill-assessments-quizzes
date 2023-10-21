@@ -914,3 +914,15 @@ D. Start When Clicked On
 - [x] One slide will be created with seven bullet items.
 - [ ] Two sections will be created, one with three slides and one with two slides.
 - [ ] Seven slides will be created from the outline.
+
+#### Q117. How do you eliminate the blank columns on the char, as indicated by the arrow in this image?
+
+![img](images/Q117.png)
+
+- [x] In the Chart in Microsoft PowerPoint window, use the sizing handler in the lower-right corner of the range, dragging it up to cell D4.
+- [ ] In the Chart in Microsoft PowerPoint window, select the range A5:D5 and press Delete.
+- [ ] Click the chart and then, on the Shape format tab, click Edit Shape. Then crop the chart to show only A1:D4.
+- [ ] Click Change Chart Type.
+
+//If the requirement is to completely remove the blank columns and have the chart adjust its size accordingly, Option 1 is the choice.
+//If the requirement is to keep the blank columns but make them invisible, Option 2 is appropriate.
