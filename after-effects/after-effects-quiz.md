@@ -290,10 +290,15 @@
 - [ ] View axis
 
 #### Q41. Which characteristics do the Render settings control?
+
 #### A. Output frame rate
+
 #### B. Compression options
+
 #### C. Duraction
+
 #### D. Cropping
+
 #### E. Layer quality
 
 - [ ] A, D, E
@@ -312,19 +317,24 @@
 
 #### Q43. Which path operation creates multiple copies of a single shape?
 
-- [X] Repeater
+- [x] Repeater
 - [ ] Merge paths
 - [ ] Offset paths
 - [ ] Wiggle transform
 
-#### Q44. Write characteristics do the output module settings control? 
+#### Q44. Write characteristics do the output module settings control?
+
 #### A. Output frame rate
+
 #### B. Output format
+
 #### C. Compression options
+
 #### D. Cropping
+
 #### E. Time span
 
 - [ ] A, C, D
 - [ ] B, D, C
 - [ ] A, B, C
-- [x] B, C, E 
+- [x] B, C, E
