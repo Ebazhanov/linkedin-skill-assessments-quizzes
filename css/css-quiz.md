@@ -2507,46 +2507,35 @@ input.invalid {
 
 #### Q165. What elements does the accent-color property target?
 
-- [ ]  Line break tags
-- [ ]  Hyperlink tags
-- [x]  Input tags
-- [ ]  Image tags
+- [ ] Line break tags
+- [ ] Hyperlink tags
+- [x] Input tags
+- [ ] Image tags
 
 ### Q164. In CSS, what does the line-height property control?
+
 - [ ] The width of the element.
 - [ ] The color of the text.
 - [ ] The spacing between characters.
 - [x] The height of the space between lines of text.
 
 ### Q165. What is the purpose of the CSS visibility property?
+
 - [ ] To control the order of elements within a flex container.
 - [ ] To adjust the space between the inner content and the border of an element.
 - [ ] To control the stacking order of elements in the z-axis.
 - [x] To control the visibility of an element.
 
 ### Q166. Which CSS property is used to change the style of the cursor when it hovers over an element?
+
 - [ ] cursor-style
 - [ ] mouse-pointer
 - [ ] pointer-type
 - [x] cursor
 
 ### Q167. What is the purpose of the CSS outline property?
+
 - [ ] To control the width of an element's border.
 - [ ] To change the background color of an element.
 - [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
 - [ ] To control the transparency of an element.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
