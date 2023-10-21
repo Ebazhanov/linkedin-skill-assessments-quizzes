@@ -1444,34 +1444,31 @@ $(function({
 - [ ] B
 
 ```js
-$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 - [ ] C
 
 ```js
-$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 - [x] D
 
 ```js
-$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
-  getData,
-  delayedData,
-) {
-  //DOM is ready, getData and delayedData are available
-});
+$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(
+  function (getData, delayedData) {
+    //DOM is ready, getData and delayedData are available
+  },
+);
 ```
 
 #### Q74. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
