@@ -325,7 +325,6 @@
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#:~:text=JSON%2C%20however%2C%20disallows%20all%20trailing%20commas.)
 
-
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
