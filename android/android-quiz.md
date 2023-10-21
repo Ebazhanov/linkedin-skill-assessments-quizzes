@@ -1178,26 +1178,26 @@ val string: String = getString(
 
 ![img](image/Q75.png)
 
-- [ ]
+- [ ] A
 
 ```
 recyclerView.setLayoutManager(GridLayoutManager(this, 3))
 ```
 
-- [x]
+- [x] B
 
 ```
 val coulumnCount = resources.getInteger(R.integer.column_count)
 recyclerView.setLayoutManager(GridLayoutManager(this, columnCount))
 ```
 
-- [ ]
+- [ ] C
 
 ```
 recyclerView.setLayoutManager(LinearLayoutManager(this))
 ```
 
-- [ ]
+- [ ] D
 
 ```
 val coulumnCount = resources.getInteger(R.integer.column_count)
