@@ -56,7 +56,6 @@
 - [x] `mvn clean verify install package`
 - [ ] `mvn install package`
 
-
 #### Q9. Which goal would you use with the Dependency plugin to determine which included dependencies are not used, as well as those you are using that you have not defined?
 
 - [ ] `dependency:tree`
