@@ -225,3 +225,73 @@ v.write(c) ?;
 ```rouille
 
 ```
+
+#### Q18 : Qu'est-ce que Rust ?
+
+[ ] Un langage de programmation basé sur C++
+[ ] Un langage de programmation basé sur Java
+[ ] Un langage de programmation basé sur Python
+[x] Un langage de programmation système sécurisé et performant
+
+#### Q19 : Quelle affirmation suivante est vraie à propos de Rust ?
+
+[ ] Rust permet la gestion automatique de la mémoire.
+[ ] Rust est un langage interprété.
+[ ] Rust n'est pas utilisé pour la programmation système.
+[x] Rust garantit la sécurité de la mémoire sans nécessiter un ramasse-miettes (garbage collector).
+
+#### Q20: À quoi sert la notion de "propriété" (ownership) en Rust ?
+
+[ ] Pour gérer les licences logicielles.
+[ ] Pour restreindre l'accès aux ressources réseau.
+[ ] Pour contrôler l'accès aux bases de données.
+[x] Pour gérer de manière sécurisée l'allocation et la libération de mémoire.
+
+#### Q21 : Quel est le type de données utilisé pour les références non mutables en Rust ?
+
+[ ] &mut
+[ ] const
+[ ] mutable
+[x] &
+
+#### Q22 : Quel concept en Rust permet d'éviter les problèmes de concurrence et les courses de données ?
+
+[ ] Mutex
+[ ] Condition
+[ ] Verrouillage de mémoire
+[x] Propriété (ownership) et Emprunt (borrowing)
+
+#### Q23 : Qu'est-ce qu'un "lifetime" en Rust ?
+
+[ ] La durée d'exécution d'un programme Rust.
+[ ] Une mesure de la vitesse d'exécution d'un programme Rust.
+] Une étiquette temporelle sur une variable spécifiant sa durée de vie.
+[x] Une marque temporelle définissant la durée de validité des références.
+
+#### Q24 : Quel est le système de construction et de gestion de paquets le plus utilisé en Rust ?
+
+[ ] CMake
+[ ] Gradle
+[ ] Maven
+[x] Cargo
+
+#### Q25 : Quel type de programmation promeut Rust pour éviter les erreurs de programmation ?
+
+] Programmation linéaire
+[ ] Programmation statique
+[ ] Programmation flexible
+[x] Programmation sécurisée
+
+#### Q26 : Que signifie l'acronyme "MIR" dans le contexte de Rust ?
+
+[ ] Mappeur d'Instructions de Référence
+[ ] Modèle d'Instructions et de Registres
+[ ] Modèle d'Inférence de Rendement
+[x] Représentation Intermédiaire de Rust
+
+#### Q27 : Quelle caractéristique de Rust permet aux programmeurs d'écrire un code plus sûr et d'éviter les erreurs de concurrence ?
+
+[ ] Ramasse-miettes (garbage collector)
+[ ] Pointeurs nuls
+[ ] Utilisation excessive de commentaires
+[x] Propriété (ownership), Emprunt (borrowing) et Durées de vie (lifetimes)

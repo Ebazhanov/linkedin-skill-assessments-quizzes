@@ -1898,6 +1898,8 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
 - [ ] err
 - [ ] in
 
+[Reference](https://www.whitman.edu/mathematics/java_tutorial/java/system/iostreams.html)
+
 #### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
 
 ```java
@@ -2120,7 +2122,7 @@ Queue<Rainfall>
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
 - [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
-- [ ] Function<Integer, Integer> funcReference = () -> MyClass.myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass()::myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction();
 
@@ -2543,11 +2545,4 @@ class abc
 - [ ] The snippet compiles, runs and prints 1.
 - [ ] The snippet does not compile.
 
-#### Q171. Which of these class allows us to define our own formatting pattern for dates and time?
-
-- [ ] DefinedDateFormat
-- [x] SimpleDateFormat
-- [ ] ComplexDateFormat
-- [ ] UsersDateFormat
-
-// The DateFormat is a concrete subclass of DateFormat. It allows you to define your own formatting patterns that are used to display date and time information.
+#### Q172. Which of these class allows us to define our own formatting pattern for dates and time?

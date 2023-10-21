@@ -2498,3 +2498,16 @@ input.invalid {
 - [ ] margin-box
 - [x] border-box
 
+#### Q164. In CSS, which of the following is NOT an effect of inert attribute?
+
+- [ ] Prevents the click event from being fired when user clicks on an element.
+- [x] Makes the element interactive.
+- [ ] Prevents the focus event from being fired when an element gains focus.
+- [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
+
+#### Q165. What elements does the accent-color property target?
+
+- [ ] <a> - Hyperlink tags
+- [x] <input> - Input tags
+- [ ] <br> - Line break tags
+- [ ] <img> - Image tags
