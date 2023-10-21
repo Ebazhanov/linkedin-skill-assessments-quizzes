@@ -695,3 +695,10 @@
 - [ ] LTSCALE is OFF (1).
 - [x] LTSCALE is ON (1).
 - [ ] 1 %
+
+### Q96. In AutoCAD, a circle has five grips: a center grip and four quadrant grips. When using the Tan Tan Radius (TTR) method to draw a circle in a right-angled corner, which of the two quadrant grips will be touching other objects?
+
+- [ ] the two grips that also act as the tangents in the TTR circle command
+- [x] the bottom and left grips
+- [ ] the top and right grips
+- [ ] the center and top grips
