@@ -12,7 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1549-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1550-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2150,6 +2150,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/biswabaibhab007"><img src="https://avatars.githubusercontent.com/u/94667039?v=4?s=100" width="100px;" alt="Biswa Baibhab Subudhi "/><br /><sub><b>Biswa Baibhab Subudhi </b></sub></a><br /><a href="#design-biswabaibhab007" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=biswabaibhab007" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RS-labhub"><img src="https://avatars.githubusercontent.com/u/117426013?v=4?s=100" width="100px;" alt="Rohan Sharma"/><br /><sub><b>Rohan Sharma</b></sub></a><br /><a href="#design-RS-labhub" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RS-labhub" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://akxai.vercel.app"><img src="https://avatars.githubusercontent.com/u/85357123?v=4?s=100" width="100px;" alt="Akshay Aileni"/><br /><sub><b>Akshay Aileni</b></sub></a><br /><a href="#design-Akxai" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Akxai" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
