@@ -52,16 +52,10 @@
 #### Q8. Which command is used to run the clean lifecycle followed by verify, install, and package with Maven?
 
 - [ ] `mvn clean install package`
-- [x] `mvn package`
-- [ ] `mvn clean install`
-- [ ] Option 4
+- [ ] `mvn package`
+- [x] `mvn clean verify install package`
+- [ ] `mvn install package`
 
-```shell script
-mvn clean
-mvn package
-mvn verify
-mvn install
-```
 
 #### Q9. Which goal would you use with the Dependency plugin to determine which included dependencies are not used, as well as those you are using that you have not defined?
 
