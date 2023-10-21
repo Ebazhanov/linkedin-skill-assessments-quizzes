@@ -2660,3 +2660,7 @@ The code defines a `square` function to calculate the square of a number. It the
 - [x] array
 
 [Source](https://docs.python.org/3/library/functions.html)
+
+#### Q183. Which of the following is not a valid Python data type?
+
+-[ ] int -[x] char -[ ] float -[ ] str

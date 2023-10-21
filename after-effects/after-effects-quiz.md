@@ -267,3 +267,74 @@
 - [x] Bezier
 - [ ] Step
 - [ ] Exponential
+
+#### Q38. Which shortcut key provides quick access to the Opacity controls for a selected layer?
+
+- [ ] O
+- [ ] P
+- [ ] U
+- [x] T
+
+#### Q39. What happens when you change the zero point (origin) for the rulers in the Composition viewer (panel)?
+
+- [ ] After effects begins calculating according to new origin of the composition only for 3D layers.
+- [ ] After effects begins calculating from the middle of the composition.
+- [x] After effects begins calculating according to the new origin of the composition.
+- [ ] After effects continues to calculate from the top-left origin of the composition.
+
+#### Q40. Changes made to rotation or position in 3D space are attached to the layer and not based on the composition. Which axis mode would you want to use to have changes based on the axes in the Composition panel?
+
+- [x] World axis
+- [ ] Local axis
+- [ ] Global axis
+- [ ] View axis
+
+#### Q41. Which characteristics do the Render settings control?
+
+#### A. Output frame rate
+
+#### B. Compression options
+
+#### C. Duraction
+
+#### D. Cropping
+
+#### E. Layer quality
+
+- [ ] A, D, E
+- [ ] A, B, C
+- [x] A, C, E
+- [ ] B, C, E
+
+#### Q42. Which Keyframe Assistant is shown here?
+
+<img width="565" alt="image" src="https://github.com/kaushal1717/linkedin-skill-assessments-quizzes/assets/121810303/9ef701b6-ac94-47ca-b749-23bd4f9c337c">
+
+- [ ] Easy ease in
+- [x] Easy ease out
+- [ ] Easy ease
+- [ ] Exponential scale
+
+#### Q43. Which path operation creates multiple copies of a single shape?
+
+- [x] Repeater
+- [ ] Merge paths
+- [ ] Offset paths
+- [ ] Wiggle transform
+
+#### Q44. Write characteristics do the output module settings control?
+
+#### A. Output frame rate
+
+#### B. Output format
+
+#### C. Compression options
+
+#### D. Cropping
+
+#### E. Time span
+
+- [ ] A, C, D
+- [ ] B, D, C
+- [ ] A, B, C
+- [x] B, C, E

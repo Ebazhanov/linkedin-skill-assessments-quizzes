@@ -2483,3 +2483,31 @@ input.invalid {
 - [x] The vertical margins of block elements in the normal flow.
 - [ ] The horizontal margins of block elements in the normal flow.
 - [ ] The vertical margins of inline elements in the normal flow.
+
+#### Q162. Which of the following CSS selectors selects all <p> elements that are the direct child of a <div> element?
+
+- [ ] div p
+- [x] div > p
+- [ ] Tdiv + p
+- [ ] div ~ p
+
+#### Q163. In CSS, the box-sizing property is used to control how an element's total width and height is calculated. Which value of box-sizing includes the element's padding and border within its total width and height?
+
+- [ ] content-box
+- [ ] padding-box
+- [ ] margin-box
+- [x] border-box
+
+#### Q164. In CSS, which of the following is NOT an effect of inert attribute?
+
+- [ ] Prevents the click event from being fired when user clicks on an element.
+- [x] Makes the element interactive.
+- [ ] Prevents the focus event from being fired when an element gains focus.
+- [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
+
+#### Q165. What elements does the accent-color property target?
+
+- [ ] <a> - Hyperlink tags
+- [x] <input> - Input tags
+- [ ] <br> - Line break tags
+- [ ] <img> - Image tags
