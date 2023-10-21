@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1540-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1541-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2139,6 +2137,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ankoorgorai"><img src="https://avatars.githubusercontent.com/u/148214358?v=4?s=100" width="100px;" alt="ankoorgorai"/><br /><sub><b>ankoorgorai</b></sub></a><br /><a href="#design-ankoorgorai" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ankoorgorai" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SoulNikhar"><img src="https://avatars.githubusercontent.com/u/111144948?v=4?s=100" width="100px;" alt="Nikhar Behera"/><br /><sub><b>Nikhar Behera</b></sub></a><br /><a href="#design-SoulNikhar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SoulNikhar" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayushrakesh"><img src="https://avatars.githubusercontent.com/u/115995339?v=4?s=100" width="100px;" alt="ayushrakesh"/><br /><sub><b>ayushrakesh</b></sub></a><br /><a href="#design-ayushrakesh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayushrakesh" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AKSHATH99"><img src="https://avatars.githubusercontent.com/u/126553203?v=4?s=100" width="100px;" alt="AKSHATH P"/><br /><sub><b>AKSHATH P</b></sub></a><br /><a href="#design-AKSHATH99" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AKSHATH99" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
