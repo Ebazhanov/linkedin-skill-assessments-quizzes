@@ -2484,16 +2484,60 @@ input.invalid {
 - [ ] The horizontal margins of block elements in the normal flow.
 - [ ] The vertical margins of inline elements in the normal flow.
 
-#### Q162. In CSS, which of the following is NOT an effect of inert attribute?
+#### Q162. Which of the following CSS selectors selects all <p> elements that are the direct child of a <div> element?
+
+- [ ] div p
+- [x] div > p
+- [ ] Tdiv + p
+- [ ] div ~ p
+
+#### Q163. In CSS, the box-sizing property is used to control how an element's total width and height is calculated. Which value of box-sizing includes the element's padding and border within its total width and height?
+
+- [ ] content-box
+- [ ] padding-box
+- [ ] margin-box
+- [x] border-box
+
+#### Q164. In CSS, which of the following is NOT an effect of inert attribute?
 
 - [ ] Prevents the click event from being fired when user clicks on an element.
 - [x] Makes the element interactive.
 - [ ] Prevents the focus event from being fired when an element gains focus.
 - [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
 
-#### Q163. What elements does the accent-color property target?
+#### Q165. What elements does the accent-color property target?
 
-- [ ] `<a>  Hyperlink tags`
-- [x] `<input>  Input tags`
-- [ ] `<br>  Line break tags`
-- [ ] `<img>  Image tags`
+- [ ] Line break tags
+- [ ] Hyperlink tags
+- [x] Input tags
+- [ ] Image tags
+
+### Q164. In CSS, what does the line-height property control?
+
+- [ ] The width of the element.
+- [ ] The color of the text.
+- [ ] The spacing between characters.
+- [x] The height of the space between lines of text.
+
+### Q165. What is the purpose of the CSS visibility property?
+
+- [ ] To control the order of elements within a flex container.
+- [ ] To adjust the space between the inner content and the border of an element.
+- [ ] To control the stacking order of elements in the z-axis.
+- [x] To control the visibility of an element.
+
+### Q166. Which CSS property is used to change the style of the cursor when it hovers over an element?
+
+- [ ] cursor-style
+- [ ] mouse-pointer
+- [ ] pointer-type
+- [x] cursor
+
+### Q167. What is the purpose of the CSS outline property?
+  
+- [ ] To control the width of an element's border.
+- [ ] To change the background color of an element.
+- [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
+- [ ] To control the transparency of an element.
+
+  
