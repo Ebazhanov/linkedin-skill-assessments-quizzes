@@ -2464,18 +2464,18 @@ int main(int argc, char const *argv[])
 - [ ] “Constructor called” five times and then “Destructor called” once
 - [ ] Error
 
-#### Q.153 What is the output of this code? 
+#### Q.153 What is the output of this code?
+
 ```c++
-printf("1/2 = %f",(float)(1/2)); 
+printf("1/2 = %f",(float)(1/2));
 ```
 
-- [ ] 1/2 = 0.499999 
-- [ ] 1/2 = 0 
+- [ ] 1/2 = 0.499999
+- [ ] 1/2 = 0
 - [x] 1/2 = 0.000000
-- [ ] 1/2 = 0.5 
+- [ ] 1/2 = 0.5
 
-
-#### Q.154 Which choice is *not* related to declaring the member variable count as static in my_class?
+#### Q.154 Which choice is _not_ related to declaring the member variable count as static in my_class?
 
 ```cpp
 class my_class{
@@ -2490,21 +2490,26 @@ class my_class{
 
 ### Q.155 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
 
-- [ ]	
+- [ ]
+
 ```
   c = buff[16];
 	C = str[5];
 	C = * (buff+16);
 	c = * (str+5);
 ```
-- [ ]   
+
+- [ ]
+
 ```
 	C = *(buff[15]);
 	C = * (str[4]);
 	c = buff+15;
 	C-str+4;
 ```
-- [ ] 
+
+- [ ]
+
 ```
   c = buff[15];
 	C = str[4];
