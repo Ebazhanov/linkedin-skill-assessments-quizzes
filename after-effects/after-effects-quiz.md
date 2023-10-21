@@ -58,7 +58,7 @@
 - [ ] Posterize Time
 - [ ] CC Wide Time
 
-#### Q9. An image was created on a transparent background in Photoshop using different dimensions to this After Effects composition. Which option was used when importing the PSD file below to place the image at its original scale and position?
+#### Q9. An image was created on a transparent background in Photoshop using different dimensions to an After Effects composition. Which option was used when importing the PSD file below to place the image at its original scale and position?
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
@@ -72,7 +72,7 @@
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.
 
-#### Q11. What properties are added to a 3D layer? (Select three items.)
+#### Q11. Which of the following properties can be added to a 3D layer? (Select three items.)
 
 - [x] Z Rotation
 - [x] Anchor Point
@@ -104,7 +104,7 @@
 - [ ] Parallel
       [Reference link](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
 
-#### Q15. Which effect recovers alpha-channel detail from a scene keyed by a typical keying effect, including recovering detail lost due to compression artifacts?
+#### Q15. Which effect recovers alpha-channel details from a scene keyed by a typical keying effect, including recovering details lost due to compression artifacts?
 
 - [ ] Keying > Advanced Spill Suppressor
 - [x] Keying > Key Cleaner
@@ -149,7 +149,7 @@
 - [ ] Switch to the Essential Graphics workspace.
 - [ ] All properties are supported by the Essential Graphics panel.
 
-#### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
+#### Q21. You want to take an existing layer and make it into two separate layers. How can you do this such that the separation occurs at the playhead?
 
 - [x] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
