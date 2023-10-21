@@ -2430,7 +2430,14 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 - [ ] It defines a constant function
 - [ ] It makes the variable a pointer
 
-#### Q152. What will be the output of the following C++ program?
+#### Q152. Which is more effective while calling the C++ functions??
+
+- [x] Call by reference
+- [ ] Call by value
+- [ ] Call by pointer
+- [ ] Call by object
+
+#### Q153. What will be the output of the following C++ program?
 
 ```cpp
 #include <iostream>
