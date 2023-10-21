@@ -924,5 +924,14 @@ D. Start When Clicked On
 - [ ] Click the chart and then, on the Shape format tab, click Edit Shape. Then crop the chart to show only A1:D4.
 - [ ] Click Change Chart Type.
 
+#### Q118. How would you ensure a uniform appearance and placement across your slides even though the content might be different?
+
+- [ ] Use Embedded Fonts
+- [x] Use consistent layouts
+- [ ] Use styles
+- [ ] Use numbered lists.
+
+<a href="https://www.linkedin.com/skill-assessments/Microsoft%20PowerPoint/quiz/?practiceModal=&practiceMode=true">reference</a>
+
 //If the requirement is to completely remove the blank columns and have the chart adjust its size accordingly, Option 1 is the choice.
 //If the requirement is to keep the blank columns but make them invisible, Option 2 is appropriate.
