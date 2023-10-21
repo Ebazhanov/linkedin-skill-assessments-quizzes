@@ -2425,3 +2425,32 @@ cout<<k+m;
 - [ ] It changes the data type
 - [ ] It defines a constant function
 - [ ] It makes the variable a pointer
+
+#### Q152. What will be the output of the following C++ program?
+
+```cpp
+#include <iostream>
+using namespace std;
+class A{
+public:
+	A(){
+		cout<<"Constructor called\n";
+	   }
+	~A(){
+		cout<<"Destructor called\n";
+	    } 
+};
+int main(int argc, char const *argv[])
+{
+	A *a = new A[5];
+	delete[] a;
+	return 0;
+}
+```
+
+- [ ] Segmentation fault
+- [x] “Constructor called” five times and then “Destructor called” five times
+- [ ] “Constructor called” five times and then “Destructor called” once
+- [ ] Error
+
+[Reference](https://www.sanfoundry.com/cplusplus-interview-questions-answers/)
