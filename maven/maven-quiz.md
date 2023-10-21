@@ -53,7 +53,7 @@
 
 - [ ] `mvn clean install package`
 - [ ] `mvn package`
-- [x] `mvn clean install`
+- [x] `mvn clean verify install package`
 - [ ] `mvn install package`
 
 
