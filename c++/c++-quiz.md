@@ -2425,3 +2425,10 @@ cout<<k+m;
 - [ ] It changes the data type
 - [ ] It defines a constant function
 - [ ] It makes the variable a pointer
+
+#### Q152. Which is more effective while calling the C++ functions??
+
+- [x] Call by reference
+- [ ] Call by value
+- [ ] Call by pointer
+- [ ] Call by object
