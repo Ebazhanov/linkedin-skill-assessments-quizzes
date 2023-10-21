@@ -34,3 +34,54 @@
 - [ ] img href="images/favicon.ico" rel="icon" type="image/x-icon"
 - [ ] meta href="images/favicon.ico" rel="icon" type="image/icon"
 - [ ] link href="images/favicon.ico" rel="icon" type="image/icon"
+
+
+#### Q6. Which panel stores frequently used code for quick insertion into a page?
+
+- [ ] Behaviors
+- [ ] Images
+- [ ] Favorites
+- [x] Snippets
+
+#### Q7. What is linting?
+
+- [] an extra space between an element’s content and border
+- [x] automatic analysis of code for errors and potential problems
+- [] automatic text wrapping in Code view
+- [] line numbers down the side of Code view
+
+#### Q8. You can use the ____ panel to apply an effect to an element, such as changing its background color on hover, by defining a style rule and selecting the _____ that you want to affect.
+
+- [] Behaviors; elements
+- [x] CSS Transitions; properties
+- [] CSS Transforms; properties
+- [] Extract; elements
+
+#### Q9. Before deploying a page on a live website, it's a good idea to check the HTML for errors. How do vou do that in Dreamweaver?
+
+- [] Click Site > Reports > Current Document.
+- [] Click Site > Reports > Validate Document (W3C).
+- [x] Click Tools > HTML > Validate Document (W3C).
+- [] Click File > Validate > Current Document (W3C).
+
+#### Q10. HTML5 introduced new values for the type attribute of the form < input > element. Which one is not valid?
+
+- [] url
+- [] email
+- [x] phone
+- [] number
+
+####  Q11. When setting the font-size property in CSS, you need to be careful about using _____ as the unit of measurement on nested elements because it's calculated in relation to the _____, which can result in larger or smaller text than expected.
+
+- []px; inherited value
+- [] em: root element
+- [x] em; inherited value
+- [] rem: inherited value
+
+#### Q12. A favicon is often added to the element to display a small image or logo alongside the page title in the browser tab. What's the correct way of inserting a favicon (assuming you have the relevant icon in your images folder)?
+
+- [] <meta href=”images/favicon.ico” rel=”icon” type=”image/icon”>
+- [x] <link href=”images/favicon.ico”rel=”icon” type=”image/icon”>
+- [] <link href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>
+- []< img href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>
+
