@@ -1104,14 +1104,14 @@ Table name: superheroes
 
 #### Q117. What does SQL stand for in MySQL?
 
-- [x] Structured Query Language
-- [ ] Simple Query Language
-- [ ] System Query Language
+- [x] Structured Query Language 
+- [ ] Simple Query Language 
+- [ ] System Query Language 
 - [ ] Structured Question Language
 
 #### Q118. Which MySQL statement is used to select data from a database?
 
-- [ ] Open
 - [ ] Extract
-- [ ] Get
-- [x] Select
+- [x] select 
+- [ ] get 
+- [ ] Open
