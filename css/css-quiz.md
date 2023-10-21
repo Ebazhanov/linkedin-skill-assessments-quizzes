@@ -2539,3 +2539,10 @@ input.invalid {
 - [ ] To change the background color of an element.
 - [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
 - [ ] To control the transparency of an element.
+
+#### Q168. What are the valid values of the text-align property?
+
+- [ ] left, middle, right
+- [ ] left, center, right
+- [x] left, center, right, justify
+- [ ] left, middle, right, justify
