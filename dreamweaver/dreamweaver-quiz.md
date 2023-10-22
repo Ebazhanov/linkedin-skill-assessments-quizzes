@@ -35,7 +35,6 @@
 - [ ] meta href="images/favicon.ico" rel="icon" type="image/icon"
 - [ ] link href="images/favicon.ico" rel="icon" type="image/icon"
 
-
 #### Q6. Which panel stores frequently used code for quick insertion into a page?
 
 - [ ] Behaviors
@@ -50,7 +49,7 @@
 - [ ] automatic text wrapping in Code view
 - [ ] line numbers down the side of Code view
 
-#### Q8. You can use the ____ panel to apply an effect to an element, such as changing its background color on hover, by defining a style rule and selecting the _____ that you want to affect.
+#### Q8. You can use the \_**\_ panel to apply an effect to an element, such as changing its background color on hover, by defining a style rule and selecting the \_\_\_** that you want to affect.
 
 - [ ] Behaviors; elements
 - [x] CSS Transitions; properties
@@ -71,7 +70,7 @@
 - [x] phone
 - [ ] number
 
-####  Q11. When setting the font-size property in CSS, you need to be careful about using _____ as the unit of measurement on nested elements because it's calculated in relation to the _____, which can result in larger or smaller text than expected.
+#### Q11. When setting the font-size property in CSS, you need to be careful about using **\_** as the unit of measurement on nested elements because it's calculated in relation to the **\_**, which can result in larger or smaller text than expected.
 
 - [ ]px; inherited value
 - [ ] em: root element
@@ -99,11 +98,9 @@
 - [ ] Click Edit > CSS > Convert Inline CSS to Rules.
 - [ ] Select the style attribute, right-click, and click Selection > Convert Inline CSS to Rule.
 
-#### Q15.  A Bootstrap _____ inserts a component that cycles through content using CSS _____ and JavaScript.
+#### Q15. A Bootstrap **\_** inserts a component that cycles through content using CSS **\_** and JavaScript.
 
 - [ ] accordion; animations
 - [ ] lightbox; 3D Transforms
 - [x] carousel; 3D Transforms
 - [ ] slideshow; animations
-
-

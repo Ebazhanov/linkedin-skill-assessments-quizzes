@@ -2487,5 +2487,3 @@ class my_class{
 - [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
-
-

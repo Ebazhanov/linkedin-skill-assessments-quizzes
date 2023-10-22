@@ -861,7 +861,7 @@ box {
 #### Q88. How would you set the value of a property—in this example,—back to the default value, as listed in the specification?
 
 - [x] color: initial
-- [ ] color: default 
+- [ ] color: default
 - [ ] color: reset
 - [ ] color: inherit
 
