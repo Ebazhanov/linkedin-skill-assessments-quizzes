@@ -827,35 +827,35 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-#### Q91. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
+#### Q90. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 
 - [ ] `UNDO`
 - [ ] `UNCOMMIT`
 - [x] `ROLLBACK`
 - [ ] `REVERSE`
 
-#### Q92. What function finds the current time or date in MySQL?
+#### Q91. What function finds the current time or date in MySQL?
 
 - [ ] DATE()
 - [ ] GETDATE()
 - [x] CURDATE()
 - [ ] CURRENT()
 
-#### Q93. What is the correct usage of ENUM in MySQL?
+#### Q92. What is the correct usage of ENUM in MySQL?
 
 - [ ] `Create table size (ENUM ('Small','Medium','Large'));`
 - [ ] `Create table ENUM (name ('Small','Medium','Large'));`
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
 
-#### Q94. The mysqldump command cannot generate output in **\_**.
+#### Q93. The mysqldump command cannot generate output in **\_**.
 
 - [x] JSON
 - [ ] CSV
 - [ ] XML
 - [ ] TXT
 
-#### Q95. You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?
+#### Q94. You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png?raw=true)
 
@@ -889,7 +889,7 @@ ON cars.ID = purchases.carID;
 SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchases.carID;
 ```
 
-#### Q96. Which code snippet from a stored procedure should be rewritten as a CASE statement?
+#### Q95. Which code snippet from a stored procedure should be rewritten as a CASE statement?
 
 - [ ] A
 
@@ -931,14 +931,14 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
     END IF;
 ```
 
-#### Q97. Why would you use stored functions?
+#### Q96. Why would you use stored functions?
 
 - [x] for formulas and business rules that you want to apply to columns in an SQL query
 - [ ] for formulas and business rules that should be applied on a specific trigger event like on inserts
 - [ ] to automatically modify the data of a table based on a query
 - [x] for reusing recurring queries
 
-#### Q98. What steps do you need to take to normalize the table from this diagram?
+#### Q97. What steps do you need to take to normalize the table from this diagram?
 
 Table name: superheroes
 | name | alias | power1 | power2 | power3 |
@@ -954,14 +954,14 @@ Table name: superheroes
 - [ ] Extend this table to have additional columns "power4," "power5," and so on, to allow additional powers for each superhero.
 - [ ] Convert this table to have column called "power," and add one record for each superhero-power combination, for a total of 15 records in this example.
 
-#### Q99. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
+#### Q98. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
 
 - [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019
 - [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019
 - [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019
 - [x] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
 
-#### Q100. Which choice is an example of an aggregate function?
+#### Q99. Which choice is an example of an aggregate function?
 
 - [ ] NOW()
 - [ ] MID()
@@ -970,7 +970,7 @@ Table name: superheroes
 
 [Reference](https://www.sqltutorial.org/sql-aggregate-functions/)
 
-#### Q101. You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?
+#### Q100. You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?
 
 ![mysql picture](images/mysql_q116.png?raw=true)
 
@@ -981,7 +981,7 @@ Table name: superheroes
 
 [Reference](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)
 
-#### Q102. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
+#### Q101. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
 
 ![Q104](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/5c73a5c5-3e8b-4110-8068-dca25b323e57)
 
@@ -990,35 +990,35 @@ Table name: superheroes
 - [ ] SHOW TOTALS
 - [ ] WITH ROLLUP
 
-#### Q103. How would you make a case-insensitive query in MySQL?
+#### Q102. How would you make a case-insensitive query in MySQL?
 
 - [ ] `SELECT * FROM customers WHERE UPPEERCASE(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
 
-#### Q104. "COUNT" keyword belongs to which categories in Mysql?
+#### Q103. "COUNT" keyword belongs to which categories in Mysql?
 
 - [x] Aggregate functions
 - [ ] Operators
 - [ ] Clauses
 - [ ] All of the mentioned`
 
-#### Q106. What is the meaning of "HAVING" clause in Mysql?
+#### Q104. What is the meaning of "HAVING" clause in Mysql?
 
 - [ ] To filter out the column values
 - [x] To filter out the row values
 - [ ] To filter out the row and column values
 - [ ] None of the mentioned
 
-#### Q107. Which clause is similar to "HAVING" clause in Mysql?
+#### Q105. Which clause is similar to "HAVING" clause in Mysql?
 
 - [ ] SELECT
 - [ ] FROM
 - [x] WHERE
 - [ ] None of the mentioned
 
-#### Q108. What will be the output of the following MySQL command?
+#### Q106. What will be the output of the following MySQL command?
 
       SELECT emp_id, fname, lname
       FROM employee
@@ -1029,7 +1029,7 @@ Table name: superheroes
 - [x] Columns mention with "SELECT" clause and only those rows which contain 'HEAD TELLER' as a "title"
 - [ ] None of the mentioned
 
-#### Q109. Is there any error in the following MySQL statement?
+#### Q107. Is there any error in the following MySQL statement?
 
       SELECT e.emp_id, e.fname,e.lname,d.name
       FROM employee e INNER JOIN department d
@@ -1040,7 +1040,7 @@ Table name: superheroes
 - [ ] DEPEND
 - [ ] None of the mentioned
 
-#### Q110. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+#### Q108. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
 
 - [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
 - [x] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
@@ -1049,7 +1049,7 @@ Table name: superheroes
 
 [Reference](https://www.w3schools.com/mysql/mysql_between.asp)
 
-#### Q111. Consider the set of relations given below and the SQL query that follows
+#### Q109. Consider the set of relations given below and the SQL query that follows
 
         Students : (Roll number, Name, Date of birth)
         Courses: (Course number, Course name, instructor)
@@ -1068,7 +1068,7 @@ Table name: superheroes
 - [x] Names of Students who have got an A grade in at least one of the courses taught by Sriram
 - [ ] None of the above
 
-#### Q112. You are working with the tables shown below. You need to make sure that any record added to the purchases table consists of a customerlD, which already exists in the customers table, and a carlD, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+#### Q110. You are working with the tables shown below. You need to make sure that any record added to the purchases table consists of a customerlD, which already exists in the customers table, and a carlD, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
 ![mysql picture](images/mysql_q85.png?raw=true)
 
@@ -1079,14 +1079,14 @@ Table name: superheroes
 
 `IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
-#### Q113. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
+#### Q111. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
 
 - [x] ALTER TABLE car ADD FULL TEXT(description);
 - [ ] MERGE TABLE car ADD FULL TEXT(description)
 - [ ] ENABLE FULL TEXT(description) car
 - [ ] SEARCH FULL TEXT(description) car
 
-#### Q115. Which statement would you _not_ use to filter data?
+#### Q112. Which statement would you _not_ use to filter data?
 
 ![image](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/22109189/9cb0ae9d-1f6b-4f85-9d2f-44b6a7afd00c)
 
@@ -1095,21 +1095,21 @@ Table name: superheroes
 - [ ] WHERE
 - [ ] LIKE
 
-#### Q116. In MySQL, which JOIN type returns all rows from the left table and the matching rows from the right table, and fills in with NULL values if there is no match on the right side?
+#### Q113. In MySQL, which JOIN type returns all rows from the left table and the matching rows from the right table, and fills in with NULL values if there is no match on the right side?
 
 - [ ] INNER JOIN
 - [x] LEFT JOIN (or LEFT OUTER JOIN)
 - [ ] RIGHT JOIN (or RIGHT OUTER JOIN)
 - [ ] FULL JOIN (or FULL OUTER JOIN)
 
-#### Q117. What does SQL stand for in MySQL?
+#### Q114. What does SQL stand for in MySQL?
 
 - [x] Structured Query Language
 - [ ] Simple Query Language
 - [ ] System Query Language
 - [ ] Structured Question Language
 
-#### Q118. Which MySQL statement is used to select data from a database?
+#### Q115. Which MySQL statement is used to select data from a database?
 
 - [ ] Extract
 - [x] select
