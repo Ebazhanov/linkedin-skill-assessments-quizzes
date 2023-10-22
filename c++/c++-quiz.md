@@ -2518,3 +2518,20 @@ class my_class{
 ```
 
 [Reference](https://www.sanfoundry.com/cplusplus-interview-questions-answers/)
+
+
+#### Q156. What will be the output of following code?
+
+```cpp
+int matrix[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
+for(int i=0;i<n;i++){
+   for(int j=0;j<n;j++){
+       matrix[i][j] = matrix[j][i];
+    }
+}
+```
+
+- [ ] Traspose of matrix
+- [x] Same matrix
+- [ ] Mirror image of Matrix
+- [ ] Inverted matrix
