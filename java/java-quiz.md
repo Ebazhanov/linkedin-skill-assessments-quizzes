@@ -1247,7 +1247,7 @@ class Main {
 ```
 
 - [ ] It will not compile.
-- [x] "HelloWorld!"
+- [x] "Hello World!"
 - [ ] "hello"
 - [ ] ????
       The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
