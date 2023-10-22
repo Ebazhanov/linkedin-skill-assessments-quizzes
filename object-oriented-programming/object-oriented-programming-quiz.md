@@ -948,7 +948,14 @@ public class Honda extends Car{}
 - [x] calculateScore()
 - [ ] getAnswers()
 
-#### Q122. What cannot be used for polymorphism?
+#### Q122. Who invented OOP?
+
+- [ ] Andrea Ferro
+- [ ] Adele Goldberg
+- [x] Alan Kay
+- [ ] Dennis Ritchie
+
+#### Q123. What cannot be used for polymorphism?
 
 - [ ] overloading constructors
 - [ ] overloading member functions
