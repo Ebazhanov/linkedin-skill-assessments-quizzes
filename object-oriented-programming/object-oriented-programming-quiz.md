@@ -948,14 +948,7 @@ public class Honda extends Car{}
 - [x] calculateScore()
 - [ ] getAnswers()
 
-#### Q122. Which relationship best illustrates an abstract-concrete class relationship?
-
-- [ ] cat : kitten
-- [ ] color : red
-- [x] planet : moon
-- [ ] truck : window
-
-#### Q123. What cannot be used for polymorphism?
+#### Q122. What cannot be used for polymorphism?
 
 - [ ] overloading constructors
 - [ ] overloading member functions
