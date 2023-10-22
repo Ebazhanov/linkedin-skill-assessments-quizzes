@@ -877,7 +877,7 @@ D. Start When Clicked On
 - [ ] Use embedded fonts.
 - [x] Use consistent layouts.
 - [ ] Use numbered lists.
-<a href="https://www.linkedin.com/skill-assessments/Microsoft%20PowerPoint/quiz/?practiceModal=&practiceMode=true">reference</a>
+      <a href="https://www.linkedin.com/skill-assessments/Microsoft%20PowerPoint/quiz/?practiceModal=&practiceMode=true">reference</a>
 
 #### Q112. When you provide alt text for an image, what type of control are you including?
 
@@ -924,7 +924,3 @@ D. Start When Clicked On
 - [ ] In the Chart in Microsoft PowerPoint window, select the range A5:D5 and press Delete.
 - [ ] Click the chart and then, on the Shape format tab, click Edit Shape. Then crop the chart to show only A1:D4.
 - [ ] Click Change Chart Type.
-
-
-
-
