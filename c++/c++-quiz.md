@@ -2430,7 +2430,14 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 - [ ] It defines a constant function
 - [ ] It makes the variable a pointer
 
-#### Q152. What will be the output of the following C++ program?
+#### Q152. Which is more effective while calling the C++ functions??
+
+- [x] Call by reference
+- [ ] Call by value
+- [ ] Call by pointer
+- [ ] Call by object
+
+#### Q153. What will be the output of the following C++ program?
 
 ```cpp
 #include <iostream>
@@ -2457,4 +2464,26 @@ int main(int argc, char const *argv[])
 - [ ] “Constructor called” five times and then “Destructor called” once
 - [ ] Error
 
-[Reference](https://www.sanfoundry.com/cplusplus-interview-questions-answers/)
+#### Q.153 What is the output of this code?
+
+```c++
+printf("1/2 = %f",(float)(1/2));
+```
+
+- [ ] 1/2 = 0.499999
+- [ ] 1/2 = 0
+- [x] 1/2 = 0.000000
+- [ ] 1/2 = 0.5
+
+#### Q.154 Which choice is _not_ related to declaring the member variable count as static in my_class?
+
+```cpp
+class my_class{
+    public: static int count;
+}
+```
+
+- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
+- [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
+- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.

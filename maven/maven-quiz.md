@@ -52,16 +52,9 @@
 #### Q8. Which command is used to run the clean lifecycle followed by verify, install, and package with Maven?
 
 - [ ] `mvn clean install package`
-- [x] `mvn package`
-- [ ] `mvn clean install`
-- [ ] Option 4
-
-```shell script
-mvn clean
-mvn package
-mvn verify
-mvn install
-```
+- [ ] `mvn package`
+- [x] `mvn clean verify install package`
+- [ ] `mvn install package`
 
 #### Q9. Which goal would you use with the Dependency plugin to determine which included dependencies are not used, as well as those you are using that you have not defined?
 
@@ -603,6 +596,7 @@ mvn install
 - [ ] mvn compiler
 - [x] mvn test-compile
 - [ ] mvn compiler:test
+      [!reference](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 
 #### Q75. In order to leverage a single execution of an Apache Maven goal on a multimodule project, from which directory should you execute the goal?
 
