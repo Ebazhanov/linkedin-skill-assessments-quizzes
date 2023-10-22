@@ -2542,7 +2542,42 @@ input.invalid {
 
 #### Q168. What are the valid values of the text-align property?
 
-- [ ] left, middle, right
-- [ ] left, center, right
+- [ ] left, bottom, top , right
+- [ ] left, right, up, bottom
 - [x] left, center, right, justify
-- [ ] left, middle, right, justify
+- [ ] side, justify, up, down
+
+#### Q169. What is the difference between visibility: hidden and display: none?
+
+- [ ] `````
+          Both will hide the element on the page, but display: none has greater browser support.
+           visibility: hidden is a new property and does not have the best browser support ```
+
+          ````
+
+      `````
+
+- [ ] `display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document`
+- [x] `````
+          visibility: hidden hides the element, but it still takes up space in the layout.
+          display: none removes the element from the document. It does not take up any space.  ```
+
+          ````
+
+      `````
+
+- [ ] ` There is no difference; both will hide the element on the page`
+
+#### Q170. Which of the following is NOT a valid CSS selector?
+
+- [ ] `p`
+- [ ] `.class`
+- [ ] `#id`
+- [x] `-`
+
+#### Q171. What is the difference between a class and an id in CSS?
+
+- [x] Classes can only be applied to one HTML element, while IDs can be used multiple times.
+- [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
+- [ ] Classes have higher specificity in CSS than IDs.
+- [ ] There is no difference between a class and an id.

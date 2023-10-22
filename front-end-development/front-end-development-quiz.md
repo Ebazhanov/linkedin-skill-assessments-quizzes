@@ -857,3 +857,12 @@ box {
 - [ ] Internal
 - [ ] External
 - [ ] None of the above
+
+#### Q88. How would you set the value of a property—in this example,—back to the default value, as listed in the specification?
+
+- [x] color: initial
+- [ ] color: default
+- [ ] color: reset
+- [ ] color: inherit
+
+[Reference: W3 Schools](https://www.w3schools.com/cssref/css_initial.php#:~:text=The%20initial%20keyword%20is%20used,property%20to%20its%20default%20value.)

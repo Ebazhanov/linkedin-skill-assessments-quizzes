@@ -1263,6 +1263,8 @@ class Empty
 - [ ] Null safety is a technique for creating nullable variables.
 - [ ] Null safety is a feature to allow null values without checks.
 
+[reference](https://blog.logrocket.com/complete-guide-null-safety-kotlin/)
+
 #### Q101. How can you ensure null safety in Kotlin?
 
 - [ ] By using the `!!` operator to force variables to be non-null.

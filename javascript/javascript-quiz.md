@@ -2144,7 +2144,7 @@ console.log(second);
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
 
-#### Q155. What is the output for the code given below?
+#### Q157. What is the output for the code given below?
 
 ```js
 console.log('hello' + 'world');
@@ -2155,7 +2155,7 @@ console.log('hello' + 'world');
 - [ ] hello world!
 - [ ] hello world !
 
-#### Q156. What is the output of this code?
+#### Q158. What is the output of this code?
 
 ```js
 console.log(10 + 10);
@@ -2166,7 +2166,7 @@ console.log(10 + 10);
 - [ ] 30
 - [ ] 40
 
-#### Q157. Events related to the browser window can be handled by?
+#### Q159. Events related to the browser window can be handled by?
 
 - [ ] Onclicks
 - [x] Window
@@ -2175,7 +2175,7 @@ console.log(10 + 10);
 
 [Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
 
-#### Q157. How do you define a function in JavaScript?
+#### Q160. How do you define a function in JavaScript?
 
 - [x] function myFunction() {}
 - [] def myFunction() {}
@@ -2183,3 +2183,31 @@ console.log(10 + 10);
 - [] func myFunction() {}
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+#### Q161. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+
+- [x] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that does not exist.
+- [ ] You are calling a method named reduce on an empty array.
+- [ ] You are calling a method named reduce on an object that has a null value.
+
+#### Q162. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [x] all of the above
+
+#### Q163. Which document method is not used to get a reference to a DOM node?
+
+- [x] document.getNode();
+- [ ] document.getElementsByClassName();
+- [ ] document.querySelectorAll();
+- [ ] document.querySelector();
+
+#### Q164. Which of these is a valid variable name?
+
+- [ ] 5thItem
+- [x] firstName
+- [ ] grand total
+- [ ] function
