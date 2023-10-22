@@ -695,9 +695,7 @@ li:nth-child(2n + 3) {
 ```css
 @font-face {
   font-family: 'Avenir', sans-serif;
-  src:
-    url('avenir.woff2') format('woff2'),
-    url('avenir.woff') format('woff');
+  src: url('avenir.woff2') format('woff2'), url('avenir.woff') format('woff');
 }
 ```
 
@@ -2547,7 +2545,6 @@ input.invalid {
 - [x] left, center, right, justify
 - [ ] left, middle, right, justify
 
-
 #### Q169. What is the difference between `visibility:hidden`and `display:none`?
 
 - [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
@@ -2560,7 +2557,7 @@ input.invalid {
 - [x] p
 - [ ] .class
 - [ ] #id
-- [ ] *
+- [ ] -
 
 #### Q171. What is the difference between a class and an id in CSS?
 
@@ -2568,5 +2565,3 @@ input.invalid {
 - [ ] A class is used to style elements based on their type, while an id is used to style a specific element.
 - [ ] A class is used to style elements based on their position in the document, while an id is used to style a specific element.
 - [ ] There is no difference between a class and an id.
-
-
