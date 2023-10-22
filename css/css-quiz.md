@@ -695,7 +695,9 @@ li:nth-child(2n + 3) {
 ```css
 @font-face {
   font-family: 'Avenir', sans-serif;
-  src: url('avenir.woff2') format('woff2'), url('avenir.woff') format('woff');
+  src:
+    url('avenir.woff2') format('woff2'),
+    url('avenir.woff') format('woff');
 }
 ```
 
