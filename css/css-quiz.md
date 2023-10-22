@@ -2534,36 +2534,48 @@ input.invalid {
 - [x] cursor
 
 ### Q167. What is the purpose of the CSS outline property?
-
+  
 - [ ] To control the width of an element's border.
 - [ ] To change the background color of an element.
 - [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
 - [ ] To control the transparency of an element.
 
+
+
 #### Q168. What are the valid values of the text-align property?
 
-- [ ] left, middle, right
-- [ ] left, center, right
+- [ ] left, bottom, top , right
+- [ ] left, right, up,  bottom
 - [x] left, center, right, justify
-- [ ] left, middle, right, justify
+- [ ] side, justify, up, down
 
-#### Q169. What is the difference between `visibility:hidden`and `display:none`?
+#### Q169. What is the difference between visibility: hidden  and display: none?
 
-- [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
-- [ ] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
-- [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
-- [ ] There is no difference; both will hide the element on the page
+- [ ] ```
+  Both will hide the element on the page, but display: none has greater browser support.
+   visibility: hidden is a new property and does not have the best browser support ```
+
+- [ ] ``` display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document ```
+      
+- [x] ```
+  visibility: hidden hides the element, but it still takes up space in the layout.
+  display: none removes the element from the document. It does not take up any space.  ```
+
+- [ ] ``` There is no difference; both will hide the element on the page```
+
 
 #### Q170. Which of the following is NOT a valid CSS selector?
 
-- [x] p
-- [ ] .class
-- [ ] #id
-- [ ] -
+- [ ] ``` p ```
+- [ ] ``` .class ```
+- [ ] ``` #id ```
+- [x] ``` - ```
+  
 
 #### Q171. What is the difference between a class and an id in CSS?
 
-- [x] A class can be applied to multiple elements, while an id can only be applied to one element.
-- [ ] A class is used to style elements based on their type, while an id is used to style a specific element.
-- [ ] A class is used to style elements based on their position in the document, while an id is used to style a specific element.
+- [x] Classes can only be applied to one HTML element, while IDs can be used multiple times.
+- [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
+- [ ] Classes have higher specificity in CSS than IDs.
 - [ ] There is no difference between a class and an id.
+  
