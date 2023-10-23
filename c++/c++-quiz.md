@@ -2412,9 +2412,9 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 #### Q149. Which C++ construct is used for exception handling?
 
 - [x] try-catch
-- [ ]if-else
-- [ ]for loop
-- [ ]switch-case
+- [ ] if-else
+- [ ] for loop
+- [ ] switch-case
 
 #### Q150. What is the purpose of the `break` statement in a loop in C++?
 
@@ -2422,6 +2422,8 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 - [ ] Skip the current iteration and continue with the next one
 - [x] Terminate the loop
 - [ ] Return a value
+
+[Reference]: (https://www.tutorialspoint.com/cprogramming/c_break_statement.htm)
 
 #### Q151. In C++, what is the purpose of the `const` keyword when used with a variable?
 

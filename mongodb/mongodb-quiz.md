@@ -767,3 +767,12 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [x]data, namespace, and journal
 - [ ]namespace, journal, and log
 - [ ]journal, data, and database -[ ]data, log, and journal
+
+#### Q96. What is the primary advantage of using MongoDB as a NoSQL database over traditional relational databases?
+
+- [ ] Better support for complex joins
+- [x] Schema flexibility
+- [ ] ACID compliance
+- [ ] Fixed data structure
+
+_Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional relational databases is its schema flexibility.

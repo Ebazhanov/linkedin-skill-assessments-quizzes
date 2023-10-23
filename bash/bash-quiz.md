@@ -1203,3 +1203,10 @@ cat -n animals | sort -r | head -n 5
 	6	Fox
 	5	Elephant
 ```
+
+#### Q92. Which of the following is not a valid Bash variable name?
+
+- [ ] `$HOME`
+- [ ] `my_var`
+- [x] `1var`
+- [ ] `!`
