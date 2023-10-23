@@ -1219,3 +1219,13 @@ cat -n animals | sort -r | head -n 5
 - [ ] `my_var`
 - [x] `1var`
 - [ ] `!`
+- [ ] 
+
+#### Q93.In Bash, create a one-liner command that recursively finds all files with the ".txt" extension in a directory and its subdirectories, and counts the total number of lines in those files. The output should only display the total line count.
+
+Which of the following one-liner Bash commands accomplishes this task?
+
+- [ ] `find . -name "*.txt" -exec wc -l {} \; | awk '{total += $1} END {print total}'`
+- [ ] `grep -r ".*\.txt$" | wc -l`
+- [ ] `find . -type f -name "*.txt" | xargs wc -l | tail -n 1`
+- [x] `find . -name "*.txt" -exec cat {} \; | wc -l`
