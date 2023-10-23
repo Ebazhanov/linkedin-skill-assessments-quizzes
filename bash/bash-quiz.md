@@ -1153,7 +1153,58 @@ fi
 - [ ] `$#`
 - [x] `$$`
 
-#### Q90. Which of the following is not a valid Bash variable name?
+#### Q90. If a user wants to execute script sh without a shebang fine or execute permissions, what should the user type?
+
+- [ ] A shebang line is required to execute a shell script.
+
+- [x] 'bash script.sh'.
+
+- [ ] 'exec script.sh'.
+
+- [ ] ExecuteExecute permissions are required to execute a shell script.
+
+#### Q91. Which choice is the most likely output of the compound command shown below?
+```bash
+cat -n animals | sort -r | head -n 5
+```
+- [ ] a.
+```bash
+	1	Ant
+	2	Bear
+	3	Cat
+	4	Dog
+	5	Elephant
+```
+- [ ] b.
+```bash
+	9	Ibex
+	B	Hippo
+	7	Giraffe
+	6	Fox
+	5	Elephant
+	4	Dog
+	3	Cat
+	2	Bear
+	1	Ant10	Jaguar
+```
+- [ ] c.
+```bash
+	Jaguar
+	Ibex
+	Hippo
+	Giraffe
+	Fox
+```
+- [x] d.
+```bash
+	9	Ibex
+	8	Hippo
+	7	Giraffe
+	6	Fox
+	5	Elephant
+```
+
+#### Q92. Which of the following is not a valid Bash variable name?
 
 - [ ] `$HOME`
 - [ ] `my_var`
