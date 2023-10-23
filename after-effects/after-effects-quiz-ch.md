@@ -102,7 +102,7 @@
 - [ ] 點
 - [x] 點
 - [ ] 平行線
-       [參考連結](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
+      [參考連結](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
 
 #### Q15。 哪一種效果可以從由典型鍵控效果鍵控的場景中恢復 Alpha 頻道細節，包括恢復因壓縮偽影而遺失的細節？
 
@@ -124,6 +124,6 @@
 - [ ] 連結所有圖層，然後變更合成設定。
 - [x] 點選檔案 > 腳本 > Scale Composition.jsx。
 - [ ] 在「合成設定」對話方塊中，縮放合成尺寸，圖層將縮放以匹配。
-       [參考連結](https://community.adobe.com/t5/after-effects-discussions/changed-composition-size-scale-all-layers-to-match/td-p/8793449)
+      [參考連結](https://community.adobe.com/t5/after-effects-discussions/changed-composition-size-scale-all-layers-to-match/td-p/8793449)
 
 #### Q18。 按住 Shift 鍵
