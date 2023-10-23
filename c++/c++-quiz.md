@@ -2490,8 +2490,8 @@ class my_class{
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
 
+#### Q155. What is the Rule of Three (or Rule of Five) in C++?
 
-#### Q155. What is the Rule of Three (or Rule of Five) in C++? 
 - References :(https://en.wikipedia.org/wiki/Rule_of_three_(C++_programming))
 
 - [ ] It's a coding guideline that suggests using at least three (or five) comments for every line of code.
