@@ -1152,3 +1152,10 @@ fi
 - [ ] `$@`
 - [ ] `$#`
 - [x] `$$`
+
+#### Q90. Which of the following is not a valid Bash variable name?
+
+- [ ] `$HOME`
+- [ ] `my_var`
+- [x] `1var`
+- [ ] `!`
