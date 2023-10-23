@@ -775,4 +775,4 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] ACID compliance
 - [ ] Fixed data structure
 
-*Explanation* : MongoDB's primary advantage as a NoSQL database over traditional relational databases is its schema flexibility.
+_Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional relational databases is its schema flexibility.
