@@ -2552,13 +2552,9 @@ class abc
 - [ ] DateFormat.
 - [ ] DateFormatter.
 
-
 #### Q173. What kind of relationship does extend denote ?
 
 - [ ] has-a
 - [x] is-a
 - [ ] was-a
 - [ ] uses-a
-
-
-
