@@ -1315,9 +1315,13 @@ fmt.Println(a, b, c)
 - [x] They can be defined inline where they are used.
 - [ ] They have a shorter syntax than named functions.
 
+Explanation: they can be defined inline where they are used, offering more flexibility in code organization.
+
 #### Q75. What is the syntax for calling an anonymous function immediately after its declaration in Go?
 
 - [ ] `functionName(){}`
 - [ ] `call functionName(){}`
 - [x] `func(){}()`
 - [ ] `execute func(){}`
+
+[reference](https://stackoverflow.com/questions/6719089/javascript-anonymous-function-immediate-invocation-execution-expression-vs-dec)
