@@ -1044,7 +1044,7 @@ fmt.Println (n)
 
 > This is because in Go, when a variable is declared but not explicitly initialized, it is assigned a default [zero value](https://go.dev/tour/basics/12) based on its type. For integers like n, the zero value is 0.
 
-#### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
+#### Q58. When creating a formatted string, which verb should you use to call the `String () string` method of a custom type?
 
 - [x] %s
 - [ ] %b
