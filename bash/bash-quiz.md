@@ -1164,10 +1164,13 @@ fi
 - [ ] ExecuteExecute permissions are required to execute a shell script.
 
 #### Q91. Which choice is the most likely output of the compound command shown below?
+
 ```bash
 cat -n animals | sort -r | head -n 5
 ```
+
 - [ ] a.
+
 ```bash
 	1	Ant
 	2	Bear
@@ -1175,7 +1178,9 @@ cat -n animals | sort -r | head -n 5
 	4	Dog
 	5	Elephant
 ```
+
 - [ ] b.
+
 ```bash
 	9	Ibex
 	B	Hippo
@@ -1187,7 +1192,9 @@ cat -n animals | sort -r | head -n 5
 	2	Bear
 	1	Ant10	Jaguar
 ```
+
 - [ ] c.
+
 ```bash
 	Jaguar
 	Ibex
@@ -1195,7 +1202,9 @@ cat -n animals | sort -r | head -n 5
 	Giraffe
 	Fox
 ```
+
 - [x] d.
+
 ```bash
 	9	Ibex
 	8	Hippo
