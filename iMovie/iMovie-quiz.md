@@ -201,7 +201,7 @@
 - [ ] Cropping
 
 #### Q27. What is the purpose of the "Library" in iMovie?
-   
+
 - [x] To organize your video clips and media
 - [ ] To add special effects to your project
 - [ ] To export your project to different devices
@@ -281,7 +281,7 @@
 
 - [ ] .AVI
 - [ ] .MP4
-- [X] .MOV
+- [x] .MOV
 - [ ] .GIF
 
 #### Q39. How can you import and edit 360-degree videos in iMovie?
