@@ -1219,3 +1219,11 @@ cat -n animals | sort -r | head -n 5
 - [ ] `my_var`
 - [x] `1var`
 - [ ] `!`
+
+#### Q93. What is the difference between the > and >> redirection operators?
+
+- [x] `> overwrites the contents of the target file, while >> appends to the end of the target file.`
+- [ ] `> redirects input, while >> redirects output.`
+- [ ] `> is used for standard output, while >> is used for standard error.`
+- [ ] `> is a unary operator, while >> is a binary operator.`
+      
