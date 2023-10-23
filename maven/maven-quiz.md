@@ -332,7 +332,7 @@
 #### Q45. How many times is compiler:compile called when executing mvn clean compile test package?
 
 - [ ] one
-- [ ] two
+- [x] two
 - [ ] none
 - [ ] three
 
@@ -596,6 +596,7 @@
 - [ ] mvn compiler
 - [x] mvn test-compile
 - [ ] mvn compiler:test
+      [!reference](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 
 #### Q75. In order to leverage a single execution of an Apache Maven goal on a multimodule project, from which directory should you execute the goal?
 
