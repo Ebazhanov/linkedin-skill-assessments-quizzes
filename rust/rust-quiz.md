@@ -773,9 +773,4 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] pt.iter().nth(1)
 - [x] pt.1
 
-#### Q66. Which statement about enums is false?
 
-- [ ] Enums are useful in matching patterns.
-- [ ] Option is an enum type.
-- [ ] Enum variants can have different types with associated data.
-- [x] the term _enum_ is short for _enummap_
