@@ -2489,3 +2489,55 @@ class my_class{
 - [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
+
+#### Q155. What is the Rule of Three (or Rule of Five) in C++?
+
+- References :(https://en.wikipedia.org/wiki/Rule_of_three_(C++_programming))
+
+- [ ] It's a coding guideline that suggests using at least three (or five) comments for every line of code.
+- [ ] It refers to the maximum number of functions that should be defined within a class.
+- [ ] It's a rule for optimizing the performance of loops and iterations.
+- [x] It states that if a class needs to define one of the special member functions (destructor, copy constructor, copy assignment operator, move constructor, or move assignment operator), then it should probably define all of them to maintain proper resource management.
+
+#### Q156. What is the difference between `std::shared_ptr` and `std::unique_ptr` in C++?
+
+- [ ] `std::shared_ptr` and `std::unique_ptr` are identical and can be used interchangeably.
+- [x] `std::unique_ptr` represents exclusive ownership of a dynamically allocated object and cannot be copied, while `std::shared_ptr` allows multiple pointers to share ownership and uses reference counting.
+- [ ] `std::shared_ptr` is used for managing raw pointers, and `std::unique_ptr` is used for managing smart pointers.
+- [ ] `std::unique_ptr` is used for polymorphism, while `std::shared_ptr` is used for memory deallocation.
+
+#### Q157. What is the Pimpl Idiom in C++ and why is it used?
+
+-Ref:(https://learn.microsoft.com/en-us/cpp/cpp/pimpl-for-compile-time-encapsulation-modern-cpp?view=msvc-170#:~:text=The%20pimpl%20idiom%20is%20a,Cat%20or%20Compiler%20Firewall%20idiom.
+)
+
+- [ ] The Pimpl Idiom is a naming convention for variables in C++ to improve code readability.
+- [ ] It's a design pattern for implementing simple classes in C++.
+- [ ] It refers to using a specific file naming convention in C++.
+- [x] The Pimpl Idiom stands for "Pointer to Implementation." It's used to hide the implementation details of a class from its users, improving encapsulation and reducing compilation dependencies.
+
+#### Q158. Explain the difference between `emplace_back` and `push_back` when adding elements to a C++ vector.
+
+- Ref:(https://www.geeksforgeeks.org/push_back-vs-emplace_back-in-cpp-stl-vectors/)
+
+- [ ] There is no difference; `emplace_back` and `push_back` are synonyms.
+- [ ] `emplace_back` is used for adding elements at the beginning of a vector, while `push_back` adds elements at the end.
+- [x] `emplace_back` constructs elements in-place in the vector, while `push_back` adds a copy or a move of the provided object.
+- [ ] `emplace_back` is used for adding multiple elements, while `push_back` is used for adding a single element.
+
+#### Q159. What is the purpose of the `decltype` keyword in C++?
+
+- Ref:(https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/)
+
+- [ ] It's used to define variables that are automatically deallocated when they go out of scope.
+- [ ] `decltype` is an alias for `decltype(auto)` and is used for defining type deductions.
+- [x] `decltype` is used to deduce and specify the type of an expression or variable based on its initialization or usage.
+- [ ] It's a keyword used to create function templates in C++.
+
+#### Q160. What is SFINAE (Substitution Failure Is Not An Error) in C++ template metaprogramming?
+
+- Ref (https://www.geeksforgeeks.org/substitution-failure-is-not-an-error-sfinae-in-cpp/#:~:text=Substitution%20Failure%20Is%20Not%20An%20Error%20(SFINAE)%20is%20a%20principle,cannot%20substitute%20a%20template%20parameter.)
+- [ ] SFINAE refers to the practice of ignoring template substitutions entirely.
+- [ ] It is a coding style that encourages ignoring compiler errors.
+- [ ] SFINAE is an acronym for "Simple Function Is Not Always Executable," describing a function's behavior.
+- [x] SFINAE is a principle that allows certain template specializations to be discarded during template argument deduction rather than causing a compilation error.
