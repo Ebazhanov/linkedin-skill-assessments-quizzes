@@ -7,8 +7,8 @@ in [Suggestion how to contribute](CONTRIBUTING.md)
 
 - [ ] I have added new quiz{'s}
 - [ ] I have added new reference link{'s}
-- [ ] I have made small correction/improvements
+- [x] I have made small correction/improvements
 
 ### Changes / Instructions
 
-_Add instructions to me, please type here, thanks_
+_Answered question Q46 for Adobe Acrobat_
