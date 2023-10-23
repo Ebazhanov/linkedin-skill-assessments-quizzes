@@ -2492,6 +2492,7 @@ class my_class{
 
 
 #### Q155. What is the Rule of Three (or Rule of Five) in C++? 
+- References :(https://en.wikipedia.org/wiki/Rule_of_three_(C++_programming))
 
 - [ ] It's a coding guideline that suggests using at least three (or five) comments for every line of code.
 - [ ] It refers to the maximum number of functions that should be defined within a class.
