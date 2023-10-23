@@ -2509,13 +2509,15 @@ class my_class{
 
 
 #### Q157. What is the Pimpl Idiom in C++ and why is it used?
-
+-Ref:(https://learn.microsoft.com/en-us/cpp/cpp/pimpl-for-compile-time-encapsulation-modern-cpp?view=msvc-170#:~:text=The%20pimpl%20idiom%20is%20a,Cat%20or%20Compiler%20Firewall%20idiom.
+)
 - [ ] The Pimpl Idiom is a naming convention for variables in C++ to improve code readability.
 - [ ] It's a design pattern for implementing simple classes in C++.
 - [ ] It refers to using a specific file naming convention in C++.
 - [x] The Pimpl Idiom stands for "Pointer to Implementation." It's used to hide the implementation details of a class from its users, improving encapsulation and reducing compilation dependencies.
 
 #### Q158. Explain the difference between `emplace_back` and `push_back` when adding elements to a C++ vector.
+- Ref:(https://www.geeksforgeeks.org/push_back-vs-emplace_back-in-cpp-stl-vectors/)
 
 - [ ] There is no difference; `emplace_back` and `push_back` are synonyms.
 - [ ] `emplace_back` is used for adding elements at the beginning of a vector, while `push_back` adds elements at the end.
@@ -2523,6 +2525,7 @@ class my_class{
 - [ ] `emplace_back` is used for adding multiple elements, while `push_back` is used for adding a single element.
 
 #### Q159. What is the purpose of the `decltype` keyword in C++?
+- Ref:(https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/)
 
 - [ ] It's used to define variables that are automatically deallocated when they go out of scope.
 - [ ] `decltype` is an alias for `decltype(auto)` and is used for defining type deductions.
