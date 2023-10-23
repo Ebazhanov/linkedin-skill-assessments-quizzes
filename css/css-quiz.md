@@ -2483,3 +2483,125 @@ input.invalid {
 - [x] The vertical margins of block elements in the normal flow.
 - [ ] The horizontal margins of block elements in the normal flow.
 - [ ] The vertical margins of inline elements in the normal flow.
+
+#### Q162. Which of the following CSS selectors selects all <p> elements that are the direct child of a <div> element?
+
+- [ ] div p
+- [x] div > p
+- [ ] Tdiv + p
+- [ ] div ~ p
+
+#### Q163. In CSS, the box-sizing property is used to control how an element's total width and height is calculated. Which value of box-sizing includes the element's padding and border within its total width and height?
+
+- [ ] content-box
+- [ ] padding-box
+- [ ] margin-box
+- [x] border-box
+
+#### Q164. In CSS, which of the following is NOT an effect of inert attribute?
+
+- [ ] Prevents the click event from being fired when user clicks on an element.
+- [x] Makes the element interactive.
+- [ ] Prevents the focus event from being fired when an element gains focus.
+- [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
+
+#### Q165. What elements does the accent-color property target?
+
+- [ ] Line break tags
+- [ ] Hyperlink tags
+- [x] Input tags
+- [ ] Image tags
+
+### Q164. In CSS, what does the line-height property control?
+
+- [ ] The width of the element.
+- [ ] The color of the text.
+- [ ] The spacing between characters.
+- [x] The height of the space between lines of text.
+
+### Q165. What is the purpose of the CSS visibility property?
+
+- [ ] To control the order of elements within a flex container.
+- [ ] To adjust the space between the inner content and the border of an element.
+- [ ] To control the stacking order of elements in the z-axis.
+- [x] To control the visibility of an element.
+
+### Q166. Which CSS property is used to change the style of the cursor when it hovers over an element?
+
+- [ ] cursor-style
+- [ ] mouse-pointer
+- [ ] pointer-type
+- [x] cursor
+
+### Q167. What is the purpose of the CSS outline property?
+
+- [ ] To control the width of an element's border.
+- [ ] To change the background color of an element.
+- [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
+- [ ] To control the transparency of an element.
+
+#### Q168. What are the valid values of the text-align property?
+
+- [ ] left, bottom, top , right
+- [ ] left, right, up, bottom
+- [x] left, center, right, justify
+- [ ] side, justify, up, down
+
+#### Q169. What is the difference between visibility: hidden and display: none?
+
+- [ ] ```````````
+                                  Both will hide the element on the page, but display: none has greater browser support.
+                                   visibility: hidden is a new property and does not have the best browser support ```
+
+                                  ````
+
+                              `````
+
+                          ``````
+
+                      ```````
+
+                  ````````
+
+              `````````
+
+          ``````````
+
+      ```````````
+
+- [ ] `display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document`
+- [x] ```````````
+                                  visibility: hidden hides the element, but it still takes up space in the layout.
+                                  display: none removes the element from the document. It does not take up any space.  ```
+
+                                  ````
+
+                              `````
+
+                          ``````
+
+                      ```````
+
+                  ````````
+
+              `````````
+
+          ``````````
+
+      ```````````
+
+- [ ] ` There is no difference; both will hide the element on the page`
+
+#### Q170. Which of the following is NOT a valid CSS selector?
+
+- [ ] `p`
+- [ ] `.class`
+- [ ] `#id`
+- [x] `-`
+
+#### Q171. What is the difference between a class and an id in CSS?
+
+- [x] Classes can only be applied to one HTML element, while IDs can be used multiple times.
+- [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
+- [ ] Classes have higher specificity in CSS than IDs.
+- [ ] There is no difference between a class and an id.

@@ -58,7 +58,7 @@
 - [ ] Posterize Time
 - [ ] CC Wide Time
 
-#### Q9. An image was created on a transparent background in Photoshop using different dimensions to this After Effects composition. Which option was used when importing the PSD file below to place the image at its original scale and position?
+#### Q9. An image was created on a transparent background in Photoshop using different dimensions to an After Effects composition. Which option was used when importing the PSD file below to place the image at its original scale and position?
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
@@ -72,7 +72,7 @@
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.
 
-#### Q11. What properties are added to a 3D layer? (Select three items.)
+#### Q11. Which of the following properties can be added to a 3D layer? (Select three items.)
 
 - [x] Z Rotation
 - [x] Anchor Point
@@ -104,7 +104,7 @@
 - [ ] Parallel
       [Reference link](https://courses.cs.washington.edu/courses/cse458/05au/reading/lighting_tutorial/light_types.html)
 
-#### Q15. Which effect recovers alpha-channel detail from a scene keyed by a typical keying effect, including recovering detail lost due to compression artifacts?
+#### Q15. Which effect recovers alpha-channel details from a scene keyed by a typical keying effect, including recovering details lost due to compression artifacts?
 
 - [ ] Keying > Advanced Spill Suppressor
 - [x] Keying > Key Cleaner
@@ -149,7 +149,7 @@
 - [ ] Switch to the Essential Graphics workspace.
 - [ ] All properties are supported by the Essential Graphics panel.
 
-#### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
+#### Q21. You want to take an existing layer and make it into two separate layers. How can you do this such that the separation occurs at the playhead?
 
 - [x] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
@@ -267,3 +267,74 @@
 - [x] Bezier
 - [ ] Step
 - [ ] Exponential
+
+#### Q38. Which shortcut key provides quick access to the Opacity controls for a selected layer?
+
+- [ ] O
+- [ ] P
+- [ ] U
+- [x] T
+
+#### Q39. What happens when you change the zero point (origin) for the rulers in the Composition viewer (panel)?
+
+- [ ] After effects begins calculating according to new origin of the composition only for 3D layers.
+- [ ] After effects begins calculating from the middle of the composition.
+- [x] After effects begins calculating according to the new origin of the composition.
+- [ ] After effects continues to calculate from the top-left origin of the composition.
+
+#### Q40. Changes made to rotation or position in 3D space are attached to the layer and not based on the composition. Which axis mode would you want to use to have changes based on the axes in the Composition panel?
+
+- [x] World axis
+- [ ] Local axis
+- [ ] Global axis
+- [ ] View axis
+
+#### Q41. Which characteristics do the Render settings control?
+
+#### A. Output frame rate
+
+#### B. Compression options
+
+#### C. Duraction
+
+#### D. Cropping
+
+#### E. Layer quality
+
+- [ ] A, D, E
+- [ ] A, B, C
+- [x] A, C, E
+- [ ] B, C, E
+
+#### Q42. Which Keyframe Assistant is shown here?
+
+<img width="565" alt="image" src="https://github.com/kaushal1717/linkedin-skill-assessments-quizzes/assets/121810303/9ef701b6-ac94-47ca-b749-23bd4f9c337c">
+
+- [ ] Easy ease in
+- [x] Easy ease out
+- [ ] Easy ease
+- [ ] Exponential scale
+
+#### Q43. Which path operation creates multiple copies of a single shape?
+
+- [x] Repeater
+- [ ] Merge paths
+- [ ] Offset paths
+- [ ] Wiggle transform
+
+#### Q44. Write characteristics do the output module settings control?
+
+#### A. Output frame rate
+
+#### B. Output format
+
+#### C. Compression options
+
+#### D. Cropping
+
+#### E. Time span
+
+- [ ] A, C, D
+- [ ] B, D, C
+- [ ] A, B, C
+- [x] B, C, E

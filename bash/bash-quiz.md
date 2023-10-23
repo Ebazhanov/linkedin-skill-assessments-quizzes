@@ -1145,3 +1145,17 @@ fi
 - [ ] It specifies the version of Bash required to run the script.
 - [ ] It marks the script as executable.
 - [x] It helps the system identify the script's interpreter, ensuring the correct interpreter is used.
+
+#### Q89. Which variable contains the process ID (PID) of the script while it’s running?
+
+- [ ] `$ID`
+- [ ] `$@`
+- [ ] `$#`
+- [x] `$$`
+
+#### Q90. Which of the following is not a valid Bash variable name?
+
+- [ ] `$HOME`
+- [ ] `my_var`
+- [x] `1var`
+- [ ] `!`

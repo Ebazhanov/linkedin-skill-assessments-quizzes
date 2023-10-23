@@ -1247,7 +1247,7 @@ class Main {
 ```
 
 - [ ] It will not compile.
-- [x] "HelloWorld!"
+- [x] "Hello World!"
 - [ ] "hello"
 - [ ] ????
       The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
@@ -2547,9 +2547,7 @@ class abc
 
 #### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
 
-- [ ] DefinedDateFormat
-- [x] SimpleDateFormat
-- [ ] ComplexDateFormat
-- [ ] UsersDateFormat
-
-// The DateFormat is a concrete subclass of DateFormat. It allows you to define your own formatting patterns that are used to display date and time information.
+- [ ] DateTimeFormat.
+- [x] SimpleDateFormat.
+- [ ] DateFormat.
+- [ ] DateFormatter.
