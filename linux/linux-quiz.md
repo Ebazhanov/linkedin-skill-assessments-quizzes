@@ -318,10 +318,10 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 #### Q38. What is the /etc/hosts file used for?
 
-- [ ] resolving the local name
+- [x] resolving the local name
 - [ ] blocking sites using iptables
 - [ ] setting the hostname
-- [x] configuring DNS name servers
+- [ ] configuring DNS name servers
 
 #### Q39. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
@@ -738,12 +738,6 @@ cat < in.txt > out.txt
 - [ ] single
 - [ ] process
 
-#### Q88. What tool should you use to replace a physical volume in LVM?
-
-- [ ] cp
-- [x] pvmove
-- [ ] tar
-- [ ] lvcopy
 
 [Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
