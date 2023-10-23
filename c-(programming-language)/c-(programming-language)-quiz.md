@@ -555,7 +555,7 @@ main(){
 - [ ] library
 - [ ] system
 
-#### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
+#### Q40. You have written a function that you want to include as a member of structure 'a'. How is such as structure member defined?
 
 - [ ] :
 

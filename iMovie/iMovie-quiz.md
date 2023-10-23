@@ -199,3 +199,101 @@
 - [ ] Color Correction
 - [ ] Stabilization
 - [ ] Cropping
+
+#### Q27. What is the purpose of the "Library" in iMovie?
+
+- [x] To organize your video clips and media
+- [ ] To add special effects to your project
+- [ ] To export your project to different devices
+- [ ] To edit the audio in your video
+
+#### Q28. Which iMovie feature allows you to create slow-motion or fast-motion effects in your videos?
+
+- [x] Speed Ramping
+- [ ] Green Screen
+- [ ] Color Correction
+- [ ] Audio Editing
+
+#### Q29. What is the primary function of the Precision Editor in iMovie?
+
+- [ ] To adjust the video's brightness and contrast
+- [x] To fine-tune the position of video and audio clips in your project
+- [ ] To add titles and text overlays
+- [ ] To create custom transitions
+
+#### Q30. Which feature in iMovie allows you to record a voiceover narration for your video?
+
+- [ ] Audio Editing
+- [ ] Green Screen
+- [ ] Voice Control
+- [x] Record Voiceover
+
+#### Q31. In iMovie, what is the function of the "Ken Burns" effect?
+
+- [ ] To change the color scheme of your video
+- [x] To crop and pan over still images to create motion
+- [ ] To add 3D effects to video clips
+- [ ] To remove unwanted background noise from audio
+
+#### Q32. Which tool in iMovie helps you to quickly create a movie trailer with predefined templates?
+
+- [ ] Trailer Maker
+- [ ] Storyboard Creator
+- [x] Theme Selector
+- [ ] Trailer Wizard
+
+#### Q33. What is the purpose of the "Magnetic Timeline" feature in iMovie?
+
+- [x] To automatically align video clips in a chronological order
+- [ ] To add magnets to your video clips for easy organization
+- [ ] To prevent clips from overlapping on the timeline
+- [ ] To create magnetic effects in your video
+
+#### Q34. How can you export your iMovie project for playback on various devices?
+
+- [ ] Save it as a .DOCX file
+- [ ] Share it to iMovie Theater
+- [x] Export it as an MP4 or MOV file
+- [ ] Print it as a hard copy
+
+#### Q35. Which menu option in iMovie allows you to access advanced video and audio settings, such as changing the frame rate or resolution?
+
+- [ ] Edit
+- [ ] View
+- [x] Preferences
+- [ ] File
+
+#### Q36. What is the purpose of the "Color Correction" tool in iMovie?
+
+- [ ] To correct spelling and grammar in the video's captions
+- [x] To adjust the video's colors, brightness, and saturation
+- [ ] To remove unwanted background noises
+- [ ] To create animated titles for your video
+
+#### Q37. What is the maximum number of audio tracks you can have in an iMovie project?
+
+- [ ] 3
+- [ ] 5
+- [ ] 10
+- [x] Unlimited
+
+#### Q38. Which video format is recommended for importing into iMovie to maintain the highest quality?
+
+- [ ] .AVI
+- [ ] .MP4
+- [x] .MOV
+- [ ] .GIF
+
+#### Q39. How can you import and edit 360-degree videos in iMovie?
+
+- [x] iMovie does not support 360-degree videos
+- [ ] Use a third-party plugin for 360-degree video editing
+- [ ] Convert the video to a standard format before importing
+- [ ] Apply the "Green Screen" effect
+
+#### Q40. What is the maximum resolution at which iMovie can export videos?
+
+- [ ] 720p
+- [ ] 1080p
+- [x] 4K
+- [ ] 8K

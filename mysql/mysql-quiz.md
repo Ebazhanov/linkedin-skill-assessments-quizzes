@@ -1115,3 +1115,12 @@ Table name: superheroes
 - [x] select
 - [ ] get
 - [ ] Open
+
+#### Q116. What is the purpose of the `PRIMARY KEY` in a MySQL table?
+
+-[x] To create a unique index on a table
+-[] To define a column as an integer
+-[] To define the data type of a column
+-[] To specify a foreign key reference
+
+[Reference](<https://www.w3schools.com/mysql/mysql_primarykey.asp#:~:text=The%20PRIMARY%20KEY%20constraint%20uniquely,or%20multiple%20columns%20(fields).>)
