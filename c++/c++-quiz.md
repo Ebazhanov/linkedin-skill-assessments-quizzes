@@ -2412,9 +2412,9 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 #### Q149. Which C++ construct is used for exception handling?
 
 - [x] try-catch
-- [ ]if-else
-- [ ]for loop
-- [ ]switch-case
+- [ ] if-else
+- [ ] for loop
+- [ ] switch-case
 
 #### Q150. What is the purpose of the `break` statement in a loop in C++?
 
