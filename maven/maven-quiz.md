@@ -332,7 +332,7 @@
 #### Q45. How many times is compiler:compile called when executing mvn clean compile test package?
 
 - [ ] one
-- [ ] two
+- [x] two
 - [ ] none
 - [ ] three
 
