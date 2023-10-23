@@ -2547,7 +2547,7 @@ class abc
 
 #### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
 
-- [x] SimpleDateFormat
-- [ ] DateFormatter
-- [ ] DateTimeFormat
-- [ ] CustomDateFormatter
+- [ ] DateTimeFormat.
+- [x] SimpleDateFormat.
+- [ ] DateFormat.
+- [ ] DateFormatter.
