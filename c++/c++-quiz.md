@@ -2505,4 +2505,3 @@ class my_class{
 - [x] `std::unique_ptr` represents exclusive ownership of a dynamically allocated object and cannot be copied, while `std::shared_ptr` allows multiple pointers to share ownership and uses reference counting.
 - [ ] `std::shared_ptr` is used for managing raw pointers, and `std::unique_ptr` is used for managing smart pointers.
 - [ ] `std::unique_ptr` is used for polymorphism, while `std::shared_ptr` is used for memory deallocation.
-
