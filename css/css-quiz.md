@@ -2549,54 +2549,58 @@ input.invalid {
 
 #### Q169. What is the difference between visibility: hidden and display: none?
 
-- [ ] `````````````
-                                          Both will hide the element on the page, but display: none has greater browser support.
-                                           visibility: hidden is a new property and does not have the best browser support ```
+- [ ] ``````````````
+                                              Both will hide the element on the page, but display: none has greater browser support.
+                                               visibility: hidden is a new property and does not have the best browser support ```
 
-                                          ````
+                                              ````
 
-                                      `````
+                                          `````
 
-                                  ``````
+                                      ``````
 
-                              ```````
+                                  ```````
 
-                          ````````
+                              ````````
 
-                      `````````
+                          `````````
 
-                  ``````````
+                      ``````````
 
-              ```````````
+                  ```````````
 
-          ````````````
+              ````````````
 
-      `````````````
+          `````````````
+
+      ``````````````
 
 - [ ] `display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document`
-- [x] `````````````
-                                          visibility: hidden hides the element, but it still takes up space in the layout.
-                                          display: none removes the element from the document. It does not take up any space.  ```
+- [x] ``````````````
+                                              visibility: hidden hides the element, but it still takes up space in the layout.
+                                              display: none removes the element from the document. It does not take up any space.  ```
 
-                                          ````
+                                              ````
 
-                                      `````
+                                          `````
 
-                                  ``````
+                                      ``````
 
-                              ```````
+                                  ```````
 
-                          ````````
+                              ````````
 
-                      `````````
+                          `````````
 
-                  ``````````
+                      ``````````
 
-              ```````````
+                  ```````````
 
-          ````````````
+              ````````````
 
-      `````````````
+          `````````````
+
+      ``````````````
 
 - [ ] ` There is no difference; both will hide the element on the page`
 
