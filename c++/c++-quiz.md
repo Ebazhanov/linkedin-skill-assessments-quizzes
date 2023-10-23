@@ -2531,3 +2531,10 @@ class my_class{
 - [ ] `decltype` is an alias for `decltype(auto)` and is used for defining type deductions.
 - [x] `decltype` is used to deduce and specify the type of an expression or variable based on its initialization or usage.
 - [ ] It's a keyword used to create function templates in C++.
+
+#### Q160. What is SFINAE (Substitution Failure Is Not An Error) in C++ template metaprogramming?
+- Ref (https://www.geeksforgeeks.org/substitution-failure-is-not-an-error-sfinae-in-cpp/#:~:text=Substitution%20Failure%20Is%20Not%20An%20Error%20(SFINAE)%20is%20a%20principle,cannot%20substitute%20a%20template%20parameter.)
+- [ ] SFINAE refers to the practice of ignoring template substitutions entirely.
+- [ ] It is a coding style that encourages ignoring compiler errors.
+- [ ] SFINAE is an acronym for "Simple Function Is Not Always Executable," describing a function's behavior.
+- [x] SFINAE is a principle that allows certain template specializations to be discarded during template argument deduction rather than causing a compilation error.
