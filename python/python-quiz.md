@@ -2654,9 +2654,25 @@ The code defines a `square` function to calculate the square of a number. It the
 
 #### Q182. Which of the following is not a valid built-in function in Python?
 
-- [] int
-- [] string
-- [] boolean
+- [ ] int
+- [ ] string
+- [ ] boolean
 - [x] array
 
 [Source](https://docs.python.org/3/library/functions.html)
+
+#### Q183. Which of the following is not a valid Python data type?
+
+- [ ] int
+- [x] char
+- [ ] float
+- [ ] str
+
+#### Q184. In Python, which function is used to read a line from the console input?
+
+-[x] input()
+-[] read_line()
+-[] console_input()
+-[] getline()
+
+[Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)

@@ -779,6 +779,8 @@ class Book(models.Model):
 - [x] To handle HTTP requests and responses globally
 - [ ] To create user interfaces
 
+[Reference](https://medium.com/scalereal/everything-you-need-to-know-about-middleware-in-django-2a3bd3853cd6)
+
 #### Q84. Which of the following is true about Django's Object-Relational Mapping (ORM)?
 
 - [ ] It's used to define URL routing in a Django application.
@@ -792,3 +794,31 @@ class Book(models.Model):
 - [ ] It creates a foreign key relationship between two models.
 - [x] It allows multiple objects to be associated with each other.
 - [ ] It enforces unique constraints on a field.
+
+#### Q86. Django's class-based generic views provide which classes that implement common web development tasks?
+
+- [ ] concrete
+- [ ] thread-safe
+- [x] abstract
+- [ ] dynamic
+
+#### Q87. Which skills do you need to maintain a set of Django templates?
+
+- [ ] template syntax
+- [x] HTML and template syntax
+- [ ] Python, HTML, and template syntax
+- [ ] Python and template syntax
+
+#### Q88. Which is a nonstandard place to store templates?
+
+- [x] at the root level of a project
+- [ ] inside the application
+- [ ] in the database
+- [ ] on Github
+
+#### Q89. If you left the 8080 off the command python manage.py runserver 8080 what port would Django use as default?
+
+- [x] 8080
+- [ ] 80
+- [ ] 8000
+- [ ] It would fail to start

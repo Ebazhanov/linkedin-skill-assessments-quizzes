@@ -148,7 +148,7 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 - [x] Super Admin
 - [ ] Multisite Master
 
-#### Q19. Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
+#### Q19. Within the Editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
 
 - [ ] as plain HTML
 - [x] as a React component
@@ -162,11 +162,11 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 - [ ] using a tool like Poedit to parse source code and extract translatable strings into a POT file
 - [x] translators translating the POT file into a PO file, one for each language
 
-#### Q21. The REST API provides public data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access site data via the REST API?
+#### Q21. The REST API provides public data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure no one can anonymously access site data via the REST API?
 
 - [ ] Disable the REST API via the site's wp-config.php file.
 - [ ] Use the `rest_authentication_errors()` filter along with the `is_user_logged_in()` conditional to limit access to logged in users.
-- [ ] Use the `rest_authentication_errors()` filter along with cookie authentication to limit access to logged in users.
+- [ ] Use the `rest_authentication_errors()` filter along with cookie authentication to limit access to logged-in users.
 - [x] Use the Disable REST API plugin.
 
 #### Q22. Which of these snippets represents a wrapper that calls jQuery safely and doesn't require repetitive use of the word "jQuery"?
@@ -213,8 +213,8 @@ jQuery(function ($) {
 #### Q24. You have a search bar on your site. You would like to use a `<label>` to make the word "Search" visible to screen readers, but you don't want to display the word "Search" on the screen. How can you accomplish this?
 
 - [ ] Assign an ARIA state of "hidden" to the label, like this: `<label state="hidden">Search</label> <input type="text" name="search" id="search" />`
-- [x] Use the built-in WordPress CSS class .screen-reader-text to hide the text from screen, like this: `<label class="screen-reader-text">Search</label> <input type="text" name="search" id="search" />`
-- [ ] Create a custom CSS class to set a large negative value to the text-indent property to hide the text off screen, like this: `<label class="hide-this">Search</label> <input type="text" name="search" id="search" />`
+- [x] Use the built-in WordPress CSS class .screen-reader-text to hide the text from the screen, like this: `<label class="screen-reader-text">Search</label> <input type="text" name="search" id="search" />`
+- [ ] Create a custom CSS class to set a large negative value to the text-indent property to hide the text off-screen, like this: `<label class="hide-this">Search</label> <input type="text" name="search" id="search" />`
 - [ ] The majority of users do not require a screen reader. Remove the label entirely.
 
 #### Q25. You might see this code in a WordPress plugin. What does it do?
@@ -227,12 +227,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] This is how WordPress detects a plugin's presence. This ensures that the plugin is running from the /wp-content/plugins/ directory. If it is not, the plugin should not run.
 - [ ] This is a way to prevent naming collisions. ABSPATH is the absolute path to the plugin's directory. If ABSPATH is defined by another WordPress plugin with the same directory slug, the plugin should not run.
-- [x] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore the plugin should not run.
+- [x] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore, the plugin should not run.
 - [ ] This is a compatibility checker. ABSPATH is defined in WordPress core. The plugin checks that the minimum version of WordPress needed to support the plugin is installed. If it is not, the plugin should not run.
 
 [Reference](https://stackoverflow.com/questions/43212340/what-is-meant-by-if-defined-abspath)
 
-#### Q26. Which is a best practice for working with WordPress CSS?
+#### Q26. Which is the best practice for working with WordPress CSS?
 
 - [ ] Use !important next to styles if they don't give you the result you want.
 - [ ] Use hyphens in class names.
@@ -307,7 +307,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 #### Q36. What is the core mission of WordPress?
 
 - [ ] to make free software
-- [x] to democratize publishing and the freedoms that come with open source
+- [x] to democratize publishing and the freedoms that come with open-source
 - [ ] to make money
 - [ ] to encourage blogging
 
@@ -324,7 +324,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q38. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
 
-- [ ] Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
+- [ ] Link to the script directly from a template named page-contact.php using the get_header() template tag like this:
 
 ```
 get_header( '<script src="/my-script.js"></script>' );
@@ -430,7 +430,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 
-#### Q48. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
+#### Q48. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL. (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
 
 - [x] `http://example.com/wp-json/`
 - [ ] `http://example.com/wp-admin/`
@@ -444,7 +444,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] translation
 - [ ] using GlotPress
 
-**Explanation**: Localization and translation are synonyms for submitting language-specific translation. GlotPress is just a Wordpress plugin.
+**Explanation**: Localization and translation are synonyms for submitting language-specific translations. GlotPress is just a WordPress plugin.
 
 #### Q50. In your wp-config.php file, you've added the following line of code. What does it do?
 
@@ -492,7 +492,7 @@ $title = $_POST[ 'title' ];
 
 [Ref](https://hazimhassan.com/linkedin-wordpress-assessment-answers-2021/)
 
-#### Q55. Which of these CSS classs naming convention is correct according to WordPress CSS Coding Standards?
+#### Q55. Which of this CSS classs naming convention is correct according to WordPress CSS Coding Standards?
 
 - [x] `.selector-name`
 - [ ] `.selector_name`
@@ -524,7 +524,7 @@ $title = $_POST[ 'title' ];
 - [ ] `document.write()`
 - [ ] `innerHTML`
 
-#### Q59. On a webpage, there are frequently navigation links, a search bar, or other elements that appear before the main content. For keyborad and screen reader users, it can be frustrating to get to the main content of a page because they have to tab through all these elements on every new page load. What can you add to a site to fix this?
+#### Q59. On a webpage, there are frequently navigation links, a search bar, or other elements that appear before the main content. For keyboard and screen reader users, it can be frustrating to get to the main content of a page because they have to tab through all these elements on every new page load. What can you add to a site to fix this?
 
 - [x] collapsible menus
 - [ ] infinite scroll
@@ -542,7 +542,7 @@ $title = $_POST[ 'title' ];
 
 #### Q61. When should you edit core WordPress files?
 
-- [ ] when there is no plugin available to make a customization you need
+- [ ] When there is no plugin available to make a customization, you need
 - [ ] when you need to add a custom page template
 - [ ] when you need to add a custom script to the header or footer of every page in a site
 - [x] You should never edit WordPress core.
@@ -604,7 +604,7 @@ endif;
 
 [Reference](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
-#### Q67. Why can't you modify the query in a template page?
+#### Q67. Why can't you modify the query on a template page?
 
 - [ ] The query can only be run inside the Loop.
 - [x] You can modify the query in a template page if you use `pre_get_posts()`.
@@ -658,7 +658,7 @@ var x = '16';
 - [x] when the content is part of a blog.
 - [ ] evergreen
 
-#### Q73. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
+#### Q73. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcodes. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress Core?
 
 - [ ] formatting
 - [ ] widgets
@@ -709,14 +709,14 @@ var x = '16';
 
 [Reference](https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/)
 
-#### Q80. What is a way you can both harden your site's security and improve how Google presents you site in search results?
+#### Q80. What is a way you can both harden your site's security and improve how Google presents your site in search results?
 
 - [x] Install an SSL certificate.
 - [ ] Install a security plugin on your site.
 - [ ] Use a third-party security monitoring service.
-- [ ] Require user to log in to view content.
+- [ ] Require users to log in to view content.
 
-#### Q81. Review the HTML on line 1.The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q81. Review the HTML on line 1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting it into the database. What is wrong with this PHP code?
 
 1. `<input type="text" id="title" name="title" />`
 2. `$title = $_POST[ 'title' ]`

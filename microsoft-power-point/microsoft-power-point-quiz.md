@@ -877,6 +877,7 @@ D. Start When Clicked On
 - [ ] Use embedded fonts.
 - [x] Use consistent layouts.
 - [ ] Use numbered lists.
+      <a href="https://www.linkedin.com/skill-assessments/Microsoft%20PowerPoint/quiz/?practiceModal=&practiceMode=true">reference</a>
 
 #### Q112. When you provide alt text for an image, what type of control are you including?
 
@@ -914,3 +915,12 @@ D. Start When Clicked On
 - [x] One slide will be created with seven bullet items.
 - [ ] Two sections will be created, one with three slides and one with two slides.
 - [ ] Seven slides will be created from the outline.
+
+#### Q117. How do you eliminate the blank columns on the char, as indicated by the arrow in this image?
+
+![img](images/Q117.png)
+
+- [x] In the Chart in Microsoft PowerPoint window, use the sizing handler in the lower-right corner of the range, dragging it up to cell D4.
+- [ ] In the Chart in Microsoft PowerPoint window, select the range A5:D5 and press Delete.
+- [ ] Click the chart and then, on the Shape format tab, click Edit Shape. Then crop the chart to show only A1:D4.
+- [ ] Click Change Chart Type.
