@@ -1057,10 +1057,10 @@ fmt.Println (n)
 
 - [ ] time.REC3339
 - [ ] "1970-01-01"
-- [ ] "Jan 2nd 2006"
-- [x] time.Kitchen
+- [x] "Jan 2nd 2006"
+- [ ] time.Kitchen
 
-> The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM.
+[go playground](https://go.dev/play/p/xivJUSIPbN-)
 
 #### Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.
 
