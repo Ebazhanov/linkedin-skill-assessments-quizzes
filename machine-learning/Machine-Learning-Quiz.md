@@ -1,114 +1,114 @@
-#### Q16. How do machine learning algorithms make more precise predictions?
+I've translated the machine learning questions and answers into French:
 
-- [ ] The algorithms are typically run more powerful servers.
-- [x] The algorithms are better at seeing patterns in the data.
-- [ ] Machine learning servers can host larger databases.
-- [ ] The algorithms can run on unstructured data.
+#### Q16. Comment les algorithmes d'apprentissage automatique effectuent-ils des prédictions plus précises ?
 
-#### Q17. You work for an insurance company. Which machine learning project would add the most value for the company?
+- [ ] Les algorithmes sont généralement exécutés sur des serveurs plus puissants.
+- [x] Les algorithmes sont meilleurs pour détecter des motifs dans les données.
+- [ ] Les serveurs d'apprentissage automatique peuvent héberger de plus grandes bases de données.
+- [ ] Les algorithmes peuvent s'exécuter sur des données non structurées.
 
-- [ ] Create an artificial neural network that would host the company directory.
-- [x] Use machine learning to better predict risk.
-- [ ] Create an algorithm that consolidates all of your Excel spreadsheets into one data lake.
-- [ ] Use machine learning and big data to research salary requirements.
+#### Q17. Vous travaillez pour une compagnie d'assurance. Quel projet d'apprentissage automatique ajouterait le plus de valeur à l'entreprise ?
 
-#### Q18. What is the missing information in this diagram?
+- [ ] Créer un réseau neuronal artificiel qui hébergerait l'annuaire de l'entreprise.
+- [x] Utiliser l'apprentissage automatique pour mieux prédire les risques.
+- [ ] Créer un algorithme qui consolide toutes vos feuilles de calcul Excel dans un lac de données.
+- [ ] Utiliser l'apprentissage automatique et le big data pour rechercher les exigences salariales.
+
+#### Q18. Quelle est l'information manquante dans ce diagramme ?
 
 ![Machine Learning Q18](images/machine-learning_Q18.jpg)
 
-- [ ] Training Set
-- [ ] Unsupervised Data
-- [x] Supervised Learning
-- [ ] Binary Classification
+- [ ] Jeu d'entraînement
+- [ ] Données non supervisées
+- [x] Apprentissage supervisé
+- [ ] Classification binaire
 
-#### Q19. What is one reason not to use the same data for both your training set and your testing set?
+#### Q19. Pourquoi ne faudrait-il pas utiliser les mêmes données pour votre jeu d'entraînement et votre jeu de test ?
 
-- [ ] You will almost certainly underfit the model.
-- [ ] You will pick the wrong algorithm.
-- [ ] You might not have enough data for both.
-- [x] You will almost certainly overfit the model.
+- [ ] Vous sous-adapterez presque certainement le modèle.
+- [ ] Vous choisirez le mauvais algorithme.
+- [ ] Vous pourriez ne pas avoir suffisamment de données pour les deux.
+- [x] Vous sur-ajusterez presque certainement le modèle.
 
-#### Q20. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?
+#### Q20. Votre université souhaite utiliser des algorithmes d'apprentissage automatique pour trier les demandes d'inscription des étudiants. Un administrateur demande si les décisions d'admission pourraient être biaisées contre un groupe particulier, comme les femmes. Quelle serait la meilleure réponse ?
 
-- [ ] Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.
-- [ ] There is no way to identify bias in the data.
-- [ ] Machine learning algorithms are powerful enough to eliminate bias from the data.
-- [x] All human-created data is biased, and data scientists need to account for that.
+- [ ] Les algorithmes d'apprentissage automatique sont basés sur les mathématiques et les statistiques, et sont donc par définition impartiaux.
+- [ ] Il n'y a aucun moyen d'identifier un biais dans les données.
+- [ ] Les algorithmes d'apprentissage automatique sont suffisamment puissants pour éliminer le biais des données.
+- [x] Toutes les données créées par l'homme sont biaisées, et les data scientists doivent en tenir compte.
 
-**Explanation**: While machine learning algorithms don't have bias, the data can have them.
+#### Q21. Qu'est-ce que le "stacking" ?
 
-#### Q21. What is stacking?
+- [x] Les prédictions d'un modèle deviennent les entrées d'un autre.
+- [ ] Vous utilisez différentes versions d'algorithmes d'apprentissage automatique.
+- [ ] Vous utilisez plusieurs algorithmes d'apprentissage automatique pour améliorer vos résultats.
+- [ ] Vous empilez votre jeu d'entraînement et votre jeu de test ensemble.
 
-- [x] The predictions of one model become the inputs another.
-- [ ] You use different versions of machine learning algorithms.
-- [ ] You use several machine learning algorithms to boost your results.
-- [ ] You stack your training set and testing set together.
+#### Q22. Vous voulez créer un système d'apprentissage automatique supervisé qui identifie les images de chatons sur les médias sociaux. Pour ce faire, vous avez collecté plus de 100 000 images de chatons. Comment appelle-t-on cette collection d'images ?
 
-#### Q22. You want to create a supervised machine learning system that identifies pictures of kittens on social media. To do this, you have collected more than 100,000 images of kittens. What is this collection of images called?
+- [x] Données d'entraînement
+- [ ] Régression linéaire
+- [ ] Big Data
+- [ ] Données de test
 
-- [x] training data
-- [ ] linear regression
-- [ ] big data
-- [ ] test data
+#### Q23. Vous travaillez sur un projet qui consiste à regrouper des images de différents chiens. Vous prenez une image et l'identifiez comme image de centre. Quel type d'algorithme d'apprentissage automatique utilisez-vous ?
 
-#### Q23. You are working on a project that involves clustering together images of different dogs. You take image and identify it as your centroid image. What type machine learning algorithm are you using?
+- [ ] Renforcement des centroïdes
+- [ ] K-plus proches voisins
+- [ ] Classification binaire
+- [x] Clustering K-moyennes
 
-- [ ] centroid reinforcement
-- [ ] K-nearest neighbor
-- [ ] binary classification
-- [x] K-means clustering
+#### Q24. Votre entreprise souhaite que vous construisiez un modèle de prédiction de texte d'e-mails internes pour accélérer le temps que les employés passent à rédiger des e-mails. Que devriez-vous faire ?
 
-**Explanation**: The problem explicitly states "clustering".
+- [x] Inclure des données d'e-mails d'entraînement de tous les employés.
+- [ ] Inclure des données d'e-mails d'entraînement des nouveaux employés.
+- [ ] Inclure des données d'e-mails d'entraînement des employés expérimentés.
+- [ ] Inclure des données d'e-mails d'entraînement des employés qui écrivent la majorité des e-mails internes.
 
-#### Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?
+#### Q25. Votre organisation permet aux personnes de créer des profils professionnels en ligne. Une fonction clé est la possibilité de créer des groupes de personnes professionnellement connectées les unes aux autres. Quel type de méthode d'apprentissage automatique est utilisé pour créer ces groupes ?
 
-- [x] Include training email data from all employees.
-- [ ] Include training email data from new employees.
-- [ ] Include training email data from seasoned employees.
-- [ ] Include training email data from employees who write the majority of internal emails.
+- [x] Apprentissage automatique non supervisé
+- [ ] Classification binaire
+- [ ] Apprentissage automatique supervisé
+- [ ] Apprentissage par renforcement
 
-#### Q25. Your organization allows people to create online professional profiles. A key feature is the ability to create clusters of people who are professionally connected to one another. What type of machine learning method is used to create these clusters?
-
-- [x] unsupervised machine learning
-- [ ] binary classification
-- [ ] supervised machine learning
-- [ ] reinforcement learning
-
-#### Q26. What is this diagram a good example of?
+#### Q26. Ce diagramme est un bon exemple de quoi ?
 
 ![Machine Learning Q26](images/machine-learning_Q26.jpg)
 
-- [ ] K-nearest neighbor
-- [ ] a decision tree
-- [ ] a linear regression
-- [x] a K-means cluster
+- [ ] K-plus proches voisins
+- [ ] un arbre de décision
+- [ ] une régression linéaire
+- [x] un cluster K-moyennes
 
-Note: there are centres of clusters (C0, C1, C2).
+Note : Il y a des centres de clusters (C0, C1, C2).
 
-#### Q27. Random forest is modified and improved version of which earlier technique?
+#### Q27. La forêt aléatoire est une version modifiée et améliorée de quelle technique antérieure ?
 
-- [ ] aggregated trees
-- [ ] boosted trees
-- [x] bagged trees
-- [ ] stacked trees
+- [ ] Arbres agrégés
+- [ ] Arbres boostés
+- [x] Arbres baggés
+- [ ] Arbres empilés
 
-#### Q28. Self-organizing maps are specialized neural network for which type of machine learning?
+#### Q28. Les cartes auto-organisatrices sont un réseau neuronal spécialisé pour quel type d'apprentissage automatique ?
 
-- [ ] semi-supervised learning
-- [ ] supervised learning
-- [ ] reinforcement learning
-- [x] unsupervised learning
+- [ ] Apprentissage semi-supervisé
+- [ ] Apprentissage supervisé
+- [ ] Apprentissage par renforcement
+- [x] Apprentissage non supervisé
 
-#### Q29. Which statement about K-means clustering is true?
+#### Q29. Laquelle des déclarations suivantes concernant le regroupement K-moyennes est vraie ?
 
-- [x] In K-means clustering, the initial centroids are sometimes randomly selected.
-- [ ] K-means clustering is often used in supervised machine learning.
-- [ ] The number of clusters are always randomly selected.
-- [ ] To be accurate, you want your centroids outside of the cluster.
+- [x] Dans le regroupement K-moyennes, les centroïdes initiaux sont parfois sélectionnés au hasard.
+- [ ] Le regroupement K-moyennes est souvent utilisé en apprentissage automatique supervisé.
+- [ ] Le nombre de clusters est toujours choisi au hasard.
+- [ ] Pour être précis, vous voulez que vos centroïdes soient à l'extérieur du cluster.
 
-#### Q30. You created machine learning system that interacts with its environment and responds to errors and rewards. What type of machine learning system is it?
+#### Q30. Vous avez créé un système d'apprentissage
 
-- [ ] supervised learning
-- [ ] semi-supervised learning
-- [x] reinforcement learning
-- [ ] unsupervised learning
+ automatique qui interagit avec son environnement et répond aux erreurs et aux récompenses. Quel type de système d'apprentissage automatique est-ce ?
+
+- [ ] Apprentissage supervisé
+- [ ] Apprentissage semi-supervisé
+- [x] Apprentissage par renforcement
+- [ ] Apprentissage non supervisé
