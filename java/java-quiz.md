@@ -1247,7 +1247,7 @@ class Main {
 ```
 
 - [ ] It will not compile.
-- [x] "HelloWorld!"
+- [x] "Hello World!"
 - [ ] "hello"
 - [ ] ????
       The code effectively converts the initial "hello" into "HelloWorld!" by deleting the first character, inserting "H" at the beginning, and appending " World!" to the end.
@@ -2546,3 +2546,8 @@ class abc
 - [ ] The snippet does not compile.
 
 #### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
+
+- [ ] DateTimeFormat.
+- [x] SimpleDateFormat.
+- [ ] DateFormat.
+- [ ] DateFormatter.

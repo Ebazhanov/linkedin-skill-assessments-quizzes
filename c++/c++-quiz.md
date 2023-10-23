@@ -2412,9 +2412,9 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 #### Q149. Which C++ construct is used for exception handling?
 
 - [x] try-catch
-- [ ]if-else
-- [ ]for loop
-- [ ]switch-case
+- [ ] if-else
+- [ ] for loop
+- [ ] switch-case
 
 #### Q150. What is the purpose of the `break` statement in a loop in C++?
 
@@ -2423,9 +2423,71 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 - [x] Terminate the loop
 - [ ] Return a value
 
+[Reference]: (https://www.tutorialspoint.com/cprogramming/c_break_statement.htm)
+
 #### Q151. In C++, what is the purpose of the `const` keyword when used with a variable?
 
 - [x] It makes the variable immutable
 - [ ] It changes the data type
 - [ ] It defines a constant function
 - [ ] It makes the variable a pointer
+
+#### Q152. Which is more effective while calling the C++ functions??
+
+- [x] Call by reference
+- [ ] Call by value
+- [ ] Call by pointer
+- [ ] Call by object
+
+[Reference]: (https://www.algbly.com/More/MCQs/Cpp-mcq/Cpp-functions.html)
+
+#### Q153. What will be the output of the following C++ program?
+
+```cpp
+#include <iostream>
+using namespace std;
+class A{
+public:
+	A(){
+		cout<<"Constructor called\n";
+	   }
+	~A(){
+		cout<<"Destructor called\n";
+	    }
+};
+int main(int argc, char const *argv[])
+{
+	A *a = new A[5];
+	delete[] a;
+	return 0;
+}
+```
+
+- [ ] Segmentation fault
+- [x] “Constructor called” five times and then “Destructor called” five times
+- [ ] “Constructor called” five times and then “Destructor called” once
+- [ ] Error
+
+#### Q.153 What is the output of this code?
+
+```c++
+printf("1/2 = %f",(float)(1/2));
+```
+
+- [ ] 1/2 = 0.499999
+- [ ] 1/2 = 0
+- [x] 1/2 = 0.000000
+- [ ] 1/2 = 0.5
+
+#### Q.154 Which choice is _not_ related to declaring the member variable count as static in my_class?
+
+```cpp
+class my_class{
+    public: static int count;
+}
+```
+
+- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
+- [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
+- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.

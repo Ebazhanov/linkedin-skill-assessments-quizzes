@@ -166,3 +166,73 @@ Source: This is in practice mode
 - [ ] all of these answers
 
 [Source](https://logicpro.skydocu.com/en/create-a-song-arrangement/arrange-regions-in-the-tracks-area/split-regions/)
+
+#### Q20. In Logic Pro, which of the following is NOT a MIDI event type?
+
+- [ ] Note On
+- [ ] Program Change
+- [x] Audio Bounce
+- [ ] Control Change
+
+#### Q21. What is the primary purpose of the Environment window in Logic Pro?
+
+- [ ] To record audio tracks
+- [x] To create custom MIDI processing and routing setups
+- [ ] To apply audio effects
+- [ ] To edit audio waveforms
+
+#### Q22. Which tool in Logic Pro is used for time-stretching and pitch-shifting audio regions?
+
+- [ ] Scissors tool
+- [ ] Pencil tool
+- [ ] Eraser tool
+- [x] Flex tool
+
+#### Q23. Which feature in Logic Pro is used to group tracks together for simultaneous editing or processing?
+
+- [ ] Solo
+- [ ] Mute
+- [ ] Bounce
+- [x] Track Stacks
+
+#### Q24. What is the purpose of the Score Editor in Logic Pro?
+
+- [ ] To mix audio tracks
+- [ ] To edit MIDI note events
+- [x] To create and edit music notation
+- [ ] To record automation
+
+#### Q25. In Logic Pro, which feature is used for automating changes in a track's volume, pan, or other parameters over time?
+
+- [ ] Cycle region
+- [ ] Step Sequencer
+- [x] Automation
+- [ ] Audio Units
+
+#### Q26. Which Logic Pro feature is used for creating and organizing different versions of a project for experimentation or collaboration?
+
+- [ ] Marker track
+- [ ] Track Header
+- [x] Alternatives
+- [ ] Smart Controls
+
+#### Q27. What type of audio file format is commonly used for exporting and sharing audio projects in Logic Pro?
+
+- [ ] DOCX
+- [ ] MP4
+- [ ] WAV
+- [x] AIFF
+
+#### Q28. Which Logic Pro feature is used to quantize the timing of MIDI note events to a specific grid or musical time division?
+
+- [ ] Take folders
+- [ ] Arrangement markers
+- [x] MIDI Quantize
+- [ ] Project alternatives
+
+#### Q29 Which tool is used for slicing and editing audio regions in Logic Pro?
+
+- [ ] Brush tool
+- [ ] Text tool
+- [ ] Move tool
+- [x] Marquee tool

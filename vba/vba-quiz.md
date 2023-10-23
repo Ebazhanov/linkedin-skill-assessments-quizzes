@@ -237,7 +237,7 @@ End Type
 - [ ] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
 - [ ] Word's Macro Recorder does not support Find & Replace edits.
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
-- [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
+- [x] Word's Macro Recorder does not record actions that inlove the selection of text by pointing with the mouse pointer.
 
 #### Q16. Which statement should precede a subroutine's error handler?
 
@@ -263,10 +263,10 @@ Dim MyArray(5) As Integer
 
 - [ ] Set establishes a value in a class; Let returns a value from a class.
 - [ ] Let establishes a value in a class; Set returns a value from a class.
-- [x] Let establishes a value in a class; Get returns a value from a class.
+- [x] Let establish a value in a class; Get returns a value from a class.
 - [ ] Get establishes a value in a class; Set returns a value from a class.
 
-#### Q19. A declaration has scope, which has three levels. What are they?
+#### Q19. A declaration has a scope, which has three levels. What are they?
 
 - [ ] Module, Project and Automation
 - [x] Procedure, Private Module and Public Module
@@ -315,7 +315,7 @@ Dim MyArray(5) As Integer
 - [ ] Set Module Level Scope at the top of Module1
 - [x] Set Option Private Module at the top of Module1
 
-#### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
+#### Q26. When used with an array named MyArray, what is the preferred way to set the beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
@@ -444,7 +444,7 @@ End Property
 - [ ] The scope of constants is limited to the procedure that declares them
 - [ ] Constants are declared at compile time, but variables are declared at run time
 - [ ] Once declared in a project, the value of a constant cannot be changed. There is no need to look up the current value of FileCount when it is a constant.
-- [x] The Const declaraton specifies the most efficient type given the constant's value
+- [x] The Const declaration specifies the most efficient type given the constant's value
 
 #### Q34. A VBA project must declare four classes. How many class modules are needed?
 
@@ -513,7 +513,7 @@ Loop
 End Sub
 ```
 
-> The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1
+> The first requirement is to make UserForm1 loaded but not visible, therefore, we need Me.Hide, **Me** in here referring to UserForm1
 
 #### Q37. Which is the correct way to structure a With block?
 
@@ -626,7 +626,7 @@ Sub MySub(OPtional VarA As String, VarB _
 As Variant, Optional VarC as Long)
 ```
 
-#### Q43. What are the two principal kinds of procedure in VBA?
+#### Q43. What are the two principal kinds of procedures in VBA?
 
 - [x] Function and Event
 - [ ] Function and Scope
@@ -801,7 +801,7 @@ End Sub
 
 [Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)
 
-#### Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?
+#### Q59. You want to declare an object that describes cars so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?
 
 ```vb
 If Cars(1).Make="Ford" And Cars (1).MPG > 20

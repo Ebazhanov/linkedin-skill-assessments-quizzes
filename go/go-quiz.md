@@ -582,7 +582,11 @@ fmt.Println(val)
 - [x] 0
 - [ ] NaN
 
-[Go Playground share](https://go.dev/play/p/DjXq9wzJm5M), output:
+1. [The Go Programming Language Specification "Receive operator"](https://go.dev/ref/spec#Receive_operator), Relevant excerpt from the article:
+
+   > _A receive operation on a closed channel can always proceed immediately, yielding the element type's zero value after any previously sent values have been received._
+
+2. [Go Playground share](https://go.dev/play/p/DjXq9wzJm5M), output:
 
 ```text
 0
@@ -708,7 +712,7 @@ fmt.Println(i)
 Program exited.
 ```
 
-#### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
+#### 45. Given the definition of worker below, what is the right syntax to start a goroutine that will call worker and send the result to a channel named ch?
 
 ```go
 func worker(m Message) Result
