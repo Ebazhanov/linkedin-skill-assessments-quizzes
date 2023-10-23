@@ -2332,6 +2332,8 @@ auto x = 4000.22;
 - [ ] double
 - [ ] float
 
+[Reference] : https://stackoverflow.com/questions/1608318/is-bool-a-native-c-type
+
 #### Q141. Identify the correct syntax for declaring arrays in C++.
 
 - [x] int arr[10]
