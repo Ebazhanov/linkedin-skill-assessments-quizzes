@@ -708,7 +708,7 @@ fmt.Println(i)
 Program exited.
 ```
 
-#### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
+#### 45. Given the definition of worker below, what is the right syntax to start a goroutine that will call worker and send the result to a channel named ch?
 
 ```go
 func worker(m Message) Result
