@@ -2490,8 +2490,7 @@ class my_class{
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
 
-
-#### Q155. What is the Rule of Three (or Rule of Five) in C++? 
+#### Q155. What is the Rule of Three (or Rule of Five) in C++?
 
 - [ ] It's a coding guideline that suggests using at least three (or five) comments for every line of code.
 - [ ] It refers to the maximum number of functions that should be defined within a class.
@@ -2504,4 +2503,3 @@ class my_class{
 - [x] `std::unique_ptr` represents exclusive ownership of a dynamically allocated object and cannot be copied, while `std::shared_ptr` allows multiple pointers to share ownership and uses reference counting.
 - [ ] `std::shared_ptr` is used for managing raw pointers, and `std::unique_ptr` is used for managing smart pointers.
 - [ ] `std::unique_ptr` is used for polymorphism, while `std::shared_ptr` is used for memory deallocation.
-
