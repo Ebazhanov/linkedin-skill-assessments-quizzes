@@ -2667,3 +2667,12 @@ The code defines a `square` function to calculate the square of a number. It the
 - [x] char
 - [ ] float
 - [ ] str
+
+#### Q184. In Python, which function is used to read a line from the console input?
+
+-[x] input()
+-[] read_line()
+-[] console_input()
+-[] getline()
+
+[Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)

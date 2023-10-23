@@ -2211,3 +2211,12 @@ console.log(10 + 10);
 - [x] firstName
 - [ ] grand total
 - [ ] function
+
+#### Q165. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
+
+- [x]setTimeout()
+- [] setInterval()
+- [] delay()
+- [] wait()
+
+[Reference](https://www.w3schools.com/js/js_timing.asp)
