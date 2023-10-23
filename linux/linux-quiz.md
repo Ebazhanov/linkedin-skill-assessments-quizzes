@@ -738,7 +738,6 @@ cat < in.txt > out.txt
 - [ ] single
 - [ ] process
 
-
 [Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
