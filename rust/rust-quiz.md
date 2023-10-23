@@ -772,5 +772,3 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] pt(1)
 - [ ] pt.iter().nth(1)
 - [x] pt.1
-
-
