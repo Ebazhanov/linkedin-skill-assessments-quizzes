@@ -2423,6 +2423,8 @@ Both **++a** and **a++** increase the value of a by 1 (ie: 11) and hence k+m bec
 - [x] Terminate the loop
 - [ ] Return a value
 
+[Reference]: (https://www.tutorialspoint.com/cprogramming/c_break_statement.htm)
+
 #### Q151. In C++, what is the purpose of the `const` keyword when used with a variable?
 
 - [x] It makes the variable immutable
