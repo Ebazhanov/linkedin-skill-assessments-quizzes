@@ -15478,6 +15478,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "LinuxSploit",
+      "name": "Bilal Hameed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68427058?v=4",
+      "profile": "http://youtube.com/linuxsploitofficial",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
