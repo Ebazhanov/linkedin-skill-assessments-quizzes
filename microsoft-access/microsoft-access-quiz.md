@@ -134,7 +134,7 @@
 - [x] 2
 - [ ] Normal
 
-#### Q16. What program flow function evaluates a condition and either returns a truepart or a falsepart?
+#### Q16. What program flow function evaluates a condition and returns either a truepart or a falsepart?
 
 - [ ] `Switch()`
 - [ ] `IsError()`
