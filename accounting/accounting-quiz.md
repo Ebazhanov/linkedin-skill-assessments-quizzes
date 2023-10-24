@@ -564,7 +564,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] Determine the client's planned and imminent purchase commitments.
 - [x] Gain a clear and proper understanding of the client's internal control processes.
 
-#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
+#### Q68. At McKay Company, machine hours are limited. Due to limited machine hours,there is more demand for McKay's products than it can produce . To maximize profits, the company should evaluate each product's **\_**.
 
 - [x] contribution margin per unit
 - [ ] segment margin per unit
