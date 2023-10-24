@@ -15488,6 +15488,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ivikashgorai",
+      "name": "Vikash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114097162?v=4",
+      "profile": "https://github.com/ivikashgorai",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Rajarshi101",
+      "name": "Rajarshi Sengupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109743720?v=4",
+      "profile": "https://github.com/Rajarshi101",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

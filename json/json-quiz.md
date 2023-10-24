@@ -1429,21 +1429,14 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] number
 - [ ] string
 
-#### Q111. What does JSON with padding (JSON-P) use to make a request?
-
-- [ ] an `<origin>` element
-- [ ] a header request
-- [x] the `<script>` element
-- [ ] the XMLHttpRequest object
-
-#### Q112. Which is an invalid JSON value?
+#### Q111. Which is an invalid JSON value?
 
 - [ ] `"'|=(_)(X 72(_)|\/||\*'"`
 - [ ] `"|=(_)(X 72(_)|\/||\*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
 - [x] `"\s(_)(X 72(_)|\/||\*"`
 
-#### Q113. What are the valid number types in JSON?
+#### Q112. What are the valid number types in JSON?
 
 - [ ] Whole Numbers and Decimals
 - [ ] Real Numbers and Fractions
