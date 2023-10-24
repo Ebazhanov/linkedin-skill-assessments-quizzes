@@ -2332,6 +2332,8 @@ auto x = 4000.22;
 - [ ] double
 - [ ] float
 
+[Reference] : https://stackoverflow.com/questions/1608318/is-bool-a-native-c-type
+
 #### Q141. Identify the correct syntax for declaring arrays in C++.
 
 - [x] int arr[10]
@@ -2491,3 +2493,12 @@ class my_class{
 - [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
 - [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
+
+#### Q11. What is the purpose of the `constexpr` keyword in C++?
+
+- Ref(https://learn.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170#:~:text=constexpr%20indicates%20that%20the%20value,template%20arguments%20and%20array%20declarations.)
+
+- [ ] It is used to define constants in C++.
+- [ ] `constexpr` is used to specify that a variable is a constant pointer.
+- [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
+- [ ] It is a keyword used to create asynchronous functions.
