@@ -1342,7 +1342,6 @@ class Empty
 - [ ] "when" in Kotlin can only be used with integers.
 - [ ] "when" in Kotlin is less efficient than "switch" in Java.
 
-
 #### Q112. Why does this code snippet not compile?
 
 ```kotlin

@@ -1228,5 +1228,3 @@ recyclerView.setLayoutManager(LinearLayoutManager(this, columnCount))
 - [ ] AsyncTask
 - [ ] IntentService
 - [ ] Thread
-
-

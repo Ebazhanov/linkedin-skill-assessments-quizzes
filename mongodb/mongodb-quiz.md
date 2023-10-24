@@ -762,7 +762,6 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [x] `db.customers.drop();`
 - [ ] `db.customers.delete();`
 
-
 #### Q95. What is the primary advantage of using MongoDB as a NoSQL database over traditional relational databases?
 
 - [ ] Better support for complex joins
