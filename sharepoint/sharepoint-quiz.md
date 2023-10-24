@@ -1,6 +1,6 @@
 ## SharePoint
 
-#### Q1. Which permission allows a user to create lists and document libraries, edit pages, apply themes?
+#### Q1. Which permission allows a user to create lists and document libraries, edit pages,and apply themes?
 
 - [ ] Edit
 - [ ] Contribute
@@ -63,7 +63,7 @@
 - [x] Microsoft 365 admin centre
 - [ ] Microsoft 365 Security
 
-#### Q10. You want to use powershell to retrieve a list of users that are members of the Viewers group in a SharePoint site. Which command do you use?
+#### Q10. You want to use PowerShell to retrieve a list of users that are members of the Viewers group in a SharePoint site. Which command do you use?
 
 - [ ] `Get -SPUserSettingsProviderManager -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`
 - [ ] `Get -SPUser 'https://sharepoint.contoso.com' -Group 'Viewers'`
