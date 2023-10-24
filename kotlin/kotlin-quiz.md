@@ -1342,14 +1342,8 @@ class Empty
 - [ ] "when" in Kotlin can only be used with integers.
 - [ ] "when" in Kotlin is less efficient than "switch" in Java.
 
-#### Q112. What do you understand by Null safety in Kotlin?
 
-- [x] Null safety is a feature that aims to eliminate null reference exceptions.
-- [ ] Null safety is a way to allow all variables to be null by default.
-- [ ] Null safety is a feature that enforces strict type checking.
-- [ ] Null safety is a feature that allows any value to be treated as null.
-
-#### Q113. Why does this code snippet not compile?
+#### Q112. Why does this code snippet not compile?
 
 ```kotlin
 interface Vehicle
@@ -1366,7 +1360,7 @@ fun main() {
 
 [reference](https://kotlinlang.org/docs/interfaces.html)
 
-#### Q114. What is the difference between a primary constructor and a secondary constructor in Kotlin?
+#### Q113. What is the difference between a primary constructor and a secondary constructor in Kotlin?
 
 - [x] A primary constructor is declared in the class header, while a secondary constructor is declared in the class body.
 - [ ] A primary constructor can have only one parameter, while a secondary constructor can have multiple parameters.
