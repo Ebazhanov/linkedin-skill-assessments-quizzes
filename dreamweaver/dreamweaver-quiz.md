@@ -56,14 +56,14 @@
 - [ ] CSS Transforms; properties
 - [ ] Extract; elements
 
-#### Q9. Before deploying a page on a live website, it's a good idea to check the HTML for errors. How do vou do that in Dreamweaver?
+#### Q9. Before deploying a page on a live website, it's a good idea to check the HTML for errors. How do you do that in Dreamweaver?
 
 - [ ] Click Site > Reports > Current Document.
 - [ ] Click Site > Reports > Validate Document (W3C).
 - [x] Click Tools > HTML > Validate Document (W3C).
 - [ ] Click File > Validate > Current Document (W3C).
 
-#### Q10. HTML5 introduced new values for the type attribute of the form < input > element. Which one is not valid?
+#### Q10. HTML5 introduced new values for the type attribute of the form < input > element. Which of the following is not valid?
 
 - [ ] url
 - [ ] email
@@ -91,7 +91,7 @@
 - [ ] Wrap in try/catch, Wrap in condition, Convert to arrow function, Create getters/setters
 - [ ] Create getters/setters, Pull class members up, Convert to arrow function, Wrap in try/catch
 
-#### Q14. How do you move inline styles to a stvle sheet in Dreamweaver?
+#### Q14. How do you move inline styles to a style sheet in Dreamweaver?
 
 - [ ] Click Tools > CSS > Convert Inline Styles.
 - [x] Select the style attribute, right-click, and click Selection > Move CSS Rules.
