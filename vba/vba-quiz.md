@@ -572,12 +572,12 @@ End Sub
 
 - [ ] Arrays cannot be resized more than once.
 - [ ] MyArr was originally declared with three "rows".
-- [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
+- [x] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
 - [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
 
 #### Q39. Which subroutine declaration does not cause a compile error?
 
-- [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
+- [x] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
 - [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
 - [ ] `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`
 - [ ] `Sub Called(Salary As Long, ParamArray Vals() As String)`
@@ -587,7 +587,7 @@ End Sub
 - [ ] Show the form with this statement: `UserForm1.Show vbModal`
 - [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
 - [ ] Set the user from's `SpecialEffect` property to `frmShowModal`
-- [ ] Set the user from's `ShowModal` property to False.
+- [x] Set the user from's `ShowModal` property to False.
 
 #### Q41. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
 
@@ -598,7 +598,7 @@ End Sub
 
 #### Q42. Which procedure declaration is syntactically correct?
 
-- [ ] :
+- [x] :
 
 ```vb
 Sub MySub(VarA As String, Optional VarB _
@@ -650,7 +650,7 @@ As Variant, Optional VarC as Long)
 #### Q46. At which level can you declare a variable in this way: Private TopSecret As String?
 
 - [ ] function
-- [ ] module
+- [x] module
 - [ ] subroutine
 - [ ] procedure
 
@@ -664,7 +664,7 @@ As Variant, Optional VarC as Long)
 #### Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
 
 - [ ] Declare SubB as Sub SubB(Static MyVar).
-- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+- [x] Declare SubB as Sub SubB(ByVal MyVar).
 - [ ] Declare SubB as Sub SubB(MyVar).
 - [ ] Declare SubB as Sub SubB(ByRef MyVar).
 
@@ -676,7 +676,7 @@ End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim 
 ```
 
 - [ ] The correct syntax is ReDim Preserve MyArr(0 To 4, 0 To 4).
-- [ ] You can resize only the last dimension of an array when you specify ReDim Preserve.
+- [x] You can resize only the last dimension of an array when you specify ReDim Preserve.
 - [ ] MyArr was originally declared with three "rows."
 - [ ] Declare SubB as Sub SubB(ByRef MyVar).
 
