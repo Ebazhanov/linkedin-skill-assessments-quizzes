@@ -304,7 +304,7 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-#### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
+#### Q15. How do you write a for-each loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
 - [ ] `for (pencilCase.next()) {}`
@@ -345,7 +345,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `LocalDate.now()`
 - [ ] `Calendar.getInstance().getTime()`
 
-**Explanation:** LocalDate is the newest class added in java 8
+**Explanation:** LocalDate is the newest class added in Java 8
 
 #### Q20. Fill in the blank to create a piece of code that will tell whether `int0` is divisible by `5`:
 
@@ -404,7 +404,7 @@ public class Jedi {
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
-#### Q24. "An anonymous class require a zero-argument constructor." that's not true?
+#### Q24. "An anonymous class requires a zero-argument constructor." that's not true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
 - [x] An anonymous class does not require a zero-argument constructor.
@@ -962,14 +962,14 @@ try {
 - [ ] Hello World!
 - [ ] It will throw runtime exception
 
-#### Q61. Which is not a java keyword
+#### Q61. Which is not a Java keyword
 
 - [ ] finally
 - [ ] native
 - [ ] interface
 - [x] unsigned
 
-**Explanation:** `native` is a part of JNI interface.
+**Explanation:** `native` is a part of the JNI interface.
 
 #### Q62. Which operator would you use to find the remainder after division?
 
@@ -1900,7 +1900,7 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
 
 [Reference](https://www.whitman.edu/mathematics/java_tutorial/java/system/iostreams.html)
 
-#### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
+#### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How would you fix this?
 
 ```java
 double pickle = 2;
@@ -1971,7 +1971,7 @@ public class Main {
 - [ ] String
 
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
-To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is: static
+To make the main method the entry point of the program in Java, we need to use the static keyword. So, the correct answer is: static
 The main method must be declared as public static void main(String[] args) to serve as the entry point for a Java program
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
@@ -2159,7 +2159,7 @@ Queue<Rainfall>
 #### Q149. What is true about a final class?
 
 - [ ] class declared final is a final class.
-- [ ] Final classes are created so the methods implemented by that class cannot be overriddden.
+- [ ] Final classes are created so the methods implemented by that class cannot be overridden.
 - [ ] It can't be inherited.
 - [x] All of the above.
 
