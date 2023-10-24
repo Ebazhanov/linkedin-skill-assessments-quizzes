@@ -2511,3 +2511,12 @@ class my_class{
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
+
+
+#### Q158. What is a C++ smart pointer, and how does it differ from a raw pointer?
+- ref(https://www.reddit.com/r/cpp_questions/comments/8d5ory/when_to_use_a_smart_pointer_a_raw_pointer_or_a/)
+
+- [ ] A C++ smart pointer is used for storing integer values.
+- [ ] Smart pointers are used to create circular references in C++.
+- [ ] A C++ smart pointer is an alias for a raw pointer.
+- [x] A C++ smart pointer is an object that manages the memory of a dynamically allocated object, providing automatic memory management and avoiding common memory-related issues.
