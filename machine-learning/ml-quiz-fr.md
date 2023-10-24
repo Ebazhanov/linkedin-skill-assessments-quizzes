@@ -106,7 +106,7 @@ Note : Il y a des centres de clusters (C0, C1, C2).
 
 #### Q30. Vous avez créé un système d'apprentissage
 
- automatique qui interagit avec son environnement et répond aux erreurs et aux récompenses. Quel type de système d'apprentissage automatique est-ce ?
+automatique qui interagit avec son environnement et répond aux erreurs et aux récompenses. Quel type de système d'apprentissage automatique est-ce ?
 
 - [ ] Apprentissage supervisé
 - [ ] Apprentissage semi-supervisé
