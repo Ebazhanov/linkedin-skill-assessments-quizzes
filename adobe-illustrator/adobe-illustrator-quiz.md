@@ -726,4 +726,4 @@
 - [ ] Scale
 - [ ] Rotate
 - [x] Invert
-- [ ] Reflect 
+- [ ] Reflect

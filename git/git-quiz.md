@@ -1266,7 +1266,6 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
 
-
 #### Q138. What would happen if you ran the `git reset testfile.js` command?
 
 - [ ] testfile.js would be reverted to a blank file.
