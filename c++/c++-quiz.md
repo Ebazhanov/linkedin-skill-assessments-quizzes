@@ -2511,3 +2511,11 @@ class my_class{
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
+
+#### Q27. In C++, what is the purpose of the `noexcept` specifier in a function declaration?
+- REF(https://learn.microsoft.com/en-us/cpp/cpp/noexcept-cpp?view=msvc-170#:~:text=C%2B%2B11%3A%20Specifies%20whether%20a%20function%20might%20throw%20exceptions.)
+
+- [ ] `noexcept` ensures that the function is declared without any parameters.
+- [ ] It specifies that the function should not throw exceptions.
+- [ ] `noexcept` is used to declare pure virtual functions in C++.
+- [x] The `noexcept` specifier indicates that a function should not throw exceptions during its execution.
