@@ -954,5 +954,3 @@ public class Honda extends Car{}
 - [ ] Adele Goldberg
 - [x] Alan Kay
 - [ ] Dennis Ritchie
-
-

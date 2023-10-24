@@ -1429,7 +1429,6 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] number
 - [ ] string
 
-
 #### Q111. Which is an invalid JSON value?
 
 - [ ] `"'|=(_)(X 72(_)|\/||\*'"`
