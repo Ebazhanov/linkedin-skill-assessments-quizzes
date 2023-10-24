@@ -343,7 +343,7 @@ section + p {
   3. Internal; CSS is included within the <head> element of the HTML file.
 ```
 
-#### Q21. Which of the following is true of the SVG image format? (_Alternative_: Which statement about the SVG image format is true?)
+#### Q21. Which statement is true for the SVG image format? 
 
 - [ ] CSS can be applied to SVGs but JavaScript cannot be.
 - [ ] SVGs work best for creating 3D graphics.
