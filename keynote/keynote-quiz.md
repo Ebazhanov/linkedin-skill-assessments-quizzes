@@ -185,12 +185,3 @@ E. Slides
 - [ ] MOV
 
 [Reference](https://videoconvert.minitool.com/video-converter/smallest-video-format.html#:~:text=265%20is%20the%20successor%20to,get%20a%20small%20file%20size.)
-
-#### Q21.
-
-![Four bar charts](images/Q21.png?raw=png)
-
-- [ ] &shy;
-- [ ] &shy;
-- [ ] &shy;
-- [ ] &shy;
