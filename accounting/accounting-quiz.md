@@ -526,7 +526,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 - [ ] An internal control system is not effective until human error is eliminated or migrated.
 - [ ] Any internal control activities evaluated and adopted by a company should never be evaluated in terms of cost-benefit.
-- [ ] Only mid-to large-sized companies and governmental organizations need to ensure proper internal control activities.
+- [ ] Only mid-to-large-sized companies and governmental organizations need to ensure proper internal control activities.
 - [x] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
 
 #### Q63. According to the cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?
