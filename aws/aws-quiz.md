@@ -35,7 +35,7 @@
 - [ ] Simple Queue Service (SQS)
 - [ ] Kinesis Data Streams
 
-#### Q6. You have a large amount of files on your network-attached storage array that must be archived and maintained for a period of 10 years due to industry regulations. This data will be infrequently accessed but must be kept What is the best AWS service for storing this data?
+#### Q6. You have a large amount of files on your network-attached storage array that must be archived and maintained for a period of 10 years due to industry regulations. This data will be infrequently accessed but must be kept. What is the best AWS service for storing this data?
 
 - [ ] EFS
 - [ ] Snowball
