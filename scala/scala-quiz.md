@@ -510,3 +510,12 @@ s"Foo $a?"
 - [ ] Singleton
 - [ ] Collection
 - In Scala, the Option data type is used instead of null for optional values. It is a container that can either hold a value or be empty, and it is used to represent the presence or absence of a value. This makes it safer to work with than using null, as it eliminates the risk of null pointer exceptions.
+
+#### Q61. What is the difference between a Scala trait and an interface?
+
+- [x] A trait can have concrete implementations, while an interface cannot.
+- [ ] An interface can have concrete implementations, while a trait cannot.
+- [ ] Traits can be mixed together, while interfaces cannot.
+- [ ] Interfaces can be mixed together, while traits cannot.
+
+[reference](https://www.geeksforgeeks.org/difference-between-traits-and-abstract-classes-in-scala/)
