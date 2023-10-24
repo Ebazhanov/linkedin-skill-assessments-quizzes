@@ -123,7 +123,8 @@ retourne list(enumerate(annees_college, 2019))
 - [ ] `[('Nouvelle', 2019), ('Deuxième année', 2020), ('Troisième année', 2021), ('Quatrième année', 2022)]`
 - [ ] `[(2019,
 
- 2020, 2021, 2022), ('Nouvelle', 'Deuxième année', 'Troisième année', 'Quatrième année')]`
+2020, 2021, 2022), ('Nouvelle', 'Deuxième année', 'Troisième année', 'Quatrième année')]`
+
 - [ ] `[('Nouvelle', 'Deuxième année', 'Troisième année', 'Quatrième année'), (2019, 2020, 2021, 2022)]`
 - [x] `[(2019, 'Nouvelle'), (2020, 'Deuxième année'), (2021, 'Troisième année'), (2022, 'Quatrième année')]`
 
