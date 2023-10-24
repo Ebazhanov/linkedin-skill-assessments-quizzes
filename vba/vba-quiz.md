@@ -76,7 +76,7 @@ End Sub
 #### Q5. What object is needed to put a userform module in a VBA project?
 
 - [ ] associated standard code module
-- [ ] UserForm
+- [x] UserForm
 - [ ] associated class module
 - [ ] userForm class
 
