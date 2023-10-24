@@ -68,23 +68,23 @@ main()
 - [x] :
 
 ```
-A is greater then B
+A is greater than B
 C is fun!
 ```
 
 - [ ] :
 
 ```
-A is greater then B
-B is greater then A
+A is greater than B
+B is greater than A
 C is fun!
 ```
 
 - [ ] :
 
 ```
-A is greater then B
-B is greater then A
+A is greater than B
+B is greater than A
 ```
 
 - [ ] Nothing is printed on Screen
@@ -131,9 +131,9 @@ struct s {
 
 #### Q6. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
-- [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
+- [ ] The preprocessor will try to locate fileA in the same directory as the source file, and the fileB in a predetermined directory path.
 - [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
-- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
+- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximum of one per source file.
 - [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 [Reference](https://www.geeksforgeeks.org/difference-between-include-and-include-in-c-c-with-examples/#:~:text=The%20difference%20between%20the%20two,be%20included%20in%20the%20code.&text=%23include%20is%20for%20pre%2Ddefined%20header%20files.)
@@ -229,7 +229,7 @@ main(){
 
 - [x] The value of PI needs to be set to 3.141593, not 3.14
 - [ ] The declaration of PI needs to say const, not constant.
-- [ ] The data type of PI needs to be float not int.
+- [ ] The data type of PI needs to be float, not int.
 - [ ] The printf statement needs to use PI, not pi.
 
 #### Q12. Which is the smallest program to compile and run without errors?
@@ -257,7 +257,7 @@ main(){
 - [ ] default.h
 - [ ] string.h
 
-#### Q15. In which segment does dynamic memory allocation takes place?
+#### Q15. In which segment does dynamic memory allocation take place?
 
 - [ ] BSS Segment
 - [ ] stack
@@ -288,7 +288,7 @@ main(){
 
 #### Q18. When is memory for a variable allocated?
 
-- [ ] during the assigment of the variable
+- [ ] during the assignment of the variable
 - [ ] during the initialization of the variable
 - [x] during the declaration of the variable
 - [ ] during the definition of the variable
@@ -422,7 +422,7 @@ int main() {
 - [ ] \*x->y
 - [ ] y->x
 
-#### Q29. Compile time errors are static errors that can be found where in the code?
+#### Q29. Compile time errors are static errors that can be found where in the code.
 
 - [x] in declarations and definitions
 - [ ] in functions and expressions
@@ -616,7 +616,7 @@ main(){
 
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.
-- [ ] An lvalue and an rvalue may appear on either left-hand or right-hand side of an assignment.
+- [ ] An lvalue and an rvalue may appear on either the left-hand or right-hand side of an assignment.
 - [x] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
 
 #### Q44. Which operator is used to access the address of a variable?
@@ -626,7 +626,7 @@ main(){
 - [ ] `*`
 - [x] `&`
 
-#### Q45. Which add function properly returns the updated value of result?
+#### Q45. Which add function properly returns the updated value of the result?
 
 - [x] :
 
@@ -857,7 +857,7 @@ void *vptr=&g;
 - [ ] `f=*(float)vptr;`
 - [ ] `f=(float)*vptr;`
 
-#### Q55. The dynamic memory allocation functions are defined in which system header file ?
+#### Q55. The dynamic memory allocation functions are defined in which system header file?
 
 - [ ] stdio.h
 - [x] stdlib.h
@@ -1244,9 +1244,9 @@ void change(int x,int y)
 - [ ] 20,20
 - [ ] 20,10
 
-**Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
+**Explanation:** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
 
-#### Q78. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
+#### Q78. Choose true or false. When a variable is created in C, a memory address is assigned to the variable.
 
 - [x] True
 - [ ] False
@@ -1273,7 +1273,7 @@ int main()
 - [x] 2011
 - [ ] 01
 
-**Explanation :** char c[ ] = "GATE2011";since char \*p =c it means p represents to the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
+**Explanation:** char c[ ] = "GATE2011"; since char \*p =c it means p represents the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
 
 #### Q80. What is the output of the following code snippet?
 
@@ -1378,7 +1378,7 @@ struct a {
 #### Q86. How are static functions different from global functions?
 
 - [ ] Static functions must be declared in advance of being defined.
-- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions must be declared in a separate header file.
 - [ ] Static functions always return the same value.
 - [x] Static functions can be accessed only in the file where they are declared.
 
