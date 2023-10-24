@@ -2511,3 +2511,13 @@ class my_class{
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
+
+
+
+#### Q159. Explain the purpose of the `std::thread` class in C++.
+- ref(https://www.geeksforgeeks.org/multithreading-in-cpp/)
+
+- [ ] `std::thread` is used to define and manage graphical user interfaces in C++.
+- [ ] It is a class for creating string objects.
+- [ ] `std::thread` is a class for handling exceptions in C++.
+- [x] The `std::thread` class is used to create and manage concurrent threads in C++ programs, allowing for parallel execution of code.
