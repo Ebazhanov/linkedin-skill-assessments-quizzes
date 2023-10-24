@@ -956,3 +956,12 @@ cat < in.txt > out.txt
 - [ ] rm -rf username
 - [ ] mv
 - [ ] delete
+
+#### Q117. What is the kernel of a Linux operating system?
+
+- [x] The core of the operating system that manages the hardware and software resources.
+- [ ] A graphical user interface (GUI) that allows users to interact with the operating system.
+- [ ] A collection of software applications that can be used to perform various tasks, such as web browsing, word processing, and programming.
+- [ ] All of the above
+
+[reference](https://www.suse.com/suse-defines/definition/linux-kernel/#:~:text=The%20Linux%20kernel%20is%20the,interface%20with%20the%20Linux%20kernel.)
