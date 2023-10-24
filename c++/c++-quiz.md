@@ -2511,3 +2511,12 @@ class my_class{
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
+
+
+#### Q157. What is move semantics in C++ and how does it differ from copy semantics?
+- Ref(https://www.educative.io/answers/what-are-move-semantics-and-copy-semantics-in-cpp11)
+
+- [ ] Move semantics refer to transferring ownership of a resource to another object, while copy semantics create a duplicate resource.
+- [ ] Move semantics are used for copying objects, while copy semantics are used for moving objects.
+- [ ] Move semantics and copy semantics are identical concepts in C++.
+- [x] Move semantics allow efficient transfer of resources from one object to another by "moving" rather than copying, reducing unnecessary copying and improving performance.
