@@ -2200,9 +2200,9 @@ label="Endnotes">Endnotes...</custom-footnote>
 ### Q132. What does the HTML `<em>` element represent?
 
 - [x] Stress emphasis, usually displayed as italic text
-- [] Italic text
-- [] A hyperlink
-- [] A line break
+- [ ] Italic text
+- [ ] A hyperlink
+- [ ] A line break
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
