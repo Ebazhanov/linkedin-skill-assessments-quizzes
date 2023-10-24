@@ -2585,12 +2585,12 @@ for x in range(1, len(characters)):
 
 ```
 for i in range(5):
-print (i)
+    print (i)
 else:
-print("Done!")
+    print("Done!")
 ```
 
-- [x]
+- [x] :
 
 ```
 1
@@ -2601,7 +2601,7 @@ Done!
 ```
 
 - [ ] You will get a syntax error.
-- [ ]
+- [ ] :
 
 ```
 0
@@ -2612,7 +2612,7 @@ Done!
 Done!
 ```
 
-- [ ]
+- [ ] :
 
 ```
 1
@@ -2670,9 +2670,9 @@ The code defines a `square` function to calculate the square of a number. It the
 
 #### Q184. In Python, which function is used to read a line from the console input?
 
--[x] input()
--[] read_line()
--[] console_input()
--[] getline()
+- [x] input()
+- [ ] read_line()
+- [ ] console_input()
+- [ ] getline()
 
 [Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)
