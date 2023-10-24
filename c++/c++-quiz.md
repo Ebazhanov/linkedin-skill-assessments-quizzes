@@ -83,7 +83,7 @@ union {
 
 [Reference](https://en.cppreference.com/w/cpp/language/union)
 
-#### Q7. Which of the following operators is overloadable?
+#### Q7. Which of the following operator can be overloaded?
 
 - [ ] `?:`
 - [x] `new`
