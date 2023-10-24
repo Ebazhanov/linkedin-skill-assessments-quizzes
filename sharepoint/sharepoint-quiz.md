@@ -394,7 +394,7 @@
 - [ ] The current group membership page provides shortcuts at the bottom of the page to other groups.
 - [ ] The Getting Started links are updated with groups for easy access.
 
-#### Q49. A user mentios that a list in one site seems different in another site, although the lists are essentially the same. What settings is causing the discrepancy between the lists?
+#### Q49. A user mentions that a list on one site seems different on another site, although the lists are essentially the same. Which settings is causing the discrepancy between the lists?
 
 - [ ] the object permissions
 - [ ] the user permissions
