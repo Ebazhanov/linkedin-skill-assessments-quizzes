@@ -422,7 +422,7 @@ int main() {
 - [ ] \*x->y
 - [ ] y->x
 
-#### Q29. Compile time errors are static errors that can be found where in the code.
+#### Q29. Compile time errors are static errors that can be found in the code.
 
 - [x] in declarations and definitions
 - [ ] in functions and expressions
@@ -874,7 +874,7 @@ void *vptr=&g;
 #### Q57. How are static functions different from global functions?
 
 - [ ] Static functions must be declared in advance of being defined.
-- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions must be declared in a separate header file.
 - [ ] Static functions always return the same value.
 - [x] Static functions can be accessed only in the file where they are declared.
 
@@ -1012,8 +1012,8 @@ int main()
 
 #### Q64. What do the functions malloc() and calloc() allocate?
 
-- [ ] reallocatged memory
-- [ ] static memeory
+- [ ] reallocated memory
+- [ ] static memory
 - [x] dynamic memory
 - [ ] fragmented memory
 
@@ -1029,7 +1029,7 @@ int main()
 
 [Reference](https://devdocs.io/c/string/byte/strstr)
 
-#### Q66. Find the output of the program?
+#### Q66. Find the output of the program.
 
 ```c
 #include <stdio.h>
@@ -1053,7 +1053,7 @@ int main(){
 
 [Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
-#### Q67. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+#### Q67. Predict the output of the following code when the **integer** variables x is initialized to 10,y to 2, and z to 0.
 
 ```c
 z = x + y * x + 10 / 2 * x;
@@ -1103,7 +1103,7 @@ main() {
 - [ ] 5
 - [x] 50
 
-#### Q70. What is /0 character ?
+#### Q70. What is /0 character?
 
 - [ ] String
 - [x] NULL Character
@@ -1112,7 +1112,7 @@ main() {
 
 [Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)
 
-#### Q71. What is correct output for follwing code ?1
+#### Q71. What is the correct output for the following code?
 
 ```c
 #include&lt;stdio.h&gt;
@@ -1135,11 +1135,11 @@ main()
 - [ ] Before a=10 b=20 , After a=20 b=20
 - [x] Before a=10 b=20 , After a=20 b=10
 
-#### Q72. What is Incorrect option that explain # pragma directive ?
+#### Q72. What is the Incorrect option that explains # pragma directive ?
 
 - [ ] #pragma exit allows us to specify functions called upon program exit.
 - [ ] This is a preprocessor directive that can be used to turn on or off certain features.
-- [x] #pragma startup don't allows us to specify functions called upon program startup.
+- [x] #pragma startup doesn't allow us to specify functions called upon program startup.
 - [ ] It is of two types #pragma startup, #pragma exit and pragma warn.
 
 #### Q73. What will be the output of the following code snippet?
@@ -1213,10 +1213,10 @@ int main() {
 int (*ptr)[10];
 ```
 
-- [ ] ptr is array of pointers to 10 integers
+- [ ] ptr is an array of pointers to 10 integers
 - [x] ptr is a pointer to an array of 10 integers
 - [ ] ptr is an array of 10 integers
-- [ ] ptr is an pointer to array
+- [ ] ptr is a pointer to an array
 
 #### Q77. What will be the output of the following code snippet?
 
