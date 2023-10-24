@@ -231,7 +231,7 @@ instance.password
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
 
-#### Q18. What is the purpose of an if/else statement?
+#### Q18. What is the use of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
 - [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
