@@ -1219,7 +1219,6 @@ cat -n animals | sort -r | head -n 5
 - [ ] `my_var`
 - [x] `1var`
 - [ ] `!`
-- [ ] 
 
 #### Q93.In Bash, create a one-liner command that recursively finds all files with the ".txt" extension in a directory and its subdirectories, and counts the total number of lines in those files. The output should only display the total line count.
 
