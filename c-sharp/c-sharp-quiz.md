@@ -887,3 +887,30 @@ public string? nickname
 - [x] `ArgumentNullException`
 
 [Official documentation: ArgumentNullException Class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception?view=net-5.0)
+
+#### Q85. What is the purpose of an interface in C#?
+
+- [ ] Interfaces are used to store data.
+- [x] Interfaces define a contract that classes must adhere to, specifying a set of methods and properties that implementing classes must provide.
+- [ ] Interfaces are used to create instances of classes.
+- [ ] Interfaces are used for code organization.
+
+[Official Documentation: Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
+
+#### Q86. What is the primary purpose of the `finally` block in a C# try-catch-finally statement?
+
+- [ ] The `finally` block is used to handle exceptions.
+- [ ] The `finally` block is used to define the main logic of the try-catch statement.
+- [ ] The `finally` block is optional and not required in try-catch statements.
+- [x] The `finally` block is used to ensure that certain code is executed regardless of whether an exception occurs.
+
+[Official Documentation: try-catch (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch)
+
+#### Q87. Which data structure in C# allows you to store key-value pairs and is often used for quick data retrieval?
+
+- [ ] ArrayList
+- [ ] List
+- [ ] Array
+- [x] Dictionary
+
+[Official Documentation: Dictionary<TKey, TValue> Class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2)
