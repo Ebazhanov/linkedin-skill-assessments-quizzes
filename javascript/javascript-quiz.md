@@ -2221,7 +2221,7 @@ console.log(10 + 10);
 
 [Reference](https://www.w3schools.com/js/js_timing.asp)
 
- #### Q166. Which of the following is a server-side Java Script object?
+#### Q166. Which of the following is a server-side Java Script object?
 
 - [ ] Function
 - [x] File
