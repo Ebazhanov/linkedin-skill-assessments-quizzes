@@ -955,9 +955,4 @@ public class Honda extends Car{}
 - [x] Alan Kay
 - [ ] Dennis Ritchie
 
-#### Q123. What cannot be used for polymorphism?
 
-- [ ] overloading constructors
-- [ ] overloading member functions
-- [x] static member functions
-- [ ] overloading predefined operator
