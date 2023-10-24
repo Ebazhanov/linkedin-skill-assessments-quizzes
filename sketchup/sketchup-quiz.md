@@ -382,3 +382,59 @@
 - [x] when creating the component, select Face Me in the dialog box.
 - [ ] Right-click the component after creating it and select Face Me from the menu.
 - [ ] when creating the component, select Always face camera in the dialog box.
+
+#### Q48. What tool is commonly used to create rounded or curved surfaces in SketchUp?
+
+- [ ] Push/Pull tool.
+- [ ] Line tool.
+- [x] Follow Me tool.
+- [ ] Move tool.
+
+#### Q49. How can you create a copy of a selected object or group in SketchUp?
+
+- [ ] Right-click and choose "Delete" to duplicate it..
+- [ ] Press the "D" key to create a copy.
+- [ ] Use the "Rotate" tool to make a copy.
+- [x] Press the "Ctrl" (or "Cmd" on Mac) key while using the Move tool to copy the selection.
+
+#### Q50. In SketchUp, what is the purpose of the "Eraser" tool?
+
+- [ ] To draw straight lines and shapes.
+- [ ] To add materials and textures to surfaces.
+- [ ] To measure distances and angles.
+- [x] To delete lines and surfaces.
+
+#### Q51. How can you add dimensions and labels to your SketchUp model?
+
+- [ ] Use the Paint Bucket tool.
+- [ ] Right-click on the model and select "Add Dimensions."
+- [x] Select the "Dimension" tool and click on two points in your model.
+- [ ] Use the "Follow Me" tool to extrude labels.
+
+#### Q52. What does the "Outliner" panel in SketchUp allow you to do?
+
+- [ ] Change the background color of your model.
+- [ ] Add new layers to your model.
+- [ ] Apply materials to surfaces.
+- [x] Organize and manage components and groups in your model.
+
+  #### Q53. Which feature in SketchUp allows you to create a 3D model from a 2D image or photo?
+
+- [ ] Match Perspective
+- [ ] Extrusion
+- [x] Match Photo
+- [ ] Scale Tool
+
+  #### Q54. What is the purpose of the "Section Plane" tool in SketchUp?
+
+- [x] To create a cutting plane in your model to show cross-sections.
+- [ ] To add lighting and shading effects to your model.
+- [ ] To create 3D text labels.
+- [ ] To draw circles and ellipses.
+
+#### Q55. How can you apply a specific texture or material to a single face in SketchUp?
+
+- [ ] Use the "Paint Bucket" tool and paint the entire model.
+- [ ] Create a group or component, and then apply the texture.
+- [ ] Right-click on the face and select "Apply Material."
+- [x] Use the "Materials" panel to select and paint individual faces.
