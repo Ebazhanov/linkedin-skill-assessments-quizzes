@@ -835,3 +835,9 @@ Range("b3:f5, c4:d9").Select
 - [x] it specifies the range of cells in which the contents of the offset are to be written
 - [ ] It provides Resize information - in this case, the offset returns a reference of five rows and five columns
 - [ ] It specifies the range of cells at which the offset is to be based
+
+#### Q62.  What does VBA stand for in the context of programming?
+- [ ] Very Basic Application
+- [x] Visual Basic Application
+- [ ] Volatile Business Automation
+- [ ] Visualized Binary Algorithm
