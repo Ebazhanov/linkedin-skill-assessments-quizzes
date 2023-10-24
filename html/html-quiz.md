@@ -2212,3 +2212,10 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] css
 - [x] canvas
 - [ ] art
+
+### Q134. Which attribute is not essential under <iframe>?
+
+- [x] frameborder
+- [ ] width
+- [ ] height
+- [ ] src
