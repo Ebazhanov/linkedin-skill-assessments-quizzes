@@ -1124,3 +1124,17 @@ Table name: superheroes
 -[] To specify a foreign key reference
 
 [Reference](<https://www.w3schools.com/mysql/mysql_primarykey.asp#:~:text=The%20PRIMARY%20KEY%20constraint%20uniquely,or%20multiple%20columns%20(fields).>)
+
+#### Q117. Which of the following is a valid SQL query to insert a new row into the users table?
+
+-[x] INSERT INTO users (name, email) VALUES ('John Doe', 'john.doe@example.com')
+-[ ] ADD users (name, email) VALUES ('John Doe', 'john.doe@example.com')
+-[ ] CREATE users (name, email) VALUES ('John Doe', 'john.doe@example.com')
+-[ ] UPDATE users (name, email) VALUES ('John Doe', 'john.doe@example.com')
+
+#### Q118. Which of the following is a valid SQL query to delete the row with the id of 2 from the users table?
+
+-[x] DELETE FROM users WHERE id = 2
+-[ ] REMOVE FROM users WHERE id = 2
+-[ ] DROP users WHERE id = 2
+-[ ] TRUNCATE users WHERE id = 2
