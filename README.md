@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1560-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1561-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2165,6 +2163,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/piyushk77"><img src="https://avatars.githubusercontent.com/u/109459034?v=4?s=100" width="100px;" alt="Piyush Katyal"/><br /><sub><b>Piyush Katyal</b></sub></a><br /><a href="#design-piyushk77" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=piyushk77" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/margaret-hu"><img src="https://avatars.githubusercontent.com/u/70117942?v=4?s=100" width="100px;" alt="Margaret Hu"/><br /><sub><b>Margaret Hu</b></sub></a><br /><a href="#design-margaret-hu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=margaret-hu" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://youtube.com/linuxsploitofficial"><img src="https://avatars.githubusercontent.com/u/68427058?v=4?s=100" width="100px;" alt="Bilal Hameed"/><br /><sub><b>Bilal Hameed</b></sub></a><br /><a href="#design-LinuxSploit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=LinuxSploit" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ivikashgorai"><img src="https://avatars.githubusercontent.com/u/114097162?v=4?s=100" width="100px;" alt="Vikash"/><br /><sub><b>Vikash</b></sub></a><br /><a href="#design-ivikashgorai" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ivikashgorai" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
