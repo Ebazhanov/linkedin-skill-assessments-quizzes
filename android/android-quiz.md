@@ -1229,9 +1229,4 @@ recyclerView.setLayoutManager(LinearLayoutManager(this, columnCount))
 - [ ] IntentService
 - [ ] Thread
 
-#### Q78. What is the benefit of using @VisibleForTesting annotation?
 
-- [x] to denote that a class, method, or field has its visibility relaxed to make code testable
-- [ ] to denote that a class, method, or field is visible only in the test code
-- [ ] to denote that a class, method, or field has its visibility increased to make code less testable
-- [ ] to throw a run-time error if a class, method, or field with this annotation is accessed improperly
