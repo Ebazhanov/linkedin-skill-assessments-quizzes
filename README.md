@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1562-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1563-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2169,6 +2169,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rajarshi101"><img src="https://avatars.githubusercontent.com/u/109743720?v=4?s=100" width="100px;" alt="Rajarshi Sengupta"/><br /><sub><b>Rajarshi Sengupta</b></sub></a><br /><a href="#design-Rajarshi101" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rajarshi101" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sonicdashh"><img src="https://avatars.githubusercontent.com/u/147204439?v=4?s=100" width="100px;" alt="sonicdashh"/><br /><sub><b>sonicdashh</b></sub></a><br /><a href="#design-sonicdashh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sonicdashh" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
