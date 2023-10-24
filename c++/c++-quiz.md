@@ -2511,3 +2511,12 @@ class my_class{
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
+
+
+#### Q16. What is a template metaprogram in C++?
+- Ref(https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
+
+- [ ] A template metaprogram is a high-level programming language.
+- [ ] It refers to metaprogramming that uses templates in C++.
+- [ ] It's a type of user interface design pattern.
+- [x] A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time.
