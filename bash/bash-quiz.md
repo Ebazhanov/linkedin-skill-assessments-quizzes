@@ -1220,11 +1220,20 @@ cat -n animals | sort -r | head -n 5
 - [x] `1var`
 - [ ] `!`
 
-#### Q93. What is the difference between the > and >> redirection operators?
+#### Q93.In Bash, create a one-liner command that recursively finds all files with the ".txt" extension in a directory and its subdirectories, and counts the total number of lines in those files. The output should only display the total line count.
+
+Which of the following one-liner Bash commands accomplishes this task?
+
+- [ ] `find . -name "*.txt" -exec wc -l {} \; | awk '{total += $1} END {print total}'`
+- [ ] `grep -r ".*\.txt$" | wc -l`
+- [ ] `find . -type f -name "*.txt" | xargs wc -l | tail -n 1`
+- [x] `find . -name "*.txt" -exec cat {} \; | wc -l`
+
+#### Q94. What is the difference between the > and >> redirection operators?
 
 - [x] `> overwrites the contents of the target file, while >> appends to the end of the target file.`
 - [ ] `> redirects input, while >> redirects output.`
 - [ ] `> is used for standard output, while >> is used for standard error.`
 - [ ] `> is a unary operator, while >> is a binary operator.`
 
-  [reference](https://www.shells.com/l/en-US/tutorial/Difference-between-%E2%80%9C%3E%E2%80%9D-and-%E2%80%9C%3E%3E%E2%80%9D-in-Linux#:~:text=So%2C%20what%20we%20learned%20is,to%20modify%20files%20in%20Linux.)
+[reference](https://www.shells.com/l/en-US/tutorial/Difference-between-%E2%80%9C%3E%E2%80%9D-and-%E2%80%9C%3E%3E%E2%80%9D-in-Linux#:~:text=So%2C%20what%20we%20learned%20is,to%20modify%20files%20in%20Linux.)
