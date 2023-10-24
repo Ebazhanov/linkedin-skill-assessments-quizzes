@@ -27,6 +27,8 @@ c = b(1, ceil(end/2));
 - [ ] errors
 - [ ] the value of variables
 
+[Reference](http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/profile.html)
+
 #### Q4. Which code block contains the correct syntax for a `while` loop?
 
 - [ ] A
