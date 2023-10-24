@@ -1365,6 +1365,7 @@ fun main() {
 - [ ] Vehicle lacks a constructor.
 
 [reference](https://kotlinlang.org/docs/interfaces.html)
+
 #### Q114. What is the difference between a primary constructor and a secondary constructor in Kotlin?
 
 - [x] A primary constructor is declared in the class header, while a secondary constructor is declared in the class body.
@@ -1373,5 +1374,3 @@ fun main() {
 - [ ] A primary constructor can only be called once, while a secondary constructor can be called multiple times.
 
 [reference](https://kotlinlang.org/docs/classes.html#constructors)
-      
-
