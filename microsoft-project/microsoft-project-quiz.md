@@ -371,7 +371,7 @@
 - [ ] Resource Overallocation means having too many resources allocated to a task. It can be resolved by adjusting task dependencies.
 - [x] Resource Overallocation means a shortage of resources for a task. It can be resolved by leveling resources or adjusting resource calendars.
 - [ ] Resource Overallocation means having too few resources allocated to a task. It can be resolved by crashing the project schedule.
-- [ ]  Resource Overallocation means not having any resources assigned to a task. It can be resolved by adding more resources.
+- [ ] Resource Overallocation means not having any resources assigned to a task. It can be resolved by adding more resources.
 
 #### Q49. In Microsoft Project, what does "PERT" stand for?
 
@@ -386,5 +386,3 @@
 - [ ] To specify working hours for specific tasks
 - [x] To manage resource availability and working hours
 - [ ] To create Gantt charts
-
-
