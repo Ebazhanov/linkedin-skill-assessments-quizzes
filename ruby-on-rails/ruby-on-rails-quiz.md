@@ -1011,7 +1011,7 @@ end
 `<%= render partial: 'user_info', object: { name: 'user' } %>`
 
 - [ ] `<%= locals.user_info.name %>`
-- [ ] `<%= object.name %>`
+- [x] `<%= object.name %>`
 - [ ] `<%= @user.name %>`
 - [ ] `<%= @user_info.name %>`
 
