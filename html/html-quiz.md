@@ -5,7 +5,7 @@
 - [ ] The `<track>` tag is used for specifying subtitles. It is typically applied as a child of the `<audio>` and `<video>` tags.
 - [ ] The `<track>` tag is used for specifying subtitles. It is typically applied as a child of the `<video>` tag.
 - [ ] The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the `<video>` tag.
-- [x] The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the `<audio>` and `<video>` tag.
+- [x] The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the `<audio>` and `<video>` tags.
 
 #### Q2. What are the best examples of void elements?
 
@@ -35,7 +35,7 @@
 - [ ] `<bold>`
 - [ ] `<b>`
 
-#### Q6. What is the use of `<link>` tag?
+#### Q6. What is the use of the `<link>` tag?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
 - [x] when linking style sheets, favicons, and preloading assets
@@ -44,7 +44,7 @@
 
 #### Q7. What should fill the two blanks in the HTML code below?
 
-```html
+```HTML
 <address ______ _____>
   <span itemprop="streetAddress">6410 Via Real</span><br />
   <span itemprop="addressLocality">Carpinteria</span>,
@@ -58,7 +58,7 @@
 - [ ] `itemscope` `itemref="http://schema.org/PostalAddress"`
 - [ ] `itemid="address"` `itemtype="http://schema.org/PostalAddress"`
 
-#### Q8. What is the use of `<aside>` element?
+#### Q8. What is the use of the `<aside>` element?
 
 - [x] when the content can be removed without detracting from the page's message
 - [ ] for anything you want to move to the side, like a pull quote box, a sidebar, or an image with text wrapping around it
@@ -69,7 +69,7 @@
 
 - [ ] `<svg>, <picture>, <audio>, and <video>`
 - [x] `<picture>, <audio>, and <video>`
-- [ ] It is interchangeable with the `src` attribute, so any element which uses `src` may use `<source>`
+- [ ] It is interchangeable with the `src` attribute, so any element that uses `src` may use `<source>`
 - [ ] `<audio> and <video>`
 
 #### Q10. What is NOT a valid attribute for the `<textarea>` element?
@@ -85,7 +85,7 @@
 
 - [ ] A
 
-```html
+```HTML
 <details>
   <summary>Parmesan Deviled Eggs</summary>
   <p>
@@ -96,7 +96,7 @@
 
 - [ ] B
 
-```html
+```HTML
 <h4>▸ Parmesan Deviled Eggs</h4>
 <p>
   These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
@@ -105,7 +105,7 @@
 
 - [x] C
 
-```html
+```HTML
 <details open>
   <summary>Parmesan Deviled Eggs</summary>
   <p>
@@ -116,7 +116,7 @@
 
 - [ ] D
 
-```html
+```HTML
 <details>
   <h4>▸ Parmesan Deviled Eggs</h4>
   <p>
@@ -127,7 +127,7 @@
 
 #### Q12. What is the purpose of the `<samp>` element?
 
-- [ ] It connects the web browser to a SA-MP server.
+- [ ] It connects the web browser to an SA-MP server.
 - [ ] It identifies enclosed text as a sampler or an example.
 - [x] It identifies sample output from a computer program.
 - [ ] It uses a simple application messaging protocol to connect the browser to a texting device.
@@ -143,8 +143,8 @@
 
 - [ ] post is used for sending information to the server. get is used for retrieving form information from the server.
 - [ ] get is used for sending information to the server. post is used for retrieving form information from the server.
-- [ ] With get, data is included in the form body when send to the server. With post, the data goes through the URL.
-- [x] With post, data is included in the form body when send to the server. With get, the data goes through the URL.
+- [ ] With get, data is included in the form body when sent to the server. With the post, the data goes through the URL.
+- [x] With post, data is included in the form body when sent to the server. With get, the data goes through the URL.
 
 #### Q15. What is the difference between the `<div>` and `<span>` tags?
 
@@ -155,7 +155,7 @@
 
 #### Q16. What should fill the blank in the HTML code below?
 
-```html
+```HTML
 <form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
 ```
 
@@ -164,35 +164,35 @@
 - [ ] type
 - [ ] rel
 
-#### Q17. What is the correct markup for `alt` attribute of an image?
+#### Q17. What is the correct markup for the `alt` attribute of an image?
 
 - [ ] A
 
-```html
+```HTML
 <img src="cubism.jpg" alt="Version of ""Whistler's Mother"" in cubist style">
 ```
 
 - [ ] B
 
-```html
+```HTML
 <img src="cubism.jpg" alt="Version of "Whistler's Mother" in cubist style">
 ```
 
 - [x] C
 
-```html
+```HTML
 <img src="cubism.jpg" alt='Version of "Whistler&apos;s Mother" in cubist style' />
 ```
 
 - [ ] D
 
-```html
+```HTML
 <img src="cubism.jpg" alt="Version of \"Whistler's Mother\" in cubist style">
 ```
 
 #### Q18. In the code below, what is the purpose of the **id** attribute?
 
-```html
+```HTML
 <p id="warning">Be careful when installing this product.</p>
 ```
 
@@ -209,7 +209,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] A
 
-```html
+```HTML
 <p>
   On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -220,7 +220,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <p>
   On July 21, 1969, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -231,7 +231,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <p>
   On July 21, 1969, Neil Armstrong said,
   <q>"One small step for man, one giant leap for mankind."</q>
@@ -240,7 +240,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <p>
   On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -251,7 +251,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q20. What should fill the blank in this HTML code?
 
-```html
+```HTML
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
 ```
 
@@ -273,7 +273,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <label for="example">Make a choice:</label>
 <datalist id="example">
   <option value="Choice 1"></option>
@@ -284,7 +284,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <p>Make a choice:</p>
 <input id="choices" name="example" />
 
@@ -297,7 +297,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
 
@@ -310,7 +310,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] D
 
-```html
+```HTML
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
 
@@ -351,7 +351,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <table>
   <scope cols="2" style="background-color: yellow">
   <tr>
@@ -369,7 +369,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] B
 
-```html
+```HTML
 <table>
   <colgroup span="2" style="background-color: yellow">
   <tr>
@@ -387,7 +387,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <table>
   <group cols="2" style="background-color: yellow">
   <tr scope="row">
@@ -405,7 +405,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <table>
   <columns colspan="2" style="background-color: yellow">
   <tr>
@@ -421,20 +421,20 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q26. What is the `<hr>`tag typically used for? / Alt.: What is the semantic meaning of the `<hr>` tag?
+#### Q26. What is the `<hr>` tag typically used for? / Alt.: What is the semantic meaning of the `<hr>` tag?
 
 - [ ] This tag is depreciated (alt.: deprecated) and should not be used.
 - [x] It designates a topic shift within a section at the paragraph level.
 - [ ] It draws a horizontal line.
 - [ ] It designates a shift of topic at the section level. / Alt.: It designates a separation of sections within an `<article>`.
 
-`This is a confusing question and there can be an arguments for both the second and the third options being correct.`
+`This is a confusing question and there can be arguments for both the second and the third options being correct.`
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HTML `<hr>` element represents a thematic break between paragraph-level elements. Historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.
 
 #### Q27. What should fill the two blanks in the HTML code below?
 
-```html
+```HTML
 <section itemscope itemtype="http://schema.org/Restaurant">
   <h1 itemprop="name">Nadia's Garden</h1>
   <p itemscope ______ ______>
@@ -453,7 +453,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] A
 
-```html
+```HTML
 <a id="top"></a>
 
 <!-- placed at the top of the page -->
@@ -463,7 +463,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <a name="top"></a>
 
 <!-- placed at the top of the page -->
@@ -473,17 +473,17 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <a href="#">back to top</a> <a href="#top">back to top</a>
 ```
 
 - [ ] D
 
-```html
+```HTML
 <button href="#">back to top</button> <button href="#top">back to top</button>
 ```
 
-#### Q29. Which three tags where deprecated in HTML4 but returned to HTML5?
+#### Q29. Which three tags were deprecated in HTML4 but returned to HTML5?
 
 - [x] `<rb> <rp> <rt>`
 - [ ] `<acronym> <code> <wbr>`
@@ -520,29 +520,29 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <p>We are fond of our <span title="three-letter acronyms">TLAs</span> in web design.</p>
 ```
 
 - [ ] B
 
-```html
+```HTML
 <p>We are fond of our TLAs in web design.</p>
 ```
 
 - [x] C
 
-```html
+```HTML
 <p>we are fond of our <abbr title="three-letter acronyms">TLAs</abbr> in web design.</p>
 ```
 
 - [ ] D
 
-```html
+```HTML
 <p>we are fond of our <acronym title="three-letter acronym">TLAs</acronym> in web design.</p>
 ```
 
-`<acronym>` has been removed in HTML5 and shouldn't be used anymore. Instead web developers should use the `<abbr>` element.
+`<acronym>` has been removed in HTML5 and shouldn't be used anymore. Instead, web developers should use the `<abbr>` element.
 
 #### Q34. What is the correctly nested markup for this list?
 
@@ -550,7 +550,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <ul>
   <li>
     office
@@ -570,7 +570,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] B
 
-```html
+```HTML
 <ul>
   <li>
     Office Supplies
@@ -590,7 +590,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <ul>
   <li>office</li>
   <li>staple</li>
@@ -600,9 +600,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </ul>
 ```
 
-#### Q35. What should fill the blank below?
+#### Q35. What should fill in the blank below?
 
-```html
+```HTML
 <link href="phone.css" rel="stylesheet" _____="print" />
 ```
 
@@ -617,7 +617,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <p>
   "Making money is what you have to do to sustain a business—being driven to make something of value
   and purpose is much more powerful."
@@ -627,7 +627,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <blockquote>
   <q
     >"Making money is what you have to do to sustain a business—being driven to make something of
@@ -704,7 +704,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `keyboard`
 - [ ] `access`
 
-#### Q42. What is the correct way to code a link that, when clicked, will send an email to `email@example.com` with a subject of "Hello"?
+#### Q42. What is the correct way to code a link that, when clicked, will send an email to `email@example.com` with the subject of "Hello"?
 
 - [ ] `<a href="mailto:email@example.com&subject=Hello">Click me</a>`
 - [ ] `<a href="mailto:email@example.com">Hello</a>`
@@ -718,7 +718,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `<body>`
 - [ ] `<root>`
 
-`The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it. The html element represents the root of a document.`
+`The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it. The HTML element represents the root of a document.`
 
 1. [Source](https://www.interviewbit.com/html-mcq/)
 2. [Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
@@ -729,7 +729,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -741,7 +741,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -751,7 +751,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] C
 
-```html
+```HTML
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -763,7 +763,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -784,7 +784,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <form>
   <legend>Title</legend>
   <fieldset>
@@ -797,7 +797,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -810,7 +810,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] C
 
-```html
+```HTML
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -823,7 +823,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <form>
   <legend>Title</legend>
   <label for="name">Your name:</label>
@@ -834,18 +834,18 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q47. What does the **poster** attribute do in the `<video>` tag?
 
-- [x] It specifies an image that should display while the video downloads and until the video is played.
+- [x] It specifies an image that should be displayed while the video downloads and until the video is played.
 - [ ] It specifies an image that only displays if there is a problem with the video.
-- [ ] It specifies an image that should display until the video is played.
-- [ ] It specifies an image that should display while the video downloads.
+- [ ] It specifies an image that should be displayed until the video is played.
+- [ ] It specifies an image that should be displayed while the video downloads.
 
 #### Q48. What does this code do?
 
-```html
+```HTML
 <audio controls src="sound.mp3" type="audio/mpeg">When does this text display?</audio>
 ```
 
-- [ ] The text displays over the audio controls, unless CSS is used to position it elsewhere.
+- [ ] The text displays over the audio controls unless CSS is used to position it elsewhere.
 - [ ] The text displays under the audio controls.
 - [x] The text displays when the browser cannot play the sound.
 - [ ] The text never displays.
@@ -866,7 +866,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q51. In the code below, what is the purpose of the **lang** attribute?
 
-```html
+```HTML
 <p lang="en-GB">Welcome to our wonderful website.</p>
 ```
 
@@ -884,7 +884,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q53. Review the code below. What is the absolute URL for a page called **page.html**?
 
-```html
+```HTML
 <base href="http://www.linkedin.com/dir/" />
 ```
 
@@ -912,11 +912,11 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] It requires the browser to wrap the current line at that point.
 - [ ] It breaks a word into two pieces, using a hyphen to connect the words.
 - [ ] It formats a sentence to be easily breakable.
-- [x] It presents an opportunity for a break in a very long word, if needed for proper page display.
+- [x] It presents an opportunity for a break in a very long word if needed for proper page display.
 
 #### Q57. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
-```html
+```HTML
 <nav>
   <ul>
     <li><a href="#">Link 1</a></li>
@@ -928,7 +928,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <nav>
   <ul>
     <li><a href="#">Link 1</a></li>
@@ -943,7 +943,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] B
 
-```html
+```HTML
 <nav>
   <ul>
     <li><a href="#">Link 1</a></li>
@@ -960,7 +960,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <ul>
   <nav>
     <li><a href="#">Link 1</a></li>
@@ -979,7 +979,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <nav>
   <ul>
     <li><a href="#">Link 1</a></li>
@@ -1010,7 +1010,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q60. What is the best semantic to use Quotes in HTML?
 
-`Steve Kruz Said: "He will Win"`
+`Steve Kruz said: "He will Win"`
 
 - [x] `<q>`
 - [ ] `<quote>`
@@ -1031,7 +1031,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 #### Q62. What is the correct way to describe an empty element / Alt.: What is the correct way to describe an empty element, such as a line break tag?
 
 - [ ] It has opening and closing tags but no child content.
-- [ ] It display nothing on a website.
+- [ ] It displays nothing on a website.
 - [x] It has no child content and no closing tag.
 - [ ] It has child content but no closing tag.
 
@@ -1052,7 +1052,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
-- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
+- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any time.
 - [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
 
 1. [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
@@ -1063,7 +1063,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
 - [x] all of these answers
-- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
+- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page-identifying content.
 
 #### Q66. In this code, what is the purpose of defer?
 
@@ -1076,7 +1076,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q67. The code below contains some errors. Which choice corrects all of the errors?
 
-```html
+```HTML
 <table>
   <tr>
     Cell 1
@@ -1090,7 +1090,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <caption>
   A table
 </caption>
@@ -1108,7 +1108,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <caption>
   A table
 </caption>
@@ -1122,7 +1122,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] C
 
-```html
+```HTML
 <table>
   <caption>
     A table
@@ -1136,7 +1136,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```html
+```HTML
 <table>
   <tr>
     <td>Cell 1</td>
@@ -1148,7 +1148,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q68. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+#### Q68. Given the file and directory structure shown here, what is the correct element to place in the file profit.html to link to info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1170,7 +1170,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```html
+```HTML
 <area />
 <embed />
 <strong></strong>
@@ -1178,7 +1178,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```html
+```HTML
 <input />
 <br />
 <p></p>
@@ -1186,7 +1186,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```html
+```HTML
 <link>
 <meta>
 <title>
@@ -1194,7 +1194,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] D
 
-```html
+```HTML
 <wbr />
 <base />
 <source />
@@ -1293,7 +1293,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```html
+```HTML
 <h4>Mailing Address</h4>
 <address>
   6410 Via Real <br />
@@ -1304,7 +1304,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```html
+```HTML
 <h4><strong>Mailing Address</h4>
 <address><em>
   6410 Via Real <br>
@@ -1315,7 +1315,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```html
+```HTML
 <h4>Mailing Address</h4>
 <p>
   <em>
@@ -1328,7 +1328,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```html
+```HTML
 <p><strong>Mailing Address</strong></p>
 <p>
   <em>
@@ -1341,7 +1341,7 @@ As Steve Krug once said, happy talk must die.
 
 [Source: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
 
-`The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.`
+`The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italics, and browsers will always add a line break before and after the <address> element.`
 
 #### Q77. What is the primary purpose of HTML?
 
@@ -1365,7 +1365,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q79. How will this code render by default in most web browsers?
 
-```html
+```HTML
 <details>
   <h4>Mixed Berry Tart.</h4>
   <p>
@@ -1413,29 +1413,29 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] A
 
-```html
+```HTML
 <button submit="http://example.com/process">Process data</button>
 ```
 
 - [ ] B
 
-```html
+```HTML
 <button action="http://example.com/process">Process data</button>
 ```
 
 - [x] C
 
-```html
+```HTML
 <button formaction="http://example.com/process">Process data</button>
 ```
 
 - [ ] D
 
-```html
+```HTML
 <button method="http://example.com/process">Process data</button>
 ```
 
-`formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
+`formation — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
 
 #### Q84. Which is the best markup to produce this text?
 
@@ -1447,11 +1447,11 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>x<y&z>w</p>`
 
 `This question has an issue, however this answer will count as correct`
-`It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
+`It's too strange a question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
 
 #### Q85. What is wrong with this code snippet?
 
-```html
+```HTML
 <label>Address:</label> <input type="text" name="address" id="address-input" />
 ```
 
@@ -1474,7 +1474,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>` Get 10% discount `<comment>`not valid in France`</comment></p>`
 - [ ] `<p>` Get 10% discount `<aside>`not valid in France`</aside></p>`
 
-#### Q88. Which choice will produce the spanish word <i>canción</i>?
+#### Q88. Which choice will produce the Spanish word <i>canción</i>?
 
 - [x] `<p lang="es">canción</p>`
 - [ ] `<p lang="es">canci&oacuten</p>`
@@ -1492,7 +1492,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```html
+```HTML
 <li>
   <input />
   <option></option>
@@ -1501,7 +1501,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```html
+```HTML
 <input>
 <option>
 <textarea>
@@ -1509,7 +1509,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```html
+```HTML
 <button>
   <input />
   <form></form>
@@ -1518,7 +1518,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```html
+```HTML
 <input /> <label> <meter></meter></label>
 ```
 
@@ -1538,7 +1538,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
 
-**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence.`<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a <dl> element.`<br>`**Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
+**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence.`<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside an <dl> element.`<br>`**Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
@@ -1546,7 +1546,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] :
 
-```html
+```HTML
 <input type="radio" name="example" /> Choice 1 <br />
 <input type="radio" name="example" /> Choice 2 <br />
 <input type="radio" name="example" /> Choice 3
@@ -1554,7 +1554,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] :
 
-```html
+```HTML
 <input type="checkbox" name="example" /> Choice 1 <br />
 <input type="checkbox" name="example" /> Choice 2 <br />
 <input type="checkbox" name="example" /> Choice 3
@@ -1562,7 +1562,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] :
 
-```html
+```HTML
 <label><input type="checkbox" name="example" /> Choice 1</label><br />
 <label><input type="checkbox" name="example" /> Choice 2</label><br />
 <label><input type="checkbox" name="example" /> Choice 3</label>
@@ -1570,13 +1570,13 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] :
 
-```html
+```HTML
 <label><input type="radio" name="example" /> Choice 1</label><br />
 <label><input type="radio" name="example" /> Choice 2</label><br />
 <label><input type="radio" name="example" /> Choice 3</label>
 ```
 
-`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
+`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated as you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally, this is a square but it may have rounded corners.`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
@@ -1601,18 +1601,18 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<input type="number" min="0" max="100" step="5" />`
 - [ ] `<input type="number" min="0" max="100" by="5" />`
 
-`<input> elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The step attribute is a number that specifies the granularity that the value must adhere to.`
+`<input> elements of type range let the user specify a numeric value which must be no less than a given value and no more than another given value. The step attribute is a number that specifies the granularity that the value must adhere to.`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
 
-#### Q97. Which choice is valid markup for a `<head>` element?
+#### Q97. Which choice is a valid markup for a `<head>` element?
 
 - [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
 - [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
-`The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
+`The <head> HTML element contains machine-readable information (metadata) about the document, like its title. The <data> tag is used to add a machine-readable translation of a given content.`
 [Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
 [Source 2](https://www.w3schools.com/tags/tag_data.asp)
 
@@ -1658,7 +1658,7 @@ As Steve Krug once said, happy talk must die.
 </div>
 ```
 
-`The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
+`The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example: a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
 #### Q99. To make something editable by the user, you need to set the **\_** attribute to **\_**
@@ -1711,7 +1711,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```html
+```HTML
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1722,7 +1722,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```html
+```HTML
 <dt>
   <dl>Server</dl>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1733,7 +1733,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```html
+```HTML
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1744,7 +1744,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```html
+```HTML
 <dl>
   <dd>Server</dd>
   <dt>Software used to serve webpages, like Apache.</dt>
@@ -1786,7 +1786,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```html
+```HTML
 <table>
   <thead scope="row">
     <th row="1">Header</th>
@@ -1800,7 +1800,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```html
+```HTML
 <table>
   <tr>
     <th scope="row">Header</th>
@@ -1812,7 +1812,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```html
+```HTML
 <table>
   <tr>
     <thead scope="row">
@@ -1826,7 +1826,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```html
+```HTML
 <table>
   <tr>
     <th>Header</th>
@@ -1847,7 +1847,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q108. Users report that a form is not working. What is the culprit?
 
-```html
+```HTML
 <form action="/choices" disabled>
   <fieldset disabled>
     <legend>choices</legend>
@@ -1871,7 +1871,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [x] A
 
-```html
+```HTML
 <dl>
   <dt>Server</dt>
   <dd>Software used to server webpages, like Apache.</dd>
@@ -1882,7 +1882,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] B
 
-```html
+```HTML
 <dl>
   <dd>Server</dd>
   <dt>Software used to server webpages, like Apache.</dt>
@@ -1893,7 +1893,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] C
 
-```html
+```HTML
 <dt>
     <dl>Server</dl>
     <dd>Software used to server webpages, like Apache.</dd>
@@ -1904,7 +1904,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] D
 
-```html
+```HTML
 <dl>
   <dt>Server</dt>
   <dd>Software used to server webpages, like Apache.</dd>
@@ -1913,7 +1913,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </dl>
 ```
 
-#### Q110. what does the a in the html a tag stands for?
+#### Q110. what does the a in the HTML tag stand for?
 
 - [ ] assign
 - [ ] add tag
@@ -1981,7 +1981,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] A
 
-```html
+```HTML
 <a href="#additional-information" class="Card">
   <video src="media.mp4" width="400" height="300"></video>
 </a>
@@ -1989,7 +1989,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [x] B
 
-```html
+```HTML
 <a href="#additional-information" class="Card">
   <details>
     <summary>Additional Information</summary>
@@ -1999,7 +1999,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] C
 
-```html
+```HTML
 <a href="#additional-information" class="Card">
   <p>Additional Information</p>
   <p></p
@@ -2062,34 +2062,34 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] A
 
-```html
+```HTML
 <custom-sidebar aria-label-"Sidebar"›Sidebar...</custom-sidebar><custom-footnote aria-
 label="Endnotes">Endnotes...</custom-footnote>
 ```
 
 - [x] B
 
-```html
+```HTML
 <aside role="sidebar">Sidebar...</aside>
 <aside role="notes">Endnotes...</aside>
 ```
 
 - [ ] C
 
-```html
+```HTML
 <aside role="complementary">Sidebar...</aside>
 <aside role="supplementary">Endnotes...</aside>
 ```
 
 - [ ] D
 
-```html
+```HTML
 <aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
 ```
 
 [Source](https://www.w3.org/TR/wai-aria-practices-1.2/#doc_noteref)
 
-#### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
+#### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accessible?
 
 - [x] `<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>`
 - [ ] `<custom-sidebar aria-label="Sidebar">Sidebar...</custom-sidebar><custom-footnote aria-label="Endnotes">Endnotes...</custom-footnote>`
@@ -2109,7 +2109,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 #### Q127. In which order will these scripts execute, assuming they all take the same time to download?
 
-```html
+```HTML
 <script type="module" src="module.js"></script>
 // external module
 <script type="async" src="module.js"></script>
@@ -2137,7 +2137,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 #### Q129. Users report that a form is not working. What is the culprit?
 
-```html
+```HTML
   <form action="/choices" disabled>
     <fieldset disabled>
       <legend>Choices</legends>
@@ -2157,7 +2157,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 #### Q130. What is wrong with this table?
 
-```html
+```HTML
 <table>
   <legend>A two body table!</legend>
   <col />
@@ -2186,7 +2186,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 #### Q131. In this code, what is the purpose of the `id` attribute?
 
-```html
+```HTML
 <p id="warning">Be careful when installing this product.</p>
 ```
 
