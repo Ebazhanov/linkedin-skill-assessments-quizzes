@@ -770,3 +770,31 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 - [ ] Fixed data structure
 
 _Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional relational databases is its schema flexibility.
+
+#### Q96. What is true about indexes?
+
+- [x] They speed up read access while slowing down writes.
+- [ ] They secure the database from intruders.
+- [ ] They speed up reads and writes.
+- [ ] They speed up write access while slowing down reads.
+
+#### Q97. From the MongoDB shell, how do you execute a JavaScript file named list.js?
+
+- [ ] node 'list.js'
+- [ ] exec('list.js)
+- [ ] run('list.js)
+- [x] load('list.js)
+
+#### Q98. Which MongoDB shell query will sort the customer's collection by name descending?
+
+- [ ] db.customers.sort({name: -1}.find({})
+- [ ] db.customers.sort({name: -1})
+- [x] db.customers.find({}).sort({name: -1})
+- [ ] db.customers.find({}).sort({name: 1})
+
+#### Q99. On a newly created collection, which field will have an index?
+
+- [ ] the name field
+- [ ] the ObjectId field
+- [x] the `_id` field
+- [ ] no field will have an index
