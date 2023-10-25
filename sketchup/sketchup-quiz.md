@@ -434,6 +434,101 @@
 
 #### Q55. How can you apply a specific texture or material to a single face in SketchUp?
 
+- [x] Click File > Save
+- [ ] Use the Export tool
+- [ ] Press Ctrl+S (or Command+S on Mac)
+- [ ] It's automatically saved
+
+#### Q36. How do you add to a selection?
+
+- [ ] Activate the Select tool, hold down the Tab key, and click each entity that you would like to add to the selection set.
+- [ ] Hold down the A key, activate the Select tool, and click each entity that you would like to add to the selection set.
+- [x] Activate the Select tool, hold down the Shift key, and click each entity you would like to add to the selection set.
+- [ ] Activate the Select tool, press the Plus Sign (+), and click each entity that you would like to add to the selection set.
+
+#### Q37. what is the purpose of the 2D people included in some sketchUp templates?
+
+- [ ] to create a point of inference
+- [x] to show a scale reference
+- [ ] to introduce you to SketchUp staff
+- [ ] to practice using the Select and Eraser tools
+
+#### Q38. How would you move a group from an existing layer called walls to an existing layer called Ceiling?
+
+- [x] Right-click the group and select Entity info, and then use the drop-down menu and select ceiling.
+- [ ] Right-click the group and select Make Component.Then, in the component dialog box, select the Ceiling layer.
+- [ ] Right-click the group and select Layers, and then use the drop-down menu and select ceiling.
+- [ ] Right-click the group and select edit Group > Layers, and then use the drop-down menu and select ceiling.
+
+#### Q39. which method creates a perpendicular view of a section cut?
+
+- [x] Right-click the section plane and select Align View.
+- [ ] click view > Section Plane Direct.
+- [ ] orbit and pan through your model until you see the correct view.
+- [ ] Right-click the section plane and select orbit to Direct View.
+
+#### Q40. How many edges are in this image?
+
+![sketchup image](images/image16.png)
+
+- [x] seven
+- [ ] eight
+- [ ] three
+- [ ] four
+
+#### Q41. What action is being demonstrated in this image?
+
+![sketchup image](images/image17.png)
+
+- [ ] Offset
+- [ ] Rise
+- [x] Inference
+- [ ] Pull
+
+#### Q42. what is the Hybrid rendering option for in Layout?
+
+- [ ] This option is used when there is more than one scale among multiple viewports on a page.
+- [x] It combines scalable vector linework with raster rendering for materials.
+- [ ] It combines scalable vector linework with faster rendering speed.
+- [ ] There are not any rendering options in Layout.
+
+#### Q43. When some faces are oriented correctly and others are not, what is considered the most efficient way to correctly orient all faces?
+
+- [ ] Select all geometry and choose orient Faces.
+- [ ] Hold the Shift key and select all backward faces, right-click the selection, and select Reverse Faces.
+- [x] Right-click a correctly oriented face and select orient Faces.
+- [ ] Right-click each backward face and select Reverse Face.
+
+#### Q44. How do you sample a material that has been used in the model?
+
+- [ ] In the Tools drop-down menu, select Material, right-click the material, and select Texture > Sample.
+- [ ] Activate the Paint Bucket tool, right-click the material, and select Texture > Sample.
+- [ ] Open the Materials window. Under the Colors In Model file, scroll down until you find the reference material, and then click the thumbnail.
+- [x] Activate the Paint Bucket tool, hold down Ctrl (Command), and then click the material that has already been applied to a face in the model.
+
+#### Q45. The cube on the bottom is in one group and the cube on top is in another group.How can you keep them in two separate groups,but have them appear as one when not selected?
+
+![sketchup image](images/image18.png)
+
+- [ ] Erase the bottom edges in the top group and the top edges in the bottom group.
+- [ ] Extrude both farther so that the geometry is overlapping.
+- [ ] offset the bottom of the top group and the top of the bottom group.
+- [x] Hide the bottom edges in the top group and the top edges in the bottom group.
+
+#### Q46. How can you create a component that will always face your view?
+
+- [ ] Right-click the component after creating it and select Always face camera from the menu.
+- [x] when creating the component, select Face Me in the dialog box.
+- [ ] Right-click the component after creating it and select Face Me from the menu.
+- [ ] when creating the component, select Always face camera in the dialog box.
+
+#### Q47. which icon represents a tool that will extrude a surface?
+
+- [ ]![sketchup image](images/image8.png)
+- [x]![sketchup image](images/image13.png)
+- [ ]![sketchup image](images/image14.png)
+- [ ]![sketchup image](images/image15.png)
+
 - [ ] Use the "Paint Bucket" tool and paint the entire model.
 - [ ] Create a group or component, and then apply the texture.
 - [ ] Right-click on the face and select "Apply Material."
