@@ -1285,3 +1285,19 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+#### Q141. Explain the concept of "Git blame" and when it is used in a version control workflow.
+
+- ref(https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
+
+- [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
+- [ ] It's used for blaming others for code issues in a collaborative project.
+- [ ] Git blame is a feature for tracking the location of bugs in code.
+- [x] Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship.
+
+#### Q142. What is the purpose of C++ move constructor, and when is it automatically generated?
+
+- [ ] A move constructor creates deep copies of objects, improving memory efficiency.
+- [ ] It is generated when you explicitly define a copy constructor.
+- [ ] The move constructor is used for copying objects between different data types.
+- [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.
