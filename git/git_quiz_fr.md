@@ -175,7 +175,6 @@ problème ?
 [Référence](https://git-scm.com/docs/git-diff-tree)
 [Référence](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
 
-
 #### Q16. What files is this .gitignore programmed to leave out?
 
 ```shell

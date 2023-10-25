@@ -229,7 +229,6 @@ a {
 - [ ] bleu
 - [ ] rouge
 
-
 #### Q16. Lorsque des éléments se chevauchent, ils sont ordonnés sur l'axe z (c'est-à-dire quel élément en couvre un autre). La propriété z-index peut être utilisée pour spécifier l'ordre z des éléments chevauchants. Quel ensemble d'affirmations concernant la propriété z-index est vrai ?
 
 - [x] Les valeurs de z-index plus élevées apparaissent au-dessus des éléments avec une valeur de z-index inférieure. Des nombres négatifs et positifs peuvent être utilisés. z-index ne peut être utilisé que sur des éléments positionnés.
