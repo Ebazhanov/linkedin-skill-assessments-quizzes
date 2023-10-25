@@ -2404,3 +2404,10 @@ cout<<k+m;
 - [ ] 21
 - [x] 22
 - [ ] 23
+
+#### Q149.Identify the correct example for a pre-increment operator.
+
+- [x] ++i
+- [ ] i++
+- [ ] --i
+- [ ] +i
