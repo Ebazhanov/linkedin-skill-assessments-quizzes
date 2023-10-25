@@ -1285,3 +1285,11 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+#### Q142. Explain the concept of "Git blame" and when it is used in a version control workflow.
+- ref(https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
+
+- [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
+- [ ] It's used for blaming others for code issues in a collaborative project.
+- [ ] Git blame is a feature for tracking the location of bugs in code.
+- [x] Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship.
