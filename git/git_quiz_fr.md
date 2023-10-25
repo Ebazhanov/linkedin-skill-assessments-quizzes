@@ -103,7 +103,7 @@ Ainsi, cette séquence de commandes permet de cherry-pick un commit spécifique 
 
 #### Q9. Vous trouvez un bogue dans votre projet, mais vous ne pouvez pas localiser où il a été introduit dans l'historique des commits. Comment diagnostiqueriez-vous ce
 
- problème ?
+problème ?
 
 - [ ] Revenez manuellement en arrière dans votre historique des commits.
 - [ ] Utilisez git search -diff pour comparer tous les commits de l'historique de votre référentiel.
