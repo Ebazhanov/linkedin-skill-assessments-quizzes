@@ -74,7 +74,7 @@
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
-#### Q10. You want a form to appear automatically, whenever the database starts. How do you do this?
+#### Q10. You want a form to appear automatically, whenever the database starts. How would you do this?
 
 - [ ] In the **Access Options** dialog box, click **Current Database**, then select the form you want to open in the **Display Form** property
 - [x] Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**
