@@ -1285,3 +1285,12 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+
+#### Q143. What is the "Git rerere" feature, and how does it aid in resolving conflicts?
+- REF(https://git-scm.com/book/en/v2/Git-Tools-Rerere#:~:text=The%20git%20rerere%20functionality%20is,resolve%20it%20for%20you%20automatically.)
+
+- [ ] Git rerere is a command for re-releasing Git repositories.
+- [ ] It's a tool for restarting Git operations.
+- [ ] Git rerere is used to reject or revert changes.
+- [x] Git rerere, short for "reuse recorded resolution," helps in automatically resolving similar merge conflicts by reusing resolutions from previous conflicts.
