@@ -304,7 +304,7 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-#### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
+#### Q15. How do you write a for-each loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
 - [ ] `for (pencilCase.next()) {}`
