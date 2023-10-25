@@ -413,6 +413,8 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
 - [x] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
 
+[Reference](https://www.geeksforgeeks.org/difference-between-public-and-private-in-c-with-example/)
+
 #### Q28. What is the value of `x` after executing this code?
 
 ```cpp
