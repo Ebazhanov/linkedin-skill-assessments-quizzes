@@ -1442,3 +1442,52 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] Real Numbers and Fractions
 - [x] Integer, Floating Points, and Exponents (Scientific Notation, e.g., 3e4)
 - [ ] Prime Numbers and Complex Numbers
+
+#### Q114. What is the purpose of JSON Web Tokens (JWT)?
+
+- [ ] To validate JSON data
+- [ ] To store sensitive information
+- [x] To represent information between parties
+- [ ] To create JSON schemas
+
+#### Q115. What is JSON-RPC used for?
+
+- [x] Remote procedure calls encoded in JSON
+- [ ] Rendering graphics in web applications
+- [ ] JavaScript execution control
+- [ ] Data validation in JSON
+
+#### Q116. Which of the following is a key difference between JSON and XML?
+
+- [ ] JSON uses tags
+- [ ] XML is more lightweight
+- [x] JSON is easier for humans to read
+- [ ] XML is used for programming, while JSON is for data exchange
+
+#### Q117. Which HTTP header is commonly used to prevent cross-site scripting (XSS) attacks when working with JSON?
+
+- [ ] Content-Encoding
+- [x] Access-Control-Allow-Origin
+- [ ] JSON-Security
+- [ ] XSS-Prevention
+
+#### Q118. What does the JSON Merge Patch format allow you to do?
+
+- [ ] Combine multiple JSON documents into one
+- [x] Partially update a JSON document
+- [ ] Compress JSON data for storage
+- [ ] Convert JSON to XML
+
+#### Q119. Which method is used to parse a JSON string and return a JavaScript object in modern web browsers?
+
+- [ ] parseJSON()
+- [x] JSON.parse()
+- [ ] evalJSON()
+- [ ] loadJSON()
+
+#### Q120. What is the primary purpose of JSON-LD (JSON Linked Data)?
+
+- [ ] To enable two-way data binding in JavaScript
+- [ ] To represent data in a more human-readable format
+- [x] To express structured data that is linked to other data
+- [ ] To create dynamic web pages with JSON
