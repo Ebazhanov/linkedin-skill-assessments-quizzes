@@ -228,3 +228,231 @@ a {
 - [x] jaune
 - [ ] bleu
 - [ ] rouge
+
+#### Q16. Lorsque des éléments se chevauchent, ils sont ordonnés sur l'axe z (c'est-à-dire quel élément en couvre un autre). La propriété z-index peut être utilisée pour spécifier l'ordre z des éléments chevauchants. Quel ensemble d'affirmations concernant la propriété z-index est vrai ?
+
+- [x] Les valeurs de z-index plus élevées apparaissent au-dessus des éléments avec une valeur de z-index inférieure. Des nombres négatifs et positifs peuvent être utilisés. z-index ne peut être utilisé que sur des éléments positionnés.
+- [ ] Les valeurs de z-index plus faibles apparaissent au-dessus des éléments avec une valeur de z-index plus élevée. Des nombres négatifs et positifs peuvent être utilisés. z-index doit également être utilisé avec des éléments positionnés.
+- [ ] Les valeurs de z-index plus élevées apparaissent au-dessus des éléments avec une valeur de z-index inférieure. Seuls des nombres positifs peuvent être utilisés. z-index doit également être utilisé avec des éléments positionnés.
+- [ ] Les valeurs de z-index plus faibles apparaissent au-dessus des éléments avec une valeur de z-index plus élevée. Des nombres négatifs et positifs peuvent être utilisés. z-index peut être utilisé avec ou sans éléments positionnés.
+
+**Note :** une alternative à la question ci-dessous.
+
+#### Q17. Lorsque des éléments à l'intérieur d'un conteneur se chevauchent, la propriété z-index peut être utilisée pour indiquer comment ces éléments sont empilés les uns sur les autres. Quel ensemble d'affirmations est vrai ?
+
+- [x] A
+
+```
+  1. Les valeurs de z-index plus élevées apparaissent au-dessus des éléments avec une valeur de z-index inférieure.
+  2. Des nombres négatifs et positifs peuvent être utilisés.
+  3. La propriété z-index peut être utilisée uniquement sur des éléments positionnés.
+```
+
+- [ ] B
+
+```
+  1. Les valeurs de z-index plus faibles apparaissent au-dessus des éléments avec une valeur de z-index plus élevée.
+  2. Des nombres négatifs et positifs peuvent être utilisés.
+  3. La propriété z-index peut être utilisée avec ou sans éléments positionnés.
+```
+
+- [ ] C
+
+```
+  1. Les valeurs de z-index plus faibles apparaissent au-dessus des éléments avec une valeur de z-index plus élevée.
+  2. Des nombres négatifs et positifs peuvent être utilisés.
+  3. La propriété z-index doit également être utilisée avec des éléments positionnés.
+```
+
+- [ ] D
+
+```
+  1. Les valeurs de z-index plus élevées apparaissent au-dessus des éléments avec une valeur de z-index inférieure.
+  2. Seuls des nombres positifs peuvent être utilisés.
+  3. La propriété z-index doit également être utilisée avec des éléments positionnés.
+```
+
+**Note :** une alternative à la question ci-dessous.
+
+#### Q18. Quelle est la différence entre les paramètres line-height suivants ?
+
+```css
+line-height: 20px;
+line-height: 2;
+```
+
+- [x] La valeur de 20px définira la hauteur de ligne à 20px. La valeur de 2 définira la hauteur de ligne à deux fois la taille de police correspondante.
+- [ ] La valeur de 20px définira la hauteur de ligne à 20px. La valeur de 2 n'est pas valide.
+- [ ] La valeur de 20px définira la hauteur de ligne à 20px. La valeur de 2 se traduira par une valeur par défaut de 2px.
+- [ ] La valeur de 20px définira la hauteur de ligne à 20px. La valeur de 2 définira la hauteur de ligne à 20 % de la taille de police correspondante.
+
+#### Q19. Dans l'exemple suivant, quelle couleur sera appliquée au paragraphe un et au paragraphe deux ?
+
+```HTML
+<section>
+  <p>paragraphe un</p>
+</section>
+
+<p>paragraphe deux</p>
+```
+
+```css
+section p {
+  color: red;
+}
+section + p {
+  color: blue;
+}
+```
+
+- [ ] Le paragraphe un sera en bleu, et le paragraphe deux sera en rouge.
+- [ ] Les deux paragraphes seront en bleu.
+- [x] Le paragraphe un sera en rouge, et le paragraphe deux sera en bleu.
+- [ ] Les deux paragraphes seront en rouge.
+
+#### Q20. Quelles sont trois manières valides d'ajouter du CSS à une page HTML ?
+
+- [ ] A
+
+```
+  1. Externe ; le CSS est écrit dans un fichier séparé.
+  2. En ligne ; le CSS est ajouté dans la balise <head> de la page HTML.
+  3. Interne ; le CSS est inclus dans les balises HTML.
+```
+
+- [ ] B
+
+```
+  1. Externe ; le CSS est écrit dans un fichier séparé et est lié à l'élément <header> du fichier HTML.
+  2. En ligne ; le CSS est ajouté à la balise HTML.
+  3. Interne ; le CSS est inclus dans l'élément <header> du fichier HTML.
+```
+
+- [ ] C
+
+```
+  1. Externe ; le CSS est écrit dans un fichier séparé et est lié à l'élément <head> du fichier HTML.
+  2. Interne ; le CSS est inclus dans l'élément <header> du fichier HTML.
+  3. En ligne ; le CSS est ajouté à la balise HTML.
+```
+
+- [x] D
+
+```
+
+
+  1. Externe ; le CSS est écrit dans un fichier séparé et est lié à l'élément <head> du fichier HTML.
+  2. En ligne ; le CSS est ajouté à la balise HTML.
+  3. Interne ; le CSS est inclus dans l'élément <head> du fichier HTML.
+```
+
+#### Q21. Quelle affirmation est vraie concernant le format d'image SVG ?
+
+- [ ] Le CSS peut être appliqué aux SVG, mais JavaScript ne le peut pas.
+- [ ] Les SVG fonctionnent mieux pour créer des graphiques 3D.
+- [x] Les SVG peuvent être créés comme des graphiques vectoriels ou codés à l'aide d'éléments spécifiques aux SVG tels que <svg>, <line> et <ellipse>.
+- [ ] Les SVG sont un langage de balisage basé sur HAML pour créer des graphiques vectoriels.
+
+#### Q22. Dans l'exemple ci-dessous, quand la couleur rose sera-t-elle appliquée à l'élément ancre ?
+
+```css
+a:active {
+  color: pink;
+}
+```
+
+- [ ] La couleur du lien s'affichera en rose après avoir été cliquée ou lorsque la souris survole le lien.
+- [ ] La couleur du lien s'affichera en rose au survol de la souris.
+- [x] La couleur du lien s'affichera en rose pendant que le lien est cliqué, avant que le clic de la souris soit relâché.
+- [ ] La couleur du lien s'affichera en rose avant d'avoir été cliquée.
+
+#### Q23. Pour changer la couleur d'un SVG à l'aide de CSS, quelle propriété est utilisée ?
+
+- [ ] Utilisez background-fill pour définir la couleur à l'intérieur de l'objet et stroke ou border pour définir la couleur de la bordure.
+- [ ] La couleur ne peut pas être modifiée avec CSS.
+- [ ] Utilisez fill ou background pour définir la couleur à l'intérieur de l'objet et stroke pour définir la couleur de la bordure.
+- [x] Utilisez fill pour définir la couleur à l'intérieur de l'objet et stroke pour définir la couleur de la bordure.
+
+#### Q24. Lorsque vous utilisez position: fixed, l'élément sera toujours positionné par rapport à quoi ?
+
+- [ ] à l'élément le plus proche avec position: relative
+- [x] à la fenêtre d'affichage
+- [ ] à l'élément parent
+- [ ] à l'élément de conteneur
+
+#### Q25. Par défaut, une image d'arrière-plan se répétera \_
+
+- [ ] uniquement si la propriété background-repeat est définie sur repeat
+- [x] indéfiniment, verticalement et horizontalement
+- [ ] indéfiniment sur l'axe horizontal uniquement
+- [ ] une fois, sur les axes x et y
+
+#### Q26. Lors de l'utilisation de media queries, les types de média sont utilisés pour cibler une catégorie de périphérique. Quel choix liste les types de média valides actuels ?
+
+- [ ] imprimer, écran, auditif
+- [ ] imprimer, écran, télévision
+- [x] imprimer, écran, vocal
+- [ ] imprimer, vocal, dispositif
+
+#### Q27. Comment pouvez-vous rendre la première lettre de chaque paragraphe de la page en rouge ?
+
+- [x] p::first-letter { color: red; }
+- [ ] p:first-letter { color: red; }
+- [ ] first-letter::p { color: red; }
+- [ ] first-letter:p { color: red; }
+
+#### Q28. Dans cet exemple, quel est le sélecteur, la propriété et la valeur ?
+
+```css
+p {
+  color: #000000;
+}
+```
+
+- [ ] A
+
+```
+  "p" est le sélecteur
+  "#000000" est la propriété
+  "couleur" est la valeur
+```
+
+- [x] B
+
+```
+  "p" est le sélecteur
+  "couleur" est la propriété
+  "#000000" est la valeur
+```
+
+- [ ] C
+
+```
+  "couleur" est le sélecteur
+  "#000000" est la propriété
+  "#p" est la valeur
+```
+
+- [ ] D
+
+```
+  "couleur" est le sélecteur
+  "p" est la propriété
+  "#000000" est la valeur
+```
+
+#### Q29. Sur quoi est basée l'unité rem ?
+
+- [ ] L'unité rem est relative à la taille de police de l'élément p.
+- [ ] Vous devez définir la valeur de l'unité rem en écrivant une déclaration telle que rem { font-size: 1px ; }.
+- [ ] L'unité rem est relative à la taille de police de l'élément contenant (parent).
+- [x] L'unité rem est relative à la taille de police de l'élément racine de la page.
+
+#### Q30. Quel choix donnerait à un élément de bloc des coins arrondies ?
+
+- [ ] `corner-radius: 10px ;`
+- [ ] `border-corner: 10px ;`
+- [ ] `corner-curve: 10px ;`
+- [x] `border-radius: 10px ;`
+
+[Documentation officielle :](https://www.w3schools.com/css/css3_borders.asp)

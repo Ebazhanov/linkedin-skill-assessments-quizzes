@@ -1011,7 +1011,7 @@ end
 `<%= render partial: 'user_info', object: { name: 'user' } %>`
 
 - [ ] `<%= locals.user_info.name %>`
-- [ ] `<%= object.name %>`
+- [x] `<%= object.name %>`
 - [ ] `<%= @user.name %>`
 - [ ] `<%= @user_info.name %>`
 
@@ -1051,3 +1051,12 @@ end
 - [x] `params.require(:project).permit(:name, :visible, :description)`
 
 [Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
+#### Q78. What is the purpose of the rake db:migrate command?
+
+- [ ] `To create a new database for the Rails application.`
+- [x] `To migrate the database schema to the latest version.`
+- [ ] `To seed the database with initial data.`
+- [ ] `To test the database connection.`
+
+[reference](https://guides.rubyonrails.org/v3.2/migrations.html#:~:text=Active%20Record%20tracks%20which%20migrations,the%20structure%20of%20your%20database.)

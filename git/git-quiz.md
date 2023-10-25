@@ -1293,3 +1293,10 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] It's used for blaming others for code issues in a collaborative project.
 - [ ] Git blame is a feature for tracking the location of bugs in code.
 - [x] Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship.
+
+#### Q141. What is the purpose of C++ move constructor, and when is it automatically generated?
+
+- [ ] A move constructor creates deep copies of objects, improving memory efficiency.
+- [ ] It is generated when you explicitly define a copy constructor.
+- [ ] The move constructor is used for copying objects between different data types.
+- [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.

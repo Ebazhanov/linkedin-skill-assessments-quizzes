@@ -174,3 +174,197 @@ problème ?
 
 [Référence](https://git-scm.com/docs/git-diff-tree)
 [Référence](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit#:~:text=If%20you%20want%20to%20get%20the%20list%20of,you%20can%20use%20git%20ls-tree%20--name-only%20-r%20%3Ccommit-ish%3E)
+
+#### Q16. What files is this .gitignore programmed to leave out?
+
+```shell
+#.swift
+build/
+
+*.txt
+*.metadata
+```
+
+- [ ] All files with a .swift, .txt, or metadata file extension, as well as the entire build directory
+- [ ] Only the build directory
+- [x] All files in the build directory, as well as files ending with .txt or .metadata
+- [ ] Only files with .swift and .txt extensions.
+
+[Reference](https://git-scm.com/docs/gitignore)
+
+A line starting with `#` serves as a comment. Hence `# .swift` does not do anything. See `man gitignore`.
+
+#### Q17. After you make changes to a local repository, you run the following command. What will this do?
+
+`git commit -a -m "Refactor code base"`
+
+- [ ] Nothing, you can't use multiple options in the same command
+- [ ] Adds all new files to the staging area
+- [ ] Commits all new files with a message
+- [x] Adds all modified files to the staging area, then commits them with a message
+
+#### Q18. After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
+
+```shell
+Change to be committed:
+
+(use "git reset HEAD <file>..." to unstage)
+modified: beta-notes.js
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git checkout --<file>..." to discard changes in working directory)
+
+modified: beta-notes.js
+```
+
+- [ ] There were two copies of beta-notes.js but one was deleted
+- [x] beta-notes.js was staged, then modified afterwards, creating two different versions of the file
+- [ ] Two copies of beta-notes.js were created, but only one is being tracked
+- [ ] There are two tracked copies of beta-notes.js, but one was removed from the commit
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
+#### Q19. Where are files stored before they are committed to the local repository?
+
+- [ ] Saved files
+- [ ] git documents
+- [x] Staging area
+- [ ] git cache
+
+[Reference](https://www.geeksforgeeks.org/what-is-a-git-repository/)
+
+#### Q20. What commands would you use to force an overwrite of your local files with the master branch?
+
+- [ ] ⠀
+
+```bash
+  git pull --all
+  git reset --hard origin/master
+```
+
+- [ ] ⠀
+
+```bash
+  git pull -u origin master
+  git reset --hard master
+```
+
+- [ ] ⠀
+
+```bash
+  git pull origin master
+  git reset --hard origin/myCurrentBranch
+```
+
+- [x] ⠀
+
+```bash
+  git fetch --all
+  git reset --hard origin/master
+```
+
+**Note**: - The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
+
+#### Q21. Which statement is true when you use the git add -A command?
+
+- [ ] Only new files in the working directory are staged to the index.
+- [x] All new and updated files from the working directory are staged to the index.
+- [ ] All files in the working directory are staged to the index in alphabetical order.
+- [ ] Only updated files in the working directory are staged to the index.
+
+#### Q22. You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?
+
+- [ ] use git show refs/push-notifications
+- [ ] use git show push-notifications
+- [ ] use git show head/refs/push-notifications
+- [x] use git show refs/head/push-notifications
+
+[Reference](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
+
+#### Q23. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
+
+- [ ] git rebase -log
+- [x] git rebase -i
+- [ ] git rebase -verbose
+- [ ] git rebase -all
+
+#### Q24. What is the operation doing given the Git commands below?
+
+```
+git bisect start
+git bisect bad 5d41402abc4b2a76b9719d911017c592
+git bisect good 69faab6268350295550de7d587bc323d
+```
+
+- [ ] It runs a merge of a good commit that is discovered using a known bad commit and known good commit
+- [ ] It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced a bug
+- [ ] It defines a bad commit and resets the HEAD using a known bad commit and known good commit
+- [x] It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug
+
+#### Q25. In a situation where you have several commits for a single task, what is the most efficient way to restructure your commit history?
+
+- [ ] Cherry pick the related commits to another branch.
+- [ ] Delete the task commits and recommit with a new message.
+- [x] Squash the related commits together into a single coherent commit.
+- [ ] Stash the related commits under a new hash.
+
+[Reference](https://git-scm.com/docs/git-rebase#_interactive_mode)
+
+#### Q26. Which of the following is true of the git push command?
+
+**Note:** Which statement is true of the `git push` command?
+
+- [x] By default a push doesn't send tags to the remote repository.
+- [ ] Commits can only be tagged when they are created.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging#:~:text=Sharing%20Tags)
+
+#### Q27. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
+
+```bash
+git push -u origin master
+```
+
+- [ ] git push master
+- [ ] git push origin
+- [ ] Same as before, git push -u origin master
+- [x] git push
+
+[Reference](https://git-scm.com/docs/git-push)
+
+#### Q28. How would you create a custom shortcut or command across your Git environment?
+
+- [ ] Run `git hotfix` with the shortcut name.
+- [ ] Assign a shortcut or command using git options file.
+- [ ] Use the `git custom-key` command.
+- [x] Create an alias using the `git config` command.
+
+[Reference](https://git-scm.com/docs/git-config)
+
+#### Q29. What is the status of the beta-notes.js file in the following output?
+
+```shell
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git checkout -- <file>..." to discard changes in working directory)
+
+modified: beta-notes.js
+```
+
+- [ ] beta-notes.js is untracked and has been modified.
+- [x] beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.
+- [ ] beta-notes.js is untracked but has been added to the current commit.
+- [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
+
+[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
+#### Q30. What command would let you modify your previous commit?
+
+- [ ] --fix
+- [ ] --quickfix
+- [ ] --modify
+- [x] --amend
+
+[Reference](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
