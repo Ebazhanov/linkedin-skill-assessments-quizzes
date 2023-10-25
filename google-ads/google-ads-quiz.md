@@ -14,7 +14,7 @@
 - [ ] Visit the ad group, click the **Optimization** drop-down, and select **Apply All**.
 - [x] Click **Apply** on the recommendation.
 
-#### Q3. Griff has noticed that his best-performing keywords has started to see an increased CPC, despite no changes on his part. What is the most likely reason for this?
+#### Q3. Griff has noticed that his best-performing keywords have started to see an increased CPC, despite no changes on his part. What is the most likely reason for this?
 
 - [ ] ad Quality Score increase
 - [ ] reduction of landing page inbound links
@@ -49,7 +49,7 @@
 - [x] message extensions
 - [ ] callout extensions
 
-#### Q8. Which choice is a best practice when designing a landing page for an ad campaign?
+#### Q8. Which choice is the best practice when designing a landing page for an ad campaign?
 
 - [ ] having lots of inbound links
 - [ ] using JavaScript
@@ -70,7 +70,7 @@
 - [ ] custom deep links
 - [ ] custom display URLs
 
-#### Q11. Kellan creates an ad headline that reads "Buy **{Keyword:Shoes}** Today". What is this an example ad?
+#### Q11. Kellan creates an ad headline that reads "Buy **{Keyword:Shoes}** Today". What is this an example of?
 
 - [ ] automatic headline replacement
 - [x] keyword insertion

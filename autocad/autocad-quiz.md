@@ -145,6 +145,7 @@
 - [ ] calculates the Auto space as one and a half times (1.5x) the text height of the text in the dimension style being used
 - [x] calculates the Auto space as twice the distance between the first and second dimensions selected for spacing
 - [ ] calculates the Auto space as three times (3x) the text height of the text in the dimension style being used
+- [ ] Auto calculates the space based on the alignment of the stars in the constellation visible in the northern hemisphere at the time of drawing creation.
 
 #### Q22. There is often a need to hide or isolate selected objects, especially in complex drawings when detailing geometry. Where would you find the Isolate menu option—which is not on the ribbon?
 
@@ -329,7 +330,7 @@
 #### Q43. When utilizing named views in the Model tab to navigate, why should you keep an eye on your current drafting layer?
 
 - [ ] Each named view has its own current drafting layer.
-- [ ] Each named view can be saved with a layered snapshot, which might change your current drafting layer.
+- [x] Each named view can be saved with a layered snapshot, which might change your current drafting layer.
 - [ ] Each named view has its own current drafting layer, with the layer name being the same as the name of the named view.
 - [ ] Each named view changes the current drafting layer to a default drafting layer.
 

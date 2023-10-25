@@ -57,7 +57,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q5. What is the difference between the ref and out keywords?
 
-- [ ] Variables passed to out specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.
+- [ ] Variables passed to specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.
 - [ ] Variables passed to ref can be passed to a function without being initialized, while out specifies that the value is a reference value that can be changed inside the calling method.
 - [x] Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.
 - [ ] Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function without being initialized.
@@ -116,10 +116,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q9. When would you use a Dictionary rather than an Array type in your application?
 
-- [ ] when you need a jagged collection structure
-- [ ] when you need to store values of the same type
-- [x] when you need to store key-value pairs rather than single values
-- [ ] when you need an ordered, searchable list
+- [ ] When you need a jagged collection structure
+- [ ] When you need to store values of the same type
+- [x] When you need to store key-value pairs rather than single values
+- [ ] When you need an ordered, searchable list
 
 [Official documentation: Dictionary<TKey,TValue> Class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0)
 
@@ -128,7 +128,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] The .Equals method compares reference identities while the `==` compares contents.
 - [ ] The .Equals method compares primitive values while `==` compares all values.
 - [x] The .Equals method compares contents while `==` compares reference identity.
-- [ ] The .Equals method compares reference type while `==` compares primitive value types
+- [ ] The .Equals method compares reference types while `==` compares primitive value types
 
 1. [Official documentation: Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals)
 2. [c-sharpcorner: Equality Operator(==) vs .Equals()](https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp)
@@ -173,7 +173,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 `public void userInput(string charParameters) { }`
 
-- [x] nothing
+- [x] Nothing
 - [ ] a Boolean
 - [ ] a string variable
 - [ ] an integer
@@ -211,7 +211,7 @@ foreach(string employee in employeeQuery)
 
 [Official documentation: Language Integrated Query (LINQ) Overview](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
 
-#### Q18. What is the correct formatting for single line and multiline comments?
+#### Q18. What is the correct formatting for single-line and multiline comments?
 
 - [ ] `/_/ - Single Line`
       `/_ - Multiline`
@@ -246,16 +246,16 @@ foreach(string employee in employeeQuery)
 #### Q21. What is an abstract class?
 
 - [ ] a class that is denoted by the class keyword (can be seen and used by any other class in the system--thus it is by default public)
-- [ ] something denoted by the abstract keyword and used system wide; if you want any program to create an object of a class you use the abstract class
+- [ ] something denoted by the abstract keyword and used system-wide; if you want any program to create an object of a class you use the abstract class
 - [ ] a class that is denoted by the virtual keyword
-- [x] a class that can be used only as base class
+- [x] a class that can be used only as a base class
 
 [Official documentation: Abstract and Sealed Classes and Class Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 
 #### Q22. When using a thread pool what happens to a given thread after it finishes its task?
 
 - [ ] The thread is destroyed and memory is freed up.
-- [ ] The thread runs in loop until the next assignment.
+- [ ] The thread runs in a loop until the next assignment.
 - [ ] The thread goes inactive in the background and waits for garbage collection.
 - [x] The thread returns to the pool for reuse.
 
@@ -380,12 +380,12 @@ public interface INameable
 - [ ] only when programmatically loaded
 
 1. [Official documentation: Assembly Loading](https://docs.microsoft.com/en-us/dotnet/framework/deployment/best-practices-for-assembly-loading)
-2. [Stackoverflow : When exactly are assemblies loaded?](https://stackoverflow.com/questions/21914692/when-exactly-are-assemblies-loaded)
+2. [Stackoverflow: When exactly are assemblies loaded?](https://stackoverflow.com/questions/21914692/when-exactly-are-assemblies-loaded)
 
-#### Q35. What is most accurate description of a regular expression?
+#### Q35. What is the most accurate description of a regular expression?
 
 - [ ] A regular expression is a C# tool used to parse HTML
-- [x] A regular expression is a special text string for describing a search patters.
+- [x] A regular expression is a special text string for describing a search pattern.
 - [ ] A regular expression allows a variable to be passed by reference.
 - [ ] A regular expression allows a class to conform to the Equatable protocol.
 
@@ -394,7 +394,7 @@ public interface INameable
 
 #### Q36. Why would you use a class field in C#
 
-- [ ] To define behaviours of the class
+- [ ] To define the behaviors of the class
 - [x] To hold information and data contained in the class object
 - [ ] To communicate between classes and object
 - [ ] To store the class definition value
@@ -616,8 +616,8 @@ public int Password
 
 - [ ] The is operator checks instance types, while the as operator checks the inherited type.
 - [ ] The is operator checks primitive data types, while the as operator checks the object type.
-- [ ] The as operator checks object type, while the is operator attempts to cast an object to a specific type.
-- [x] The is operator checks object type, while the as operator attempts to cast an object to a specific type.
+- [ ] The as operator checks the object type, while the is operator attempts to cast an object to a specific type.
+- [x] The is operator checks the object type, while the as operator attempts to cast an object to a specific type.
 
 [Pluralsight guide](https://www.pluralsight.com/guides/csharp-is-as-operators-is-expressions)
 
@@ -688,7 +688,7 @@ public int Password
 - [ ] `Overriding virtual methods in a derived class is mandatory.`
 - [ ] `Overriding virtual methods in a derived class is not possible.`
 - [x] `Virtual methods always need a default implementation.`
-- [ ] `Virtual methods cannot have default implementation.`
+- [ ] `Virtual methods cannot have a default implementation.`
 
 1. [Official documentation: virtual](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual)
 2. [c-sharpcorner: Virtual Method in C#](https://www.c-sharpcorner.com/UploadFile/3d39b4/virtual-method-in-C-Sharp/)
@@ -725,7 +725,7 @@ public int Password
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
 
-Explain: You **can** do this in C#. However, none of the above answers are correct. You could access the last two items by using `People[^2..]`. Please see [issue #3354](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3354) for more information.
+Explain: You **can** do this in C#. However, none of the above answers are correct. You can access the last two items by using `People[^2..]`. Please see [issue #3354](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3354) for more information.
 See also: [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
 
 #### Q68. When can anonymous types be created?
@@ -746,7 +746,7 @@ See also: [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotn
 
 [Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)
 
-#### Q70. What accessibility level does this class field have ?
+#### Q70. What accessibility level does this class field have?
 
 `private string LastName;`
 
@@ -861,9 +861,9 @@ public string? nickname
 - [ ] `an object of pass by reference type`
 - [ ] `a value type that cannot hold constants`
 - [x] `set of named integral constants`
-- [ ] `an object of pass by value type`
+- [ ] `an object of pass-by-value type`
 
-#### Q82. What is the readonly keyword used for in field declarations?
+#### Q82. What is the readonly keyword used for in-field declarations?
 
 - [ ] `to declare a member variable that cannot be calculated at runtime`
 - [x] `to declare a field whose value can be assigned only before the constructor exits`

@@ -68,23 +68,23 @@ main()
 - [x] :
 
 ```
-A is greater then B
+A is greater than B
 C is fun!
 ```
 
 - [ ] :
 
 ```
-A is greater then B
-B is greater then A
+A is greater than B
+B is greater than A
 C is fun!
 ```
 
 - [ ] :
 
 ```
-A is greater then B
-B is greater then A
+A is greater than B
+B is greater than A
 ```
 
 - [ ] Nothing is printed on Screen
@@ -131,9 +131,9 @@ struct s {
 
 #### Q6. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
-- [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
+- [ ] The preprocessor will try to locate fileA in the same directory as the source file, and the fileB in a predetermined directory path.
 - [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
-- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
+- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximum of one per source file.
 - [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 [Reference](https://www.geeksforgeeks.org/difference-between-include-and-include-in-c-c-with-examples/#:~:text=The%20difference%20between%20the%20two,be%20included%20in%20the%20code.&text=%23include%20is%20for%20pre%2Ddefined%20header%20files.)
@@ -229,7 +229,7 @@ main(){
 
 - [x] The value of PI needs to be set to 3.141593, not 3.14
 - [ ] The declaration of PI needs to say const, not constant.
-- [ ] The data type of PI needs to be float not int.
+- [ ] The data type of PI needs to be float, not int.
 - [ ] The printf statement needs to use PI, not pi.
 
 #### Q12. Which is the smallest program to compile and run without errors?
@@ -257,7 +257,7 @@ main(){
 - [ ] default.h
 - [ ] string.h
 
-#### Q15. In which segment does dynamic memory allocation takes place?
+#### Q15. In which segment does dynamic memory allocation take place?
 
 - [ ] BSS Segment
 - [ ] stack
@@ -288,7 +288,7 @@ main(){
 
 #### Q18. When is memory for a variable allocated?
 
-- [ ] during the assigment of the variable
+- [ ] during the assignment of the variable
 - [ ] during the initialization of the variable
 - [x] during the declaration of the variable
 - [ ] during the definition of the variable
@@ -422,7 +422,7 @@ int main() {
 - [ ] \*x->y
 - [ ] y->x
 
-#### Q29. Compile time errors are static errors that can be found where in the code?
+#### Q29. Compile time errors are static errors that can be found in the code.
 
 - [x] in declarations and definitions
 - [ ] in functions and expressions
@@ -616,7 +616,7 @@ main(){
 
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.
-- [ ] An lvalue and an rvalue may appear on either left-hand or right-hand side of an assignment.
+- [ ] An lvalue and an rvalue may appear on either the left-hand or right-hand side of an assignment.
 - [x] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
 
 #### Q44. Which operator is used to access the address of a variable?
@@ -626,7 +626,7 @@ main(){
 - [ ] `*`
 - [x] `&`
 
-#### Q45. Which add function properly returns the updated value of result?
+#### Q45. Which add function properly returns the updated value of the result?
 
 - [x] :
 
@@ -857,7 +857,7 @@ void *vptr=&g;
 - [ ] `f=*(float)vptr;`
 - [ ] `f=(float)*vptr;`
 
-#### Q55. The dynamic memory allocation functions are defined in which system header file ?
+#### Q55. The dynamic memory allocation functions are defined in which system header file?
 
 - [ ] stdio.h
 - [x] stdlib.h
@@ -874,7 +874,7 @@ void *vptr=&g;
 #### Q57. How are static functions different from global functions?
 
 - [ ] Static functions must be declared in advance of being defined.
-- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions must be declared in a separate header file.
 - [ ] Static functions always return the same value.
 - [x] Static functions can be accessed only in the file where they are declared.
 
@@ -1012,8 +1012,8 @@ int main()
 
 #### Q64. What do the functions malloc() and calloc() allocate?
 
-- [ ] reallocatged memory
-- [ ] static memeory
+- [ ] reallocated memory
+- [ ] static memory
 - [x] dynamic memory
 - [ ] fragmented memory
 
@@ -1029,7 +1029,7 @@ int main()
 
 [Reference](https://devdocs.io/c/string/byte/strstr)
 
-#### Q66. Find the output of the program?
+#### Q66. Find the output of the program.
 
 ```c
 #include <stdio.h>
@@ -1053,7 +1053,7 @@ int main(){
 
 [Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
-#### Q67. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+#### Q67. Predict the output of the following code when the **integer** variables x is initialized to 10,y to 2, and z to 0.
 
 ```c
 z = x + y * x + 10 / 2 * x;
@@ -1103,7 +1103,7 @@ main() {
 - [ ] 5
 - [x] 50
 
-#### Q70. What is /0 character ?
+#### Q70. What is /0 character?
 
 - [ ] String
 - [x] NULL Character
@@ -1112,7 +1112,7 @@ main() {
 
 [Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)
 
-#### Q71. What is correct output for follwing code ?1
+#### Q71. What is the correct output for the following code?
 
 ```c
 #include&lt;stdio.h&gt;
@@ -1135,11 +1135,11 @@ main()
 - [ ] Before a=10 b=20 , After a=20 b=20
 - [x] Before a=10 b=20 , After a=20 b=10
 
-#### Q72. What is Incorrect option that explain # pragma directive ?
+#### Q72. What is the Incorrect option that explains # pragma directive ?
 
 - [ ] #pragma exit allows us to specify functions called upon program exit.
 - [ ] This is a preprocessor directive that can be used to turn on or off certain features.
-- [x] #pragma startup don't allows us to specify functions called upon program startup.
+- [x] #pragma startup doesn't allow us to specify functions called upon program startup.
 - [ ] It is of two types #pragma startup, #pragma exit and pragma warn.
 
 #### Q73. What will be the output of the following code snippet?
@@ -1213,10 +1213,10 @@ int main() {
 int (*ptr)[10];
 ```
 
-- [ ] ptr is array of pointers to 10 integers
+- [ ] ptr is an array of pointers to 10 integers
 - [x] ptr is a pointer to an array of 10 integers
 - [ ] ptr is an array of 10 integers
-- [ ] ptr is an pointer to array
+- [ ] ptr is a pointer to an array
 
 #### Q77. What will be the output of the following code snippet?
 
@@ -1244,9 +1244,9 @@ void change(int x,int y)
 - [ ] 20,20
 - [ ] 20,10
 
-**Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
+**Explanation:** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
 
-#### Q78. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
+#### Q78. Choose true or false. When a variable is created in C, a memory address is assigned to the variable.
 
 - [x] True
 - [ ] False
@@ -1273,7 +1273,7 @@ int main()
 - [x] 2011
 - [ ] 01
 
-**Explanation :** char c[ ] = "GATE2011";since char \*p =c it means p represents to the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
+**Explanation:** char c[ ] = "GATE2011"; since char \*p =c it means p represents the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
 
 #### Q80. What is the output of the following code snippet?
 
@@ -1378,7 +1378,7 @@ struct a {
 #### Q86. How are static functions different from global functions?
 
 - [ ] Static functions must be declared in advance of being defined.
-- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions must be declared in a separate header file.
 - [ ] Static functions always return the same value.
 - [x] Static functions can be accessed only in the file where they are declared.
 

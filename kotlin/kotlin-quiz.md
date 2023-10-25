@@ -75,7 +75,7 @@ fun add(a: Int, b: Int): Int {
 - [ ] `fun Main(){}`
 - [ ] `public static void main(){}`
 
-#### Q7. You are writing a console app in Kotlin that processes test entered by the user. If the user enters an empty string, the program exits. Which kind of loop would work best for this app? Keep in mind that the loop is entered at least once
+#### Q7. You are writing a console app in Kotlin that processes tests entered by the user. If the user enters an empty string, the program exits. Which kind of loop would work best for this app? Keep in mind that the loop is entered at least once
 
 - [x] a do..while loop
 - [ ] a for loop
@@ -117,9 +117,9 @@ val task = launch {
 
 [reference](https://kotlinlang.org/docs/cancellation-and-timeouts.html)
 
-#### Q10. You are attempting to assign an integer variable to a long variable, but Kotlin compiler flags it as an error. Why?
+#### Q10. You are attempting to assign an integer variable to a long variable, but the Kotlin compiler flags it as an error. Why?
 
-- [ ] You must wrap all implicit conversion in a try/catch block
+- [ ] You must wrap all implicit conversions in a try/catch block
 - [ ] You can only assign `Long` to an `Int`, not the other way around
 - [x] There is no implicit conversion from `Int` to `Long`
 - [ ] All integers in Kotlin are of type `Long`
@@ -308,7 +308,7 @@ class Supervisor : Employee() {
 
 [reference](https://kotlinlang.org/docs/inheritance.html#calling-the-superclass-implementation)
 
-#### Q25. The code below compiled and executed without issue before the addition of the line declaring errorStatus. Why does this line break the code?
+#### Q25. The code below was compiled and executed without issue before the addition of the line declaring errorStatus. Why does this line break the code?
 
 ```kotlin
 sealed class Status(){
@@ -547,7 +547,7 @@ val len: Int = if (x != null) x.length else -1
 - [ ] `val len:Int = (x != null)? x.length : -1`
 - [x] `val len = x?.length ?: -1`
 
-#### Q43. You are creating a Kotlin unit test library. What else should you add to make the following code compile without error?
+#### Q43. You are creating a Kotlin unit test library. What else you should add to make the following code compile without error?
 
 ```kotlin
 fun String.shouldEqual(value: String) = this == value
@@ -644,7 +644,7 @@ fun main(){
 
 [reference](https://kotlinlang.org/docs/destructuring-declarations.html)
 
-#### Q49. This function generates Fibonacci sequence. Which function is missing?
+#### Q49. This function generates the Fibonacci sequence. Which function is missing?
 
 ```kotlin
 fun fibonacci() = sequence {
@@ -693,7 +693,7 @@ fun main() {
 - [ ] You cannot; the hash symbol is not a valid operator.
 - [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
 - [x] You should use `minus` instead of hash, then type alias the minus symbol.
-- [ ] You need to replace operator with the word `infix`.
+- [ ] You need to replace the operator with the word `infix`.
 
 #### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
 
@@ -741,7 +741,7 @@ val z = listOf(10, 20, 30, 40)
 - [ ] You add more elements to `z` since it is a list.
 - [ ] You can modify the contents of the elements in `z` but not `y`.
 
-#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?
+#### Q55. The code snippet compiles and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?
 
 ```kotlin
 fun main() = runBlocking {
@@ -861,7 +861,7 @@ val b = arrayOf(100, 200, 3000)
 - [x] `val c = listOf(*a, *b)`
 - [reference](https://www.baeldung.com/kotlin/combine-arrays#arrayof-and-the-spread-operator)
 
-#### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
+#### Q64. This code occasionally throws a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
 ```kotlin
 println("length of First Name = ${firstName!!.length}")
@@ -1003,7 +1003,7 @@ fun main() {
 - [x] `val longInt = 10L`
 - [ ] `val longInt:Long = 10`
 
-#### Q73. Which line converts the binaryStr, whish contain only 0s and 1s, to an integer representing its decimal value?
+#### Q73. Which line converts the binaryStr, which contains only 0s and 1s, to an integer representing its decimal value?
 
 ```kotlin
 val binaryStr = "00001111"
@@ -1053,11 +1053,11 @@ fun sort(list: List<T>): List <T> {
 - [ ] final means that you cannot use interfaces with this class.
 - [ ] final means that this is the only file that can use the class.
 - [x] final means that you cannot extend the class.
-- [ ] final classes cannot be used in the finally section of a try/catch block.
+- [ ] final classes cannot be used in the final section of a try/catch block.
 
 [reference](https://kotlinlang.org/docs/inheritance.html)
 
-#### Q78. You have created an array to hold three strings. When you run the code bellow, the compiler displays an error. Why does the code fail?
+#### Q78. You have created an array to hold three strings. When you run the code below, the compiler displays an error. Why does the code fail?
 
 ```
 val names = arrayOf<String>(3)
@@ -1079,7 +1079,7 @@ names[3]= "Delta"
 
 [reference](https://kotlinlang.org/docs/classes.html#secondary-constructors)
 
-#### Q80. When you can omit constructor keyword from the primary constructor?
+#### Q80. When you can omit the constructor keyword from the primary constructor?
 
 - [ ] It can be omitted only if an init block is defined.
 - [ ] It can be omitted anytime; it is not mandatory.
@@ -1107,7 +1107,7 @@ names[3]= "Delta"
 
 [reference](https://kotlinlang.org/docs/visibility-modifiers.html)
 
-#### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to impelement the `printlln()`?
+#### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to implement the `printlln()`?
 
 ```kotlin
 fun main() {
@@ -1124,7 +1124,7 @@ fun main() {
 
 [reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
 
-#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member of the enum. Which line of code shows how to do that `?
+#### Q84. You have enum class Signal that represents a state of the network connection. You want to iterate over each member of the enum. Which line of code shows how to do that `?
 
 - [ ] Signal.sequence().
 - [ ] Signal.toArray().
@@ -1133,7 +1133,7 @@ fun main() {
 
 [reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
 
-#### Q85. You'd like to create multiline string that includes the carriage return characther. What should you use to enclose the string?
+#### Q85. You'd like to create a multiline string that includes the carriage return character. What should you use to enclose the string?
 
 - [ ] Double quotes("").
 - [ ] Single quotes(').
@@ -1151,7 +1151,7 @@ fun main() {
 
 [reference](https://kotlinlang.org/docs/visibility-modifiers.html#class-members)
 
-#### Q87. which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
+#### Q87. Which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
 
 - [x] val lessThan99 = generateSequence(1){ if (it < 99) it + 1 else null }.toList().
 - [ ] val lessThan99 = generateSequence(0){ if (it < 99)}.toList().
@@ -1170,7 +1170,7 @@ class Empty
 - [x] The class is properly defined, so nothing is wrong with it.
 - [ ] The parentheses are missing-it should be declared as class Empty().
 - [ ] Empty is a Kotlin keyword, so the code will generate an error when compiled.
-- [ ] The curely braces are missing from the declaration of Empty.
+- [ ] The curly braces are missing from the declaration of Empty.
 
 [reference](https://kotlinlang.org/docs/classes.html)
 
@@ -1179,7 +1179,7 @@ class Empty
 - [ ] A higher-order function is a function that returns a value other than Unit.
 - [ ] A higher-order function is the function that appears before others in a file.
 - [ ] A higher-order function is one that can be stored in a variable.
-- [x] A higher-order function is a function that takes a function as a parameter, or returns a function.
+- [x] A higher-order function is a function that takes a function as a parameter or returns a function.
 
 [reference](https://kotlinlang.org/docs/lambdas.html)
 
@@ -1223,7 +1223,7 @@ class Empty
 
 #### Q95. How does Kotlin work on Android?
 
-- [ ] Kotlin code is compiled directly to machine code.
+- [ ] Kotlin code is compiled directly into machine code.
 - [ ] Kotlin code is interpreted at runtime.
 - [x] Kotlin code is compiled into Java bytecode and runs on the JVM.
 - [ ] Kotlin code is compiled into C++ code for Android.
@@ -1261,7 +1261,7 @@ class Empty
 - [x] Null safety is a feature that helps prevent null pointer exceptions in code.
 - [ ] Null safety is a way to force variables to always have null values.
 - [ ] Null safety is a technique for creating nullable variables.
-- [ ] Null safety is a feature to allow null values without checks.
+- [ ] Null safety is a feature to allows null values without checks.
 
 [reference](https://blog.logrocket.com/complete-guide-null-safety-kotlin/)
 
@@ -1298,7 +1298,7 @@ class Empty
 - [ ] Yes, Kotlin has a rich set of macros for code generation.
 - [ ] No, Kotlin does not support macros.
 - [x] Yes, Kotlin supports macros for advanced metaprogramming.
-- [ ] Macros are not needed in Kotlin as it uses a different approach.
+- [ ] Macros are not needed in Kotlin as it use a different approach.
 
 #### Q106. What is the use of the `open` keyword in Kotlin?
 
@@ -1314,7 +1314,7 @@ class Empty
 - [ ] The Ranges operator is used to concatenate strings.
 - [ ] The Ranges operator is used for logical comparisons.
 
-#### Q108. Where should we use `var` and where `val` in Kotlin?
+#### Q108. Where should we use `var` and `val` in Kotlin?
 
 - [ ] `var` and `val` can be used interchangeably; there is no difference.
 - [x] Use `var` for mutable variables and `val` for immutable variables.

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="cn-flag" width="600" height="400" viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="star5" viewBox="-1 -1 2 2">
+    <polygon points="0.0 -1.0 0.2245139883 -0.3090169944 0.9510565163 -0.3090169944 0.363271264 0.1180339887 0.5877852523 0.8090169944 0.0 0.3819660113 -0.5877852523 0.8090169944 -0.363271264 0.1180339887 -0.9510565163 -0.3090169944 -0.2245139883 -0.3090169944 " fill="#ffff00"/>
+  </symbol>
+  <rect width="30" height="20" fill="#ee1c25"/>
+  <use xlink:href="#star5" x="2"  y="2" width="6" height="6"/>
+  <use xlink:href="#star5" x="9"  y="1" width="2" height="2" transform="rotate(-120.963757,10,2)"/>
+  <use xlink:href="#star5" x="11"  y="3" width="2" height="2" transform="rotate(-98.130102,12,4)"/>
+  <use xlink:href="#star5" x="11"  y="6" width="2" height="2" transform="rotate(-74.054604,12,7)"/>
+  <use xlink:href="#star5" x="9"  y="8" width="2" height="2" transform="rotate(-51.340192,10,9)"/>
+</svg> 
