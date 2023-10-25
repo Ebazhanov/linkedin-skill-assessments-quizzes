@@ -4,7 +4,7 @@
 
 - [ ] Create two deductions called Sick and Vacation. Use these when you pay your employees.
 - [ ] You can't track sick and vacation time in QuickBooks. Create an Excel workbook and manually enter employee accruals and uses with each payroll.
-- [ ] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
+- [x] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
 - [ ] Set up a separate non-posting account for sick and vacation time, and then record sick and vacation time against that account.
 
 #### Q2. You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?
