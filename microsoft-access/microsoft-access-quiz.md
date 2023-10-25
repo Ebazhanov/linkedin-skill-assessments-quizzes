@@ -456,14 +456,14 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 #### Q45. A databse has a form with the AllowEdits property set to No. You open the form using an OpenForm macro step with the Data Mode property set to Edit. Given this, which statement is true?
 
-- [ ] You cannot edit existing records but can add new records.
+- [x] You cannot edit existing records but can add new records.
 - [ ] You cannot edit or add records.
 - [ ] You can edit existing records but cannot add new records.
 - [ ] You can edit existing records and new records.
 
 #### Q46. What rule type must you choose to conditionally format a value in a report based on another value in the same record?
 
-- [ ] Field Value Is...
+- [x] Field Value Is...
 - [ ] Evaluation Is...
 - [ ] Expression Is...
 - [ ] Compare to...
@@ -480,11 +480,11 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 - [ ] Create a data macro to validate the foreign key values in the chekcout table.
 - [ ] Create a combo box on a checkout form that displays only valid library members.
 - [ ] Create a one-to-many relationship between the checkout table and the member table.
-- [ ] Enforce referential integrity between the checkout table and the member table.
+- [x] Enforce referential integrity between the checkout table and the member table.
 
 #### Q49. When designing a report, clicking the Build button (..) in the Record Source property will do what?
 
 - [ ] create a linked table reference in the Navigation Pane
 - [ ] create an expression in the report object
-- [ ] create an embedded query in the report object
+- [x] create an embedded query in the report object
 - [ ] create a data macro in the report object
