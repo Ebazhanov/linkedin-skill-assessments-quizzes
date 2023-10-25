@@ -1642,7 +1642,4 @@ $('a.active').addClass('hover');
 
 #### Q87. Which symbol is commonly used to represent the jQuery object?
 
--[x] $<br>
--[ ] # <br>
--[ ] % <br>
--[ ] &
+-[x] $<br> -[ ] # <br> -[ ] % <br> -[ ] &
