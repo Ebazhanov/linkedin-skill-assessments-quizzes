@@ -76,7 +76,7 @@ End Sub
 #### Q5. What object is needed to put a userform module in a VBA project?
 
 - [ ] associated standard code module
-- [ ] UserForm
+- [x] UserForm
 - [ ] associated class module
 - [ ] userForm class
 
@@ -100,7 +100,7 @@ End Sub
 
 #### Q7. The Driver subroutine is declared by Sub Driver (Y). Which statement results in a compile error?
 
-- [ ] Driver x
+- [x] Driver x
 - [ ] call Driver(x)
 - [ ] call Driver x
 - [ ] Driver (X)
@@ -572,7 +572,7 @@ End Sub
 
 - [ ] Arrays cannot be resized more than once.
 - [ ] MyArr was originally declared with three "rows".
-- [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
+- [x] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
 - [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
 
 #### Q39. Which subroutine declaration does not cause a compile error?

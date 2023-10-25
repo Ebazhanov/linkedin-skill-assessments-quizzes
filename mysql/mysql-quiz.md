@@ -1138,3 +1138,31 @@ Table name: superheroes
 -[ ] REMOVE FROM users WHERE id = 2
 -[ ] DROP users WHERE id = 2
 -[ ] TRUNCATE users WHERE id = 2
+
+#### Q119. MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.
+
+- [ ] database and programming
+- [ ] user and administrator
+- [x] client and server
+- [ ] syntax and objects
+
+#### Q120. Which MySQL command shows the structure of a table?
+
+- [ ] INFO table;
+- [ ] SHOW table;
+- [ ] STRUCTURE table;
+- [x] DESCRIBE table;
+
+#### Q121. The left and right joins are also known as \_.
+
+- [ ] Inner Join
+- [ ] Natural Join
+- [x] Outer Join
+- [ ] Cartesian Join
+
+#### Q122. What is the valid way to create a database view in MySQL?
+
+- [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
+- [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
+- [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
+- [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
