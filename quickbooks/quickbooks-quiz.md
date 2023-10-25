@@ -4,7 +4,7 @@
 
 - [ ] Create two deductions called Sick and Vacation. Use these when you pay your employees.
 - [ ] You can't track sick and vacation time in QuickBooks. Create an Excel workbook and manually enter employee accruals and uses with each payroll.
-- [ ] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
+- [x] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
 - [ ] Set up a separate non-posting account for sick and vacation time, and then record sick and vacation time against that account.
 
 #### Q2. You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?
@@ -47,7 +47,7 @@
 - [ ] Complete your depreciation schedule for tax purposes.
 - [ ] Pay for assets directly from the setup window.
 - [ ] Provide the buyer of the asset with proof of purchase.
-- [ ] Track larger purchases that you may later sell.
+- [x] Track larger purchases that you may later sell.
 
 #### Q8. When would the Expenses tab on a payroll liability check be used?
 
@@ -92,7 +92,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 - [ ] You can never delete a vendor, but you can make them inactive.
 - [ ] Yes, Go to your Vendor Center, select the vendor you would like to delete, and click Edit > Delete.
-- [ ] You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.
+- [x] You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.
 - [ ] Yes. When you delete the vendor, a box appears asking if you are sure you want to delete. Click Yes and enter the administrator password to continue.
 
 #### Q14. Why is setting a closing date in QuickBooks a good practice?
@@ -106,7 +106,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 - [ ] You do not plan to pay the bill until closer to the due date.
 - [ ] You do not want to print the bill.
-- [ ] There is a discrepancy in the bill received and the amount you expected.
+- [x] There is a discrepancy in the bill received and the amount you expected.
 - [ ] An inventory item has been received, but you have not received the corresponding bill.
 
 #### Q16. How do you record a debit card purchase in QuickBooks?
@@ -328,7 +328,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 #### Q47. How can you discount just one item on an invoice for a customer?
 
-- [ ] Create a Discount item and use it on the line immediately after the item you want to discount.
+- [x] Create a Discount item and use it on the line immediately after the item you want to discount.
 - [ ] Click Add Discount at the top of the invoice and apply it to the correct item.
 - [ ] Manually change the Amount field to the discounted total for the item.
 - [ ] Create a Discount item and a Subtotal item. Apply the Subtotal, then immediately apply the Discount.
@@ -338,32 +338,32 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] Home Page; data dashboard
 - [ ] Insights; task list
 - [ ] Home Page; task list
-- [ ] Insights; data dashboard
+- [x] Insights; data dashboard
 
 #### Q49. What is the preferred style of check to provide to employees on payday?
 
 - [ ] There is no need to provide a pay stub if you are using direct deposit. Employees can ask if they need information in addition to their net pay amount.
 - [ ] The standard check, with a paper check stub as backup.
 - [ ] The payroll check, which is preprinted with earnings and taxes columns.
-- [ ] The voucher check, so they have the net check amount plus all of the information regarding earnings, taxes, and withheld items.
+- [x] The voucher check, so they have the net check amount plus all of the information regarding earnings, taxes, and withheld items.
 
 #### Q50. When would you use Progress Invoicing?
 
 - [ ] to invoice items marked as billable as they occur
-- [ ] to invoice from an estimate as work is completed
+- [x] to invoice from an estimate as work is completed
 - [ ] to convert a sales receipt to an invoice
 - [ ] to automate company cash flow
 
 #### Q51. What is a good way to handle prospective clients?
 
 - [ ] Set the customer as inactive until they are an active customer.
-- [ ] Use the Lead Center by clicking Customers > Lead Center.
+- [x] Use the Lead Center by clicking Customers > Lead Center.
 - [ ] There is no way to differentiate a current customer from a potential customer.
 - [ ] Use the Lead Center bv clicking Company > Lead Center.
 
 #### Q52. You wrote a check and later discovered it was for an incorrect amount. What is the best way to handle this, if you know the check will not be cashed?
 
-- [ ] In the account register, select the check and click Edit > Void Check.
+- [x] In the account register, select the check and click Edit > Void Check.
 - [ ] In the account register, select the check and then click Edit > Delete Check.
 - [ ] Create a journal entry for the amount of the check to debit Cash and credit Undeposited Funds. Clear the journal entry and the check when reconciling, to correctly balance your cash account.
 - [ ] In the account register, select the check, and then change the amount of the check to -0-
@@ -372,7 +372,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 
 - [ ] The company start date is changed to the date on which you condensed your data. Make sure to run all reports prior to completing this process.
 - [ ] All transactions are removed, allowing you to start fresh. You will need to print all reports before this process and enter beginning balances into your QuickBooks file.
-- [ ] All transaction details are removed, but the summary totals are kept in the system, to allow financial statements to be run for prior periods.
+- [x] All transaction details are removed, but the summary totals are kept in the system, to allow financial statements to be run for prior periods.
 - [ ] All transaction data, including payroll data, is removed. This process will correct any entry errors, leaving a clean data file.
 
 #### Q54. How are cash inflows and outflows related to the company's primary business classified?
@@ -385,88 +385,81 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 #### Q55. During the EasyStep Interview, which features can you turn on and off?
 
 - [ ] Lists. Inventory, and Progress Invoicing
-- [ ] Jobs, Payroll, and Lists
+- [x] Jobs, Payroll, and Lists
 - [ ] Sales Taxes, Inventory, and Progress Invoicing
 - [ ] Payroll, Lists, and Progress Invoicing
 
 #### Q56. Which report can you use if you suspect someone has changed a transaction?
 
 - [ ] User Entry report
-- [ ] Audit Trail report
+- [x] Audit Trail report
 - [ ] Changed Transaction report
 - [ ] Profit and Loss report's drill-down feature
 
 #### Q57. You notice two or more similar names in the Vendor Center that reference the same vendor. What can you do to clean up the vendor list?
 
-- [ ] Merge the similar names into one vendor by renaming the vendors, using the same name for each.
+- [x] Merge the similar names into one vendor by renaming the vendors, using the same name for each.
 - [ ] Select the vendor in the Vendor Center and, in the lower-left corner, select the box to make the vendor inactive.
 - [ ] Collapse the vendors in the Profit and Loss report.
 - [ ] Delete the incorrect vendor names in the Vendor Center.
 
-#### Q58. What changes in QuickBooks if you put in a bank account number or any other personally identifiable information?
-
-- [ ] You are required to encrypt your QuickBooks file.
-- [ ] You are required to use a more complex password.
-- [ ] You are immediately prompted to back up the company file.
-- [ ] The ability to use QuickBooks in multi-user mode is disabled.
-
-#### Q59. What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?
+#### Q58. What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?
 
 - [ ] Customer Payments
 - [ ] Checks Received
-- [ ] Undeposited Funds
+- [x] Undeposited Funds
 - [ ] Cash
 
-#### Q60. Why would you hide or collapse subaccounts on a report?
+#### Q59. Why would you hide or collapse subaccounts on a report?
 
-- [ ] Doing so temporarily hides details, which enables you to focus on values in the parent accounts.
+- [x] Doing so temporarily hides details, which enables you to focus on values in the parent accounts.
 - [ ] Subaccounts cannot be hidden, as they will be lost once the report is collapsed.
 - [ ] If you want to email the report, then subaccounts need to be collapsed.
 - [ ] Reports can be sent to Excel only in the collapsed format.
 
-#### Q61. A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?
+#### Q60. A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?
 
 - [ ] Create a sales order and then create an invoice when payment is due.
-- [ ] Create an invoice by going to your Home Page and, in the Customers section, selecting Create Invoices.
+- [x] Create an invoice by going to your Home Page and, in the Customers section, selecting Create Invoices.
 - [ ] Create a sales receipt by going to your Home Page and, in the Customers section, selecting Create Sales Receipt.
 - [ ] Prepare a journal entry to debit Accounts Receivable and credit Sales, putting the customer name in the description.
 
-#### Q62. What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?
+#### Q61. What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?
 
 - [ ] Change the fiscal year in the Company Information window.
 - [ ] Edit the user's access to restrict their ability to work with transactions.
-- [ ] Select Restrict entry after this date for the user.
+- [x] Select Restrict entry after this date for the user.
 - [ ] Start a new company file after each fiscal year end.
 
-#### Q63. What is the best way to record a sale when the customer pays at the time of the sale?
+#### Q62. What is the best way to record a sale when the customer pays at the time of the sale?
 
-- [ ] sales receipt
+- [x] sales receipt
 - [ ] statement
 - [ ] Cash Sale journal entry
 - [ ] invoice
 
-#### Q64. What sequence of steps is required to process payroll?
+#### Q63. What sequence of steps is required to process payroll?
 
-- [ ] Enter Time > Pay Employees > Pay Payroll Liabilities > Process Payroll Forms
+- [x] Enter Time > Pay Employees > Pay Payroll Liabilities > Process Payroll Forms
 - [ ] Pav Employees > Process Payroll Forms > Pav Payroll Liabilities
 - [ ] Enter Time > Pav Payroll Liabilities > Process Payroll Forms > Print Liabilities Report
 - [ ] Pay Employees > Process Payroll Forms > Print Payroll Report
 
-#### Q65. Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?
+#### Q64. Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?
 
 - [ ] Employee Balance Detail would be affected.
 - [ ] None, because timesheets are non-posting entries.
 - [ ] Payroll Expense and Cash in Checking would be affected.
-- [ ] Payroll Payable and Payroll Expense would be affected.
+- [x] Payroll Payable and Payroll Expense would be affected.
 
-#### Q66. What is the purpose of the little diamonds located next to certain list entries?
+#### Q65. What is the purpose of the little diamonds located next to certain list entries?
 
 - [ ] You can click and drag a diamond to move the list entry to a different location on the list.
 - [ ] The diamond indicates that the list entry cannot be deleted because it is in use.
 - [ ] The diamond indicates that the list entry has open transactions.
-- [ ] The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.
+- [x] The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.
 
-#### Q67. What is a QuickReport in QuickBooks?
+#### Q66. What is a QuickReport in QuickBooks?
 
 - [ ] A QuickBooks report in graphical format
 - [x] A Predesigned report that shows more detail about the data you are currently viewing on screen
