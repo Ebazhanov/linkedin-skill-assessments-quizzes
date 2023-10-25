@@ -779,6 +779,8 @@ class Book(models.Model):
 - [x] To handle HTTP requests and responses globally
 - [ ] To create user interfaces
 
+[Reference](https://medium.com/scalereal/everything-you-need-to-know-about-middleware-in-django-2a3bd3853cd6)
+
 #### Q84. Which of the following is true about Django's Object-Relational Mapping (ORM)?
 
 - [ ] It's used to define URL routing in a Django application.

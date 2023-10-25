@@ -2214,9 +2214,18 @@ console.log(10 + 10);
 
 #### Q165. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
 
-- [x]setTimeout()
-- [] setInterval()
-- [] delay()
-- [] wait()
+- [x] setTimeout()
+- [ ] setInterval()
+- [ ] delay()
+- [ ] wait()
 
 [Reference](https://www.w3schools.com/js/js_timing.asp)
+
+#### Q166. Which of the following is a server-side Java Script object?
+
+- [ ] Function
+- [x] File
+- [ ] FileUpload
+- [ ] Date
+
+[Reference](https://www.wscubetech.com/quiz-result.html)
