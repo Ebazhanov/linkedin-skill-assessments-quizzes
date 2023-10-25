@@ -482,7 +482,7 @@ buildTypes {
 #### Q34. To optimize your APK size, what image codec should you use?
 
 - [ ] JPG
-- [ ] PNG
+- [ ] PNGwell formed
 - [ ] MPEG
 - [x] WebP
 
@@ -740,7 +740,7 @@ buildTypes {
 - [x] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
 
-#### Q47. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
+#### Q47. Given this code snippet from a build.gradle file, which choice is not a possible build variant?
 
 ```
 android {
@@ -907,7 +907,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [x] It describes the component of the application
 - [ ] It declares the minimum level of the Android API that the application requires
-- [ ] It facilitates providing a uinque name for the application by specifying the package name
+- [ ] It facilitates providing a unique name for the application by specifying the package name
 - [ ] All of the above
 
 #### Q59. Which attribute of the element <uses-sdk> is used to specify the minimum API Level required for the application to run?
@@ -1228,10 +1228,3 @@ recyclerView.setLayoutManager(LinearLayoutManager(this, columnCount))
 - [ ] AsyncTask
 - [ ] IntentService
 - [ ] Thread
-
-#### Q78. What is the benefit of using @VisibleForTesting annotation?
-
-- [x] to denote that a class, method, or field has its visibility relaxed to make code testable
-- [ ] to denote that a class, method, or field is visible only in the test code
-- [ ] to denote that a class, method, or field has its visibility increased to make code less testable
-- [ ] to throw a run-time error if a class, method, or field with this annotation is accessed improperly

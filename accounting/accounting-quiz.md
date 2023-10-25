@@ -526,19 +526,19 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 - [ ] An internal control system is not effective until human error is eliminated or migrated.
 - [ ] Any internal control activities evaluated and adopted by a company should never be evaluated in terms of cost-benefit.
-- [ ] Only mid-to large-sized companies and governmental organizations need to ensure proper internal control activities.
-- [ ] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
+- [ ] Only mid-to-large-sized companies and governmental organizations need to ensure proper internal control activities.
+- [x] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
 
 #### Q63. According to the cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?
 
 - [ ] $60,000
 - [ ] $20,000
 - [ ] $35,000
-- [ ] $80,000
+- [x] $80,000
 
 #### Q64. A company can change to a new accounting principle if management can justify that the change will result in what?
 
-- [ ] more relevant decision-making information
+- [x] more relevant decision-making information
 - [ ] lower net income to report for tax purposes
 - [ ] changing depreciation methods for higher net income
 - [ ] reduced potential for administrative error
@@ -562,9 +562,9 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] Confirm whether probable legal action is disclosed to the auditor.
 - [ ] Investigate whether liens on assets are committed as collateral.
 - [ ] Determine the client's planned and imminent purchase commitments.
-- [ ] Gain a clear and proper understanding of the client's internal control processes.
+- [x] Gain a clear and proper understanding of the client's internal control processes.
 
-#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
+#### Q68. At McKay Company, machine hours are limited. Due to limited machine hours,there is more demand for McKay's products than it can produce . To maximize profits, the company should evaluate each product's **\_**.
 
 - [x] contribution margin per unit
 - [ ] segment margin per unit
@@ -613,7 +613,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] management's complete disclosure of unresolved legal action
 - [ ] limited competition in the company's industry resulting in increasing profitability
 - [ ] the audit committee's approval of specific accounting methods and principles
-- [ ] year-end financial adjustments significantly impacting the financial results
+- [x] year-end financial adjustments significantly impacting the financial results
 
 #### Q75. Which step of the accounting cycle involves checking to see if total debits equal total credits?
 

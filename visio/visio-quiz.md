@@ -363,11 +363,11 @@
 - [ ] XML
 - [ ] Integer
 - [ ] Floating Point
-- [ ] Fixed List
+- [x] Fixed List
 
 #### Q43. You're able to select a shape on your drawing, but you can't work with it as you expect. What could be preventing you from working with this shape after it is selected?
 
 - [ ] The shape is protected against selection
 - [ ] The shape is connected to another shape
-- [ ] The shape is part of a locked layer
+- [x] The shape is part of a locked layer
 - [ ] The shape is in a group

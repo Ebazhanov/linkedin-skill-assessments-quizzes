@@ -857,10 +857,10 @@ A pie chart only reads a single data series from a data source and ignores all o
 
 #### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
 
-- [ ]Save a copy of the file and type over it for each new letter.
-- [ ]Set the file as default theme.
-- [ ]Use the Format Painter to apply the format to new letters.
-- [x]Create a template by saving the file as a .dot file.
+- [ ] Save a copy of the file and type over it for each new letter.
+- [ ] Set the file as default theme.
+- [ ] Use the Format Painter to apply the format to new letters.
+- [x] Create a template by saving the file as a .dot file.
 
 explain:
 

@@ -241,10 +241,12 @@
 -D. Lock guides have been enabled.
 -E. The guides are on a master page.
 
-- [ ] B, D, E (maybe)
+- [x] B, D, E
 - [ ] C, D, E
 - [ ] A, B, C
 - [ ] B, C, D
+
+[Ref.](https://textdoc.co/qumF5ASTHb2OLP8X)
 
 #### 33. You have an InDesign document with text on one layer and images on another. You want images with a text wrap applied to not wrap text when the layer is hidden. Where would you find the option to control this?
 
@@ -255,16 +257,18 @@
 
 #### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
 
-    A. The color switches to black.
-    B. The color you click is applied to the text.
-    C. The color appears as a swatch in the Swatches panel.
-    D. The color appears in the Color panel.
-    E. If the image is in RGB mode, the text color is also set to RGB mode.
+A. The color switches to black.
+B. The color you click is applied to the text.
+C. The color appears as a swatch in the Swatches panel.
+D. The color appears in the Color panel.
+E. If the image is in RGB mode, the text color is also set to RGB mode.
 
 - [ ] A, B, D
 - [ ] A, C, E
 - [ ] B, D, E
-- [ ] B, C, D (maybe)
+- [x] B, C, D
+
+[Ref.](https://textdoc.co/0E9yiIPGW1DvVZJ3)
 
 #### 35. In an interactive document, you want two objects to fade in simultaneously on the page. Which panel helps you do this?
 
@@ -455,10 +459,12 @@
 
 #### 60. Which statement about importing a Microsoft Word document into InDesign is true?
 
-- [ ] Paragraph and character styles are removed and local InDesign formatting is applied.
+- [x] Paragraph and character styles are removed and local InDesign formatting is applied.
 - [ ] Images, hyperlinks, and special characters are stripped out.
 - [ ] Paragraph and character styles are mapped automatically when styles are named identically.
 - [ ] Footnotes, endnotes, and tables of contents are stripped out.
+
+[Ref.](https://helpx.adobe.com/in/indesign/using/paragraph-character-styles.html)
 
 #### 61. You select a frame and click Object > Arrange > Send to Back. The frame still appears above another object on your page. What is the most likely reason?
 

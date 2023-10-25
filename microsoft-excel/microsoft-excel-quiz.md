@@ -1306,7 +1306,7 @@ Alignment** tab, click**\_\*\*.
 
 - [ ] You cannot do this in Excel.
 - [ ] Right-click the axis, select **Format Axis**, and scroll to the desired minimum and maximum values.
-- [ ] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
+- [x] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
 - [ ] Click the individual axis values and change them manually.
 
 #### Q158. Given the source data, how do you transform the middle PivotTable to appear like the rightmost PivotTable?

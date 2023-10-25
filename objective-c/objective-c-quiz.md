@@ -149,7 +149,7 @@ printf("%d", val);
 - [ ] 5
 - [ ] This code contains an error.
 
-#### Q16. What is wrong with this code?
+#### Q16. What is the error in this code?
 
 ```
 NSMutableDictionary *dict1 = [NSMutableDictionary dictionaryWithCapacity:5];
