@@ -246,7 +246,7 @@
 - [ ] A, B, C
 - [ ] B, C, D
 
- [Ref.](https://textdoc.co/qumF5ASTHb2OLP8X)
+[Ref.](https://textdoc.co/qumF5ASTHb2OLP8X)
 
 #### 33. You have an InDesign document with text on one layer and images on another. You want images with a text wrap applied to not wrap text when the layer is hidden. Where would you find the option to control this?
 
@@ -268,7 +268,7 @@ E. If the image is in RGB mode, the text color is also set to RGB mode.
 - [ ] B, D, E
 - [x] B, C, D
 
- [Ref.](https://textdoc.co/0E9yiIPGW1DvVZJ3)
+[Ref.](https://textdoc.co/0E9yiIPGW1DvVZJ3)
 
 #### 35. In an interactive document, you want two objects to fade in simultaneously on the page. Which panel helps you do this?
 
