@@ -1124,3 +1124,32 @@ Table name: superheroes
 -[] To specify a foreign key reference
 
 [Reference](<https://www.w3schools.com/mysql/mysql_primarykey.asp#:~:text=The%20PRIMARY%20KEY%20constraint%20uniquely,or%20multiple%20columns%20(fields).>)
+
+#### Q117. MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.
+
+- [ ] database and programming
+- [ ] user and administrator
+- [x] client and server
+- [ ] syntax and objects
+
+#### Q118. Which MySQL command shows the structure of a table?
+
+- [ ] INFO table;
+- [ ] SHOW table;
+- [ ] STRUCTURE table;
+- [x] DESCRIBE table;
+
+#### Q119. The left and right joins are also known as \_.
+
+- [ ] Inner Join
+- [ ] Natural Join
+- [x] Outer Join
+- [ ] Cartesian Join
+
+#### Q120. What is the valid way to create a database view in MySQL?
+
+- [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
+- [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
+- [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
+- [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
+
