@@ -150,7 +150,7 @@
 - [ ] The last step is to complete the extension of XHTML compound documents and make sure the documents adhere to the defined namespaces.
 - [x] The last step is to create the DTD for the XHTML extension, which references both the XHTML modules and the new modules.
 - [ ] The last step is to run the XHTML extension through the XSLT processor, which will properly format it.
-- [ ] The last step is to verify that the XHTML is well-formed and valid, and compatible with most browsers.
+- [ ] The last step is to verify that the XHTML is well-formed valid, and compatible with most browsers.
 
 #### Q13. In an XML DTD ATTLIST declaration, which default value is used to indicate that the attribute does not have to be included?
 
@@ -185,7 +185,7 @@
 - [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
 - [x] Leave it alone, because the prolog does not require a closing tag.
 - [ ] Move the prolog to an external file so that the XML document only has elements with closing tags.
-- [ ] Add a closing tag, as al XML elements must have a closing tag.
+- [ ] Add a closing tag, as all XML elements must have a closing tag.
 
 #### Q18. Which statement is not true about XML?
 
@@ -438,9 +438,9 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 
 [reference link:](https://www.w3schools.com/XML/dom_nodetype.asp)
 
-#### Q36. XHTML modules can be extended by adding elements, attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
+#### Q36. XHTML modules can be extended by adding elements, and attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
 
-- [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well formed and valid; otherwise the extended instances aren't formally XHTML.
+- [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well-formed and valid; otherwise, the extended instances aren't formally XHTML.
 - [ ] The implementation of an XHTML module requires a definitions module and a constraint module that specifies syntax rules and uses the parameter entities declared in the definitions module.
 - [ ] The implementation of an XHTML module requires a qualified name module and a declaration module that holds the element, element attribute, and content model declarations.
 - [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations and a parameter module that uses the entities declared in the namespace module.

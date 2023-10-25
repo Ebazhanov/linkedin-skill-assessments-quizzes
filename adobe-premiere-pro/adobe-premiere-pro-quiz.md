@@ -64,7 +64,7 @@ E. Blur
 - [x] Timeline panel
 - [ ] Media Browser panel
 
-#### Q9. What can you do to make the shape layer automatically adjust size as the text layer changes?
+#### Q9. What can you do to make the shape layer automatically adjust its size as the text layer changes?
 
 ![image](images/001.png?raw=png)
 
@@ -381,7 +381,7 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 - [ ] Large Audio Waveforms
 - [ ] Logarithmic Keyframe Scaling
 
-#### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's submenu should you select?
+#### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's sub-menu should you select?
 
 - [x] Undock Panel
 - [ ] Undock Frame
@@ -447,7 +447,7 @@ E. PDF
 - [ ] Source Monitor panel
 - [ ] Media Browser panel
 
-#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest
+#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest?
 
 ![image](images/008.png?raw=png)
 
@@ -477,7 +477,7 @@ E. PDF
 - [ ] HEVC
 - [ ] P2 Movie
 
-#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe
+#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe?
 
 Premiere Pro? (Select three Items.)
 A. You can media manage After Effects projects directly in Premiere Pro.

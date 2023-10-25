@@ -838,10 +838,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
 
-- [x] what you have and what you do
+- [ ] what you have and what you do
 - [ ] what you know and what you are
-- [ ] what you have and what you know
-- [x] what you do and what you know
+- [x] what you have and what you know
+- [ ] what you do and what you know
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
 
@@ -1288,3 +1288,17 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] SQL Injection
 - [ ] Ransomware
 - [x] Malware
+
+#### Q171.Which of the following is NOT a common authentication factor used in multi-factor authentication (MFA)?
+
+- [ ] Something you are
+- [ ] Something you do
+- [ ] Something you have
+- [x] Something you say
+
+#### Q172. What type of cyberattack aims to make a service unavailable by overwhelming it with traffic?
+
+- [x] DDoS (Distributed Denial of Service)
+- [ ] Phishing
+- [ ] Ransomware
+- [ ] Malware

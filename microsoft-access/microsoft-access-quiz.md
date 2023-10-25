@@ -74,7 +74,7 @@
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
-#### Q10. You want a form to appear automatically, whenever the database starts. How do you do this?
+#### Q10. You want a form to appear automatically, whenever the database starts. How would you do this?
 
 - [ ] In the **Access Options** dialog box, click **Current Database**, then select the form you want to open in the **Display Form** property
 - [x] Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**
@@ -134,7 +134,7 @@
 - [x] 2
 - [ ] Normal
 
-#### Q16. What program flow function evaluates a condition and either returns a truepart or a falsepart?
+#### Q16. What program flow function evaluates a condition and returns either a truepart or a falsepart?
 
 - [ ] `Switch()`
 - [ ] `IsError()`
@@ -235,7 +235,7 @@
 - [x] Use a RunMacro or OnError macro action.
 - [ ] Expand the macro in the **Navigation Pane** and double-click the submacro name.
 
-#### Q28. Which combo box property defines what values appear when the user clicks the drop-down arrow?
+#### Q28. Which combo box property defines what values appears when the user clicks the drop-down arrow?
 
 - [ ] Control Source
 - [x] Row Source

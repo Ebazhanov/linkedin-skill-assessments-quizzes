@@ -72,7 +72,7 @@
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.
 
-#### Q11. Which of the following properties can be added to a 3D layer? (Select three items.)
+#### Q11. Which property can be added to a 3D layer? (Select three items.)
 
 - [x] Z Rotation
 - [x] Anchor Point

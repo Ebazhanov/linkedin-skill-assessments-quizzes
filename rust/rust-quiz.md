@@ -772,3 +772,12 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] pt(1)
 - [ ] pt.iter().nth(1)
 - [x] pt.1
+
+#### Q66. What is the purpose of the move keyword in Rust?
+
+- [x] To indicate that a value should be moved instead of copied.
+- [ ] To indicate that a value should be copied instead of moved.
+- [ ] To indicate that a value should be borrowed instead of owned.
+- [ ] To indicate that a value should be owned instead of borrowed.
+
+[reference](https://doc.rust-lang.org/std/keyword.move.html#:~:text=Keyword%20move&text=move%20converts%20any%20variables%20captured,to%20variables%20captured%20by%20value.&text=move%20is%20often%20used%20when%20threads%20are%20involved.&text=move%20is%20also%20valid%20before%20an%20async%20block.)

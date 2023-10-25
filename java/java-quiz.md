@@ -304,7 +304,7 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-#### Q15. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
+#### Q15. How do you write a for-each loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
 - [ ] `for (pencilCase.next()) {}`
@@ -345,7 +345,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `LocalDate.now()`
 - [ ] `Calendar.getInstance().getTime()`
 
-**Explanation:** LocalDate is the newest class added in java 8
+**Explanation:** LocalDate is the newest class added in Java 8
 
 #### Q20. Fill in the blank to create a piece of code that will tell whether `int0` is divisible by `5`:
 
@@ -404,7 +404,7 @@ public class Jedi {
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
-#### Q24. "An anonymous class require a zero-argument constructor." that's not true?
+#### Q24. "An anonymous class requires a zero-argument constructor." that's not true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
 - [x] An anonymous class does not require a zero-argument constructor.
@@ -854,7 +854,7 @@ public class Solution {
 
 - [x] Add a static import.
 - [ ] Declare local copies of the constant in your code.
-- [ ] This cannot be done. You must always qualify references to static members with the class form which they came from.
+- [ ] This cannot be done. You must always qualify references to static members with the class from which they came from.
 - [ ] Put the static members in an interface and inherit from that interface.
 
 #### Q54. Which keyword lets you use an interface?
@@ -862,7 +862,7 @@ public class Solution {
 - [ ] extends
 - [x] implements
 - [ ] inherits
-- [ ] import
+- [ ] Import
 
 #### Q55. Why are ArrayLists better than arrays?
 
@@ -960,16 +960,16 @@ try {
 - [ ] Hello World
 - [x] It will not compile because the second catch statement is unreachable
 - [ ] Hello World!
-- [ ] It will throw runtime exception
+- [ ] It will throw a runtime exception
 
-#### Q61. Which is not a java keyword
+#### Q61. Which is not a Java keyword
 
 - [ ] finally
 - [ ] native
 - [ ] interface
 - [x] unsigned
 
-**Explanation:** `native` is a part of JNI interface.
+**Explanation:** `native` is a part of the JNI interface.
 
 #### Q62. Which operator would you use to find the remainder after division?
 
@@ -1046,7 +1046,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Set object to null and call Runtime.gc()
 - [x] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
-- [ ] There is no way to force an object to be garbage collected
+- [ ] There is no way to force an object to be garbage-collected
 
 [Reference](https://sematext.com/blog/java-garbage-collection/)
 
@@ -1078,7 +1078,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] nonmodifier
 - [x] private
 
-#### Q74. What type of variable can be assigned to only once?
+#### Q74. What type of variable can be assigned only once?
 
 - [ ] private
 - [ ] non-static
@@ -1682,7 +1682,7 @@ for (List list : myLists){
 - [x] polymorphism
 - [ ] encapsulation
 
-**Explanation:** switch between different implementations of the `List` interface.
+**Explanation:** Switch between different implementations of the `List` interface.
 
 #### Q116. What does this code print?
 
@@ -1900,17 +1900,17 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4]
 
 [Reference](https://www.whitman.edu/mathematics/java_tutorial/java/system/iostreams.html)
 
-#### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
+#### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How would you fix this?
 
 ```java
 double pickle = 2;
 int jar = pickle;
 ```
 
-- [ ] Use the method toInt() to convert pickle before assigning it to jar.
-- [x] Cast pickle to an int before assigning it to jar.
+- [ ] Use the method toInt() to convert the pickle before assigning it to the jar.
+- [x] Cast pickle to an int before assigning it to the jar.
 - [ ] Make pickle into a double by adding + ".0"
-- [ ] Use the new keyword to create a new Integer from pickle before assigning it to jar.
+- [ ] Use the new keyword to create a new Integer from pickle before assigning it to the jar.
 
 [Reference](https://www.w3schools.com/java/java_type_casting.asp)
 
@@ -1971,7 +1971,7 @@ public class Main {
 - [ ] String
 
 [Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
-To make the main method the entry point of the program in Java,we need to use the static keyword. So, the correct answer is: static
+To make the main method the entry point of the program in Java, we need to use the static keyword. So, the correct answer is: static
 The main method must be declared as public static void main(String[] args) to serve as the entry point for a Java program
 
 #### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
@@ -1992,7 +1992,7 @@ class Bunny{
 
 ```
 
-- [x] Implement the comparable interface by overriding the compareTo method.
+- [x] Implement the Comparable interface by overriding the compareTo method.
 - [ ] Add the keyword default to the weight variable.
 - [ ] Override the equals method inside the Bunny class.
 - [ ] Implement Sortable and override the sortBy method.
@@ -2001,7 +2001,7 @@ class Bunny{
 
 #### Q134. Identify the incorrect Java feature.
 
-- [ ] Object oriented
+- [ ] Object-oriented
 - [x] Use of pointers
 - [ ] Dynamic
 - [ ] Architectural neural
@@ -2031,7 +2031,7 @@ switch (yearsMarried) {
 
 [Reference](https://stackoverflow.com/a/8564008)
 
-#### Q136. What language feature do these expressions demonstrate?
+#### Q136. What language features do these expressions demonstrate?
 
 ```
 System.out::println
@@ -2048,7 +2048,7 @@ Doggie::fetch
 #### Q137. What is the difference between the wait() and sleep() methods?
 
 - [ ] Only Threads can wait, but any Object can be put to sleep.
-- [x] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [x] A waiter can be woken up by another Thread calling notification whereas a sleeper cannot.
 - [ ] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
 - [ ] Sleep allows for multi-threading whereas wait does not.
 
@@ -2085,7 +2085,7 @@ System.out.println(horses.get(1).trim());
 
 > from @yktsang01 in #3915 thread
 
-Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like `Map<java.time.Month, Double>`.
+Map because the map is a key/value pair without creating new classes/objects. So can store the rainfall per month like `Map<java.time.Month, Double>`.
 The other options will most likely need some new class to be meaningful:
 
 ```java
@@ -2128,10 +2128,10 @@ Queue<Rainfall>
 
 #### Q145. What is UNICODE?
 
-- [ ] Unicode is used for external representation of words and strings
+- [ ] Unicode is used for the external representation of words and strings
 - [ ] Unicode is used for internal representation of characters and strings
 - [x] Unicode is used for external representation of characters and strings
-- [ ] Unicode is used for internal representation of words and strings
+- [ ] Unicode is used for the internal representation of words and strings
 
 #### Q146. What kind of thread is the Garbage collector thread?
 
@@ -2142,10 +2142,10 @@ Queue<Rainfall>
 
 #### Q147. What is HashMap and Map?
 
-- [ ] HashMap is Interface and map is class that implements that
-- [ ] HashMap is class and map is interface that implements that
-- [ ] Map is class and Hashmap is interface that implements that
-- [x] Map is Interface and Hashmap is class that implements that
+- [ ] HashMap is Interface and map is a class that implements that
+- [ ] HashMap is a class and map is an interface that implements that
+- [ ] Map is a class and Hashmap is an interface that implements that
+- [x] Map is Interface and Hashmap is the class that implements that
 
 #### Q148. What invokes a thread's run() method?
 
@@ -2159,7 +2159,7 @@ Queue<Rainfall>
 #### Q149. What is true about a final class?
 
 - [ ] class declared final is a final class.
-- [ ] Final classes are created so the methods implemented by that class cannot be overriddden.
+- [ ] Final classes are created so the methods implemented by that class cannot be overridden.
 - [ ] It can't be inherited.
 - [x] All of the above.
 
@@ -2259,7 +2259,7 @@ class Lambo extends Car {
 - [ ] jar cf FrogSounds.jar
 - [x] java -jar FrogSounds.jar
 
-#### Q157. What is the default value of short variable?
+#### Q157. What is the default value of a short variable?
 
 - [x] 0
 - [ ] 0.0
@@ -2541,11 +2541,11 @@ class abc
 ```
 
 - [x] The snippet compiles and runs but does not print anything.
-- [ ] The snippet compiles, runs and prints 0.
-- [ ] The snippet compiles, runs and prints 1.
+- [ ] The snippet compiles, runs, and prints 0.
+- [ ] The snippet compiles, runs, and prints 1.
 - [ ] The snippet does not compile.
 
-#### Q172. Which of these class allows us to define our own formatting pattern for dates and time?
+#### Q172. Which of these classes allows us to define our own formatting pattern for dates and times?
 
 - [ ] DefinedDateFormat
 - [x] SimpleDateFormat
