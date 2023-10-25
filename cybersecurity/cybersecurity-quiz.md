@@ -1302,5 +1302,3 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Phishing
 - [ ] Ransomware
 - [ ] Malware
-
-
