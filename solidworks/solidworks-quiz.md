@@ -534,8 +534,9 @@
 - [ ] Advanced
 - [x] Basic
 - [ ] Mechanical
-      
+
 #### Q68. You want to share a SOLIDWORKS assembly with another SOLIDWORKS user so that user can edit it. What is the best way to do this?
+
 - [ ] Save the assembly as a sldasm file and send the file to the user.
 - [ ] Save the assembly as a single part (.sldprt file) to include all assembly contents.
 - [x] Use Pack and Go to package and send all assembly files.
@@ -554,6 +555,3 @@
 - [ ] The weight of individual assembly parts.
 - [ ] The center of mass for the entire assembly.
 - [ ] The assembly's total volume.
-
-
-
