@@ -1,6 +1,6 @@
 ## SharePoint
 
-#### Q1. Which permission allows a user to create lists and document libraries, edit pages, apply themes?
+#### Q1. Which permission allows a user to create lists and document libraries, edit pages,and apply themes?
 
 - [ ] Edit
 - [ ] Contribute
@@ -63,7 +63,7 @@
 - [x] Microsoft 365 admin centre
 - [ ] Microsoft 365 Security
 
-#### Q10. You want to use powershell to retrieve a list of users that are members of the Viewers group in a SharePoint site. Which command do you use?
+#### Q10. You want to use PowerShell to retrieve a list of users that are members of the Viewers group in a SharePoint site. Which command do you use?
 
 - [ ] `Get -SPUserSettingsProviderManager -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`
 - [ ] `Get -SPUser 'https://sharepoint.contoso.com' -Group 'Viewers'`
@@ -394,7 +394,7 @@
 - [ ] The current group membership page provides shortcuts at the bottom of the page to other groups.
 - [ ] The Getting Started links are updated with groups for easy access.
 
-#### Q49. A user mentios that a list in one site seems different in another site, although the lists are essentially the same. What settings is causing the discrepancy between the lists?
+#### Q49. A user mentions that a list on one site seems different on another site, although the lists are essentially the same. Which settings is causing the discrepancy between the lists?
 
 - [ ] the object permissions
 - [ ] the user permissions
