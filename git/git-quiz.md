@@ -1285,3 +1285,12 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+
+
+#### Q141. What is the purpose of C++ move constructor, and when is it automatically generated?
+
+- [ ] A move constructor creates deep copies of objects, improving memory efficiency.
+- [ ] It is generated when you explicitly define a copy constructor.
+- [ ] The move constructor is used for copying objects between different data types.
+- [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.
