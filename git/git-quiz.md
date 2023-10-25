@@ -1285,3 +1285,10 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+#### Q144. What is a "Git subrepo," and how does it differ from a Git submodule?
+- ref(https://www.reddit.com/r/git/comments/tqhprn/submodule_or_subtree/)
+- [ ] Subrepos are used to create repositories within repositories.
+- [ ] Subrepos are a synonym for submodules in Git.
+- [ ] Git subrepos are used for creating Git submodules.
+- [x] Subrepos are a concept for managing repositories within other repositories, similar to submodules but allowing more flexibility and customization.
