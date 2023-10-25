@@ -822,3 +822,80 @@ class Book(models.Model):
 - [ ] 80
 - [ ] 8000
 - [ ] It would fail to start
+
+#### Q90. What is the purpose of Django's Object-Relational Mapping (ORM)?
+
+- [ ] To define URL routing in a Django application.
+- [ ] To handle HTTP requests and responses globally.
+- [x] To map Python objects to database tables and simplify database operations.
+- [ ] To create user interfaces.
+
+#### Q91. In Django, what does the term "migration" refer to?
+
+- [ ] A change in URL routing configuration.
+- [x] The process of propagating changes you make to your models (adding a field, deleting a model, etc.) into your database schema.
+- [ ] A way to define custom middleware.
+- [ ] The process of creating HTML templates for your application.
+
+#### Q92. What is the purpose of Django's "context" in the context of rendering templates?
+
+- [x] To pass data from your views to your templates so that the data can be rendered dynamically.
+- [ ] To define URL patterns for your application.
+- [ ] To manage HTTP requests and responses.
+- [ ] To create user interfaces.
+
+#### Q93. What does the Django `QuerySet` class represent?
+
+- [ ] A Python class used for defining URL routing in Django.
+- [ ] A class for managing HTTP requests and responses.
+- [x] A database query made by Django, represented in Python.
+- [ ] A class for defining HTML templates.
+
+#### Q94. In Django, what is the purpose of the "collectstatic" management command?
+
+- [ ] To collect user data for analytics.
+- [ ] To collect database records from multiple sources.
+- [x] To collect all static files (CSS, JavaScript, images) from each of your applications into a single location.
+- [ ] To collect logs for debugging purposes.
+
+#### Q95. What is the Django Admin site used for?
+
+- [ ] To manage user authentication.
+- [ ] To define URL routing for Django applications.
+- [x] To provide an automatically generated admin interface for your models.
+- [ ] To write and run database queries.
+
+#### Q96. What does Django's "middleware" refer to?
+
+- [ ] A way to create user interfaces.
+- [ ] A database query in Django.
+- [x] A way to process HTTP requests and responses globally before they reach the view or after they leave the view.
+- [ ] A way to configure URL routing in Django.
+
+#### Q97. What is the primary purpose of Django's "migration files"?
+
+- [x] To define and store changes to the database schema over time.
+- [ ] To manage static files like CSS and JavaScript.
+- [ ] To configure URL patterns.
+- [ ] To create HTML templates.
+
+#### Q98. Which authentication system does Django provide out of the box?
+
+- [ ] OAuth 2.0
+- [x] User authentication with built-in user models and views.
+- [ ] JWT (JSON Web Tokens)
+- [ ] SAML (Security Assertion Markup Language)
+
+#### Q99. In Django, what does the "Model-View-Controller" (MVC) architectural pattern refer to?
+
+- [ ] A pattern for defining URL routing.
+- [ ] A pattern for creating HTML templates.
+- [x] A pattern that divides the application into three interconnected components: Model, View, and Controller (Django often refers to it as MTV, Model-View-Template).
+- [ ] A pattern for user authentication.
+
+#### Q100. What is the purpose of Django's "templates"?
+
+- [ ] To define database schema and model relationships.
+- [x] To define the structure and layout of HTML pages to be served to the user.
+- [ ] To configure URL patterns for your application.
+- [ ] To store and serve static files like images and JavaScript.
