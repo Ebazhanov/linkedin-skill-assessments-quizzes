@@ -191,56 +191,143 @@
 
 #### Q28. What is SketchUp primarily used for?
 
-- [ ] a) 2D drafting
-- [x] b) 3D modeling
-- [ ] c) Video editing
-- [ ] d) Spreadsheet calculations
+- [ ] 2D drafting
+- [x] 3D modeling
+- [ ] Video editing
+- [ ] Spreadsheet calculations
 
 #### Q29. Which tool in SketchUp is used to create straight lines?
 
-- [ ] a) Eraser tool
-- [x] b) Line tool
-- [ ] c) Arc tool
-- [ ] d) Rotate tool
+- [ ] Eraser tool
+- [x] Line tool
+- [ ] Arc tool
+- [ ] Rotate tool
 
 #### Q30. How can you navigate in the 3D environment of SketchUp?
 
-- [ ] a) Use the keyboard arrow keys
-- [ ] b) Use the Paint tool
-- [x] c) Use the Scroll Wheel and Pan tool
-- [ ] d) Use the Text tool
+- [ ] Use the keyboard arrow keys
+- [ ] Use the Paint tool
+- [x] Use the Scroll Wheel and Pan tool
+- [ ] Use the Text tool
 
 #### Q31. To create a 3D object in SketchUp, you typically start with which tool?
 
-- [ ] a) Move tool
-- [ ] b) Zoom tool
-- [x] c) Rectangle tool
-- [ ] d) Tape measure tool
+- [ ] Move tool
+- [ ] Zoom tool
+- [x] Rectangle tool
+- [ ] Tape measure tool
 
 #### Q32. What does the Push/Pull tool do in SketchUp?
 
-- [ ] a) Measures distances
-- [x] b) Expands 2D shapes into 3D objects
-- [ ] c) Creates text notes
-- [ ] d) Adds color to surfaces
+- [ ] Measures distances
+- [x] Expands 2D shapes into 3D objects
+- [ ] Creates text notes
+- [ ] Adds color to surfaces
 
 #### Q33. How do you prevent objects from automatically fusing together in SketchUp?
 
-- [ ] a) You can't prevent it
-- [ ] b) Use the Rotate tool
-- [x] c) Group the objects
-- [ ] d) Use the Paint tool
+- [ ] You can't prevent it
+- [ ] Use the Rotate tool
+- [x] Group the objects
+- [ ] Use the Paint tool
 
 #### Q34. Which extension is required to export a SketchUp model as an STL file?
 
-- [ ] a) It's built-in and doesn't require an extension
-- [ ] b) SketchUp OBJ
-- [ ] c) SketchUp 3DS
-- [x] d) SketchUp STL
+- [ ] It's built-in and doesn't require an extension
+- [ ] SketchUp OBJ
+- [ ] SketchUp 3DS
+- [x] SketchUp STL
 
 #### Q35. How do you save your work in SketchUp?
 
-- [x] a) Click File > Save
-- [ ] b) Use the Export tool
-- [ ] c) Press Ctrl+S (or Command+S on Mac)
-- [ ] d) It's automatically saved
+- [x] Click File > Save
+- [ ] Use the Export tool
+- [ ] Press Ctrl+S (or Command+S on Mac)
+- [ ] It's automatically saved
+
+
+#### Q36. How do you add to a selection?
+
+- [ ] Activate the Select tool, hold down the Tab key, and click each entity that you would like to add to the selection set.
+- [ ] Hold down the A key, activate the Select tool, and click each entity that you would like to add to the selection set.
+- [x] Activate the Select tool, hold down the Shift key, and click each entity you would like to add to the selection set.
+- [ ] Activate the Select tool, press the Plus Sign (+), and click each entity that you would like to add to the selection set.
+
+#### Q37. what is the purpose of the 2D people included in some sketchUp templates?
+
+- [ ] to create a point of inference
+- [x] to show a scale reference
+- [ ] to introduce you to SketchUp staff
+- [ ] to practice using the Select and Eraser tools
+
+#### Q38. How would you move a group from an existing layer called walls to an existing layer called Ceiling?
+
+- [x] Right-click the group and select Entity info, and then use the drop-down menu and select ceiling.
+- [ ] Right-click the group and select Make Component.Then, in the component dialog box, select the Ceiling layer.
+- [ ] Right-click the group and select Layers, and then use the drop-down menu and select ceiling.
+- [ ] Right-click the group and select edit Group > Layers, and then use the drop-down menu and select ceiling.
+
+#### Q39. which method creates a perpendicular view of a section cut?
+
+- [x] Right-click the section plane and select Align View.
+- [ ] click view > Section Plane Direct.
+- [ ] orbit and pan through your model until you see the correct view.
+- [ ] Right-click the section plane and select orbit to Direct View.
+
+#### Q40. How many edges are in this image?
+![sketchup image](images/image16.png)
+
+- [x] seven
+- [ ] eight
+- [ ] three
+- [ ] four
+
+#### Q41. What action is being demonstrated in this image?
+![sketchup image](images/image17.png)
+
+- [ ] Offset
+- [ ] Rise
+- [x] Inference
+- [ ] Pull
+
+#### Q42. what is the Hybrid rendering option for in Layout?
+
+- [ ] This option is used when there is more than one scale among multiple viewports on a page.
+- [x] It combines scalable vector linework with raster rendering for materials.
+- [ ] It combines scalable vector linework with faster rendering speed.
+- [ ] There are not any rendering options in Layout.
+
+#### Q43. When some faces are oriented correctly and others are not, what is considered the most efficient way to correctly orient all faces?
+- [ ] Select all geometry and choose orient Faces.
+- [ ] Hold the Shift key and select all backward faces, right-click the selection, and select Reverse Faces.
+- [x] Right-click a correctly oriented face and select orient Faces.
+- [ ] Right-click each backward face and select Reverse Face.
+
+#### Q44. How do you sample a material that has been used in the model?
+
+- [ ] In the Tools drop-down menu, select Material, right-click the material, and select Texture > Sample.
+- [ ] Activate the Paint Bucket tool, right-click the material, and select Texture > Sample.
+- [ ] Open the Materials window. Under the Colors In Model file, scroll down until you find the reference material, and then click the thumbnail.
+- [x] Activate the Paint Bucket tool, hold down Ctrl (Command), and then click the material that has already been applied to a face in the model.
+
+#### Q45. The cube on the bottom is in one group and the cube on top is in another group.How can you keep them in two separate groups,but have them appear as one when not selected?
+![sketchup image](images/image18.png)
+
+- [ ] Erase the bottom edges in the top group and the top edges in the bottom group.
+- [ ] Extrude both farther so that the geometry is overlapping.
+- [ ] offset the bottom of the top group and the top of the bottom group.
+- [x] Hide the bottom edges in the top group and the top edges in the bottom group.
+
+#### Q46. How can you create a component that will always face your view?
+
+- [ ] Right-click the component after creating it and select Always face camera from the menu.
+- [x] when creating the component, select Face Me in the dialog box.
+- [ ] Right-click the component after creating it and select Face Me from the menu.
+- [ ] when creating the component, select Always face camera in the dialog box.
+
+#### Q47. which icon represents a tool that will extrude a surface?
+
+- [ ]![sketchup image](images/image8.png)
+- [x]![sketchup image](images/image13.png)
+- [ ]![sketchup image](images/image14.png)
+- [ ]![sketchup image](images/image15.png)
