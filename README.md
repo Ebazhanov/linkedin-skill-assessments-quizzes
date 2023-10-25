@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1571-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1572-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2180,6 +2178,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/shashankk6241"><img src="https://avatars.githubusercontent.com/u/147465651?v=4?s=100" width="100px;" alt="shashankk6241"/><br /><sub><b>shashankk6241</b></sub></a><br /><a href="#design-shashankk6241" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=shashankk6241" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rahul00112233"><img src="https://avatars.githubusercontent.com/u/130771190?v=4?s=100" width="100px;" alt="Rahul00112233"/><br /><sub><b>Rahul00112233</b></sub></a><br /><a href="#design-Rahul00112233" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rahul00112233" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lazarus249"><img src="https://avatars.githubusercontent.com/u/148421226?v=4?s=100" width="100px;" alt="lazarus249"/><br /><sub><b>lazarus249</b></sub></a><br /><a href="#design-lazarus249" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=lazarus249" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/alpha2207"><img src="https://avatars.githubusercontent.com/u/73979701?v=4?s=100" width="100px;" alt="alpha2207"/><br /><sub><b>alpha2207</b></sub></a><br /><a href="#design-alpha2207" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alpha2207" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
