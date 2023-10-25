@@ -397,7 +397,6 @@
 - [ ] Use the "Rotate" tool to make a copy.
 - [x] Press the "Ctrl" (or "Cmd" on Mac) key while using the Move tool to copy the selection.
 
-
 #### Q50. In SketchUp, what is the purpose of the "Eraser" tool?
 
 - [ ] To draw straight lines and shapes.
@@ -440,7 +439,6 @@
 - [ ] Press Ctrl+S (or Command+S on Mac)
 - [ ] It's automatically saved
 
-
 #### Q36. How do you add to a selection?
 
 - [ ] Activate the Select tool, hold down the Tab key, and click each entity that you would like to add to the selection set.
@@ -470,6 +468,7 @@
 - [ ] Right-click the section plane and select orbit to Direct View.
 
 #### Q40. How many edges are in this image?
+
 ![sketchup image](images/image16.png)
 
 - [x] seven
@@ -478,6 +477,7 @@
 - [ ] four
 
 #### Q41. What action is being demonstrated in this image?
+
 ![sketchup image](images/image17.png)
 
 - [ ] Offset
@@ -493,6 +493,7 @@
 - [ ] There are not any rendering options in Layout.
 
 #### Q43. When some faces are oriented correctly and others are not, what is considered the most efficient way to correctly orient all faces?
+
 - [ ] Select all geometry and choose orient Faces.
 - [ ] Hold the Shift key and select all backward faces, right-click the selection, and select Reverse Faces.
 - [x] Right-click a correctly oriented face and select orient Faces.
@@ -506,6 +507,7 @@
 - [x] Activate the Paint Bucket tool, hold down Ctrl (Command), and then click the material that has already been applied to a face in the model.
 
 #### Q45. The cube on the bottom is in one group and the cube on top is in another group.How can you keep them in two separate groups,but have them appear as one when not selected?
+
 ![sketchup image](images/image18.png)
 
 - [ ] Erase the bottom edges in the top group and the top edges in the bottom group.

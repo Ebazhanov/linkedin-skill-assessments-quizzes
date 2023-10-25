@@ -555,4 +555,3 @@
 - [ ] The weight of individual assembly parts.
 - [ ] The center of mass for the entire assembly.
 - [ ] The assembly's total volume.
-
