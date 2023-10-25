@@ -577,7 +577,7 @@ End Sub
 
 #### Q39. Which subroutine declaration does not cause a compile error?
 
-- [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
+- [x] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
 - [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
 - [x] `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`
 - [ ] `Sub Called(Salary As Long, ParamArray Vals() As String)`
