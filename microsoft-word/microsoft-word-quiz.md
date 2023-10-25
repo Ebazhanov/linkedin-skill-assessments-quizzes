@@ -909,7 +909,6 @@ explain:
 - [ ] A4
 - [ ] All of the above
 
-
 #### Q113: What is the file extension for a Microsoft Word document?
 
 - [x] .docx
@@ -930,7 +929,6 @@ explain:
 - [x] Home
 - [ ] References
 - [ ] Insert
-
 
 #### Q116: What does "Ctrl+S" do in Microsoft Word?
 
