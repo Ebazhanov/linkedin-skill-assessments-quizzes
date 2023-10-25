@@ -1606,3 +1606,75 @@ useEffect(callNetworkFunc, XXXX);
 - [x] when isLoggedIn is true
 - [ ] when isLoggedIn is false and the Hello function is invoked
 - [ ] never
+
+#### Q133. When do you use `useLayoutEffect`?
+
+- [ ] to optimize for all devices
+- [ ] to complete the update
+- [x] to change the layout of the screen
+- [ ] when you need the browser to paint before the effect runs
+
+#### Q134. What of the following is used in React.js to increase performance?
+
+- [ ] Original DOM
+- [x] Virtual DOM
+- [ ] Both of the above
+- [ ] None of the above
+
+#### Q115. Choose the library which is most often associated with react?
+
+- [ ] Chai
+- [ ] Sinon
+- [x] Jest
+- [ ] Mocha
+
+[Reference](https://reactjs.org/docs/testing-recipes.html)
+
+#### Q135. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
+
+#### Q84. Which tool is not part of Create React App?
+
+- [ ] React
+- [x] jQuery
+- [ ] webpack
+- [ ] ReactDOM
+
+#### Q136. Which answer best describes a function component?
+
+- [ ] A function component is the same as a class component.
+- [x] A function component accepts a single props object and returns a React element.
+- [ ] A function component is the only way to create a component.
+- [ ] A function component is required to create a React component.
+
+#### Q137. Which library does the `fetch()` function come from?
+
+- [ ] FetchJS
+- [ ] ReactDOM
+- [x] No library. `fetch()` is supported by most browsers.
+- [ ] React
+
+### Q138. In React, what is the purpose of the `key` prop when rendering a list of components
+
+- [ ] The `key` prop is used to provide a unique identifier for the component.
+- [ ] The `key` prop is used to define the color of the component.
+- [ ] The `key` prop is required to render a list of components.
+- [x] The `key` prop is used by React to optimize updates and identify which items have changed or been added/removed in the list.
+
+### Q139. What is the primary function of React Router?
+
+- [ ] React Router is used for fetching data from APIs.
+- [ ] React Router is used to create animations in React applications.
+- [ ] React Router is used for managing state in React components.
+- [x] React Router is used for adding navigation and routing to React applications, allowing users to navigate between different views or pages.
+
+### Q140. When should you use Redux in a React application?
+
+- [ ] Redux is always required in React applications.
+- [ ] Redux should be used when you need to fetch data from APIs.
+- [ ] Redux is used for creating user interfaces but not for state management.
+- [x] Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state.

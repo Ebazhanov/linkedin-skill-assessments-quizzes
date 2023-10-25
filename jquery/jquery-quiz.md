@@ -1424,9 +1424,9 @@ $('#element')
 #### Q72. If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
 
 - [ ] jQuery 3 compressed
-- [ ] jQuery 3 slim
+- [x] jQuery 3 slim
 - [ ] jQuery 2
-- [x] None of these - jQuery requires AJAX
+- [ ] None of these - jQuery requires AJAX
 
 #### Q73. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
 
@@ -1639,3 +1639,7 @@ $('a.active').addClass('hover');
 - [ ] when you want to time jQuery animations and CSS animations, since addClass has no duration setting
 - [x] all of these answers
 - [ ] when you want to time custom animations of several different elements without lots of nested callbacks
+
+#### Q87. Which symbol is commonly used to represent the jQuery object?
+
+-[x] $<br> -[ ] # <br> -[ ] % <br> -[ ] &

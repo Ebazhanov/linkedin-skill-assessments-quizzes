@@ -37,7 +37,7 @@
 `A map of California has a light beige main color and a small dark shadow.`
 
 - [ ] 3D Extrude & Bevel
-- [ ] Offset Path
+- [x] Offset Path
 - [ ] 3D Rotate
 - [ ] 3D Revolve
 
@@ -53,7 +53,7 @@
 `A map of Southern California includes many info circles shaded in light blue.`
 
 - [ ] Recolor Artwork
-- [ ] Select > Same > Appearance
+- [x] Select > Same > Appearance
 - [ ] Edit Colors
 - [ ] Live Paint
 
@@ -720,3 +720,10 @@
 - [ ] the current stroke profile
 - [ ] the artboard containing the path
 - [x] the current stroke color
+
+#### Q93. Fundamental transformation tools include all of the following except:
+
+- [ ] Scale
+- [ ] Rotate
+- [x] Invert
+- [ ] Reflect

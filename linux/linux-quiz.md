@@ -318,10 +318,10 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 #### Q38. What is the /etc/hosts file used for?
 
-- [ ] resolving the local name
+- [x] resolving the local name
 - [ ] blocking sites using iptables
 - [ ] setting the hostname
-- [x] configuring DNS name servers
+- [ ] configuring DNS name servers
 
 #### Q39. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
@@ -738,13 +738,6 @@ cat < in.txt > out.txt
 - [ ] single
 - [ ] process
 
-#### Q88. What tool should you use to replace a physical volume in LVM?
-
-- [ ] cp
-- [x] pvmove
-- [ ] tar
-- [ ] lvcopy
-
 [Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
@@ -963,3 +956,12 @@ cat < in.txt > out.txt
 - [ ] rm -rf username
 - [ ] mv
 - [ ] delete
+
+#### Q117. What is the kernel of a Linux operating system?
+
+- [x] The core of the operating system that manages the hardware and software resources.
+- [ ] A graphical user interface (GUI) that allows users to interact with the operating system.
+- [ ] A collection of software applications that can be used to perform various tasks, such as web browsing, word processing, and programming.
+- [ ] All of the above
+
+[reference](https://www.suse.com/suse-defines/definition/linux-kernel/#:~:text=The%20Linux%20kernel%20is%20the,interface%20with%20the%20Linux%20kernel.)

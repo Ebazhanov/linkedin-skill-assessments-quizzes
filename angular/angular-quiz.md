@@ -589,7 +589,7 @@ export class HighlightDirective {
 - [x] D
 
   ```html
-  <input type="text" formControlName="username" #userName="ngModer" />
+  <input type="text" formControlName="username" #userName="ngModel" />
   <span *ngIf="userName.errors.minlength">
     Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
   </span>
@@ -1458,3 +1458,22 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] CanActivate and CanLoad do the exact same thing.
 - [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
 - [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested
+
+#### Q84. With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?
+
+```ts
+@Component({
+  selector: 'app-date-card',
+  template: '',
+})
+export class DateCardComponent {
+  currentYear() {
+    return new Date().getFullYear();
+  }
+}
+```
+
+- [x] {{ currentYear() }}
+- [ ] {{ component.currentYear() }}
+- [ ] {{ currentYear }}
+- [ ] Class functions cannot be called from template syntax.

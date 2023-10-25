@@ -260,7 +260,7 @@
 - [x] NIC
 - [ ] Router
 
-#### Q29. Networking wire is referred to as **\_**
+#### Q29. Networking wire is referred to as **\_**.
 
 - [x] CAT-5 or CAT-6 Ethernet cable
 - [ ] thin pair or twisted pair
@@ -383,7 +383,7 @@
 - [ ] cable
 - [x] dial-up
 
-#### Q46. What is a fixed disk?
+#### Q46. What is a fixed-disk?
 
 - [ ] mass storage that has been repaired
 - [x] nonremovable mass storage
@@ -459,21 +459,21 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.
 - [ ] Powered hubs are external to the computer case.
 
-#### Q56. Which user has the smartest approach to online security?
+#### Q56. Which of the following users has the smartest approach to online security?
 
 - [ ] Jarred uses a unique password for each site.
 - [ ] Jen uses the same password on each site, but with two-factor authentication.
 - [x] Jason uses a unique password for each site along with two-factor authentication.
 - [ ] Jackie uses the same password on each site, but with a different user name.
 
-#### Q57. Which is an example of a phishing attach?
+#### Q57. Which is an example of a phishing attack?
 
 - [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
 - [ ] After visiting a website, Carla notices that her computer is running slowly.
 - [x] Bob receives an email from his bank, asking him to click a link to verify his account.
 - [ ] Ellen's email inbox is flooded with unwanted advertising.
 
-#### Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
+#### Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure that you do not have false positive?
 
 - [ ] Restart in Safe Mode to remove the file.
 - [ ] Remove the file.
@@ -543,7 +543,7 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [ ] HDD
 - [x] NVMe
 
-#### Q68. Which statement most accurately describes the northbridge or host bridge?
+#### Q68. Which statement most accurately describes the north-bridge or host-bridge?
 
 - [x] It is a high priority connection to the processor, also called the Memory Controller Hub.
 - [ ] It has been integrated into the southbridge to provide support for the CPU.

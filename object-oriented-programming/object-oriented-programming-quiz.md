@@ -948,16 +948,9 @@ public class Honda extends Car{}
 - [x] calculateScore()
 - [ ] getAnswers()
 
-#### Q122. Which relationship best illustrates an abstract-concrete class relationship?
+#### Q122. Who invented OOP?
 
-- [ ] cat : kitten
-- [ ] color : red
-- [x] planet : moon
-- [ ] truck : window
-
-#### Q123. What cannot be used for polymorphism?
-
-- [ ] overloading constructors
-- [ ] overloading member functions
-- [x] static member functions
-- [ ] overloading predefined operator
+- [ ] Andrea Ferro
+- [ ] Adele Goldberg
+- [x] Alan Kay
+- [ ] Dennis Ritchie

@@ -926,3 +926,12 @@ Which of these statements do you agree with?
 - [ ] linear regression and scatter plots
 - [ ] pivot table
 - [ ] K-means cluster diagram
+
+#### Q120. The total types of the layer in radial basis function in neural networks is **\_\_**
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 4
+
+**Explanation:** Radial Basis Functions are a special class of feed-forward neural networks consisting of three layers: an input layer, a hidden layer, and an output layer.

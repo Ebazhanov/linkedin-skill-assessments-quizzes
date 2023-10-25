@@ -1258,3 +1258,30 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] `git reset --hard`; `git reset --soft`
 - [ ] `git reset --soft`; `git reset --hard`
 - [ ] `git rewind`; `git update`
+
+#### Q137. When is the cherry-pick command used?
+
+- [x] - when a commit from one branch needs to be copied into another branch
+- [ ] - when the HEAD needs to be reset to a specific commit
+- [ ] - when a specific commit needs to be pulled down from the remote repository
+- [ ] - when a hook script needs to be invoked
+
+#### Q138. What would happen if you ran the `git reset testfile.js` command?
+
+- [ ] testfile.js would be reverted to a blank file.
+- [ ] testfile.js would be reset to its first saved state.
+- [x] testfile.js would be reverted to its last saved copy.
+- [ ] testfile.js would be removed from the stage/index area, if present.
+
+#### Q139. How does the `-p` option change the behavior of the `git add` command
+
+- [ ] It causes tracked files in the parent directory to be included in the staged files.
+- [x] It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
+- [ ] It automatically pushes changes to the corresponding branch on the remote repository.
+- [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
+
+#### Q140. How many individual commits can a single repository have?
+
+- [x] any number of commits
+- [ ] only one commit local per repository
+- [ ] only three commits per branch

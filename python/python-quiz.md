@@ -231,7 +231,7 @@ instance.password
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
 
-#### Q18. What is the purpose of an if/else statement?
+#### Q18. What is the use of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
 - [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
@@ -745,7 +745,7 @@ BTW...what \_do* you call that naming style? snake_case? That's what I'll call i
 - [ ] in camel case without using underscores to separate words -- e.g. `maxValue = 255`
 - [ ] in lowercase with underscores to separate words -- e.g. `max_value = 255`
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
-- [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
+- [ ] in the mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
 Use an uppercase single letter, word, or words. Separate words with underscores to improve readability.
 [Reference](https://realpython.com/python-pep8/)
@@ -1119,7 +1119,7 @@ else;
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
-`defaultdict` is a container like dictionary present in the module collections. The functionality of both dictionaries and `defaultdict` are almost the same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exist.
+`defaultdict` is a container-like dictionary present in the module collections. The functionality of both dictionaries and `defaultdict` are almost the same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exist.
 
 **example**
 
@@ -2294,7 +2294,7 @@ print("programming".center())
 - [x] Error says `TypeError: center expected at least 1 argument, got 0`.
 - [ ] None of the above.
 
-[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is default) as the fill character.  
+[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is the default) as the fill character.  
 Syntax: `string.center(length, character)` where `length` is required!
 
 #### Q159. Who created the Python programming language?
@@ -2585,12 +2585,12 @@ for x in range(1, len(characters)):
 
 ```
 for i in range(5):
-print (i)
+    print (i)
 else:
-print("Done!")
+    print("Done!")
 ```
 
-- [x]
+- [x] :
 
 ```
 1
@@ -2601,7 +2601,7 @@ Done!
 ```
 
 - [ ] You will get a syntax error.
-- [ ]
+- [ ] :
 
 ```
 0
@@ -2612,7 +2612,7 @@ Done!
 Done!
 ```
 
-- [ ]
+- [ ] :
 
 ```
 1
@@ -2654,9 +2654,25 @@ The code defines a `square` function to calculate the square of a number. It the
 
 #### Q182. Which of the following is not a valid built-in function in Python?
 
-- [] int
-- [] string
-- [] boolean
+- [ ] int
+- [ ] string
+- [ ] boolean
 - [x] array
 
 [Source](https://docs.python.org/3/library/functions.html)
+
+#### Q183. Which of the following is not a valid Python data type?
+
+- [ ] int
+- [x] char
+- [ ] float
+- [ ] str
+
+#### Q184. In Python, which function is used to read a line from the console input?
+
+- [x] input()
+- [ ] read_line()
+- [ ] console_input()
+- [ ] getline()
+
+[Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)

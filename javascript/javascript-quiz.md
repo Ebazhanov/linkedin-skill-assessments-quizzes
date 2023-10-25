@@ -1,5 +1,7 @@
 ## JavaScript
 
+[Assessment link(linkedin)](https://www.linkedin.com/skill-assessments/JavaScript/quiz-intro/)
+
 #### Q1. Which operator returns true if the two compared values are not equal?
 
 - [ ] `<>`
@@ -572,7 +574,7 @@ f2();
 - [x] You are calling a method named reduce on an object that's declared but has no value.
 - [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
-- [ ] You are calling a method named reduce on an object that's has a null value.
+- [ ] You are calling a method named reduce on an object that has a null value.
 
 **Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`
 
@@ -756,7 +758,7 @@ printA();
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
-- [ ] for loops can be nested; whereas forEach loops cannot.
+- [ ] for loops can be nested; whereas forEach loop cannot.
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
@@ -1097,8 +1099,8 @@ const foo = {
 
 - [ ] There is no difference.
 - [ ] The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.
-- [x] The map() methods returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
-- [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
+- [x] The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
+- [ ] The `forEach()` method returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
 
 1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
@@ -1671,7 +1673,7 @@ console.log(z);
 
 [Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-#### Q122. Given this code, which statement will evaluate to false?
+#### Q122. Given this code, which statement will be evaluated as false?
 
 ```js
 const a = { x: 1 };
@@ -1901,7 +1903,7 @@ console.log(animals[1], clones[1]);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q136. What will be the output of the following code.
+#### Q136. What will be the output of the following code?
 
 ```js
 a=5;
@@ -2142,7 +2144,7 @@ console.log(second);
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
 
-#### Q155. What is the output for the code given below?
+#### Q157. What is the output for the code given below?
 
 ```js
 console.log('hello' + 'world');
@@ -2153,7 +2155,7 @@ console.log('hello' + 'world');
 - [ ] hello world!
 - [ ] hello world !
 
-#### Q156. What is the output of this code?
+#### Q158. What is the output of this code?
 
 ```js
 console.log(10 + 10);
@@ -2164,7 +2166,7 @@ console.log(10 + 10);
 - [ ] 30
 - [ ] 40
 
-#### Q157. Events related to the browser window can be handled by?
+#### Q159. Events related to the browser window can be handled by?
 
 - [ ] Onclicks
 - [x] Window
@@ -2173,7 +2175,7 @@ console.log(10 + 10);
 
 [Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
 
-#### Q157. How do you define a function in JavaScript?
+#### Q160. How do you define a function in JavaScript?
 
 - [x] function myFunction() {}
 - [] def myFunction() {}
@@ -2181,3 +2183,49 @@ console.log(10 + 10);
 - [] func myFunction() {}
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+#### Q161. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+
+- [x] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that does not exist.
+- [ ] You are calling a method named reduce on an empty array.
+- [ ] You are calling a method named reduce on an object that has a null value.
+
+#### Q162. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [x] all of the above
+
+#### Q163. Which document method is not used to get a reference to a DOM node?
+
+- [x] document.getNode();
+- [ ] document.getElementsByClassName();
+- [ ] document.querySelectorAll();
+- [ ] document.querySelector();
+
+#### Q164. Which of these is a valid variable name?
+
+- [ ] 5thItem
+- [x] firstName
+- [ ] grand total
+- [ ] function
+
+#### Q165. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
+
+- [x] setTimeout()
+- [ ] setInterval()
+- [ ] delay()
+- [ ] wait()
+
+[Reference](https://www.w3schools.com/js/js_timing.asp)
+
+#### Q166. Which of the following is a server-side Java Script object?
+
+- [ ] Function
+- [x] File
+- [ ] FileUpload
+- [ ] Date
+
+[Reference](https://www.wscubetech.com/quiz-result.html)
