@@ -2503,7 +2503,6 @@ class my_class{
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
 
-
 #### Q16. What is a template metaprogram in C++?
 
 - Ref(https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
