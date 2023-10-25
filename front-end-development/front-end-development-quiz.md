@@ -91,7 +91,7 @@ let fruit = 'apple';
 - [ ] as a caption for images
 - [ ] as a heading for tables
 
-#### Q11. The browser finds some CSS that it does not understand. What is likely happen?
+#### Q11. The browser finds some CSS that it does not understand. What is likely to happen?
 
 - [ ] The page will not display
 - [ ] An error message will be displayed
@@ -135,7 +135,7 @@ h1 {
 #### Q15. You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?
 
 - [ ] all users
-- [ ] users who can see the content on screen
+- [ ] users who can see the content on the screen
 - [x] no users
 - [ ] screen reader users
 
@@ -189,7 +189,7 @@ h1 {
 
 - [ ] sharing JavaScript code with other people
 - [ ] making JavaScript-reliant sites accessible to users who do not have JavaScript turned on
-- [x] bundling individual JavaScript files for use in your website
+- [x] bundling individual JavaScript files for use on your website
 - [ ] source control
 
 #### Q23. How many columns will there be, given this code?
@@ -272,7 +272,7 @@ cite {
 - [x] Items display in a row, lined up at the start, and do not stretch to fill the container
 - [ ] Items display in a column, lined up at the start, and do not stretch to fill the container
 - [ ] Items stay in a column until you add some flex properties.
-- [ ] Items display in a row, lined up at the start, and stretched to fill the container
+- [ ] Items displayed in a row, lined up at the start and stretched to fill the container
 
 #### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.
 
@@ -302,14 +302,14 @@ for (i = 0; i > max; i++) {
 - [ ] skrt skrt skrt skrt
 - [x] nothing
 
-#### Q31. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page?
+#### Q31. You have placed an image in a directory named images and want to reference it from a page located at the root of your site. Which choice would correctly display the image on the page?
 
 - [ ] < img src="image.jpg">
 - [ ] < a href="images/image.jpg"></a>
 - [x] < img src="images/image.jpg">
 - [ ] < img href="image.jpg">
 
-#### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer?
+#### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and returns an integer?
 
 - [ ] parseInt("six");
 - [ ] parse_int('6');
@@ -352,7 +352,7 @@ const user = {
 ```
 
 - [ ] It will tell the browser that this link is a site belonging to the current domain.
-- [ ] It will do nothing a because this is a deprecated attribute that browsers do not support.
+- [ ] It will do nothing because this is a deprecated attribute that browsers do not support.
 - [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
 
@@ -392,10 +392,10 @@ const user = {
 
 #### Q41. Which choice <em>is not a result</em> of invoking strict mode in JavaScript?
 
-- [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
-- [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
-- [x] it forces the writing of valid HTML and CSS.
-- [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
+- [ ] It eliminates some JavaScript silent errors by changing them to throw errors.
+- [ ] It prohibits some syntax likely to be defined in future versions of ECMAScript.
+- [x] It forces the writing of valid HTML and CSS.
+- [ ] It fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
 
 [Source: MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
@@ -433,7 +433,7 @@ console.log(currencies);
 - [ ] `<input type="radio" value="vanilla" selected>`
 - [ ] `<input type="radio" value="vanilla" on>`
 
-#### Q45. **\_** moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element)?
+#### Q45. **\_** moves an element completely out of the page's normal layout flow like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element).
 
 - [ ] Sticky positioning
 - [x] Absolute positioning
@@ -471,7 +471,7 @@ console.log(currencies);
 [Source: W3Schools](https://www.w3schools.com/css/css_float_clear.asp)
 
 **clear: left;**
-`When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
+`When we use the float property, and we want the next element below (not on the right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
 
 #### Q49. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?
 
@@ -496,9 +496,9 @@ console.log(currencies);
 `<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="style.css"></noscript>`
 
 - [x] The CSS is being loaded asynchronously in order to prevent render blocking.
-- [ ] This will stop the CSS being loaded for old browsers that do not support the techniques in use.
+- [ ] This will stop the CSS from being loaded for old browsers that do not support the techniques in use.
 - [ ] This is part of a stylesheet-switching script to load different themes for the site.
-- [ ] This will stop the CCS being loaded on slow data connections.
+- [ ] This will stop the CCS from being loaded on slow data connections.
 
 [Source: StackOverflow](https://stackoverflow.com/a/46750893)
 
@@ -534,7 +534,7 @@ console.log(currencies);
 - [ ] The visitor's browser does not have full support for CSS Grid Layout.
 - [x] Items have been positioned in such a way that they are in a different order to the source.
 - [ ] The browser has a keyboard navigation bug.
-- [ ] You need to add the tabindex attribute to elements.
+- [ ] You need to add the tabindex attribute to elements.?
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
 
@@ -752,8 +752,8 @@ box {
 
 #### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
 
-- [ ] it will speed up loading of the image when used with a JavaScript library
-- [ ] in supporting browsers, images will be highly compressed, therefore loading more quickly
+- [ ] It will speed up the loading of the image when used with a JavaScript library
+- [ ] In supporting browsers, images will be highly compressed, therefore loading more quickly
 - [x] In supporting browsers, images will load only when they are in or near the visible viewport
 - [ ] In supporting browsers, images will not load unless the user explicitly requests image loading
 
@@ -780,7 +780,7 @@ box {
 - [ ] Chrome
 - [ ] Edge
 
-#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in the example?
 
 ```css
 @font-face {
@@ -808,7 +808,7 @@ box {
 - [ ] figure
 - [ ] p
 
-#### Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?
+#### Q82. Which attribute is used to add text to an image that will be displayed if the image does not load and read out to screen reader users?
 
 - [ ] title
 - [ ] data
@@ -826,10 +826,10 @@ box {
 
 #### Q84. To create a collection of radio buttons associated with the same field, each <input> tag must \_\_\_\_.
 
-- [ ] have the same value of the id attribute
+- [ ] have the same value as the id attribute
 - [x] have the same value of the name attribute
 - [ ] belong to the same field set
-- [ ] have the same value of the class attribute
+- [ ] have the same value as the class attribute
 
 #### Q85. Which statement about HTML syntax is _false_?
 
@@ -838,7 +838,7 @@ box {
 - [ ] The `<h1>` element is the most important heading on the page.
 - [ ] The value of an id attribute should be unique in an HTML document.
 
-#### Q86. Which command has no Syntax error in CSS ?
+#### Q86. Which command has no Syntax error in CSS?
 
 - [ ] p {font-size: 16em;}
 - [ ] h2 {colour: yellow;}
