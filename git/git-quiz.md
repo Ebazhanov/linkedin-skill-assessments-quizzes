@@ -1285,3 +1285,11 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
+
+#### Q146. Explain the concept of "Git confidential" and when it is applicable in version control.
+- REF(https://git-scm.com/docs/git-credential-store)
+
+- [ ] Git confidential is used for sharing sensitive data in a Git repository.
+- [ ] It's a term used to label code as confidential in Git.
+- [ ] Git confidential is a tool for encrypting Git repositories.
+- [x] Git confidential is not a standard Git command or feature, and is likely a term specific to certain organizations or workflows.
