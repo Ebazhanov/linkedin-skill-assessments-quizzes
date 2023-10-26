@@ -1614,13 +1614,12 @@ useEffect(callNetworkFunc, XXXX);
 - [x] to change the layout of the screen
 - [ ] when you need the browser to paint before the effect runs
 
-
 ### Q134. What is the difference between state and props in React?
+
 - [ ] Props are set by the parent component, state is set by the child component
 - [x] Props are passed to a component, state is managed within the component
-- [ ]  Props can be updated, state cannot be updated
+- [ ] Props can be updated, state cannot be updated
 - [ ] There is no difference - props and state are the same
-
 
 #### Q135. Which language can you not use with React?
 
@@ -1628,7 +1627,6 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] JSX.
 - [ ] Javascipt.
 - [ ] TypeScript.
-
 
 #### Q136. Which answer best describes a function component?
 
