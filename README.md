@@ -31,7 +31,7 @@ Please add an explanation or reference link to your answers. This will help anyo
 
 #### 🎉 Announcements
 
-1. Column `Translation` have links to quizzes in different languages like Es, Fr, It and De.
+1. Column `Translation` have links to quizzes in different languages like Es, Fr, It , hi and De.
 2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat.
 3. Playground before taking quiz using:
 
