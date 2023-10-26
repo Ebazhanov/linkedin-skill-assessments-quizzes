@@ -1642,4 +1642,9 @@ $('a.active').addClass('hover');
 
 #### Q87. Which symbol is commonly used to represent the jQuery object?
 
--[x] $<br> -[ ] # <br> -[ ] % <br> -[ ] &
+-[x] $
+-[ ] # 
+-[ ] % 
+-[ ] &
+
+[Source: Stack Overflow](https://stackoverflow.com/questions/8667736/what-does-the-sign-mean-in-jquery-or-javascript)
