@@ -1090,18 +1090,20 @@ await this.CreateDatabaseAsync();
 - [ ] Azure storage accounts and web server in Azure virtual machines.
 - [ ] an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.
 - [x] an Azure App Service and Azure SQL databases.
-[Ref](https://azurecharts.com/overview/?f=paas)
+      [Ref](https://azurecharts.com/overview/?f=paas)
 
 ### Q102. What is the first stage in the Microsoft Cloud Adoption Framework for Azure?
+
 - [ ] Adopt the cloud.
 - [ ] Make a plan.
 - [x] Define your strategy.
 - [ ] Ready your organization.
-[Ref](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
+      [Ref](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 
 ### Q103. You need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services. What should you identify?
+
 - [ ] a physical server failure
 - [x] an Azure data center failure
 - [ ] an Azure region failure
 - [ ] a storage failure
-[Ref](https://docs.microsoft.com/en-us/azure/virtual-machines/availability)
+      [Ref](https://docs.microsoft.com/en-us/azure/virtual-machines/availability)
