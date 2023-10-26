@@ -914,3 +914,20 @@ public string? nickname
 - [x] Dictionary
 
 [Official Documentation: Dictionary<TKey, TValue> Class](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2)
+
+#### Q88 The execution of the program begins with?
+- [x] Main()
+- [ ] Get()
+- [ ] Class()
+- [ ] Display()
+
+[Reference]: https://www.gkseries.com/c-sharp-programming/multiple-choice-questions-and-answers
+
+
+#### Q89 In C# 'using' is a?
+- [ ] Class
+- [x] Directive
+- [ ] Function
+- [ ] Keyword
+
+[Reference]: https://www.gkseries.com/c-sharp-programming/multiple-choice-questions-and-answers
