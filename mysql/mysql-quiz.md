@@ -1161,7 +1161,8 @@ Table name: superheroes
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-#### Q123.  In a database with a "Students" table containing information about students, which SQL statement is used to retrieve the names of all students who scored higher than 90 in their exams?
+#### Q123. In a database with a "Students" table containing information about students, which SQL statement is used to retrieve the names of all students who scored higher than 90 in their exams?
+
 - [ ] A
 
 ```
@@ -1190,5 +1191,5 @@ SELECT name FROM Students WHERE exam_score > 90;
 
 - [ ] FETCH
 - [ ] SEARCH
-- [x]  SELECT
+- [x] SELECT
 - [ ] EXTRACT
