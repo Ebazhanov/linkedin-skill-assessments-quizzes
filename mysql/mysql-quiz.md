@@ -1160,3 +1160,35 @@ Table name: superheroes
 - [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
+
+#### Q123.  In a database with a "Students" table containing information about students, which SQL statement is used to retrieve the names of all students who scored higher than 90 in their exams?
+- [ ] A
+
+```
+SELECT student_name FROM Students WHERE score > 90;
+```
+
+- [x] B
+
+```
+SELECT name FROM Students WHERE score > 90;
+```
+
+- [ ] C
+
+```
+SELECT student_name FROM Students WHERE exam_score > 90;
+```
+
+- [ ] D
+
+```
+SELECT name FROM Students WHERE exam_score > 90;
+```
+
+#### Q124 Which SQL command is used to retrieve data from a database?
+
+- [ ] FETCH
+- [ ] SEARCH
+- [x]  SELECT
+- [ ] EXTRACT
