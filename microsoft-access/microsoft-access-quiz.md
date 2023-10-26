@@ -472,7 +472,7 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 - [ ] embedded query
 - [ ] linked table
-- [ ] embedded table
+- [x] embedded table
 - [ ] linked query
 
 #### Q48. You're building a database to track the books that library members check out. How can you ensure that every record in the checkout table is associated with a valid library member?
