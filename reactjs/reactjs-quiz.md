@@ -1614,21 +1614,13 @@ useEffect(callNetworkFunc, XXXX);
 - [x] to change the layout of the screen
 - [ ] when you need the browser to paint before the effect runs
 
-#### Q134. What of the following is used in React.js to increase performance?
 
-- [ ] Original DOM
-- [x] Virtual DOM
-- [ ] Both of the above
-- [ ] None of the above
+### Q134. What is the difference between state and props in React?
+- [ ] Props are set by the parent component, state is set by the child component
+- [x] Props are passed to a component, state is managed within the component
+- [ ]  Props can be updated, state cannot be updated
+- [ ] There is no difference - props and state are the same
 
-#### Q115. Choose the library which is most often associated with react?
-
-- [ ] Chai
-- [ ] Sinon
-- [x] Jest
-- [ ] Mocha
-
-[Reference](https://reactjs.org/docs/testing-recipes.html)
 
 #### Q135. Which language can you not use with React?
 
@@ -1637,12 +1629,6 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] Javascipt.
 - [ ] TypeScript.
 
-#### Q84. Which tool is not part of Create React App?
-
-- [ ] React
-- [x] jQuery
-- [ ] webpack
-- [ ] ReactDOM
 
 #### Q136. Which answer best describes a function component?
 
