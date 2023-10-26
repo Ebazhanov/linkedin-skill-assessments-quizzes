@@ -1610,7 +1610,7 @@ $('.menu').find('a').css('color', 'red').end().find('.active').hide();
 
 - [ ] It changes the menu items in the first list to red, then hides the second list of menu items.
 - [ ] It changes all menu items in both lists to red, then hides all items with the active class.
-- [ ] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
+- [x] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
 - [ ] It changes the menu items in the first list to red, then returns the selection with no further changes.
 
 #### Q85. A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called "processed" to it?
@@ -1642,4 +1642,9 @@ $('a.active').addClass('hover');
 
 #### Q87. Which symbol is commonly used to represent the jQuery object?
 
--[x] $<br> -[ ] # <br> -[ ] % <br> -[ ] &
+- [x] $
+- [ ] #
+- [ ] %
+- [ ] &
+
+[Source: Stack Overflow](https://stackoverflow.com/questions/8667736/what-does-the-sign-mean-in-jquery-or-javascript)

@@ -104,3 +104,12 @@
 - [ ] lightbox; 3D Transforms
 - [x] carousel; 3D Transforms
 - [ ] slideshow; animations
+
+#### Q16. What is the tag inspector?
+
+- [ ] A tool for viewing and editing the CSS styles of an element
+- [x] A tool for viewing and editing the HTML tags of an element
+- [ ] A tool for viewing and editing the JavaScript code of an element
+- [ ] A tool for viewing and editing the properties of an element
+
+[reference](https://www.oreilly.com/library/view/dreamweaver-cs6-the/9781449326999/ch07s05.html)

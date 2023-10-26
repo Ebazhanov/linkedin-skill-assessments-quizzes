@@ -413,6 +413,8 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
 - [x] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
 
+[Reference](https://www.geeksforgeeks.org/difference-between-public-and-private-in-c-with-example/)
+
 #### Q28. What is the value of `x` after executing this code?
 
 ```cpp
@@ -2503,7 +2505,7 @@ class my_class{
 
 [Ref](https://learn.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170#:~:text=constexpr%20indicates%20that%20the%20value,template%20arguments%20and%20array%20declarations.)
 
-#### Q16. What is a template metaprogram in C++?
+#### Q156. What is a template metaprogram in C++?
 
 - Ref(https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
 
@@ -2511,3 +2513,10 @@ class my_class{
 - [ ] It refers to metaprogramming that uses templates in C++.
 - [ ] It's a type of user interface design pattern.
 - [x] A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time.
+
+#### Q157.Identify the correct example for a pre-increment operator.
+
+- [x] ++i
+- [ ] i++
+- [ ] --i
+- [ ] +i
