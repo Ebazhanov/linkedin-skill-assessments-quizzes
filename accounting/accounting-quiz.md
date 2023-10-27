@@ -520,7 +520,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] to demonstrate to management the level of sales the company will achieve
 - [ ] to provide shareholders and the board of directors confidence in management's abilities
 - [ ] to allow management to compile all of the other operational budgets once they are completed
-- [ ] to provide management with a high-level overview of the company finances and be a central planning tool
+- [x] to provide management with a high-level overview of the company finances and be a central planning tool
 
 #### Q62. What is true about an internal control system?
 
