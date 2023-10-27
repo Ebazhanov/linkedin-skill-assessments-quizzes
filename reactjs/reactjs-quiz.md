@@ -145,7 +145,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] component
 - [x] `h1`
 
-#### Q15. What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)
+#### Q15. What does this React element look like given the following code? (Alternative: Given the following code, what does this React element look like?)
 
 ```javascript
 React.createElement('h1', null, "What's happening?");
@@ -179,7 +179,7 @@ function MyComponent() {
 
 [Reference](https://linguinecode.com/post/how-react-suspense-works)
 
-#### Q17. What do you call the message wrapped in curly braces below?
+#### Q17. How would you describe the message variable wrapped in curly braces below?
 
 ```javascript
 const message = 'Hi there';
@@ -423,7 +423,7 @@ class Clock extends React.Component {
 - [ ] Use the `default` property.
 - [ ] It assigns one automatically.
 
-#### Q41. What do you need to change about this code to get it to run?
+#### Q41. What do you need to change about this code to get this code to run?
 
 ```js
 const clock = (props) => {
@@ -1267,7 +1267,7 @@ const PokeDex = (props) => {
 Explanation: useState always return an array with two values, the state itself (on first value) and the set function that lets you update the state (on second value)
 [useState Reference](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
-#### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
+#### Q103. What would you pass to the onClick prop that will allow you to pass the initName prop into the greet handler?
 
 ```javascript
 const Greeting = ({ initName }) => {
