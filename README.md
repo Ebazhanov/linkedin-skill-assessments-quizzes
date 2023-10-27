@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1576-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1577-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2187,6 +2187,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kushal34712"><img src="https://avatars.githubusercontent.com/u/98145879?v=4?s=100" width="100px;" alt="Kushal Agrawal"/><br /><sub><b>Kushal Agrawal</b></sub></a><br /><a href="#design-kushal34712" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kushal34712" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vandit34"><img src="https://avatars.githubusercontent.com/u/94815601?v=4?s=100" width="100px;" alt="Vandit Verma"/><br /><sub><b>Vandit Verma</b></sub></a><br /><a href="#design-Vandit34" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Vandit34" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
