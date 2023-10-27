@@ -1662,3 +1662,24 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] Redux should be used when you need to fetch data from APIs.
 - [ ] Redux is used for creating user interfaces but not for state management.
 - [x] Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state.
+
+### Q141. What is the use of React hooks?
+
+- [ ] To optimize React apps for mobile devices
+- [ ] To add visual effects to React components.
+- [ ] To allow using state and lifecycle methods in function components
+- [x] To integrate with external UI libraries like Bootstrap
+
+### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
+
+- [x] By using React context
+- [ ] By using redux
+- [ ] By using react router
+- [ ] By using react lifecycle methods
+
+
+
+
+
+
+
