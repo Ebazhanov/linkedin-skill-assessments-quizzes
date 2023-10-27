@@ -1614,21 +1614,12 @@ useEffect(callNetworkFunc, XXXX);
 - [x] to change the layout of the screen
 - [ ] when you need the browser to paint before the effect runs
 
-#### Q134. What of the following is used in React.js to increase performance?
+### Q134. What is the difference between state and props in React?
 
-- [ ] Original DOM
-- [x] Virtual DOM
-- [ ] Both of the above
-- [ ] None of the above
-
-#### Q115. Choose the library which is most often associated with react?
-
-- [ ] Chai
-- [ ] Sinon
-- [x] Jest
-- [ ] Mocha
-
-[Reference](https://reactjs.org/docs/testing-recipes.html)
+- [ ] Props are set by the parent component, state is set by the child component
+- [x] Props are passed to a component, state is managed within the component
+- [ ] Props can be updated, state cannot be updated
+- [ ] There is no difference - props and state are the same
 
 #### Q135. Which language can you not use with React?
 
@@ -1636,13 +1627,6 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] JSX.
 - [ ] Javascipt.
 - [ ] TypeScript.
-
-#### Q84. Which tool is not part of Create React App?
-
-- [ ] React
-- [x] jQuery
-- [ ] webpack
-- [ ] ReactDOM
 
 #### Q136. Which answer best describes a function component?
 
@@ -1678,3 +1662,17 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] Redux should be used when you need to fetch data from APIs.
 - [ ] Redux is used for creating user interfaces but not for state management.
 - [x] Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state.
+
+### Q141. What is the use of React hooks?
+
+- [ ] To optimize React apps for mobile devices
+- [ ] To add visual effects to React components.
+- [ ] To allow using state and lifecycle methods in function components
+- [x] To integrate with external UI libraries like Bootstrap
+
+### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
+
+- [x] By using React context
+- [ ] By using redux
+- [ ] By using react router
+- [ ] By using react lifecycle methods

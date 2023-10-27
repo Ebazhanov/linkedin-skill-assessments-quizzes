@@ -2513,3 +2513,10 @@ class my_class{
 - [ ] It refers to metaprogramming that uses templates in C++.
 - [ ] It's a type of user interface design pattern.
 - [x] A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time.
+
+#### Q157.Identify the correct example for a pre-increment operator.
+
+- [x] ++i
+- [ ] i++
+- [ ] --i
+- [ ] +i
