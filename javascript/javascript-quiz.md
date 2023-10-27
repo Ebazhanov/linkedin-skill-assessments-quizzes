@@ -2229,3 +2229,43 @@ console.log(10 + 10);
 - [ ] Date
 
 [Reference](https://www.wscubetech.com/quiz-result.html)
+
+
+#### Q166. Which statement best describes the var keyword's scope in JavaScript?
+
+- [ ] Block scope
+- [x] Function scope
+- [ ] Global scope
+- [ ] Instance scope
+
+
+#### Q167. What will be logged to the console?
+
+```js
+const foo = () => console.log('First'); 
+const bar = () => setTimeout(() => console.log('Second'), 0);
+foo();
+bar();
+console.log('Third');
+```
+
+- [ ] Second, First, Third
+- [x] First, Third, Second
+- [ ] First, Second, Third
+- [ ] Third, First, Second
+
+
+#### Q168. What will be the output of running this code?
+
+```js
+function scream(words) {
+  return words.toUpperCase() + '!!!'
+}
+
+scream('yay');
+```
+
+- [ ] YAY!!!
+- [ ] ReferenceError
+- [x] Undefined
+- [ ] TypeError
