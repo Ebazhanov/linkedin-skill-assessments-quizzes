@@ -706,3 +706,21 @@ mtrx[, -1]
 - [ ] Yes, both pairs of statements return an object with the same length and class.
 - [ ] No, the length is the same but the class is different.
 - [ ] No, the class is the same but the length is different.
+
+#### Q66. The **\_** for R are the main feature that make it different from the original S language.
+
+- [ ] closure rules
+- [x] scoping rules
+- [ ] environment rules
+- [ ] None of the above
+
+[reference](https://bookdown.org/rdpeng/rprogdatascience/scoping-rules-of-r.html)
+
+#### Q67. Which of the following is a base package for R programming ?
+
+- [x] tools
+- [ ] util
+- [ ] lang
+- [ ] All of the above
+
+[reference](https://www.geeksforgeeks.org/packages-in-r-programming/)
