@@ -707,7 +707,7 @@ mtrx[, -1]
 - [ ] No, the length is the same but the class is different.
 - [ ] No, the class is the same but the length is different.
 
-#### Q66. The _____ for R are the main feature that make it different from the original S language.
+#### Q66. The **\_** for R are the main feature that make it different from the original S language.
 
 - [ ] closure rules
 - [x] scoping rules
@@ -718,7 +718,7 @@ mtrx[, -1]
 
 #### Q67. Which of the following is a base package for R programming ?
 
-- [x] tools    
+- [x] tools
 - [ ] util
 - [ ] lang
 - [ ] All of the above
