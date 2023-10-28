@@ -1143,7 +1143,7 @@ console.log(addFive(3));
 
 [Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-#### Q90. What is the output of this code?
+#### Q89. What is the output of this code?
 
 ```js
 let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
@@ -1158,7 +1158,7 @@ console.log(rainForests);
 
 [Reference array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-#### Q91. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?
+#### Q90. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
@@ -1172,7 +1172,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 [Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
-#### Q92. What will this code print?
+#### Q91. What will this code print?
 
 ```js
 const obj = {
@@ -1196,7 +1196,7 @@ console.log(obj2.a, obj2.b);
 
 [Reference spread syntax es6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-#### Q93. Which line could you add to this code to print "jaguar" to the console?
+#### Q92. Which line could you add to this code to print "jaguar" to the console?
 
 ```js
 let animals = ['jaguar', 'eagle'];
@@ -1219,7 +1219,7 @@ reverse() - reverses the order of the elements in an array.
 
 filter() - get every element in the array that meets the condition.
 
-#### Q94. What line is missing from this code?
+#### Q93. What line is missing from this code?
 
 ```js
 //Missing Line
@@ -1241,7 +1241,7 @@ for (var i = 0; i < vowels.length; i++) {
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 
-#### Q95. What will be logged to the console?
+#### Q94. What will be logged to the console?
 
 ```js
 const x = 6 % 2;
@@ -1257,7 +1257,7 @@ console.log(y);
 **Note:** `this question is same with Q46.`
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-#### Q96. How would you access the word It from this multidimensional array?
+#### Q95. How would you access the word It from this multidimensional array?
 
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
 
@@ -1266,7 +1266,7 @@ console.log(y);
 - [ ] `matrix[1,2]`
 - [ ] `matrix[1][2]`
 
-#### Q97. What does this code do?
+#### Q96. What does this code do?
 
 ```js
 const animals = ['Rabbit', 'Dog', 'Cat'];
@@ -1280,7 +1280,7 @@ animals.unshift('Lizard');
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 
-#### Q98. What is the output of this code?
+#### Q97. What is the output of this code?
 
 ```js
 let x = 6 + 3 + '3';
@@ -1294,7 +1294,7 @@ console.log(x);
 
 [Reference type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
-#### Q99. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
+#### Q98. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
 
 - [ ] else
 - [ ] when
@@ -1303,7 +1303,7 @@ console.log(x);
 
 [Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
-#### Q100. Which statement prints "roar" to the console?
+#### Q99. Which statement prints "roar" to the console?
 
 ```js
 var sound = 'grunt';
@@ -1322,7 +1322,7 @@ function roar() {
 2. [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 3. [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 
-#### Q101. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
+#### Q100. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
 
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
@@ -1331,7 +1331,7 @@ function roar() {
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-#### Q102. Which statement correctly imports this code from some-file.js?
+#### Q101. Which statement correctly imports this code from some-file.js?
 
 ```js
 //some-file.js
@@ -1345,7 +1345,7 @@ export const printMe = (str) => console.log(str);
 
 [Reference importing libraries in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
-#### Q103. What will be the output of this code?
+#### Q102. What will be the output of this code?
 
 ```js
 const arr1 = [2, 4, 6];
@@ -1362,7 +1362,7 @@ console.log([...arr1, ...arr2]);
 
 [Reference spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-#### Q104. Which method call is chained to handle a successful response returned by `fetch()`?
+#### Q103. Which method call is chained to handle a successful response returned by `fetch()`?
 
 - [ ] `done()`
 - [x] `then()`
@@ -1371,7 +1371,7 @@ console.log([...arr1, ...arr2]);
 
 [Reference fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
-#### Q105. Which choice is not an array method?
+#### Q104. Which choice is not an array method?
 
 - [ ] `array.slice()`
 - [ ] `array.shift()`
@@ -1380,7 +1380,7 @@ console.log([...arr1, ...arr2]);
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 
-#### Q106. Which JavaScript loop ensures that at least a singular iteration will happen?
+#### Q105. Which JavaScript loop ensures that at least a singular iteration will happen?
 
 - [x] do…while
 - [ ] forEach
@@ -1389,7 +1389,7 @@ console.log([...arr1, ...arr2]);
 
 [Reference loops in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 
-#### Q107. What will be logged to the console?
+#### Q106. What will be logged to the console?
 
 ```js
 console.log(typeof 'blueberry');
@@ -1402,7 +1402,7 @@ console.log(typeof 'blueberry');
 
 [Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
-#### Q108. What is the output that is printed when the div containing the text "Click Here" is clicked?
+#### Q107. What is the output that is printed when the div containing the text "Click Here" is clicked?
 
 ```html
 //HTML Markup
@@ -1428,7 +1428,7 @@ document.querySelectorAll('div').forEach((e) => {
 1. [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 2. [Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-#### Q109. What will this code log to the console?
+#### Q108. What will this code log to the console?
 
 ```js
 const myNumbers = [1, 2, 3, 4, 5, 6, 7];
@@ -1445,7 +1445,7 @@ console.log(myFunction(myNumbers));
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 
-#### Q110. What does this code print to the console?
+#### Q109. What does this code print to the console?
 
 ```js
 let rainForestAcres = 10;
@@ -1466,7 +1466,7 @@ console.log(animals);
 
 [Reference MDN JavaScript Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
 
-#### Q111. Which snippet could you add to this code to print "YOU GOT THIS" to the console?
+#### Q110. Which snippet could you add to this code to print "YOU GOT THIS" to the console?
 
 ```js
 let cipherText = [...'YZOGUT QGMORTZ MTRHTILS'];
@@ -1513,7 +1513,7 @@ for (let value of cipherText) {
 2. [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 3. [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
-#### Q112. Which Pokemon will be logged to the console?
+#### Q111. Which Pokemon will be logged to the console?
 
 ```js
 var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
@@ -1530,7 +1530,7 @@ console.log(pokedex.pop());
 
 [Reference Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
-#### Q113. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
+#### Q112. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
 
 ```html
 <h1 class="content">LinkedIn Learning</h1>
@@ -1544,7 +1544,7 @@ console.log(pokedex.pop());
 - [ ] document.querySelector(".content")
 - [ ] document.querySelector("div.span")
 
-#### Q114. Which value is not falsey?
+#### Q113. Which value is not falsey?
 
 - [x] `[]`
 - [ ] `undefined`
@@ -1553,7 +1553,7 @@ console.log(pokedex.pop());
 
 [Reference Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
-#### Q115. What line of code causes this code segment to throw an error?
+#### Q114. What line of code causes this code segment to throw an error?
 
 ```js
 const lion = 1;
@@ -1573,7 +1573,7 @@ tiger++;
 1. [Reference const in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 2. [Reference TypeError: invalid assignment to const "x"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
 
-#### Q116. What will be the value of `result` after running this code?
+#### Q115. What will be the value of `result` after running this code?
 
 ```js
 const person = { name: 'Dave', age: 40, hairColor: 'blue' };
@@ -1589,7 +1589,7 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 2. [Reference Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 3. [Reference String.prototype.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 
-#### Q117. Which snippet could you insert to this code to print "swim" to the console?
+#### Q116. Which snippet could you insert to this code to print "swim" to the console?
 
 ```js
 let animals = ["eagle", "osprey", "salmon"];
@@ -1607,7 +1607,7 @@ if(/* Insert Snippet Here */){
 
 [Reference Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
-#### Q118. What is the output of this code?
+#### Q117. What is the output of this code?
 
 ```js
 class RainForest {
@@ -1626,7 +1626,7 @@ console.log(congo.minimumRainFall);
 
 [Reference Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
-#### Q119. How can you attempt to access the property `a.b` on `obj` without throwing an error if a is undefined?
+#### Q118. How can you attempt to access the property `a.b` on `obj` without throwing an error if a is undefined?
 
 ```js
 let obj = {};
@@ -1639,7 +1639,7 @@ let obj = {};
 
 [Reference Optional chaining (?.)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
-#### Q120. What happens when you run this code?
+#### Q119. What happens when you run this code?
 
 ```js
 if (true) {
@@ -1657,7 +1657,7 @@ console.log(x + y + z);
 
 [Reference let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
-#### Q121. What does this code print to the console?
+#### Q120. What does this code print to the console?
 
 ```js
 const x = [1, 2];
@@ -1673,7 +1673,7 @@ console.log(z);
 
 [Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-#### Q122. Given this code, which statement will be evaluated as false?
+#### Q121. Given this code, which statement will be evaluated as false?
 
 ```js
 const a = { x: 1 };
@@ -1687,7 +1687,7 @@ const b = { x: 1 };
 
 [Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
 
-#### Q123. What will this code log to the console?
+#### Q122. What will this code log to the console?
 
 ```js
 console.log(typeof 41.1);
@@ -1700,7 +1700,7 @@ console.log(typeof 41.1);
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
 
-#### Q124. What is the output of this code?
+#### Q123. What is the output of this code?
 
 ```js
 let scores = [];
@@ -1721,7 +1721,7 @@ console.log(score);
 2. [Reference Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 3. [Reference Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-#### Q125. What does this code print to the console?
+#### Q124. What does this code print to the console?
 
 ```js
 let bear = {
@@ -1743,7 +1743,7 @@ bearSound();
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
-#### Q126. What is the output of this code?
+#### Q125. What is the output of this code?
 
 ```js
 var cat = { name: 'Athena' };
@@ -1762,7 +1762,7 @@ console.log(cat.name);
 - [ ] Tabby
 - [ ] Athena
 
-#### Q127. What will this code output to the log?
+#### Q126. What will this code output to the log?
 
 ```js
 var thing;
@@ -1778,7 +1778,7 @@ func(null);
 - [ ] null null
 - [x] no arg null
 
-#### Q128. What will this code print to the console?
+#### Q127. What will this code print to the console?
 
 ```js
 const myFunc = () => {
@@ -1795,7 +1795,7 @@ test();
 - [ ] It won't print anything.
 - [x] a is 2
 
-#### Q129. What will this code print to the console?
+#### Q128. What will this code print to the console?
 
 ```js
 const myFunc = (num1, num2 = 2, num3 = 2) => {
@@ -1811,7 +1811,7 @@ console.log(test);
 - [ ] 2
 - [ ] 12
 
-#### Q130. Which code would you use to access the Irish flag?
+#### Q129. Which code would you use to access the Irish flag?
 
 ```js
 var flagsJSON =
@@ -1828,7 +1828,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
 
-#### Q131. Which snippet allows the acresOfRainForest variable to increase?
+#### Q130. Which snippet allows the acresOfRainForest variable to increase?
 
 ```js
 let conservation = true;
@@ -1844,14 +1844,14 @@ if (/* Snipped goes here */){
 - [ ] !conservation || deforestation
 - [ ] deforestation && conservation || deforestation
 
-#### Q132. Which of these evaluate to true?
+#### Q131. Which of these evaluate to true?
 
 - [x] Boolean("false")
 - [ ] Boolean("")
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
 
-#### Q133. How would you add a data item named animal with a value of sloth to local storage for the current domain?
+#### Q132. How would you add a data item named animal with a value of sloth to local storage for the current domain?
 
 - [ ] LocalStorage.setItem("animal","sloth");
 - [x] document.localStorage.setItem("animal","sloth");
@@ -1860,7 +1860,7 @@ if (/* Snipped goes here */){
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q134. What value is printed to the console after this code execute?
+#### Q133. What value is printed to the console after this code execute?
 
 ```js
 let cat = Object.create({ type: 'lion' });
@@ -1879,7 +1879,7 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 
-#### Q135. What does this code print to the console?
+#### Q134. What does this code print to the console?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];
@@ -1903,7 +1903,7 @@ console.log(animals[1], clones[1]);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q136. What will be the output of the following code?
+#### Q135. What will be the output of the following code?
 
 ```js
 a=5;
@@ -1916,7 +1916,7 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-#### Q137. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
+#### Q136. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```js
 let cat = { type: "tiger", size: "large" };
@@ -1933,7 +1933,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
-#### Q138. Which document method is not used to get a reference to a DOM node?
+#### Q137. Which document method is not used to get a reference to a DOM node?
 
 - [x] document.getNode();
 - [ ] document.getElementsByClassName();
@@ -1942,7 +1942,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q139. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+#### Q138. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
 
 - [ ] node
 - [ ] instance variable
@@ -1951,7 +1951,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
 
-#### Q140. Which of the following are not server-side Javascript objects?
+#### Q139. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
 - [x] FileUpload
@@ -1960,7 +1960,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
 
-#### Q141. What will be the output of the following code snippet?
+#### Q140. What will be the output of the following code snippet?
 
 ```javascript
 const obj1 = { first: 20, second: 30, first: 50 };
@@ -1972,7 +1972,7 @@ console.log(obj1);
 - [ ] first: 30 , second: 20
 - [ ] None of the above
 
-#### Q142. Which object in Javascript doesn’t have a prototype?
+#### Q141. Which object in Javascript doesn’t have a prototype?
 
 - [x] Base Object
 - [ ] All objects have prototype
@@ -1981,14 +1981,14 @@ console.log(obj1);
 
 [Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
-#### Q143. What does … operator do in JS?
+#### Q142. What does … operator do in JS?
 
 - [x] Used to spread iterables to individual elements
 - [ ] Describe datatype of undefined
 - [ ] No such operator exists
 - [ ] None of the above
 
-#### Q144. How to stop an interval timer in Javascript?
+#### Q143. How to stop an interval timer in Javascript?
 
 - [x] clearInterval
 - [ ] clearTimer
@@ -1997,7 +1997,7 @@ console.log(obj1);
 
 [Reference](https://www.interviewbit.com/javascript-mcq/)
 
-#### Q145. What will be the output of the following code snippet?
+#### Q144. What will be the output of the following code snippet?
 
 ```javascript
 print(typeof NaN);
@@ -2008,7 +2008,7 @@ print(typeof NaN);
 - [ ] String
 - [ ] None of the above
 
-#### Q146. What will be the output of the following code snippet?
+#### Q145. What will be the output of the following code snippet?
 
 ```javascript
 <script type="text/javascript">a = 5 + "9"; document.write(a);</script>
@@ -2019,14 +2019,14 @@ print(typeof NaN);
 - [ ] Runtime Error
 - [x] 59
 
-#### Q147. Which of the following methods can be used to display data in some form using Javascript?
+#### Q146. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
 - [x] all of the above
 
-#### Q148. What value is assigned to total after this code executes?
+#### Q147. What value is assigned to total after this code executes?
 
 ```javascript
 function sum(num1, num2 = 2, num3 = 3) {
@@ -2043,7 +2043,7 @@ let total = sum(4, ...values);
 
 [Reference: Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-#### Q149. Which statement is applicable to the defer attribute of the HTML <script> tag?
+#### Q148. Which statement is applicable to the defer attribute of the HTML <script> tag?
 
 - [x] defer allows the browser to continue processing the page while the script loads in the background.
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
@@ -2052,7 +2052,7 @@ let total = sum(4, ...values);
 
 [Reference: defer html script attribute](https://www.w3schools.com/tags/att_script_defer.asp)
 
-#### Q150. Which method of a class is called to initialize an object of that class?
+#### Q149. Which method of a class is called to initialize an object of that class?
 
 - [ ] init()
 - [ ] create()
@@ -2061,7 +2061,7 @@ let total = sum(4, ...values);
 
 [Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
 
-#### Q151. Which expression evaluates to true?
+#### Q150. Which expression evaluates to true?
 
 - [ ] Boolean(NaN)
 - [ ] Boolean(0)
@@ -2070,7 +2070,7 @@ let total = sum(4, ...values);
 
 [Reference: Boolean object](https://www.w3schools.com/js/js_booleans.asp)
 
-#### Q152. How would you check if the word "pot" is in the word "potato"?
+#### Q151. How would you check if the word "pot" is in the word "potato"?
 
 - [ ] "pot".indexOf("potato") !== -1
 - [ ] "potato".includes("Pot")
@@ -2079,7 +2079,7 @@ let total = sum(4, ...values);
 
 [Reference: String.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 
-#### Q153. Which collection object allows a unique value to be inserted only once?
+#### Q152. Which collection object allows a unique value to be inserted only once?
 
 - [ ] Map
 - [ ] Array
@@ -2088,7 +2088,7 @@ let total = sum(4, ...values);
 
 [Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
-#### Q154. How would you change the color of this header to pink?
+#### Q153. How would you change the color of this header to pink?
 
 ```javascript
 <h2 id="cleverest">girls</h2>
@@ -2101,7 +2101,7 @@ let total = sum(4, ...values);
 
 [Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
 
-#### Q155. Which line is missing from this code if you expect the code to evaluate to true?
+#### Q154. Which line is missing from this code if you expect the code to evaluate to true?
 
 ```js
 var compare = function (test1, test2) {
@@ -2118,7 +2118,7 @@ compare(1078, '1078'); // yields true
 
 [Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
 
-#### Q156. What is the output of this code?
+#### Q155. What is the output of this code?
 
 ```js
 if (true) {
@@ -2144,7 +2144,7 @@ console.log(second);
 
 [Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
 
-#### Q157. What is the output for the code given below?
+#### Q156. What is the output for the code given below?
 
 ```js
 console.log('hello' + 'world');
@@ -2155,7 +2155,7 @@ console.log('hello' + 'world');
 - [ ] hello world!
 - [ ] hello world !
 
-#### Q158. What is the output of this code?
+#### Q157. What is the output of this code?
 
 ```js
 console.log(10 + 10);
@@ -2166,7 +2166,7 @@ console.log(10 + 10);
 - [ ] 30
 - [ ] 40
 
-#### Q159. Events related to the browser window can be handled by?
+#### Q158. Events related to the browser window can be handled by?
 
 - [ ] Onclicks
 - [x] Window
@@ -2175,7 +2175,7 @@ console.log(10 + 10);
 
 [Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
 
-#### Q160. How do you define a function in JavaScript?
+#### Q159. How do you define a function in JavaScript?
 
 - [x] function myFunction() {}
 - [] def myFunction() {}
@@ -2184,35 +2184,35 @@ console.log(10 + 10);
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-#### Q161. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+#### Q160. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
 - [x] You are calling a method named reduce on an object that's declared but has no value.
 - [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that has a null value.
 
-#### Q162. Which of the following methods can be used to display data in some form using Javascript?
+#### Q161. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
 - [x] all of the above
 
-#### Q163. Which document method is not used to get a reference to a DOM node?
+#### Q162. Which document method is not used to get a reference to a DOM node?
 
 - [x] document.getNode();
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
 
-#### Q164. Which of these is a valid variable name?
+#### Q163. Which of these is a valid variable name?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-#### Q165. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
+#### Q164. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
 
 - [x] setTimeout()
 - [ ] setInterval()
@@ -2221,7 +2221,7 @@ console.log(10 + 10);
 
 [Reference](https://www.w3schools.com/js/js_timing.asp)
 
-#### Q166. Which of the following is a server-side Java Script object?
+#### Q165. Which of the following is a server-side Java Script object?
 
 - [ ] Function
 - [x] File
@@ -2229,3 +2229,40 @@ console.log(10 + 10);
 - [ ] Date
 
 [Reference](https://www.wscubetech.com/quiz-result.html)
+
+#### Q166. Which statement best describes the var keyword's scope in JavaScript?
+
+- [ ] Block scope
+- [x] Function scope
+- [ ] Global scope
+- [ ] Instance scope
+
+#### Q167. What will be logged to the console?
+
+```js
+const foo = () => console.log('First');
+const bar = () => setTimeout(() => console.log('Second'), 0);
+foo();
+bar();
+console.log('Third');
+```
+
+- [ ] Second, First, Third
+- [x] First, Third, Second
+- [ ] First, Second, Third
+- [ ] Third, First, Second
+
+#### Q168. What will be the output of running this code?
+
+```js
+function scream(words) {
+  return words.toUpperCase() + '!!!';
+}
+
+scream('yay');
+```
+
+- [ ] YAY!!!
+- [ ] ReferenceError
+- [x] Undefined
+- [ ] TypeError

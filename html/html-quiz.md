@@ -1062,8 +1062,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
-- [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page-identifying content.
+- [x] All of the above.
 
 #### Q66. In this code, what is the purpose of defer?
 
@@ -1918,7 +1918,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [ ] assign
 - [ ] add tag
 - [x] anchor tag
-- [ ] none of the above
+- [ ] None of the above
 
 [Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
 

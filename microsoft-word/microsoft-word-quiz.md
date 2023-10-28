@@ -908,3 +908,59 @@ explain:
 - [ ] subscript
 - [ ] A4
 - [ ] All of the above
+
+#### Q113: What is the file extension for a Microsoft Word document?
+
+- [x] .docx
+- [ ] .txt
+- [ ].pdf
+- [ ] .xlsx
+
+#### Q114: Which view in Microsoft Word is best for editing and formatting a document?
+
+- [x] Print Layout
+- [ ] Read Mode
+- [ ] Web Layout
+- [ ] Outline View
+
+#### Q115: Which ribbon tab in Microsoft Word is used for changing the font and text formatting?
+
+- [ ] Page Layout
+- [x] Home
+- [ ] References
+- [ ] Insert
+
+#### Q116: What does "Ctrl+S" do in Microsoft Word?
+
+- [ ] Copy selected text
+- [ ] Paste copied text
+- [x] Save the document
+- [ ] Cut selected text
+
+#### Q117: Which feature in Microsoft Word allows you to repeat the same text on each page, such as a header or footer?
+
+- [ ] Page Break
+- [ ] Page Numbering
+- [x] Header and Footer
+- [ ] Text Box
+
+#### Q118: Which option allows you to change the orientation of a page in Microsoft Word from portrait to landscape?
+
+- [x] Page Setup
+- [ ] Page Break
+- [ ] Line Spacing
+- [ ] Paragraph Format
+
+#### Q119: What is the default file format for saving a Word document in the newer versions of Microsoft Word?
+
+- [ ] .doc
+- [ ].txt
+- [ ] .rtf
+- [x] .docx
+
+#### Q120: In Word, what is the purpose of the "Find and Replace" feature?
+
+- [ ] Spell check
+- [ ] Formatting text
+- [ ] Searching for and replacing specific text
+- [x] Creating hyperlinks
