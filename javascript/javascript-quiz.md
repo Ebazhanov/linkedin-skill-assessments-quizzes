@@ -2230,7 +2230,6 @@ console.log(10 + 10);
 
 [Reference](https://www.wscubetech.com/quiz-result.html)
 
-
 #### Q166. Which statement best describes the var keyword's scope in JavaScript?
 
 - [ ] Block scope
@@ -2238,11 +2237,10 @@ console.log(10 + 10);
 - [ ] Global scope
 - [ ] Instance scope
 
-
 #### Q167. What will be logged to the console?
 
 ```js
-const foo = () => console.log('First'); 
+const foo = () => console.log('First');
 const bar = () => setTimeout(() => console.log('Second'), 0);
 foo();
 bar();
@@ -2254,12 +2252,11 @@ console.log('Third');
 - [ ] First, Second, Third
 - [ ] Third, First, Second
 
-
 #### Q168. What will be the output of running this code?
 
 ```js
 function scream(words) {
-  return words.toUpperCase() + '!!!'
+  return words.toUpperCase() + '!!!';
 }
 
 scream('yay');
