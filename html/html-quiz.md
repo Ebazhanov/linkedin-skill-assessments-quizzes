@@ -2241,7 +2241,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 - [ ] <em>
 
-- [ ] <ul>
+- [x] <ul>
 
 [Source]:https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
 
