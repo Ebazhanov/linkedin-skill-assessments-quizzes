@@ -569,7 +569,7 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] Project Media Bins
 - [ ] Multi-Camera Editing
 - [x] Workspaces
- 
+
 Q71. In Adobe Premiere Pro, what is the purpose of the "Warp Stabilizer" effect, and when is it commonly used?
 
 - [ ] To add cinematic color grading to clips.
