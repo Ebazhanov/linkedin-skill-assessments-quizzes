@@ -462,7 +462,9 @@ Certainly! Here are the questions and their multiple-choice answers translated i
 #### Q31. Dans l'exemple de requête multimédia suivant, quelles conditions sont ciblées?
 
 ```css
-@media (min-width: 1024px), screen and (orientation: landscape) { ... }
+@media (min-width: 1024px), screen and (orientation: landscape) {
+  ...;
+}
 ```
 
 - [x] La règle s'appliquera à un appareil ayant une largeur de 1024 pixels ou plus, ou à un appareil à l'écran en mode paysage.
