@@ -956,9 +956,9 @@ Which of these statements do you agree with?
 
 #### Q124. What is a sentence parser typically used for?
 
-- [ ] It is used to parse sentences to check if they are utf-8 compliant. 
+- [ ] It is used to parse sentences to check if they are utf-8 compliant.
 - [x] It is used to parse sentences to derive their most likely syntax tree structures.
-- [ ] It is used to parse sentences to assign POS tags to all tokens. 
+- [ ] It is used to parse sentences to assign POS tags to all tokens.
 - [ ] It is used to check if sentences can be parsed into meaningful tokens.
 
 **Explanation:** Sentence parsers analyze a sentence and automatically build a syntax tree.
@@ -966,7 +966,7 @@ Which of these statements do you agree with?
 #### Q125. Which of the following techniques can not be used for normalization in text mining?
 
 - [ ] Stemming
-- [ ] Lemmatization 
+- [ ] Lemmatization
 - [x] Stop Word Removal
 - [ ] None of the above
 
@@ -976,7 +976,7 @@ Which of these statements do you agree with?
 
 - [ ] Drop missing rows or columns
 - [ ] Replace missing values with mean/median/mode
-- [ ] Assign a unique category to missing values 
+- [ ] Assign a unique category to missing values
 - [x] All of the above
 
 **Explanation:** All of the above techniques are different ways of imputing the missing values.
