@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1581-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1582-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2192,6 +2192,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/yuvrajverma25"><img src="https://avatars.githubusercontent.com/u/95195998?v=4?s=100" width="100px;" alt="yuvrajverma25"/><br /><sub><b>yuvrajverma25</b></sub></a><br /><a href="#design-yuvrajverma25" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yuvrajverma25" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayusharma03"><img src="https://avatars.githubusercontent.com/u/49690065?v=4?s=100" width="100px;" alt="Ayush Sharma"/><br /><sub><b>Ayush Sharma</b></sub></a><br /><a href="#design-ayusharma03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayusharma03" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrDracs"><img src="https://avatars.githubusercontent.com/u/114916636?v=4?s=100" width="100px;" alt="Rohit Kushwaha"/><br /><sub><b>Rohit Kushwaha</b></sub></a><br /><a href="#design-MrDracs" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MrDracs" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aditya-Dhodade"><img src="https://avatars.githubusercontent.com/u/61657884?v=4?s=100" width="100px;" alt="AdityaDhodade"/><br /><sub><b>AdityaDhodade</b></sub></a><br /><a href="#design-Aditya-Dhodade" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Aditya-Dhodade" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
