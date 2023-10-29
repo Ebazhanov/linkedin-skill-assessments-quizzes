@@ -953,3 +953,30 @@ Which of these statements do you agree with?
 -[ ] Quality of nodes -[x] Quality of heuristic function -[ ] Simple form of nodes -[ ] None of the mentioned
 
 **Explanation:** Good heuristic can be constructed by relaxing the problem, So the performance of heuristic search can be improved.``
+
+#### Q124. What is a sentence parser typically used for?
+
+- [ ] It is used to parse sentences to check if they are utf-8 compliant. 
+- [x] It is used to parse sentences to derive their most likely syntax tree structures.
+- [ ] It is used to parse sentences to assign POS tags to all tokens. 
+- [ ] It is used to check if sentences can be parsed into meaningful tokens.
+
+**Explanation:** Sentence parsers analyze a sentence and automatically build a syntax tree.
+
+#### Q125. Which of the following techniques can not be used for normalization in text mining?
+
+- [ ] Stemming
+- [ ] Lemmatization 
+- [x] Stop Word Removal
+- [ ] None of the above
+
+**Explanation:** Lemmatization and stemming are the techniques of keyword normalization.
+
+#### Q126. How do you handle missing or corrupted data in a dataset?
+
+- [ ] Drop missing rows or columns
+- [ ] Replace missing values with mean/median/mode
+- [ ] Assign a unique category to missing values 
+- [x] All of the above
+
+**Explanation:** All of the above techniques are different ways of imputing the missing values.
