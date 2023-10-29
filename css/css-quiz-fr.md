@@ -456,3 +456,190 @@ p {
 - [x] `border-radius: 10px ;`
 
 [Documentation officielle :](https://www.w3schools.com/css/css3_borders.asp)
+
+Certainly! Here are the questions and their multiple-choice answers translated into French:
+
+#### Q31. Dans l'exemple de requête multimédia suivant, quelles conditions sont ciblées?
+
+```css
+@media (min-width: 1024px), screen and (orientation: landscape) {
+  ...;
+}
+```
+
+- [x] La règle s'appliquera à un appareil ayant une largeur de 1024 pixels ou plus, ou à un appareil à l'écran en mode paysage.
+- [ ] La règle s'appliquera à un appareil ayant une largeur de 1024 pixels ou moins et étant un appareil à l'écran en mode paysage.
+- [ ] La règle s'appliquera à un appareil ayant une largeur de 1024 pixels ou plus et étant un appareil à l'écran en mode paysage.
+- [ ] La règle s'appliquera à un appareil ayant une largeur de 1024 pixels ou moins ou étant un appareil à l'écran en mode paysage.
+
+#### Q32. Les propriétés de transformation CSS sont utilisées pour modifier la forme et la position des objets sélectionnés. La propriété transform-origin spécifie l'emplacement de l'origine de transformation de l'élément. Par défaut, quel est l'emplacement de l'origine?
+
+- [ ] le coin supérieur gauche de l'élément
+- [x] le centre de l'élément
+- [ ] le coin supérieur droit de l'élément
+- [ ] le coin inférieur gauche de l'élément
+
+[Reference](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
+
+#### Q33. Quelle des valeurs suivantes n'est pas une valeur de couleur valide? (_Alternative:_ Quel choix n'est pas une valeur de couleur valide?)
+
+- [ ] `color: #000`
+- [ ] `color: rgb(0,0,0)`
+- [ ] `color: #000000`
+- [x] `color: 000000`
+
+#### Q34. Quel est l'espace vertical entre les deux éléments ci-dessous?
+
+```HTML
+<div style="margin-bottom: 2rem;">Div 1</div>
+<div style="margin-top: 2rem;">Div 2</div>
+```
+
+- [x] 2rem
+- [ ] 32px
+- [ ] 64px
+- [ ] 4rem
+
+[Reference MDN Webdocs](https://developer.mozilla.org/fr/docs/Web/CSS/Modelisation_en_boite_CSS/Mastering_margin_collapsing)
+
+#### Q35. Lors de l'utilisation de la méthode Flexbox, quelle propriété et valeur sont utilisées pour afficher les éléments flex en colonne?
+
+- [x] flex-flow: column; ou flex-direction: column
+- [ ] flex-flow: column;
+- [ ] flex-column: auto;
+- [ ] flex-direction: column;
+
+#### Q36. Quel type de déclaration prévaudra?
+
+- [ ] Toutes les déclarations dans les feuilles de style de l'utilisateur
+- [x] Les déclarations importantes dans les feuilles de style de l'utilisateur
+- [ ] Les déclarations normales dans les feuilles de style de l'auteur
+- [ ] Les déclarations importantes dans les feuilles de style de l'auteur
+
+#### Q37. La propriété flex-direction est utilisée pour spécifier la direction dans laquelle les éléments flex sont affichés. Quelles sont les valeurs utilisées pour spécifier la direction des éléments dans les exemples suivants?
+
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png?raw=png)
+
+- [x] &shy;
+  - Exemple 1: `flex-direction: row;`
+  - Exemple 2: `flex-direction: row-reverse;`
+  - Exemple 3: `flex-direction: column;`
+  - Exemple 4: `flex-direction: column-reverse;`
+- [ ] &shy;
+  - Exemple 1: `flex-direction: row-reverse;`
+  - Exemple 2: `flex-direction: row;`
+  - Exemple 3: `flex-direction: column-reverse;`
+  - Exemple 4: `flex-direction: column;`
+- [ ] &shy;
+  - Exemple 1: `flex-direction: row;`
+  - Exemple 2: `flex-direction: row-reverse;`
+  - Exemple 3: `flex-direction: column;`
+  - Exemple 4: `flex-direction: reverse-column;`
+- [ ] &shy;
+  - Exemple 1: `flex-direction: column;`
+  - Exemple 2: `flex-direction: column-reverse;`
+  - Exemple 3: `flex-direction: row;`
+  - Exemple 4: `flex-direction: row-reverse;`
+
+#### Q38. Il existe deux combinateurs de frères qui peuvent être utilisés pour sélectionner des éléments contenus dans le même élément parent ; le combinateur général de frères (~) et le combinateur de frères adjacents (+). En référence à l'exemple ci-dessous, quels éléments auront les styles appliqués?
+
+```css
+h2 ~ p {
+  color: blue;
+}
+h2 + p {
+  background: beige;
+}
+```
+
+```HTML
+<section>
+  <p>paragraphe 1</p>
+  <h2>Titre</h2>
+  <p>paragraphe 2</p>
+  <p>paragraphe 3</p>
+</section>
+```
+
+- [ ] Les paragraphes 2 et 3 seront bleus. Le h2 et le paragraphe 2 auront un fond beige.
+- [x] Les paragraphes 2 et 3 seront bleus, et le paragraphe 2 aura un fond beige.
+- [ ] Le paragraphe 2 sera bleu. Les paragraphes 2 et 3 auront un fond beige.
+
+Note: une variante de la question ci-dessous.
+
+#### Q39. Quels élément(s) seront bleus?
+
+```css
+h2 ~ p {
+  color: blue;
+}
+```
+
+```HTML
+<section>
+  <p>P1</p>
+  <h2>H2</h2>
+  <p>P3</p>
+  <p>P4</p>
+</section>
+```
+
+- [ ] P3
+- [ ] P1, P3 et P4
+- [x] P3 et P4
+- [ ] P1
+
+[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
+
+#### Q40. Lors de l'utilisation de Flexbox, la propriété "justify-content" peut être utilisée pour distribuer l'espace entre les éléments flex le long de l'axe principal. Quelle valeur devrait être utilisée pour répartir de manière é
+
+gale les éléments flex à l'intérieur du conteneur présenté ci-dessous?
+
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png?raw=png)
+
+- [ ] justify-content: space-around;
+- [ ] justify-content: center;
+- [ ] justify-content: auto;
+- [x] justify-content: space-between;
+
+#### Q41. Il existe de nombreux avantages à utiliser des polices d'icônes. Quel est l'un de ces avantages?
+
+- [ ] Les polices d'icônes améliorent l'accessibilité.
+- [ ] Les polices d'icônes peuvent être utilisées pour remplacer les polices personnalisées.
+- [x] Les polices d'icônes peuvent être stylisées avec des propriétés liées à la typographie comme la taille de police et la couleur.
+- [ ] Les polices d'icônes sont également des polices sécurisées pour le web.
+
+#### Q42. Quelle est la différence entre `display:none` et `visibility:hidden`?
+
+- [ ] Les deux masquent l'élément sur la page, mais display:none a un meilleur support du navigateur. visibility:hidden est une nouvelle propriété et n'a pas le meilleur support des navigateurs.
+- [ ] display:none masque les éléments mais conserve l'espace qu'ils occupaient précédemment. visibility:hidden masquera l'élément de la vue et le retirera du flux normal du document.
+- [x] display:none masque l'élément de la vue et le retire du flux normal du document. visibility:hidden masquera l'élément mais conservera l'espace qu'il occupait précédemment.
+- [ ] Il n'y a aucune différence; les deux masquent l'élément sur la page
+
+#### Q43. Quel sélecteur et propriété utiliseriez-vous pour mettre à l'échelle un élément pour le rendre 50% plus petit au survol?
+
+- [ ] element:hover {scale: 0.5;}
+- [x] element:hover {transform: scale(0.5);}
+- [ ] element:hover {scale: 50%;}
+- [ ] element:hover {transform: scale(50%);}
+
+#### Q44. Laquelle des déclarations concernant les polices d'icônes est vraie?
+
+- [ ] Les polices d'icônes peuvent être insérées uniquement à l'aide de JavaScript.
+- [ ] Les polices d'icônes sont insérées sous forme d'images en ligne.
+- [ ] Les polices d'icônes nécessitent des extensions de navigateur.
+- [x] Les polices d'icônes peuvent être stylisées avec des propriétés liées à la typographie comme la taille de police et la couleur.
+
+#### Q45. Les valeurs de la propriété font-weight peuvent être des mots-clés ou des nombres. Pour chaque valeur numérique ci-dessous, quel est le mot-clé associé?
+
+```css
+font-weight: 400;
+font-weight: 700;
+```
+
+- [ ] gras; normal
+- [x] normal; gras
+- [ ] léger; normal
+- [ ] normal; plus audacieux
+
+J'espère que cela vous sera utile!
