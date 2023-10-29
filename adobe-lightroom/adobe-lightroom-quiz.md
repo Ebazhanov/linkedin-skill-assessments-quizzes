@@ -365,3 +365,10 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [x] в
 - [ ] A
 - [ ] P
+
+#### Q42. In Lightroom, which feature allows you to apply specific adjustments to parts of an image using a brush, gradient, or radial filter?
+
+- [ ] Tone Curve
+- [ ] White Balance
+- [x] Local Adjustments
+- [ ] Lens Corrections
