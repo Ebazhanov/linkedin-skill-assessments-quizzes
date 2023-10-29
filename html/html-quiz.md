@@ -2230,8 +2230,7 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 - [ ] Hightext machine language.
 
-[Source]:https://www.geeksforgeeks.org/aptitude-html-course-practice-quiz-1-question-1/
-
+[Source]: https://www.geeksforgeeks.org/aptitude-html-course-practice-quiz-1-question-1/
 
 ### Q136.Which of the following HTML element is used for creating an unordered list?
 
@@ -2243,9 +2242,4 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 - [x] <ul>
 
-[Source]:https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
-
-
-
-
-
+[Source]: https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
