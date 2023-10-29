@@ -366,7 +366,21 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] A
 - [ ] P
 
-#### Q42. In Lightroom, which feature allows you to apply specific adjustments to parts of an image using a brush, gradient, or radial filter?
+#### Q42. In Lightroom, what is the purpose of the "Dehaze" tool, and how does it affect your images during post-processing?
+
+- [ ] It enhances image sharpness.
+- [ ] It adds a soft focus effect.
+- [ ] It applies artistic filters.
+- [x] It reduces or increases atmospheric haze and improves image clarity.
+
+#### Q43. When exporting photos in Lightroom, what is the difference between the "sRGB" and "Adobe RGB" color space options, and when might you choose one over the other for specific output requirements?
+
+- [ ] Both options have no impact on image color.
+- [ ] "sRGB" is for print, and "Adobe RGB" is for web use.
+- [ ] "Adobe RGB" is the default choice for all exports.
+- [x] "sRGB" is suitable for web and display use, while "Adobe RGB" is preferred for high-quality printing to maintain a wider color gamut.
+
+#### Q44. In Lightroom, which feature allows you to apply specific adjustments to parts of an image using a brush, gradient, or radial filter?
 
 - [ ] Tone Curve
 - [ ] White Balance

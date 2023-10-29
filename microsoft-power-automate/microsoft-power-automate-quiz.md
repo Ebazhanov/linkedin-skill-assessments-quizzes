@@ -274,7 +274,7 @@
 
 - [ ] an action
 - [ ] the conditions
-- [ ] the trigger
+- [x] the trigger
 - [ ] the output
 
 #### Q36. For which kinds of tasks are button flows best used?
@@ -282,12 +282,12 @@
 - [ ] mobile tasks with inputs from a group of users
 - [ ] complex tasks that utilize geofencing
 - [ ] replacing tasks formerly created in Outlook
-- [ ] simple, repetitive tasks on mobile device
+- [x] simple, repetitive tasks on mobile device
 
 #### Q37. What is a condition?
 
 - [ ] the event that initiates the flow
-- [ ] an action that determines subsequent steps of the flow
+- [x] an action that determines subsequent steps of the flow
 - [ ] a resulting output from the flow
 - [ ] the final, single result of the flow
 
@@ -296,12 +296,12 @@
 - [ ] Highlight the individual record or file, then open Power Automate and work from there.
 - [ ] You can create flows only from SharePoint libraries.
 - [ ] You can create a flow from the SharePoint list or library settings page.
-- [ ] From within a list or library, on the menu bar, click Flow > Create a new flow.
+- [x] From within a list or library, on the menu bar, click Flow > Create a new flow.
 
 #### Q39. Which of the following are types of triggers?
 
 - [ ] automation, manual, and button
-- [ ] instant, automated, and scheduled
+- [x] instant, automated, and scheduled
 - [ ] calendar, manual, and email
 - [ ] approval notices and emails
 
@@ -312,14 +312,14 @@ B. Turn off email notifications.
 C. Create two flows—one to send the request, another to handle responses.
 D. Store the approvals in the Common Data Service.
 
-- [ ] C, D
+- [x] C, D
 - [ ] A, C
 - [ ] A, B, C
 - [ ] B, D
 
 #### Q41. The current date in a flow result is displayed as "15 January, 2020". What expression would you use to format the date as "2020-01-15"?
 
-- [ ] formatDateTime(utcNow(), 'yyyy-MM-dd')
+- [x] formatDateTime(utcNow(), 'yyyy-MM-dd')
 - [ ] format{triggerDateTime(utcNow()}, 'MM-dd')
 - [ ] formatDateTime(triggerBody()?['Date'],'dd/MM/yyyy')
 - [ ] convertTimeZone(utcNow(),'UTC','E. Europe Standard Time','dd/MM/yyyy HH:mm')
@@ -327,7 +327,7 @@ D. Store the approvals in the Common Data Service.
 #### Q42. What is the easiest way to start a new flow?
 
 - [ ] Download a preconfigured flow from the Power Automate online store.
-- [ ] Create one from scratch, even if a template exists. That is the only way to make sure it fits your needs exactly.
+- [x] Create one from scratch, even if a template exists. That is the only way to make sure it fits your needs exactly.
 - [ ] Add the app to Microsoft Teams.
 - [ ] Use one of the preconfigured templates, if one exists for the task you want to perform.
 
@@ -335,24 +335,24 @@ D. Store the approvals in the Common Data Service.
 
 ![Image of footer](images/Q43.png?raw=png)
 
-- [ ] You must search for flows individually.You must search for flows individually.
+- [ ] You must search for flows individually. You must search for flows individually.
 - [ ] Scroll down the Power Automate Home page until you find your flows.
 - [ ] In the left navigation, click Solutions to see your flows that solve business problems.
-- [ ] In the left navigation, click My flows.
+- [x] In the left navigation, click My flows.
 
 #### Q44. What best describes a scheduled trigger?
 
 - [ ] a trigger that initiates a flow by user interaction that begins to process immediately via a mobile button or request submission
 - [ ] a trigger that runs instantly when another flow finishes processing, if they are chained together
 - [ ] a trigger that initiates a flow without user interaction when some condition is met—for example, when an email is received or a record changes
-- [ ] a trigger that initiates a flow without user interaction at a set time for one or more instance
+- [x] a trigger that initiates a flow without user interaction at a set time for one or more instance
 
 #### Q45. In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.)
 
 ![Image of footer](images/Q45.png?raw=png)
 
 - [ ] Add the value for Link to Item.
-- [ ] Add the value for Created By DisplayName.
+- [x] Add the value for Created By DisplayName.
 - [ ] Add the value for Identifier.
 - [ ] None of these is correct—you need the value for File Added By.
 
@@ -360,12 +360,12 @@ D. Store the approvals in the Common Data Service.
 
 - [ ] a trigger that initiates a flow by user interaction that begins to process immediately via a mobile button or request submission
 - [ ] a trigger that runs instantly when another flow finishes processing, if they are chained together
-- [ ] a trigger that initiates a flow without user interaction when an event occurs—for example, when an email is received or a record changes
+- [x] a trigger that initiates a flow without user interaction when an event occurs—for example, when an email is received or a record changes
 - [ ] a trigger that initiates a flow without user interaction at a set time for one or more instance
 
 #### Q47. How do you add comments to an action?
 
-- [ ] In the top-right corner of the step card, click the small ellipsis and select Add a comment.
+- [x] In the top-right corner of the step card, click the small ellipsis and select Add a comment.
 - [ ] Comments can be added only for an entire flow.
 - [ ] Select actions will have a comment input box.
 - [ ] In the top-right corner of the step card, click the small ellipsis and select Rename.

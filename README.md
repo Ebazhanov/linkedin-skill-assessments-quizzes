@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1577-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1582-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -2188,6 +2188,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kushal34712"><img src="https://avatars.githubusercontent.com/u/98145879?v=4?s=100" width="100px;" alt="Kushal Agrawal"/><br /><sub><b>Kushal Agrawal</b></sub></a><br /><a href="#design-kushal34712" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kushal34712" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vandit34"><img src="https://avatars.githubusercontent.com/u/94815601?v=4?s=100" width="100px;" alt="Vandit Verma"/><br /><sub><b>Vandit Verma</b></sub></a><br /><a href="#design-Vandit34" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Vandit34" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/achuehuehue"><img src="https://avatars.githubusercontent.com/u/146377904?v=4?s=100" width="100px;" alt="Akansha Chouhan"/><br /><sub><b>Akansha Chouhan</b></sub></a><br /><a href="#design-achuehuehue" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=achuehuehue" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yuvrajverma25"><img src="https://avatars.githubusercontent.com/u/95195998?v=4?s=100" width="100px;" alt="yuvrajverma25"/><br /><sub><b>yuvrajverma25</b></sub></a><br /><a href="#design-yuvrajverma25" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yuvrajverma25" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayusharma03"><img src="https://avatars.githubusercontent.com/u/49690065?v=4?s=100" width="100px;" alt="Ayush Sharma"/><br /><sub><b>Ayush Sharma</b></sub></a><br /><a href="#design-ayusharma03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayusharma03" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrDracs"><img src="https://avatars.githubusercontent.com/u/114916636?v=4?s=100" width="100px;" alt="Rohit Kushwaha"/><br /><sub><b>Rohit Kushwaha</b></sub></a><br /><a href="#design-MrDracs" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MrDracs" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aditya-Dhodade"><img src="https://avatars.githubusercontent.com/u/61657884?v=4?s=100" width="100px;" alt="AdityaDhodade"/><br /><sub><b>AdityaDhodade</b></sub></a><br /><a href="#design-Aditya-Dhodade" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Aditya-Dhodade" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

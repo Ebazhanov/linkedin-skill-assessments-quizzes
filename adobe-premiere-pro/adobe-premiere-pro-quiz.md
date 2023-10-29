@@ -562,3 +562,17 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] indicator
 - [x] playhead
 - [ ] navigator
+
+###Q70. When working on a complex project in Adobe Premiere Pro, you want to make sure you have a clean workspace and reduce any clutter. What feature in Premiere Pro can help you organize your workspace and manage your media efficiently?
+
+- [ ] Nested Sequences
+- [ ] Project Media Bins
+- [ ] Multi-Camera Editing
+- [x] Workspaces
+
+Q71. In Adobe Premiere Pro, what is the purpose of the "Warp Stabilizer" effect, and when is it commonly used?
+
+- [ ] To add cinematic color grading to clips.
+- [ ] To adjust the audio pitch and speed.
+- [x] To stabilize shaky or jittery video footage.
+- [ ] To create animated text and graphics.

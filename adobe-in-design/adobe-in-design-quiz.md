@@ -335,15 +335,15 @@ E. If the image is in RGB mode, the text color is also set to RGB mode.
 
 #### 44. What is the gutter?
 
-- [ ]the distance between a block of type and the frame containing it
+- [ ] the distance between a block of type and the frame containing it
 - [x] the space between columns and column guides
 - [ ] another term for the slug area
 - [ ] the space between the bleed and the slug
 
 #### 45. Where do you set left and right indents for typing in a selected text frame?
 
-- [ ]in Type > Type Variables
-- [x]the Paragraph panel
+- [ ] in Type > Type Variables
+- [x] the Paragraph panel
 - [ ] the Paragraph Style dialog box
 - [ ] the Character panel
 
@@ -359,9 +359,9 @@ E. If the image is in RGB mode, the text color is also set to RGB mode.
 ![Alt text](images/question_47.png)
 
 - [ ] Create a new color swatch in the Swatches panel based on Paper, and lower its opacity value.
-- [ ] ln the Effects panel, select Ghost Back from the FX menu.
-- [x] ln the Effects panel, click the word Fill, and change the opacity.
-- [ ] ln the Swatches panel, edit the Paper swatch to be partially transparent.
+- [ ] In the Effects panel, select Ghost Back from the FX menu.
+- [x] In the Effects panel, click the word Fill, and change the opacity.
+- [ ] In the Swatches panel, edit the Paper swatch to be partially transparent.
 
 #### 48. When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no image appears within the frame. What is most likely the cause of this?
 
@@ -434,7 +434,7 @@ E. If the image is in RGB mode, the text color is also set to RGB mode.
 - [ ] The space between the two frames matches the grid spacing preference.
 - [ ] The space between the two frames is below the spacing limit set in Preferences.
 - [ ] The two frames are not yet aligned.
-- [ ] The space between the two frames equals the space between the frame and some other frame.??
+- [x] The space between the two frames equals the space between the frame and some other frame.??
 
 #### 57. What does a yellow triangle icon in the Links panel indicate about an image?
 
@@ -493,7 +493,7 @@ E. If the image is in RGB mode, the text color is also set to RGB mode.
 
 - [ ] The field is blank and needs text.
 - [ ] The field contains nonvisible characters.
-- [ ] A GREP expression has been attached.
+- [x] A GREP expression has been attached.
 - [ ] InDesign is searching for text formatting.
 
 #### 65. A tagline that overlaps a graphic disappears when you move an image frame close to it. Why is this happening and how do you fix it?
