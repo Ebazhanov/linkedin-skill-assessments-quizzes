@@ -2219,3 +2219,33 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] width
 - [ ] height
 - [ ] src
+
+### Q135.What does HTML stands for?
+
+- [ ] Hypertext Machine language.
+
+- [ ] Hypertext and links markup language.
+
+- [x] Hypertext Markup Language.
+
+- [ ] Hightext machine language.
+
+[Source]:https://www.geeksforgeeks.org/aptitude-html-course-practice-quiz-1-question-1/
+
+
+### Q136.Which of the following HTML element is used for creating an unordered list?
+
+- [ ] <ui>
+
+- [ ] <i>
+
+- [ ] <em>
+
+- [x] <ul>
+
+[Source]:https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
+
+
+
+
+
