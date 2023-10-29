@@ -2521,7 +2521,7 @@ class my_class{
 - [ ] --i
 - [ ] +i
 
-#### Q156. What will be the output of following code?
+#### Q158. What will be the output of following code?
 
 ```cpp
 int matrix[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
