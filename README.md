@@ -25,7 +25,7 @@
 
 #### 🙏 Adding Answers
 
-Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
+Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding of. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
 
 #### ❗️ Looking to participate in Hacktoberfest 2023? Please read the rules carefully:
 
@@ -33,7 +33,7 @@ Please add an explanation or reference link to your answers. This will help anyo
 
 #### 🎉 Announcements
 
-1. Column `Translation` have links to quizzes in different languages like Es, Fr, It , hi and De.
+1. Column `Translation` has links to quizzes in different languages like Es, Fr, It, hi, and De.
 2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat.
 3. Playground before taking quiz using:
 
