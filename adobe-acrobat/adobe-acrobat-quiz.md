@@ -248,7 +248,7 @@
 
 #### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
 
-- [ ]Preferences > Signatures > Identities & Trusted Certificates
+- [ ] Preferences > Signatures > Identities & Trusted Certificates
 - [ ] Preferences > Signatures > Document Timestamping
 - [ ] Preferences > Signatures > Verification
 - [x] Preferences > Signatures > Creation and Appearance
