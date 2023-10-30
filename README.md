@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1582-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1583-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2193,6 +2191,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayusharma03"><img src="https://avatars.githubusercontent.com/u/49690065?v=4?s=100" width="100px;" alt="Ayush Sharma"/><br /><sub><b>Ayush Sharma</b></sub></a><br /><a href="#design-ayusharma03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayusharma03" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrDracs"><img src="https://avatars.githubusercontent.com/u/114916636?v=4?s=100" width="100px;" alt="Rohit Kushwaha"/><br /><sub><b>Rohit Kushwaha</b></sub></a><br /><a href="#design-MrDracs" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MrDracs" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aditya-Dhodade"><img src="https://avatars.githubusercontent.com/u/61657884?v=4?s=100" width="100px;" alt="AdityaDhodade"/><br /><sub><b>AdityaDhodade</b></sub></a><br /><a href="#design-Aditya-Dhodade" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Aditya-Dhodade" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://vidyaa18.github.io/myportfolio/"><img src="https://avatars.githubusercontent.com/u/87689661?v=4?s=100" width="100px;" alt="Vegesna Vidyasri"/><br /><sub><b>Vegesna Vidyasri</b></sub></a><br /><a href="#design-vidyaa18" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vidyaa18" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
