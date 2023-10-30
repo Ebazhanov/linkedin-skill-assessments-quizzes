@@ -72,17 +72,17 @@
 
 #### Q11. When setting the font-size property in CSS, you need to be careful about using **\_** as the unit of measurement on nested elements because it's calculated in relation to the **\_**, which can result in larger or smaller text than expected.
 
-- [ ]px; inherited value
+- [ ] px; inherited value
 - [ ] em: root element
 - [x] em; inherited value
 - [ ] rem: inherited value
 
 #### Q12. A favicon is often added to the element to display a small image or logo alongside the page title in the browser tab. What's the correct way of inserting a favicon (assuming you have the relevant icon in your images folder)?
 
-- [ ] <meta href=”images/favicon.ico” rel=”icon” type=”image/icon”>
-- [x] <link href=”images/favicon.ico”rel=”icon” type=”image/icon”>
-- [ ] <link href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>
-- [ ] <img href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>
+- [ ] `<meta href=”images/favicon.ico” rel=”icon” type=”image/icon”>`
+- [x] `<link href=”images/favicon.ico”rel=”icon” type=”image/icon”>`
+- [ ] `<link href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>`
+- [ ] `<img href=”images/favicon.ico” rel=”icon” type=”image/x-icon”>`
 
 #### Q13. Dreamweaver offers several options for refactoring JavaScript code, including renaming, extracting an expression to a variable, and extracting an expression to a function. What other refactoring options does it offer?
 
