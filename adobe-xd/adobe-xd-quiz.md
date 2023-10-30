@@ -200,3 +200,17 @@
 - [ ] a component
 - [x] a group
 - [ ] a screen element
+
+#### Q28. When designing a mobile app interface in Adobe XD, what is the recommended artboard size for an iPhone 11 Pro?
+
+- [ ] 640x1136 pixels
+- [ ] 1080x1920 pixels
+- [ ] 750x1334 pixels
+- [x] 1125x2436 pixels
+
+#### Q29. What is the purpose of the "Asset Export" feature in Adobe XD?
+
+- [ ] It allows you to import assets from other software.
+- [ ] It lets you create new design elements.
+- [ ] It is used to share design prototypes.
+- [x] It enables you to export assets (such as icons and images) for use in web or app development.

@@ -338,3 +338,17 @@
 - [ ] B, D, C
 - [ ] A, B, C
 - [x] B, C, E
+
+### Q45. In After Effects, what does the "Motion Sketch" tool allow you to do?
+
+- [ ] Apply color grading to footage
+- [ ] Create 3D shapes and objects
+- [ ] Record voiceovers for your compositions
+- [x] Animate layers by manually drawing their motion paths
+
+###Q46. When working with 3D layers in After Effects, which axis mode allows you to make changes based on the orientation of the Composition panel?
+
+- [ ] Local axis
+- [x] World axis
+- [ ] Global axis
+- [ ] View axis
