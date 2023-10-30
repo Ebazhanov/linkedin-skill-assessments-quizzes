@@ -4,8 +4,8 @@
 
 - [ ] cost
 - [ ] ease of maintenance vs. granularity of control
-- [x] all of these answers
 - [ ] the current storage engine used by the application, such as InnoDB or MyISAM
+- [x] All of the above
 
 #### Q2. The LAYOFF command turns off the layer of any selected object. What happens if you select an object on the current drafting layer?
 
@@ -165,8 +165,8 @@
 
 - [ ] The hidden and isolated object layers go on to their own layer.
 - [ ] The isolated object layers stay on; all other layers are turned off in the Layer Properties Manager.
-- [x] Nothing happens.
 - [ ] The hidden object layers turn off; all other layers stay on in the Layer Properties Manager.
+- [x] Nothing happens
 
 #### Q25. When scaling a drawing from imperial feet and inches to metric millimeters, what scale factor do you use in the SCALE command, before adjusting your units settings?
 
