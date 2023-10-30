@@ -250,7 +250,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [x] Metadata
 - [ ] file data
 - [ ] sidecar files
-- [ ]camera data
+- [ ] camera data
 
 #### Q31. Suppose, as shown here, that you see no folders in the Folders list despite knowing some have been imported. How can you fix this?
 
