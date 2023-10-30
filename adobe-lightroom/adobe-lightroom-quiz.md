@@ -379,3 +379,10 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] "sRGB" is for print, and "Adobe RGB" is for web use.
 - [ ] "Adobe RGB" is the default choice for all exports.
 - [x] "sRGB" is suitable for web and display use, while "Adobe RGB" is preferred for high-quality printing to maintain a wider color gamut.
+
+#### Q44. In Lightroom, which feature allows you to apply specific adjustments to parts of an image using a brush, gradient, or radial filter?
+
+- [ ] Tone Curve
+- [ ] White Balance
+- [x] Local Adjustments
+- [ ] Lens Corrections
