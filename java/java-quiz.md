@@ -2553,3 +2553,10 @@ class abc
 - [ ] UsersDateFormatRead
 
 [Reference](https://www.sarthaks.com/2435260/which-of-these-class-allows-us-to-define-our-own-formatting-pattern-for-dates-and-time)
+
+#### Q173.What kind of relationship does extends denote?
+
+- [x] is-a
+- [ ] has-a
+- [ ] was-a
+- [ ] uses-a
