@@ -145,7 +145,7 @@
 #### Q20. When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?
 
 - [ ] Type "PP" twice with the Timeline panel active.
-- [ ] Click the Solo Supported Properties button in the Essential Graphics panel.
+- [x] Click the Solo Supported Properties button in the Essential Graphics panel.
 - [ ] Switch to the Essential Graphics workspace.
 - [ ] All properties are supported by the Essential Graphics panel.
 
@@ -159,7 +159,7 @@
 #### Q22. How can you create a single composition from multiple footage items?
 
 - [ ] Select the items and click File > New Project.
-- [ ] Select the items and click Composition > New Composition from Selection.
+- [x] Select the items and click Composition > New Composition from Selection.
 - [ ] Drag the selected footage items to the Create a New Composition button at the bottom of the Project panel.
 - [ ] Select the items and click Composition > New Composition.
 
@@ -346,7 +346,7 @@
 - [ ] Record voiceovers for your compositions
 - [x] Animate layers by manually drawing their motion paths
 
-###Q46. When working with 3D layers in After Effects, which axis mode allows you to make changes based on the orientation of the Composition panel?
+### Q46. When working with 3D layers in After Effects, which axis mode allows you to make changes based on the orientation of the Composition panel?
 
 - [ ] Local axis
 - [x] World axis
