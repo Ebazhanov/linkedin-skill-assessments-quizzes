@@ -1614,7 +1614,7 @@ useEffect(callNetworkFunc, XXXX);
 - [x] to change the layout of the screen
 - [ ] when you need the browser to paint before the effect runs
 
-### Q134. What is the difference between state and props in React?
+#### Q134. What is the difference between state and props in React?
 
 - [ ] Props are set by the parent component, state is set by the child component
 - [x] Props are passed to a component, state is managed within the component
@@ -1649,28 +1649,28 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] The `key` prop is required to render a list of components.
 - [x] The `key` prop is used by React to optimize updates and identify which items have changed or been added/removed in the list.
 
-### Q139. What is the primary function of React Router?
+#### Q139. What is the primary function of React Router?
 
 - [ ] React Router is used for fetching data from APIs.
 - [ ] React Router is used to create animations in React applications.
 - [ ] React Router is used for managing state in React components.
 - [x] React Router is used for adding navigation and routing to React applications, allowing users to navigate between different views or pages.
 
-### Q140. When should you use Redux in a React application?
+#### Q140. When should you use Redux in a React application?
 
 - [ ] Redux is always required in React applications.
 - [ ] Redux should be used when you need to fetch data from APIs.
 - [ ] Redux is used for creating user interfaces but not for state management.
 - [x] Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state.
 
-### Q141. What is the use of React hooks?
+#### Q141. What is the use of React hooks?
 
 - [ ] To optimize React apps for mobile devices
 - [ ] To add visual effects to React components.
 - [ ] To allow using state and lifecycle methods in function components
 - [x] To integrate with external UI libraries like Bootstrap
 
-### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
+#### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
 
 - [x] By using React context
 - [ ] By using redux
