@@ -1339,9 +1339,9 @@ int main() {
 
 #### Q83. What is the correct syntax to output "Hello World" in C++?
 
-- [x] ```cout << "Hello World";```
-- [ ] ```System.out.println("Hello World");```
-- [ ] ```print("Hello World");```
+- [x] `cout << "Hello World";`
+- [ ] `System.out.println("Hello World");`
+- [ ] `print("Hello World");`
 - [ ] Console.WriteLine("Hello World");```
 
 #### Q84. How many categories of iterators are there in C++?
@@ -2110,7 +2110,7 @@ return 0;
 }
 ```
 
-- [ ] ```<garbage value>```
+- [ ] `<garbage value>`
 - [ ] 5
 - [x] Compilation Error at LINE-1: uninitialized const ’ptr’
 - [x] Compilation Error at LINE-2: assignment of read-only variable ’ptr’
