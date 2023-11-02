@@ -1095,7 +1095,8 @@ cat > notes -
 
 ```bash
 [[$A==$B]]
-[[$A -eq $B]]```
+[[$A -eq $B]]
+```
 
 - [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
 - [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
