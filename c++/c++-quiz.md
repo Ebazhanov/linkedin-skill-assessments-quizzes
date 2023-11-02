@@ -1339,10 +1339,10 @@ int main() {
 
 #### Q83. What is the correct syntax to output "Hello World" in C++?
 
-- [x] cout << "Hello World";
-- [ ] System.out.println("Hello World");
-- [ ] print("Hello World");
-- [ ] Console.WriteLine("Hello World");
+- [x] ```cout << "Hello World";```
+- [ ] ```System.out.println("Hello World");```
+- [ ] ```print("Hello World");```
+- [ ] Console.WriteLine("Hello World");```
 
 #### Q84. How many categories of iterators are there in C++?
 
