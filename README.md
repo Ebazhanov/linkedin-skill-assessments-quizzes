@@ -12,9 +12,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white&color=blue)](https://discord.gg/NKCyjjw3MW)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1584-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1585-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
@@ -2197,6 +2195,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://vidyaa18.github.io/myportfolio/"><img src="https://avatars.githubusercontent.com/u/87689661?v=4?s=100" width="100px;" alt="Vegesna Vidyasri"/><br /><sub><b>Vegesna Vidyasri</b></sub></a><br /><a href="#design-vidyaa18" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vidyaa18" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://adarsh1997shah.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/36032572?v=4?s=100" width="100px;" alt="Adarsh shah"/><br /><sub><b>Adarsh shah</b></sub></a><br /><a href="#design-adarsh1997shah" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=adarsh1997shah" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vtkmy"><img src="https://avatars.githubusercontent.com/u/131514773?v=4?s=100" width="100px;" alt="vtkmy"/><br /><sub><b>vtkmy</b></sub></a><br /><a href="#design-vtkmy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vtkmy" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
