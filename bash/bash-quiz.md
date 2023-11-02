@@ -1093,7 +1093,8 @@ cat > notes -
 
 #### Q84. What is the difference between these two conditional expressions?
 
-```[[$A==$B]]
+```bash
+[[$A==$B]]
 [[$A -eq $B]]```
 
 - [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
