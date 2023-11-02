@@ -311,7 +311,7 @@
 [Tham khảo](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
 `Trong loạt bài kế toán phát hành số. 269, SEC xác định tính độc lập trên thực tế và tính độc lập về bề ngoài là những yếu tố riêng biệt nhưng cần thiết như nhau trong việc thiết lập tính khách quan và liêm chính của kiểm toán viên khi chứng nhận báo cáo tài chính do tổ chức phát hành chứng khoán nộp cho ủy ban. Ít ai có thể tranh luận rằng trên thực tế, tính độc lập—nghĩa là kiểm toán viên không thiên vị—là điều cần thiết đối với tính hợp lệ của một cuộc kiểm toán.`
 
-#### C39. Khi áp dụng phân tích chi phí-khối lượng-lợi nhuận (CVP), một số giả định nhất định phải được tôn trọng. Câu trả lời nào _không phải là một trong những giả định này?
+#### C39. Khi áp dụng phân tích chi phí-khối lượng-lợi nhuận (CVP), một số giả định nhất định phải được tôn trọng. Câu trả lời nào \_không phải là một trong những giả định này?
 
 - [ ] Đơn giá bán không đổi.
 - [x] Chi phí biến đổi đơn vị thực tế sẽ thay đổi tùy theo phạm vi sản xuất.
