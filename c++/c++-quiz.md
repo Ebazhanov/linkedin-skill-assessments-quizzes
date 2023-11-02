@@ -2110,7 +2110,7 @@ return 0;
 }
 ```
 
-- [ ] <garbage value>
+- [ ] ```<garbage value>```
 - [ ] 5
 - [x] Compilation Error at LINE-1: uninitialized const ’ptr’
 - [x] Compilation Error at LINE-2: assignment of read-only variable ’ptr’
