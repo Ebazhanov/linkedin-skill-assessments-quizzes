@@ -1079,10 +1079,10 @@ cat > notes -
 
 #### Q82. You want to match five-letter palindromes such as radar, rotor, and tenet. Which sed option should you use?
 
-- [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
+- [ ] ```sed -E -n '/^(.)(.)\3\2\1$/p'```
+- [ ] ```sed -E -n '/^(.)(.)(.).\2\1$/p'```
+- [x] ```sed -E -n '/^(.)(.)(.)\2\1$/p'```
+- [ ] ```sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'```
 
 #### Q83. To add a value to the current environment, what command should you use ?
 
@@ -1093,8 +1093,8 @@ cat > notes -
 
 #### Q84. What is the difference between these two conditional expressions?
 
-[[$A==$B]]
-[[$A -eq $B]]
+```[[$A==$B]]
+[[$A -eq $B]]```
 
 - [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
 - [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
