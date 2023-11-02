@@ -1079,9 +1079,9 @@ References:
 <h1 [title]="userName">Current user is {{ userName }}</h1>
 ```
 
-- [ ] title="userName"
-- [x] title="{{ userName }}"
-- [ ] title="{{ 'userName' }}"
+- [ ] ```title="userName"```
+- [x] ```title="{{ userName }}"```
+- [ ] ```title="{{ 'userName' }}"```
 - [ ] The only way to do it is by using the square brackets.
 
 #### Q57. What is the `async` pipe doing in this example?
@@ -1473,7 +1473,7 @@ export class DateCardComponent {
 }
 ```
 
-- [x] {{ currentYear() }}
-- [ ] {{ component.currentYear() }}
-- [ ] {{ currentYear }}
+- [x] ```{{ currentYear() }}```
+- [ ] ```{{ component.currentYear() }}```
+- [ ] ```{{ currentYear }}```
 - [ ] Class functions cannot be called from template syntax.
