@@ -1724,3 +1724,27 @@ $.trigger('myEvent');
 - [ ]  When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.
 - [ ] The function triggers the form to submit programmatically, then looks at the checkbox. If it is not selected, display an alert.
 - [ ] jQuery submits the form, and then asks for confirmation on the terms if the checkbox was not clicked.
+
+#### Q90. jQuery has an internal function used to prepare data that are submitted with AJAX requests, and it is availableto you as well. Suppose you have a page with a simple button. Based on various conditions on the page, you build up an object that will alter the URL. If you want the presented URL, how can you get a complete representation of the data into the URL?
+
+```js
+<div class="actions">
+  <a href="//example.com/action">Let's go!</a>
+</div>
+
+var data = {
+  username: 'jaffacakes',
+  message: {
+    date: '2018-07-05 13:14:00 GMT-07:00',
+    text: `I have a whole lot to say, everyone, and I'm gonna say it!`
+  },
+  tags: [ 'discourse', 'thoughts', 'messageOfTheDay' ]
+};
+
+//example.com/action?username=jaffacakes&message%5Bdate%5D=2018-07-05+13%3A14%3A00+GMT-07%3A00
+```
+
+- [ ] `$(data).serializeArray();`
+- [ ] `$.param(data, false);`
+- [ ] `$.param(data, true);`
+- [ ] `$(data).serialize();`
