@@ -260,7 +260,6 @@
 [Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
 `Alors que les coûts variables ont tendance à rester stables, l'impact des coûts fixes sur le résultat final d'une entreprise peut changer en fonction du nombre de produits qu'elle produit.`
 
-
 #### Q35. Quelle réponse peut être définie comme la marge de contribution d'un centre d'investissement moins les coûts fixes attribuables au centre d'investissement ?
 
 - [ ] le revenu net
@@ -314,7 +313,7 @@
 > CVP suppose ce qui suit:
 >
 > - Prix de vente constant;
-> - Coût variable constant 
+> - Coût variable constant
 > - Coût fixe total constant
 > - Unités vendues égales aux unités produites.
 >
@@ -420,8 +419,7 @@ Je ne suis pas sûr à 100% à ce sujet.
 
 - [x] lorsque les coûts sont facilement rattachés à un produit spécifique
 - [ ] lorsque les coûts sont accumulés par le département
-- [ ] lorsque la valeur des travaux en cours est basée sur l'attribution de coûts standards
--[ ] lorsque chaque lot de produits est le même que le lot précédent
+- [ ] lorsque la valeur des travaux en cours est basée sur l'attribution de coûts standards -[ ] lorsque chaque lot de produits est le même que le lot précédent
 
 [Reference](https://www.tutorialspoint.com/différentiate-between-job-costing-and-process-costing)
 
