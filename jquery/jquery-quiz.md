@@ -1648,3 +1648,51 @@ $('a.active').addClass('hover');
 - [ ] &
 
 [Source: Stack Overflow](https://stackoverflow.com/questions/8667736/what-does-the-sign-mean-in-jquery-or-javascript)
+
+#### Q88. Along with standard DOM events like click, focus, or blur, you can register and listen for custom events with jQuery. If you have an external API at `http://example.com/api/v1` and you want to use custom events to ping that API from various places throughtout your codebase, what would that look like?
+
+- [ ] A
+
+```js
+// listens
+$('body').on('myEvent', function() {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$('body').trigger('myEvent');
+```
+
+- [ ] B
+
+```js
+// listens
+$('body').on('custom', 'myEvent', function() {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$('document').trigger('custom', 'myEvent');
+```
+
+- [ ] C
+
+```js
+// listens
+$('body').on(function(event) {
+  if (event === 'myEvent') {
+    $.get('http://example.com/api/v1/ping');
+  }
+});
+// triggers
+$('body').triggerHandler('myEvent');
+```
+
+- [ ] D
+
+```js
+// listens
+$.on('myEvent', function() {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$.trigger('myEvent');
+```
