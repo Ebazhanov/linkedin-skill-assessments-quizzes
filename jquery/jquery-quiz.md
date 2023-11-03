@@ -1696,3 +1696,31 @@ $.on('myEvent', function() {
 // triggers
 $.trigger('myEvent');
 ```
+
+#### Q89. Given the HTML code between `<form>` and `</form>` below, what does the snippet between `<script>` and `</script>` do?
+
+```js
+<form class="needs-validation" novalidate="">
+  <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="checkbox-opt-in">
+    <label class="custom-control-label" for="checkbox-opt-in">I totally read and accept the terms, really.</label>
+  </div>
+</form>
+
+<script>
+  $(function() {
+    $('form').submit(function(evt) {
+      if ($(this).find('.checkbox-opt-in').prop('checked') === false) {
+        evt.preventDefault();
+
+        alert("Please read and accept the terms.")
+      }
+    });
+  });
+</script>
+```
+
+- [ ] When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert.
+- [ ]  When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.
+- [ ] The function triggers the form to submit programmatically, then looks at the checkbox. If it is not selected, display an alert.
+- [ ] jQuery submits the form, and then asks for confirmation on the terms if the checkbox was not clicked.
