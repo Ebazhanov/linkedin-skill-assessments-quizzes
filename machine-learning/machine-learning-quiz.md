@@ -938,27 +938,27 @@ Which of these statements do you agree with?
 
 #### Q121. What is a top-down parser?
 
-- [x] Begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written 
-- [ ] Begins by hypothesizing a sentence (the symbol S) and successively predicting upper level constituents until individual preterminal symbols are written 
-- [ ] Begins by hypothesizing lower level constituents and successively predicting a sentence (the symbol S) 
+- [x] Begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written
+- [ ] Begins by hypothesizing a sentence (the symbol S) and successively predicting upper level constituents until individual preterminal symbols are written
+- [ ] Begins by hypothesizing lower level constituents and successively predicting a sentence (the symbol S)
 - [ ] Begins by hypothesizing upper level constituents and successively predicting a sentence (the symbol S)
 
 **Explanation:** A top-down parser begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written.
 
 #### Q122. Which search method will expand the node that is closest to the goal?
 
-- [ ] Best-first search 
-- [x] Greedy best-first search 
-- [ ] A\* search 
+- [ ] Best-first search
+- [x] Greedy best-first search
+- [ ] A\* search
 - [ ] None of the mentioned
 
 **Explanation:** Greedy best-first search is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. [Source](https://www.codecademy.com/resources/docs/ai/search-algorithms/greedy-best-first-search)
 
 #### Q123. Which is used to improve the performance of heuristic search?
 
-- [ ] Quality of nodes 
-- [x] Quality of heuristic function 
-- [ ] Simple form of nodes 
+- [ ] Quality of nodes
+- [x] Quality of heuristic function
+- [ ] Simple form of nodes
 - [ ] None of the mentioned
 
 **Explanation:** Good heuristic can be constructed by relaxing the problem, So the performance of heuristic search can be improved.``
