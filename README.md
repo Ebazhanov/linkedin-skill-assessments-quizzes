@@ -2201,6 +2201,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://natasyanadhira.me"><img src="https://avatars.githubusercontent.com/u/42974721?v=4?s=100" width="100px;" alt="Natasya Nadhira"/><br /><sub><b>Natasya Nadhira</b></sub></a><br /><a href="#design-tasyadew" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tasyadew" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/accandy"><img src="https://avatars.githubusercontent.com/u/149587535?v=4?s=100" width="100px;" alt="accandy"/><br /><sub><b>accandy</b></sub></a><br /><a href="#design-accandy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=accandy" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/udaypalecha"><img src="https://avatars.githubusercontent.com/u/99619714?v=4?s=100" width="100px;" alt="Uday Palecha"/><br /><sub><b>Uday Palecha</b></sub></a><br /><a href="#design-udaypalecha" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=udaypalecha" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
