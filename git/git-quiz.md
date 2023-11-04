@@ -1002,43 +1002,43 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q110. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
 
-- [ ] - git grep -a "MaxConnections"
-- [ ] - git log --search-string "MaxConnections"
-- [x] - git log -S "MaxConnections"
-- [ ] - git commit --with "MaxConnections"
+- [ ] git grep -a "MaxConnections"
+- [ ] git log --search-string "MaxConnections"
+- [x] git log -S "MaxConnections"
+- [ ] git commit --with "MaxConnections"
 
 #### Q111. Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the remote repository, named origin, to point to the new remote repository at this location?
 
-- [ ] - git remote create-update origin https://github.com/yourcompany/core-api.git
-- [ ] - git remote update origin https://github.com/yourcompany/core-api.git
-- [x] - git remote set-url origin https://github.com/yourcompany/core-api.git
-- [ ] - git remote add https://github.com/yourcompany/core-api.git
+- [ ] git remote create-update origin https://github.com/yourcompany/core-api.git
+- [ ] git remote update origin https://github.com/yourcompany/core-api.git
+- [x] git remote set-url origin https://github.com/yourcompany/core-api.git
+- [ ] git remote add https://github.com/yourcompany/core-api.git
 
 #### Q112. When is the cherry-pick command used?
 
-- [x] - when a commit from one branch needs to be copied into another branch
-- [ ] - when the HEAD needs to be reset to a specific commit
-- [ ] - when a specific commit needs to be pulled down from the remote repository
-- [ ] - when a hook script needs to be invoked
+- [x] when a commit from one branch needs to be copied into another branch
+- [ ] when the HEAD needs to be reset to a specific commit
+- [ ] when a specific commit needs to be pulled down from the remote repository
+- [ ] when a hook script needs to be invoked
 
 [reference](https://www.atlassian.com/git/tutorials/cherry-pick#:~:text=git%20cherry%2Dpick%20is%20a,be%20useful%20for%20undoing%20changes.)
 
 #### Q113. How would you describe a forked repository?
 
-- [ ] - a deleted or archived copy of a repository
-- [ ] - a beta release branch of a repository
-- [ ] - a future branch of a repository
-- [x] - a separate copy of a repository
+- [ ] a deleted or archived copy of a repository
+- [ ] a beta release branch of a repository
+- [ ] a future branch of a repository
+- [x] a separate copy of a repository
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
 [reference](https://www.geeksforgeeks.org/git-fork/)
 
 #### Q114. How can you exclude untracked files within the working directory from a Git repository?
 
-- [ ] - You cannot exclude the files from the repository.
-- [ ] - Tag the files with excluded.
-- [x] - Add a pattern matching the files to the .gitignore file.
-- [ ] - Add the files to the omitted branch
+- [ ] You cannot exclude the files from the repository.
+- [ ] Tag the files with excluded.
+- [x] Add a pattern matching the files to the .gitignore file.
+- [ ] Add the files to the omitted branch
 
 [reference](https://git-scm.com/docs/gitignore)
 
@@ -1202,10 +1202,10 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 
 #### Q129. When is the cherry-pick command used?
 
-- [x] - when a commit from one branch needs to be copied into another branch
-- [ ] - when the HEAD needs to be reset to a specific commit
-- [ ] - when a specific commit needs to be pulled down from the remote repository
-- [ ] - when a hook script needs to be invoked
+- [x] when a commit from one branch needs to be copied into another branch
+- [ ] when the HEAD needs to be reset to a specific commit
+- [ ] when a specific commit needs to be pulled down from the remote repository
+- [ ] when a hook script needs to be invoked
 
 #### Q130. What would happen if you ran the `git reset testfile.js` command?
 

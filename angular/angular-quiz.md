@@ -818,8 +818,9 @@ const userService = TestBed.get(UserService);
 - [ ] The TestBed is being used to test a component's view.
 - [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
-      `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
-      `Although it will work when multiple providers in this configuration are asserted against in a single test.`
+
+`All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
+`Although it will work when multiple providers in this configuration are asserted against in a single test.`
 
 #### Q45. What is the primary difference between a component and a directive?
 
