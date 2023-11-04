@@ -818,8 +818,13 @@ const userService = TestBed.get(UserService);
 - [ ] The TestBed is being used to test a component's view.
 - [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
+<<<<<<< HEAD
 `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
+=======
+      `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
+      `Although it will work when multiple providers in this configuration are asserted against in a single test.`
+>>>>>>> a888106826829bb57db6f8f4186dae30c55d5a8c
 
 #### Q45. What is the primary difference between a component and a directive?
 
@@ -1079,9 +1084,9 @@ References:
 <h1 [title]="userName">Current user is {{ userName }}</h1>
 ```
 
-- [ ] title="userName"
-- [x] title="{{ userName }}"
-- [ ] title="{{ 'userName' }}"
+- [ ] `title="userName"`
+- [x] `title="{{ userName }}"`
+- [ ] `title="{{ 'userName' }}"`
 - [ ] The only way to do it is by using the square brackets.
 
 #### Q57. What is the `async` pipe doing in this example?
@@ -1473,7 +1478,7 @@ export class DateCardComponent {
 }
 ```
 
-- [x] {{ currentYear() }}
-- [ ] {{ component.currentYear() }}
-- [ ] {{ currentYear }}
+- [x] `{{ currentYear() }}`
+- [ ] `{{ component.currentYear() }}`
+- [ ] `{{ currentYear }}`
 - [ ] Class functions cannot be called from template syntax.
