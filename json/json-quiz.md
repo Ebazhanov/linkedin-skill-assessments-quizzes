@@ -1174,74 +1174,15 @@ So the correct options are A and D.
 
 #### Q98. Which is the valid JSON equivalent of the data shown?
 
-{
-photo: {
-width: 1600,
-height: 900,
-binaries: {
-url: 'https://www.example.com/images/34097349843',
-thumbnail: 'https://www.example.com/images/thumbs/34097349843'
-},
-animated: false,
-tags: [116, 943, 234, 38793],
-}
-}
+```{photo: {width: 1600, height: 900, binaries: { url: 'https://www.example.com/images/34097349843', thumbnail: 'https://www.example.com/images/thumbs/34097349843' }, animated: false, tags: [116, 943, 234, 38793], }}```
 
-- [ ] A
-      {
-      "photo": {
-      "width": 1600,
-      "height": 900,
-      "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-      },
-      "animated": "false",
-      "tags": [116, 943, 234, 38793]
-      }
-      }
+- [ ] ```{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": [116, 943, 234, 38793]}}```
 
-- [ ] B
-      {
-      "photo": {
-      "width": 1600,
-      "height": 900,
-      "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-      },
-      "animated": false,
-      "tags": [116, 943, 234, 38793]
-      }
-      }
+- [ ] ```{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": false, "tags": [116, 943, 234, 38793]}}```
 
-- [ ] C
-      {
-      "photo": {
-      "width": 1600,
-      "height": 900,
-      "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-      },
-      "animated": true,
-      "tags": [116, 943, 234, 38793]
-      }
-      }
+- [ ] ```{"photo": {"width": 1600, "height": 900, "binaries": {"url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": true, "tags": [116, 943, 234, 38793]}}```
 
-- [x] D
-      {
-      "photo": {
-      "width": "1600",
-      "height": "900",
-      "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-      },
-      "animated": "false",
-      "tags": ["116", "943", "234", "38793"]
-      }
-      }
+- [x] ```{"photo": {"width": "1600", "height": "900", "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": ["116", "943", "234", "38793"]}}```
 
 #### Q99. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
