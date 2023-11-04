@@ -1275,6 +1275,7 @@ tags: [116, 943, 234, 38793],
 
 #### Q103. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
 
+```json
 {
 "avengers": [
 "iron man",
@@ -1284,41 +1285,15 @@ tags: [116, 943, 234, 38793],
 "ant man",
 "spider man'
 ]
-}
+}```
 
-- [x] A
-      {
-      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
-      }
+- [x] ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}```
 
-- [ ] B
-      {
-      'avengers': [
-      {'iron man',
-      'hulk',
-      'thor',
-      'black widow',
-      'ant man',
-      'spider man'}
-      ]
-      }
+- [ ] ```{'avengers': {'iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man'}]}```
 
-- [ ] C
-      {
-      "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
-      }
+- [ ] ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}```
 
-- [ ] D
-      {
-      "avengers": {[
-      "iron man",
-      "hulk",
-      "thor",
-      "black widow",
-      "ant man",
-      "spider man"
-      ]}
-      }
+- [ ] ```{"avengers": {["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}}```
 
 #### Q104. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 
