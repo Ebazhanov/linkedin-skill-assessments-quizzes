@@ -15778,6 +15778,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "udaypalecha",
+      "name": "Uday Palecha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99619714?v=4",
+      "profile": "https://github.com/udaypalecha",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "SimonRofalski",
+      "name": "Simon Rofalski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101046616?v=4",
+      "profile": "https://github.com/SimonRofalski",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
