@@ -767,9 +767,7 @@ null
 
 #### Q58. How would you make the following string valid in JSON?
 
-```json
-"name": 'bb-8'
-```
+```"name": 'bb-8'```
 
 - [ ] name: "bb-8"
 - [ ] "name": \'bb-8\'
