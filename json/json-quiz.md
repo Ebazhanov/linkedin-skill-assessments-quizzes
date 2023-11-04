@@ -1275,17 +1275,7 @@ tags: [116, 943, 234, 38793],
 
 #### Q103. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
 
-```json
-{
-"avengers": [
-"iron man",
-"hulk",
-"thor",
-"black widow",
-"ant man",
-"spider man"
-]
-}```
+```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}```
 
 - [x] ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}```
 
