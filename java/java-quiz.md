@@ -36,14 +36,14 @@
 #### Q4. What is the output of this code?
 
 ```java
-1: class Main {
-2:   public static void main (String[] args) {
-3:     int array[] = {1, 2, 3, 4};
-4:     for (int i = 0; i < array.size(); i++) {
-5:        System.out.print(array[i]);
-6:     }
-7:   }
-8: }
+class Main {
+  public static void main (String[] args) {
+    int array[] = {1, 2, 3, 4};
+    for (int i = 0; i < array.size(); i++) {
+       System.out.print(array[i]);
+    }
+  }
+}
 ```
 
 - [x] It will not compile because of line 4.
@@ -229,21 +229,21 @@ is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls
 #### Q11. What is the result of this code?
 
 ```java
-1: class MainClass {
-2:     final String message() {
-3:         return "Hello!";
-4:     }
-5: }
+class MainClass {
+    final String message() {
+        return "Hello!";
+    }
+}
 
-6: class Main extends MainClass {
-7:     public static void main(String[] args) {
-8:         System.out.println(message());
-9:     }
+class Main extends MainClass {
+    public static void main(String[] args) {
+        System.out.println(message());
+    }
 
-10:     String message() {
-11:         return "World!";
-12:     }
-13: }
+     String message() {
+         return "World!";
+     }
+ }
 ```
 
 - [x] It will not compile because of line 10.
@@ -488,20 +488,20 @@ class Main {
 #### Q30. What is the result of this code?
 
 ```java
-1: class Main {
-2:     Object message() {
-3:         return "Hello!";
-4:     }
-5:     public static void main(String[] args) {
-6:         System.out.print(new Main().message());
-7:         System.out.print(new Main2().message());
-8:     }
-9: }
-10: class Main2 extends Main {
-11:     String message() {
-12:         return "World!";
-13:     }
-14: }
+class Main {
+    Object message() {
+        return "Hello!";
+    }
+    public static void main(String[] args) {
+        System.out.print(new Main().message());
+        System.out.print(new Main2().message());
+    }
+}
+class Main2 extends Main {
+    String message() {
+        return "World!";
+    }
+}
 ```
 
 - [ ] It will not compile because of line 7.
@@ -1138,11 +1138,11 @@ for (int i = 44; i > 40; i--) {
 #### Q79. What is the value of myCharacter after line 3 is run?
 
 ```java
-1: public class Main {
-2:   public static void main (String[] args) {
-3:     char myCharacter = "piper".charAt(3);
-4:   }
-5: }
+public class Main {
+  public static void main (String[] args) {
+    char myCharacter = "piper".charAt(3);
+  }
+}
 ```
 
 - [ ] p
@@ -1190,13 +1190,13 @@ public class Main {
 #### Q84. Which change will make this code compile successfully?
 
 ```java
-1: public class Main {
-2:   String MESSAGE ="Hello!";
-3:   static void print(){
-4:     System.out.println(message);
-5:   }
-6:   void print2(){}
-7: }
+public class Main {
+  String MESSAGE ="Hello!";
+  static void print(){
+    System.out.println(message);
+  }
+  void print2(){}
+}
 ```
 
 - [ ] Change line 2 to `public static final String message`
@@ -1380,16 +1380,15 @@ public enum Direction {
 #### Q98. What code should go in line 3?
 
 ```java
-1: class Main {
-2:     public static void main(String[] args) {
-3:
-4:         array[0] = new int[]{1, 2, 3};
-5:         array[1] = new int[]{4, 5, 6};
-6:         array[2] = new int[]{7, 8, 9};
-7:         for (int i = 0; i < 3; i++)
-8:             System.out.print(array[i][1]); //prints 258
-9:     }
-10: }
+class Main {
+    public static void main(String[] args) {
+        array[0] = new int[]{1, 2, 3};
+        array[1] = new int[]{4, 5, 6};
+        array[2] = new int[]{7, 8, 9};
+        for (int i = 0; i < 3; i++)
+            System.out.print(array[i][1]); //prints 258
+    }
+ }
 ```
 
 - [ ] `int[][] array = new int[][];`
@@ -2197,20 +2196,15 @@ Queue<Rainfall>
 
 ```java
 1: class Main {
-
 2:      public static void main(String[] args) {
-
 3:          Map<String, Integer> map = new HashMap<>();
 4:          map.put("a", 1);
 5:          map.put("b", 2);
 6:          map.put("c", 3);
-
 7:          int result = 0;
-
 8:
 9:              result += entry.getValue();
 10:         }
-
 11:         System.out.println(result); // outputs 6
 12:     }
 13: }
@@ -2397,8 +2391,7 @@ Square square = x -> x*x;
 int a = square.calculate(length);
 ```
 
-- [ ]
-
+- [ ] 
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2406,8 +2399,7 @@ public interface Square {
 }
 ```
 
-- [x]
-
+- [x] 
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2416,7 +2408,6 @@ public interface Square {
 ```
 
 - [ ]
-
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2425,7 +2416,6 @@ public interface Square {
 ```
 
 - [ ]
-
 ```java
 @FunctionalInterface
 public interface Square {
