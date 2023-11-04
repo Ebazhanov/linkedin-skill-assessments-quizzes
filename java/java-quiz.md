@@ -2391,28 +2391,32 @@ Square square = x -> x*x;
 int a = square.calculate(length);
 ```
 
-- [ ] ```java
+- [ ] A
+```java
 @FunctionalInterface
 public interface Square {
     void calculate(int x);
 }
 ```
 
-- [x] ```java
+- [x] B
+```java
 @FunctionalInterface
 public interface Square {
     int calculate(int x);
 }
 ```
 
-- [ ] ```java
+- [ ] C
+```java
 @FunctionalInterface
 public interface Square {
     int calculate(int... x);
 }
 ```
 
-- [ ] ```java
+- [ ] D
+```java
 @FunctionalInterface
 public interface Square {
     void calculate(int x, int y);
