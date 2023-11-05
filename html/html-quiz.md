@@ -2234,15 +2234,6 @@ label="Endnotes">Endnotes...</custom-footnote>
 
 ### Q136.Which of the following HTML element is used for creating an unordered list?
 
-<<<<<<< HEAD
-- [ ] ```<ui>```
-
-- [ ] ```<i>```
-
-- [ ] ```<em>```
-
-- [x] ```<ul>```
-=======
 - [ ] `<ui>`
 
 - [ ] `<i>`
@@ -2250,6 +2241,5 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] `<em>`
 
 - [x] `<ul>`
->>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 
 [Source]: https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/

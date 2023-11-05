@@ -2392,10 +2392,6 @@ int a = square.calculate(length);
 ```
 
 - [ ] A
-<<<<<<< HEAD
-=======
-
->>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2404,10 +2400,6 @@ public interface Square {
 ```
 
 - [x] B
-<<<<<<< HEAD
-=======
-
->>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2416,10 +2408,6 @@ public interface Square {
 ```
 
 - [ ] C
-<<<<<<< HEAD
-=======
-
->>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 ```java
 @FunctionalInterface
 public interface Square {
@@ -2428,10 +2416,6 @@ public interface Square {
 ```
 
 - [ ] D
-<<<<<<< HEAD
-=======
-
->>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 ```java
 @FunctionalInterface
 public interface Square {
