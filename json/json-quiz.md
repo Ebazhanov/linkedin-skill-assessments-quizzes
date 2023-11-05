@@ -767,7 +767,11 @@ null
 
 #### Q58. How would you make the following string valid in JSON?
 
+<<<<<<< HEAD
 ```"name": 'bb-8'```
+=======
+`"name": 'bb-8'`
+>>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 
 - [ ] name: "bb-8"
 - [ ] "name": \'bb-8\'
@@ -936,7 +940,11 @@ null
 
 #### Q82. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?
 
+<<<<<<< HEAD
 ```variance: -0.0823```
+=======
+`variance: -0.0823`
+>>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 
 - [ ] variance: "-0.0823"
 - [ ] variance: -0.0823
@@ -1170,6 +1178,7 @@ So the correct options are A and D.
 
 #### Q98. Which is the valid JSON equivalent of the data shown?
 
+<<<<<<< HEAD
 ```json{photo: {width: 1600, height: 900, binaries: { url: 'https://www.example.com/images/34097349843', thumbnail: 'https://www.example.com/images/thumbs/34097349843' }, animated: false, tags: [116, 943, 234, 38793], }}```
 
 - [ ] ```{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": [116, 943, 234, 38793]}}```
@@ -1179,6 +1188,17 @@ So the correct options are A and D.
 - [ ] ```{"photo": {"width": 1600, "height": 900, "binaries": {"url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": true, "tags": [116, 943, 234, 38793]}}```
 
 - [x] ```{"photo": {"width": "1600", "height": "900", "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": ["116", "943", "234", "38793"]}}```
+=======
+`json{photo: {width: 1600, height: 900, binaries: { url: 'https://www.example.com/images/34097349843', thumbnail: 'https://www.example.com/images/thumbs/34097349843' }, animated: false, tags: [116, 943, 234, 38793], }}`
+
+- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": [116, 943, 234, 38793]}}`
+
+- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": false, "tags": [116, 943, 234, 38793]}}`
+
+- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": {"url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": true, "tags": [116, 943, 234, 38793]}}`
+
+- [x] `{"photo": {"width": "1600", "height": "900", "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": ["116", "943", "234", "38793"]}}`
+>>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 
 #### Q99. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
@@ -1212,6 +1232,7 @@ So the correct options are A and D.
 
 #### Q103. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
 
+<<<<<<< HEAD
 ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}```
 
 - [x] ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}```
@@ -1221,6 +1242,17 @@ So the correct options are A and D.
 - [ ] ```{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}```
 
 - [ ] ```{"avengers": {["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}}```
+=======
+`{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}`
+
+- [x] `{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}`
+
+- [ ] `{'avengers': {'iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man'}]}`
+
+- [ ] `{"avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]}`
+
+- [ ] `{"avengers": {["iron man", "hulk", "thor", "black widow", "ant man", "spider man" ]}}`
+>>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
 
 #### Q104. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 

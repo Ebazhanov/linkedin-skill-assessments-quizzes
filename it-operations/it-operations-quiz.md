@@ -598,4 +598,7 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [ ] Hold the Shift key and try again.
 - [x] Sign out and sign in again with an administrator account.
 - [ ] User account permissions are elevated in Settings or Preferences.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c498d81d8a6287e8d3e60e67ba5e8bb9bb19d3c
