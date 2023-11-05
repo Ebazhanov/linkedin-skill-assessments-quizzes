@@ -444,13 +444,13 @@ I'm not 100% sure on this.
 #### Q52. What does an inventory turnover ratio measure?
 
 - [ ] the current value of the inventory
-- [ ] the number of times inventory was sold during the period
+- [x] the number of times inventory was sold during the period
 - [ ] how it compares with the industry average
 - [ ] whether the company can maintain the same inventory levels compared to industry averages
 
 #### Q53. The company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?
 
-- [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.
+- [x] The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.
 - [ ] The question does not provide sufficient information to offer a proper calculation.
 - [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0667 to produce the product sold.
 - [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0333 to produce the product sold.

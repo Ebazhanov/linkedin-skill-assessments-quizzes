@@ -45,7 +45,7 @@
 
 #### Q6. Which texture type does not require UVs to render in software?
 
-- [ ] File texture
+- [x] File texture
 - [ ] 3D texture
 - [ ] 2D texture
 - [ ] Substance texture
@@ -183,13 +183,13 @@
 - [ ] level of details
 - [ ] face centers
 - [ ] vertex normal direction
-- [ ] face normal direction
+- [x] face normal direction
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-79F8E9DC-72B9-4465-8D77-8A69F61D313A)
 
 #### Q21. Which tool is designed to enable an artist to manually retopologize a mesh?
 
-- [ ] Quad Draw
+- [x] Quad Draw
 - [ ] Append to Polygon
 - [ ] Create Polygon
 - [ ] Sculpt

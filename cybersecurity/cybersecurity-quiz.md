@@ -1097,7 +1097,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] A vulnerability that has been known and patched for zero days.
 - [x] A vulnerability that is not yet known to the software vendor or the public.
-- [ ]A vulnerability that affects zero network devices.
+- [ ] A vulnerability that affects zero network devices.
 - [ ] A vulnerability that cannot be exploited.
 
 #### Q144. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?

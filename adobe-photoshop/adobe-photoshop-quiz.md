@@ -546,9 +546,9 @@ E. Perspective Warp
 #### Q70. How many layer masks can be added to an image?
 
 - [x] up to 8000
-- [] up to 2000
-- [] infinite
-- [] 0
+- [ ] up to 2000
+- [ ] infinite
+- [ ] 0
 
 #### Q71. Which method is a high-quality scaling algorithm for enlarging an image?
 
@@ -567,9 +567,9 @@ E. Perspective Warp
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
-- [ ] &shy;
-- [ ] &shy;
-- [ ] &shy;
+- [ ] `&shy;`
+- [ ] `&shy;`
+- [ ] `&shy;`
 
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace?
 
@@ -741,7 +741,7 @@ E. Perspective Warp
 
 ![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png?raw=png)
 
-- [ ] A (on-image adjustment tool)
+- [x] A (on-image adjustment tool)
 - [ ] B (sample in image to set black point)
 - [ ] C (sample in image to set white point)
 - [ ] D (sample in image to set gray point)
@@ -750,7 +750,7 @@ E. Perspective Warp
 
 - [ ] Click **File > Scripts > Image Processor**.
 - [ ] Click **File > Export > Export Layer Comps to Files**.
-- [ ] Click **File > Export > Layers to Files**.
+- [x] Click **File > Export > Layers to Files**.
 - [ ] Click **File > Scripts > Load files into stack**.
 
 #### Q98. Which options bar icon subtracts from a selection?
@@ -760,7 +760,7 @@ E. Perspective Warp
 - [ ] A
 - [ ] B
 - [ ] C
-- [ ] D
+- [x] D
 
 #### Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?
 

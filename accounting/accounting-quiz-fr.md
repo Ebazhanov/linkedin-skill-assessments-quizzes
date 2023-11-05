@@ -249,3 +249,364 @@
 - [ ] changements de service
 
 \[source]`'MT: compte du déposant est un passif envers la banque - la banque doit l’argent au déposant. La banque perçoit un billet à recevoir du client signifie réduire les espèces / dépôts du client. De même si NSF signifie que le titulaire du chèque n’a pas assez de fonds pour transférer des fonds dans les dépôts du client, il n’y a donc pas de changement dans les dépôts.`
+
+#### Q34. Comment les coûts variables et les coûts fixes agissent-ils dans la plage pertinente ?
+
+- [x] Les coûts variables par unité restent constants et les coûts fixes par unité varient.
+- [ ] Les coûts fixes par unité restent constants et les coûts variables par unité varient.
+- [ ] Les deux coûts variables totaux et les coûts fixes totaux varient.
+- [ ] Les deux coûts variables totaux et les coûts fixes totaux restent constants."
+
+[Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
+`Alors que les coûts variables ont tendance à rester stables, l'impact des coûts fixes sur le résultat final d'une entreprise peut changer en fonction du nombre de produits qu'elle produit.`
+
+#### Q35. Quelle réponse peut être définie comme la marge de contribution d'un centre d'investissement moins les coûts fixes attribuables au centre d'investissement ?
+
+- [ ] le revenu net
+- [ ] le revenu résiduel
+- [x] la marge de segment
+- [ ] le retour sur investissement (ROI)"
+
+[Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)
+`Marge de contribution = Chiffre d'affaires – Coûts variables`
+`Marge de segment = Marge de contribution du segment – Coûts fixes attribués au segment`
+
+#### Q36. Si l'on s'attend à ce qu'un auditeur détecte la surestimation des ventes, à partir de quoi l'auditeur devrait-il tracer les transactions ?
+
+- [ ] des commandes d'achat des clients au journal des ventes
+- [ ] des encaissements aux commandes d'achat
+- [x] du journal des ventes aux documents d'expédition
+- [ ] des documents d'expédition aux encaissements"
+
+[Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)
+`Quelle procédure d'audit est la plus efficace pour tester la surestimation des ventes à crédit ?`
+`Vérifier un échantillon de ventes enregistrées du journal des ventes aux documents d'expédition.`
+
+#### Q37. Quelle est la méthode d'analyse formelle appliquée par la direction pour identifier les conducteurs de coûts appropriés et leurs effets sur les coûts de production ?
+
+- [ ] analyse de rentabilité
+- [ ] analyse coûts-avantages
+- [ ] coûts du cycle de vie
+- [x] analyse d'activité
+
+[Reference]Analyse d'activité implique l'étude et l'évaluation des activités et des processus au sein d'une organisation pour comprendre leurs implications en termes de coûts. Cela aide à identifier les activités clés qui influent sur les coûts et à analyser leur relation avec divers facteurs de coûts. En comprenant ces relations, la direction peut prendre des décisions éclairées pour optimiser les coûts et améliorer l'efficacité globale.
+
+#### Q38. Lorsque les auditeurs indépendants peuvent maintenir leur indépendance réelle, cela est appelé l'indépendance en \_\_\_\_.
+
+- [x] fait
+- [ ] Apparence
+- [ ] totalité
+- [ ] confiance
+
+[Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
+`Dans la Publication no 269 de la Série Comptable, la SEC a défini l'indépendance de fait et l'indépendance apparente comme des facteurs distincts mais tout aussi nécessaires pour établir l'objectivité et l'intégrité de l'auditeur lors de la certification des états financiers déposés auprès de la commission par un émetteur de titres. Peu contesteraient le fait que l'indépendance de fait, c'est-à-dire, le fait que l'auditeur soit impartial, est essentielle à la validité d'un audit.`
+
+#### Q39. Lors de l'application d'une analyse coût-volume-profit (CVP), certaines hypothèses doivent être respectées. Quelle réponse n'est pas l'une de ces hypothèses ?
+
+- [ ] Le prix de vente unitaire restera constant.
+- [x] Le coût variable unitaire réel variera sur la plage de production.
+- [ ] Le comportement des coûts est exprimé sous forme de lignes droites s'intersectant.
+- [ ] Le coût fixe unitaire diminuera.
+
+[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
+
+> CVP suppose ce qui suit:
+>
+> - Prix de vente constant;
+> - Coût variable constant
+> - Coût fixe total constant
+> - Unités vendues égales aux unités produites.
+>
+> Ce sont des hypothèses de simplification, largement linéarisantes, qui sont souvent implicitement supposées dans les discussions élémentaires sur les coûts et les bénéfices.
+
+#### Q40. Quelle affirmation concernant un système d'inventaire perpétuel est vraie ?
+
+- [ ] Le coût des biens vendus FIFO sera le même que dans un système d'inventaire périodique.
+- [ ] Les coûts moyens sont entièrement basés sur des moyennes simples de coûts unitaires.
+- [ ] Le coût des biens vendus LIFO sera le même que dans un système d'inventaire périodique.
+- [x] Une nouvelle moyenne est calculée sous la méthode du coût moyen après chaque vente.
+
+I'm not 100% sure on this.
+
+[Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
+
+> Un inventaire perpétuel est une méthode de comptabilisation des stocks qui enregistre immédiatement la vente ou l'achat de stocks grâce à l'utilisation de systèmes informatisés de points de vente et de logiciels de gestion des actifs d'entreprise.
+
+#### Q41. Quel type d'entreprise serait le plus susceptible d'utiliser un système de calcul des coûts des commandes ?
+
+- [ ] un producteur de voitures électriques
+- [ ] une entreprise de transformation du bois
+- [ ] un fabricant de boissons
+- [x] un cabinet d'avocats spécialisé en droit des blessures
+
+[Référence](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
+
+> Étant donné que les avocats et les comptables travaillent avec différents clients sur des comptes uniques, beaucoup utiliseront un système de calcul des coûts des commandes pour suivre le temps et les ressources utilisés pour chaque client.
+
+#### Q42. L'affectation des coûts indirects à des tâches spécifiques est complétée par **\_**.
+
+- [ ] imputation au compte des frais généraux de fabrication
+- [ ] en utilisant le coût de fabrication engagé
+- [x] appliquer un taux de frais généraux prédéterminé
+- [ ] appliquer des coûts indirects au travail dans le processus
+
+Je ne suis pas sûr à 100% à ce sujet.
+
+[Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
+
+> Les calculs du taux de coûts indirects peuvent être déterminés en divisant un coût indirect par un objet de coût, tel que le chiffre d'affaires ou la superficie en pieds carrés.
+
+#### Q43. Qu’est-ce qu’une mission d’assurance ?
+
+- [ ]compilation
+- [ ] installation réseau
+- [x] audit
+- [ ] revoir
+
+[Reference](https://www.wikiaccounting.com/what-is-the-objective-of-assurance-engagement/)
+
+#### Q44. À quoi correspond la somme d’un coût de conversion ?
+
+- [ ] coût direct des matériaux + frais administratifs
+- [ ] coût direct des matériaux + frais généraux de fabrication
+- [ ] coût direct des matériaux + coût marketing
+- [x] coût direct de la main d'œuvre + frais généraux de fabrication
+
+[Reference](https://smallbusiness.chron.com/calculate-beginning-inventory-conversion-costs-20581.html)
+
+#### Q45. Dans le cadre d'un système d'inventaire perpétuel, les marchandises sont achetées sur facture. Quelle est l'écriture de journal correcte pour cet achat ?
+
+- [ ] Débiter l'inventaire des marchandises. comptes créditeurs à payer.
+- [ ] Achats à débit, espèces à crédit.
+- [ ] Débit des retours d'achat, crédit du coût des marchandises vendues.
+- [x] Débiter l'inventaire des marchandises, créditer la trésorerie.
+
+[Reference](https://homework.study.com/explanation/using-a-perpetual-inventory-system-the-buyer-s-journal-entry-to-record-the-return-of-merchandise-purchased-on-account-includes-a-credit-to-the-cost-of-goods-sold-b-credit-to-accounts-payable-c-credit-to-purchase-returns-d-credit-to-inven.html#:~:text=Answer%20and%20Explanation%3A,and%20accounts%20payable%20was%20credited.)
+
+#### Q46. Quelle tâche n'est pas habituellement associée à l'évaluation des coûts par activité (ABC) ?
+
+- [ ] application d'un taux d'activité pour chaque pool de coûts
+- [ ] identifier les inducteurs de coûts spécifiques
+- [x] allouer de manière appropriée les frais généraux aux pools de coûts
+- [ ] appliquer un taux de coût unique à tous les processus
+
+[Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
+
+#### Q47. Qu'est-ce qui est vrai lorsque les unités du stock de clôture augmentent au cours de l'année ?
+
+- [ ] Le résultat net est plus élevé pour le coût d'absorption que pour le coût variable.
+- [ ] Le résultat net est identique en coût d'absorption et en coût variable.
+- [x] Il n'y a aucune relation entre le bénéfice net et l'approche des coûts.
+- [ ] Le résultat net est plus faible en coût d'absorption qu'en coût variable.
+
+#### Q48. Lorsque les auditeurs indépendants peuvent conserver leur indépendance réelle, on parle d’indépendance en\_\_.
+
+- [ ] confiance
+- [x] totalité
+- [ ] Apparence
+- [ ] fait
+
+#### Q49. Quelle est la méthode formelle d’analyse appliquée par la direction pour identifier les inducteurs de coûts appropriés et leurs effets sur les coûts de production ?
+
+- [ ] l'analyse coûts-avantages
+- [ ] coût du cycle de vie
+- [ ] analyse de rentabilité
+- [x] analyse d'activité
+
+[Reference](https://www.chegg.com/homework-help/questions-and-answers/formal-method-analysis-used-managers-identify-approprié-cost-drivers-effects-costs-makin-q74105384)
+
+#### Q50. Quand comptez-vous appliquer le calcul des coûts de travail plutôt que le calcul des coûts de processus ?
+
+- [x] lorsque les coûts sont facilement rattachés à un produit spécifique
+- [ ] lorsque les coûts sont accumulés par le département
+- [ ] lorsque la valeur des travaux en cours est basée sur l'attribution de coûts standards -[ ] lorsque chaque lot de produits est le même que le lot précédent
+
+[Reference](https://www.tutorialspoint.com/différentiate-between-job-costing-and-process-costing)
+
+#### Q51. Robinson Hotels tente de prédire ses coûts de services publics. Il contient cinq années de données, notamment les coûts mensuels des services publics, les taux d'occupation mensuels et la température mensuelle moyenne. Quel outil ou technique Robinson Hotels peut-il utiliser pour prédire ou estimer ses futurs coûts de services publics ?
+
+- [ ] rapport sectoriel
+- [x] analyse de régression
+- [ ] Analyse des séries chronologiques
+- [ ] valeur actuelle nette
+
+#### Q52. Que mesure un taux de rotation des stocks ?
+
+- [ ] la valeur actuelle de l'inventaire
+- [x] le nombre de fois où l'inventaire a été vendu au cours de la période
+- [ ] comment cela se compare-t-il à la moyenne du secteur
+- [ ] si l'entreprise peut maintenir les mêmes niveaux de stocks par rapport aux moyennes du secteur
+
+#### Q53. L'entreprise a réalisé un bénéfice brut de 4 000 000 $ et un chiffre d'affaires net de 12 000 000 $. Quelle est la marge brute et qu’implique le résultat pour l’évaluateur ?
+
+- [x] La marge brute de 3,33 % représente pour chaque dollar de ventes, l'entreprise dépense 0,9667 $ pour fabriquer le produit vendu.
+- [ ] La question ne fournit pas suffisamment d'informations pour proposer un calcul correct.
+- [ ] La marge brute de 3,33 % représente pour chaque dollar de ventes, l'entreprise dépense 0,0667 $ pour fabriquer le produit vendu.
+- [ ] La marge brute de 3,33 % représente pour chaque dollar de ventes, l'entreprise dépense 0,0333 $ pour fabriquer le produit vendu.
+
+#### Q54. Quel type de coût évolue proportionnellement au volume de production d’une entreprise ?
+
+- [ ] coût de la conversion
+- [ ] coût indirect
+- [x] coût variable
+- [ ] coûts fixes
+
+#### Q55. Comment appelle-t-on le bénéfice sacrifié lorsqu’une option est choisie plutôt qu’une autre ?
+
+- [x] coût d'opportunité
+- [ ] coût indirect
+- [ ] coût irrécupérable
+- [ ] coût différentiel
+
+#### Q56. Le prix réel d'un widget est de 10 $ et le prix budgétisé est de 7 $. Quelle est la différence de prix pour 1 000 widgets ?
+
+- [x] 3 000 $
+- [ ] 1 000 $
+- [ ] 3 $
+- [ ] 1 700 $
+
+> Coût réel = 10 $ par widget
+> Coût budgétisé = 7 $ par widget
+> Quantité = 1 000 widgets
+
+Écart de prix = (Coût réel - Coût budgétisé) x Quantité
+Écart de prix = (10 $ - 7 $) x 1 000
+Écart de prix = 3 $ x 1 000
+Écart de prix = 3 000 $
+
+Par conséquent, l’écart de prix pour 1 000 widgets est de 3 000 $.
+
+#### Q57. Quel est le principal système de rapports de comptabilité financière utilisé en dehors des États-Unis ?
+
+- [ ] le système métrique
+- [ ] ARBRE
+- [ ] PCGR
+- [x] IFRS
+
+#### Q58. Quel type d’éléments probants serait considéré comme le type le plus faible ?
+
+- [x] témoignages oraux
+- [ ] examen physique
+- [ ] Confirmation
+- [ ] la preuve documentaire
+
+#### Q59. Les comptes permanents figurent sur quel état financier ?
+
+- [ ] état des flux de trésorerie
+- [ ] releve de revenue
+- [x] bilan
+- [ ] état des capitaux propres
+
+#### Q60. Le coût de l’alternative X est de 25 000 $ et celui de l’alternative Y est de 20 000 $. Comment appelle-t-on la différence de coût de 5 000 $ ?
+
+- [ ] coût essentiel
+- [ ] supplément
+- [x] coût différentiel
+- [ ] coût irrécupérable
+
+#### Q61. A quoi sert un budget directeur ?
+
+- [ ] pour démontrer à la direction le niveau de ventes que l'entreprise atteindra
+- [ ] donner confiance aux actionnaires et au conseil d'administration dans les capacités de la direction
+- [ ] pour permettre à la direction de compiler tous les autres budgets opérationnels une fois qu'ils sont terminés
+- [x] fournir à la direction une vue d'ensemble de haut niveau des finances de l'entreprise et constituer un outil de planification central
+
+#### Q62. Qu’est-ce qui est vrai à propos d’un système de contrôle interne ?
+
+- [ ] Un système de contrôle interne n'est efficace que lorsque l'erreur humaine est éliminée ou migrée.
+- [ ] Toute activité de contrôle interne évaluée et adoptée par une entreprise ne doit jamais être évaluée en termes de coût-bénéfice.
+- [ ] Seules les moyennes et grandes entreprises et les organisations gouvernementales doivent garantir des activités de contrôle interne appropriées.
+- [x] Un système de contrôle interne aide une entreprise à obtenir des informations financières fiables, des opérations efficaces et efficientes et à se conformer aux lois et réglementations.
+
+#### Q63. D’après la formule de coût Y = 20 000 $ + 4 $, quel serait le coût total pour un niveau d’activité de 15 000 unités ?
+
+- [ ] 60 000 $
+- [ ] 20 000 $
+- [ ] 35 000 $
+- [x] 80 000 $
+
+#### Q64. Une entreprise peut adopter un nouveau principe comptable si la direction peut justifier que le changement entraînera quoi ?
+
+- [x] informations décisionnelles plus pertinentes
+- [ ] revenu net inférieur à déclarer à des fins fiscales
+- [ ] changer les méthodes d'amortissement pour un résultat net plus élevé
+- [ ] risque réduit d'erreur administrative
+
+#### Q65. Quels éléments de coûts seraient classés comme coûts de défaillance interne dans un rapport sur les coûts qualité ?
+
+- [ ] coût de la ferraille
+- [x] formations pour les ouvriers à la chaîne de montage
+- [ ] coût du brevet pour un nouveau produit
+- [ ] retours clients de produits défectueux
+
+#### Q66. Quel type d’éléments probants serait le plus susceptible d’être utilisé pour vérifier l’existence d’immobilisations ?
+
+- [ ] témoignage oral
+- [x] examen physique
+- [ ] Confirmation
+- [ ] la preuve documentaire
+
+#### Q67. Que doit faire un auditeur avant d’auditer le bilan ?
+
+- [ ] Confirmez si une action en justice probable est divulguée à l'auditeur.
+- [ ] Vérifier si les privilèges sur les actifs sont engagés en garantie.
+- [ ] Déterminer les engagements d'achat prévus et imminents du client.
+- [x] Acquérir une compréhension claire et appropriée des processus de contrôle interne du client.
+
+#### Q68. Chez McKay Company, les heures de machine sont limitées. En raison du nombre limité d'heures de travail des machines, la demande pour les produits McKay est supérieure à ce qu'elle peut produire. Pour maximiser les profits, l'entreprise doit évaluer le **\_** de chaque produit.
+
+- [x] marge de contribution par unité
+- [ ] marge du segment par unité
+- [ ] bénéfice brut par unité
+- [ ] marge de contribution par heure machine
+
+> Pour déterminer la marge contributive par heure machine, la marge contributive d'un produit est divisée par le nombre d'heures machine nécessaires pour fabriquer ce produit. Ce calcul donne le montant de la marge de contribution gagnée pour chaque heure machine utilisée.
+
+#### Q69. Le calcul du ratio de rotation des actifs mesure **\_**.
+
+- [ ] quand l'entreprise doit décider d'acheter des actifs et quel investissement est nécessaire
+- [ ] quelle part des actifs d'une entreprise est financée par les créanciers
+- [ ] à quelle fréquence une entreprise doit remplacer les actifs et équipements existants
+- [x] l'efficacité avec laquelle une entreprise utilise ses actifs pour générer des revenus
+
+#### Q70. Quel coût est facilement traçable à un objet de coût ?
+
+- [ ] indirect
+- [ ] fixé
+- [ ] variable
+- [x] direct
+
+#### Q71. Quel élément de la chaîne de valeur est associé au coût de gestion du personnel d’une ligne téléphonique d’assistance client ?
+
+- [ ] production et achats
+- [ ] distribution
+- [ ] conception
+- [x] service client
+
+#### Q72. Des budgets flexibles sont créés pour démontrer comment **\_**.
+
+- [x] changements dans les niveaux d'activité affectent les revenus et les coûts prévus
+- [ ] la direction doit apporter des modifications aux objectifs budgétaires suite à de mauvaises performances
+- [ ] un budget opérationnel inexact résulte de mauvaises données budgétaires
+- [ ] les résultats actuels correspondent parfaitement aux allocations budgétaires
+
+#### Q73. Quel est le terme approprié pour désigner un coût encouru qui ne peut être modifié par aucune décision ?
+
+- [ ] coût d'opportunité
+- [ ] coût précédent
+- [x] coût irrécupérable
+- [ ] coût variable
+
+#### Q74. Quel facteur est le plus susceptible d'accroître la sensibilisation d'un auditeur à d'éventuelles informations financières frauduleuses ?
+
+- [ ] divulgation complète par la direction des poursuites judiciaires non résolues
+- [ ] concurrence limitée dans le secteur de l'entreprise, ce qui entraîne une augmentation de la rentabilité
+- [ ] l'approbation par le comité d'audit de méthodes et principes comptables spécifiques
+- [x] ajustements financiers de fin d'année impactant significativement les résultats financiers
+
+#### Q75. Quelle étape du cycle comptable consiste à vérifier si le total des débits est égal au total des crédits ?
+
+- [ ] soldes normaux sur les grands livres
+- [ ] clôture des entrées
+- [ ] balance de vérification après clôture
+- [x] préparation de la balance de vérification

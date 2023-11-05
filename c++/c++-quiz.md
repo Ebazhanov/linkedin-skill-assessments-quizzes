@@ -419,17 +419,13 @@ printf("1/2 = %f",(float)(1/2));
 
 ```cpp
 int x=10, a=-3;
-x=+a;
+x+=a;
 ```
 
 - [ ] 3
-- [ ] 7
-- [x] -3
+- [x] 7
+- [ ] -3
 - [ ] 13
-
-So x **+=** a would simply mean (x = x + a), here that yields x = 10 + (-3) = 7.
-But, here it is (x **=+** a): This is equivalent to x = +a. Here, the unary plus operator + is used. However, the unary plus operator doesn't change the sign of the value; it simply ensures that the value is positive. So, it effectively does nothing in this context
-[Reference](https://stackoverflow.com/questions/6958401/the-difference-between-and)
 
 #### Q29. Which statement is true?
 
@@ -1339,10 +1335,10 @@ int main() {
 
 #### Q83. What is the correct syntax to output "Hello World" in C++?
 
-- [x] cout << "Hello World";
-- [ ] System.out.println("Hello World");
-- [ ] print("Hello World");
-- [ ] Console.WriteLine("Hello World");
+- [x] `cout << "Hello World";`
+- [ ] `System.out.println("Hello World");`
+- [ ] `print("Hello World");`
+- [ ] Console.WriteLine("Hello World");```
 
 #### Q84. How many categories of iterators are there in C++?
 
@@ -2110,7 +2106,7 @@ return 0;
 }
 ```
 
-- [ ] <garbage value>
+- [ ] `<garbage value>`
 - [ ] 5
 - [x] Compilation Error at LINE-1: uninitialized const ’ptr’
 - [x] Compilation Error at LINE-2: assignment of read-only variable ’ptr’
@@ -2493,7 +2489,7 @@ class my_class{
 
 - [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
 - [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
-- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
 
 #### Q155. What is the purpose of the `constexpr` keyword in C++?

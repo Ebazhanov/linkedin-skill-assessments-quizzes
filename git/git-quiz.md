@@ -459,7 +459,7 @@ _note_: The question is not specific enough to give a definitive answer, as it d
 #### Q41. Which command will list tags with the 1.4.2 series?
 
 - [ ] git tag 'v1.4.2'
-- [x] git tag -I 'v1.4.2.\*'
+- [x] git tag -l 'v1.4.2.\*'
 - [ ] git tag-list 'v1.4.2\*'
 - [ ] git tag 'v1.4.2\*'
 
@@ -1002,43 +1002,43 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q110. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
 
-- [ ] - git grep -a "MaxConnections"
-- [ ] - git log --search-string "MaxConnections"
-- [x] - git log -S "MaxConnections"
-- [ ] - git commit --with "MaxConnections"
+- [ ] git grep -a "MaxConnections"
+- [ ] git log --search-string "MaxConnections"
+- [x] git log -S "MaxConnections"
+- [ ] git commit --with "MaxConnections"
 
 #### Q111. Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the remote repository, named origin, to point to the new remote repository at this location?
 
-- [ ] - git remote create-update origin https://github.com/yourcompany/core-api.git
-- [ ] - git remote update origin https://github.com/yourcompany/core-api.git
-- [x] - git remote set-url origin https://github.com/yourcompany/core-api.git
-- [ ] - git remote add https://github.com/yourcompany/core-api.git
+- [ ] git remote create-update origin https://github.com/yourcompany/core-api.git
+- [ ] git remote update origin https://github.com/yourcompany/core-api.git
+- [x] git remote set-url origin https://github.com/yourcompany/core-api.git
+- [ ] git remote add https://github.com/yourcompany/core-api.git
 
 #### Q112. When is the cherry-pick command used?
 
-- [x] - when a commit from one branch needs to be copied into another branch
-- [ ] - when the HEAD needs to be reset to a specific commit
-- [ ] - when a specific commit needs to be pulled down from the remote repository
-- [ ] - when a hook script needs to be invoked
+- [x] when a commit from one branch needs to be copied into another branch
+- [ ] when the HEAD needs to be reset to a specific commit
+- [ ] when a specific commit needs to be pulled down from the remote repository
+- [ ] when a hook script needs to be invoked
 
 [reference](https://www.atlassian.com/git/tutorials/cherry-pick#:~:text=git%20cherry%2Dpick%20is%20a,be%20useful%20for%20undoing%20changes.)
 
 #### Q113. How would you describe a forked repository?
 
-- [ ] - a deleted or archived copy of a repository
-- [ ] - a beta release branch of a repository
-- [ ] - a future branch of a repository
-- [x] - a separate copy of a repository
+- [ ] a deleted or archived copy of a repository
+- [ ] a beta release branch of a repository
+- [ ] a future branch of a repository
+- [x] a separate copy of a repository
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
 [reference](https://www.geeksforgeeks.org/git-fork/)
 
 #### Q114. How can you exclude untracked files within the working directory from a Git repository?
 
-- [ ] - You cannot exclude the files from the repository.
-- [ ] - Tag the files with excluded.
-- [x] - Add a pattern matching the files to the .gitignore file.
-- [ ] - Add the files to the omitted branch
+- [ ] You cannot exclude the files from the repository.
+- [ ] Tag the files with excluded.
+- [x] Add a pattern matching the files to the .gitignore file.
+- [ ] Add the files to the omitted branch
 
 [reference](https://git-scm.com/docs/gitignore)
 
@@ -1202,10 +1202,10 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 
 #### Q129. When is the cherry-pick command used?
 
-- [x] - when a commit from one branch needs to be copied into another branch
-- [ ] - when the HEAD needs to be reset to a specific commit
-- [ ] - when a specific commit needs to be pulled down from the remote repository
-- [ ] - when a hook script needs to be invoked
+- [x] when a commit from one branch needs to be copied into another branch
+- [ ] when the HEAD needs to be reset to a specific commit
+- [ ] when a specific commit needs to be pulled down from the remote repository
+- [ ] when a hook script needs to be invoked
 
 #### Q130. What would happen if you ran the `git reset testfile.js` command?
 
@@ -1214,29 +1214,22 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [x] testfile.js would be reverted to its last saved copy.
 - [ ] testfile.js would be removed from the stage/index area, if present.
 
-#### Q131. How does the `-p` option change the behavior of the `git add` command
-
-- [ ] It causes tracked files in the parent directory to be included in the staged files.
-- [x] It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
-- [ ] It automatically pushes changes to the corresponding branch on the remote repository.
-- [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
-
-#### Q132. How many individual commits can a single repository have?
+#### Q131. How many individual commits can a single repository have?
 
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
 
-#### Q141. Explain the concept of "Git blame" and when it is used in a version control workflow.
-
-- ref(https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
+#### Q132. Explain the concept of "Git blame" and when it is used in a version control workflow.
 
 - [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
 - [ ] It's used for blaming others for code issues in a collaborative project.
 - [ ] Git blame is a feature for tracking the location of bugs in code.
 - [x] Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship.
 
-#### Q142. What is the purpose of C++ move constructor, and when is it automatically generated?
+[Reference](https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
+
+#### Q133. What is the purpose of C++ move constructor, and when is it automatically generated?
 
 - [ ] A move constructor creates deep copies of objects, improving memory efficiency.
 - [ ] It is generated when you explicitly define a copy constructor.

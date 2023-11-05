@@ -60,7 +60,7 @@
 - [ ] Copy the component in the Assets panel, select the component in the project, and paste.
 - [ ] Delete the component in the project and drag the new component from the Assets panel
 - [ ] Right-click the component you want to replace and select Edit Master in Source Document.
-- [ ] Drag the new component from the Assets panel on top of the existing component in the project.
+- [x] Drag the new component from the Assets panel on top of the existing component in the project.
 
 #### Q9. You created a button and converted it to a component to make the button interactive. When you open the Component (Master) area in the Property Inspector and click Default State, you notice the button already has one state applied to it. What state is applied?
 
