@@ -352,7 +352,7 @@
 
 #### Q48. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
 
-- [ ] Transitive
+- [x] Transitive
 - [ ] runtime
 - [ ] provided
 - [ ] test
