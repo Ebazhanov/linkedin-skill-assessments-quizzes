@@ -14,11 +14,11 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
+
 > :cyclone:NEW! Give our brand new CareerCraftBot a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
 > It prompts you to upload or paste your resume, then input the job description and generate an updated resume as the outcome.
 > We will open an issue where everyone can share their thoughts on potential enhancements for the bot.
-  If you need further improvements or have other requests, feel free to ask! 😄🤖📝
-  
+> If you need further improvements or have other requests, feel free to ask! 😄🤖📝
 
 > 👉 Remember, we never ask for any monetary support or donation!🫵
 
