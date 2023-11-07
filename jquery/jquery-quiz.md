@@ -1655,7 +1655,7 @@ $('a.active').addClass('hover');
 
 ```js
 // listens
-$('body').on('myEvent', function() {
+$('body').on('myEvent', function () {
   $.get('http://example.com/api/v1/ping');
 });
 // triggers
@@ -1666,7 +1666,7 @@ $('body').trigger('myEvent');
 
 ```js
 // listens
-$('body').on('custom', 'myEvent', function() {
+$('body').on('custom', 'myEvent', function () {
   $.get('http://example.com/api/v1/ping');
 });
 // triggers
@@ -1677,7 +1677,7 @@ $('document').trigger('custom', 'myEvent');
 
 ```js
 // listens
-$('body').on(function(event) {
+$('body').on(function (event) {
   if (event === 'myEvent') {
     $.get('http://example.com/api/v1/ping');
   }
@@ -1690,7 +1690,7 @@ $('body').triggerHandler('myEvent');
 
 ```js
 // listens
-$.on('myEvent', function() {
+$.on('myEvent', function () {
   $.get('http://example.com/api/v1/ping');
 });
 // triggers
@@ -1734,15 +1734,15 @@ $.trigger('myEvent');
 ```js
 <div class="actions">
   <a href="//example.com/action">Let's go!</a>
-</div>
+</div>;
 
 var data = {
   username: 'jaffacakes',
   message: {
     date: '2018-07-05 13:14:00 GMT-07:00',
-    text: `I have a whole lot to say, everyone, and I'm gonna say it!`
+    text: `I have a whole lot to say, everyone, and I'm gonna say it!`,
   },
-  tags: [ 'discourse', 'thoughts', 'messageOfTheDay' ]
+  tags: ['discourse', 'thoughts', 'messageOfTheDay'],
 };
 
 //example.com/action?username=jaffacakes&message%5Bdate%5D=2018-07-05+13%3A14%3A00+GMT-07%3A00
