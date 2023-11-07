@@ -2461,7 +2461,7 @@ void createArray(int n) {
 - [ ] O(1)
 - [x] O(N)
 - [ ] O(N^2)
-- [ ] O(log(N)
+- [ ] O(log(N))
 
 //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 

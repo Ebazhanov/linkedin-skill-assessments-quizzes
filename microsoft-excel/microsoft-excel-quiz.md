@@ -735,7 +735,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] Total Sales This Year; Market Region
 - [ ] Representative ID Number; Total Sales This Year
 - [x] Market Region; Total Sales This Year
--
+
 
 #### Q88. Cell A1 contains the number 3. Which formula returns the text Apple?
 
@@ -1313,8 +1313,8 @@ Alignment** tab, click**\_\*\*.
 
 ![Image](images/Q158.png?raw=true)
 
-- [ ] &shy;
-- [ ] &shy;
+- [ ] `&shy;`
+- [ ] `&shy;`
 - [ ] Below answer should be right
 - [x] Right-click any row field value in the pivot table and select Group.
 

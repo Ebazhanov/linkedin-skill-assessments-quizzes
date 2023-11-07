@@ -330,7 +330,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] The Inbox folder is sorted by size.
 - [ ] The People peek is open and Sally Kerner's card has focus.
-- [ ] Focused Inbox is being used.
+- [x] Focused Inbox is being used.
 - [ ] The People peek is open and has focus.
 
 #### Q45. Suppose you select a message in Focused Inbox and then chose Move to Other, but the message does not move. What is the most likely cause?
@@ -388,10 +388,10 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q52. Which criteria can you select to filter email in the Focused folder?
 
-- [ ] unread status
-- [ ] importance
+- [x] unread status
+- [x] importance
 - [ ] message size
-- [ ] date received
+- [x] date received
 
 #### Q53. A meeting reminder showed up and you accidently closed it. What is the best way to bring back the reminder when in Calendar view?
 
@@ -519,7 +519,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] The calendar view is not displaying properly. Click Reset View to fix it.
 - [ ] When you add a category to an appointment, the category color is used as the background color.
 - [ ] You have an appointment that ends after midnight.
-- [ ] You have an all-day event marked as Busy, Out of Office, or Tentative.
+- [x] You have an all-day event marked as Busy, Out of Office, or Tentative.
 
 #### Q71. You are having difficulty reading an email due to the small text size. What is the easiest way to make this email more readable?
 
@@ -540,7 +540,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] the Simplified Ribbon
 - [ ] To-Do Bar
 - [ ] Quick Access Toolbar
-- [ ] Navigation Bar
+- [x] Navigation Bar
 
 #### Q74. To keep your Inbox folders organized and lean, where should you move old messages?
 
@@ -677,17 +677,17 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q92. You have a meeting from 2 to 3 p.m. next friday and have been invited to a second meeting in a different bulding starting at 3 p.m.. You want to attend both meetings but need time to get from the first to the second. What is an efficient way to respond to the organizer of the second meeting to allot 30 minutes of travel?
 
-- [ ] &shy;
-- [ ] &shy;
+- [ ] `&shy;`
+- [ ] `&shy;`
 - [ ] decline and propose new time
 - [x] tenctative and propose new time
 
 #### Q93. What happens when you try to add new account on Outlook?
 
 - [x] transmission
-- [ ] &shy;
-- [ ] &shy;
-- [ ] &shy;
+- [ ] `&shy;`
+- [ ] `&shy;`
+- [ ] `&shy;`
 
 #### Q94. When you back up or export your contacts directly from Outlook without using additional applications, what type of file will you export?
 
