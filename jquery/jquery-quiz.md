@@ -1651,7 +1651,7 @@ $('a.active').addClass('hover');
 
 #### Q88. Along with standard DOM events like click, focus, or blur, you can register and listen for custom events with jQuery. If you have an external API at `http://example.com/api/v1` and you want to use custom events to ping that API from various places throughtout your codebase, what would that look like?
 
-- [ ] A
+- [x] A
 
 ```js
 // listens
@@ -1697,6 +1697,8 @@ $.on('myEvent', function() {
 $.trigger('myEvent');
 ```
 
+[Source: Introducing Custom Events](https://learn.jquery.com/events/introduction-to-custom-events/)
+
 #### Q89. Given the HTML code between `<form>` and `</form>` below, what does the snippet between `<script>` and `</script>` do?
 
 ```js
@@ -1720,12 +1722,14 @@ $.trigger('myEvent');
 </script>
 ```
 
-- [ ] When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert.
-- [ ]  When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.
+- [x] When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert.
+- [ ] When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.
 - [ ] The function triggers the form to submit programmatically, then looks at the checkbox. If it is not selected, display an alert.
 - [ ] jQuery submits the form, and then asks for confirmation on the terms if the checkbox was not clicked.
 
-#### Q90. jQuery has an internal function used to prepare data that are submitted with AJAX requests, and it is availableto you as well. Suppose you have a page with a simple button. Based on various conditions on the page, you build up an object that will alter the URL. If you want the presented URL, how can you get a complete representation of the data into the URL?
+[Source: .preventDefault()](https://www.w3schools.com/jsref/event_preventdefault.asp)
+
+#### Q90. jQuery has an internal function used to prepare data that are submitted with AJAX requests, and it is available to you as well. Suppose you have a page with a simple button. Based on various conditions on the page, you build up an object that will alter the URL. If you want the presented URL, how can you get a complete representation of the data into the URL?
 
 ```js
 <div class="actions">
@@ -1745,6 +1749,8 @@ var data = {
 ```
 
 - [ ] `$(data).serializeArray();`
-- [ ] `$.param(data, false);`
+- [x] `$.param(data, false);`
 - [ ] `$.param(data, true);`
 - [ ] `$(data).serialize();`
+
+[Source: jQuery.param()](https://api.jquery.com/jQuery.param/)
