@@ -2178,9 +2178,9 @@ console.log(10 + 10);
 #### Q159. How do you define a function in JavaScript?
 
 - [x] function myFunction() {}
-- [] def myFunction() {}
-- [] var myFunction = () => {}
-- [] func myFunction() {}
+- [ ] def myFunction() {}
+- [ ] var myFunction = () => {}
+- [ ] func myFunction() {}
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 

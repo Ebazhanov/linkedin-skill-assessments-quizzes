@@ -1667,8 +1667,8 @@ useEffect(callNetworkFunc, XXXX);
 
 - [ ] To optimize React apps for mobile devices
 - [ ] To add visual effects to React components.
-- [ ] To allow using state and lifecycle methods in function components
-- [x] To integrate with external UI libraries like Bootstrap
+- [x] To allow using state and lifecycle methods in function components
+- [ ] To integrate with external UI libraries like Bootstrap
 
 #### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
 

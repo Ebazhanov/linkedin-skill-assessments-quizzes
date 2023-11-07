@@ -594,9 +594,7 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 
 #### Q75. When elevated access is required, what steps must a user take?
 
-- [ ] Type the administrator account password.
+- [x] Type the administrator account password.
 - [ ] Hold the Shift key and try again.
-- [ ] Sign out and sign in again with an administrator account.
-- [x] User account permissions are elevated in Settings or Preferences.
-
-// Not sure about this one
+- [x] Sign out and sign in again with an administrator account.
+- [ ] User account permissions are elevated in Settings or Preferences.

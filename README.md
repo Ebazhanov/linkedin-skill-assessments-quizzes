@@ -15,7 +15,12 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> 👉 Remember, I am not asking for any support or donation! If you find any source asking for that, it is fake! 🫵
+> :cyclone:NEW! Give our brand new CareerCraftBot a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
+> It prompts you to upload or paste your resume, then input the job description and generate an updated resume as the outcome.
+> We will open an issue where everyone can share their thoughts on potential enhancements for the bot.
+> If you need further improvements or have other requests, feel free to ask! 😄🤖📝
+
+> 👉 Remember, we never ask for any monetary support or donation!🫵
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 
@@ -24,10 +29,6 @@
 #### 🙏 Adding Answers
 
 Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
-
-#### ❗️ Looking to participate in Hacktoberfest 2023? Please read the rules carefully:
-
-- [Hacktoberfest Participation Guidelines](https://hacktoberfest.com/participation/)
 
 #### 🎉 Announcements
 
@@ -2197,6 +2198,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://adarsh1997shah.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/36032572?v=4?s=100" width="100px;" alt="Adarsh shah"/><br /><sub><b>Adarsh shah</b></sub></a><br /><a href="#design-adarsh1997shah" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=adarsh1997shah" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vtkmy"><img src="https://avatars.githubusercontent.com/u/131514773?v=4?s=100" width="100px;" alt="vtkmy"/><br /><sub><b>vtkmy</b></sub></a><br /><a href="#design-vtkmy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vtkmy" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/msabur"><img src="https://avatars.githubusercontent.com/u/58122827?v=4?s=100" width="100px;" alt="msabur"/><br /><sub><b>msabur</b></sub></a><br /><a href="#design-msabur" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=msabur" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/txlan1710"><img src="https://avatars.githubusercontent.com/u/128203119?v=4?s=100" width="100px;" alt="txlan1710"/><br /><sub><b>txlan1710</b></sub></a><br /><a href="#design-txlan1710" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=txlan1710" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://natasyanadhira.me"><img src="https://avatars.githubusercontent.com/u/42974721?v=4?s=100" width="100px;" alt="Natasya Nadhira"/><br /><sub><b>Natasya Nadhira</b></sub></a><br /><a href="#design-tasyadew" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tasyadew" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/accandy"><img src="https://avatars.githubusercontent.com/u/149587535?v=4?s=100" width="100px;" alt="accandy"/><br /><sub><b>accandy</b></sub></a><br /><a href="#design-accandy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=accandy" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/udaypalecha"><img src="https://avatars.githubusercontent.com/u/99619714?v=4?s=100" width="100px;" alt="Uday Palecha"/><br /><sub><b>Uday Palecha</b></sub></a><br /><a href="#design-udaypalecha" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=udaypalecha" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SimonRofalski"><img src="https://avatars.githubusercontent.com/u/101046616?v=4?s=100" width="100px;" alt="Simon Rofalski"/><br /><sub><b>Simon Rofalski</b></sub></a><br /><a href="#design-SimonRofalski" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SimonRofalski" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

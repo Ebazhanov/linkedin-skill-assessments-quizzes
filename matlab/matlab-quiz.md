@@ -415,15 +415,12 @@ a = my_func(a);
 
 #### Q25. Which statement could create this cell array?
 
-```
-c =
-    {["hello world"]}    {1×1 cell}    {["goodbye"]}    {1×3 double}
-```
+`c = {["hello world"]}    {1×1 cell}    {["goodbye"]}    {1×3 double}`
 
-- [ ] c = {"hello world" {"hello"} "goodbye" [1 2 ]};
-- [ ] c = {"hello world" {"hello"} "goodbye" {[1 2 3]}};
-- [x] c = {"hello world" {"hello"} "goodbye" [1 2 3]};
-- [ ] c = {"hello world" {"hello" "hello"} "goodbye" {[1 2 3]}};
+- [ ] c = `{"hello world" {"hello"} "goodbye" [1 2 ]};`
+- [ ] c = `{"hello world" {"hello"} "goodbye" {[1 2 3]}};`
+- [x] c = `{"hello world" {"hello"} "goodbye" [1 2 3]};`
+- [ ] c = `{"hello world" {"hello" "hello"} "goodbye" {[1 2 3]}};`
 
 #### Q26. Which choice adds `b` to each row of `a`?
 

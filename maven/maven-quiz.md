@@ -312,7 +312,7 @@
 
 - [ ] The Checkstyle Plugin does not work on child modules.
 - [ ] Each Checkstyle report is in the target/site folder of the respective module.
-- [ ] All links in Checkstyle reports must be specified in the plugin definition.
+- [x] All links in Checkstyle reports must be specified in the plugin definition.
 - [ ] Checkstyle reports for child modules have to be behind a firewall.
 
 #### Q43. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
@@ -352,7 +352,7 @@
 
 #### Q48. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
 
-- [ ] Transitive
+- [x] Transitive
 - [ ] runtime
 - [ ] provided
 - [ ] test
@@ -577,7 +577,7 @@
 - [ ] Plugins defined in the pluginManagement element can never be executed.
 - [ ] Plugins defined in the parent POM are not available in the child POM.
 - [ ] The Build Helper Maven Plugin works only on parent projects.
-- [ ] The plugin may not have been defined in the child POM.
+- [x] The plugin may not have been defined in the child POM.
 
 [maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)
 

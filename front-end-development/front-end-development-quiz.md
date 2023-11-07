@@ -304,10 +304,10 @@ for (i = 0; i > max; i++) {
 
 #### Q31. You have placed an image in a directory named images and want to reference it from a page located at the root of your site. Which choice would correctly display the image on the page?
 
-- [ ] < img src="image.jpg">
-- [ ] < a href="images/image.jpg"></a>
-- [x] < img src="images/image.jpg">
-- [ ] < img href="image.jpg">
+- [ ] `<img src="image.jpg">`
+- [ ] `<a href="images/image.jpg"></a>`
+- [x] `<img src="images/image.jpg">`
+- [ ] `<img href="image.jpg">`
 
 #### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and returns an integer?
 
@@ -318,10 +318,10 @@ for (i = 0; i > max; i++) {
 
 #### Q33. How can you rewrite this function using arrow function syntax?
 
-- [ ] let product => (x,y) { <br /> x \* y; <br />}
-- [x] let product = (x,y) => x\*y;
-- [ ] let product => x\*y;
-- [ ] let product = (x,y) -> x\*y;
+- [ ] `let product => (x,y) { <br /> x \* y; <br />}`
+- [x] `let product = (x,y) => x\*y;`
+- [ ] `let product => x\*y;`
+- [ ] `let product = (x,y) -> x\*y;`
 
 #### Q34. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse?
 
@@ -840,10 +840,10 @@ box {
 
 #### Q86. Which command has no Syntax error in CSS?
 
-- [ ] p {font-size: 16em;}
-- [ ] h2 {colour: yellow;}
-- [ ] div {border-radius: 5px}
-- [x] #my-div {background-color: blue;}
+- [ ] `p {font-size: 16em;}`
+- [ ] `h2 {colour: yellow;}`
+- [ ] `div {border-radius: 5px}`
+- [x] `#my-div {background-color: blue;}`
 
 #### Q87. What type of CSS is the following snippet?
 

@@ -419,17 +419,13 @@ printf("1/2 = %f",(float)(1/2));
 
 ```cpp
 int x=10, a=-3;
-x=+a;
+x+=a;
 ```
 
 - [ ] 3
-- [ ] 7
-- [x] -3
+- [x] 7
+- [ ] -3
 - [ ] 13
-
-So x **+=** a would simply mean (x = x + a), here that yields x = 10 + (-3) = 7.
-But, here it is (x **=+** a): This is equivalent to x = +a. Here, the unary plus operator + is used. However, the unary plus operator doesn't change the sign of the value; it simply ensures that the value is positive. So, it effectively does nothing in this context
-[Reference](https://stackoverflow.com/questions/6958401/the-difference-between-and)
 
 #### Q29. Which statement is true?
 

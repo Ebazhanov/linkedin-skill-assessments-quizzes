@@ -926,7 +926,7 @@ You plan to use the Azure Web App continuous deployment feature.
 You need to run the static generation script before the website starts serving traffic.
 What are two possible ways to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
 
-- [ ] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website
+- [x] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website
 - [ ] Add a PreBuild target in the websites csproj project file that runs the static content generation script
 - [ ] Create a file named run.cmd in the folder /run that calls a script which generates the static content and deploys the website.
 - [ ] Add the path to the static content generation tool to WEBSITE_RUN_FROM_PACKAGE setting in the host.json file.
