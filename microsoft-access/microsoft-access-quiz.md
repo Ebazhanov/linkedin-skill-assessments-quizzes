@@ -74,7 +74,7 @@
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
-#### Q10. You want a form to appear automatically, whenever the database starts. How do you do this?
+#### Q10. You want a form to appear automatically, whenever the database starts. How would you do this?
 
 - [ ] In the **Access Options** dialog box, click **Current Database**, then select the form you want to open in the **Display Form** property
 - [x] Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**
@@ -134,7 +134,7 @@
 - [x] 2
 - [ ] Normal
 
-#### Q16. What program flow function evaluates a condition and either returns a truepart or a falsepart?
+#### Q16. What program flow function evaluates a condition and returns either a truepart or a falsepart?
 
 - [ ] `Switch()`
 - [ ] `IsError()`
@@ -235,7 +235,7 @@
 - [x] Use a RunMacro or OnError macro action.
 - [ ] Expand the macro in the **Navigation Pane** and double-click the submacro name.
 
-#### Q28. Which combo box property defines what values appear when the user clicks the drop-down arrow?
+#### Q28. Which combo box property defines what values appears when the user clicks the drop-down arrow?
 
 - [ ] Control Source
 - [x] Row Source
@@ -456,14 +456,14 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 #### Q45. A databse has a form with the AllowEdits property set to No. You open the form using an OpenForm macro step with the Data Mode property set to Edit. Given this, which statement is true?
 
-- [ ] You cannot edit existing records but can add new records.
+- [x] You cannot edit existing records but can add new records.
 - [ ] You cannot edit or add records.
 - [ ] You can edit existing records but cannot add new records.
 - [ ] You can edit existing records and new records.
 
 #### Q46. What rule type must you choose to conditionally format a value in a report based on another value in the same record?
 
-- [ ] Field Value Is...
+- [x] Field Value Is...
 - [ ] Evaluation Is...
 - [ ] Expression Is...
 - [ ] Compare to...
@@ -472,7 +472,7 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 - [ ] embedded query
 - [ ] linked table
-- [ ] embedded table
+- [x] embedded table
 - [ ] linked query
 
 #### Q48. You're building a database to track the books that library members check out. How can you ensure that every record in the checkout table is associated with a valid library member?
@@ -480,11 +480,11 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 - [ ] Create a data macro to validate the foreign key values in the chekcout table.
 - [ ] Create a combo box on a checkout form that displays only valid library members.
 - [ ] Create a one-to-many relationship between the checkout table and the member table.
-- [ ] Enforce referential integrity between the checkout table and the member table.
+- [x] Enforce referential integrity between the checkout table and the member table.
 
 #### Q49. When designing a report, clicking the Build button (..) in the Record Source property will do what?
 
 - [ ] create a linked table reference in the Navigation Pane
 - [ ] create an expression in the report object
-- [ ] create an embedded query in the report object
+- [x] create an embedded query in the report object
 - [ ] create a data macro in the report object

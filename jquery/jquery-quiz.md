@@ -1009,7 +1009,7 @@ $('.leaf').closest('.items');
 $('.leaf').parents('.items');
 ```
 
-- [ ] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
@@ -1424,9 +1424,9 @@ $('#element')
 #### Q72. If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
 
 - [ ] jQuery 3 compressed
-- [ ] jQuery 3 slim
+- [x] jQuery 3 slim
 - [ ] jQuery 2
-- [x] None of these - jQuery requires AJAX
+- [ ] None of these - jQuery requires AJAX
 
 #### Q73. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
 
@@ -1610,7 +1610,7 @@ $('.menu').find('a').css('color', 'red').end().find('.active').hide();
 
 - [ ] It changes the menu items in the first list to red, then hides the second list of menu items.
 - [ ] It changes all menu items in both lists to red, then hides all items with the active class.
-- [ ] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
+- [x] It changes the menu items in the first list to red, then hides the item in the first list with the active class.
 - [ ] It changes the menu items in the first list to red, then returns the selection with no further changes.
 
 #### Q85. A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called "processed" to it?
@@ -1639,3 +1639,118 @@ $('a.active').addClass('hover');
 - [ ] when you want to time jQuery animations and CSS animations, since addClass has no duration setting
 - [x] all of these answers
 - [ ] when you want to time custom animations of several different elements without lots of nested callbacks
+
+#### Q87. Which symbol is commonly used to represent the jQuery object?
+
+- [x] $
+- [ ] #
+- [ ] %
+- [ ] &
+
+[Source: Stack Overflow](https://stackoverflow.com/questions/8667736/what-does-the-sign-mean-in-jquery-or-javascript)
+
+#### Q88. Along with standard DOM events like click, focus, or blur, you can register and listen for custom events with jQuery. If you have an external API at `http://example.com/api/v1` and you want to use custom events to ping that API from various places throughtout your codebase, what would that look like?
+
+- [x] A
+
+```js
+// listens
+$('body').on('myEvent', function () {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$('body').trigger('myEvent');
+```
+
+- [ ] B
+
+```js
+// listens
+$('body').on('custom', 'myEvent', function () {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$('document').trigger('custom', 'myEvent');
+```
+
+- [ ] C
+
+```js
+// listens
+$('body').on(function (event) {
+  if (event === 'myEvent') {
+    $.get('http://example.com/api/v1/ping');
+  }
+});
+// triggers
+$('body').triggerHandler('myEvent');
+```
+
+- [ ] D
+
+```js
+// listens
+$.on('myEvent', function () {
+  $.get('http://example.com/api/v1/ping');
+});
+// triggers
+$.trigger('myEvent');
+```
+
+[Source: Introducing Custom Events](https://learn.jquery.com/events/introduction-to-custom-events/)
+
+#### Q89. Given the HTML code between `<form>` and `</form>` below, what does the snippet between `<script>` and `</script>` do?
+
+```js
+<form class="needs-validation" novalidate="">
+  <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="checkbox-opt-in">
+    <label class="custom-control-label" for="checkbox-opt-in">I totally read and accept the terms, really.</label>
+  </div>
+</form>
+
+<script>
+  $(function() {
+    $('form').submit(function(evt) {
+      if ($(this).find('.checkbox-opt-in').prop('checked') === false) {
+        evt.preventDefault();
+
+        alert("Please read and accept the terms.")
+      }
+    });
+  });
+</script>
+```
+
+- [x] When the form is submitted, look at whether the checkbox is selected. If it is, let the form submit normally. If not, show an alert.
+- [ ] When the form is submitted, jQuery looks for information about the checkbox in the submit event (the value of `this`). If the checkbox is selected, the form is allowed to submit.
+- [ ] The function triggers the form to submit programmatically, then looks at the checkbox. If it is not selected, display an alert.
+- [ ] jQuery submits the form, and then asks for confirmation on the terms if the checkbox was not clicked.
+
+[Source: .preventDefault()](https://www.w3schools.com/jsref/event_preventdefault.asp)
+
+#### Q90. jQuery has an internal function used to prepare data that are submitted with AJAX requests, and it is available to you as well. Suppose you have a page with a simple button. Based on various conditions on the page, you build up an object that will alter the URL. If you want the presented URL, how can you get a complete representation of the data into the URL?
+
+```js
+<div class="actions">
+  <a href="//example.com/action">Let's go!</a>
+</div>;
+
+var data = {
+  username: 'jaffacakes',
+  message: {
+    date: '2018-07-05 13:14:00 GMT-07:00',
+    text: `I have a whole lot to say, everyone, and I'm gonna say it!`,
+  },
+  tags: ['discourse', 'thoughts', 'messageOfTheDay'],
+};
+
+//example.com/action?username=jaffacakes&message%5Bdate%5D=2018-07-05+13%3A14%3A00+GMT-07%3A00
+```
+
+- [ ] `$(data).serializeArray();`
+- [x] `$.param(data, false);`
+- [ ] `$.param(data, true);`
+- [ ] `$(data).serialize();`
+
+[Source: jQuery.param()](https://api.jquery.com/jQuery.param/)

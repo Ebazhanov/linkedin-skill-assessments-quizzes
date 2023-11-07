@@ -308,7 +308,7 @@
 - [ ] Finish-to-Finish (FF)
 - [ ] Start-to-Start (SS)
 - [ ] Start-to-Finish (SF)
-- [ ] Finish-to-Start (FS)
+- [x] Finish-to-Start (FS)
 
 #### Q41. When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?
 
@@ -347,14 +347,42 @@
 
 #### Q46. You would like to import a CSV file into a Microsoft Project file. Project displays a message about opening a file in an older format. How can you open this file?
 
-- [] Add a place in the Open File window.
+- [ ] Add a place in the Open File window.
 - [x] Use the Advanced tab in the Project Options dialog box.
-- [] Use the General tab in the Project Options dialog box.
-- [] Use the Microsoft Project Trust Center.
+- [ ] Use the General tab in the Project Options dialog box.
+- [ ] Use the Microsoft Project Trust Center.
 
 #### Q47. A certain resource has a workload that varies for a task. The task spans five days and is slow to start, ramps up in the middle, and then eventually tapers off as it comes to an end. Which approach would you use to adjust and represent varying workload?
 
 - [x] resource contouring
-- [] resource constraining
-- [] resource leveling
-- [] resource splitting
+- [ ] resource constraining
+- [ ] resource leveling
+- [ ] resource splitting
+
+#### Q48. What is the purpose of a "Critical Path" in a Microsoft Project schedule, and how is it determined?
+
+- [ ] It is a path of high-priority tasks in the project.
+- [ ] It is a path that must be followed for project success.
+- [x] it is the longest sequence of tasks that determine the project's overall duration.
+- [ ] It is a path that includes all non-critical tasks.
+
+#### Q49. In Microsoft Project, what does the term "Resource Overallocation" refer to, and how can it be resolved?
+
+- [ ] Resource Overallocation means having too many resources allocated to a task. It can be resolved by adjusting task dependencies.
+- [x] Resource Overallocation means a shortage of resources for a task. It can be resolved by leveling resources or adjusting resource calendars.
+- [ ] Resource Overallocation means having too few resources allocated to a task. It can be resolved by crashing the project schedule.
+- [ ] Resource Overallocation means not having any resources assigned to a task. It can be resolved by adding more resources.
+
+#### Q49. In Microsoft Project, what does "PERT" stand for?
+
+- [x] Project Evaluation and Review Technique
+- [ ] Project Expense Reporting Tool
+- [ ] Project Enhancement and Resource Tracking
+- [ ] Project Execution and Reporting Task
+
+#### Q49. What is a "Resource Calendar" used for in Microsoft Project?
+
+- [ ] To track task deadlines
+- [ ] To specify working hours for specific tasks
+- [x] To manage resource availability and working hours
+- [ ] To create Gantt charts

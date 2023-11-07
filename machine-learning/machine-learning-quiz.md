@@ -912,3 +912,80 @@ Which of these statements do you agree with?
 - [ ] It is about reinforcing unknown data.
 
 **Explanation:** Reinforcement learning is fundamentally an iterative process. [Source](https://developer.ibm.com/learningpaths/get-started-automated-ai-for-decision-making-api/what-is-automated-ai-for-decision-making/)
+
+#### Q118. Least square regression solves a maximum likelihood estimation problem under a linear model
+
+- [x] True
+- [ ] False
+
+**Explanation:** Least squares regression is a method used to find the best-fitting linear relationship between a dependent variable and one or more independent variables. It minimizes the sum of the squared differences between the observed and predicted values, which is equivalent to maximizing the likelihood of the observed data under a Gaussian noise assumption.
+
+#### Q118. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
+
+- [x] multiclass classification diagram
+- [ ] linear regression and scatter plots
+- [ ] pivot table
+- [ ] K-means cluster diagram
+
+#### Q120. The total types of the layer in radial basis function in neural networks is **\_\_**
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 4
+
+**Explanation:** Radial Basis Functions are a special class of feed-forward neural networks consisting of three layers: an input layer, a hidden layer, and an output layer.
+
+#### Q121. What is a top-down parser?
+
+- [x] Begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written
+- [ ] Begins by hypothesizing a sentence (the symbol S) and successively predicting upper level constituents until individual preterminal symbols are written
+- [ ] Begins by hypothesizing lower level constituents and successively predicting a sentence (the symbol S)
+- [ ] Begins by hypothesizing upper level constituents and successively predicting a sentence (the symbol S)
+
+**Explanation:** A top-down parser begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written.
+
+#### Q122. Which search method will expand the node that is closest to the goal?
+
+- [ ] Best-first search
+- [x] Greedy best-first search
+- [ ] A\* search
+- [ ] None of the mentioned
+
+**Explanation:** Greedy best-first search is an informed search algorithm where the evaluation function is strictly equal to the heuristic function, disregarding the edge weights in a weighted graph. [Source](https://www.codecademy.com/resources/docs/ai/search-algorithms/greedy-best-first-search)
+
+#### Q123. Which is used to improve the performance of heuristic search?
+
+- [ ] Quality of nodes
+- [x] Quality of heuristic function
+- [ ] Simple form of nodes
+- [ ] None of the mentioned
+
+**Explanation:** Good heuristic can be constructed by relaxing the problem, So the performance of heuristic search can be improved.``
+
+#### Q124. What is a sentence parser typically used for?
+
+- [ ] It is used to parse sentences to check if they are utf-8 compliant.
+- [x] It is used to parse sentences to derive their most likely syntax tree structures.
+- [ ] It is used to parse sentences to assign POS tags to all tokens.
+- [ ] It is used to check if sentences can be parsed into meaningful tokens.
+
+**Explanation:** Sentence parsers analyze a sentence and automatically build a syntax tree.
+
+#### Q125. Which of the following techniques can not be used for normalization in text mining?
+
+- [ ] Stemming
+- [ ] Lemmatization
+- [x] Stop Word Removal
+- [ ] None of the above
+
+**Explanation:** Lemmatization and stemming are the techniques of keyword normalization.
+
+#### Q126. How do you handle missing or corrupted data in a dataset?
+
+- [ ] Drop missing rows or columns
+- [ ] Replace missing values with mean/median/mode
+- [ ] Assign a unique category to missing values
+- [x] All of the above
+
+**Explanation:** All of the above techniques are different ways of imputing the missing values.

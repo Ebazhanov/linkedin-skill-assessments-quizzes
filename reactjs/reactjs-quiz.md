@@ -145,7 +145,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] component
 - [x] `h1`
 
-#### Q15. What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)
+#### Q15. What does this React element look like given the following code? (Alternative: Given the following code, what does this React element look like?)
 
 ```javascript
 React.createElement('h1', null, "What's happening?");
@@ -179,7 +179,7 @@ function MyComponent() {
 
 [Reference](https://linguinecode.com/post/how-react-suspense-works)
 
-#### Q17. What do you call the message wrapped in curly braces below?
+#### Q17. How would you describe the message variable wrapped in curly braces below?
 
 ```javascript
 const message = 'Hi there';
@@ -205,7 +205,7 @@ const element = <p>{message}</p>;
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [x] to change the layout of the screen
-- [] when you need the browser to paint before the effect runs
+- [ ] when you need the browser to paint before the effect runs
 
 [Source] (https://react.dev/reference/react/useLayoutEffect)
 "useLayoutEffect is a version of useEffect that fires before the browser repaints the screen."
@@ -423,7 +423,7 @@ class Clock extends React.Component {
 - [ ] Use the `default` property.
 - [ ] It assigns one automatically.
 
-#### Q41. What do you need to change about this code to get it to run?
+#### Q41. What do you need to change about this code to get this code to run?
 
 ```js
 const clock = (props) => {
@@ -1191,6 +1191,8 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png?raw=png)
 
+Explanation: function that called without parameter will use its param default value, thus x will always be default to 1 and y will always be default to 2.
+
 #### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
@@ -1246,6 +1248,8 @@ ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
 
+[Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
+
 #### Q102. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
 
 ```javascript
@@ -1260,7 +1264,10 @@ const PokeDex = (props) => {
 - [ ] setPokeDex()
 - [x] pokeDex
 
-#### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
+Explanation: useState always return an array with two values, the state itself (on first value) and the set function that lets you update the state (on second value)
+[useState Reference](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+#### Q103. What would you pass to the onClick prop that will allow you to pass the initName prop into the greet handler?
 
 ```javascript
 const Greeting = ({ initName }) => {
@@ -1289,12 +1296,16 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
+[JSX Transform with Babel](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
 #### Q105. Which hook is used to prevent a function from being recreated on every component render?
 
 - [x] useCallback
 - [ ] useMemo
 - [ ] useRef
 - [ ] useTransition
+
+[React Hooks useCallback docuementation](https://react.dev/reference/react/useCallback)
 
 #### Q106. Why might you use the `useRef` hook?
 
@@ -1506,3 +1517,162 @@ const Waitlist = () => {
 - [ ] The virtual DOM is a database used to store component states.
 
 [Reference](https://medium.com/@vinaynkokate/demystifying-dynamic-web-applications-understanding-the-dom-and-web-browser-interactions-cc1b113adfa)
+
+#### Q126. You run the following code and get this error message: "invalid hook call." what is wrong with the code?
+
+```javascript
+import React from 'react';
+
+const [poked, setPoked] = React.useState(false);
+
+function PokeButton() {
+  return <button onClick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
+}
+```
+
+- [x] The useState call needs to be called inside of the PokeButton component.
+- [ ] The react package is likely not installed correctly.
+- [ ] useState is not imported correctly. Import useState directly instead of importing react.
+- [ ] PokeButton is a pure function and therefore cannot have any local state.
+
+#### Q127. A colleague comes to you for help on a react component. They say that the poke button renders correctly, however when the button is clicked, this error is shown: "setPoked is not defined". What is wrong with their code?
+
+```javascript
+function PokeButton() {
+  const { poked, setPoked } = useState(false);
+  return <button onclick={() => setPoked(true)}>{poked ? 'You have left a poke.' : 'Poke'}</button>;
+}
+```
+
+- [ ] onClick prop should be onclick.
+- [ ] The click handler passed to the onClick prop is inlined. Move this handler into a variable outside of JSX.
+- [x] They use object destructructing instead of array destructructing. Wrap the poked and setPoked values in an array.
+- [ ] poked and setPoked are not destructured in the correct order.
+
+#### Q128. This component is loaded dynamically. What should you replace XXXX with to complete the code?
+
+```javascript
+const OtherComponent = React.lazy(() => import('./OtherComponent.js'));
+
+function MyComponent() {
+  return (
+    <XXXX fallback={<spinner />}>
+      <OtherComponent />
+    </XXXX>
+  );
+}
+```
+
+- [ ] Component
+- [ ] Fragment
+- [x] Suspense
+- [ ] Lazy
+
+#### Q129. Elements in lists in React should have \_**\_ that are \_\_\_** .
+
+- [x] keys ; unique
+- [ ] keys ; indexes
+- [ ] style ; inline
+- [ ] values ; not-null
+      [Source: React Docs](https://legacy.reactjs.org/docs/lists-and-keys.html)
+
+#### Q130. You want to memorize a callback function so you ensure that React does not recreate the function at each render. Which hook would you use to accomplish this?
+
+- [ ] useRef
+- [ ] useMemo
+- [ ] memo
+- [x] useCallback
+
+[Source: CodeDamn](https://codedamn.com/news/reactjs/usememo-and-usecallback-hooks)
+
+#### Q131. You want to perform a network operation as the result of a change to a component's state named userInput. what would you replace XXXX with?
+
+```javascript
+useEffect(callNetworkFunc, XXXX);
+```
+
+- [x] [userInput]
+- [ ] userInput
+- [ ] undefined
+- [ ] []
+
+#### Q132. When is the Hello component displayed?
+
+```javascript
+<div>{isLoggedIn ? <Hello /> : null}</div>
+```
+
+- [ ] when isLoggedIn is false
+- [x] when isLoggedIn is true
+- [ ] when isLoggedIn is false and the Hello function is invoked
+- [ ] never
+
+#### Q133. When do you use `useLayoutEffect`?
+
+- [ ] to optimize for all devices
+- [ ] to complete the update
+- [x] to change the layout of the screen
+- [ ] when you need the browser to paint before the effect runs
+
+#### Q134. What is the difference between state and props in React?
+
+- [ ] Props are set by the parent component, state is set by the child component
+- [x] Props are passed to a component, state is managed within the component
+- [ ] Props can be updated, state cannot be updated
+- [ ] There is no difference - props and state are the same
+
+#### Q135. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
+
+#### Q136. Which answer best describes a function component?
+
+- [ ] A function component is the same as a class component.
+- [x] A function component accepts a single props object and returns a React element.
+- [ ] A function component is the only way to create a component.
+- [ ] A function component is required to create a React component.
+
+#### Q137. Which library does the `fetch()` function come from?
+
+- [ ] FetchJS
+- [ ] ReactDOM
+- [x] No library. `fetch()` is supported by most browsers.
+- [ ] React
+
+### Q138. In React, what is the purpose of the `key` prop when rendering a list of components
+
+- [ ] The `key` prop is used to provide a unique identifier for the component.
+- [ ] The `key` prop is used to define the color of the component.
+- [ ] The `key` prop is required to render a list of components.
+- [x] The `key` prop is used by React to optimize updates and identify which items have changed or been added/removed in the list.
+
+#### Q139. What is the primary function of React Router?
+
+- [ ] React Router is used for fetching data from APIs.
+- [ ] React Router is used to create animations in React applications.
+- [ ] React Router is used for managing state in React components.
+- [x] React Router is used for adding navigation and routing to React applications, allowing users to navigate between different views or pages.
+
+#### Q140. When should you use Redux in a React application?
+
+- [ ] Redux is always required in React applications.
+- [ ] Redux should be used when you need to fetch data from APIs.
+- [ ] Redux is used for creating user interfaces but not for state management.
+- [x] Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state.
+
+#### Q141. What is the use of React hooks?
+
+- [ ] To optimize React apps for mobile devices
+- [ ] To add visual effects to React components.
+- [x] To allow using state and lifecycle methods in function components
+- [ ] To integrate with external UI libraries like Bootstrap
+
+#### Q142. How can you pass data through a React component tree without having to pass props down manually at every level?
+
+- [x] By using React context
+- [ ] By using redux
+- [ ] By using react router
+- [ ] By using react lifecycle methods

@@ -37,7 +37,7 @@
 
 [Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)
 
-#### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
+#### Q6. How can I place a ghosted logo or text behind the regular text in my document using a specific feature?
 
 - [ ] Background.
 - [x] Watermark.
@@ -58,7 +58,7 @@
 - [x] Pin to list.
 - [ ] Mark as favorite.
 
-#### Q9. You want to add a caption to a table. Which tab contains this option?
+#### Q9. Which tab contains the option to add caption to a table?
 
 - [ ] Insert
 - [ ] Design
@@ -517,6 +517,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Line
 - [ ] Bar
 
+Explanation-
+A pie chart only reads a single data series from a data source and ignores all others. You can determine which series is to be used by choosing Pie.
+
 #### Q65. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png?raw=png)
@@ -854,10 +857,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q109. You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?
 
-- [ ]Save a copy of the file and type over it for each new letter.
-- [ ]Set the file as default theme.
-- [ ]Use the Format Painter to apply the format to new letters.
-- [x]Create a template by saving the file as a .dot file.
+- [ ] Save a copy of the file and type over it for each new letter.
+- [ ] Set the file as default theme.
+- [ ] Use the Format Painter to apply the format to new letters.
+- [x] Create a template by saving the file as a .dot file.
 
 explain:
 
@@ -898,3 +901,66 @@ explain:
 
 [Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)
 [Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)
+
+#### Q112. Which of the following is an example of page orientation?
+
+- [x] Landscape
+- [ ] subscript
+- [ ] A4
+- [ ] All of the above
+
+#### Q113: What is the file extension for a Microsoft Word document?
+
+- [x] .docx
+- [ ] .txt
+- [ ].pdf
+- [ ] .xlsx
+
+#### Q114: Which view in Microsoft Word is best for editing and formatting a document?
+
+- [x] Print Layout
+- [ ] Read Mode
+- [ ] Web Layout
+- [ ] Outline View
+
+#### Q115: Which ribbon tab in Microsoft Word is used for changing the font and text formatting?
+
+- [ ] Page Layout
+- [x] Home
+- [ ] References
+- [ ] Insert
+
+#### Q116: What does "Ctrl+S" do in Microsoft Word?
+
+- [ ] Copy selected text
+- [ ] Paste copied text
+- [x] Save the document
+- [ ] Cut selected text
+
+#### Q117: Which feature in Microsoft Word allows you to repeat the same text on each page, such as a header or footer?
+
+- [ ] Page Break
+- [ ] Page Numbering
+- [x] Header and Footer
+- [ ] Text Box
+
+#### Q118: Which option allows you to change the orientation of a page in Microsoft Word from portrait to landscape?
+
+- [x] Page Setup
+- [ ] Page Break
+- [ ] Line Spacing
+- [ ] Paragraph Format
+
+#### Q119: What is the default file format for saving a Word document in the newer versions of Microsoft Word?
+
+- [ ] .doc
+- [ ].txt
+- [ ] .rtf
+- [x] .docx
+
+#### Q120: In Word, what is the purpose of the "Find and Replace" feature?
+
+- [ ] Spell check
+- [ ] Formatting text
+- [ ] Searching for and replacing specific text
+- [x] Creating hyperlinks

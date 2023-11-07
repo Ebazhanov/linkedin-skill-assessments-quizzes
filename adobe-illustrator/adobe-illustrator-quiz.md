@@ -37,7 +37,7 @@
 `A map of California has a light beige main color and a small dark shadow.`
 
 - [ ] 3D Extrude & Bevel
-- [ ] Offset Path
+- [x] Offset Path
 - [ ] 3D Rotate
 - [ ] 3D Revolve
 
@@ -53,13 +53,13 @@
 `A map of Southern California includes many info circles shaded in light blue.`
 
 - [ ] Recolor Artwork
-- [ ] Select > Same > Appearance
+- [x] Select > Same > Appearance
 - [ ] Edit Colors
 - [ ] Live Paint
 
 #### Q8. How can you reverse the direction of all the arrows on the spiral in the image below?
 
-`A red lines spirals clockwise in, towards the center. Arrows along the line point in that direction.`
+`A red line spirals clockwise in, towards the center. Arrows along the line point in that direction.`
 
 - [x] Select Object > Path > Reverse Path Direction.
 - [ ] Select Effect > 3D > Rotate.
@@ -80,7 +80,7 @@
 - [ ] when you want to cut an object at existing anchor points
 - [ ] when you want to cut an object into equal pieces
 - [ ] when you want to crop an embedded or linked image
-- [x] when you want to quickly divide an object by drawing closed, freehand paths
+- [x] When you want to quickly divide an object by drawing closed, freehand paths
 
 #### Q11. You have a full-color RGB document and you need to create a grayscale version that will print only on the black plate. How can you accomplish this?
 
@@ -93,7 +93,7 @@
 
 - [ ] Switch to any other workspace, and then switch back to Essentials.
 - [ ] Quit Illustrator, press and hold Command+Shift+Option (Mac) or Ctrl+Shift+Alt (Windows), and relaunch Illustrator.
-- [x] Choose Reset Essentials from the Workspace menu or the workspace switcher.
+- [x] Choose Reset Essentials from the Workspace menu or the Workspace switcher.
 - [ ] Quit and relaunch Illustrator.
 
 #### Q13. Your boss likes the new logo you've designed but would like to see some variations using different color schemes. Which feature could you use to generate these variations quickly?
@@ -207,7 +207,7 @@
 - [x] Make Compound Path
 - [ ] Make Clipping Mask
 
-#### Q28. The Symbol Sprayer tool has been used to apply a number of symbol instances to an illustration. You would like to modify the appearance of some instances using graphic styles. How would this be achieved?
+#### Q28. The Symbol Sprayer tool has been used to apply several symbol instances to an illustration. You would like to modify the appearance of some instances using graphic styles. How would this be achieved?
 
 - [ ] Select instances with the Group Selection tool and then choose the desired graphic style.
 - [ ] Symbol instances in a symbol set cannot be overridden.
@@ -267,7 +267,7 @@
 - [ ] Saturation
 - [ ] Relative Colorimetric
 
-#### Q36. Why would you use change the Expand Mesh value when using the Puppet Warp tool?
+#### Q36. Why would you change the Expand Mesh value when using the Puppet Warp tool?
 
 - [ ] It allows you to work faster because modifying a larger mesh requires fewer calculations.
 - [ ] It allows you to modify disjointed objects together
@@ -336,7 +336,7 @@
 
 #### Q45. Why would you turn on the Ignore Artboards option in the Print dialog box?
 
-- [ ] to prevent Illustrator from printing marks showing the borders of artboards
+- [ ] to prevent Illustrator from printing marks showing the borders of the artboard
 - [x] to print all artboards on one piece of paper
 - [ ] to prevent Illustrator from printing the names of artboards
 - [ ] to scale each artboard to the media size
@@ -355,7 +355,7 @@
 - [ ] to include custom guides with the symbol so each instance is placed in the same position relative to the artboard
 - [x] to allow instances of the symbol to be scaled without distorting the corners
 
-#### Q48. What can you do in order to edit text in just one placed instance of a symbol?
+#### Q48. What can you do to edit the text in just one placed instance of a symbol?
 
 - [ ] Click the Edit Symbol button in the Control panel or Properties panel.
 - [ ] Edit the symbol instance name.
@@ -399,14 +399,14 @@
 - [x] Direct Selection Tool
 - [ ] Anchor Adjustment Tool
 
-#### Q54. Which of the following correctly defines the method by which Adobe Illustrator creates images.
+#### Q54. Which of the following correctly defines the method by which Adobe Illustrator creates images?
 
 - [ ] Raster
 - [ ] Encryption
 - [ ] Extrapolation
 - [x] Vector
 
-#### Q55. Adobe Illustrator terminology for drawn line is `___`
+#### Q55. Adobe Illustrator terminology for drawn lines is `___`
 
 - [ ] Line
 - [ ] Gamma Line
@@ -420,7 +420,7 @@
 - [ ] Hyphenation
 - [ ] Format
 
-#### Q57. Which of the following tools will cut a path into two different paths.
+#### Q57. Which of the following tools will cut a path into two different paths?
 
 - [x] scissors tool
 - [ ] knife tool
@@ -462,21 +462,21 @@
 - [ ] Until the software is shut down
 - [x] Until another tool is selected
 
-#### Q63. In Adobe illustrator we create our design and Illustrator on `___`
+#### Q63. In Adobe Illustrator we create our design and Illustrator on `___`
 
 - [ ] Pages
 - [ ] Canvas
 - [ ] Cardboard
 - [x] Artboard
 
-#### Q64. How many types of pages orientation is in Adobe Illustrator?
+#### Q64. How many types of page orientation are in Adobe Illustrator?
 
 - [ ] 1
 - [x] 2
 - [ ] 3
 - [ ] 4
 
-#### Q65. Shortcut of Selection tool in Adobe Illustrator is `___`
+#### Q65. The shortcut of the Selection tool in Adobe Illustrator is `___`
 
 - [ ] A
 - [x] V
@@ -552,7 +552,7 @@
 
 [Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
 
-#### Q75. When working with a two-point perspective grid, which setting in the **Define Perspective Grid** dialog box do you use to change the size of grid cells so you can draw and move objects with more precision?
+#### Q75. When working with a two-point perspective grid, which is set in the **Define Perspective Grid** dialog box do you use to change the size of grid cells so you can draw and move objects with more precision?
 
 - [ ] Scale
 - [ ] Viewing Distance
@@ -596,7 +596,7 @@
 
 [Adobe Help: Scale, shear, and distort objects](https://helpx.adobe.com/illustrator/using/scaling-shearing-distorting-objects.html)
 
-#### Q80. To create a pattern brush with custom corners and/or custom end points, what must you create first?
+#### Q80. To create a pattern brush with custom corners and/or custom endpoints, what must you create first?
 
 - [ ] a graphic style
 - [ ] a symbol
@@ -703,7 +703,7 @@
 
 [How to crop and trim a photo in Adobe Illustrator](https://astutegraphics.com/learn/tutorial/how-to-crop-and-trim-a-photo-in-adobe-illustrator)
 
-#### Q91. What would you do in order to make the objects beneath the selected artwork visible inside the circle?
+#### Q91. What would you do to make the objects beneath the selected artwork visible inside the circle?
 
 ![Rectangle with flower](images/016.png?raw=true)
 
@@ -720,3 +720,10 @@
 - [ ] the current stroke profile
 - [ ] the artboard containing the path
 - [x] the current stroke color
+
+#### Q93. Fundamental transformation tools include all of the following except:
+
+- [ ] Scale
+- [ ] Rotate
+- [x] Invert
+- [ ] Reflect

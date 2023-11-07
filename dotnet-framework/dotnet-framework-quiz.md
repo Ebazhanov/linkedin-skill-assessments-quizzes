@@ -591,3 +591,44 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] In C#, covariance and contravariance disables implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
 
 Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)
+
+#### Q76: There are many ways to perform redirection from an action method to another action method. Which choice is not one of them?
+
+- [ ] &shy;
+
+```c#
+Redirect;
+RedirectPermanent
+```
+
+- [ ] &shy;
+
+```c#
+RedirectToAction;
+RedirectToActionPermanent
+```
+
+- [ ] &shy;
+
+```c#
+RedirectToRoute;
+RedirectToRoutePermanent
+```
+
+- [x] &shy;
+
+```c#
+RedirectUp;
+RedirectUpPermanent
+```
+
+Reference: [Redirection in .NET](https://www.infoworld.com/article/3570787/how-to-redirect-a-request-in-aspnet-core-mvc.html)
+
+#### Q77: Which choice is _not_ part of an assembly?
+
+- [ ] manifest
+- [ ] CIL
+- [ ] MSIL
+- [x] resources
+
+Reference: [Assembly](https://learn.microsoft.com/en-us/dotnet/standard/assembly/)

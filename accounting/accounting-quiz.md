@@ -3,11 +3,11 @@
 #### Q1. Which statement is not an advantage of robotic process automation (RPA)?
 
 - [x] Bots are more creative than humans
-- [ ] Bots do no need to take time off
+- [ ] Bots do not need to take time off
 - [ ] Bots improve efficiency
 - [ ] Bots can eliminate human errors
 
-#### Q2. What effect does a contra asset account have on a balance sheet?
+#### Q2. What effect does a contra-asset account have on a balance sheet?
 
 - [ ] A contra asset is not an accounting term
 - [x] A contra asset has a credit balance and therefore a negative effect on total assets
@@ -21,7 +21,7 @@
 - [ ] employee background checks
 - [ ] physical locks on inventory warehouse
 
-#### Q4. On March 15, a business receives an invoice from the power company for utilities used in February. The retailer pays the invoice on April 1. The business uses accrual-based accounting. Which month should the business recognize the expense?
+#### Q4. On March 15, a business received an invoice from the power company for utilities used in February. The retailer paid the invoice on April 1. The business uses accrual-based accounting. Which month should the business recognize the expense?
 
 - [ ] April
 - [ ] March
@@ -35,14 +35,14 @@
 - [x] A person who has record-keeping responsibility should not make journal entries.
 - [ ] A person who has operational responsibility should not authorize transactions for the area.
 
-#### Q6. What does the cost of a unit of product under absorption costing method consist of?
+#### Q6. What does the cost of a unit of product under the absorption costing method consist of?
 
 - [ ] direct materials, direct and indirect labor, and fixed overhead
 - [ ] direct materials, indirect labor, and variable and fixed overhead
 - [x] direct materials, direct labor, and both variable and fixed overhead
 - [ ] direct materials, direct and indirect labor, and variable overhead
 
-#### Q7. Which answer best describes accruals and deferrals?
+#### Q7. Which are accruals and deferrals?
 
 - [ ] Accruals are past cash receipts and payments, while deferrals are expected future cash receipts and payments.
 - [ ] Both accruals and deferrals are both expected future cash receipts and payments.
@@ -63,9 +63,9 @@
 - [ ] bank reconciliations
 - [ ] approval process
 
-[source] `'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unauthorized transactions - so its a control too. segregate duties also ensures that.`
+[source] `'MT: bank recons are internal control, checking to see if figures match. Approval by different level of authorities help to prevent unauthorized transactions - so it is a control too. segregate duties also ensures that.`
 
-#### Q10. Which budgeting approach request justification of all expenditures?
+#### Q10. Which budgeting approach requests justification of all expenditures?
 
 - [x] zero-based budgeting
 - [ ] master budgeting
@@ -83,10 +83,10 @@
 
 - [ ] Only the assets are reflected in the cash flow statement, and the net income expenses correlate with the liabilities.
 - [ ] The net income goes to retained earnings, but the cash flow remains independent.
-- [ ] The gross profit goes to retained earning, and the shareholder equity total is added to the cash flow statement
-- [x] The net income goes to the retained earning and to the cash flow statement
+- [ ] The gross profit goes to retained earnings, and the shareholder equity total is added to the cash flow statement
+- [x] The net income goes to the retained earnings and the cash flow statement
 
-[source]`'MT: odd qns. But it should be net profit "npat" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit.`
+[source]`'MT: odd qns. But it should be net profit "npat" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in the balance sheet, and net income is in the income statement. npat goes to retained earnings, not gross profit.`
 
 #### Q13. Which is not one of the four perspectives of the balanced scorecard?
 
@@ -95,14 +95,14 @@
 - [x] quantitative
 - [ ] customer
 
-#### Q14. What would be deducted from the balance per books when doing a bank reconciliation?
+#### Q14. What would be deducted from the balance per book when doing a bank reconciliation?
 
 - [ ] deposits in transit
 - [ ] bank service fees
 - [x] outstanding checks
 - [ ] electronic fund transfers/payments
 
-#### Q15. What situation could be the results of the three retails store employees sharing the same cash register?
+#### Q15. What situation could be the result of the three retail store employees sharing the same cash register?
 
 - [ ] a thorough internal control activity
 - [x] a violation of assignment of responsibility
@@ -119,14 +119,14 @@
 #### Q17. An external auditor is required to be independent when performing
 
 - [x] all attestation services
-- [ ] all professional services (wrong ans, includes consulting)
+- [ ] all professional services (wrong and, includes consulting)
 - [ ] all tax services
-- [ ] all consulting engagements (wrong ans)
+- [ ] all consulting engagements (wrong answer)
 
 [Reference](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
-`'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audit committee approved or fees disclosed etc. but there are exceptions.'`
+`'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audit committee approved or fees disclosed, etc. but there are exceptions.'`
 
-#### Q18. Proper segregation of functional responsibilities calls for separation of
+#### Q18. Proper segregation of functional responsibilities calls for the separation of
 
 - [ ] custody, payment, and recording
 - [ ] authorization, custody, and execution
@@ -142,7 +142,7 @@
 - [ ] the valuation of assets to determine how much additional debt the company can borrow
 - [ ] how much the sales of a company will change in response to a change in operating income
 
-[Reference]`'High operating leverage means a firm has a relatively fixed, and usually high cost base. So additional sales would incrementally drive more profits because those sales do not need to incur more costs to generate (like a factory, versus factory workers)'`
+[Reference]`' High operating leverage means a firm has a relatively fixed, and usually high cost base. So additional sales would incrementally drive more profits because those sales do not need to incur more costs to generate (like a factory, versus factory workers)'`
 
 #### Q20. Which characteristic would concern an auditor about the risk of material misstatements arising from fraudulent financial reporting?
 
@@ -151,7 +151,7 @@
 - [ ] regularly reported bank reconciliations, including deposits in transit
 - [ ] capital assets sold at a loss before being depreciated fully
 
-[source]`'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at lost before fully depreciated, like you can sell a plane at a loss even before it has been "fully used".`
+[source]`'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at a loss before fully depreciated, like you can sell a plane at a loss even before it has been "fully used".`
 
 #### Q21. An employee who makes a sale, ships the goods, and bills the customer violates which control activity?
 
@@ -169,12 +169,12 @@
 - [ ] The auditor can adapt to a rapidly changing profession.
 - [x] The auditor has expertise in the gathering and interpretation of audit evidence.
 
-[source]`'MT: auditors are focused on gathering and interpreting audit evidence in specific sectors. Both auditors and accountants would be familiar to the principles that the client operates in'`
+[source]`' MT: auditors are focused on gathering and interpreting audit evidence in specific sectors. Both auditors and accountants would be familiar with the principles that the client operates in'`
 
 #### Q23. What is the purpose of an operational audit?
 
 - [ ] assessing the company's compliance with environmental laws and regulations
-- [x] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
+- [x] evaluating whether the organization is meeting the metrics set by management to achieve the goals and objectives set forth by the board of directors
 - [ ] assessing the organization's control mechanisms for overall efficiency and reliability
 - [ ] evaluating compliance with applicable laws, regulations, policies, and procedures
 
@@ -202,7 +202,7 @@
 - [ ] depreciation expense
 - [x] book value
 
-#### Q27. A company budgeted 1,200 washers, but only 1,000 are produced. It costs $10 to produce a widget. What is the materials variance?
+#### Q27. A company budgeted 1,200 washers, but only 1,000 are produced. It costs $10 to produce a widget. What is the material variance?
 
 - [x] 200
 - [ ] 2000
@@ -223,7 +223,7 @@
 - [x] Debit asset, credit liability
 - [ ] Debit equity, credit asset.
 
-[source]`'MT answer - its Debit equipment (asset), Credit notes payable (liability). To +/- assets, need to dr/cr, inverse is true for liabilities. Long-form journal entry is: Borrow cash - Dr cash, Cr notes payable, then for equipment purchase - Dr equipment, Cr cash'`
+[source]`' MT answer - it's Debit equipment (asset), Credit notes payable (liability). To +/- assets, need to dr/cr, inverse is true for liabilities. A long-form journal entry is: Borrow cash - Dr cash, Cr notes payable, then for equipment purchase - Dr equipment, Cr cash'`
 
 #### Q30. Which section of a financial annual report describes the corporation's accounting methods?
 
@@ -245,20 +245,20 @@
 
 - [ ] collecting a note receivable
 - [x] paying a note payable
-- [ ] NSF checks ("non sufficient funds")
+- [ ] NSF checks ("nonsufficient funds")
 - [ ] service changes
 
-[source]`'MT: depositor account os a liability to the bank - bank owes the money to depositor. bank collects a notes receivable from client means reducing client's cash/ deposits. Similar if NSF means the cheque owner does not have enough funds to transfer funds into the client's deposits, so theres no change in deposits.'`
+[source]`' MT: depositor account os a liability to the bank - bank owes the money to the depositor. bank collects notes receivable from clients means reducing clients' cash/ deposits. Similarly, if NSF means the cheque owner does not have enough funds to transfer funds into the client's deposits, there no change in deposits.'`
 
 #### Q33. Which statement about current liabilities is true?
 
-- [ ] Current liabilities are obligations owed after a 12-month period.
+- [ ] Current liabilities are obligations owed after 12 months.
 - [ ] Current liabilities should be included under long-term liabilities.
 - [ ] Current liabilities are obligations owed over 5 years.
 - [x] Current liabilities are obligations due within a year.
 
 [Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)
-`Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.`
+`Current liabilities are a company's short-term financial obligations that are due within one year or a normal operating cycle.`
 
 #### Q34. How do variable costs and fixed costs act within the relevant range?
 
@@ -299,17 +299,17 @@
 - [ ] life-cycle costing
 - [x] activity analysis
 
-[Reference]Activity analysis involves studying and evaluating the activities and processes within an organization to understand their cost implications. It helps in identifying the key activities that drive costs and analyzing their relationship with various cost drivers. By understanding these relationships, management can make informed decisions to optimize costs and improve overall efficiency..
+[Reference]Activity analysis involves studying and evaluating the activities and processes within an organization to understand their cost implications. It helps in identifying the key activities that drive costs and analyzing their relationship with various cost drivers. By understanding these relationships, management can make informed decisions to optimize costs and improve overall efficiency.
 
-#### Q38. When independent auditors are able to maintain their actual independence, it is referred to as independence in \_\_\_\_.
+#### Q38. When independent auditors can maintain their actual independence, it is referred to as independence in \_\_\_\_.
 
 - [x] fact
-- [ ] appearance
+- [ ] Appearance
 - [ ] totality
 - [ ] trust
 
 [Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
-`In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is actually unbiased—is absolutely essential to the validity of an audit.`
+`In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is unbiased—is essential to the validity of an audit.`
 
 #### Q39. When applying a cost-volume-profit analysis (CVP), certain assumptions must be respected. Which answer is _not_ one of these assumptions?
 
@@ -358,7 +358,7 @@ I'm not 100% sure on this.
 - [ ] allocating to manufacturing overhead account
 - [ ] using the manufacturing cost incurred
 - [x] applying a predetermined overhead rate
-- [ ] applying indirect costs to work in process
+- [ ] applying indirect costs to work in the process
 
 I'm not 100% sure on this.
 
@@ -375,7 +375,7 @@ I'm not 100% sure on this.
 
 [Reference](https://www.wikiaccounting.com/what-is-the-objective-of-assurance-engagement/)
 
-#### Q44. What is conversion cost the sum of?
+#### Q44. What is a conversion cost the sum of?
 
 - [ ] direct materials cost + administration cost
 - [ ] direct materials cost + manufacturing overhead cost
@@ -409,11 +409,11 @@ I'm not 100% sure on this.
 - [x] There's no relationship between net income and the costing approach.
 - [ ] Net income is lower for absorption costing than for variable costing.
 
-#### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
+#### Q48. When independent auditors can maintain their actual independence, it is referred to as independence in\_\_.
 
 - [ ] trust
-- [x] totaiity
-- [ ] appearance
+- [x] totality
+- [ ] Appearance
 - [ ] fact
 
 #### Q49. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
@@ -428,29 +428,29 @@ I'm not 100% sure on this.
 #### Q50. When do you expect to apply job costing over process costing?
 
 - [x] when the costs are easily traced to a specific product
-- [ ] when costs are accumulated by department
+- [ ] when costs are accumulated by the department
 - [ ] when the value of work in process is based on assigning standard costs
-- [ ] when each product batch is exactly the same as the prior batch
+- [ ] when each product batch is the same as the prior batch
 
 [Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)
 
-#### Q51. Robinson Hotels is trying to predict its utility costs. It has five years of data, including monthly utility cost, monthly occupancy rates, and average monthly temperature. What tool or technique can Robinson Hotels use to predict or estimate its future utility costs?
+#### Q51. Robinson Hotels is trying to predict its utility costs. It has five years of data, including monthly utility costs, monthly occupancy rates, and average monthly temperature. What tool or technique can Robinson Hotels use to predict or estimate its future utility costs?
 
 - [ ] segment report
 - [x] regression analysis
 - [ ] time series analysis
 - [ ] net present value
 
-#### Q52. What does an inventory-turnover ratio measure?
+#### Q52. What does an inventory turnover ratio measure?
 
 - [ ] the current value of the inventory
-- [ ] the number of times inventory was sold during the period
+- [x] the number of times inventory was sold during the period
 - [ ] how it compares with the industry average
 - [ ] whether the company can maintain the same inventory levels compared to industry averages
 
-#### Q53. A company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?
+#### Q53. The company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?
 
-- [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.
+- [x] The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.
 - [ ] The question does not provide sufficient information to offer a proper calculation.
 - [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0667 to produce the product sold.
 - [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0333 to produce the product sold.
@@ -496,9 +496,9 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 #### Q58. What type of audit evidence would be considered the weakest type?
 
-- [ ] oral evidence
+- [x] oral evidence
 - [ ] physical examination
-- [ ] confirmation
+- [ ] Confirmation
 - [ ] documentary evidence
 
 #### Q59. Permanent accounts are on what financial statement?
@@ -519,26 +519,26 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 - [ ] to demonstrate to management the level of sales the company will achieve
 - [ ] to provide shareholders and the board of directors confidence in management's abilities
-- [ ] to give management an opportunity to compile all of the other operational budgets once they are completed
-- [ ] to provide management with a high-level overview of the company finances and be a central planning tool
+- [ ] to allow management to compile all of the other operational budgets once they are completed
+- [x] to provide management with a high-level overview of the company finances and be a central planning tool
 
 #### Q62. What is true about an internal control system?
 
-- [ ] An internal control system is not effective until the human error is completely eliminated or migrated.
+- [ ] An internal control system is not effective until human error is eliminated or migrated.
 - [ ] Any internal control activities evaluated and adopted by a company should never be evaluated in terms of cost-benefit.
-- [ ] Only mid- to large-sized companies and governmental organizations need to ensure proper internal control activities.
-- [ ] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
+- [ ] Only mid-to-large-sized companies and governmental organizations need to ensure proper internal control activities.
+- [x] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
 
-#### Q63. According to cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?
+#### Q63. According to the cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?
 
 - [ ] $60,000
 - [ ] $20,000
 - [ ] $35,000
-- [ ] $80,000
+- [x] $80,000
 
 #### Q64. A company can change to a new accounting principle if management can justify that the change will result in what?
 
-- [ ] more relevant decision-making information
+- [x] more relevant decision-making information
 - [ ] lower net income to report for tax purposes
 - [ ] changing depreciation methods for higher net income
 - [ ] reduced potential for administrative error
@@ -554,7 +554,7 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 
 - [ ] oral evidence
 - [x] physical examination
-- [ ] confirmation
+- [ ] Confirmation
 - [ ] documentary evidence
 
 #### Q67. What should an auditor do before auditing the balance sheet?
@@ -562,9 +562,9 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] Confirm whether probable legal action is disclosed to the auditor.
 - [ ] Investigate whether liens on assets are committed as collateral.
 - [ ] Determine the client's planned and imminent purchase commitments.
-- [ ] Gain a clear and proper understanding of the client's internal control processes.
+- [x] Gain a clear and proper understanding of the client's internal control processes.
 
-#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
+#### Q68. At McKay Company, machine hours are limited. Due to limited machine hours,there is more demand for McKay's products than it can produce . To maximize profits, the company should evaluate each product's **\_**.
 
 - [x] contribution margin per unit
 - [ ] segment margin per unit
@@ -597,9 +597,9 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 #### Q72. Flexible budgets are created to demonstrate how **\_**.
 
 - [x] changes in activity levels affect predicted revenue and costs
-- [ ] management need to make changes to budget targets following poor performance
+- [ ] management needs to make changes to budget targets following poor performance
 - [ ] an inaccurate operational budget results from poor budgeting data
-- [ ] current results fully align to budgetary allocations
+- [ ] current results fully align with budgetary allocations
 
 #### Q73. Which is the appropriate term for an incurred cost that cannot be changed by any decision?
 
@@ -613,4 +613,11 @@ Therefore, the price variance for 1,000 widgets is $3,000.
 - [ ] management's complete disclosure of unresolved legal action
 - [ ] limited competition in the company's industry resulting in increasing profitability
 - [ ] the audit committee's approval of specific accounting methods and principles
-- [ ] year-end financial adjustments significantly impacting the financial results
+- [x] year-end financial adjustments significantly impacting the financial results
+
+#### Q75. Which step of the accounting cycle involves checking to see if total debits equal total credits?
+
+- [ ] normal balances on the ledgers
+- [ ] closing entries
+- [ ] post-closing trial balance
+- [x] preparation of the trial balance

@@ -1,6 +1,6 @@
 ## Adobe Premiere Pro
 
-#### Q1. You open a nested sequence in order to trim the length of a clip. You make the total duration of the clips longer. What happens to the duration of the nest in the main sequence?
+#### Q1. You open a nested sequence to trim the length of a clip. You make the total duration of the clips longer. What happens to the duration of the nest in the main sequence?
 
 - [x] Nothing, the nest duration remains the same in the original sequence.
 - [ ] The duration of the nest changes and an overwrite edit pushes the remaining clips to make room.
@@ -64,7 +64,7 @@ E. Blur
 - [x] Timeline panel
 - [ ] Media Browser panel
 
-#### Q9. What can you do to make the shape layer automatically adjust size as the text layer changes?
+#### Q9. What can you do to make the shape layer automatically adjust its size as the text layer changes?
 
 ![image](images/001.png?raw=png)
 
@@ -73,7 +73,7 @@ E. Blur
 - [ ] Select Responsive Design and Pin To the Video Frame.
 - [ ] Use the Align and Transform controls.
 
-#### Q10. In which panel do you assemble media in order to create sequence?
+#### Q10. In which panel do you assemble media to create a sequence?
 
 - [ ] Timeline panel
 - [ ] Media Browser panel
@@ -112,7 +112,7 @@ E. Blur
 
 ![image](images/002.png?raw=png)
 
-- [ ] in the Media Browser, mark in and out points on a clip, and then import.
+- [ ] In the Media Browser, mark in and out points on a clip, and then import.
 - [ ] Mark in and out points on the clip in the Program Monitor and select choose Clip > Make Subclip.
 - [ ] Mark in and out points on a clip in the Timeline panel and then drag it back into a bin.
 - [x] Mark in and out points on the clip in the Source Monitor and select Clip > Make Subclip.
@@ -131,7 +131,7 @@ E. Blur
 - [x] Effect Controls panel
 - [ ] Program Monitor panel
 
-#### Q18. You are working with a new project and have been editing for two hours. What is the number of backup projects you would expect to find?
+#### Q18. You are working on a new project and have been editing for two hours. What is the number of backup projects you would expect to find?
 
 ![image](images/003.png?raw=png)
 
@@ -176,10 +176,10 @@ E. Blur
 
 - [ ] audio
 - [ ] template
-- [ ] transition
+- [ ] Transition
 - [x] preset
 
-#### Q24. How was this clip manipulated using a Curves adjustment?
+#### Q24. How was this clip manipulated using a Curve adjustment?
 
 ![image](images/005.png?raw=png)
 
@@ -285,7 +285,7 @@ E. M4A
 - [ ] Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.
 
-#### Q36. You want to pull down the saturation in just the clouds shown below. Which Curves adjustment makes this easiest?
+#### Q36. You want to pull down the saturation in just the clouds shown below. Which Curve adjustment makes this easiest?
 
 ![image](images/008.png?raw=png)
 
@@ -349,7 +349,7 @@ E. Ellipse
 - [x] Input LUT
 - [ ] Intensity
 
-#### Q43. Which Audio Mixer automation mode allows an automation to return to the previous state after any adjustments are made?
+#### Q43. Which Audio Mixer automation mode allows automation to return to the previous state after any adjustments are made?
 
 - [ ] Touch
 - [ ] Latch
@@ -358,7 +358,7 @@ E. Ellipse
 
 https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.
 
-#### Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?
+#### Q44. You want Premiere Pro to create a second instance of your media files and add a version at a draft resolution. Which option works best in the ingest settings?
 
 - [ ] Transcode
 - [x] Copy and Create Proxies
@@ -381,7 +381,7 @@ https://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,
 - [ ] Large Audio Waveforms
 - [ ] Logarithmic Keyframe Scaling
 
-#### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's submenu should you select?
+#### Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's sub-menu should you select?
 
 - [x] Undock Panel
 - [ ] Undock Frame
@@ -447,7 +447,7 @@ E. PDF
 - [ ] Source Monitor panel
 - [ ] Media Browser panel
 
-#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest
+#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest?
 
 ![image](images/008.png?raw=png)
 
@@ -463,33 +463,33 @@ E. PDF
 - [ ] CBR
 - [x] Use Maximum Render Quality
 
-#### Q57. What is true about changing the speed of a clip that has linked audio ?
+#### Q57. What is true about changing the speed of a clip that has linked audio?
 
-- [ ] The audio is pitch shifted to sound correct.
+- [ ] The audio is pitch-shifted to sound correct.
 - [ ] The audio changes to match the video.
 - [ ] The audio is not affected.
 - [x] If you use the Time Remapping tool, the audio changes at the same rate.
 
-  #### Q58.When exporting, Which file format creates no audio channels ?
+  #### Q58.When exporting, Which file format creates no audio channels?
 
 - [ ] FLAC
 - [x] DPX
 - [ ] HEVC
 - [ ] P2 Movie
 
-#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe
+#### Q59.What is true about creating dynamically linked After Effects compositions from Adobe?
 
-Premiere Pro ? (Select three Items.)
-A. You can media manager After Effects projects directly in Premiere Pro.
+Premiere Pro? (Select three Items.)
+A. You can media manage After Effects projects directly in Premiere Pro.
 B. The amount of interim render files is reduced.
 C. It makes color correction fast and easy.
 D. You can easily make changes to a clip.
 E. It ensures that new After Effect composition settings are correct for a Premiere Pro sequence.
 
-- [ ] B,C,D
-- [ ] B,D,E
-- [ ] A,B,C
-- [x] A,C,E
+- [ ] B, C, D
+- [ ] B, D, E
+- [ ] A, B, C
+- [x] A, C, E
 
 #### Q60. How many output audio tracks can an adaptive audio track be routed to?
 
@@ -498,7 +498,7 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] 16
 - [x] 32
 
-#### Q61. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?
+#### Q61. Which tool lets you easily reposition clips on the Timeline concerning adjacent clips?
 
 - [ ] Slide tool
 - [ ] Rolling Edit tool
@@ -547,9 +547,9 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] You would get an End at Cut alignment.
 - [ ] You would get a Start at Cut alignment.
 - [ ] The clip is trimmed and a Center at Cut transition is applied.
-- [x] Your would get a one-frame transition.
+- [x] You would get a one-frame transition.
 
-#### Q68. Which export format supports inclusion of an alpha channel?
+#### Q68. Which export format supports the inclusion of an alpha channel?
 
 - [x] MOV
 - [ ] MP4
@@ -562,3 +562,17 @@ E. It ensures that new After Effect composition settings are correct for a Premi
 - [ ] indicator
 - [x] playhead
 - [ ] navigator
+
+###Q70. When working on a complex project in Adobe Premiere Pro, you want to make sure you have a clean workspace and reduce any clutter. What feature in Premiere Pro can help you organize your workspace and manage your media efficiently?
+
+- [ ] Nested Sequences
+- [ ] Project Media Bins
+- [ ] Multi-Camera Editing
+- [x] Workspaces
+
+Q71. In Adobe Premiere Pro, what is the purpose of the "Warp Stabilizer" effect, and when is it commonly used?
+
+- [ ] To add cinematic color grading to clips.
+- [ ] To adjust the audio pitch and speed.
+- [x] To stabilize shaky or jittery video footage.
+- [ ] To create animated text and graphics.

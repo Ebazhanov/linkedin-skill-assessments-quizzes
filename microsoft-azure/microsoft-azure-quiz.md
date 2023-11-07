@@ -926,7 +926,7 @@ You plan to use the Azure Web App continuous deployment feature.
 You need to run the static generation script before the website starts serving traffic.
 What are two possible ways to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
 
-- [ ] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website
+- [x] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website
 - [ ] Add a PreBuild target in the websites csproj project file that runs the static content generation script
 - [ ] Create a file named run.cmd in the folder /run that calls a script which generates the static content and deploys the website.
 - [ ] Add the path to the static content generation tool to WEBSITE_RUN_FROM_PACKAGE setting in the host.json file.
@@ -1083,3 +1083,27 @@ this.cosmosClient = new CosmosClient(EndpointUri, PrimaryKey)
 await this.CreateDatabaseAsync();
 
 [Ref](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)
+
+#### Q101. Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company's migration plan. What should you create?
+
+- [ ] Azure virtual machines, Azure SQL databases, and Azure Storage accounts.
+- [ ] Azure storage accounts and web server in Azure virtual machines.
+- [ ] an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.
+- [x] an Azure App Service and Azure SQL databases.
+      [Ref](https://azurecharts.com/overview/?f=paas)
+
+### Q102. What is the first stage in the Microsoft Cloud Adoption Framework for Azure?
+
+- [ ] Adopt the cloud.
+- [ ] Make a plan.
+- [x] Define your strategy.
+- [ ] Ready your organization.
+      [Ref](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
+
+### Q103. You need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services. What should you identify?
+
+- [ ] a physical server failure
+- [x] an Azure data center failure
+- [ ] an Azure region failure
+- [ ] a storage failure
+      [Ref](https://docs.microsoft.com/en-us/azure/virtual-machines/availability)

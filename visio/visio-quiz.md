@@ -1,6 +1,6 @@
 ## Visio
 
-#### Q1. You've created a timeline by using the Timeline template in the Schedule template category. You've just learned that project has been extended by another month. How do you change the end date on the timeline?
+#### Q1. You've created a timeline by using the Timeline template in the Schedule template category. You've just learned that the project has been extended by another month. How do you change the end date on the timeline?
 
 - [ ] Double-click the timeline, change the Finish date, and then click OK.
 - [ ] Select the timeline shape, then drag the control handle on the right end of the timeline to the right.
@@ -113,7 +113,7 @@
 - [ ] the center of the page
 - [x] the shape's pin position
 - [ ] the shape's center of gravity
-- [ ] the origin on the rulers
+- [ ] the origin of the rulers
 
 #### Q12. Which is one of the template categories in the Visio Standard desktop app?
 
@@ -140,7 +140,7 @@
 
 #### Q15. You added a container with no exclusions to a page. It looks like shapes are in the container, but when you move the container, the shapes do not move. How do you give the container and shapes a specific relationship?
 
-- [ ] Use the Container Tools Format tab and under Membership, use Select Contents to add the shapes.
+- [ ] Use the Container Tools Format tab, and under Membership, use Select Contents to add the shapes.
 - [ ] Center the container over the top of the shapes.
 - [x] Select all the shapes to be added, right-click, and select Container \> Add to Underlying Container.
 - [ ] Select the container and use the commands in the Format tab to add the shapes.
@@ -180,7 +180,7 @@
 - [ ] Hold down the Tab key while dragging the selection handle.
 - [ ] Hold down the Shift key while dragging the selection handle.
 
-#### Q21. How do you view a Visio diagram in full-screen view, i.e., with no ribbon or windows?
+#### Q21. How do you view a Visio diagram in a full-screen view, i.e., with no ribbon or windows?
 
 - [ ] Press Shift+F7.
 - [ ] Press Shift+F5.
@@ -222,7 +222,7 @@
 - [ ] to simply show data in the form of text, or to show text plus other symbols related to data, such as currency symbols
 - [x] to show conditions; to visualize data in grouped percentages, amounts, or degrees; and simply to represent data in yes-or-no format
 - [ ] to show percentages, ratings, progressions, scores, and amounts for comparing symbols and identifying symbol performance
-- [ ] to fill shapes with color according to their data, such as identifying all shapes of a color as "on" and different colored shapes as "off"
+- [ ] to fill shapes with color according to their data, such as identifying all shapes of color as "on" and different colored shapes as "off"
 
 #### Q27. Which is _not_ a way to disable AutoConnect with the Quick Shapes menu?
 
@@ -290,7 +290,7 @@
 - [x] Ctrl+Shift+W
 - [ ] Esc
 
-#### Q33. What is the unique feature of rack equipment shapes that would lead you to think that the rack and the equipment shape have active connections points?
+#### Q33. What is the unique feature of rack equipment shapes that would lead you to think that the rack and the equipment shape have active connection points?
 
 - [x] They look like 2D shapes, yet behave like lines, dynamic connectors, and other one-dimensional shapes.
 - [ ] They look like 3D shapes, yet behave like lines, dynamic connectors, and other two-dimensional shapes.
@@ -304,7 +304,7 @@
 - [ ] .xps
 - [ ] .pdf
 
-#### Q35. Which of the following is a type of shape data list from which users can select an entry or can enter a new value?
+#### Q35. Which of the following is a type of shape data list from which users can select an entry or enter a new value?
 
 - [ ] Visio list
 - [ ] list
@@ -325,7 +325,7 @@
 - [ ] on the **Design** tab, in the **Alignment** goup
 - [ ] on the **Design** tab, in the **Paragraph** goup
 
-#### Q38. The Function shape data field in flowchart shapes automatically displays what text when the shape is placed into a swimlane?
+#### Q38. The Function shape data field in flowchart shapes automatically displays what text when the shape is placed into a swimlane.
 
 - [ ] the header text of the swimlane
 - [x] the value of the swimlane's Title Shape Data field
@@ -337,7 +337,7 @@
 #### Q39. Which is not an example of a reason that a shape designer might use sets of shapes grouped together to create a more sophisticated appearance or behavior?
 
 - [x] to display text in multiple places on the shape
-- [ ] to protect the alignment of subshapes within the group
+- [ ] to protect the alignment of sub shapes within the group
 - [ ] to prevent different parts of the shape from responding differently to external changes
 - [ ] to display different colors on different parts of the grouped shape
 
@@ -351,23 +351,23 @@
 - [ ] themes
 - [ ] quick styles
 
-#### Q41. When using AutoConnect, what determines the fours shapes that will appear in the AutoConnect mini toolbar?
+#### Q41. When using AutoConnect, what determines the four shapes that will appear in the AutoConnect mini toolbar?
 
 - [ ] They are the four **Quick Shapes** selected in the Visio options.
 - [ ] They are the four most recently used shapes
-- [ ] They are the four most frequently useed shapes
-- [x] They are the first four shapes in teh **Quick Shapes** section of the current stencil
+- [ ] They are the four most frequently used shapes
+- [x] They are the first four shapes in the **Quick Shapes** section of the current stencil
 
 #### Q42. Which is one of the eight supported Visio shape data types?
 
 - [ ] XML
 - [ ] Integer
 - [ ] Floating Point
-- [ ] Fixed List
+- [x] Fixed List
 
 #### Q43. You're able to select a shape on your drawing, but you can't work with it as you expect. What could be preventing you from working with this shape after it is selected?
 
 - [ ] The shape is protected against selection
 - [ ] The shape is connected to another shape
-- [ ] The shape is part of a locked layer
+- [x] The shape is part of a locked layer
 - [ ] The shape is in a group

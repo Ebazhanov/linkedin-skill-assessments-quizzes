@@ -1,6 +1,6 @@
 ## XML
 
-#### Q1. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after the year 2000. What does your XQuery look like?
+#### Q1. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after 2000. What does your XQuery look like?
 
 ```xml
 <cars>
@@ -86,7 +86,7 @@
 - [ ] XML, because it supports namespaces
 - [ ] JSON, because it is already parsed into a JavaScript object
 
-#### Q5. Asynchronous Javascript and XML (Ajax) is technique for creating better, faster, and more interactive web applications. In addition to JavaScript and XML on the back end, which technologies are commonly used to craft AJAX experiences on the front end?
+#### Q5. Asynchronous Javascript and XML (Ajax) is a technique for creating better, faster, and more interactive web applications. In addition to JavaScript and XML on the back end, which technologies are commonly used to craft AJAX experiences on the front end?
 
 - [ ] PHP, .NET, and SQL
 - [x] HTML, CSS, and DOM
@@ -111,9 +111,9 @@
 - [ ] XHTML elements must be properly nested within each other.
 - [ ] XHTML tags must have an equivalent closing tag.
 
-**Explanation**: XML Attributes values [must be quoted](https://www.w3schools.com/xml/xml_attributes.asp). Element names are [case-sensitive](https://www.w3schools.com/xml/xml_elements.asp) (and CamelCase is actually one of the naming styles).
+**Explanation**: XML Attributes values [must be quoted](https://www.w3schools.com/xml/xml_attributes.asp). Element names are [case-sensitive](https://www.w3schools.com/xml/xml_elements.asp) (and CamelCase is one of the naming styles).
 
-#### Q8. Which Ajax method is used to exchange data with a server, using a modern browser?
+#### Q8. Which Ajax method is used to exchange data with a server using a modern browser?
 
 - [ ] request-XML
 - [x] XMLHttpRequest
@@ -141,7 +141,7 @@
 #### Q11. XML provides a framework for specifying markup languages, while HTML is a predefined markup language. What is applicable to XML and not HTML?
 
 - [x] It is mandatory to use closing tags with XML
-- [ ] It is important for an XML document to be well formed
+- [ ] It is important for an XML document to be well-formed
 - [ ] XML elements start with an opening tag in angle brackets, such as `<p>`
 - [ ] XML syntax uses tags, elements, and attributes
 
@@ -150,7 +150,7 @@
 - [ ] The last step is to complete the extension of XHTML compound documents and make sure the documents adhere to the defined namespaces.
 - [x] The last step is to create the DTD for the XHTML extension, which references both the XHTML modules and the new modules.
 - [ ] The last step is to run the XHTML extension through the XSLT processor, which will properly format it.
-- [ ] The last step is to verify that the XHTML is well formed and valid, and compatible with most browsers.
+- [ ] The last step is to verify that the XHTML is well-formed valid, and compatible with most browsers.
 
 #### Q13. In an XML DTD ATTLIST declaration, which default value is used to indicate that the attribute does not have to be included?
 
@@ -185,13 +185,13 @@
 - [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
 - [x] Leave it alone, because the prolog does not require a closing tag.
 - [ ] Move the prolog to an external file so that the XML document only has elements with closing tags.
-- [ ] Add a closing tag, as al XML elements must have a closing tag.
+- [ ] Add a closing tag, as all XML elements must have a closing tag.
 
 #### Q18. Which statement is not true about XML?
 
 - [ ] XML is flexible and customizable.
 - [ ] XML can be used to store data.
-- [ ] XML is independent of Operating System.
+- [ ] XML is independent of the Operating System.
 - [x] XML is a replacement for HTML.
 
 #### Q19. In an XML DTD ATTLIST declaration, which tokenized attribute type is used to specify multiple ID values?
@@ -217,7 +217,7 @@
 - [x] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black)>`
 
-#### Q22. The main ways to control the display of XML documents are with Cascading Style Sheets (CSS) and Extensible Styles Language (XSL). What is an advantage of CSS over XSL?
+#### Q22. The main ways to control the display of XML documents are with Cascading Style Sheets (CSS) and Extensible Styles Language (XSL). What is the advantage of CSS over XSL?
 
 - [ ] CSS is a complete programming language with more powerful syntax.
 - [ ] With CSS, the same element can be processed multiple times.
@@ -282,7 +282,7 @@
 - [ ] `count()`
 - [x] `position()`
 
-**Explanation**: [count()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count) returns the total the number of nodes (3), while [position()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/position) returns the 0-based index of each node.
+**Explanation**: [count()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count) returns the total number of nodes (3), while [position()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/position) returns the 0-based index of each node.
 
 #### Q28. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after the year 2000, as an ordered list, starting with the most recent. What does your XQuery look like?
 
@@ -420,7 +420,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 
 - If we use `select="make"` or `select="year"` we get the order `Cadillac, Ford, Mercedes`
 - If we use `select="price"` we get `Ford, Cadillac, Mercedes`
-- And finally with `select="model"` we get `Mercedes, Cadillac, Ford`
+- And finally, with `select="model"` we get `Mercedes, Cadillac, Ford`
 
 #### Q34. What is the correct syntax for comments in XQuery?
 
@@ -438,12 +438,12 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 
 [reference link:](https://www.w3schools.com/XML/dom_nodetype.asp)
 
-#### Q36. XHTML modules can be extended by adding elements, attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
+#### Q36. XHTML modules can be extended by adding elements, and attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
 
-- [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well formed and valid; otherwise the extended instances aren't formally XHTML.
+- [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well-formed and valid; otherwise, the extended instances aren't formally XHTML.
 - [ ] The implementation of an XHTML module requires a definitions module and a constraint module that specifies syntax rules and uses the parameter entities declared in the definitions module.
 - [ ] The implementation of an XHTML module requires a qualified name module and a declaration module that holds the element, element attribute, and content model declarations.
-- [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
+- [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations and a parameter module that uses the entities declared in the namespace module.
 
 #### Q37. The `<xsl:namespace-alias>` element is used to replace a namespace in the style sheet with a different namespace in the output. Which XSLT element needs to be its parent node?
 
@@ -580,7 +580,7 @@ car#year {
 - [x] elements
 - [ ] attributes
 
-#### Q44. In the XML DOM,what is the `setAttribute()` an example of?
+#### Q44. In the XML DOM, what is the `setAttribute()` an example of?
 
 - [ ] node
 - [ ] function
@@ -589,12 +589,12 @@ car#year {
 
 #### Q45. What is not one of the advantages of the XML DOM?
 
-- [ ] The XML DOM is language and platform independent.
+- [ ] The XML DOM is language and platform-independent.
 - [ ] The XML DOM is modifiable and dynamic.
 - [ ] The XML DOM is easy to navigate around to find specific information.
 - [x] The XML DOM is efficient with memory and operation speed.
 
-#### Q46. In the XML DOM, which property is best to use to loop through each of the <car> nodes i nthe code snippet below?
+#### Q46. In the XML DOM, which property is best to use to loop through each of the <car> nodes in the code snippet below?
 
 ```xml
 <cars>

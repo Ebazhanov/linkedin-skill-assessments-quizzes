@@ -1,5 +1,7 @@
 ## C++
 
+[Assessment link(linkedin)](https://www.linkedin.com/skill-assessments/C++/quiz-intro/)
+
 #### Q1. Betrachten Sie diese Funktionsdeklaration von `is_even`, die einen ganzzahligen Wert nimmt und "wahr" zurückgibt, wenn das Argument eine gerade Zahl ist, ansonsten "falsch". Welche Deklarationen sind korrekt für überladene Versionen dieser Funktion, um auch Gleitkomma- und String-Darstellungen von Zahlen zu unterstützen?
 
 ```cpp
@@ -65,7 +67,7 @@ else
 `using namespace std;`
 
 - [ ] Wenn der Code eine Funktion aufruft, die in zwei verschiedenen Bibliotheken mit demselben Prototypen, aber womöglich unterschiedlichen Implementierungen definiert ist, tritt wegen Mehrdeutigkeit ein Kompilierfehler auf.
-- [ ] Sie bindet automatisch alle Headerdateien in die Standardbibliothek ein (cstdint, cstdlib, cstdio, iostream usw.).
+- [x] Sie bindet automatisch alle Headerdateien in die Standardbibliothek ein (cstdint, cstdlib, cstdio, iostream usw.).
 - [ ] Sie veranlasst den Compiler dazu zu erzwingen, dass ausschließlich Headerdateien aus der Standardbibliothek eingebunden werden, und führt zu Kompilierfehlern, wenn eine andere Headerdatei eingebunden wird.
 - [ ] Der kopilierte Code ist wegen all der importierten Symbole immer größer.
 
@@ -102,15 +104,15 @@ union {
 char str[20]="Hi, there!";
 int main(){
     char *p=&str[4];
-    std::count<<*p++;
-    std::count<<p;
+    std::cout<<*p++;
+    std::cout<<p;
     return 0;
     }
 ```
 
 - [ ] tthere!
 - [ ] uhere!
-- [ ] there!
+- [x] there!
 - [ ] tuhere!
 
 #### Q8. Wie könnte eine gültige Überladung für den ternären Bedingungsoperator erreicht werden?

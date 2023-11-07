@@ -90,7 +90,7 @@
 - [x] =`SUM(A3,A6)`
 - [ ] =`SUM(A3,A4,A5,A6)`
 
-#### Q13. Which custom format will make the cells in column A appear like the corresponding cells in column B?
+#### Q13. What custom formatting can be applied to make the cells in column A resemble the cells in column B?
 
 - [ ] `MMM-YYYY`
 - [x] `MMMM-YYYY`
@@ -398,10 +398,10 @@
 
 #### Q53. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
-- [ ] column D
+- [x] column D
 - [ ] columns D through H
 - [ ] column H
-- [x] column F
+- [ ] column F
 
 #### Q54. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
 
@@ -1306,7 +1306,7 @@ Alignment** tab, click**\_\*\*.
 
 - [ ] You cannot do this in Excel.
 - [ ] Right-click the axis, select **Format Axis**, and scroll to the desired minimum and maximum values.
-- [ ] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
+- [x] Right-click the axis and select **Format Axis > Axis Options**. Then change the minimum and maximum values.
 - [ ] Click the individual axis values and change them manually.
 
 #### Q158. Given the source data, how do you transform the middle PivotTable to appear like the rightmost PivotTable?
@@ -1338,3 +1338,17 @@ Alignment** tab, click**\_\*\*.
 - [ ] The sorted by column heading will be bold
 - [x] The sorted by column heading filter will have an arrow icon
 - [ ] The sorted by column will be lightly shaded
+
+#### Q162. How many users can open a excel file at same time?
+
+- [ ] 64
+- [ ] 128
+- [x] 256
+- [ ] 512
+
+#### Q163. How to specify cell range from A9 to A99 in Excel?
+
+- [x] (A9 ∶ A99)
+- [ ] (A9 - A99)
+- [ ] (A9 , A99)
+- [ ] (A9 to A99)

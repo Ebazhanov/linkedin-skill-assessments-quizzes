@@ -45,7 +45,7 @@
 - [x] Use the Smart Crop tool.
 - [ ] Hold the Alt (Windows) or Option (Mac) key.
 
-#### Q6. What feature should you use to simulate the in-camera development recipes applied by manufacturers with your own raw files?
+#### Q6. What feature should you use to simulate the in-camera development recipes applied by manufacturers with your raw files?
 
 - [ ] presets
 - [x] Camera Matching profiles
@@ -76,10 +76,10 @@ D. Distort
 E. Perspective Warp
 ```
 
-- [ ] C,D
-- [ ] D,E
-- [x] B,C
-- [ ] C,E
+- [ ] C, D
+- [ ] D, E
+- [x] B, C
+- [ ] C, E
 
 [Reference](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)
 
@@ -134,7 +134,7 @@ E. Perspective Warp
 - [x] Threshold
 - [ ] Image > Mode > Grayscale
 
-#### Q17. In the image shown, why is Sharpen Edges grayed out?
+#### Q17. In the image shown, why are sharpened edges grayed out?
 
 ![In the image shown, why is Sharpen Edges grayed out?](images/009.png?raw=true)
 
@@ -214,7 +214,7 @@ E. Perspective Warp
 - [ ] Clone Stamp
 - [ ] Healing Brush
 
-#### Q27. In order to run a filter on an entire video file, what must you do first?
+#### Q27. To run a filter on an entire video file, what must you do first?
 
 - [ ] Convert the video file to an image sequence.
 - [x] Convert the video file to a Smart Object.
@@ -242,7 +242,7 @@ E. Perspective Warp
 - [ ] that the tool is currently selected
 - [x] grouped or hidden tools
 
-#### Q31. Which command makes it easier to adjust selected areas of color in two images in order to make them similar?
+#### Q31. Which command makes it easier to adjust selected areas of color in two images to make them similar?
 
 - [x] Match Color
 - [ ] Replace Color
@@ -286,7 +286,7 @@ E. Perspective Warp
 - [ ] Brightness/Contrast
 - [ ] Curves
 
-#### Q37. To hide the white borders around pixels that are viewed at a high magnification, which option do you disable?
+#### Q37. To hide the white borders around pixels that are viewed at high magnification, which option do you disable?
 
 ![To hide the white borders around pixels that are viewed at a high magnification, which option do you disable?](images/005.png?raw=true)
 
@@ -297,7 +297,7 @@ E. Perspective Warp
 
 #### Q38. what should you create to save a panel layout arrangement?
 
-- [ ] A tool set
+- [ ] A toolset
 - [ ] A layer set
 - [ ] A keyboard shortcut
 - [x] A workspace
@@ -323,12 +323,12 @@ E. Perspective Warp
 - [ ] Color Handling: Printer Manages Colors
 - [ ] Hard Proofing
 
-#### Q42. You have an RGB image that you want to convert to a duotone, but in the image > Mode menu, the Duotone option in grayed out. Why is this happening?
+#### Q42. You have an RGB image that you want to convert to a Duotone, but in the image > Mode menu, the Duotone option is grayed out. Why is this happening?
 
 - [ ] You must add a spot color channel first
-- [ ] You must remove all existing color by Image > Adjustments > Desaturate first
+- [ ] You must remove all existing colors by Image > Adjustments > Desaturate first
 - [x] Duotones require a single channel, so you must convert to grayscale first
-- [ ] Duotones require two channels, so you must delete one of RGB channels in the Channels panel first
+- [ ] Duotones require two channels, so you must delete one of the RGB channels in the Channels panel first
 
 #### Q43. For smoother, curved edges on a selection, be sure to enable the `___` option.
 
@@ -337,7 +337,7 @@ E. Perspective Warp
 - [ ] blend
 - [ ] curve
 
-#### Q44. Which web-ready format supports transparency and is optimized for continuous tone images such as photos?
+#### Q44. Which web-ready format supports transparency and is optimized for continuous-tone images such as photos?
 
 - [ ] GIF
 - [ ] PNG-8
@@ -434,7 +434,7 @@ E. Perspective Warp
 - [ ] Window > Options
 - [ ] Edit > Toolbar
 
-#### Q55. What would you use to create a vector path for the purpose of altering a letter or shape?
+#### Q55. What would you use to create a vector path to alter a letter or shape?
 
 - [ ] Pencil tool
 - [ ] Vanishing Point
@@ -457,21 +457,21 @@ E. Perspective Warp
 
 [Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)
 
-#### Q58. How do you nondestructively crop an image without permanently discarding pixels?
+#### Q58. How do you non-destructively crop an image without permanently discarding pixels?
 
 - [ ] Make a selection and click **Image > Crop**.
 - [x] Clear the **Deleted Cropped Pixels** check box.
 - [ ] Click **Image > Trim** and select **Transparent Pixels**.
 - [ ] Select the **Delete Cropped Pixels** check box.
 
-#### Q59. Which step is the most effective at making one image show through another to emulate a traditional double-exposure from film photography effect?
+#### Q59. Which step is the most effective at making one image show through another to emulate a traditional double exposure from film photography effect?
 
 - [ ] Apply the Multiply blend mode to the bottom image.
 - [x] Apply the Screen blend mode to the top image.
-- [ ] Apply the Hue blend mode to the top imagee.
+- [ ] Apply the Hue blend mode to the top image.
 - [ ] Apply the Saturation blend mode to the top image.
 
-#### Q60. Which special layer type applies nondestructive color corrections to all of the layers below it?
+#### Q60. Which special layer type applies non-destructive color corrections to all of the layers below it?
 
 - [ ] layer company
 - [ ] fill layer
@@ -480,7 +480,7 @@ E. Perspective Warp
 
 #### Q61. Why can you nondestructively scale a smart object?
 
-- [ ] It converts the image from a raster image to a vector infographics
+- [ ] It converts the image from a raster image to a vector infographic
 - [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
 - [x] It references an image in a separate file that retains its resolutions.
 - [ ] It uses a layer mask for nondestructive editing.
@@ -506,7 +506,7 @@ E. Perspective Warp
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
 
-[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
+[Reference under the section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
 
 #### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
 
@@ -546,11 +546,11 @@ E. Perspective Warp
 #### Q70. How many layer masks can be added to an image?
 
 - [x] up to 8000
-- [] up to 2000
-- [] infinite
-- [] 0
+- [ ] up to 2000
+- [ ] infinite
+- [ ] 0
 
-#### Q71. Which method is a high-quality scaling algorithm for enlarging image?
+#### Q71. Which method is a high-quality scaling algorithm for enlarging an image?
 
 - [x] Bicubic Sharper
 - [ ] Bilinear
@@ -567,53 +567,53 @@ E. Perspective Warp
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
-- [ ] &shy;
-- [ ] &shy;
-- [ ] &shy;
+- [ ] `&shy;`
+- [ ] `&shy;`
+- [ ] `&shy;`
 
-#### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
+#### Q74. Which tool is _not_ found in the **Select and Mask** workspace?
 
 - [ ] Magic Wand
 - [x] Refine Edge
 - [ ] Quick Select
 - [ ] Lasso
 
-#### Q75. Which sets of tool has a content-aware mode ?
+#### Q75. Which sets of tools have a content-aware mode?
 
 - [ ] Perspective Corp
 - [ ] Marquee
 - [ ] Lasso
 - [x] Patch
 
-#### Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
+#### Q76. Which Photoshop panel contains project elements that can be shared across Adobe applications or between collaborators?
 
 - [x] Libraries
 - [ ] Files
 - [ ] Layer Comps
 - [ ] Glyphs
 
-#### Q77. What should you create in order to save a panel layout arrangement?
+#### Q77. What should you create to save a panel layout arrangement?
 
 - [ ] a layer set
-- [x] a tool set
+- [x] a toolset
 - [ ] a keyboard shortcut
 - [ ] a workspace
 
-#### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
+#### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer above the image, but you cannot see any visible changes when you click. What is likely the problem?
 
 - [ ] You need to convert the image to a Smart Object before using this tool.
 - [ ] You must first change the blending mode to Screen
 - [ ] The Spot Healing Brush tool cannot be used on a transparent layer
 - [x] The Sample all layers check box on the toolbar is not selected
 
-#### Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
+#### Q79. Which blend mode is useful for dropping out the darkest areas of the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
 
 - [ ] Multiply
 - [ ] Screen
 - [x] Color
 - [ ] Hard Light
 
-#### Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?
+#### Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
 
 - [ ] B, C, and D
 - [ ] B
@@ -624,8 +624,8 @@ E. Perspective Warp
 
 - [ ] The spot healing brush tool needs a source point, but the healing brush automatically samples pixels nearby.
 - [x] The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.
-- [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
-- [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+- [ ] The spot healing brush tool does not match the texture, lighting, shading, or transparency of the sampled pixels, but the healing brush tool blends texture, light, shading, and transparency of pixels nearby.
+- [ ] The healing brush tool does not match the texture, lighting, shading, or transparency of the sampled pixels, but the spot healing brush tool blends the texture, light, shading, and transparency of pixels nearby.
 
 #### Q82. Which tool is _not_ found in the _Select and Mask_ workspace?
 
@@ -664,12 +664,12 @@ E. Perspective Warp
 - [x] Feather
 - [ ] Frow
 
-#### Q87. What can be said about the Curves adjustment shown here?
+#### Q87. What can be said about the Curve adjustment shown here?
 
 ![What can be said about the Curves adjustment shown here?](images/image02.jpeg?raw=true)
 
-- [ ] It will prevent shadows from pluhhing up.
-- [x] It will increase the midtone contrast.
+- [ ] It will prevent shadows from pushing up.
+- [x] It will increase the mid-tone contrast.
 - [ ] It will decrease the overall saturation.
 - [ ] It will prevent highlights from being blown out.
 
@@ -678,8 +678,8 @@ E. Perspective Warp
 ![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/image03.jpeg?raw=true)
 
 - [ ] The Sycamore Leaf 1 layer is the base layer of a clipping mask.
-- [ ] The Sycamore Leaf 1 layer is linked layer.
-- [x] The Sycamore Leaf 1 layer is Smart Object.
+- [ ] The Sycamore Leaf 1 layer is linked.
+- [x] The Sycamore Leaf 1 layer is a Smart Object.
 - [ ] The Sycamore Leaf 1 layer is selected.
 
 #### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
@@ -691,7 +691,7 @@ E. Perspective Warp
 - [ ] B
 - [x] B and C
 
-#### Q90. What special layer type applies nondestructive color correction to all of the layers below it ?
+#### Q90. What special layer type applies a non-destructive color correction to all of the layers below it?
 
 - [ ] layer comp
 - [x] adjustment layer
@@ -705,7 +705,7 @@ E. Perspective Warp
 - [ ] Combine
 - [ ] Link
 
-#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_ .
+#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however, Vibrance is more specific to \_.
 
 - [x] Midtones
 - [ ] Shadows
@@ -714,7 +714,7 @@ E. Perspective Warp
 
 [Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
 
-#### Q93. Which menu contains the duplicate layer option in photoshop?
+#### Q93. Which menu contains the duplicate layer option in Photoshop?
 
 - [x] Layer
 - [ ] Filter
@@ -728,7 +728,7 @@ E. Perspective Warp
 - [ ] Click the On-image adjustment tool, hover over the image with what has become an eyedropper cursor, and drag to the left.
 - [x] Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image.
 - [ ] Enable the On-image adjustment tool, select the hue you would like from the image, and then adjust the slider that appears below Colorize
-- [ ] Click the On-image adiustment tool, hover over the image with what has become an evedropper cursor, and drag to the right.
+- [ ] Click the On-image adjustment tool, hover over the image with what has become an eavesdropper cursor, and drag to the right.
 
 #### Q95. You need to preserve layers in your file. Which file format do you use?
 
@@ -737,11 +737,11 @@ E. Perspective Warp
 - [ ] JPEG
 - [ ] PNG
 
-#### Q96. Which RGB control do you click to add a single control point to the Curves adjustment?
+#### Q96. Which RGB control do you click to add a single control point to the Curve adjustment?
 
 ![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png?raw=png)
 
-- [ ] A (on-image adjustment tool)
+- [x] A (on-image adjustment tool)
 - [ ] B (sample in image to set black point)
 - [ ] C (sample in image to set white point)
 - [ ] D (sample in image to set gray point)
@@ -750,7 +750,7 @@ E. Perspective Warp
 
 - [ ] Click **File > Scripts > Image Processor**.
 - [ ] Click **File > Export > Export Layer Comps to Files**.
-- [ ] Click **File > Export > Layers to Files**.
+- [x] Click **File > Export > Layers to Files**.
 - [ ] Click **File > Scripts > Load files into stack**.
 
 #### Q98. Which options bar icon subtracts from a selection?
@@ -760,7 +760,7 @@ E. Perspective Warp
 - [ ] A
 - [ ] B
 - [ ] C
-- [ ] D
+- [x] D
 
 #### Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?
 
@@ -769,16 +769,16 @@ E. Perspective Warp
 - [x] Clone Stamp Tool
 - [ ] Eraser Tool
 
-#### Q100. A Filter name or menu item followed by an elipsis (...) means that the filter or menu item \_?
+#### Q100. A Filter name or menu item followed by an ellipsis (...) means that the filter or menu item \_?
 
 - [ ] works in 16-bit mode
-- [x] is optimize for multiple processors
+- [x] is optimized for multiple processors
 - [ ] has an interface
 - [ ] has no interface
 
 #### Q101. The Background of your image is white. There is a red solid color adjustment layer mask that is black with a white circle, as shown. With nothing else selected, what happens to the image when you select the layer mask and then select Image > Adjustment > Invert?
 
-- [ ] The red circle changes to cyan, but the color outside the circle remains red although it is still transparent. You can see the cyan only in the thumbnail in the Layes panel.
+- [ ] The red circle changes to cyan, but the color outside the circle remains red although it is still transparent. You can see the cyan only in the thumbnail in the Layers panel.
 - [ ] The circle changes from red to cyan
 - [x] The red circle with white around it changes to a white circle with red around it.
 - [ ] The circle disappears
@@ -812,9 +812,9 @@ E. Liquify
 
 #### Q105. What is the difference between the Healing Brush tool and the Spot Healing Brush tool?
 
-- [ ] The Spot Healing Brush tool does not match texture, lighting,shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
-- [x] The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby.
-- [ ] The Healing Brush tool does not match texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
+- [ ] The Spot Healing Brush tool does not match the texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading, and transparency of pixels nearby.
+- [x] The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixels nearby.
+- [ ] The Healing Brush tool does not match the texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading, and transparency of pixels nearby.
 - [ ] The Healing Brush tool needs a source point, but the Spot Healing Brush automatically samples pixels nearby.
 
 #### Q106. The options bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
@@ -828,22 +828,22 @@ E. Liquify
 
 - [x] Use the PDF Presentation command
 - [ ] Check to see if you have Acrobat DC Installed
-- [ ] Save each PDF separately first and the combine them
+- [ ] Save each PDF separately first and then combine them
 - [ ] Click File > Export > Export Layers to Files
 
-#### Q108. Which panel allow you to record commands for future playback on another image?
+#### Q108. Which panel allows you to record commands for future playback on another image?
 
 - [x] Actions
 - [ ] Inspector
 - [ ] Scripts
 - [ ] Layers
 
-#### Q109. How do you nondestructively use the Clone Stamp tool on a rasterized layer?
+#### Q109. How do you non-destructively use the Clone Stamp tool on a rasterized layer?
 
 - [x] Create a new layer above it and set the Clone Stamp tool's Sample setting to Current & below
-- [ ] Add a Photo Filter adjustment layer above the layer. Then use the Clone Stamp Toool.
-- [ ] Convert it ot a Smart Object. Then use the Clone Stampa Tool
-- [ ] While the layer selected, set the Clone Stamp tool's Sample setting to Current & Below.
+- [ ] Add a Photo Filter adjustment layer above the layer. Then use the Clone Stamp Tool.
+- [ ] Convert it to a Smart Object. Then use the Clone Stampa Tool
+- [ ] While the layer is selected, set the Clone Stamp tool's Sample setting to Current & Below.
 
 #### Q110. What must you do to use Version History?
 
@@ -878,3 +878,24 @@ E. Liquify
 - [ ] Click window > Arrange > Tile.
 
 [Reference](https://helpx.adobe.com/in/photoshop/using/viewing-multiple-images.html)
+
+#### Q114. How do you nondestructively crop an image without permanently discarding pixels?
+
+- [ ] Click Image > Trim and select Transparent Pixels.
+- [ ] Make a selection and click Image > Crop.
+- [x] Clear the Delete Cropped Pixels check box.
+- [ ] Select the Delete Cropped Pixels check box.
+
+#### Q115. If you want to change the resolution of an image using the Pixels per Inch setting, which command do you use?
+
+- [ ] Canvas Size
+- [ ] Calculations
+- [x] Image Size
+- [ ] Apply Image
+
+#### Q116. \_\_\_\_ editing software Photoshop uses raster-based images to edit photos.
+
+- [ ] Photo
+- [ ] Video
+- [x] Both A and B
+- [ ] None of these

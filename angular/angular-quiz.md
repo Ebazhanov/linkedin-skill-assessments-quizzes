@@ -13,7 +13,7 @@ export class UserDetailsComponent {
 ```
 
 - [x] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
-- [ ] It indicates that the `<p>` tag be rendered as a child of the parent view that uses this component.
+- [ ] It indicates that the `<p>` tag is rendered as a child of the parent view that uses this component.
 - [ ] It makes the `<p>` tag in the template support content projection.
 - [ ] It makes the `<p>` tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the `<p>` tag that has #bio on it.
 
@@ -137,7 +137,7 @@ export class OrderService {
 
 [Angular.io- Structural Directives](https://angular.io/guide/built-in-directives#listing-items-with-ngfor)
 
-#### Q9. What are the two component decorator metadata properties used to set up CSS styles for a component?
+#### Q9. What are the two-component decorator metadata properties used to set up CSS styles for a component?
 
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
@@ -333,7 +333,7 @@ export class CalloutDirective {
 ```
 
 - [x] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
-- [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise nothing will happen.
+- [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise, nothing will happen.
 - [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
 - [ ] If the DOM element that this directive is placed on has the CSS property font-weight set on it, the mouseenter and mouseleave events will get raised.
 
@@ -375,7 +375,7 @@ export class CalloutDirective {
 
 - [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
 - [x] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
-- [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
+- [ ] Both of them are wrong. A strong type cannot be used for useClass or useExisting.
 - [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
 
 1. [Angular.io - Dependency Providers](https://angular.io/guide/dependency-injection-providers#defining-providers)
@@ -393,7 +393,7 @@ export class CalloutDirective {
 
 - [ ] a key/value mapping for setting @Input values on the routed component instance
 - [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
-- [ ] a property on the route that can be used to load dynamic data for the route
+- [ ] property on the route that can be used to load dynamic data for the route
 - [ ] an object that will get auto-injected into the routed component's constructor.
 
 1. [TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object)
@@ -411,9 +411,9 @@ export class ProductComponent {
 }
 ```
 
-- [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the `product.name` value; if not, then nothing will get rendered.
-- [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the `product.name` value; otherwise it will render the `<div>` element with no value in it.
-- [ ] It produces an error, since ngIf is not a built-in structural directive.
+- [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the `product.name` value; if not, then nothing will be rendered.
+- [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the `product.name` value; otherwise, it will render the `<div>` element with no value in it.
+- [ ] It produces an error since ngIf is not a built-in structural directive.
 - [x] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name` field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
 
 [Reference (angular.io)](https://angular.io/api/common/NgIf)
@@ -479,9 +479,9 @@ export class TabsListComponent {
 #### Q30. In order for Angular to process components in an application, where do the component types need to be registered?
 
 - [ ] within a script tag in the index.html file
-- [ ] in an NgModule decorator metadata tag named _components_
+- [ ] in a NgModule decorator metadata tag named _components_
 - [ ] No registration is needed simply include the component files in an app directory.
-- [x] in an NgModule decorator metadata property named _declarations_
+- [x] in a NgModule decorator metadata property named _declarations_
 
 [angular.io](https://angular.io/guide/ngmodule-api#ngmodule-metadata)
 
@@ -530,7 +530,7 @@ export class ToolsComponent {
 - [x] A new instance of that service is created when the module is lazy loaded.
 - [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
 - [ ] If an instance of the service has not been created at the root level yet. it will create one there and then use it.
-- [ ] A single instance of that service is always instantiated at root and is the only one ever used, including within lazy modules.
+- [ ] A single instance of that service is always instantiated at the root and is the only one ever used, including within lazy modules.
 
 #### Q34. What is the HostBinding decorator doing in this directive?
 
@@ -545,7 +545,7 @@ export class HighlightDirective {
 
 - [x] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
-- [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to true; and if it is not added on the host it will get set to false.
+- [ ] It specifies that if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
 
 [StackOverflow](https://stackoverflow.com/a/46207423)
@@ -589,7 +589,7 @@ export class HighlightDirective {
 - [x] D
 
   ```html
-  <input type="text" formControlName="username" #userName="ngModer" />
+  <input type="text" formControlName="username" #userName="ngModel" />
   <span *ngIf="userName.errors.minlength">
     Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
   </span>
@@ -601,8 +601,8 @@ export class HighlightDirective {
 
 - [ ] It renders the CSS exactly how you wrote it without any changes.
 - [ ] It makes use of shadow DOM markup and CSS.
-- [x] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
-- [ ] It renders all of the CSS rules you write as inline CSS on all of the DOM elements you use them on in the template.
+- [x] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute IDs.
+- [ ] It renders all of the CSS rules you write as inline CSS on all of the DOM elements you use in the template.
 
 [Angular.io](https://angular.io/guide/view-encapsulation#inspecting-generated-css)
 
@@ -798,7 +798,7 @@ getSettings()
 
 - [ ] Put the logic of that service method into the service constructor instead.
 - [x] Use a factory provider at the root AppModule level that depends on the service to call that service method.
-- [ ] it is not possible to do it at application start; you can do it only at a component level.
+- [ ] It is not possible to do it at the application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
 
 1. [Angular.io](https://angular.io/guide/dependency-injection-providers)
@@ -818,8 +818,9 @@ const userService = TestBed.get(UserService);
 - [ ] The TestBed is being used to test a component's view.
 - [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
-- `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
-  `Although it will work when multiple providers in this configuration are asserted against in a single test.`
+
+`All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
+`Although it will work when multiple providers in this configuration are asserted against in a single test.`
 
 #### Q45. What is the primary difference between a component and a directive?
 
@@ -896,7 +897,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [ ] It is declaring that the `OrderHistoryComponent` will have its own version of a `DataService` and that it should never use any existing instances. The `DataService` would need to be instantiated within the class as a private field for this code to be complete and working.
+- [ ] It declares that the `OrderHistoryComponent` will have its own version of a `DataService` and that it should never use any existing instances. The `DataService` would need to be instantiated within the class as a private field for this code to be complete and working.
 - [x] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
 - [ ] It provides a way to do component testing only; the constructor has no usage in the actual run of the Angular application.
 - [ ] It enables the custom element that the component targets to have a custom property named `dataService` that can be used to bind an existing `DataService` instance to.
@@ -1031,7 +1032,7 @@ export interface AppSettings {
 export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
 
-- [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the InjectionToken constructor call, making it automatically available to all NgModules, services and components throughout the Angular application without the need to inject it anywhere.
+- [ ] The InjectionToken adds an instance of the AppSettings to the root provider via the InjectionToken constructor call, making it automatically available to all NgModules, services and components throughout the Angular application without the need to inject it anywhere.
 - [x] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
 - [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be used on constructor parameters via an @AppSettings decorator.
 - [ ] This code has an error since you cannot use a TypeScript interface for the generic type on the InjectionToken
@@ -1079,9 +1080,9 @@ References:
 <h1 [title]="userName">Current user is {{ userName }}</h1>
 ```
 
-- [ ] title="userName"
-- [x] title="{{ userName }}"
-- [ ] title="{{ 'userName' }}"
+- [ ] `title="userName"`
+- [x] `title="{{ userName }}"`
+- [ ] `title="{{ 'userName' }}"`
 - [ ] The only way to do it is by using the square brackets.
 
 #### Q57. What is the `async` pipe doing in this example?
@@ -1100,7 +1101,7 @@ export class UsersComponent implements OnInit {
 }
 ```
 
-- [ ] It is doing nothing, since the async pipe cannot be used in an `ngFor` statement.
+- [ ] It is doing nothing since the async pipe cannot be used in an `ngFor` statement.
 - [ ] It is configuring the `ngFor` iteration to support multiple lists of users at the same time.
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
@@ -1307,7 +1308,7 @@ export class ProductNameComponent {  @Input() productName: string
 
 - [x] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
 - [ ] It is not possible. Providers can be configured only with class types.
-- [ ] Simply add the object instance or literal to the providers array.
+- [ ] Simply add the object instance or literal to the provider's array.
 - [ ] Make use of the `asValue` provider configuration property, setting it to true.
 
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
@@ -1441,9 +1442,9 @@ export class CustomValidatorDirective implements Validator {}
 #### Q81. What is the most common use for the ngOnDestory lifecle hook?
 
 - [ ] Remove dome elements from the components's view
-- [ ] All of theses answers
-- [ ] Delete any injected serviced the
-- [x] Unsubscribe from obervables and detach
+- [ ] All of these answers
+- [ ] Delete any injected services the
+- [x] Unsubscribe from observables and detach
 
 #### Q82. What NgModule decorator metadata property is leverage to allow other ....?
 
@@ -1457,4 +1458,23 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule , but the module is still loaded.
 - [ ] CanActivate and CanLoad do the exact same thing.
 - [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
-- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table . CanActivate is used to manage access to routes at the time they are requested
+- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested
+
+#### Q84. With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?
+
+```ts
+@Component({
+  selector: 'app-date-card',
+  template: '',
+})
+export class DateCardComponent {
+  currentYear() {
+    return new Date().getFullYear();
+  }
+}
+```
+
+- [x] `{{ currentYear() }}`
+- [ ] `{{ component.currentYear() }}`
+- [ ] `{{ currentYear }}`
+- [ ] Class functions cannot be called from template syntax.

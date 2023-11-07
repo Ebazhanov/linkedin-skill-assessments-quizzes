@@ -105,7 +105,7 @@ my_list
 
 **Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`
 
-#### Q11. What is the correct way to write a doctest?
+#### Q11. What is the proper format for writing a doctest?
 
 - [ ] A
 
@@ -231,7 +231,7 @@ instance.password
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
 
-#### Q18. What is the purpose of an if/else statement?
+#### Q18. What is the use of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
 - [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
@@ -745,7 +745,7 @@ BTW...what \_do* you call that naming style? snake_case? That's what I'll call i
 - [ ] in camel case without using underscores to separate words -- e.g. `maxValue = 255`
 - [ ] in lowercase with underscores to separate words -- e.g. `max_value = 255`
 - [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
-- [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
+- [ ] in the mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
 Use an uppercase single letter, word, or words. Separate words with underscores to improve readability.
 [Reference](https://realpython.com/python-pep8/)
@@ -1119,7 +1119,7 @@ else;
 - [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
-`defaultdict` is a container like dictionary present in the module collections. The functionality of both dictionaries and `defaultdict` are almost the same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exist.
+`defaultdict` is a container-like dictionary present in the module collections. The functionality of both dictionaries and `defaultdict` are almost the same except for the fact that `defaultdict` never raises a `KeyError`. It provides a default value for the key that does not exist.
 
 **example**
 
@@ -2294,7 +2294,7 @@ print("programming".center())
 - [x] Error says `TypeError: center expected at least 1 argument, got 0`.
 - [ ] None of the above.
 
-[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is default) as the fill character.  
+[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is the default) as the fill character.  
 Syntax: `string.center(length, character)` where `length` is required!
 
 #### Q159. Who created the Python programming language?
@@ -2575,7 +2575,7 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] [(x,y) for x in characters for y in actors]
 - [ ]
 
-```python
+```
 d = {}
 for x in range(1, len(characters)):
     d[x] = actors [x]
@@ -2583,16 +2583,16 @@ for x in range(1, len(characters)):
 
 #### Q179. What will this code output to the screen?
 
-```python
+```
 for i in range(5):
-print (i)
+    print (i)
 else:
-print("Done!")
+    print("Done!")
 ```
 
-- [x]
+- [x] :
 
-```python
+```
 1
 2
 3
@@ -2601,9 +2601,9 @@ Done!
 ```
 
 - [ ] You will get a syntax error.
-- [ ]
+- [ ] :
 
-```python
+```
 0
 1
 3
@@ -2612,12 +2612,74 @@ Done!
 Done!
 ```
 
-- [ ]
+- [ ] :
 
-```python
+```
 1
 3
 4
 5
 Done!
 ```
+
+#### Q180. When is the `if __name__ == "__main__":` block executed in a Python script?
+
+- [ ] Always, as it is required in every Python script.
+- [x] Only when the script is executed directly from the command line or as the main program.
+- [ ] Only when the script contains syntax errors.
+- [ ] Only when the script is imported as a module in another script.
+
+The `if __name__ == "__main__":` block is executed when the script is run directly but not when it's imported as a module in another script.
+[reference](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
+
+#### Q181. What will be the output of the following Python code?
+
+```python
+def square(x):
+	return x * x
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(square, numbers)
+result = list(squared_numbers)
+print(result)
+```
+
+- [x] `[1, 4, 9, 16, 25]`
+- [ ] `[1, 2, 3, 4, 5]`
+- [ ] `[1, 8, 27, 64, 125]`
+- [ ] `[2, 4, 6, 8, 10]`
+
+The code defines a `square` function to calculate the square of a number. It then uses the `map` function to apply this function to each element in the `numbers` list, resulting in a new iterable. Finally, the `list` constructor is used to convert this iterable into a list. The output will be a list of squared numbers.
+[reference](https://docs.python.org/3/library/functions.html#map)
+
+#### Q182. Which of the following is not a valid built-in function in Python?
+
+- [ ] int
+- [ ] string
+- [ ] boolean
+- [x] array
+
+[Source](https://docs.python.org/3/library/functions.html)
+
+#### Q183. Which of the following is not a valid Python data type?
+
+- [ ] int
+- [x] char
+- [ ] float
+- [ ] str
+
+#### Q184. In Python, which function is used to read a line from the console input?
+
+- [x] input()
+- [ ] read_line()
+- [ ] console_input()
+- [ ] getline()
+
+[Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)
+
+#### Q185.1. What will be the output of the following Python code?
+
+print("Hello {name1} and {name2}".format(name1='foo', name2='bin')) -[x] Hello foo and bin
+-[] Hello {name1} and {name2}
+-[]Error
+-[] Hello and

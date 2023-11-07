@@ -103,7 +103,7 @@
 - [ ] digital signature
 - [x] symmetric encryption
 
-#### Q14. What is the difference between DRP and BCP
+#### Q14. What is the difference between DRP and BCP?
 
 - [x] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
 - [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
@@ -838,10 +838,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
 
-- [x] what you have and what you do
+- [ ] what you have and what you do
 - [ ] what you know and what you are
-- [ ] what you have and what you know
-- [x] what you do and what you know
+- [x] what you have and what you know
+- [ ] what you do and what you know
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
 
@@ -1022,3 +1022,283 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] SMS message
 
 [Reference](https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/) `"(...)All in all, MFA is still very effective at preventing most mass and automated attacks; however, users should be aware that there are ways to bypass some MFA solutions, such as those relying on SMS-based verification."`
+
+#### Q133. Which of the following is NOT a common authentication factor used in cybersecurity?
+
+- [ ] Something you know
+- [ ] Something you have
+- [ ] Something you are
+- [x] Something you want
+
+#### Q134. Which of the following best describes a "Honeytoken" in cybersecurity?
+
+- [x] A deceptive network host that appears legitimate to attackers.
+- [ ] A user-friendly interface for managing network traffic.
+- [ ] An encryption key used in secure communication.
+- [ ] A hardware device for two-factor authentication.
+
+#### Q135. What is the primary purpose of a "Bastion Host" in a network security architecture?
+
+- [x] To host publicly accessible services while protecting the internal network.
+- [ ] To intercept and analyze all network traffic for security purposes.
+- [ ] To act as a backup server in case the main server fails.
+- [ ] To facilitate secure communication between two remote networks.
+
+#### Q136. In network analysis, what does the term "Port Mirroring" refer to?
+
+- [x] A process of copying network packets to a specific destination for analysis.
+- [ ] A method of encrypting data during transmission to secure it.
+- [ ] A mechanism for load balancing network traffic.
+- [ ] A firewall rule that allows traffic through specific network ports.
+
+#### Q137. Which of the following is NOT a common method of concealing malicious software on a network?
+
+- [ ] Polymorphic malware
+- [ ] Rootkit
+- [x] Packet Sniffing
+- [ ] Stealthy tunneling protocols
+
+#### Q138. In the context of cybersecurity, what does the acronym "IDS" stand for?
+
+- [ ] Internet Domain System
+- [x] Intrusion Detection System
+- [ ] Internet Data Security
+- [ ] Integrated Defense Strategy
+
+#### Q139. What does a "Man-in-the-Middle (MitM)" attack involve?
+
+- [x] Intercepting communication between two parties without their knowledge.
+- [ ] Cracking encrypted passwords.
+- [ ] Disrupting network services with a Distributed Denial of Service (DDoS) attack.
+- [ ] Installing malicious software on a network server.
+
+#### Q140. Which of the following is an essential element of a Public Key Infrastructure (PKI)?
+
+- [ ] A firewall for network security.
+- [x] A trusted Certificate Authority (CA).
+- [ ] A virtual private network (VPN).
+- [ ] A network router.
+
+#### Q141. What type of encryption is typically used to secure wireless network traffic in a WPA3 network?
+
+- [ ] WEP (Wired Equivalent Privacy)
+- [x] AES (Advanced Encryption Standard)
+- [ ] SSL (Secure Sockets Layer)
+- [ ] DES (Data Encryption Standard)
+
+#### Q142. Which network security protocol is used to provide secure, encrypted communication over the Internet, often used for securing websites?
+
+- [ ] SSH (Secure Shell)
+- [ ] SNMP (Simple Network Management Protocol)
+- [x] HTTPS (Hypertext Transfer Protocol Secure)
+- [ ] ICMP (Internet Control Message Protocol)
+
+#### Q143. What does the term "Zero-Day Vulnerability" refer to in cybersecurity?
+
+- [ ] A vulnerability that has been known and patched for zero days.
+- [x] A vulnerability that is not yet known to the software vendor or the public.
+- [ ] A vulnerability that affects zero network devices.
+- [ ] A vulnerability that cannot be exploited.
+
+#### Q144. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
+
+- [ ] duqu
+- [ ] agent BTZ
+- [x] stuxnet
+- [ ] flame
+
+#### Q145. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
+
+- [ ] in the risk assessment documentation
+- [x] in the risk register
+- [ ] in the business impact ledger
+- [ ] in the Orange Book
+
+#### Q146. Which of the following terms is used to describe a collection of unrelated patches?
+
+- [x] Hotfix
+- [ ] Update
+- [ ] Security Fix
+- [ ] Service Pack
+
+#### Q147. How often should security teams conduct a review of the privileged access that a user has to sensitive systems?
+
+- [x] On a periodic basis
+- [x] When a User leaves the organisation
+- [x] When a User changes roles
+- [ ] On a daily basis
+
+#### Q148. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
+
+- [ ] Eradication / Remediation
+- [ ] Certification
+- [ ] Reporting
+- [x] Lessons Learned
+
+#### Q149. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+
+- [x] asymmetric
+- [ ] symmetric
+- [ ] hashing
+- [ ] all of these answers
+
+#### Q150. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+
+- [ ] Reporting
+- [ ] Recovery
+- [x] Eradiction / Remediation
+- [ ] Lessons Learned
+
+#### Q151. What is the purpose of a Firewall in network security?
+
+- [ ] To encrypt data transmission
+- [ ] To identify and remove malware
+- [x] To control incoming and outgoing network traffic
+- [ ] To provide secure access to a network
+
+#### Q152. Which type of cyber attack aims to deceive individuals into revealing sensitive information like passwords or credit card numbers?
+
+- [ ] Ransomware
+- [ ] DDoS Attack
+- [x] Phishing Attack
+- [ ] SQL Injection
+
+#### Q153. What does the term "Social Engineering" refer to in cybersecurity?
+
+- [ ] Advanced encryption techniques
+- [ ] Hacking social media accounts
+- [x] Manipulating individuals to divulge confidential information
+- [ ] Securing social media networks
+
+#### Q154. Which encryption algorithm is commonly used to secure data transmission on the internet?
+
+- [ ] ROT13
+- [x] AES
+- [ ] Caesar Cipher
+- [ ] RSA
+
+#### Q155. In cybersecurity, what does the acronym "VPN" stand for?
+
+- [x] Virtual Private Network
+- [ ] Very Private Network
+- [ ] Virtual Personal Network
+- [ ] Virtual Public Network
+
+#### Q156. Which of the following is an example of a strong password?
+
+- [ ] Password123
+- [ ] 123456
+- [ ] JohnSmith
+- [x] P@ssw0rd!
+
+#### Q157. What does the term "Zero Trust" mean in the context of cybersecurity?
+
+- [ ] Trusting all network traffic
+- [x] Verifying all network traffic, regardless of location
+- [ ] Trusting only internal network traffic
+- [ ] Verifying network traffic only from trusted sources
+
+#### Q158. What is the purpose of a Security Information and Event Management (SIEM) system?
+
+- [ ] To block all incoming network traffic
+- [ ] To encrypt sensitive data
+- [ ] To manage user passwords
+- [x] To collect, analyze, and respond to security events
+
+#### Q159. Which cybersecurity practice involves deliberately probing a network or system to find vulnerabilities?
+
+- [ ] Firewall Configuration
+- [ ] Encryption
+- [x] Penetration Testing
+- [ ] Patch Management
+
+#### Q160. What is the primary goal of a Red Team in cybersecurity?
+
+- [ ] To develop software applications
+- [ ] To monitor network traffic
+- [x] To simulate cyber attacks to find vulnerabilities
+- [ ] To implement security policies
+
+#### Q161. Which type of malware encrypts a victim's files and demands a ransom for decryption?
+
+- [ ] Spyware
+- [ ] Worm
+- [ ] Trojan
+- [x] Ransomware
+
+#### Q162. What does the term "Patch Management" refer to in cybersecurity?
+
+- [ ] Securing physical access to servers
+- [x] Managing software updates and fixes
+- [ ] Encrypting sensitive data
+- [ ] Implementing network firewalls
+
+#### Q163. What is the primary purpose of a Data Loss Prevention (DLP) solution?
+
+- [ ] To prevent physical theft of devices
+- [ ] To encrypt all network traffic
+- [ ] To monitor user activities
+- [x] To prevent unauthorized disclosure of sensitive data
+
+#### Q164. Which cybersecurity framework provides a set of best practices for securing information systems?
+
+- [ ] ISO 9001
+- [ ] COBIT
+- [ ] Six Sigma
+- [x] NIST Cybersecurity Framework
+
+#### Q165. What is the purpose of a Secure Sockets Layer (SSL) certificate?
+
+- [ ] To block incoming network traffic
+- [x] To encrypt data transmitted between a web server and a browser
+- [ ] To authenticate users on a network
+- [ ] To monitor user activities
+
+#### Q166. Which type of attack involves overwhelming a system or network with a flood of traffic to make it unavailable?
+
+- [ ] Phishing
+- [ ] Ransomware
+- [ ] Man-in-the-Middle
+- [x] Distributed Denial of Service (DDoS)
+
+#### Q167. What does the term "Two-Factor Authentication" mean in cybersecurity?
+
+- [ ] Using two different web browsers
+- [x] Using two different authentication methods for added security
+- [ ] Logging in twice to a system
+- [ ] Using two different antivirus programs
+
+#### Q168. What is the purpose of a Security Token in authentication?
+
+- [ ] To generate one-time passwords
+- [ ] To block incoming network traffic
+- [x] To provide an additional layer of authentication
+- [ ] To encrypt sensitive data
+
+#### Q169. What is the role of a Security Operations Center (SOC) in cybersecurity?
+
+- [ ] To develop software applications
+- [ ] To manage user passwords
+- [x] To monitor and respond to security incidents
+- [ ] To encrypt sensitive data
+
+#### Q170. Which type of attack involves tricking a user into executing a malicious code by disguising it as a legitimate file or application?
+
+- [ ] DDoS Attack
+- [ ] SQL Injection
+- [ ] Ransomware
+- [x] Malware
+
+#### Q171.Which of the following is NOT a common authentication factor used in multi-factor authentication (MFA)?
+
+- [ ] Something you are
+- [ ] Something you do
+- [ ] Something you have
+- [x] Something you say
+
+#### Q172. What type of cyberattack aims to make a service unavailable by overwhelming it with traffic?
+
+- [x] DDoS (Distributed Denial of Service)
+- [ ] Phishing
+- [ ] Ransomware
+- [ ] Malware

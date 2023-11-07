@@ -187,12 +187,12 @@
 
 - [ ] From the 28-page PDF, extract and save the three pages as a new PDF. For each of the two three-page PDFs, choose **File > Export to > Text (Plain).**
 - [ ] Arrange the two PDFs in side-by-side windows in Acrobat. Scroll to the first page of the section in the larger PDF, and compare the visually, line by line.
-- [ ] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
+- [x] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
 - [ ] Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of it text.
 
 #### Q27. You need to send multiple documents to a potential client, and you would like to add security to all of the documents at once. What is the easiest method?
 
-- [ ] Portfolio
+- [x] Portfolio
 - [ ] LiveCycle Rights Management
 - [ ] Security Envelope
 - [ ] Email Review
@@ -200,7 +200,7 @@
 #### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
 
 - [ ] Press-ready PDF
-- [ ] Optimized PDF
+- [x] Optimized PDF
 - [ ] Certified PDF
 - [ ] Reader Extended PDF
 
@@ -221,7 +221,7 @@
 #### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
 
 - [ ] A
-- [ ] B
+- [x] B
 - [ ] C
 - [ ] D
 
@@ -248,7 +248,7 @@
 
 #### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
 
-- [ ]Preferences > Signatures > Identities & Trusted Certificates
+- [ ] Preferences > Signatures > Identities & Trusted Certificates
 - [ ] Preferences > Signatures > Document Timestamping
 - [ ] Preferences > Signatures > Verification
 - [x] Preferences > Signatures > Creation and Appearance
@@ -331,7 +331,23 @@
 
 #### Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?
 
-- [ ] ![image](images/001.jpg?raw=jpg)
+- [x] ![image](images/001.jpg?raw=jpg)
 - [ ] ![image](images/002.jpg?raw=jpg)
 - [ ] ![image](images/003.jpg?raw=jpg)
 - [ ] ![image](images/004.jpg?raw=jpg)
+
+[Reference](https://uhlcithelp.zendesk.com/hc/en-us/articles/360051734294-Adobe-Acrobat-Workspace-Basics)
+
+#### Q47. You need to submit a PDF to a commercial printing company. They specify that the PDF shall only contain CMYK image content, with no RB images, no layers, and no live transparency. Which preset will meet these specifications?
+
+- [ ] PDF/X-3
+- [ ] PDF/X-4
+- [x] PDF/X-1a
+- [ ] PDF/X-1b
+
+#### Q48. A historical society asks you to design a book that will honor the society's founders. They want a PDF version of the book that ensures that the file will be readable in the distant future. What PDF format is designed for future readability?
+
+- [ ] PDF/X-1a
+- [ ] PDF/X-3
+- [ ] PDF/X-4
+- [x] PDF/A-1a

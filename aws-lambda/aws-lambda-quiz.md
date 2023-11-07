@@ -296,8 +296,8 @@
 
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
-- [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.
+- [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
@@ -566,3 +566,10 @@
 - [x] b) No, there is no default limit applied at a functional level.
 - [ ] c) The default limit depends on the AWS Lambda service plan.
 - [ ] d) Functional limits are set by users during configuration.
+
+#### Q73. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?
+
+- [x] The default 5 mintutes timeout.
+- [ ] Lambda does not allow vedio encoding.
+- [ ] s3 transfer bottlenecks
+- [ ] s3 cannot talk to Lambda
