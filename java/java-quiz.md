@@ -2447,10 +2447,6 @@ public interface Square {
 
 [Reference](https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 3d83c46f9a905256d3ed1b367118a7a31a23b220
 #### Q167. Calculate the space complexity of the following program.
 
 ```java
@@ -2465,11 +2461,8 @@ void createArray(int n) {
 - [ ] O(1)
 - [x] O(N)
 - [ ] O(N^2)
-- [ ] O(log(N)
+- [ ] O(log(N))
 
-<<<<<<< HEAD
-//In this program, a dynamic array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
-=======
 //In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
 #### Q167. What will be the output of the following Java code?
@@ -2561,4 +2554,3 @@ class abc
 - [ ] has-a
 - [ ] was-a
 - [ ] uses-a
->>>>>>> 3d83c46f9a905256d3ed1b367118a7a31a23b220
