@@ -736,7 +736,6 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] Representative ID Number; Total Sales This Year
 - [x] Market Region; Total Sales This Year
 
-
 #### Q88. Cell A1 contains the number 3. Which formula returns the text Apple?
 
 - [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
