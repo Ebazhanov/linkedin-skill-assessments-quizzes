@@ -913,7 +913,7 @@ explain:
 
 - [x] .docx
 - [ ] .txt
-- [ ].pdf
+- [ ] .pdf
 - [ ] .xlsx
 
 #### Q114: Which view in Microsoft Word is best for editing and formatting a document?
@@ -954,7 +954,7 @@ explain:
 #### Q119: What is the default file format for saving a Word document in the newer versions of Microsoft Word?
 
 - [ ] .doc
-- [ ].txt
+- [ ] .txt
 - [ ] .rtf
 - [x] .docx
 

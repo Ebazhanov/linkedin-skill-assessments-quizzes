@@ -37,10 +37,10 @@
 
 #### Q6. Given a cursor named myCursor, which command returns a boolean value?
 
-- [x] myCursor.hasNext()
-- [ ] myCursor.sort()
-- [ ] myCursor.next()
-- [ ] myCursor.find()
+- [x] `myCursor.hasNext()`
+- [ ] `myCursor.sort()`
+- [ ] `myCursor.next()`
+- [ ] `myCursor.find()`
 
 #### Q7. Which command returns a specific document in the user's collection?
 
@@ -65,10 +65,10 @@
 
 #### Q10. In the MongoDB shell, how can you tell if an index was used with a query?
 
-- [x] db.customers.find({lastName: 'smith'}).explain()
-- [ ] db.customers.find({lastName: 'smith'}).perf()
-- [ ] db.customers.find({lastName: 'smith'}).plan()
-- [ ] db.customers.find({lastName: 'smith'}).usedIndex()
+- [x] `db.customers.find({lastName: 'smith'}).explain()`
+- [ ] `db.customers.find({lastName: 'smith'}).perf()`
+- [ ] `db.customers.find({lastName: 'smith'}).plan()`
+- [ ] `db.customers.find({lastName: 'smith'}).usedIndex()`
 
 #### Q11. Suppose your aggregation pipeline terminated with an exception referring to exceeded memory limit. What is the best way to resolve the issue?
 
@@ -79,10 +79,10 @@
 
 #### Q12. What is the recommended way to delete a user?
 
-- [ ] db.deleteUser("user")
-- [ ] db.removeUser("user") DEPRECATED
-- [ ] db.remove("user")
-- [x] db.dropUser("user")
+- [ ] `db.deleteUser("user")`
+- [ ] `db.removeUser("user") DEPRECATED`
+- [ ] `db.remove("user")`
+- [x] `db.dropUser("user")`
 
 #### Q13. What the primary database in a replica set fails, when does failover begin?
 
@@ -418,7 +418,7 @@ References:
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [] MongoDB does not allow ad hoc queries; all queries require an index.
+- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [x] MongoDB allows ad hoc queries.
@@ -499,17 +499,17 @@ replaces mongo as the preferred shell.
 
 #### Q65. From the MongoDB shell, how do you execute a JavaScript file named list.js?
 
-- [ ] node 'list.js'
-- [ ] exec('list.js)
-- [ ] run('list.js)
-- [x] load('list.js)
+- [ ] `node 'list.js'`
+- [ ] `exec('list.js)`
+- [ ] `run('list.js)`
+- [x] `load('list.js)`
 
 #### Q66. Which MongoDB shell query will sort the customer's collection by name descending?
 
-- [ ] db.customers.sort({name: -1}.find({})
-- [ ] db.customers.sort({name: -1})
-- [x] db.customers.find({}).sort({name: -1})
-- [ ] db.customers.find({}).sort({name: 1})
+- [ ] `db.customers.sort({name: -1}.find({})`
+- [ ] `db.customers.sort({name: -1})`
+- [x] `db.customers.find({}).sort({name: -1})`
+- [ ] `db.customers.find({}).sort({name: 1})`
 
 #### Q67. Suppose you are using the `mongoimport` command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
@@ -573,17 +573,17 @@ Note: The question in case is ambiguous. In the mongo docs, on the Windows Insta
 
 #### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
 
-- [ ] db.size()
-- [ ] db.info()
-- [ ] db.memory()
-- [x] db.stats()
+- [ ] `db.size()`
+- [ ] `db.info()`
+- [ ] `db.memory()`
+- [x] `db.stats()`
 
 #### Q74. How do you create a new MongoDB user?
 
-- [x] db.createUser({})
-- [ ] db.insert({user: 1})
-- [ ] db.customers.newUser({})
-- [ ] db.newUser({})
+- [x] `db.createUser({})`
+- [ ] `db.insert({user: 1})`
+- [ ] `db.customers.newUser({})`
+- [ ] `db.newUser({})`
 
 [MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)
 
@@ -722,10 +722,10 @@ Argument: There is no -d option in the docs (https://www.mongodb.com/docs/databa
 
 #### Q89. In the MongoDB shell, how can you tell if an index was used with a query?
 
-- [x] db.customers.find({lastName: 'smith'}).explain()
-- [ ] db.customers.find({lastName: 'smith'}).perf()
-- [ ] db.customers.find({lastName: 'smith'}).plan()
-- [ ] db.customers.find({lastName: 'smith'}).usedIndex()
+- [x] `db.customers.find({lastName: 'smith'}).explain()`
+- [ ] `db.customers.find({lastName: 'smith'}).perf()`
+- [ ] `db.customers.find({lastName: 'smith'}).plan()`
+- [ ] `db.customers.find({lastName: 'smith'}).usedIndex()`
 
 #### Q90. You need to be able to quickly find a word in a text field. What should you do?
 
