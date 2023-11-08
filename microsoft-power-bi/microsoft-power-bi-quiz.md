@@ -564,7 +564,7 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 #### Q69. What are the first steps you take to connect to an Access database data source in Power BI?
 
 - [ ] You cannot to an Access database from Power BI.
-- [ ] Click **Reports > Database > Connect** in Power BI Desktop
+- [x] Click **Reports > Database > Connect** in Power BI Desktop
 - [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Service
 - [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Desktop
 
