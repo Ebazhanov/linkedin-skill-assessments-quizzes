@@ -598,3 +598,15 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [ ] Hold the Shift key and try again.
 - [x] Sign out and sign in again with an administrator account.
 - [ ] User account permissions are elevated in Settings or Preferences.
+
+#### Q76. What is a duplex printer?
+- [ ] a printer that also acts as a scanner, copier. and fax machine
+- [ ] a printer with automatic and manual feeding mechanism
+- [x] a printer than can print on both sides of a sheet of paper
+- [ ] a printer has two paper trays
+
+#### Q77. Which choice is not an internal computer upgrade?
+- [ ] primary storage
+- [x] I/O devices
+- [ ] memory
+- [ ] expansion card
