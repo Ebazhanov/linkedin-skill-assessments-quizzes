@@ -1118,20 +1118,26 @@ Table name: superheroes
 
 #### Q116. What is the purpose of the `PRIMARY KEY` in a MySQL table?
 
--[x] To create a unique index on a table
--[] To define a column as an integer
--[] To define the data type of a column
--[] To specify a foreign key reference
+- [x] To create a unique index on a table
+- [ ] To define a column as an integer
+- [ ] To define the data type of a column
+- [ ] To specify a foreign key reference
 
 [Reference](<https://www.w3schools.com/mysql/mysql_primarykey.asp#:~:text=The%20PRIMARY%20KEY%20constraint%20uniquely,or%20multiple%20columns%20(fields).>)
 
 #### Q117. Which of the following is a valid SQL query to insert a new row into the users table?
 
--[x] INSERT INTO users (name, email) VALUES ('John Doe', 'john.doe@example.com') -[ ] ADD users (name, email) VALUES ('John Doe', 'john.doe@example.com') -[ ] CREATE users (name, email) VALUES ('John Doe', 'john.doe@example.com') -[ ] UPDATE users (name, email) VALUES ('John Doe', 'john.doe@example.com')
+- [x] `INSERT INTO users (name, email) VALUES ('John Doe', 'john.doe@example.com')`
+- [ ] `ADD users (name, email) VALUES ('John Doe', 'john.doe@example.com')`
+- [ ] `CREATE users (name, email) VALUES ('John Doe', 'john.doe@example.com')`
+- [ ] `UPDATE users (name, email) VALUES ('John Doe', 'john.doe@example.com')`
 
 #### Q118. Which of the following is a valid SQL query to delete the row with the id of 2 from the users table?
 
--[x] DELETE FROM users WHERE id = 2 -[ ] REMOVE FROM users WHERE id = 2 -[ ] DROP users WHERE id = 2 -[ ] TRUNCATE users WHERE id = 2
+- [x] `DELETE FROM users WHERE id = 2`
+- [ ] `REMOVE FROM users WHERE id = 2`
+- [ ] `DROP users WHERE id = 2`
+- [ ] `TRUNCATE users WHERE id = 2`
 
 #### Q119. MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.
 
