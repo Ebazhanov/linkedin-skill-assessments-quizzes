@@ -15,14 +15,13 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone:NEW! Give our brand new CareerCraftBot a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
-> It prompts you to upload or paste your resume, then input the job description and generate an updated resume as the outcome.
-> We will open an issue where everyone can share their thoughts on potential enhancements for the bot.
-> If you need further improvements or have other requests, feel free to ask! 😄🤖📝
-
-> 👉 Remember, we never ask for any monetary support or donation!🫵
+> :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
+> It prompts you to upload or paste your resume, then input the job description. As a result, it generates an updated resume that fits the new role best.
+> If you need further improvements or have other requests, don`t hesitate to ask! 😄🤖📝
+> Share your thoughts on potential enhancements for the bot [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912)
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
+> 👉 Remember, we never contact you for monetary support or donations!🫵
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
