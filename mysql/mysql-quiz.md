@@ -1134,7 +1134,11 @@ Table name: superheroes
 
 #### Q118. Which of the following is a valid SQL query to delete the row with the id of 2 from the users table?
 
+<<<<<<< HEAD
 - [x] `DELETE FROM users WHERE id = 2` 
+=======
+- [x] `DELETE FROM users WHERE id = 2`
+>>>>>>> 4c074e559cbdda7b61866eb262f1c375afe7d435
 - [ ] `REMOVE FROM users WHERE id = 2`
 - [ ] `DROP users WHERE id = 2`
 - [ ] `TRUNCATE users WHERE id = 2`

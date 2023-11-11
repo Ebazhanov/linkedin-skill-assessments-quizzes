@@ -15,14 +15,13 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone:NEW! Give our brand new CareerCraftBot a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
-> It prompts you to upload or paste your resume, then input the job description and generate an updated resume as the outcome.
-> We will open an issue where everyone can share their thoughts on potential enhancements for the bot.
-> If you need further improvements or have other requests, feel free to ask! 😄🤖📝
-
-> 👉 Remember, we never ask for any monetary support or donation!🫵
+> :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
+> It prompts you to upload or paste your resume, then input the job description. As a result, it generates an updated resume that fits the new role best.
+> If you need further improvements or have other requests, don`t hesitate to ask! 😄🤖📝
+> Share your thoughts on potential enhancements for the bot [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912)
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
+> 👉 Remember, we never contact you for monetary support or donations!🫵
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
@@ -2205,6 +2204,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/udaypalecha"><img src="https://avatars.githubusercontent.com/u/99619714?v=4?s=100" width="100px;" alt="Uday Palecha"/><br /><sub><b>Uday Palecha</b></sub></a><br /><a href="#design-udaypalecha" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=udaypalecha" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SimonRofalski"><img src="https://avatars.githubusercontent.com/u/101046616?v=4?s=100" width="100px;" alt="Simon Rofalski"/><br /><sub><b>Simon Rofalski</b></sub></a><br /><a href="#design-SimonRofalski" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SimonRofalski" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ferroflux"><img src="https://avatars.githubusercontent.com/u/76938521?v=4?s=100" width="100px;" alt="Vedant Jadhav"/><br /><sub><b>Vedant Jadhav</b></sub></a><br /><a href="#design-ferroflux" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ferroflux" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

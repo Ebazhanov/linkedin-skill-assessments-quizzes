@@ -98,10 +98,10 @@ if ($email === false) {
 #### Q11. What is missing from this code, which is supposed to create a test cookies?
 
 ```php
-1 $string_name = "testcookie";
-2 $string_value = "This is a test cookie";
-3 $expiry_info = info()+259200;
-4 $string_domain = "localhost.localdomain";
+$string_name = "testcookie";
+$string_value = "This is a test cookie";
+$expiry_info = info()+259200;
+$string_domain = "localhost.localdomain";
 ```
 
 - [ ] The `$_REQUEST` is missing.
@@ -135,11 +135,11 @@ if ($email === false) {
 #### Q15. What is the best way to explain what this script does?
 
 ```php
-1 if (!$_SESSION['myusername'])
-2 {
-3   header('locaton: /login.php');
-4   exit;
-5 }
+if (!$_SESSION['myusername'])
+{
+  header('locaton: /login.php');
+  exit;
+}
 ```
 
 - [ ] This script times out the session for myusername.
@@ -173,41 +173,41 @@ if ($email === false) {
 - [ ] &shy;
 
 ```php
-  1 <?php
-  2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
-  3     $carry = $carry + $item;
-  4 });
-  5?>
+  <?php
+  echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
+      $carry = $carry + $item;
+  });
+?>
 ```
 
 - [ ] &shy;
 
 ```php
-  1 <?php
-  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
-  3     return $carry = $item + $item;
-  4 });
-  5?>
+  <?php
+  echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
+      return $carry = $item + $item;
+  });
+?>
 ```
 
 - [ ] &shy;
 
 ```php
-  1 <?php
-  2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
-  3     echo $carry + $item;
-  4 });
-  5?>
+  <?php
+  array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
+      echo $carry + $item;
+  });
+?>
 ```
 
 - [x] &shy;
 
 ```php
-  1 <?php
-  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
-  3     return $carry += $item;
-  4 });
-  5?>
+  <?php
+  echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
+      return $carry += $item;
+  });
+?>
 ```
 
 #### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
@@ -215,49 +215,49 @@ if ($email === false) {
 - [x] &shy;
 
 ```php
-  1 class MyClass {
-  2 public function _construct()
-  3 {
-  4 echo 'Winter is almost over!'."\n";
-  5 }
-  6 }
-  7 $userclass = new MyClass;
+  class MyClass {
+  public function _construct()
+  {
+  echo 'Winter is almost over!'."\n";
+  }
+  }
+  $userclass = new MyClass;
 ```
 
 - [ ] &shy;
 
 ```php
-  1 class MyClass {
-  2 public function _construct()
-  3 {
-  4 echo 'Winter is almost over!.."\n";
-  5 }
-  6 }
-  7 $userclass = new MyClass;
+  class MyClass {
+  public function _construct()
+  {
+  echo 'Winter is almost over!.."\n";
+  }
+  }
+  $userclass = new MyClass;
 ```
 
 - [ ] &shy;
 
 ```php
-  1 class MyClass {
-  2 public function _construct()
-  3 {
-  4 echo 'Winter is almost over!.."\n";
-  5 }
-  6 }
-  7 $userclass = new MyClass;
+  class MyClass {
+  public function _construct()
+  {
+  echo 'Winter is almost over!.."\n";
+  }
+  }
+  $userclass = new MyClass;
 ```
 
 - [ ] &shy;
 
 ```php
-  1 class MyClass {
-  2 public function _construct()
-  3 {
-  4 echo 'Winter is almost over!'."n";
-  5 }
-  6 }
-  7 $userclass = MyClass;
+  class MyClass {
+  public function _construct()
+  {
+  echo 'Winter is almost over!'."n";
+  }
+  }
+  $userclass = MyClass;
 ```
 
 #### Q21. How might you troubleshoot a "call to undefined function" error?
@@ -759,7 +759,7 @@ Dog
 
 #### Q61. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -768,7 +768,7 @@ Dog
   ?>
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -777,7 +777,7 @@ Dog
   ?>
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -786,7 +786,7 @@ Dog
   ?>
 ```
 
-- [x] :
+- [x] &shy;
 
 ```php
   <?php
@@ -797,7 +797,7 @@ Dog
 
 #### Q62. Which PHP script finds the earliest and latest dates from an array?
 
-- [x] :
+- [x] &shy;
 
 ```php
   <?php
@@ -807,7 +807,7 @@ Dog
   ?>
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -817,7 +817,7 @@ Dog
   ?>
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -827,7 +827,7 @@ Dog
   ?>
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
   <?php
@@ -848,7 +848,7 @@ for (;;) {
 }
 ```
 
-- [x] :
+- [x] &shy;
 
 ```
   kilometers = 0.6214 miles.
@@ -858,7 +858,7 @@ for (;;) {
   kilometers = 3.107 miles.
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```
   kilometers = 0.6214 miles.
@@ -869,7 +869,7 @@ for (;;) {
   kilometers = 3.7284 miles.
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```
   kilometers = 1.2428 miles.
@@ -1155,7 +1155,7 @@ if( isset($user_info['url']) ) {
 
 #### Q92. A form to subscrive to a newsletter is submitted using the POST method. The form has only one field: an input text field named "email". How would you check if the field is empty and, if it is, print "The email cannot be empty"?
 
-- [x] :
+- [x] &shy;
 
 ```php
 if(empty($_POST['email'])) {
@@ -1163,7 +1163,7 @@ if(empty($_POST['email'])) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 if(empty($_GET['email'])) {
@@ -1171,7 +1171,7 @@ if(empty($_GET['email'])) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 if(empty($_POST('email'))) {
@@ -1179,7 +1179,7 @@ if(empty($_POST('email'))) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 if(isset($email)) {
@@ -1199,13 +1199,13 @@ if(isset($email)) {
 
 #### Q94. Which script properly validates the IP address given?
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 $valid = ip2long($ip) !== false;
 ```
 
-- [x] :
+- [x] &shy;
 
 ```php
 $ip_address = "164.12.2540.1";
@@ -1216,7 +1216,7 @@ if(filter_var($ip_address, FILTER_VALIDATE_IP)){
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 $ip_address = "164.12.2540.1";
@@ -1227,7 +1227,7 @@ if(validate_ip($ip_address)){
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 $ip_address = "164.12.2540.1"
@@ -1277,7 +1277,7 @@ $array = array(
 'fruit5' => 'apple');
 ```
 
-- [x] :
+- [x] &shy;
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1288,7 +1288,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1299,7 +1299,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1310,7 +1310,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1349,40 +1349,40 @@ echo $smurf->name;
 
 #### Q99. You have an online form with a file input field called "image" for uploading files. Assuming the path to the upload directory is $path, which code should you use to make sure the file is uploaded from your form to the correct location?
 
-- [ ] :
+- [x] &shy;
 
 ```php
-1 if ($_FILES['image'][error'] == 0) {
-2       move_uploaded_file($_FILES)['image']['temp_name'],
-3           $path . $_FILES['image']['name']);
-4  )
+if ($_FILES['image']['error'] === 0) {
+      move_uploaded_file($_FILES)['image']['temp_name'],
+          $path . $_FILES['image']['name']);
+ )
 ```
 
-- [maybe] :
+- [ ] &shy;
 
 ```php
-1 if ($_FILES['image'][error'] === false) {
-2       move_uploaded_file($_FILES)['image']['temp_name'],
-3           $path . $_FILES['image']['name']);
-4  )
+if ($_FILES['image']['error'] === false) {
+      move_uploaded_file($_FILES)['image']['temp_name'],
+          $path . $_FILES['image']['name']);
+ )
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
-1 if ($_FILES['image'][error'] == 0) {
-2       copy($_FILES)['image']['temp_name'],
-3           $path . $_FILES['image']['name']);
-4  )
+if ($_FILES['image']['error'] == 0) {
+      copy($_FILES)['image']['temp_name'],
+          $path . $_FILES['image']['name']);
+ )
 ```
 
-- [ ] :
+- [ ] &shy;
 
 ```php
-1 if ($_FILES['image'][error'] === false) {
-2       upload_file($_FILES)['image']['temp_name'],
-3           $path . $_FILES['image']['name']);
-4  )
+if ($_FILES['image']['error'] == false) {
+      upload_file($_FILES)['image']['temp_name'],
+          $path . $_FILES['image']['name']);
+ )
 ```
 
 #### Q100. Which super global variable holds information about headers, paths, and script locations?
@@ -1439,14 +1439,14 @@ while($i>=0) {
 #### Q102. What is the output of this code?
 
 ```php
-1 function knights(){
-2 return "a shrubbery";
-3 }
+function knights(){
+return "a shrubbery";
+}
 
-4 if (knights())
-5 printf "you are just and fair";
-6 else
-7 printf "NI!";
+if (knights())
+printf "you are just and fair";
+else
+printf "NI!";
 ```
 
 - [ ] NI!
@@ -1462,49 +1462,49 @@ while($i>=0) {
 - [ ] &shy;
 
 ```php
-1 define('country',"United States of America");
-2 define('states',50);
-3 echo "Our country is "country"<br>";
-4 echo "Our country has a total of ".states." states";
+define('country',"United States of America");
+define('states',50);
+echo "Our country is "country"<br>";
+echo "Our country has a total of ".states." states";
 ```
 
 - [x] &shy;
 
 ```php
-1 define('country',"United States of America");
-2 define('states',50);
-3 echo "Our country is ".country."<br>";
-4 echo "Our country has a total of ".states." states";
+define('country',"United States of America");
+define('states',50);
+echo "Our country is ".country."<br>";
+echo "Our country has a total of ".states." states";
 ```
 
 - [ ] &shy;
 
 ```php
-1 define(country,"United States of America");
-2 define('states',50);
-3 echo "Our country is ".country."<br>";
-4 echo "Our country has a total of ".states." states";
+define(country,"United States of America");
+define('states',50);
+echo "Our country is ".country."<br>";
+echo "Our country has a total of ".states." states";
 ```
 
 - [ ] &shy;
 
 ```php
-1 define('country',"United States of America");
-2 define('states','fifty');
-3 $K = 'strval'; echo "Our {$K(Country)} has {$K(FIFTY)} states.";
+define('country',"United States of America");
+define('states','fifty');
+$K = 'strval'; echo "Our {$K(Country)} has {$K(FIFTY)} states.";
 ```
 
 #### Q104. What does this code output?
 
 ```php
-1 try{
-2 echo "bodacious";
-3 throw new Exception();
-4 } catch (Exception $e) {
-5 echo "egregious";
-7 } finally {
-8 echo "excellent";
-9 }
+try{
+echo "bodacious";
+throw new Exception();
+} catch (Exception $e) {
+echo "egregious";
+} finally {
+echo "excellent";
+}
 ```
 
 - [ ] bodacious
