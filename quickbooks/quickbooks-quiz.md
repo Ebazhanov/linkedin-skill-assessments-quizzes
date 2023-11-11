@@ -380,7 +380,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] as sales activities on the Profit and Loss report
 - [ ] as financing activities on the Statement of Cash Flows
 - [ ] as operating activities on the Profit and Loss report
-- [ ] as operating activities on the Statement of Cash Flows
+- [x] as operating activities on the Statement of Cash Flows
 
 #### Q55. During the EasyStep Interview, which features can you turn on and off?
 
