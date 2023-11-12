@@ -106,7 +106,7 @@ for {
 - [ ] using regex
 - [ ] using monads
 - [ ] using string matching
-- [ ] using case classes
+- [x] using case classes
 
 Note: ambiguous question, it's not clear what kind of [pattern matching](https://docs.scala-lang.org/tour/pattern-matching.html) is meant here.
 
@@ -375,7 +375,7 @@ A function defined within a block of code, such as within a method or another fu
 #### Q44. What do you call a Scala method that is parametrized by type as well as by value?
 
 - [ ] multimode method
-- [ ] polymorphic method
+- [x] polymorphic method
 - [ ] closure
 - [ ] collection method
 
