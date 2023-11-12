@@ -2680,10 +2680,6 @@ The code defines a `square` function to calculate the square of a number. It the
 #### Q185.1. What will be the output of the following Python code?
 
 `print("Hello {name1} and {name2}".format(name1='foo', name2='bin'))`
-<<<<<<< HEAD
-=======
-
->>>>>>> 6213c0f163f6580afbe4b5f695e2cf6ed4351818
 - [x] Hello foo and bin
 - [ ] Hello {name1} and {name2}
 - [ ] Error
