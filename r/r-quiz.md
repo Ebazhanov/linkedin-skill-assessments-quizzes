@@ -679,9 +679,12 @@ mtrx[, -1]
 
 ![image](https://drive.google.com/uc?export=view&id=1ntrHVnNfCRvXfKjbpavh7CiIsv7izsJr)
 
-- [ ]
-- [ ]
-- [ ]
+- [ ] &shy;
+
+- [ ] &shy;
+
+- [ ] &shy;
+
 - [x] [1] 4 5 6
 
 #### Q63. Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?
