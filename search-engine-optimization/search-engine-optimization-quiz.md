@@ -540,7 +540,7 @@
 
 - [ ] Using a subdirectory is never preferable to using a subdomain.
 - [ ] The subdirectory will allow for keyword dilution.
-- [ ] The subdirectory will benefit from the backlinks the domain has acquired.
+- [x] The subdirectory will benefit from the backlinks the domain has acquired.
 - [ ] The subdirectory is better for the end user experience.
 
 #### Q66. What is the best way to provide a search engine with crawl instructions?
@@ -815,11 +815,11 @@
 - [ ] at least 2
 - [ ] at least five
 - [ ] at least seven
-- [ ] as many as are relevent
+- [x] as many as are relevent
 
 #### Q103. What tag would you use to indicate to Google that a language-specific version of a page exists for French speakers in Canada?
 
-- [ ] `<link rel="alternate" href="domain.com/fr/" hreflang="fr-ca" />`
+- [x] `<link rel="alternate" href="domain.com/fr/" hreflang="fr-ca" />`
 - [ ] `<link rel="canonical" href="domain.com/fr/" hreflang="fr-ca" />`
 - [ ] `<meta content-language="fr-ca" />`
 - [ ] `<a href lang="fr-ca" />`
