@@ -17,7 +17,7 @@
 
 > :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by Chat-GPT 3.5 as its base model and is designed to assist in customizing your resume.
 > It prompts you to upload or paste your resume, and then input the job description. As a result, it generates an updated resume that fits the new role best.
-> We have a GPT-4 version as well :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBot)
+> We have a GPT-4 version as well :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBotPro)
 
 > If you need further improvements or have other requests, don`t hesitate to ask! 😄🤖📝
 >
