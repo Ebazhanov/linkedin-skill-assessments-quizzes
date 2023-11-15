@@ -15,10 +15,13 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
-> It prompts you to upload or paste your resume, then input the job description. As a result, it generates an updated resume that fits the new role best.
+> :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by Chat-GPT 3.5 as its base model and is designed to assist in customizing your resume.
+> It prompts you to upload or paste your resume, and then input the job description. As a result, it generates an updated resume that fits the new role best.
+> We have a GPT-4 version as well :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBot)
+
 > If you need further improvements or have other requests, don`t hesitate to ask! 😄🤖📝
-> Share your thoughts on potential enhancements for the bot [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912)
+> 
+> Share your thoughts on potential enhancements for the bots [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912)
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 > 👉 Remember, we never contact you for monetary support or donations!🫵
