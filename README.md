@@ -15,11 +15,11 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone: NEW! Our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) is powered by Chat-GPT 3.5 and  designed to assist in customizing your resume.
+> :cyclone: NEW! Our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) is powered by Chat-GPT 3.5 and designed to assist in customizing your resume.
 > It prompts you to upload or paste your resume, and then input the job description. As a result, it generates an updated resume that fits the new role best.
 
 > We also have a GPT-4 version. :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBotPro)
- 
+
 > If our 🤖 needs improvements or you think of a new bot to implement, please ask 👉 [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912).
 
 > The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).
