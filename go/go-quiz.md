@@ -1240,7 +1240,7 @@ x, err := myFunc()
 
 1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)
 
-#### Q66. How can You view the profiler output in cpu.pprof in the broswer?
+#### Q66. How can You view the profiler output in cpu.pprof in the browser?
 
 - [ ] go pprof -to SVG cpu.prof
 - [x] go tool pprof -http=:8080 cpu.pprof (true)
