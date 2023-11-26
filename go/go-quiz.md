@@ -1333,4 +1333,4 @@ Explanation: they can be defined inline where they are used, offering more flexi
 - [ ] `only types named struct, such as type Example struct{...}`
 - [ ] `all types`
 
-> Methods can be defined for any named type that is not a built-in type. When you create a new type using a type declaration, it becomes a named type, and you can define methods specific to that type. However, methods cannot be directly attached to built-in types like int, string, etc. [reference](https://go.dev/ref/spec#Method_declarations) 
+> Methods can be defined for any named type that is not a built-in type. When you create a new type using a type declaration, it becomes a named type, and you can define methods specific to that type. However, methods cannot be directly attached to built-in types like int, string, etc. [reference](https://go.dev/ref/spec#Method_declarations)
