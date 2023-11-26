@@ -15828,6 +15828,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "WeDias",
+      "name": "Wesley Dias",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56437612?v=4",
+      "profile": "https://github.com/WeDias",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
