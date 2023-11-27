@@ -265,9 +265,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ![Image of footer](images/ss-3.png?raw=true)
 
 - [ ] ordered list
-- [x] unordered list inside a nav element
+- [ ] unordered list inside a nav element
 - [ ] ordered list inside a nav element
-- [ ] unordered list
+- [x] unordered list
 
 #### Q22. What is the best way to code three choices within a form so that the user can select only one item?
 
