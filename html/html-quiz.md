@@ -134,10 +134,10 @@
 
 #### Q13. When should you use `<ol>` and `<ul>` elements?
 
-- [x] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
+- [ ] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
 - [ ] Use `<ul>` when you have a list of items in which the order of the items matters. Use `<ol>` when you have a list of items that could go in any order.
 - [ ] Use `<ol>` when you want a bulleted list and `<ul>` when you want a numbered list.
-- [ ] Use `<ol>` when you have a list of items in which the order of the items matters. Use `<ul>` when you have a list of items that could go in any order.
+- [x] Use `<ol>` when you have a list of items in which the order of the items matters. Use `<ul>` when you have a list of items that could go in any order.
 
 #### Q14. What is the difference between the post and get methods in a form?
 
