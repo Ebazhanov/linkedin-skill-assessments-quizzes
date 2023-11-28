@@ -255,9 +255,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
 ```
 
-- [ ] es
+- [x] es
 - [ ] es-spanish
-- [x] es-es
+- [ ] es-es
 - [ ] spanish
 
 #### Q21. Review the text in the red box in the image shown. What is the best way to code this in HTML?
