@@ -1240,7 +1240,7 @@ x, err := myFunc()
 
 1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)
 
-#### Q66. How can You view the profiler output in cpu.pprof in the broswer?
+#### Q66. How can You view the profiler output in cpu.pprof in the browser?
 
 - [ ] go pprof -to SVG cpu.prof
 - [x] go tool pprof -http=:8080 cpu.pprof (true)
@@ -1325,3 +1325,12 @@ Explanation: they can be defined inline where they are used, offering more flexi
 - [ ] `execute func(){}`
 
 [reference](https://stackoverflow.com/questions/6719089/javascript-anonymous-function-immediate-invocation-execution-expression-vs-dec)
+
+#### Q76. Which types can Go developers define methods for?
+
+- [x] `all named types not built-in to Go, such as type Example int but not int, type Example struct{...} but not struct, etc.`
+- [ ] `only types named struct, map, and slice, such as type Example struct{…}`
+- [ ] `only types named struct, such as type Example struct{...}`
+- [ ] `all types`
+
+> Methods can be defined for any named type that is not a built-in type. When you create a new type using a type declaration, it becomes a named type, and you can define methods specific to that type. However, methods cannot be directly attached to built-in types like int, string, etc. [reference](https://go.dev/ref/spec#Method_declarations)

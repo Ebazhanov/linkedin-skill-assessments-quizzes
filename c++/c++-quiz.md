@@ -2468,7 +2468,7 @@ int main(int argc, char const *argv[])
 - [ ] “Constructor called” five times and then “Destructor called” once
 - [ ] Error
 
-#### Q.153 What is the output of this code?
+#### Q.154 What is the output of this code?
 
 ```c++
 printf("1/2 = %f",(float)(1/2));
@@ -2479,7 +2479,7 @@ printf("1/2 = %f",(float)(1/2));
 - [x] 1/2 = 0.000000
 - [ ] 1/2 = 0.5
 
-#### Q.154 Which choice is _not_ related to declaring the member variable count as static in my_class?
+#### Q.155 Which choice is _not_ related to declaring the member variable count as static in my_class?
 
 ```cpp
 class my_class{
@@ -2492,7 +2492,7 @@ class my_class{
 - [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
 
-#### Q155. What is the purpose of the `constexpr` keyword in C++?
+#### Q156. What is the purpose of the `constexpr` keyword in C++?
 
 - [ ] It is used to define constants in C++.
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
@@ -2501,7 +2501,7 @@ class my_class{
 
 [Ref](https://learn.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170#:~:text=constexpr%20indicates%20that%20the%20value,template%20arguments%20and%20array%20declarations.)
 
-#### Q156. What is a template metaprogram in C++?
+#### Q157. What is a template metaprogram in C++?
 
 - Ref(https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
 
@@ -2510,14 +2510,14 @@ class my_class{
 - [ ] It's a type of user interface design pattern.
 - [x] A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time.
 
-#### Q157.Identify the correct example for a pre-increment operator.
+#### Q158.Identify the correct example for a pre-increment operator.
 
 - [x] ++i
 - [ ] i++
 - [ ] --i
 - [ ] +i
 
-#### Q158. What will be the output of following code?
+#### Q159. What will be the output of following code?
 
 ```cpp
 int matrix[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
