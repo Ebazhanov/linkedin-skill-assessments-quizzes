@@ -22,7 +22,7 @@
 
 > If our 🤖 needs improvements or you think of a new bot to implement, please ask 👉 [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912).
 
-> The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).
+> The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).They cover a lot of topics from the history of Ancient Egypt🐫 to an 🫦Aelita flirting bot.
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 > 👉 Remember, we never contact you for monetary support or donations!🫵
@@ -2212,6 +2212,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://trkizaki.com"><img src="https://avatars.githubusercontent.com/u/58180720?v=4?s=100" width="100px;" alt="Monchi"/><br /><sub><b>Monchi</b></sub></a><br /><a href="#design-TRkizaki" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TRkizaki" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/oorkan"><img src="https://avatars.githubusercontent.com/u/9617660?v=4?s=100" width="100px;" alt="oorkan"/><br /><sub><b>oorkan</b></sub></a><br /><a href="#design-oorkan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=oorkan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/WeDias"><img src="https://avatars.githubusercontent.com/u/56437612?v=4?s=100" width="100px;" alt="Wesley Dias"/><br /><sub><b>Wesley Dias</b></sub></a><br /><a href="#design-WeDias" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=WeDias" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Invincibear"><img src="https://avatars.githubusercontent.com/u/6895337?v=4?s=100" width="100px;" alt="Corey"/><br /><sub><b>Corey</b></sub></a><br /><a href="#design-Invincibear" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Invincibear" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

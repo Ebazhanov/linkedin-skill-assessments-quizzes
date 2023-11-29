@@ -134,10 +134,10 @@
 
 #### Q13. When should you use `<ol>` and `<ul>` elements?
 
-- [x] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
+- [ ] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
 - [ ] Use `<ul>` when you have a list of items in which the order of the items matters. Use `<ol>` when you have a list of items that could go in any order.
 - [ ] Use `<ol>` when you want a bulleted list and `<ul>` when you want a numbered list.
-- [ ] Use `<ol>` when you have a list of items in which the order of the items matters. Use `<ul>` when you have a list of items that could go in any order.
+- [x] Use `<ol>` when you have a list of items in which the order of the items matters. Use `<ul>` when you have a list of items that could go in any order.
 
 #### Q14. What is the difference between the post and get methods in a form?
 
@@ -255,9 +255,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
 ```
 
-- [ ] es
+- [x] es
 - [ ] es-spanish
-- [x] es-es
+- [ ] es-es
 - [ ] spanish
 
 #### Q21. Review the text in the red box in the image shown. What is the best way to code this in HTML?
@@ -265,9 +265,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ![Image of footer](images/ss-3.png?raw=true)
 
 - [ ] ordered list
-- [x] unordered list inside a nav element
+- [ ] unordered list inside a nav element
 - [ ] ordered list inside a nav element
-- [ ] unordered list
+- [x] unordered list
 
 #### Q22. What is the best way to code three choices within a form so that the user can select only one item?
 

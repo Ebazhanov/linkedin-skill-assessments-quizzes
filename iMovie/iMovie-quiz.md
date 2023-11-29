@@ -305,7 +305,9 @@
 - [ ] Color Correction
 
 #### Q42. While browsing sound effects, you see fewer options than expected. In the image below, where do you click to reset your search?
+
 ![Image Q42](img/iMovie-Q42.png)
+
 - [ ] C
 - [ ] A
 - [x] D
