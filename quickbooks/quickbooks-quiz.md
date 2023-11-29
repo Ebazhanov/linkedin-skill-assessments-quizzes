@@ -467,12 +467,14 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] Any QuickBooks report
 
 #### Q67. Why would you create a statement charge for a customer?
+
 - [x] to add a line-item transaction without having to send the customer an invoice when no sales tax is involved.
 - [ ] to add a line-item transaction without having to send the customer an invoice and you need the sales tax correctly calculated
 - [ ] to send the customer a list of recent trasactions, including both outstanding and current invoices
 - [ ] to send the customer a list of overdue invoices and add finance charges to the outstanding balances
 
 #### Q68. You receive seven customer payments in the mail in the form of checks. How do you record them to show only one deposite?
+
 - [ ] create a journal entry to debit cash and credit Accounts receivable. Then go to each invoice and mark it as paid.
 - [x] in your home page receive paymemts window, record each receipt to the appropriate customer. Then, in the banking area, select make deposite.
 - [ ] you connot - they will record as seven deposite, so keep a list of the components for each deposite to make reconcilation easier.
