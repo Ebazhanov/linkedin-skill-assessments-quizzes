@@ -360,6 +360,7 @@
 - [ ] Select the original field, right-click, and then select create multiple copies.
 
 #### Q50. On a new windows computer, you first installed adobe acrobat DC, then you installed the Microsoft Office suite. Because of the order of installtion, the PDFMaker option does not appear in the ribbons of your Office applications. How can you install PDFMaker in Microsoft Word on a PC?
+
 - [ ] FIle > Options > Add-ins
 - [ ] File > Transform > Intelligent Services
 - [x] File > Options > Customize ribbons
@@ -371,7 +372,6 @@
 - [ ] Loupe tool
 - [ ] Object inspector
 - [ ] Select Object tool
-
 
 #### Q52. You will be posting a 64-page PDF in your company's online library. You want to make sure that users can start reading the document immediately, rather than waiting for the entire document to download. which option provides for page-at-a-time downloading of a large, multi-page PDF?
 
