@@ -351,3 +351,31 @@
 - [ ] PDF/X-3
 - [ ] PDF/X-4
 - [x] PDF/A-1a
+
+#### Q49. Patients must fill out a 12-page form for gleaning personal and health information. They are required to put their name on every page. As you create the form for the doctor's office, you plan to take advantage og the fact that fields with the same name will display the same data. How can you automatically copy the Name field to every page of the PDF form?
+
+- [ ] Select the original field, right-click and then select Add New Field.
+- [ ] Select the original field, right-click, and then select Align, Distribute, or center
+- [x] Select the original field, right-click and then select Duplicate Accross pages
+- [ ] Select the original field, right-click, and then select create multiple copies.
+
+#### Q50. On a new windows computer, you first installed adobe acrobat DC, then you installed the Microsoft Office suite. Because of the order of installtion, the PDFMaker option does not appear in the ribbons of your Office applications. How can you install PDFMaker in Microsoft Word on a PC?
+- [ ] FIle > Options > Add-ins
+- [ ] File > Transform > Intelligent Services
+- [x] File > Options > Customize ribbons
+- [ ] File > Info > Manage Document
+
+#### Q51. A PDF contains hyperlinks formatted with invisble rectanles. How can you see the locations of all the hyperlinks at once, without having to hover over each hyperlink to reveal it?
+
+- [x] Destinations panel
+- [ ] Loupe tool
+- [ ] Object inspector
+- [ ] Select Object tool
+
+
+#### Q52. You will be posting a 64-page PDF in your company's online library. You want to make sure that users can start reading the document immediately, rather than waiting for the entire document to download. which option provides for page-at-a-time downloading of a large, multi-page PDF?
+
+- [ ] Include Hyperlinks
+- [ ] Include Bookmarks
+- [ ] Create tagged PDF
+- [x] Optimize for Last web view
