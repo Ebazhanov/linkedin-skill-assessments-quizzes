@@ -1538,3 +1538,24 @@ echo "excellent";
       2 $initialString = 'All your base are’;
       3 append($initialString);
       4 echo $initialString;
+
+#### Q106. What is the output of this script?
+```php
+$believable = 'false';
+$myth = 'The moon is made of green cheese';
+$calc = 10**3+1;
+if ($believable) {
+    echo $myth;
+}
+else {
+    echo $calc;
+}
+```
+
+- [ ] 10000
+- [ ] 31
+- [ ] 1001
+- [ ] The moon is made of green cheese
+
+Explanation : 'false' evaluates to true since it is a string so the if condition is met.
+
