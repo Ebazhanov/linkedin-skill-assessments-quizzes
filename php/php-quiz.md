@@ -1538,3 +1538,13 @@ echo "excellent";
       2 $initialString = 'All your base are’;
       3 append($initialString);
       4 echo $initialString;
+
+#### Q106. What PHP control structure is used inside of a loop to skip the rest of the current loop's code and go back to the start of the loop for the next iteration?
+
+- [ ] return
+
+- [ ] else
+
+- [ ] break
+
+- [x] continue
