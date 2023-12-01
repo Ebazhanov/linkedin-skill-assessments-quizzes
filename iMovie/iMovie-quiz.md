@@ -297,3 +297,19 @@
 - [ ] 1080p
 - [x] 4K
 - [ ] 8K
+
+#### Q41. Which iMovie button applies automatic color adjustments to a clip?
+
+- [ ] video and audio effects
+- [x] Color balance
+- [ ] Information
+- [ ] Color Correction
+
+#### Q42. While browsing sound effects, you see fewer options than expected. In the image below, where do you click to reset your search?
+
+![Image Q42](img/iMovie-Q42.png)
+
+- [ ] C
+- [ ] A
+- [x] D
+- [ ] B

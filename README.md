@@ -15,10 +15,14 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone:NEW! Give our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) a try. It's powered by chat-GPT as its base model and is designed to assist in customizing your resume.
-> It prompts you to upload or paste your resume, then input the job description. As a result, it generates an updated resume that fits the new role best.
-> If you need further improvements or have other requests, don`t hesitate to ask! 😄🤖📝
-> Share your thoughts on potential enhancements for the bot [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912)
+> :cyclone: NEW! Our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) is powered by Chat-GPT 3.5 and designed to assist in customizing your resume.
+> It prompts you to upload or paste your resume, and then input the job description. As a result, it generates an updated resume that fits the new role best.
+
+> We also have a GPT-4 version. :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBotPro)
+
+> If our 🤖 needs improvements or you think of a new bot to implement, please ask 👉 [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912).
+
+> The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).They cover a lot of topics from the history of Ancient Egypt🐫 to an 🫦Aelita flirting bot.
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 > 👉 Remember, we never contact you for monetary support or donations!🫵
@@ -31,8 +35,8 @@ Please add an explanation or reference link to your answers. This will help anyo
 
 #### 🎉 Announcements
 
-1. Column `Translation` have links to quizzes in different languages like Es, Fr, It , hi and De.
-2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat.
+1. Column `Translation` has links to quizzes in different languages like Es, Fr, It, hi, and De.
+2. If you want to meet each other or discuss quiz-related problems or maybe ask for skills endorsement just join the `Discord` chat.
 3. Playground before taking quiz using:
 
 - [MD2Practice (Web App)](https://linkedin-faq.github.io/md2practice/)
@@ -2205,6 +2209,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/udaypalecha"><img src="https://avatars.githubusercontent.com/u/99619714?v=4?s=100" width="100px;" alt="Uday Palecha"/><br /><sub><b>Uday Palecha</b></sub></a><br /><a href="#design-udaypalecha" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=udaypalecha" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SimonRofalski"><img src="https://avatars.githubusercontent.com/u/101046616?v=4?s=100" width="100px;" alt="Simon Rofalski"/><br /><sub><b>Simon Rofalski</b></sub></a><br /><a href="#design-SimonRofalski" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SimonRofalski" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ferroflux"><img src="https://avatars.githubusercontent.com/u/76938521?v=4?s=100" width="100px;" alt="Vedant Jadhav"/><br /><sub><b>Vedant Jadhav</b></sub></a><br /><a href="#design-ferroflux" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ferroflux" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://trkizaki.com"><img src="https://avatars.githubusercontent.com/u/58180720?v=4?s=100" width="100px;" alt="Monchi"/><br /><sub><b>Monchi</b></sub></a><br /><a href="#design-TRkizaki" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TRkizaki" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/oorkan"><img src="https://avatars.githubusercontent.com/u/9617660?v=4?s=100" width="100px;" alt="oorkan"/><br /><sub><b>oorkan</b></sub></a><br /><a href="#design-oorkan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=oorkan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/WeDias"><img src="https://avatars.githubusercontent.com/u/56437612?v=4?s=100" width="100px;" alt="Wesley Dias"/><br /><sub><b>Wesley Dias</b></sub></a><br /><a href="#design-WeDias" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=WeDias" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Invincibear"><img src="https://avatars.githubusercontent.com/u/6895337?v=4?s=100" width="100px;" alt="Corey"/><br /><sub><b>Corey</b></sub></a><br /><a href="#design-Invincibear" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Invincibear" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://cdfzo.com"><img src="https://avatars.githubusercontent.com/u/70074722?v=4?s=100" width="100px;" alt="cdfzo"/><br /><sub><b>cdfzo</b></sub></a><br /><a href="#design-cdfzo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=cdfzo" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

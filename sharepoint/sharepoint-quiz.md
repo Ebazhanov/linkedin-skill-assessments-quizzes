@@ -264,7 +264,7 @@
 - [ ] an object alert
 - [ ] a document alert
 - [ ] a site alert
-- [ ] a library alert
+- [x] a library alert
 
 #### Q34. When a user tries to create a new document in a SharePoint library, the default option is not Microsoft Word. What setting do you need to change in the library?
 
@@ -499,7 +499,10 @@ B. on-change automatic trigger
 C. on-create automatic trigger
 D. on-delete automatic trigger
 
--[ ] B,C, D -[ ] A.C, D -[x] A, B,C -[ ] A, B, C, D
+- [ ] B,C, D
+- [ ] A,C, D
+- [x] A, B,C
+- [ ] A, B, C, D
 
 #### Q64. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
 
