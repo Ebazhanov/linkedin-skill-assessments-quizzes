@@ -148,9 +148,11 @@
 #### Q20. You have configured audit settings in your organization's cloud services in the event of a security incident. What type of security control is an audit trail?
 
 - [ ] preventive control
-- [ ] detective control
+- [x] detective control
 - [ ] directive control
-- [x] corrective control
+- [ ] corrective control
+
+**Explanation**: An audit trail is typically considered a detective security control in the context of the CISSP.
 
 #### Q21. What is the name for a short-term interruption in electrical power supply?
 
@@ -376,8 +378,10 @@ autopsy is for forensic analysis
 
 - [ ] It identifies regulatory compliance requirements.
 - [ ] It prioritizes IT budget expenditures.
-- [x] It quantifies the potential cost of a data breach.
-- [ ] It establishes the value of data to the organization.
+- [ ] It quantifies the potential cost of a data breach.
+- [x] It establishes the value of data to the organization.
+
+**Explanation**: The primary purpose of classifying data in the context of Data Loss Prevention (DLP) is to help organizations identify, label, and protect sensitive information from unauthorized disclosure or leakage. DLP is a set of technologies and processes designed to prevent the unauthorized access, use, and transmission of sensitive data.
 
 #### Q49. You are responsible for managing security of your organization's public cloud infrastructure. You need to implement security to protect the data and applications running in a variety of IaaS and PaaS services, including a new Kubernetes cluster. What type of solution is best suited to this requirement?
 
@@ -391,9 +395,11 @@ autopsy is for forensic analysis
 #### Q50. Sharing account credentials violates the **\_** aspect of access control.
 
 - [ ] identification
-- [x] authorization
+- [ ] authorization
 - [ ] accounting
-- [ ] authentication
+- [x] authentication
+
+**Explanation**: Sharing account credentials violates the authentication aspect of access control. Authentication is the process of verifying the identity of a user, system, or application, and sharing credentials undermines this process by allowing multiple individuals to use the same set of login credentials, potentially compromising the security of the system.
 
 #### Q51. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
 
@@ -704,10 +710,12 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 #### Q91. Which option describes a core principle of DevSecOps?
 
-- [x] Testing and release should be 100% automated
+- [ ] Testing and release should be 100% automated
 - [ ] Role separation is the key to software security
 - [ ] Final responsibility for security rests with the architect of the application
-- [ ] Everyone in the process is responsible for security
+- [x] Everyone in the process is responsible for security
+
+**Explanation**: DevSecOps emphasizes the integration of security practices throughout the entire software development lifecycle, and it promotes a cultural shift where everyone involved in the development and operations processes takes responsibility for security. This includes developers, operations teams, and other stakeholders working collaboratively to integrate security into every stage of the development process.
 
 #### Q92. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
 
@@ -774,11 +782,11 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
 
-#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _ site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _.
+#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _.
 
-- [x] 192.168.0.1/24
+- [ ] 192.168.0.1/24
 - [ ] 192.168.0.3/24
-- [ ] 10.10.0.0/24
+- [x] 10.10.0.0/24
 - [ ] 192.168.0.2/24
 
 #### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
@@ -792,12 +800,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
 
-- [ ] adopting a "best-in-suite" approach to security
-- [x] adopting a "trust but verify" approach to security
+- [x] adopting a "best-in-suite" approach to security
+- [ ] adopting a "trust but verify" approach to security
 - [ ] adopting a "best-of-breed" approach to security
 - [ ] adopting a "defense-in-depth" approach to security
 
-[Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
+**Explanation**: A "best-in-suite" approach involves selecting a comprehensive security solution from a single vendor that integrates various security components. This approach can simplify training because security staff only need to become familiar with one integrated suite rather than multiple standalone products. It can also improve integration between components since they are designed to work seamlessly together. Additionally, a unified suite can offer a more cohesive and consistent security strategy, potentially reducing the complexity of managing diverse security tools. An example could be using Okta to provide SSO for all of your organization's logins.
 
 #### Q104. **\_** attacks can execute the code injected by attackers as part of user inputs.
 
@@ -860,6 +868,8 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Antivirus
 - [x] Design powerful malicious software
 - [x] Asymmetric backdoor
+
+**Explanation**: Cryptovirology involves the application of cryptographic techniques to create powerful and destructive malware, with ransomware being a notable example. In ransomware attacks, cryptography is often employed to encrypt a victim's files, rendering them inaccessible until a ransom is paid to the attacker for the decryption key.
 
 #### Q112. What does a metamorphic virus do?
 
@@ -1020,6 +1030,8 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] OAUTH Token
 - [ ] authenticator apps
 - [x] SMS message
+
+**Explanation**: SMS messages for MFA are generally considered less secure compared to other methods. This is because SMS messages can be vulnerable to interception (e.g., SIM swapping attacks), and the underlying telecommunication infrastructure may not provide sufficient protection against various attack vectors. Other MFA methods such as biometric authentication, OAUTH tokens, and authenticator apps are often considered more secure alternatives.
 
 [Reference](https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/) `"(...)All in all, MFA is still very effective at preventing most mass and automated attacks; however, users should be aware that there are ways to bypass some MFA solutions, such as those relying on SMS-based verification."`
 
@@ -1289,7 +1301,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Ransomware
 - [x] Malware
 
-#### Q171.Which of the following is NOT a common authentication factor used in multi-factor authentication (MFA)?
+#### Q171. Which of the following is NOT a common authentication factor used in multi-factor authentication (MFA)?
 
 - [ ] Something you are
 - [ ] Something you do
