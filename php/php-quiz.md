@@ -1540,6 +1540,7 @@ echo "excellent";
       4 echo $initialString;
 
 #### Q106. What is the output of this script?
+
 ```php
 $believable = 'false';
 $myth = 'The moon is made of green cheese';
@@ -1558,4 +1559,3 @@ else {
 - [ ] The moon is made of green cheese
 
 Explanation : 'false' evaluates to true since it is a string so the if condition is met.
-
