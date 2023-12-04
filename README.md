@@ -2219,6 +2219,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://cdfzo.com"><img src="https://avatars.githubusercontent.com/u/70074722?v=4?s=100" width="100px;" alt="cdfzo"/><br /><sub><b>cdfzo</b></sub></a><br /><a href="#design-cdfzo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=cdfzo" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/jefferson-dalfre-865b8635/"><img src="https://avatars.githubusercontent.com/u/5144185?v=4?s=100" width="100px;" alt="Jefferson Dalfre"/><br /><sub><b>Jefferson Dalfre</b></sub></a><br /><a href="#design-jdalfre" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jdalfre" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
