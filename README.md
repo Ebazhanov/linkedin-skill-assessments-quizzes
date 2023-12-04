@@ -15,14 +15,18 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1586-orange.svg?style=flat-square)](#contributors-)
 
-> :cyclone: NEW! Our brand new [AI CareerCraftBot](https://poe.com/CareerCraftBot) is powered by Chat-GPT 3.5 and designed to assist in customizing your resume.
+> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" />
+> NEW! We are implementing conversational chatbots to improve your chances of getting a job:
+>
+> [AI CareerCraftBot](https://poe.com/CareerCraftBot) is powered by Chat-GPT 3.5 and designed to assist in customizing your resume.
 > It prompts you to upload or paste your resume, and then input the job description. As a result, it generates an updated resume that fits the new role best.
-
-> We also have a GPT-4 version. :arrow_right: [AI CareerCraftBotPro](https://poe.com/CareerCraftBotPro)
+> 
+> We also have a GPT-4 version [AI CareerCraftBotPro](https://poe.com/CareerCraftBotPro)
+> 
+> [CodeSkillBot](https://poe.com/CodeSkillBot) and [CodeSkillBotPro](https://poe.com/CodeSkillBorPro) take your IT experience,  analyze your skills, and provide recommendations,e.g. online courses, hackathons, workshops, etc. based on the information provided.
 
 > If our 🤖 needs improvements or you think of a new bot to implement, please ask 👉 [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912).
-
-> The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).They cover a lot of topics from the history of Ancient Egypt🐫 to an 🫦Aelita flirting bot.
+> The full list of all existing bots 👉 [here](https://github.com/monkrus/ConvoBots).
 
 > :warning: DISCLAIMER: The owners of this repository are not liable for any illegal usage of the content provided in this repository. The content is provided for informational and educational purposes only, and any actions taken by users of this repository are the responsibility of the user. By accessing this repository, you agree to hold the owners harmless from any claims, damages, or expenses arising from the use of the information provided.
 > 👉 Remember, we never contact you for monetary support or donations!🫵
