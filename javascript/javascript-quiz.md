@@ -2262,7 +2262,7 @@ function scream(words) {
 scream('yay');
 ```
 
-- [ ] YAY!!!
+- [x] YAY!!!
 - [ ] ReferenceError
-- [x] Undefined
+- [ ] Undefined
 - [ ] TypeError
