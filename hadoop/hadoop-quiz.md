@@ -529,3 +529,21 @@ FROM customers c;
 - [x] host operating system
 
 [Reference](http://doc.isilon.com/ECS/3.2/DataAccessGuide/vipr_c_hdfs_security_model.html)
+
+#### Q74. Which is not a valid input format for a MapReduce job?
+
+- [x] FileReader
+- [ ] CompositeInputFormat
+- [ ] RecordReader
+- [ ] TextInputFormat
+
+[Reference](https://hadoop.apache.org/docs/stable/api/org/apache/hadoop/mapred/InputFormat.html#:~:text=All%20Known%20Implementing%20Classes)
+
+#### Q75. If you see org.apache.hadoop.mapred, which version of MapReduce are you working with?
+
+- [x] 1.x
+- [ ] 0.x
+- [ ] 2.x
+- [ ] 3.x
+
+[Reference](https://www.edureka.co/community/40266/what-is-the-difference-between-mapred-and-mapreduce)
