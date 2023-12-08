@@ -1,4 +1,4 @@
-## Linkedin Skill assessments - Answers
+1380## Linkedin Skill assessments - Answers
 
 <a id="top-page"></a>
 [![Owner](https://img.shields.io/badge/owner-ebazhanov-blue)](https://github.com/Ebazhanov)
@@ -23,7 +23,9 @@
 > It prompts you to upload or paste your resume and input the job description. The bot generates an updated resume that fits the new role best.
 >
 > [CodeSkillBot](https://poe.com/CodeSkillBot) and [CodeSkillBotPro](https://poe.com/CodeSkillBorPro) take your IT experience, analyze your skills, and provide recommendations,e.g. online courses, hackathons, workshops, etc. based on the information provided.
-
+>
+> [EmojiDictionary](https://poe.com/EmojiDictionary) and [EmojiDictionaryPro](https://poe.com/EmojiDictionaryPro) turns your text into a emoji. Simple, huh?
+>
 > For questions and comments <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Disguised%20Face.png" alt="Disguised Face" width="25" height="25" /> click [here](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/6912).
 > The full list of all bots is 👉 [here](https://github.com/monkrus/ConvoBots).
 
