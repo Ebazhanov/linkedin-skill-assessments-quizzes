@@ -1235,3 +1235,25 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] It is generated when you explicitly define a copy constructor.
 - [ ] The move constructor is used for copying objects between different data types.
 - [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.
+
+#### Q134. You have changed your mind about adding broccoli to your project. How should you remove it?
+
+```
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+broccoli
+```
+
+- [ ] `git remove .`
+- [ ] `git remove broccoli`
+- [ ] `git clean`
+- [x] `git clean -f`
+
+[Reference](https://git-scm.com/docs/git-clean)
+
+#### Q135. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without commiting?
+
+- [x] Use `git stash` to save your work, then come back later and reapply the stashed commit.
+- [ ] Save your work with `git local-cache`.
+- [ ] This is not possible, as you cannot save locally without committing.
+- [ ] Run `git hold` to save a local copy of what you're doing to return to later.
