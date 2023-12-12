@@ -1607,9 +1607,9 @@ As Steve Krug once said, happy talk must die.
 
 #### Q97. Which choice is a valid markup for a `<head>` element?
 
-- [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
+- [x] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
-- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [ ] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
 `The <head> HTML element contains machine-readable information (metadata) about the document, like its title. The <data> tag is used to add a machine-readable translation of a given content.`
