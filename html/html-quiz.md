@@ -1784,7 +1784,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q106. How would you mark up a header for a table row?
 
-- [x] A
+- [ ] A
 
 ```HTML
 <table>
@@ -1798,7 +1798,7 @@ As Steve Krug once said, happy talk must die.
 </table>
 ```
 
-- [ ] B
+- [x] B
 
 ```HTML
 <table>
