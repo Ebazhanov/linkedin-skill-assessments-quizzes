@@ -1552,7 +1552,7 @@ As Steve Krug once said, happy talk must die.
 <input type="radio" name="example" /> Choice 3
 ```
 
-- [x] :
+- [ ] :
 
 ```HTML
 <input type="checkbox" name="example" /> Choice 1 <br />
@@ -1560,7 +1560,7 @@ As Steve Krug once said, happy talk must die.
 <input type="checkbox" name="example" /> Choice 3
 ```
 
-- [ ] :
+- [x] :
 
 ```HTML
 <label><input type="checkbox" name="example" /> Choice 1</label><br />
