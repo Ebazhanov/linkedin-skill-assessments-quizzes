@@ -2053,8 +2053,8 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] `<video src="video.mp4" caption="video.vtt"></video>`
 - [ ] `<video src="video.mp4"><track caption="video.vtt" /></video>`
-- [ ] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
-- [x] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
+- [x] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
+- [ ] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
 
