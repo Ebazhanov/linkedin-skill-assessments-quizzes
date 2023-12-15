@@ -907,6 +907,16 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the `<br>` tag.
 
+[From MDN (`<br>`: The Line Break element)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#accessibility_concerns):
+
+```
+Accessibility concerns
+
+Creating separate paragraphs of text using <br> is not only bad practice, it is problematic for people who navigate with the aid of screen reading technology. Screen readers may announce the presence of the element, but not any content contained within <br>s. This can be a confusing and frustrating experience for the person using the screen reader.
+
+Use <p> elements, and use CSS properties like margin to control their spacing.
+```
+
 #### Q56. What does the `<wbr>` tag do?
 
 - [ ] It requires the browser to wrap the current line at that point.
