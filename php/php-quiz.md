@@ -1556,7 +1556,7 @@ else {
 - [ ] 10000
 - [ ] 31
 - [ ] 1001
-- [ ] The moon is made of green cheese
+- [x] The moon is made of green cheese
 
 Explanation : 'false' evaluates to true since it is a string so the if condition is met.
 
