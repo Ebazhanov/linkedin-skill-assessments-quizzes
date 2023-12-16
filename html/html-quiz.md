@@ -485,10 +485,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q29. Which three tags were deprecated in HTML4 but returned to HTML5?
 
-- [x] `<rb> <rp> <rt>`
+- [ ] `<rb> <rp> <rt>`
 - [ ] `<acronym> <code> <wbr>`
 - [ ] `<hgroup> <q> <wbr>`
-- [ ] `<b> <i> <u>`
+- [x] `<b> <i> <u>`
 
 #### Q30. The **\_** tag is used for marking up a short code snippet, while the \_ tag is used for marking up a longer block of code
 
