@@ -1,3 +1,5 @@
+## ❗Skills assessments on LinkedIn - no longer available❗
+
 1380## Linkedin Skill assessments - Answers
 
 <a id="top-page"></a>
