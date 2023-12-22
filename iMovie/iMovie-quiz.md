@@ -299,7 +299,6 @@
 - [ ] 8K
 
 #### Q41. Which iMovie button applies automatic color adjustments to a clip?
-
 - [ ] video and audio effects
 - [x] Color balance
 - [ ] Information
