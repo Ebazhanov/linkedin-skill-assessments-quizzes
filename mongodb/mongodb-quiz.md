@@ -782,8 +782,8 @@ _Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional
 
 - [ ] `createDatabase()`
 - [ ] `useDatabase()`
-- [x] `db.createDatabase()`
-- [ ] `use`
+- [ ] `db.createDatabase()`
+- [x] `use`
 
 #### Q98. What is the default port number for MongoDB?
 
@@ -820,7 +820,7 @@ _Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional
 - [ ] It is responsible for data replication
 - [ ] It is a tool for importing and exporting data
 
-#### Q103. Which method is used to remove documents from a collection in MongoDB?
+#### Q103. Which method is used to remove a document from a collection in MongoDB?
 
 - [x] `deleteOne()`
 - [ ] `removeOne()`

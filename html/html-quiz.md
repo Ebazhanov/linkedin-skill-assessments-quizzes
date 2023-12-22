@@ -485,10 +485,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q29. Which three tags were deprecated in HTML4 but returned to HTML5?
 
-- [x] `<rb> <rp> <rt>`
+- [ ] `<rb> <rp> <rt>`
 - [ ] `<acronym> <code> <wbr>`
 - [ ] `<hgroup> <q> <wbr>`
-- [ ] `<b> <i> <u>`
+- [x] `<b> <i> <u>`
 
 #### Q30. The **\_** tag is used for marking up a short code snippet, while the \_ tag is used for marking up a longer block of code
 
@@ -906,6 +906,16 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [x] Separate lines with a `<p>`, then use CSS to make single spacing.
 - [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the `<br>` tag.
+
+[From MDN (`<br>`: The Line Break element)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#accessibility_concerns):
+
+```
+Accessibility concerns
+
+Creating separate paragraphs of text using <br> is not only bad practice, it is problematic for people who navigate with the aid of screen reading technology. Screen readers may announce the presence of the element, but not any content contained within <br>s. This can be a confusing and frustrating experience for the person using the screen reader.
+
+Use <p> elements, and use CSS properties like margin to control their spacing.
+```
 
 #### Q56. What does the `<wbr>` tag do?
 
@@ -1374,9 +1384,9 @@ As Steve Krug once said, happy talk must die.
 </details>
 ```
 
-- [x] A
+- [ ] A
       ![A](images/Q84-1.jpg)
-- [ ] B
+- [x] B
       ![B](images/Q84-2.jpg)
 - [ ] C
       ![C](images/Q84-3.jpg)
@@ -1552,7 +1562,7 @@ As Steve Krug once said, happy talk must die.
 <input type="radio" name="example" /> Choice 3
 ```
 
-- [x] :
+- [ ] :
 
 ```HTML
 <input type="checkbox" name="example" /> Choice 1 <br />
@@ -1560,7 +1570,7 @@ As Steve Krug once said, happy talk must die.
 <input type="checkbox" name="example" /> Choice 3
 ```
 
-- [ ] :
+- [x] :
 
 ```HTML
 <label><input type="checkbox" name="example" /> Choice 1</label><br />
@@ -1607,9 +1617,9 @@ As Steve Krug once said, happy talk must die.
 
 #### Q97. Which choice is a valid markup for a `<head>` element?
 
-- [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
+- [x] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
-- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [ ] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
 `The <head> HTML element contains machine-readable information (metadata) about the document, like its title. The <data> tag is used to add a machine-readable translation of a given content.`
@@ -1784,7 +1794,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q106. How would you mark up a header for a table row?
 
-- [x] A
+- [ ] A
 
 ```HTML
 <table>
@@ -1798,7 +1808,7 @@ As Steve Krug once said, happy talk must die.
 </table>
 ```
 
-- [ ] B
+- [x] B
 
 ```HTML
 <table>
@@ -2053,8 +2063,8 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] `<video src="video.mp4" caption="video.vtt"></video>`
 - [ ] `<video src="video.mp4"><track caption="video.vtt" /></video>`
-- [ ] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
-- [x] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
+- [x] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
+- [ ] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
 

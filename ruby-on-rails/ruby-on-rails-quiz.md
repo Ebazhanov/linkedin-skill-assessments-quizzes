@@ -485,7 +485,7 @@ end
 
 - [ ] The string assigned to flash[:notice] will not be available until the next browser request.
 - [ ] An instance variable should be used for flash[:notice]
-- [x] This is an invalid syntax to use to assign valuse to flash[:notice]
+- [x] This is an invalid syntax to use to assign values to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
       [Explanation]:
       The cause of the bug is a syntax error in the line that sets the value of the flash[:notice] message. The string literal "You have been logged out" is not properly enclosed in the surrounding string literal.
