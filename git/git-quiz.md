@@ -1258,8 +1258,8 @@ broccoli
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 
-
 #### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
+
 - [x] to alow you to create .zip files that you can easily share
 - [ ] to initiate a continuos integration process
 - [x] to package your software so that it can become available through the Github marketplace
