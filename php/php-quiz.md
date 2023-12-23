@@ -1555,7 +1555,16 @@ else {
 - [ ] 10000
 - [ ] 31
 - [ ] 1001
-- [ ] The moon is made of green cheese
+- [x] The moon is made of green cheese
 
 Explanation : 'false' evaluates to true since it is a string so the if condition is met.
 
+#### Q107. What PHP control structure is used inside of a loop to skip the rest of the current loop's code and go back to the start of the loop for the next iteration?
+
+- [ ] return
+
+- [ ] else
+
+- [ ] break
+
+- [x] continue
