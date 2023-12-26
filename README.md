@@ -1,6 +1,4 @@
-## ❗Skills assessments on LinkedIn - no longer available❗
-
-1380## Linkedin Skill assessments - Answers
+❗As of December 2023 skills assessments are no longer available on LinkedIn, but you still can brush up your skills here❗
 
 <a id="top-page"></a>
 [![Owner](https://img.shields.io/badge/owner-ebazhanov-blue)](https://github.com/Ebazhanov)
