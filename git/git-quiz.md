@@ -1258,13 +1258,12 @@ broccoli
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 
-
 #### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
+
 - [x] to alow you to create .zip files that you can easily share
 - [ ] to initiate a continuos integration process
 - [x] to package your software so that it can become available through the Github marketplace
 - [ ] to create workflows and automate the process of generating software
-
 
 #### Q137. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
 

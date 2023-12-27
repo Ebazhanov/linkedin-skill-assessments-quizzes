@@ -467,6 +467,7 @@ https://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-en
 - [ ] Any QuickBooks report
 
 #### Q67. Why would you create a statement charge for a customer?
+
 - [x] to add a line-item transaction without having to send the customer an invoice when no sales tax is involved.
 - [ ] to add a line-item transaction without having to send the customer an invoice and you need the sales tax correctly calculated
 - [ ] to send the customer a list of recent trasactions, including both outstanding and current invoices
