@@ -1258,9 +1258,24 @@ broccoli
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 
-#### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
 
+#### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
 - [x] to alow you to create .zip files that you can easily share
 - [ ] to initiate a continuos integration process
 - [x] to package your software so that it can become available through the Github marketplace
 - [ ] to create workflows and automate the process of generating software
+
+
+#### Q137. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
+
+- [x] Press the slash(/) key and then the T key.
+- [ ] Go to advanced search.
+- [ ] From the search menu, select Path.
+- [ ] Press the T key.
+
+#### Q138. How do you save a search that you use often using GitHub?
+
+- [ ] Click Save on the Search box.
+- [ ] Click Save in the advanced search menu.
+- [x] Click Save on the search results page.
+- [ ] Bookmark the search results page.
