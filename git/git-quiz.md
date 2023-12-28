@@ -1265,7 +1265,6 @@ broccoli
 - [x] to package your software so that it can become available through the Github marketplace
 - [ ] to create workflows and automate the process of generating software
 
-
 #### Q137. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
 
 - [x] Press the slash(/) key and then the T key.
@@ -1279,3 +1278,4 @@ broccoli
 - [ ] Click Save in the advanced search menu.
 - [x] Click Save on the search results page.
 - [ ] Bookmark the search results page.
+
