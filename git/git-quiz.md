@@ -1279,3 +1279,8 @@ broccoli
 - [x] Click Save on the search results page.
 - [ ] Bookmark the search results page.
 
+#### Q139. which of these is not a label that github creates by default?
+- [ ] bug
+- [ ] documentation
+- [ ] wontfix
+- [x] repo
