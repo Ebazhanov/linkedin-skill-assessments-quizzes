@@ -15908,6 +15908,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "standy",
+      "name": "standy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/750319?v=4",
+      "profile": "https://github.com/standy",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
