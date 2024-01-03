@@ -1066,7 +1066,8 @@ fmt.Println (n)
 
 [time#Time.Format](https://pkg.go.dev/time#Time.Format)
 
-According to the documentation, the value 1 and 01 will represent the current month.  
+According to the documentation, the value 1 and 01 will represent the current month.
+
 ```text
 each layout string is a representation of the time stamp,
 	Jan 2 15:04:05 2006 MST
