@@ -360,7 +360,6 @@
 - [ ] Select the original field, right-click, and then select create multiple copies.
 
 #### Q50. On a new windows computer, you first installed adobe acrobat DC, then you installed the Microsoft Office suite. Because of the order of installtion, the PDFMaker option does not appear in the ribbons of your Office applications. How can you install PDFMaker in Microsoft Word on a PC?
-
 - [ ] FIle > Options > Add-ins
 - [ ] File > Transform > Intelligent Services
 - [x] File > Options > Customize ribbons

@@ -1258,8 +1258,8 @@ broccoli
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 
-#### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
 
+#### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
 - [x] to alow you to create .zip files that you can easily share
 - [ ] to initiate a continuos integration process
 - [x] to package your software so that it can become available through the Github marketplace
@@ -1292,3 +1292,10 @@ broccoli
 - [ ] Click the Search tab from the Github Version
 - [ ] Click the advanced Search link.
 - [x] Click the search box and type your searc query.
+
+#### Q141. Assigning an issue to a person implies that thay ____.
+
+- [ ] will get a notification asking them to review the issue
+- [x] are responsible for resolving the issue
+- [ ] are being informed of the issue's details
+- [ ] supervise the team resolving the issue
