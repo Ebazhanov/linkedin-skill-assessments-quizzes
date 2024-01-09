@@ -1292,3 +1292,10 @@ broccoli
 - [ ] Click the Search tab from the Github Version
 - [ ] Click the advanced Search link.
 - [x] Click the search box and type your searc query.
+
+#### Q141. Assigning an issue to a person implies that thay ____.
+
+- [ ] will get a notification asking them to review the issue
+- [x] are responsible for resolving the issue
+- [ ] are being informed of the issue's details
+- [ ] supervise the team resolving the issue
