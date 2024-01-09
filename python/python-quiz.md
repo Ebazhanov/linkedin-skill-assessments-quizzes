@@ -1513,7 +1513,7 @@ my_dictionary = {
 }
 ```
 
-- [x] <br>
+- [ ] <br>
 
 ```python
 letters = []
@@ -1522,7 +1522,7 @@ for letter in my_dictionary.values():
     letters.append(letter)
 ```
 
-- [ ] `letters = my_dictionary.keys()`
+- [x] `letters = my_dictionary.keys()`
 - [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
 - [ ] `letters4 = list(my_dictionary)`
 
