@@ -1280,7 +1280,14 @@ broccoli
 - [ ] Bookmark the search results page.
 
 #### Q139. which of these is not a label that github creates by default?
+
 - [ ] bug
 - [ ] documentation
 - [ ] wontfix
 - [x] repo
+
+#### Q140. What is the fastest way to start a search using Github web pages?
+- [ ] Press the slash(/) key on any page of the site.
+- [ ] Click the Search tab from the Github Version
+- [ ] Click the advanced Search link.
+- [x] Click the search box  and type  your searc query.

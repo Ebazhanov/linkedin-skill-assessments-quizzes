@@ -12664,10 +12664,10 @@
       ]
     },
     {
-      "login": "Jirafey",
-      "name": "Grzegorz Kmita",
+      "login": "jirafey",
+      "name": "jirafey",
       "avatar_url": "https://avatars.githubusercontent.com/u/97115044?v=4",
-      "profile": "http://grzegorzkmita.com",
+      "profile": "https://jirafey.is-a.dev",
       "contributions": [
         "design",
         "code"
