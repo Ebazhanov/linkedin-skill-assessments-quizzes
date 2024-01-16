@@ -2228,6 +2228,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/michalbugaj/"><img src="https://avatars.githubusercontent.com/u/105851019?v=4?s=100" width="100px;" alt="Michał Bugaj"/><br /><sub><b>Michał Bugaj</b></sub></a><br /><a href="#design-m-bugaj" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=m-bugaj" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/standy"><img src="https://avatars.githubusercontent.com/u/750319?v=4?s=100" width="100px;" alt="standy"/><br /><sub><b>standy</b></sub></a><br /><a href="#design-standy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=standy" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/chetannada/"><img src="https://avatars.githubusercontent.com/u/83969719?v=4?s=100" width="100px;" alt="Chetan Nada"/><br /><sub><b>Chetan Nada</b></sub></a><br /><a href="#design-chetannada" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=chetannada" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
