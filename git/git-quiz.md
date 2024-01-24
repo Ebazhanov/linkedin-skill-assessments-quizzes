@@ -1301,6 +1301,7 @@ broccoli
 - [ ] supervise the team resolving the issue
 
 #### Q142. What does a Template repository do?
+
 - [ ] It creates a live demo of the current repository for training.
 - [x] It allows you to create a default structure and files based on the current repository.
 - [ ] It lets you archive and store project settings.
