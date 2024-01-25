@@ -1306,3 +1306,9 @@ broccoli
 - [x] It allows you to create a default structure and files based on the current repository.
 - [ ] It lets you archive and store project settings.
 - [ ] It imports another project’s settings to the current project.
+
+#### Q143. You’re creating an action for the GitHub Marketplace. Why is it important to create a release?
+- [ ] To allow you to create .zip files that you can easily share
+- [ ] To initiate a continuous integration process
+- [x] To package your software so that it can become available through the Github Marketplace
+- [ ] To create workflows and automate the process of generating software
