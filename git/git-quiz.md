@@ -1313,3 +1313,11 @@ broccoli
 - [ ] To initiate a continuous integration process
 - [x] To package your software so that it can become available through the Github Marketplace
 - [ ] To create workflows and automate the process of generating software
+
+#### Q144. What are two ways to help Copilot give you more accurate suggestions?
+- [ ] Add instructions in parentheses.
+- [ ] Use shorthand, but accurate, descriptors.
+- [x] Add context in comments.
+- [ ] Use concise variable names.
+- [x] Use descriptive function names.
+
