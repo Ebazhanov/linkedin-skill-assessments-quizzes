@@ -1323,9 +1323,8 @@ broccoli
 - [x] Use descriptive function names.
 
 #### Q145. What is the main purpose of the Chat panel?
+
 - [ ] To search for answers in the current project’s repository
 - [ ] To chat with other developers who are working at your company
 - [x] To have a conversational discussion with the AI behind Copilot
 - [ ] To get a list possible answers to a question
-
-      
