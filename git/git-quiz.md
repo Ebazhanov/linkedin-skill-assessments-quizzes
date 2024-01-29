@@ -1330,6 +1330,7 @@ broccoli
 - [ ] To get a list possible answers to a question
 
 #### Q146. While doing a code review, you want to start an issue by highlighting a function that takes up several lines of code. What is the fastest way to do this in code view?
+
 - [ ] Click the first line number with the function, click the last line number to select a range, then in the hamburger menu select Reference in new issues
 - [ ] Copy the code and start a new issue, then use backticks around the function to create the issue
 - [ ] Select the function with the mouse, then right click and select reference in new issue
