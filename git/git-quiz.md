@@ -1337,8 +1337,8 @@ broccoli
 - [ ] Click the line number with the function and select reference function in an issue
 
 #### Q147. You’re reviewing a file in a repository and want to link to the current version of the file, even if it gets updated later. How can you achieve this?
+
 - [ ] Go to the Code tab and click Download zip
 - [ ] Right click the code text and select Permalink
 - [x] Click Permalink on the code view
 - [ ] Copy the URL from the address bar
-
