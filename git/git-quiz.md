@@ -1342,3 +1342,9 @@ broccoli
 - [ ] Right click the code text and select Permalink
 - [x] Click Permalink on the code view
 - [ ] Copy the URL from the address bar
+
+#### Q148. You’re organizing a desktop application project. You want to use an overview f your project statuses and be able to drag and drop issues. Which view would you use?
+- [x] Board
+- [ ]  Overview
+- [ ]  Roadmap
+- [ ]  Table
