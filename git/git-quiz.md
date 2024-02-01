@@ -1349,3 +1349,11 @@ broccoli
 - [ ] Overview
 - [ ] Roadmap
 - [ ] Table
+
+#### Q149. You’re in the repo for a specific project while working on an app module. You want to look for some of the docs you’ve been working on, which you wrote in markdown. To quickly look in your own repo for all files with a markdown extension, press the slash (/) button on the keyboard while on the repository page and type ___.
+- [ ] Path:.md
+- [ ] Grep:.md
+- [x] Code:*.md
+- [ ] Ext:*.md
+
+      
