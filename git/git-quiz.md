@@ -1356,3 +1356,10 @@ broccoli
 - [ ] Grep:.md
 - [x] Code:\*.md
 - [ ] Ext:\*.md
+
+#### Q150. In GitHub Projects, how can you assign an issue to a collaborator?
+- [ ] Label the item with their username.
+- [x] Select their username from the Assignees field.
+- [ ] Move the item to their column in the Boards view.
+- [ ] Add their handle in the comments.
+
