@@ -1365,8 +1365,8 @@ broccoli
 - [ ] Add their handle in the comments.
 
 #### Q151. Why should you include a descriptive function name when writing code with Copilot?
+
 - [ ] It helps Copilot add more variables to a function.
 - [ ] It trains the algorithm for the next time a GitHub client answers the question.
 - [x] It helps Copilot have better context for code assistance and generation.
 - [ ] The function names are not fed to Copilot and are ignored by the AI.
-
