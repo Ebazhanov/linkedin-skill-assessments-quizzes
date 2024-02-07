@@ -1372,8 +1372,8 @@ broccoli
 - [ ] The function names are not fed to Copilot and are ignored by the AI.
 
 #### Q152. You are working on a project that uses a Python library and you want to find an example of how to use a function across all public repositories. Which part of GitHub’s platform would you use?
+
 - [ ] Issues.
 - [ ] Discussions
 - [ ] Projects
 - [x] Search
-
