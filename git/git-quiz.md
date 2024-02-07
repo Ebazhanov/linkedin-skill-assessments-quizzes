@@ -1200,27 +1200,8 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] `git reset --soft`; `git reset --hard`
 - [ ] `git rewind`; `git update`
 
-#### Q129. When is the cherry-pick command used?
 
-- [x] when a commit from one branch needs to be copied into another branch
-- [ ] when the HEAD needs to be reset to a specific commit
-- [ ] when a specific commit needs to be pulled down from the remote repository
-- [ ] when a hook script needs to be invoked
-
-#### Q130. What would happen if you ran the `git reset testfile.js` command?
-
-- [ ] testfile.js would be reverted to a blank file.
-- [ ] testfile.js would be reset to its first saved state.
-- [x] testfile.js would be reverted to its last saved copy.
-- [ ] testfile.js would be removed from the stage/index area, if present.
-
-#### Q131. How many individual commits can a single repository have?
-
-- [x] any number of commits
-- [ ] only one commit local per repository
-- [ ] only three commits per branch
-
-#### Q132. Explain the concept of "Git blame" and when it is used in a version control workflow.
+#### Q129. Explain the concept of "Git blame" and when it is used in a version control workflow.
 
 - [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
 - [ ] It's used for blaming others for code issues in a collaborative project.
@@ -1229,14 +1210,14 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 
 [Reference](https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
 
-#### Q133. What is the purpose of C++ move constructor, and when is it automatically generated?
+#### Q130. What is the purpose of C++ move constructor, and when is it automatically generated?
 
 - [ ] A move constructor creates deep copies of objects, improving memory efficiency.
 - [ ] It is generated when you explicitly define a copy constructor.
 - [ ] The move constructor is used for copying objects between different data types.
 - [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.
 
-#### Q134. You have changed your mind about adding broccoli to your project. How should you remove it?
+#### Q131. You have changed your mind about adding broccoli to your project. How should you remove it?
 
 ```
 Untracked files:
@@ -1251,70 +1232,64 @@ broccoli
 
 [Reference](https://git-scm.com/docs/git-clean)
 
-#### Q135. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without commiting?
 
-- [x] Use `git stash` to save your work, then come back later and reapply the stashed commit.
-- [ ] Save your work with `git local-cache`.
-- [ ] This is not possible, as you cannot save locally without committing.
-- [ ] Run `git hold` to save a local copy of what you're doing to return to later.
-
-#### Q136. You're creating an action for the Github marketplace. why is it importance to create a release?
+#### Q132. You're creating an action for the Github marketplace. why is it importance to create a release?
 
 - [x] to alow you to create .zip files that you can easily share
 - [ ] to initiate a continuos integration process
 - [x] to package your software so that it can become available through the Github marketplace
 - [ ] to create workflows and automate the process of generating software
 
-#### Q137. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
+#### Q133. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
 
 - [x] Press the slash(/) key and then the T key.
 - [ ] Go to advanced search.
 - [ ] From the search menu, select Path.
 - [ ] Press the T key.
 
-#### Q138. How do you save a search that you use often using GitHub?
+#### Q134. How do you save a search that you use often using GitHub?
 
 - [ ] Click Save on the Search box.
 - [ ] Click Save in the advanced search menu.
 - [x] Click Save on the search results page.
 - [ ] Bookmark the search results page.
 
-#### Q139. which of these is not a label that github creates by default?
+#### Q135. which of these is not a label that github creates by default?
 
 - [ ] bug
 - [ ] documentation
 - [ ] wontfix
 - [x] repo
 
-#### Q140. What is the fastest way to start a search using Github web pages?
+#### Q136. What is the fastest way to start a search using Github web pages?
 
 - [ ] Press the slash(/) key on any page of the site.
 - [ ] Click the Search tab from the Github Version
 - [ ] Click the advanced Search link.
 - [x] Click the search box and type your searc query.
 
-#### Q141. Assigning an issue to a person implies that they \_\_\_\_.
+#### Q137. Assigning an issue to a person implies that they \_\_\_\_.
 
 - [ ] will get a notification asking them to review the issue
 - [x] are responsible for resolving the issue
 - [ ] are being informed of the issue's details
 - [ ] supervise the team resolving the issue
 
-#### Q142. What does a Template repository do?
+#### Q138. What does a Template repository do?
 
 - [ ] It creates a live demo of the current repository for training.
 - [x] It allows you to create a default structure and files based on the current repository.
 - [ ] It lets you archive and store project settings.
 - [ ] It imports another project’s settings to the current project.
 
-#### Q143. You’re creating an action for the GitHub Marketplace. Why is it important to create a release?
+#### Q139. You’re creating an action for the GitHub Marketplace. Why is it important to create a release?
 
 - [ ] To allow you to create .zip files that you can easily share
 - [ ] To initiate a continuous integration process
 - [x] To package your software so that it can become available through the Github Marketplace
 - [ ] To create workflows and automate the process of generating software
 
-#### Q144. What are two ways to help Copilot give you more accurate suggestions?
+#### Q140. What are two ways to help Copilot give you more accurate suggestions?
 
 - [ ] Add instructions in parentheses.
 - [ ] Use shorthand, but accurate, descriptors.
@@ -1322,49 +1297,49 @@ broccoli
 - [ ] Use concise variable names.
 - [x] Use descriptive function names.
 
-#### Q145. What is the main purpose of the Chat panel?
+#### Q141. What is the main purpose of the Chat panel?
 
 - [ ] To search for answers in the current project’s repository
 - [ ] To chat with other developers who are working at your company
 - [x] To have a conversational discussion with the AI behind Copilot
 - [ ] To get a list possible answers to a question
 
-#### Q146. While doing a code review, you want to start an issue by highlighting a function that takes up several lines of code. What is the fastest way to do this in code view?
+#### Q142. While doing a code review, you want to start an issue by highlighting a function that takes up several lines of code. What is the fastest way to do this in code view?
 
 - [ ] Click the first line number with the function, click the last line number to select a range, then in the hamburger menu select Reference in new issues
 - [ ] Copy the code and start a new issue, then use backticks around the function to create the issue
 - [ ] Select the function with the mouse, then right click and select reference in new issue
 - [ ] Click the line number with the function and select reference function in an issue
 
-#### Q147. You’re reviewing a file in a repository and want to link to the current version of the file, even if it gets updated later. How can you achieve this?
+#### Q143. You’re reviewing a file in a repository and want to link to the current version of the file, even if it gets updated later. How can you achieve this?
 
 - [ ] Go to the Code tab and click Download zip
 - [ ] Right click the code text and select Permalink
 - [x] Click Permalink on the code view
 - [ ] Copy the URL from the address bar
 
-#### Q148. You’re organizing a desktop application project. You want to use an overview f your project statuses and be able to drag and drop issues. Which view would you use?
+#### Q144. You’re organizing a desktop application project. You want to use an overview f your project statuses and be able to drag and drop issues. Which view would you use?
 
 - [x] Board
 - [ ] Overview
 - [ ] Roadmap
 - [ ] Table
 
-#### Q149. You’re in the repo for a specific project while working on an app module. You want to look for some of the docs you’ve been working on, which you wrote in markdown. To quickly look in your own repo for all files with a markdown extension, press the slash (/) button on the keyboard while on the repository page and type \_\_\_.
+#### Q145. You’re in the repo for a specific project while working on an app module. You want to look for some of the docs you’ve been working on, which you wrote in markdown. To quickly look in your own repo for all files with a markdown extension, press the slash (/) button on the keyboard while on the repository page and type \_\_\_.
 
 - [ ] Path:.md
 - [ ] Grep:.md
 - [x] Code:\*.md
 - [ ] Ext:\*.md
 
-#### Q150. In GitHub Projects, how can you assign an issue to a collaborator?
+#### Q146. In GitHub Projects, how can you assign an issue to a collaborator?
 
 - [ ] Label the item with their username.
 - [x] Select their username from the Assignees field.
 - [ ] Move the item to their column in the Boards view.
 - [ ] Add their handle in the comments.
 
-#### Q151. Why should you include a descriptive function name when writing code with Copilot?
+#### Q147. Why should you include a descriptive function name when writing code with Copilot?
 
 - [ ] It helps Copilot add more variables to a function.
 - [ ] It trains the algorithm for the next time a GitHub client answers the question.
