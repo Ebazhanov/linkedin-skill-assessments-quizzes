@@ -1377,3 +1377,10 @@ broccoli
 - [ ] Discussions
 - [ ] Projects
 - [x] Search
+
+#### Q153. Working late on a project, you need to find an issue that was assigned to you. What query do you type?
+
+- [x] Is:issue assignee:username
+- [ ] Is:issue user:username
+- [ ] Issue:issue user:username
+- [ ] assignee:username is:rep
