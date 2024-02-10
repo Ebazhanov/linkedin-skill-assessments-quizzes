@@ -2230,6 +2230,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/chetannada/"><img src="https://avatars.githubusercontent.com/u/83969719?v=4?s=100" width="100px;" alt="Chetan Nada"/><br /><sub><b>Chetan Nada</b></sub></a><br /><a href="#design-chetannada" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=chetannada" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sky-De"><img src="https://avatars.githubusercontent.com/u/79264045?v=4?s=100" width="100px;" alt="sky_de_1991"/><br /><sub><b>sky_de_1991</b></sub></a><br /><a href="#design-Sky-De" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Sky-De" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
