@@ -1200,7 +1200,6 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] `git reset --soft`; `git reset --hard`
 - [ ] `git rewind`; `git update`
 
-
 #### Q129. Explain the concept of "Git blame" and when it is used in a version control workflow.
 
 - [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
@@ -1231,7 +1230,6 @@ broccoli
 - [x] `git clean -f`
 
 [Reference](https://git-scm.com/docs/git-clean)
-
 
 #### Q132. You're creating an action for the Github marketplace. why is it importance to create a release?
 
