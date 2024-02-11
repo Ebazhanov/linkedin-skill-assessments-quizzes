@@ -1359,3 +1359,10 @@ broccoli
 - [ ] Is:issue user:username
 - [ ] Issue:issue user:username
 - [ ] assignee:username is:rep
+
+#### Q154. you are working on an AI app and need to add information on project tables about the AI model being targeted. What feature allows you to do this?
+
+- [x] Custom fields
+- [ ] Comments
+- [ ] Pull requests
+- [ ] Custom properties
