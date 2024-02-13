@@ -1337,6 +1337,7 @@ broccoli
 - [ ] Move the item to their column in the Boards view.
 - [ ] Add their handle in the comments.
 
+
 #### Q147. Why should you include a descriptive function name when writing code with Copilot?
 
 - [ ] It helps Copilot add more variables to a function.
@@ -1344,21 +1345,21 @@ broccoli
 - [x] It helps Copilot have better context for code assistance and generation.
 - [ ] The function names are not fed to Copilot and are ignored by the AI.
 
-#### Q152. You are working on a project that uses a Python library and you want to find an example of how to use a function across all public repositories. Which part of GitHub’s platform would you use?
+#### Q148. You are working on a project that uses a Python library and you want to find an example of how to use a function across all public repositories. Which part of GitHub’s platform would you use?
 
 - [ ] Issues.
 - [ ] Discussions
 - [ ] Projects
 - [x] Search
 
-#### Q153. Working late on a project, you need to find an issue that was assigned to you. What query do you type?
+#### Q149. Working late on a project, you need to find an issue that was assigned to you. What query do you type?
 
 - [x] Is:issue assignee:username
 - [ ] Is:issue user:username
 - [ ] Issue:issue user:username
 - [ ] assignee:username is:rep
 
-#### Q154. you are working on an AI app and need to add information on project tables about the AI model being targeted. What feature allows you to do this?
+#### Q150. you are working on an AI app and need to add information on project tables about the AI model being targeted. What feature allows you to do this?
 
 - [x] Custom fields
 - [ ] Comments
