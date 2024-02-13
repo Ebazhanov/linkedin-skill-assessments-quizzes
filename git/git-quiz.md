@@ -1337,7 +1337,6 @@ broccoli
 - [ ] Move the item to their column in the Boards view.
 - [ ] Add their handle in the comments.
 
-
 #### Q147. Why should you include a descriptive function name when writing code with Copilot?
 
 - [ ] It helps Copilot add more variables to a function.
