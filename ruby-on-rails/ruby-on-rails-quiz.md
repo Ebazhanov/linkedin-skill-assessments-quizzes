@@ -214,7 +214,7 @@ class ProductController < ActionController::Base
 
   def update
     @product = Product.find(params[:id])
-    if @product.update_attributes(product_params)
+    if @product.update(product_params)
       redirect_to(product_path(@product))
     else
       render('edit')
@@ -233,6 +233,8 @@ end
 - [ ] The product will not be updated and the controller will raise an ActiveModel::ForbiddenAttributes exception.
 - [x] The product will be updated with the values for name, style, and color, but the value for price will be ignored.
 - [ ] The product will be updated with the values for name, style, color, and price.
+
+[Reference](https://stackoverflow.com/a/19277971)
 
 #### Q25. A Rails project has ActiveRecord classes defined for Classroom and Student. If instances of these classes are related so that students are assigned the ID of one particular classroom, which choice shows the correct associations to define?
 
@@ -337,11 +339,11 @@ end
 - [ ] The method will ignore exceptions that occur during execution.
 - [x] It is a more powerful or destructive version of the method.
 
-#### Q33. What part of the code below causes the method `#decrypt_data` to be run?
+#### Q33. What options below would cause the method `#decrypt_data` to be run?
 
 ```rb
 class MyModel < ApplicationRecord
-after_find :decrypt_data
+  after_find :decrypt_data
 end
 ```
 
@@ -349,6 +351,8 @@ end
 - [ ] `MyModel.where(id: 42)`
 - [x] `MyModel.first.destroy`
 - [ ] `MyModel.new(field: 'new instance')`
+
+[Reference](https://guides.rubyonrails.org/active_record_callbacks.html#running-callbacks)
 
 #### Q34. Which Rails helper would you use in the application view to protect against CSRF (Cross-Site Request Forgery) attacks?
 
@@ -472,6 +476,8 @@ end
 <input type="checkbox" name="post[visible]" value="1" />
 ```
 
+[Reference](https://apidock.com/rails/ActionView/Helpers/FormHelper/check_box)
+
 #### Q40. There is a bug in this code. The logout message is not appearing on the login template. What is the cause?
 
 ```ruby
@@ -496,6 +502,8 @@ end
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
 - [x] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
 - [ ] ActiveRecord models can have only attributes that have a matching database column
+
+[Reference](https://api.rubyonrails.org/classes/ActiveRecord/Base.html)
 
 #### Q42. What is the correct way to assign a value to the session?
 
@@ -522,6 +530,8 @@ session_save(:user_id, user.id)
 ```ruby
 session[:user_id] = user.id
 ```
+
+[Reference](https://guides.rubyonrails.org/v7.1/action_controller_overview.html#session)
 
 #### Q43. Which choice best describes the expected value of @result?
 
@@ -594,7 +604,6 @@ end
 
 - [ ] D
 
-```ruby
 ```ruby
 class Project
   validates_presense_of :name, :unique => true
@@ -691,6 +700,8 @@ saved_name = _____
 - [ ] category.changes[:name]
 - [ ] category.name_changed?
 
+[Reference](https://api.rubyonrails.org/v7.1/classes/ActiveModel/Dirty.html#method-i-2A_was)
+
 #### Q53. Given two models, what is the issue with the query used to fetch them?
 
 ```ruby
@@ -756,6 +767,8 @@ after_update_commit do
 Rails.cache.destroy(cache_key)
 end
 ```
+
+[Reference](https://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html#method-i-delete)
 
 #### Q57. After this migration has been executed, which statement would be true?
 
@@ -851,6 +864,7 @@ end
 - [ ] `@user.city`
 - [ ] `@user.try(:city)`
 
+[Reference](https://apidock.com/rails/Module/delegate)
 [Reference](https://itnext.io/understanding-delegate-in-ruby-on-rails-i-wish-i-knew-before-5edd341bad47)
 
 #### Q62. Where would this code most likely be found in a Rails project?
@@ -898,18 +912,12 @@ end
 - [ ] It includes the number of associated images when determining how many records to return.
 - [x] It will execute two database queries of 21 database queries.
 
-#### Q67. What line of code causes the method `decrypt_data` to be run?
+#### Q67. What is RVM?
 
-```ruby
-class MyModel < ApplicationRecord
-  after_find :decrypt_data
-end
-```
-
-- [ ] MyModel.decrypt_data
-- [ ] MyModel.query(id: 42)
-- [ ] MyModel.find(:decrypt_data)
-- [x] MyModel.where(id: 42)
+- [ ] Rails Validation Model
+- [ ] Rails Version Manager
+- [ ] Rails View Model
+- [x] Ruby Version Manager
 
 #### Q68. Which line of inquiry would you follow after receiving this error message: No route matches [POST] "/burrito/create"?
 
@@ -970,12 +978,37 @@ end
 
 [Reference](https://guides.rubyonrails.org/layouts_and_rendering.html)
 
-#### Q71. Which choice would you not consider when selecting a gem for your project?
+#### Q71. Check the following Ruby code and replace `__BLOCK__` with the correct code to achieve the result.
 
-- [ ] how many downloads it has on Ruby Toolbox
-- [ ] if it is well documented
-- [x] how long pull requests and issues stay open
-- [ ] the date it was first released
+```ruby
+class TodoList
+  def initialize
+    @todos = []
+  end
+
+  def add_todo(todo)
+    @todos << todo
+  end
+
+  def __BLOCK__
+    @todos.map { |todo| "- #{todo}" }.join("\n")
+end
+
+work = TodoList.new
+work.add_todo("Commit")
+work.add_todo("PR")
+work.add_todo("Merge")
+
+puts work
+=> - Commit
+=> - PR
+=> - Merge
+```
+
+- [x] to_s
+- [ ] work
+- [ ] inspect
+- [ ] __str__
 
 #### Q72. What decides which controller receives which requests?
 
@@ -1000,6 +1033,8 @@ end
 - [ ] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
 - [x] If `User.find_by_id ` returns nil or false, the variable `@user` will be set to the object returned by `User.first`.
 
+[Reference](https://www.rubyguides.com/2018/07/ruby-operators/) #Assignment_Operators
+
 #### Q74. When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?
 
 - [ ] only, except
@@ -1012,9 +1047,9 @@ end
 `<%= render partial: 'user_info', object: { name: 'user' } %>`
 
 - [ ] `<%= locals.user_info.name %>`
-- [x] `<%= object.name %>`
+- [ ] `<%= object.name %>`
+- [x] `<%= object[:name] %>`
 - [ ] `<%= @user.name %>`
-- [ ] `<%= @user_info.name %>`
 
 #### Q76. Once this form is submitted, which code in the controller would retrieve the string for :name?
 
@@ -1028,6 +1063,8 @@ end
 - [ ] `@params.name`
 - [ ] `params.require(:category).permit(:name)`
 - [x] `params[:category][:name]`
+
+[Reference](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_for)
 
 #### Q77. Which missing line would best show the correct usage of strong parameters?
 
@@ -1060,4 +1097,53 @@ end
 - [ ] `To seed the database with initial data.`
 - [ ] `To test the database connection.`
 
-[reference](https://guides.rubyonrails.org/v3.2/migrations.html#:~:text=Active%20Record%20tracks%20which%20migrations,the%20structure%20of%20your%20database.)
+[Reference](https://guides.rubyonrails.org/v3.2/migrations.html#:~:text=Active%20Record%20tracks%20which%20migrations,the%20structure%20of%20your%20database.)
+
+#### Q79. What is the execution result of the following Ruby code?
+
+```ruby
+class A
+  def self.get_self
+    self.class
+  end
+
+  def get_self
+    self
+  end
+end
+
+p "#{A.get_self.class} #{A.new.get_self.class}"
+```
+
+- [ ] `Class Class`
+- [ ] `A A`
+- [ ] `A Class`
+- [x] `Class A`
+
+[Reference](https://www.ignacio.al/self-class-ruby.html)
+
+#### Q80. Given the following model class and view , which code snippet should you use to fetch the correct results, and avoid the N+1 query issue?
+
+```ruby
+class Movies < ApplicationRecord
+  def recent_reviews
+    # Return the latest 10 reviews
+  end
+end
+```
+
+```ruby
+<%= @movie.recent_reviews.each do |review| %>
+  <div>
+    <header><%= review.critic.name %></header>
+    <div><%= review.comment %></div>
+  </div>
+<% end %>
+```
+
+- [ ] `@movie.reviews.order(created_at: :desc).limit(10)`
+- [ ] `@movie.reviews.joins(:critic).order(created_at: :desc).limit(10)`
+- [x] `@movie.reviews.includes(:critic).order(created_at: :desc).limit(10)`
+- [ ] `@movie.reviews.references(:critic).order(created_at: :desc).limit(10)`
+
+[Reference](https://hackernoon.com/differences-between-includes-and-joins-in-ruby-on-rails-1r2s35oj)
