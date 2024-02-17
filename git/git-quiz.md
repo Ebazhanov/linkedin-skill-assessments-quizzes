@@ -1365,11 +1365,9 @@ broccoli
 - [ ] Pull requests
 - [ ] Custom properties
 
-
 #### Q151. What feature does the shortcut /table activate when used inside a GitHub comment section?
 
 - [ ] A data visualization table
 - [x] A markdown table structure
 - [ ] An HTML table structure
 - [ ] A table of contents
-
