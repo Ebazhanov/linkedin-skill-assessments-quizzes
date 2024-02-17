@@ -1008,7 +1008,7 @@ puts work
 - [x] to_s
 - [ ] work
 - [ ] inspect
-- [ ] __str__
+- [ ] **str**
 
 #### Q72. What decides which controller receives which requests?
 
