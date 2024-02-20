@@ -1371,3 +1371,10 @@ broccoli
 - [x] A markdown table structure
 - [ ] An HTML table structure
 - [ ] A table of contents
+
+#### Q152. How can you get better suggestions when creating functions?
+- [x] Type “function” and then add a detailed and expressive function name.
+- [ ] Type “function” and then press Ctrl+/ (Windows) or Command +/ (Mac).
+- [ ] Include variables in the parentheses.
+- [ ] Use consistent formatting for your function names.
+
