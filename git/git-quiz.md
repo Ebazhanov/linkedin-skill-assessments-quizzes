@@ -1380,6 +1380,7 @@ broccoli
 - [ ] Use consistent formatting for your function names.
 
 #### Q153. What does the RUN command do in a Dockerfile?
+
 - [ ] It allows you to specify which type of machine to procure.
 - [ ] It helps run your workflows.
 - [ ] It fires up an additional container
