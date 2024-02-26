@@ -15948,6 +15948,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "AlexWebLab",
+      "name": "Alex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2168530?v=4",
+      "profile": "https://alexweblab.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
