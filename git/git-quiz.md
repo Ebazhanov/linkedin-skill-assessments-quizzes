@@ -1385,3 +1385,9 @@ broccoli
 - [ ] It helps run your workflows.
 - [ ] It fires up an additional container
 - [x] It allows you to execute a shell command during the image generation process
+
+#### Q154. How can you ensure that you are matching an exact combination of words?
+- [ ] Enclose your query in parentheses
+- [ ] Use the exact: qualifier
+- [x] Put the series of words in quotes
+- [ ] Add the AND operator to the end of your query
