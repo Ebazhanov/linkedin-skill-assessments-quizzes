@@ -1393,8 +1393,8 @@ broccoli
 - [x] Put the series of words in quotes
 - [ ] Add the AND operator to the end of your query
 
-
 #### Q155. What is the main function of the Entrypoint instruction in a Dockerfile?
+
 - [ ] It gives instructions to the Docker container to follow before it loads
 - [x] It executes a script when the docker container starts.
 - [ ] It serves as the first file that an editor opens when it loads the container.
