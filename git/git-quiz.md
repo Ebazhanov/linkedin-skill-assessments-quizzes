@@ -1399,3 +1399,11 @@ broccoli
 - [x] It executes a script when the docker container starts.
 - [ ] It serves as the first file that an editor opens when it loads the container.
 - [ ] It indicates a specific command to be run during the Docker image build process
+
+#### Q156. Inside a GitHub action, which keyword do you use to specify the operating system to run jobs?
+
+- [ ] Hardware
+- [x] Runs-on
+- [ ] Machine
+- [ ] Os
+
