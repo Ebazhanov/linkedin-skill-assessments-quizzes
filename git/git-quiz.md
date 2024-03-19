@@ -1406,3 +1406,11 @@ broccoli
 - [x] Runs-on
 - [ ] Machine
 - [ ] Os
+
+#### Q157. How can you get additional context from other files in your code?
+
+- [ ] Right-click a file and add it to context
+- [x] Open additional tabs with some of your codes; they will be in Copilot context
+- [ ] Create a comment with the list of files you want Copilot to have context from
+- [ ]  Highlight the files you want to add context to form the file sidebar
+
