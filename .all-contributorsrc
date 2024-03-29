@@ -15958,6 +15958,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "NoamNol",
+      "name": "Noam Nol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45405044?v=4",
+      "profile": "https://github.com/NoamNol",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
