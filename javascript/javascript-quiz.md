@@ -441,7 +441,7 @@ dessert.type = 'pudding';
 
 #### Q32. Which variable is an implicit parameter for every function in JavaScript?
 
-- [x] Arguments
+- [x] arguments
 - [ ] args
 - [ ] argsArray
 - [ ] argumentsList
