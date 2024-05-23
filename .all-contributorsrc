@@ -15968,6 +15968,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "kogonia",
+      "name": "George Kogonia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21362369?v=4",
+      "profile": "https://github.com/kogonia",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
