@@ -373,8 +373,8 @@ modified: beta-notes.js
 
 `git rm --cached testfile.js`
 
-- [ ] testfile.js will be removed from the staging area and its changes no longer tracked.
-- [x] testfile.js will be removed from the staging area but its changes will still be tracked.
+- [x] testfile.js will be removed from the staging area and its changes no longer tracked.
+- [ ] testfile.js will be removed from the staging area but its changes will still be tracked.
 - [ ] A copy of testfile.js will be cached on your desktop.
 - [ ] The current copy of testfile.js will be saved in the staging area.
 
