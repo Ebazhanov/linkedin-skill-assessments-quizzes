@@ -231,7 +231,7 @@ func main() {
 #### Q15. According to the Go documentation standard, how should you document this function?
 
 ```go
-func Add(a, b int) {
+func Add(a, b int) int {
         return a + b
 }
 ```
@@ -243,7 +243,7 @@ func Add(a, b int) {
   // - a: int
   // - b: int
   // - returns: int
-  func Add(a, b int) {
+  func Add(a, b int) int {
           return a + b
   }
   ```
@@ -252,7 +252,7 @@ func Add(a, b int) {
 
   ```go
   // Does a + b
-  func Add(a, b int) {
+  func Add(a, b int)  int {
           return a + b
   }
   ```
@@ -261,7 +261,7 @@ func Add(a, b int) {
 
   ```go
   // Add returns the sum of a and b
-  func Add(a, b int) {
+  func Add(a, b int) int {
           return a + b
   }
   ```
@@ -270,7 +270,7 @@ func Add(a, b int) {
 
   ```go
   // returns the sum of a and b
-  func Add(a, b int) {
+  func Add(a, b int) int {
           return a + b
   }
   ```
