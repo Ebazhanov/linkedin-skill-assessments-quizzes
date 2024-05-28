@@ -1413,3 +1413,10 @@ broccoli
 - [x] Open additional tabs with some of your codes; they will be in Copilot context
 - [ ] Create a comment with the list of files you want Copilot to have context from
 - [ ] Highlight the files you want to add context to form the file sidebar
+
+#### Q158. When creating a release, which of these would count as a valid release format?
+- [ ] *3.2.4
+- [ ] @3.2.4
+- [ ] #3.2.4
+- [x] V3.2.4
+
