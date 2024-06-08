@@ -26,7 +26,7 @@ git merge --squash HEAD@{1}
 ```
 
 - [ ] Скидають HEAD до п’ятого коміту в репозиторії, а потім зливаються з головною гілкою.
-- [x] HEAD поточної гілки скидається назад на п’ять комітів, потім попередні коміти стискаються в один комміт.
+- [x] HEAD поточної гілки скидається назад на п’ять комітів, потім попередні коміти стискаються в один коміт.
 - [ ] Видаляють останні п'ять комітів.
 - [ ] Об’єднують останні п’ять комітів у нову гілку.
 
@@ -77,16 +77,16 @@ git checkout feature-user-location
 git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 ```
 
-- [ ] Комміт позначається тегом для випуску в гілці feature-user-location
+- [ ] коміт позначається тегом для випуску в гілці feature-user-location
 - [ ] Коміт копіюється з оригінальної гілки до гілки feature-user-location
 - [ ] Коміт обирається новим HEAD історії комітів
 - [ ] Коміт копіюється з гілки feature-user-location до master
-- [x] Гілка перемикається на гілку feature-user-location, і вказаний комміт застосовується до гілки.
+- [x] Гілка перемикається на гілку feature-user-location, і вказаний коміт застосовується до гілки.
 
 Пояснення:
 
 'git checkout feature-user-location' перемикає на гілку 'feature-user-location'.
-'git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231' застосовує зміни з указаного коміту ('kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231') до поточної гілки (feature-user-location). Це фактично копіює комміт з його вихідної гілки до гілки feature-user-location.
+'git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231' застосовує зміни з указаного коміту ('kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231') до поточної гілки (feature-user-location). Це фактично копіює коміт з його вихідної гілки до гілки feature-user-location.
 Таким чином, ця послідовність команд є вибором певного коміту для гілки feature-user-location.
 
 #### Q8. Що робить наступна команда зі сховищем git?
@@ -104,9 +104,9 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 #### Q9. Ви знайшли помилку у своєму проекті, але не можете знайти її в історії комітів. Як би ви діагностували цю проблему?
 
 - [ ] Повернутися вручну за допомогою історії комітів.
-- [ ] Використати git search -diff, щоб порівняти всі коміти в історії вашого сховища.
-- [ ] Запустити git rebase, щоб знайти помилковий комміт.
-- [x] Використати git bisect для порівняння помилкового коміту з раннім комітом, що працює належним чином.
+- [ ] Скористатися git search -diff, щоб порівняти всі коміти в історії вашого сховища.
+- [ ] Запустити git rebase, щоб знайти помилковий коміт.
+- [x] Скористатися git bisect для порівняння помилкового коміту з раннім комітом, що працює належним чином.
 
 [Довідка](https://git-scm.com/docs/git-bisect)
 [Довідка](https://stackoverflow.com/questions/69552866/how-to-diagnose-a-problem-in-git-commit-history)
@@ -125,15 +125,15 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 
 #### Q11. Навіщо використовувати pre-receive хук у віддаленому сховищі?
 
-- [ ] Непотрібно, можна використати його в локальному сховищі
+- [ ] Непотрібно, можна скористатися ним в локальному сховищі
 - [x] Для виконання скріпта, коли віддалений пристрій отримує push, який запускається до оновлення будь-яких посилань
 - [ ] Для запуску скріпта після оновлення віддаленого репозиторію
-- [ ] Для налагодження всіх тегів коммітів та версій
+- [ ] Для налагодження всіх тегів комітів та версій
 
 [Довідка](https://git-scm.com/docs/githooks)
 [Довідка](https://docs.github.com/en/enterprise-server@3.10/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/working-with-pre-receive-hooks)
 
-#### Q12. Яку опцію можна використати для застосування конфігурацій git до всього середовища git?
+#### Q12. Якою опцією можна скористатися для застосування конфігурацій git до всього середовища git?
 
 - [ ] `--all`
 - [ ] `--master`
@@ -165,9 +165,9 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 
 #### Q15. Як ви можете відобразити список файлів, доданих або змінених у певному коміті?
 
-- [ ] Знайти комміт у віддаленому сховищі, оскільки це єдине місце, де зберігається така інформація.
-- [x] Використатит команду `diff-tree` з хешем комміту.
-- [ ] Запустити `git commit --info` з хешем комміту.
+- [ ] Знайти коміт у віддаленому сховищі, оскільки це єдине місце, де зберігається така інформація.
+- [x] Скористатися командою `diff-tree` з хешем коміту.
+- [ ] Запустити `git commit --info` з хешем коміту.
 - [ ] Отримати доступ до схованих даних комітів за допомогою `git stash`.
 
 [Довідка](https://git-scm.com/docs/git-diff-tree)
@@ -265,10 +265,10 @@ modified: beta-notes.js
 
 #### Q21. Ви виявили, що ваш проект має тег і гілку з однаковою назвою push-notifications, що викликає плутанину під час спроби роздрукувати дане посилання. Як вказати, яку гілку ви бажаєте переглянути?
 
-- [ ] Використати git show refs/push-notifications
-- [ ] Використати git show push-notifications
-- [ ] Використати git show heads/refs/push-notifications
-- [x] Використати git show refs/heads/push-notifications
+- [ ] Скористатися git show refs/push-notifications
+- [ ] Скористатися git show push-notifications
+- [ ] Скористатися git show heads/refs/push-notifications
+- [x] Скористатися git show refs/heads/push-notifications
 
 [Довідка](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
@@ -288,15 +288,15 @@ git bisect good 69faab6268350295550de7d587bc323d
 ```
 
 - [ ] Злиття доброго коміту, який виявляється за допомогою відомого поганого та відомого доброго комітів
-- [ ] Позначається комміт для видалення, використовуючи відомий поганий і відомий добрий коміти, щоб визначити, який коміт містить помилку
-- [ ] Визначає поганий комміт і скидає HEAD, використовуючи відомий поганий і відомий добрий комміт
+- [ ] Позначається коміт для видалення, використовуючи відомий поганий і відомий добрий коміти, щоб визначити, який коміт містить помилку
+- [ ] Визначає поганий коміт і скидає HEAD, використовуючи відомий поганий і відомий добрий коміт
 - [x] Виконує бінарний пошук, використовуючи відомий поганий і відомий добрий коміти, щоб визначити, який коміт привніс помилку
 
 #### Q24. У ситуації, коли у вас є кілька комітів для одного завдання, який найефективніший спосіб реструктуризувати вашу історію комітів?
 
 - [ ] Перенести за допомогою сherry pick пов’язані коміти до іншої гілки.
 - [ ] Видалити передані коміти та повторно передати з новим повідомленням.
-- [x] Стиснути пов’язані коміти разом у єдиний узгоджений комміт.
+- [x] Стиснути пов’язані коміти разом у єдиний узгоджений коміт.
 - [ ] Сховати пов’язані коміти під новим хешем.
 
 [Довідка](https://git-scm.com/docs/git-rebase#_interactive_mode)
@@ -312,7 +312,7 @@ git bisect good 69faab6268350295550de7d587bc323d
 
 [Довідка](https://git-scm.com/book/en/v2/Git-Basics-Tagging#:~:text=Sharing%20Tags)
 
-#### Q26. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
+#### Q26. Яку скорочену команду ви можете використовувати в майбутньому після першого надсилання комітів до віддаленого сховища за допомогою наведеної нижче команди?
 
 ```bash
 git push -u origin master
@@ -320,21 +320,21 @@ git push -u origin master
 
 - [ ] git push master
 - [ ] git push origin
-- [ ] Same as before, git push -u origin master
+- [ ] Як і раніше, git push -u origin master
 - [x] git push
 
-[Reference](https://git-scm.com/docs/git-push)
+[Довідка](https://git-scm.com/docs/git-push)
 
-#### Q27. How would you create a custom shortcut or command across your Git environment?
+#### Q27. Як би ви створили спеціальний ярлик або команду в середовищі Git?
 
-- [ ] Run `git hotfix` with the shortcut name.
-- [ ] Assign a shortcut or command using git options file.
-- [ ] Use the `git custom-key` command.
-- [x] Create an alias using the `git config` command.
+- [ ] Запустите `git hotfix` з назвою ярлика.
+- [ ] Призначите ярлик або команду за допомогою файлу параметрів git.
+- [ ] Використаєте команду `git custom-key`.
+- [x] Створите псевдонім за допомогою команди `git config`.
 
-[Reference](https://git-scm.com/docs/git-config)
+[Довідка](https://git-scm.com/docs/git-config)
 
-#### Q28. What is the status of the beta-notes.js file in the following output?
+#### Q28. Який статус файлу beta-notes.js у наведеному нижче виводі?
 
 ```shell
 Changes not staged for commit:
@@ -344,273 +344,273 @@ Changes not staged for commit:
 modified: beta-notes.js
 ```
 
-- [ ] beta-notes.js is untracked and has been modified.
-- [x] beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.
-- [ ] beta-notes.js is untracked but has been added to the current commit.
-- [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
+- [ ] beta-notes.js не відстежується та був змінений.
+- [x] beta-notes.js є відстежуваним файлом, який було змінено, але не додано до поточного коміту.
+- [ ] beta-notes.js не відстежується, але його додано до поточного коміту.
+- [ ] beta-notes.js відстежується, а змінений файл додано до поточного коміту.
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Запис-змін-до-репозиторія)
 
-#### Q29. What command would let you modify your previous commit?
+#### Q29. Яка команда дозволить вам змінити попередній коміт?
 
 - [ ] --fix
 - [ ] --quickfix
 - [ ] --modify
 - [x] --amend
 
-[Reference](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+[Довідка](https://git-scm.com/book/uk/v2/Інструменти-Git-Переписування-історії)
 
-#### Q30. What is the best way to characterize the git commit structure?
+#### Q30. Який вираз найкраще характеризує структуру git commit?
 
-- [ ] Data array
-- [ ] Data log
-- [x] Data snapshot
-- [ ] Data dictionary
+- [ ] Масив даних
+- [ ] Журнал даних
+- [x] Знімок даних
+- [ ] Словник даних
 
-[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+[Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Гілки-у-кількох-словах)
 
-#### Q31. What change will the following command make to the staging area files?
+#### Q31. Які зміни внесе така команда у файли проміжної області?
 
 `git rm --cached testfile.js`
 
-- [x] testfile.js will be removed from the staging area and its changes no longer tracked.
-- [ ] testfile.js will be removed from the staging area but its changes will still be tracked.
-- [ ] A copy of testfile.js will be cached on your desktop.
-- [ ] The current copy of testfile.js will be saved in the staging area.
+- [x] testfile.js буде видалено з проміжної області, а його зміни більше не відстежуватимуться.
+- [ ] testfile.js буде видалено з проміжної області, але його зміни все одно відстежуватимуться.
+- [ ] Копія testfile.js буде кешована на вашому робочому столі.
+- [ ] Поточна копія testfile.js буде збережена в робочій області.
 
-[Reference](https://git-scm.com/docs/git-rm)
+[Довідка](https://git-scm.com/docs/git-rm)
 
-#### Q32. After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
+#### Q32. Після того, як ви успішно об’єднали дві гілки та внесли зміни, що буде наступним кроком у підтримці вашої структури git у порядку?
 
-- [ ] Use the git reset --soft HEAD to roll back one commit.
-- [x] Run git branch -d `<branch name>` to delete the merged branch.
-- [ ] Use git clear-all to clean up any hanging files.
-- [ ] Run git rebase to move the current commit to its original location.
+- [ ] Скористатися git reset --soft HEAD, щоб відкотити один коміт.
+- [x] Запустіти git branch -d `<назва гілки>`, щоб видалити об’єднану гілку.
+- [ ] Скористатися git clear-all, щоб очистити будь-які завислі файли.
+- [ ] Запустіти git rebase, щоб перемістити поточний коміт у вихідне розташування.
 
-[Reference](https://www.w3docs.com/snippets/git/how-to-delete-already-merged-git-branches.html#:~:text=Make%20sure%20you%20are%20on,branches%20you%20want%20to%20delete.)
+[Довідка](https://www.w3docs.com/snippets/git/how-to-delete-already-merged-git-branches.html#:~:text=Make%20sure%20you%20are%20on,branches%20you%20want%20to%20delete.)
 
-#### Q33. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
+#### Q33. Під час редагування файлу вам несподівано призначено термінове виправлення помилки в іншій гілці. Як ви можете тимчасово зберегти вашу локальну роботу без зобов’язань?
 
-- [ ] This is not possible, as you cannot save locally without committing.
-- [ ] Run git hold to save a local copy of what you're doing to return to later.
-- [ ] Save your work with git local-cache.
-- [x] Use git stash to save your work and come back later and reapply the stashed commit.
+- [ ] Це неможливо, оскільки ви не можете зберегти локально без коміту.
+- [ ] Запустити git hold, щоб зберегти локальну копію того, що ви робите, та повернутися до нього пізніше.
+- [ ] Зберегти свою роботу за допомогою git local-cache.
+- [x] Скористатися git stash, щоб зберегти вашу роботу, а потім повернутися пізніше та повторно застосувати прихований коміт.
 
-[Reference](https://git-scm.com/docs/git-stash)
+[Довідка](https://git-scm.com/docs/git-stash)
 
-#### Q34. What command would you use to create a new git repository?
+#### Q34. Яку команду ви б використали для створення нового репозиторію git?
 
 - [ ] git add
 - [ ] git start
 - [ ] git new
 - [x] git init
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
 
-#### Q35. While working on a feature branch you try to use "git rerere" to solve a recurring merge conflict but nothing is happening. What could be causing this issue?
+#### Q35. Під час роботи над гілкою функції ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту злиття, але нічого не відбувається. Що може бути причиною цієї проблеми?
 
-- [ ] The "-all" option isn't added to the command.
-- [x] "rerere.enabled" isn't enable in the config file.
-- [ ] The commit hash is missing.
-- [ ] The filepath isn't specified.
+- [ ] Параметр "-all" не додано до команди.
+- [x] "rerere.enabled" не ввімкнено у конфігураційному файлі.
+- [ ] Хеш коміту відсутній.
+- [ ] Шлях до файлу не вказано.
 
-[Reference](https://git-scm.com/docs/git-rerere)
+[Довідка](https://git-scm.com/docs/git-rerere)
 
-#### Q36. Which setting determines what pager is used when Git pages output?
+#### Q36. Яке налаштування визначає, який пейджер використовується під час виведення сторінок Git?
 
 - [ ] core.page
 - [ ] page
 - [ ] pager
 - [x] core.pager
 
-#### Q37. What does commit object contain?
+#### Q37. Що містить об’єкт commit?
 
-- [ ] A set of files, representing the state of a project at a given point of time.
-- [ ] Reference to parent commit objects.
-- [ ] An SHA1 name, a 40-character string that uniquely identifies the commit object.
-- [x] Reference to parent commit objects and a set of files, representing the state of a project at a given point of time, and an SHA1 name, a 40-character string that uniquely identifies the commit object.
+- [ ] Набір файлів, що представляють стан проекту на певний момент часу.
+- [ ] Посилання на батьківські об’єкти коміту.
+- [ ] Ім’я SHA1, рядок із 40 символів, який унікально ідентифікує об’єкт коміту.
+- [x] Посилання на батьківські об’єкти коміту та набір файлів, що представляють стан проекту на певний момент часу, а також ім’я SHA1, рядок із 40 символів, який унікально ідентифікує об’єкт коміту.
 
-#### Q38. Which option enables inclusion of committer name in custom log format?
+#### Q38. Який параметр дає змогу включати ім’я комітора у спеціальний формат журналу?
 
 - [ ] %ce
 - [ ] %cr
 - [ ] %cd
 - [x] %cn
 
-[Reference](https://git-scm.com/docs/pretty-formats)
+[Довідка](https://git-scm.com/docs/pretty-formats)
 
-#### Q39. How many ways are present in Git to integrate changes from one branch into another?
+#### Q39. Скільки способів є в Git для інтеграції змін з однієї гілки в іншу?
 
 - [ ] 3
 - [ ] 5
 - [x] 2
 - [ ] 4
-  > In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase. [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing#:~:text=In%20Git%2C%20there%20are%20two%20main%20ways%20to%20integrate%20changes%20from%20one%20branch%20into%20another%3A%20the%20merge%20and%20the%20rebase)
+  > У Git є два основних способи інтегрувати зміни з однієї гілки в іншу: злиття та перебазування. [Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Перебазовування)
 
-#### Q40. Which user should be created first during setting up of SSH?
+#### Q40. Якого користувача слід створити першим під час налаштування SSH?
 
 - [ ] git
 - [ ] admin
 - [ ] root
-- [x] None of these
+- [x] Ніщо з цього
 
-_note_: The question is not specific enough to give a definitive answer, as it depends on the specific use case and configuration of the SSH setup.
+_note_: це питання недостатньо конкретне, щоб дати остаточну відповідь, оскільки воно залежить від конкретного випадку використання та конфігурації налаштування SSH.
 
-#### Q41. Which command will list tags with the 1.4.2 series?
+#### Q41. Яка команда покаже список тегів серії 1.4.2?
 
 - [ ] git tag 'v1.4.2'
 - [x] git tag -l 'v1.4.2.\*'
 - [ ] git tag-list 'v1.4.2\*'
 - [ ] git tag 'v1.4.2\*'
 
-#### Q42. Which of the following is an integration manager?
+#### Q42. Що з наведеного нижче є менеджером інтеграції?
 
 - [ ] lieutenants
 - [ ] benevolent dictator
-- [x] Depends upon project type
-- [ ] Depends upon data
+- [x] Залежить від типу проекту
+- [ ] Залежить від даних
 
-#### Q43. Which Git command begins tracking of a new file?
+#### Q43. Яка команда Git починає відстеження нового файлу?
 
 - [x] add
 - [ ] addfile
 - [ ] begin
 - [ ] track
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Запис-змін-до-репозиторія)
 
-#### Q44. Which of the following is called dumb protocol?
+#### Q44. Що з наведеного нижче називається німим протоколом?
 
-- [ ] All of these
+- [ ] Все
 - [ ] SSH
 - [ ] Git
 - [x] HTTP
 
-[Reference](https://git-scm.com/book/en/v2/Git-Internals-Transfer-Protocols)
+[Довідка](https://git-scm.com/book/uk/v2/Git-зсередини-Протоколи-передачі)
 
-#### Q45. Which key press returns a set of suggestions to pick from, when writing a Git command?
+#### Q45. Натискання якої клавіші повертає набір пропозицій для вибору під час написання команди Git?
 
 - [ ] Control
 - [ ] Shift
 - [x] Tab
 - [ ] Alt
 
-#### Q46. Which of these terms best describes Git?
+#### Q46. Який із цих термінів найкраще описує Git?
 
-- [x] Distributed Version Control System
-- [ ] Issue Tracking System
-- [ ] Integrated Development Environment
-- [ ] Web-Based Repository Hosting Service
+- [x] Розподілена система керування версіями
+- [ ] Система відстеження проблем
+- [ ] Інтегроване середовище розробки
+- [ ] Служба розміщення репозиторіїв
 
-[Reference](https://en.wikipedia.org/wiki/Git)
+[Довідка](https://uk.wikipedia.org/wiki/Git)
 
-#### Q47. How does Git think of its data?
+#### Q47. Як Git думає про свої дані?
 
-- [ ] File
-- [ ] None of these
-- [x] Snapshot
-- [ ] Folder
+- [ ] Файл
+- [ ] Ніщо з цього
+- [x] Знімок
+- [ ] Папка
 
-[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+[Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Гілки-у-кількох-словах)
 
-#### Q48. Which option enables inclusion of author name in custom log format?
+#### Q48. Яка опція дозволяє включати ім’я автора в спеціальний формат журналу?
 
 - [ ] %am
 - [ ] %ad
 - [ ] %ae
 - [x] %an
 
-#### Q49. Which version onwards did Git offer reversing a file back to what it looked like when last committed?
+#### Q49. Яка з пізніших версій Git пропонувала повернути файл до того вигляду, який був під час останнього коміту?
 
 - [ ] 1.7
 - [x] 1.6
 - [ ] 2.0
 - [ ] 1.8
 
-#### Q50. Which strategy is used by Git for merging two branches?
+#### Q50. Яку стратегію використовує Git для об’єднання двох гілок?
 
 - [ ] LIFO
 - [ ] recursive
 - [ ] FIFO
 - [x] octopus
 
-#### Q51. What does refs store?
+#### Q51. Що зберігає посилання?
 
-- [ ] SHA-1 value
-- [ ] None of these
-- [x] Branch name
-- [ ] Project name
+- [ ] значення SHA-1
+- [ ] Ніщо з цього
+- [x] Назва гілки
+- [ ] Назва проекту
 
-[Reference](https://git-scm.com/book/en/v2/Git-Internals-Git-References)
+[Довідка](https://git-scm.com/book/uk/v2/Git-зсередини-Посилання-Git)
 
-#### Q52. What Language is used in GIT?
+#### Q52. Яка мова використовується в GIT?
 
 - [x] C
 - [ ] C++
 - [ ] C#
 - [ ] Java
 
-#### Q53. What is usually the extension of file which has the public key?
+#### Q53. Яке зазвичай розширення файлу, який має відкритий ключ?
 
 - [ ] ssh
 - [x] pub
 - [ ] key
 - [ ] pk
 
-[Reference](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key)
+[Довідка](https://git-scm.com/book/uk/v2/Git-на-сервері-Генерація-вашого-публічного-ключа-SSH)
 
-#### Q54. What is the difference between initializing a normal repo and a bare repo?
+#### Q54. Яка різниця між ініціалізацією звичайного репо та чистого репо?
 
-- [ ] Bare repos store their git history in a .git subfolder.
-- [ ] Bare repos do not have the .git extension.
-- [x] Bare repos do not come with working or checked-out source files.
-- [ ] Bare repos should be used for local rather than remote repos.
+- [ ] Чисті репо зберігають свою історію git у підпапці .git.
+- [ ] Чисті репозиторії не мають розширення .git.
+- [x] Чисті репозиторії не постачаються з робочими або вилученими вихідними файлами.
+- [ ] Чисті репозиторії слід використовувати для локальних, а не віддалених репозиторіїв.
 
-#### Q55. How many individual commits can a single repository have?
+#### Q55. Скільки окремих комітів може мати одне сховище?
 
-- [x] any number of commits
-- [ ] only one commit local per repository
-- [ ] only three commits per branch
-- [ ] only one commit per HEAD
+- [x] будь-яка кількість комітів
+- [ ] лише один локальний коміт на репозиторій
+- [ ] лише три коміти на гілку
+- [ ] лише один коміт на HEAD
 
-#### Q56. What types of tags does Git support?
+#### Q56. Які типи тегів підтримує Git?
 
-- [ ] heavy and concise
-- [ ] lightweight and immutable
-- [ ] heavy and annotated
-- [x] lightweight and annotated
+- [ ] важкий і стислий
+- [ ] легкий і незмінний
+- [ ] важкий і коментований
+- [x] легкий і анотований
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Теґування)
 
-#### Q57. After staging a series of changes to the index, which command could you use to review them prior to a commit?
+#### Q57. Після внесення серії змін до індексу, якою командою можна скористатися, щоб переглянути їх перед фіксацією?
 
 - [x] git diff --cached
 - [ ] git diff
 - [ ] git diff --HEAD
 - [ ] git status -v -v
 
-#### Q58. What does the git stash drop command do?
+#### Q58. Що робить команда git stash drop?
 
-- [x] removes the most recent stash entry
-- [ ] deletes the stash
-- [ ] lists everything in the stash
-- [ ] throws away the oldest entry
+- [x] видаляє останній запис тайника
+- [ ] видаляє тайник
+- [ ] перераховує все, що є в тайнику
+- [ ] викидає найстаріший запис
 
-[Reference](https://git-scm.com/docs/git-stash)
+[Довідка](https://git-scm.com/docs/git-stash)
 
-#### Q59. What command creates a new branch from the currently checked-out branch?
+#### Q59. Яка команда створює нову гілку з поточної гілки?
 
 - [ ] `git -b checkout <nameOfBranch>`
 - [ ] `git branch`
 - [ ] `git checkout <nameOfBranch>`
 - [x] `git checkout -b <nameOfBranch>`
 
-#### Q60. After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
+#### Q60. Після помилкового розміщення файлу з назвою myFile до індексу, як би ви вилучили його з індексу, так щоб виключити одночасно і з вашого наступного коміту?
 
-- [ ] Use git reset HEAD^.
-- [x] Use git reset myFile.txt.
-- [ ] Use git -rm myFile.txt.
-- [ ] Use git reset.
+- [ ] Скористатися git reset HEAD^.
+- [x] Скористатися git reset myFile.txt.
+- [ ] Скористатися git -rm myFile.txt.
+- [ ] Скористатися git reset.
 
 #### Q61. What happens if you run this command from your master branch?
 
