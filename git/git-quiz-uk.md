@@ -25,7 +25,7 @@ git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
 
-- [ ] Скидають HEAD до п’ятого коміту в репозиторії, а потім зливаються з головною гілкою.
+- [ ] Скидають HEAD до п’ятого коміту в репозиторії, а потім зливаються з master гілкою.
 - [x] HEAD поточної гілки скидається назад на п’ять комітів, потім попередні коміти стискаються в один коміт.
 - [ ] Видаляють останні п'ять комітів.
 - [ ] Об’єднують останні п’ять комітів у нову гілку.
@@ -33,7 +33,7 @@ git merge --squash HEAD@{1}
 **Пояснення:**
 
 - `git reset --hard HEAD~5` скидає поточну гілку до 5 коміту безпосередньо перед останніми (перегляньте `man gitrevisions`, щоб дізнатися більше про цю нотацію та інші цікаві альтернативи, такі як `HEAD@{2 days ago}`). Оскільки це апаратне скидання, воно також перезаписує всі зміни в робочому дереві. Перегляньте `man git-reset`.
-- `git merge --squash HEAD@{1}` HEAD@{1} – це місце, де була гілка перед попередньою командою (ще раз див. `man gitrevisions`). Ця команда встановлює стан індексу таким, яким він був би після злиття з цим комітом. Ця вся операція може бути засобом щоб взяти 5 комітів з гілки, в якій ви запустили нову функцію, і стиснути їх до одного, значущого коміту.
+- `git merge --squash HEAD@{1}` HEAD@{1} – це місце, де була гілка перед попередньою командою (ще раз див. `man gitrevisions`). Ця команда встановлює стан індексу таким, яким він був би після злиття з цим комітом. Ця вся операція може бути засобом щоб взяти 5 комітів з гілки feature, і стиснути їх до одного, значущого коміту.
 
 [Довідка](https://stackoverflow.com/questions/70962338/documentation-of-default-target-of-git-merge-squash)
 
@@ -407,7 +407,7 @@ modified: beta-notes.js
 
 [Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
 
-#### Q35. Під час роботи над гілкою функції ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту злиття, але нічого не відбувається. Що може бути причиною цієї проблеми?
+#### Q35. Під час роботи над гілкою feature ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту злиття, але нічого не відбувається. Що може бути причиною цієї проблеми?
 
 - [ ] Параметр "-all" не додано до команди.
 - [x] "rerere.enabled" не ввімкнено у конфігураційному файлі.
@@ -612,74 +612,74 @@ _note_: це питання недостатньо конкретне, щоб д
 - [ ] Скористатися git -rm myFile.txt.
 - [ ] Скористатися git reset.
 
-#### Q61. What happens if you run this command from your master branch?
+#### Q61. Що станеться, якщо ви запустите цю команду з master гілки?
 
 ```bash
 git checkout -b beta-test
 ```
 
-- [ ] The beta-test branch will be checked out of the current commit.
-- [ ] The beta-test branch will be checked out and deleted.
-- [x] A new branch called beta-test will be created and switched to.
-- [ ] The beta-test branch will be merged with the master branch.
+- [ ] beta-test гілку буде вилучено з поточного коміту.
+- [ ] Гілка beta-test буде перевірена та видалена.
+- [x] Буде створено та переключено на нову гілку під назвою beta-test.
+- [ ] Гілка beta-test буде об’єднана з master гілкою.
 
-#### Q62. How does Git internally manage branches?
+#### Q62. Як Git внутрішньо керує гілками?
 
-- [x] by creating a pointer to the most recent snapshot/commit for the branch.
-- [ ] by creating a data array of branches in the same repository.
-- [ ] by creating a data dictionary of code changes.
-- [ ] be creating a debug log that stores repository changes.
+- [x] шляхом створення вказівника на останній знімок/коміт для гілки.
+- [ ] шляхом створення масиву даних гілок у тому самому репозиторії.
+- [ ] шляхом створення словника даних змін коду.
+- [ ] створивши журнал налагодження, який зберігає зміни репозиторію.
 
-#### Q63. You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?
+#### Q63. Ви хочете виконати git reset, але не можете згадати всі доступні параметри. Яку команду ви б використали, щоб побачити їх опис?
 
 - [x] git help reset
 - [ ] git -h reset
 - [ ] git options reset
 - [ ] git reset help
 
-#### Q64. What is a remote repository?
+#### Q64. Що таке віддалений репозиторій?
 
-- [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
-- [ ] the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
-- [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
-- [x] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
+- [ ] версія репозиторію, яка відображає зміни, внесені в master гілку локального репозиторію для спільної роботи з відкритим кодом
+- [ ] провідний репозиторій, обраний арбітром Git, знайдений в локальних репозиторіях членів команди, що співпрацює
+- [ ] версія репозиторію лише для читання, що зберігається на сервері резервного копіювання, на випадок, якщо локальні репозиторії будуть втрачені або пошкоджені
+- [x] версія репозиторію, розміщена в Інтернеті або мережі, яка надсилається або витягується співавторами
 
-#### Q65. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
+#### Q65. Після зміни деяких існуючих файлів у репозиторії ви вирішуєте скасувати зміни. Якою командою можна скористатися?
 
 - [ ] git restore
 - [ ] git undo
 - [ ] git clean
 - [x] git checkout .
 
-#### Q66. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
+#### Q66. Після початку об’єднання гілки feature з master гілкою ви стикаєтеся з конфліктом злиття та вирішуєте, що не хочете виконувати злиття. Як можна зупинити злиття та відновити стан до злиття?
 
-- [ ] Use git restore -p.
-- [ ] Use git merge -u.
-- [x] Use git merge --abort.
-- [ ] Use git merge --undo.
+- [ ] Скористатися git restore -p.
+- [ ] Скористатися git merge -u.
+- [x] Скористатися git merge --abort.
+- [ ] Скористатися git merge --undo.
 
-#### Q67. Which command correctly creates a lightweight tag?
+#### Q67. Яка команда правильно створює спрощений тег?
 
 - [x] `git tag v3.8.1`
 - [ ] `git tag --light "v3.8.1"`
 - [ ] `git tag v3.8.1 —-annotate -m "<tagMessage>"`
 - [ ] `git tag -l v3.8.1`
 
-#### Q68. What is the main issue with using git rebase when working with multiple developers?
+#### Q68. У чому головна проблема використання git rebase під час роботи з кількома розробниками?
 
-- [x] Rebase affects only your repository and creates a diff in the master branch.
-- [ ] Rebase creates a temporary copy of the master branch in the remote repo.
-- [ ] Rebase moves the HEAD of the remote master branch one commit forward.
-- [ ] Rebase deletes all commit history for the new feature branch.
+- [x] Rebase впливає лише на ваш репозиторій і створює різницю в master гілці.
+- [ ] Rebase створює тимчасову копію master гілки у віддаленому репо.
+- [ ] Rebase переміщує HEAD віддаленої master гілки на один коміт вперед.
+- [ ] Rebase видаляє всю історію комітів для нової feature гілки.
 
-#### Q69. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
+#### Q69. Який робочий процес Git використовують команди, які співпрацюють над однією гілкою та уникають створення довготривалих гілок розробки?
 
 - [ ] Git flow
 - [x] Mainline flow
 - [ ] Trunk-Based Development
 - [ ] GitHub flow
 
-#### Q70. Which option on the git log command allows you to limit output to commits made after certain date?
+#### Q70. Який параметр у команді git log дозволяє обмежити виведення комітами, зробленими після певної дати?
 
 - [x] `--since`
 - [ ] `--sinceWhen`
