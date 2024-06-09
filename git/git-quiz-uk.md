@@ -407,7 +407,7 @@ modified: beta-notes.js
 
 [Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
 
-#### Q35. Під час роботи над гілкою feature ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту злиття, але нічого не відбувається. Що може бути причиною цієї проблеми?
+#### Q35. Під час роботи над гілкою feature ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту merge, але нічого не відбувається. Що може бути причиною цієї проблеми?
 
 - [ ] Параметр "-all" не додано до команди.
 - [x] "rerere.enabled" не ввімкнено у конфігураційному файлі.
@@ -445,7 +445,7 @@ modified: beta-notes.js
 - [ ] 5
 - [x] 2
 - [ ] 4
-  > У Git є два основних способи інтегрувати зміни з однієї гілки в іншу: злиття та перебазування. [Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Перебазовування)
+  > У Git є два основних способи інтегрувати зміни з однієї гілки в іншу: merge та rebase. [Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Перебазовування)
 
 #### Q40. Якого користувача слід створити першим під час налаштування SSH?
 
@@ -651,7 +651,7 @@ git checkout -b beta-test
 - [ ] git clean
 - [x] git checkout .
 
-#### Q66. Після початку об’єднання гілки feature з master гілкою ви стикаєтеся з конфліктом злиття та вирішуєте, що не хочете виконувати злиття. Як можна зупинити злиття та відновити стан до злиття?
+#### Q66. Після початку об’єднання гілки feature з master гілкою ви стикаєтеся з конфліктом merge та вирішуєте, що не хочете виконувати merge. Як можна зупинити merge та відновити стан до merge?
 
 - [ ] Скористатися git restore -p.
 - [ ] Скористатися git merge -u.
@@ -686,409 +686,409 @@ git checkout -b beta-test
 - [ ] `-<n>`
 - [ ] `--afterDate`
 
-#### Q71. How would you delete unreachable objects older than a specified time from your project database?
+#### Q71. Як би ви видаляли з бази даних проекту недоступні об’єкти, старші за вказаний час?
 
 - [ ] `git cache --obsolete <time>`
 - [ ] `git branch --rebase <time>`
 - [ ] `git delete --inert <time>`
 - [x] `git prune --expire <time>`
 
-#### Q72. What conflicts can occur when forcing a push after rebasing?
+#### Q72. Які конфлікти можуть виникнути під час примусового push після rebase?
 
-- [x] The remote master branch could have existing changes overwritten.
-- [ ] The origin URL will be reset to its default value.
-- [ ] The current HEAD will be deleted and can't be reinstated.
-- [ ] Nothing, it's common practice to force a push after rebasing.
+- [x] У віддаленій master гілці могли бути перезаписані існуючі зміни.
+- [ ] URL-адресу джерела буде скинуто до значення за замовчуванням.
+- [ ] Поточний HEAD буде видалено та не можливо буде відновити.
+- [ ] Нічого, це звичайна практика примусового push після rebase.
 
-#### Q73. What is the difference between Git and SVN?
+#### Q73. Яка різниця між Git і SVN?
 
-- [ ] Git works only on Linux, while SVN works on all operating systems.
-- [ ] SVN works only on Linux, while Git works on all operating systems.
-- [x] SVN is a centralized system, while Git is a distributed system.
-- [ ] Git a centralized system, while SVN is a distributed system.
+- [ ] Git працює лише в Linux, тоді як SVN працює в усіх операційних системах.
+- [ ] SVN працює тільки в Linux, тоді як Git працює в усіх операційних системах.
+- [x] SVN — централізована система, а Git — розподілена система.
+- [ ] Git — централізована система, а SVN — розподілена система.
 
-#### Q74. This command is an example of what kind of tag?
+#### Q74. Ця команда є прикладом якого типу тегів?
 
 `git tag -a v1.4 -m "ABCD v1.5"`
 
-- [ ] verbose
-- [x] annotated
-- [ ] lightweight
-- [ ] deferred
+- [ ] багатослівний
+- [x] анотований
+- [ ] легкий
+- [ ] відкладений
 
-#### Q75. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
+#### Q75. Яка різниця між м’яким скиданням (`git reset --soft`) і жорстким скиданням (`git reset –hard`)?
 
-- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
-- [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
-- [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
-- [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
+- [x] М’яке скидання змінює лише комміт, на який вказує HEAD, тоді як жорстке скидання скидає індекс і робоче дерево відповідно до вказаного коміту, відкидаючи будь-які зміни.
+- [ ] М'яке скидання кешує старий покажчик HEAD, тоді як жорстке скидання видаляє його повністю.
+- [ ] Жорстке скидання змінює лише те, куди вказує HEAD, тоді як м’яке скидання змінює HEAD та індекс.
+- [ ] Жорстке скидання кешує старий покажчик HEAD, тоді як м’яке скидання видаляє його повністю.
 
-[Reference](https://git-scm.com/docs/git-reset)
+[Довідка](https://git-scm.com/docs/git-reset)
 
-#### Q76. Consider the following Git workflow:
+#### Q76. Розглянемо такий робочий процес Git:
 
 ![image](images/Git-WorkFlow.png?raw=png)
-Which of the following options is correct ?
+Який із наведених варіантів правильний?
 
 - [ ] `1. Develop 2. Release 3. Hotfix 4. Feature 5. Master`
 - [ ] `1. Master 2. Release 3. Hotfix 4. Feature 5. Develop`
 - [ ] `1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop`
 - [x] `1. Master 2. Hotfix 3. Develop 4. Feature 5. Release`
 
-#### Q77. What information does the git config file store?
+#### Q77. Яку інформацію зберігає конфігураційний файл git?
 
-- [ ] shell scripts and flags
-- [ ] keychain and account information
-- [x] local and global repository options
-- [ ] pre-compile scripts and settings
+- [ ] скрипти оболонки та прапорці
+- [ ] в’язка ключів та інформація про обліковий запис
+- [x] параметри локального та глобального репозиторіїв
+- [ ] сценарії попередньої компіляції та налаштування
 
-[Reference](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
+[Довідка](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
 
-#### Q78. What is version control?
+#### Q78. Що таке контроль версій?
 
-- [ ] a type of architecture used to manage large databases
-- [x] a system that shows, tracks, and controls changes to a set of files over time
-- [ ] a programmatic design pattern used to manage code between multiple engineering teams
-- [ ] a type of software that links a project with a GitHub repository
+- [ ] тип архітектури, що використовується для керування великими базами даних
+- [x] система, яка показує, відстежує та контролює зміни в наборі файлів з часом
+- [ ] шаблон програмного проектування, який використовується для керування кодом між кількома командами інженерів
+- [ ] тип програмного забезпечення, яке пов’язує проект із сховищем GitHub
 
-#### Q79. What is the difference between using the `git stash` and `git stash pop` commands?
+#### Q79. Яка різниця між використанням команд `git stash` і `git stash pop`?
 
-- [ ] `git stash` removes a commit from the repo history, while `git stash pop` saves changes to multiple branches.
-- [ ] `git stash` saves changes to multiple branches, while `git stash pop` removes a commit from the repo history.
-- [ ] `git stash` removes the most recent commit, while `git stash pop` saves current changes.
-- [x] `git stash` creates a stash entry, while `git stash pop` places a saved state from the stash list onto the working directory.
+- [ ] `git stash` видаляє коміт з історії репо, тоді як `git stash pop` зберігає зміни в кількох гілках.
+- [ ] `git stash` зберігає зміни в кількох гілках, тоді як `git stash pop` видаляє коміт з історії репо.
+- [ ] `git stash` видаляє останній комміт, тоді як `git stash pop` зберігає поточні зміни.
+- [x] `git stash` створює запис у схованці, тоді як `git stash pop` розміщує збережений стан зі списку схованок у робочий каталог.
 
-#### Q80. Which command can be used to list the branches that have been merged into the currently checked-out branch?
+#### Q80. Яку команду можна використати для переліку гілок, які були об’єднані в поточну перевірену гілку?
 
 - [ ] git master --status
 - [ ] git branch --status
 - [x] git branch --merged
 - [ ] git status --merged
 
-#### Q81. How would you configure Git to abort a commit if a smoke test script fails?
+#### Q81. Як би ви налаштували Git на переривання коміту, якщо сценарій димового тесту не вдається виконати?
 
-- [ ] Create a post-commit shell script that triggers the action.
-- [ ] Create a post-commit hook to trigger the script.
-- [x] Create a pre-commit hook to trigger the script.
-- [ ] Create a pre-commit shell script that triggers the action.
+- [ ] Створити post-commit shell script, який ініціює дію.
+- [ ] Створити post-commit хук для запуску скрипта.
+- [x] Створити pre-commit хук для запуску скрипта.
+- [ ] Створити pre-commit shell script, який ініціює дію.
 
-#### Q82. Which use case is NOT a good candidate for a Git hook?
+#### Q82. Який варіант використання НЕ є добрим кандидатом на підключення Git?
 
-- [x] state dependent environment changes
-- [ ] continuous integration
-- [ ] increasing code coverage
-- [ ] enforcing commit rules
+- [x] стан залежить від змін середовища
+- [ ] безперервна інтеграція
+- [ ] збільшення покриття коду
+- [ ] виконання правил комітів
 
-#### Q83. What information do Git reflogs (reference logs) store?
+#### Q83. Яку інформацію зберігають Git reflogs (довідкові журнали)?
 
-- [ ] shell script pointers and keychain credentials
-- [x] updates to branch tips and other references in the local repository
-- [ ] release notes and hook script values
-- [ ] tag and versioning information
+- [ ] покажчики shell script та облікові дані keychain
+- [x] оновлення підказок щодо гілок та інших посилань у локальному репозиторії
+- [ ] примітки до випуску та значення сценарію підключення
+- [ ] тег і інформація про версії
 
-#### Q84. You have just completed rebasing your master branch and need to manually update the remote master, even though there is a merge conflict. How can you accomplish this?
+#### Q84. Ви щойно завершили rebase master гілки, і вам потрібно вручну оновити віддалену master, навіть якщо існує конфлікт merge. Як ви можете цього досягти?
 
 - [ ] `git push --overwrite`
 - [ ] `git push --update`
 - [ ] `git push --assert`
 - [x] `git push --force-with-lease`
 
-#### Q85. What is the difference between `git fetch` and `git pull`
+#### Q85. Яка різниця між `git fetch` і `git pull`
 
-- [ ] `git fetch` creates a new branch off the master branch, while `git pull` creates a new branch off the local repository's master branch.
-- [ ] `git pull` downloads new data from a remote repository without integrating it into local files, while `git fetch` updates the current HEAD branch with the latest changes from the remote server.
-- [x] `git fetch` updates remote tracking branches with changes from a remote repository, while `git pull` updates remote tracking branches with changes from a remote repository and merges them into their corresponding local branches.
-- [ ] `git fetch` downloads and merges data from the local repository, while `git pull` informs your colleagues you are about to make changes to the master branch.
+- [ ] `git fetch` створює нову гілку з master гілки, тоді як `git pull` створює нову гілку з master гілки локального репозиторію.
+- [ ] `git pull` завантажує нові дані з віддаленого репозиторію без інтеграції їх у локальні файли, тоді як `git fetch` оновлює HEAD поточної гілки останніми змінами з віддаленого сервера.
+- [x] `git fetch` оновлює гілки віддаленого відстеження змінами з віддаленого репозиторію, тоді як `git pull` оновлює гілки віддаленого відстеження змінами з віддаленого репозиторію та об’єднує їх у відповідні локальні гілки.
+- [ ] `git fetch` завантажує та об’єднує дані з локального репозиторію, тоді як `git pull` інформує ваших колег про те, що ви збираєтесь внести зміни до master гілки.
 
-#### Q86. What command displays the difference between the working tree and the stage/index area, as well as files not tracked by Git?
+#### Q86. Яка команда відображає різницю між індексом робочого дерева, а також файлами, які не відстежуються Git?
 
 - [ ] `git current`
 - [x] `git status`
 - [ ] `git local`
 - [ ] `git context`
 
-#### Q87. You would like to restore some previously stashed work to a new branch. How can you do that?
+#### Q87. Ви бажаєте відновити деякі раніше приховані роботи в новій гілці. Як можна це зробити?
 
-- [ ] Use `git branch <stash hash>`.
-- [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use `git checkout -b`.
-- [x] Run `git stash branch <branch name>`.
+- [ ] Скористатися `git branch <stash hash>`.
+- [ ] Додайти сховані коміти до поточного коміту, а потім створити нову гілку.
+- [ ] Скористатися `git checkout -b`.
+- [x] Запустити `git stash branch <branch name>`.
 
-[reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
+[Довідка](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
-#### Q88. What is the difference between git branch -d and git branch -D?
+#### Q88. Яка різниця між git branch -d і git branch -D?
 
-- [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.
-- [ ] -d deletes the current commit head, while -D deletes the entire branch.
-- [x] -d deletes the local branch, while -D deletes the local branch regardless of push and merge status.
-- [ ] -D deletes the current commit head, while -d deletes the entire branch.
+- [ ] -D видаляє локальну гілку, тоді як -d видаляє гілку незалежно від статусу push і merge.
+- [ ] -d видаляє поточний HEAD коміту, тоді як -D видаляє всю гілку.
+- [x] -d видаляє локальну гілку, тоді як -D видаляє локальну гілку незалежно від статусу push і merge.
+- [ ] -D видаляє поточну HEAD коміту, тоді як -d видаляє всю гілку.
 
-#### Q89. You stashed three sets of changes but cannot remember the contents of the first stash entry. What command would you use to see the details of the changes in the first of the three stash entries?
+#### Q89. Ви зберегли три набори змін, але не пам’ятаєте вміст першого запису. Яку команду ви використали б, щоб переглянути подробиці змін у першому з трьох записів схованки?
 
 - [ ] git stash show -p stash@{2}
 - [ ] git stash list
 - [ ] git stash show -p stash@{1}
 - [x] git stash show -p
 
-[reference here](https://git-scm.com/docs/git-stash)
+[Довідка](https://git-scm.com/docs/git-stash)
 
-#### Q90. How would you delete a remote branch in your repository?
+#### Q90. Як би ви видалили віддалену гілку у своєму репозиторії?
 
-- [ ] Use `git --delete <branch_name>`.
-- [ ] Use `git push <remote_name> --d <branch_name>`.
-- [ ] Use `git push <remote_name> --D`.
-- [x] Use `git push <remote_name> --delete <branch_name>`.
+- [ ] Скористатися `git --delete <branch_name>`.
+- [ ] Скористатися `git push <remote_name> --d <branch_name>`.
+- [ ] Скористатися `git push <remote_name> --D`.
+- [x] Скористатися `git push <remote_name> --delete <branch_name>`.
 
-[reference here](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
+[Довідка](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
 
-#### Q91. What is the default setting of `git reflog` when no subcommands are specified?
+#### Q91. Який стандартний параметр `git reflog`, якщо не вказано жодної підкоманди?
 
 - [ ] delete
 - [ ] expire
 - [x] show
 - [ ] update
 
-[reference here](https://git-scm.com/docs/git-reflog)
+[Довідка](https://git-scm.com/docs/git-reflog)
 
-#### Q92. How does the `-p` option change the behavior of the `git add` command
+#### Q92. Як параметр `-p` змінює поведінку команди `git add`
 
-- [ ] It causes tracked files in the parent directory to be included in the staged files.
-- [x] It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
-- [ ] It automatically pushes changes to the corresponding branch on the remote repository.
-- [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
+- [ ] Це призводить до того, що відстежувані файли в батьківському каталозі включаються до staged файлів.
+- [x] Це дозволяє розробникам інтерактивно вибирати, які зміни у відстежуваних файлах буде встановлено, і виводить відмінності для перегляду.
+- [ ] Автоматично надсилає зміни до відповідної гілки віддаленого репозиторію.
+- [ ] Це дозволяє розробникам інтерактивно вибирати, які файли закріплено, і виводить відмінності для перегляду.
 
-[reference here](https://git-scm.com/docs/git-add#Documentation/git-add.txt--p)
+[Довідка](https://git-scm.com/docs/git-add#Documentation/git-add.txt--p)
 
-#### Q93. After checking out a specific commit, you receive a warning message indicating You are in 'detached HEAD' state. What is Git warning you of?
+#### Q93. Після перевірки певного коміту ви отримуєте попереджувальне повідомлення про те, що ви перебуваєте в стані «detached HEAD». Про що вас попереджає Git?
 
-- [ ] You are not working on the most recent commit of a branch.
-- [ ] A teammate has flagged the code with an issue.
-- [x] The commit does not have a parent.
-- [ ] The branch has not been pushed to the remote repository.
+- [ ] Ви не працюєте над останнім комітом гілки.
+- [ ] Товариш по команді позначив код із проблемою.
+- [x] Коміт не має батьківського елемента.
+- [ ] Гілка не була надіслана до віддаленого репозиторію.
 
-[reference here](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
+[Довідка](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
 
-#### Q94. After accidentally deleting a branch in your local repository, how can you recover it?
+#### Q94. Після випадкового видалення гілки у вашому локальному репозиторії, як ви можете її відновити?
 
-- [ ] It cannot be recovered.
-- [ ] Find the hash of the branch with the `log` command, then execute `git checkout -b <branchname> <hash>`.
-- [x] Find the hash of the branch with the `reflog` command, then execute `git checkout -b <branchname> <hash>`.
-- [ ] Execute `git checkout -b <branchname>`.
+- [ ] Її неможливо відновити.
+- [ ] Знайти хеш гілки за допомогою команди `log`, потім виконати `git checkout -b <назва гілки> <хеш>`.
+- [x] Знайти хеш гілки за допомогою команди `reflog`, потім виконати `git checkout -b <назва гілки> <хеш>`.
+- [ ] Виконати `git checkout -b <назва гілки>`.
 
-[Reference](https://stackoverflow.com/questions/1992364/git-recover-deleted-remote-branch)
+[Довідка](https://stackoverflow.com/questions/1992364/git-recover-deleted-remote-branch)
 
-#### Q95. How would you display a histogram showing inserts, deletion, and modifications per file for a specific commit along with its general commit information?
+#### Q95. Як відобразити гістограму, що показує вставки, видалення та модифікації для кожного файлу для певного коміту разом із загальною інформацією про коміт?
 
-- [ ] Use `git stat`.
-- [ ] Use `git debug --prettyprint`.
-- [ ] Query the remote repository with the commit hash.
-- [x] Use `git show <commit> --stat`.
+- [ ] Скористатися `git stat`.
+- [ ] Скористатися `git debug --prettyprint`.
+- [ ] Надіслати запит до віддаленого репозиторію за допомогою хешу коміту.
+- [x] Скористатися `git show <commit> --stat`.
 
-[Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
+[Довідка](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
 
-#### Q96. What features do repository managers such as GitHub provide beyond Git?
+#### Q96. Які функції надають менеджери репозиторіїв, такі як GitHub, крім Git?
 
-- [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
-- [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
-- [x] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
-- [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.
+- [ ] Менеджери репозиторіїв є власними версіями Git, які не містять розширених функцій.
+- [ ] Менеджери репозиторіїв надають розширений інструмент командного рядка, який використовується для керування кількома локальними репозиторіями.
+- [x] Менеджери репозиторіїв надають онлайн-сервіс для розміщення репозиторіїв Git, які включають такі функції співпраці, як запити на отримання, відстеження проблем і експертні оцінки.
+- [ ] Менеджери репозиторіїв розподіляють репозиторії між кількома місцями на робочій станції користувача, забезпечуючи надлишкове сховище, що дозволяю робити швидке резервне копіювання та відновлення.
 
-[reference](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them)
+[Довідка](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them)
 
-#### Q97. What command finds the HEAD of the current branch?
+#### Q97. Яка команда знаходить HEAD поточної гілки?
 
 - [ ] `git head --verify`
 - [ ] `git log --head`
 - [ ] `git hash --head`
 - [x] `git show-ref --head`
 
-[reference](https://git-scm.com/docs/git-show-ref)
+[Довідка](https://git-scm.com/docs/git-show-ref)
 
-#### Q98. When Git Workflows contain a long-running branch, what purpose does the long-running branch serve?
+#### Q98. Якщо workflow Git містить тривалу гілку, якій меті це служить?
 
-- [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
-- [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
-- [ ] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
-- [x] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
+- [ ] Тривалі гілки зберігають нестабільний код, доки він не буде рецензований для інтеграції в гілку feature.
+- [ ] Тривалі гілки відповідають гнучким спринтам і використовуються для зберігання пов’язаних із feature розробок під час спринту.
+- [ ] Довгострокові гілки містять код, пов’язаний з feature розробкою, який об’єднується в короткострокові гілки, такі як master.
+- [x] Тривалі гілки відповідають різним стадіям розробки та завжди відкриті для залучення тематичних/feature гілок.
 
-Note: master is not a short-lived branch, as answer "C" states. Answer "D" is the correct one.
-[Reference](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#:~:text=Long%2DRunning%20Branches,them%20into%20others.)
+Примітка: master не є короткочасною гілкою, як зазначено у відповіді «C». Відповідь «D» правильна.
+[Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Віддалені-гілки)
 
-#### Q99. What command takes changes from the master branch on the remote repository origin and merges then to the local checked-out branch?
+#### Q99. Яка команда приймає зміни з master гілки у джерелі віддаленого репозиторію, а потім об’єднує з локальною вилученою гілкою?
 
 - [ ] `git commit -u origin`
 - [ ] `git checkout origin`
 - [x] `git pull origin master`
 - [ ] `git push origin master`
 
-#### Q100. While pushing changes to a remote repository, you receive the following message. How do you resolve this issue?
+#### Q100. Під час надсилання змін до віддаленого репозиторію ви отримуєте таке повідомлення. Як вирішити цю проблему?
 
 ```bash
 error: failed to push some refs to 'https://github.com/myrepo/simple.git'
 hint: Updates were rejected because the remote contains work that you do not hint: not have locally.
 ```
 
-- [ ] Use the --atomic option with the push command.
-- [x] Execute a pull, then resolve any merge conflicts and execute another push.
-- [ ] Execute a fetch, then execute another push.
-- [ ] Use the --force option with the push command.
+- [ ] Скористатися опцією --atomic із командою push.
+- [x] Виконати pull, потім розв’язати будь-які конфлікти merge та виконати push знову.
+- [ ] Виконати fetch, потім виконати push.
+- [ ] Скористатися параметром --force з командою push.
 
-#### Q101. What does the -p option add to the output of the `git log` command?
+#### Q101. Що додає параметр -p до виводу команди `git log`?
 
-- [x] It adds patch output that shows the differences introduced in each commit.
-- [ ] It adds patch output that shows a summary listing modified files.
-- [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
-- [ ] It adds the full commit message and notes associated with each commit.
+- [x] Він додає доповнення до виводу, яке показує відмінності, введені в кожному коміті.
+- [ ] Він додає доповнення до виводу, яке показує короткий перелік змінених файлів.
+- [ ] Він додає доповнення до виводу та відображає гістограму, яка показує кількість рядків, змінених у кожному коміті.
+- [ ] Він додає повне повідомлення коміту та примітки, пов’язані з кожним комітом.
 
-#### Q102. What is the staging area or index?
+#### Q102. Що таке staging area або index?
 
-- [ ] an area that stores commits prior to them being pushed to the remote repository
-- [ ] an area containing stash entries that can applied to the working files
-- [ ] an area where changes from a branch in the remote repository are stored before they are applied to a local branch
-- [x] an area that stores information about changes that will be included in the next commit
+- [ ] область, яка зберігає коміти до того, як їх буде відправлено у віддалений репозиторій
+- [ ] область, що містить схованки, які можна застосувати до робочих файлів
+- [ ] область, де зберігаються зміни з гілки у віддаленому репозиторії перед тим, як їх застосувати до локальної гілки
+- [x] область, яка зберігає інформацію про зміни, які будуть включені до наступного коміту
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Запис-змін-до-репозиторія)
 
-#### Q103. What command would you use to stage changes to the index strictly for properties files in the current directory?
+#### Q103. Яку команду ви використали б для внесення змін до індексу виключно для файлів властивостей у поточному каталозі?
 
 - [x] `git add *.properties`
 - [ ] `git add %.properties`
 - [ ] `git add .properties`
 - [ ] `git add properties`
 
-#### Q104. What are untracked files?
+#### Q104. Що таке невідстежувані(untracked) файли?
 
-- [ ] files in the local repository that have not been merged into the master branch
-- [ ] staged files that Git does not know about because the have not been committed
-- [x] files in the working directory that Git does not know about because they have not been staged or committed
-- [ ] files in the remote repository that Git does not know about because they have not been tagged
+- [ ] файли в локальному репозиторії, які не були об’єднані в master гілку
+- [ ] проміжні файли, про які Git не знає, оскільки вони не були закомічені
+- [x] файли у робочому каталозі, про які Git не знає, тому що вони не були підготовлені(staged) чи закомічені
+- [ ] файли у віддаленому репозиторії, про які Git не знає, оскільки вони не позначені тегами
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Запис-змін-до-репозиторія)
 
-#### Q105. What type of Git hook could be used to validate that a commit message contains a ticket number?
+#### Q105. Який тип хуків Git можна використати для підтвердження того, що повідомлення коміту містить номер квитка?
 
 - [ ] pre-commit
 - [x] commit-msg
 - [ ] applypatch-msg
 - [ ] prepare-commit-msg
 
-#### Q106. What is the difference between git stash pop and git stash apply?
+#### Q106. Яка різниця між git stash pop і git stash apply?
 
-- [ ] git stash pop pushes the topmost commit to the current branch, while git stash apply caches the last commit in the current branch.
-- [x] git stash pop applies the topmost entry in the stash to the working files and removes it from the stash, while git stash apply applies the topmost entry in the stash to the working files but leaves it in the stash.
-- [ ] git stash pop merges the topmost commit to the current branch, while git stash apply merges the last commit in the current branch.
-- [ ] git stash pop applies the topmost entry in the stash to the working files but leaves it in the stash, while git stash apply applies the topmost entry in the stash to the working files and removes it from the stash.
+- [ ] git stash pop переміщує найвищий комміт до поточної гілки, тоді як git stash apply кешує останній комміт у поточній гілці.
+- [x] git stash pop застосовує найвищий запис у схованці до робочих файлів і видаляє його зі схованки, а git stash apply застосовує найвищий запис у схованці до робочих файлів, але залишає його в схованці.
+- [ ] git stash pop об’єднує найвищий комміт із поточною гілкою, тоді як git stash apply об’єднує з останній комміт у поточній гілці.
+- [ ] git stash pop застосовує найвищий запис у схованці до робочих файлів, але залишає його в схованці, тоді як git stash apply застосовує найвищий запис у схованці до робочих файлів і видаляє його зі схованки.
 
-#### Q107. After making some major changes to your code, you are a little nervous about committing. What command would you use to review the commit prior to making it?
+#### Q107. Після внесення деяких значних змін у ваш код ви трохи хвилюєтеся перед комітом. Яку команду ви б використали для перегляду коміту перед його створенням?
 
 - [ ] git commit --verify
 - [ ] git notes show
 - [ ] git commit preview
 - [x] git commit --dry-run
 
-#### Q108. What statement best describes Git's concept of HEAD?
+#### Q108. Яке твердження найкраще описує концепцію HEAD у Git?
 
-- [ ] a pointer to the most recently changed file in the stage/index
-- [ ] a pointer to the master branch
-- [x] a pointer to the most recent commit in the currently checked-out branch
-- [ ] a pointer to where the repository is stored in memory
+- [ ] вказівник на останній змінений файл у stage/index
+- [ ] вказівник на master гілку
+- [x] вказівник на останній комміт у поточній гілці
+- [ ] вказівник на те, де в пам’яті зберігається репозиторій
 
-#### Q109. After staging changes to several files, you realize the changes to the config.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+#### Q109. Після внесення змін до кількох файлів ви розумієте, що зміни у файлі config.properties є неправильними, і їх потрібно видалити з робочої області та каталогу. Якою командою можна видалити поетапні зміни у файлі?
 
 - [x] git reset HEAD^ -- config.properties
 - [ ] git rm config.properties
 - [ ] git rf config.properties
 - [ ] git checkout HEAD -- config.properties
 
-#### Q110. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
+#### Q110. Після останнього релізу з трасуванням стека створюється помилка, яка вказує на те, що проблема пов’язана з нещодавно доданою властивістю конфігурації під назвою MaxConnections. Яка команда може знайти всі коміти, які додають або видаляють рядок MaxConnections?
 
 - [ ] git grep -a "MaxConnections"
 - [ ] git log --search-string "MaxConnections"
 - [x] git log -S "MaxConnections"
 - [ ] git commit --with "MaxConnections"
 
-#### Q111. Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the remote repository, named origin, to point to the new remote repository at this location?
+#### Q111. Ваша компанія перемістила свій віддалений репозиторій на GitHub за цією адресою: https://github.com/yourcompany/core-api.git. Яка команда оновлює віддалений репозиторій з іменем origin, щоб вказувати на новий віддаленний репозиторій в цьому місці?
 
 - [ ] git remote create-update origin https://github.com/yourcompany/core-api.git
 - [ ] git remote update origin https://github.com/yourcompany/core-api.git
 - [x] git remote set-url origin https://github.com/yourcompany/core-api.git
 - [ ] git remote add https://github.com/yourcompany/core-api.git
 
-#### Q112. When is the cherry-pick command used?
+#### Q112. Коли використовується команда cherry-pick?
 
-- [x] when a commit from one branch needs to be copied into another branch
-- [ ] when the HEAD needs to be reset to a specific commit
-- [ ] when a specific commit needs to be pulled down from the remote repository
-- [ ] when a hook script needs to be invoked
+- [x] коли комміт з однієї гілки потрібно скопіювати в іншу гілку
+- [ ] коли HEAD потрібно скинути до певного коміту
+- [ ] коли певний комміт потрібно витягнути з віддаленого репозиторію
+- [ ] коли потрібно викликати сценарій підключення
 
-[reference](https://www.atlassian.com/git/tutorials/cherry-pick#:~:text=git%20cherry%2Dpick%20is%20a,be%20useful%20for%20undoing%20changes.)
+[Довідка](https://www.atlassian.com/git/tutorials/cherry-pick#:~:text=git%20cherry%2Dpick%20is%20a,be%20useful%20for%20undoing%20changes.)
 
-#### Q113. How would you describe a forked repository?
+#### Q113. Як би ви описали forked репозиторій?
 
-- [ ] a deleted or archived copy of a repository
-- [ ] a beta release branch of a repository
-- [ ] a future branch of a repository
-- [x] a separate copy of a repository
+- [ ] видалена або заархівована копія репозиторію
+- [ ] бета-версія гілки репозиторію
+- [ ] майбутня гілка репозиторію
+- [x] окрема копія репозиторію
 
-[reference](https://stackoverflow.com/a/9339460/1573267)
-[reference](https://www.geeksforgeeks.org/git-fork/)
+[Довідка](https://stackoverflow.com/a/9339460/1573267)
+[Довідка](https://www.geeksforgeeks.org/git-fork/)
 
-#### Q114. How can you exclude untracked files within the working directory from a Git repository?
+#### Q114. Як можна виключити невідстежувані файли в робочому каталозі з репозиторію Git?
 
-- [ ] You cannot exclude the files from the repository.
-- [ ] Tag the files with excluded.
-- [x] Add a pattern matching the files to the .gitignore file.
-- [ ] Add the files to the omitted branch
+- [ ] Неможливо виключити файли з репозиторію.
+- [ ] Позначити файли тегом виключено.
+- [x] Додати шаблон, що відповідає файлам, до файлу .gitignore.
+- [ ] Додати файли до пропущеної гілки
 
-[reference](https://git-scm.com/docs/gitignore)
+[Довідка](https://git-scm.com/docs/gitignore)
 
-#### Q115. What command creates a near-exact copy of the entire repository from a server?
+#### Q115. Яка команда створює майже точну копію всього сховища з сервера?
 
 - [ ] `git checkout <url>`
 - [ ] `git pull <url>`
 - [x] `git clone <url>`
 - [ ] `git replicate <url>`
 
-[Reference](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
 
-#### Q116. What would happen if you ran the `git reset testfile.js` command?
+#### Q116. Що станеться, якщо ви запустите команду `git reset testfile.js`?
 
-- [ ] testfile.js would be reverted to a blank file.
-- [ ] testfile.js would be reset to its first saved state.
-- [x] testfile.js would be reverted to its last saved copy.
-- [ ] testfile.js would be removed from the stage/index area, if present.
+- [ ] testfile.js буде повернуто до порожнього стану.
+- [ ] testfile.js буде скинуто до свого першого збереженого стану.
+- [x] testfile.js буде повернено до стану своєї останньої збереженої копії.
+- [ ] testfile.js буде видалено з області stage/index, якщо він присутній.
 
-[reference](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
+[Довідка](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
 
-#### Q117. What situation can occur when attempting to combine branches containing changes to the same piece of code?
+#### Q117. Яка ситуація може виникнути під час спроби об’єднати гілки, що містять зміни в одному фрагменті коду?
 
 - [ ] lost code
 - [ ] automatic override
 - [ ] collisions
 - [x] merge conflict
 
-#### Q118. When Git workflows contain a topic branch, what purpose does the topic branch serve?
+#### Q118. Якщо workflow Git містять topic гілку, для чого служить topic гілка?
 
-- [ ] Topic branches store unstable code until it is peer reviewed for integration into another feature branch.
-- [ ] Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into.
-- [ ] Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall.
-- [x] Topic branches are short-lived branches used to store work related to a particular feature.
+- [ ] Topic гілки зберігають нестабільний код, доки його не перевірять для інтеграції в іншу feature гілку.
+- [ ] Topic гілки відповідають різним стадіям розвитку і завжди відкриті для залучення довготривалих гілок.
+- [ ] Topic гілки використовуються в методології розробки каскаду для відстеження стану коду на різних етапах каскаду.
+- [x] Topic гілки – це короткочасні гілки, які використовуються для зберігання роботи, пов’язаної з певною функцією.
 
-#### Q119. What practice can help reduce the chances of encountering a merge conflict?
+#### Q119. Яка практика може допомогти зменшити шанси зіткнутися з merge конфліктами?
 
-- [ ] Provide detailed commit messages that describe the changes being introduced by the commit.
-- [ ] make large commits that introduce multiple features.
-- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently.
-- [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts.
+- [ ] Надати докладні повідомлення про коміти, які описують зміни, внесені комітом.
+- [ ] Робити великі коміти, які вводять чисельні функції.
+- [x] Підтримувати синхронізацію гілок локального репозиторію з зв'язаними гілками у віддаленому репозиторії шляхом частих комітів, push та pull.
+- [ ] Уникати частої взаємодії з віддаленим репозиторієм, щоб зменшити ймовірність конфліктів.
 
-#### Q120. What command can you use to remove untracked files from the working directory?
+#### Q120. За допомогою якої команди можна видалити невідстежувані файли з робочого каталогу?
 
 - [ ] `git rm -all`
 - [ ] `git rm --cached`
 - [x] `git clean -d -f`
 - [ ] `git checkout`
 
-**Note:** In Git, when multiple short options are used together, you can combine them into a single option by omitting the space between them. So, `git clean -d -f` can be combined as `git clean -df`.
+**Примітка.** У Git, коли кілька коротких опцій використовуються разом, ви можете об’єднати їх в одну опцію, пропускаючи пробіл між ними. Отже, `git clean -d -f` можна поєднати як `git clean -df`.
 
 #### Q121. After making a commit, you notice that you forgot to include changes to the doge.txt file. What command or commands would you use to add the changes to the commit?
 
