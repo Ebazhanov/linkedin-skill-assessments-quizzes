@@ -1090,7 +1090,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 **Примітка.** У Git, коли кілька коротких опцій використовуються разом, ви можете об’єднати їх в одну опцію, пропускаючи пробіл між ними. Отже, `git clean -d -f` можна поєднати як `git clean -df`.
 
-#### Q121. After making a commit, you notice that you forgot to include changes to the doge.txt file. What command or commands would you use to add the changes to the commit?
+#### Q121. Після здійснення коміту ви помітили, що забули внести зміни до файлу doge.txt. Яку команду або команди ви б використали, щоб додати зміни до коміту?
 
 - [x] ⠀
 
@@ -1118,7 +1118,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
   git commit --patch --no-edit
 ```
 
-#### Q122. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
+#### Q122. Яка команда видалить файл під назвою wrongfile із поточної гілки сховища, індексу та робочих файлів?
 
 - [x] ⠀
 
@@ -1148,75 +1148,75 @@ git commit -m "Removed file"
   git commit -m "Removed file"
 ```
 
-[Reference](https://git-scm.com/docs/git-rm)
+[Довідка](https://git-scm.com/docs/git-rm)
 
-#### Q123. What is the best way to report a bug to a GitHub project?
+#### Q123. Який найкращий спосіб повідомити про помилку в проекті GitHub?
 
-- [ ] Send an email to a project owner.
-- [ ] I don't bother reporting software bugs because there's no transparency and they never get fixed anyway.
-- [x] Search for the bug in the project's existing issues and create a new one if it hasn't been reported yet.
-- [ ] Use git search -diff to compare all commits in your repository history.
+- [ ] Надіслати email власнику проекту.
+- [ ] Я не поспішаю повідомляти про помилки програмного забезпечення, тому що немає прозорості, і вони все одно ніколи не виправляються.
+- [x] Знайти помилку в існуючих issues проекту та створити нову issue, якщо про неї ще не повідомляли.
+- [ ] Скористатися git search -diff, щоб порівняти всі коміти в історії вашого репозиторію.
 
-Explanation: A project's issues are visible to anyone who has access to the project, so you may find a resolution is already planned or available. Otherwise, you can create and track the issue yourself.
+Пояснення: issues проекту бачать усі, хто має доступ до проекту, тому ви можете виявити, що вирішення вже заплановане або доступне. В іншому випадку ви можете створити та відстежити issue самостійно.
 
-#### Q124. Suppose you have created a bug fix on a new branch and want it to become part of the next production build generated from the main branch. What should you do next?
+#### Q124. Припустімо, ви створили bug fix у новій гілці та хочете, щоб воно стало частиною наступної робочої збірки, створеної з main гілки. Що робити далі?
 
-- [ ] Copy your branch changes and commit them directly to the main branch.
-- [x] Create a pull request to merge your new branch into the main branch.
-- [ ] On second thought, maybe I won't share this fix. I'll just put it in my own private version of the source code.
-- [ ] Use git bisect to compare the buggy commit to an early commit that works as expected.
+- [ ] Скопіювати зміни вашої гілки та закомітити їх безпосередньо в main гілці.
+- [x] Створити pull request to merge, щоб об’єднати нову гілку з основною гілкою.
+- [ ] Якщо добре подумати, можливо, я не буду ділитися цим виправленням. Я просто поміщу це у свою особисту версію вихідного коду.
+- [ ] Скористатися git bisect, щоб порівняти коміт з помилками та ранній коміт, який працює належним чином.
 
-Explanation: Pull requests are the correct way to communicate that commits are ready for review and ultimate inclusion on the main branch.
+Пояснення: Pull requests є правильним способом повідомити, що коміти готові до перегляду та остаточного включення в main гілку.
 
-#### Q125. What is GitHub?
+#### Q125. Що таке GitHub?
 
-- [ ] version control
-- [x] A hosting platform for Git repositories
-- [ ] for keeping images
-- [ ] for social networking
+- [ ] контроль версій
+- [x] Платформа хостингу для репозиторіїв Git
+- [ ] для збереження зображень
+- [ ] для соціальних мереж
 
-#### Q126. Git Pull is a combination of?
+#### Q126. Git Pull — це комбінація?
 
-- [ ] Add and commit.
-- [ ] branch and checkout.
-- [x] fetch and merge.
-- [ ] None of these.
+- [ ] Add та commit.
+- [ ] branch та checkout.
+- [x] fetch та merge.
+- [ ] Ніщо з цього.
 
-[Reference](https://www.atlassian.com/git/tutorials/syncing/git-pull#:~:text=The%20git%20pull%20command%20is%20actually%20a%20combination%20of%20two,will%20enter%20a%20merge%20workflow.)
+[Довідка](https://www.atlassian.com/git/tutorials/syncing/git-pull#:~:text=The%20git%20pull%20command%20is%20actually%20a%20combination%20of%20two,will%20enter%20a%20merge%20workflow.)
 
-#### Q127. What is the command to set the user email for the current repository?
+#### Q127. Яка команда для встановлення email користувача для поточного репозиторію?
 
 - [ ] git email.user
 - [x] git config user.email
 - [ ] git config email
-- [ ] All of the above.
+- [ ] Все вищеперераховане.
 
-[Reference](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
+[Довідка](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 
-#### Q128. **\_** will rewind your project to a specific point in time, losing all commits that came after it. **\_** will keep changes in those rewound commits as local modifications
+#### Q128. **\_** перемотає ваш проект до певного моменту часу, втрачаючи всі коміти, які з’явилися після нього. **\_** збереже зміни в цих перемотаних комітах як локальні модифікації
 
 - [ ] `git reset HEAD`; `git reset HEAD^`
 - [x] `git reset --hard`; `git reset --soft`
 - [ ] `git reset --soft`; `git reset --hard`
 - [ ] `git rewind`; `git update`
 
-#### Q129. Explain the concept of "Git blame" and when it is used in a version control workflow.
+#### Q129. Поясніть концепцію «Git blame» і коли вона використовується в робочому процесі керування версіями.
 
-- [ ] Git blame is a command for finding and exposing the identity of contributors in a Git repository.
-- [ ] It's used for blaming others for code issues in a collaborative project.
-- [ ] Git blame is a feature for tracking the location of bugs in code.
-- [x] Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship.
+- [] Git blame — це команда для пошуку та розкриття ідентичності учасників у репозиторії Git.
+- [ ] Використовується для звинувачення інших у проблемах з кодом у спільному проекті.
+- [ ] Git blame — це функція для відстеження розташування помилок у коді.
+- [x] Git blame — це інструмент для відображення того, хто останнім змінював кожен рядок файлу, допомагаючи відстежувати зміни та розуміти історію коду та авторство.
 
-[Reference](https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
+[Довідка](https://www.freecodecamp.org/news/git-blame-explained-with-examples/)
 
-#### Q130. What is the purpose of C++ move constructor, and when is it automatically generated?
+#### Q130. Для чого призначений конструктор переміщення C++ і коли він автоматично генерується?
 
-- [ ] A move constructor creates deep copies of objects, improving memory efficiency.
-- [ ] It is generated when you explicitly define a copy constructor.
-- [ ] The move constructor is used for copying objects between different data types.
-- [x] A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying.
+- [ ] Конструктор переміщення створює глибокі копії об’єктів, покращуючи ефективність пам’яті.
+- [ ] Він генерується, коли ви явно визначаєте конструктор копіювання.
+- [ ] Конструктор переміщення використовується для копіювання об'єктів між різними типами даних.
+- [x] Конструктор переміщення дозволяє ефективно передавати ресурси від одного об’єкта до іншого, зменшуючи непотрібне копіювання.
 
-#### Q131. You have changed your mind about adding broccoli to your project. How should you remove it?
+#### Q131. Ви передумали додавати broccoli до свого проекту. Як його видалити?
 
 ```
 Untracked files:
@@ -1229,192 +1229,192 @@ broccoli
 - [ ] `git clean`
 - [x] `git clean -f`
 
-[Reference](https://git-scm.com/docs/git-clean)
+[Довідка](https://git-scm.com/docs/git-clean)
 
-#### Q132. You're creating an action for the Github marketplace. why is it importance to create a release?
+#### Q132. Ви створюєте action для Github marketplace. чому важливо створити реліз?
 
-- [x] to alow you to create .zip files that you can easily share
-- [ ] to initiate a continuos integration process
-- [x] to package your software so that it can become available through the Github marketplace
-- [ ] to create workflows and automate the process of generating software
+- [x], щоб дозволити вам створювати файли .zip, якими ви можете легко ділитися
+- [ ], щоб почати безперервний процес інтеграції
+- [x], щоб упакувати ваше програмне забезпечення, щоб воно стало доступним через торговий майданчик Github
+- [ ] для створення робочих процесів та автоматизації процесу генерації програмного забезпечення
 
-#### Q133. You're looking at a repository page and click a folder name to open it. You have code search on, so you land in the code view. What is the quickest way to find a file on a path in your repo?
+#### Q133. Ви переглядаєте сторінку репозиторію та клацаєте назву папки, щоб відкрити її. Ви ввімкнули пошук коду, тому ви потрапляєте у вікно перегляду коду. Який найшвидший спосіб знайти файл на шляху у вашому репо?
 
-- [x] Press the slash(/) key and then the T key.
-- [ ] Go to advanced search.
-- [ ] From the search menu, select Path.
-- [ ] Press the T key.
+- [x] Натиснути клавішу slash(/), а потім клавішу T.
+- [ ] Перейти до розширеного пошуку.
+- [ ] У меню пошуку вибрати Шлях.
+- [ ] Натиснути клавішу T.
 
-#### Q134. How do you save a search that you use often using GitHub?
+#### Q134. Як зберегти пошуковий запит, який ви часто використовуєте, за допомогою GitHub?
 
-- [ ] Click Save on the Search box.
-- [ ] Click Save in the advanced search menu.
-- [x] Click Save on the search results page.
-- [ ] Bookmark the search results page.
+- [ ] Натиснути Save у полі пошуку.
+- [ ] Натиснути Save в меню розширеного пошуку.
+- [x] Натиснути Save на сторінці результатів пошуку.
+- [ ] Додати сторінку результатів пошуку в закладки.
 
-#### Q135. which of these is not a label that github creates by default?
+#### Q135. Що з цього не є міткою, яку github створює за замовчуванням?
 
 - [ ] bug
 - [ ] documentation
 - [ ] wontfix
 - [x] repo
 
-#### Q136. What is the fastest way to start a search using Github web pages?
+#### Q136. Який найшвидший спосіб розпочати пошук за допомогою Github web pages?
 
-- [ ] Press the slash(/) key on any page of the site.
-- [ ] Click the Search tab from the Github Version
-- [ ] Click the advanced Search link.
-- [x] Click the search box and type your searc query.
+- [ ] Натиснути клавішу похилої риски (/) на будь-якій сторінці сайту.
+- [ ] Натиснути вкладку Пошук у версії Github
+- [ ] Натиснути посилання розширеного пошуку.
+- [x] Натиснути поле пошуку та ввести пошуковий запит.
 
-#### Q137. Assigning an issue to a person implies that they \_\_\_\_.
+#### Q137. Призначення issue людині означає, що вона \_\_\_\_.
 
-- [ ] will get a notification asking them to review the issue
-- [x] are responsible for resolving the issue
-- [ ] are being informed of the issue's details
-- [ ] supervise the team resolving the issue
+- [ ] отримає сповіщення з проханням переглянути issue
+- [x] відповідає за вирішення issue
+- [ ] отримає інформацію про деталі issue
+- [ ] контролює команду, яка вирішує issue
 
-#### Q138. What does a Template repository do?
+#### Q138. Що робить Template репозиторій?
 
-- [ ] It creates a live demo of the current repository for training.
-- [x] It allows you to create a default structure and files based on the current repository.
-- [ ] It lets you archive and store project settings.
-- [ ] It imports another project’s settings to the current project.
+- [ ] Створює живу демонстрацію поточного репозиторію для навчання.
+- [x] Дозволяє створювати типову структуру та файли на основі поточного репозиторію.
+- [ ] Дозволяє архівувати та зберігати налаштування проекту.
+- [ ] Імпортує налаштування іншого проекту до поточного проекту.
 
-#### Q139. You’re creating an action for the GitHub Marketplace. Why is it important to create a release?
+#### Q139. Ви створюєте action для GitHub Marketplace. Чому важливо створити release?
 
-- [ ] To allow you to create .zip files that you can easily share
-- [ ] To initiate a continuous integration process
-- [x] To package your software so that it can become available through the Github Marketplace
-- [ ] To create workflows and automate the process of generating software
+- [ ] Щоб дозволити створювати файли .zip, якими можна легко ділитися
+- [ ] Ініціювати постійний процес інтеграції
+- [x] Упакувати програмне забезпечення, щоб воно стало доступним через Github Marketplace
+- [ ] Для створення робочих процесів та автоматизації процесу генерації програмного забезпечення
 
-#### Q140. What are two ways to help Copilot give you more accurate suggestions?
+#### Q140. Які два способи допомогти Copilot надати точніші пропозиції?
 
-- [ ] Add instructions in parentheses.
-- [ ] Use shorthand, but accurate, descriptors.
-- [x] Add context in comments.
-- [ ] Use concise variable names.
-- [x] Use descriptive function names.
+- [ ] Додати інструкції в дужках.
+- [ ] Скористатися короткими, але точними дескрипторами.
+- [x] Додати контекст у коментарях.
+- [ ] Скористатися короткими назвами змінних.
+- [x] Скористатися описовими назвами функцій.
 
-#### Q141. What is the main purpose of the Chat panel?
+#### Q141. Яке основне призначення Chat panel?
 
-- [ ] To search for answers in the current project’s repository
-- [ ] To chat with other developers who are working at your company
-- [x] To have a conversational discussion with the AI behind Copilot
-- [ ] To get a list possible answers to a question
+- [ ] Для пошуку відповідей у ​​сховищі поточного проекту
+- [ ] Щоб спілкуватися з іншими розробниками, які працюють у вашій компанії
+- [x] Для розмови з ШІ за допомогою Copilot
+- [ ] Щоб отримати список можливих відповідей на запитання
 
-#### Q142. While doing a code review, you want to start an issue by highlighting a function that takes up several lines of code. What is the fastest way to do this in code view?
+#### Q142. Під час перегляду коду ви хочете розпочати issue, виділивши функцію, яка займає кілька рядків коду. Який найшвидший спосіб зробити це в режимі перегляду коду?
 
-- [ ] Click the first line number with the function, click the last line number to select a range, then in the hamburger menu select Reference in new issues
-- [ ] Copy the code and start a new issue, then use backticks around the function to create the issue
-- [ ] Select the function with the mouse, then right click and select reference in new issue
-- [ ] Click the line number with the function and select reference function in an issue
+- [ ] Клацнути номер першого рядка з функцією, клацнути номер останнього рядка, щоб вибрати діапазон, а потім у гамбургер-меню вибрати Reference in new issues
+- [ ] Скопіювати код і створити нову issue, а потім скористатися зворотнею галочкою навколо функції, щоб створити issue
+- [ ] Вибрати функцію мишкою, потім клацнути правою кнопкою миші та вибрати reference in new issue
+- [ ] Клацнути номер рядка з функцією та вибрати reference function in an issue
 
-#### Q143. You’re reviewing a file in a repository and want to link to the current version of the file, even if it gets updated later. How can you achieve this?
+#### Q143. Ви переглядаєте файл у репозиторії та хочете зробити посилання на поточну версію файлу, навіть якщо його буде оновлено пізніше. Як цього досягти?
 
-- [ ] Go to the Code tab and click Download zip
-- [ ] Right click the code text and select Permalink
-- [x] Click Permalink on the code view
-- [ ] Copy the URL from the address bar
+- [ ] Перейти на вкладку Код і натиснути Завантажити zip
+- [ ] Клацнути правою кнопкою миші текст коду та обрати Permalink
+- [x] Клацнути Permalink у вікні перегляду коду
+- [ ] Скопіювати URL-адресу з адресного рядка
 
-#### Q144. You’re organizing a desktop application project. You want to use an overview f your project statuses and be able to drag and drop issues. Which view would you use?
+#### Q144. Ви організовуєте проект desktop програми. Ви хочете використовувати огляд статусів своїх проектів і мати можливість перетягувати issues. Який вигляд ви б використали?
 
 - [x] Board
 - [ ] Overview
 - [ ] Roadmap
 - [ ] Table
 
-#### Q145. You’re in the repo for a specific project while working on an app module. You want to look for some of the docs you’ve been working on, which you wrote in markdown. To quickly look in your own repo for all files with a markdown extension, press the slash (/) button on the keyboard while on the repository page and type \_\_\_.
+#### Q145. Ви перебуваєте в репо для певного проекту під час роботи над модулем програми. Ви хочете знайти деякі з документів, над якими ви працювали, які ви написали у розмітці. Щоб швидко знайти у своєму власному репозиторії всі файли з розширенням markdown, натисніть кнопку slash (/) на клавіатурі на сторінці репо та введіть \_\_\_.
 
 - [ ] Path:.md
 - [ ] Grep:.md
 - [x] Code:\*.md
 - [ ] Ext:\*.md
 
-#### Q146. In GitHub Projects, how can you assign an issue to a collaborator?
+#### Q146. Як у проектах GitHub ви можете призначити issue співавтору?
 
-- [ ] Label the item with their username.
-- [x] Select their username from the Assignees field.
-- [ ] Move the item to their column in the Boards view.
-- [ ] Add their handle in the comments.
+- [ ] Позначити елемент своїм іменем користувача.
+- [x] Обрати ім’я користувача в полі Assignees.
+- [ ] Перемістити елемент у відповідний стовпець у Boards перегляді.
+- [ ] Додати їх маркер у коментарях.
 
-#### Q147. Why should you include a descriptive function name when writing code with Copilot?
+#### Q147. Чому потрібно вмикати описову назву функції під час написання коду за допомогою Copilot?
 
-- [ ] It helps Copilot add more variables to a function.
-- [ ] It trains the algorithm for the next time a GitHub client answers the question.
-- [x] It helps Copilot have better context for code assistance and generation.
-- [ ] The function names are not fed to Copilot and are ignored by the AI.
+- [ ] Це допомагає Copilot додати більше змінних до функції.
+- [ ] Це навчає алгоритм, щоб наступного разу клієнт GitHub відповідав на запитання.
+- [x] Це допомагає Copilot мати кращий контекст для допомоги та створення коду.
+- [ ] Назви функцій не передаються Copilot і ігноруються ШІ.
 
-#### Q148. You are working on a project that uses a Python library and you want to find an example of how to use a function across all public repositories. Which part of GitHub’s platform would you use?
+#### Q148. Ви працюєте над проектом, який використовує бібліотеку Python, і хочете знайти приклад використання функції в усіх публічних репозиторіях. Яку частину платформи GitHub ви б використали?
 
 - [ ] Issues.
 - [ ] Discussions
 - [ ] Projects
 - [x] Search
 
-#### Q149. Working late on a project, you need to find an issue that was assigned to you. What query do you type?
+#### Q149. Працюючи над проектом допізна, вам потрібно знайти issue, яке було вам назначено. Який запит ви вводите?
 
 - [x] Is:issue assignee:username
 - [ ] Is:issue user:username
 - [ ] Issue:issue user:username
 - [ ] assignee:username is:rep
 
-#### Q150. you are working on an AI app and need to add information on project tables about the AI model being targeted. What feature allows you to do this?
+#### Q150. Ви працюєте над додатком ШІ та вам потрібно додати інформацію про цільову модель ШІ в таблиці проекту. Яка функція дозволяє це зробити?
 
 - [x] Custom fields
 - [ ] Comments
 - [ ] Pull requests
 - [ ] Custom properties
 
-#### Q151. What feature does the shortcut /table activate when used inside a GitHub comment section?
+#### Q151. Яку функцію активує shortcut /table під час використання в розділі коментарів GitHub?
 
-- [ ] A data visualization table
-- [x] A markdown table structure
-- [ ] An HTML table structure
-- [ ] A table of contents
+- [ ] Таблиця візуалізованих даних
+- [x] Структура таблиці markdown
+- [ ] Структура таблиці HTML
+- [ ] Зміст
 
-#### Q152. How can you get better suggestions when creating functions?
+#### Q152. Як ви можете отримати кращі пропозиції під час створення функцій?
 
-- [x] Type “function” and then add a detailed and expressive function name.
-- [ ] Type “function” and then press Ctrl+/ (Windows) or Command +/ (Mac).
-- [ ] Include variables in the parentheses.
-- [ ] Use consistent formatting for your function names.
+- [x] Ввести «function», а потім додати детальну та виразну назву функції.
+- [ ] Ввести «function», а потім натиснути Ctrl+/ (Windows) або Command +/ (Mac).
+- [ ] Додати змінні в дужки.
+- [ ] Скористатися узгодженним форматуванням для назв функцій.
 
-#### Q153. What does the RUN command do in a Dockerfile?
+#### Q153. Що робить команда RUN у файлі Docker?
 
-- [ ] It allows you to specify which type of machine to procure.
-- [ ] It helps run your workflows.
-- [ ] It fires up an additional container
-- [x] It allows you to execute a shell command during the image generation process
+- [ ] Це дозволяє вказати, який тип машини обрати.
+- [ ] Це допомагає запускати робочі процеси.
+- [ ] Запускає додатковий контейнер
+- [x] Це дозволяє виконувати команду shell під час процесу генерації образу
 
-#### Q154. How can you ensure that you are matching an exact combination of words?
+#### Q154. Як можна переконатися, що ви підібрали точне поєднання слів?
 
-- [ ] Enclose your query in parentheses
-- [ ] Use the exact: qualifier
-- [x] Put the series of words in quotes
-- [ ] Add the AND operator to the end of your query
+- [ ] Ввести свій запит у дужках
+- [ ] Скористатися кваліфікатором exact:
+- [x] Взяти ряд слів у лапки
+- [ ] Додати оператор AND в кінець запиту
 
-#### Q155. What is the main function of the Entrypoint instruction in a Dockerfile?
+#### Q155. Яка основна функція інструкції Entrypoint у файлі Docker?
 
-- [ ] It gives instructions to the Docker container to follow before it loads
-- [x] It executes a script when the docker container starts.
-- [ ] It serves as the first file that an editor opens when it loads the container.
-- [ ] It indicates a specific command to be run during the Docker image build process
+- [ ] Це дає інструкції контейнеру Docker, які слід виконати перед завантаженням
+- [x] Це виконує скрипт під час запуску контейнера.
+- [ ] Це служить першим файлом, який редактор відкриває під час завантаження контейнера.
+- [ ] Це вказує на конкретну команду, яку потрібно виконати під час процесу створення образу Docker
 
-#### Q156. Inside a GitHub action, which keyword do you use to specify the operating system to run jobs?
+#### Q156. Яке ключове слово в actionы GitHub ви використовуєте, щоб указати операційну систему для виконання завдань?
 
 - [ ] Hardware
 - [x] Runs-on
 - [ ] Machine
 - [ ] Os
 
-#### Q157. How can you get additional context from other files in your code?
+#### Q157. Як можна отримати додатковий контекст з інших файлів у вашому коді?
 
-- [ ] Right-click a file and add it to context
-- [x] Open additional tabs with some of your codes; they will be in Copilot context
-- [ ] Create a comment with the list of files you want Copilot to have context from
-- [ ] Highlight the files you want to add context to form the file sidebar
+- [ ] Клацнути файл правою кнопкою миші та додати його до контексту
+- [x] Відкрити додаткові вкладки з деяким вашим кодом; вони будуть у контексті Copilot
+- [ ] Створити коментар зі списком файлів, з яких Copilot має мати контекст
+- [ ] Виділити файли, до яких потрібно додати контекст, щоб сформувати бічну панель файлів
 
-#### Q158. When creating a release, which of these would count as a valid release format?
+#### Q158. Під час створення релізу, який формат вважатиметься дійсним форматом релізу?
 
 - [ ] \*3.2.4
 - [ ] @3.2.4
