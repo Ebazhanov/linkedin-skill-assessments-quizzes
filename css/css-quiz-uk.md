@@ -343,14 +343,14 @@ section + p {
  3. Внутрішній; CSS включено в елемент <head> файлу HTML.
 ```
 
-#### Q21. Which statement is true for the SVG image format?
+#### Q21. Яке твердження вірне для формату зображення SVG?
 
-- [ ] CSS can be applied to SVG but JavaScript cannot be.
-- [ ] SVGs work best for creating 3D graphics.
-- [x] SVGs can be created as a vector graphic or coded using SVG-specific elements such as &#x3C;svg&#x3E;, &#x3C; line&#x3E;, and &#x3C; ellipse&#x3E;.
-- [ ] SVGs are a HAML-based markup language for creating vector graphics.
+- [ ] CSS можна застосувати до SVG, але не JavaScript.
+- [ ] SVG найкраще працюють для створення 3D-графіки.
+- [x] SVG можна створювати як векторну графіку або кодувати за допомогою специфічних для SVG елементів, таких як &#x3C;svg&#x3E;, &#x3C; line&#x3E;, and &#x3C; ellipse&#x3E;.
+- [ ] SVG — це мова розмітки на основі HAML для створення векторної графіки.
 
-#### Q22. In the example below, when will the color pink be applied to the anchor element?
+#### Q22. У наведеному нижче прикладі, коли буде застосовано рожевий колір до опорного елемента?
 
 ```css
 a:active {
@@ -358,47 +358,47 @@ a:active {
 }
 ```
 
-- [ ] The color of the link will display as pink after it has been clicked or if the mouse is hovering over the link.
-- [ ] The color of the link will display as pink on mouse hover.
-- [x] The color of the link will display as pink while the link is being clicked but before the mouse click is released.
-- [ ] The color of the link will display as pink before it has been clicked.
+- [ ] Колір посилання відображатиметься як рожевий після натискання на нього або якщо миша наведеться на посилання.
+- [ ] Під час наведення курсора миші колір посилання буде рожевим.
+- [x] Колір посилання відображатиметься як рожевий під час натискання посилання, але до того, як буде відпущено клацання миші.
+- [ ] Колір посилання відображатиметься рожевим до того, як на ньому буде натиснуто.
 
-#### Q23. To change the color of an SVG using CSS, which property is used?
+#### Q23. Яка властивість використовується, щоб змінити колір SVG за допомогою CSS?
 
-- [ ] Use background-fill to set the color inside the object and stroke or border to set the color of the border.
-- [ ] The color cannot be changed with CSS.
-- [ ] Use fill or background to set the color inside the object and stroke to set the color of the border.
-- [x] Use fill to set the color inside the object and stroke to set the color of the border.
+- [ ] Скористатися background-fill, щоб установити колір всередині об’єкта, і stroke або border, щоб встановити колір рамки.
+- [ ] Колір не можна змінити за допомогою CSS.
+- [ ] Скористатися background-fill, щоб установити колір всередині об’єкта, і stroke, щоб встановити колір рамки.
+- [x] Скористатися fill для встановлення кольору всередині об’єкта та stroke для встановлення кольору рамки.
 
-#### Q24. When using position: fixed, what will the element always be positioned relative to?
+#### Q24. Якщо використовувати position: fixed, відносно чого завжди буде позиціонуватися елемент?
 
-- [ ] the closest element with position: relative
-- [x] the viewport
-- [ ] the parent element
-- [ ] the wrapper element
+- [ ] найближчого елементу з position: relative
+- [x] вікна перегляду
+- [ ] батьківського елементу
+- [ ] елементу обгортки
 
-#### Q25. By default, a background image will repeat \_
+#### Q25. За замовчуванням фонове зображення повторюватиметься \_
 
-- [ ] only if the background-repeat property is set to repeat
-- [x] indefinitely, vertically, and horizontally
-- [ ] indefinitely on the horizontal axis only
-- [ ] once, on the x and y axis
+- [ ] лише якщо властивість background-repeat встановлено на repeat
+- [x] необмежено, вертикально та горизонтально
+- [ ] нескінченно лише по горизонтальній осі
+- [ ] один раз, на осі x і y
 
-#### Q26. When using media queries, media types are used to target a device category. Which choice lists current valid media types?
+#### Q26. Під час використання медіа-запитів типи медіа використовуються для націлювання на категорію пристрою. Який варіант містить поточні дійсні типи носіїв?
 
 - [ ] print, screen, aural
 - [ ] print, screen, television
 - [x] print, screen, speech
 - [ ] print, speech, device
 
-#### Q27. How would you make the first letter of every paragraph on the page red?
+#### Q27. Як би ви зробили першу літеру кожного абзацу на сторінці червоною?
 
 - [x] p::first-letter { color: red; }
 - [ ] p:first-letter { color: red; }
 - [ ] first-letter::p { color: red; }
 - [ ] first-letter:p { color: red; }
 
-#### Q28. In this example, what is the selector, property, and value?
+#### Q28. У цьому прикладі, що таке селектор, властивість і значення?
 
 ```css
 p {
@@ -409,79 +409,79 @@ p {
 - [ ] A
 
 ```
-  "p" is the selector
-  "#000000" is the property
-  "color" is the value
+ "p" - селектор
+ "#000000" - властивість
+ "color" - значенням
 ```
 
 - [x] B
 
 ```
-  "p" is the selector
-  "color" is the property
-  "#000000" is the value
+ "p" - селектор
+ "color" - властивість
+ "#000000" - значення
 ```
 
 - [ ] C
 
 ```
-  "color" is the selector
-  "#000000" is the property
-  "#p" is the value
+ "color" - селектор
+ "#000000" - властивість
+ "#p" - значення
 ```
 
 - [ ] D
 
 ```
-  "color" is the selector
-  "p" is the property
-  "#000000" is the value
+ "color" - селектор
+ "p" - властивість
+ "#000000" - значення
 ```
 
-#### Q29. What is the rem unit based on?
+#### Q29. На чому ґрунтується одиниця вимірювання rem?
 
-- [ ] The rem unit is relative to the font-size of the p element.
-- [ ] You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }
-- [ ] The rem unit is relative to the font-size of the containing (parent) element.
-- [x] The rem unit is relative to the font-size of the root element of the page.
+- [ ] Rem одиниця відносна до розміру шрифту елемента p.
+- [ ] Потрібно встановити значення для одиниці rem, написавши таке оголошення, як rem { font-size: 1 Spx; }
+- [ ] Rem одиниця відносна розміру шрифту вмісту (батьківського) елемента.
+- [x] Rem одиниця відносна розміру шрифту кореневого елемента сторінки.
 
-#### Q30. Which choice would give a block element rounded corners?
+#### Q30. Який вибір дасть блоковому елементу округлені кути?
 
 - [ ] `corner-radius: 10px;`
 - [ ] `border-corner: 10px;`
 - [ ] `corner-curve: 10px;`
 - [x] `border-radius: 10px;`
 
-[Official doc:](https://www.w3schools.com/css/css3_borders.asp)
+[Довідка:](https://www.w3schools.com/css/css3_borders.asp)
 
-#### Q31. In the following media query example, what conditions are being targeted?
+#### Q31. У наведеному нижче прикладі медіа-запиту на які умови націлено?
 
 ```css
 @media (min-width: 1024px), screen and (orientation: landscape) { … }
 ```
 
-- [x] The rule will apply to a device that has either a width of 1024px or wider or is a screen device in landscape mode.
-- [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
-- [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
-- [ ] The rule will apply to a device that has a width of 1024px or narrower or is a screen device in landscape mode.
+- [x] Це правило застосовуватиметься до пристроїв із шириною 1024 пікселів або більше або пристроїв із екраном у landscape режимі.
+- [ ] Правило застосовуватиметься до пристроїв із шириною 1024 пікселів та менше та пристроїв із екраном у landscape режимі.
+- [ ] Це правило застосовуватиметься до пристроїв із шириною 1024 пікселів або більше та пристроїв із екраном у landscape режимі.
+- [ ] Це правило застосовуватиметься до пристроїв із шириною 1024 пікселів або менше або пристроїв із екраном у landscape режимі.
 
-#### Q32. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
+#### Q32. Властивості transform CSS використовуються для зміни форми та положення вибраних об’єктів. Властивість transform-origin визначає місце початку перетворення елемента. За замовчуванням, яке розташування початкової точки?
 
-- [ ] the top left corner of the element
-- [x] the center of the element
-- [ ] the top right corner of the element
-- [ ] the bottom left of the element
+- [ ] верхній лівий кут елемента
+- [x] центр елемента
+- [ ] верхній правий кут елемента
+- [ ] нижня ліва частина елемента
 
-[Reference](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
+[Довідка:](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
 
-#### Q33. Which of the following is not a valid color value? (_Alternative:_ Which choice is not a valid color value?)
+#### Q33. Що з наведеного нижче не є дійсним значенням кольору? (_Альтернатива:_ Який вибір не є дійсним значенням кольору?)
 
 - [ ] `color: #000`
 - [ ] `color: rgb(0,0,0)`
 - [ ] `color: #000000`
 - [x] `color: 000000`
 
-#### Q34. What is the vertical gap between the two elements below?
+#### Q34. Який вертикальний проміжок між двома елементами внизу?
 
 ```HTML
 <div style="margin-bottom: 2rem;">Div 1</div>
@@ -493,23 +493,23 @@ p {
 - [ ] 64px
 - [ ] 4rem
 
-[Reference MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+[Довідка MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
-#### Q35. When using the Flexbox method, what property and value is used to display flex items in a column?
+#### Q35. Під час використання методу Flexbox, яка властивість і значення використовуються для відображення flex елементів у стовпці?
 
-- [x] flex-flow: column; or flex-direction: column
+- [x] flex-flow: column; чи flex-direction: column
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
 
-#### Q36. Which type of declaration will take precedence?
+#### Q36. Який тип декларації матиме перевагу?
 
-- [ ] any declarations in user-agent stylesheets
-- [x] important declarations in user stylesheets
-- [ ] normal declarations in author stylesheets
-- [ ] important declarations in author stylesheets
+- [ ] будь-які оголошення в таблицях стилів user-agent
+- [x] important декларації у таблицях стилів user
+- [ ] normal декларації в таблицях стилів author
+- [ ] important декларації в таблицях стилів author
 
-#### Q37. The flex-direction property is used to specify the direction in which flex items are displayed. What are the values used to specify the direction of the items in the following examples?
+#### Q37. Властивість flex-direction використовується для визначення напрямку, у якому відображаються flex елементи. Які значення використовуються для визначення напрямку елементів у наведених нижче прикладах?
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png?raw=png)
 
@@ -534,7 +534,7 @@ p {
   - Example 3: `flex-direction: row;`
   - Example 4: `flex-direction: row-reverse;`
 
-#### Q38. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to the example below, which elements will the styles be applied to?
+#### Q38. Є два братських комбінатори, які можна використовувати для вибору елементів, що містяться в одному батьківському елементі; загальний однорідний комбінатор (~) і суміжний однорідний комбінатор (+). Звертаючись до прикладу нижче, до яких елементів будуть застосовані стилі?
 
 ```css
 h2 ~ p {
@@ -547,20 +547,20 @@ h2 + p {
 
 ```HTML
 <section>
-  <p>paragraph 1</p>
-  <h2>Heading</h2>
-  <p>paragraph 2</p>
-  <p>paragraph 3</p>
+  <p>Абзац 1</p>
+  <h2>Заголовок</h2>
+  <p>Абзац 2</p>
+  <p>Абзац 3</p>
 </section>
 ```
 
-- [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
-- [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
-- [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
+- [ ] Абзаци 2 і 3 будуть синіми. h2 і абзац 2 матимуть бежевий фон.
+- [x] Абзаци 2 і 3 будуть синіми, а абзац 2 матиме бежевий фон.
+- [ ] Абзац 2 буде синім. Абзаци 2 і 3 матимуть бежевий фон.
 
-Note: a variant of the question below.
+Примітка: варіант питання нижче.
 
-#### Q39. Which element(s) will be blue?
+#### Q39. Який(і) елемент(и) буде синім?
 
 ```css
 h2 ~ p {
@@ -578,13 +578,13 @@ h2 ~ p {
 ```
 
 - [ ] P3
-- [ ] P1, P3 and P4
-- [x] P3 and P4
+- [ ] P1, P3 та P4
+- [x] P3 та P4
 - [ ] P1
 
-[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
+[Довідка](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
 
-#### Q40. When using Flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+#### Q40. Під час використання Flexbox властивість «justify-content» можна використовувати для розподілу простору між елементами flex уздовж головної осі. Яке значення слід використовувати для рівномірного розподілу flex елементів у показаному нижче контейнері?
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png?raw=png)
 
@@ -593,35 +593,35 @@ h2 ~ p {
 - [ ] justify-content: auto;
 - [x] justify-content: space-between;
 
-#### Q41. There are many advantages to using icon fonts. What is one of those advantages?
+#### Q41. Використання піктограм має багато переваг. Яка одна з цих переваг?
 
-- [ ] Icon fonts increase accessibility.
-- [ ] Icon fonts can be used to replace custom fonts.
-- [x] Icon fonts can be styled with typography-related properties such as font-size and color.
-- [ ] Icon fonts are also web-safe fonts.
+- [ ] Піктограми підвищують доступність.
+- [ ] Піктограми можна використовувати для заміни власних шрифтів.
+— [x] Піктограми можна стилізувати за допомогою властивостей, пов’язаних із типографікою, таких як font-size і color.
+- [ ] Піктограми також безпечні для Інтернету.
 
-#### Q42. What is the difference between `display:none` and `visibility:hidden`?
+#### Q42. Яка різниця між `display:none` і `visibility:hidden`?
 
-- [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
-- [ ] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
-- [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintain the space it previously occupied.
-- [ ] There is no difference; both will hide the element on the page
+- [ ] Обидва приховують елемент на сторінці, але display:none має більшу підтримку браузера. visibility:hidden є новою властивістю і не має найкращої підтримки браузера
+- [ ] display:none приховує елементи, але зберігає простір, який вони займали раніше. visibility:hidden приховає елемент від поля зору та вилучить його зі звичайного потоку документа
+- [x] display:none приховує елемент від поля зору та видаляє його зі звичайного потоку документа. visibility:hidden приховає елемент, але збереже простір, який він займав раніше.
+- [ ] Немає різниці; обидва приховають елемент на сторінці
 
-#### Q43. What selector and property would you use to scale an element to be 50% smaller on hover?
+#### Q43. Який селектор і властивість ви б використали, щоб масштабувати елемент на 50% менше при наведенні?
 
 - [ ] element:hover {scale: 0.5;}
 - [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
-#### Q44. Which statement regarding icon fonts is true?
+#### Q44. Яке твердження щодо піктограм вірне?
 
-- [ ] Icon fonts can be inserted only using JavaScript.
-- [ ] Icon fonts are inserted as inline images.
-- [ ] Icon fonts require browser extensions.
-- [x] Icon fonts can be styled with typography-related properties such as font-size and color.
+- [ ] Піктограми можна вставляти лише за допомогою JavaScript.
+- [ ] Піктограми вставляються як вбудовані зображення.
+- [ ] Піктограми потребують розширень браузера.
+— [x] Піктограми можна стилізувати за допомогою властивостей, пов’язаних із типографікою, таких як font-size і color.
 
-#### Q45. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
+#### Q45. Значеннями властивості font-weight можуть бути ключові слова або числа. Для кожного пронумерованого нижче значення, яке пов’язане ключове слово?
 
 ```css
 font-weight: 400;
@@ -633,7 +633,7 @@ font-weight: 700;
 - [ ] light; normal
 - [ ] normal; bolder
 
-#### Q46. Using the:nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+#### Q46. Використовуючи псевдоклас :nth-child, яким буде найефективніший спосіб стилізувати кожен третій елемент у списку, незалежно від кількості присутніх елементів, починаючи з елемента 2?
 
 - [ ] A
 
@@ -669,28 +669,28 @@ li:nth-child(2n + 3) {
 }
 ```
 
-#### Q47. Which selector would select only internal links within the current page?
+#### Q47. Який селектор вибере лише внутрішні посилання на поточній сторінці?
 
 - [ ] `a[href="#"] {...}`
 - [ ] `a[href~="#"]`
 - [x] `a[href^="#"]`
 - [ ] `a[href="#"]`
 
-#### Q48. What is the difference between the margin and padding properties?
+#### Q48. Яка різниця між властивостями margin і padding?
 
-- [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
-- [x] Margin adds space around an element; padding adds space inside of an element.
-- [ ] Margin adds a line around an element, and padding adds space inside of an element.
-- [ ] Margin adds space inside of an element, and padding adds space around an element.
+- [ ] Margin додає простір навколо та всередині елемента; padding додає простір лише всередині елемента.
+- [x] Margin додає простір навколо елемента; padding додає простір всередині елемента.
+- [ ] Margin додає лінію навколо елемента, padding додає простір усередині елемента.
+- [ ] Margin додає простір усередині елемента, padding додає простір навколо елемента.
 
-#### Q49. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+#### Q49. Що не є дійсним способом оголошення значення відступу 10 пікселів зверху та знизу та 0 пікселів ліворуч і праворуч?
 
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
 
-#### Q50. Is there an error in this code? If so, find the best description of the problem
+#### Q50. Чи є в цьому коді помилка? Якщо так, знайдіть найкращий опис проблеми
 
 ```css
 @font-face {
@@ -701,19 +701,19 @@ li:nth-child(2n + 3) {
 }
 ```
 
-- [ ] The font file formats are not supported in modern browsers.
-- [ ] The src attribute requires a comma between the URL and format values.
-- [ ] There are no errors in the example.
-- [x] The sans-serif inclusion is problematic.
+- [ ] Формати файлів шрифтів не підтримуються в сучасних браузерах.
+- [ ] Атрибут src вимагає коми між URL-адресою та значеннями формату.
+- [ ] У прикладі немає помилок.
+- [x] Включення sans-serif проблематично.
 
-#### Q51. Which style places an element at a fixed location within its container?
+#### Q51. Який стиль розміщує елемент у фіксованому місці в його контейнері?
 
 - [x] position: absolute;
 - [ ] display: flex;
 - [ ] display: block;
 - [ ] float: left;
 
-#### Q52. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
+#### Q52. Функція CSS calc() часто використовується для обчислення відносних значень. У прикладі нижче, що таке вказане значення margin-left?
 
 ```css
 .example {
@@ -721,19 +721,19 @@ li:nth-child(2n + 3) {
 }
 ```
 
-- [x] The left margin value is equal to 5% of its parent element's width plus 5px
-- [ ] The left margin value is equal to 5% of the viewport width plus 5px
-- [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
-- [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
+- [x] Значення margin-left дорівнює 5% ширини його батьківського елемента плюс 5 пікселів
+- [ ] Значення margin-left дорівнює 5% ширини вікна перегляду плюс 5 пікселів
+- [ ] Значення margin-left дорівнює 5% від ширини найближчого розташованого елемента плюс 5 пікселів
+- [ ] Значення margin-left дорівнює 5% від ширини вибраного елемента (.example) плюс 5 пікселів
 
-#### Q53. Which code would you use to absolutely position an element of the logo class?
+#### Q53. Яким кодом варто скористатися для абсолютного позиціонування елемента класу logo?
 
 - [x] `.logo { position: absolute; left: 100px; top: 150px; }`
 - [ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
 - [ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
 - [ ] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
 
-#### Q54. In this example, what color will Paragraph 1 be?
+#### Q54. У цьому прикладі якого кольору буде абзац 1?
 
 ```css
 p:first-of-type {
@@ -752,9 +752,9 @@ p:first-child {
 
 ```HTML
 <div class="container">
-  <h1>Heading</h1>
-  <p>Paragraph1</p>
-  <p>Paragraph2</p>
+  <h1>Заголовок</h1>
+  <p>Абзац1</p>
+  <p>Абзац2</p>
 </div>
 ```
 
@@ -763,90 +763,90 @@ p:first-child {
 - [x] red
 - [ ] yellow
 
-#### Q55. What is the `::placeholder pseudo-element` used for?
+#### Q55. Для чого використовується псевдоелемент `::placeholder`?
 
-- [x] It is used to format the appearance of placeholder text within a form control.
-- [ ] It specifies the default input text for a form control.
-- [ ] It writes text content into a hyperlink tooltip.
-- [ ] It writes text content into any page element.
+- [x] Використовується для форматування вигляду тексту-заповнювача в елементі керування форми.
+- [ ] Визначає текст введення за умовчанням для елемента керування форми.
+- [ ] Записує текстовий вміст у спливаючу підказку гіперпосилання.
+- [ ] Записує текстовий вміст у будь-який елемент сторінки.
 
-#### Q56. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
+#### Q56. Яке твердження є вірним для позначення з одинарною двокрапкою (`:`) або подвійною двокрапкою (`::`) для псевдоелементів, наприклад, `::before` і `:before`?
 
-- [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
-- [ ] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, use single colon notation (`:`).
-- [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
-- [x] In CSS3, the double colon notation (`::`) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support both formats. Older browsers such as IE8 and below do not.
+- [ ] Усі браузери підтримують одинарну та подвійну двокрапку для нових та старіших псевдоелементів. Отже, ви можете використовувати будь-яке, але для узгодженості прийнято використовувати одну двокрапку.
+- [ ] У CSS3 було введено подвійну двокрапку (`::`), щоб створити узгодженість між псевдоелементами з псевдокласів. Для новіших браузерів використовуйте двокрапку. Для IE8 і нижче використовуйте позначення з однією двокрапкою (`:`).
+- [ ] Лише нові псевдоелементи CSS3 вимагають подвійної двокрапки, а псевдоелементи CSS2 – ні.
+- [x] У CSS3 було введено подвійну двокрапку (`::`), щоб відрізнити псевдоелементи від псевдокласів. Однак сучасні браузери підтримують обидва формати. Старіші браузери, наприклад IE8 і нижче - ні.
 
-#### Q57. Which choice is not a valid value for the font-style property?
+#### Q57. Який варіант не є дійсним значенням властивості font-style?
 
 - [ ] normal
 - [ ] italic
 - [x] none
 - [ ] oblique
 
-#### Q58. When would you use the @font-face method?
+#### Q58. Коли слід використовувати метод @font-face?
 
-- [ ] to set the font size of the text
-- [x] to load custom fonts into stylesheet
-- [ ] to change the name of the font declared in the font-family
-- [ ] to set the color of the text
+- [ ] Щоб встановити розмір шрифту тексту
+- [x] Щоб завантажити власні шрифти в таблицю стилів
+- [ ] Щоб змінити назву шрифту, оголошеного в сімействі шрифтів
+- [ ] Щоб встановити колір тексту
 
-#### Q59. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+#### Q59. У вас є велике зображення, яке має поміститися в область розміром 400 x 200 пікселів. До якого розміру слід змінити розмір зображення, якщо ваші користувачі використовують дисплеї Retina?
 
-- [ ] 2000 x 1400 pixels
-- [ ] 200 x 100 pixels
-- [x] 800 x 400 pixels
-- [ ] 400 x 200 pixels
+- [ ] 2000 x 1400 пікселів
+- [ ] 200 x 100 пікселів
+- [x] 800 x 400 пікселів
+- [ ] 400 x 200 пікселів
 
-#### Q60. In Chrome's Developer Tools view, where are the default styles listed?
+#### Q60. Де перераховані стилі за замовчуванням у вікні інструментів розробника Chrome?
 
-- [x] under the User Agent Stylesheet section on the right
-- [ ] in the third panel under the Layout tab
-- [ ] under the HTML view on the left
-- [ ] in the middle panel
+- [x] у розділі Таблиця стилів агента користувача праворуч
+- [ ] на третій панелі під вкладкою «Макет».
+- [ ] під вікном перегляду HTML ліворуч
+- [ ] на середній панелі
 
-#### Q61. While HTML controls document structure, CSS controls `___`.
+#### Q61. Тоді як HTML керує структурою документа, CSS контролює `___`.
 
-- [ ] semantic meaning
-- [ ] content meaning
-- [ ] document structure
-- [x] content appearance
+- [ ] семантичне значення
+- [ ] значення вмісту
+- [ ] структуру документа
+- [x] зовнішній вигляд вмісту
 
-#### Q62. What is the recommended name you should give the folder that holds your project's images?
+#### Q62. Яку рекомендовану назву слід дати папці, яка містить зображення вашого проекту?
 
 - [x] images
 - [ ] #images
 - [ ] Images
 - [ ] my images
 
-#### Q63. What is the advantage of using inline CSS?
+#### Q63. У чому перевага використання вбудованого CSS?
 
-- [ ] It is easier to manage.
-- [x] It is easier to add multiple styles through it.
-- [ ] It can be used to quickly test local CSS overrides.
-- [ ] It reduces conflict with other CSS definition methods.
+- [ ] Легше керувати.
+- [x] Легше додавати кілька стилів.
+- [ ] Для швидкого тестування локальних замін CSS.
+- [ ] Це зменшує конфлікт з іншими методами визначення CSS.
 
-#### Q64. Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+#### Q64. Який код статусу W3C представляє специфікацію CSS, яка повністю реалізована сучасними браузерами?
 
 - [ ] Proposed Recommendation
 - [ ] Working Draft
 - [x] Recommendation
 - [ ] Candidate Recommendation
 
-#### Q65. Are any of the following declarations invalid?
+#### Q65. Чи є якісь із наведених нижче заяв недійсними?
 
 ```css
-color: red; /* declaration A */
-font-size: 1em; /* declaration B */
-padding: 10px 0; /* declaration C */
+color: red; /* заява A */
+font-size: 1em; /* заява B */
+padding: 10px 0; /* заява C */
 ```
 
-- [ ] Declaration A is invalid.
-- [ ] Declaration B is invalid.
-- [ ] Declaration C is invalid.
-- [x] All declarations are valid.
+- [ ] Заява А недійсна.
+- [ ] Заява B недійсна.
+- [ ] Заява C недійсна.
+- [x] Усі заяви дійсні.
 
-#### Q66. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+#### Q66. Який CSS код призведе до того, що ваші посилання матимуть суцільний блакитний фон, який змінюється на напівпрозорий під час наведення курсора?
 
 - [x] A
 
@@ -892,14 +892,14 @@ a:link {
 }
 ```
 
-#### Q67. Which CSS rule takes precedence over the others listed?
+#### Q67. Яке правило CSS має пріоритет над іншими переліченими?
 
 - [ ] `div.sidebar {}`
 - [ ] `* {}`
 - [x] `div#sidebar2 p {}`
 - [ ] `.sidebar p {}`
 
-#### Q68. The body of your page includes some HTML sections. How will it look with the following CSS applied?
+#### Q68. body вашої сторінки містить кілька розділів HTML. Як це виглядатиме із застосуванням наступного CSS?
 
 ```css
 body {
@@ -911,47 +911,47 @@ section {
 }
 ```
 
-- [x] blue sections on a white background
-- [ ] Yellow sections on a blue background
-- [ ] Green sections on a white background
-- [ ] blue sections on a red background
+- [x] Сині секції на білому фоні
+- [ ] Жовті секції на синьому фоні
+- [ ] Зелені секції на білому фоні
+- [ ] Сині секції на червоному фоні
 
-#### Q69. Which CSS keyword can you use to override standard source order and specificity rules?
+#### Q69. Яке ключове слово CSS можна використовувати для заміни стандартного порядку джерела та правил специфічності?
 
 - [ ] `!elevate!`
 - [ ] `*prime`
 - [ ] `override`
 - [x] `!important`
 
-#### Q70. You can use the `___` pseudo-class to set a different color on a link if it was clicked on.
+#### Q70. Ви можете використовувати псевдоклас `___`, щоб встановити інший колір посилання, якщо воно було натиснуто.
 
 - [x] `a:visited`
 - [ ] `a:hover`
 - [ ] `a:link`
 - [ ] `a:focus`
 
-#### Q71. Which color will look the brightest on your screen, assuming the background is white?
+#### Q71. Який колір виглядатиме найяскравішим на вашому екрані, якщо фон білий?
 
 - [ ] `background-color: #aaa;`
 - [ ] `background-color: #999999;`
 - [ ] `background-color: rgba(170,170,170,0.5);`
 - [x] `background-color: rgba(170,170,170,0.2);`
 
-#### Q72. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+#### Q72. Який селектор CSS можна використати, щоб вибрати та очистити всі елементи на сторінці, пов’язані з класами header та clear?
 
 - [ ] `."header clear" {}`
 - [ ] `header#clear {}`
 - [x] `.header.clear {}`
 - [ ] `.header clear {}`
 
-#### Q73. A universal selector is specified using a(n) `___`.
+#### Q73. Універсальний селектор визначається за допомогою (n) `___`.
 
-- [ ] "h1" string
-- [ ] "a" character
-- [ ] "p" character
-- [x] "\*" character
+- [ ] рядка "h1".
+- [ ] символу "a".
+- [ ] символу "p".
+- [x] символу "\*".
 
-#### Q74. In the following CSS code, `'h1'` is the `___`, while `'color'` is the `___`.
+#### Q74. У наведеному нижче коді CSS «h1» — це «___», а «color» — це «___».
 
 ```css
 h1 {
@@ -959,12 +959,12 @@ h1 {
 }
 ```
 
-- [ ] property; declaration
-- [ ] declaration; rule
-- [ ] "p" character
-- [x] selector; property
+- [ ] властивість; декларація
+- [ ] декларація; правило
+- [ ] властивість; селектор.
+- [x] селектор; властивість
 
-#### Q75. What is an alternate way to define the following CSS rule?
+#### Q75. Який альтернативний спосіб визначити наступне правило CSS?
 
 ```css
 font-weight: bold;
@@ -975,35 +975,35 @@ font-weight: bold;
 - [x] font-weight: 700;
 - [ ] font-weight: Black;
 
-#### Q76. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+#### Q76. Ви хочете, щоб ваш стиль базувався на наборі, що складається з трьох шрифтів. Де має бути вказаний загальний шрифт для вашого сімейства шрифтів?
 
-- [ ] It should be the first one on the list.
-- [ ] Generic fonts are discouraged from this list.
-- [x] It should be the last one on the list.
-- [ ] It should be the second one on the list.
+- [ ] Має бути першим у списку.
+- [ ] Загальні шрифти не рекомендовані до цього списку.
+- [x] Має бути останнім у списку.
+- [ ] Має бути другим у списку.
 
-#### Q77. When using a font stack to declare the font family, in what order should the values appear?
+#### Q77. У якому порядку мають відображатися значення, якщо для оголошення сімейства шрифтів використовується стек шрифтів?
 
-- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
-- [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
-- [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
-- [ ] The first value is the first choice, followed by a maximum of three alternatives.
+- [x] Перше значення є першим вибором, за яким йдуть альтернативні варіанти, упорядковані за перевагами. Останнім варіантом має бути загальний шрифт.
+- [ ] Перше значення є першим вибором. Порядок альтернативних варіантів не має значення. Це залежить від того, що доступно на комп’ютері користувача.
+- [ ] Перше значення є першим вибором і має супроводжуватися принаймні одним альтернативним варіантом перед додаванням загального шрифту.
+- [ ] Перше значення є першим вибором, за яким йдуть максимум три альтернативи.
 
-#### Q78. What is one disadvantage of using a web font service?
+#### Q78. Який один із недоліків використання веб-шрифтів?
 
-- [ ] It requires you to host font files on your own server.
-- [ ] It uses more of your site's bandwidth.
-- [ ] It offers a narrow selection of custom fonts.
-- [x] It is not always a free service.
+- [ ] Потрібно розмістити файли шрифтів на власному сервері.
+- [ ] Використовує більше пропускної здатності сайту.
+- [ ] Пропонує вузький вибір власних шрифтів.
+- [x] Це не завжди безкоштовна послуга.
 
-#### Q79. How do you add Google fonts to your project?
+#### Q79. Як додати шрифти Google до проекту?
 
-- [x] by using an HTML link element referring to a Google-provided CSS
-- [ ] by embedding the font file directly into the project's master JavaScript
-- [ ] by using a Google-specific CSS syntax that directly links to the desired font file
-- [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
+- [x] За допомогою елемента HTML-посилання, що посилається на наданий Google CSS
+- [ ] Вставивши файл шрифту безпосередньо в головний JavaScript проекту
+- [ ] За допомогою спеціального синтаксису CSS Google, який безпосередньо посилається на потрібний файл шрифту
+- [ ] За допомогою стандартного визначення CSS шрифту, що містить файл шрифту на серверах Google
 
-#### Q80. Using the following HTML and CSS example, what will the equivalent pixel value be for .em and .rem elements?
+#### Q80. Використовуючи наступний приклад HTML і CSS, яким буде еквівалентне значення у px для елементів .em і .rem?
 
 ```css
 HTML {
@@ -1027,10 +1027,10 @@ body {
 </body>
 ```
 
-- [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
-- [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
-- [x] The .rem will be equivalent to 15px; the .em value will be 40px.
-- [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
+- [ ] .rem буде еквівалентним 25px; значення .em буде 20px.
+- [ ] .rem буде еквівалентним 15px; значення .em буде 20px.
+- [x] .rem буде еквівалентним 15px; значення .em становитиме 40px.
+- [ ] .rem буде еквівалентним 20px; значення .em становитиме 40px.
 
 #### Q81. What property is used to adjust the space between text characters?
 
