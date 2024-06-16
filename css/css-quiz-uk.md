@@ -2322,7 +2322,7 @@ input.invalid {
 
 [Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
 
-#### Q141. Which style rule will place an X within the grid to win the game?
+#### Q141. Яке правило розмістить X у сітці, щоб виграти гру?
 
 ![A](img/Q-141.png?raw=png)
 
@@ -2335,236 +2335,235 @@ input.invalid {
 - [ ] grid-row: 2;
       grid-column: 2;
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-#### Q142. Which CSS property is used to create an image reflection?
+#### Q142. Яка властивість CSS використовується для створення відображення зображення?
 
 - [x] box-reflect
 - [ ] img-reflect
-- [ ] None of the above
+- [ ] Ніщо з цього
 - [ ] reflect-img
 
-#### Q143. What is the general syntax of writing the var() function?
+#### Q143. Який загальний синтаксис запису функції var()?
 
 - [x] var(--name, value)
 - [ ] var(--name)
 - [ ] var(value)
-- [ ] None of the Above
+- [ ] Жодне
 
-#### Q143. How many layout modes were there before the Flexbox Layout Module was introduced in CSS?
+#### Q143. Скільки режимів макета було до того, як у CSS було представлено модуль макета Flexbox?
 
 - [ ] 2
 - [ ] 1
 - [x] 4
 - [ ] 3
 
-#### Q144. Which of the following components of the CSS box model are transparent?
+#### Q144. Які з наведених нижче компонентів box моделі CSS є transparent?
 
 - [ ] Padding
 - [ ] Margin
-- [x] Both A and B
+- [x] Обидва A та B
 - [ ] None
 
-#### Q145. How are custom fonts defined using CSS?
+#### Q145. Як користувацькі шрифти визначаються за допомогою CSS?
 
-- [x] @Font-Face Rule
-- [ ] Custom font cannot be defined
-- [ ] src tags
-- [ ] None of the above
+- [x] @Font-Face правило
+- [ ] Користувацький шрифт не можна визначити
+- [] теги src
+- [ ] Жоден
 
-#### Q146. Which of the following CSS properties sets what kind of line decorations are added to an element, such as underlines, overlines, etc?
+#### Q146. Яка з наведених нижче властивостей CSS встановлює, які види прикрас ліній додаються до елемента, як-от підкреслення, накладання тощо?
 
 - [ ] text-decoration
 - [ ] text-style
 - [x] text-decoration-line
 - [ ] text-line
 
-#### Q147. Which of the following CSS Properties sets the stacking order of positioned elements?
+#### Q147. Яка з наведених нижче властивостей CSS встановлює порядок укладання розташованих елементів?
 
 - [ ] y-index
 - [x] z-index
 - [ ] x-index
-- [ ] all of the mentioned
+- [ ] всі згадані
 
-#### Q148. Which of the following properties allows a marquee to be used in the case of a text overflow?
+#### Q148. Яка з наведених нижче властивостей дозволяє використовувати рамку в разі переповнення тексту?
 
 - [ ] overflow-marquee
 - [x] overflow-style
 - [ ] overflow-text
-- [ ] none of the mentioned
+- [ ] жодне із згаданих
 
-#### Q149. Which of the following Cascading order has the highest precedence?
+#### Q149. Який з наступних каскадних порядків має найвищий пріоритет?
 
 - [x] user agent declarations
 - [ ] user normal declarations
 - [ ] author normal declarations
 - [ ] author important declarations
 
-#### Q150. The CSS cascade assigns a weight to each style rule.
+#### Q150. Каскад CSS призначає вагу кожному правилу стилю.
 
-- [x] True
-- [ ] False
+- [x] Так
+- [ ] Ні
 
-#### Q151. The \***\*\_\_\_\_\*\*** represents the result of the cascade: it is the declared value that wins the cascade.
+#### Q151. \***\*\_\_\_\_\*\*** представляє результат каскаду: це оголошене значення, яке виграє каскад.
 
-- [ ] specified Value
-- [ ] actual value
-- [ ] computed value
-- [x] cascaded value
+- [ ] вказане значення
+- [ ] фактичне значення
+- [ ] обчислене значення
+- [x] каскадне значення
 
-#### Q152. Using negative text-indent is also known as **\_**?
+#### Q152. Використання негативного текстового відступу також відоме як **\_**?
 
-- [ ] The Scott Kellum method
-- [x] The Phark method
-- [ ] Radu Darvas Technique
-- [ ] The Langridge method
+- [ ] Метод Скотта Келума
+- [x] Метод Phark
+- [ ] Техніка Раду Дарвас
+- [ ] Метод Ленгріджа
 
-#### Q153. Using margin is also known as **\_**?
+#### Q153. Використання margin також відоме як **\_**?
 
-- [ ] Fahrner image replacement
-- [ ] The Lindsay method
-- [x] Radu Darvas Technique
-- [ ] The Langridge method
+- [ ] Заміна зображення Fahrner
+- [ ] Метод Ліндсі
+- [x] Техніка Раду Дарваса
+- [ ] Метод Ленгріджа
 
-#### Q154. If a particular rule should never be overridden by another rule, the \***\*\_\_\_\_\*\*** indication should be used.
+#### Q154. Якщо конкретне правило ніколи не замінюється іншим правилом, слід використовувати вказівку \***\*\_\_\_\_\*\***.
 
 - [ ] @important
 - [ ] !important!
 - [x] !important
 - [ ] important!
 
-#### Q155. What does CSS stand for?
+#### Q155. Що означає CSS?
 
 - [ ] Creative Style Sheets
 - [ ] Colourful Style Sheets
 - [x] Cascading Style Sheets
 - [ ] Colourful Style Sheets
 
-[Reference](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
+[Довідка](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
 
-#### Q156. What color would rgb(255,0,0) give?
+#### Q156. Який колір дасть rgb(255,0,0)?
 
-- [ ] Blue
-- [ ] Green
-- [x] Red
-- [ ] Yellow
+- [ ] Синій
+- [ ] Зелений
+- [x] Червоний
+- [ ] Жовтий
 
-#### Q157. What is the correct HTML for referring to an external style sheet?
+#### Q157. Який правильний HTML для посилання на зовнішню таблицю стилів?
 
 - [x] `<link rel="stylesheet" type="text/css" href="mystyle.css">`
 - [ ] `<stylesheet>mystyle.css</stylesheet>`
 - [ ] `<style src= "mystyle.css">`
-- [ ] None of these.
+- [ ] Ніщо з цього.
 
-#### Q158. The \<link> tag goes inside:
+#### Q158. Тег \<link> міститься всередині:
 
-- [ ] the title section
-- [ ] the body section
-- [x] the head section
-- [ ] None of the above
+- [ ] title
+- [ ] body
+- [x] head
+- [ ] Жоден з вищевказаних
 
-#### Q159. What is CSS defined in HTML?
+#### Q159. Що таке CSS, визначене в HTML?
 
-- [ ] How to send HTML elements
-- [x] How to display HTML elements
-- [ ] How to save HTML elements
-- [ ] How to make HTML elements
+- [ ] Як надсилати елементи HTML
+- [x] Як відображати елементи HTML
+- [ ] Як зберегти елементи HTML
+- [ ] Як створити елементи HTML
 
-#### Q160. Which of the following statements is TRUE for CSS?
+#### Q160. Яке з наведених нижче тверджень є ІСТИННИМ для CSS?
 
-- [ ] An inline style sheet should be used when a single document has a unique style
-- [x] An external style sheet is ideal when the style is applied to many pages
-- [ ] Both and b above
-- [ ] An external style sheet can be written in HTML
+- [ ] Вбудовану таблицю стилів слід використовувати, коли один документ має унікальний стиль
+- [x] Зовнішня таблиця стилів ідеальна, якщо стиль застосовано до багатьох сторінок
+- [ ] Обидва a та b вище
+- [ ] Зовнішня таблиця стилів може бути написана в HTML
 
-#### Q161. In CSS, margin collapsing only happens with?
+#### Q161. У CSS згортання поля відбувається лише з?
 
-- [ ] The horizontal margins of inline elements in the normal flow.
-- [x] The vertical margins of block elements in the normal flow.
-- [ ] The horizontal margins of block elements in the normal flow.
-- [ ] The vertical margins of inline elements in the normal flow.
+- [ ] Горизонтальними полями вбудованих елементів у звичайному потоці.
+- [x] Вертикальними полями блокових елементів у звичайному потоці.
+- [ ] Горизонтальними полями блокових елементів у звичайному потоці.
+- [ ] Вертикальними полями вбудованих елементів у звичайному потоці.
 
-#### Q162. Which of the following CSS selectors selects all <p> elements that are the direct child of a <div> element?
+#### Q162. Який із наведених нижче селекторів CSS вибирає всі елементи <p>, які є прямими дочірніми елементами <div>?
 
 - [ ] div p
 - [x] div > p
 - [ ] Tdiv + p
 - [ ] div ~ p
 
-#### Q163. In CSS, the box-sizing property is used to control how an element's total width and height are calculated. Which value of box-sizing includes the element's padding and border within its total width and height?
+#### Q163. У CSS властивість box-sizing використовується для контролю того, як обчислюється загальна ширина та висота елемента. Яке значення параметра box-sizing включає відступ і рамку елемента в межах його загальної ширини та висоти?
 
 - [ ] content-box
 - [ ] padding-box
 - [ ] margin-box
 - [x] border-box
 
-#### Q164. In CSS, which of the following is NOT an effect of an inert attribute?
+#### Q164. У CSS, що з наведеного НЕ є ефектом інертного атрибута?
 
-- [ ] Prevents the click event from being fired when the user clicks on an element.
-- [x] Makes the element interactive.
-- [ ] Prevents the focus event from being fired when an element gains focus.
-- [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
+- [ ] Запобігання запуску події клацання, коли користувач клацає елемент.
+- [x] Перетворення елементу в інтерактивний.
+- [ ] Запобігання запуску події фокусування, коли елемент отримує фокус.
+- [ ] Приховування елементу і його вмісту від допоміжних технологій, виключаючи їх із дерева доступності.
 
-#### Q165. What elements does the accent-color property target?
+#### Q165. На які елементи спрямована властивість accent-color?
 
-- [ ] Line break tags
-- [ ] Hyperlink tags
-- [x] Input tags
-- [ ] Image tags
+- [ ] Теги розриву рядка
+- [ ] Теги гіперпосилань
+- [x] Теги введення
+- [ ] Теги зображень
 
-### Q164. In CSS, what does the line-height property control?
+### Q164. Чим у CSS керує властивість line-height?
 
-- [ ] The width of the element.
-- [ ] The color of the text.
-- [ ] The spacing between characters.
-- [x] The height of the space between lines of text.
+- [ ] Ширина елемента.
+- [ ] Колір тексту.
+- [ ] Інтервал між символами.
+- [x] Висота інтервалу між рядками тексту.
 
-### Q165. What is the purpose of the CSS visibility property?
+### Q165. Яке призначення властивості visibility CSS?
 
-- [ ] To control the order of elements within a flex container.
-- [ ] To adjust the space between the inner content and the border of an element.
-- [ ] To control the stacking order of elements in the z-axis.
-- [x] To control the visibility of an element.
+- [ ] Керування порядком елементів у flex контейнері.
+- [ ] Налаштувати відстань між внутрішнім вмістом і межею елемента.
+- [ ] Керування порядком укладання елементів на осі z.
+- [x] Керування видимістю елемента.
 
-### Q166. Which CSS property is used to change the style of the cursor when it hovers over an element?
+### Q166. Яка властивість CSS використовується для зміни стилю курсора, коли він наводиться на елемент?
 
 - [ ] cursor-style
 - [ ] mouse-pointer
 - [ ] pointer-type
 - [x] cursor
 
-### Q167. What is the purpose of the CSS outline property?
+### Q167. Яке призначення властивості outline CSS?
 
-- [ ] To control the width of an element's border.
-- [ ] To change the background color of an element.
-- [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
-- [ ] To control the transparency of an element.
+- [ ] Контролювати ширину рамки елемента.
+- [ ] Змінити фоновий колір елемента.
+- [x] Створити видимий контур навколо елемента, який часто використовується для доступності або виділення.
+- [ ] Контролювати прозорість елемента.
 
-#### Q168. What are the valid values of the text-align property?
+#### Q168. Які дійсні значення властивості text-align?
 
 - [ ] left, bottom, top, right
 - [ ] left, right, up, bottom
 - [x] left, center, right, justify
 - [ ] side, justify, up, down
 
-#### Q169. What is the difference between visibility: hidden and display: none?
+#### Q169. Яка різниця між visibility: hidden та display: none?
 
-- [ ] Both will hide the element on the page, but display: none has greater browser support.
-- [ ] `display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document`
-- [x] visibility: hidden hides the element, but it still takes up space in the layout.
-- [ ] display: none removes the element from the document. It does not take up any space.
-- [ ] ` There is no difference; both will hide the element on the page`
+- [ ] Обидва приховують елемент на сторінці, але display: none не має більшої підтримки браузера.
+- [ ] display:none приховує елементи, але зберігає простір, який вони займали раніше. visibility:hidden приховає елемент від перегляду та вилучить його зі звичайного потоку документа
+- [x] visibility: hidden приховує елемент, але він все ще займає місце в макеті. display: none видаляє елемент із документа. Він не займає місця.
+- [ ] Немає різниці; обидва приховають елемент на сторінці
 
-#### Q170. Which of the following is NOT a valid CSS selector?
+#### Q170. Що з наведеного НЕ є дійсним CSS-селектором?
 
 - [ ] `p`
 - [ ] `.class`
 - [ ] `#id`
 - [x] `-`
 
-#### Q171. What is the difference between a class and an id in CSS?
+#### Q171. Яка різниця між класом та ідентифікатором у CSS?
 
-- [x] Classes can only be applied to one HTML element, while IDs can be used multiple times.
-- [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
-- [ ] Classes have higher specificity in CSS than IDs.
-- [ ] There is no difference between a class and an id.
+- [x] Ідентифікатори можна застосовувати лише до одного елемента HTML, а класи можна використовувати кілька разів.
+- [ ] Ідентифікатори  позначаються крапкою (.), за якою йде ім’я ідентифікатора, тоді як класи використовують хеш (#).
+- [ ] Класи мають вищу специфічність у CSS, ніж ідентифікатори.
+- [ ] Немає різниці між класом та ідентифікатором.
