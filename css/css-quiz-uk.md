@@ -445,7 +445,7 @@ p {
 - [ ] Rem одиниця відносна розміру шрифту вмісту (батьківського) елемента.
 - [x] Rem одиниця відносна розміру шрифту кореневого елемента сторінки.
 
-#### Q30. Який вибір дасть блоковому елементу округлені кути?
+#### Q30. Який варіант дасть блоковому елементу округлені кути?
 
 - [ ] `corner-radius: 10px;`
 - [ ] `border-corner: 10px;`
@@ -474,7 +474,7 @@ p {
 
 [Довідка:](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
 
-#### Q33. Що з наведеного нижче не є дійсним значенням кольору? (_Альтернатива:_ Який вибір не є дійсним значенням кольору?)
+#### Q33. Що з наведеного нижче не є дійсним значенням кольору? (_Альтернатива:_ Який варіант не є дійсним значенням кольору?)
 
 - [ ] `color: #000`
 - [ ] `color: rgb(0,0,0)`
@@ -1032,43 +1032,43 @@ body {
 - [x] .rem буде еквівалентним 15px; значення .em становитиме 40px.
 - [ ] .rem буде еквівалентним 20px; значення .em становитиме 40px.
 
-#### Q81. What property is used to adjust the space between text characters?
+#### Q81. Яка властивість використовується для налаштування інтервалу між символами тексту?
 
 - [ ] `font-style`
 - [ ] `text-transform`
 - [ ] `font-variant`
 - [x] `letter-spacing`
 
-#### Q82. What is the correct syntax for changing the cursor from an arrow to a pointing hand when it interacts with a named element?
+#### Q82. Який правильний синтаксис для зміни курсору зі стрілки на вказівну руку, коли він взаємодіє з названим елементом?
 
 - [x] `.element {cursor: pointer;}`
 - [ ] `.element {cursor: hand;}`
 - [ ] `.element {cursor: move-hand;}`
 - [ ] `.element {cursor: pointer-hand;}`
 
-#### Q83. What is the effect of this style?
+#### Q83. Який ефект від цього стилю?
 
 ```css
 background-position: 10% 50%;
 ```
 
-- [x] The background image is placed 10% from the left and 50% from the top of its container
-- [ ] The background image is placed 10% from the bottom and 50% from the left of its container
-- [ ] The background image is placed 10% from the right and 50% from the bottom of its container
-- [ ] The background image is placed 10% from the top and 50% from the left of its container
+- [x] Фонове зображення розміщується на 10% зліва та на 50% від верхньої частини контейнера
+- [ ] Фонове зображення розміщується на 10% від низу та 50% від лівого боку контейнера
+- [ ] Фонове зображення розміщується на 10% справа та на 50% знизу його контейнера
+- [ ] Фонове зображення розміщується на 10% зверху та на 50% зліва від контейнера
 
-#### Q84. How will the grid items display?
+#### Q84. Як відображатимуться елементи сітки?
 
 ```css
 grid-template-columns: 2fr 1fr;
 ```
 
-- [ ] The first column will be twice the height of the second column and will be as wide as the content.
-- [ ] The first column will be half the size of the container, and the second column will absorb the remaining space.
-- [x] The first column will be twice as wide as the second column and will fit proportionally within the grid container.
-- [ ] The first column will be twice the width and height of the second column and will fit proportionally within the grid container.
+- [ ] Перший стовпець буде вдвічі вищим за висоту другого стовпця і матиме таку ж ширину, як вміст.
+- [ ] Перший стовпець матиме половину розміру контейнера, а другий стовпець займе вільний простір.
+- [x] Перший стовпець буде вдвічі ширший за другий стовпець і пропорційно поміщатиметься в контейнер сітки.
+- [ ] Перший стовпець матиме удвічі більшу ширину та висоту другого стовпця та пропорційно поміщатиметься в контейнер сітки.
 
-#### Q85. Which style rule would make the image 50% smaller during a hover?
+#### Q85. Яке правило зменшило б зображення на 50% під час наведення курсора?
 
 ```HTML
 <img id="photo" alt="" src="..." />
@@ -1079,7 +1079,7 @@ grid-template-columns: 2fr 1fr;
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
 
-#### Q86. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
+#### Q86. Які властивості CSS можна використовувати, щоб створити заокруглений кут лише у верхньому лівому та верхньому правому кутах елемента?
 
 ```css
 A. border-radius: 10px 10px 0 0;
@@ -1088,12 +1088,12 @@ C. border-radius: 10px 0;
 D. border-top-radius: 10px;
 ```
 
-- [ ] A and C
-- [ ] C and D
-- [ ] B and C
-- [x] A and B
+- [ ] A та C
+- [ ] C та D
+- [ ] B та C
+- [x] A та B
 
-#### Q87. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
+#### Q87. Перегляньте приклад HTML нижче. Потім виберіть список селекторів, які вибирають \<p>, від найнижчої до найвищої специфічності.
 
 ```HTML
 <section>
@@ -1169,37 +1169,37 @@ D. border-top-radius: 10px;
 }
 ```
 
-#### Q88. Which property is used to create a drop shadow effect on an HTML element?
+#### Q88. Яка властивість використовується для створення ефекту тіні на елементі HTML?
 
 - [ ] element-shadow
 - [ ] outer-shadow
 - [ ] dropbox-shadow
 - [x] box-shadow
 
-#### Q89. What is the correct selector for targeting all text inputs that are not disabled?
+#### Q89. Який правильний селектор для націлювання на всі входження тексту, які не вимкнено?
 
 - [x] `input[type="text"]:not([disabled]) {...}`
 - [ ] `input[type="text"]:not("disabled") {...}`
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
 
-`input[type="text"]` selects all the input with type text, and `:not([disabled])` select all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribute as "text" and not having "disabled" attribute.`
+`input[type="text"]` вибирає всі входження з типом text, а `:not([disabled])` вибирає всі елементи, які не мають атрибута "disabled". Поєднання обох вибирає лише елементи з атрибутом типу "text" і без атрибута "disabled".
 
-1. [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
-2. [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+1. [Довідка attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
+2. [Довідка link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
-#### Q90. How can you create a semi-transparent background color?
+#### Q90. Як можна створити напівпрозорий фоновий колір?
 
 - [ ] `background-color: hsl(0, 0, 0, 0.5);`
 - [ ] `background-color: rgbx(0, 0, 0, 0.5);`
 - [x] `background-color: rgba(0, 0, 0, 0.5);`
 - [ ] `background-color: rgba(0, 0, 0, 1);`
 
-`rgba` is a funtion in css. rgba stands for red, green, blue, and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
+`rgba` — це функція в css. rgba означає червоний(Red), зелений(Green), синій(Blue) і альфа(Alpha). Значення альфа може бути від 0 до 1 включно, де 0 означає повністю прозорість, а 1 — повністю непрозорість.
 
-[Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
+[Довідка-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
-#### Q91. Using this HTML markup, how would you select only the headings contained within the `<header>` element?
+#### Q91. Використовуючи цю розмітку HTML, як би ви вибрали лише заголовки, що містяться в елементі <header>?
 
 ```HTML
 <header>
@@ -1214,7 +1214,7 @@ D. border-top-radius: 10px;
 - [ ] `header h1, h2 {...}`
 - [ ] `h1, h2 {...}`
 
-#### Q92. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
+#### Q92. Припустімо, що ви хочете, щоб список елементів (.item) відображався в рядку та у зворотному порядку за допомогою flexbox. Яка помилка в CSS нижче?
 
 ```css
 .container {
@@ -1226,12 +1226,12 @@ D. border-top-radius: 10px;
 }
 ```
 
-- [ ] The value for flex-direction should be reverse-row.
-- [ ] The .container element should have a property of flex: display.
-- [x] The flex-direction property should be declared in the container.
-- [ ] The display value should be flex-inline to display the items in a row.
+- [ ] Значення для flex-direction має бути reverse-row.
+- [ ] Елемент .container повинен мати властивість flex: display.
+- [x] Властивість flex-direction повинна бути оголошена в .container.
+- [ ] Відображуване значення має бути flex-inline, щоб відображати елементи в рядок.
 
-#### Q93. Which choice is not a valid transition?
+#### Q93. Який варіант не є дійсним переходом?
 
 - [ ] `transition: margin 1000ms ease-in-out;`
 - [ ] `transition: color 1.3s ease-in;`
@@ -1243,7 +1243,7 @@ D. border-top-radius: 10px;
 3. [W3s](https://www.w3schools.com/cssref/pr_class_position.asp)
 4. [W3s](https://www.w3schools.com/cssref/css_animatable.asp)
 
-#### Q94. In this example, what color will the paragraphs be and why?
+#### Q94. У цьому прикладі якого кольору будуть абзаци і чому?
 
 ```css
 article p {
@@ -1256,20 +1256,20 @@ article > p {
 
 ```HTML
 <article>
-  <p>Paragraph 1</p>
+  <p>Абзац 1</p>
 
   <aside>
-    <p>Paragraph 2</p>
+    <p>Абзац 2</p>
   </aside>
 </article>
 ```
 
-- [ ] Paragraph 1 will be blue. Paragraph 2 will be green.
-- [ ] Both paragraphs will be green.
-- [x] Paragraph 1 will be green. Paragraph 2 will be blue.
-- [ ] Both paragraphs will be blue.
+- [ ] Абзац 1 буде синім. Абзац 2 буде зеленим.
+- [ ] Обидва абзаци будуть зеленими.
+- [x] Абзац 1 буде зеленим. Абзац 2 буде синього кольору.
+- [ ] Обидва абзаци будуть синіми.
 
-#### Q95. Review the declaration of border style shown below. What is the corresponding longhand syntax?
+#### Q95. Перегляньте декларацію стилю border, наведену нижче. Який відповідний довгий синтаксис?
 
 ```css
 border: 1px solid red;
@@ -1307,14 +1307,14 @@ border-line: solid;
 border-color: red;
 ```
 
-#### Q96. Pseudo-classes are used to `_`.
+#### Q96. Псевдокласи використовуються для `_`.
 
-- [x] style the state of the selected element
-- [ ] insert presentational content
-- [ ] style a specific part of the selected element
-- [ ] style the elements using class selectors
+- [x] стілізації стану вибраного елемента
+- [ ] вставки презентаційного вмісту
+- [ ] стілізації певної частини вибраного елемента
+- [ ] стилізації елементів за допомогою селекторів класів
 
-#### Q97. In this example, what styles will be applied to which elements?
+#### Q97. Які стилі будуть застосовані до яких елементів?
 
 ```css
 section {
@@ -1324,24 +1324,24 @@ section {
 
 ```HTML
 <section>
-  <p>paragraph</p>
-  <a href="#">link</a>
+  <p>Абзац</p>
+  <a href="#">Посилання</a>
 </section>
 ```
 
-- [ ] The paragraph and link will be gray.
-- [ ] The background color of the section element will be gray.
-- [ ] The paragraph will be gray. The link will be the browser default, black.
-- [x] Only the paragraph will be gray.
+- [ ] Абзац і посилання будуть сірими.
+- [ ] Колір фону елемента розділу буде сірим.
+- [ ] Абзац буде сірим. Посилання буде типовим для браузера, чорним.
+- [x] Лише абзац буде сірим.
 
-#### Q98. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+#### Q98. Яка відповідь є прикладом type selector (також іноді називають element selector)?
 
 - [ ] `.header {...}`
 - [x] `header {...}`
 - [ ] `#header {...}`
 - [ ] `header > h1 {...}`
 
-#### Q99. What is the correct order for listing different link states on a website so those states display correctly on the page?
+#### Q99. Який правильний порядок переліку різних станів посилань на веб-сайті, щоб ці стани правильно відображалися на сторінці?
 
 - [ ] A
 
@@ -1380,16 +1380,16 @@ section {
   :active
 ```
 
-#### Q100. Which selector is used to select the paragraph element that is a direct descendent of the section?
+#### Q100. Який селектор використовується для вибору елемента p, який є прямим нащадком section?
 
 - [ ] `section * p`
 - [ ] `section + p`
 - [ ] `section ~ p`
 - [x] `section > p`
 
-[Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
+[Дочірній комбінатор](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
 
-#### Q101. For this code, what is the font color of the hypertext link?
+#### Q101. Який колір шрифту гіпертекстового посилання для цього коду?
 
 ```css
 ul {
@@ -1418,18 +1418,18 @@ a {
 - [ ] blue
 - [ ] black
 
-[Reference](https://www.sitepoint.com/how-to-use-variables-in-css/)
+[Довідка](https://www.sitepoint.com/how-to-use-variables-in-css/)
 
-#### Q102. Which statement is not true?
+#### Q102. Яке твердження не вірне?
 
-- [ ] Specificity determines which CSS rule is applied by the browsers.
-- [x] When two selectors apply to the same element, the one with lower specificity wins.
-- [ ] The last rule defined overrides all previous rules and even conflicting rules.
-- [ ] Rules with more specific selectors have greater specificity.
+- [ ] Специфічність визначає, яке правило CSS застосовує браузер.
+- [x] Коли два селектори застосовуються до того самого елемента, перемагає той який із меншою специфічністю.
+- [ ] Останнє визначене правило перекриває всі попередні правила та навіть конфліктні.
+- [ ] Правила з більш конкретними селекторами мають більшу специфічність.
 
-[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+[Довідка](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
-#### Q103. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+#### Q103. Яке на виході значення margin при використанні в цьому контексті, припускаючи, що елемент який його містить більше 800px?
 
 ```css
 .example {
@@ -1438,14 +1438,14 @@ a {
 }
 ```
 
-- [ ] The example element will have 0 margin space around the whole element. The auto value will center align the element horizontally and vertically within its container.
-- [ ] The example element will have 0 margin spaces on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
-- [x] The example element will have 0 margin spaces on the top and bottom. The margin will be sized automatically on the left and right, which may center-align the element within its container.
-- [ ] The margin value is invalid because it's missing a unit measurement after the 0.
+- [ ] Елемент матиме margin 0 навколо всього елемента. Автоматичне значення вирівняє елемент по центру горизонтально та вертикально всередині його контейнера.
+- [ ] Елемент margin 0 ліворуч і праворуч. Його розмір буде автоматично змінено зверху та знизу, що вирівняє елемент по центру всередині його контейнера.
+- [x] Елемент матиме margin 0 у верхній і нижній частині. Розмір поля буде автоматично змінено ліворуч і праворуч, що може вирівняти елемент усередині контейнера по центру.
+- [ ] Значення margin недійсне, оскільки в ньому відсутня одиниця вимірювання після 0.
 
-[Source: SOW](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto)
+[Джерело: SOW](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto)
 
-#### Q104. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
+#### Q104. Є чотири відносні види одиниць довжини, що можуть бути використані для визначення значення порівняно до розмірів viewport: vw, vh, vmin та vmax. Якщо поточний viewport має ширину 800px та висоту 600px, якими будуть еквіваленти цих значень в пікселях?
 
 ```css
 10vw = ?px
@@ -1471,7 +1471,7 @@ a {
       10vmin = 8px
       10vmax = 6px
 
-#### Q105. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
+#### Q105. Звертаючись до наведеного нижче прикладу розмітки HTML і CSS, на які елементи буде націлено?
 
 ```css
 p:first-of-type:first-letter {
@@ -1481,35 +1481,35 @@ p:first-of-type:first-letter {
 
 ```HTML
 <body>
-  <p>Paragraph 1.</p>
-  <p>Paragraph 2.</p>
+  <p>Абзац 1.</p>
+  <p>Абзац 2.</p>
 
   <article>
-    <h1>Heading</h1>
-    <p>Paragraph 3.</p>
-    <p>paragraph 4.</p>
+    <h1>Заголовок</h1>
+    <p>Абзац 3.</p>
+    <p>Абзац 4.</p>
   </article>
 
   <section>
-    <p>Paragraph 5.</p>
-    <p>Paragraph 6.</p>
+    <p>Абзац 5.</p>
+    <p>Абзац 6.</p>
   </section>
 </body>
 ```
 
-- [ ] The first letter in all paragraphs will be red.
-- [ ] Only the first letter in paragraphs 1 and 5 will be red.
-- [x] The first letter in paragraphs 1, 3, and 5 will be red.
-- [ ] Only the first letter in paragraph 1 will be red.
+- [ ] Перша літера в усіх абзацах буде червоного кольору.
+- [ ] Тільки перша літера в абзацах 1 і 5 буде червоного кольору.
+- [x] Перша літера в абзацах 1, 3 і 5 буде червоного кольору.
+- [ ] Тільки перша літера в абзаці 1 буде червоного кольору.
 
-#### Q106. Which five style features are associated with the box model?
+#### Q106. Які п'ять особливостей стилю пов'язані з моделлю box?
 
 - [x] margin, padding, border, width, height
 - [ ] width, height, z-index, overflow, font size
 - [ ] margin, padding, font size, line height, border
 - [ ] font size, line height, letter spacing, width, height
 
-#### Q107. Which choice will not set all links that include domain.com to pink?
+#### Q107. Який варіант не призведе до того, що всі посилання, які включають domain.com, стануть рожевими?
 
 - [ ] A
 
@@ -1543,16 +1543,16 @@ a[href*='domain.com'] {
 }
 ```
 
-[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+[Довідка](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
-#### Q108. Which property and value pair could be used to apply a linear gradient effect?
+#### Q108. Яку пару властивості та значення можна використати для застосування ефекту лінійного градієнта?
 
 - [x] `css background: linear-gradient(#648880, #293f50);`
 - [ ] `css background-image: linear(#648880, #293f50);`
 - [ ] `css background: gradient(linear, #648880, #293f50);`
 - [ ] `css background-color: linear-gradient(#648880, #293f50);`
 
-#### Q109. You want to add a background circle behind an icon. Which style declaration is correct?
+#### Q109. Ви хочете додати фонове коло за піктограмою. Яке оголошення стилю є правильним?
 
 - [ ] A
 
@@ -1602,7 +1602,7 @@ glyphicon-bgcircle {
 }
 ```
 
-#### Q110. Which items are valid values for the font-size property?
+#### Q110. Які варіанти є дійсними значеннями властивості font-size?
 
 ```css
 A. font-size: xsmall
@@ -1616,16 +1616,16 @@ D. font-size: 20px
 - [ ] A, C
 - [ ] A, B, C, D
 
-#### Q111. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained in the container?
+#### Q111. На цьому зображенні синє поле та зразок тексту містяться в одному батьківському елементі. Синє поле плаває на лівому боці контейнера. Чому воно не міститься в контейнері?
 
 ![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png?raw=png)
 
-- [ ] Floating the blue box increased its height.
-- [ ] Floating the blue box on the left also moves it down.
-- [ ] Floating the blue box actually shifts it to the right and down.
-- [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+- [ ] Float блакитного прямокутника збільшило його висоту.
+- [ ] Float-left також переміщує його вниз.
+- [ ] Float синього прямокутника фактично зсуває його праворуч і вниз.
+- [x] Float синього поля виключає його з потоку документів, і розмір контейнера відповідає лише зразку тексту.
 
-#### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
+#### Q112. Враховуючи цей код, яка CSS-декларація .overlay охоплюватиме всю ширину та висоту свого контейнера?
 
 ```css
 <style>
@@ -1691,7 +1691,7 @@ D. font-size: 20px
 }
 ```
 
-#### Q113. Which missing line of code would place the text on top of the image?
+#### Q113. Який відсутній рядок коду розмістить текст поверх зображення?
 
 ```js
 <div class="container">
@@ -1705,7 +1705,7 @@ img {
   position: absolute;
   left: 0px;
   top: 0px;
-  // Missing line
+  // Відсутній рядок
 }
 ```
 
@@ -1714,14 +1714,14 @@ img {
 - [ ] `z-index: 0;`
 - [ ] `z-index: true;`
 
-#### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
+#### Q114. Щоб зробити розмір шрифту елемента на один розмір меншим за розмір шрифту контейнера елемента, яку властивість стилю ви б застосували?
 
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
 - [x] `font-size: smaller;`
 
-#### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
+#### Q115. Враховуючи цю розмітку, який селектор призведе до виділення тексту жовтим кольором?
 
 ```js
 <span class="highlight">#BLM</span>
@@ -1761,7 +1761,7 @@ img {
 
 [Highlight Background](<https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular>)
 
-#### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
+#### Q116. Щоб запобігти мозаїці фонового зображення в будь-якому напрямку, яку властивість стилю ви б застосували?
 
 - [x] A
 
@@ -1787,23 +1787,23 @@ background-repeat: none;
 background-tile: none;
 ```
 
-#### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
+#### Q117. Щоб повернути об’єкт на 30 градусів проти годинникової стрілки, яку властивість стилю ви б застосували?
 
 - [x] `transform: rotate(-30deg);`
 - [ ] `transform: rotate(30deg);`
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
 
-[Reference](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate()>)
+[Довідка](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate()>)
 
-#### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
+#### Q118. Яке правило ви б застосували, щоб встановити фонове зображення для відображення вмісту файлу wood.png?
 
 - [ ] `background-image: file('wood.png');`
 - [x] `background-image: URL('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
-#### Q119. What style rule would set the font color of only paragraph two to blue?
+#### Q119. Яке правило встановлює колір шрифту лише другого абзацу на синій?
 
 ```js
 <section><p>paragraph one</p></section><p>paragraph two</p>
@@ -1841,16 +1841,16 @@ p + section {
 }
 ```
 
-[Reference](https://www.w3schools.com/cssref/sel_element_pluss.asp)
+[Довідка](https://www.w3schools.com/cssref/sel_element_pluss.asp)
 
-#### Q120. You want to move an element up 100px. Which CSS property would you use?
+#### Q120. Ви хочете перемістити елемент вгору на 100 пікселів. Яку властивість CSS ви б використали?
 
 - [ ] `transform: translateX(-100px)`
 - [x] `transform: translateY(-100px)`
 - [ ] `transform: translateY(100px)`
 - [ ] `transform: translateX(100px)`
 
-#### Q121. Which style will horizontally center the inner &lt;div&gt; within the outer &lt;div&gt;?
+#### Q121. Який стиль горизонтально центруватиме внутрішній &lt;div&gt; у зовнішньому?
 
 ```js
 <div id="outer">
@@ -1897,7 +1897,7 @@ p + section {
 }
 ```
 
-#### Q122. Which corner will the puppy be in when these CSS rules are applied?
+#### Q122. У якому кутку опиниться цуценя після застосування цих правил CSS?
 
 ```css
 .pen {
@@ -1920,21 +1920,21 @@ p + section {
 </div>
 ```
 
-- [ ] top-right corner
-- [ ] bottom-right corner
-- [ ] top-left corner
-- [x] bottom-left corner
+- [ ] верхній правий кут
+- [ ] нижній правий кут
+- [ ] верхній лівий кут
+- [x] нижній лівий кут
 
-#### Q123. Which choice uses the correct syntax for adding a hover pseudo-class to \<a> element?
+#### Q123. Який варіант використовує правильний синтаксис для додавання псевдокласу наведення до елемента \<a>?
 
 - [x] `a:hover {...}`
 - [ ] `a :hover {...}`
 - [ ] `a.hover {...}`
 - [ ] `a hover {...}`
 
-[Reference](https://stackoverflow.com/questions/1935820/set-ahover-based-on-class)
+[Довідка](https://stackoverflow.com/questions/1935820/set-ahover-based-on-class)
 
-#### Q124. Which missing code will give "Cellar Door" a shadow?
+#### Q124. Який відсутній код дасть тінь "Дверям підвалу"?
 
 ```css
   <style>
@@ -1946,7 +1946,7 @@ p + section {
     }
   </style>
 
-  <h1 _____> Cellar Door</h1>
+  <h1 _____> Двері підвалу</h1>
 ```
 
 - [x] `class="text-shadow"`
@@ -1954,18 +1954,18 @@ p + section {
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
 
-[Reference](https://www.w3schools.com/html/html_classes.asp)
+[Довідка](https://www.w3schools.com/html/html_classes.asp)
 
-#### Q125. Which choice is a valid example of a comment in CSS?
+#### Q125. Який варіант є дійсним прикладом коментаря в CSS?
 
 - [ ] `-- This line has been cancelled.`
 - [x] `/* This line has been cancelled. */`
 - [ ] `// This line has been cancelled.`
 - [ ] `# This line has been cancelled.`
 
-[Reference](https://www.w3schools.com/css/css_comments.asp)
+[Довідка](https://www.w3schools.com/css/css_comments.asp)
 
-#### Q126. Which element(s) will be displayed in blue text?
+#### Q126. Який(і) елемент(и) відображатиме(у)ться синім кольором?
 
 ```css
     h2 ~ p {
@@ -1984,9 +1984,9 @@ p + section {
 - [x] P3 and P4
 - [ ] P1
 
-[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
+[Довідка](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
 
-#### Q127. When these pseudo-class selectors are applied to a link, what states will the styles be applied to?
+#### Q127. Коли ці селектори псевдокласів застосовуються до посилання, до яких станів будуть застосовані стилі?
 
 ```css
 a:visited {
@@ -2003,26 +2003,26 @@ a:focus {
 }
 ```
 
-- [ ] `:visited` styles are applied after the link has been opened.
-      `:active` styles are applied on mouse click and hold.
-      `:hover` styles are applied on mouse over or mouse click and hold.
-      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
-- [ ] `:visited` styles are applied after the link has been opened.
-      `:active` styles are applied on mouse click.
-      `:hover` styles are applied on mouseover.
-      `:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
-- [x] `:visited` styles are applied after the link has been opened.
-      `:active` styles are applied on mouse click only and before mouse release.
-      `:hover` styles are applied on mouseover.
-      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
-- [ ] `:visited` styles are applied on mouse hold.
-      `:active` styles are applied when the link has been opened.
-      `:hover` styles are applied on mouseover.
-      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
+- [ ] `:visited` Стилі застосовуються після відкриття посилання.
+      `:active` Стилі застосовуються після натискання миші та утримання.
+      `:hover` Стилі застосовуються при наведенні миші або клацанні та утриманні миші.
+      `:focus` Стилі застосовуються, коли для переходу за посиланнями використовується клавіша Tab на клавіатурі.
+- [ ] `:visited` Стилі застосовуються після відкриття посилання.
+      `:active` Стилі застосовуються після клацання миші.
+      `:hover` Стилі застосовуються при наведенні миші.
+      `:focus` Стилі застосовуються після клацання й утримання миші або коли для навігації посиланнями використовується клавіша Tab на клавіатурі.
+- [x] `:visited` Стилі застосовуються після відкриття посилання.
+      `:active` Стилі застосовуються лише після клацання миші та до відпускання миші.
+      `:hover` Стилі застосовуються при наведенні миші.
+      `:focus` Стилі застосовуються, коли для переходу за посиланнями використовується клавіша Tab на клавіатурі.
+- [ ] `:visited` Стилі застосовуються при утриманні миші.
+      `:active` Стилі застосовуються, коли посилання було відкрито.
+      `:hover` Стилізастосовуються при наведенні миші.
+      `:focus` Стилі застосовуються, коли для переходу за посиланнями використовується клавіша Tab на клавіатурі.
 
-[Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
+[Довідка](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 
-#### Q128. What style rule should you use to display all input elements that have failed the validation test with a red font?
+#### Q128. Яке правило слід використовувати для відображення червоним шрифтом усіх елементів, які не пройшли валідацію?
 
 - [ ] A
 
@@ -2056,9 +2056,9 @@ input.invalid {
 }
 ```
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
 
-#### Q129. What style rule should you apply to the img element to display the element in grayscale with no color?
+#### Q129. Яке правило слід застосувати до елемента img, щоб відобразити елемент у відтінках сірого без кольору?
 
 - [ ] A
 
@@ -2092,27 +2092,27 @@ img {
 }
 ```
 
-[Reference](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_filter_grayscale)
+[Довідка](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_filter_grayscale)
 
-#### Q130. Why might you create a reset style sheet?
+#### Q130. Чому ви можете створити таблицю стилів скидання?
 
-- [ ] to reduce page size by removing browser styles from the page rendering.
-- [x] to start designing a page style by overriding any built-in browser styles
-- [ ] to make it easier to minify the content of your web page design
-- [ ] to increase execution time by not relying on built-in browser styles
+- [ ] щоб зменшити розмір сторінки, видаливши стилі браузера з візуалізації сторінки.
+- [x] щоб розпочати розробку стилю сторінки, замінивши будь-які вбудовані стилі браузера
+- [ ] щоб полегшити скорочення вмісту дизайну веб-сторінки
+- [ ] щоб збільшити час виконання, не покладаючись на вбудовані стилі браузера
 
-[Reference](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
+[Довідка](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
 
-#### Q131. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+#### Q131. Який варіант є недійсним способом оголошення значення відступу 10 пікселів зверху та знизу та 0 пікселів ліворуч і праворуч?
 
 - [ ] padding: 10px 0px;
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
 
-[Reference](https://www.w3schools.com/css/css_padding.asp)
+[Довідка](https://www.w3schools.com/css/css_padding.asp)
 
-#### Q132. How would you absolutely position an element of the logo class inside of a relatively positioned container?
+#### Q132. Як би ви абсолютно позиціонували елемент класу logo всередині відносно розташованого контейнера?
 
 - [ ] A
 
@@ -2154,7 +2154,7 @@ img {
 }
 ```
 
-#### Q133. How would the `<div>` with the class .child be positioned within its container?
+#### Q133. Як `<div>` з класом .child буде позиціонуватися у своєму контейнері?
 
 ```HTML
 <style>
@@ -2172,23 +2172,23 @@ img {
 </div>
 ```
 
-- [ ] horizontally centered
-- [ ] vertically centered, spanning the container's width
-- [ ] at the bottom of the container, spanning the container's width
-- [x] at the top of the container, spanning the container's width
+- [ ] горизонтально по центру
+- [ ] вертикально по центру, охоплюючи ширину контейнера
+- [ ] у нижній частині контейнера, охоплюючи ширину контейнера
+- [x] у верхній частині контейнера, охоплюючи ширину контейнера
 
-[Reference](https://codepen.io/harsh1x4/pen/poVaQVz)
+[Довідка](https://codepen.io/harsh1x4/pen/poVaQVz)
 
-#### Q134. By default, a CSS transition is \_\_
+#### Q134. За замовчуванням перехід в CSS це \_\_
 
-- [ ] asymmetric, so that the transition going from the initial state to the end state is different from the transition going from the end state back to the initial state.
-- [ ] one-sided, so that there is only one transition and it goes from the initial state to the end state.
-- [x] symmetric, so that the transition going from the initial state to the end state is the reverse of the transition going from the end state back to the initial state.
-- [ ] one-sided, so that there is only one transition and it goes from the end state to the initial state.
+- [ ] асиметричний - перехід від початкового стану до кінцевого відрізняється від переходу від кінцевого стану назад до початкового.
+- [ ] односторонній - лише перехід від початкового стану до кінцевого.
+- [x] симетричний - перехід від початкового стану до кінцевого є зворотним переходу від кінцевого стану назад до початкового.
+- [ ] односторонній - лише перехід від кінцевого стану до початкового.
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
-#### Q135. Which style rule will extend the header element across an entire grid row from the first column through the last column?
+#### Q135. Яке правило розширить елемент заголовка на весь рядок сітки від першого стовпця до останнього?
 
 - [ ] A
 
@@ -2222,9 +2222,9 @@ header {
 }
 ```
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-#### Q136. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
+#### Q136. Яке правило потрібно застосувати, щоб відцентрувати вміст клітинки сітки по горизонталі та вертикалі всередині клітинки?
 
 - [ ] A
 
@@ -2236,7 +2236,7 @@ justify-items: end;
 - [x] B
 
 ```css
-align--items: center;
+align-items: center;
 justify-items: center;
 ```
 
@@ -2254,9 +2254,9 @@ align-items: stretch;
 justify-items: stretch;
 ```
 
-[Reference for align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Reference for justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
+[Довідка по align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Довідка по justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
 
-#### Q137. What style rule should you use to display all input elements that have failed the validation test with a red font?
+#### Q137. Яке правило слід використовувати для відображення червоним шрифтом усіх введених елементів, які не пройшли перевірку?
 
 - [ ] A
 
@@ -2290,18 +2290,18 @@ input.invalid {
 }
 ```
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
 
-#### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
+#### Q139. Яке правило слід використовувати, щоб додати файл зовнішньої таблиці стилів в інший файл таблиці стилів?
 
 - [x] `@import`
 - [ ] `@link`
 - [ ] `@insert`
 - [ ] `@style`
 
-[Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+[Довідка по import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
 
-#### Q140. Given this code, how tall will the following element be in pixels?
+#### Q140. З урахуванням цього коду, якої висоти буде наступний елемент у пікселях?
 
 ```HTML
 <style>
@@ -2320,7 +2320,7 @@ input.invalid {
 - [ ] 180px
 - [ ] 220px
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
 
 #### Q141. Which style rule will place an X within the grid to win the game?
 
