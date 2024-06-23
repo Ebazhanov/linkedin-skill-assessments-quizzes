@@ -1422,6 +1422,7 @@ broccoli
 - [x] V3.2.4
 
 #### Q159. What is the maximum number of suggestions the completions panel gives at one time?
+
 - [ ] 100
 - [ ] 5
 - [x] 10
