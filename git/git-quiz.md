@@ -1427,3 +1427,9 @@ broccoli
 - [ ] 5
 - [x] 10
 - [ ] 8
+
+#### Q160. You are looking for markdown files in a project, so you type in the following search: repo:planetoftheweb/slides_vue3 *.md. What does the commits section in the filter by siderbar show?
+- [ ] Any commits that you are mentioned on
+- [x] The commits that match your search query
+- [ ] The most recent commits
+- [ ] All the commits you personally made
