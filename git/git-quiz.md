@@ -1441,5 +1441,3 @@ broccoli
 - [ ] Stars: 100 or 200
 - [ ] Stars:100,200
 - [ ] Stars:100-200
-
-      
