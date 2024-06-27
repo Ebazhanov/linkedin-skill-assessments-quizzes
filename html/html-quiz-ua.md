@@ -146,14 +146,14 @@
 - [ ] За допомогою get дані включаються в тіло форми під час надсилання на сервер. З post дані передаються через URL-адресу.
 - [x] З post дані включаються в тіло форми. За допомогою get дані проходять через URL-адресу.
 
-#### Q15. What is the difference between the `<div>` and `<span>` tags?
+#### Q15. Яка різниця між тегами `<div>` і `<span>`?
 
-- [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
-- [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
-- [ ] `<div>` is the industry-standard default tag, but you could use `<span>` if you prefer.
-- [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
+- [x] `<div>` використовується там, де потрібен загальний тег block, тоді як `<span>` - там, де потрібен загальний inline тег.
+- [ ] `<div>` використовується для основних поділів на сторінці, тоді як `<span>` - для поділу на стовпці.
+- [ ] `<div>` є галузевим стандартним тегом за замовчуванням, але ви можете використовувати `<span>` за бажанням.
+- [ ] `<div>` використовується там, де потрібен загальний inline тег, тоді як `<span>` - там, де потрібен загальний тег block.
 
-#### Q16. What should fill the blank in the HTML code below?
+#### Q16. Що має заповнити порожнечу в HTML-коді нижче?
 
 ```HTML
 <form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
@@ -164,7 +164,7 @@
 - [ ] type
 - [ ] rel
 
-#### Q17. What is the correct markup for the `alt` attribute of an image?
+#### Q17. Яка правильна розмітка для атрибута `alt` зображення?
 
 - [ ] A
 
@@ -190,18 +190,18 @@
 <img src="cubism.jpg" alt="Version of \"Whistler's Mother\" in cubist style">
 ```
 
-#### Q18. In the code below, what is the purpose of the **id** attribute?
+#### Q18. Яке призначення атрибута **id** у коді нижче?
 
 ```HTML
 <p id="warning">Be careful when installing this product.</p>
 ```
 
-- [x] It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
-- [ ] It establishes that id is a unique identifier in the document, used for styling CSS and with Javascript code.
-- [ ] It establishes that id may be used for styling CSS several times per page.
-- [ ] It establishes that id is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
+- [x] id є унікальним ідентифікатором у документі, який використовується для стилізації CSS, сценаріїв і посилань на веб-сторінці.
+- [ ] id є унікальним ідентифікатором у документі, який використовується для стилізації CSS і з кодом Javascript.
+- [ ] id можна використовувати для стилізації CSS кілька разів на сторінці.
+- [ ] id є унікальним ідентифікатором на веб-сайті, який використовується для стилізації CSS, сценаріїв і посилань на веб-сторінці.
 
-#### Q19. What is the best semantic markup for the sentence shown?
+#### Q19. Яка найкраща семантична розмітка для показаного речення?
 
 ```
 On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap for mankind."
@@ -249,7 +249,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </p>
 ```
 
-#### Q20. What should fill the blank in this HTML code?
+#### Q20. Що має заповнити порожнечу в цьому HTML-коді?
 
 ```HTML
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
@@ -260,16 +260,16 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] es-es
 - [ ] spanish
 
-#### Q21. Review the text in the red box in the image shown. What is the best way to code this in HTML?
+#### Q21. Перегляньте текст у червоному полі на зображенні. Який найкращий спосіб закодувати це в HTML?
 
 ![Image of footer](images/ss-3.png?raw=true)
 
-- [ ] ordered list
-- [ ] unordered list inside a nav element
-- [ ] ordered list inside a nav element
-- [x] unordered list
+- [ ] впорядкований список
+- [ ] невпорядкований список всередині навігаційного елемента
+- [ ] впорядкований список всередині навігаційного елемента
+- [x] невпорядкований список
 
-#### Q22. What is the best way to code three choices within a form so that the user can select only one item?
+#### Q22. Який найкращий спосіб закодувати три варіанти у формі, щоб користувач міг вибрати лише один елемент?
 
 - [ ] A
 
@@ -321,14 +321,14 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-#### Q23. How do you confirm that a document is written in HTML5?
+#### Q23. Як підтвердити, що документ написаний у HTML5?
 
-- [ ] The server wraps the webpage in an HTML5 wrapper.
-- [x] Use the `<!DOCTYPE html>` declaration that starts the document.
-- [ ] The browser receives encoding from the server to display the document with HTML5.
-- [ ] It is enclosed in a `<html>` tag.
+- [ ] Сервер загортає веб-сторінку в оболонку HTML5.
+- [x] Скористатися декларацією `<!DOCTYPE html>`, яка починає документ.
+- [ ] Браузер отримує кодування від сервера для відображення документа з HTML5.
+- [ ] Він укладений у тег `<html>`.
 
-#### Q24. What does the code shown below accomplish?
+#### Q24. Що виконує наведений нижче код?
 
 ```html
 <picture>
@@ -338,12 +338,12 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </picture>
 ```
 
-- [x] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
-- [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
-- [ ] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
-- [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
+- [x] відображає image1.jpg з роздільною здатністю екрану 1000px та вище, image2.jpg з 750-999px та image3.jpg з 749px та менше.
+- [ ] відображає image1.jps з роздільною здатністю 1000px і більше, а image2.jpg — з 750-999px, image3.jpg є типовим, якщо `<picture>` не підтримується.
+- [ ] відображає image1.jpg з роздільною здатністю 1000px та вище та image2.jpg з 750px та вище, image3.jpg є типовим, якщо `<picture>` не підтримується.
+- [ ] відображає image1.jpg, image2.jpg і image3.jpg з роздільною здатністю 1000px і вище.
 
-[Source: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
+[Джерело: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
 
 #### Q25. What code will produce this table?
 
