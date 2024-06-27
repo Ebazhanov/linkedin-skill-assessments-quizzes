@@ -1434,3 +1434,12 @@ broccoli
 - [x] The commits that match your search query
 - [ ] The most recent commits
 - [ ] All the commits you personally made
+
+#### Q161. Your company worked on a popular utility module and you remember that it had between 100 and 200 stars. How would you write qualifiers that would limit that search?
+
+- [x] Stars:100..200
+- [ ] Stars: 100 or 200
+- [ ] Stars:100,200
+- [ ] Stars:100-200
+
+      
