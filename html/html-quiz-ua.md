@@ -345,7 +345,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 [Джерело: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
 
-#### Q25. What code will produce this table?
+#### Q25. Який код створить цю таблицю?
 
 ![Table with yellow background](images/ss-4.png?raw=true)
 
@@ -421,18 +421,18 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q26. What is the `<hr>` tag typically used for? / Alt.: What is the semantic meaning of the `<hr>` tag?
+#### Q26. Для чого зазвичай використовується тег `<hr>`? / Альт.: Яке семантичне значення тегу `<hr>`?
 
-- [ ] This tag is depreciated (alt.: deprecated) and should not be used.
-- [x] It designates a topic shift within a section at the paragraph level.
-- [ ] It draws a horizontal line.
-- [ ] It designates a shift of topic at the section level. / Alt.: It designates a separation of sections within an `<article>`.
+- [ ] Цей тег застарів (альт.: застарілий) і не повинен використовуватися.
+- [x] Позначає зміну теми в межах розділу на рівні абзацу.
+- [ ] Малює горизонтальну лінію.
+- [ ] Позначає зміну теми на рівні розділу. / Альт.: позначає поділ розділів у межах `<article>`.
 
-`This is a confusing question and there can be arguments for both the second and the third options being correct.`
+`Це заплутане запитання, і можуть бути аргументи на користь того, що другий і третій варіанти є правильними.`
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HTML `<hr>` element represents a thematic break between paragraph-level elements. Historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): Елемент HTML `<hr>` представляє тематичний розрив між елементами рівня абзацу. Історично його було представлено як горизонтальну лінію. Хоча він все ще може відображатися як горизонтальна лінія візуально у браузерах, цей елемент тепер визначається в семантичних термінах, а не в термінах представлення, тому, якщо ви хочете намалювати горизонтальну лінію, ви повинні зробити це за допомогою відповідного CSS.
 
-#### Q27. What should fill the two blanks in the HTML code below?
+#### Q27. Чим слід заповнити два порожні поля в HTML-коді нижче?
 
 ```HTML
 <section itemscope itemtype="http://schema.org/Restaurant">
@@ -449,14 +449,14 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating"`
 - [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating"`
 
-#### Q28. Which HTML snippet links back to the very top of a webpage?
+#### Q28. Який фрагмент HTML посилається на самий верх веб-сторінки?
 
 - [x] A
 
 ```HTML
 <a id="top"></a>
 
-<!-- placed at the top of the page -->
+<!-- розміщено у верхній частині сторінки -->
 
 <a href="#top">back to top</a>
 ```
@@ -466,7 +466,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ```HTML
 <a name="top"></a>
 
-<!-- placed at the top of the page -->
+<!-- розміщено у верхній частині сторінки -->
 
 <a href="#top">back to top</a>
 ```
@@ -483,38 +483,38 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <button href="#">back to top</button> <button href="#top">back to top</button>
 ```
 
-#### Q29. Which three tags were deprecated in HTML4 but returned to HTML5?
+#### Q29. Які три теги застаріли в HTML4, але повернулися в HTML5?
 
 - [ ] `<rb> <rp> <rt>`
 - [ ] `<acronym> <code> <wbr>`
 - [ ] `<hgroup> <q> <wbr>`
 - [x] `<b> <i> <u>`
 
-#### Q30. The **\_** tag is used for marking up a short code snippet, while the \_ tag is used for marking up a longer block of code
+#### Q30. Тег **\_** використовується для розмітки короткого фрагмента коду, тоді як тег \_ використовується для розмітки довшого блоку коду
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
 - [ ] `<kdb>`, `<mark>`
 - [x] `<code>`, `<pre>`
 
-1. [Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
-2. [Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+1. [Джерело: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+2. [Джерело: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
-#### Q31. What does the `<label>` element do?
+#### Q31. Що робить елемент `<label>`?
 
-- [ ] It labels webpages with important information.
-- [ ] It creates an ID for a corresponding input element.
-- [ ] It overrides the name attribute's value on a child input element.
-- [x] It programmatically associates a text label with an interface element.
+- [ ] Позначає веб-сторінки важливою інформацією.
+- [ ] Створює ідентифікатор для відповідного елемента input.
+- [ ] Замінює значення атрибута name у дочірньому елементі input.
+- [x] Програмно пов’язує текстову мітку з елементом інтерфейсу.
 
-#### Q32. To get a link to open in a new window or tab, use the **\_** attribute
+#### Q32. Щоб відкрити посилання в новому вікні чи вкладці, використовуйте атрибут **\_**
 
 - [x] `_blank`
 - [ ] `_self`
 - [ ] `_new`
 - [ ] `_parent`
 
-#### Q33. What is the most semantically accurate way to mark up the sentence shown below? Note: "TLAs" stands for "three-letter acronyms."
+#### Q33. Який семантично найточніший спосіб позначити наведене нижче речення? Примітка: "TLAs" розшифровується як "акроніми з трьох літер".
 
 **We are fond of our TLAs in web design.**
 
@@ -542,9 +542,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <p>we are fond of our <acronym title="three-letter acronym">TLAs</acronym> in web design.</p>
 ```
 
-`<acronym>` has been removed in HTML5 and shouldn't be used anymore. Instead, web developers should use the `<abbr>` element.
+`<acronym>` видалено в HTML5, і його більше не слід використовувати. Натомість веб-розробники повинні використовувати елемент `<abbr>`.
 
-#### Q34. What is the correctly nested markup for this list?
+#### Q34. Яка правильна вкладена розмітка для цього списку?
 
 ![Sample list](images/ss-6.png?raw=true)
 
@@ -600,7 +600,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </ul>
 ```
 
-#### Q35. What should fill in the blank below?
+#### Q35. Чим слід заповнити пусте поле нижче?
 
 ```HTML
 <link href="phone.css" rel="stylesheet" _____="print" />
@@ -611,7 +611,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] device
 - [x] media
 
-#### Q36. What is the semantically correct way to mark up this layout?
+#### Q36. Який семантично правильний спосіб розмітки цього макета?
 
 ![quote](images/ss-5.png?raw=true)
 
@@ -661,28 +661,28 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </section>
 ```
 
-#### Q37. Which choice uses the correct terminology in describing this markup: `<p>info</p>`?
+#### Q37. У якому варіанті використовується правильна термінологія в описі цієї розмітки: `<p>info</p>`?
 
-- [ ] The element opener is `<p>`, the element closer is `</p>`, and the element information is info.
-- [ ] The start tag is `<p>`, the end tag is `</p>`, and the enclosed HTML is info.
-- [x] The start tag is `<p>`, the end tag is `</p>`, and the element content is info.
-- [ ] The start element is `<p>`, the end element is `</p>`, and the tag content is info.
+- [ ] Елемент відкривач  — `<p>`, елемент, що закриває — `</p>`, інформація про елемент — info.
+- [ ] Початковий тег - `<p>`, кінцевий тег - `</p>`, вкладений HTML - info.
+- [x] Початковий тег - `<p>`, кінцевий тег - `</p>`, вміст елемента - info.
+- [ ] Початковий елемент — `<p>`, кінцевий — `</p>`, вміст тегу — info.
 
-#### Q38. What is the difference between `<input type="submit" value="click me">` and `<button type="submit">Click me</button>`?
+#### Q38. Яка різниця між `<input type="submit" value="Натисни мене">` і `<button type="submit">Натисни мене</button>`?
 
-- [ ] There is no difference. Both will render a button that submits a form.
-- [x] Both will submit a form. However, the `<button>` can have content other than text, like an image or nested HTML elements, while the `<input>` cannot.
-- [ ] `<input type="button">` has been deprecated in HTML5. You should use the `<button>` tag instead.
-- [ ] Both will submit a form. However, the `<input>` can have content other than text, like an image or nested HTML elements, while the `<button>` cannot.
+- [ ] Немає різниці. Обидва відображатимуть кнопку, яка надсилає форму.
+- [x] Обидва надішлють форму. Однак `<button>` може мати вміст, відмінний від тексту, як-от зображення або вкладені елементи HTML, тоді як `<input>` не може.
+- [ ] `<input type="button">` не підтримується в HTML5. Замість цього слід використовувати тег `<button>`.
+- [ ] Обидва надішлють форму. Однак `<input>` може мати вміст, відмінний від тексту, наприклад зображення або вкладені елементи HTML, тоді як `<button>` не може.
 
-#### Q39. What is the best semantic way to indicate that text refers to keyboard entry?
+#### Q39. Який найкращий семантичний спосіб вказати, що текст стосується введення з клавіатури?
 
-- [ ] `<p>Press the <tt>Enter</tt> key to proceed.</p>`
-- [x] `<p>Press the <kbd>Enter</kbd> key to proceed.</p>`
-- [ ] `<p>Press the <samp>Enter</samp> key to proceed.</p>`
-- [ ] `<p>Press the Enter key to proceed.</p>`
+- [ ] `<p>Натисніть клавішу <tt>Enter</tt>, щоб продовжити.</p>`
+- [x] `<p>Натисніть клавішу <kbd>Enter</kbd>, щоб продовжити.</p>`
+- [ ] `<p>Натисніть клавішу <samp>Enter</samp>, щоб продовжити.</p>`
+- [ ] `<p>Натисніть клавішу Enter, щоб продовжити.</p>`
 
-#### Q40. What does this code do?
+#### Q40. Що робить цей код?
 
 ```html
 <audio controls>
@@ -692,38 +692,38 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </audio>
 ```
 
-- [x] The browser chooses the first supported format to play with the browser's default controls.
-- [ ] The browser chooses the best audio format to play with JavaScript-provided controls.
-- [ ] The browser plays each sound file in order automatically. The user has controls to stop playback.
-- [ ] The browser chooses the first supported sound file and will loop the sound until the user stops it.
+- [x] Браузер вибирає перший підтримуваний формат для відтворення за допомогою елементів керування браузера за замовчуванням.
+- [ ] Браузер вибирає найкращий аудіоформат для відтворення за допомогою елементів керування JavaScript.
+- [ ] Браузер автоматично відтворює кожен звуковий файл по порядку. Користувач має елементи керування для зупинки відтворення.
+- [ ] Браузер вибирає перший підтримуваний звуковий файл і повторюватиме звук, доки користувач не зупинить його.
 
-#### Q41. What attribute applies a keyboard shortcut hint to the current element?
+#### Q41. Який атрибут застосовує підказку про комбінацію клавіш до поточного елемента?
 
 - [x] `accesskey`
 - [ ] `shortcut`
 - [ ] `keyboard`
 - [ ] `access`
 
-#### Q42. What is the correct way to code a link that, when clicked, will send an email to `email@example.com` with the subject of "Hello"?
+#### Q42. Який правильний спосіб закодувати посилання, яке після натискання надсилатиме електронний лист на адресу `email@example.com` із темою "Hello"?
 
 - [ ] `<a href="mailto:email@example.com&subject=Hello">Click me</a>`
 - [ ] `<a href="mailto:email@example.com">Hello</a>`
 - [x] `<a href="mailto:email@example.com?subject=Hello">Click me</a>`
 - [ ] `<a href="mailto:email@example.com?&subject=Hello">Click me</a>`
 
-#### Q43. Which tag is the root element of an HTML document?
+#### Q43. Який тег є кореневим елементом документа HTML?
 
 - [ ] `<!DOCTYPE html>`
 - [x] `<html>`
 - [ ] `<body>`
 - [ ] `<root>`
 
-`The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it. The HTML element represents the root of a document.`
+`Тег <html> є кореневим елементом документа HTML, що означає, що він містить увесь вміст і теги документа HTML. Елемент HTML представляє корінь документа.`
 
-1. [Source](https://www.interviewbit.com/html-mcq/)
-2. [Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
+1. [Джерело](https://www.interviewbit.com/html-mcq/)
+2. [Джерело](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
 
-#### Q44. Which code snippet creates the layout shown, starting at `<table>` and ending at `</table>`?
+#### Q44. Який фрагмент коду створює показаний макет, починаючи з `<table>` і закінчуючи `</table>`?
 
 ![Table](images/ss-1.png?raw=true 'table')
 
@@ -773,7 +773,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </tr>
 ```
 
-#### Q45. Which choice is NOT a legal value for the **name** attribute within a `<meta>` tag?
+#### Q45. Який вибір НЕ є допустимим значенням для атрибута **name** у тегу `<meta>`?
 
 - [x] charset
 - [ ] viewport
