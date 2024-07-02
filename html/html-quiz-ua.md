@@ -780,7 +780,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] generator
 - [ ] author
 
-#### Q46. Which form is coded correctly?
+#### Q46. Яка форма закодована правильно?
 
 - [ ] A
 
@@ -832,57 +832,57 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </form>
 ```
 
-#### Q47. What does the **poster** attribute do in the `<video>` tag?
+#### Q47. Що робить атрибут **poster** у тегу `<video>`?
 
-- [x] It specifies an image that should be displayed while the video downloads and until the video is played.
-- [ ] It specifies an image that only displays if there is a problem with the video.
-- [ ] It specifies an image that should be displayed until the video is played.
-- [ ] It specifies an image that should be displayed while the video downloads.
+- [x] Визначає зображення, яке має відображатися під час завантаження та до відтворення відео.
+- [ ] Визначає зображення, яке відображається, лише якщо є проблема з відео.
+- [ ] Визначає зображення, яке має відображатися до відтворення відео.
+- [ ] Визначає зображення, яке має відображатися під час завантаження відео.
 
-#### Q48. What does this code do?
+#### Q48. Що робить цей код?
 
 ```HTML
-<audio controls src="sound.mp3" type="audio/mpeg">When does this text display?</audio>
+<audio controls src="sound.mp3" type="audio/mpeg">Коли відображається цей текст?</audio>
 ```
 
-- [ ] The text displays over the audio controls unless CSS is used to position it elsewhere.
-- [ ] The text displays under the audio controls.
-- [x] The text displays when the browser cannot play the sound.
-- [ ] The text never displays.
+- [ ] Текст відображається над елементами керування звуком, якщо CSS не використовується для розміщення його в іншому місці.
+- [ ] Текст відображається під елементами керування звуком.
+- [x] Текст відображається, коли браузер не може відтворити звук.
+- [ ] Текст ніколи не відображається.
 
-#### Q49. What is the primary purpose of the `<canvas>` tag?
+#### Q49. Яке основне призначення тегу `<canvas>`?
 
-- [ ] It allows raster images to be rendered on the webpage.
-- [ ] It displays annotated images.
-- [x] It allows drawing on a bitmap via JavaScript.
-- [ ] It allows vector images to be rendered on the webpage.
+- [ ] Дозволяє відображати растрові зображення на веб-сторінці.
+- [ ] Відображає анотовані зображення.
+- [x] Дозволяє малювати на растровому зображенні за допомогою JavaScript.
+- [ ] Дозволяє відображати векторні зображення на веб-сторінці.
 
-#### Q50. Which choice contains three valid block-level elements?</li>
+#### Q50. Який варіант містить три дійсні елементи рівня block?
 
 - [ ] `<details> <abbr> <figcaption>`
 - [ ] `<canvas> <select> <noscript>`
 - [x] `<dt> <table> <pre>`
 - [ ] `<kbd> <p> <main>`
 
-#### Q51. In the code below, what is the purpose of the **lang** attribute?
+#### Q51. Яке призначення атрибута **lang** у коді нижче?
 
 ```HTML
 <p lang="en-GB">Welcome to our wonderful website.</p>
 ```
 
-- [ ] It establishes the language for the website—in this case, English.
-- [ ] It establishes the language and dialect for the website—in this case, British English.
-- [x] It establishes the language and dialect for the paragraph—in this case, British English.
-- [ ] It establishes the language for the paragraph—in this case, English.
+- [ ] Він визначає мову для веб-сайту — у цьому випадку англійську.
+- [ ] Він встановлює мову та діалект веб-сайту — у цьому випадку британську англійську.
+- [x] Встановлює мову та діалект абзацу — у цьому випадку британську англійську.
+- [ ] Встановлює мову для абзацу—у цьому випадку англійську.
 
-#### Q52. Which image formats can be displayed by all web browsers?
+#### Q52. Які формати зображень можуть відображатися всіма веб-браузерами?
 
 - [ ] JPG, GIF, TIF
 - [ ] JPG, TIF, BMP
 - [ ] TIF, BMP, GIF
 - [x] PNG, GIF, JPG
 
-#### Q53. Review the code below. What is the absolute URL for a page called **page.html**?
+#### Q53. Перегляньте наведений нижче код. Яка абсолютна URL-адреса сторінки під назвою **page.html**?
 
 ```HTML
 <base href="http://www.linkedin.com/dir/" />
@@ -893,38 +893,38 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `http://www.linkedin.com/page.html`
 - [ ] `dir/page.html`
 
-#### Q54. What is the correct way to include a stylesheet named **style.css** in the `<head>` of your document?
+#### Q54. Який правильний спосіб включити таблицю стилів під назвою **style.css** у <head> вашого документа?
 
 - [ ] `<style link="style.css">`
 - [x] `<link rel="stylesheet" href="style.css">`
 - [ ] `<style src="style.css"></style>`
 - [ ] `<link style="style.css">`
 
-#### Q55. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
+#### Q55. Ви хочете мати однаковий інтервал між деякими рядками, як у вірші чи адресі. Який підхід слід використовувати?
 
-- [ ] Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
-- [x] Separate lines with a `<p>`, then use CSS to make single spacing.
-- [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
-- [ ] Separate the lines with the `<br>` tag.
+- [ ] Перенести текст у рамку потрібної ширини, щоб усе було правильно. Встановіти ширину поля за допомогою CSS.
+- [x] Розділити рядки за допомогою `<p>`, потім скористатися CSS, щоб створити однаковий інтервал.
+- [ ] Скористатися тегом `<pre>`, щоб міжрядковий інтервал виглядав саме так, як потрібно.
+- [ ] Розділити рядки тегом `<br>`.
 
-[From MDN (`<br>`: The Line Break element)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#accessibility_concerns):
+[З MDN (`<br>`: елемент розриву рядка)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#accessibility_concerns):
 
 ```
-Accessibility concerns
+Проблеми доступності
 
-Creating separate paragraphs of text using <br> is not only bad practice, it is problematic for people who navigate with the aid of screen reading technology. Screen readers may announce the presence of the element, but not any content contained within <br>s. This can be a confusing and frustrating experience for the person using the screen reader.
+Створення окремих абзаців тексту за допомогою <br> не тільки погана практика, але й проблематична для людей, які орієнтуються за допомогою технології зчитування з екрана. Програми зчитування екрана можуть повідомляти про присутність елемента, але не про будь-який вміст, що міститься в <br>. Це може заплутати та розчарувати людину, яка використовує програму зчитування з екрана.
 
-Use <p> elements, and use CSS properties like margin to control their spacing.
+Використовуйте елементи <p> та властивості CSS, як-от margin, щоб контролювати інтервали.
 ```
 
-#### Q56. What does the `<wbr>` tag do?
+#### Q56. Що робить тег `<wbr>`?
 
-- [ ] It requires the browser to wrap the current line at that point.
-- [ ] It breaks a word into two pieces, using a hyphen to connect the words.
-- [ ] It formats a sentence to be easily breakable.
-- [x] It presents an opportunity for a break in a very long word if needed for proper page display.
+- [ ] Вимагає, щоб браузер переніс поточний рядок у цю точку.
+- [ ] Розбиває слово на дві частини, використовуючи дефіс для з’єднання слів.
+- [ ] Форматує речення, щоб його було легко розбити.
+- [x] Надає можливість розірвати дуже довге слово, якщо це необхідно для правильного відображення сторінки.
 
-#### Q57. Review the code below. How do you include subnavigation for Link 2 that includes a link?
+#### Q57. Перегляньте наведений нижче код. Як включити вкладену навігацію для Link 2, яке містить Link?
 
 ```HTML
 <nav>
@@ -1004,21 +1004,21 @@ Use <p> elements, and use CSS properties like margin to control their spacing.
 </nav>
 ```
 
-#### Q58. What is the correct way to code a comment in HTML?
+#### Q58. Який правильний спосіб закодувати коментар у HTML?
 
 - [ ] `//this is a comment`
 - [ ] `/* this is a comment */`
 - [ ] `<! this is a comment ->`
 - [x] `<!-- this is a comment -->`
 
-#### Q59. Which statement is **false**?
+#### Q59. Яке твердження є **хибним**?
 
-- [ ] Inline elements can be nested inside inline elements.
-- [ ] Block elements can be nested inside block elements.
-- [ ] Inline elements can be nested inside block elements.
-- [x] Block elements can be nested inside inline elements.
+- [ ] Inline елементи можуть бути вкладені всередині inline елементів.
+- [ ] Block елементи можуть бути вкладені в block елементи.
+- [ ] Inline елементи можуть бути вкладені в block елементи.
+- [x] Block елементи можуть бути вкладені всередині inline елементів.
 
-#### Q60. What is the best semantic to use Quotes in HTML?
+#### Q60. Яка найкраща семантика для використання лапок у HTML?
 
 `Steve Kruz said: "He will Win"`
 
@@ -1027,7 +1027,7 @@ Use <p> elements, and use CSS properties like margin to control their spacing.
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-[Reference (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
+[Довідка (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
 
 #### Q61. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
