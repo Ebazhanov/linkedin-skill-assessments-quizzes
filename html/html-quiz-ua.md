@@ -1029,62 +1029,62 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 [Довідка (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
 
-#### Q61. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+#### Q61. Як відео виглядатиме на повністю завантаженій веб-сторінці, якщо використовується тег `<video>` і не встановлено атрибут **autoplay**?
 
-- [ ] It will display a random frame from a video, unless the **poster** attribute is set.
-- [x] It will display the first frame of the video, unless the **poster** attribute is set.
-- [ ] It will display nothing unless the **poster** attribute is set.
-- [ ] It will display a black window unless the **poster** attribute is set.
+- [ ] Відображатиме випадковий кадр із відео, якщо не встановлено атрибут **poster**.
+- [x] Відображатиме перший кадр відео, якщо не встановлено атрибут **poster**.
+- [ ] Нічого не відображатиме, якщо не встановлено атрибут **poster**.
+- [ ] Відображатиме чорне вікно, якщо не встановлено атрибут **poster**.
 
-[Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
+[Довідка (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q62. What is the correct way to describe an empty element / Alt.: What is the correct way to describe an empty element, such as a line break tag?
+#### Q62. Як правильно описати порожній елемент / Альтернативний варіант: Як правильно описати порожній елемент, наприклад тег розриву рядка?
 
-- [ ] It has opening and closing tags but no child content.
-- [ ] It displays nothing on a website.
-- [x] It has no child content and no closing tag.
-- [ ] It has child content but no closing tag.
+- [ ] Він має відкриваючі та закриваючі теги, але не має дочірнього вмісту.
+- [ ] Він нічого не відображає на веб-сайті.
+- [x] Він не має дочірнього вмісту та закриваючого тегу.
+- [ ] Він має дочірній вміст, але не має закриваючого тегу.
 
-[Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
+[Довідка (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q63. What is the purpose of async in this code?
+#### Q63. Яка мета async в цьому коді?
 
 `<script async src="myscript.js"></script>`
 
-- [ ] It downloads the script from the server when resources allow.
-- [ ] It runs the script after HTML parsing is complete.
-- [x] It runs the script when the script is ready.
-- [ ] It pauses the parsing of HTML code while the script runs.
+- [ ] Він завантажує сценарій із сервера, коли дозволяють ресурси.
+- [ ] Він запускає сценарій після завершення аналізу HTML.
+- [x] Він запускає сценарій, коли сценарій готовий.
+- [ ] Він призупиняє розбір HTML-коду під час виконання сценарію.
 
-#### Q64. What does this code do on a page you are visiting for the first time?
+#### Q64. Що цей код робить на сторінці, яку ви відвідуєте вперше?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
-- [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
-- [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
-- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any time.
-- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
+- [ ] Коли натиснуто кнопку **Відтворити**, браузер відтворює звук знову і знову, доки користувач не зупинить його.
+- [ ] Браузер автоматично відтворює звук у фоновому режимі. Користувач не може контролювати звук.
+- [ ] Браузер автоматично та постійно відтворює звук у фоновому режимі. Користувач може в будь-який момент зупинити звук.
+- [x] Нічого не робить. Сучасні браузери вимагають певної форми взаємодії, перш ніж дозволити автовідтворення сторінки зі звуком.
 
 1. [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
 2. [(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-#### Q65. What is the difference between the `<head>` and `<header>` tags?
+#### Q65. Яка різниця між тегами `<head>` і `<header>`?
 
-- [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
-- [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
-- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page-identifying content.
-- [x] All of the above.
+- [ ] Існує лише один тег `<head>` на сторінці, тоді як тегів `<header>` може бути багато.
+- [ ] Тег `<head>` може містити посилання на CSS і Javascript, тоді як тег `<header>` може містити заголовки та навігаційні посилання.
+- [ ] Тег `<head>` містить метаінформацію, а тег `<header>` містить навігацію, логотипи та інший вміст, що ідентифікує сторінку.
+- [x] Все вищезазначене.
 
-#### Q66. In this code, what is the purpose of defer?
+#### Q66. Яка мета defer у цьому коді?
 
 `<script defer src="myscript.js"></script>`
 
-- [ ] It downloads the script from the server when resources allow.
-- [x] It runs the script after HTML parsing is complete.
-- [ ] It runs the script when the script is ready.
-- [ ] It pauses the parsing of HTML code while the script runs.
+- [ ] Він завантажує сценарій із сервера, коли дозволяють ресурси.
+- [x] Він запускає сценарій після завершення аналізу HTML.
+- [ ] Він запускає сценарій, коли сценарій готовий.
+- [ ] Він призупиняє розбір HTML-коду під час виконання сценарію.
 
-#### Q67. The code below contains some errors. Which choice corrects all of the errors?
+#### Q67. Наведений нижче код містить деякі помилки. Який варіант виправляє всі помилки?
 
 ```HTML
 <table>
@@ -1158,7 +1158,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q68. Given the file and directory structure shown here, what is the correct element to place in the file profit.html to link to info.html?
+#### Q68. Враховуючи наведену тут структуру файлів та каталогів, який правильний елемент розмістити у файлі profit.html для посилання на info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1167,16 +1167,16 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `<a href="../../info.html">See Information </a>`
 - [ ] `<a href="info.html">See Information </a>`
 
-#### Q69. When should you use the `<article>` element?
+#### Q69. Коли слід використовувати елемент `<article>`?
 
-- [ ] For blog posts and other social media items
-- [ ] For the main content area of your website
-- [x] When the content stands alone as a unit, is suitable for syndication, or is reusable
-- [ ] To associate comments with a blog post
+- [ ] Для публікацій у блогах та інших елементах соціальних мереж
+- [ ] Для основної області вмісту веб-сайту
+- [x] Коли вміст є окремою одиницею, придатний для синдикації або багаторазового використання
+- [ ] Щоб пов’язати коментарі з публікацією в блозі
 
-[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+[Довідка (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q70. Which list comprises three empty elements?
+#### Q70. Який список складається з трьох порожніх елементів?
 
 - [ ] A
 
@@ -1210,34 +1210,34 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <source />
 ```
 
-#### Q71. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+#### Q71. Після натискання якого фрагмента HTML здійснюється телефонний дзвінок на мобільному пристрої?
 
 - [x] `<a href="tel:802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
 - [ ] `<a href="phone:802-555-1212">Call me</a>`
 
-#### Q72. What is the purpose of the `class` attribute?
+#### Q72. Яке призначення атрибута `class`?
 
-- [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
-      separated by spaces.
-- [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
-- [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
-- [x] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
-      as you wish, separated by spaces.
+- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно імен класів в атрибуті класу,
+ розділені пробілами.
+- [ ] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута класу.
+- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута класу.
+- [x] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно назв класів в      атрибуті класу
+ як завгодно, розділені пробілами.
 
-[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
+[Довідка (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
-#### Q73. Which choice is not a legal type attribute for the `<input>` tag?
+#### Q73. Який вибір не є допустимим атрибутом типу для тегу `<input>`?
 
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
 - [ ] `<input type="week">`
 - [x] `<input type="num">`
 
-[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
+[Довідка (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
-#### Q74. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+#### Q74. Який найбільш семантичний спосіб позначити це речення, щоб «happy talk must die» відтворювалося як вбудована цитата?
 
 As Steve Krug once said, happy talk must die.
 
@@ -1246,12 +1246,12 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
 - [x] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
 
-[Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
+[Джерело: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
 
-**`<q>` tag**
-`Most browsers will display q tags as inline elements with quotes`
+**`<q>` тег**
+`Більшість браузерів відображатимуть теги q як вбудовані елементи в лапках`
 
-#### Q75. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+#### Q75. Який найбільш семантично точний спосіб створити головну навігаційну панель, що відображається в горизонтальному напрямку?
 
 - [ ] A
 
@@ -1297,7 +1297,7 @@ As Steve Krug once said, happy talk must die.
 </nav>
 ```
 
-#### Q76. Which choice is the best way to mark up this layout?
+#### Q76. Який вибір є найкращим способом розмітки цього макета?
 
 ![Image of footer](images/ss-8.png?raw=true)
 
@@ -1349,31 +1349,31 @@ As Steve Krug once said, happy talk must die.
 </p>
 ```
 
-[Source: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
+[Джерело: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
 
-`The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italics, and browsers will always add a line break before and after the <address> element.`
+`Тег <address> визначає контактну інформацію автора/власника документа чи статті. Контактною інформацією може бути адреса електронної пошти, URL-адреса, фізична адреса, номер телефону, ідентифікатор соціальної мережі тощо. Текст в елементі <address> зазвичай відображається курсивом, і браузери завжди додають розрив рядка перед і після елементу <address>.`
 
-#### Q77. What is the primary purpose of HTML?
+#### Q77. Яке основне призначення HTML?
 
-- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
-- [ ] HTML structures and provides a rudimentary look to webpages.
-- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
-- [ ] HTML is responsible for the structure and styling of webpages.
+- [x] HTML структурує веб-сторінку, ідентифікуючи її елементи, такі як абзаци, заголовки та списки.
+- [ ] HTML структурує та забезпечує елементарний вигляд веб-сторінок.
+- [ ] HTML відповідає за структуру, стиль та інтерактивність веб-сторінок.
+- [ ] HTML відповідає за структуру та стиль веб-сторінок.
 
-#### Q78. For the HTML code below, when will "Sample Text" display to the browser?
+#### Q78. Коли для наведеного нижче HTML-коду у браузері відобразиться «Sample Text»?
 
 ```html
 <noscript>Sample Text</noscript>
 ```
 
-- [ ] when there is no JavaScript used on this webpage
-- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
-- [ ] when JavaScript is disabled in the web browser
-- [ ] when JavaScript is not supported by the web browser
+- [ ] коли на цій веб-сторінці не використовується JavaScript
+- [x] коли JavaScript не підтримується браузером або якщо JavaScript вимкнено в браузері
+- [ ] коли JavaScript вимкнено у веб-браузері
+- [ ] коли JavaScript не підтримується веб-браузером
 
-[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+[Довідка (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
 
-#### Q79. How will this code render by default in most web browsers?
+#### Q79. Як цей код відображатиметься за замовчуванням у більшості браузерів?
 
 ```HTML
 <details>
@@ -1393,22 +1393,22 @@ As Steve Krug once said, happy talk must die.
 - [ ] D
       ![D](images/Q84-4.jpg)
 
-#### Q80. What is the difference between the `<svg>` and `<canvas>`?
+#### Q80. Яка різниця між `<svg>` і `<canvas>`?
 
-- [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
-- [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
-- [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
-- [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
+- [x] `<svg>` створює векторну графіку, тоді як `<canvas>` створює растрову графіку.
+- [ ] `<svg>` інтегрується з JavaScript, а `<canvas>` — ні.
+- [ ] `<svg>` створює растрову графіку, тоді як `<canvas>` створює векторну графіку.
+- [ ] `<svg>` не можна використовувати як фонове зображення, тоді як `<canvas>` можна використовувати як фонове зображення
 
-#### Q81. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
+#### Q81. Яка різниця між атрибутами _readonly_ і _disabled_ для елемента `<textarea>`?
 
-- [x] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
-- [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
-- [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
-- [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
+- [x] _readonly_ дозволяє клацати елемент `<textarea>`. _disabled_ запобігає будь-якій взаємодії з елементом.
+- [ ] _readonly_ є недійсним атрибутом для `<textarea>`, тоді як _disabled_ є дійсним атрибутом.
+- [ ] _disabled_ дозволяє клацати елемент `<textarea>`. _readonly_ запобігає будь-якій взаємодії з елементом.
+- [ ] _disabled_ є недійсним атрибутом для `<textarea>`, тоді як _readonly_ є дійсним атрибутом.
 
-1. [Source: readonly](https://www.w3schools.com/tags/att_readonly.asp)
-2. [Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
+1. [Джерело: readonly](https://www.w3schools.com/tags/att_readonly.asp)
+2. [Джерело: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
 #### Q82. In this code, what is _target_?
 
