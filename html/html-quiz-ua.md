@@ -1410,16 +1410,16 @@ As Steve Krug once said, happy talk must die.
 1. [Джерело: readonly](https://www.w3schools.com/tags/att_readonly.asp)
 2. [Джерело: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
-#### Q82. In this code, what is _target_?
+#### Q82. Що таке _target_ у цьому коді?
 
 `<a target="_blank">...</a>`
 
-- [x] an attribute
-- [ ] a tag
-- [ ] content
-- [ ] an element
+- [x] атрибут
+- [ ] тег
+- [ ] вміст
+- [ ] елемент
 
-#### Q83. What is the correct way to add a submit URL to a `button` element?
+#### Q83. Який правильний спосіб додати URL-адресу для надсилання до елемента `button`?
 
 - [ ] A
 
@@ -1445,9 +1445,9 @@ As Steve Krug once said, happy talk must die.
 <button method="http://example.com/process">Process data</button>
 ```
 
-`formation — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
+`formation — URL-адреса, яка обробляє інформацію, надіслану кнопкою. Перевизначає атрибут дії власника форми кнопки. Нічого не робить, якщо немає власника форми.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
 
-#### Q84. Which is the best markup to produce this text?
+#### Q84. Яка найкраща розмітка для створення цього тексту?
 
 `x<y&z>w`
 
@@ -1456,49 +1456,49 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>x<<y&&z>>w`
 - [ ] `<p>x<y&z>w</p>`
 
-`This question has an issue, however this answer will count as correct`
-`It's too strange a question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
+`У цьому питанні є проблема, але ця відповідь вважатиметься правильною.`
+`Це надто дивне питання, тому що всі ці методи не працюють. Хорошим методом є використання &amp, &lt, &gt.`
 
-#### Q85. What is wrong with this code snippet?
+#### Q85. Що не так із цим фрагментом коду?
 
 ```HTML
 <label>Address:</label> <input type="text" name="address" id="address-input" />
 ```
 
-- [ ] The `<label>` and `<input>` should be nested inside of a `<fieldset>` element.
-- [ ] **"address"** is not a valid value for the attribute **name** on an `<input>` element.
-- [ ] The `<label>` element is missing an **id** set to "address-input".
-- [x] The `<label>` element is missing a **for** attribute set to "address-input".
+- [ ] `<label>` і `<input>` мають бути вкладені в елемент `<fieldset>`.
+- [ ] **"address"** не є дійсним значенням для атрибута **name** в елементі `<input>`.
+- [ ] В елементі `<label>` відсутній **id** зі значенням "address-input".
+- [x] В елементі `<label>` відсутній атрибут **for** зі значенням "address-input".
 
-#### Q86. What is the default method for form submission?
+#### Q86. Який метод подання форми стандартний?
 
 - [x] GET
 - [ ] POST
 - [ ] PUT
 - [ ] SUBMIT
 
-#### Q87. Which is the most semantically correct markup for a side comment in small print?
+#### Q87. Яка розмітка є найбільш семантично правильною для бічного коментаря дрібним шрифтом?
 
 - [x] `<p>` Get 10% discount `<small>`not valid in France`</small></p>`
 - [ ] `<p>` Get 10% discount `<!--not valid in France--> </p>`
 - [ ] `<p>` Get 10% discount `<comment>`not valid in France`</comment></p>`
 - [ ] `<p>` Get 10% discount `<aside>`not valid in France`</aside></p>`
 
-#### Q88. Which choice will produce the Spanish word <i>canción</i>?
+#### Q88. Який варіант дасть іспанське слово <i>canción</i>?
 
 - [x] `<p lang="es">canción</p>`
 - [ ] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
 
-#### Q89. What is the purpose of `<caption>`?
+#### Q89. Яке призначення `<caption>`?
 
-- [ ] `<caption>` provides captions for `<audio>`,`<video>`,`<img>`, and `<table>`.
-- [x] `<caption>` provides captions to `<table>`.
-- [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
-- [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
+- [ ] `<caption>` надає підписи для `<audio>`,`<video>`,`<img>` та `<table>`.
+- [x] `<caption>` надає підписи для `<table>`.
+- [ ] `<caption>` надає підписи для `<audio>`, `<video>` і `<table>`.
+- [ ] `<caption>` надає підписи для `<img>`, `<audio>` і `<video>`.
 
-#### Q90. The `value` attribute is associated with which set of tags?
+#### Q90. З яким набором тегів пов’язано атрибут `value`?
 
 - [x] A
 
@@ -1532,27 +1532,27 @@ As Steve Krug once said, happy talk must die.
 <input /> <label> <meter></meter></label>
 ```
 
-#### Q91. What is wrong with this code?
+#### Q91. Що не так з цим кодом?
 
 `<img src="https://source.unsplash.com/random">`
 
-- [ ] `<img>` should be paired with a `<caption>` tag.
-- [x] The `<img>` element is missing an alt attribute.
-- [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
-- [ ] `<img>` should be nested within a `<figure>` tag.
+- [ ] `<img>` має поєднуватися з тегом `<caption>`.
+- [x] В елементі <img> відсутній атрибут alt.
+- [ ] `<img>` не є дійсним елементом HTML. Натомість використовуйте `<image src="..."/>`.
+- [ ] `<img>` має бути вкладено в тег `<figure>`.
 
-#### Q92. Which choice is the most semantically correct markup for specifying the first definition of a term?
+#### Q92. Який варіант є найбільш семантично правильною розміткою для визначення першого терміна?
 
 - [ ] `<p>`The `<dl>`focal length`</dl>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [x] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
 
-**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence.`<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside an <dl> element.`<br>`**Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
+**Визначення** `definition element => <dfn> Елемент HTML використовується для вказівки терміна, який визначається в контексті фрази визначення або речення.`<br>`**Елемент Description Term => <dt> HTML визначає термін в описі або списку визначень, і тому має використовуватися всередині елемента <dl>.`<br>`**Description Details element => <dd> Елемент HTML надає опис, визначення або значення для попереднього терміну (<dt>) у списку опису (<dl>).`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
-#### Q93. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+#### Q93. Який вибір є найкращим способом кодування трьох варіантів у формі, щоб користувач міг вибрати кілька елементів?
 
 - [ ] :
 
@@ -1586,47 +1586,47 @@ As Steve Krug once said, happy talk must die.
 <label><input type="radio" name="example" /> Choice 3</label>
 ```
 
-`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated as you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally, this is a square but it may have rounded corners.`
+`<input> елементи типу checkbox відображаються за замовчуванням як поля, які позначаються (відзначаються галочками) після активації, як ви можете побачити в офіційній державній паперовій формі. Точний вигляд залежить від конфігурації операційної системи, під якою працює браузер. Зазвичай це квадрат, але він може мати закруглені кути.`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-#### Q94. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
+#### Q94. Як би ви позначили фрагмент ASCII-арту (смайлик) доступним способом?
 
 - [x] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<pre role="img" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<dfn title="ASCII emoticon of a shrug">¯\_(ツ)_/¯</dfn>`
 - [ ] `<label for="art">ASCII emoticon of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
 
-#### Q95. Which example is a standard way in HTML5 for adding author metadata to a page?
+#### Q95. Який приклад є стандартним способом у HTML5 для додавання метаданих автора на сторінку?
 
 - [ ] `<metadata name="author" content="Author Name">`
 - [ ] `<meta name="author">Author Name</meta>`
 - [ ] `<meta name="creator" content="Author Name">`
 - [x] `<meta name="author" content="Author Name">`
 
-#### Q96. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5
+#### Q96. Враховуючи наведені нижче вимоги, виберіть правильну конфігурацію `input`: `input`, який дозволяє користувачеві вибирати з діапазону цілих значень від 0 до 100 (включно) з кроком 5
 
 - [ ] `<input type="range" min="0" max="100" by="5" />`
 - [x] `<input type="range" min="0" max="100" step="5" />`
 - [ ] `<input type="number" min="0" max="100" step="5" />`
 - [ ] `<input type="number" min="0" max="100" by="5" />`
 
-`<input> elements of type range let the user specify a numeric value which must be no less than a given value and no more than another given value. The step attribute is a number that specifies the granularity that the value must adhere to.`
+`Елементи <input> типу range дозволяють користувачеві вказати числове значення, яке має бути не менше та не більше заданого значення. Атрибут step — це число, яке вказує ступінь деталізації, якої має відповідати значення.`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
 
-#### Q97. Which choice is a valid markup for a `<head>` element?
+#### Q97. Який варіант є правильною розміткою для елемента `<head>`?
 
 - [x] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
 - [ ] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
-`The <head> HTML element contains machine-readable information (metadata) about the document, like its title. The <data> tag is used to add a machine-readable translation of a given content.`
-[Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
-[Source 2](https://www.w3schools.com/tags/tag_data.asp)
+`HTML-елемент <head> містить машиночитану інформацію (метадані) про документ, наприклад його назву. Тег <data> використовується для додавання машинозчитуваного перекладу даного вмісту.`
+[Джерело 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
+[Джерело 2](https://www.w3schools.com/tags/tag_data.asp)
 
-#### Q98. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
+#### Q98. Вам необхідно додавати коментарі в блог компанії. Яка найбільш семантична розмітка для списку коментарів?
 
 - [x] A
 
@@ -1668,27 +1668,27 @@ As Steve Krug once said, happy talk must die.
 </div>
 ```
 
-`The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example: a user-submitted comment.`
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+`HTML-елемент <article> представляє самодостатню композицію в документі, сторінці, програмі чи сайті, яка призначена для незалежного розповсюдження або повторного використання (наприклад, у синдикації). Приклад: коментар, надісланий користувачем.`
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q99. To make something editable by the user, you need to set the **\_** attribute to **\_**
+#### Q99. Щоб зробити щось редагованим користувачем, вам потрібно встановити атрибут **\_** на **\_**
 
 - [ ] `access`; allow
 - [ ] `designMode`; true
 - [x] `contenteditable`; true
 - [ ] `contenteditable`; yes
 
-`The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values: true or an empty string, which indicates that the element is editable; false, which indicates that the element is not editable.`
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
+`Глобальний атрибут contenteditable — це перерахований атрибут, який вказує, чи має елемент бути доступним для редагування користувачем. Якщо так, браузер змінює свій віджет, щоб дозволити редагування. Атрибут повинен приймати одне з таких значень: true або порожній рядок, який вказує на те, що елемент можна редагувати; false, що означає, що елемент не можна редагувати.`
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
 
-#### Q100. Which choice is the standard way to include a value in a form without making it visible to or editable by the user?
+#### Q100. Який варіант є стандартним способом включення значення у форму, не роблячи його видимим або редагованим користувачем?
 
 - [ ] `<input type="invisible" name="important" value="information">`
 - [ ] `<input type="text" style="display: none;" name="important" value="information">`
 - [x] `<input type="hidden" name="important" value="information">`
 - [ ] `<input type="text" hidden name="important" value="information">`
 
-`<input> elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
+`<input> елементи типу hidden дозволяють веб-розробникам включати дані, які користувачі не можуть побачити або змінити під час надсилання форми. Наприклад, ідентифікатор вмісту, який зараз замовляється або редагується, або унікальний маркер безпеки. Приховані inputи абсолютно невидимі на відтворені на сторінці, і немає способу зробити їх видимими у вмісті сторінки.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
 
 #### Q101. What is the semantic way to add an identifying title to a table?
 
