@@ -1690,16 +1690,16 @@ As Steve Krug once said, happy talk must die.
 
 `<input> елементи типу hidden дозволяють веб-розробникам включати дані, які користувачі не можуть побачити або змінити під час надсилання форми. Наприклад, ідентифікатор вмісту, який зараз замовляється або редагується, або унікальний маркер безпеки. Приховані inputи абсолютно невидимі на відтворені на сторінці, і немає способу зробити їх видимими у вмісті сторінки.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
 
-#### Q101. What is the semantic way to add an identifying title to a table?
+#### Q101. Який семантичний спосіб додати ідентифікаційний заголовок до таблиці?
 
 - [ ] `<table><label>Heading</label>...</table>`
 - [ ] `<table><title>Heading</title>...</table>`
 - [ ] `<table><legend>Heading</legend>...</table>`
 - [x] `<table><caption>Heading</caption>...</table>`
 
-`The <caption> HTML element specifies the caption (or title) of a table.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
+`HTML-елемент <caption> визначає заголовок (або назву) таблиці.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
 
-#### Q102. Which image file referenced in this `img` element's `srcset` attribute should a browser on a small mobile phone load?
+#### Q102. Який файл зображення, на який посилається атрибут `srcset` цього елемента `img`, має завантажувати браузер на маленькому мобільному телефоні?
 
 ```html
 <img
@@ -1712,12 +1712,12 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] small.jpg
 - [ ] medium.jpg
-- [ ] none of them
+- [ ] ніщо з цього
 - [x] large.jpg
 
-`The browser will: 1. Look at its device width. 2. Work out which media condition in the sizes list is the first one to be true. 3. Look at the slot size given to that media query. 4. Load the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size.` [Source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+`Браузер: 1. Перегляне ширину пристрою. 2. Визначить, яка умова носія у списку розмірів є першою вірною. 3. Подивиться на розмір слота, наданого цьому медіа-запиту. 4. Завантажить зображення, указане в списку srcset, яке має той самий розмір, що й слот, або, якщо його немає, перше зображення, яке більше за вибраний розмір слота.` [Джерело](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-#### Q103. Which description is coded correctly?
+#### Q103. Який опис закодовано правильно?
 
 - [x] A
 
@@ -1763,10 +1763,10 @@ As Steve Krug once said, happy talk must die.
 </dl>
 ```
 
-[Source 1](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
-[Source 2](https://www.w3schools.com/tags/tag_dl.asp)
+[Джерело 1](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
+[Джерело 2](https://www.w3schools.com/tags/tag_dl.asp)
 
-#### Q104. What is wrong with this code?
+#### Q104. Що не так з цим кодом?
 
 ```html
 <ul>
@@ -1778,21 +1778,21 @@ As Steve Krug once said, happy talk must die.
 </ul>
 ```
 
-- [ ] Nothing is wrong.
-- [x] `<ul>` cannot contain a heading element as a direct child.
-- [ ] An `<h1>` should be used here instead of an `<h2>` tag.
-- [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
+- [ ] Все добре.
+- [x] `<ul>` не може містити елемент заголовка як прямий дочірній елемент.
+- [ ] Тут слід використовувати `<h1>` замість тегу `<h2>`.
+- [ ] Лише `<ol>` дозволяє прямим нащадкам містити елементи, окрім `<li>`, тому використовуйте `<ol>` замість цього.
 
-`ul content model only accepts "Zero or more li and script-supporting elements".` [Source](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
+`ul content model приймає лише "Нуль або більше li та елементів підтримки скрипта".` [Джерело](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 
-#### Q105. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
+#### Q105. Дизайнер надав вам код CSS, який має запускатися лише тоді, коли пристрій, що відображає сторінку, перебуває в темному режимі. Як би ви вставили цей код?
 
 - [ ] `<style media="light-mode: false">/* CSS code */</style>`
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
 - [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
 
-#### Q106. How would you mark up a header for a table row?
+#### Q106. Як би ви розмітили заголовок для рядка таблиці?
 
 - [ ] A
 
@@ -1846,16 +1846,16 @@ As Steve Krug once said, happy talk must die.
 </table>
 ```
 
-#### Q107. Which statement is correct?
+#### Q107. Яке твердження правильне?
 
-- [ ] The `<main>` element represents the dominant content of an `<article>` in a document.
-- [ ] The `<main>` element represents the dominant content of a `<section>` of a document. You may have one `<main>` element per section.
-- [x] The `<main>` element represents the dominant content of your document. There can be only one `<main>` element that is not hidden.
-- [ ] The `<article>` element represents the dominant content of your document. There can be only one `<article>` element that is not hidden.
+- [ ] Елемент `<main>` представляє основний вміст `<article>` в документі.
+- [ ] Елемент `<main>` представляє основний вміст `<section>` документа. Ви можете мати лише один елемент `<main>` на розділ.
+- [x] Елемент `<main>` представляє основний вміст документа. Може бути лише один елемент `<main>`, який не буде прихованим.
+- [ ] Елемент `<article>` представляє основний вміст документа. Може бути лише один не прихований елемент `<article>`.
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
 
-#### Q108. Users report that a form is not working. What is the culprit?
+#### Q108. Користувачі повідомляють, що форма не працює. У чому проблема?
 
 ```HTML
 <form action="/choices" disabled>
@@ -1870,14 +1870,14 @@ As Steve Krug once said, happy talk must die.
 </form>
 ```
 
-- [ ] The form element is disabled.
-- [ ] There is no <input type="submit"> element.
-- [x] The fieldset is disabled.
-- [ ] There is no method set on the form.
+- [ ] Елемент form вимкнено.
+- [ ] Немає елемента <input type="submit">.
+- [x] fieldset вимкнено.
+- [ ] У формі не встановлено метод.
 
-A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
+Вимкнений набір полів непридатний для використання та натискання. [Джерело](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
 
-#### Q109. Which description list is coded correctly?
+#### Q109. Який список описів закодовано правильно?
 
 - [x] A
 
@@ -1923,71 +1923,71 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </dl>
 ```
 
-#### Q110. what does the a in the HTML tag stand for?
+#### Q110. Що означає `a` в тегу HTML?
 
 - [ ] assign
 - [ ] add tag
 - [x] anchor tag
-- [ ] None of the above
+- [ ] Жоден з вказаних
 
-[Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
+[Джерело](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
 
-#### Q111. What is the correct HTML element for inserting a line break?
+#### Q111. Який правильний елемент HTML для вставки розриву рядка?
 
 - [ ] `<break>`
 - [ ] `<lb>`
 - [x] `<br>`
 - [ ] `<a>`
 
-#### Q112. The HTML global attribute, "contenteditable" is used to
+#### Q112. Глобальний атрибут HTML "contenteditable" використовується для
 
-- [ ] Update content from the server
-- [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
-- [x] Specify whether the content of an element should be editable or not
-- [ ] Return the position of the first found occurrence of content inside a string
+- [ ] Щоб оновити вміст із сервера
+- [ ] Визначає контекстне меню для елемента. Меню з’являється, коли користувач клацає елемент правою кнопкою миші.
+- [x] Вказує, чи вміст елемента має бути редагованим чи ні
+- [ ] Повертає позицію першого знайденого вмісту всередині рядка
 
-#### Q113. HTML elements that aren't meant to store content or other elements are called **\_** elements
+#### Q113. Елементи HTML, які не призначені для зберігання вмісту, або іншіх елементів, називаються елементами **\_**
 
 - [x] void
 - [ ] independent
 - [ ] empty
 - [ ] paragraph
 
-[Source](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
+[Джерело](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
 
-#### Q114. The **\_** attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to
+#### Q114. Атрибут **\_** елемента HTML label є механізмом посилань, щоб визначити, до якого input або елемента прив’язана мітка
 
 - [ ] to
 - [ ] of
 - [ ] with
 - [x] for
 
-[Source](https://www.w3schools.com/tags/att_label_for.asp)
+[Джерело](https://www.w3schools.com/tags/att_label_for.asp)
 
-#### Q115. Coding in HTML provides which of the following?
+#### Q115. Що з наведеного нижче забезпечує кодування в HTML?
 
-- [ ] The responsiveness of the website
-- [ ] The style of the website
-- [x] The core website structure
-- [ ] The behavior of web elements
+- [ ] Чуйність веб-сайту
+- [ ] Стиль сайту
+- [x] Основна структура веб-сайту
+- [ ] Поведінка веб-елементів
 
-#### Q116. Which HTML element is the container for all the renderable aspects of the document?
+#### Q116. Який елемент HTML є контейнером для всіх аспектів документа, які можна відобразити?
 
 - [ ] head
 - [x] body
 - [ ] title
 - [ ] meta
 
-#### Q117. The "h" in the HTML h1 tag is short for **\_**
+#### Q117. "h" у тегу HTML h1 є скороченням від **\_**
 
 - [ ] head
 - [ ] horizontal
 - [ ] hypertext
 - [x] heading
 
-[Source](https://www.w3schools.com/html/html_headings.asp)
+[Джерело](https://www.w3schools.com/html/html_headings.asp)
 
-#### Q118. Which is an invalid use of the `<a>` element?
+#### Q118. Що є недійсним використанням елемента `<a>`?
 
 - [ ] A
 
@@ -2024,21 +2024,21 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </a>
 ```
 
-#### Q119. How to display preformatted text in HTML?
+#### Q119. Як відобразити попередньо відформатований текст у HTML?
 
 - [ ] `<p>`
 - [x] `<pre>`
 - [ ] `<hr>`
-- [ ] All of the above
+- [ ] Все вищеперераховане
 
-#### Q120. Which is a valid title element?
+#### Q120. Який елемент title є дійсним?
 
 - [ ] `<title><em>Exciting</em> title</title>`
 - [ ] `<title></title>`
 - [ ] `<title name="Exciting Title" />`
 - [x] `<title>Exciting title</title>`
 
-[Source](https://www.w3schools.com/tags/tag_title.asp)
+[Джерело](https://www.w3schools.com/tags/tag_title.asp)
 
 #### Q121. Which link contains a valid URL?
 
