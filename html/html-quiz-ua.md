@@ -2040,35 +2040,35 @@ As Steve Krug once said, happy talk must die.
 
 [Джерело](https://www.w3schools.com/tags/tag_title.asp)
 
-#### Q121. Which link contains a valid URL?
+#### Q121. Яке посилання містить дійсну URL-адресу?
 
 - [ ] `<link rel="stylesheet" href="/styles for me/styles.css">`
 - [ ] `<link rel="stylesheet" href="/styles|for|me/styles.css">`
 - [ ] `<link rel="css" href="\styles for me\styles.css">`
 - [x] `<link rel="stylesheet" href="/styles%20for%20me/styles.css">`
 
-[Source 1](https://www.w3schools.com/tags/att_link_href.asp)
-[Source 2](https://www.sistrix.com/ask-sistrix/technical-seo/site-structure/do-i-have-to-convert-the-spaces-in-urls)
+[Джерело 1](https://www.w3schools.com/tags/att_link_href.asp)
+[Джерело 2](https://www.sistrix.com/ask-sistrix/technical-seo/site-structure/do-i-have-to-convert-the-spaces-in-urls)
 
-#### Q122. Which example is missing a mandatory closing tag, making it invalid?
+#### Q122. У якому прикладі відсутній обов’язковий закриваючий тег, що робить його недійсним?
 
 - [ ] `<p>Simple paragraph`
 - [x] `<ul><li>Simple list</li>`
 - [ ] `<ul><li>Simple list<ul>`
 - [ ] `<dl><dt>Simple term<dd>Simple description</dl>`
 
-[Source](https://blog.teamtreehouse.com/to-close-or-not-to-close-tags-in-html5)
+[Джерело](https://blog.teamtreehouse.com/to-close-or-not-to-close-tags-in-html5)
 
-#### Q123. What is the semantic method for marking up a video with a caption in browsers that support it?
+#### Q123. Який семантичний метод позначання відео субтитрами в браузерах, які його підтримуют?
 
 - [ ] `<video src="video.mp4" caption="video.vtt"></video>`
 - [ ] `<video src="video.mp4"><track caption="video.vtt" /></video>`
 - [x] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
 - [ ] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
 
-#### Q124. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accessible?
+#### Q124. Білий аркуш має бічну панель і кінцеві виноски, які доповнюють основний текст. Як би ви позначили їх, щоб зробити їхні різні ролі більш доступними?
 
 - [ ] A
 
@@ -2097,27 +2097,27 @@ label="Endnotes">Endnotes...</custom-footnote>
 <aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
 ```
 
-[Source](https://www.w3.org/TR/wai-aria-practices-1.2/#doc_noteref)
+[Джерело](https://www.w3.org/TR/wai-aria-practices-1.2/#doc_noteref)
 
-#### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accessible?
+#### Q125. Білий аркуш має бічну панель і кінцеві виноски, які доповнюють основний текст. Як би ви позначили їх, щоб зробити їхні різні ролі більш доступними?
 
 - [x] `<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>`
 - [ ] `<custom-sidebar aria-label="Sidebar">Sidebar...</custom-sidebar><custom-footnote aria-label="Endnotes">Endnotes...</custom-footnote>`
 - [ ] `<aside role="Sidebar">Sidebar...</aside><aside role="Endnotes">Endnotes...</aside>`
 - [ ] `<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes...</aside>`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
-#### Q126. Which video example will autoplay in most browsers?
+#### Q126. Який приклад відео автоматично відтворюватиметься в більшості браузерів?
 
 - [x] `<video src="video.mp4" autoplay muted></video>`
 - [ ] `<video src="video.mp4" background></video>`
 - [ ] `<video src="video.mp4" autoplay></video>`
 - [ ] `<video src="video.mp4" autoplay="force"></video>`
 
-[Source](https://stackoverflow.com/questions/65157672/force-html5-video-autoplay-unmuted)
+[Джерело](https://stackoverflow.com/questions/65157672/force-html5-video-autoplay-unmuted)
 
-#### Q127. In which order will these scripts execute, assuming they all take the same time to download?
+#### Q127. У якому порядку виконуватимуться ці сценарії, якщо припустити, що для завантаження їм потрібен однаковий час?
 
 ```HTML
 <script type="module" src="module.js"></script>
@@ -2136,16 +2136,18 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [x] external module, async, defer, inline module
 - [ ] inline module, external module, defer, async
 
-#### Q128. What is the backward-compatible method of turning a circle in an SVG into a link?
+#### Q128. Який зворотно-сумісний метод перетворює коло у SVG на посилання?
 
 - [ ] `<html:a href="/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>`
 - [ ] `<a svg:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
 - [ ] `<a href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
 - [x] `<a href="/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>`
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href)
 
-#### Q129. Users report that a form is not working. What is the culprit?
+`xlink:href` - Застаріле: ця функція більше не рекомендована. Хоча деякі браузери все ще можуть підтримувати її, її можливо, уже вилучено з відповідних веб-стандартів, вона може бути в процесі видалення або збережена лише для цілей сумісності. Уникайте її використання та оновіть існуючий код, якщо можливо;
+
+#### Q129. Користувачі повідомляють, що форма не працює. Яка причина?
 
 ```HTML
   <form action="/choices" disabled>
@@ -2160,12 +2162,12 @@ label="Endnotes">Endnotes...</custom-footnote>
   </form>
 ```
 
-- [x] There is no <input type="submit"> element.
-- [ ] There is no method set on the form.
-- [ ] The form element is disabled.
-- [ ] The fieldset is disabled.
+- [x] Немає елемента <input type="submit">.
+- [ ] У формі не встановлено метод.
+- [ ] Елемент форми вимкнено.
+- [ ] Набір полів вимкнено.
 
-#### Q130. What is wrong with this table?
+#### Q130. Що не так з цією таблицею?
 
 ```HTML
 <table>
@@ -2187,12 +2189,12 @@ label="Endnotes">Endnotes...</custom-footnote>
 </table>
 ```
 
-- [ ] A table can only have one tbody element.
-- [ ] legend must appear at the end of a table element.
-- [ ] legend is not allowed in a table element.
-- [x] All col elements must be wrapped in a colgroup element.
+- [ ] Таблиця може мати лише один елемент tbody.
+- [ ] Легенда має бути в кінці елемента таблиці.
+- [ ] Легенда не дозволяється в елементі таблиці.
+- [x] Усі елементи col мають бути загорнуті в елемент colgroup.
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
 
 #### Q131. In this code, what is the purpose of the `id` attribute?
 
