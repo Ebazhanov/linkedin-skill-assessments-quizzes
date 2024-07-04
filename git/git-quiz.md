@@ -1420,3 +1420,24 @@ broccoli
 - [ ] @3.2.4
 - [ ] #3.2.4
 - [x] V3.2.4
+
+#### Q159. What is the maximum number of suggestions the completions panel gives at one time?
+
+- [ ] 100
+- [ ] 5
+- [x] 10
+- [ ] 8
+
+#### Q160. You are looking for markdown files in a project, so you type in the following search: repo:planetoftheweb/slides_vue3 \*.md. What does the commits section in the filter by siderbar show?
+
+- [ ] Any commits that you are mentioned on
+- [x] The commits that match your search query
+- [ ] The most recent commits
+- [ ] All the commits you personally made
+
+#### Q161. Your company worked on a popular utility module and you remember that it had between 100 and 200 stars. How would you write qualifiers that would limit that search?
+
+- [x] Stars:100..200
+- [ ] Stars: 100 or 200
+- [ ] Stars:100,200
+- [ ] Stars:100-200
