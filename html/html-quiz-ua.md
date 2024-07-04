@@ -7,7 +7,7 @@
 - [ ] Тег `<track>` використовується для визначення субтитрів, титрів та інших типів тексту пов'язаних з часом. Зазвичай він використовується як дочірній елемент тегу `<video>`.
 - [x] Тег `<track>` використовується для визначення субтитрів, підписів та інших типів тексту пов'язаних з часом. Зазвичай він використовується як дочірній елемент тегів `<audio>` і `<video>`.
 
-#### Q2. Які найкращі приклади порожіх елементів?
+#### Q2. Які найкращі приклади порожніх елементів?
 
 - [ ] `<link><meta><title>`
 - [x] `<br><base><source>`
@@ -19,7 +19,7 @@
 - [ ] `<iframe>, <frame> та <frameset>`
 - [ ] `<frame>`
 - [x] `<iframe>`
-- [ ] `<frame> and <frameset>`
+- [ ] `<frame> та <frameset>`
 
 #### Q4. Де зазвичай зустрічаються теги `<header>` та `<footer>`?
 
@@ -60,17 +60,17 @@
 
 #### Q8. Для чого корисний елемент `<aside>`?
 
-- [x] дозволяє видалити вміст, не відволікаючи від повідомлення сторінки
+- [x] дозволяє видалити вміст, не применшуючи уваги до повідомлення сторінки
 - [ ] для будь-чого, що ви хочете перемістити вбік, як-от поле цитат, бічна панель або зображення з обтіканням текстом
 - [ ] для всього, що в дужках
 - [ ] для будь-чого на бічній панелі
 
 #### Q9. З якими тегами пов’язаний елемент `<source>`?
 
-- [ ] `<svg>, <picture>, <audio>, and <video>`
-- [x] `<picture>, <audio>, and <video>`
+- [ ] `<svg>, <picture>, <audio> та <video>`
+- [x] `<picture>, <audio> та <video>`
 - [ ] Він взаємозамінний з атрибутом `src`, тому будь-який елемент, який використовує `src`, може використовувати `<source>`
-- [ ] `<audio> and <video>`
+- [ ] `<audio> та <video>`
 
 #### Q10. Що НЕ є дійсним атрибутом для елемента `<textarea>`?
 
@@ -139,19 +139,19 @@
 - [ ] Скористатися `<ol>`, якщо потрібен маркований список, і `<ul>`, якщо потрібен нумерований список.
 - [x] Скористатися `<ol>`, якщо є список елементів, у якому порядок елементів має значення. Скористатися `<ul>`, якщо є список елементів, які можна розмістити в будь-якому порядку.
 
-#### Q14. Яка різниця між методами post і get у формі?
+#### Q14. Яка різниця між методами `post і get` у формі?
 
-- [ ] post використовується для надсилання інформації на сервер. get використовується для отримання інформації форми з сервера.
-- [ ] get використовується для надсилання інформації на сервер. post використовується для отримання інформації форми з сервера.
-- [ ] За допомогою get дані включаються в тіло форми під час надсилання на сервер. З post дані передаються через URL-адресу.
-- [x] З post дані включаються в тіло форми. За допомогою get дані проходять через URL-адресу.
+- [ ] `post` використовується для надсилання інформації на сервер. `get` використовується для отримання інформації форми з сервера.
+- [ ] `get` використовується для надсилання інформації на сервер. `post` використовується для отримання інформації форми з сервера.
+- [ ] За допомогою `get` дані включаються в тіло форми під час надсилання на сервер. З `post` дані передаються через URL-адресу.
+- [x] З `post` дані включаються в тіло форми. За допомогою `get` дані проходять через URL-адресу.
 
 #### Q15. Яка різниця між тегами `<div>` і `<span>`?
 
-- [x] `<div>` використовується там, де потрібен загальний тег block, тоді як `<span>` - там, де потрібен загальний inline тег.
+- [x] `<div>` використовується там, де потрібен загальний block тег, тоді як `<span>` - там, де потрібен загальний inline тег.
 - [ ] `<div>` використовується для основних поділів на сторінці, тоді як `<span>` - для поділу на стовпці.
 - [ ] `<div>` є галузевим стандартним тегом за замовчуванням, але ви можете використовувати `<span>` за бажанням.
-- [ ] `<div>` використовується там, де потрібен загальний inline тег, тоді як `<span>` - там, де потрібен загальний тег block.
+- [ ] `<div>` використовується там, де потрібен загальний inline тег, тоді як `<span>` - там, де потрібен загальний block тег.
 
 #### Q16. Що має заповнити порожнечу в HTML-коді нижче?
 
@@ -893,7 +893,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] `http://www.linkedin.com/page.html`
 - [ ] `dir/page.html`
 
-#### Q54. Який правильний спосіб включити таблицю стилів під назвою **style.css** у <head> вашого документа?
+#### Q54. Який правильний спосіб підключити таблицю стилів під назвою **style.css** у `<head>` вашого документа?
 
 - [ ] `<style link="style.css">`
 - [x] `<link rel="stylesheet" href="style.css">`
@@ -924,7 +924,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] Форматує речення, щоб його було легко розбити.
 - [x] Надає можливість розірвати дуже довге слово, якщо це необхідно для правильного відображення сторінки.
 
-#### Q57. Перегляньте наведений нижче код. Як включити вкладену навігацію для Link 2, яке містить Link?
+#### Q57. Перегляньте наведений нижче код. Як включити вкладену навігацію для Link 2, яка містить Link 2а?
 
 ```HTML
 <nav>
@@ -1006,10 +1006,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q58. Який правильний спосіб закодувати коментар у HTML?
 
-- [ ] `//this is a comment`
-- [ ] `/* this is a comment */`
-- [ ] `<! this is a comment ->`
-- [x] `<!-- this is a comment -->`
+- [ ] `//це коментар`
+- [ ] `/* це коментар */`
+- [ ] `<! це коментар ->`
+- [x] `<!-- це коментар -->`
 
 #### Q59. Яке твердження є **хибним**?
 
@@ -1051,10 +1051,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 `<script async src="myscript.js"></script>`
 
-- [ ] Він завантажує сценарій із сервера, коли дозволяють ресурси.
-- [ ] Він запускає сценарій після завершення аналізу HTML.
-- [x] Він запускає сценарій, коли сценарій готовий.
-- [ ] Він призупиняє розбір HTML-коду під час виконання сценарію.
+- [ ] Він завантажує скрипт із сервера, коли дозволяють ресурси.
+- [ ] Він запускає скрипт після завершення аналізу HTML.
+- [x] Він запускає скрипт, коли скрипт готовий.
+- [ ] Він призупиняє розбір HTML-коду під час виконання скрипту.
 
 #### Q64. Що цей код робить на сторінці, яку ви відвідуєте вперше?
 
@@ -1079,10 +1079,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 `<script defer src="myscript.js"></script>`
 
-- [ ] Він завантажує сценарій із сервера, коли дозволяють ресурси.
-- [x] Він запускає сценарій після завершення аналізу HTML.
-- [ ] Він запускає сценарій, коли сценарій готовий.
-- [ ] Він призупиняє розбір HTML-коду під час виконання сценарію.
+- [ ] Він завантажує скрипт із сервера, коли дозволяють ресурси.
+- [x] Він запускає скрипт після завершення аналізу HTML.
+- [ ] Він запускає скрипт, коли скрипт готовий.
+- [ ] Він призупиняє розбір HTML-коду під час виконання скрипту.
 
 #### Q67. Наведений нижче код містить деякі помилки. Який варіант виправляє всі помилки?
 
@@ -1158,7 +1158,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q68. Враховуючи наведену тут структуру файлів та каталогів, який правильний елемент розмістити у файлі profit.html для посилання на info.html?
+#### Q68. Враховуючи наведену тут структуру файлів та каталогів, який елемент потрібно розмістити у файлі profit.html для посилання на info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1219,11 +1219,11 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q72. Яке призначення атрибута `class`?
 
-- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно імен класів в атрибуті класу,
+- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно імен класів в атрибуті class,
  розділені пробілами.
-- [ ] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута класу.
-- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута класу.
-- [x] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно назв класів в      атрибуті класу
+- [ ] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута class.
+- [ ] Класи дозволяють CSS вибирати певні елементи на сторінці. Ви можете вказати лише одну назву класу для атрибута class.
+- [x] Класи дозволяють CSS і JavaScript вибирати певні елементи на сторінці. Ви можете перерахувати скільки завгодно назв класів в      атрибуті class
  як завгодно, розділені пробілами.
 
 [Довідка (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
@@ -1237,7 +1237,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 [Довідка (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
-#### Q74. Який найбільш семантичний спосіб позначити це речення, щоб «happy talk must die» відтворювалося як вбудована цитата?
+#### Q74. Який найбільш семантично вірний спосіб позначити це речення, щоб «happy talk must die» відтворювалося як вбудована цитата?
 
 As Steve Krug once said, happy talk must die.
 
@@ -1534,7 +1534,9 @@ As Steve Krug once said, happy talk must die.
 
 #### Q91. Що не так з цим кодом?
 
-`<img src="https://source.unsplash.com/random">`
+```HTML
+<img src="https://source.unsplash.com/random">
+```
 
 - [ ] `<img>` має поєднуватися з тегом `<caption>`.
 - [x] В елементі <img> відсутній атрибут alt.
@@ -1552,7 +1554,7 @@ As Steve Krug once said, happy talk must die.
 
 [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
-#### Q93. Який вибір є найкращим способом кодування трьох варіантів у формі, щоб користувач міг вибрати кілька елементів?
+#### Q93. Який варіант є найкращим способом кодування трьох варіантів у формі, щоб користувач міг вибрати кілька елементів?
 
 - [ ] :
 
@@ -1626,7 +1628,7 @@ As Steve Krug once said, happy talk must die.
 [Джерело 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
 [Джерело 2](https://www.w3schools.com/tags/tag_data.asp)
 
-#### Q98. Вам необхідно додавати коментарі в блог компанії. Яка найбільш семантична розмітка для списку коментарів?
+#### Q98. Вам необхідно додавати коментарі в блог компанії. Яка найбільш семантично вірна розмітка для списку коментарів?
 
 - [x] A
 
@@ -1688,9 +1690,9 @@ As Steve Krug once said, happy talk must die.
 - [x] `<input type="hidden" name="important" value="information">`
 - [ ] `<input type="text" hidden name="important" value="information">`
 
-`<input> елементи типу hidden дозволяють веб-розробникам включати дані, які користувачі не можуть побачити або змінити під час надсилання форми. Наприклад, ідентифікатор вмісту, який зараз замовляється або редагується, або унікальний маркер безпеки. Приховані inputи абсолютно невидимі на відтворені на сторінці, і немає способу зробити їх видимими у вмісті сторінки.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
+`<input> елементи типу hidden дозволяють веб-розробникам включати дані, які користувачі не можуть побачити або змінити під час надсилання форми. Наприклад, ідентифікатор вмісту, який зараз замовляється або редагується, або унікальний маркер безпеки. Приховані input-и абсолютно невидимі при відтворені на сторінці, і немає способу зробити їх видимими у вмісті сторінки.` [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
 
-#### Q101. Який семантичний спосіб додати ідентифікаційний заголовок до таблиці?
+#### Q101. Який семантично вірний спосіб додати ідентифікаційний заголовок до таблиці?
 
 - [ ] `<table><label>Heading</label>...</table>`
 - [ ] `<table><title>Heading</title>...</table>`
@@ -1870,9 +1872,9 @@ As Steve Krug once said, happy talk must die.
 </form>
 ```
 
-- [ ] Елемент form вимкнено.
-- [ ] Немає елемента <input type="submit">.
-- [x] fieldset вимкнено.
+- [ ] Елемент `form` вимкнено.
+- [ ] Немає елемента `<input type="submit">`.
+- [x] `fieldset` вимкнено.
 - [ ] У формі не встановлено метод.
 
 Вимкнений набір полів непридатний для використання та натискання. [Джерело](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
@@ -1939,7 +1941,7 @@ As Steve Krug once said, happy talk must die.
 - [x] `<br>`
 - [ ] `<a>`
 
-#### Q112. Глобальний атрибут HTML "contenteditable" використовується для
+#### Q112. Глобальний атрибут HTML `contenteditable` використовується для
 
 - [ ] Щоб оновити вміст із сервера
 - [ ] Визначає контекстне меню для елемента. Меню з’являється, коли користувач клацає елемент правою кнопкою миші.
@@ -1978,7 +1980,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] title
 - [ ] meta
 
-#### Q117. "h" у тегу HTML h1 є скороченням від **\_**
+#### Q117. "h" у тегу HTML `h1` є скороченням від **\_**
 
 - [ ] head
 - [ ] horizontal
@@ -2031,7 +2033,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<hr>`
 - [ ] Все вищеперераховане
 
-#### Q120. Який елемент title є дійсним?
+#### Q120. Який елемент `title` є дійсним?
 
 - [ ] `<title><em>Exciting</em> title</title>`
 - [ ] `<title></title>`
@@ -2059,7 +2061,7 @@ As Steve Krug once said, happy talk must die.
 
 [Джерело](https://blog.teamtreehouse.com/to-close-or-not-to-close-tags-in-html5)
 
-#### Q123. Який семантичний метод позначання відео субтитрами в браузерах, які його підтримуют?
+#### Q123. Який семантично вірний метод позначання відео субтитрами в браузерах, які його підтримують?
 
 - [ ] `<video src="video.mp4" caption="video.vtt"></video>`
 - [ ] `<video src="video.mp4"><track caption="video.vtt" /></video>`
@@ -2162,7 +2164,7 @@ label="Endnotes">Endnotes...</custom-footnote>
   </form>
 ```
 
-- [x] Немає елемента <input type="submit">.
+- [x] Немає елемента `<input type="submit">`.
 - [ ] У формі не встановлено метод.
 - [ ] Елемент форми вимкнено.
 - [ ] Набір полів вимкнено.
@@ -2192,66 +2194,60 @@ label="Endnotes">Endnotes...</custom-footnote>
 - [ ] Таблиця може мати лише один елемент tbody.
 - [ ] Легенда має бути в кінці елемента таблиці.
 - [ ] Легенда не дозволяється в елементі таблиці.
-- [x] Усі елементи col мають бути загорнуті в елемент colgroup.
+- [x] Усі елементи `col` мають бути загорнуті в елемент `colgroup`.
 
 [Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
 
-#### Q131. In this code, what is the purpose of the `id` attribute?
+#### Q131. Яке призначення атрибута `id` у цьому коді?
 
 ```HTML
 <p id="warning">Be careful when installing this product.</p>
 ```
 
-- [x] It establishes that `warning` is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
-- [ ] It establishes that `warning` is a unique identifier in the document, used for styling CSS and with JavaScript code.
-- [ ] It establishes that `warning` may be used for styling CSS several times per page.
-- [ ] It establishes that `warning` is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
+- [x] Встановлює, що `warning` є унікальним ідентифікатором у документі, який використовується для стилізації CSS, сценаріїв і посилань на веб-сторінці.
+- [ ] Встановлює, що `warning` є унікальним ідентифікатором у документі, який використовується для стилізації CSS і з кодом JavaScript.
+- [ ] Встановлює, що `warning` може використовуватися для стилізації CSS кілька разів на сторінці.
+- [ ] Визначає, що `warning` є унікальним ідентифікатором на веб-сайті, який використовується для стилізації CSS, сценаріїв і посилань на веб-сторінці.
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
 
-### Q132. What does the HTML `<em>` element represent?
+### Q132. Що представляє елемент HTML `<em>`?
 
-- [x] Stress emphasis, usually displayed as italic text
-- [ ] Italic text
-- [ ] A hyperlink
-- [ ] A line break
+- [x] Наголос, зазвичай відображається курсивом
+- [ ] Текст курсивом
+- [ ] Гіперпосилання
+- [ ] Розрив рядка
 
-[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+[Джерело](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
-### Q133. The \***\*\_\*\*** element is used to render simple graphics such as line art, graphs, and other custom graphical elements on the client side.
+### Q133. Елемент **\_** використовується для візуалізації простої графіки, як-от штрихове зображення, графіки та інші спеціальні графічні елементи на стороні клієнта.
 
 - [ ] metadata
 - [ ] css
 - [x] canvas
 - [ ] art
 
-### Q134. Which attribute is not essential under <iframe>?
+### Q134. Який атрибут не є суттєвим для `<iframe>`?
 
 - [x] frameborder
 - [ ] width
 - [ ] height
 - [ ] src
 
-### Q135.What does HTML stands for?
+### Q135. Що означає HTML?
 
 - [ ] Hypertext Machine language.
-
 - [ ] Hypertext and links markup language.
-
 - [x] Hypertext Markup Language.
-
 - [ ] Hightext machine language.
 
-[Source]: https://www.geeksforgeeks.org/aptitude-html-course-practice-quiz-1-question-1/
+[Джерело]: https://www.geeksforgeeks.org/aptitude-html-course-practice-quiz-1-question-1/
 
-### Q136.Which of the following HTML element is used for creating an unordered list?
+### Q136. Який із наведених нижче елементів HTML використовується для створення невпорядкованого списку?
 
 - [ ] `<ui>`
-
 - [ ] `<i>`
-
 - [ ] `<em>`
-
 - [x] `<ul>`
 
-[Source]: https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
+[Джерело]: https://www.geeksforgeeks.org/web-technologies-questions-html-course-practice-quiz-1-question-4/
