@@ -1443,6 +1443,7 @@ broccoli
 - [ ] Stars:100-200
 
 #### Q162. What’s a good way to use the filter feature to display only the issues that are assigned to a specific user?
+
 - [ ] Owner: username
 - [ ] Assigned:username
 - [x] Assignee:username
