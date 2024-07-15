@@ -193,7 +193,7 @@ discountPrice = function (price) {
 
 [Довідка. Визначення функцій у javascript](https://www.w3schools.com/js/js_functions.asp)
 
-#### Q11. What is the result in the console of running the code shown?
+#### Q11. Який результат буде у консолі після виконання показаного коду?
 
 ```js
 var Storm = function () {};
@@ -210,23 +210,23 @@ console.log(bob.precip);
 - [ ] 'rain'
 - [x] 'snow'
 
-[Reference prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Довідка Ланцюжок прототипів](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
-#### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
+#### Q12. Потрібно знайти значення часу, наприклад 12:00:32. Який із наведених нижче регулярних виразів підійде для вашого коду?
 
 - [ ] `/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/`
 - [x] `/\d\d:\d\d:\d\d/`
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
 
-**NOTE**: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
+**ПРИМІТКА**: усі перші три частково правильні та відповідатимуть цифрам, але **другий варіант є найбільш правильним**, оскільки він **лише** відповідатиме **2-значним** значенням часу (12: 00:32). Перший варіант спрацював би, якби діапазон повторень виглядав як `[0-9]{2}`, однак через **кому** `[0-9]{2,}` буде вибрано 2 **або більше** цифр (120:000:321). Третій варіант відповідає будь-яким діапазонам цифр часу, одним _і_ кратним (це означає, що `1:2:3` також збігатиметься).
 
-**More resources:**
+**Додаткові ресурси:**
 
-1. [Repeating characters](https://regexone.com/lesson/repeating_characters)
-2. [Kleene operators](https://regexone.com/lesson/kleene_operators)
+1. [Символи, що повторюються](https://regexone.com/lesson/repeating_characters)
+2. [Оператори Кліні](https://regexone.com/lesson/kleene_operators)
 
-#### Q13. What is the result in the console of running this code?
+#### Q13. Який результат виконання цього коду в консолі?
 
 ```js
 'use strict';
@@ -242,9 +242,9 @@ new logThis();
 - [x] `{desc: "logger"}`
 - [ ] `function`
 
-[Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[Довідка - класи javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
-#### Q14. How would you reference the text 'avenue' in the code shown?
+#### Q14. Як би ви посилалися на текст 'avenue' у показаному коді?
 
 ```js
 let roadTypes = ['street', 'road', 'avenue', 'circle'];
@@ -255,9 +255,9 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes.3
 - [x] roadTypes\[2\]
 
-[Reference accessing javascript arrays](https://www.w3schools.com/js/js_arrays.asp)
+[Доступ до масивів JavaScript](https://www.w3schools.com/js/js_arrays.asp)
 
-#### Q15. What is the result of running this statement?
+#### Q15. Який результат виконання цього виразу?
 
 ```js
 console.log(typeof 42);
@@ -268,18 +268,18 @@ console.log(typeof 42);
 - [x] `'number'`
 - [ ] `'integer'`
 
-[Reference javascript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+[Типи даних javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-#### Q16. Which property references the DOM object that dispatched an event?
+#### Q16. Яка властивість посилається на об’єкт DOM, який відправив подію?
 
 - [ ] `self`
 - [ ] `object`
 - [x] `target`
 - [ ] `source`
 
-[Reference DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+[Події DOM](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-#### Q17. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
+#### Q17. Ви додаєте обробку помилок до показаного коду. Який код ви включите в вираз if, щоб вивести повідомлення про помилку?
 
 ```js
 function addNumbers(x, y) {
@@ -293,27 +293,27 @@ function addNumbers(x, y) {
 - [ ] `error('One or both parameters are not numbers')`
 - [x] `throw('One or both parameters are not numbers')`
 
-[Reference javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+[Javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
-#### Q18. Which method converts JSON data to a JavaScript object?
+#### Q18. Який метод перетворює дані JSON на об’єкт JavaScript?
 
 - [ ] `JSON.fromString();`
 - [x] `JSON.parse()`
 - [ ] `JSON.toObject()`
 - [ ] `JSON.stringify()`
 
-[Reference convert json to javascript object](https://www.w3schools.com/js/js_json_parse.asp)
+[Перетворення json на об’єкт javascript](https://www.w3schools.com/js/js_json_parse.asp)
 
-#### Q19. When would you use a conditional statement?
+#### Q19. Коли б ви використовували умовний оператор?
 
-- [ ] When you want to reuse a set of statements multiple times.
-- [x] When you want your code to choose between multiple options.
-- [ ] When you want to group data together.
-- [ ] When you want to loop through a group of statement.
+- [ ] Коли ви хочете повторно використати набір операторів кілька разів.
+- [x] Коли ви хочете, щоб ваш код вибирав між кількома варіантами.
+- [ ] Коли потрібно згрупувати дані.
+- [ ] Коли ви хочете прокрутити групу операторів.
 
-[Reference javascript conditionals](https://www.javascript.com/learn/conditionals)
+[Умови в javascript](https://www.javascript.com/learn/conditionals)
 
-#### Q20. What would be the result in the console of running this code?
+#### Q20. Яким буде результат виконання цього коду в консолі?
 
 ```js
 for (var i = 0; i < 5; i++) {
@@ -326,18 +326,18 @@ for (var i = 0; i < 5; i++) {
 - [x] 0 1 2 3 4
 - [ ] 0 1 2 3 4 5
 
-[Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
+[Цикли for в javascript](https://www.w3schools.com/js/js_loop_for.asp)
 
-#### Q21. Which Object method returns an iterable that can be used to iterate over the properties of an object?
+#### Q21. Який метод Object повертає ітерований елемент, який можна використовувати для перебору властивостей об’єкта?
 
 - [ ] `Object.get()`
 - [ ] `Object.loop()`
 - [ ] `Object.each()`
 - [x] `Object.keys()`
 
-[Reference javascript object static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
+[Статичні методи об’єкта javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
 
-#### Q22. What will be logged to the console?
+#### Q22. Що буде виведено в консолі?
 
 ```js
 var a = ['dog', 'cat', 'hen'];
@@ -350,17 +350,17 @@ console.log(a.length);
 - [ ] 4
 - [ ] 100
 
-#### Q23. What is one difference between collections created with Map and collections created with Object?
+#### Q23. Яка відмінність між колекціями, створеними за допомогою Map, і за допомогою Object?
 
-- [ ] You can iterate over values in a Map in their insertion order.
-- [x] You can count the records in a Map with a single method call.
-- [ ] Keys in Maps can be strings.
-- [ ] You can access values in a Map without iterating over the whole collection.
+- [ ] Ви можете перебирати значення в Map в порядку вставки.
+- [x] Ви можете підрахувати записи в Map за допомогою одного виклику методу.
+- [ ] Ключі в Map можуть бути рядками.
+- [ ] Ви можете отримати доступ до значень в Map без ітерації по всій колекції.
 
-**Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
-[Reference map methods javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+**Пояснення:** `Map.prototype.size повертає кількість елементів у Map, тоді як Object не має вбудованого методу для повернення його розміру.`
+[Методи Map javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
-#### Q24. What is the value of dessert.type after executing this code?
+#### Q24. Яке значення dessert.type після виконання цього коду?
 
 ```js
 const dessert = { type: 'pie' };
@@ -368,11 +368,11 @@ dessert.type = 'pudding';
 ```
 
 - [ ] pie
-- [ ] The code will throw an error.
+- [ ] Код видасть помилку.
 - [x] pudding
 - [ ] undefined
 
-[Reference working with js objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Робота з об'єктами в js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 #### Q25. 0 && hi
 
@@ -381,52 +381,52 @@ dessert.type = 'pudding';
 - [x] 0
 - [ ] false
 
-[Reference boolean logic](https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19)
+[Логіка boolean](https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19)
 
-#### Q26. Which of the following operators can be used to do a short-circuit evaluation?
+#### Q26. Який із наведених нижче операторів можна використовувати для скороченого обчислення?
 
 - [ ] `++`
 - [ ] `--`
 - [ ] `==`
 - [x] `||`
 
-[Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
+[Скорочене обчислення в javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
-#### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
+#### Q27. Який вираз встановлює конструктор Person як батьківський елемент конструктора Student у ланцюжку прототипів?
 
 - [ ] `Student.parent = Person;`
 - [x] `Student.prototype = new Person();`
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
-[Reference prototype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Прототип об'єкта js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
-#### Q28. Why would you include a "use strict" statement in a JavaScript file?
+#### Q28. Навіщо включати оператор "use strict" у файл JavaScript?
 
-- [ ] to tell parsers to interpret your JavaScript syntax loosely
-- [x] to tell parsers to enforce all JavaScript syntax rules when processing your code
-- [ ] to instruct the browser to automatically fix any errors it finds in the code
-- [ ] to enable ES6 features in your code
+- [ ] щоб наказати парсерам вільно інтерпретувати ваш синтаксис JavaScript
+- [x] щоб повідомити парсерам застосовувати всі правила синтаксису JavaScript під час обробки вашого коду
+- [ ] щоб наказати браузеру автоматично виправляти будь-які помилки, які він знаходить у коді
+- [ ] щоб увімкнути функції ES6 у вашому коді
 
-[Reference what is use strict in js](https://www.w3schools.com/js/js_strict.asp)
+[Що таке use strict в js](https://www.w3schools.com/js/js_strict.asp)
 
-#### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
+#### Q29. Яке ключове слово, що визначає змінну, дозволяє отримати доступ до своєї змінної (як невизначеної) перед рядком, який її визначає?
 
-- [ ] all of them
+- [ ] всі
 - [ ] `const`
 - [x] `var`
 - [ ] `let`
 
-[Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+[Var, let і const в js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-#### Q30. Which of the following values is not a Boolean false?
+#### Q30. Яке з наведених нижче значень не є логічним значенням false?
 
 - [ ] `Boolean(0)`
 - [ ] `Boolean("")`
 - [ ] `Boolean(NaN)`
 - [x] `Boolean("false")`
 
-[Reference boolean of a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+[Вoolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 #### Q31. Which of the following is not a keyword in JavaScript?
 
