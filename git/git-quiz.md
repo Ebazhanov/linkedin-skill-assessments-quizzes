@@ -1448,3 +1448,10 @@ broccoli
 - [ ] Assigned:username
 - [x] Assignee:username
 - [ ] User: username
+
+#### Q163. Which feature is enabled for a checklist when added to the description of an issue?
+
+- [ ] You can convert an individual checklist item to a GitHub issue.
+- [x] You can mark the checklist items as completed
+- [ ] You can link directly to an issue and show a popup with issue information
+- [ ] You can reorder the checklist items
