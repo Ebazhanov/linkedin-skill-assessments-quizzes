@@ -428,25 +428,25 @@ dessert.type = 'pudding';
 
 [Вoolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
-#### Q31. Which of the following is not a keyword in JavaScript?
+#### Q31. Що з наведеного не є ключовим словом у JavaScript?
 
 - [ ] `this`
 - [ ] `catch`
 - [ ] `function`
 - [x] `array`
 
-[Reference js reserved words](https://www.w3schools.com/js/js_reserved.asp)
+[Зарезервовані слова JS](https://www.w3schools.com/js/js_reserved.asp)
 
-#### Q32. Which variable is an implicit parameter for every function in JavaScript?
+#### Q32. Яка змінна є неявним параметром для кожної функції в JavaScript?
 
 - [x] arguments
 - [ ] args
 - [ ] argsArray
 - [ ] argumentsList
 
-[Reference implicit js parameters for functions](https://www.codeproject.com/Tips/1221966/JavaScript-Functions-Implicit-Parameters)
+[Неявні параметри для функцій](https://www.codeproject.com/Tips/1221966/JavaScript-Functions-Implicit-Parameters)
 
-#### Q33. For the following class, how do you get the value of 42 from an instance of X?
+#### Q33. Для наступного класу, як отримати значення 42 з екземпляра X?
 
 ```js
 class X {
@@ -462,9 +462,9 @@ var x = new X();
 - [ ] `x.Y()`
 - [ ] `x.get().Y`
 
-[Reference getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
+[Геттери](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
 
-#### Q34. What is the result of running this code?
+#### Q34. Який результат виконання цього коду?
 
 ```js
 sum(10, 20);
@@ -483,37 +483,37 @@ let diff = function (x, y) {
 - [ ] 30, -10
 - [ ] ReferenceError, -10
 
-[Reference accessing before initialization](https://stackoverflow.com/questions/56318460/cannot-access-variable-name-before-initialization)
+[Доступ раніше ініціалізації](https://stackoverflow.com/questions/56318460/cannot-access-variable-name-before-initialization)
 
-#### Q35. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
+#### Q35. Чому для зберігання колекції записів зазвичай краще працювати з об’єктами, а не з масивами?
 
-- [ ] Objects are more efficient in terms of storage.
-- [ ] Adding a record to an object is significantly faster than pushing a record into an array.
-- [x] Most operations involve looking up a record, and objects can do that better than arrays.
-- [ ] Working with objects makes the code more readable.
+- [ ] Об’єкти більш ефективні з точки зору зберігання.
+- [ ] Додавання запису до об’єкта відбувається значно швидше, ніж розміщення запису в масиві.
+- [x] Більшість операцій включають пошук запису, і об’єкти можуть робити це краще, ніж масиви.
+- [ ] Робота з об'єктами робить код більш читабельним.
 
-[Reference efficiency of lookups](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
-**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
+[Ефективність пошуку](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
+**Пояснення:** Записи в об’єкті можна отримати за допомогою їх ключа, який може бути будь-яким заданим значенням (наприклад, ідентифікатор працівника, назва міста тощо), тоді як для отримання запису з масиву нам потрібно знати його індекс.
 
-#### Q36. Which statement is true about the "async" attribute for the HTML script tag?
+#### Q36. Яке твердження вірне щодо атрибута "async" для тегу HTML-сценарію?
 
-- [ ] It can be used for both internal and external JavaScript code.
-- [ ] It can be used only for internal JavaScript code.
-- [ ] It can be used only for internal or external JavaScript code that exports a promise.
-- [x] It can be used only for external JavaScript code.
+- [ ] Його можна використовувати як для внутрішнього, так і для зовнішнього коду JavaScript.
+- [ ] Його можна використовувати лише для внутрішнього коду JavaScript.
+- [ ] Його можна використовувати лише для внутрішнього або зовнішнього коду JavaScript, який експортує promise.
+- [x] Його можна використовувати лише для зовнішнього коду JavaScript.
 
-[Reference async attribute for html](https://www.w3schools.com/tags/att_script_async.asp)
+[Async атрибут для html](https://www.w3schools.com/tags/att_script_async.asp)
 
-#### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
+#### Q37. Як імпортувати бібліотеку lodash, щоб зробити її API верхнього рівня доступною як змінну "\_"?
 
 - [x] `import _ from 'lodash';`
 - [ ] `import 'lodash' as _;`
 - [ ] `import '_' from 'lodash;`
 - [ ] `import lodash as _ from 'lodash';`
 
-[Reference how to import library in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+[Як імпортувати бібліотеку](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
-#### Q38. What does the following expression evaluate to?
+#### Q38. Що поверне наступний вираз?
 
 ```js
 [] == [];
@@ -524,18 +524,18 @@ let diff = function (x, y) {
 - [ ] []
 - [x] false
 
-[Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
+[Масиви є об'єктами](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
-#### Q39. What type of function can have its execution suspended and then resumed at a later point?
+#### Q39. Виконання функції якого типу можна призупинити, а потім відновити пізніше?
 
 - [x] Generator function
 - [ ] Arrow function
 - [ ] Async/ Await function
 - [ ] Promise function
 
-[Reference what are generators in nodejs](https://www.guru99.com/node-js-generators-compare-callbacks.html#:~:text=Generators%20are%20function%20executions%20that,resumed%20at%20a%20later%20point.)
+[Що таке генератори](https://www.guru99.com/node-js-generators-compare-callbacks.html#:~:text=Generators%20are%20function%20executions%20that,resumed%20at%20a%20later%20point.)
 
-#### Q40. What will this code print?
+#### Q40. Що надрукує цей код?
 
 ```js
 var v = 1;
@@ -553,10 +553,10 @@ f2();
 
 - [ ] 2
 - [x] 1
-- [ ] Nothing - this code will throw an error.
+- [ ] Нічого - цей код видасть помилку.
 - [ ] undefined
 
-[Reference closures in js \/ nested functions](https://javascript.info/closure)
+[Замикання в js \/ вкладені функції](https://javascript.info/closure)
 
 #### Q41. Which statement is true about Functional Programming?
 
