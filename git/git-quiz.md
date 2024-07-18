@@ -1455,3 +1455,11 @@ broccoli
 - [x] You can mark the checklist items as completed
 - [ ] You can link directly to an issue and show a popup with issue information
 - [ ] You can reorder the checklist items
+- [ ] 
+
+#### Q164. You are building a visual studio code extension and you remember that microsoft has sample code you could learn from. Which search would yield the fewest results while searching all of GitHub for “vscode” repos from “microsoft”?
+
+- [x] Owner:microsoft repo:vscode
+- [ ] Vscode
+- [ ] Company:microsoft repo:vscode
+- [ ] Microsoft/vscode
