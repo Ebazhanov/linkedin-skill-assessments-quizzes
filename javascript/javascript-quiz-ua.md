@@ -558,25 +558,25 @@ f2();
 
 [Замикання в js \/ вкладені функції](https://javascript.info/closure)
 
-#### Q41. Which statement is true about Functional Programming?
+#### Q41.Яке твердження є правдивим щодо функціонального програмування?
 
-- [ ] Every object in the program has to be a function.
-- [ ] Code is grouped with the state it modifies.
-- [ ] Date fields and methods are kept in units.
-- [x] Side effects are not allowed.
+- [ ] Кожен об'єкт програми повинен бути функцією.
+- [ ] Код групується зі станом, який він модифікує.
+- [ ] Поля дати та методи зберігаються в одиницях.
+- [x] Побічні ефекти заборонені.
 
-[Reference functional programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+[Функціональне програмування](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
-#### Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+#### Q42.Ваш код видає помилку: TypeError: Cannot read property 'reduce' of undefined. Що це означає?
 
-- [x] You are calling a method named reduce on an object that's declared but has no value.
-- [ ] You are calling a method named reduce on an object that does not exist.
-- [ ] You are calling a method named reduce on an empty array.
-- [ ] You are calling a method named reduce on an object that has a null value.
+- [x] Ви визиваєте метод з назвою reduce у об'єкті, який оголошений, але не має значення.
+- [ ] Ви визиваєте метод з назвою reduce на об'єкті, який не існує.
+- [ ] Ви визиваєте метод з назвою reduce на порожньому масиві.
+- [ ] Ви визиваєте метод з назвою reduce на об'єкті, який має значення null.
 
-**Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`
+** Пояснення **: `Ви не можете викликати reduce на undefined об'єкті... Це видасть помилку (your object is not defined...)`
 
-#### Q43. How many prototype objects are in the chain for the following array?
+#### Q43.Скільки прототипних об'єктів знаходяться в ланцюзі для наступного масиву?
 
 `let arr = [];`
 
@@ -585,18 +585,18 @@ f2();
 - [ ] 0
 - [ ] 1
 
-[Reference array prototype](https://www.w3schools.com/jsref/jsref_prototype_array.asp)
+[Прототип масиву](https://www.w3schools.com/jsref/jsref_prototype_array.asp)
 
-#### Q44. Which choice is _not_ a unary operator?
+#### Q44. Який варіант _не є_ унарним оператором?
 
 - [ ] `typeof`
 - [ ] `delete`
 - [x] `instanceof`
 - [ ] `void`
 
-[Reference js unary operators](https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful#:~:text=A%20unary%20operation%20is%20an,therefore%20their%20functionality%20is%20guaranteed.)
+[Унарні оператори](https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful#:~:text=A%20unary%20operation%20is%20an,therefore%20their%20functionality%20is%20guaranteed.)
 
-#### Q45. What type of scope does the end variable have in the code shown?
+#### Q45.Яку область видимості має змінна end в показаному коді?
 
 ```js
 var start = 1;
@@ -605,14 +605,14 @@ if (start === 1) {
 }
 ```
 
-- [ ] conditional
-- [x] block
-- [ ] global
-- [ ] function
+- [ ] умовну
+- [X] блочну
+- [ ] глобальну
+- [ ] функціональну
 
-[Reference block vs function scope](https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe)
+[Блочна проти функціональної видимості](https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe)
 
-#### Q46. What will the value of y be in this code:
+#### Q46.Яким буде значення y в цьому коді:
 
 ```js
 const x = 6 % 2;
@@ -624,25 +624,25 @@ const y = x ? 'One' : 'Two';
 - [ ] TRUE
 - [x] Two
 
-[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+[Тернарний оператор](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-#### Q47. Which keyword is used to create an error?
+#### Q47.Яке ключове слово використовується для створення помилки?
 
 - [x] `throw`
 - [ ] `exception`
 - [ ] `catch`
 - [ ] `error`
 
-[Reference throwing errors in js](<https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)>)
+[Викидання помилок](<https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)>)
 
-#### Q48. What's one difference between the async and defer attributes of the HTML script tag?
+#### Q48. Яка різниця між async так defer атрибутами в HTML script тегу?
 
-- [ ] The defer attribute can work synchronously.
-- [ ] The defer attribute works only with generators.
-- [ ] The defer attribute works only with promises.
-- [x] The defer attribute will asynchronously load the scripts in order.
+- [ ]  атрибут defer може працювати синхронно.
+- [ ]  атрибут defer працює лише з генераторами.
+- [ ]  атрибут defer працює лише з промісами.
+- [x]  атрибут defer асинхронно завантажуватиме скрипти.
 
-[Reference async vs defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
+[Async проти defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 
 #### Q49. The following program has a problem. What is it?
 
