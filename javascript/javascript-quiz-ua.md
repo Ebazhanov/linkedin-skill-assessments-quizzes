@@ -49,7 +49,7 @@ function addTax(total) {
 - [ ] `var student = Person();`
 - [ ] `var student = construct Person();`
 
-[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Classes/)
 
 #### Q6. Коли останній вираз у показаному коді буде виведено в консоль? Коли «Results shown» буде виведено в консоль?
 
@@ -155,7 +155,7 @@ for (var j = 1; j <= 4; j++) {
 - [ ] Завершує виконання без повернення.
 - [ ] Копіює локальну змінну в глобальну область.
 
-[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
 
 #### Q10. Який вираз створює нову функцію під назвою discountPrice?
 
@@ -210,7 +210,7 @@ console.log(bob.precip);
 - [ ] 'rain'
 - [x] 'snow'
 
-[Довідка Ланцюжок прототипів](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
 #### Q12. Потрібно знайти значення часу, наприклад 12:00:32. Який із наведених нижче регулярних виразів підійде для вашого коду?
 
@@ -242,7 +242,7 @@ new logThis();
 - [x] `{desc: "logger"}`
 - [ ] `function`
 
-[Довідка - класи javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[Класи](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Classes/)
 
 #### Q14. Як би ви посилалися на текст 'avenue' у показаному коді?
 
@@ -268,7 +268,7 @@ console.log(typeof 42);
 - [x] `'number'`
 - [ ] `'integer'`
 
-[Типи даних javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+[Типи та структури даних](https://webdoky.org/uk/docs/Web/JavaScript/Data_structures/)
 
 #### Q16. Яка властивість посилається на об’єкт DOM, який відправив подію?
 
@@ -358,7 +358,7 @@ console.log(a.length);
 - [ ] Ви можете отримати доступ до значень в Map без ітерації по всій колекції.
 
 **Пояснення:** `Map.prototype.size повертає кількість елементів у Map, тоді як Object не має вбудованого методу для повернення його розміру.`
-[Методи Map javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+[Методи Map](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Map/)
 
 #### Q24. Яке значення dessert.type після виконання цього коду?
 
@@ -372,7 +372,7 @@ dessert.type = 'pudding';
 - [x] pudding
 - [ ] undefined
 
-[Робота з об'єктами в js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Робота з об'єктами](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
 #### Q25. 0 && hi
 
@@ -399,7 +399,7 @@ dessert.type = 'pudding';
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
-[Прототип об'єкта js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Прототип об'єкта js](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
 #### Q28. Навіщо включати оператор "use strict" у файл JavaScript?
 
@@ -511,7 +511,7 @@ let diff = function (x, y) {
 - [ ] `import '_' from 'lodash;`
 - [ ] `import lodash as _ from 'lodash';`
 
-[Як імпортувати бібліотеку](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+[Як імпортувати бібліотеку](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/import/)
 
 #### Q38. Що поверне наступний вираз?
 
@@ -705,7 +705,7 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
-[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
 
 #### Q53.Що цей код буде записувати в консолі?
 
@@ -722,7 +722,7 @@ console.log(sayHello.prototype);
 - [x] Об'єкт з властивістю конструктора
 - [ ] Повідомлення про помилку
 
-[Прототипи](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Прототипи](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
 #### Q54.Який тип колекції дозволяє вставляти унікальне значення лише один раз?
 
@@ -731,7 +731,7 @@ console.log(sayHello.prototype);
 - [ ] Array
 - [ ] Map
 
-[Sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+[Sets](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Set/)
 
 #### Q55.Які два значення надрукує цей код?
 
@@ -749,7 +749,7 @@ printA();
 - [x] `undefined` then `undefined`
 - [ ] `undefined` then `1`
 
-[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
 
 #### Q56.Чим метод `forEach()` відрізняється від `for`?
 
@@ -767,7 +767,7 @@ printA();
 - [ ] => `{ return {};}`
 - [ ] => `(({}))`
 
-[Стрілкові функції](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+[Стрілкові функції](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
 
 #### Q58.Чому ви можете вирішити зробити код асинхронним?
 
@@ -831,7 +831,7 @@ printA();
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
 
-[Стрілкові функції](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+[Стрілкові функції](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
 
 #### Q65. Яка концепція визначається як шаблон, який можна використовувати для створення різних об'єктів, які поділяють певну форму та/або поведінку?
 
@@ -840,7 +840,7 @@ printA();
 - [ ] map
 - [ ] proxy
 
-[Класи](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[Класи](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Classes/)
 
 #### Q66. Як додати коментар до коду JavaScript?
 
@@ -858,7 +858,7 @@ printA();
 - [ ] SyntaxError
 - [ ] LogicError
 
-[Помилки](https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/error)
+[Помилки](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Error/)
 
 #### Q68. Який метод викликається автоматично, коли об'єкт ініціалізований?
 
@@ -985,9 +985,9 @@ console.log(obj);
 - [x] `undefined`
 - [ ] `null`
 
-[Робота з об'єктами](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Робота з об'єктами](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
+#### Q80. Як би ви використовували TaxCalculator для визначення суми податку на \$50?
 
 ```js
 class TaxCalculator {
@@ -1002,9 +1002,9 @@ class TaxCalculator {
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
 
-[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+[Функції](https://www.w3schools.com/js/js_functions.asp)
 
-#### Q81. What is wrong with this code?
+#### Q81. Що не так з цим кодом?
 
 ```js
 const foo = {
@@ -1016,20 +1016,20 @@ const foo = {
 };
 ```
 
-- [ ] The function bar needs to be defined as a key/value pair.
-- [ ] Trailing commas are not allowed in JavaScript.
-- [ ] Functions cannot be declared as properties of objects.
-- [x] Nothing, there are no errors.
+- [ ] Функцію bar потрібно визначити як пару ключ/значення.
+- [ ] Коми в кінці не дозволено в JavaScript.
+- [ ] Функції не може бути оголошено як властивості об'єктів.
+- [x] Нічого, помилок немає.
 
-1. [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
-2. [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+1. [Функції](https://www.w3schools.com/js/js_functions.asp)
+2. [Робота з об'єктами](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q82. What will be logged to the console?
+#### Q82.Що буде показано в консолі?
 
 ```js
-console.log('I');
+console.log('Я');
 setTimeout(() => {
-  console.log('love');
+  console.log('люблю');
 }, 0);
 console.log('Javascript!');
 ```
@@ -1037,33 +1037,33 @@ console.log('Javascript!');
 - [x] .
 
 ```plaintext
-I
+Я
 Javascript!
-love
+люблю
 ```
 
 - [ ] .
 
 ```plaintext
-love
-I
+люблю
+Я
 Javascript!
 ```
 
-- [ ] The output may change with each execution of code and cannot be determined.
+- [ ] Вихід може змінюватися з кожним виконанням коду і не може бути визначений.
 
 - [ ] .
 
 ```plaintext
-I
-love
+Я
+люблю
 Javascript!
 ```
 
-**Reference**
-https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified especially see the 'late timeouts' section.
+**Довідка**
+https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified особливо подивіться розділ 'late timeouts' .
 
-#### Q83. What will this code log to the console?
+#### Q83.Що буде виведено в консолі?
 
 ```js
 const foo = [1, 2, 3];
@@ -1074,11 +1074,11 @@ console.log(n);
 - [x] 1
 - [ ] undefined
 - [ ] NaN
-- [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
+- [ ] Ніщо--це не належний синтаксис JavaScript і кине помилку.
 
-[Reference array deconstruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+[Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
 
-#### Q84. How do you remove the property name from this object?
+#### Q84. Як видалити назву властивості з цього об'єкта?
 
 ```js
 const foo = {
@@ -1091,19 +1091,19 @@ const foo = {
 - [ ] del foo.name;
 - [ ] remove foo.name;
 
-[Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Робота з об'єктами](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q85. What is the difference between the `map()` and the `forEach()` methods on the Array prototype?
+#### Q85. Яка різниця між `map()` та `forEach()` методами у Array prototype?
 
-- [ ] There is no difference.
-- [ ] The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.
-- [x] The map() method returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
-- [ ] The `forEach()` method returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
+- [ ] Різниці немає.
+- [ ] метод `forEach()` повертає едине вихідне значення, тоді як метод `map()` виконує операцію на кожному значенні в масиві.
+- [x] метод `map()` повертає новий масив з перетворенням, що застосовується на кожному елементі вихідного масиву, тоді як метод `forEach()` пробігає через масив без зворотного значення.
+- [ ] метод `forEach()` повертає новий масив з перетворенням, що застосовується на кожному елементі вихідного масиву, тоді як метод `map()` пробігає через масив без зворотного значення.
 
-1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
-2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+1. [Map](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Map/)
+2. [Довідка - різниця між forEach та for циклами](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q86. Which concept does this code illustrate?
+#### Q86. Яку концепцію ілюструє цей код?
 
 ```js
 function makeAdder(x) {
@@ -1116,21 +1116,21 @@ var addFive = makeAdder(5);
 console.log(addFive(3));
 ```
 
-- [ ] overloading
-- [ ] closure
-- [x] currying
-- [ ] overriding
+- [ ] перегрузка
+- [ ] замикання
+- [x] каррінг
+- [ ] перевизначення
 
-[Reference currying](https://javascript.info/currying-partials)
+[Каррінг](https://uk.javascript.info/currying-partials)
 
-#### Q87. Which tag pair is used in HTML to embed JavaScript?
+#### Q87. Яка пара тегів використовується в HTML для вбудовування JavaScript?
 
 - [x] `<script></script>`
 - [ ] `<js></js>`
 - [ ] `<javascript></javascript>`
 - [ ] `<code></code>`
 
-[Reference add js to html file](https://www.w3schools.com/tags/tag_script.asp)
+[Тег “script”](https://uk.javascript.info/hello-world#teg-script)
 
 #### Q88. If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?
 
@@ -1168,7 +1168,7 @@ const numbers = [1, 2, 3, 4, 5];
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
 
-[Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+[Reference array destructuring](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
 
 #### Q91. What will this code print?
 
@@ -1327,7 +1327,7 @@ function roar() {
 - [ ] `{ a, b } => c`
 - [x] `(a,b) => c`
 
-[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+[Reference arrow functions](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
 
 #### Q101. Which statement correctly imports this code from some-file.js?
 
@@ -1507,7 +1507,7 @@ for (let value of cipherText) {
 }
 ```
 
-1. [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+1. [Reference MDN JavaScript Destructuring](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
 2. [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 3. [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
@@ -1739,7 +1739,7 @@ bearSound();
 - [x] `undefined`
 - [ ] `roar`
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Reference](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
 #### Q125. What is the output of this code?
 
