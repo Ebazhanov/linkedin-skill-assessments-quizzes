@@ -644,21 +644,21 @@ const y = x ? 'One' : 'Two';
 
 [Async проти defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 
-#### Q49. The following program has a problem. What is it?
+#### Q49.Наступна програма має проблему.Що це?
 
 ```js
 var a;
 var b = (a = 3) ? true : false;
 ```
 
-- [x] The condition in the ternary is using the assignment operator.
-- [ ] You can't define a variable without initializing it.
-- [ ] You can't use a ternary in the right-hand side of an assignment operator.
-- [ ] The code is using the deprecated var keyword.
+- [x] Умова у тернарному виразі використовує оператор призначення
+- [ ] Ви не можете визначити змінну, не ініціалізуючи її.
+- [ ] Ви не можете використовувати тернарність у правій частині оператора призначення.
+- [ ] Код використовує застаріле ключове слово var.
 
-[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+[Тернарний оператор](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-#### Q50. Which statement references the DOM node created by the code shown?
+#### Q50.Яке твердження є дійсним посиланням на вузол DOM, створений показаним кодом?
 
 ```html
 <p class="pull">lorem ipsum</p>
@@ -669,9 +669,9 @@ var b = (a = 3) ? true : false;
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
-[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+[Query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-#### Q51. What value does this code return?
+#### Q51.Яке значення повертає цей код?
 
 ```js
 let answer = true;
@@ -687,9 +687,9 @@ if (answer === false) {
 - [ ] false
 - [ ] 0
 
-[Reference javascript conditionals](https://www.javascript.com/learn/conditionals)
+[Умови](https://www.javascript.com/learn/conditionals)
 
-#### Q52. What is the result in the console of running the code shown?
+#### Q52.Яким буде результат у консолі після запуску показаного коду?
 
 ```js
 var start = 1;
@@ -705,9 +705,9 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-#### Q53. What will this code log in the console?
+#### Q53.Що цей код буде записувати в консолі?
 
 ```js
 function sayHello() {
@@ -719,21 +719,21 @@ console.log(sayHello.prototype);
 
 - [ ] undefined
 - [ ] "hello"
-- [x] an object with a constructor property
-- [ ] an error message
+- [x] Об'єкт з властивістю конструктора
+- [ ] Повідомлення про помилку
 
-[Reference prototypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Прототипи](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
-#### Q54. Which collection object allows unique value to be inserted only once?
+#### Q54.Який тип колекції дозволяє вставляти унікальне значення лише один раз?
 
 - [ ] Object
 - [x] Set
 - [ ] Array
 - [ ] Map
 
-[Reference javascript sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+[Sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
-#### Q55. What two values will this code print?
+#### Q55.Які два значення надрукує цей код?
 
 ```js
 function printA() {
@@ -749,127 +749,127 @@ printA();
 - [x] `undefined` then `undefined`
 - [ ] `undefined` then `1`
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-#### Q56. How does the `forEach()` method differ from a `for` statement?
+#### Q56.Чим метод `forEach()` відрізняється від `for`?
 
-- [ ] forEach allows you to specify your own iterator, whereas for does not.
-- [ ] forEach can be used only with strings, whereas for can be used with additional data types.
-- [x] forEach can be used only with an array, whereas for can be used with additional data types.
-- [ ] for loops can be nested; whereas forEach loop cannot.
+- [ ] forEach дозволяє вказати власний ітератор, тоді як for - ні.
+- [ ] forEach можна використовувати лише з рядками, for - з різними типами даних.
+- [x] forEach можна використовувати лише з масивами, for - з різними типами даних.
+- [ ] for цикли можуть бути вкладеними; тоді як forEach цикли - ні.
 
-[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+[Різниця між forEach та for циклами](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
+#### Q57. Який варіант є недійсним для визначення стрілкової функції яка повертає порожній об'єкт?
 
 - [ ] => `({})`
 - [x] => `{}`
 - [ ] => `{ return {};}`
 - [ ] => `(({}))`
 
-[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+[Стрілкові функції](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-#### Q58. Why might you choose to make your code asynchronous?
+#### Q58.Чому ви можете вирішити зробити код асинхронним?
 
-- [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
-- [ ] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
-- [ ] to make your code faster
-- [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
+- [x] запустити задачі, які можуть зайняти деякий час, не блокуючи подальші задачі для негайного виконання
+- [ ] щоб переконатися, що задачі нижче у коді не запускаються, доки попередні не будуть завершені
+- [ ] щоб зробити код швидше
+- [ ] щоб забезпечити стек виклику LIFO (Last in, First Out)
 
-**EXPLANATION:** `"to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.`
+**Пояснення:** `"щоб переконатися, що задачі нижче у коді не запускаються, доки попередні не будуть завершені" Ви використовуєте нормальний (синхронний) потік, де кожна команда виконується послідовно. Асинхронний код дозволяє порушити цю послідовність: запустити тривалу функцію (виклик AJAX до зовнішньої служби) і продовжуйте запускати решту коду паралельно.
 
-#### Q59. Which expression evaluates to true?
+#### Q59.Який вираз повертає true?
 
 - [ ] `[3] == [3]`
 - [x] `3 == '3'`
 - [ ] `3 != '3'`
 - [ ] `3 === '3'`
 
-1. [Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-2. [Reference 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
+1. [Booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+2. [Довідка 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
 
-#### Q60. Which of these is a valid variable name?
+#### Q60. Що з цього є дійсною назвою змінної?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-[Reference coding conventions](https://www.w3schools.com/js/js_conventions.asp)
+[Конвенції кодування](https://www.w3schools.com/js/js_conventions.asp)
 
-#### Q61. Which method cancels event default behavior?
+#### Q61.Який метод скасовує поведінку події за замовчуванням?
 
 - [ ] `cancel()`
 - [ ] `stop()`
 - [x] `preventDefault()`
 - [ ] `prevent()`
 
-[Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+[Події](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-#### Q62. Which method do you use to attach one DOM node to another?
+#### Q62.Яким методом скористатися, щоб приєднати один вузол DOM до іншого?
 
 - [ ] `attachNode()`
 - [ ] `getNode()`
 - [ ] `querySelector()`
 - [x] `appendChild()`
 
-[Reference Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+[Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
-#### Q63. What statement can be used to skip an iteration in a loop?
+#### Q63.Яке твердження можна використовувати для пропускання ітерації в циклі?
 
 - [ ] `break`
 - [ ] `pass`
 - [ ] `skip`
 - [x] `continue`
 
-[Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
+[Break проти continue](https://www.w3schools.com/js/js_break.asp)
 
-#### Q64. Which choice is a valid example for an arrow function?
+#### Q64. Який варіант є дійсним прикладом для стрілкової функції?
 
 - [x] `(a,b) => c`
 - [ ] `a, b => {return c;}`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
 
-[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+[Стрілкові функції](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-#### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+#### Q65. Яка концепція визначається як шаблон, який можна використовувати для створення різних об'єктів, які поділяють певну форму та/або поведінку?
 
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
 
-[Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[Класи](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
-#### Q66. How do you add a comment to JavaScript code?
+#### Q66. Як додати коментар до коду JavaScript?
 
 - [ ] `! This is a comment`
 - [ ] `# This is a comment`
 - [ ] `\\ This is a comment`
 - [x] `// This is a comment`
 
-[Reference comments in javascript](https://www.w3schools.com/js/js_comments.asp)
+[Коментарі](https://www.w3schools.com/js/js_comments.asp)
 
-#### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+#### Q67. Якщо ви намагаєтесь викликати значення як функцію, але значення не є функцією, яку помилку ви отримаєте?
 
 - [x] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
 
-[Reference javascript errors](https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/error)
+[Помилки](https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/error)
 
-#### Q68. Which method is called automatically when an object is initialized?
+#### Q68. Який метод викликається автоматично, коли об'єкт ініціалізований?
 
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 - [ ] init()
 
-[Reference javascript constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+[Конструктори](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
 
-#### Q69. What is the result of running the statement shown?
+#### Q69.Який результат запуску показаного виразу?
 
 ```js
 let a = 5;
@@ -881,9 +881,9 @@ console.log(++a);
 - [x] 6
 - [ ] 5
 
-[Reference ++x vs x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
+[++x проти x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
 
-#### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
+#### Q70. Ви написали слухача події, показаного нижче для кнопки форми, але кожного разу, коли ви натискаєте кнопку, сторінка перезавантажується. Яке твердження не дозволило б цьому відбутися?
 
 ```js
 button.addEventListener(
@@ -900,53 +900,53 @@ button.addEventListener(
 - [ ] `button.blockReload();`
 - [x] `e.preventDefault();`
 
-[Reference events in javascript](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+[Події](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-#### Q71. Which statement represents the starting code converted to an IIFE?
+#### Q71. Який вираз являє собою стартовий код IIFE?
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
 - [ ] `function() { console.log('lorem ipsum'); }();`
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
-[Reference what is an Immediately Invoked Function Expression](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174)
+[Що таке Immediately Invoked Function Expression](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174)
 
-#### Q72. Which statement selects all img elements in the DOM tree?
+#### Q72. Яке твердження вибирає всі елементи IMG у дереві DOM?
 
 - [ ] `Document.querySelector('img')`
 - [ ] `Document.querySelectorAll('<img>')`
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
-[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+[Довідка query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-#### Q73. Why would you choose an asynchronous structure for your code?
+#### Q73. Чому б ви вибрали асинхронну структуру для свого коду?
 
-- [ ] To use ES6 syntax
-- [x] To start tasks that might take some time without blocking subsequent tasks from executing immediately
-- [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
-- [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
+- [ ] Використовувати синтаксис ES6
+- [x] Щоб розпочати завдання, які можуть зайняти деякий час, не блокуючи подальші завдання від виконання негайно
+- [ ] Щоб аналізатори виконували всі правила синтаксису JavaScript при обробці коду
+- [ ] Щоб завдання подальші не ініціювались до тих пір, поки не виконані попередні
 
-[Reference async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+[Довідка async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
-#### Q74. What is the HTTP verb to request the contents of an existing resource?
+#### Q74. Яке дієслово підходить для HTTP запиту вмісту існуючого ресурсу?
 
 - [ ] DELETE
 - [x] GET
 - [ ] PATCH
 - [ ] POST
 
-[Reference http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+[Довідка http методи](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
-#### Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+#### Q75. Яка подія ініціюється на текстовому полі форми, коли користувач переходить на нього за допомогою tab чи клацає або тапає його?
 
 - [x] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
 
-[Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/Events)
+[Події](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-#### Q76. What is the result in the console of running this code?
+#### Q76.Який результат запуску цього коду у консолі?
 
 ```js
 function logThis() {
@@ -960,9 +960,9 @@ logThis();
 - [ ] Function.prototype
 - [x] window
 
-[Reference what is the javascript window](https://www.w3schools.com/js/js_window.asp)
+[Що таке window](https://www.w3schools.com/js/js_window.asp)
 
-#### Q77. Which class-based component is equivalent to this function component?
+#### Q77. Який класовий компонент еквівалентний цьому функціональному компоненту?
 
 ```js
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
@@ -973,7 +973,7 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q79. What is the output of this code?
+#### Q79.Який вихід цього коду?
 
 ```js
 var obj;
@@ -985,7 +985,7 @@ console.log(obj);
 - [x] `undefined`
 - [ ] `null`
 
-[Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Робота з об'єктами](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 #### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
