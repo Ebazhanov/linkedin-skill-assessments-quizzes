@@ -1192,7 +1192,7 @@ console.log(obj2.a, obj2.b);
 - [ ] undefined 2
 - [ ] undefined 2
 
-[Синтаксим поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
+[Синтаксис поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
 
 #### Q92. Який рядок ви могли б додати до цього коду, щоб надрукувати "Jaguar" в консоль?
 
@@ -1314,20 +1314,20 @@ function roar() {
 - [x] `roar.apply(bear);`
 - [ ] `bear[roar]();`
 
-1. [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-2. [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-3. [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+1. [Довідка Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+2. [Довідка this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+3. [Довідка bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 
-#### Q100. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
+#### Q100. Який варіант є дійсним прикладом стрілкової функції, якщо припустити, що c визначена у зовнішній області видимості?
 
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
 - [x] `(a,b) => c`
 
-[Reference arrow functions](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
+[Стрілкові функції](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
 
-#### Q101. Which statement correctly imports this code from some-file.js?
+#### Q101. Який вираз правильно імпортує цей код з some-file.js?
 
 ```js
 //some-file.js
@@ -1339,9 +1339,9 @@ export const printMe = (str) => console.log(str);
 - [ ] `import default as printMe from './some-file';`
 - [ ] `const printMe = import './some-file';`
 
-[Reference importing libraries in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+[Як імпортувати бібліотеку](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/import/)
 
-#### Q102. What will be the output of this code?
+#### Q102. Яким буде результат цього коду?
 
 ```js
 const arr1 = [2, 4, 6];
@@ -1356,36 +1356,36 @@ console.log([...arr1, ...arr2]);
 - [ ] `[[2, 4, 6], [3, 5, 7]]`
 - [x] `[2, 4, 6, 3, 5, 7]`
 
-[Reference spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+[Синтаксис поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
 
-#### Q103. Which method call is chained to handle a successful response returned by `fetch()`?
+#### Q103. Який виклик методу прикутий для обробки успішної відповіді, поверненої `fetch()`?
 
 - [ ] `done()`
 - [x] `then()`
 - [ ] `finally()`
 - [ ] `catch()`
 
-[Reference fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+[Fetch](https://uk.javascript.info/fetch)
 
-#### Q104. Which choice is not an array method?
+#### Q104. Який варіант не є методом масиву?
 
 - [ ] `array.slice()`
 - [ ] `array.shift()`
 - [ ] `array.push()`
 - [x] `array.replace()`
 
-[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+[Методи масивів](https://uk.javascript.info/array-methods)
 
-#### Q105. Which JavaScript loop ensures that at least a singular iteration will happen?
+#### Q105. Який JavaScript цикл гарантує, що трапиться принаймні одна ітерація?
 
 - [x] do…while
 - [ ] forEach
 - [ ] while
 - [ ] for
 
-[Reference loops in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+[Цикл “do…while”](https://uk.javascript.info/while-for#cikl-do-while)
 
-#### Q106. What will be logged to the console?
+#### Q106. Що буде виведено в консоль?
 
 ```js
 console.log(typeof 'blueberry');
@@ -1396,15 +1396,15 @@ console.log(typeof 'blueberry');
 - [ ] `Boolean`
 - [ ] `object`
 
-[Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+[Оператор typeof](https://uk.javascript.info/types#type-typeof)
 
-#### Q107. What is the output that is printed when the div containing the text "Click Here" is clicked?
+#### Q107. Що буде надруковано в результаті, якщо натиснен div, який містить текст "Натисніть тут"?
 
 ```html
 //HTML Markup
 <div id="A">
   <div id="B">
-    <div id="C">Click Here</div>
+    <div id="C">Натисніть тут</div>
   </div>
 </div>
 ```
@@ -1421,10 +1421,10 @@ document.querySelectorAll('div').forEach((e) => {
 - [ ] C
 - [ ] A B C
 
-1. [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-2. [Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
+1. [querySelector](https://uk.javascript.info/searching-elements-dom#querySelector)
+2. [Події](https://uk.javascript.info/introduction-browser-events)
 
-#### Q108. What will this code log to the console?
+#### Q108. Що цей код виведе в консолі?
 
 ```js
 const myNumbers = [1, 2, 3, 4, 5, 6, 7];
@@ -1439,9 +1439,9 @@ console.log(myFunction(myNumbers));
 - [ ] `[1,2,3,4,5,6]`
 - [x] `[4,5,6]`
 
-[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+[Функції](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/)
 
-#### Q109. What does this code print to the console?
+#### Q109.Що цей код надрукує в консолі?
 
 ```js
 let rainForestAcres = 10;
@@ -1462,7 +1462,7 @@ console.log(animals);
 
 [Reference MDN JavaScript Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
 
-#### Q110. Which snippet could you add to this code to print "YOU GOT THIS" to the console?
+#### Q110. Який фрагмент потрібно додати до цього коду щоб надрукувати в консолі "YOU GOT THIS"?
 
 ```js
 let cipherText = [...'YZOGUT QGMORTZ MTRHTILS'];
@@ -1505,11 +1505,11 @@ for (let value of cipherText) {
 }
 ```
 
-1. [Reference MDN JavaScript Destructuring](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
-2. [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
-3. [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
+1. [Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
+2. [Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
+3. [Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
-#### Q111. Which Pokemon will be logged to the console?
+#### Q111. Якого покемона буде виведено в консоль?
 
 ```js
 var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
@@ -1522,11 +1522,11 @@ console.log(pokedex.pop());
 - [ ] Snorlax
 - [ ] Squirtle
 
-**Explanation**: `The pop() method removes the last element from an array and returns that element. This method changes the length of the array.`
+**Пояснення**: `Метод pop() видаляє останній елемент із масиву та повертає його. Цей метод змінює довжину масиву.`
 
-[Reference Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+[Array.pop](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/pop/)
 
-#### Q112. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
+#### Q112. Яким виразом можна скористатися щоб обрати елемент із DOM, який містить "The LinkedIn Learning library has great JavaScript courses" з цієї розмітки?
 
 ```html
 <h1 class="content">LinkedIn Learning</h1>
@@ -1540,16 +1540,16 @@ console.log(pokedex.pop());
 - [ ] document.querySelector(".content")
 - [ ] document.querySelector("div.span")
 
-#### Q113. Which value is not falsey?
+#### Q113. Яке значення не є хибним?
 
 - [x] `[]`
 - [ ] `undefined`
 - [ ] `0`
 - [ ] `null`
 
-[Reference Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+[Хибні значення](https://webdoky.org/uk/docs/Glossary/Falsy/)
 
-#### Q114. What line of code causes this code segment to throw an error?
+#### Q114. Який рядок викличе помилку в цьому коді?
 
 ```js
 const lion = 1;
@@ -1561,15 +1561,15 @@ bear += lion + tiger;
 tiger++;
 ```
 
-- [x] `line 5, because lion cannot be reassigned a value`
-- [ ] `line 6, because the += operator cannot be used with the undefined variable bear`
-- [ ] `line 5, because the prefix (++) operator does not exist in JavaScript`
-- [ ] `line 3, because the variable bear is left undefined`
+- [x] `рядок 5, тому що lion не можна перепризначити`
+- [ ] `рядок 6, тому що += оператор не можна використовувати з undefined змінною bear`
+- [ ] `рядок 5, тому що префікс (++) не існує в javascript`
+- [ ] `рядок 3, тому що змінна bear undefined`
 
-1. [Reference const in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-2. [Reference TypeError: invalid assignment to const "x"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
+1. [const](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/const/)
+2. [TypeError: invalid assignment to const "x"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
 
-#### Q115. What will be the value of `result` after running this code?
+#### Q115. Яким буде значення `result` після запуску цього коду?
 
 ```js
 const person = { name: 'Dave', age: 40, hairColor: 'blue' };
@@ -1581,17 +1581,17 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 - [ ] `["DAVE", 40, "BLUE"]`
 - [x] `["NAME", "AGE", "HAIRCOLOR"]`
 
-1. [Reference Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-2. [Reference Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-3. [Reference String.prototype.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+1. [Object.keys()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Object/keys/)
+2. [Array.prototype.map()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/map/)
+3. [String.prototype.toUpperCase()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase/)
 
-#### Q116. Which snippet could you insert to this code to print "swim" to the console?
+#### Q116. Який фрагмент потрібно вставити, щоб надрукувати "swim" в консолі?
 
 ```js
 let animals = ["eagle", "osprey", "salmon"];
 let key = animal => animal === "salmon";
 
-if(/* Insert Snippet Here */){
+if(/* Вставити фрагмент тут */){
   console.log("swim");
 }
 ```
@@ -1601,9 +1601,9 @@ if(/* Insert Snippet Here */){
 - [ ] `animals.filter(key) === true`
 - [x] `animals.some(key)`
 
-[Reference Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+[Array.prototype.some](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/some/)
 
-#### Q117. What is the output of this code?
+#### Q117. Який результат цього коду?
 
 ```js
 class RainForest {
@@ -1620,9 +1620,9 @@ console.log(congo.minimumRainFall);
 - [ ] `60`
 - [ ] `80`
 
-[Reference Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+[Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
-#### Q118. How can you attempt to access the property `a.b` on `obj` without throwing an error if a is undefined?
+#### Q118. Як можна спробувати отримати доступ до властивості `a.b` в `obj` не викликаючи помилки якщо a - undefined?
 
 ```js
 let obj = {};
@@ -1633,9 +1633,9 @@ let obj = {};
 - [ ] `obj[a][b]`
 - [ ] `obj.?a.?b`
 
-[Reference Optional chaining (?.)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+[Опціональний ланцюжок '?.'](https://uk.javascript.info/optional-chaining)
 
-#### Q119. What happens when you run this code?
+#### Q119. Що відбувається, коли запускаєте цей код?
 
 ```js
 if (true) {
@@ -1646,14 +1646,14 @@ if (true) {
 console.log(x + y + z);
 ```
 
-- [ ] It will throw a `ReferenceError` about `x`.
-- [ ] It will print `18`.
-- [ ] It will print `undefined`.
-- [x] It will throw a `ReferenceError` about `y`.
+- [ ] Буде помилка `ReferenceError` через `x`.
+- [ ] Надрукується `18`.
+- [ ] Надрукується `undefined`.
+- [x] Буде помилка `ReferenceError` через `y`.
 
-[Reference let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+[let](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/let/)
 
-#### Q120. What does this code print to the console?
+#### Q120.Що цей код надрукує в консолі?
 
 ```js
 const x = [1, 2];
@@ -1667,9 +1667,9 @@ console.log(z);
 - [ ] `[2,7]`
 - [ ] `[2,1,7,5]`
 
-[Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+[Синтаксис поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
 
-#### Q121. Given this code, which statement will be evaluated as false?
+#### Q121. Враховуючи цей код, який вираз буде оцінений як хибний?
 
 ```js
 const a = { x: 1 };
@@ -1681,9 +1681,9 @@ const b = { x: 1 };
 - [x] `a === b`
 - [ ] `a.x === b.x`
 
-[Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
+[Довідка](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
 
-#### Q122. What will this code log to the console?
+#### Q122. Що цей код виведе в косоль?
 
 ```js
 console.log(typeof 41.1);
@@ -1694,9 +1694,9 @@ console.log(typeof 41.1);
 - [ ] `float`
 - [x] `number`
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
+[Оператор typeof](https://uk.javascript.info/types#type-typeof)
 
-#### Q123. What is the output of this code?
+#### Q123. Який результат цього коду?
 
 ```js
 let scores = [];
@@ -1713,11 +1713,11 @@ console.log(score);
 - [ ] `6`
 - [ ] `7`
 
-1. [Reference Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-2. [Reference Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-3. [Reference Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+1. [Array.prototype.push()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/push/)
+2. [Array.prototype.pop()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/pop/)
+3. [Array.prototype.reduce()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce/)
 
-#### Q124. What does this code print to the console?
+#### Q124. Що цей код надрукує в консоль?
 
 ```js
 let bear = {
@@ -1732,14 +1732,14 @@ let bearSound = bear.roar;
 bearSound();
 ```
 
-- [ ] `Nothing is printed to the console.`
+- [ ] `Нічого не буде надруковано.`
 - [ ] `grunt`
 - [x] `undefined`
 - [ ] `roar`
 
-[Reference](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q125. What is the output of this code?
+#### Q125. Який результат цього коду?
 
 ```js
 var cat = { name: 'Athena' };
