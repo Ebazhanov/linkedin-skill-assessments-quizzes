@@ -7,9 +7,9 @@
 - [ ] `==!`
 - [x] `!==`
 
-[Посилання на оператори порівняння Javascript](https://www.w3schools.com/js/js_operators.asp)
+[Оператори порівняння](https://uk.javascript.info/comparison)
 
-#### Q2. Чим оператор forEach відрізняється від оператора for?
+#### Q2. Чим forEach відрізняється від for?
 
 - [ ] Тільки оператор for використовує функцію зворотного виклику.
 - [x] Оператор for є більш загальним і може використовуватися з різними ітерованими об’єктами, тоді як оператор forEach в основному розроблений для масивів, але також може використовуватися з іншими ітерованими об’єктами, такими як Sets.
@@ -31,18 +31,18 @@ function addTax(total) {
 - [x] `addTax(50);`
 - [ ] `addTax 50;`
 
-[Довідка. Функції в javascript](https://www.w3schools.com/js/js_functions.asp)
+[Функції](https://uk.javascript.info/function-basics)
 
-#### Q4. Який оператор є правильним способом створити змінну під назвою rate і присвоїти їй значення 100?
+#### Q4. Який вираз є правильним способом створити змінну під назвою rate і присвоїти їй значення 100?
 
 - [x] `let rate = 100;`
 - [ ] `let 100 = rate;`
 - [ ] `100 = let rate;`
 - [ ] `rate = 100;`
 
-[Довідка. Оператори призначення Javascript](https://www.w3schools.com/js/js_operators.asp)
+[Змінні](https://uk.javascript.info/variables)
 
-#### Q5. Який оператор створює новий об’єкт за допомогою конструктора Person? Який оператор створює новий об’єкт Person під назвою «student»?
+#### Q5. Який вираз створює новий об’єкт за допомогою конструктора Person? Який вираз створює новий об’єкт Person під назвою «student»?
 
 - [x] `var student = new Person();`
 - [ ] `var student = construct Person;`
@@ -66,7 +66,7 @@ console.log('Results shown');
 - [ ] через 10000 секунд
 - [x] негайно
 
-[Довідка. Javascript є синхронним і однопотоковим](https://stackoverflow.com/a/2035662/15067394)
+[Javascript є синхронним і однопотоковим](https://stackoverflow.com/a/2035662/15067394)
 
 #### Q7. Який фрагмент можна додати до цього коду, щоб надрукувати «food» в консолі?
 
@@ -145,7 +145,7 @@ for (var j = 1; j <= 4; j++) {
 }
 ```
 
-1. [Довідка setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+1. [Довідка setTimeout](https://uk.javascript.info/settimeout-setinterval)
 2. [Довідка анонімні функції, що викликаються негайно](https://www.javascripttutorial.net/javascript-anonymous-functions/)
 
 #### Q9. Як функція створює замикання?
@@ -191,7 +191,7 @@ discountPrice = function (price) {
 };
 ```
 
-[Довідка. Визначення функцій у javascript](https://www.w3schools.com/js/js_functions.asp)
+[Функції](https://uk.javascript.info/function-basics)
 
 #### Q11. Який результат буде у консолі після виконання показаного коду?
 
@@ -255,7 +255,7 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes.3
 - [x] roadTypes\[2\]
 
-[Доступ до масивів JavaScript](https://www.w3schools.com/js/js_arrays.asp)
+[Масиви](https://uk.javascript.info/array)
 
 #### Q15. Який результат виконання цього виразу?
 
@@ -277,7 +277,7 @@ console.log(typeof 42);
 - [x] `target`
 - [ ] `source`
 
-[Події DOM](https://www.w3schools.com/jsref/dom_obj_event.asp)
+[Події DOM](https://uk.javascript.info/array)
 
 #### Q17. Ви додаєте обробку помилок до показаного коду. Який код ви включите в вираз if, щоб вивести повідомлення про помилку?
 
@@ -302,7 +302,7 @@ function addNumbers(x, y) {
 - [ ] `JSON.toObject()`
 - [ ] `JSON.stringify()`
 
-[Перетворення json на об’єкт javascript](https://www.w3schools.com/js/js_json_parse.asp)
+[Перетворення json на об’єкт javascript](https://uk.javascript.info/json#json-parse)
 
 #### Q19. Коли б ви використовували умовний оператор?
 
@@ -311,7 +311,7 @@ function addNumbers(x, y) {
 - [ ] Коли потрібно згрупувати дані.
 - [ ] Коли ви хочете прокрутити групу операторів.
 
-[Умови в javascript](https://www.javascript.com/learn/conditionals)
+[Умови в javascript](https://uk.javascript.info/ifelse)
 
 #### Q20. Яким буде результат виконання цього коду в консолі?
 
@@ -326,7 +326,7 @@ for (var i = 0; i < 5; i++) {
 - [x] 0 1 2 3 4
 - [ ] 0 1 2 3 4 5
 
-[Цикли for в javascript](https://www.w3schools.com/js/js_loop_for.asp)
+[Цикли for в javascript](https://uk.javascript.info/while-for#cikl-for)
 
 #### Q21. Який метод Object повертає ітерований елемент, який можна використовувати для перебору властивостей об’єкта?
 
@@ -335,7 +335,7 @@ for (var i = 0; i < 5; i++) {
 - [ ] `Object.each()`
 - [x] `Object.keys()`
 
-[Статичні методи об’єкта javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
+[Статичні методи об’єкта](https://uk.javascript.info/keys-values-entries)
 
 #### Q22. Що буде виведено в консолі?
 
@@ -381,7 +381,7 @@ dessert.type = 'pudding';
 - [x] 0
 - [ ] false
 
-[Логіка boolean](https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19)
+[Логічні оператори](https://uk.javascript.info/logical-operators)
 
 #### Q26. Який із наведених нижче операторів можна використовувати для скороченого обчислення?
 
@@ -390,7 +390,7 @@ dessert.type = 'pudding';
 - [ ] `==`
 - [x] `||`
 
-[Скорочене обчислення в javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
+[Скорочене обчислення](https://uk.javascript.info/optional-chaining#skorochene-obchislennya)
 
 #### Q27. Який вираз встановлює конструктор Person як батьківський елемент конструктора Student у ланцюжку прототипів?
 
@@ -399,7 +399,7 @@ dessert.type = 'pudding';
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
-[Прототип об'єкта js](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
+[Прототип об'єкта](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
 #### Q28. Навіщо включати оператор "use strict" у файл JavaScript?
 
@@ -408,7 +408,7 @@ dessert.type = 'pudding';
 - [ ] щоб наказати браузеру автоматично виправляти будь-які помилки, які він знаходить у коді
 - [ ] щоб увімкнути функції ES6 у вашому коді
 
-[Що таке use strict в js](https://www.w3schools.com/js/js_strict.asp)
+[Сучасний режим, "use strict"](https://uk.javascript.info/strict-mode)
 
 #### Q29. Яке ключове слово, що визначає змінну, дозволяє отримати доступ до своєї змінної (як невизначеної) перед рядком, який її визначає?
 
@@ -417,7 +417,7 @@ dessert.type = 'pudding';
 - [x] `var`
 - [ ] `let`
 
-[Var, let і const в js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+[Var, let і const](https://www.freecodecamp.org/ukrainian/news/yaka-riznytsya-mizh-var-let-ta-const/)
 
 #### Q30. Яке з наведених нижче значень не є логічним значенням false?
 
@@ -426,9 +426,9 @@ dessert.type = 'pudding';
 - [ ] `Boolean(NaN)`
 - [x] `Boolean("false")`
 
-[Вoolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+[Перетворення на булевий тип](https://uk.javascript.info/type-conversions#peretvorennya-na-bulevii-tip)
 
-#### Q31. Що з наведеного не є ключовим словом у JavaScript?
+#### Q31. Що з наведеного не є зарезерованим словом у JavaScript?
 
 - [ ] `this`
 - [ ] `catch`
@@ -444,7 +444,7 @@ dessert.type = 'pudding';
 - [ ] argsArray
 - [ ] argumentsList
 
-[Неявні параметри для функцій](https://www.codeproject.com/Tips/1221966/JavaScript-Functions-Implicit-Parameters)
+[Змінна “arguments”](https://uk.javascript.info/rest-parameters-spread#zminna-arguments)
 
 #### Q33. Для наступного класу, як отримати значення 42 з екземпляра X?
 
@@ -462,7 +462,7 @@ var x = new X();
 - [ ] `x.Y()`
 - [ ] `x.get().Y`
 
-[Геттери](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
+[Геттери/сеттери](https://uk.javascript.info/class#getteri-setteri)
 
 #### Q34. Який результат виконання цього коду?
 
@@ -624,7 +624,7 @@ const y = x ? 'One' : 'Two';
 - [ ] TRUE
 - [x] Two
 
-[Тернарний оператор](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+[Тернарний оператор](https://uk.javascript.info/ifelse#umovnii-operator)
 
 #### Q47.Яке ключове слово використовується для створення помилки?
 
@@ -1132,16 +1132,16 @@ console.log(addFive(3));
 
 [Тег “script”](https://uk.javascript.info/hello-world#teg-script)
 
-#### Q88. If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?
+#### Q88. Якщо ваша програма отримує дані від стороннього API, який заголовок відповідей HTTP повинен вказати сервер, щоб дозволити винятки з політики однакового походження?
 
 - [ ] Security-Mode
 - [x] Access-Control-Allow-Origin
 - [ ] Different-Origin
 - [ ] Same-Origin
 
-[Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+[Запити між різними джерелами](https://uk.javascript.info/fetch-crossorigin)
 
-#### Q89. What is the output of this code?
+#### Q89. Який результат цього коду?
 
 ```js
 let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
@@ -1154,13 +1154,13 @@ console.log(rainForests);
 - [ ] `["Congo"]`
 - [ ] `["Amazon","Borneo"]`
 
-[Reference array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+[Методи масивів](https://uk.javascript.info/array-methods)
 
-#### Q90. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?
+#### Q90. Який відсутній рядок дозволить вам створити п’ять змінних (one,two,three,four,five), які відповідають їх числовим значенням (1,2,3,4,5)?
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-//MISSING LINE
+//ВІДСУТНІЙ РЯДОК
 ```
 
 - [x] `const [one,two,three,four,five]=numbers`
@@ -1168,9 +1168,9 @@ const numbers = [1, 2, 3, 4, 5];
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
 
-[Reference array destructuring](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
+[Деструктуризація масиву](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
 
-#### Q91. What will this code print?
+#### Q91. Що надрукує цей код?
 
 ```js
 const obj = {
@@ -1187,19 +1187,19 @@ const obj2 = {
 console.log(obj2.a, obj2.b);
 ```
 
-- [ ] Nothing, it will throw an error
+- [ ] Нічого, кине помилку
 - [x] 0 2
 - [ ] undefined 2
 - [ ] undefined 2
 
-[Reference spread syntax es6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+[Синтаксим поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
 
-#### Q92. Which line could you add to this code to print "jaguar" to the console?
+#### Q92. Який рядок ви могли б додати до цього коду, щоб надрукувати "Jaguar" в консоль?
 
 ```js
 let animals = ['jaguar', 'eagle'];
-//Missing Line
-console.log(animals.pop()); //Prints jaguar
+//Відсутній рядок
+console.log(animals.pop()); //Друкує jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
@@ -1207,23 +1207,20 @@ console.log(animals.pop()); //Prints jaguar
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
-[Reference Javascript Array pop()](https://www.w3schools.com/jsref/jsref_pop.asp)
+[Array.prototype.pop()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/pop/)
 
-shift() - removes the FIRST element of an array and returns the removed item.
+`shift()` - видаляє перший елемент масиву і повертає видалений елемент.
+`pop()` - видаляє останній елемент масиву і повертає видалений елемент.
+`reverse()` - змінює порядок елементів у масиві на зворотній.
+`filter()` - обирає кожен елемент у масиві, який відповідає умові.
 
-pop() - removes the LAST element of an array and returns the removed item.
-
-reverse() - reverses the order of the elements in an array.
-
-filter() - get every element in the array that meets the condition.
-
-#### Q93. What line is missing from this code?
+#### Q93. Якого рядка не вистачає в цьому коді?
 
 ```js
-//Missing Line
+//Відсутній рядок
 for (var i = 0; i < vowels.length; i++) {
   console.log(vowels[i]);
-  //Each letter printed on a separate line as follows;
+  //Кожна буква, надрукована на окремому рядку;
   //a
   //e
   //i
@@ -1237,9 +1234,9 @@ for (var i = 0; i < vowels.length; i++) {
 - [ ] `let vowels = {"a", "e", "i", "o", "u"};`
 - [x] `let vowels = "aeiou";`
 
-[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+[Рядки](https://uk.javascript.info/string)
 
-#### Q94. What will be logged to the console?
+#### Q94. Що буде виведено в консоль?
 
 ```js
 const x = 6 % 2;
@@ -1252,10 +1249,10 @@ console.log(y);
 - [ ] true
 - [x] Two
 
-**Note:** `this question is same with Q46.`
-[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+**ПРИМІТКА:** `Це питання однакове з Q46.`
+[Умовний оператор](https://uk.javascript.info/ifelse#umovnii-operator)
 
-#### Q95. How would you access the word It from this multidimensional array?
+#### Q95.Як би ви отримали доступ до "It" в цьому багатовимірному масиві?
 
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
 
@@ -1264,21 +1261,21 @@ console.log(y);
 - [ ] `matrix[1,2]`
 - [ ] `matrix[1][2]`
 
-#### Q96. What does this code do?
+#### Q96. Що робить цей код?
 
 ```js
 const animals = ['Rabbit', 'Dog', 'Cat'];
 animals.unshift('Lizard');
 ```
 
-- [x] It adds "Lizard" to the start of the animals array.
-- [ ] It adds "Lizard" to the end of the animals array.
-- [ ] It replaces "Rabbit" with "Lizard" in the animals array.
-- [ ] It replaces "Cat" with "Lizard" in the animals array.
+- [x] додає "Lizard" до початку масиву animals.
+- [ ] додає "Lizard" в кінець масиву animals.
+- [ ] замінює "Rabbit" на "Lizard" у масиві animals.
+- [ ] замінює "Cat" на "Lizard" у масиві animals.
 
-[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+[Методи масивів](https://uk.javascript.info/array-methods)
 
-#### Q97. What is the output of this code?
+#### Q97. Який результат цього коду?
 
 ```js
 let x = 6 + 3 + '3';
@@ -1290,18 +1287,19 @@ console.log(x);
 - [ ] 66
 - [ ] 633
 
-[Reference type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
+[Перетворення типу](https://uk.javascript.info/type-conversions)
 
-#### Q98. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
+#### Q98.Яке твердження може прийняти єдиний вираз на вхід, а потім переглянути ряд варіантів, поки не знайдеться потрібне значення?
 
 - [ ] else
 - [ ] when
 - [ ] if
 - [x] switch
 
-[Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+[Switch](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/switch/)
+[Конструкція "switch"](https://uk.javascript.info/switch)
 
-#### Q99. Which statement prints "roar" to the console?
+#### Q99. Яка вираз друкує "roar" в консоль?
 
 ```js
 var sound = 'grunt';
