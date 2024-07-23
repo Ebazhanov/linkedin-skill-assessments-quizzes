@@ -1739,7 +1739,7 @@ bearSound();
 
 [Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q125. Який результат цього коду?
+#### Q125. Який результат роботи цього коду?
 
 ```js
 var cat = { name: 'Athena' };
@@ -1758,7 +1758,7 @@ console.log(cat.name);
 - [ ] Tabby
 - [ ] Athena
 
-#### Q126. What will this code output to the log?
+#### Q126.Що буде виводити цей код в консоль?
 
 ```js
 var thing;
@@ -1774,7 +1774,7 @@ func(null);
 - [ ] null null
 - [x] no arg null
 
-#### Q127. What will this code print to the console?
+#### Q127. Що цей код надрукує в консоль?
 
 ```js
 const myFunc = () => {
@@ -1788,10 +1788,10 @@ test();
 
 - [ ] a is 1
 - [ ] a is undefined
-- [ ] It won't print anything.
+- [ ] Він нічого не надрукує.
 - [x] a is 2
 
-#### Q128. What will this code print to the console?
+#### Q128. Що цей код надрукує в консоль?
 
 ```js
 const myFunc = (num1, num2 = 2, num3 = 2) => {
@@ -1807,7 +1807,7 @@ console.log(test);
 - [ ] 2
 - [ ] 12
 
-#### Q129. Which code would you use to access the Irish flag?
+#### Q129. Який код ви б використали для доступу до ірландського прапора?
 
 ```js
 var flagsJSON =
@@ -1824,13 +1824,13 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
 
-#### Q130. Which snippet allows the acresOfRainForest variable to increase?
+#### Q130. Який фрагмент дозволяє збільшити змінну acresOfRainForest?
 
 ```js
 let conservation = true;
 let deforestation = false;
 let acresOfRainForest = 100;
-if (/* Snipped goes here */){
+if (/* Фрагмент коду тут */){
     ++acresOfRainForest;
 }
 ```
@@ -1840,23 +1840,23 @@ if (/* Snipped goes here */){
 - [ ] !conservation || deforestation
 - [ ] deforestation && conservation || deforestation
 
-#### Q131. Which of these evaluate to true?
+#### Q131. Який з цих виразів поверне true?
 
 - [x] Boolean("false")
 - [ ] Boolean("")
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
 
-#### Q132. How would you add a data item named animal with a value of sloth to local storage for the current domain?
+#### Q132. Як би ви додали елемент animal зі значенням sloth до локального сховища?
 
 - [ ] LocalStorage.setItem("animal","sloth");
 - [ ] document.localStorage.setItem("animal","sloth");
 - [ ] localStorage.setItem({animal:"sloth"});
 - [x] localStorage.setItem("animal","sloth");
 
-[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+[Демонстрація роботи localStorage](https://uk.javascript.info/localstorage#demonstraciya-roboti-localstorage)
 
-#### Q133. What value is printed to the console after this code execute?
+#### Q133. Яке що буде надруковано в консолі після виконання цього коду?
 
 ```js
 let cat = Object.create({ type: 'lion' });
@@ -1873,9 +1873,9 @@ console.log(copyCat.type, copyCat.size);
 - [x] undefined large
 - [ ] lion large
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Object/create/)
 
-#### Q134. What does this code print to the console?
+#### Q134.Що цей код надрукує в консолі?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];
@@ -1897,9 +1897,9 @@ console.log(animals[1], clones[1]);
 - [ ] lion bear
       tiger sheep
 
-[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Object/)
 
-#### Q135. What will be the output of the following code?
+#### Q135.Яким буде результат виклику наступного коду?
 
 ```js
 a=5;
@@ -1912,12 +1912,12 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-#### Q136. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
+#### Q136. Який фрагмент треба додати до цього коду для друку "{"type": "tiger"}" в консолі?
 
 ```js
 let cat = { type: "tiger", size: "large" };
 
-let json = /* Snippet here */;
+let json = /* Фрагмент тут */;
 
 console.log(json); // print {"type":"tiger"}
 ```
@@ -1927,36 +1927,36 @@ console.log(json); // print {"type":"tiger"}
 - [ ] `JSON.stringify(cat);`
 - [ ] `JSON.stringify(cat, /type/);`
 
-[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify/)
 
-#### Q137. Which document method is not used to get a reference to a DOM node?
+#### Q137. Який метод не використовується для отримання посилання на вузол DOM?
 
 - [x] document.getNode();
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
 
-[Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
+[Довідка](https://uk.javascript.info/searching-elements-dom)
 
-#### Q138. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+#### Q138. В JavaScript, усі об'єкти успадковують вбудовану властивість від **\*\*\*\***\_\_\_**\*\*\*\***.
 
 - [ ] node
 - [ ] instance variable
 - [x] prototype
 - [ ] accessor
 
-[Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
-#### Q139. Which of the following are not server-side Javascript objects?
+#### Q139. Що з наведеного не є об'єктами Javascript на стороні сервера?
 
 - [ ] Date
 - [x] FileUpload
 - [ ] Function
-- [ ] All of the above
+- [ ] Все вищеперераховане
 
-[Reference](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
+[Довідка](https://docs.oracle.com/cd/E19957-01/816-6411-10/jsserv.htm#1035757)
 
-#### Q140. What will be the output of the following code snippet?
+#### Q140. Яким буде результат виконання наступного фрагмента коду?
 
 ```javascript
 const obj1 = { first: 20, second: 30, first: 50 };
@@ -1966,7 +1966,7 @@ console.log(obj1);
 - [ ] first: 30 , second: 50
 - [x] first: 50 , second: 30
 - [ ] first: 30 , second: 20
-- [ ] None of the above
+- [ ] Жоден з вищевказаних
 
 #### Q141. Which object in Javascript doesn’t have a prototype?
 
