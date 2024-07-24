@@ -1968,32 +1968,32 @@ console.log(obj1);
 - [ ] first: 30 , second: 20
 - [ ] Жоден з вищевказаних
 
-#### Q141. Which object in Javascript doesn’t have a prototype?
+#### Q141. Який об'єкт у JavaScript не має прототипу?
 
-- [x] Base Object
-- [ ] All objects have prototype
-- [ ] None of the objects have prototype
-- [ ] None of the above
+- [x] Базовий об'єкт
+- [ ] Усі об'єкти мають прототип
+- [ ] Жоден із об'єктів не має прототипу
+- [ ] Жоден з вищевказаних
 
-[Reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+[Довідка](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
-#### Q142. What does … operator do in JS?
+#### Q142. Що робить оператор `…` у JS?
 
-- [x] Used to spread iterables to individual elements
-- [ ] Describe datatype of undefined
-- [ ] No such operator exists
-- [ ] None of the above
+- [x] Використовується для поширення ітерабельних елементів
+- [ ] Описує тип даних undefined
+- [ ] Такого оператора не існує
+- [ ] Жоден з вищевказаних
 
-#### Q143. How to stop an interval timer in Javascript?
+#### Q143. Як зупинити інтервальний таймер у JavaScript?
 
 - [x] clearInterval
 - [ ] clearTimer
 - [ ] intervalOver
-- [ ] None of the above
+- [ ] Жоден з вищевказаних
 
-[Reference](https://www.interviewbit.com/javascript-mcq/)
+[Довідка](https://uk.javascript.info/settimeout-setinterval#setinterval)
 
-#### Q144. What will be the output of the following code snippet?
+#### Q144. Яким буде результат роботи наступного фрагмента коду?
 
 ```javascript
 print(typeof NaN);
@@ -2002,9 +2002,9 @@ print(typeof NaN);
 - [ ] Object
 - [x] Number
 - [ ] String
-- [ ] None of the above
+- [ ] Жоден з вищевказаних
 
-#### Q145. What will be the output of the following code snippet?
+#### Q145. Яким буде результат роботи наступного фрагмента коду?
 
 ```javascript
 <script type="text/javascript">a = 5 + "9"; document.write(a);</script>
@@ -2015,14 +2015,14 @@ print(typeof NaN);
 - [ ] Runtime Error
 - [x] 59
 
-#### Q146. Which of the following methods can be used to display data in some form using Javascript?
+#### Q146. Який із наведених методів можна використовувати для відображення даних у якійсь формі за допомогою JavaScript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [x] all of the above
+- [x] все вищеперераховане
 
-#### Q147. What value is assigned to total after this code executes?
+#### Q147. Яке значення присвоюється total після виконання цього коду?
 
 ```javascript
 function sum(num1, num2 = 2, num3 = 3) {
@@ -2037,54 +2037,54 @@ let total = sum(4, ...values);
 - [ ] 7
 - [ ] 8
 
-[Reference: Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+[Залишкові параметри](https://uk.javascript.info/rest-parameters-spread#zalishkovi-parametri)
 
-#### Q148. Which statement is applicable to the defer attribute of the HTML <script> tag?
+#### Q148. Яка заява відповідає визначенню  HTML атрибута defer?
 
-- [x] defer allows the browser to continue processing the page while the script loads in the background.
-- [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
-- [ ] defer blocks the browser from processing HTML below the tag until the script is completely loaded.
-- [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
+- [x] defer дозволяє браузеру продовжувати обробляти сторінку, поки скрипт завантажується у фоновому режимі.
+- [ ] defer призводить до завантаження скрипта з мережі доставки вмісту резервного копіювання (CDN).
+- [ ] defer блокує браузер для обробки HTML нижче тегу, поки сценарій не буде повністю завантажений.
+- [ ] defer ледаче завантажє скрипт, внаслідок чого він завантажується лише тоді, коли викликається іншим скриптом на сторінці.
 
-[Reference: defer html script attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+[defer](https://uk.javascript.info/script-async-defer#defer)
 
-#### Q149. Which method of a class is called to initialize an object of that class?
+#### Q149. Який метод класу покликаний ініціалізувати об'єкт цього класу?
 
 - [ ] init()
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 
-[Reference: constructor method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+[Метод constructor](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor/)
 
-#### Q150. Which expression evaluates to true?
+#### Q150. Який вираз призведе до true?
 
 - [ ] Boolean(NaN)
 - [ ] Boolean(0)
 - [x] Boolean("false")
 - [ ] Boolean("")
 
-[Reference: Boolean object](https://www.w3schools.com/js/js_booleans.asp)
+[Boolean](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Boolean/)
 
-#### Q151. How would you check if the word "pot" is in the word "potato"?
+#### Q151. Як би ви перевірили, чи слово "pot" є в слові "potato"?
 
 - [ ] "pot".indexOf("potato") !== -1
 - [ ] "potato".includes("Pot")
 - [x] "potato".includes("pot")
 - [ ] "potato".contains("pot");
 
-[Reference: String.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+[String.prototype.includes()](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/String/includes/)
 
-#### Q152. Which collection object allows a unique value to be inserted only once?
+#### Q152. Який об’єкт колекції дозволяє вставляти унікальне значення лише один раз?
 
 - [ ] Map
 - [ ] Array
 - [x] Set
 - [ ] Object
 
-[Reference: developer.mozilla Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+[Set](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Set/)
 
-#### Q153. How would you change the color of this header to pink?
+#### Q153. Як би ви змінили колір цього заголовка на рожевий?
 
 ```javascript
 <h2 id="cleverest">girls</h2>
@@ -2095,13 +2095,13 @@ let total = sum(4, ...values);
 - [ ] document.getElementByName("h2").style.color = "pink";
 - [x] document.getElementById("cleverest").style.color = "pink";
 
-[Reference: W3Schools HTML DOM Style color Property](https://www.w3schools.com/jsref/prop_style_color.asp)
+[HTML DOM Style color властивість](https://uk.javascript.info/dom-attributes-and-properties#vlastivosti-dom-tipizovani)
 
-#### Q154. Which line is missing from this code if you expect the code to evaluate to true?
+#### Q154. Якого рядку не вистачає в цьому коді, якщо ви очікуєте, що код поверне true?
 
 ```js
 var compare = function (test1, test2) {
-  // Missing line
+  // Відсутній рядок
 };
 
 compare(1078, '1078'); // yields true
@@ -2112,9 +2112,9 @@ compare(1078, '1078'); // yields true
 - [x] return test1==test2;
 - [ ] return test1!=test2;
 
-[Reference: MDN Equality Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+[Оператори порівняння](https://uk.javascript.info/comparison)
 
-#### Q155. What is the output of this code?
+#### Q155. Який результат роботи цього коду?
 
 ```js
 if (true) {
@@ -2138,7 +2138,7 @@ console.log(second);
 - [ ] You
        got this!
 
-[Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
+[Область видимості змінної](https://uk.javascript.info/closure)
 
 #### Q156. What is the output for the code given below?
 
