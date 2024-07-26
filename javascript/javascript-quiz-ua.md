@@ -607,7 +607,7 @@ if (start === 1) {
 ```
 
 - [ ] умовну
-- [X] блочну
+- [x] блочну
 - [ ] глобальну
 - [ ] функціональну
 
@@ -638,10 +638,10 @@ const y = x ? 'One' : 'Two';
 
 #### Q48. Яка різниця між async так defer атрибутами в HTML script тезі?
 
-- [ ]  атрибут defer може працювати синхронно.
-- [ ]  атрибут defer працює лише з генераторами.
-- [ ]  атрибут defer працює лише з промісами.
-- [x]  атрибут defer асинхронно завантажуватиме скрипти.
+- [ ] атрибут defer може працювати синхронно.
+- [ ] атрибут defer працює лише з генераторами.
+- [ ] атрибут defer працює лише з промісами.
+- [x] атрибут defer асинхронно завантажуватиме скрипти.
 
 [Async проти defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 
@@ -2039,7 +2039,7 @@ let total = sum(4, ...values);
 
 [Залишкові параметри](https://uk.javascript.info/rest-parameters-spread#zalishkovi-parametri)
 
-#### Q148. Яка заява відповідає визначенню  HTML атрибута defer?
+#### Q148. Яка заява відповідає визначенню HTML атрибута defer?
 
 - [x] defer дозволяє браузеру продовжувати обробляти сторінку, поки скрипт завантажується у фоновому режимі.
 - [ ] defer призводить до завантаження скрипта з мережі доставки вмісту резервного копіювання (CDN).
@@ -2130,13 +2130,13 @@ console.log(second);
 ```
 
 - [ ] You
-       undefined
+      undefined
 - [x] You
-       ReferenceError
+      ReferenceError
 - [ ] undefined
-       undefined
+      undefined
 - [ ] You
-       got this!
+      got this!
 
 [Область видимості змінної](https://uk.javascript.info/closure)
 
