@@ -18,7 +18,7 @@
 
 [Довідка. Відмінності між циклом forEach і for](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q3. Перегляньте наведений нижче код. Який оператор викликає функцію addTax і передає 50 як аргумент?
+#### Q3. Перегляньте наведений нижче код. Який вираз викликає функцію addTax і передає 50 як аргумент?
 
 ```js
 function addTax(total) {
@@ -306,10 +306,10 @@ function addNumbers(x, y) {
 
 #### Q19. Коли б ви використовували умовний оператор?
 
-- [ ] Коли ви хочете повторно використати набір операторів кілька разів.
-- [x] Коли ви хочете, щоб ваш код вибирав між кількома варіантами.
+- [ ] Коли потрібно повторно використати набір операторів кілька разів.
+- [x] Коли потрібно, щоб код вибирав між кількома варіантами.
 - [ ] Коли потрібно згрупувати дані.
-- [ ] Коли ви хочете прокрутити групу операторів.
+- [ ] Коли потрібно прокрутити групу операторів.
 
 [Умови в javascript](https://uk.javascript.info/ifelse)
 
@@ -350,14 +350,15 @@ console.log(a.length);
 - [ ] 4
 - [ ] 100
 
-#### Q23. Яка відмінність між колекціями, створеними за допомогою Map, і за допомогою Object?
+#### Q23. Яка відмінність між колекціями, створеними за допомогою Map та Object?
 
-- [ ] Ви можете перебирати значення в Map в порядку вставки.
-- [x] Ви можете підрахувати записи в Map за допомогою одного виклику методу.
+- [ ] Можливо перебирати значення в Map в порядку вставки.
+- [x] Можливо підрахувати записи в Map за допомогою одного виклику методу.
 - [ ] Ключі в Map можуть бути рядками.
-- [ ] Ви можете отримати доступ до значень в Map без ітерації по всій колекції.
+- [ ] Можливо отримати доступ до значень в Map без ітерації по всій колекції.
 
 **Пояснення:** `Map.prototype.size повертає кількість елементів у Map, тоді як Object не має вбудованого методу для повернення його розміру.`
+
 [Методи Map](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Map/)
 
 #### Q24. Яке значення dessert.type після виконання цього коду?
@@ -374,7 +375,7 @@ dessert.type = 'pudding';
 
 [Робота з об'єктами](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Working_with_objects/)
 
-#### Q25. 0 && hi
+#### Q25. 0 && hi ?
 
 - [ ] ReferenceError
 - [ ] true
@@ -401,16 +402,16 @@ dessert.type = 'pudding';
 
 [Прототип об'єкта](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
 
-#### Q28. Навіщо включати оператор "use strict" у файл JavaScript?
+#### Q28. Навіщо включати вираз "use strict" у файл JavaScript?
 
-- [ ] щоб наказати парсерам вільно інтерпретувати ваш синтаксис JavaScript
-- [x] щоб повідомити парсерам застосовувати всі правила синтаксису JavaScript під час обробки вашого коду
+- [ ] щоб наказати парсерам вільно інтерпретувати синтаксис JavaScript
+- [x] щоб повідомити парсерам застосовувати всі правила синтаксису JavaScript під час обробки коду
 - [ ] щоб наказати браузеру автоматично виправляти будь-які помилки, які він знаходить у коді
-- [ ] щоб увімкнути функції ES6 у вашому коді
+- [ ] щоб увімкнути функції ES6 у коді
 
 [Сучасний режим, "use strict"](https://uk.javascript.info/strict-mode)
 
-#### Q29. Яке ключове слово, що визначає змінну, дозволяє отримати доступ до своєї змінної (як невизначеної) перед рядком, який її визначає?
+#### Q29. Яке ключове слово, що визначає змінну, дозволяє отримати доступ до змінної (як невизначеної) перед рядком, який її визначає?
 
 - [ ] всі
 - [ ] `const`
@@ -574,7 +575,7 @@ f2();
 - [ ] Ви визиваєте метод з назвою reduce на порожньому масиві.
 - [ ] Ви визиваєте метод з назвою reduce на об'єкті, який має значення null.
 
-** Пояснення **: `Ви не можете викликати reduce на undefined об'єкті... Це видасть помилку (your object is not defined...)`
+**Пояснення**: `Ви не можете викликати reduce на undefined об'єкті... Це видасть помилку (your object is not defined...)`
 
 #### Q43.Скільки прототипних об'єктів знаходяться в ланцюзі для наступного масиву?
 
@@ -612,7 +613,7 @@ if (start === 1) {
 
 [Блочна проти функціональної видимості](https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe)
 
-#### Q46.Яким буде значення y в цьому коді:
+#### Q46.Яким буде значення y в цьому коді?
 
 ```js
 const x = 6 % 2;
@@ -635,7 +636,7 @@ const y = x ? 'One' : 'Two';
 
 [Викидання помилок](<https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)>)
 
-#### Q48. Яка різниця між async так defer атрибутами в HTML script тегу?
+#### Q48. Яка різниця між async так defer атрибутами в HTML script тезі?
 
 - [ ]  атрибут defer може працювати синхронно.
 - [ ]  атрибут defer працює лише з генераторами.
@@ -644,7 +645,7 @@ const y = x ? 'One' : 'Two';
 
 [Async проти defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 
-#### Q49.Наступна програма має проблему.Що це?
+#### Q49.Наступна програма має проблему. Яку саме?
 
 ```js
 var a;
@@ -652,8 +653,8 @@ var b = (a = 3) ? true : false;
 ```
 
 - [x] Умова у тернарному виразі використовує оператор призначення
-- [ ] Ви не можете визначити змінну, не ініціалізуючи її.
-- [ ] Ви не можете використовувати тернарність у правій частині оператора призначення.
+- [ ] Неможливо визначити змінну, не ініціалізуючи її.
+- [ ] Неможливо використовувати тернарність у правій частині оператора призначення.
 - [ ] Код використовує застаріле ключове слово var.
 
 [Тернарний оператор](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
@@ -744,10 +745,10 @@ printA();
 printA();
 ```
 
-- [ ] `1` then `1`
-- [ ] `1` then `undefined`
-- [x] `undefined` then `undefined`
-- [ ] `undefined` then `1`
+- [ ] `1` потім `1`
+- [ ] `1` потім `undefined`
+- [x] `undefined` потім `undefined`
+- [ ] `undefined` потім `1`
 
 [Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
 
@@ -769,7 +770,7 @@ printA();
 
 [Стрілкові функції](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Functions/Arrow_functions/)
 
-#### Q58.Чому ви можете вирішити зробити код асинхронним?
+#### Q58.Навіщо робити код асинхронним?
 
 - [x] запустити задачі, які можуть зайняти деякий час, не блокуючи подальші задачі для негайного виконання
 - [ ] щоб переконатися, що задачі нижче у коді не запускаються, доки попередні не будуть завершені
@@ -851,7 +852,7 @@ printA();
 
 [Коментарі](https://www.w3schools.com/js/js_comments.asp)
 
-#### Q67. Якщо ви намагаєтесь викликати значення як функцію, але значення не є функцією, яку помилку ви отримаєте?
+#### Q67. Якщо ви намагаєтесь викликати змінну як функцію, коли вона не є функцією, яку помилку ви отримаєте?
 
 - [x] TypeError
 - [ ] SystemError
@@ -883,7 +884,7 @@ console.log(++a);
 
 [++x проти x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
 
-#### Q70. Ви написали слухача події, показаного нижче для кнопки форми, але кожного разу, коли ви натискаєте кнопку, сторінка перезавантажується. Яке твердження не дозволило б цьому відбутися?
+#### Q70. Ви написали слухача події, показаного нижче для кнопки форми, але кожного разу, коли ви натискаєте кнопку, сторінка перезавантажується. Який вираз не дозволив би цьому відбутися?
 
 ```js
 button.addEventListener(
@@ -973,7 +974,7 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q79.Який вихід цього коду?
+#### Q79.Який результат роботи цього коду?
 
 ```js
 var obj;
@@ -1060,8 +1061,7 @@ Javascript!
 Javascript!
 ```
 
-**Довідка**
-https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified особливо подивіться розділ 'late timeouts' .
+[Довідка](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified) особливо подивіться розділ 'late timeouts' .
 
 #### Q83.Що буде виведено в консолі?
 
@@ -1141,7 +1141,7 @@ console.log(addFive(3));
 
 [Запити між різними джерелами](https://uk.javascript.info/fetch-crossorigin)
 
-#### Q89. Який результат цього коду?
+#### Q89. Який результат роботи цього коду?
 
 ```js
 let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
@@ -1194,7 +1194,7 @@ console.log(obj2.a, obj2.b);
 
 [Синтаксис поширення](https://uk.javascript.info/rest-parameters-spread#spread-syntax)
 
-#### Q92. Який рядок ви могли б додати до цього коду, щоб надрукувати "Jaguar" в консоль?
+#### Q92. Який рядок потрібно додати до цього коду, щоб надрукувати "Jaguar" в консоль?
 
 ```js
 let animals = ['jaguar', 'eagle'];
@@ -1299,7 +1299,7 @@ console.log(x);
 [Switch](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/switch/)
 [Конструкція "switch"](https://uk.javascript.info/switch)
 
-#### Q99. Яка вираз друкує "roar" в консоль?
+#### Q99. Який вираз друкує "roar" в консоль?
 
 ```js
 var sound = 'grunt';
@@ -1318,7 +1318,7 @@ function roar() {
 2. [Довідка this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 3. [Довідка bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 
-#### Q100. Який варіант є дійсним прикладом стрілкової функції, якщо припустити, що c визначена у зовнішній області видимості?
+#### Q100. Який варіант є дійсним прикладом стрілкової функції, якщо припустити, що `c` визначена у зовнішній області видимості?
 
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
@@ -1341,7 +1341,7 @@ export const printMe = (str) => console.log(str);
 
 [Як імпортувати бібліотеку](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Statements/import/)
 
-#### Q102. Яким буде результат цього коду?
+#### Q102. Яким буде результат роботи цього коду?
 
 ```js
 const arr1 = [2, 4, 6];
@@ -1398,7 +1398,7 @@ console.log(typeof 'blueberry');
 
 [Оператор typeof](https://uk.javascript.info/types#type-typeof)
 
-#### Q107. Що буде надруковано в результаті, якщо натиснен div, який містить текст "Натисніть тут"?
+#### Q107. Що буде надруковано в результаті, якщо натиснутий div, який містить текст "Натисніть тут"?
 
 ```html
 //HTML Markup
@@ -1549,7 +1549,7 @@ console.log(pokedex.pop());
 
 [Хибні значення](https://webdoky.org/uk/docs/Glossary/Falsy/)
 
-#### Q114. Який рядок викличе помилку в цьому коді?
+#### Q114. Який рядок викличе помилку в цьому коді і чому саме?
 
 ```js
 const lion = 1;
@@ -1603,7 +1603,7 @@ if(/* Вставити фрагмент тут */){
 
 [Array.prototype.some](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/some/)
 
-#### Q117. Який результат цього коду?
+#### Q117. Який результат роботи цього коду?
 
 ```js
 class RainForest {
@@ -1622,7 +1622,7 @@ console.log(congo.minimumRainFall);
 
 [Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
-#### Q118. Як можна спробувати отримати доступ до властивості `a.b` в `obj` не викликаючи помилки якщо a - undefined?
+#### Q118. Як можна спробувати отримати доступ до властивості `a.b` в `obj` не викликаючи помилки якщо `a` - undefined?
 
 ```js
 let obj = {};
@@ -1856,7 +1856,7 @@ if (/* Фрагмент коду тут */){
 
 [Демонстрація роботи localStorage](https://uk.javascript.info/localstorage#demonstraciya-roboti-localstorage)
 
-#### Q133. Яке що буде надруковано в консолі після виконання цього коду?
+#### Q133. Що буде надруковано в консолі після виконання цього коду?
 
 ```js
 let cat = Object.create({ type: 'lion' });
@@ -2043,7 +2043,7 @@ let total = sum(4, ...values);
 
 - [x] defer дозволяє браузеру продовжувати обробляти сторінку, поки скрипт завантажується у фоновому режимі.
 - [ ] defer призводить до завантаження скрипта з мережі доставки вмісту резервного копіювання (CDN).
-- [ ] defer блокує браузер для обробки HTML нижче тегу, поки сценарій не буде повністю завантажений.
+- [ ] defer блокує браузер для обробки HTML нижче тегу, поки скрипт не буде повністю завантажений.
 - [ ] defer ледаче завантажє скрипт, внаслідок чого він завантажується лише тоді, коли викликається іншим скриптом на сторінці.
 
 [defer](https://uk.javascript.info/script-async-defer#defer)
@@ -2140,7 +2140,7 @@ console.log(second);
 
 [Область видимості змінної](https://uk.javascript.info/closure)
 
-#### Q156. What is the output for the code given below?
+#### Q156. Який результат виконання цього коду?
 
 ```js
 console.log('hello' + 'world' + '!');
@@ -2151,7 +2151,7 @@ console.log('hello' + 'world' + '!');
 - [ ] hello world!
 - [ ] hello world !
 
-#### Q157. What is the output of this code?
+#### Q157. Який результат виконання цього коду?
 
 ```js
 console.log(10 + 10);
@@ -2162,78 +2162,78 @@ console.log(10 + 10);
 - [ ] 30
 - [ ] 40
 
-#### Q158. Events related to the browser window can be handled by?
+#### Q158. Події, пов'язані з вікном браузера, можна обробляти за допомогою?
 
 - [ ] Onclicks
 - [x] Window
 - [ ] querySelector
-- [ ] None of the above
+- [ ] Жоден з вищевказаних
 
-[Reference: GeeksForGeeks](https://www.geeksforgeeks.org/javascript-course-quiz-1/)
+[Браузерне середовище](https://uk.javascript.info/browser-environment)
 
-#### Q159. How do you define a function in JavaScript?
+#### Q159. Як ви визначаєте функцію в JavaScript?
 
 - [x] function myFunction() {}
 - [ ] def myFunction() {}
 - [ ] var myFunction = () => {}
 - [ ] func myFunction() {}
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Functions/)
 
-#### Q160. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+#### Q160. Ваш код видає помилку: TypeError: Cannot read property 'reduce' of undefined. Що це означає?
 
-- [x] You are calling a method named reduce on an object that's declared but has no value.
-- [ ] You are calling a method named reduce on an object that does not exist.
-- [ ] You are calling a method named reduce on an empty array.
-- [ ] You are calling a method named reduce on an object that has a null value.
+- [x] Ви визиваєте метод з назвою reduce на об'єкті, який оголошений, але не має значення.
+- [ ] Ви визиваєте метод з назвою reduce на об'єкті, який не існує.
+- [ ] Ви визиваєте метод з назвою reduce на порожньому масиві.
+- [ ] Ви визиваєте метод з назвою reduce на об'єкті, який має значення null.
 
-#### Q161. Which of the following methods can be used to display data in some form using Javascript?
+#### Q161. Який із наведених методів може використовуватися для відображення даних в якійсь формі з використанням JavaScript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [x] all of the above
+- [x] все вищеперераховане
 
-#### Q162. Which document method is not used to get a reference to a DOM node?
+#### Q162. Який метод документа не використовується для отримання посилання на вузол DOM?
 
 - [x] document.getNode();
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
 
-#### Q163. Which of these is a valid variable name?
+#### Q163. Який з цих варіантів є дійсною назвою змінної?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-#### Q164. What function is used in JavaScript to schedule a function to run after a specified number of milliseconds?
+#### Q164. Яка функція використовується в JavaScript для планування запуску функції через зазначену кількість мілісекунд?
 
 - [x] setTimeout()
 - [ ] setInterval()
 - [ ] delay()
 - [ ] wait()
 
-[Reference](https://www.w3schools.com/js/js_timing.asp)
+[Довідка](https://uk.javascript.info/settimeout-setinterval)
 
-#### Q165. Which of the following is a server-side Java Script object?
+#### Q165. Що з наведеного є об'єктом JavaScript на стороні сервера?
 
 - [ ] Function
 - [x] File
 - [ ] FileUpload
 - [ ] Date
 
-[Reference](https://www.wscubetech.com/quiz-result.html)
+[Довідка](https://uk.javascript.info/file)
 
-#### Q166. Which statement best describes the var keyword's scope in JavaScript?
+#### Q166. Яке твердження найкраще описує область визначення ключового слова var у JavaScript?
 
 - [ ] Block scope
 - [x] Function scope
 - [ ] Global scope
 - [ ] Instance scope
 
-#### Q167. What will be logged to the console?
+#### Q167. Що буде виведено в консоль?
 
 ```js
 const foo = () => console.log('First');
@@ -2248,7 +2248,7 @@ console.log('Third');
 - [ ] First, Second, Third
 - [ ] Third, First, Second
 
-#### Q168. What will be the output of running this code?
+#### Q168. Яким буде результат запуску цього коду?
 
 ```js
 function scream(words) {
