@@ -425,8 +425,8 @@ if ($num%2!=0) {
 
 ```html
 <form method="post" action="test.php">
-  Email: <input type="text" name="mail">
-  <input type="submit">
+  Email: <input type="text" name="mail" />
+  <input type="submit" />
 </form>
 ```
 
