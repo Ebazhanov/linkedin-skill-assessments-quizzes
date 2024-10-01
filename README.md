@@ -34,9 +34,11 @@
 
 #### [ [Go to see the last contributor](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/README.md) ]
 
-#### 🙏 Adding Answers
+#### 🙏 Contributions
 
-Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
+- If you wish to add questions, click [here](https://github.com/linkedin-faq) for the source code.
+
+- Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
 
 #### ❗️ Looking to participate in Hacktoberfest 2024? Please read the rules carefully:
 
@@ -51,8 +53,6 @@ Please add an explanation or reference link to your answers. This will help anyo
 - [MD2Practice (Web App)](https://linkedin-faq.github.io/md2practice/)
 - [Skill Assessments Quizzes (Web App)](https://linkedin-faq.github.io/skill-assessments-quizzes/)
 - [LinkedIn Quizzed with Kodyfire (Terminal)](https://github.com/linkedin-faq/linkedin-quizzes-kodyfire)
-
-Want to contribute? [Here](https://github.com/linkedin-faq) is the source code.
 
 ## ❓ Need help?
 
