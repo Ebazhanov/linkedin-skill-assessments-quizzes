@@ -1155,7 +1155,7 @@ d = defaultdict(def_value)
 ```python
 i = 1
 while i<6:
-    print('Countdown:',i)
+    print(f"Countdown: {i}")
     i = i + 1
 ```
 
@@ -1451,7 +1451,7 @@ print(table.max(axis=1))
 
 ```python
 number = 3
-print (f"The number is {number}")
+print(f"The number is {number}")
 ```
 
 - [x] `The number is 3`
@@ -1745,7 +1745,7 @@ num_list[len(num_list) // 2]
 
 ```python
 def myFunction(country = "France"):
-    print("Hello, I am from", country)
+    print(f"Hello, I am from {country}")
 
 myFunction("Spain")
 myFunction("")
@@ -1914,7 +1914,7 @@ actors = ["Downey", "Holland", "Evans"]
 #### Q134. What will this code print?
 
 ```python
-print ("foo" if (256).bit_length() > 8 else "bar")
+print("foo" if (256).bit_length() > 8 else "bar")
 ```
 
 - [ ] `True`
@@ -2003,7 +2003,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
     rowsMat2, columnsMat2 = matrix2.shape
 
     if _____ == ______ :
-        print('The matrices can be multiplied!')
+        print("The matrices can be multiplied!")
         return True
     else:
         return False
@@ -2049,7 +2049,7 @@ class Person(Father):
         self.name = name
 
     def introduce(self):
-        print("My name is", self.name, "son of", self.fathername)
+        print(f"My name is {self.name} son of {self.fathername}")
 
 king = Person("Joffrey")
 king.introduce()
@@ -2069,7 +2069,7 @@ class Person(Father):
         self.name = name
 
     def introduce(self):
-        print("My name is", self.name, "son of", self.fathername)
+        print(f"My name is {self.name} son of {self.fathername}")
 
 
 king = Person("Joffrey")
@@ -2089,7 +2089,7 @@ class Person(Father):
         self.name = name
 
     def introduce(self):
-        print("My name is", self.name, "son of", super.name)
+        print(f"My name is {self.name} son of {super.name}")
 
 king = Person("Joffrey")
 king.introduce()
@@ -2106,7 +2106,7 @@ class Person(Father):
         self.name = name
 
     def introduce(self):
-        print("My name is", self.name, "son of", base.name)
+        print(f"My name is {self.name} son of {base.name}")
 
 king = Person("Joffrey")
 king.introduce()
@@ -2585,7 +2585,7 @@ for x in range(1, len(characters)):
 
 ```
 for i in range(5):
-    print (i)
+    print(i)
 else:
     print("Done!")
 ```
