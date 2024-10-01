@@ -256,3 +256,10 @@
 - [x] The sketches are fully constrained.
 - [ ] The sketches cannot be edited.
 - [ ] The sketches are locked.
+
+#### Q37. Which tool allows you to create a sketch ontop of another sketch?
+
+- [ ] Create Sketch
+- [ ] Revolve
+- [x] Loft
+- [ ] Extrude
