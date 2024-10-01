@@ -263,3 +263,10 @@
 - [ ] Revolve
 - [x] Loft
 - [ ] Extrude
+
+#### Q38. How do you export a body so that it can be used with a 3D printer?
+
+- [ ] Right click the object, select "Configure"
+- [ ] Right click the body, select "Create Components from Bodies"
+- [ ] Right click the body, select "Create Selection Set"
+- [x] Right click the body, select "Save as Mesh"
