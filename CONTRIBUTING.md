@@ -17,3 +17,7 @@
 **❓ Submitting Queries with Deliberation**
 
 > Queries are exclusively accepted from [this sanctioned source](https://www.linkedin.com/skill-assessments/hub/quizzes/). They serve as the gateway to our reservoir of knowledge and, as such, are held in the highest regard. 🏰💡
+
+**💻 Contributing for Hacktoberfest
+
+> For contributions relating to Hacktoberfest, please follow the [Hacktoberfest participation rules](https://hacktoberfest.com/participation/) as well as the contributing guidelines listed above.
