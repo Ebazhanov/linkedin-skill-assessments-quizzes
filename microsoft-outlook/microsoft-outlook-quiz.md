@@ -726,3 +726,17 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Shanti Adams was mentioned in a Teams meeting and was listed in the Meeting Insights without an email address.
 - [x] You previously received and replied to an email from Shanti Adams. Autocomplete is now automatically suggesting her name and email address.
 - [ ] It is random. If you type "Shanti" again, Shanti Keller may appear.
+
+#### Q99. What happens when you add an additional email account in Outlook?
+
+- [ ] Outlook stops you because you can only use one email account at a time.
+- [x] Outlook prompts you for the transmission protocol you would like to use.
+- [ ] Outlook automatically applies the default configurations.
+- [ ] Outlook prompts you to remove an exisiting account first.
+
+## Q100. You recieved a message with five attachments and need to save all of them in your Documents folder. How can you efficiently accomplish this?
+
+- [ ] Click the **Download All** link below the attachments (Windows) or expand the attachment menu and select **Save All Attachments** (Mac)
+- [ ] Open each attachment and use the Save command in the application to save to your Documents folder.
+- [ ] Expand the attachment menu and select **Save All Attachments** (Windows) or click the **Download All** (Mac) link below the attachments.
+- [x] Right-click (Windows) or Control+click (Mac) the message and select **Save All Attachments**.
