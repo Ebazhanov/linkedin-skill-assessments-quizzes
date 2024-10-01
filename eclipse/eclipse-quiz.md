@@ -10,9 +10,9 @@
 #### Q2. What happens when you execute the Run -> Skip all Breakpoints command?
 
 - [ ] All breakpoints are deleted
-- [ ] none of these answers
 - [x] All breakpoints will not be fired when debugging and will not cause application execution to suspend
 - [ ] All breakpoints and bookmarks are disabled
+- [ ] None of the above
 
 #### Q3. What is not a key part of Eclipse projects and technologies?
 
@@ -46,10 +46,10 @@
 
 #### Q7. How can you create a new Git branch in Eclipse?
 
-- [x] all of these answers
 - [ ] Right-click your project in the Package Explorer and select Team -> Switch To -> New Branch
 - [ ] Click File -> New -> Git -> Branch
 - [ ] Click Source -> Team -> Switch To -> New Branch
+- [x] All of the above
 
 #### Q8. Why might you use the Open Type button?
 
@@ -139,17 +139,17 @@
 
 #### Q20. What does the Problems view show?
 
-- [x] all of the answers
 - [ ] warnings and errors
 - [ ] code that does not match your formatting settings
 - [ ] threads containing errors
+- [x] All of the above
 
 #### Q21. When switching workspaces, what is preserved?
 
 - [x] all preferences
-- [ ] none of these answers
 - [ ] the current perspective
 - [ ] preferences for a language (e.g., Java)
+- [ ] None of the above
 
 #### Q22. How can you set files to save automatically when launching an application?
 
@@ -161,9 +161,9 @@
 #### Q23. Which is _not_ a valid way to create a test class?
 
 - [ ] In the **Package Explorer**, right-click a class and select **New > JUnit Test Case**.
-- [x] none of these answers
 - [ ] Create a JUnit Test Case class through the **File** menu.
 - [ ] Create the class manually while in any perspective.
+- [x] None of the above
 
 #### Q24. What happens when you double-click a Revision Time in the History view?
 
@@ -206,17 +206,17 @@
 
 #### Q29. Why might you create multiple debug configurations for the same project?
 
-- [x] all of these answers
 - [ ] to debug using a different JRE
 - [ ] to customize environment variables
 - [ ] to customize arguments
+- [x] All of the above
 
 #### Q30. You are searching for code using the Search dialog, and no results appear. What is a likely cause?
 
-- [x] all of these answers
 - [ ] The scope of the search is too narrow.
 - [ ] The type of search is not appropriate for the language of the code.
 - [ ] There is a typo in the search parameters.
+- [x] All of the above
 
 #### Q31. If you check out a branch in Eclipse and still see the old code, what is one possible problem?
 
@@ -227,10 +227,10 @@
 
 #### Q32. What is required to create a Git commit?
 
-- [x] all of these answers
 - [ ] a local repository
 - [ ] staged changes
 - [ ] a commit message
+- [x] All of the above
 
 #### Q33. What can you do in the Eclipse Split Editor?
 
@@ -249,9 +249,9 @@
 #### Q35. How can you terminate debugging in the Debug view?
 
 - [ ] Right-click an item in the stack trace and select Terminate/Disconnect All.
-- [x] all of these answers
 - [ ] Right-click your application and select Terminate.
 - [ ] Right-click a thread and select Terminate and Remove.
+- [x] All of the above
 
 #### Q36. How do you connect to and debug a remote Java application/server?
 
@@ -284,9 +284,9 @@
 #### Q40. Which of these is/are listed when searching via the Quick Access search bar?
 
 - [ ] files in the current workspace
-- [x] all of these answers
 - [ ] XML attribute values
 - [ ] Java members
+- [x] All of the above
 
 #### Q41. After opening a code file, you notice some of the syntax coloring is missing. What is the most likely problem?
 
