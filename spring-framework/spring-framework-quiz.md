@@ -946,6 +946,6 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 #### Q88. A\_ is a key-value map of data used to render the page, and the \_ is a template of the page that is filled with data.
 
 - [ ] model; view
-- [ ] hashmap; serviet
+- [ ] hashmap; servlet
 - [x] view; model
 - [ ] request; view
