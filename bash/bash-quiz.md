@@ -7,6 +7,7 @@ cp -R "~/photo dir" /backups #method1
 cp -R ~"/photo dir" /backups #method2
 cp -R ~/"photo dir" /backups #method3
 ```
+
 - [ ] Only method 1 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 - [ ] Only method 2 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 - [x] Only method 3 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
