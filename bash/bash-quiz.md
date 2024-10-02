@@ -7,11 +7,10 @@ cp -R "~/photo dir" /backups #method1
 cp -R ~"/photo dir" /backups #method2
 cp -R ~/"photo dir" /backups #method3
 ```
-
-- [ ] None of the three methods will expand to the user's home directory. Only using `"$HOME/photo dir"`will be successful.
 - [ ] Only method 1 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 - [ ] Only method 2 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 - [x] Only method 3 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
+- [ ] None of the three methods will expand to the user's home directory. Only using `"$HOME/photo dir"`will be successful.
 
 #### Q2. If script.sh is run in the current directory, it will fail. Why?
 
@@ -797,7 +796,7 @@ w
 - [ ] It doesn't display information about the users currently on the machine.
 - [x] It displays information about the users currently on the machine.
 - [ ] It displays information about the users currently on the another machine.
-- [ ] None of these
+- [ ] None of the above
 
 #### Q61. Which sed options should you use to change the second-to-last instance of variable to rock so it would read:
 
