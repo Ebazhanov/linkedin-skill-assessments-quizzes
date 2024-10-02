@@ -229,7 +229,7 @@
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)
 
-#### Q29. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
+#### Q30. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
 
 - [ ] Variable data
 - [x] Dynamic text
