@@ -2347,10 +2347,36 @@ else:
     print("Done!")
 ```
 
-- [ ] `1 2 3 4 5 Done!`
-- [ ] `0 1 2 3 4 5 Done!`
-- [x] `0 1 2 3 4 Done!`
-- [ ] You will get a syntax error.
+- [ ] A
+```python
+1
+2
+3
+4
+5
+Done!
+```
+- [ ] B
+```python
+0
+1
+2
+3
+4
+5
+Done!
+```
+- [x] C
+```python
+0
+1
+2
+3
+4
+Done!
+```
+- [ ] D:
+You will get a syntax error.
 
 #### Q164. Which comparison of lists and tuples in Python is correct?
 
@@ -2581,48 +2607,7 @@ for x in range(1, len(characters)):
     d[x] = actors [x]
 ```
 
-#### Q179. What will this code output to the screen?
-
-```
-for i in range(5):
-    print(i)
-else:
-    print("Done!")
-```
-
-- [x] :
-
-```
-1
-2
-3
-4
-Done!
-```
-
-- [ ] You will get a syntax error.
-- [ ] :
-
-```
-0
-1
-3
-4
-5
-Done!
-```
-
-- [ ] :
-
-```
-1
-3
-4
-5
-Done!
-```
-
-#### Q180. When is the `if __name__ == "__main__":` block executed in a Python script?
+#### Q179. When is the `if __name__ == "__main__":` block executed in a Python script?
 
 - [ ] Always, as it is required in every Python script.
 - [x] Only when the script is executed directly from the command line or as the main program.
@@ -2632,7 +2617,7 @@ Done!
 The `if __name__ == "__main__":` block is executed when the script is run directly but not when it's imported as a module in another script.
 [reference](https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts)
 
-#### Q181. What will be the output of the following Python code?
+#### Q180. What will be the output of the following Python code?
 
 ```python
 def square(x):
@@ -2652,7 +2637,7 @@ print(result)
 The code defines a `square` function to calculate the square of a number. It then uses the `map` function to apply this function to each element in the `numbers` list, resulting in a new iterable. Finally, the `list` constructor is used to convert this iterable into a list. The output will be a list of squared numbers.
 [reference](https://docs.python.org/3/library/functions.html#map)
 
-#### Q182. Which of the following is not a valid built-in function in Python?
+#### Q181. Which of the following is not a valid built-in function in Python?
 
 - [ ] int
 - [ ] string
@@ -2661,14 +2646,14 @@ The code defines a `square` function to calculate the square of a number. It the
 
 [Source](https://docs.python.org/3/library/functions.html)
 
-#### Q183. Which of the following is not a valid Python data type?
+#### Q182. Which of the following is not a valid Python data type?
 
 - [ ] int
 - [x] char
 - [ ] float
 - [ ] str
 
-#### Q184. In Python, which function is used to read a line from the console input?
+#### Q183. In Python, which function is used to read a line from the console input?
 
 - [x] input()
 - [ ] read_line()
@@ -2677,7 +2662,7 @@ The code defines a `square` function to calculate the square of a number. It the
 
 [Reference](https://www.geeksforgeeks.org/taking-input-from-console-in-python/)
 
-#### Q185.1. What will be the output of the following Python code?
+#### Q184. What will be the output of the following Python code?
 
 `print("Hello {name1} and {name2}".format(name1='foo', name2='bin'))`
 
