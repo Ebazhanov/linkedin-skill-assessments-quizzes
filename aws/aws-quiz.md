@@ -26,7 +26,7 @@
 - [ ] CodePipeline
 - [ ] CodeDeploy
 - [ ] CodeBuild
-- [x] All of the above 
+- [x] All of the above
 
 #### Q5. Which AWS service complies with the standards outlined in Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling and transmission of credit card data?
 
