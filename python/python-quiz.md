@@ -2348,6 +2348,7 @@ else:
 ```
 
 - [ ] A
+
 ```python
 1
 2
@@ -2356,7 +2357,9 @@ else:
 5
 Done!
 ```
+
 - [ ] B
+
 ```python
 0
 1
@@ -2366,7 +2369,9 @@ Done!
 5
 Done!
 ```
+
 - [x] C
+
 ```python
 0
 1
@@ -2375,8 +2380,9 @@ Done!
 4
 Done!
 ```
+
 - [ ] D:
-You will get a syntax error.
+      You will get a syntax error.
 
 #### Q164. Which comparison of lists and tuples in Python is correct?
 
