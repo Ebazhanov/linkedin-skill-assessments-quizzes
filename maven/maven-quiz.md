@@ -423,9 +423,9 @@
 - [ ] ${set-app-home}
 - [ ] ${/path/to/application}
 
-#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin? (2 possible solutions)
 
-- [ ] /src/main/webapp
+- [x] /src/main/webapp
 - [ ] /src/main/war
 - [x] /src/main/WEB-INF
 - [ ] /src/web
