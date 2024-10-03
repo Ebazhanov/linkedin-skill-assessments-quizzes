@@ -746,6 +746,8 @@ cat < in.txt > out.txt
 - [x] lvextend
 - [ ] lvdisplay
 
+[Reference](https://www.redhat.com/sysadmin/resize-lvm-simple)
+
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
 
 - [ ] The apt remove command is a link to apt autoremove, so there are no differences.
