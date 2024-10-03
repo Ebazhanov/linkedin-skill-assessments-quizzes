@@ -4,8 +4,8 @@
 
 - [ ] cost
 - [ ] ease of maintenance vs. granularity of control
-- [x] all of these answers
 - [ ] the current storage engine used by the application, such as InnoDB or MyISAM
+- [x] All of the above
 
 #### Q2. Which database is a NoSQL database type that can quickly store and retrieve key-value pairs?
 
@@ -25,15 +25,15 @@
 
 - [ ] CodePipeline
 - [ ] CodeDeploy
-- [x] all of these answers
 - [ ] CodeBuild
+- [x] All of the above 
 
 #### Q5. Which AWS service complies with the standards outlined in Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling and transmission of credit card data?
 
 - [ ] API Gateway
-- [x] all of these answers
 - [ ] Simple Queue Service (SQS)
 - [ ] Kinesis Data Streams
+- [x] All of the above
 
 #### Q6. You have a large amount of files on your network-attached storage array that must be archived and maintained for a period of 10 years due to industry regulations. This data will be infrequently accessed but must be kept. What is the best AWS service for storing this data?
 
@@ -336,14 +336,14 @@ FlowLog:
 - [ ] EC2 Auto Scaling groups
 - [ ] AWS Shield Advanced
 - [ ] RDS Read Replicas
-- [x] all of these answers
+- [x] All of the above
 
 #### Q44. If a set of servers are located within a private subnet of your VPC, how can you connect those servers to on-premise servers?
 
 - [ ] Establish a connection with AWS Direct Connect.
 - [ ] Use the AWS Client VPN.
 - [ ] Install a OpenVPN server on an instance that is located within the subnet with an elastic IP.
-- [x] All of these options can establish a connection to a private subnet.
+- [x] All of the above can establish a connection to a private subnet.
 
 #### Q45. You have a UDP load balancer that is created by an instance that is running an NGINX proxy. Your application performance management (APM) solution can detect failures in your load balancer instance and transfer the Elastic IP to a passive standby instance. Using the AWS CLI, which script do you program into your APM to move the Elastic IP?
 
@@ -804,8 +804,8 @@ aws ecs create-service \
 
 - [ ] Cognito Sync Trigger, SNS
 - [ ] SNS, SQS
-- [x] all of these answers
 - [ ] SQS, DynamoDB
+- [x] All of the above
 
 #### Q91. When creating a RESTful API into a DynamoDB table, which is the right service to facilitate this?
 
@@ -837,7 +837,7 @@ aws ecs create-service \
 - [ ] Amazon Machine Instances are sized at various levels and rented on a computing/hour basis
 - [ ] The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
 - [ ] A number of tools are used to support EC2 services
-- [x] None of the mentioned
+- [x] None of the above
 
 #### Q95. In terms of Amazon VPC design, a VPC with a single public subnet is ideal for which of the following application designs?
 
@@ -967,10 +967,10 @@ aws ecs create-service \
 
 #### Q113. Which of the following statements is true of Amazon CloudFront when you can control how long your objects stay in a CloudFront cache before it forwards another request to your origin?
 
-- [x] All answers listed are correct.
 - [ ] Reducing the duration allows you to serve dynamic content.
 - [ ] Increasing the duration means your customers get better performance.
 - [ ] A longer duration also reduces the load on your origin.
+- [x] All of the above
 
 #### Q114. You are tasked with supporting users of a mobile app. The app allows users to view content (e.g., images) but only upload images if they are logged in to the app via Cognito. Which option would require the least amount of development time and provide the highest security to prevent non-authenticated users from posting content?
 
