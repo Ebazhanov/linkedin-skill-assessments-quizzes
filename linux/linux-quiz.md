@@ -633,8 +633,8 @@ if [[ $FILE == $GLOB ]] ;then
 
 - [ ] stored remotely
 - [ ] text
-- [x] persistent
-- [ ] not persistent
+- [ ] persistent
+- [x] not persistent
 
 [Reference](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
 
@@ -739,6 +739,14 @@ cat < in.txt > out.txt
 - [ ] process
 
 [Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
+
+#### Q88. Which command is used to increase the size of a logical volume in LVM?
+- [ ] lvcreate
+- [ ] lvremove
+- [x] lvextend
+- [ ] lvdisplay
+
+[Reference](https://www.redhat.com/sysadmin/resize-lvm-simple)
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
 
