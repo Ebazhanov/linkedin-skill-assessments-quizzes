@@ -2241,6 +2241,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kogonia"><img src="https://avatars.githubusercontent.com/u/21362369?v=4?s=100" width="100px;" alt="George Kogonia"/><br /><sub><b>George Kogonia</b></sub></a><br /><a href="#design-kogonia" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kogonia" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/astropsy999"><img src="https://avatars.githubusercontent.com/u/10748203?v=4?s=100" width="100px;" alt="Yevhenii Stuzhuk"/><br /><sub><b>Yevhenii Stuzhuk</b></sub></a><br /><a href="#design-astropsy999" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=astropsy999" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dhirajs16"><img src="https://avatars.githubusercontent.com/u/108226247?v=4?s=100" width="100px;" alt="Dhiraj Sarraf"/><br /><sub><b>Dhiraj Sarraf</b></sub></a><br /><a href="#design-dhirajs16" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dhirajs16" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
