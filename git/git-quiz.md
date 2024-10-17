@@ -1264,7 +1264,7 @@ broccoli
 - [ ] Press the slash(/) key on any page of the site.
 - [ ] Click the Search tab from the Github Version
 - [ ] Click the advanced Search link.
-- [x] Click the search box and type your searc query.
+- [x] Click the search box and type your search query.
 
 #### Q137. Assigning an issue to a person implies that they \_\_\_\_.
 

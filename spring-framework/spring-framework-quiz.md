@@ -285,7 +285,7 @@ public class SampleController {
 - [x] It helps monitor and manage a Spring Boot application by providing endpoints such as health checks, auditing, metrics gathering, and HTTP tracing.
 - [ ] It provides out-of-the-box functionality that integrates with third-party metrics platforms to automatically scale up and down the number of threads in threadpools.
 - [ ] It's a CLI that allows you to modify the configuration of a running Spring Boot application without the need for restarting or downtime.
-- [ ] It provides out-of-the-box functionality that integrates wiltr?third-party metrics platforms to automatically scale up and down the number of instances of the Spring Boot application.
+- [ ] It provides out-of-the-box functionality that integrates with third-party metrics platforms to automatically scale up and down the number of instances of the Spring Boot application.
 
 [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
 
@@ -436,7 +436,7 @@ private String val;
 
 #### Q48. How does the transaction propagation setting impact the behavior of transactions?
 
-- [ ] It ensures that transactions that are commited to the database are propagated to all the shards of a clustered database system.
+- [ ] It ensures that transactions that are committed to the database are propagated to all the shards of a clustered database system.
 - [x] It enforces that a logical transaction scope is created for each method that determines rollback-only status, with an outer transaction scope being logically independent from the inner transaction scope.
 - [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
 - [ ] None of the above
@@ -757,7 +757,7 @@ public Pojo getPojo(@PathVariable("id") String id) {
 ```
 
 - [x] all methods of classes in the com.linkedin.TestService package
-- [ ] all methods of classes in the com.linkedin.TestService package annotated whith @Service
+- [ ] all methods of classes in the com.linkedin.TestService package annotated with @Service
 - [ ] This Pointcut is not valid.
 - [ ] all methods defined by the TestService interface
 
@@ -931,7 +931,7 @@ Explaination: [Primary indicates that a bean should be given preference when mul
      execution(* com.linkedin.service..*.*(..))
 ```
 
-- [x] all methods defined in the service package or one of it's subpackages
+- [x] all methods defined in the service package or one of its subpackages
 - [ ] all methods defined in the service package
 - [ ] all methods defined in a service interface
 - [ ] The pointcut is invalid.

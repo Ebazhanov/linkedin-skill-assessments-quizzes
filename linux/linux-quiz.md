@@ -741,6 +741,7 @@ cat < in.txt > out.txt
 [Reference](http://www.microhowto.info/howto/replace_one_of_the_physical_volumes_in_an_lvm_volume_group.html)
 
 #### Q88. Which command is used to increase the size of a logical volume in LVM?
+
 - [ ] lvcreate
 - [ ] lvremove
 - [x] lvextend
