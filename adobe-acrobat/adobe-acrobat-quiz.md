@@ -126,7 +126,7 @@
 - [ ] Tools > Edit PDF
 - [ ] Tools > Action Wizard
 
-#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
+#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field display the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
 
 - [x] Select the instructional text entry in the Dropdown Properties dialog box.
 - [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
@@ -281,7 +281,7 @@
 - [x] Re-order the bookmarks in the Bookmarks pane by dragging.
 - [ ] Nothing, The bookmarks will still be correct.
 
-#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
 
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
@@ -352,21 +352,21 @@
 - [ ] PDF/X-4
 - [x] PDF/A-1a
 
-#### Q49. Patients must fill out a 12-page form for gleaning personal and health information. They are required to put their name on every page. As you create the form for the doctor's office, you plan to take advantage og the fact that fields with the same name will display the same data. How can you automatically copy the Name field to every page of the PDF form?
+#### Q49. Patients must fill out a 12-page form for gleaning personal and health information. They are required to put their name on every page. As you create the form for the doctor's office, you plan to take advantage of the fact that fields with the same name will display the same data. How can you automatically copy the Name field to every page of the PDF form?
 
 - [ ] Select the original field, right-click and then select Add New Field.
 - [ ] Select the original field, right-click, and then select Align, Distribute, or center
-- [x] Select the original field, right-click and then select Duplicate Accross pages
+- [x] Select the original field, right-click and then select Duplicate Across pages
 - [ ] Select the original field, right-click, and then select create multiple copies.
 
-#### Q50. On a new windows computer, you first installed adobe acrobat DC, then you installed the Microsoft Office suite. Because of the order of installtion, the PDFMaker option does not appear in the ribbons of your Office applications. How can you install PDFMaker in Microsoft Word on a PC?
+#### Q50. On a new windows computer, you first installed adobe acrobat DC, then you installed the Microsoft Office suite. Because of the order of installation, the PDFMaker option does not appear in the ribbons of your Office applications. How can you install PDFMaker in Microsoft Word on a PC?
 
 - [ ] FIle > Options > Add-ins
 - [ ] File > Transform > Intelligent Services
 - [x] File > Options > Customize ribbons
 - [ ] File > Info > Manage Document
 
-#### Q51. A PDF contains hyperlinks formatted with invisble rectanles. How can you see the locations of all the hyperlinks at once, without having to hover over each hyperlink to reveal it?
+#### Q51. A PDF contains hyperlinks formatted with invisible rectangles. How can you see the locations of all the hyperlinks at once, without having to hover over each hyperlink to reveal it?
 
 - [x] Destinations panel
 - [ ] Loupe tool
