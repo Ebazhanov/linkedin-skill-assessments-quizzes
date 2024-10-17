@@ -178,7 +178,7 @@
 
 [Reference](https://developer.android.com/reference/android/app/Activity)
 
-#### Q12. You need to remove an Event based on its ID from your API, Which code snippet defines that request in Retrofit?
+#### Q12. You need to remove an Event based on its ID from your API, which code snippet defines that request in Retrofit?
 
 - [ ] @DELETE("events)
       fun deleteEvent(@Path("id") id: Long): Call<Unit>
@@ -852,7 +852,7 @@ android {
    android:src=@drawable/map_pin />
 ```
 
-#### Q53. what is not a benefit of externalizing app resources such as images and strings from a code?
+#### Q53. What is not a benefit of externalizing app resources such as images and strings from a code?
 
 - [ ] It allows Android to choose the appropriate resource based on the current configuration during runtime.
 - [x] It allows you to have more performant applications because the code and resources are separated.
@@ -1002,7 +1002,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] `managing system services`
 - [x] `processing user input events`
 - [ ] `loading data from the internet or a local data source`
-- [ ] `perfoming bitmap transformatinos`
+- [ ] `performing bitmap transformations`
 
 #### Q68. What is not a type of resource for providing your app with strings?
 
