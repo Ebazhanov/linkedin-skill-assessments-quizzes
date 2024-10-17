@@ -373,7 +373,7 @@
 
 - [ ] Task Manager
 - [x] Event Viewer
-- [ ] Perfomance Monitor
+- [ ] Performance Monitor
 - [ ] Resource Monitor
 
 #### Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?

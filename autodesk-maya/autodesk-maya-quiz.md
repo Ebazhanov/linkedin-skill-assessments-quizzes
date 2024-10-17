@@ -81,7 +81,7 @@
 - [x] frustum
 - [ ] gate mask
 
-[Warning] Just be carefull. Because in this question, they have been asking about "pyramid shape" but also they show the "gate mask".
+[Warning] Just be careful. Because in this question, they have been asking about "pyramid shape" but also they show the "gate mask".
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-C092B9DA-C523-4566-9209-ACCBFAEE8285)
 
 #### Q10. Which of these images shows a Bezier curve?
@@ -146,12 +146,12 @@
 
 - [ ] point constraint
 - [ ] inverse kinematics
-- [ ] orient constarint
+- [ ] orient constraint
 - [x] parent-child link
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-0EA4CA51-9C50-43DA-8D0B-A451C387EFBC)
 
-#### Q17. Which constaring would you use to make an object inherit translation only from another object?
+#### Q17. Which constraint would you use to make an object inherit translation only from another object?
 
 - [ ] parent constraint
 - [ ] aim constraint
@@ -216,9 +216,9 @@
 
 #### Q24. What is the fundamental property of all polygon mesh vertices
 
-- [x] A vertex always has a mesurable position
+- [x] A vertex always has a measurable position
 - [ ] A vertex always lies on a curve
-- [ ] A vertex always has a mesurable size
+- [ ] A vertex always has a measurable size
 - [ ] A vertex always has a color
 
 #### Q25. What is the simulation of how light propagates in an environment known as?
@@ -242,7 +242,7 @@
 - [ ] The model is animated by a deformer
 - [ ] Input nodes must be adjusted
 
-#### Q28. You have set up a particular node--such as a camera, light, or shape--with specific settings that you want to use in the future. What feature allows you to store and retrive all parameters for a particular node type?
+#### Q28. You have set up a particular node--such as a camera, light, or shape--with specific settings that you want to use in the future. What feature allows you to store and retrieve all parameters for a particular node type?
 
 - [ ] object template
 - [x] Content Browser

@@ -88,7 +88,7 @@
 
 - [ ] Software entities should be open for extension, but closed for modification.
 - [ ] Entities must depend on abstractions, not on concrete implementations.
-- [ ] Objects in a program should be repleaceble with instances of their subtypes without altering the correctness of that programm.
+- [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [x] A class should have only a single responsibility - that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 
 #### Q14. When should a developer use the .NET Standard class library project type?
@@ -566,7 +566,7 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 
 - [ ] It can be used to configure the application services.
 - [x] It can ensure that middleware runs before or after middleware added by libraries at the start or end of the app's request processing pipeline.
-- [ ] It can specify how the app respondes to HTTP requests.
+- [ ] It can specify how the app responds to HTTP requests.
 - [ ] It can specify how the app makes requests to HTTP.
 
 #### Q73. You want to match interfaces of different classes. which design pattern best fits this objective?

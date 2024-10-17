@@ -241,7 +241,7 @@
 
 #### Q34. Why might you run the Project > Clean command?
 
-- [ ] to remedy an issue where the source code seemsaccurate, but Git is indicating a merge conflict
+- [ ] to remedy an issue where the source code seems accurate, but Git is indicating a merge conflict
 - [ ] to remedy syntax errors within the source code, causing the project not to build
 - [ ] to discard any existing build state before building the project, which can remedy issues where the source code seems accurate yet fails to build
 - [x] to recompile only the source code files that have changed since the last build, which can shorten the build time for long-running builds

@@ -434,13 +434,13 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] RDS will automatically increase the allocated space by 10% and will send the AWS root account an email with resolution steps. Allocate more space to avoid overage charges.
 - [x] The database instance will report a STORAGE_FULL status and become inaccessible if the instance does not have enough remaining storage to operate. Allocate more space to the instance.
 - [ ] SQL Server will close all existing connections to the databases and attempt to shrink its log files to reclaim storage space.
-- [ ] RDS will automatically increase the allocated space by 5% and will continue to allocate new space up to 50% of the orginal allocated space. When storage space has increase 50%, RDS will automatically stop the instance to preserve data integrity.
+- [ ] RDS will automatically increase the allocated space by 5% and will continue to allocate new space up to 50% of the original allocated space. When storage space has increase 50%, RDS will automatically stop the instance to preserve data integrity.
 
 #### Q54. You have a fleet of IoT devices that send telemetry to a server-side application provided by your IoT vendor for decoding a proprietary messaging format. The devices are provisioned to send telemetry reports to your server via UDP on port 6339. What is the best way scale this server as more Iot devices are added to your fleet?
 
 - [ ] Use a Network Load Balancer to distribute the traffic across your servers. Use UDP health checks to determine if the server is available to receive traffic.
 - [x] Use Route 53 with HTTP health checks. Create an application on the server to report the readiness status of the vendor-provided server software to Route 53 via HTTP.
-- [ ] Use Route 53 with UDP health checks. As you scale up, Route 53 wiwll route the traffic to the new servers if they pass the health checks.
+- [ ] Use Route 53 with UDP health checks. As you scale up, Route 53 will route the traffic to the new servers if they pass the health checks.
 - [ ] Use Application Load Balancer to distribute the traffic across your servers.
 
 #### Q55. the outbound rules of a security group only allow traffic going to 0.0.0.0/0 on TCP Port 22 (SSH) and TCP port 3306 (MySQL). Review the inbound rules listed in the image below. What is the most important issue to fix with this security group configuration, for an Ubuntu EC2 instance acting as a web server?
@@ -688,7 +688,7 @@ aws ecs create-service \
 
 - [ ] Use a Classic Load Balancer, not Application Load Balancer.
 - [x] Application Load Balancer does not preserve the original source IP address. The analytics software needs to be configured to look at the 'X-Forwarded-For' HTTP request header for the correct source IP address.
-- [ ] Application Load Balencer has to be configured to retain the source IP address of the traffic it is forwarding. Create a policy that enables ProxyProtocol support and attach it to the ALB using the AWS CLI.
+- [ ] Application Load Balancer has to be configured to retain the source IP address of the traffic it is forwarding. Create a policy that enables ProxyProtocol support and attach it to the ALB using the AWS CLI.
 - [ ] Configure the web server EC2 instances to only have private IP addresses. The public IP addresses of the instances are being recorded into the web server logs, bug only ALB should have a public interface and it will route traffic to instances via the private interface.
 
 #### Q77. What is `not` a default user of a common Linux instance launched from an AMI?
@@ -758,8 +758,8 @@ aws ecs create-service \
 
 - [ ] In the VPC dashboard, click Elastic IPs. Select the Elastic IP and click Associate Address. Select each EC2 instance you wish to assign this address to.
 - [ ] In the EC2 dashboard, click on EC2 instance. Under Actions, select networking > Manage IP Addresses. click to add a new IP address and type in the address of the Elastic IP. Repeat the process for each EC2 instance you want to assign this Elastic IP to.
-- [ ] Use the AWS CLI and pass in several '--instance-id' options to hte aws ec2 assosiate-address command.
-- [x] An elastic IP cannot be assigned to multiple EC2 instances. It can only be assosiated to a single EC2 instance.
+- [ ] Use the AWS CLI and pass in several '--instance-id' options to hte aws ec2 associate-address command.
+- [x] An elastic IP cannot be assigned to multiple EC2 instances. It can only be associated to a single EC2 instance.
 
 [Reference](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
 
@@ -790,7 +790,7 @@ aws ecs create-service \
 
 - [ ] Create the S3 bucket as a target for Application Load Balancer. Use Web Application Firewall (WAF) to create a rule to limit access to the S3 bucket by source IP.
 - [ ] You can not limit access to an S3 bucket by IP address.
-- [ ] In the preperties of the S3 bucket, add an access control option that limit access to the bucket by source IP address. Input the list of IPs into dialog.
+- [ ] In the properties of the S3 bucket, add an access control option that limit access to the bucket by source IP address. Input the list of IPs into dialog.
 - [x] Create a bucket policy with a condition that limit access to a list of approved IP addresses. Attach this policy to the bucket.
 
 #### Q89. What is the benefits of using S3 Glacier for storage?

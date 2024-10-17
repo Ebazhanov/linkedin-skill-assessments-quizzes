@@ -323,7 +323,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 - [x] The system went from supervised learning to reinforcement learning.
 - [ ] The system evolved from supervised learning to unsupervised learning.
-- [ ] The system evolved from unsupervised learnin9 to supervised learning.
+- [ ] The system evolved from unsupervised learning to supervised learning.
 - [ ] The system evolved from reinforcement learning to unsupervised learning.
 
 #### Q44. The security company you work for is thinking about adding machine learning algorithms to their computer network threat detection appliance. What is one advantage of using machine learning?

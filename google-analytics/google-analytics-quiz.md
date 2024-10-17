@@ -615,8 +615,8 @@
 
 - [ ] How users search Google
 - [ ] in-page analytics
-- [ ] waht pages are missing from you site
-- [x] how users search on you site
+- [ ] what pages are missing from your site
+- [x] how users search on your site
 
 #### Q87. What does analytics set and read for each unique domain being tracked?
 

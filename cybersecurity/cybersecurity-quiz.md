@@ -202,7 +202,7 @@
 
 #### Q27. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
-- [ ] Federal Information Security Managment Act (FISMA)
+- [ ] Federal Information Security Management Act (FISMA)
 - [x] Payment Card Industry Data Security Standard (PCI-DSS)
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
@@ -215,12 +215,12 @@
 
 - [ ] Common event format
 - [ ] common weakness enumeration
-- [x] common vulnerabilties and exposures
+- [x] common vulnerabilities and exposures
 - [ ] common vulnerability scoring system
 
 **Explanation**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
 
-#### Q29. Which type of application can intercept sensative information such as passwords on a network segment?
+#### Q29. Which type of application can intercept sensitive information such as passwords on a network segment?
 
 - [ ] log server
 - [ ] network scanner
@@ -236,7 +236,7 @@
 - [ ] aggregation
 - [x] inference
 - [ ] SQL injection
-- [ ] cross-origin resouce sharing
+- [ ] cross-origin resource sharing
 
 **Explanation**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
 
