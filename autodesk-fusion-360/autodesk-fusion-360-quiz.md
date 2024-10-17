@@ -257,7 +257,7 @@
 - [ ] The sketches cannot be edited.
 - [ ] The sketches are locked.
 
-#### Q37. Which tool allows you to create a sketch ontop of another sketch?
+#### Q37. Which tool allows you to create a sketch on top of another sketch?
 
 - [ ] Create Sketch
 - [ ] Revolve
