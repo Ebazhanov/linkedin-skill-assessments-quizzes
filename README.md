@@ -2243,6 +2243,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dhirajs16"><img src="https://avatars.githubusercontent.com/u/108226247?v=4?s=100" width="100px;" alt="Dhiraj Sarraf"/><br /><sub><b>Dhiraj Sarraf</b></sub></a><br /><a href="#design-dhirajs16" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dhirajs16" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/r-vik"><img src="https://avatars.githubusercontent.com/u/151880184?v=4?s=100" width="100px;" alt="Aarvik Oberoi"/><br /><sub><b>Aarvik Oberoi</b></sub></a><br /><a href="#design-r-vik" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=r-vik" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
