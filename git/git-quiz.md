@@ -1463,3 +1463,36 @@ broccoli
 - [ ] Vscode
 - [ ] Company:microsoft repo:vscode
 - [ ] Microsoft/vscode
+
+#### Q165. What is the purpose of the git clone command?
+
+- [ ] To create a new repository from scratch
+- [ ] To initialize a new repository
+- [x] To copy an existing repository
+- [ ] To delete a repository
+
+**Explanation**
+
+- The git clone command is used to create a local copy of an existing Git repository. It downloads the entire repository, including its history and all branches, from a remote location. The other options describe actions that git clone does not perform.
+
+#### Q166. Which of the following is used to stage changes for the next commit?
+
+- [ ] git stage
+- [x] git add
+- [ ] git push
+- [ ] git commit
+
+**Explanation**
+
+- git add stages the changes, making them ready to be committed in the next commit. It tells Git which changes you want to include in the commit. git commit is used after staging changes to actually create the commit, git push uploads changes to a remote repository, and git stage is not a valid Git command.
+
+#### Q167. How can you create a new branch and switch to it immediately?
+
+- [x] git checkout -b <branch-name>
+- [ ] git branch <branch-name>
+- [ ] git switch <branch-name>
+- [ ] git merge <branch-name>
+
+**Explanation**
+
+- git checkout -b <branch-name> creates a new branch and switches to it in one step. git branch <branch-name> only creates the branch but doesn't switch to it. git switch can switch branches but cannot create them. git merge is used to combine branches, not create or switch between them.
