@@ -1038,3 +1038,10 @@ aws ecs create-service \
 - [x] Amazon DynamoDB
 - [ ] Amazon Neptune
 - [ ] Amazon Aurora
+
+#### Q122. You work as a cloud consultant for an IT company. As most of the employees are working from home, you need to find a way to provide them with secure access to the company’s internal sites and SaaS applications. Which of the following AWS services would you suggest them to use?
+
+- [ ] AWS Direct Connect
+- [ ] AWS VPN CloudHub
+- [x] Amazon WorkSpaces Web
+- [ ] Amazon Storage Gateway
