@@ -1045,3 +1045,14 @@ aws ecs create-service \
 - [ ] AWS VPN CloudHub
 - [x] Amazon WorkSpaces Web
 - [ ] Amazon Storage Gateway
+
+#### Q122. Which AWS service can convert text to lifelike speech?
+
+- [ ] AAmazon Translate
+- [x] Amazon Polly
+- [ ] Amazon Rekognition
+- [ ] Amazon Comprehend
+
+
+
+
