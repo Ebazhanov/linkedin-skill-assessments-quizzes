@@ -1211,8 +1211,8 @@ export interface AppSettings {
 ```
 
 - [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
-- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
-- [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
+- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object literal can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
+- [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and components throughout the Angular application without the need to inject it anywhere.
 - [x] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
@@ -1240,7 +1240,7 @@ export interface AppSettings {
 }
 ```
 
-- [ ] it will locate all instancess of `<document-box>` in the DOM and inser a DocumentComponent element into them on route navigation.
+- [ ] it will locate all instances of `<document-box>` in the DOM and insert a DocumentComponent element into them on route navigation.
 - [ ] It declares that the DocumentComponent can be used as a child to a `<document-box>` element in addition ot being routed to.
 - [x] It us used to target a `<router-outlet>` element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
 - [ ] It is a source of power for the router. (definitely not the answer :P)

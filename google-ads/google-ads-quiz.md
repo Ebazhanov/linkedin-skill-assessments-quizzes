@@ -105,7 +105,7 @@
 - [ ] Manual rotation
 - [ ] Rotate indefinitely
 
-#### Q16. Clara is running retargeted display ads, but does not want her audience to experience ad fatique. What should be configure?
+#### Q16. Clara is running retargeted display ads, but does not want her audience to experience ad fatigue. What should be configure?
 
 - [ ] ad scheduling
 - [ ] a frequency cap
@@ -168,7 +168,7 @@
 - [x] feed
 - [ ] extension
 
-#### Q25. In order to create a similat audience, you must provide Google Ads with **\_**.
+#### Q25. In order to create a similar audience, you must provide Google Ads with **\_**.
 
 - [ ] a budget
 - [ ] a tracking pixel
@@ -313,7 +313,7 @@
 - [ ] linear
 - [x] last click
 
-#### Q44. Farhann is running advertisements that are targetting only Italy, but he sees that his ads are receiving clicks from people in Greece. What is the most likely reason?
+#### Q44. Farhann is running advertisements that are targeting only Italy, but he sees that his ads are receiving clicks from people in Greece. What is the most likely reason?
 
 - [ ] Italian people visiting Greece are searching for "best restaurant in Greece"
 - [x] People in Greece are conducting searches such as "best restaurant in Italy"

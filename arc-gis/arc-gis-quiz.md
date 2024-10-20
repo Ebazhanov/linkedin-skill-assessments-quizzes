@@ -133,7 +133,7 @@
 
 #### Q18. Linear referencing datasets are comprised of what two data types? \***\*\_\*\***.
 
-- [ ] polyline feaature classes and point location tables
+- [ ] polyline feature classes and point location tables
 - [ ] line event tables and point event tables
 - [ ] reference control points feature class and target tables
 - [x] route feature classes and event tables

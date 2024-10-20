@@ -1569,3 +1569,212 @@ Explanation : 'false' evaluates to true since it is a string so the if condition
 - [ ] break
 
 - [x] continue
+
+### Q108. What is the output of this code?
+
+```php
+$x = "5";
+$y = &$x;
+$y = "2$y";
+echo $x;
+```
+
+- [ ] 5
+- [ ] 2
+- [x] 25
+- [ ] An error occurs
+
+### Q109. Which function is used to check if a file exists in PHP?
+
+- [ ] file_exists()
+- [ ] is_file()
+- [ ] file_check()
+- [x] Both file_exists() and is_file()
+
+### Q110. What does the following code output?
+
+```php
+$array = array(1, 2, 3, 4, 5);
+echo array_sum($array) / count($array);
+```
+
+- [ ] 15
+- [x] 3
+- [ ] 5
+- [ ] An error occurs
+
+### Q111. Which of the following is NOT a valid way to start a PHP session?
+
+- [ ] session_start();
+- [ ] $\_SESSION = array();
+- [x] session_begin();
+- [ ] ini_set('session.auto_start', 1);
+
+### Q112. What is the purpose of the 'finally' block in a try-catch-finally structure?
+
+- [ ] To handle exceptions that weren't caught in the catch block
+- [ ] To define custom exceptions
+- [x] To execute code regardless of whether an exception was thrown or caught
+- [ ] To end the try-catch block
+
+### Q113. Which function would you use to remove HTML tags from a string?
+
+- [ ] html_clean()
+- [x] strip_tags()
+- [ ] remove_html()
+- [ ] sanitize_string()
+
+### Q114. What is the output of this code?
+
+```php
+$str = "Hello";
+$str[0] = "J";
+echo $str;
+```
+
+- [ ] Hello
+- [x] Jello
+- [ ] An error occurs
+- [ ] H
+
+### Q115. Which of the following is NOT a magic method in PHP?
+
+- [ ] \_\_construct()
+- [ ] \_\_destruct()
+- [ ] \_\_toString()
+- [x] \_\_change()
+
+### Q116. What does the 'yield' keyword do in PHP?
+
+- [ ] It's used to define abstract methods
+- [ ] It's used to pause the execution of a function
+- [x] It's used to define generator functions
+- [ ] It's used to force garbage collection
+
+### Q117. Which function would you use to get the ASCII value of a character?
+
+- [ ] ascii()
+- [ ] char_to_ascii()
+- [x] ord()
+- [ ] ascii_val()
+
+### Q118. What is the output of this code?
+
+```php
+$a = array(1, 2, 3);
+$b = array("one", "two", "three");
+$c = array_combine($a, $b);
+print_r($c);
+```
+
+- [ ] Array ( [0] => 1 [1] => 2 [2] => 3 )
+- [ ] Array ( [0] => one [1] => two [2] => three )
+- [x] Array ( [1] => one [2] => two [3] => three )
+- [ ] An error occurs
+
+### Q119. Which of the following is NOT a valid PHP comparison operator?
+
+- [ ] ===
+- [ ] !==
+- [ ] <>
+- [x] =>
+
+### Q120. What does the 'static' keyword do when used inside a function?
+
+- [ ] It makes the function available globally
+- [x] It preserves the value of the variable between function calls
+- [ ] It prevents the function from being called more than once
+- [ ] It makes the function run faster
+
+### Q121. Which function would you use to get the current timestamp in PHP?
+
+- [ ] now()
+- [ ] current_time()
+- [x] time()
+- [ ] timestamp()
+
+### Q122. What is the output of this code?
+
+```php
+$str = "abcdef";
+echo substr($str, -2, 1);
+```
+
+- [ ] f
+- [x] e
+- [ ] ef
+- [ ] de
+
+### Q123. Which of the following is NOT a valid way to comment in PHP?
+
+- [ ] // Single line comment
+- [ ] /_ Multi-line comment _/
+- [ ] # Shell-style comment
+- [x] ' Single quote comment
+
+### Q124. What does the 'instanceof' operator do in PHP?
+
+- [ ] It checks if a variable is an instance of a class
+- [ ] It creates a new instance of a class
+- [ ] It checks if a class exists
+- [x] It checks if an object is an instance of a class or interface
+
+### Q125. Which function would you use to check if a variable is an array?
+
+- [ ] is_array()
+- [ ] array_check()
+- [ ] typeof()
+- [x] is_array()
+
+### Q126. What is the output of this code?
+
+```php
+$x = 5;
+$y = 10;
+function myTest() {
+    global $x, $y;
+    $y = $x + $y;
+}
+myTest();
+echo $y;
+```
+
+- [ ] 10
+- [ ] 5
+- [x] 15
+- [ ] An error occurs
+
+### Q127. Which of the following is NOT a valid PHP array function?
+
+- [ ] array_push()
+- [ ] array_pop()
+- [ ] array_shift()
+- [x] array_delete()
+
+### Q128. What does the 'final' keyword do when used before a class declaration?
+
+- [ ] It makes the class abstract
+- [x] It prevents the class from being inherited
+- [ ] It makes the class static
+- [ ] It makes all methods in the class private
+
+### Q129. Which function would you use to get the length of a string in PHP?
+
+- [ ] count()
+- [ ] length()
+- [x] strlen()
+- [ ] size()
+
+### Q130. What is the output of this code?
+
+```php
+$a = "Hello";
+$b = &$a;
+$b = "World";
+echo $a;
+```
+
+- [ ] Hello
+- [x] World
+- [ ] HelloWorld
+- [ ] An error occurs
