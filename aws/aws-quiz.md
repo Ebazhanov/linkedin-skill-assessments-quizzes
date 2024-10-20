@@ -1052,7 +1052,3 @@ aws ecs create-service \
 - [x] Amazon Polly
 - [ ] Amazon Rekognition
 - [ ] Amazon Comprehend
-
-
-
-
