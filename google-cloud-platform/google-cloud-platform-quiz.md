@@ -659,3 +659,14 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] Project Owner
 
 [Reference](https://cloud.google.com/logging/docs/access-control)
+
+#### Q80. Which of the following Google Cloud services is best suited for storing unstructured data, such as images and videos?
+
+- [ ] Cloud SQL
+- [ ] Cloud Bigtable
+- [x] Cloud Storage
+- [ ] Cloud Spanner
+
+**Explanation**
+
+- Cloud SQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server databases. It is designed for structured data and relational database needs. Cloud Bigtable is a NoSQL database service designed for large-scale, low-latency workloads but is not ideal for storing unstructured data like media files. Cloud Storage is designed specifically for storing unstructured data, such as images, videos, and backups. It is highly scalable, durable, and optimized for performance. Cloud Spanner is a fully managed, scalable, relational database service for mission-critical applications requiring strong consistency and horizontal scaling. It’s not designed for unstructured data storage.
