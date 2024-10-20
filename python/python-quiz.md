@@ -2593,25 +2593,21 @@ The first loop runs for `m` times and the inner loop will run for `n` times. The
 - [x] 2
 - [ ] 16
 
-#### Q178. How would you create a list of tuples matching these lists of characters and actors?
+#### Q178. Let the lists 'characters' and 'actors' be defined as given. Which of the following lines of code gives the desired output?
 
 ```python
 characters = ["Iron Man", "Spider Man", "Captain America"]
 actors = ["Downey", "Holland", "Evans"]
 
-#example output : [("Iron Man", "Downey), ("Spider Man", "Holland"), ("Captain America", "Evans")]
+#Desired output : [("Iron Man", "Downey), ("Spider Man", "Holland"), ("Captain America", "Evans")]
 ```
 
-- [x] zip (characters, actors)
-- [ ] {x:y for x in characters for y in actors}
-- [ ] [(x,y) for x in characters for y in actors]
-- [ ] &shy;
+- [ ] print( zip( characters, actors ) )
+- [ ] print( { x: y for x in characters for y in actors } )
+- [ ] print( [ ( x, y ) for x in characters for y in actors ] )
+- [x] print( list( zip( characters, actors ) ) )
 
-```
-d = {}
-for x in range(1, len(characters)):
-    d[x] = actors [x]
-```
+Explanation: zip() is the correct function for this usecase. However, zip() makes a zip type object which is an iterator. Therefore, using list() is necessary to convert the zip object into a list of tuples that can be displayed or accessed directly. The other options have logical errors.
 
 #### Q179. When is the `if __name__ == "__main__":` block executed in a Python script?
 
