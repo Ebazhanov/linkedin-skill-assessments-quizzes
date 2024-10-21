@@ -1038,3 +1038,38 @@ aws ecs create-service \
 - [x] Amazon DynamoDB
 - [ ] Amazon Neptune
 - [ ] Amazon Aurora
+
+
+#### Q122. Which AWS service is primarily used to store and retrieve any amount of data at any time from anywhere on the web?
+
+- [ ] Amazon EC2
+- [x] Amazon S3
+- [ ] Amazon RDS
+- [ ] AWS Lambda
+
+**Explanation**
+
+- Amazon S3 (Simple Storage Service) is an object storage service that allows users to store and retrieve any amount of data at any time. It is designed to be highly durable and scalable, making it suitable for storing a wide variety of data types, including web applications, backups, and large data lakes. EC2 (Elastic Compute Cloud) is used for scalable computing capacity, RDS (Relational Database Service) is for relational databases, and AWS Lambda is used for running code without provisioning or managing servers.
+
+#### Q123. What is the maximum size of a single object that can be uploaded to Amazon S3 in a single PUT operation?
+
+- [x] 5 GB
+- [ ] 100 GB
+- [ ] 10 GB
+- [ ] 500 MB
+
+**Explanation**
+
+- Amazon S3 allows the upload of a single object up to 5 GB in size in a single PUT operation. For objects larger than 5 GB, users need to use multipart upload, which supports objects up to 5 TB in size. This multipart upload functionality allows for parallel uploads, making the process faster and more efficient for larger files.
+
+
+#### Q124. Which of the following services is used to automatically distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses?
+
+- [ ] Amazon Route 53
+- [ ] AWS Auto Scaling
+- [x] AWS Elastic Load Balancer (ELB)
+- [ ] AWS CloudFront
+
+**Explanation**
+
+- AWS Elastic Load Balancer (ELB) is designed to automatically distribute incoming traffic across multiple targets, such as EC2 instances or containers, to ensure high availability and fault tolerance. Route 53 is used for domain name system (DNS) services, Auto Scaling is for automatically adjusting the number of instances, and CloudFront is a content delivery network (CDN) used to deliver content with low latency.
