@@ -1574,7 +1574,7 @@ function MyComponent() {
 - [ ] ключі ; індекси
 - [ ] стиль ; вбудований
 - [ ] значення ; не-null
-  [Джерело: React Docs](https://uk.legacy.reactjs.org/docs/lists-and-keys.html)
+      [Джерело: React Docs](https://uk.legacy.reactjs.org/docs/lists-and-keys.html)
 
 #### Q130. Ви хочете запам'ятати функцію зворотного виклику, щоб переконатися, що React не створює функцію під час кожного рендеру. Який хук ви б використали для цього?
 
