@@ -1314,3 +1314,38 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Phishing
 - [ ] Ransomware
 - [ ] Malware
+
+#### Q173. What is the purpose of a VPN (Virtual Private Network) in cybersecurity?
+
+- [ ] To improve internet speed
+- [x] To anonymize internet activity and encrypt data transmission
+- [ ] To monitor network traffic for malicious activity
+- [ ] To block malware and viruses
+
+**Explanation**
+
+- A VPN (Virtual Private Network) creates a secure, encrypted connection over a less secure network, such as the internet. It hides the user's IP address, encrypts data being transmitted, and makes it harder for hackers or third parties to intercept communications. The primary purpose of a VPN is to protect user privacy and secure data from unauthorized access.
+
+
+#### Q174. What is the primary function of a firewall in a network?
+
+- [ ] Encrypt data before transmission
+- [x] Monitor and control incoming and outgoing network traffic
+- [ ] Provide physical security for servers
+- [ ] Manage user access to applications
+
+**Explanation**
+
+- A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on security rules. Its main purpose is to establish a barrier between an internal trusted network and untrusted external networks, such as the internet. While it can sometimes be involved in managing access or enhancing security protocols, its core function is to filter traffic.
+
+
+#### Q175. Which of the following is a common method attackers use to gain unauthorized access to systems?
+
+- [ ] Phishing
+- [x] Encryption
+- [ ] Data anonymization
+- [ ] Two-factor authentication
+
+**Explanation**
+
+- Phishing is a type of cyber attack where attackers trick individuals into providing sensitive information such as usernames, passwords, or financial details by pretending to be legitimate entities. The attacker often uses fake emails, websites, or text messages. The other options (encryption, data anonymization, and two-factor authentication) are security measures that help protect systems.
