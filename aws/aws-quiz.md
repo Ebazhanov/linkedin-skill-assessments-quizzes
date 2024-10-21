@@ -1039,7 +1039,6 @@ aws ecs create-service \
 - [ ] Amazon Neptune
 - [ ] Amazon Aurora
 
-
 #### Q122. Which AWS service is primarily used to store and retrieve any amount of data at any time from anywhere on the web?
 
 - [ ] Amazon EC2
@@ -1061,7 +1060,6 @@ aws ecs create-service \
 **Explanation**
 
 - Amazon S3 allows the upload of a single object up to 5 GB in size in a single PUT operation. For objects larger than 5 GB, users need to use multipart upload, which supports objects up to 5 TB in size. This multipart upload functionality allows for parallel uploads, making the process faster and more efficient for larger files.
-
 
 #### Q124. Which of the following services is used to automatically distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses?
 

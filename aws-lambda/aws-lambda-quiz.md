@@ -591,7 +591,7 @@
 - [x] IAM role permissions
 - [ ] DynamoDB SDK
 - [ ] admin role
-- [ ] 
+- [ ]
 
 #### Q76. Which of the following is true about AWS Lambda pricing?
 
