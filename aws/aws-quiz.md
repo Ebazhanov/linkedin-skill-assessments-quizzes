@@ -1071,3 +1071,17 @@ aws ecs create-service \
 **Explanation**
 
 - AWS Elastic Load Balancer (ELB) is designed to automatically distribute incoming traffic across multiple targets, such as EC2 instances or containers, to ensure high availability and fault tolerance. Route 53 is used for domain name system (DNS) services, Auto Scaling is for automatically adjusting the number of instances, and CloudFront is a content delivery network (CDN) used to deliver content with low latency.
+
+#### Q125. You work as a cloud consultant for an IT company. As most of the employees are working from home, you need to find a way to provide them with secure access to the company’s internal sites and SaaS applications. Which of the following AWS services would you suggest them to use?
+
+- [ ] AWS Direct Connect
+- [ ] AWS VPN CloudHub
+- [x] Amazon WorkSpaces Web
+- [ ] Amazon Storage Gateway
+
+#### Q126. Which AWS service can convert text to lifelike speech?
+
+- [ ] AAmazon Translate
+- [x] Amazon Polly
+- [ ] Amazon Rekognition
+- [ ] Amazon Comprehend
