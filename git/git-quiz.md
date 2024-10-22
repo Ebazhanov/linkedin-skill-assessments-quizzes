@@ -445,7 +445,7 @@ modified: beta-notes.js
 - [ ] 5
 - [x] 2
 - [ ] 4
-[Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+      [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 #### Q40. Which user should be created first during setting up of SSH?
 
