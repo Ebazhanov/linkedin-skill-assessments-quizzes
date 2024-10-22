@@ -625,3 +625,12 @@
 **Explanation**
 
 - Amazon RDS (Relational Database Service) cannot directly trigger a Lambda function. RDS is a managed database service and does not have built-in functionality to trigger Lambda directly. However, other services like S3, DynamoDB Streams, and API Gateway can trigger Lambda functions when specific events occur (e.g., file uploads, data changes, API calls).
+
+#### Q79. You work for a company that has an AWS cloud deployment utilizing Lambda functions for various tasks. You need to select the appropriate resource types and sizes for these tasks. How should you optimize the amount of memory configured for Lambda functions on your AWS cloud?
+- [ ] Use CloudTrail to track all API calls made on the system.
+- [x] Use CloudWatch to monitor memory-bound functions.
+- [ ] Utilize CloudFront for caching data for end users.
+- [ ] Create a new VPC with an AWS Batch computing environment in it.
+
+**Explanation**
+- You would use CloudWatch to monitor memory-bound functions and create an alarm when memory consumption nears a preset limit. This will help you find out when memory consumption reaches close to the preset maximum value so that you can avoid processing bottlenecks by increasing the configured memory for the functions. AWS CloudWatch allows you to monitor the AWS system in real time by monitoring and tracking resource metrics.
