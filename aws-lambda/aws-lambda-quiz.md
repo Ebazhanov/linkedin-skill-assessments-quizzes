@@ -633,4 +633,13 @@
 - [ ] Create a new VPC with an AWS Batch computing environment in it.
 
 **Explanation**
-- You would use CloudWatch to monitor memory-bound functions and create an alarm when memory consumption nears a preset limit. This will help you find out when memory consumption reaches close to the preset maximum value so that you can avoid processing bottlenecks by increasing the configured memory for the functions. AWS CloudWatch allows you to monitor the AWS system in real time by monitoring and tracking resource metrics.
+- `You would use CloudWatch to monitor memory-bound functions and create an alarm when memory consumption nears a preset limit. This will help you find out when memory consumption reaches close to the preset maximum value so that you can avoid processing bottlenecks by increasing the configured memory for the functions. AWS CloudWatch allows you to monitor the AWS system in real time by monitoring and tracking resource metrics.`
+
+#### Q80. You are running a photo-sharing website using various AWS services. You have an AWS Lambda function that performs image resizing and cropping whenever a user uploads a picture to an S3 bucket. You need to find a way to allow other AWS accounts and services to invoke this function when necessary. What would you do to implement this functionality?
+- [ ] Use an identity-based policy to grant the needed permissions.
+- [x] Use a resource-based policy to grant the needed permissions.
+- [ ] Create an IAM user group to allow access to resources.
+- [ ] Set the permissions for the S3 bucket to public.
+
+**Explanation**
+- `You would use a resource-based policy to grant the needed permissions. A resource-based policy is attached to an AWS resource such as an Amazon Simple Storage Service (S3) bucket, a virtual private cloud (VPC) endpoint, AWS Key Management Service (KMS) encryption keys, and Amazon Simple Queueing Service (SQS) queues. Using a resource-based policy, you specify the principal who can access the resource and their permissible actions on the resource. A principal can be an account, user, role, or session principal. Session principals can be IAM federated users or role sessions. Policies are AWS objects that specify the permissions of an identity or a resource. You can choose an identity-based or resource-based policy when you create a permissions policy for restricted access to resources.`
