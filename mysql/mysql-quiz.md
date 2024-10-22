@@ -1199,3 +1199,185 @@ SELECT name FROM Students WHERE exam_score > 90;
 - [ ] SEARCH
 - [x] SELECT
 - [ ] EXTRACT
+
+#### Q125. Which MySQL function would you use to get the current date and time?
+
+- [ ] GETDATE()
+- [ ] CURRENTTIME()
+- [x] NOW()
+- [ ] DATETIME()
+
+#### Q126. In MySQL, which statement is used to add a new column to an existing table?
+
+- [ ] MODIFY TABLE
+- [ ] UPDATE TABLE
+- [x] ALTER TABLE
+- [ ] CHANGE TABLE
+
+#### Q127. What is the purpose of the LIMIT clause in a MySQL SELECT statement?
+
+- [ ] To limit the number of tables that can be joined
+- [x] To restrict the number of rows returned by the query
+- [ ] To limit the number of columns that can be selected
+- [ ] To restrict the query execution time
+
+#### Q128. Which MySQL command is used to show all databases on the server?
+
+- [ ] LIST DATABASES;
+- [ ] DISPLAY DATABASES;
+- [x] SHOW DATABASES;
+- [ ] SELECT DATABASES;
+
+#### Q129. What does the UNSIGNED keyword do when used in a column definition?
+
+- [ ] It makes the column accept only positive numbers
+- [ ] It makes the column accept only whole numbers
+- [x] It doubles the maximum value that can be stored in the column
+- [ ] It makes the column accept only text data
+
+#### Q130. Which MySQL function would you use to find the length of a string?
+
+- [ ] SIZE()
+- [x] LENGTH()
+- [ ] LEN()
+- [ ] STRLEN()
+
+#### Q131. What is the purpose of the AUTO_INCREMENT attribute in MySQL?
+
+- [ ] To automatically update the column value when the row is modified
+- [ ] To automatically decrease the column value by 1 for each new row
+- [x] To automatically generate a unique identity for new rows
+- [ ] To automatically set the column to the current timestamp
+
+#### Q132. Which MySQL statement is used to remove a table from a database?
+
+- [ ] REMOVE TABLE
+- [ ] DELETE TABLE
+- [x] DROP TABLE
+- [ ] ERASE TABLE
+
+#### Q133. What does the LIKE operator do in a WHERE clause?
+
+- [ ] It compares two values for exact equality
+- [x] It searches for a specified pattern in a column
+- [ ] It checks if a value is NULL
+- [ ] It performs mathematical comparisons
+
+#### Q134. Which MySQL function returns the number of rows affected by an INSERT, UPDATE, or DELETE statement?
+
+- [ ] AFFECTED_ROWS()
+- [ ] COUNT_CHANGES()
+- [ ] ROW_COUNT()
+- [x] FOUND_ROWS()
+
+#### Q135. What is the purpose of the HAVING clause in MySQL?
+
+- [ ] To join multiple tables
+- [ ] To sort the result set
+- [x] To specify a search condition for a group or an aggregate
+- [ ] To limit the number of rows returned
+
+#### Q136. Which MySQL statement is used to grant privileges to a user?
+
+- [ ] ADD PRIVILEGES
+- [ ] SET PRIVILEGES
+- [x] GRANT
+- [ ] ALLOW
+
+#### Q137. What does the IFNULL() function do in MySQL?
+
+- [ ] It checks if a value is not NULL
+- [x] It returns a specified value if the expression is NULL
+- [ ] It sets a column value to NULL
+- [ ] It removes NULL values from a result set
+
+#### Q138. Which MySQL command is used to show the current user and host?
+
+- [ ] SHOW USER;
+- [ ] CURRENT_USER();
+- [ ] WHO AM I;
+- [x] SELECT USER();
+
+#### Q139. What is the purpose of the EXPLAIN statement in MySQL?
+
+- [ ] To provide documentation for a stored procedure
+- [ ] To show the structure of a table
+- [x] To show the execution plan of a SELECT statement
+- [ ] To explain the meaning of an error message
+
+#### Q140. Which MySQL function would you use to round a number to the nearest integer?
+
+- [ ] CEIL()
+- [ ] FLOOR()
+- [x] ROUND()
+- [ ] INT()
+
+#### Q141. What does the UNIQUE constraint do in MySQL?
+
+- [ ] It ensures that the column cannot contain NULL values
+- [x] It ensures that all values in the column are different
+- [ ] It automatically increments the value for each new row
+- [ ] It sets a default value for the column
+
+#### Q142. Which MySQL statement is used to create an index on a table?
+
+- [ ] ADD INDEX
+- [x] CREATE INDEX
+- [ ] MAKE INDEX
+- [ ] INDEX TABLE
+
+#### Q143. What is the purpose of the COALESCE() function in MySQL?
+
+- [ ] To combine multiple columns into one
+- [ ] To check if all values in a list are equal
+- [x] To return the first non-NULL value in a list
+- [ ] To count the number of non-NULL values in a list
+
+#### Q144. Which MySQL command is used to start a transaction?
+
+- [ ] BEGIN TRANSACTION
+- [ ] START TRANSACTION
+- [ ] INIT TRANSACTION
+- [x] BEGIN
+
+#### Q145. What does the CONCAT() function do in MySQL?
+
+- [ ] It adds numbers together
+- [x] It joins two or more strings together
+- [ ] It combines multiple rows into one
+- [ ] It merges two tables
+
+#### Q146. Which MySQL statement is used to create a stored procedure?
+
+- [ ] MAKE PROCEDURE
+- [ ] ADD PROCEDURE
+- [x] CREATE PROCEDURE
+- [ ] DEFINE PROCEDURE
+
+#### Q147. What is the purpose of the REGEXP operator in MySQL?
+
+- [ ] To perform mathematical operations
+- [ ] To join multiple tables
+- [x] To perform pattern matching using regular expressions
+- [ ] To check if a value exists in a subquery
+
+#### Q148. Which MySQL function would you use to get the current user's username?
+
+- [ ] CURRENT_USER()
+- [ ] USERNAME()
+- [x] USER()
+- [ ] SYSTEM_USER()
+
+#### Q149. What does the DISTINCT keyword do in a SELECT statement?
+
+- [ ] It sorts the result set in ascending order
+- [ ] It limits the number of rows returned
+- [x] It removes duplicate rows from the result set
+- [ ] It selects only specific columns from the table
+
+#### Q150. Which MySQL statement is used to delete all rows from a table without deleting the table itself?
+
+- [ ] DELETE TABLE
+- [ ] REMOVE ALL FROM
+- [ ] DROP TABLE
+- [x] TRUNCATE TABLE
