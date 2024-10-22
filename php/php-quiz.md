@@ -1580,6 +1580,7 @@ $y = "2$y";
 echo $x;
 ```
 
+
 - [ ]  5
 - [ ]  2
 - [x]  25
@@ -1592,12 +1593,15 @@ echo $x;
 - [ ]  file_check()
 - [x]  Both file_exists() and is_file()
 
+
+
 ### Q110. What does the following code output?
 
 ```php
 $array = array(1, 2, 3, 4, 5);
 echo array_sum($array) / count($array);
 ```
+
 
 - [ ]  15
 - [x]  3
@@ -1624,6 +1628,7 @@ echo array_sum($array) / count($array);
 - [x]  strip_tags()
 - [ ]  remove_html()
 - [ ]  sanitize_string()
+
 
 ### Q114. What is the output of this code?
 
@@ -1658,6 +1663,7 @@ echo $str;
 - [ ]  char_to_ascii()
 - [x]  ord()
 - [ ]  ascii_val()
+
 
 ### Q118. What is the output of this code?
 
@@ -1694,12 +1700,14 @@ print_r($c);
 - [x]  time()
 - [ ]  timestamp()
 
+
 ### Q122. What is the output of this code?
 
 ```php
 $str = "abcdef";
 echo substr($str, -2, 1);
 ```
+
 
 - [ ]  f
 - [x]  e
@@ -1730,6 +1738,7 @@ echo substr($str, -2, 1);
 - [ ]  typeof()
 - [x]  is_array()
 
+
 ### Q126. What is the output of this code?
 
 ```php
@@ -1742,6 +1751,7 @@ function myTest() {
 myTest();
 echo $y;
 ```
+
 
 - [ ]  10
 - [ ]  5
@@ -1768,6 +1778,7 @@ echo $y;
 - [ ]  length()
 - [x]  strlen()
 - [ ]  size()
+
 
 ### Q130. What is the output of this code?
 
