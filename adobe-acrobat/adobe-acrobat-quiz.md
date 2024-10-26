@@ -379,3 +379,31 @@
 - [ ] Include Bookmarks
 - [ ] Create tagged PDF
 - [x] Optimize for Last web view
+
+#### Q53. A client wants to include short videos in the documentation they are converting to PDF files for distribution. However, they are unable to embed one of the videos. What would cause this?
+
+- [ ] The video is an MP3 file
+- [ ] The video is an MOV file
+- [x] The video is an FLV file
+- [ ] The video is larger than 10 MB
+
+#### Q54. A designer submits a PDF to a commercial printer. The file contains objects using PANTONE 021 Orange, as well as text using a manually created spot orange. The commercial printer uses Ink Manager to remap the spot orange content to the official PANTONE 021 Orange plate and saves the file. However, when the file is output, the spot orange content is not correctly converted. What feature must the printer use to finalize this correction?
+
+- [ ] Print Production > Output Preview
+- [x] Print Production > Convert Colors
+- [ ] Print Production > Trap Presets
+- [ ] Print Production > Save as PDF/X
+
+#### Q55. You are creating a PDF from a document containing multiple photographs of buildings. Which image compression method will provide the best results for the photographic image content?
+
+- [ ] CCIT
+- [ ] ZIP
+- [ ] RLE
+- [x] JPEG
+
+#### Q56. A client provides a paper copy of an important document, but has lost the original file. Unfortunately, there are several misspelled words in the document. You scan the document, then convert it to a PDF using the File > Create > PDF from File... option. What can you choose to repair the file?
+
+- [ ] Tools > Organize Pages
+- [ ] Tools > Export PDF
+- [ ] Tools > Print Production
+- [x] Tools > Edit PDF
