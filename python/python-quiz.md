@@ -2687,10 +2687,10 @@ y = 20
 closure_func = outer_func(x)
 print(closure_func())
 ```
+
 - [ ] 30
 - [x] 21
 - [ ] 11
 - [ ] 31
 
 **Explanation**: When `outer_func(10)` is called, `y` is set to 11 within `outer_func`. The `inner_func`, which has access to `outer_func`'s scope, returns `y` + `x`. When `closure_func()` is called, it uses `y` = `11` (from `outer_func`) and `x` = `10` from the global scope, not from the function’s argument. Therefore, `closure_func()` returns 11 + 10 = 21.
-
