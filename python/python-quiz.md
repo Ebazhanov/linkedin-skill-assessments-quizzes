@@ -2672,3 +2672,25 @@ The code defines a `square` function to calculate the square of a number. It the
 - [ ] Hello {name1} and {name2}
 - [ ] Error
 - [ ] Hello and
+
+### Q185. What will be the ouput of the following code snippet?
+
+```python
+def outer_func(x):
+    y = x + 1
+    def inner_func():
+        return y + x
+    return inner_func
+
+x = 10
+y = 20
+closure_func = outer_func(x)
+print(closure_func())
+```
+- [ ] 30
+- [x] 21
+- [ ] 11
+- [ ] 31
+
+**Explanation**: When `outer_func(10)` is called, `y` is set to 11 within `outer_func`. The `inner_func`, which has access to `outer_func`'s scope, returns `y` + `x`. When `closure_func()` is called, it uses `y` = `11` (from `outer_func`) and `x` = `10` from the global scope, not from the function’s argument. Therefore, `closure_func()` returns 11 + 10 = 21.
+
