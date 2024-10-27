@@ -16038,6 +16038,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "krz",
+      "name": "Christoph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210623?v=4",
+      "profile": "http://krz.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
