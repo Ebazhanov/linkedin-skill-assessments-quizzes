@@ -225,9 +225,9 @@ instance.password
 #### Q17. Which statement does NOT describe the object-oriented programming concept of encapsulation?
 
 - [ ] It protects the data from outside interference.
-- [ ] A parent class is encapsulated and no data from the parent class passes on to the child class.
+- [x] A parent class is encapsulated and no data from the parent class passes on to the child class.
 - [ ] It keeps data and the methods that can manipulate that data in one place.
-- [x] It only allows the data to be changed by methods.
+- [ ] It only allows the data to be changed by methods.
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
 

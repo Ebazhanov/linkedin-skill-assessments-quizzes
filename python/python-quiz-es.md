@@ -217,9 +217,9 @@ instance.password
 #### P17. ¿Qué afirmación NO describe el concepto de encapsulación de la programación orientada a objetos?
 
 - [ ] Protege los datos de interferencias externas.
-- [ ] Se encapsula una clase principal y ningún dato de la clase principal pasa a la clase secundaria.
+- [x] Se encapsula una clase principal y ningún dato de la clase principal pasa a la clase secundaria.
 - [ ] Mantiene los datos y los métodos que pueden manipular esos datos en un solo lugar.
-- [x] Solo permite cambiar los datos por métodos.
+- [ ] Solo permite cambiar los datos por métodos.
 
 [Referencia](https://www.scaler.com/topics/python/encapsulation-in-python/)
 

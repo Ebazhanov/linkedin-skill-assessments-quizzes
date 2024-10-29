@@ -156,8 +156,8 @@ retourne list(enumerate(annees_college, 2019))
 #### Q16. Quelle déclaration ne décrit PAS le concept de l'encapsulation en programmation orientée objet ?
 
 - [ ] Elle protège les données contre les interférences extérieures.
-- [ ] Une classe parente est encapsulée et aucune donnée de la classe parente ne passe à la classe enfant.
+- [x] Une classe parente est encapsulée et aucune donnée de la classe parente ne passe à la classe enfant.
 - [ ] Elle permet de regrouper les données et les méthodes qui peuvent manipuler ces données en un seul endroit.
-- [x] Elle ne permet que les méthodes de modifier les données.
+- [ ] Elle ne permet que les méthodes de modifier les données.
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
