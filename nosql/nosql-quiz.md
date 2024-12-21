@@ -316,7 +316,7 @@ MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jenn
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-[Explaination:]The correct Cypher code to execute a multiquery block would use commas to separate each query in a single statement. In this case, option B has all the queries separated by commas, making it the correct choice. Option A has the correct queries, but they are separated by "RETURN" which is not correct syntax for multiquery. Option C has an additional "AND" before the second query which is also not correct syntax. Option D has each query separated by semicolons, which would execute them as separate queries, not as a multiquery block.
+[Explanation:]The correct Cypher code to execute a multiquery block would use commas to separate each query in a single statement. In this case, option B has all the queries separated by commas, making it the correct choice. Option A has the correct queries, but they are separated by "RETURN" which is not correct syntax for multiquery. Option C has an additional "AND" before the second query which is also not correct syntax. Option D has each query separated by semicolons, which would execute them as separate queries, not as a multiquery block.
 
 #### Q42. You need to create a scalable database that supports immutable writes. What do you use?
 
@@ -383,7 +383,7 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [x] Easy schema evolution
 - [ ] Limited data storage capacity
 
-[Explaination:]One of the bendfits of using NoSQL databases is easy schema evolution. NoSQL databases are designed to handle flexible data models, which can be easily modified and updated as the data evolves. This makes it easier to handle changing.
+[Explanation:]One of the benefits of using NoSQL databases is easy schema evolution. NoSQL databases are designed to handle flexible data models, which can be easily modified and updated as the data evolves. This makes it easier to handle changing.
 
 #### Q51. NoSQL databases are most often referred to as?
 
@@ -392,4 +392,4 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] Object-oriented
 - [ ] Network
 
-[Explaination:]Since this non-relational database design does not require a schema, it offers rapid scalability to manage large and typically unstructured data sets. NoSQL is also type of distributed database, which means that information is copied and stored on various servers, which can be remote or local.
+[Explanation:]Since this non-relational database design does not require a schema, it offers rapid scalability to manage large and typically unstructured data sets. NoSQL is also type of distributed database, which means that information is copied and stored on various servers, which can be remote or local.
