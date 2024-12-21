@@ -2250,6 +2250,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://krz.github.io"><img src="https://avatars.githubusercontent.com/u/210623?v=4?s=100" width="100px;" alt="Christoph"/><br /><sub><b>Christoph</b></sub></a><br /><a href="#design-krz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=krz" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/giovanibs"><img src="https://avatars.githubusercontent.com/u/66960765?v=4?s=100" width="100px;" alt="Giovani B. S."/><br /><sub><b>Giovani B. S.</b></sub></a><br /><a href="#design-giovanibs" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=giovanibs" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/PaulinaJohn"><img src="https://avatars.githubusercontent.com/u/86304211?v=4?s=100" width="100px;" alt="Paulina John"/><br /><sub><b>Paulina John</b></sub></a><br /><a href="#design-PaulinaJohn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=PaulinaJohn" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
