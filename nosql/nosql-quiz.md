@@ -180,7 +180,7 @@
 - [ ] Neo4j
 - [ ] Cassandra
 - [x] Redis
-- [ ] MyS#### QL
+- [ ] MySQL
 
 #### Q27. SQL databases and NoSQL are which types of scalable?
 
