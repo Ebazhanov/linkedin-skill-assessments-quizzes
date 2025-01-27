@@ -1676,3 +1676,9 @@ useEffect(callNetworkFunc, XXXX);
 - [ ] By using redux
 - [ ] By using react router
 - [ ] By using react lifecycle methods
+
+#### How do you improve performance in large React applications?
+ - [x] Use React.memo, lazy loading, and code splitting
+ - [ ] Avoid using context and hooks
+ - [ ] Use class components instead of function components
+ - [ ] Always use inline functions and styles
