@@ -554,7 +554,7 @@ session[:user_id] = user.id
 <% end %>
 ```
 
-- [ ] B
+- [x] B
 
 ```ruby
 <% content_for :head do %>
@@ -562,7 +562,7 @@ session[:user_id] = user.id
 <% end %>
 ```
 
-- [x] C
+- [ ] C
 
 ```ruby
 <% render "shared/head, locals: {title: "My page title"} %>
