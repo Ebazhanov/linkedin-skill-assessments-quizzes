@@ -2,6 +2,7 @@
 
 #### Q1. When rendering a partial in a view, how would you pass local variables for rendering?
 
+- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", selected: "about"}%>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
 - [x] `<%= render partial: "nav", locals: {selected: "about"}`
@@ -838,12 +839,12 @@ end
 - [ ] web server
 - [x] router
 
-#### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
+#### Q60. WHich helper method escapes HTML and also formats line breaksin a text string?
 
-- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
-- [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", locals: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", selected: "about"} %>`
+- [ ] sanitize
+- [ ] escape_html
+- [x] simple_format
+- [ ] raw
 
 #### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
 
