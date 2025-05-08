@@ -1049,7 +1049,7 @@ end
 
 - [ ] `<%= locals.user_info.name %>`
 - [ ] `<%= object.name %>`
-- [x] `<%= object[:name] %>`
+- [x] `<%= user_info[:name] %>`
 - [ ] `<%= @user.name %>`
 
 #### Q76. Once this form is submitted, which code in the controller would retrieve the string for :name?
