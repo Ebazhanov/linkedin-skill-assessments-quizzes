@@ -787,7 +787,7 @@ end
 
 - [ ] The galleries table will have no primary key.
 - [x] The galleries table will include a column named "updated_at".
-- [ ] The galleries table will contain exactly seven columns.
+- [x] The galleries table will contain exactly seven columns.
 - [ ] The galleries table will have an index on the position column.
 
 #### Q58. Which code would you add to return a 404 to the API caller if the user is not found in the database?
