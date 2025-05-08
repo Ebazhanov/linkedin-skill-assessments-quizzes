@@ -854,7 +854,7 @@ end
         has_many :users
     end
     class User < ActiveRecord::Base
-        belovngs_to :location
+        belongs_to :location
 
         delegate :city, :state, to: :location, allow_nil: true, prefix: true
     end
@@ -872,7 +872,7 @@ end
 
 `scope :active, lambda { where(:active => true) }`
 
-- [x] an Active Record model
+- [x] an ActiveRecord model
 - [ ] an ActionView template
 - [ ] an ApplicationHelper file
 - [ ] an ActionController controller
@@ -911,7 +911,7 @@ end
 - [ ] It preloads the images files using asset pipeline.
 - [ ] It selects only portfolios that have an image attached.
 - [ ] It includes the number of associated images when determining how many records to return.
-- [x] It will execute two database queries of 21 database queries.
+- [x] It will execute two database queries instead of 21 database queries.
 
 #### Q67. What is RVM?
 
