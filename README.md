@@ -2252,6 +2252,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/PaulinaJohn"><img src="https://avatars.githubusercontent.com/u/86304211?v=4?s=100" width="100px;" alt="Paulina John"/><br /><sub><b>Paulina John</b></sub></a><br /><a href="#design-PaulinaJohn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=PaulinaJohn" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jea.com.ph/"><img src="https://avatars.githubusercontent.com/u/25943867?v=4?s=100" width="100px;" alt="saguiguilid"/><br /><sub><b>saguiguilid</b></sub></a><br /><a href="#design-jess-alejo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jess-alejo" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
