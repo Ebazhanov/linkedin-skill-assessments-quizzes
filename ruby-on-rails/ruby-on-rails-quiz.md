@@ -2,6 +2,7 @@
 
 #### Q1. When rendering a partial in a view, how would you pass local variables for rendering?
 
+- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", selected: "about"}%>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
 - [x] `<%= render partial: "nav", locals: {selected: "about"}`
@@ -554,7 +555,7 @@ session[:user_id] = user.id
 <% end %>
 ```
 
-- [ ] B
+- [x] B
 
 ```ruby
 <% content_for :head do %>
@@ -562,7 +563,7 @@ session[:user_id] = user.id
 <% end %>
 ```
 
-- [x] C
+- [ ] C
 
 ```ruby
 <% render "shared/head, locals: {title: "My page title"} %>
@@ -787,7 +788,7 @@ end
 
 - [ ] The galleries table will have no primary key.
 - [x] The galleries table will include a column named "updated_at".
-- [ ] The galleries table will contain exactly seven columns.
+- [x] The galleries table will contain exactly seven columns.
 - [ ] The galleries table will have an index on the position column.
 
 #### Q58. Which code would you add to return a 404 to the API caller if the user is not found in the database?
@@ -838,12 +839,12 @@ end
 - [ ] web server
 - [x] router
 
-#### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
+#### Q60. WHich helper method escapes HTML and also formats line breaksin a text string?
 
-- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
-- [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", locals: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", selected: "about"} %>`
+- [ ] sanitize
+- [ ] escape_html
+- [x] simple_format
+- [ ] raw
 
 #### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
 
@@ -853,7 +854,7 @@ end
         has_many :users
     end
     class User < ActiveRecord::Base
-        belovngs_to :location
+        belongs_to :location
 
         delegate :city, :state, to: :location, allow_nil: true, prefix: true
     end
@@ -871,7 +872,7 @@ end
 
 `scope :active, lambda { where(:active => true) }`
 
-- [x] an Active Record model
+- [x] an ActiveRecord model
 - [ ] an ActionView template
 - [ ] an ApplicationHelper file
 - [ ] an ActionController controller
@@ -910,7 +911,7 @@ end
 - [ ] It preloads the images files using asset pipeline.
 - [ ] It selects only portfolios that have an image attached.
 - [ ] It includes the number of associated images when determining how many records to return.
-- [x] It will execute two database queries of 21 database queries.
+- [x] It will execute two database queries instead of 21 database queries.
 
 #### Q67. What is RVM?
 
@@ -1048,7 +1049,7 @@ end
 
 - [ ] `<%= locals.user_info.name %>`
 - [ ] `<%= object.name %>`
-- [x] `<%= object[:name] %>`
+- [x] `<%= user_info[:name] %>`
 - [ ] `<%= @user.name %>`
 
 #### Q76. Once this form is submitted, which code in the controller would retrieve the string for :name?
