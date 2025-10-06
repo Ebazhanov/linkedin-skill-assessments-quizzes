@@ -625,27 +625,23 @@ Table[Column] can be used instead of cell references (C2:C7).
 #### Q76. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
 
 - [ ] A
-
   1. Right-click the source cell.
   2. Click the Format Painter.
   3. Right-click each destination cell.
   4. Press Esc.
 
 - [ ] B
-
   1. Ctrl-click (Windows) or Command-click (Mac) each destination cell to select it.
   2. Click the Format Painter.
   3. Click the source cell.
 
 - [x] C
-
   1. Select the source cell.
   2. Double-click the Format Painter.
   3. Click each destination cell.
   4. Press Esc.
 
 - [ ] D
-
   1. Select the source cell.
   2. Right-click the Format Painter.
   3. Click each destination cell.
