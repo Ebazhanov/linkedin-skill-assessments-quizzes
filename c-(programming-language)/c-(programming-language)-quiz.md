@@ -241,18 +241,19 @@ main(){
 
 [Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
 
-#### Q13. What is optional in a function declaration? 
+#### Q13. What is optional in a function declaration?
 
-- [ ] data type of parameters  
-- [ ] return type of function  
-- [x] parameter names  
-- [ ] number of parameters  
+- [ ] data type of parameters
+- [ ] return type of function
+- [x] parameter names
+- [ ] number of parameters
 
 > **Explanation:**  
 > In all modern C standards, parameter names in a function declaration are optional.  
-> However, the meaning of an empty parameter list (`int f();`) differs by standard:  
-> - **Before C23:** Declares a function with an unspecified number of parameters (not a prototype).  
-> - **In C23:** Equivalent to `int f(void);` — declares a function that takes no parameters.  
+> However, the meaning of an empty parameter list (`int f();`) differs by standard:
+>
+> - **Before C23:** Declares a function with an unspecified number of parameters (not a prototype).
+> - **In C23:** Equivalent to `int f(void);` — declares a function that takes no parameters.
 >
 > [Reference](https://en.cppreference.com/w/c/language/function_declaration)
 
