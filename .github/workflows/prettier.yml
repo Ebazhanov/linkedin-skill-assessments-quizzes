@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: "✨ Prettier Code Formatter"
 
 # This action works with pull requests and pushes
 on:
@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          # Make sure the actual branch is checked out when running on pull requests
-          ref: ${{ github.head_ref }}
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
