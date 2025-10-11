@@ -40,7 +40,7 @@
 
 - Please add an explanation or reference link to your answers. This will help anyone to better learn concepts they may not have a great understanding about. Use [Grammarly](https://www.grammarly.com/) to ensure your spelling and grammar are correct.
 
-#### ❗️ Looking to participate in Hacktoberfest 2024? Please read the rules carefully:
+#### ❗️ Looking to participate in Hacktoberfest 2025? Please read the rules carefully:
 
 - [Hacktoberfest Participation Guidelines](https://hacktoberfest.com/participation/)
 
