@@ -642,9 +642,9 @@ fruit_info = {
 }
 ```
 
-- [x] `fruit_info ['price'] = 1.5`
-- [ ] `my_list [3.5] = 1.5`
-- [ ] `1.5 = fruit_info ['price]`
+- [x] `fruit_info['price'] = 1.5`
+- [ ] `my_list[3.5] = 1.5`
+- [ ] `1.5 = fruit_info['price]`
 - [ ] `my_list['price'] == 1.5`
 
 #### Q41. What value would be returned by this check for equality?
