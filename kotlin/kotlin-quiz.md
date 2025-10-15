@@ -8,12 +8,12 @@ fun main() {
 }
 ```
 
-- [x] `.withIndex()`
-- [ ] `.forEachIndexed()`
+- [ ] `.withIndex()`
+- [x] `.forEachIndexed()`
 - [ ] `.forEach()`
 - [ ] `.forIndexes()`
 
-[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html)
+[reference](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.sequences/for-each-indexed.html)
 
 #### Q2. When the **Airplane** class is instantiated, it displays **Aircraft = null**, not **Aircraft = C130** why?
 
