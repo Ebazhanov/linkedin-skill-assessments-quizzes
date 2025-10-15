@@ -160,12 +160,11 @@
 - [x] Click File > Open > Recent > Documents.
 - [ ] Click File > Recent > Recover Unsaved Documents.
 
-Explanation:
-
-Solutions found in Office2019:  
-File -> Open -> Recent -> Recover Unsaved Documents  
-File -> Info -> Manage Document -> Recover Unsaved Documents  
-Read carefully. It's not about recovering, but only the last recent file!
+>**Explanation**:
+>Solutions found in Office 2019:  
+>File -> Open -> Recent -> Recover Unsaved Documents  
+>File -> Info -> Manage Document -> Recover Unsaved Documents  
+>Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q23. Which object type can you _not_ insert into a Word document from the **Insert** tab?
 
@@ -188,7 +187,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 - [ ] Find and Replace
 - [x] AutoCorrect Options
 
-**Explanation:** The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
+>**Explanation:** The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
 
 #### Q26. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
