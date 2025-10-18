@@ -14,7 +14,7 @@
 - [ ] Pre-JIT, Quick-JIT, Normal-JIT
 - [x] Pre-JIT, Econo-JIT, Normal-JIT
 
-[reference link](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/) JIT Compiler Types in .NET
+[JIT Compiler Types in .NET](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/) 
 
 #### Q3. What is Kestrel?
 
@@ -23,7 +23,7 @@
 - [ ] a cross-platform, open-source web server that starts up web APIs
 - [ ] a free and open-source cross-platform web server software that can communicate with IIS
 
-[reference link](https://www.c-sharpcorner.com/interview-question/what-is-kestrel-in-asp-net-core-how-kestrel-web-server-works)
+[reference link: Kestrel](https://www.c-sharpcorner.com/interview-question/what-is-kestrel-in-asp-net-core-how-kestrel-web-server-works)
 
 #### Q4. When would you use asynchronous actions?
 
