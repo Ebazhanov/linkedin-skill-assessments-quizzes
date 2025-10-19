@@ -1456,9 +1456,9 @@ export class CustomValidatorDirective implements Validator {}
 #### Q81. What is the most common use for the ngOnDestory lifecle hook?
 
 - [ ] Remove dome elements from the components's view
-- [ ] All of these answers
 - [ ] Delete any injected services the
 - [x] Unsubscribe from observables and detach
+- [ ] All of the above
 
 #### Q82. What NgModule decorator metadata property is leverage to allow other ....?
 
