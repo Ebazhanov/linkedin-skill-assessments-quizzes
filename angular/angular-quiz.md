@@ -1202,13 +1202,13 @@ export class TruncatePipe implements PipeTransform {
   ```
 
 #### Q63. How can you use the template syntax to bind a component class field named tabWidth to an inline style width CSS property on this element?
-<div class="tab"></div> 
+
+<div class="tab"></div>
 
 - [ ] {{ width: tabWidth }}
 - [ ] [width]="tabWidth"
 - [ ] [inline.width]="tabWidth"
 - [x] [style.width.px]="tabWidth"
-
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 
@@ -1365,35 +1365,31 @@ export class ProductNameComponent {  @Input() productName: string
 
 #### Q77. NgModules can be included within other NgModules. Which code sample should you use to include TableModule in the SharedModule?
 
-- [ ] 
-@NgModule({
-exports: [TableModule]
-})
-export class SharedModule {}
+- [ ] @NgModule({
+      exports: [TableModule]
+      })
+      export class SharedModule {}
 
 text
 
-- [x] 
-@NgModule({
-imports: [TableModule]
-})
-export class SharedModule {}
+- [x] @NgModule({
+      imports: [TableModule]
+      })
+      export class SharedModule {}
 
 text
 
-- [ ] 
-@NgModule({
-declarations: [TableModule]
-})
-export class SharedModule {}
+- [ ] @NgModule({
+      declarations: [TableModule]
+      })
+      export class SharedModule {}
 
 text
 
-- [ ] 
-@NgModule({
-providers: [TableModule]
-})
-export class SharedModule {}
+- [ ] @NgModule({
+      providers: [TableModule]
+      })
+      export class SharedModule {}
 
 #### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
 
@@ -1470,7 +1466,6 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] experts
 - [ ] Shared
 - [x] declarations
-
 
 #### Q83. With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?
 
