@@ -1085,3 +1085,25 @@ aws ecs create-service \
 - [x] Amazon Polly
 - [ ] Amazon Rekognition
 - [ ] Amazon Comprehend
+
+Sure, here are two additional AWS questions with options and explanations:
+
+#### Q127. Which AWS service allows you to create and manage a private Certificate Authority (CA) for your organization?
+
+- [ ] AWS Certificate Manager
+- [ ] AWS Secrets Manager
+- [x] AWS Private Certificate Authority
+- [ ] AWS Identity and Access Management
+
+Explanation:
+This AWS service allows you to create and manage a private Certificate Authority (CA) for your organization, enabling you to issue and manage private SSL/TLS certificates. This is useful for securing internal applications and services that are not accessible from the public internet.
+
+#### Q128. You have an application that needs to access an Amazon RDS for MySQL database. Which of the following is the recommended approach to securely connect the application to the database?
+
+- [ ] Use the public IP address of the RDS instance and connect directly from the application.
+- [ ] Use the DNS endpoint of the RDS instance and connect directly from the application.
+- [x] Launch the application in a private subnet within the same VPC as the RDS instance and use the private IP address to connect.
+- [ ] Use an AWS Lambda function as a proxy to connect the application to the RDS instance.
+
+Explanation:
+The correct answer is to launch the application in a private subnet within the same VPC as the RDS instance and use the private IP address to connect.
