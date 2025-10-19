@@ -1496,3 +1496,23 @@ broccoli
 **Explanation**
 
 - git checkout -b <branch-name> creates a new branch and switches to it in one step. git branch <branch-name> only creates the branch but doesn't switch to it. git switch can switch branches but cannot create them. git merge is used to combine branches, not create or switch between them.
+
+#### Q168. What is the purpose of the `git rebase` command?
+
+- [ ] To merge two branches and create a new commit
+- [ ] To delete a branch and its commit history
+- [x] To move the base of a branch to a different commit
+- [ ] To create a new branch from the current commit
+
+**Explanation:**
+The `git rebase` command is used to move the base of a branch to a different commit. This is useful for keeping a branch up-to-date with the main branch or for cleaning up the commit history by squashing or rearranging commits. It does not merge branches or delete branch history, as the other options suggest.
+
+#### Q169. Which Git command is used to view the commit history of a repository?
+
+- [ ] `git status`
+- [ ] `git diff`
+- [x] `git log`
+- [ ] `git show`
+
+**Explanation:**
+The `git log` command is used to view the commit history of a Git repository. It displays the commit messages, authors, dates, and other metadata for each commit. `git status` shows the current state of the working directory and staging area, `git diff` shows the changes between commits or the working directory, and `git show` displays the changes introduced by a specific commit.
