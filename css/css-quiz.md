@@ -2539,8 +2539,6 @@ input.invalid {
 - [ ] The spacing between characters.
 - [x] The height of the space between lines of text.
 
-
-
 ### Q167. What is the purpose of the CSS visibility property?
 
 - [ ] To control the order of elements within a flex container.
@@ -2591,10 +2589,9 @@ input.invalid {
 - [ ] `.class`
 - [ ] `#id`
 - [x] `-`
-[Reference: CSS Selectors – Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet-for-beginners/)
+      [Reference: CSS Selectors – Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet-for-beginners/)
 
   #### Q173. What is the difference between a class and an id in CSS?
-
   - [x] IDs can only be applied to one HTML element, while classes can be used multiple times.
   - [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
   - [ ] Classes have higher specificity in CSS than IDs.
