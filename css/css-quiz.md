@@ -2449,12 +2449,16 @@ input.invalid {
 - [x] Red
 - [ ] Yellow
 
+[Reference: CSS RGB and RGBA Colors](https://www.w3schools.com/css/css_colors_rgb.asp)
+
 #### Q157. What is the correct HTML for referring to an external style sheet?
 
 - [x] `<link rel="stylesheet" type="text/css" href="mystyle.css">`
 - [ ] `<stylesheet>mystyle.css</stylesheet>`
 - [ ] `<style src= "mystyle.css">`
 - [ ] None of these.
+
+[Reference: HTML link tag](https://www.w3schools.com/tags/tag_link.asp) ​ | [HTML Link Tag Syntax for External CSS Files​](https://www.digitalocean.com/community/tutorials/html-link-tag)
 
 #### Q158. The \<link> tag goes inside:
 
@@ -2463,12 +2467,16 @@ input.invalid {
 - [x] the head section
 - [ ] None of the above
 
+[Reference: HTML link tag](https://www.w3schools.com/tags/tag_link.asp)
+
 #### Q159. What is CSS defined in HTML?
 
 - [ ] How to send HTML elements
 - [x] How to display HTML elements
 - [ ] How to save HTML elements
 - [ ] How to make HTML elements
+
+[Reference: CSS Introduction](https://www.w3schools.com/css/css_intro.asp)
 
 #### Q160. Which of the following statements is TRUE for CSS?
 
@@ -2477,12 +2485,16 @@ input.invalid {
 - [ ] Both and b above
 - [ ] An external style sheet can be written in HTML
 
+[Reference: CSS How To](https://www.w3schools.com/css/css_howto.asp)
+
 #### Q161. In CSS, margin collapsing only happens with?
 
 - [ ] The horizontal margins of inline elements in the normal flow.
 - [x] The vertical margins of block elements in the normal flow.
 - [ ] The horizontal margins of block elements in the normal flow.
 - [ ] The vertical margins of inline elements in the normal flow.
+
+[Reference: CSS Margin Collapse](https://www.w3schools.com/css/css_margin_collapse.asp)
 
 #### Q162. Which of the following CSS selectors selects all <p> elements that are the direct child of a <div> element?
 
@@ -2491,12 +2503,16 @@ input.invalid {
 - [ ] Tdiv + p
 - [ ] div ~ p
 
+[Reference: CSS Child Selector](https://www.geeksforgeeks.org/css/css-child-vs-descendant-selectors/)
+
 #### Q163. In CSS, the box-sizing property is used to control how an element's total width and height are calculated. Which value of box-sizing includes the element's padding and border within its total width and height?
 
 - [ ] content-box
 - [ ] padding-box
 - [ ] margin-box
 - [x] border-box
+
+[Reference: CSS box-sizing Property](https://www.geeksforgeeks.org/css/css-box-sizing-property/)
 
 #### Q164. In CSS, which of the following is NOT an effect of an inert attribute?
 
@@ -2505,6 +2521,8 @@ input.invalid {
 - [ ] Prevents the focus event from being fired when an element gains focus.
 - [ ] Hides the element and its content from assistive technologies by excluding them from the accessibility tree.
 
+[Reference: HTML inert attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert)
+
 #### Q165. What elements does the accent-color property target?
 
 - [ ] Line break tags
@@ -2512,42 +2530,52 @@ input.invalid {
 - [x] Input tags
 - [ ] Image tags
 
-### Q164. In CSS, what does the line-height property control?
+[Reference: CSS Line Height Property](https://mimo.org/glossary/css/line-height)
+
+### Q166. In CSS, what does the line-height property control?
 
 - [ ] The width of the element.
 - [ ] The color of the text.
 - [ ] The spacing between characters.
 - [x] The height of the space between lines of text.
 
-### Q165. What is the purpose of the CSS visibility property?
+
+
+### Q167. What is the purpose of the CSS visibility property?
 
 - [ ] To control the order of elements within a flex container.
 - [ ] To adjust the space between the inner content and the border of an element.
 - [ ] To control the stacking order of elements in the z-axis.
 - [x] To control the visibility of an element.
 
-### Q166. Which CSS property is used to change the style of the cursor when it hovers over an element?
+[Reference: CSS Visibility Property - W3Schools](https://www.w3schools.com/cssref/pr_class_visibility.asp)
+
+### Q168. Which CSS property is used to change the style of the cursor when it hovers over an element?
 
 - [ ] cursor-style
 - [ ] mouse-pointer
 - [ ] pointer-type
 - [x] cursor
 
-### Q167. What is the purpose of the CSS outline property?
+### Q169. What is the purpose of the CSS outline property?
 
 - [ ] To control the width of an element's border.
 - [ ] To change the background color of an element.
 - [x] To create a visible outline around an element, which is often used for accessibility or highlighting.
 - [ ] To control the transparency of an element.
 
-#### Q168. What are the valid values of the text-align property?
+[Reference: CSS outline Property - W3Schools](https://www.w3schools.com/cssref/pr_outline.asp)
+
+#### Q170. What are the valid values of the text-align property?
 
 - [ ] left, bottom, top, right
 - [ ] left, right, up, bottom
 - [x] left, center, right, justify
 - [ ] side, justify, up, down
 
-#### Q169. What is the difference between visibility: hidden and display: none?
+[Reference: CSS text-align Property - W3Schools](https://www.w3schools.com/cssref/pr_text_text-align.asp)
+
+#### Q171. What is the difference between visibility: hidden and display: none?
 
 - [ ] Both will hide the element on the page, but display: none has greater browser support.
 - [ ] `display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document`
@@ -2555,16 +2583,21 @@ input.invalid {
 - [ ] display: none removes the element from the document. It does not take up any space.
 - [ ] ` There is no difference; both will hide the element on the page`
 
-#### Q170. Which of the following is NOT a valid CSS selector?
+[Reference: CSS visibility:hidden vs display:none](https://www.w3schools.com/css/css_display_visibility.asp)
+
+#### Q172. Which of the following is NOT a valid CSS selector?
 
 - [ ] `p`
 - [ ] `.class`
 - [ ] `#id`
 - [x] `-`
+[Reference: CSS Selectors – Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet-for-beginners/)
 
-#### Q171. What is the difference between a class and an id in CSS?
+  #### Q173. What is the difference between a class and an id in CSS?
 
-- [x] Classes can only be applied to one HTML element, while IDs can be used multiple times.
-- [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
-- [ ] Classes have higher specificity in CSS than IDs.
-- [ ] There is no difference between a class and an id.
+  - [x] IDs can only be applied to one HTML element, while classes can be used multiple times.
+  - [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
+  - [ ] Classes have higher specificity in CSS than IDs.
+  - [ ] There is no difference between a class and an id.
+
+[Reference: Difference Between Class and ID](https://www.w3schools.com/css/css_selectors.asp)

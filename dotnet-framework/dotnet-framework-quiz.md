@@ -14,7 +14,7 @@
 - [ ] Pre-JIT, Quick-JIT, Normal-JIT
 - [x] Pre-JIT, Econo-JIT, Normal-JIT
 
-[JIT Compiler Types in .NET](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/)
+[JIT Compiler Types in .NET](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/) 
 
 #### Q3. What is Kestrel?
 
@@ -48,7 +48,7 @@
 - [x] In your derived class, override the method.
 - [ ] In your derived class, declare the method as virtual.
 
-[reference link](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override)
+[reference link](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override       )
 
 #### Q7. Which code do you use if you want to trigger a garbage collection in .NET?
 
