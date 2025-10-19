@@ -44,3 +44,28 @@
 - [ ] ML refers to hardware, AI to software
 
 **Reference:** [Intro to AI & ML](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence)
+
+I'll analyze the existing quiz and provide two additional questions while maintaining the same format:
+
+### Q6. What is Deep Learning?
+- [x] A subset of machine learning using neural networks with multiple layers
+- [ ] A type of database management system
+- [ ] A programming language for AI
+- [ ] A method of storing large datasets
+
+**Explanation:** Deep Learning is a specialized subset of machine learning that uses neural networks with multiple (deep) layers to progressively extract higher-level features from raw input. It's particularly powerful for complex tasks like image and speech recognition.
+
+Source: [Deep Learning - MIT Press](https://www.deeplearningbook.org/)
+
+### Q7. Which of these is NOT a common type of machine learning?
+- [ ] Supervised Learning
+- [ ] Unsupervised Learning
+- [ ] Reinforcement Learning
+- [x] Perpetual Learning
+
+**Explanation:** While Supervised, Unsupervised, and Reinforcement Learning are the three main types of machine learning, "Perpetual Learning" is not a standard classification. The main categories are:
+- Supervised Learning (learns from labeled data)
+- Unsupervised Learning (finds patterns in unlabeled data)
+- Reinforcement Learning (learns through trial and error with rewards/penalties)
+
+Source: [Types of Machine Learning - Stanford University CS229](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks)
