@@ -285,7 +285,7 @@ Dim MyArray(5) As Integer
 - [ ] Edit the list of arguments of the current routine while in debug mode.
 - [x] Click End in a run-time error dialog.
 - [ ] Add an ActiveXcontrol to a worksheet.
-- [ ] all of these answers
+- [ ] All of the above
 
 #### Q22. Which keyboard shortcut causes VBE to locate the declaration of a procedure?
 
