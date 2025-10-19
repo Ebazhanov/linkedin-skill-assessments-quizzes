@@ -974,3 +974,37 @@ cat < in.txt > out.txt
 - [ ] All of the above
 
 [reference](https://www.suse.com/suse-defines/definition/linux-kernel/#:~:text=The%20Linux%20kernel%20is%20the,interface%20with%20the%20Linux%20kernel.)
+
+#### Q118. What is the purpose of the `chroot` command in Linux?
+
+a) To change the root directory of the current process and its children.
+b) To create a new user account.
+c) To display the current working directory.
+d) To change the permissions of a file or directory.
+
+**Explanation:**
+The correct answer is a) To change the root directory of the current process and its children.
+
+The `chroot` command in Linux is used to change the root directory of the current process and its children. This is useful for running a program or shell in a different root directory, which can be used for security, testing, or other purposes. When a process is `chroot`ed, it is isolated from the rest of the file system, and can only access files and directories within the new root directory.
+
+The other options are not correct:
+b) Creating a new user account is done using the `useradd` or `adduser` commands.
+c) Displaying the current working directory is done using the `pwd` command.
+d) Changing file or directory permissions is done using the `chmod` command.
+
+#### Q119. What is the purpose of the `sysctl` command in Linux?
+
+a) To manage system configuration parameters at runtime.
+b) To display information about the currently running processes.
+c) To manage user accounts and groups.
+d) To manage network interfaces and routing.
+
+**Explanation:**
+The correct answer is a) To manage system configuration parameters at runtime.
+
+The `sysctl` command in Linux is used to view and modify kernel parameters at runtime. These parameters control various aspects of the operating system, such as networking, memory management, and process scheduling. The `sysctl` command allows you to view the current values of these parameters, as well as modify them dynamically without the need to reboot the system.
+
+The other options are not correct:
+b) Displaying information about running processes is done using the `ps` command.
+c) Managing user accounts and groups is done using commands like `useradd`, `groupadd`, and `usermod`.
+d) Managing network interfaces and routing is done using commands like `ip` and `route`.
