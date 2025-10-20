@@ -1107,3 +1107,37 @@ await this.CreateDatabaseAsync();
 - [ ] an Azure region failure
 - [ ] a storage failure
       [Ref](https://docs.microsoft.com/en-us/azure/virtual-machines/availability)
+
+
+
+### Q104. You need to configure an Azure Virtual Network (VNet) to allow communication between on-premises resources and Azure resources. Which VNet configuration should you use?
+
+- [ ] Point-to-Site VPN
+- [ ] Site-to-Site VPN
+- [x] ExpressRoute
+- [ ] Virtual Network Peering
+
+**Explanation:**
+ExpressRoute is the correct choice for configuring an Azure VNet to allow communication between on-premises resources and Azure resources. ExpressRoute is a dedicated, private connection between your on-premises network and the Microsoft cloud, which provides higher bandwidth, more reliability, and lower latencies compared to a VPN connection.
+
+Point-to-Site VPN and Site-to-Site VPN are used to connect individual client devices or on-premises networks to an Azure VNet, respectively, but they do not provide the same level of performance and reliability as ExpressRoute.
+
+Virtual Network Peering is used to connect two Azure VNets, not to connect an on-premises network to Azure.
+
+[Ref: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/]
+
+### Q105. You are designing a serverless application that uses Azure Functions to process data from an Azure Event Hub. The application must be able to scale automatically to handle varying event volumes. Which scaling option should you choose?
+
+- [ ] Consumption plan
+- [x] Premium plan
+- [ ] Dedicated plan
+- [ ] Elastic Premium plan
+
+Explanation:
+The Premium plan is the correct choice for scaling an Azure Functions application that processes data from an Azure Event Hub. The Premium plan provides automatic scaling based on the number of events being processed, which is ideal for handling varying event volumes.
+
+The Consumption plan is a good option for simple, event-driven functions, but it may not scale as effectively for high-volume event processing.
+
+The Dedicated plan and Elastic Premium plan are not valid options for Azure Functions. The Dedicated plan is used for App Service plans, and the Elastic Premium plan is a feature of Azure SQL Database, not Azure Functions.
+
+[Ref: https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale]

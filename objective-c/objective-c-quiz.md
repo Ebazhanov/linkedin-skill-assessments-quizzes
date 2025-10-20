@@ -29,10 +29,10 @@ NSInteger i = str.integerValue;
 
 `NSString str = "test" + " " + "more";`
 
-- [x] This code contains an error
 - [ ] test
 - [ ] nil
 - [ ] test more
+- [x] This code contains an error
 
 #### Q4. What is the output of the code given below?
 
@@ -157,9 +157,9 @@ NSMutableDictionary *dict1 = [NSMutableDictionary dictionaryWithCapacity:5];
 ```
 
 - [ ] The key and value items are mixed
-- [x] Nothing is wrong with it
 - [ ] You can't set the capacity of a dictionary
 - [ ] NSMutableDictionary doesn't have a :setValue:forKey function.
+- [x] Nothing is wrong with it
 
 #### Q17. What is printed from this code?
 
@@ -169,9 +169,9 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 ```
 
 - [x] print
-- [ ] This code is invalid
 - [ ] Nothing is printed from this code.
 - [ ] nil
+- [ ] This code is invalid.
 
 #### Q18. What is different about this function?
 
@@ -187,7 +187,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 - [ ] functions
 - [ ] initializers
 - [x] fields
-- [ ] all of these answers
+- [ ] All of the above
 
 #### Q20. What is wrong with this code?
 
@@ -297,8 +297,8 @@ NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
 
 - [x] 2,3
 - [ ] nil
-- [ ] This code contains an error
 - [ ] 2,"3"
+- [ ] This code contains an error
 
 #### Q31. How would this function be called?
 
@@ -433,10 +433,10 @@ NSString *val = @"1.23";
 BOOL tf = val.boolValue;
 ```
 
-- [ ] This code is invalid
 - [ ] YES
 - [x] NO
 - [ ] 1
+- [ ] This code is invalid
 
 #### Q43. In this code, what does ThatOne refer to?
 
@@ -459,7 +459,7 @@ NSString *result = [Ftest"
 - [ ] ""
 - [ ] "es"
 - [x] "test"
-- [ ] none of these answers
+- [ ] None of the above
 
 #### Q45. When will self receive the notification based on this code?
 
@@ -469,10 +469,10 @@ MyClass .classObj = [[MyClass allot] init];
               options:NSKeyValueObservingOptionNew context:NULL];
 ```
 
-- [ ] none of these answers
 - [ ] class0bj will recieve the notification, not self.
 - [ ] when class0bj is set to "name"
 - [x] when the name property in the class0bj instance changes
+- [ ] None of the above
 
 #### Q46. What is wrong with this code?
 
@@ -495,9 +495,9 @@ for (int i=0; i>loopVal; i--){
 ```
 
 - [ ] an infinite number of times
-- [ ] This code is invalid.
 - [x] zero
 - [ ] one
+- [ ] This code is invalid.
 
 #### Q48. What will this code print?
 
@@ -506,9 +506,9 @@ NSLog(@"%lu", @"test".length);
 ```
 
 - [ ] "test"
-- [ ] Nothing, this code is invalid.
 - [x] 4
 - [ ] 0
+- [ ] Nothing, this code is invalid.
 
 #### Q49. What is the value of numVtoInt after this code is executed?
 
@@ -531,8 +531,8 @@ NSLog(@"%.04f", val.floatValue);
 
 - [x] 1.2300
 - [ ] .04
-- [ ] This code is invalid
 - [ ] 1
+- [ ] This code is invalid
 
 #### Q51. What is the maximum possible value of r1 in this code?
 
