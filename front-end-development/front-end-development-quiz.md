@@ -866,3 +866,35 @@ box {
 - [ ] color: inherit
 
 [Reference: W3 Schools](https://www.w3schools.com/cssref/css_initial.php#:~:text=The%20initial%20keyword%20is%20used,property%20to%20its%20default%20value.)
+
+#### Q89. What are the four core principles of web accessibility according to WCAG (Web Content Accessibility Guidelines)?
+- [ ] Perceivable, Operational, Universal, Responsive
+- [x] Perceivable, Operable, Understandable, Robust
+- [ ] Practical, Operable, Usable, Reliable
+- [ ] Portable, Organized, Understandable, Responsive
+
+[Reference: WCAG 2 Overview](https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility)
+
+#### Q90. Which element creates an ordered list, shown with numbers in the browser by default?
+- [x] `<ol>`
+- [ ] `<li>`
+- [ ] `<ul>`
+- [ ] `<list>`
+
+[Reference: MDN Web Docs - ol element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+
+#### Q91. Which choice is not a valid value for the contain property?
+- [ ] content
+- [ ] all
+- [ ] layout
+- [x] all
+
+[Reference: MDN Web Docs - contain property](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
+
+#### Q92. What is the default value of the display property of a `<div>` element in CSS?
+- [ ] inline
+- [x] block
+- [ ] inline-block
+- [ ] flex
+
+[Reference: MDN Web Docs - div element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
