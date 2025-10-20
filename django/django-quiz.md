@@ -8,7 +8,7 @@
 - [x] django.middleware.cache.AcceleratedCacheMiddleware
 
 **Reference:**
-Django comes with a robust cache system that lets you save dynamic pages, so they don’t have to be computed for each request. For convenience, Django offers cache with different granularity — from entire website to pages to part of pages to DB query results to any objects in memory. Cache middleware. If enabled, each Django-powered page will be cached based on URL.
+Django comes with a robust cache system that lets you save dynamic pages, so they don't have to be computed for each request. For convenience, Django offers cache with different granularity — from entire website to pages to part of pages to DB query results to any objects in memory. Cache middleware. If enabled, each Django-powered page will be cached based on URL.
 
 #### Q2. In which programming language is Django written?
 
