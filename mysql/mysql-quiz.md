@@ -1381,3 +1381,26 @@ SELECT name FROM Students WHERE exam_score > 90;
 - [ ] REMOVE ALL FROM
 - [ ] DROP TABLE
 - [x] TRUNCATE TABLE
+
+
+#### Q151. What is the purpose of the `UNION` operator in MySQL?
+
+- [ ] To combine the results of multiple `SELECT` statements into a single result set, removing duplicate rows.
+- [ ] To perform a logical OR operation on the results of multiple `SELECT` statements.
+- [x] To combine the results of multiple `SELECT` statements into a single result set, including duplicate rows.
+- [ ] To perform a logical AND operation on the results of multiple `SELECT` statements.
+
+**Explanation:**
+The `UNION` operator in MySQL is used to combine the results of multiple `SELECT` statements into a single result set. The key difference between `UNION` and `UNION ALL` is that `UNION` removes duplicate rows, while `UNION ALL` includes all rows, including duplicates.
+
+#### Q152. What is the purpose of the `HAVING` clause in a MySQL query?
+
+- [ ] To filter the rows in the result set based on the values in the columns.
+- [ ] To sort the rows in the result set in ascending or descending order.
+- [x] To filter the groups in the result set based on the values of aggregate functions.
+- [ ] To limit the number of rows returned in the result set.
+
+**Explanation:**
+The `HAVING` clause in a MySQL query is used to filter the groups in the result set based on the values of aggregate functions, such as `SUM`, `AVG`, `COUNT`, etc. This is different from the `WHERE` clause, which is used to filter the rows in the result set based on the values in the columns.
+
+The `HAVING` clause is typically used in conjunction with the `GROUP BY` clause, which groups the rows in the result set based on the values in one or more columns.
