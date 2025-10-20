@@ -1347,3 +1347,27 @@ What is the next step you should take to best fulfill your responsibilities and 
 **Explanation**
 
 - Phishing is a type of cyber attack where attackers trick individuals into providing sensitive information such as usernames, passwords, or financial details by pretending to be legitimate entities. The attacker often uses fake emails, websites, or text messages. The other options (encryption, data anonymization, and two-factor authentication) are security measures that help protect systems.
+
+#### Q176. Which of the following is a common technique used in social engineering attacks?
+
+- [ ] Encryption
+- [ ] Firewalling
+- [x] Pretexting
+- [ ] Patching
+
+**Explanation:**
+Pretexting is a social engineering technique where the attacker creates a plausible pretext or scenario to manipulate the victim into divulging sensitive information or performing an action that benefits the attacker. This could involve impersonating a trusted authority figure, creating a sense of urgency, or exploiting the victim's emotions. The other options (encryption, firewalling, and patching) are security measures, not social engineering techniques.
+
+Source: [SANS Institute - Social Engineering Attacks](https://www.sans.org/blog/the-big-four-social-engineering-attacks/)
+
+#### Q177. What is the primary purpose of a Security Information and Event Management (SIEM) system?
+
+- [ ] To encrypt sensitive data
+- [ ] To manage user passwords
+- [x] To collect, analyze, and respond to security events
+- [ ] To block all incoming network traffic
+
+**Explanation:**
+A Security Information and Event Management (SIEM) system is a security solution that collects, analyzes, and correlates security-related data from various sources within an organization. The primary purpose of a SIEM is to provide a centralized view of an organization's security posture, detect and respond to security incidents, and generate reports for compliance and auditing purposes. It is not primarily used for encryption, password management, or blocking all network traffic.
+
+Source: [NIST Special Publication 800-94 - Guide to Intrusion Detection and Prevention Systems (IDPS)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf)

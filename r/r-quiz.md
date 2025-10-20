@@ -727,3 +727,480 @@ mtrx[, -1]
 - [ ] All of the above
 
 [reference](https://www.geeksforgeeks.org/packages-in-r-programming/)
+
+#### Q68. What is the primary purpose of the `apply()` function family in R?
+
+- [ ] To create new data frames from existing ones
+- [x] To apply a function to the margins of an array or matrix
+- [ ] To filter data based on conditions
+- [ ] To merge multiple datasets
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/apply)
+
+#### Q69. Which function is used to read CSV files in R?
+
+- [x] read.csv()
+- [ ] load.csv()
+- [ ] import.csv()
+- [ ] get.csv()
+
+[reference](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/read.table)
+
+#### Q70. What does the `str()` function do in R?
+
+- [ ] Converts objects to strings
+- [x] Displays the internal structure of an R object compactly
+- [ ] Calculates string length
+- [ ] Searches for patterns in strings
+
+[reference](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/str)
+
+#### Q71. In R, what is the difference between `<-` and `=` for assignment?
+
+- [ ] There is no difference; they are completely interchangeable
+- [ ] `=` is deprecated and should never be used
+- [x] `<-` is preferred for assignment; `=` is primarily for function arguments
+- [ ] `<-` only works with numeric values
+
+[reference](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-assignment-operators-in-r)
+
+#### Q72. What does the `library()` function do?
+
+- [ ] Creates a new library of functions
+- [x] Loads and attaches add-on packages
+- [ ] Lists all installed packages
+- [ ] Removes packages from memory
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/library)
+
+#### Q73. Which of the following statements about factors in R is TRUE?
+
+- [ ] Factors can only contain numeric values
+- [x] Factors are used to represent categorical data with a fixed set of possible values
+- [ ] Factors cannot be converted to character vectors
+- [ ] Factors automatically sort data alphabetically
+
+[reference](https://www.stat.berkeley.edu/~s133/factors.html)
+
+#### Q74. What does the `subset()` function return?
+
+- [x] A subset of vectors, matrices, or data frames that meet specified conditions
+- [ ] Only the first 10 rows of a dataset
+- [ ] A random sample from the data
+- [ ] The dimensions of a data structure
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset)
+
+#### Q75. In R, what is the purpose of the `with()` function?
+
+- [ ] To combine multiple data frames
+- [ ] To create conditional statements
+- [x] To evaluate an expression in an environment constructed from data
+- [ ] To generate random numbers with specific parameters
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/with)
+
+#### Q76. What is the output of `typeof(5L)` in R?
+
+- [ ] numeric
+- [ ] double
+- [x] integer
+- [ ] single
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/typeof)
+
+#### Q77. Which function is used to calculate the standard deviation in R?
+
+- [ ] stdev()
+- [ ] std()
+- [x] sd()
+- [ ] stddev()
+
+[reference](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/sd)
+
+#### Q78. What does the `na.omit()` function do?
+
+- [ ] Replaces NA values with zeros
+- [x] Removes rows containing NA values
+- [ ] Counts the number of NA values
+- [ ] Converts NA to NULL
+
+[reference](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/na.fail)
+
+#### Q79. In R, what is a tibble?
+
+- [ ] A base R data structure for 3D arrays
+- [x] A modern reimagining of the data frame from the tidyverse
+- [ ] A function for creating time series objects
+- [ ] A type of list used for nested data
+
+[reference](https://tibble.tidyverse.org/)
+
+#### Q80. What does the `seq()` function generate?
+
+- [ ] Random numbers
+- [x] Regular sequences of numbers
+- [ ] Unique identifiers
+- [ ] Fibonacci sequences
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/seq)
+
+#### Q81. Which operator is used for matrix multiplication in R?
+
+- [ ] -
+- [x] %\*%
+- [ ] \*\*
+- [ ] %x%
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/matmult)
+
+#### Q82. What is the purpose of `set.seed()` in R?
+
+- [ ] To plant random seeds in datasets
+- [x] To set the random number generator to produce reproducible results
+- [ ] To initialize a new R session
+- [ ] To create seed values for machine learning models
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Random)
+
+#### Q83. What does `nrow()` return for a vector?
+
+- [ ] The length of the vector
+- [ ] 1
+- [x] NULL
+- [ ] An error
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/nrow)
+
+#### Q84. Which function is used to transpose a matrix in R?
+
+- [x] t()
+- [ ] transpose()
+- [ ] trans()
+- [ ] flip()
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/t)
+
+#### Q85. What is the default behavior of `read.csv()` regarding string columns?
+
+- [ ] Converts all strings to factors (in R >= 4.0.0, default is FALSE)
+- [x] Keeps strings as character vectors (in R >= 4.0.0)
+- [ ] Removes all string columns
+- [ ] Converts strings to numeric where possible
+
+[reference](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/read.table)
+
+#### Q86. What does the `%>%` operator do in R?
+
+- [ ] Performs modulo division
+- [x] Pipes the output of one function to the input of another (from magrittr/dplyr)
+- [ ] Compares two values for greater than or equal to
+- [ ] Performs matrix multiplication
+
+[reference](https://magrittr.tidyverse.org/reference/pipe.html)
+
+#### Q87. Which function converts a character string to a Date object in R?
+
+- [ ] to.Date()
+- [x] as.Date()
+- [ ] date()
+- [ ] make.Date()
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/as.Date)
+
+#### Q88. What is the result of `rep(1:3, times=2)`?
+
+- [ ] [1] 1 1 2 2 3 3
+- [x] [1] 1 2 3 1 2 3
+- [ ] [1] 2 4 6
+- [ ] [1] 1 2 3 4 5 6
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/rep)
+
+#### Q89. What does `names()` function return for a vector?
+
+- [ ] The data type of the vector
+- [ ] The length of the vector
+- [x] The names attribute of the vector elements
+- [ ] The first element of the vector
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/names)
+
+#### Q90. Which function is used to sort a vector in descending order?
+
+- [ ] sort(x, desc=TRUE)
+- [ ] sort.desc(x)
+- [x] sort(x, decreasing=TRUE)
+- [ ] sort(x, order="desc")
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sort)
+
+#### Q91. What does the `table()` function do in R?
+
+- [ ] Creates data frames from vectors
+- [x] Builds a contingency table of counts
+- [ ] Generates HTML tables
+- [ ] Formats data in tabular form
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/table)
+
+#### Q92. In R, what is the purpose of the `ifelse()` function?
+
+- [x] Returns a value based on a conditional test
+- [ ] Tests if two objects are equal
+- [ ] Loops through conditions
+- [ ] Handles error conditions
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/ifelse)
+
+#### Q93. What does `length(NULL)` return?
+
+- [x] 0
+- [ ] NULL
+- [ ] NA
+- [ ] 1
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/length)
+
+#### Q94. Which function is used to calculate the correlation between two variables?
+
+- [ ] corr()
+- [x] cor()
+- [ ] correlation()
+- [ ] correlate()
+
+[reference](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)
+
+#### Q95. What is the output of `class(matrix(1:6, 2, 3))`?
+
+- [ ] "array"
+- [x] "matrix" "array"
+- [ ] "numeric"
+- [ ] "table"
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/matrix)
+
+#### Q96. Which function is used to find unique elements in a vector?
+
+- [ ] distinct()
+- [x] unique()
+- [ ] different()
+- [ ] single()
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/unique)
+
+#### Q97. What does `lapply()` return?
+
+- [ ] A vector
+- [ ] A matrix
+- [x] A list
+- [ ] A data frame
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/lapply)
+
+#### Q98. In R, what is the purpose of the `aggregate()` function?
+
+- [ ] To combine multiple data frames
+- [x] To compute summary statistics for subsets of data
+- [ ] To remove duplicate rows
+- [ ] To sort data by multiple columns
+
+[reference](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/aggregate)
+
+#### Q99. What does `is.na(c(1, NA, 3))` return?
+
+- [ ] [1] NA
+- [ ] [1] 1
+- [x] [1] FALSE TRUE FALSE
+- [ ] [1] TRUE FALSE TRUE
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/NA)
+
+#### Q100. Which function is used to calculate the mean of each column in a data frame?
+
+- [ ] mean(df)
+- [ ] apply(df, 1, mean)
+- [x] colMeans(df)
+- [ ] rowMeans(df)
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/colSums)
+
+#### Q101. What does the `paste()` function do?
+
+- [ ] Copies data from clipboard
+- [x] Concatenates strings together
+- [ ] Pastes data into a data frame
+- [ ] Duplicates objects
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/paste)
+
+#### Q102. In R, what is the difference between `sapply()` and `lapply()`?
+
+- [ ] sapply() is faster than lapply()
+- [x] sapply() simplifies the result to a vector or matrix when possible; lapply() always returns a list
+- [ ] sapply() works only on lists; lapply() works on any object
+- [ ] There is no difference
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/lapply)
+
+#### Q103. What does `dim()` return for a vector of length 10?
+
+- [ ] [1] 10 1
+- [ ] [1] 1 10
+- [x] NULL
+- [ ] [1] 10
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/dim)
+
+#### Q104. Which function is used to read an R script file?
+
+- [ ] read()
+- [ ] load()
+- [x] source()
+- [ ] import()
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/source)
+
+#### Q105. What is the output of `all(c(TRUE, TRUE, FALSE))`?
+
+- [x] FALSE
+- [ ] TRUE
+- [ ] NA
+- [ ] Error
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/all)
+
+#### Q106. Which function creates a sequence from 1 to 10 with increments of 0.5?
+
+- [ ] seq(1, 10, 0.5)
+- [x] seq(1, 10, by=0.5)
+- [ ] sequence(1, 10, 0.5)
+- [ ] series(1:10, step=0.5)
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/seq)
+
+#### Q107. What does `match(c("a", "b"), c("b", "c", "a"))` return?
+
+- [ ] [1] 1 2
+- [ ] [1] 2 1
+- [x] [1] 3 1
+- [ ] [1] FALSE TRUE
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/match)
+
+#### Q108. In R, what is the purpose of the `merge()` function?
+
+- [ ] To combine vectors into a matrix
+- [x] To merge two data frames by common columns or row names
+- [ ] To concatenate strings
+- [ ] To combine multiple plots
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/merge)
+
+#### Q109. What does `range(c(5, 2, 8, 1, 9))` return?
+
+- [ ] [1] 8
+- [x] [1] 1 9
+- [ ] [1] 2 5 8
+- [ ] [1] 5 2 8 1 9
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/range)
+
+#### Q110. Which function is used to calculate the median in R?
+
+- [ ] mid()
+- [x] median()
+- [ ] middle()
+- [ ] med()
+
+[reference](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/median)
+
+#### Q111. What is the result of `any(c(FALSE, FALSE, TRUE))`?
+
+- [ ] FALSE
+- [x] TRUE
+- [ ] NA
+- [ ] Error
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/any)
+
+#### Q112. What does `head(df, n=-5)` return?
+
+- [ ] The first 5 rows of df
+- [x] All rows except the last 5 rows
+- [ ] The last 5 rows of df
+- [ ] An error
+
+[reference](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/head)
+
+#### Q113. Which function is used to split data into groups in R?
+
+- [ ] divide()
+- [ ] separate()
+- [x] split()
+- [ ] group()
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/split)
+
+#### Q114. What does `rev(1:5)` return?
+
+- [ ] [1] 1 2 3 4 5
+- [x] [1] 5 4 3 2 1
+- [ ] [1] 5
+- [ ] Error
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/rev)
+
+#### Q115. In R, what is the purpose of `attach()`?
+
+- [x] To make the variables in a data frame accessible without using the $ operator
+- [ ] To combine two data frames
+- [ ] To save a data frame to disk
+- [ ] To load a package
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/attach)
+
+#### Q116. What does `nchar("Hello")` return?
+
+- [ ] 6
+- [x] 5
+- [ ] "Hello"
+- [ ] 1
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/nchar)
+
+#### Q117. Which function is used to calculate the sum of each row in a matrix?
+
+- [ ] colSums()
+- [x] rowSums()
+- [ ] apply(x, 1, sum)
+- [ ] Both B and C are correct
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/colSums)
+
+#### Q118. What does `duplicated(c(1, 2, 2, 3))` return?
+
+- [ ] [1] TRUE TRUE TRUE TRUE
+- [x] [1] FALSE FALSE TRUE FALSE
+- [ ] [1] 2
+- [ ] [1] FALSE TRUE FALSE FALSE
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/duplicated)
+
+#### Q119. What is the output of `toupper("hello")`?
+
+- [ ] "hello"
+- [x] "HELLO"
+- [ ] "Hello"
+- [ ] Error
+
+[reference](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/chartr)
+
+#### Q120. Which function is used to create a histogram in base R?
+
+- [ ] plot()
+- [x] hist()
+- [ ] histogram()
+- [ ] bar()
+
+[reference](https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/hist)

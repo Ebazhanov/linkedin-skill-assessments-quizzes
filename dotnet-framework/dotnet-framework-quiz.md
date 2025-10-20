@@ -14,12 +14,16 @@
 - [ ] Pre-JIT, Quick-JIT, Normal-JIT
 - [x] Pre-JIT, Econo-JIT, Normal-JIT
 
+[JIT Compiler Types in .NET](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/)
+
 #### Q3. What is Kestrel?
 
 - [ ] an iOS web server initially that was later designed to work with .NET Core
 - [x] a cross-platform web server ASP.NET Core that is included by default in ASP.NET Core project templates\*\*
 - [ ] a cross-platform, open-source web server that starts up web APIs
 - [ ] a free and open-source cross-platform web server software that can communicate with IIS
+
+[reference link: Kestrel](https://www.c-sharpcorner.com/interview-question/what-is-kestrel-in-asp-net-core-how-kestrel-web-server-works)
 
 #### Q4. When would you use asynchronous actions?
 
@@ -35,12 +39,16 @@
 - [ ] CoreCLR is the .NET execution engine the runs the source code. Special programs called compilers must rewrite it into IL.
 - [x] CoreCLR is the .NET execution engine in .NET Core that performs functions like garbage collection and compilation to machine code.
 
+[reference link](https://www.c-sharpcorner.com/interview-question/what-is-coreclr)
+
 #### Q6. When you define an abstract method, how do you use it in a derived class?
 
 - [ ] Abstract methods cannot be used in derived classes.
 - [ ] In your derived class, overload the method.
 - [x] In your derived class, override the method.
 - [ ] In your derived class, declare the method as virtual.
+
+[reference link](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override)
 
 #### Q7. Which code do you use if you want to trigger a garbage collection in .NET?
 
@@ -77,12 +85,16 @@
 - [ ] A delegate is a collection initializer that adds flexibility, readability and maintainability in .NET.
 - [ ] A delegate is an extension method. Using a delegate allows the programmer to add flexibility, readability and maintainability in .NET.
 
+[reference link](https://www.c-sharpcorner.com/UploadFile/db027e/delegates-in-net/)
+
 #### Q12. Which is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
 
 - [ ] XML
 - [ ] C#
 - [x] LINQ
 - [ ] XAML
+
+[refernce link](https://learn.microsoft.com/en-us/dotnet/standard/linq/)
 
 #### Q13. What is the single responsibility principle?
 
@@ -197,6 +209,8 @@
 - [x] to compile complete source code into native code in a single compilation cycle during deployment of the application
 - [ ] to compile only the methods that are called at runtime and then store them in cache for one minute
 - [ ] to compile only the methods that are called at runtime and remove them from memory after execution
+
+[reference link](https://www.c-sharpcorner.com/interview-question/how-many-types-of-jit-compilers)
 
 #### Q29. What do code contracts do?
 
@@ -520,6 +534,8 @@ public IActionResult ReceivedDataByRequest()
 - [ ] to compile only methods called at run time - which are compiled the first time the methods are called and then stored in cache to be used for execution when the same methods are called again
 - [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
 - [x] to compile only the methods that are called at run time and remove them from memory after execution
+
+[Reference: Types of JIT Compiler](https://www.geeksforgeeks.org/python/what-is-just-in-time-jit-compiler-in-dot-net/)
 
 #### Q66. What is the difference between a heap and a stack?
 

@@ -642,9 +642,9 @@ fruit_info = {
 }
 ```
 
-- [x] `fruit_info ['price'] = 1.5`
-- [ ] `my_list [3.5] = 1.5`
-- [ ] `1.5 = fruit_info ['price]`
+- [x] `fruit_info['price'] = 1.5`
+- [ ] `my_list[3.5] = 1.5`
+- [ ] `1.5 = fruit_info['price]`
 - [ ] `my_list['price'] == 1.5`
 
 #### Q41. What value would be returned by this check for equality?
@@ -2694,3 +2694,61 @@ print(closure_func())
 - [ ] 31
 
 **Explanation**: When `outer_func(10)` is called, `y` is set to 11 within `outer_func`. The `inner_func`, which has access to `outer_func`'s scope, returns `y` + `x`. When `closure_func()` is called, it uses `y` = `11` (from `outer_func`) and `x` = `10` from the global scope, not from the function’s argument. Therefore, `closure_func()` returns 11 + 10 = 21.
+
+
+### Q186. What is the output of the following Python code?
+
+```python
+x = 5
+def func():
+    x = 10
+    print(x)
+func()
+print(x)
+```
+
+A. 10, 5
+B. 10, 10
+C. 5, 5
+D. 5, 10
+
+**Explanation:**
+The correct answer is A. 10, 5.
+
+In the given code, the variable `x` is first defined in the global scope with a value of 5. Inside the `func()` function, a new local variable `x` is created and assigned the value of 10. When `func()` is called, it prints the value of the local `x`, which is 10.
+
+After the function call, the print statement outside the function refers to the global `x`, which still has the value of 5.
+
+Therefore, the output is 10, 5.
+
+### Q187. What is the output of the following Python code?
+
+```python
+def func(a, b=2, c=3):
+    print(a, b, c)
+
+func(10)
+func(10, 20)
+func(10, 20, 30)
+```
+
+A. 10 2 3, 10 20 3, 10 20 30
+B. 10 2 3, 10 20 3, 10 20 30
+C. 10 2 3, 10 20 2, 10 20 30
+D. 10 2 3, 10 20 2, 10 20 30
+
+**Explanation:**
+The correct answer is A. 10 2 3, 10 20 3, 10 20 30.
+
+In the given code, the `func()` function has three parameters: `a`, `b`, and `c`. `b` and `c` have default values of 2 and 3, respectively.
+
+When `func(10)` is called, only the first parameter `a` is provided, so `b` and `c` take their default values of 2 and 3, respectively.
+
+When `func(10, 20)` is called, the first parameter `a` is 10, and the second parameter `b` is 20. The third parameter `c` takes its default value of 3.
+
+When `func(10, 20, 30)` is called, all three parameters are provided, so `a` is 10, `b` is 20, and `c` is 30.
+
+Therefore, the output is:
+10 2 3
+10 20 3
+10 20 30

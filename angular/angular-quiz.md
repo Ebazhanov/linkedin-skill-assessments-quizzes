@@ -1201,19 +1201,14 @@ export class TruncatePipe implements PipeTransform {
   </ng-container>
   ```
 
-#### Q63. Describe the usage of this code:
+#### Q63. How can you use the template syntax to bind a component class field named tabWidth to an inline style width CSS property on this element?
 
-```ts
-export interface AppSettings {
-  title: string;
-  version: number;
-}
-```
+<div class="tab"></div>
 
-- [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
-- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object literal can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
-- [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and components throughout the Angular application without the need to inject it anywhere.
-- [x] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
+- [ ] {{ width: tabWidth }}
+- [ ] [width]="tabWidth"
+- [ ] [inline.width]="tabWidth"
+- [x] [style.width.px]="tabWidth"
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 
@@ -1227,9 +1222,9 @@ export interface AppSettings {
 #### Q65. What is the difference between the CanActivate and the CanLoad route guards?
 
 - [ ] CanActivate is used to check access. CanLoad is used to preload data for the route.
-- [x] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
+- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
 - [ ] CanActivate and CanLoad do the exact same thing.
-- [ ] CanLoad prevents an entire NgModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule, but that module is still loaded.
+- [x] CanLoad prevents an entire NgModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule, but that module is still loaded.
 
 [CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate#:~:text=canActivate%20is%20used%20to%20prevent,not%20authorized%20to%20do%20so.) CanActivate prevents access on routes, CanLoad prevents lazy loading.
 
@@ -1368,14 +1363,33 @@ export class ProductNameComponent {  @Input() productName: string
 
 [Angular - NgModel](https://angular.io/api/forms/NgModel)
 
-#### Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
+#### Q77. NgModules can be included within other NgModules. Which code sample should you use to include TableModule in the SharedModule?
 
-- [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
-- [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
-- [ ] Add the string name given to the FormControl to an attribute named controls on the `<form>` element to indicate what fields it should include.
-- [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
+- [ ] @NgModule({
+      exports: [TableModule]
+      })
+      export class SharedModule {}
 
-[Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
+text
+
+- [x] @NgModule({
+      imports: [TableModule]
+      })
+      export class SharedModule {}
+
+text
+
+- [ ] @NgModule({
+      declarations: [TableModule]
+      })
+      export class SharedModule {}
+
+text
+
+- [ ] @NgModule({
+      providers: [TableModule]
+      })
+      export class SharedModule {}
 
 #### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
 
@@ -1442,9 +1456,9 @@ export class CustomValidatorDirective implements Validator {}
 #### Q81. What is the most common use for the ngOnDestory lifecle hook?
 
 - [ ] Remove dome elements from the components's view
-- [ ] All of these answers
 - [ ] Delete any injected services the
 - [x] Unsubscribe from observables and detach
+- [ ] All of the above
 
 #### Q82. What NgModule decorator metadata property is leverage to allow other ....?
 
@@ -1453,14 +1467,7 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] Shared
 - [x] declarations
 
-#### Q83. What is the difference between the CanActivate and the CanLoad rout guards?
-
-- [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule , but the module is still loaded.
-- [ ] CanActivate and CanLoad do the exact same thing.
-- [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
-- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested
-
-#### Q84. With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?
+#### Q83. With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?
 
 ```ts
 @Component({

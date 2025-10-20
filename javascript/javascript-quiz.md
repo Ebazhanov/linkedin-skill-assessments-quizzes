@@ -1345,7 +1345,7 @@ export const printMe = (str) => console.log(str);
 
 [Reference importing libraries in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
-#### Q102. What will be the output of this code?
+#### Q102. What will be the output of the following code?
 
 ```js
 const arr1 = [2, 4, 6];
@@ -1400,7 +1400,7 @@ console.log(typeof 'blueberry');
 - [ ] `Boolean`
 - [ ] `object`
 
-[Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+[Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
 
 #### Q107. What is the output that is printed when the div containing the text "Click Here" is clicked?
 
@@ -1903,9 +1903,9 @@ console.log(animals[1], clones[1]);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q135. What will be the output of the following code?
+#### Q135. What will be the output of the following code snippet?
 
-```js
+```javascript
 a=5;
 b=4;
 alert(a++(+(+(+b))));
@@ -1939,8 +1939,6 @@ console.log(json); // print {"type":"tiger"}
 - [ ] document.getElementsByClassName();
 - [ ] document.querySelectorAll();
 - [ ] document.querySelector();
-
-[Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
 #### Q138. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
 
@@ -2141,29 +2139,6 @@ console.log(second);
        undefined
 - [ ] You  
        got this!
-
-[Reference: W3schools JS Scoping](https://www.w3schools.com/js/js_scope.asp)
-
-#### Q156. What is the output for the code given below?
-
-```js
-console.log('hello' + 'world' + '!');
-```
-
-- [x] helloworld!
-- [ ] helloworld !
-- [ ] hello world!
-- [ ] hello world !
-
-#### Q157. What is the output of this code?
-
-```js
-console.log(10 + 10);
-```
-
-- [ ] 10
-- [x] 20
-- [ ] 30
 - [ ] 40
 
 #### Q158. Events related to the browser window can be handled by?

@@ -989,3 +989,27 @@ Which of these statements do you agree with?
 - [x] All of the above
 
 **Explanation:** All of the above techniques are different ways of imputing the missing values.
+
+#### Q127. What is the main purpose of using regularization in machine learning models?
+
+a) To increase the complexity of the model
+b) To reduce the variance of the model
+c) To increase the bias of the model
+d) To reduce the computational cost of the model
+
+**Explanation:**
+The correct answer is b) To reduce the variance of the model.
+
+Regularization is a technique used in machine learning to prevent overfitting, which occurs when a model becomes too complex and fits the training data too closely, resulting in poor generalization to new, unseen data. By adding a regularization term to the loss function, the model is encouraged to learn simpler, more generalizable patterns, thereby reducing the variance of the model.
+
+#### Q128. In the context of decision trees, what is the purpose of pruning?
+
+a) To increase the depth of the tree
+b) To reduce the number of leaf nodes
+c) To increase the number of internal nodes
+d) To reduce the complexity of the tree
+
+**Explanation:**
+The correct answer is d) To reduce the complexity of the tree.
+
+Pruning is a technique used in decision tree learning to simplify the tree by removing branches that do not significantly improve the performance of the model. This is done to prevent overfitting and improve the generalization of the model to new, unseen data. By reducing the complexity of the tree, pruning can help improve the interpretability and efficiency of the model.

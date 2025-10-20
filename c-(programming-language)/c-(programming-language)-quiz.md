@@ -248,7 +248,14 @@ main(){
 - [x] parameter names
 - [ ] number of parameters
 
-[Reference](https://www.cprogramming.com/tutorial/c/lesson4.html)
+> **Explanation:**  
+> In all modern C standards, parameter names in a function declaration are optional.  
+> However, the meaning of an empty parameter list (`int f();`) differs by standard:
+>
+> - **Before C23:** Declares a function with an unspecified number of parameters (not a prototype).
+> - **In C23:** Equivalent to `int f(void);` — declares a function that takes no parameters.
+>
+> [Reference](https://en.cppreference.com/w/c/language/function_declaration)
 
 #### Q14. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
