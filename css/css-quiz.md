@@ -497,7 +497,7 @@ p {
 
 #### Q35. When using the Flexbox method, what property and value is used to display flex items in a column?
 
-- [x] flex-flow: column; or flex-direction: column
+- [x] flex-flow: column; or flex-direction: column;
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
@@ -505,9 +505,9 @@ p {
 #### Q36. Which type of declaration will take precedence?
 
 - [ ] any declarations in user-agent stylesheets
-- [x] important declarations in user stylesheets
+- [ ] important declarations in user stylesheets
 - [ ] normal declarations in author stylesheets
-- [ ] important declarations in author stylesheets
+- [x] important declarations in author stylesheets
 
 #### Q37. The flex-direction property is used to specify the direction in which flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
@@ -633,13 +633,13 @@ font-weight: 700;
 - [ ] light; normal
 - [ ] normal; bolder
 
-#### Q46. Using the:nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+#### Q46. Using the :nth-child pseudo-class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
 - [ ] A
 
 ```css
 li:nth-child(3 + 2n) {
-  margin: 0 5 px;
+  margin: 0 5px;
 }
 ```
 
@@ -647,7 +647,7 @@ li:nth-child(3 + 2n) {
 
 ```css
 li:nth-child(3n + 2) {
-  margin: 0 5 px;
+  margin: 0 5px;
 }
 ```
 
@@ -657,7 +657,7 @@ li:nth-child(3n + 2) {
 li:nth-child(2),
 li:nth-child(5),
 li:nth-child(8) {
-  margin: 0 5 px;
+  margin: 0 5px;
 }
 ```
 
@@ -665,7 +665,7 @@ li:nth-child(8) {
 
 ```css
 li:nth-child(2n + 3) {
-  margin: 0 5 px;
+  margin: 0 5px;
 }
 ```
 
@@ -1559,7 +1559,7 @@ a[href*='domain.com'] {
 ```css
 .glyphicon-bgcircle {
   circle-radius: 50%;
-  margins: 50px;
+  margin: 50px;
   background-color: #fdadc6;
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
@@ -1595,7 +1595,7 @@ glyphicon-bgcircle {
 ```css
 .glyphicon-bgcircle {
   radius-rounded: 50%;
-  margins: auto;
+  margin: auto;
   background-color: #fdadc6;
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
@@ -1799,7 +1799,7 @@ background-tile: none;
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
-- [x] `background-image: URL('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
@@ -2103,16 +2103,7 @@ img {
 
 [Reference](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
 
-#### Q131. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
-
-- [ ] padding: 10px 0px;
-- [x] padding: 10px 10px 0px 0px;
-- [ ] padding: 10px 0;
-- [ ] padding: 10px 0px 10px 0px;
-
-[Reference](https://www.w3schools.com/css/css_padding.asp)
-
-#### Q132. How would you absolutely position an element of the logo class inside of a relatively positioned container?
+#### Q131. How would you absolutely position an element of the logo class inside of a relatively positioned container?
 
 - [ ] A
 
@@ -2154,7 +2145,7 @@ img {
 }
 ```
 
-#### Q133. How would the `<div>` with the class .child be positioned within its container?
+#### Q132. How would the `<div>` with the class .child be positioned within its container?
 
 ```HTML
 <style>
@@ -2179,7 +2170,7 @@ img {
 
 [Reference](https://codepen.io/harsh1x4/pen/poVaQVz)
 
-#### Q134. By default, a CSS transition is \_\_
+#### Q133. By default, a CSS transition is \_\_
 
 - [ ] asymmetric, so that the transition going from the initial state to the end state is different from the transition going from the end state back to the initial state.
 - [ ] one-sided, so that there is only one transition and it goes from the initial state to the end state.
@@ -2188,7 +2179,7 @@ img {
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
-#### Q135. Which style rule will extend the header element across an entire grid row from the first column through the last column?
+#### Q134. Which style rule will extend the header element across an entire grid row from the first column through the last column?
 
 - [ ] A
 
@@ -2224,7 +2215,7 @@ header {
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-#### Q136. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
+#### Q135. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
 
 - [ ] A
 
@@ -2236,7 +2227,7 @@ justify-items: end;
 - [x] B
 
 ```css
-align--items: center;
+align-items: center;
 justify-items: center;
 ```
 
@@ -2256,7 +2247,7 @@ justify-items: stretch;
 
 [Reference for align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Reference for justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
 
-#### Q137. What style rule should you use to display all input elements that have failed the validation test with a red font?
+#### Q136. What style rule should you use to display all input elements that have failed the validation test with a red font?
 
 - [ ] A
 
