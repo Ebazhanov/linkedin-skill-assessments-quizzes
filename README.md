@@ -2259,6 +2259,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Chinmayi-H-M"><img src="https://avatars.githubusercontent.com/u/202322636?v=4?s=100" width="100px;" alt="Chinmayi H M"/><br /><sub><b>Chinmayi H M</b></sub></a><br /><a href="#design-Chinmayi-H-M" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Chinmayi-H-M" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kiran-F"><img src="https://avatars.githubusercontent.com/u/152872068?v=4?s=100" width="100px;" alt="Kiran Fatima"/><br /><sub><b>Kiran Fatima</b></sub></a><br /><a href="#design-Kiran-F" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Kiran-F" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shreya860"><img src="https://avatars.githubusercontent.com/u/115180931?v=4?s=100" width="100px;" alt="Shreya"/><br /><sub><b>Shreya</b></sub></a><br /><a href="#design-Shreya860" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Shreya860" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
