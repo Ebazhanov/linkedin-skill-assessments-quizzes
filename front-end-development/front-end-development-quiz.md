@@ -700,7 +700,7 @@ box {
 ```
 
 - [ ] 230px
-- [x] 220px (200px content + 20px padding)
+- [x] 220px 
 - [ ] 200px
 - [ ] 260px
 
