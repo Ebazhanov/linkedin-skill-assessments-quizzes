@@ -688,21 +688,23 @@ console.log(currencies);
 - [ ] Set `width: 100%` on the images.
 - [ ] Set `resize: true` on the images.
 
-#### Q69. The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?
+#### Q69. The CSS box model describes how different parts of a box are calculated. Under the standard box model, what is the total width of the content box plus padding (excluding border and margin) in the following CSS?
 
 ```css
 box {
   width: 200px;
   padding: 10px;
   margin: 0 15px;
-  border: 2px 5px;
+  border: 2px solid black;
 }
 ```
 
 - [ ] 230px
-- [x] 220px
+- [x] 220px (200px content + 20px padding)
 - [ ] 200px
 - [ ] 260px
+
+Note: In the standard box model (box-sizing: content-box), the width property defines the content width. The total width of the visible box is the sum of content width (200px) + left and right padding (2 × 10px = 20px) = 220px. Margin and border are not included in this calculation since the question specifically asks for content + padding.
 
 #### Q70. How would you round the value 11.354 to the nearest full integer?
 
