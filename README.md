@@ -2261,6 +2261,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shreya860"><img src="https://avatars.githubusercontent.com/u/115180931?v=4?s=100" width="100px;" alt="Shreya"/><br /><sub><b>Shreya</b></sub></a><br /><a href="#design-Shreya860" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Shreya860" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nihal-b"><img src="https://avatars.githubusercontent.com/u/77238880?v=4?s=100" width="100px;" alt="Nihalb"/><br /><sub><b>Nihalb</b></sub></a><br /><a href="#design-nihal-b" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nihal-b" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
