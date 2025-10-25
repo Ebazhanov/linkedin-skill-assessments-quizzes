@@ -757,10 +757,10 @@ char *is_even(char *str);
 std::vector<std::vector<int>> thematrix;
 ```
 
-- [x] There's nothing wrong with it.
+- [ ] There's nothing wrong with it.
 - [ ] An `std::vector` cannot contain more `std::vector` containers as its elements.
 - [ ] The correct syntax should be: `std::vector[std::vector[int]] thematrix;`
-- [ ] `>>` is parsed as the shift-right operator, and thus results in a compile error.
+- [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
 
@@ -2467,17 +2467,6 @@ int main(int argc, char const *argv[])
 - [x] “Constructor called” five times and then “Destructor called” five times
 - [ ] “Constructor called” five times and then “Destructor called” once
 - [ ] Error
-
-#### Q.154 What is the output of this code?
-
-```c++
-printf("1/2 = %f",(float)(1/2));
-```
-
-- [ ] 1/2 = 0.499999
-- [ ] 1/2 = 0
-- [x] 1/2 = 0.000000
-- [ ] 1/2 = 0.5
 
 #### Q.155 Which choice is _not_ related to declaring the member variable count as static in my_class?
 
