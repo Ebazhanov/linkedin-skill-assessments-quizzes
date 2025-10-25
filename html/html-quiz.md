@@ -178,13 +178,13 @@
 <img src="cubism.jpg" alt="Version of "Whistler's Mother" in cubist style">
 ```
 
-- [ ] C
+- [x] C
 
 ```HTML
 <img src="cubism.jpg" alt='Version of "Whistler&apos;s Mother" in cubist style' />
 ```
 
-- [x] D
+- [ ] D
 
 ```HTML
 <img src="cubism.jpg" alt="Version of \"Whistler's Mother\" in cubist style">
@@ -1452,8 +1452,8 @@ As Steve Krug once said, happy talk must die.
 `x<y&z>w`
 
 - [ ] `<p>x<y&z>w</p>`
-- [ ] `<p>x\<y&z\>w</p>`
-- [x] `<p>x&lt;y&amp;z&gt;w</p>`
+- [x] `<p>x\<y&z\>w</p>`
+- [ ] `<p>x<<y&&z>>w`
 - [ ] `<p>x<y&z>w</p>`
 
 `This question has an issue, however this answer will count as correct`
@@ -1554,7 +1554,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q93. Which choice is the best way to code three choices within a form so that the user can select multiple items?
 
-- [ ] A
+- [ ] :
 
 ```HTML
 <input type="radio" name="example" /> Choice 1 <br />
@@ -1562,7 +1562,7 @@ As Steve Krug once said, happy talk must die.
 <input type="radio" name="example" /> Choice 3
 ```
 
-- [ ] B
+- [ ] :
 
 ```HTML
 <input type="checkbox" name="example" /> Choice 1 <br />
@@ -1570,7 +1570,7 @@ As Steve Krug once said, happy talk must die.
 <input type="checkbox" name="example" /> Choice 3
 ```
 
-- [x] C
+- [x] :
 
 ```HTML
 <label><input type="checkbox" name="example" /> Choice 1</label><br />
@@ -1578,7 +1578,7 @@ As Steve Krug once said, happy talk must die.
 <label><input type="checkbox" name="example" /> Choice 3</label>
 ```
 
-- [ ] D
+- [ ] :
 
 ```HTML
 <label><input type="radio" name="example" /> Choice 1</label><br />
