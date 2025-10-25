@@ -1382,7 +1382,6 @@ SELECT name FROM Students WHERE exam_score > 90;
 - [ ] DROP TABLE
 - [x] TRUNCATE TABLE
 
-
 #### Q151. What is the purpose of the `UNION` operator in MySQL?
 
 - [ ] To combine the results of multiple `SELECT` statements into a single result set, removing duplicate rows.
