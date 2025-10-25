@@ -116,8 +116,8 @@ v1 and v2 point to the same vector.
 - [ ] The default access specifier for members of a struct is public, whereas, for members of the class, it is private.
 - [x] Template type parameters can be declared with classes, but not with the struct keyword.
 
-Templates can be used with both classes and structs
-[Refernce](https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-170)
+Templates can be used with both classes and structs  
+[Reference](https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-170)  
 [Reference](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 
 #### Q10. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
@@ -2312,7 +2312,7 @@ for (const pair<string, int>& elem : m)
 - [x] .h
 - [ ] .hf
 
-#### Q139.Identify the incorrect constructor type.
+#### Q139. Identify the incorrect constructor type.
 
 ```cpp
 auto x = 4000.22;
@@ -2323,7 +2323,7 @@ auto x = 4000.22;
 - [ ] Parameterised Constructor
 - [ ] CopyConstructor
 
-#### Q140.Which of the following data types is supported in C++ but not in C?
+#### Q140. Which of the following data types is supported in C++ but not in C?
 
 - [x] bool
 - [ ] int
@@ -2341,42 +2341,42 @@ auto x = 4000.22;
 
 [Reference]: (https://en.cppreference.com/w/cpp/language/array)
 
-#### Q142.Size of wchat_t is.
+#### Q142. Size of wchat_t is.
 
 - [ ] 2
 - [ ] 4
 - [ ] 2 or 4
 - [x] Depends on the number of bits in the system
 
-#### Q143.Which of the following loops is best when we know the number of iterations?
+#### Q143. Which of the following loops is best when we know the number of iterations?
 
 - [ ] while
 - [x] for
 - [ ] do
 - [ ] All of the above
 
-#### Q144.Which keyword is used to define the macros in C++?
+#### Q144. Which keyword is used to define the macros in C++?
 
 - [ ] #macro
 - [x] #define
 - [ ] macro
 - [ ] keyword
 
-#### Q145.Which of the following operators should be preferred to overload as a global function rather than a member method?
+#### Q145. Which of the following operators should be preferred to overload as a global function rather than a member method?
 
 - [ ] Postfix ++
 - [x] Comparison Operator
 - [ ] Insertion Operator <<
 - [ ] Prefix++
 
-#### Q146.How can we restrict the dynamic allocation of objects of a class using new?
+#### Q146. How can we restrict the dynamic allocation of objects of a class using new?
 
 - [ ] By overloading new operator
 - [ ] By making an empty private new operator.
 - [x] By making an empty private new and new[] operators
 - [ ] By overloading new operators and new[] operators
 
-#### Q147.What is the time complexity of the below code?
+#### Q147. What is the time complexity of the below code?
 
 ```cpp
 for(int i=0;i<n;i++){
@@ -2391,9 +2391,9 @@ for(int i=0;i<n;i++){
 - [ ] O(n)
 - [ ] O(1)
 
-[Reference]: https://medium.com/enjoy-algorithm/analysis-of-loop-in-programming-cc9a644ef8cd#:~:text=At%20each%20step%20of%20the%20iteration%2C%20the%20nested%20loop%20is,%20%3D%20O(n%C2%B2).
+[Reference](https://medium.com/enjoy-algorithm/analysis-of-loop-in-programming-cc9a644ef8cd#:~:text=At%20each%20step%20of%20the%20iteration%2C%20the%20nested%20loop%20is,%20%3D%20O(n%C2%B2))
 
-#### Q148.What is the output of the code given below?
+#### Q148. What is the output of the code given below?
 
 ```cpp
 int a=10;
@@ -2468,7 +2468,7 @@ int main(int argc, char const *argv[])
 - [ ] “Constructor called” five times and then “Destructor called” once
 - [ ] Error
 
-#### Q.155 Which choice is _not_ related to declaring the member variable count as static in my_class?
+#### Q154. Which choice is _not_ related to declaring the member variable count as static in my_class?
 
 ```cpp
 class my_class{
@@ -2481,7 +2481,7 @@ class my_class{
 - [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
 
-#### Q156. What is the purpose of the `constexpr` keyword in C++?
+#### Q155. What is the purpose of the `constexpr` keyword in C++?
 
 - [ ] It is used to define constants in C++.
 - [ ] `constexpr` is used to specify that a variable is a constant pointer.
@@ -2490,7 +2490,7 @@ class my_class{
 
 [Ref](https://learn.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170#:~:text=constexpr%20indicates%20that%20the%20value,template%20arguments%20and%20array%20declarations.)
 
-#### Q157. What is a template metaprogram in C++?
+#### Q156. What is a template metaprogram in C++?
 
 - Ref(https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
 
@@ -2499,29 +2499,71 @@ class my_class{
 - [ ] It's a type of user interface design pattern.
 - [x] A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time.
 
-#### Q158.Identify the correct example for a pre-increment operator.
+#### Q157. Identify the correct example for a pre-increment operator.
 
 - [x] ++i
 - [ ] i++
 - [ ] --i
 - [ ] +i
 
-#### Q159. What will be the output of following code?
+#### Q158. What will be the output of following code?
 
 ```cpp
 {% raw %}
 int matrix[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
 for(int i=0;i<3;i++){
     for(int j=0;j<3;j++){
-        int a = mat[i][j];
-        mat[i][j] = mat[j][i];
-        mat[j][i] = a;
+        int a = matrix[i][j];
+        matrix[i][j] = matrix[j][i];
+        matrix[j][i] = a;
     }
 }
 {% endraw %}
 ```
 
-- [ ] Traspose of matrix
+- [ ] Transpose of matrix
 - [x] Same matrix
 - [ ] Mirror image of Matrix
 - [ ] Inverted matrix
+
+#### Q159. What is a race condition in C++?
+
+- [ ] A condition where the program runs faster than expected
+- [x] A condition where multiple threads access shared data concurrently, and the outcome depends on the timing of their execution
+- [ ] A condition where two threads compete for CPU time
+- [ ] A condition where a loop executes too quickly and needs to be slowed down
+
+[Reference](https://en.cppreference.com/w/cpp/language/memory_model)
+
+#### Q160. Consider the following code that has a race condition. What is the correct way to fix it?
+
+```cpp
+#include <thread>
+#include <vector>
+
+int counter = 0;
+
+void incrementCounter() {
+    for(int i = 0; i < 1000; i++) {
+        counter++;
+    }
+}
+
+int main() {
+    std::vector<std::thread> threads;
+    for(int i = 0; i < 10; i++) {
+        threads.push_back(std::thread(incrementCounter));
+    }
+    for(auto& t : threads) {
+        t.join();
+    }
+    return 0;
+}
+```
+
+- [ ] Add `volatile` keyword: `volatile int counter = 0;`
+- [x] Use `std::mutex` to lock/unlock around `counter++` in the critical section
+- [ ] Use `std::this_thread::sleep_for()` to delay each increment
+- [ ] Change `counter++` to `++counter` for atomic operation
+
+[Reference](https://en.cppreference.com/w/cpp/thread/mutex)
