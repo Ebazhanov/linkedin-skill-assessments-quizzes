@@ -10,8 +10,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Prettier Check
-        run: npx prettier --check "**/*.{js,ts,md,json,yml,yaml}" --config .prettierrc
+        run: npx prettier --check **/*.md --config .prettierrc
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_options: --write "**/*.{js,ts,md,json,yml,yaml}" --config .prettierrc
+          prettier_options: --write **/*.md --config .prettierrc

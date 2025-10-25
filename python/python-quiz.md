@@ -2695,7 +2695,6 @@ print(closure_func())
 
 **Explanation**: When `outer_func(10)` is called, `y` is set to 11 within `outer_func`. The `inner_func`, which has access to `outer_func`'s scope, returns `y` + `x`. When `closure_func()` is called, it uses `y` = `11` (from `outer_func`) and `x` = `10` from the global scope, not from the function’s argument. Therefore, `closure_func()` returns 11 + 10 = 21.
 
-
 ### Q186. What is the output of the following Python code?
 
 ```python
@@ -2752,3 +2751,49 @@ Therefore, the output is:
 10 2 3
 10 20 3
 10 20 30
+
+### Q188. What is the output of the following Python code?
+
+```python
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(x)
+```
+
+A. [1, 2, 3]
+B. [1, 2, 3, 4]
+C. [4, 1, 2, 3]
+D. Error
+
+**Explanation:**
+The correct answer is B. [1, 2, 3, 4].
+
+In Python, assigning y = x does not create a new list; both x and y refer to the same object in memory.
+So when we call y.append(4), it modifies the original list that both variables point to.
+Thus, printing x will display the updated list [1, 2, 3, 4].
+
+### Q189. What is the output of the following Python code?
+
+```python
+def add_item(item, item_list=[]):
+    item_list.append(item)
+    return item_list
+
+print(add_item(1))
+print(add_item(2))
+print(add_item(3, []))
+```
+
+A. [1] [2] [3]
+B. [1] [1,2] [3]
+C. [1,2,3] [1,2,3] [3]
+D. [1] [2] [3,1,2]
+
+**Explanation:**
+The correct answer is B. [1] [1, 2] [3].
+
+In Python, default mutable arguments (like lists) are evaluated only once when the function is defined — not each time it’s called.
+That means the first two calls to add_item() share the same default list, so it accumulates values [1] and then [1, 2].
+
+However, in the third call add_item(3, []), we pass a new empty list, so it creates a separate list [3].
