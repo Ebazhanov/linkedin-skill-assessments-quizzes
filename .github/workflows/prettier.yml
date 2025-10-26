@@ -15,13 +15,37 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Prettier Check
+        id: prettier
         run: |
           npx prettier --check "**/*.md" --config .prettierrc > prettier-report.txt 2>&1 || true
           cat prettier-report.txt
           if grep -q "Code style issues found" prettier-report.txt; then
-            echo "::error file=prettier-report.txt::Code style issues found. See details above."
-            exit 1
+            echo "has_issues=true" >> $GITHUB_ENV
+          else
+            echo "has_issues=false" >> $GITHUB_ENV
           fi
+      - name: Read Prettier Report
+        id: report
+        if: env.has_issues == 'true' && github.event_name == 'pull_request'
+        run: |
+          REPORT=$(cat prettier-report.txt)
+          REPORT_ESCAPED=$(printf '%s\n' "$REPORT" | sed 's/`/\`/g')
+          echo "report=$REPORT_ESCAPED" >> $GITHUB_OUTPUT
+      - name: Comment Prettier Report on PR
+        if: env.has_issues == 'true' && github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ### :warning: Prettier found code style issues
+            <details>
+            <summary>Click to expand Prettier report</summary>
+
+            ```
+            ${{ steps.report.outputs.report }}
+            ```
+            </details>
+            Please run `npx prettier --write "**/*.md"` locally to fix these issues.
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
