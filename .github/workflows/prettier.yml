@@ -3,21 +3,38 @@ name: '✨ Prettier Code Formatter'
 on:
   pull_request:
   push:
-    branches: ["**"]
+    branches: ['**']
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Prettier Check
-        run: |
-          npx prettier --check "**/*.md" --config .prettierrc
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.3
+        uses: actions/checkout@v4
         with:
-          prettier_options: --write "**/*.md" --config .prettierrc
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check Prettier formatting
+        run: npx prettier --check "**/*.md" --config .prettierrc
+
+      - name: Auto-fix Prettier issues
+        if: failure()
+        run: |
+          npx prettier --write "**/*.md" --config .prettierrc
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "🔧 Auto-fix Prettier formatting [skip ci]"
+          git push

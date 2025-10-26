@@ -3,6 +3,5 @@
 *.bak
 node_modules
 .vscode
-package-lock.json
 yarn.lock
 out
