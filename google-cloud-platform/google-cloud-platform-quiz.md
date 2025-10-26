@@ -92,7 +92,7 @@
 - [ ] Change the default storage class from multi-regional to regional.
 - [ ] Change the default storage class from regional to multi-regional.
 
-[refernce link](https://cloud.google.com/storage/docs/requester-pays)
+[reference link](https://cloud.google.com/storage/docs/requester-pays)
 
 #### Q13. You need to troubleshoot an Android app that uses Cloud Storage. Where do you look for logs?
 
@@ -158,9 +158,9 @@
 
 #### Q21. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
 
-- [x] Stackdriver
+- [ ] Stackdriver
 - [ ] Istio
-- [ ] Knative
+- [x] Knative
 - [ ] Spinnaker
 
 #### Q22. How can you enable clients inside a GKE cluster to be able to contact Pods?
@@ -179,10 +179,10 @@
 
 #### Q24. You need to set a bucket storage class for data that will be accessed once a month or less. Which type do you select?
 
-- [ ] coldline
+- [x] coldline
 - [ ] multi-regional
 - [ ] regional
-- [x] nearline
+- [ ] nearline
 
 #### Q25. Which command copies a file named test.txt to a Cloud Storage bucket named myBucket?
 
@@ -255,8 +255,8 @@
 
 - [ ] GCP VMs
 - [ ] GCP buckets
-- [ ] GCP credentials
-- [x] GCP users
+- [x] GCP credentials
+- [ ] GCP users
 
 [reference link](https://cloud.google.com/endpoints/docs/openapi/enable-api)
 
@@ -289,9 +289,9 @@
 
 #### Q38. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
 
-- [ ] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
+- [x] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
 - [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
-- [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
+- [ ] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
 - [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
 
 #### Q39. How do you configure Cloud Build to rebuild your image when a change is made to the source code?
@@ -452,17 +452,6 @@
 - [ ] Google Kubernetes Engine
 - [ ] Cloud Dataproc
 - [ ] Compute Engine
-
-#### Q55. You want to encrypt a Compute Engine image. What do you need to do ?
-
-- [ ] Nothing. Images are encrypted by default with a Google - managed key.
-- [ ] Associate your image with the default Google-managed key to encrypt it.
-- [ ] Nothing. Images are encrypted by default with a customer-managed key.
-- [x] Associate your image with a customer-managed key to encrypt it.
-
-**Explanation**: `Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.`
-
-[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
 #### Q56. You want to build a data lake application on GCP. Which two services should you use?
 
