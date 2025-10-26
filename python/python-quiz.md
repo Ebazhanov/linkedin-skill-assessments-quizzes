@@ -2257,7 +2257,7 @@ else:
     y += 30
 ```
 
-#### Q155.The process of pickling in Python includes?
+#### Q155. The process of pickling in Python includes?
 
 - [x] Conversion of a Python object hierarchy into byte stream.
 - [ ] Conversion of a data table into a list.
@@ -2706,13 +2706,13 @@ func()
 print(x)
 ```
 
-A. 10, 5
-B. 10, 10
-C. 5, 5
-D. 5, 10
+- [x] 10, 5
+- [ ] 10, 10
+- [ ] 5, 5
+- [ ] 5, 10
 
 **Explanation:**
-The correct answer is A. 10, 5.
+The correct answer is 10, 5.
 
 In the given code, the variable `x` is first defined in the global scope with a value of 5. Inside the `func()` function, a new local variable `x` is created and assigned the value of 10. When `func()` is called, it prints the value of the local `x`, which is 10.
 
@@ -2731,13 +2731,13 @@ func(10, 20)
 func(10, 20, 30)
 ```
 
-A. 10 2 3, 10 20 3, 10 20 30
-B. 10 2 3, 10 20 3, 10 20 30
-C. 10 2 3, 10 20 2, 10 20 30
-D. 10 2 3, 10 20 2, 10 20 30
+- [x] 10 2 3, 10 20 3, 10 20 30
+- [ ] 10 2 3, 10 2 3, 10 2 3
+- [ ] 10 2 3, 10 20 2, 10 20 30
+- [ ] 10 2 3, 10 20 3, 10 20 30
 
 **Explanation:**
-The correct answer is A. 10 2 3, 10 20 3, 10 20 30.
+The correct answer is 10 2 3, 10 20 3, 10 20 30.
 
 In the given code, the `func()` function has three parameters: `a`, `b`, and `c`. `b` and `c` have default values of 2 and 3, respectively.
 
@@ -2761,13 +2761,13 @@ y.append(4)
 print(x)
 ```
 
-A. [1, 2, 3]
-B. [1, 2, 3, 4]
-C. [4, 1, 2, 3]
-D. Error
+- [ ] [1, 2, 3]
+- [x] [1, 2, 3, 4]
+- [ ] [4, 1, 2, 3]
+- [ ] Error
 
 **Explanation:**
-The correct answer is B. [1, 2, 3, 4].
+The correct answer is [1, 2, 3, 4].
 
 In Python, assigning y = x does not create a new list; both x and y refer to the same object in memory.
 So when we call y.append(4), it modifies the original list that both variables point to.
@@ -2785,13 +2785,13 @@ print(add_item(2))
 print(add_item(3, []))
 ```
 
-A. [1] [2] [3]
-B. [1] [1,2] [3]
-C. [1,2,3] [1,2,3] [3]
-D. [1] [2] [3,1,2]
+- [ ] [1] [2] [3]
+- [x] [1] [1,2] [3]
+- [ ] [1,2,3] [1,2,3] [3]
+- [ ] [1] [2] [3,1,2]
 
 **Explanation:**
-The correct answer is B. [1] [1, 2] [3].
+The correct answer is [1] [1, 2] [3].
 
 In Python, default mutable arguments (like lists) are evaluated only once when the function is defined — not each time it’s called.
 That means the first two calls to add_item() share the same default list, so it accumulates values [1] and then [1, 2].
