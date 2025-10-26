@@ -2,6 +2,8 @@ name: '✨ Prettier Code Formatter'
 
 on:
   pull_request:
+  push:
+    branches: ["**"]
 
 jobs:
   prettier:
@@ -13,7 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Prettier Check
-        run: npx prettier --check "**/*.md" --config .prettierrc
+        run: |
+          npx prettier --check "**/*.md" --config .prettierrc > prettier-report.txt 2>&1 || true
+          cat prettier-report.txt
+          if grep -q "Code style issues found" prettier-report.txt; then
+            echo "::error file=prettier-report.txt::Code style issues found. See details above."
+            exit 1
+          fi
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
