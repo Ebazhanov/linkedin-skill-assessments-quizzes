@@ -557,14 +557,14 @@ main(){
 
 #### Q39. By default, C Functions are what type of functions?
 
-- [ ] global
-- [x] static
+- [x] global
+- [ ] static
 - [ ] library
 - [ ] system
 
 #### Q40. You have written a function that you want to include as a member of structure 'a'. How is such as structure member defined?
 
-- [ ] :
+- [ ] A
 
 ```c
 struct a {
@@ -572,7 +572,7 @@ struct a {
 };
 ```
 
-- [x] :
+- [x] B
 
 ```c
 struct a {
@@ -580,7 +580,7 @@ struct a {
 };
 ```
 
-- [ ] :
+- [ ] C
 
 ```c
 struct a {
@@ -588,7 +588,7 @@ struct a {
 };
 ```
 
-- [ ] :
+- [ ] D
 
 ```c
 struct a {
@@ -635,7 +635,7 @@ main(){
 
 #### Q45. Which add function properly returns the updated value of the result?
 
-- [x] :
+- [x] A
 
 ```c
 void add (int a, int b, int *result)
@@ -653,7 +653,7 @@ main()
 }
 ```
 
-- [ ] :
+- [ ] B
 
 ```c
 void add (int a, int b, int result)
@@ -671,7 +671,7 @@ main()
 }
 ```
 
-- [ ] :
+- [ ] C
 
 ```c
 void add (int a, int b, int *result)
@@ -689,7 +689,7 @@ main()
 }
 ```
 
-- [ ] :
+- [ ] D
 
 ```c
 void add (int *a, int *b, int *result)
@@ -709,7 +709,7 @@ main()
 
 #### Q46. Consider the number of the Fibonacci series below 100: 0,1,1,2,3,5,8,13,21,34,55,89. Which piece of code outputs the sequence?
 
-- [ ] :
+- [ ] A
 
 ```c
 void fibonacci(int a, int b)
@@ -730,7 +730,7 @@ int main()
 }
 ```
 
-- [ ] :
+- [ ] B
 
 ```c
 void fibonacci(int a, int b)
@@ -751,7 +751,7 @@ int main()
 }
 ```
 
-- [x] :
+- [x] C
 
 ```c
 void fibonacci(int a, int b)
@@ -772,7 +772,7 @@ int main()
 }
 ```
 
-- [ ] :
+- [ ] D
 
 ```c
 void fibonacci(int a, int b)
@@ -1333,77 +1333,6 @@ strcpy(str1, str2);
 - [ ] str1: "abc" ; str2: "xyz"
 - [ ] str1: "xyz" ; str2: "abc"
 - [ ] str1: "abc" ; str2: "abc"
-
-#### Q83. Which is not one of the basic data types in C?
-
-- [x] array
-- [ ] float
-- [ ] long double
-- [ ] unsigned char
-
-#### Q84. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
-
-- [ ] :
-
-```c
-struct a {
-    void *f1;
-};
-```
-
-- [x] :
-
-```c
-struct a {
-    void (*f1)();
-};
-```
-
-- [ ] :
-
-```c
-struct a {
-    *(void *f1)();
-};
-```
-
-- [ ] :
-
-```c
-struct a {
-    void *f1();
-};
-```
-
-#### Q85. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
-
-- [ ] substr(str1, str2);
-- [x] strstr(str1, str2);
-- [ ] substring(str1, str2);
-- [ ] strspn(str1, str2);
-
-#### Q86. How are static functions different from global functions?
-
-- [ ] Static functions must be declared in advance of being defined.
-- [ ] Static functions must be declared in a separate header file.
-- [ ] Static functions always return the same value.
-- [x] Static functions can be accessed only in the file where they are declared.
-
-#### Q87. What does this program display?
-
-```c
-main(){
-    char *p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int i;
-    for (i=0;i<5;i++) *p++; *p++;
-    printf("%c",*p++);
-}
-```
-
-- [ ] K
-- [ ] M
-- [ ] H
-- [x] G
 
 #### Q88. What is not a valid command with this declaration?
 
