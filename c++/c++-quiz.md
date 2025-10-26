@@ -2391,7 +2391,7 @@ for(int i=0;i<n;i++){
 - [ ] O(n)
 - [ ] O(1)
 
-[Reference](https://medium.com/enjoy-algorithm/analysis-of-loop-in-programming-cc9a644ef8cd#:~:text=At%20each%20step%20of%20the%20iteration%2C%20the%20nested%20loop%20is,%20%3D%20O(n%C2%B2))
+[Reference](<https://medium.com/enjoy-algorithm/analysis-of-loop-in-programming-cc9a644ef8cd#:~:text=At%20each%20step%20of%20the%20iteration%2C%20the%20nested%20loop%20is,%20%3D%20O(n%C2%B2)>)
 
 #### Q148. What is the output of the code given below?
 
