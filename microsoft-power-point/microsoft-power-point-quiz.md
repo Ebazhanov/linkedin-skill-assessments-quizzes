@@ -5,7 +5,7 @@
 - [ ] Blank
 - [x] Title slide
 - [ ] Title and Content
-- [ ] Title Onty
+- [ ] Title Only
 
 #### Q2. What do you use to align objects on a slide with each other?
 
@@ -210,10 +210,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Apply a Color Palette.
 - [ ] Customize the Color Fills.
 
-#### Q27. What function allows you to borrow slides from a presentation fro an other presentation?
+#### Q27. What function allows you to borrow slides from a presentation from another presentation?
 
 - [ ] Borrow Slides
-- [ ] There is no special fuction. You must use Copy and Pase
+- [ ] There is no special fuction. You must use Copy and Paste
 - [x] Reuse Slides
 - [ ] Find Slides
 
@@ -221,7 +221,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] theme
 - [ ] design
-- [ ] sheme
+- [ ] scheme
 - [x] layout
 
 #### Q29. How would you change a list of text to a visual diagram on a slide?
@@ -234,7 +234,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q30. How can you reorder the levels of shapes in a SmartArt diagram?
 
 - [ ] Retype the text
-- [ ] Change the shapes from rifht to left.
+- [ ] Change the shapes from right to left.
 - [x] Promote or Demote the shapes
 - [ ] Move the shapes up and down.
 
