@@ -145,20 +145,20 @@
 }
 ```
 
-- [ ] B
+- [x] B
 
 ```json
 {
-  "photo": {
-    "width": 1600,
-    "height": 900,
-    "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
-    },
-    "animated": false,
-    "tags": [116, 943, 234, 38793]
-  }
+"photo": {
+"width": 1600,
+"height": 900,
+"binaries": {
+"url": "https://www.example.com/images/34097349843",
+"thumbnail": "https://www.example.com/images/thumbs/34097349843"
+},
+"animated": false,
+"tags": [116, 943, 234, 38793]
+}
 }
 ```
 
@@ -179,7 +179,7 @@
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```json
 {
@@ -327,8 +327,8 @@
 
 #### Q20. Which whitespace characters should be escaped within a string?
 
-- [x] All whitespace is allowed.
-- [ ] double quotes, slashes new lines, and carriage returns
+- [ ] All whitespace is allowed.
+- [x] double quotes, slashes new lines, and carriage returns
 - [ ] new lines and carriage returns only
 - [ ] double quotes only
 
@@ -1062,13 +1062,6 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] 2,056 characters
 - [ ] 1,024 characters
 
-#### Q93. What method is used to export a JavaScript object into JSON notation?
-
-- [ ] `JSON.convert()`
-- [x] `JSON.stringify()`
-- [ ] `JSON.export()`
-- [ ] `JSON.string()`
-
 #### Q94. How would you update this JSON to indicate that Jane is now available for part-time work ?
 
 ```json
@@ -1168,18 +1161,6 @@ So the correct options are A and D.
 
 **Explanation:** Encourage open communication within the team and involve them in problem-solving to find a solution that works best for their specific context and helps address the issue of disinterest in certain stories.
 
-#### Q98. Which is the valid JSON equivalent of the data shown?
-
-`json{photo: {width: 1600, height: 900, binaries: { url: 'https://www.example.com/images/34097349843', thumbnail: 'https://www.example.com/images/thumbs/34097349843' }, animated: false, tags: [116, 943, 234, 38793], }}`
-
-- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": [116, 943, 234, 38793]}}`
-
-- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": false, "tags": [116, 943, 234, 38793]}}`
-
-- [ ] `{"photo": {"width": 1600, "height": 900, "binaries": {"url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": true, "tags": [116, 943, 234, 38793]}}`
-
-- [x] `{"photo": {"width": "1600", "height": "900", "binaries": { "url": "https://www.example.com/images/34097349843", "thumbnail": "https://www.example.com/images/thumbs/34097349843"}, "animated": "false", "tags": ["116", "943", "234", "38793"]}}`
-
 #### Q99. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
 - [ ] FALSE
@@ -1193,13 +1174,6 @@ So the correct options are A and D.
 - [ ] a header request
 - [x] the `<script>` element
 - [ ] the XMLHttpRequest object
-
-#### Q101. Which whitespace characters should be escaped within a string?
-
-- [ ] All whitespace is allowed.
-- [x] double quotes, slashes new lines, and carriage returns
-- [ ] new lines and carriage returns only
-- [ ] double quotes only
 
 #### Q102. What’s wrong with this JavaScript?
 
