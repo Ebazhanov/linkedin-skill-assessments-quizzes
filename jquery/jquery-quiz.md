@@ -1767,7 +1767,12 @@ var data = {
 #### Q92. What does the `.end()` method do?
 
 ```js
-$('ul.first').find('.foo').css('background-color', 'red').end().find('.bar').css('background-color', 'green');
+$('ul.first')
+  .find('.foo')
+  .css('background-color', 'red')
+  .end()
+  .find('.bar')
+  .css('background-color', 'green');
 ```
 
 - [x] It terminates the current chain and starts a new one on the original selection.
@@ -1818,8 +1823,8 @@ if ($('.element').is(':visible')) {
 </div>
 ```
 
-- [x] `$('.container').find('p')` 
-- [ ] `$('.container p')` 
+- [x] `$('.container').find('p')`
+- [ ] `$('.container p')`
 - [ ] Both approaches are equivalent in performance and behavior.
 - [ ] `$('p', '.container')`
 
