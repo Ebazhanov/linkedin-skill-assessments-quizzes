@@ -2241,3 +2241,680 @@ scream('yay');
 - [ ] ReferenceError
 - [ ] Undefined
 - [ ] TypeError
+
+#### Q151. What is the output of the following code?
+
+```js
+const obj = { a: 1, b: 2, c: 3 };
+const { a, ...rest } = obj;
+console.log(rest);
+```
+
+- [ ] `{ a: 1 }`
+- [x] `{ b: 2, c: 3 }`
+- [ ] `{ a: 1, b: 2, c: 3 }`
+- [ ] `undefined`
+
+[Reference Object Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+#### Q152. Which method is used to create a new array with all elements that pass a test implemented by a provided function?
+
+- [ ] `map()`
+- [x] `filter()`
+- [ ] `reduce()`
+- [ ] `forEach()`
+
+[Reference Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+#### Q153. What is the difference between `null` and `undefined`?
+
+- [ ] They are exactly the same
+- [x] `null` is an assignment value representing no value, while `undefined` means a variable has been declared but not assigned a value
+- [ ] `undefined` is an assignment value, while `null` means undeclared
+- [ ] `null` is a string, `undefined` is a boolean
+
+[Reference null vs undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+
+#### Q154. What will this code output?
+
+```js
+const promise1 = Promise.resolve(3);
+const promise2 = new Promise(resolve => setTimeout(() => resolve('foo'), 1000));
+const promise3 = Promise.resolve(42);
+
+Promise.all([promise1, promise2, promise3]).then(values => {
+  console.log(values);
+});
+```
+
+- [ ] `[3, 'foo', 42]` immediately
+- [x] `[3, 'foo', 42]` after 1 second
+- [ ] `['foo', 3, 42]` after 1 second
+- [ ] The promises will execute in random order
+
+[Reference Promise.all()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
+#### Q155. Which statement about arrow functions is correct?
+
+- [ ] Arrow functions have their own `this` binding
+- [x] Arrow functions inherit `this` from the enclosing scope
+- [ ] Arrow functions cannot be used as methods
+- [ ] Arrow functions always return a value
+
+[Reference Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+#### Q156. What is the output of this code?
+
+```js
+const arr = [1, 2, 3, 4, 5];
+const result = arr.reduce((acc, curr) => acc + curr, 0);
+console.log(result);
+```
+
+- [ ] `[1, 2, 3, 4, 5]`
+- [ ] `5`
+- [x] `15`
+- [ ] `0`
+
+[Reference Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+#### Q157. Which method is used to add one or more elements to the end of an array?
+
+- [ ] `unshift()`
+- [x] `push()`
+- [ ] `concat()`
+- [ ] `splice()`
+
+[Reference Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+#### Q158. What is the correct way to import a default export from a module?
+
+```js
+// math.js
+export default function add(a, b) {
+  return a + b;
+}
+```
+
+- [x] `import add from './math.js';`
+- [ ] `import { add } from './math.js';`
+- [ ] `import * as add from './math.js';`
+- [ ] `import default add from './math.js';`
+
+[Reference ES6 Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+
+#### Q159. What will this code print?
+
+```js
+const obj = {
+  name: 'John',
+  greet: function() {
+    console.log(`Hello, ${this.name}`);
+  }
+};
+
+const greetFunc = obj.greet;
+greetFunc();
+```
+
+- [ ] `Hello, John`
+- [x] `Hello, undefined`
+- [ ] `Hello, `
+- [ ] `TypeError`
+
+[Reference this binding](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
+#### Q160. Which operator is used to check if a property exists in an object?
+
+- [ ] `hasOwnProperty()`
+- [x] `in`
+- [ ] `exists`
+- [ ] `contains`
+
+```js
+const obj = { name: 'John', age: 30 };
+console.log('name' in obj); // true
+```
+
+[Reference in operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
+
+#### Q161. What is the output of this code?
+
+```js
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(num => num * 2);
+console.log(numbers);
+console.log(doubled);
+```
+
+- [x] `[1, 2, 3, 4, 5]` and `[2, 4, 6, 8, 10]`
+- [ ] `[2, 4, 6, 8, 10]` and `[2, 4, 6, 8, 10]`
+- [ ] `[1, 2, 3, 4, 5]` and `[1, 2, 3, 4, 5]`
+- [ ] `undefined` and `[2, 4, 6, 8, 10]`
+
+[Reference Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+#### Q162. Which method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth?
+
+- [ ] `concat()`
+- [x] `flat()`
+- [ ] `join()`
+- [ ] `merge()`
+
+```js
+const arr = [1, [2, 3], [4, [5, 6]]];
+console.log(arr.flat(2)); // [1, 2, 3, 4, 5, 6]
+```
+
+[Reference Array.flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
+
+#### Q163. What is the correct syntax for a template literal?
+
+- [ ] `'Hello ' + name + '!'`
+- [x] `` `Hello ${name}!` ``
+- [ ] `"Hello #{name}!"`
+- [ ] `'Hello ${name}!'`
+
+[Reference Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
+#### Q164. What will this async/await code output?
+
+```js
+async function fetchData() {
+  try {
+    const data = await Promise.resolve('Success!');
+    console.log(data);
+  } catch (error) {
+    console.log('Error:', error);
+  }
+}
+
+fetchData();
+```
+
+- [x] `Success!`
+- [ ] `Error: Success!`
+- [ ] `undefined`
+- [ ] `Promise { <pending> }`
+
+[Reference async/await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+#### Q165. Which method returns the first element in an array that satisfies a provided testing function?
+
+- [x] `find()`
+- [ ] `filter()`
+- [ ] `some()`
+- [ ] `every()`
+
+[Reference Array.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+#### Q166. What is the output of this code?
+
+```js
+const set = new Set([1, 2, 2, 3, 3, 4]);
+console.log(set.size);
+console.log([...set]);
+```
+
+- [ ] `6` and `[1, 2, 2, 3, 3, 4]`
+- [x] `4` and `[1, 2, 3, 4]`
+- [ ] `4` and `{1, 2, 3, 4}`
+- [ ] `6` and `[1, 2, 3, 4]`
+
+[Reference Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+
+#### Q167. Which statement about JavaScript classes is correct?
+
+- [ ] Classes are hoisted like function declarations
+- [x] Classes are not hoisted and must be declared before use
+- [ ] Classes can only have static methods
+- [ ] Classes cannot have constructors
+
+[Reference JavaScript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+#### Q168. What will this code output?
+
+```js
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 3, c: 4 };
+const merged = { ...obj1, ...obj2 };
+console.log(merged);
+```
+
+- [ ] `{ a: 1, b: 2, c: 4 }`
+- [x] `{ a: 1, b: 3, c: 4 }`
+- [ ] `{ a: 1, b: 2, b: 3, c: 4 }`
+- [ ] `Error: duplicate property 'b'`
+
+[Reference Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+#### Q169. Which method is used to execute a function once for each array element?
+
+- [ ] `map()`
+- [x] `forEach()`
+- [ ] `filter()`
+- [ ] `reduce()`
+
+[Reference Array.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+#### Q170. What is the correct way to create a Promise that resolves after 2 seconds?
+
+- [ ] `new Promise(resolve => resolve(), 2000)`
+- [x] `new Promise(resolve => setTimeout(resolve, 2000))`
+- [ ] `Promise.resolve().delay(2000)`
+- [ ] `Promise.timeout(2000)`
+
+[Reference Promise Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise)
+
+#### Q171. What will this code output?
+
+```js
+const arr = [1, 2, 3];
+arr.length = 5;
+console.log(arr);
+console.log(arr[4]);
+```
+
+- [ ] `[1, 2, 3, undefined, undefined]` and `undefined`
+- [x] `[1, 2, 3, <2 empty items>]` and `undefined`
+- [ ] `[1, 2, 3, null, null]` and `null`
+- [ ] `Error: Cannot set length`
+
+[Reference Array Length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+#### Q172. Which method is used to test whether at least one element in an array passes a test?
+
+- [ ] `every()`
+- [x] `some()`
+- [ ] `includes()`
+- [ ] `find()`
+
+[Reference Array.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+#### Q173. What is the output of this code?
+
+```js
+const func = (a = 5, b = a * 2) => a + b;
+console.log(func());
+console.log(func(3));
+```
+
+- [ ] `15` and `9`
+- [x] `15` and `9`
+- [ ] `15` and `15`
+- [ ] `NaN` and `NaN`
+
+[Reference Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+
+#### Q174. Which statement about JavaScript modules is correct?
+
+- [ ] Modules are executed every time they are imported
+- [x] Modules are executed only once, the first time they are imported
+- [ ] Modules cannot export functions
+- [ ] Modules must have a .js extension
+
+[Reference ES6 Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
+#### Q175. What will this code output?
+
+```js
+const weakMap = new WeakMap();
+const obj = {};
+weakMap.set(obj, 'value');
+console.log(weakMap.get(obj));
+```
+
+- [x] `'value'`
+- [ ] `undefined`
+- [ ] `{}`
+- [ ] `Error: WeakMap is not defined`
+
+[Reference WeakMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+
+#### Q176. Which method creates a new array by calling a function for every array element?
+
+- [x] `map()`
+- [ ] `forEach()`
+- [ ] `filter()`
+- [ ] `reduce()`
+
+[Reference Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+#### Q177. What is the output of this code?
+
+```js
+const generator = function* () {
+  yield 1;
+  yield 2;
+  yield 3;
+};
+
+const gen = generator();
+console.log(gen.next().value);
+console.log(gen.next().value);
+```
+
+- [x] `1` and `2`
+- [ ] `1` and `1`
+- [ ] `[1, 2, 3]` and `[1, 2, 3]`
+- [ ] `undefined` and `undefined`
+
+[Reference Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+
+#### Q178. Which method is used to determine whether an array includes a certain value?
+
+- [ ] `contains()`
+- [x] `includes()`
+- [ ] `has()`
+- [ ] `indexOf()`
+
+[Reference Array.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+#### Q179. What will this code output?
+
+```js
+const proxy = new Proxy({}, {
+  get(target, prop) {
+    return prop in target ? target[prop] : 'Property not found';
+  }
+});
+
+proxy.name = 'John';
+console.log(proxy.name);
+console.log(proxy.age);
+```
+
+- [x] `'John'` and `'Property not found'`
+- [ ] `'John'` and `undefined`
+- [ ] `undefined` and `'Property not found'`
+- [ ] `Error: Proxy is not defined`
+
+[Reference Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
+#### Q180. Which statement about JavaScript symbols is correct?
+
+- [ ] Symbols are strings
+- [ ] Symbols can be duplicated
+- [x] Symbols are unique and immutable
+- [ ] Symbols are numbers
+
+[Reference Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+
+#### Q181. What is the output of this code?
+
+```js
+const arr = [1, 2, 3, 4, 5];
+const [first, , third, ...rest] = arr;
+console.log(first, third, rest);
+```
+
+- [x] `1 3 [4, 5]`
+- [ ] `1 2 [3, 4, 5]`
+- [ ] `1 3 [2, 4, 5]`
+- [ ] `1 undefined [4, 5]`
+
+[Reference Array Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+#### Q182. Which method is used to create a shallow copy of an array?
+
+- [ ] `copy()`
+- [ ] `clone()`
+- [x] `slice()`
+- [ ] `duplicate()`
+
+```js
+const original = [1, 2, 3];
+const copy = original.slice();
+```
+
+[Reference Array.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+#### Q183. What will this code output?
+
+```js
+const obj = {
+  counter: 0,
+  increment() {
+    this.counter++;
+    return this;
+  },
+  decrement() {
+    this.counter--;
+    return this;
+  }
+};
+
+obj.increment().increment().decrement();
+console.log(obj.counter);
+```
+
+- [ ] `0`
+- [x] `1`
+- [ ] `2`
+- [ ] `3`
+
+[Reference Method Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+#### Q184. Which method is used to convert a string to an integer?
+
+- [ ] `Number()`
+- [x] `parseInt()`
+- [ ] `parseFloat()`
+- [ ] `toInteger()`
+
+[Reference parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+#### Q185. What is the output of this code?
+
+```js
+const promise = Promise.reject('Error occurred');
+promise
+  .then(result => console.log('Success:', result))
+  .catch(error => console.log('Caught:', error))
+  .finally(() => console.log('Finally executed'));
+```
+
+- [ ] `Success: Error occurred` and `Finally executed`
+- [x] `Caught: Error occurred` and `Finally executed`
+- [ ] `Finally executed` only
+- [ ] `Error: Error occurred`
+
+[Reference Promise.catch()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+
+#### Q186. Which method is used to remove and return the last element of an array?
+
+- [ ] `shift()`
+- [x] `pop()`
+- [ ] `splice()`
+- [ ] `slice()`
+
+[Reference Array.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+#### Q187. What will this code output?
+
+```js
+const func = async () => {
+  const result = await Promise.all([
+    Promise.resolve(1),
+    Promise.resolve(2),
+    Promise.reject('Error')
+  ]);
+  return result;
+};
+
+func().catch(error => console.log('Error:', error));
+```
+
+- [ ] `[1, 2, 'Error']`
+- [x] `Error: Error`
+- [ ] `[1, 2, undefined]`
+- [ ] `Promise rejected`
+
+[Reference Promise.all() with rejection](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
+#### Q188. Which statement about JavaScript closures is correct?
+
+- [ ] Closures can only access global variables
+- [x] Closures can access variables from their outer scope even after the outer function returns
+- [ ] Closures are only created with arrow functions
+- [ ] Closures cannot access function parameters
+
+[Reference Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
+#### Q189. What is the output of this code?
+
+```js
+const map = new Map();
+map.set('key1', 'value1');
+map.set('key2', 'value2');
+map.set('key1', 'updated value');
+
+console.log(map.size);
+console.log(map.get('key1'));
+```
+
+- [ ] `3` and `'value1'`
+- [x] `2` and `'updated value'`
+- [ ] `2` and `'value1'`
+- [ ] `3` and `'updated value'`
+
+[Reference Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+#### Q190. Which method is used to check if all elements in an array pass a test?
+
+- [x] `every()`
+- [ ] `some()`
+- [ ] `filter()`
+- [ ] `includes()`
+
+[Reference Array.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
+#### Q191. What will this code output?
+
+```js
+const obj = { a: 1 };
+Object.freeze(obj);
+obj.a = 2;
+obj.b = 3;
+console.log(obj);
+```
+
+- [ ] `{ a: 2, b: 3 }`
+- [x] `{ a: 1 }`
+- [ ] `{ a: 2 }`
+- [ ] `Error: Cannot modify frozen object`
+
+[Reference Object.freeze()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+
+#### Q192. Which method creates a new array with the results of calling a function for every array element and flattens the result?
+
+- [ ] `map()`
+- [x] `flatMap()`
+- [ ] `flat()`
+- [ ] `concat()`
+
+[Reference Array.flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
+
+#### Q193. What is the output of this code?
+
+```js
+const func = (x, y = x * 2, z = y + 1) => x + y + z;
+console.log(func(2));
+```
+
+- [ ] `7`
+- [x] `11`
+- [ ] `9`
+- [ ] `NaN`
+
+**Explanation:** x=2, y=2*2=4, z=4+1=5, so 2+4+5=11
+
+[Reference Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+
+#### Q194. Which method is used to create a string from an array?
+
+- [ ] `toString()`
+- [x] `join()`
+- [ ] `concat()`
+- [ ] `stringify()`
+
+[Reference Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
+#### Q195. What will this code output?
+
+```js
+const regex = /\d+/g;
+const str = 'abc123def456';
+console.log(str.match(regex));
+```
+
+- [ ] `['123']`
+- [x] `['123', '456']`
+- [ ] `['abc', 'def']`
+- [ ] `null`
+
+[Reference String.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+
+#### Q196. Which statement about JavaScript event loop is correct?
+
+- [ ] The event loop runs synchronously
+- [x] The event loop handles asynchronous operations by using a callback queue
+- [ ] The event loop only works with DOM events
+- [ ] The event loop blocks the main thread
+
+[Reference Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+
+#### Q197. What is the output of this code?
+
+```js
+const arr = [1, 2, 3, 4, 5];
+const result = arr.reduceRight((acc, curr) => acc + curr, 0);
+console.log(result);
+```
+
+- [ ] `5`
+- [x] `15`
+- [ ] `[5, 4, 3, 2, 1]`
+- [ ] `0`
+
+[Reference Array.reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight)
+
+#### Q198. Which method is used to add elements to the beginning of an array?
+
+- [x] `unshift()`
+- [ ] `push()`
+- [ ] `concat()`
+- [ ] `splice()`
+
+[Reference Array.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+#### Q199. What will this code output?
+
+```js
+const obj = {
+  name: 'John',
+  getName: () => {
+    return this.name;
+  }
+};
+
+console.log(obj.getName());
+```
+
+- [ ] `'John'`
+- [x] `undefined`
+- [ ] `'getName'`
+- [ ] `Error`
+
+**Explanation:** Arrow functions don't have their own `this` binding, so `this` refers to the global object, not the `obj`.
+
+[Reference Arrow Functions and this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+#### Q200. Which method is used to execute code after all promises in an array have settled (resolved or rejected)?
+
+- [ ] `Promise.all()`
+- [ ] `Promise.race()`
+- [x] `Promise.allSettled()`
+- [ ] `Promise.any()`
+
+[Reference Promise.allSettled()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
