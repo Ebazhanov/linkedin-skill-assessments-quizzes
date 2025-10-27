@@ -2888,11 +2888,12 @@ Without nonlocal, attempting to modify x would create a new local variable inste
 - [ ] `*args` and `**kwargs` are reserved keywords and cannot be changed to other names
 
 **Explanation:**
-*args collects extra positional arguments as a tuple, and **kwargs collects extra keyword arguments as a dictionary.
+*args collects extra positional arguments as a tuple, and \*\*kwargs collects extra keyword arguments as a dictionary.
 They can both be used in the same function, but *args must come before **kwargs.
-The names 'args' and 'kwargs' are conventional but not required - you could use *numbers and **options, for example.
+The names 'args' and 'kwargs' are conventional but not required - you could use \*numbers and **options, for example.
 
 **Example:**
+
 ```python
 def example(*args, **kwargs):
     print(f"Args: {args}")
