@@ -2797,3 +2797,111 @@ In Python, default mutable arguments (like lists) are evaluated only once when t
 That means the first two calls to add_item() share the same default list, so it accumulates values [1] and then [1, 2].
 
 However, in the third call add_item(3, []), we pass a new empty list, so it creates a separate list [3].
+
+### Q190. What is the output of the following code using Python's walrus operator?
+
+```python
+numbers = [1, 2, 3, 4, 5]
+if (n := len(numbers)) > 3:
+    print(f"List has {n} elements")
+```
+
+- [x] List has 5 elements
+- [ ] List has 3 elements
+- [ ] True
+- [ ] SyntaxError
+
+**Explanation:**
+The walrus operator (:=) assigns the value of len(numbers) to n and uses it in the same expression.
+Since len(numbers) returns 5, which is greater than 3, the condition is True and prints "List has 5 elements".
+The walrus operator was introduced in Python 3.8 and allows assignment within expressions.
+
+[Reference](https://docs.python.org/3/whatsnew/3.8.html#assignment-expressions)
+
+### Q191. What will be the result of this code involving Python's `enumerate()` function?
+
+```python
+fruits = ['apple', 'banana', 'cherry']
+for idx, fruit in enumerate(fruits, start=1):
+    if idx == 2:
+        print(fruit)
+```
+
+- [ ] apple
+- [x] banana
+- [ ] cherry
+- [ ] 2
+
+**Explanation:**
+The enumerate() function with start=1 begins counting from 1 instead of 0.
+So the enumeration is: (1, 'apple'), (2, 'banana'), (3, 'cherry').
+When idx == 2, the fruit is 'banana', which gets printed.
+
+[Reference](https://docs.python.org/3/library/functions.html#enumerate)
+
+### Q192. What is the correct way to create a shallow copy of a list in Python?
+
+- [ ] new_list = old_list
+- [x] new_list = old_list.copy()
+- [ ] new_list = copy.deepcopy(old_list)
+- [ ] new_list = old_list.clone()
+
+**Explanation:**
+The .copy() method creates a shallow copy of the list, meaning a new list object is created with references to the same elements.
+Option A (new_list = old_list) creates a reference, not a copy.
+Option C (copy.deepcopy()) creates a deep copy, which is different from a shallow copy.
+Option D is incorrect as Python lists don't have a .clone() method.
+
+[Reference](https://docs.python.org/3/library/stdtypes.html#list.copy)
+
+### Q193. What does the following code output?
+
+```python
+def outer():
+    x = 10
+    def inner():
+        nonlocal x
+        x += 5
+        return x
+    return inner()
+
+print(outer())
+```
+
+- [ ] 10
+- [x] 15
+- [ ] 5
+- [ ] NameError
+
+**Explanation:**
+The nonlocal keyword allows the inner function to modify the variable x from the outer function's scope.
+The inner function increments x by 5 (10 + 5 = 15) and returns it.
+Without nonlocal, attempting to modify x would create a new local variable instead of modifying the outer one.
+
+[Reference](https://docs.python.org/3/reference/simple_stmts.html#nonlocal)
+
+### Q194. Which statement about Python's `*args` and `**kwargs` is correct?
+
+- [ ] `*args` must always come after `**kwargs` in function definitions
+- [x] `*args` collects positional arguments into a tuple, while `**kwargs` collects keyword arguments into a dictionary
+- [ ] You can only use either `*args` or `**kwargs`, not both in the same function
+- [ ] `*args` and `**kwargs` are reserved keywords and cannot be changed to other names
+
+**Explanation:**
+*args collects extra positional arguments as a tuple, and **kwargs collects extra keyword arguments as a dictionary.
+They can both be used in the same function, but *args must come before **kwargs.
+The names 'args' and 'kwargs' are conventional but not required - you could use *numbers and **options, for example.
+
+**Example:**
+```python
+def example(*args, **kwargs):
+    print(f"Args: {args}")
+    print(f"Kwargs: {kwargs}")
+
+example(1, 2, 3, name="Python", version=3.11)
+# Output:
+# Args: (1, 2, 3)
+# Kwargs: {'name': 'Python', 'version': 3.11}
+```
+
+[Reference](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists)
