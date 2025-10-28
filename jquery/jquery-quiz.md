@@ -1754,3 +1754,135 @@ var data = {
 - [ ] `$(data).serialize();`
 
 [Source: jQuery.param()](https://api.jquery.com/jQuery.param/)
+
+#### Q91. What is the difference between `.wrap()` and `.wrapAll()`?
+
+- [ ] `.wrap()` wraps each element separately, while `.wrapAll()` requires at least two elements to work.
+- [x] `.wrap()` wraps each matched element individually, while `.wrapAll()` wraps all matched elements together in a single wrapper.
+- [ ] `.wrap()` can only wrap one element, while `.wrapAll()` can wrap multiple elements.
+- [ ] There is no difference; they are aliases of each other.
+
+[Source: .wrap()](https://api.jquery.com/wrap/) and [.wrapAll()](https://api.jquery.com/wrapAll/)
+
+#### Q92. What does the `.end()` method do?
+
+```js
+$('ul.first')
+  .find('.foo')
+  .css('background-color', 'red')
+  .end()
+  .find('.bar')
+  .css('background-color', 'green');
+```
+
+- [x] It terminates the current chain and starts a new one on the original selection.
+- [ ] It ends all jQuery animations on the selected elements.
+- [ ] It returns the last element from the collection.
+- [ ] It destroys the jQuery object and releases memory.
+
+[Source: .end()](https://api.jquery.com/end/)
+
+#### Q93. When would you use `.promise()` without arguments versus `.promise('fx')`?
+
+- [ ] `.promise()` returns immediately, while `.promise('fx')` waits for animations to complete.
+- [x] `.promise()` returns a promise resolved when all animations on all matched elements complete, while `.promise('fx')` explicitly waits for the FX queue.
+- [ ] There is no difference between them.
+- [ ] `.promise()` is used for AJAX, while `.promise('fx')` is used for animations.
+
+[Source: .promise()](https://api.jquery.com/promise/)
+
+#### Q94. What is the difference between `.slideToggle()` and `.slideUp()` / `.slideDown()` combined?
+
+```js
+// Option A
+$('.element').slideToggle();
+
+// Option B
+if ($('.element').is(':visible')) {
+  $('.element').slideUp();
+} else {
+  $('.element').slideDown();
+}
+```
+
+- [ ] `.slideToggle()` only works on elements that are already visible.
+- [ ] There is no difference; `.slideToggle()` is just a shorthand for the if/else block.
+- [x] `.slideToggle()` tracks the current state internally and toggles based on visibility, while the manual approach may have issues with display styles.
+- [ ] `.slideToggle()` is deprecated and the manual approach should be used instead.
+
+[Source: .slideToggle()](https://api.jquery.com/slideToggle/)
+
+#### Q95. How can you ensure that a jQuery selector only searches within a specific container element for better performance?
+
+```html
+<div class="container">
+  <p>Some text</p>
+  <div class="nested">
+    <p>More text</p>
+  </div>
+</div>
+```
+
+- [x] `$('.container').find('p')`
+- [ ] `$('.container p')`
+- [ ] Both approaches are equivalent in performance and behavior.
+- [ ] `$('p', '.container')`
+
+[Source: .find()](https://api.jquery.com/find/) - Using `.find()` is more explicit and can be better for performance when working with large documents.
+
+#### Q96. What does the `.stop()` method do when called with no arguments versus `.stop(true, true)`?
+
+- [ ] `.stop()` pauses the animation, `.stop(true, true)` completely removes it from the queue.
+- [x] `.stop()` stops the current animation on the element, `.stop(true, true)` clears the queue and jumps to the end of the current animation.
+- [ ] `.stop()` is a deprecated method, `.stop(true, true)` is the new syntax.
+- [ ] Both are identical in functionality.
+
+[Source: .stop()](https://api.jquery.com/stop/)
+
+#### Q97. How do you bind a single event handler that works for elements added dynamically to the page?
+
+```html
+<div class="container">
+  <button class="dynamic-btn">Click me</button>
+</div>
+```
+
+- [ ] `$('.dynamic-btn').on('click', function() { console.log('clicked'); });` - This works automatically for dynamic elements.
+- [x] `$(document).on('click', '.dynamic-btn', function() { console.log('clicked'); });` - Delegated event handler.
+- [ ] `$('.dynamic-btn').live('click', function() { console.log('clicked'); });` - The `.live()` method.
+- [ ] You cannot bind to dynamically added elements without using a library.
+
+[Source: .on()](https://api.jquery.com/on/) - Event delegation is key for dynamic elements.
+
+#### Q98. What is the correct way to remove all event handlers and data from a jQuery object before reusing it in a long-running application?
+
+- [x] `$('#element').off().empty().removeData();`
+- [ ] `$('#element').unbind().removeData();`
+- [ ] `$('#element').detach();`
+- [ ] jQuery automatically cleans up everything when the page unloads.
+
+[Source: .off()](https://api.jquery.com/off/) and [.removeData()](https://api.jquery.com/removeData/)
+
+#### Q99. How can you check if an element is animating in jQuery?
+
+- [ ] `$('.element').is(':animating');`
+- [x] `$('.element').is(':animated');`
+- [ ] `$('.element').hasClass('animating');`
+- [ ] You cannot check for animation state in jQuery.
+
+[Source: :animated selector](https://api.jquery.com/animated-selector/)
+
+#### Q100. What is the difference between using `.attr()` and `.prop()` for boolean attributes like "checked" or "disabled"?
+
+```js
+// Setting checked state
+$('#checkbox').attr('checked', 'checked');
+$('#checkbox').prop('checked', true);
+```
+
+- [x] `.attr()` manipulates HTML attributes (reflecting initial state), while `.prop()` manipulates DOM properties (current state).
+- [ ] There is no difference; both methods are identical in behavior.
+- [ ] `.attr()` is deprecated and `.prop()` should always be used.
+- [ ] `.attr()` only works for string values, `.prop()` only works for boolean values.
+
+[Source: .attr() vs .prop()](https://api.jquery.com/attr/) vs [.prop()](https://api.jquery.com/prop/)

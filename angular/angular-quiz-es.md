@@ -41,11 +41,11 @@ export class UserDetailsComponent {
 
 ```html
 <h2>Names</h2>
-<div *ngFor="let user of users | async">{{ user.name }}</div>
+<div *ngFor="let user of users | async">{% raw %}{{ user.name }}{% endraw %}</div>
 <h2>Ages</h2>
-<div *ngFor="let user of users | async">{{ user.age }}</div>
+<div *ngFor="let user of users | async">{% raw %}{{ user.age }}{% endraw %}</div>
 <h2>Genders</h2>
-<div *ngFor="let user of users | async">{{ user.gender }}</div>
+<div *ngFor="let user of users | async">{% raw %}{{ user.gender }}{% endraw %}</div>
 ```
 
 - [ ] Ninguno. La canalización asincrónica no se suscribe automáticamente.
@@ -105,7 +105,7 @@ export class OrderService {
 
 ```html
 <ul>
-  <li [ngFor]="let productName of productNames">{{ productName }}</li>
+  <li [ngFor]="let productName of productNames">{% raw %}{{ productName }}{% endraw %}</li>
 </ul>
 ```
 
@@ -113,7 +113,7 @@ export class OrderService {
 
 ```html
 <ul>
-  <li ngFor="let productName of productNames">{{ productName }}</li>
+  <li ngFor="let productName of productNames">{% raw %}{{ productName }}{% endraw %}</li>
 </ul>
 ```
 
@@ -121,7 +121,7 @@ export class OrderService {
 
 ```html
 <ul>
-  <li *ngFor="let productName of productNames">{{ productName }}</li>
+  <li *ngFor="let productName of productNames">{% raw %}{{ productName }}{% endraw %}</li>
 </ul>
 ```
 
@@ -130,7 +130,7 @@ export class OrderService {
 ```html
 <ul>
   <? for productName in productNames { ?>
-  <li>{{ productName }}</li>
+  <li>{% raw %}{{ productName }}{% endraw %}</li>
   <? } ?>
 </ul>
 ```
@@ -273,10 +273,10 @@ export class TitleCardComponent {
 }
 ```
 
-- [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
-- [ ] `<h1 title="titleText">{{ titleText }}</h1>`
-- [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
-- [ ] `<h1 titleText>{{ titleText }}</h1>`
+- [ ] `<h1 data-title="titleText">{% raw %}{{ titleText }}{% endraw %}</h1>`
+- [ ] `<h1 title="titleText">{% raw %}{{ titleText }}{% endraw %}</h1>`
+- [x] `<h1 [title]="titleText">{% raw %}{{ titleText }}{% endraw %}</h1>`
+- [ ] `<h1 titleText>{% raw %}{{ titleText }}{% endraw %}</h1>`
 
 [Angular.io - Interpolación de cadenas](https://angular.io/guide/interpolation)
 

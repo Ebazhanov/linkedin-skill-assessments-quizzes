@@ -16158,6 +16158,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "0xsatoshi99",
+      "name": "Satoshi Dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162055292?v=4",
+      "profile": "https://github.com/0xsatoshi99",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "OxLeOx",
+      "name": "LeO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162738908?v=4",
+      "profile": "https://github.com/OxLeOx",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hautvastroel",
+      "name": "hautvastroel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228818504?v=4",
+      "profile": "https://github.com/hautvastroel",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "derrickchen03",
+      "name": "Derrick Chen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113388015?v=4",
+      "profile": "http://derrick.chen",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
