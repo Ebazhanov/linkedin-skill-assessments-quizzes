@@ -842,7 +842,7 @@ Note: In the standard box model (box-sizing: content-box), the width property de
 
 #### Q86. Which command has no Syntax error in CSS?
 
-- [ ] `p {font-size: 16em;}`
+- [x] `p {font-size: 16em;}`
 - [ ] `h2 {colour: yellow;}`
 - [ ] `div {border-radius: 5px}`
 - [x] `#my-div {background-color: blue;}`
