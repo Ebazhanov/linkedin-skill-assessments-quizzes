@@ -2355,3 +2355,101 @@ print(c)
 - [ ] `[False, False, False, True, True, True]`
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
+
+#### P173. ¿Cuál es la salida del siguiente código?
+
+```python
+class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['class_id'] = f"{name}_123"
+        return super().__new__(cls, name, bases, attrs)
+
+class MyClass(metaclass=Meta):
+    pass
+
+print(MyClass.class_id)
+```
+
+- [x] `MyClass_123`
+- [ ] `Meta_123`
+- [ ] `AttributeError`
+- [ ] `class_id`
+
+[Referencia Metaclases](https://docs.python.org/3/reference/datamodel.html#metaclasses)
+
+#### P174. ¿Qué método se utiliza para crear un gestor de contexto en Python?
+
+- [ ] `__init__` y `__del__`
+- [x] `__enter__` y `__exit__`
+- [ ] `__start__` y `__stop__`
+- [ ] `__open__` y `__close__`
+
+[Referencia Gestores de Contexto](https://docs.python.org/3/reference/datamodel.html#context-managers)
+
+#### P175. ¿Qué salida producirá este código?
+
+```python
+import asyncio
+
+async def fetch_data(delay):
+    await asyncio.sleep(delay)
+    return f"Data after {delay} seconds"
+
+async def main():
+    result = await fetch_data(1)
+    print(result)
+
+asyncio.run(main())
+```
+
+- [x] `Data after 1 seconds`
+- [ ] `<coroutine object fetch_data>`
+- [ ] `SyntaxError`
+- [ ] `None`
+
+[Referencia Asyncio](https://docs.python.org/3/library/asyncio.html)
+
+#### P176. ¿Qué decorador se utiliza para crear una propiedad que se puede establecer?
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._radius
+    
+    @radius.setter
+    def radius(self, value):
+        if value < 0:
+            raise ValueError("Radius cannot be negative")
+        self._radius = value
+```
+
+- [ ] `@property.getter`
+- [x] `@radius.setter`
+- [ ] `@property.setter`
+- [ ] `@setter`
+
+[Referencia Decoradores de Propiedades](https://docs.python.org/3/library/functions.html#property)
+
+#### P177. ¿Cuál es la salida de este código?
+
+```python
+from collections import defaultdict
+
+dd = defaultdict(list)
+dd['key1'].append('value1')
+dd['key2'].append('value2')
+print(len(dd))
+print(dd['key3'])
+print(len(dd))
+```
+
+- [ ] `2`, `[]`, `2`
+- [x] `2`, `[]`, `3`
+- [ ] `2`, `KeyError`, `2`
+- [ ] `3`, `[]`, `3`
+
+[Referencia defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)

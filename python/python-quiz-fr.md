@@ -161,3 +161,101 @@ retourne list(enumerate(annees_college, 2019))
 - [ ] Elle ne permet que les méthodes de modifier les données.
 
 [Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
+#### Q17. Quelle est la sortie du code suivant ?
+
+```python
+class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['class_id'] = f"{name}_123"
+        return super().__new__(cls, name, bases, attrs)
+
+class MyClass(metaclass=Meta):
+    pass
+
+print(MyClass.class_id)
+```
+
+- [x] `MyClass_123`
+- [ ] `Meta_123`
+- [ ] `AttributeError`
+- [ ] `class_id`
+
+[Référence Métaclasses](https://docs.python.org/3/reference/datamodel.html#metaclasses)
+
+#### Q18. Quelle méthode est utilisée pour créer un gestionnaire de contexte en Python ?
+
+- [ ] `__init__` et `__del__`
+- [x] `__enter__` et `__exit__`
+- [ ] `__start__` et `__stop__`
+- [ ] `__open__` et `__close__`
+
+[Référence Gestionnaires de Contexte](https://docs.python.org/3/reference/datamodel.html#context-managers)
+
+#### Q19. Quelle sortie ce code produira-t-il ?
+
+```python
+import asyncio
+
+async def fetch_data(delay):
+    await asyncio.sleep(delay)
+    return f"Data after {delay} seconds"
+
+async def main():
+    result = await fetch_data(1)
+    print(result)
+
+asyncio.run(main())
+```
+
+- [x] `Data after 1 seconds`
+- [ ] `<coroutine object fetch_data>`
+- [ ] `SyntaxError`
+- [ ] `None`
+
+[Référence Asyncio](https://docs.python.org/3/library/asyncio.html)
+
+#### Q20. Quel décorateur est utilisé pour créer une propriété qui peut être définie ?
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._radius
+    
+    @radius.setter
+    def radius(self, value):
+        if value < 0:
+            raise ValueError("Radius cannot be negative")
+        self._radius = value
+```
+
+- [ ] `@property.getter`
+- [x] `@radius.setter`
+- [ ] `@property.setter`
+- [ ] `@setter`
+
+[Référence Décorateurs de Propriétés](https://docs.python.org/3/library/functions.html#property)
+
+#### Q21. Quelle est la sortie de ce code ?
+
+```python
+from collections import defaultdict
+
+dd = defaultdict(list)
+dd['key1'].append('value1')
+dd['key2'].append('value2')
+print(len(dd))
+print(dd['key3'])
+print(len(dd))
+```
+
+- [ ] `2`, `[]`, `2`
+- [x] `2`, `[]`, `3`
+- [ ] `2`, `KeyError`, `2`
+- [ ] `3`, `[]`, `3`
+
+[Référence defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)
