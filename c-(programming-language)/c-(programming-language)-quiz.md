@@ -1830,10 +1830,12 @@ Preprocessor directives (like #include, #define, #ifdef) are instructions proces
 #### Q124. What is the output of this code?
 
 {% raw %}
+
 ```c
 int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
 printf("%d", arr[1][2]);
 ```
+
 {% endraw %}
 
 - [ ] 5
