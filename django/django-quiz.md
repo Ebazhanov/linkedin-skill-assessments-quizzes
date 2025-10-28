@@ -482,7 +482,7 @@ model=Planet
 
 #### Q49. What is the result of this template code?
 
-{{"live long and prosper"|truncatewords:3}}
+{% raw %}{{"live long and prosper"|truncatewords:3}}{% endraw %}
 
 - [x] live long and ...
 - [ ] live long and
