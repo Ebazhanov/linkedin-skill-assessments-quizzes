@@ -2254,6 +2254,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hautvastroel"><img src="https://avatars.githubusercontent.com/u/228818504?v=4?s=100" width="100px;" alt="hautvastroel"/><br /><sub><b>hautvastroel</b></sub></a><br /><a href="#design-hautvastroel" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hautvastroel" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://derrick.chen"><img src="https://avatars.githubusercontent.com/u/113388015?v=4?s=100" width="100px;" alt="Derrick Chen"/><br /><sub><b>Derrick Chen</b></sub></a><br /><a href="#design-derrickchen03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=derrickchen03" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xingarr"><img src="https://avatars.githubusercontent.com/u/30895606?v=4?s=100" width="100px;" alt="Xin@@Gar"/><br /><sub><b>Xin@@Gar</b></sub></a><br /><a href="#design-xingarr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=xingarr" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
