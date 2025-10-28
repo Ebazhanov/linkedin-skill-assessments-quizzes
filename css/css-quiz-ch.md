@@ -374,24 +374,24 @@ p {
 ```
 
 - [ ] A
-  "p" is the selector
-  "#000000" is the property
-  "color" is the value
+      "p" is the selector
+      "#000000" is the property
+      "color" is the value
 
 - [x] B
-  "p" is the selector
-  "color" is the property
-  "#000000" is the value
+      "p" is the selector
+      "color" is the property
+      "#000000" is the value
 
 - [ ] C
-  "color" is the selector
-  "#000000" is the property
-  "#p" is the value
+      "color" is the selector
+      "#000000" is the property
+      "#p" is the value
 
 - [ ] D
-  "color" is the selector
-  "p" is the property
-  "#000000" is the value
+      "color" is the selector
+      "p" is the property
+      "#000000" is the value
 
 #### Q29. rem 单位基于什么？
 
@@ -1378,21 +1378,21 @@ a {
 ```
 
 - [x] 10vw = 80px  
-      10vh = 60px  
-      10vmin = 60px  
-      10vmax = 80px
+       10vh = 60px  
+       10vmin = 60px  
+       10vmax = 80px
 - [ ] 10vw = 60px  
-      10vh = 80px  
-      10vmin = 80px  
-      10vmax = 60px
+       10vh = 80px  
+       10vmin = 80px  
+       10vmax = 60px
 - [ ] 10vw = 8px  
-      10vh = 6px  
-      10vmin = 6px  
-      10vmax = 8px
+       10vh = 6px  
+       10vmin = 6px  
+       10vmax = 8px
 - [ ] 10vw = 6px  
-      10vh = 8px  
-      10vmin = 8px  
-      10vmax = 6px
+       10vh = 8px  
+       10vmin = 8px  
+       10vmax = 6px
 
 #### Q105. 参考以下 HTML 标记和 CSS 示例，哪些元素会被选中？
 
@@ -1717,7 +1717,7 @@ background-tile: none;
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
 
-[参考](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
+[参考](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate()>)
 
 #### Q118. 哪个样式规则可以设置背景图片以显示 wood.png 文件的内容？
 
@@ -2093,7 +2093,7 @@ img {
 
 [参考](https://codepen.io/harsh1x4/pen/poVaQVz)
 
-#### Q133. 默认情况下，CSS transition 是 __
+#### Q133. 默认情况下，CSS transition 是 \_\_
 
 - [ ] 不对称的，所以从初始状态到结束状态的过渡与从结束状态回到初始状态的过渡不同。
 - [ ] 单向的，所以只有一个过渡，它从初始状态到结束状态。

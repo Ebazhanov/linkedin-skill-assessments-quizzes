@@ -273,7 +273,7 @@ FlowLog:
 
 - [ ] 带有HTTP header `X-Requested-With: staging`的请求可以路由到ECS service的target group,该服务位于您的staging环境中。
 - [ ] 源IP匹配192.0.2.0/24且监听port为1433的请求可以路由到RDS SQL Server集群的target group。
-- [ ] 路径为/signup*的请求可以路由到处理新用户注册的Lambda函数的target group。
+- [ ] 路径为/signup\*的请求可以路由到处理新用户注册的Lambda函数的target group。
 - [x] 源IP匹配192.0.2.0/24且监听port为1433的请求可以路由到RDS SQL Server集群的target group。
 
 #### Q35. 您有一个Aurora MySQL数据库正在大量使用,由于速度较慢导致应用程序超时。应该采取什么步骤来诊断这些超时问题?
