@@ -2798,111 +2798,597 @@ That means the first two calls to add_item() share the same default list, so it 
 
 However, in the third call add_item(3, []), we pass a new empty list, so it creates a separate list [3].
 
-### Q190. What is the output of the following code using Python's walrus operator?
+#### Q190. Which method is used to implement the `len()` function for a custom class?
+
+- [ ] `__length__()`
+- [x] `__len__()`
+- [ ] `__size__()`
+- [ ] `__count__()`
+
+[Reference Special Methods](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+
+#### Q191. What will this code output?
 
 ```python
-numbers = [1, 2, 3, 4, 5]
-if (n := len(numbers)) > 3:
-    print(f"List has {n} elements")
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before function call")
+        result = func(*args, **kwargs)
+        print("After function call")
+        return result
+    return wrapper
+
+@decorator
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
 ```
 
-- [x] List has 5 elements
-- [ ] List has 3 elements
-- [ ] True
-- [ ] SyntaxError
+- [x] `Before function call`, `Hello, Alice!`, `After function call`
+- [ ] `Hello, Alice!`
+- [ ] `Before function call`, `After function call`
+- [ ] `decorator`
 
-**Explanation:**
-The walrus operator (:=) assigns the value of len(numbers) to n and uses it in the same expression.
-Since len(numbers) returns 5, which is greater than 3, the condition is True and prints "List has 5 elements".
-The walrus operator was introduced in Python 3.8 and allows assignment within expressions.
+[Reference Decorators](https://docs.python.org/3/glossary.html#term-decorator)
 
-[Reference](https://docs.python.org/3/whatsnew/3.8.html#assignment-expressions)
+#### Q192. Which statement about Python generators is correct?
 
-### Q191. What will be the result of this code involving Python's `enumerate()` function?
+- [ ] Generators store all values in memory at once
+- [x] Generators produce values on-demand using the `yield` keyword
+- [ ] Generators can only be created with list comprehensions
+- [ ] Generators cannot be iterated multiple times
+
+[Reference Generators](https://docs.python.org/3/glossary.html#term-generator)
+
+#### Q193. What is the output of this code?
 
 ```python
-fruits = ['apple', 'banana', 'cherry']
-for idx, fruit in enumerate(fruits, start=1):
-    if idx == 2:
-        print(fruit)
+class Parent:
+    def method(self):
+        print("Parent method")
+
+class Child(Parent):
+    def method(self):
+        super().method()
+        print("Child method")
+
+obj = Child()
+obj.method()
 ```
 
-- [ ] apple
-- [x] banana
-- [ ] cherry
-- [ ] 2
+- [x] `Parent method`, `Child method`
+- [ ] `Child method`, `Parent method`
+- [ ] `Child method`
+- [ ] `Parent method`
 
-**Explanation:**
-The enumerate() function with start=1 begins counting from 1 instead of 0.
-So the enumeration is: (1, 'apple'), (2, 'banana'), (3, 'cherry').
-When idx == 2, the fruit is 'banana', which gets printed.
+[Reference super()](https://docs.python.org/3/library/functions.html#super)
 
-[Reference](https://docs.python.org/3/library/functions.html#enumerate)
+#### Q194. Which method is used to implement string representation for debugging?
 
-### Q192. What is the correct way to create a shallow copy of a list in Python?
+- [ ] `__str__()`
+- [x] `__repr__()`
+- [ ] `__format__()`
+- [ ] `__debug__()`
 
-- [ ] new_list = old_list
-- [x] new_list = old_list.copy()
-- [ ] new_list = copy.deepcopy(old_list)
-- [ ] new_list = old_list.clone()
+[Reference String Representation](https://docs.python.org/3/reference/datamodel.html#object.__repr__)
 
-**Explanation:**
-The .copy() method creates a shallow copy of the list, meaning a new list object is created with references to the same elements.
-Option A (new_list = old_list) creates a reference, not a copy.
-Option C (copy.deepcopy()) creates a deep copy, which is different from a shallow copy.
-Option D is incorrect as Python lists don't have a .clone() method.
-
-[Reference](https://docs.python.org/3/library/stdtypes.html#list.copy)
-
-### Q193. What does the following code output?
+#### Q195. What will this code output?
 
 ```python
-def outer():
-    x = 10
-    def inner():
-        nonlocal x
-        x += 5
-        return x
-    return inner()
+from functools import lru_cache
 
-print(outer())
+@lru_cache(maxsize=None)
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
+print(fibonacci.cache_info())
 ```
 
-- [ ] 10
-- [x] 15
-- [ ] 5
-- [ ] NameError
+- [x] `55` and cache statistics
+- [ ] `55` and `None`
+- [ ] `RecursionError`
+- [ ] `TypeError`
 
-**Explanation:**
-The nonlocal keyword allows the inner function to modify the variable x from the outer function's scope.
-The inner function increments x by 5 (10 + 5 = 15) and returns it.
-Without nonlocal, attempting to modify x would create a new local variable instead of modifying the outer one.
+[Reference lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache)
 
-[Reference](https://docs.python.org/3/reference/simple_stmts.html#nonlocal)
+#### Q196. Which statement about Python's `with` statement is correct?
 
-### Q194. Which statement about Python's `*args` and `**kwargs` is correct?
+- [ ] It can only be used with file objects
+- [x] It ensures proper resource cleanup by calling `__exit__` method
+- [ ] It creates a new scope for variables
+- [ ] It can only be used once per program
 
-- [ ] `*args` must always come after `**kwargs` in function definitions
-- [x] `*args` collects positional arguments into a tuple, while `**kwargs` collects keyword arguments into a dictionary
-- [ ] You can only use either `*args` or `**kwargs`, not both in the same function
-- [ ] `*args` and `**kwargs` are reserved keywords and cannot be changed to other names
+[Reference with statement](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement)
 
-**Explanation:**
-*args collects extra positional arguments as a tuple, and \*\*kwargs collects extra keyword arguments as a dictionary.
-They can both be used in the same function, but *args must come before **kwargs.
-The names 'args' and 'kwargs' are conventional but not required - you could use \*numbers and **options, for example.
-
-**Example:**
+#### Q197. What is the output of this code?
 
 ```python
-def example(*args, **kwargs):
-    print(f"Args: {args}")
-    print(f"Kwargs: {kwargs}")
+class Counter:
+    def __init__(self):
+        self.count = 0
 
-example(1, 2, 3, name="Python", version=3.11)
-# Output:
-# Args: (1, 2, 3)
-# Kwargs: {'name': 'Python', 'version': 3.11}
+    def __call__(self):
+        self.count += 1
+        return self.count
+
+counter = Counter()
+print(counter())
+print(counter())
+print(counter.count)
 ```
 
-[Reference](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists)
+- [x] `1`, `2`, `2`
+- [ ] `0`, `1`, `2`
+- [ ] `1`, `1`, `1`
+- [ ] `TypeError`
+
+[Reference Callable Objects](https://docs.python.org/3/reference/datamodel.html#emulating-callable-objects)
+
+#### Q198. Which method is used to implement the `in` operator for a custom class?
+
+- [ ] `__in__()`
+- [x] `__contains__()`
+- [ ] `__has__()`
+- [ ] `__includes__()`
+
+[Reference Membership Test](https://docs.python.org/3/reference/datamodel.html#object.__contains__)
+
+#### Q199. What will this code output?
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Point:
+    x: int
+    y: int
+
+    def distance_from_origin(self):
+        return (self.x ** 2 + self.y ** 2) ** 0.5
+
+p = Point(3, 4)
+print(p)
+print(p.distance_from_origin())
+```
+
+- [x] `Point(x=3, y=4)` and `5.0`
+- [ ] `<Point object>` and `5.0`
+- [ ] `Point(3, 4)` and `5`
+- [ ] `SyntaxError`
+
+[Reference Dataclasses](https://docs.python.org/3/library/dataclasses.html)
+
+#### Q200. Which statement about Python's Global Interpreter Lock (GIL) is correct?
+
+- [ ] GIL allows true parallelism for CPU-bound tasks
+- [x] GIL prevents multiple native threads from executing Python bytecodes simultaneously
+- [ ] GIL only affects I/O operations
+- [ ] GIL can be disabled in Python
+
+[Reference GIL](https://docs.python.org/3/glossary.html#term-global-interpreter-lock)
+
+#### Q201. What is the output of this code?
+
+```python
+class Singleton:
+    _instance = None
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
+a = Singleton()
+b = Singleton()
+print(a is b)
+print(id(a) == id(b))
+```
+
+- [x] `True` and `True`
+- [ ] `False` and `False`
+- [ ] `True` and `False`
+- [ ] `False` and `True`
+
+[Reference Singleton Pattern](https://docs.python.org/3/reference/datamodel.html#object.__new__)
+
+#### Q202. Which method is used to implement iteration protocol?
+
+- [ ] `__iterate__()`
+- [x] `__iter__()` and `__next__()`
+- [ ] `__loop__()`
+- [ ] `__foreach__()`
+
+[Reference Iterator Protocol](https://docs.python.org/3/library/stdtypes.html#iterator-types)
+
+#### Q203. What will this code output?
+
+```python
+from enum import Enum
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+
+print(Color.RED)
+print(Color.RED.name)
+print(Color.RED.value)
+```
+
+- [x] `Color.RED`, `RED`, `1`
+- [ ] `1`, `RED`, `Color.RED`
+- [ ] `RED`, `1`, `Color.RED`
+- [ ] `<Color.RED: 1>`, `RED`, `1`
+
+[Reference Enum](https://docs.python.org/3/library/enum.html)
+
+#### Q204. Which statement about Python's `*args` and `**kwargs` is correct?
+
+- [ ] `*args` captures keyword arguments, `**kwargs` captures positional arguments
+- [x] `*args` captures positional arguments, `**kwargs` captures keyword arguments
+- [ ] Both capture the same type of arguments
+- [ ] They can only be used together
+
+[Reference Variable Arguments](https://docs.python.org/3/tutorial/more.html#more-on-defining-functions)
+
+#### Q205. What is the output of this code?
+
+```python
+class MyClass:
+    class_var = 0
+
+    def __init__(self):
+        MyClass.class_var += 1
+        self.instance_var = MyClass.class_var
+
+a = MyClass()
+b = MyClass()
+print(a.instance_var, b.instance_var)
+print(MyClass.class_var)
+```
+
+- [x] `1 2` and `2`
+- [ ] `0 1` and `2`
+- [ ] `1 1` and `1`
+- [ ] `2 2` and `2`
+
+[Reference Class vs Instance Variables](https://docs.python.org/3/tutorial/classes.html#class-and-instance-variables)
+
+#### Q206. Which method is used to implement the `+` operator for a custom class?
+
+- [ ] `__plus__()`
+- [x] `__add__()`
+- [ ] `__sum__()`
+- [ ] `__combine__()`
+
+[Reference Arithmetic Operations](https://docs.python.org/3/reference/datamodel.html#emulating-numeric-types)
+
+#### Q207. What will this code output?
+
+```python
+from collections import namedtuple
+
+Person = namedtuple('Person', ['name', 'age', 'city'])
+p = Person('Alice', 30, 'New York')
+print(p.name)
+print(p[1])
+print(p._fields)
+```
+
+- [x] `Alice`, `30`, `('name', 'age', 'city')`
+- [ ] `Alice`, `Alice`, `['name', 'age', 'city']`
+- [ ] `Person`, `30`, `('name', 'age', 'city')`
+- [ ] `AttributeError`
+
+[Reference namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple)
+
+#### Q208. Which statement about Python's `lambda` functions is correct?
+
+- [ ] Lambda functions can contain multiple statements
+- [x] Lambda functions can only contain a single expression
+- [ ] Lambda functions cannot take arguments
+- [ ] Lambda functions are faster than regular functions
+
+[Reference Lambda Expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+
+#### Q209. What is the output of this code?
+
+```python
+from functools import partial
+
+def multiply(x, y, z):
+    return x * y * z
+
+double = partial(multiply, 2)
+result = double(3, 4)
+print(result)
+```
+
+- [x] `24`
+- [ ] `12`
+- [ ] `6`
+- [ ] `TypeError`
+
+[Reference functools.partial](https://docs.python.org/3/library/functools.html#functools.partial)
+
+#### Q210. Which method is used to implement comparison operations like `<`, `>`, `<=`, `>=`?
+
+- [ ] `__compare__()`
+- [x] `__lt__()`, `__gt__()`, `__le__()`, `__ge__()`
+- [ ] `__cmp__()`
+- [ ] `__order__()`
+
+[Reference Rich Comparison Methods](https://docs.python.org/3/reference/datamodel.html#object.__lt__)
+
+#### Q211. What will this code output?
+
+```python
+class MyContext:
+    def __enter__(self):
+        print("Entering context")
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print("Exiting context")
+        return False
+
+with MyContext() as ctx:
+    print("Inside context")
+```
+
+- [x] `Entering context`, `Inside context`, `Exiting context`
+- [ ] `Inside context`, `Entering context`, `Exiting context`
+- [ ] `Entering context`, `Exiting context`, `Inside context`
+- [ ] `Inside context`
+
+[Reference Context Manager Protocol](https://docs.python.org/3/reference/datamodel.html#context-managers)
+
+#### Q212. Which statement about Python's `yield from` is correct?
+
+- [ ] It's the same as regular `yield`
+- [x] It delegates to another generator or iterable
+- [ ] It can only be used with lists
+- [ ] It creates a new thread
+
+[Reference yield from](https://docs.python.org/3/whatsnew/3.3.html#pep-380-syntax-for-delegating-to-a-subgenerator)
+
+#### Q213. What is the output of this code?
+
+```python
+class Descriptor:
+    def __get__(self, obj, objtype=None):
+        return "Descriptor value"
+
+    def __set__(self, obj, value):
+        print(f"Setting value: {value}")
+
+class MyClass:
+    attr = Descriptor()
+
+obj = MyClass()
+print(obj.attr)
+obj.attr = "new value"
+print(obj.attr)
+```
+
+- [x] `Descriptor value`, `Setting value: new value`, `Descriptor value`
+- [ ] `Descriptor value`, `Setting value: new value`, `new value`
+- [ ] `None`, `Setting value: new value`, `new value`
+- [ ] `AttributeError`
+
+[Reference Descriptors](https://docs.python.org/3/reference/datamodel.html#implementing-descriptors)
+
+#### Q214. Which method is used to implement the `hash()` function for a custom class?
+
+- [ ] `__hashcode__()`
+- [x] `__hash__()`
+- [ ] `__digest__()`
+- [ ] `__checksum__()`
+
+[Reference Hash Method](https://docs.python.org/3/reference/datamodel.html#object.__hash__)
+
+#### Q215. What will this code output?
+
+```python
+from typing import List, Dict
+
+def process_data(items: List[int]) -> Dict[str, int]:
+    return {"count": len(items), "sum": sum(items)}
+
+result = process_data([1, 2, 3, 4, 5])
+print(result)
+print(type(result))
+```
+
+- [x] `{'count': 5, 'sum': 15}` and `<class 'dict'>`
+- [ ] `{'count': 5, 'sum': 15}` and `<class 'Dict'>`
+- [ ] `TypeError`
+- [ ] `SyntaxError`
+
+[Reference Type Hints](https://docs.python.org/3/library/typing.html)
+
+#### Q216. Which statement about Python's `__slots__` is correct?
+
+- [ ] `__slots__` increases memory usage
+- [x] `__slots__` restricts attribute creation and can reduce memory usage
+- [ ] `__slots__` is only for methods
+- [ ] `__slots__` enables multiple inheritance
+
+[Reference **slots**](https://docs.python.org/3/reference/datamodel.html#slots)
+
+#### Q217. What is the output of this code?
+
+```python
+class MRO_A:
+    def method(self):
+        print("A")
+
+class MRO_B(MRO_A):
+    def method(self):
+        print("B")
+        super().method()
+
+class MRO_C(MRO_A):
+    def method(self):
+        print("C")
+        super().method()
+
+class MRO_D(MRO_B, MRO_C):
+    def method(self):
+        print("D")
+        super().method()
+
+obj = MRO_D()
+obj.method()
+```
+
+- [x] `D`, `B`, `C`, `A`
+- [ ] `D`, `B`, `A`
+- [ ] `D`, `C`, `A`
+- [ ] `A`, `B`, `C`, `D`
+
+[Reference Method Resolution Order](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
+
+#### Q218. Which method is used to implement the `del` statement for a custom class?
+
+- [x] `__del__()`
+- [ ] `__delete__()`
+- [ ] `__remove__()`
+- [ ] `__destroy__()`
+
+[Reference Object Finalization](https://docs.python.org/3/reference/datamodel.html#object.__del__)
+
+#### Q219. What will this code output?
+
+```python
+from contextlib import contextmanager
+
+@contextmanager
+def my_context():
+    print("Setup")
+    try:
+        yield "resource"
+    finally:
+        print("Cleanup")
+
+with my_context() as resource:
+    print(f"Using {resource}")
+```
+
+- [x] `Setup`, `Using resource`, `Cleanup`
+- [ ] `Using resource`, `Setup`, `Cleanup`
+- [ ] `Setup`, `Cleanup`, `Using resource`
+- [ ] `Setup`, `Using resource`
+
+[Reference contextlib.contextmanager](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager)
+
+#### Q220. Which statement about Python's `property` decorator is correct?
+
+- [ ] It can only be used for read-only attributes
+- [x] It allows methods to be accessed like attributes
+- [ ] It creates class variables
+- [ ] It can only be used with strings
+
+[Reference Property Decorator](https://docs.python.org/3/library/functions.html#property)
+
+#### Q221. What is the output of the following code?
+
+```python
+class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['class_id'] = f"{name}_123"
+        return super().__new__(cls, name, bases, attrs)
+
+class MyClass(metaclass=Meta):
+    pass
+
+print(MyClass.class_id)
+```
+
+- [x] `MyClass_123`
+- [ ] `Meta_123`
+- [ ] `AttributeError`
+- [ ] `class_id`
+
+[Reference Metaclasses](https://docs.python.org/3/reference/datamodel.html#metaclasses)
+
+#### Q222. Which method is used to create a context manager in Python?
+
+- [ ] `__init__` and `__del__`
+- [x] `__enter__` and `__exit__`
+- [ ] `__start__` and `__stop__`
+- [ ] `__open__` and `__close__`
+
+[Reference Context Managers](https://docs.python.org/3/reference/datamodel.html#context-managers)
+
+#### Q223. What will this code output?
+
+```python
+import asyncio
+
+async def fetch_data(delay):
+    await asyncio.sleep(delay)
+    return f"Data after {delay} seconds"
+
+async def main():
+    result = await fetch_data(1)
+    print(result)
+
+asyncio.run(main())
+```
+
+- [x] `Data after 1 seconds`
+- [ ] `<coroutine object fetch_data>`
+- [ ] `SyntaxError`
+- [ ] `None`
+
+[Reference Asyncio](https://docs.python.org/3/library/asyncio.html)
+
+#### Q224. Which decorator is used to create a property that can be set?
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+    @property
+    def radius(self):
+        return self._radius
+
+    @radius.setter
+    def radius(self, value):
+        if value < 0:
+            raise ValueError("Radius cannot be negative")
+        self._radius = value
+```
+
+- [ ] `@property.getter`
+- [x] `@radius.setter`
+- [ ] `@property.setter`
+- [ ] `@setter`
+
+[Reference Property Decorators](https://docs.python.org/3/library/functions.html#property)
+
+#### Q225. What is the output of this code?
+
+```python
+from collections import defaultdict
+
+dd = defaultdict(list)
+dd['key1'].append('value1')
+dd['key2'].append('value2')
+print(len(dd))
+print(dd['key3'])
+print(len(dd))
+```
+
+- [ ] `2`, `[]`, `2`
+- [x] `2`, `[]`, `3`
+- [ ] `2`, `KeyError`, `2`
+- [ ] `3`, `[]`, `3`
+
+[Reference defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)

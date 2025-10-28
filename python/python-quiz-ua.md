@@ -2679,3 +2679,101 @@ print(result)
 - [ ] Hello {name1} and {name2}
 - [ ] Помилка
 - [ ] Hello and
+
+#### Q186. Який буде вивід наступного коду?
+
+```python
+class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['class_id'] = f"{name}_123"
+        return super().__new__(cls, name, bases, attrs)
+
+class MyClass(metaclass=Meta):
+    pass
+
+print(MyClass.class_id)
+```
+
+- [x] `MyClass_123`
+- [ ] `Meta_123`
+- [ ] `AttributeError`
+- [ ] `class_id`
+
+[Довідка Метакласи](https://docs.python.org/3/reference/datamodel.html#metaclasses)
+
+#### Q187. Який метод використовується для створення менеджера контексту в Python?
+
+- [ ] `__init__` та `__del__`
+- [x] `__enter__` та `__exit__`
+- [ ] `__start__` та `__stop__`
+- [ ] `__open__` та `__close__`
+
+[Довідка Менеджери Контексту](https://docs.python.org/3/reference/datamodel.html#context-managers)
+
+#### Q188. Який вивід буде у цього коду?
+
+```python
+import asyncio
+
+async def fetch_data(delay):
+    await asyncio.sleep(delay)
+    return f"Data after {delay} seconds"
+
+async def main():
+    result = await fetch_data(1)
+    print(result)
+
+asyncio.run(main())
+```
+
+- [x] `Data after 1 seconds`
+- [ ] `<coroutine object fetch_data>`
+- [ ] `SyntaxError`
+- [ ] `None`
+
+[Довідка Asyncio](https://docs.python.org/3/library/asyncio.html)
+
+#### Q189. Який декоратор використовується для створення властивості, яку можна встановити?
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+    @property
+    def radius(self):
+        return self._radius
+
+    @radius.setter
+    def radius(self, value):
+        if value < 0:
+            raise ValueError("Radius cannot be negative")
+        self._radius = value
+```
+
+- [ ] `@property.getter`
+- [x] `@radius.setter`
+- [ ] `@property.setter`
+- [ ] `@setter`
+
+[Довідка Декоратори Властивостей](https://docs.python.org/3/library/functions.html#property)
+
+#### Q190. Який буде вивід цього коду?
+
+```python
+from collections import defaultdict
+
+dd = defaultdict(list)
+dd['key1'].append('value1')
+dd['key2'].append('value2')
+print(len(dd))
+print(dd['key3'])
+print(len(dd))
+```
+
+- [ ] `2`, `[]`, `2`
+- [x] `2`, `[]`, `3`
+- [ ] `2`, `KeyError`, `2`
+- [ ] `3`, `[]`, `3`
+
+[Довідка defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)

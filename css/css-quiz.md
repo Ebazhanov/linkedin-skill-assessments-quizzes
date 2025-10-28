@@ -2589,3 +2589,323 @@ input.invalid {
   - [ ] There is no difference between a class and an id.
 
 [Reference: Difference Between Class and ID](https://www.w3schools.com/css/css_selectors.asp)
+
+#### Q174. Which CSS property is used to create a grid container?
+
+- [ ] `grid-template`
+- [x] `display: grid`
+- [ ] `grid-container`
+- [ ] `grid-layout`
+
+[Reference CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+
+#### Q175. What is the correct syntax for CSS custom properties (variables)?
+
+- [ ] `$primary-color: blue;`
+- [x] `--primary-color: blue;`
+- [ ] `@primary-color: blue;`
+- [ ] `var-primary-color: blue;`
+
+[Reference CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
+
+#### Q176. Which flexbox property is used to control the alignment of items along the main axis?
+
+- [ ] `align-items`
+- [x] `justify-content`
+- [ ] `flex-direction`
+- [ ] `align-content`
+
+[Reference Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+
+#### Q177. What does the `fr` unit represent in CSS Grid?
+
+- [ ] Fixed ratio
+- [x] Fractional unit
+- [ ] Frame rate
+- [ ] Font ratio
+
+```css
+grid-template-columns: 1fr 2fr 1fr;
+```
+
+[Reference CSS Grid fr unit](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#the_fr_unit)
+
+#### Q178. Which CSS property is used to create smooth transitions between property changes?
+
+- [ ] `animation`
+- [x] `transition`
+- [ ] `transform`
+- [ ] `ease`
+
+[Reference CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions)
+
+#### Q179. What is the purpose of the `clamp()` function in CSS?
+
+- [ ] To hide content
+- [x] To set a value between a minimum and maximum range
+- [ ] To create animations
+- [ ] To validate CSS
+
+```css
+font-size: clamp(1rem, 2.5vw, 2rem);
+```
+
+[Reference CSS clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
+
+#### Q180. Which CSS selector targets the first child element?
+
+- [ ] `:first`
+- [x] `:first-child`
+- [ ] `:child(1)`
+- [ ] `:nth(1)`
+
+[Reference CSS :first-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child)
+
+#### Q181. What does the `aspect-ratio` property do?
+
+- [ ] Changes the image quality
+- [x] Sets the preferred aspect ratio for an element
+- [ ] Adjusts the viewport ratio
+- [ ] Controls the screen ratio
+
+[Reference CSS aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+
+#### Q182. Which CSS property is used to create a sticky element?
+
+- [ ] `position: fixed`
+- [x] `position: sticky`
+- [ ] `position: absolute`
+- [ ] `position: relative`
+
+[Reference CSS position: sticky](https://developer.mozilla.org/en-US/docs/Web/CSS/position#sticky)
+
+#### Q183. What is the correct syntax for CSS Grid areas?
+
+```css
+grid-template-areas:
+  'header header header'
+  'sidebar main main'
+  'footer footer footer';
+```
+
+- [x] The above syntax is correct
+- [ ] Use square brackets instead of quotes
+- [ ] Use commas between area names
+- [ ] Use semicolons between rows
+
+[Reference CSS Grid Template Areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+
+#### Q184. Which CSS function is used to calculate values?
+
+- [ ] `compute()`
+- [x] `calc()`
+- [ ] `calculate()`
+- [ ] `math()`
+
+```css
+width: calc(100% - 20px);
+```
+
+[Reference CSS calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+
+#### Q185. What does the `gap` property do in CSS Grid and Flexbox?
+
+- [ ] Creates gaps in text
+- [x] Sets the space between grid items or flex items
+- [ ] Creates empty elements
+- [ ] Adjusts line height
+
+[Reference CSS gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+
+#### Q186. Which CSS property is used to control the stacking order of elements?
+
+- [ ] `stack-order`
+- [x] `z-index`
+- [ ] `layer`
+- [ ] `depth`
+
+[Reference CSS z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+
+#### Q187. What is the purpose of the `contain` property in CSS?
+
+- [ ] To hide overflow content
+- [x] To optimize rendering performance by containing layout, style, paint, or size
+- [ ] To create containers
+- [ ] To validate content
+
+[Reference CSS contain](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
+
+#### Q188. Which CSS selector targets elements based on their attribute values using wildcards?
+
+- [ ] `[attr="value"]`
+- [x] `[attr*="value"]`
+- [ ] `[attr~="value"]`
+- [ ] `[attr|="value"]`
+
+```css
+/* Selects elements where href contains "example" */
+a[href*='example'] {
+  color: red;
+}
+```
+
+[Reference CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+#### Q189. What does the `object-fit` property control?
+
+- [ ] Object positioning
+- [x] How replaced content should be resized to fit its container
+- [ ] Object visibility
+- [ ] Object rotation
+
+[Reference CSS object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+
+#### Q190. Which CSS property is used to create rounded corners?
+
+- [ ] `corner-radius`
+- [x] `border-radius`
+- [ ] `round-corners`
+- [ ] `radius`
+
+[Reference CSS border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+
+#### Q191. What is the purpose of the `will-change` property?
+
+- [ ] To change element content
+- [x] To hint to the browser about upcoming changes for optimization
+- [ ] To force changes
+- [ ] To prevent changes
+
+[Reference CSS will-change](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
+
+#### Q192. Which CSS function is used to create color gradients?
+
+- [ ] `gradient()`
+- [x] `linear-gradient()` or `radial-gradient()`
+- [ ] `color-gradient()`
+- [ ] `blend()`
+
+[Reference CSS Gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
+
+#### Q193. What does the `scroll-behavior` property control?
+
+- [ ] Scrollbar appearance
+- [x] The scrolling behavior for a scrolling box
+- [ ] Scroll speed
+- [ ] Scroll direction
+
+```css
+html {
+  scroll-behavior: smooth;
+}
+```
+
+[Reference CSS scroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
+
+#### Q194. Which CSS property is used to control text overflow?
+
+- [ ] `text-wrap`
+- [x] `text-overflow`
+- [ ] `overflow-text`
+- [ ] `text-clip`
+
+[Reference CSS text-overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow)
+
+#### Q195. What is the purpose of the `backdrop-filter` property?
+
+- [ ] To filter background images
+- [x] To apply graphical effects to the area behind an element
+- [ ] To create drop shadows
+- [ ] To filter text content
+
+[Reference CSS backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
+
+#### Q196. Which CSS property is used to create CSS animations?
+
+- [ ] `transition`
+- [x] `animation`
+- [ ] `transform`
+- [ ] `keyframes`
+
+[Reference CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
+
+#### Q197. What does the `place-items` property do in CSS Grid?
+
+- [ ] Places items in specific grid areas
+- [x] Shorthand for align-items and justify-items
+- [ ] Creates item placeholders
+- [ ] Positions items absolutely
+
+[Reference CSS place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-items)
+
+#### Q198. Which CSS selector targets the last child element?
+
+- [ ] `:last`
+- [x] `:last-child`
+- [ ] `:child(last)`
+- [ ] `:final-child`
+
+[Reference CSS :last-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child)
+
+#### Q199. What is the purpose of the `isolation` property?
+
+- [ ] To isolate elements from the DOM
+- [x] To create a new stacking context
+- [ ] To prevent event propagation
+- [ ] To isolate CSS rules
+
+[Reference CSS isolation](https://developer.mozilla.org/en-US/docs/Web/CSS/isolation)
+
+#### Q200. Which CSS property controls the space between characters?
+
+- [ ] `character-spacing`
+- [x] `letter-spacing`
+- [ ] `char-space`
+- [ ] `text-spacing`
+
+[Reference CSS letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
+
+#### Q201. What does the `overscroll-behavior` property control?
+
+- [ ] Scrollbar behavior
+- [x] What happens when the user over-scrolls
+- [ ] Scroll speed
+- [ ] Scroll direction
+
+[Reference CSS overscroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
+
+#### Q202. Which CSS property is used to create drop shadows?
+
+- [ ] `shadow`
+- [x] `box-shadow`
+- [ ] `drop-shadow`
+- [ ] `element-shadow`
+
+[Reference CSS box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+#### Q203. What is the purpose of the `resize` property?
+
+- [ ] To resize images automatically
+- [x] To control whether an element is resizable by the user
+- [ ] To resize fonts
+- [ ] To resize the viewport
+
+[Reference CSS resize](https://developer.mozilla.org/en-US/docs/Web/CSS/resize)
+
+#### Q204. Which CSS function is used to create custom shapes?
+
+- [ ] `shape()`
+- [x] `clip-path()`
+- [ ] `path()`
+- [ ] `polygon()`
+
+[Reference CSS clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
+
+#### Q205. What does the `mix-blend-mode` property do?
+
+- [ ] Mixes colors randomly
+- [x] Defines how an element's content should blend with its background
+- [ ] Creates color transitions
+- [ ] Adjusts color saturation
+
+[Reference CSS mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
