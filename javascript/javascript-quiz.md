@@ -414,10 +414,10 @@ dessert.type = 'pudding';
 
 #### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 
-- [ ] all of them
 - [ ] `const`
 - [x] `var`
 - [ ] `let`
+- [ ] All of the above
 
 [Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
@@ -1620,9 +1620,9 @@ console.log(congo.minimumRainFall);
 ```
 
 - [x] `undefined`
-- [ ] `None of these answers, as static is not a feature in Javascript.`
 - [ ] `60`
 - [ ] `80`
+- [ ] `None of the above, as static is not a feature in Javascript.`
 
 [Reference Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
@@ -2022,7 +2022,7 @@ print(typeof NaN);
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [x] all of the above
+- [x] All of the above
 
 #### Q147. What value is assigned to total after this code executes?
 
@@ -2171,7 +2171,7 @@ console.log(second);
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [x] all of the above
+- [x] All of the above
 
 #### Q162. Which document method is not used to get a reference to a DOM node?
 
