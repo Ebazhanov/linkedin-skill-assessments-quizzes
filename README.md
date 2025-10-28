@@ -2283,10 +2283,6 @@ Contributions of any kind welcome!
 
 #### [ [Go back to the top of the page](#top-page) ]
 
-## Contributor Over Time
-
-[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)](https://git-contributor.com?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)
-
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments.svg)](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments)
