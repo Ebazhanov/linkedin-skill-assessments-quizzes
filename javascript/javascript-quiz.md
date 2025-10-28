@@ -2279,10 +2279,10 @@ console.log(rest);
 
 ```js
 const promise1 = Promise.resolve(3);
-const promise2 = new Promise(resolve => setTimeout(() => resolve('foo'), 1000));
+const promise2 = new Promise((resolve) => setTimeout(() => resolve('foo'), 1000));
 const promise3 = Promise.resolve(42);
 
-Promise.all([promise1, promise2, promise3]).then(values => {
+Promise.all([promise1, promise2, promise3]).then((values) => {
   console.log(values);
 });
 ```
@@ -2348,9 +2348,9 @@ export default function add(a, b) {
 ```js
 const obj = {
   name: 'John',
-  greet: function() {
+  greet: function () {
     console.log(`Hello, ${this.name}`);
-  }
+  },
 };
 
 const greetFunc = obj.greet;
@@ -2382,7 +2382,7 @@ console.log('name' in obj); // true
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2);
+const doubled = numbers.map((num) => num * 2);
 console.log(numbers);
 console.log(doubled);
 ```
@@ -2613,11 +2613,14 @@ console.log(gen.next().value);
 #### Q179. What will this code output?
 
 ```js
-const proxy = new Proxy({}, {
-  get(target, prop) {
-    return prop in target ? target[prop] : 'Property not found';
-  }
-});
+const proxy = new Proxy(
+  {},
+  {
+    get(target, prop) {
+      return prop in target ? target[prop] : 'Property not found';
+    },
+  },
+);
 
 proxy.name = 'John';
 console.log(proxy.name);
@@ -2681,7 +2684,7 @@ const obj = {
   decrement() {
     this.counter--;
     return this;
-  }
+  },
 };
 
 obj.increment().increment().decrement();
@@ -2709,8 +2712,8 @@ console.log(obj.counter);
 ```js
 const promise = Promise.reject('Error occurred');
 promise
-  .then(result => console.log('Success:', result))
-  .catch(error => console.log('Caught:', error))
+  .then((result) => console.log('Success:', result))
+  .catch((error) => console.log('Caught:', error))
   .finally(() => console.log('Finally executed'));
 ```
 
@@ -2737,12 +2740,12 @@ const func = async () => {
   const result = await Promise.all([
     Promise.resolve(1),
     Promise.resolve(2),
-    Promise.reject('Error')
+    Promise.reject('Error'),
   ]);
   return result;
 };
 
-func().catch(error => console.log('Error:', error));
+func().catch((error) => console.log('Error:', error));
 ```
 
 - [ ] `[1, 2, 'Error']`
@@ -2827,7 +2830,7 @@ console.log(func(2));
 - [ ] `9`
 - [ ] `NaN`
 
-**Explanation:** x=2, y=2*2=4, z=4+1=5, so 2+4+5=11
+**Explanation:** x=2, y=2\*2=4, z=4+1=5, so 2+4+5=11
 
 [Reference Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
@@ -2895,7 +2898,7 @@ const obj = {
   name: 'John',
   getName: () => {
     return this.name;
-  }
+  },
 };
 
 console.log(obj.getName());

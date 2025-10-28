@@ -2683,9 +2683,9 @@ font-size: clamp(1rem, 2.5vw, 2rem);
 
 ```css
 grid-template-areas:
-  "header header header"
-  "sidebar main main"
-  "footer footer footer";
+  'header header header'
+  'sidebar main main'
+  'footer footer footer';
 ```
 
 - [x] The above syntax is correct
@@ -2744,7 +2744,9 @@ width: calc(100% - 20px);
 
 ```css
 /* Selects elements where href contains "example" */
-a[href*="example"] { color: red; }
+a[href*='example'] {
+  color: red;
+}
 ```
 
 [Reference CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)

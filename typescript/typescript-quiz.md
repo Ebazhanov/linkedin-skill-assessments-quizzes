@@ -61,7 +61,7 @@ interface User {
 - [ ] Mapped types
 
 ```typescript
-type Status = "loading" | "success" | "error";
+type Status = 'loading' | 'success' | 'error';
 ```
 
 [Reference Union Types](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
@@ -72,7 +72,7 @@ type Status = "loading" | "success" | "error";
 enum Color {
   Red,
   Green,
-  Blue
+  Blue,
 }
 
 console.log(Color.Red);
@@ -246,7 +246,7 @@ console.log(name!.length); // Non-null assertion
 
 ```typescript
 function isString(value: any): value is string {
-  return typeof value === "string";
+  return typeof value === 'string';
 }
 ```
 

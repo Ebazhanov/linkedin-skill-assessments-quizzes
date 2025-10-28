@@ -587,7 +587,7 @@ function Button() {
   const handleClick = () => {
     console.log('Button clicked');
   };
-  
+
   return <button onClick={handleClick}>Click me</button>;
 }
 ```
@@ -648,11 +648,7 @@ return (
 
 ```jsx
 function Greeting({ isLoggedIn }) {
-  return (
-    <div>
-      {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please sign up.</h1>}
-    </div>
-  );
+  return <div>{isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please sign up.</h1>}</div>;
 }
 ```
 
@@ -720,18 +716,15 @@ function Parent() {
 ```jsx
 function Form() {
   const [value, setValue] = useState('');
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(value);
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
-      <input 
-        value={value} 
-        onChange={(e) => setValue(e.target.value)} 
-      />
+      <input value={value} onChange={(e) => setValue(e.target.value)} />
       <button type="submit">Submit</button>
     </form>
   );
@@ -748,7 +741,7 @@ function Form() {
 #### Q165. Which method is used to update state based on previous state?
 
 ```jsx
-setCount(prevCount => prevCount + 1);
+setCount((prevCount) => prevCount + 1);
 ```
 
 - [x] Pass a function to the state setter
@@ -785,7 +778,7 @@ useEffect(() => {
     const data = await response.json();
     setData(data);
   };
-  
+
   fetchData();
 }, []);
 ```
@@ -820,10 +813,10 @@ useEffect(() => {
 ```jsx
 function useCounter(initialValue = 0) {
   const [count, setCount] = useState(initialValue);
-  
+
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
-  
+
   return { count, increment, decrement };
 }
 ```
@@ -919,7 +912,7 @@ useEffect(() => {
   const timer = setInterval(() => {
     console.log('Timer tick');
   }, 1000);
-  
+
   return () => {
     clearInterval(timer);
   };

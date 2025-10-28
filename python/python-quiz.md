@@ -2910,7 +2910,7 @@ print(fibonacci.cache_info())
 class Counter:
     def __init__(self):
         self.count = 0
-    
+
     def __call__(self):
         self.count += 1
         return self.count
@@ -2946,7 +2946,7 @@ from dataclasses import dataclass
 class Point:
     x: int
     y: int
-    
+
     def distance_from_origin(self):
         return (self.x ** 2 + self.y ** 2) ** 0.5
 
@@ -2976,7 +2976,7 @@ print(p.distance_from_origin())
 ```python
 class Singleton:
     _instance = None
-    
+
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
@@ -3040,7 +3040,7 @@ print(Color.RED.value)
 ```python
 class MyClass:
     class_var = 0
-    
+
     def __init__(self):
         MyClass.class_var += 1
         self.instance_var = MyClass.class_var
@@ -3131,7 +3131,7 @@ class MyContext:
     def __enter__(self):
         print("Entering context")
         return self
-    
+
     def __exit__(self, exc_type, exc_val, exc_tb):
         print("Exiting context")
         return False
@@ -3162,7 +3162,7 @@ with MyContext() as ctx:
 class Descriptor:
     def __get__(self, obj, objtype=None):
         return "Descriptor value"
-    
+
     def __set__(self, obj, value):
         print(f"Setting value: {value}")
 
@@ -3218,7 +3218,7 @@ print(type(result))
 - [ ] `__slots__` is only for methods
 - [ ] `__slots__` enables multiple inheritance
 
-[Reference __slots__](https://docs.python.org/3/reference/datamodel.html#slots)
+[Reference **slots**](https://docs.python.org/3/reference/datamodel.html#slots)
 
 #### Q217. What is the output of this code?
 
@@ -3354,11 +3354,11 @@ asyncio.run(main())
 class Circle:
     def __init__(self, radius):
         self._radius = radius
-    
+
     @property
     def radius(self):
         return self._radius
-    
+
     @radius.setter
     def radius(self, value):
         if value < 0:
