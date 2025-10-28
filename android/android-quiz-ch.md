@@ -66,7 +66,6 @@
     LinearLayoutManager
 ```
 
-
 #### Q6. 当 Android 系统需要释放内存时,会终止进程。系统终止某个进程的可能性取决于进程的状态和活动的状态。哪种进程和活动状态组合最有可能被终止?
 
 - [x] Process:In the background;Activity:Is stopped
@@ -113,7 +112,6 @@
         activityStart(intent)
     }
 ```
-
 
 #### Q8. 您想在项目中包含 about 和 settings 模块。以下哪个文件准确反映了它们的包含?
 
@@ -170,7 +168,6 @@
         targetSdkVersion 28
       }
 ```
-
 
 #### Q11. 什么时候会调用 activity 的 onActivityResult()?
 
@@ -313,7 +310,6 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
         <solid android:color="@android:color/white" />
     </shape>
 ```
-
 
 #### Q22. 要持久化一小部分键值数据,应该使用什么?
 
@@ -650,7 +646,7 @@ public void onCreate(Bundle savedInstanceState){
 - [ ] AsyncTask
 - [ ] IntentService
 - [ ] Thread
-[Reference](https://developer.android.com/guide/background)
+      [Reference](https://developer.android.com/guide/background)
 
 #### Q63. 您需要通过 Google Play 按需或作为即时体验向用户提供应用的某些功能。您应该创建哪种类型的模块?
 
