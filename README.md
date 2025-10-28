@@ -2253,6 +2253,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hautvastroel"><img src="https://avatars.githubusercontent.com/u/228818504?v=4?s=100" width="100px;" alt="hautvastroel"/><br /><sub><b>hautvastroel</b></sub></a><br /><a href="#design-hautvastroel" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hautvastroel" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://derrick.chen"><img src="https://avatars.githubusercontent.com/u/113388015?v=4?s=100" width="100px;" alt="Derrick Chen"/><br /><sub><b>Derrick Chen</b></sub></a><br /><a href="#design-derrickchen03" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=derrickchen03" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xingarr"><img src="https://avatars.githubusercontent.com/u/30895606?v=4?s=100" width="100px;" alt="Xin@@Gar"/><br /><sub><b>Xin@@Gar</b></sub></a><br /><a href="#design-xingarr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=xingarr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KartikMehra22"><img src="https://avatars.githubusercontent.com/u/185420266?v=4?s=100" width="100px;" alt="KartikMehra22"/><br /><sub><b>KartikMehra22</b></sub></a><br /><a href="#design-KartikMehra22" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KartikMehra22" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/codomposer"><img src="https://avatars.githubusercontent.com/u/101377478?v=4?s=100" width="100px;" alt="Gritty_dev"/><br /><sub><b>Gritty_dev</b></sub></a><br /><a href="#design-codomposer" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=codomposer" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -2267,10 +2272,6 @@ Contributions of any kind welcome!
 <a id="bottom-page"></a>
 
 #### [ [Go back to the top of the page](#top-page) ]
-
-## Contributor Over Time
-
-[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)](https://git-contributor.com?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)
 
 ## Stargazers over time
 
