@@ -1601,7 +1601,7 @@ printf("%d", x << 2);
 - [ ] 10
 
 **Explanation:**
-The `<<` operator is a left bit shift. `x << 2` shifts the bits of x left by 2 positions, which is equivalent to multiplying by 2^2 = 4. So 5 * 4 = 20.
+The `<<` operator is a left bit shift. `x << 2` shifts the bits of x left by 2 positions, which is equivalent to multiplying by 2^2 = 4. So 5 \* 4 = 20.
 
 [Reference](https://en.cppreference.com/w/c/language/operator_arithmetic)
 
