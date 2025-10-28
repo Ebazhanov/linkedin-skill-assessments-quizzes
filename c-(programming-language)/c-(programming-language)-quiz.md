@@ -1344,3 +1344,736 @@ char *string[20] = { "one", "two", "three"};
 - [x] `printf("%s", string[1][2]);`
 - [ ] `printf("%s", string[1]);`
 - [ ] `printf(string[1]);`
+
+#### Q89. What is the output of this code?
+
+```c
+int x = 5;
+int y = ++x + x++;
+printf("%d %d", x, y);
+```
+
+- [ ] 6 11
+- [x] 7 12
+- [ ] 7 11
+- [ ] 6 12
+
+**Explanation:**
+First, ++x increments x to 6 and uses 6 in the expression. Then x++ uses 6 and increments x to 7 after. So y = 6 + 6 = 12, and x becomes 7.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_precedence)
+
+#### Q90. What does the `volatile` keyword indicate in C?
+
+- [ ] The variable cannot be modified
+- [x] The variable may be changed by external factors
+- [ ] The variable is stored in ROM
+- [ ] The variable is a constant
+
+**Explanation:**
+The `volatile` keyword tells the compiler that a variable's value may be changed by external factors (hardware, interrupts, other threads), so the compiler should not optimize away reads/writes to it.
+
+[Reference](https://en.cppreference.com/w/c/language/volatile)
+
+#### Q91. What is the purpose of the `restrict` keyword in C99?
+
+- [x] To indicate that a pointer is the only way to access an object
+- [ ] To restrict the scope of a variable
+- [ ] To prevent modification of a variable
+- [ ] To restrict function access
+
+**Explanation:**
+The `restrict` keyword is a type qualifier that can be applied to pointers. It tells the compiler that for the lifetime of the pointer, only it or a value directly derived from it will be used to access the object it points to. This enables certain compiler optimizations.
+
+[Reference](https://en.cppreference.com/w/c/language/restrict)
+
+#### Q92. What is the difference between `malloc()` and `calloc()`?
+
+- [ ] malloc is faster than calloc
+- [x] calloc initializes allocated memory to zero, malloc does not
+- [ ] malloc can allocate more memory than calloc
+- [ ] There is no difference
+
+**Explanation:**
+`calloc()` allocates memory and initializes all bytes to zero, while `malloc()` allocates memory but leaves it uninitialized. `calloc()` also takes two arguments (number of elements and size of each element) while `malloc()` takes one (total size in bytes).
+
+[Reference](https://en.cppreference.com/w/c/memory/calloc)
+
+#### Q93. What is a dangling pointer?
+
+- [ ] A pointer that points to NULL
+- [x] A pointer that points to freed or deleted memory
+- [ ] A pointer that has not been initialized
+- [ ] A pointer that points to a constant
+
+**Explanation:**
+A dangling pointer is a pointer that points to memory that has been freed or deleted. Accessing such a pointer leads to undefined behavior.
+
+[Reference](https://en.wikipedia.org/wiki/Dangling_pointer)
+
+#### Q94. What is the output of this code?
+
+```c
+int arr[] = {1, 2, 3, 4, 5};
+printf("%d", *(arr + 3));
+```
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+**Explanation:**
+`arr` is a pointer to the first element. `arr + 3` points to the 4th element (index 3). The `*` operator dereferences it to get the value 4.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_member_access)
+
+#### Q95. What does the `static` keyword do when applied to a function?
+
+- [x] Limits the function's scope to the current file
+- [ ] Makes the function run faster
+- [ ] Prevents the function from being called
+- [ ] Makes the function inline
+
+**Explanation:**
+When `static` is applied to a function, it limits the function's linkage to internal linkage, meaning it can only be called from within the same translation unit (source file).
+
+[Reference](https://en.cppreference.com/w/c/language/storage_duration)
+
+#### Q96. What is the size of a pointer in a 64-bit system?
+
+- [ ] 4 bytes
+- [x] 8 bytes
+- [ ] 16 bytes
+- [ ] Depends on what it points to
+
+**Explanation:**
+On a 64-bit system, pointers are typically 8 bytes (64 bits) regardless of what they point to. The size is determined by the system architecture, not the pointed-to type.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer)
+
+#### Q97. What is the purpose of `typedef`?
+
+- [ ] To define a new data type
+- [x] To create an alias for an existing data type
+- [ ] To declare a variable
+- [ ] To define a macro
+
+**Explanation:**
+`typedef` creates an alias (alternative name) for an existing data type. It doesn't create a new type, just a new name for an existing one.
+
+[Reference](https://en.cppreference.com/w/c/language/typedef)
+
+#### Q98. What is a memory leak?
+
+- [ ] When a pointer points to invalid memory
+- [x] When allocated memory is not freed
+- [ ] When a variable goes out of scope
+- [ ] When stack overflow occurs
+
+**Explanation:**
+A memory leak occurs when dynamically allocated memory (via `malloc`, `calloc`, etc.) is not freed using `free()`, causing the program to consume more and more memory over time.
+
+[Reference](https://en.wikipedia.org/wiki/Memory_leak)
+
+#### Q99. What is the output of this code?
+
+```c
+int x = 10;
+int *p = &x;
+*p = 20;
+printf("%d", x);
+```
+
+- [ ] 10
+- [x] 20
+- [ ] Address of x
+- [ ] Undefined
+
+**Explanation:**
+`p` points to `x`. `*p = 20` modifies the value at the address p points to, which is `x`. So `x` becomes 20.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer)
+
+#### Q100. What does `sizeof(char)` always return in C?
+
+- [x] 1
+- [ ] 2
+- [ ] 4
+- [ ] Depends on the system
+
+**Explanation:**
+By definition in the C standard, `sizeof(char)` is always 1. This is the fundamental unit of size in C, and all other sizes are multiples of it.
+
+[Reference](https://en.cppreference.com/w/c/language/sizeof)
+
+#### Q101. What is the difference between `++i` and `i++`?
+
+- [x] ++i increments before use, i++ increments after use
+- [ ] ++i is faster than i++
+- [ ] i++ can only be used in loops
+- [ ] There is no difference
+
+**Explanation:**
+`++i` (pre-increment) increments the variable and returns the new value. `i++` (post-increment) returns the current value and then increments the variable.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_incdec)
+
+#### Q102. What is a segmentation fault?
+
+- [ ] A syntax error
+- [x] An error caused by accessing invalid memory
+- [ ] A compilation error
+- [ ] A warning
+
+**Explanation:**
+A segmentation fault (segfault) occurs when a program tries to access memory it's not allowed to access, such as dereferencing a NULL pointer or accessing freed memory.
+
+[Reference](https://en.wikipedia.org/wiki/Segmentation_fault)
+
+#### Q103. What is the purpose of the `const` keyword with pointers?
+
+```c
+const int *p;
+```
+
+- [x] The value pointed to cannot be modified through p
+- [ ] The pointer p cannot be modified
+- [ ] Both the pointer and value are constant
+- [ ] It has no effect
+
+**Explanation:**
+`const int *p` means p points to a constant integer - you cannot modify the value through p, but you can change where p points to. For `int * const p`, the pointer itself is constant.
+
+[Reference](https://en.cppreference.com/w/c/language/const)
+
+#### Q104. What is the output of this code?
+
+```c
+int arr[5] = {1, 2, 3};
+printf("%d", arr[4]);
+```
+
+- [x] 0
+- [ ] 3
+- [ ] Garbage value
+- [ ] Compilation error
+
+**Explanation:**
+When an array is partially initialized, the remaining elements are automatically initialized to 0. So arr[3] and arr[4] are both 0.
+
+[Reference](https://en.cppreference.com/w/c/language/array_initialization)
+
+#### Q105. What does the `extern` keyword do?
+
+- [ ] Makes a variable external to the program
+- [x] Declares a variable that is defined elsewhere
+- [ ] Exports a variable to other programs
+- [ ] Creates a global variable
+
+**Explanation:**
+`extern` declares a variable or function that is defined in another source file or later in the same file. It tells the compiler that the definition exists elsewhere.
+
+[Reference](https://en.cppreference.com/w/c/language/extern)
+
+#### Q106. What is the difference between `struct` and `union`?
+
+- [x] struct members have separate memory, union members share memory
+- [ ] struct is faster than union
+- [ ] union can have more members than struct
+- [ ] There is no difference
+
+**Explanation:**
+In a `struct`, each member has its own memory location. In a `union`, all members share the same memory location, and only one member can hold a value at a time. The size of a union is the size of its largest member.
+
+[Reference](https://en.cppreference.com/w/c/language/union)
+
+#### Q107. What is the output of this code?
+
+```c
+int x = 5;
+printf("%d", x << 2);
+```
+
+- [ ] 5
+- [ ] 7
+- [x] 20
+- [ ] 10
+
+**Explanation:**
+The `<<` operator is a left bit shift. `x << 2` shifts the bits of x left by 2 positions, which is equivalent to multiplying by 2^2 = 4. So 5 * 4 = 20.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_arithmetic)
+
+#### Q108. What is a function pointer?
+
+- [ ] A pointer to a function's return value
+- [x] A pointer that stores the address of a function
+- [ ] A function that returns a pointer
+- [ ] A pointer inside a function
+
+**Explanation:**
+A function pointer is a variable that stores the address of a function. It can be used to call the function indirectly or pass functions as arguments to other functions.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer#Pointers_to_functions)
+
+#### Q109. What does `NULL` represent in C?
+
+- [ ] The number zero
+- [x] A null pointer constant
+- [ ] An empty string
+- [ ] An undefined value
+
+**Explanation:**
+`NULL` is a macro that represents a null pointer constant. It's typically defined as `((void*)0)` or just `0`. It indicates that a pointer doesn't point to any valid memory location.
+
+[Reference](https://en.cppreference.com/w/c/types/NULL)
+
+#### Q110. What is the output of this code?
+
+```c
+int x = 10, y = 20;
+int *p1 = &x, *p2 = &y;
+*p1 = *p2;
+printf("%d %d", x, y);
+```
+
+- [ ] 10 20
+- [x] 20 20
+- [ ] 10 10
+- [ ] 20 10
+
+**Explanation:**
+`*p1 = *p2` copies the value pointed to by p2 (which is 20) to the location pointed to by p1 (which is x). So x becomes 20, y remains 20.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer)
+
+#### Q111. What is the purpose of `#pragma` directive?
+
+- [ ] To include header files
+- [ ] To define macros
+- [x] To provide compiler-specific instructions
+- [ ] To declare variables
+
+**Explanation:**
+`#pragma` is a preprocessor directive that provides additional information to the compiler. It's implementation-defined and used for compiler-specific features.
+
+[Reference](https://en.cppreference.com/w/c/preprocessor/impl)
+
+#### Q112. What is the difference between `break` and `continue`?
+
+- [x] break exits the loop, continue skips to next iteration
+- [ ] break is faster than continue
+- [ ] continue exits the loop, break skips iteration
+- [ ] There is no difference
+
+**Explanation:**
+`break` terminates the loop entirely and continues execution after the loop. `continue` skips the rest of the current iteration and moves to the next iteration of the loop.
+
+[Reference](https://en.cppreference.com/w/c/language/break)
+
+#### Q113. What is the output of this code?
+
+```c
+int arr[] = {1, 2, 3, 4, 5};
+printf("%d", sizeof(arr) / sizeof(arr[0]));
+```
+
+- [ ] 4
+- [x] 5
+- [ ] 20
+- [ ] 1
+
+**Explanation:**
+`sizeof(arr)` gives the total size of the array in bytes. `sizeof(arr[0])` gives the size of one element. Dividing them gives the number of elements: 5.
+
+[Reference](https://en.cppreference.com/w/c/language/sizeof)
+
+#### Q114. What is a void pointer?
+
+- [ ] A pointer that points to nothing
+- [x] A generic pointer that can point to any data type
+- [ ] A pointer to void functions
+- [ ] An invalid pointer
+
+**Explanation:**
+A `void*` pointer is a generic pointer that can point to any data type. It must be cast to the appropriate type before dereferencing.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer)
+
+#### Q115. What does the `register` keyword suggest to the compiler?
+
+- [ ] To make a variable global
+- [x] To store a variable in a CPU register for faster access
+- [ ] To protect a variable from modification
+- [ ] To allocate memory on the heap
+
+**Explanation:**
+The `register` keyword suggests (but doesn't guarantee) that the compiler should store the variable in a CPU register for faster access. Modern compilers often ignore this hint and make their own optimization decisions.
+
+[Reference](https://en.cppreference.com/w/c/language/storage_duration)
+
+#### Q116. What is the output of this code?
+
+```c
+int x = 5;
+int y = (x > 3) ? 10 : 20;
+printf("%d", y);
+```
+
+- [x] 10
+- [ ] 20
+- [ ] 5
+- [ ] 3
+
+**Explanation:**
+This is the ternary operator. Since x > 3 is true, y is assigned 10.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_other)
+
+#### Q117. What is the difference between `malloc()` and `realloc()`?
+
+- [ ] malloc is faster than realloc
+- [x] realloc resizes previously allocated memory
+- [ ] malloc initializes memory, realloc doesn't
+- [ ] There is no difference
+
+**Explanation:**
+`malloc()` allocates new memory. `realloc()` changes the size of previously allocated memory block, potentially moving it to a new location if needed.
+
+[Reference](https://en.cppreference.com/w/c/memory/realloc)
+
+#### Q118. What is an enumeration in C?
+
+- [ ] A loop construct
+- [x] A user-defined type consisting of named integer constants
+- [ ] A function that counts elements
+- [ ] An array of constants
+
+**Explanation:**
+An enumeration (`enum`) is a user-defined type that consists of a set of named integer constants. It makes code more readable by giving meaningful names to integer values.
+
+[Reference](https://en.cppreference.com/w/c/language/enum)
+
+#### Q119. What is the output of this code?
+
+```c
+int x = 10;
+int y = x++ + ++x;
+printf("%d %d", x, y);
+```
+
+- [ ] 11 21
+- [x] 12 22
+- [ ] 12 21
+- [ ] 11 22
+
+**Explanation:**
+First, x++ uses 10 and increments x to 11. Then ++x increments x to 12 and uses 12. So y = 10 + 12 = 22, and x is 12.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_incdec)
+
+#### Q120. What is the purpose of `assert()` macro?
+
+- [ ] To assign values to variables
+- [x] To check assumptions and terminate if false
+- [ ] To assert dominance over other functions
+- [ ] To create assertions in documentation
+
+**Explanation:**
+`assert()` is a macro used for debugging. It checks if a condition is true. If false, it prints an error message and terminates the program. It's typically disabled in release builds.
+
+[Reference](https://en.cppreference.com/w/c/error/assert)
+
+#### Q121. What is the difference between `fgets()` and `gets()`?
+
+- [ ] fgets is faster than gets
+- [x] fgets is safer as it limits input size
+- [ ] gets can read from any file
+- [ ] There is no difference
+
+**Explanation:**
+`gets()` is unsafe because it doesn't check buffer size, leading to buffer overflow vulnerabilities. `fgets()` allows you to specify the maximum number of characters to read, making it safer. `gets()` was removed from C11 standard.
+
+[Reference](https://en.cppreference.com/w/c/io/fgets)
+
+#### Q122. What is the output of this code?
+
+```c
+int x = 5;
+int *p = &x;
+printf("%p %p", (void*)&x, (void*)p);
+```
+
+- [x] Same address printed twice
+- [ ] Two different addresses
+- [ ] Compilation error
+- [ ] 5 5
+
+**Explanation:**
+`&x` gives the address of x, and p stores the address of x. Both print the same address (in hexadecimal format due to %p).
+
+[Reference](https://en.cppreference.com/w/c/io/fprintf)
+
+#### Q123. What is a preprocessor directive?
+
+- [ ] A function that processes data
+- [x] An instruction to the preprocessor before compilation
+- [ ] A directive from the processor
+- [ ] A type of loop
+
+**Explanation:**
+Preprocessor directives (like #include, #define, #ifdef) are instructions processed before actual compilation. They start with # and are handled by the preprocessor.
+
+[Reference](https://en.cppreference.com/w/c/preprocessor)
+
+#### Q124. What is the output of this code?
+
+```c
+int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+printf("%d", arr[1][2]);
+```
+
+- [ ] 5
+- [x] 6
+- [ ] 8
+- [ ] 9
+
+**Explanation:**
+`arr[1][2]` accesses row 1 (second row: {4,5,6}), column 2 (third element: 6).
+
+[Reference](https://en.cppreference.com/w/c/language/array)
+
+#### Q125. What is the purpose of `memset()` function?
+
+- [ ] To allocate memory
+- [x] To fill a block of memory with a specific value
+- [ ] To copy memory
+- [ ] To free memory
+
+**Explanation:**
+`memset()` fills a block of memory with a specified byte value. It's commonly used to initialize arrays or structures to zero.
+
+[Reference](https://en.cppreference.com/w/c/string/byte/memset)
+
+#### Q126. What is the difference between `strcpy()` and `strncpy()`?
+
+- [ ] strcpy is faster
+- [x] strncpy limits the number of characters copied
+- [ ] strcpy can copy any data type
+- [ ] There is no difference
+
+**Explanation:**
+`strcpy()` copies the entire string including null terminator. `strncpy()` copies at most n characters, providing protection against buffer overflow.
+
+[Reference](https://en.cppreference.com/w/c/string/byte/strncpy)
+
+#### Q127. What is the output of this code?
+
+```c
+int x = 10;
+int y = 3;
+printf("%d", x % y);
+```
+
+- [x] 1
+- [ ] 3
+- [ ] 0
+- [ ] 10
+
+**Explanation:**
+The `%` operator is the modulo operator. 10 % 3 gives the remainder of 10 divided by 3, which is 1.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_arithmetic)
+
+#### Q128. What is a macro in C?
+
+- [ ] A large function
+- [x] A preprocessor directive that defines a code fragment
+- [ ] A type of variable
+- [ ] A loop construct
+
+**Explanation:**
+A macro is defined using #define and represents a code fragment that is replaced by the preprocessor before compilation. It can be a constant or a function-like construct.
+
+[Reference](https://en.cppreference.com/w/c/preprocessor/replace)
+
+#### Q129. What is the output of this code?
+
+```c
+int x = 5;
+int y = 10;
+int z = (x > y) ? x : y;
+printf("%d", z);
+```
+
+- [ ] 5
+- [x] 10
+- [ ] 1
+- [ ] 0
+
+**Explanation:**
+The ternary operator checks if x > y. Since it's false (5 is not greater than 10), z is assigned the value of y, which is 10.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_other)
+
+#### Q130. What is the purpose of `free()` function?
+
+- [ ] To free up CPU resources
+- [x] To deallocate dynamically allocated memory
+- [ ] To free variables from scope
+- [ ] To clear the screen
+
+**Explanation:**
+`free()` deallocates memory that was previously allocated by `malloc()`, `calloc()`, or `realloc()`. It's essential to prevent memory leaks.
+
+[Reference](https://en.cppreference.com/w/c/memory/free)
+
+#### Q131. What is the output of this code?
+
+```c
+char str[] = "Hello";
+printf("%d", strlen(str));
+```
+
+- [ ] 6
+- [x] 5
+- [ ] 4
+- [ ] Undefined
+
+**Explanation:**
+`strlen()` returns the length of the string excluding the null terminator. "Hello" has 5 characters.
+
+[Reference](https://en.cppreference.com/w/c/string/byte/strlen)
+
+#### Q132. What is a static variable inside a function?
+
+- [ ] A variable that cannot change
+- [x] A variable that retains its value between function calls
+- [ ] A variable stored in ROM
+- [ ] A global variable
+
+**Explanation:**
+A static variable inside a function retains its value between function calls. It's initialized only once and exists for the lifetime of the program.
+
+[Reference](https://en.cppreference.com/w/c/language/storage_duration)
+
+#### Q133. What is the output of this code?
+
+```c
+int arr[] = {1, 2, 3, 4, 5};
+int *p = arr + 2;
+printf("%d", *p);
+```
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 4
+
+**Explanation:**
+`arr + 2` points to the third element (index 2). Dereferencing it with `*p` gives the value 3.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_member_access)
+
+#### Q134. What is the difference between `printf()` and `sprintf()`?
+
+- [ ] printf is faster
+- [x] sprintf writes to a string, printf writes to stdout
+- [ ] sprintf can only print strings
+- [ ] There is no difference
+
+**Explanation:**
+`printf()` writes formatted output to stdout (console). `sprintf()` writes formatted output to a character string buffer.
+
+[Reference](https://en.cppreference.com/w/c/io/fprintf)
+
+#### Q135. What is the output of this code?
+
+```c
+int x = 5;
+printf("%d", x & 3);
+```
+
+- [ ] 5
+- [ ] 3
+- [x] 1
+- [ ] 8
+
+**Explanation:**
+The `&` operator is bitwise AND. 5 in binary is 101, 3 is 011. 101 & 011 = 001 = 1.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_arithmetic)
+
+#### Q136. What is a header guard?
+
+- [ ] A security feature
+- [x] A preprocessor construct to prevent multiple inclusion
+- [ ] A function that guards headers
+- [ ] A type of comment
+
+**Explanation:**
+Header guards (using #ifndef, #define, #endif) prevent a header file from being included multiple times in the same compilation unit, which would cause redefinition errors.
+
+[Reference](https://en.cppreference.com/w/c/preprocessor/conditional)
+
+#### Q137. What is the output of this code?
+
+```c
+int x = 10;
+int y = 20;
+int *p = &x;
+p = &y;
+printf("%d", *p);
+```
+
+- [ ] 10
+- [x] 20
+- [ ] Address of x
+- [ ] Address of y
+
+**Explanation:**
+Initially p points to x. Then `p = &y` makes p point to y. `*p` dereferences p to get the value of y, which is 20.
+
+[Reference](https://en.cppreference.com/w/c/language/pointer)
+
+#### Q138. What is the purpose of `memcpy()` function?
+
+- [ ] To allocate memory
+- [x] To copy a block of memory from source to destination
+- [ ] To compare memory blocks
+- [ ] To free memory
+
+**Explanation:**
+`memcpy()` copies n bytes from source memory to destination memory. It's faster than copying element by element but doesn't handle overlapping memory regions (use `memmove()` for that).
+
+[Reference](https://en.cppreference.com/w/c/string/byte/memcpy)
+
+#### Q139. What is the output of this code?
+
+```c
+int x = 5;
+printf("%d", x | 3);
+```
+
+- [ ] 3
+- [ ] 5
+- [x] 7
+- [ ] 8
+
+**Explanation:**
+The `|` operator is bitwise OR. 5 in binary is 101, 3 is 011. 101 | 011 = 111 = 7.
+
+[Reference](https://en.cppreference.com/w/c/language/operator_arithmetic)
+
+#### Q140. What is the difference between `strcmp()` and `strncmp()`?
+
+- [ ] strcmp is case-sensitive, strncmp is not
+- [x] strncmp compares only first n characters
+- [ ] strcmp is faster
+- [ ] There is no difference
+
+**Explanation:**
+`strcmp()` compares entire strings. `strncmp()` compares at most n characters, which is useful for comparing string prefixes or limiting comparison length.
+
+[Reference](https://en.cppreference.com/w/c/string/byte/strncmp)
