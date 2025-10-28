@@ -2256,6 +2256,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/xingarr"><img src="https://avatars.githubusercontent.com/u/30895606?v=4?s=100" width="100px;" alt="Xin@@Gar"/><br /><sub><b>Xin@@Gar</b></sub></a><br /><a href="#design-xingarr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=xingarr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KartikMehra22"><img src="https://avatars.githubusercontent.com/u/185420266?v=4?s=100" width="100px;" alt="KartikMehra22"/><br /><sub><b>KartikMehra22</b></sub></a><br /><a href="#design-KartikMehra22" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KartikMehra22" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
