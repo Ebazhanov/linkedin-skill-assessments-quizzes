@@ -1778,3 +1778,10 @@ echo $a;
 - [x] World
 - [ ] HelloWorld
 - [ ] An error occurs
+
+#### Q131. You want to retrieve input from an input field with the name "city" in a form that's submitted using the POST method. Which superglobal variable should you use?
+
+- [x] $_POST['city']
+- [ ] $_POST[city]
+- [ ] $POST['city']
+- [ ] $_Post['city']
