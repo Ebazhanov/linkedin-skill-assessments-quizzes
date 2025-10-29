@@ -22,7 +22,7 @@ Django comes with a robust cache system that lets you save dynamic pages, so the
 - [ ] validate(); Model
 - [ ] group(); Model
 - [ ] validate(); Form
-- [x] clean(); Field
+- [x] clean(); Model
 
 #### Q4. A client wants their site to be able to load "Rick & Morty" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?
 
@@ -55,18 +55,17 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 ```
 
 #### Q5. How do you determine at startup time if a piece of middleware should be used?
-
 - [x] Raise MiddlewareNotUsed in the **init** function of your middleware.
 - [ ] Implement the not_used method in your middleware class.
 - [ ] List the middleware beneath an entry of django.middleware.IgnoredMiddleware.
 - [ ] Write code to remove the middleware from the settings in [app]/**init**.py.
 
-#### Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?
+#### Q6. How do you turn off Django's automatic HTML escaping for part of a web page?
 
 - [ ] Place that section between paragraph tags containing the autoescape=off switch.
-- [ ] Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.
+- [x] Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.
 - [ ] Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.
-- [x] You don't need to do anything—autoescaping is off by default.
+- [ ] You don't need to do anything—autoescaping is off by default.
 
 #### Q7. Which step would NOT help you troubleshoot the error "django-admin: command not found"?
 
@@ -180,8 +179,8 @@ name = models.CharField(max_length=100)
 
 - [ ] Set a session variable.
 - [ ] Use a global variable.
-- [ ] Add a dictionary to the template context.
-- [x] Use RequestContext.
+- [x] Add a dictionary to the template context.
+- [ ] Use RequestContext.
 
 #### Q19. Should you create a custom user model for new projects?
 
@@ -192,10 +191,10 @@ name = models.CharField(max_length=100)
 
 #### Q20. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?
 
-- [x] actions
+- [ ] actions
 - [ ] admin
 - [ ] mezcal
-- [ ] inlines
+- [x] inlines
 
 #### Q21. Why are QuerySets considered "lazy"?
 
@@ -313,7 +312,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [ ] A
+- [x] A
 
 ```python
 class Author (models.model):
@@ -322,7 +321,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [x] B
+- [ ] B
 
 ```python
 class Author (models.model):
@@ -498,9 +497,9 @@ model=Planet
 ```
 
 - [ ] line 1
-- [x] It depends on how many results return by query.
+- [ ] It depends on how many results return by query.
 - [ ] It depends on cache.
-- [ ] line 2
+- [x] line 2
 
 #### Q51. You are building a web application using a React front end and a Django back end. For what will you need to provision?\*\*
 
@@ -548,9 +547,9 @@ Reference link:- https://wsgi.tutorial.codepoint.net/intro
 
 #### Q57. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
-- [x] There's less chance of introducing bugs since SQLite already works out the box
+- [ ] There's less chance of introducing bugs since SQLite already works out the box
 - [ ] It's fine, you just need to keep both instances synchronized
-- [ ] It's a bad idea and could lead to issues down the road
+- [x] It's a bad idea and could lead to issues down the road
 - [ ] It's the most efficient way to build a project
 
 #### Q58. Why might you want to write a custom model Manager?
@@ -655,9 +654,9 @@ Reference link:- https://wsgi.tutorial.codepoint.net/intro
 
 #### Q71. If you left the 8080 off the command python manage.py runserver 8080 what port would Django use as default?
 
-- [x] 8080
+- [ ] 8080
 - [ ] 80
-- [ ] 8000
+- [x] 8000
 - [ ] It would fail to start
 
 #### Q72. Which statement about Django apps is false?
@@ -753,8 +752,8 @@ class Book(models.Model):
 
 #### Q80. What method can you use to check if form data has been changed when using a Form instance?
 
-- [x] changed_data()
-- [ ] has changed()
+- [ ] changed_data()
+- [x] has_changed()
 - [ ] has_updated()
 - [ ] is_modified()
 
@@ -762,8 +761,8 @@ class Book(models.Model):
 
 - [ ] It's the most efficient way to build a project
 - [ ] There's less chance of introducing bugs since SQLite already works out of the box
-- [ ] It's a bad idea and could lead to issues down the road
-- [x] It's fine, you just need to keep both instances synchronized
+- [x] It's a bad idea and could lead to issues down the road
+- [ ] It's fine, you just need to keep both instances synchronized
 
 #### Q82. How does Django handle URL routing?
 
@@ -818,9 +817,9 @@ class Book(models.Model):
 
 #### Q89. If you left the 8080 off the command python manage.py runserver 8080 what port would Django use as default?
 
-- [x] 8080
+- [ ] 8080
 - [ ] 80
-- [ ] 8000
+- [x] 8000
 - [ ] It would fail to start
 
 #### Q90. What is the purpose of Django's Object-Relational Mapping (ORM)?
