@@ -2673,7 +2673,7 @@ The code defines a `square` function to calculate the square of a number. It the
 - [ ] Error
 - [ ] Hello and
 
-### Q185. What will be the ouput of the following code snippet?
+#### Q185. What will be the ouput of the following code snippet?
 
 ```python
 def outer_func(x):
@@ -2695,7 +2695,7 @@ print(closure_func())
 
 **Explanation**: When `outer_func(10)` is called, `y` is set to 11 within `outer_func`. The `inner_func`, which has access to `outer_func`'s scope, returns `y` + `x`. When `closure_func()` is called, it uses `y` = `11` (from `outer_func`) and `x` = `10` from the global scope, not from the function’s argument. Therefore, `closure_func()` returns 11 + 10 = 21.
 
-### Q186. What is the output of the following Python code?
+#### Q186. What is the output of the following Python code?
 
 ```python
 x = 5
@@ -2720,7 +2720,7 @@ After the function call, the print statement outside the function refers to the 
 
 Therefore, the output is 10, 5.
 
-### Q187. What is the output of the following Python code?
+#### Q187. What is the output of the following Python code?
 
 ```python
 def func(a, b=2, c=3):
@@ -2752,7 +2752,7 @@ Therefore, the output is:
 10 20 3
 10 20 30
 
-### Q188. What is the output of the following Python code?
+#### Q188. What is the output of the following Python code?
 
 ```python
 x = [1, 2, 3]
@@ -2773,7 +2773,7 @@ In Python, assigning y = x does not create a new list; both x and y refer to the
 So when we call y.append(4), it modifies the original list that both variables point to.
 Thus, printing x will display the updated list [1, 2, 3, 4].
 
-### Q189. What is the output of the following Python code?
+#### Q189. What is the output of the following Python code?
 
 ```python
 def add_item(item, item_list=[]):
