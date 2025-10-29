@@ -1547,19 +1547,19 @@ const int *p;
 #### Q104. 这段代码的输出是什么?
 
 ```c
-int arr[5] = {1, 2, 3};
+int arr[5] = {1, 2, 3, 4, 5};
 printf("%d", arr[4]);
 ```
 
-- [x] 0
+- [ ] 1
+- [ ] 2
 - [ ] 3
-- [ ] 垃圾值
-- [ ] 编译错误
+- [x] 4
 
 **解释:**
-当数组部分初始化时,剩余元素自动初始化为0。所以arr[3]和arr[4]都是0。
+`arr`是指向第一个元素的指针。`arr + 3`指向第4个元素(索引3)。`*`运算符解引用它以获取值4。
 
-[参考](https://en.cppreference.com/w/c/language/array_initialization)
+[参考](https://en.cppreference.com/w/c/language/operator_member_access)
 
 #### Q105. `extern`关键字做什么?
 
@@ -1629,7 +1629,8 @@ printf("%d", x << 2);
 #### Q110. 这段代码的输出是什么?
 
 ```c
-int x = 10, y = 20;
+int x = 10;
+int y = 20;
 int *p1 = &x, *p2 = &y;
 *p1 = *p2;
 printf("%d %d", x, y);
@@ -1827,7 +1828,7 @@ printf("%p %p", (void*)&x, (void*)p);
 #### Q124. 这段代码的输出是什么?
 
 ```c
-int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+int arr[3][3] = { {1,2,3},{4,5,6},{7,8,9} };
 printf("%d", arr[1][2]);
 ```
 

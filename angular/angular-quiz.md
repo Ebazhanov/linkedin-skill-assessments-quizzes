@@ -1205,7 +1205,7 @@ export class TruncatePipe implements PipeTransform {
 
 <div class="tab"></div>
 
-- [ ] {{ width: tabWidth }}
+- [ ] <code>{{ width: tabWidth }}</code>
 - [ ] [width]="tabWidth"
 - [ ] [inline.width]="tabWidth"
 - [x] [style.width.px]="tabWidth"
@@ -1481,7 +1481,7 @@ export class DateCardComponent {
 }
 ```
 
-- [x] `{{ currentYear() }}`
-- [ ] `{{ component.currentYear() }}`
-- [ ] `{{ currentYear }}`
+- [x] `{% raw %}{{ currentYear() }}{% endraw %}`
+- [ ] `{% raw %}{{ component.currentYear() }}{% endraw %}`
+- [ ] `{% raw %}{{ currentYear }}{% endraw %}`
 - [ ] Class functions cannot be called from template syntax.
