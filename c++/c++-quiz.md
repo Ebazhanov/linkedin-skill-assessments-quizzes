@@ -2861,7 +2861,6 @@ The range-based for loop with `auto&` modifies each element in place. v[2] (orig
 
 [Reference](https://en.cppreference.com/w/cpp/utility/variant)
 
-
 #### Q181. What is `std::any` in C++17?
 
 - [ ] Any type of variable
@@ -3061,7 +3060,7 @@ int main() {
 - [ ] Undefined behavior
 
 **Explanation:**
-Due to virtual function polymorphism, the Derived class's show() is called even though the pointer is of type Base*.
+Due to virtual function polymorphism, the Derived class's show() is called even though the pointer is of type Base\*.
 
 [Reference](https://en.cppreference.com/w/cpp/language/virtual)
 
@@ -3346,7 +3345,7 @@ int main() {
 - [ ] Compilation error
 
 **Explanation:**
-pp is a pointer to pointer. **pp dereferences twice to get the value of x, which is 10.
+pp is a pointer to pointer. \*\*pp dereferences twice to get the value of x, which is 10.
 
 [Reference](https://en.cppreference.com/w/cpp/language/pointer)
 
