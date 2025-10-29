@@ -2565,3 +2565,905 @@ int main() {
 - [ ] 将`counter++`更改为`++counter`以实现原子操作
 
 [参考](https://en.cppreference.com/w/cpp/thread/mutex)
+
+#### Q161. C++11中`std::move`的作用是什么？
+
+- [ ] 将对象复制到新位置
+- [x] 将对象转换为右值引用，启用移动语义
+- [ ] 物理上将内存从一个地址移动到另一个地址
+- [ ] 删除对象并创建新对象
+
+**解释：**
+`std::move`是一个转换函数，它产生其参数的右值引用，允许资源被移动而不是复制。它本身并不实际移动任何东西，但使移动构造函数和移动赋值运算符能够被调用。
+
+[参考](https://en.cppreference.com/w/cpp/utility/move)
+
+#### Q162. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> v1 = {1, 2, 3};
+    std::vector<int> v2 = std::move(v1);
+    std::cout << v1.size() << " " << v2.size();
+    return 0;
+}
+```
+
+- [ ] 3 3
+- [x] 0 3
+- [ ] 3 0
+- [ ] 编译错误
+
+**解释：**
+在`std::move(v1)`之后，v1处于有效但未指定的状态。通常情况下，它会变为空（大小为0），而v2接管这些元素的所有权。
+
+[参考](https://en.cppreference.com/w/cpp/utility/move)
+
+#### Q163. C++中的lambda表达式是什么？
+
+- [ ] 数学函数
+- [x] 可以从其封闭作用域捕获变量的匿名函数对象
+- [ ] 模板函数
+- [ ] 宏定义
+
+**解释：**
+Lambda表达式是C++11引入的特性，允许你编写内联匿名函数。它们可以捕获周围作用域的变量，通常与STL算法一起使用。
+
+[参考](https://en.cppreference.com/w/cpp/language/lambda)
+
+#### Q164. C++11中`auto`关键字的作用是什么？
+
+- [ ] 使变量具有自动存储期
+- [x] 从初始化器自动推导变量的类型
+- [ ] 使函数内联
+- [ ] 声明全局变量
+
+**解释：**
+C++11中的`auto`关键字能够从初始化器自动推导类型，使代码更简洁、更易于维护。
+
+[参考](https://en.cppreference.com/w/cpp/language/auto)
+
+#### Q165. `std::unique_ptr`和`std::shared_ptr`之间有什么区别？
+
+- [x] unique_ptr具有独占所有权，shared_ptr允许多个所有者
+- [ ] unique_ptr更快但不太安全
+- [ ] shared_ptr只能用于类
+- [ ] 没有区别
+
+**解释：**
+`std::unique_ptr`提供独占所有权——只有一个unique_ptr可以拥有一个资源。`std::shared_ptr`使用引用计数允许多个shared_ptr拥有同一资源。
+
+[参考](https://en.cppreference.com/w/cpp/memory/unique_ptr)
+
+#### Q166. C++中的RAII是什么？
+
+- [ ] 随机访问迭代器接口
+- [x] 资源获取即初始化
+- [ ] 递归算法实现接口
+- [ ] 运行时分配和初始化
+
+**解释：**
+RAII是C++编程惯用法，资源获取与对象生命周期绑定。资源在构造函数中获取，在析构函数中释放，确保正确清理。
+
+[参考](https://en.cppreference.com/w/cpp/language/raii)
+
+#### Q167. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    auto lambda = [x]() mutable { x += 10; return x; };
+    std::cout << lambda() << " " << x;
+    return 0;
+}
+```
+
+- [ ] 5 5
+- [x] 15 5
+- [ ] 15 15
+- [ ] 5 15
+
+**解释：**
+lambda按值捕获x。`mutable`关键字允许修改捕获的副本。原始的x保持不变。
+
+[参考](https://en.cppreference.com/w/cpp/language/lambda)
+
+#### Q168. C++11中的`constexpr`是什么？
+
+- [ ] 只能用于整数的常量表达式
+- [x] 指定函数或变量可以在编译时求值
+- [ ] 定义常量的宏
+- [ ] 声明常量指针的关键字
+
+**解释：**
+`constexpr`表示值或函数可以在编译时求值，实现编译时计算和优化。
+
+[参考](https://en.cppreference.com/w/cpp/language/constexpr)
+
+#### Q169. `std::forward`的目的是什么？
+
+- [ ] 在内存中向前移动对象
+- [x] 保留转发参数的值类别（左值/右值）
+- [ ] 向前遍历容器
+- [ ] 声明前向声明
+
+**解释：**
+`std::forward`在模板函数中使用，用于完美转发参数同时保留其值类别，这对实现完美转发至关重要。
+
+[参考](https://en.cppreference.com/w/cpp/utility/forward)
+
+#### Q170. 什么是可变参数模板？
+
+- [ ] 具有不同返回类型的模板
+- [x] 接受可变数量模板参数的模板
+- [ ] 可以多次实例化的模板
+- [ ] 具有可选参数的模板
+
+**解释：**
+可变参数模板是C++11引入的特性，允许模板接受任意数量的模板参数，实现灵活的泛型编程。
+
+[参考](https://en.cppreference.com/w/cpp/language/parameter_pack)
+
+#### Q171. `nullptr`代表什么？
+
+- [ ] 空字符
+- [x] 类型为std::nullptr_t的空指针常量
+- [ ] 空字符串
+- [ ] 零值
+
+**解释：**
+`nullptr`是C++11引入的关键字，代表空指针。它是类型安全的，不同于NULL或0。
+
+[参考](https://en.cppreference.com/w/cpp/language/nullptr)
+
+#### Q172. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+#include <memory>
+
+int main() {
+    std::shared_ptr<int> p1 = std::make_shared<int>(42);
+    std::shared_ptr<int> p2 = p1;
+    std::cout << p1.use_count();
+    return 0;
+}
+```
+
+- [ ] 1
+- [x] 2
+- [ ] 42
+- [ ] 0
+
+**解释：**
+p1和p2共享同一个整数的所有权，因此引用计数为2。
+
+[参考](https://en.cppreference.com/w/cpp/memory/shared_ptr)
+
+#### Q173. C++17中的`std::optional`是什么？
+
+- [ ] 函数中的可选参数
+- [x] 可能包含或不包含值的包装器
+- [ ] 可选编译的模板
+- [ ] 可选类型的关键字
+
+**解释：**
+`std::optional`是一个模板类，表示可选值——它要么包含一个值，要么为空，提供类型安全的方式来表示"无值"。
+
+[参考](https://en.cppreference.com/w/cpp/utility/optional)
+
+#### Q174. C++17中的结构化绑定是什么？
+
+```cpp
+auto [x, y, z] = std::make_tuple(1, 2, 3);
+```
+
+- [ ] 将结构绑定在一起的方法
+- [x] 将类似元组的对象解包为单个变量的特性
+- [ ] 创建结构化数据的方法
+- [ ] 结构成员的绑定
+
+**解释：**
+结构化绑定允许将对象分解为其组成元素，使处理元组、对或结构体时代码更易读。
+
+[参考](https://en.cppreference.com/w/cpp/language/structured_binding)
+
+#### Q175. C++17中的`std::string_view`是什么？
+
+- [ ] GUI中字符串的视图
+- [x] 避免复制的字符串非拥有引用
+- [ ] 只能查看不能修改的字符串
+- [ ] 用于显示字符串的视图类
+
+**解释：**
+`std::string_view`提供对字符串的轻量级非拥有引用，避免不必要的复制并提高性能。
+
+[参考](https://en.cppreference.com/w/cpp/string/basic_string_view)
+
+#### Q176. C++20中的concepts是什么？
+
+- [ ] 编程中的抽象概念
+- [x] 模板参数的命名需求集
+- [ ] 概念设计模式
+- [ ] 文档注释
+
+**解释：**
+Concepts是C++20特性，允许你为模板参数指定约束，使模板代码更易读并提供更好的错误消息。
+
+[参考](https://en.cppreference.com/w/cpp/language/constraints)
+
+#### Q177. C++20中的三路比较运算符（<=>）是什么？
+
+- [ ] 三个值的比较
+- [x] 返回排序信息（小于、等于、大于）的运算符
+- [ ] 三个独立的比较运算符
+- [ ] 三元比较
+
+**解释：**
+飞船运算符（<=>）执行三路比较并返回排序类别，简化了比较运算符的定义。
+
+[参考](https://en.cppreference.com/w/cpp/language/operator_comparison)
+
+#### Q178. C++20中的`std::span`是什么？
+
+- [ ] 时间跨度测量
+- [x] 连续对象序列的非拥有视图
+- [ ] 生成树数据结构
+- [ ] HTML中的span元素
+
+**解释：**
+`std::span`提供对连续对象序列的视图而不拥有它们，用于在不复制的情况下传递类数组数据。
+
+[参考](https://en.cppreference.com/w/cpp/container/span)
+
+#### Q179. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> v = {1, 2, 3, 4, 5};
+    for (auto& x : v) {
+        x *= 2;
+    }
+    std::cout << v[2];
+    return 0;
+}
+```
+
+- [ ] 3
+- [x] 6
+- [ ] 2
+- [ ] 12
+
+**解释：**
+带有`auto&`的基于范围的for循环就地修改每个元素。v[2]（原本是3）变为6。
+
+[参考](https://en.cppreference.com/w/cpp/language/range-for)
+
+#### Q180. C++17中的`std::variant`是什么？
+
+- [ ] 可以变化的变量
+- [x] 可以保存几种类型之一的类型安全联合
+- [ ] 类的变体
+- [ ] 变量模板
+
+**解释：**
+`std::variant`是类型安全的联合，可以保存几种指定类型之一的值，提供比C联合更安全的替代方案。
+
+[参考](https://en.cppreference.com/w/cpp/utility/variant)
+
+#### Q181. C++17中的`std::any`是什么？
+
+- [ ] 任何类型的变量
+- [x] 任何类型单个值的类型安全容器
+- [ ] 通配符类型
+- [ ] 可选类型
+
+**解释：**
+`std::any`可以存储任何可复制构造类型的单个值，提供带运行时类型检查的类型安全存储。
+
+[参考](https://en.cppreference.com/w/cpp/utility/any)
+
+#### Q182. `std::array`和C风格数组之间有什么区别？
+
+- [x] std::array知道自己的大小并提供成员函数
+- [ ] std::array更慢
+- [ ] C风格数组更安全
+- [ ] 没有区别
+
+**解释：**
+`std::array`是封装固定大小数组的容器，提供大小信息和STL容器接口，同时保持C风格数组的性能。
+
+[参考](https://en.cppreference.com/w/cpp/container/array)
+
+#### Q183. 什么是完美转发？
+
+- [ ] 无错误的转发
+- [x] 将参数传递给另一个函数时保留参数的值类别
+- [ ] 快速参数传递
+- [ ] 函数的前向声明
+
+**解释：**
+完美转发使用`std::forward`和通用引用将参数传递给另一个函数，同时保留其值类别（左值或右值）。
+
+[参考](https://en.cppreference.com/w/cpp/utility/forward)
+
+#### Q184. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+template<typename T>
+void func(T&& x) {
+    std::cout << std::is_lvalue_reference<T>::value;
+}
+
+int main() {
+    int a = 5;
+    func(a);
+    return 0;
+}
+```
+
+- [x] 1
+- [ ] 0
+- [ ] 5
+- [ ] 编译错误
+
+**解释：**
+当左值传递给通用引用时，T被推导为左值引用，所以`std::is_lvalue_reference<T>::value`为true（1）。
+
+[参考](https://en.cppreference.com/w/cpp/language/reference)
+
+#### Q185. C++17中的`std::invoke`是什么？
+
+- [ ] 调用程序的函数
+- [x] 使用给定参数调用任何可调用对象的实用工具
+- [ ] 方法调用运算符
+- [ ] 构造函数的调用器
+
+**解释：**
+`std::invoke`提供统一的方式来调用任何可调用对象（函数、函数指针、成员函数、函数对象）及其参数。
+
+[参考](https://en.cppreference.com/w/cpp/utility/functional/invoke)
+
+#### Q186. C++17中的`if constexpr`是什么？
+
+- [ ] 常量if语句
+- [x] 在编译时丢弃分支的编译时条件
+- [ ] 必须是常量的if语句
+- [ ] 带if的constexpr函数
+
+**解释：**
+`if constexpr`在编译时评估条件，只实例化选中的分支，在模板元编程中很有用。
+
+[参考](https://en.cppreference.com/w/cpp/language/if)
+
+#### Q187. C++17中的折叠表达式是什么？
+
+- [ ] 折叠代码的表达式
+- [x] 将二元运算符应用于参数包所有元素的方法
+- [ ] 折叠算法
+- [ ] 用于折叠容器的表达式
+
+**解释：**
+折叠表达式为可变参数模板中的参数包应用二元运算符提供简洁的语法。
+
+[参考](https://en.cppreference.com/w/cpp/language/fold)
+
+#### Q188. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int* p = arr;
+    std::cout << *(p + 3);
+    return 0;
+}
+```
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+**解释：**
+指针算术：p + 3指向第4个元素（索引3），即4。
+
+[参考](https://en.cppreference.com/w/cpp/language/operator_arithmetic)
+
+#### Q189. C++17中的`std::filesystem`是什么？
+
+- [ ] 文件系统驱动程序
+- [x] 在文件系统和路径上执行操作的库
+- [ ] 虚拟文件系统
+- [ ] 文件流类
+
+**解释：**
+`std::filesystem`提供在文件系统及其组件（如路径、常规文件和目录）上执行操作的功能。
+
+[参考](https://en.cppreference.com/w/cpp/filesystem)
+
+#### Q190. `std::atomic`用于什么？
+
+- [ ] 原子能计算
+- [x] 无锁的共享变量线程安全操作
+- [ ] 原子数据类型
+- [ ] 对原子的不可分割操作
+
+**解释：**
+`std::atomic`提供对共享变量的原子操作，确保线程安全访问而无需显式锁定。
+
+[参考](https://en.cppreference.com/w/cpp/atomic/atomic)
+
+#### Q191. `std::mutex`和`std::recursive_mutex`之间有什么区别？
+
+- [x] recursive_mutex可以被同一线程多次锁定
+- [ ] mutex更快
+- [ ] recursive_mutex已弃用
+- [ ] 没有区别
+
+**解释：**
+`std::recursive_mutex`允许同一线程多次锁定它，而`std::mutex`如果同一线程尝试两次锁定会导致死锁。
+
+[参考](https://en.cppreference.com/w/cpp/thread/recursive_mutex)
+
+#### Q192. C++11中的`std::future`是什么？
+
+- [ ] C++的未来版本
+- [x] 提供对异步操作结果访问的对象
+- [ ] 基于时间的类
+- [ ] 未来声明
+
+**解释：**
+`std::future`用于检索通过`std::async`或`std::promise`启动的异步操作的结果。
+
+[参考](https://en.cppreference.com/w/cpp/thread/future)
+
+#### Q193. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+class Base {
+public:
+    virtual void show() { std::cout << "Base"; }
+};
+
+class Derived : public Base {
+public:
+    void show() override { std::cout << "Derived"; }
+};
+
+int main() {
+    Base* b = new Derived();
+    b->show();
+    delete b;
+    return 0;
+}
+```
+
+- [ ] Base
+- [x] Derived
+- [ ] 编译错误
+- [ ] 未定义行为
+
+**解释：**
+由于虚函数多态性，即使指针类型是Base*，也会调用Derived类的show()。
+
+[参考](https://en.cppreference.com/w/cpp/language/virtual)
+
+#### Q194. `std::enable_if`用于什么？
+
+- [ ] 启用if语句
+- [x] 基于SFINAE的条件模板实例化
+- [ ] 启用功能
+- [ ] 检查是否启用某些内容
+
+**解释：**
+`std::enable_if`用于SFINAE（替换失败不是错误）来有条件地启用或禁用模板特化。
+
+[参考](https://en.cppreference.com/w/cpp/types/enable_if)
+
+#### Q195. C++11中的`std::tuple`是什么？
+
+- [ ] 两元素对
+- [x] 异构值的固定大小集合
+- [ ] 值的三元组
+- [ ] 数学中的元组
+
+**解释：**
+`std::tuple`是可以保存不同类型元素的固定大小集合，将`std::pair`推广到任意数量的元素。
+
+[参考](https://en.cppreference.com/w/cpp/utility/tuple)
+
+#### Q196. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 10;
+    int& ref = x;
+    ref = 20;
+    std::cout << x;
+    return 0;
+}
+```
+
+- [ ] 10
+- [x] 20
+- [ ] 编译错误
+- [ ] 未定义
+
+**解释：**
+ref是x的引用。修改ref直接修改x，所以x变为20。
+
+[参考](https://en.cppreference.com/w/cpp/language/reference)
+
+#### Q197. `std::chrono`用于什么？
+
+- [ ] 按时间顺序排序
+- [x] 时间实用工具，包括时钟、时间点和持续时间
+- [ ] 计时器函数
+- [ ] 慢性病管理
+
+**解释：**
+`std::chrono`是用于时间相关操作的库，提供具有类型安全的时钟、时间点和持续时间。
+
+[参考](https://en.cppreference.com/w/cpp/chrono)
+
+#### Q198. C++11中的`std::regex`是什么？
+
+- [ ] 正则表达式引擎
+- [x] 用于正则表达式模式匹配的库
+- [ ] 文本替换工具
+- [ ] 字符串格式化程序
+
+**解释：**
+`std::regex`为C++中的模式匹配和文本处理提供正则表达式支持。
+
+[参考](https://en.cppreference.com/w/cpp/regex)
+
+#### Q199. `std::initializer_list`是什么？
+
+- [ ] 初始化器列表
+- [x] 用于访问const T数组的轻量级代理对象
+- [ ] 初始化函数
+- [ ] 列表构造函数
+
+**解释：**
+`std::initializer_list`允许函数接受大括号括起的值列表，实现统一初始化语法。
+
+[参考](https://en.cppreference.com/w/cpp/utility/initializer_list)
+
+#### Q200. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    const int x = 10;
+    int* p = const_cast<int*>(&x);
+    *p = 20;
+    std::cout << x;
+    return 0;
+}
+```
+
+- [x] 10（未定义行为）
+- [ ] 20
+- [ ] 编译错误
+- [ ] 0
+
+**解释：**
+这是未定义行为。通过const_cast修改const对象会导致不可预测的结果。编译器可能基于const假设进行优化。
+
+[参考](https://en.cppreference.com/w/cpp/language/const_cast)
+
+#### Q201. C++11中的`std::function`是什么？
+
+- [ ] 函数声明
+- [x] 通用多态函数包装器
+- [ ] 函数指针
+- [ ] 函数式编程库
+
+**解释：**
+`std::function`是类型擦除包装器，可以存储具有特定签名的任何可调用对象（函数、lambda、函数对象）。
+
+[参考](https://en.cppreference.com/w/cpp/utility/functional/function)
+
+#### Q202. `std::bind`用于什么？
+
+- [ ] 绑定变量
+- [x] 通过将参数绑定到函数来创建新的可调用对象
+- [ ] 绑定类
+- [ ] 绑定内存
+
+**解释：**
+`std::bind`通过将某些参数绑定到函数来创建新的函数对象，用于部分函数应用。
+
+[参考](https://en.cppreference.com/w/cpp/utility/functional/bind)
+
+#### Q203. `std::unordered_map`基于什么？
+
+- [ ] 二叉搜索树
+- [x] 哈希表
+- [ ] 链表
+- [ ] 数组
+
+**解释：**
+`std::unordered_map`使用哈希表实现，与`std::map`的O(log n)相比，提供平均O(1)的查找时间。
+
+[参考](https://en.cppreference.com/w/cpp/container/unordered_map)
+
+#### Q204. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    std::cout << sizeof(arr) / sizeof(arr[0]);
+    return 0;
+}
+```
+
+- [ ] 4
+- [x] 5
+- [ ] 20
+- [ ] 1
+
+**解释：**
+sizeof(arr)给出总字节数，sizeof(arr[0])给出每个元素的字节数。相除得到元素数量：5。
+
+[参考](https://en.cppreference.com/w/cpp/language/sizeof)
+
+#### Q205. C++14中的`std::make_unique`是什么？
+
+- [ ] 唯一标识符生成器
+- [x] 创建std::unique_ptr对象的函数
+- [ ] 唯一性检查器
+- [ ] 唯一值创建器
+
+**解释：**
+`std::make_unique`是创建并返回`std::unique_ptr`的实用函数，提供异常安全性和更清晰的语法。
+
+[参考](https://en.cppreference.com/w/cpp/memory/unique_ptr/make_unique)
+
+#### Q206. C++14中的`std::exchange`是什么？
+
+- [ ] 值交换程序
+- [x] 原子地替换值并返回旧值
+- [ ] 交换运算符
+- [ ] 交换函数
+
+**解释：**
+`std::exchange`在单个操作中替换对象的值并返回其旧值。
+
+[参考](https://en.cppreference.com/w/cpp/utility/exchange)
+
+#### Q207. C++17中的`std::apply`是什么？
+
+- [ ] 应用程序启动器
+- [x] 使用元组参数调用可调用对象
+- [ ] 应用函数
+- [ ] 函数应用器
+
+**解释：**
+`std::apply`使用元组参数调用可调用对象，将元组解包为函数参数。
+
+[参考](https://en.cppreference.com/w/cpp/utility/apply)
+
+#### Q208. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    int y = ++x + x++;
+    std::cout << y;
+    return 0;
+}
+```
+
+- [ ] 11
+- [ ] 12
+- [x] 未定义行为
+- [ ] 13
+
+**解释：**
+在序列点之间多次修改x会导致未定义行为。结果不可预测。
+
+[参考](https://en.cppreference.com/w/cpp/language/eval_order)
+
+#### Q209. C++11中的`std::decay`是什么？
+
+- [ ] 衰减函数
+- [x] 应用数组到指针、函数到指针转换并删除cv限定符
+- [ ] 弃用标记
+- [ ] 衰减常数
+
+**解释：**
+`std::decay`应用类型转换，类似于按值传递参数时发生的转换。
+
+[参考](https://en.cppreference.com/w/cpp/types/decay)
+
+#### Q210. C++11中的`std::conditional`是什么？
+
+- [ ] 条件语句
+- [x] 基于编译时布尔值选择一种类型或另一种类型
+- [ ] 条件运算符
+- [ ] 条件检查器
+
+**解释：**
+`std::conditional`是元函数，根据编译时布尔条件选择两种类型之一。
+
+[参考](https://en.cppreference.com/w/cpp/types/conditional)
+
+#### Q211. `std::is_same`用于什么？
+
+- [ ] 检查值是否相同
+- [x] 在编译时检查两种类型是否相同
+- [ ] 比较对象
+- [ ] 检查相同性
+
+**解释：**
+`std::is_same`是类型特征，在编译时检查两种类型是否相同。
+
+[参考](https://en.cppreference.com/w/cpp/types/is_same)
+
+#### Q212. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 10;
+    int* p = &x;
+    int** pp = &p;
+    std::cout << **pp;
+    return 0;
+}
+```
+
+- [x] 10
+- [ ] x的地址
+- [ ] p的地址
+- [ ] 编译错误
+
+**解释：**
+pp是指向指针的指针。**pp解引用两次以获得x的值，即10。
+
+[参考](https://en.cppreference.com/w/cpp/language/pointer)
+
+#### Q213. `std::remove_if`用于什么？
+
+- [ ] 删除if语句
+- [x] 从范围中删除满足谓词的元素
+- [ ] 有条件地删除文件
+- [ ] 删除条件
+
+**解释：**
+`std::remove_if`从范围中删除满足给定谓词的元素，与erase一起使用以实际删除。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/remove)
+
+#### Q214. `std::transform`用于什么？
+
+- [ ] 转换代码
+- [x] 将函数应用于范围并将结果存储在另一个范围中
+- [ ] 转换类型
+- [ ] 执行转换
+
+**解释：**
+`std::transform`将给定函数应用于元素范围，并将结果存储在另一个范围中。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/transform)
+
+#### Q215. `std::accumulate`用于什么？
+
+- [ ] 累积错误
+- [x] 计算范围元素的和或折叠
+- [ ] 累积数据
+- [ ] 添加数字
+
+**解释：**
+`std::accumulate`计算元素范围的和，或应用二元操作来折叠范围。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/accumulate)
+
+#### Q216. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    int y = 10;
+    int z = x > y ? x : y;
+    std::cout << z;
+    return 0;
+}
+```
+
+- [ ] 5
+- [x] 10
+- [ ] 1
+- [ ] 0
+
+**解释：**
+三元运算符检查x > y。由于为false，z被赋值为y，即10。
+
+[参考](https://en.cppreference.com/w/cpp/language/operator_other)
+
+#### Q217. `std::copy`用于什么？
+
+- [ ] 复制文件
+- [x] 将元素从一个范围复制到另一个范围
+- [ ] 复制对象
+- [ ] 复制内存
+
+**解释：**
+`std::copy`将元素从源范围复制到目标范围。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/copy)
+
+#### Q218. `std::find`用于什么？
+
+- [ ] 查找文件
+- [x] 在范围中查找值的第一次出现
+- [ ] 搜索模式
+- [ ] 定位对象
+
+**解释：**
+`std::find`在范围中搜索值的第一次出现，并返回指向它的迭代器。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/find)
+
+#### Q219. `std::sort`基于什么？
+
+- [ ] 冒泡排序
+- [x] 内省排序（快速排序、堆排序和插入排序的混合）
+- [ ] 仅归并排序
+- [ ] 选择排序
+
+**解释：**
+`std::sort`通常使用内省排序，它结合了快速排序、堆排序和插入排序以获得最佳性能。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/sort)
+
+#### Q220. 这段代码的输出是什么？
+
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+int main() {
+    std::vector<int> v = {5, 2, 8, 1, 9};
+    std::sort(v.begin(), v.end());
+    std::cout << v[2];
+    return 0;
+}
+```
+
+- [ ] 8
+- [ ] 2
+- [x] 5
+- [ ] 1
+
+**解释：**
+排序后，向量变为{1, 2, 5, 8, 9}。v[2]是第三个元素，即5。
+
+[参考](https://en.cppreference.com/w/cpp/algorithm/sort)

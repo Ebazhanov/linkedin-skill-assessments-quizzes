@@ -2565,3 +2565,905 @@ int main() {
 - [ ] Cambiar `counter++` a `++counter` para operación atómica
 
 [Referencia](https://en.cppreference.com/w/cpp/thread/mutex)
+
+#### P161. ¿Cuál es el propósito de `std::move` en C++11?
+
+- [ ] Copiar un objeto a una nueva ubicación
+- [x] Convertir un objeto a una referencia rvalue, habilitando la semántica de movimiento
+- [ ] Mover físicamente la memoria de una dirección a otra
+- [ ] Eliminar un objeto y crear uno nuevo
+
+**Explicación:**
+`std::move` es una conversión que produce una referencia rvalue a su argumento, permitiendo que los recursos se muevan en lugar de copiarse. No mueve nada por sí mismo, pero permite que se llamen constructores de movimiento y operadores de asignación de movimiento.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/move)
+
+#### P162. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> v1 = {1, 2, 3};
+    std::vector<int> v2 = std::move(v1);
+    std::cout << v1.size() << " " << v2.size();
+    return 0;
+}
+```
+
+- [ ] 3 3
+- [x] 0 3
+- [ ] 3 0
+- [ ] Error de compilación
+
+**Explicación:**
+Después de `std::move(v1)`, v1 está en un estado válido pero no especificado. Típicamente, queda vacío (tamaño 0) y v2 toma posesión de los elementos.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/move)
+
+#### P163. ¿Qué es una expresión lambda en C++?
+
+- [ ] Una función matemática
+- [x] Un objeto función anónimo que puede capturar variables de su ámbito envolvente
+- [ ] Una función plantilla
+- [ ] Una definición de macro
+
+**Explicación:**
+Las expresiones lambda, introducidas en C++11, permiten escribir funciones anónimas en línea. Pueden capturar variables del ámbito circundante y se usan a menudo con algoritmos de la STL.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/lambda)
+
+#### P164. ¿Qué hace la palabra clave `auto` en C++11?
+
+- [ ] Hace que una variable tenga duración de almacenamiento automático
+- [x] Deduce automáticamente el tipo de una variable desde su inicializador
+- [ ] Hace que una función sea inline
+- [ ] Declara una variable global
+
+**Explicación:**
+La palabra clave `auto` en C++11 permite la deducción automática de tipo desde el inicializador, haciendo el código más conciso y fácil de mantener.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/auto)
+
+#### P165. ¿Cuál es la diferencia entre `std::unique_ptr` y `std::shared_ptr`?
+
+- [x] unique_ptr tiene propiedad exclusiva, shared_ptr permite múltiples propietarios
+- [ ] unique_ptr es más rápido pero menos seguro
+- [ ] shared_ptr solo puede usarse con clases
+- [ ] No hay diferencia
+
+**Explicación:**
+`std::unique_ptr` proporciona propiedad exclusiva - solo un unique_ptr puede poseer un recurso. `std::shared_ptr` usa conteo de referencias para permitir que múltiples shared_ptrs posean el mismo recurso.
+
+[Referencia](https://en.cppreference.com/w/cpp/memory/unique_ptr)
+
+#### P166. ¿Qué es RAII en C++?
+
+- [ ] Interfaz de Iterador de Acceso Aleatorio
+- [x] Resource Acquisition Is Initialization (La Adquisición de Recursos es Inicialización)
+- [ ] Interfaz de Implementación de Algoritmo Recursivo
+- [ ] Asignación e Inicialización en Tiempo de Ejecución
+
+**Explicación:**
+RAII es un modismo de programación de C++ donde la adquisición de recursos está vinculada al tiempo de vida del objeto. Los recursos se adquieren en constructores y se liberan en destructores, asegurando una limpieza adecuada.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/raii)
+
+#### P167. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    auto lambda = [x]() mutable { x += 10; return x; };
+    std::cout << lambda() << " " << x;
+    return 0;
+}
+```
+
+- [ ] 5 5
+- [x] 15 5
+- [ ] 15 15
+- [ ] 5 15
+
+**Explicación:**
+La lambda captura x por valor. La palabra clave `mutable` permite la modificación de la copia capturada. La x original permanece sin cambios.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/lambda)
+
+#### P168. ¿Qué es `constexpr` en C++11?
+
+- [ ] Una expresión constante que solo puede usarse con enteros
+- [x] Especifica que una función o variable puede evaluarse en tiempo de compilación
+- [ ] Una macro para definir constantes
+- [ ] Una palabra clave para declarar punteros const
+
+**Explicación:**
+`constexpr` indica que un valor o función puede evaluarse en tiempo de compilación, habilitando cómputo y optimización en tiempo de compilación.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/constexpr)
+
+#### P169. ¿Cuál es el propósito de `std::forward`?
+
+- [ ] Mover un objeto hacia adelante en la memoria
+- [x] Preservar la categoría de valor (lvalue/rvalue) de un argumento reenviado
+- [ ] Iterar hacia adelante a través de un contenedor
+- [ ] Declarar una declaración anticipada
+
+**Explicación:**
+`std::forward` se usa en funciones plantilla para reenviar perfectamente argumentos mientras preserva su categoría de valor, esencial para implementar el reenvío perfecto.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/forward)
+
+#### P170. ¿Qué es una plantilla variádica?
+
+- [ ] Una plantilla con tipos de retorno variables
+- [x] Una plantilla que acepta un número variable de parámetros de plantilla
+- [ ] Una plantilla que puede instanciarse múltiples veces
+- [ ] Una plantilla con parámetros opcionales
+
+**Explicación:**
+Las plantillas variádicas, introducidas en C++11, permiten que las plantillas acepten cualquier número de argumentos de plantilla, habilitando programación genérica flexible.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/parameter_pack)
+
+#### P171. ¿Qué representa `nullptr`?
+
+- [ ] Un carácter nulo
+- [x] Una constante de puntero nulo con tipo std::nullptr_t
+- [ ] Una cadena vacía
+- [ ] Valor cero
+
+**Explicación:**
+`nullptr` es una palabra clave introducida en C++11 que representa un puntero nulo. Es seguro en tipos a diferencia de NULL o 0.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/nullptr)
+
+#### P172. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+#include <memory>
+
+int main() {
+    std::shared_ptr<int> p1 = std::make_shared<int>(42);
+    std::shared_ptr<int> p2 = p1;
+    std::cout << p1.use_count();
+    return 0;
+}
+```
+
+- [ ] 1
+- [x] 2
+- [ ] 42
+- [ ] 0
+
+**Explicación:**
+Tanto p1 como p2 comparten la propiedad del mismo entero, por lo que el conteo de referencias es 2.
+
+[Referencia](https://en.cppreference.com/w/cpp/memory/shared_ptr)
+
+#### P173. ¿Qué es `std::optional` en C++17?
+
+- [ ] Un parámetro opcional en una función
+- [x] Un envoltorio que puede o no contener un valor
+- [ ] Una plantilla para compilación opcional
+- [ ] Una palabra clave para tipos opcionales
+
+**Explicación:**
+`std::optional` es una clase plantilla que representa un valor opcional - contiene un valor o está vacío, proporcionando una forma segura en tipos de representar "sin valor".
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/optional)
+
+#### P174. ¿Qué es el enlace estructurado en C++17?
+
+```cpp
+auto [x, y, z] = std::make_tuple(1, 2, 3);
+```
+
+- [ ] Una forma de enlazar estructuras juntas
+- [x] Una característica que desempaqueta objetos tipo tupla en variables individuales
+- [ ] Un método para crear datos estructurados
+- [ ] Un enlace para miembros de estructuras
+
+**Explicación:**
+Los enlaces estructurados permiten descomponer objetos en sus elementos constituyentes, haciendo el código más legible al trabajar con tuplas, pares o estructuras.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/structured_binding)
+
+#### P175. ¿Qué es `std::string_view` en C++17?
+
+- [ ] Una vista de una cadena en una GUI
+- [x] Una referencia no propietaria a una cadena que evita copias
+- [ ] Una cadena que solo puede verse, no modificarse
+- [ ] Una clase de vista para mostrar cadenas
+
+**Explicación:**
+`std::string_view` proporciona una referencia ligera y no propietaria a una cadena, evitando copias innecesarias y mejorando el rendimiento.
+
+[Referencia](https://en.cppreference.com/w/cpp/string/basic_string_view)
+
+#### P176. ¿Qué son los conceptos en C++20?
+
+- [ ] Ideas abstractas en programación
+- [x] Conjuntos nombrados de requisitos para parámetros de plantilla
+- [ ] Patrones de diseño conceptuales
+- [ ] Comentarios de documentación
+
+**Explicación:**
+Los conceptos son una característica de C++20 que permite especificar restricciones en parámetros de plantilla, haciendo el código de plantilla más legible y proporcionando mejores mensajes de error.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/constraints)
+
+#### P177. ¿Qué es el operador de comparación de tres vías (<=>) en C++20?
+
+- [ ] Una comparación de tres valores
+- [x] Un operador que devuelve información de ordenamiento (menor, igual, mayor)
+- [ ] Tres operadores de comparación separados
+- [ ] Una comparación ternaria
+
+**Explicación:**
+El operador nave espacial (<=>) realiza una comparación de tres vías y devuelve una categoría de ordenamiento, simplificando las definiciones de operadores de comparación.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/operator_comparison)
+
+#### P178. ¿Qué es `std::span` en C++20?
+
+- [ ] Una medida de intervalo de tiempo
+- [x] Una vista no propietaria sobre una secuencia contigua de objetos
+- [ ] Una estructura de datos de árbol de expansión
+- [ ] Un elemento span en HTML
+
+**Explicación:**
+`std::span` proporciona una vista sobre una secuencia contigua de objetos sin poseerlos, útil para pasar datos tipo array sin copiar.
+
+[Referencia](https://en.cppreference.com/w/cpp/container/span)
+
+#### P179. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> v = {1, 2, 3, 4, 5};
+    for (auto& x : v) {
+        x *= 2;
+    }
+    std::cout << v[2];
+    return 0;
+}
+```
+
+- [ ] 3
+- [x] 6
+- [ ] 2
+- [ ] 12
+
+**Explicación:**
+El bucle for basado en rango con `auto&` modifica cada elemento en su lugar. v[2] (originalmente 3) se convierte en 6.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/range-for)
+
+#### P180. ¿Qué es `std::variant` en C++17?
+
+- [ ] Una variable que puede variar
+- [x] Una unión segura en tipos que puede contener uno de varios tipos
+- [ ] Una variante de una clase
+- [ ] Una plantilla de variable
+
+**Explicación:**
+`std::variant` es una unión segura en tipos que puede contener un valor de uno de varios tipos especificados, proporcionando una alternativa más segura a las uniones de C.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/variant)
+
+#### P181. ¿Qué es `std::any` en C++17?
+
+- [ ] Cualquier tipo de variable
+- [x] Un contenedor seguro en tipos para valores únicos de cualquier tipo
+- [ ] Un tipo comodín
+- [ ] Un tipo opcional
+
+**Explicación:**
+`std::any` puede almacenar un único valor de cualquier tipo copiable por construcción, proporcionando almacenamiento seguro en tipos con verificación de tipo en tiempo de ejecución.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/any)
+
+#### P182. ¿Cuál es la diferencia entre `std::array` y los arrays de estilo C?
+
+- [x] std::array conoce su tamaño y proporciona funciones miembro
+- [ ] std::array es más lento
+- [ ] Los arrays de estilo C son más seguros
+- [ ] No hay diferencia
+
+**Explicación:**
+`std::array` es un contenedor que encapsula arrays de tamaño fijo, proporcionando información de tamaño e interfaz de contenedor STL mientras mantiene el rendimiento de los arrays de estilo C.
+
+[Referencia](https://en.cppreference.com/w/cpp/container/array)
+
+#### P183. ¿Qué es el reenvío perfecto?
+
+- [ ] Reenvío sin errores
+- [x] Preservar la categoría de valor de los argumentos al pasarlos a otra función
+- [ ] Paso rápido de parámetros
+- [ ] Declaración anticipada de funciones
+
+**Explicación:**
+El reenvío perfecto usa `std::forward` y referencias universales para pasar argumentos a otra función mientras preserva su categoría de valor (lvalue o rvalue).
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/forward)
+
+#### P184. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+template<typename T>
+void func(T&& x) {
+    std::cout << std::is_lvalue_reference<T>::value;
+}
+
+int main() {
+    int a = 5;
+    func(a);
+    return 0;
+}
+```
+
+- [x] 1
+- [ ] 0
+- [ ] 5
+- [ ] Error de compilación
+
+**Explicación:**
+Cuando se pasa un lvalue a una referencia universal, T se deduce como una referencia lvalue, por lo que `std::is_lvalue_reference<T>::value` es verdadero (1).
+
+[Referencia](https://en.cppreference.com/w/cpp/language/reference)
+
+#### P185. ¿Qué es `std::invoke` en C++17?
+
+- [ ] Una función para invocar programas
+- [x] Una utilidad para llamar cualquier objeto invocable con argumentos dados
+- [ ] Un operador de invocación de métodos
+- [ ] Un invocador para constructores
+
+**Explicación:**
+`std::invoke` proporciona una forma uniforme de llamar cualquier invocable (función, puntero a función, función miembro, functor) con argumentos.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/functional/invoke)
+
+#### P186. ¿Qué es `if constexpr` en C++17?
+
+- [ ] Una declaración if constante
+- [x] Un condicional en tiempo de compilación que descarta ramas en tiempo de compilación
+- [ ] Una declaración if que debe ser constante
+- [ ] Una función constexpr con if
+
+**Explicación:**
+`if constexpr` evalúa la condición en tiempo de compilación y solo instancia la rama tomada, útil en metaprogramación de plantillas.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/if)
+
+#### P187. ¿Qué es una expresión de pliegue en C++17?
+
+- [ ] Una expresión que pliega código
+- [x] Una forma de aplicar un operador binario a todos los elementos de un paquete de parámetros
+- [ ] Un algoritmo de plegado
+- [ ] Una expresión para plegar contenedores
+
+**Explicación:**
+Las expresiones de pliegue proporcionan una sintaxis concisa para aplicar operadores binarios a paquetes de parámetros en plantillas variádicas.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/fold)
+
+#### P188. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int* p = arr;
+    std::cout << *(p + 3);
+    return 0;
+}
+```
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+**Explicación:**
+Aritmética de punteros: p + 3 apunta al 4º elemento (índice 3), que es 4.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/operator_arithmetic)
+
+#### P189. ¿Qué es `std::filesystem` en C++17?
+
+- [ ] Un controlador de sistema de archivos
+- [x] Una biblioteca para realizar operaciones en sistemas de archivos y rutas
+- [ ] Un sistema de archivos virtual
+- [ ] Una clase de flujo de archivos
+
+**Explicación:**
+`std::filesystem` proporciona facilidades para realizar operaciones en sistemas de archivos y sus componentes, como rutas, archivos regulares y directorios.
+
+[Referencia](https://en.cppreference.com/w/cpp/filesystem)
+
+#### P190. ¿Para qué se usa `std::atomic`?
+
+- [ ] Cálculos de energía atómica
+- [x] Operaciones seguras para hilos en variables compartidas sin bloqueos
+- [ ] Tipos de datos atómicos
+- [ ] Operaciones indivisibles en átomos
+
+**Explicación:**
+`std::atomic` proporciona operaciones atómicas en variables compartidas, asegurando acceso seguro para hilos sin bloqueo explícito.
+
+[Referencia](https://en.cppreference.com/w/cpp/atomic/atomic)
+
+#### P191. ¿Cuál es la diferencia entre `std::mutex` y `std::recursive_mutex`?
+
+- [x] recursive_mutex puede bloquearse múltiples veces por el mismo hilo
+- [ ] mutex es más rápido
+- [ ] recursive_mutex está obsoleto
+- [ ] No hay diferencia
+
+**Explicación:**
+`std::recursive_mutex` permite que el mismo hilo lo bloquee múltiples veces, mientras que `std::mutex` causaría un interbloqueo si el mismo hilo intenta bloquearlo dos veces.
+
+[Referencia](https://en.cppreference.com/w/cpp/thread/recursive_mutex)
+
+#### P192. ¿Qué es `std::future` en C++11?
+
+- [ ] Una versión futura de C++
+- [x] Un objeto que proporciona acceso al resultado de una operación asíncrona
+- [ ] Una clase basada en tiempo
+- [ ] Una declaración futura
+
+**Explicación:**
+`std::future` se usa para recuperar el resultado de una operación asíncrona iniciada con `std::async` o `std::promise`.
+
+[Referencia](https://en.cppreference.com/w/cpp/thread/future)
+
+#### P193. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+class Base {
+public:
+    virtual void show() { std::cout << "Base"; }
+};
+
+class Derived : public Base {
+public:
+    void show() override { std::cout << "Derived"; }
+};
+
+int main() {
+    Base* b = new Derived();
+    b->show();
+    delete b;
+    return 0;
+}
+```
+
+- [ ] Base
+- [x] Derived
+- [ ] Error de compilación
+- [ ] Comportamiento indefinido
+
+**Explicación:**
+Debido al polimorfismo de función virtual, se llama al show() de la clase Derived aunque el puntero sea de tipo Base*.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/virtual)
+
+#### P194. ¿Para qué se usa `std::enable_if`?
+
+- [ ] Para habilitar declaraciones if
+- [x] Para instanciación condicional de plantillas basada en SFINAE
+- [ ] Para habilitar características
+- [ ] Para verificar si algo está habilitado
+
+**Explicación:**
+`std::enable_if` se usa para SFINAE (Substitution Failure Is Not An Error) para habilitar o deshabilitar condicionalmente especializaciones de plantilla.
+
+[Referencia](https://en.cppreference.com/w/cpp/types/enable_if)
+
+#### P195. ¿Qué es `std::tuple` en C++11?
+
+- [ ] Un par de dos elementos
+- [x] Una colección de tamaño fijo de valores heterogéneos
+- [ ] Un triple de valores
+- [ ] Una tupla en matemáticas
+
+**Explicación:**
+`std::tuple` es una colección de tamaño fijo que puede contener elementos de diferentes tipos, generalizando `std::pair` a cualquier número de elementos.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/tuple)
+
+#### P196. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 10;
+    int& ref = x;
+    ref = 20;
+    std::cout << x;
+    return 0;
+}
+```
+
+- [ ] 10
+- [x] 20
+- [ ] Error de compilación
+- [ ] Indefinido
+
+**Explicación:**
+ref es una referencia a x. Modificar ref modifica x directamente, por lo que x se convierte en 20.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/reference)
+
+#### P197. ¿Para qué se usa `std::chrono`?
+
+- [ ] Ordenamiento cronológico
+- [x] Utilidades de tiempo que incluyen relojes, puntos de tiempo y duraciones
+- [ ] Funciones de cronómetro
+- [ ] Gestión de enfermedades crónicas
+
+**Explicación:**
+`std::chrono` es una biblioteca para operaciones relacionadas con el tiempo, proporcionando relojes, puntos de tiempo y duraciones con seguridad de tipos.
+
+[Referencia](https://en.cppreference.com/w/cpp/chrono)
+
+#### P198. ¿Qué es `std::regex` en C++11?
+
+- [ ] Un motor de expresiones regulares
+- [x] Una biblioteca para coincidencia de patrones de expresiones regulares
+- [ ] Una herramienta de reemplazo de texto
+- [ ] Un formateador de cadenas
+
+**Explicación:**
+`std::regex` proporciona soporte de expresiones regulares para coincidencia de patrones y procesamiento de texto en C++.
+
+[Referencia](https://en.cppreference.com/w/cpp/regex)
+
+#### P199. ¿Qué es `std::initializer_list`?
+
+- [ ] Una lista de inicializadores
+- [x] Un objeto proxy ligero para acceder a arrays de const T
+- [ ] Una función de inicialización
+- [ ] Un constructor de lista
+
+**Explicación:**
+`std::initializer_list` permite que las funciones acepten listas de valores entre llaves, habilitando sintaxis de inicialización uniforme.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/initializer_list)
+
+#### P200. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    const int x = 10;
+    int* p = const_cast<int*>(&x);
+    *p = 20;
+    std::cout << x;
+    return 0;
+}
+```
+
+- [x] 10 (comportamiento indefinido)
+- [ ] 20
+- [ ] Error de compilación
+- [ ] 0
+
+**Explicación:**
+Esto es comportamiento indefinido. Modificar un objeto const a través de const_cast conduce a resultados impredecibles. El compilador puede optimizar basándose en la suposición de const.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/const_cast)
+
+#### P201. ¿Qué es `std::function` en C++11?
+
+- [ ] Una declaración de función
+- [x] Un envoltorio de función polimórfico de propósito general
+- [ ] Un puntero a función
+- [ ] Una biblioteca de programación funcional
+
+**Explicación:**
+`std::function` es un envoltorio con tipo borrado que puede almacenar cualquier objeto invocable (función, lambda, functor) con una firma específica.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/functional/function)
+
+#### P202. ¿Para qué se usa `std::bind`?
+
+- [ ] Para enlazar variables juntas
+- [x] Para crear un nuevo invocable enlazando argumentos a una función
+- [ ] Para enlazar clases
+- [ ] Para enlazar memoria
+
+**Explicación:**
+`std::bind` crea un nuevo objeto función enlazando algunos argumentos a una función, útil para aplicación parcial de funciones.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/functional/bind)
+
+#### P203. ¿En qué se basa `std::unordered_map`?
+
+- [ ] Árbol binario de búsqueda
+- [x] Tabla hash
+- [ ] Lista enlazada
+- [ ] Array
+
+**Explicación:**
+`std::unordered_map` se implementa usando una tabla hash, proporcionando tiempo de búsqueda promedio O(1) comparado con O(log n) para `std::map`.
+
+[Referencia](https://en.cppreference.com/w/cpp/container/unordered_map)
+
+#### P204. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    std::cout << sizeof(arr) / sizeof(arr[0]);
+    return 0;
+}
+```
+
+- [ ] 4
+- [x] 5
+- [ ] 20
+- [ ] 1
+
+**Explicación:**
+sizeof(arr) da el total de bytes, sizeof(arr[0]) da bytes por elemento. La división da el número de elementos: 5.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/sizeof)
+
+#### P205. ¿Qué es `std::make_unique` en C++14?
+
+- [ ] Un generador de identificadores únicos
+- [x] Una función para crear objetos std::unique_ptr
+- [ ] Un verificador de unicidad
+- [ ] Un creador de valores únicos
+
+**Explicación:**
+`std::make_unique` es una función de utilidad que crea y devuelve un `std::unique_ptr`, proporcionando seguridad de excepciones y sintaxis más limpia.
+
+[Referencia](https://en.cppreference.com/w/cpp/memory/unique_ptr/make_unique)
+
+#### P206. ¿Qué es `std::exchange` en C++14?
+
+- [ ] Un programa de intercambio de valores
+- [x] Reemplaza un valor y devuelve el valor antiguo atómicamente
+- [ ] Un operador de intercambio
+- [ ] Una función de intercambio
+
+**Explicación:**
+`std::exchange` reemplaza el valor de un objeto y devuelve su valor antiguo en una sola operación.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/exchange)
+
+#### P207. ¿Qué es `std::apply` en C++17?
+
+- [ ] Un lanzador de aplicaciones
+- [x] Invoca un invocable con una tupla de argumentos
+- [ ] Una función de aplicación
+- [ ] Un aplicador de funciones
+
+**Explicación:**
+`std::apply` invoca un objeto invocable con una tupla de argumentos, desempaquetando la tupla como argumentos de función.
+
+[Referencia](https://en.cppreference.com/w/cpp/utility/apply)
+
+#### P208. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    int y = ++x + x++;
+    std::cout << y;
+    return 0;
+}
+```
+
+- [ ] 11
+- [ ] 12
+- [x] Comportamiento indefinido
+- [ ] 13
+
+**Explicación:**
+Modificar x múltiples veces entre puntos de secuencia conduce a comportamiento indefinido. El resultado es impredecible.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/eval_order)
+
+#### P209. ¿Qué es `std::decay` en C++11?
+
+- [ ] Una función de decaimiento
+- [x] Aplica conversión de array a puntero, función a puntero y elimina calificadores cv
+- [ ] Un marcador de obsolescencia
+- [ ] Una constante de decaimiento
+
+**Explicación:**
+`std::decay` aplica transformaciones de tipo similares a lo que sucede al pasar argumentos por valor.
+
+[Referencia](https://en.cppreference.com/w/cpp/types/decay)
+
+#### P210. ¿Qué es `std::conditional` en C++11?
+
+- [ ] Una declaración condicional
+- [x] Elige un tipo u otro basado en un booleano en tiempo de compilación
+- [ ] Un operador condicional
+- [ ] Un verificador de condiciones
+
+**Explicación:**
+`std::conditional` es una metafunción que selecciona uno de dos tipos basándose en una condición booleana en tiempo de compilación.
+
+[Referencia](https://en.cppreference.com/w/cpp/types/conditional)
+
+#### P211. ¿Para qué se usa `std::is_same`?
+
+- [ ] Para verificar si los valores son iguales
+- [x] Para verificar si dos tipos son iguales en tiempo de compilación
+- [ ] Para comparar objetos
+- [ ] Para verificar igualdad
+
+**Explicación:**
+`std::is_same` es un trait de tipo que verifica si dos tipos son idénticos en tiempo de compilación.
+
+[Referencia](https://en.cppreference.com/w/cpp/types/is_same)
+
+#### P212. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 10;
+    int* p = &x;
+    int** pp = &p;
+    std::cout << **pp;
+    return 0;
+}
+```
+
+- [x] 10
+- [ ] Dirección de x
+- [ ] Dirección de p
+- [ ] Error de compilación
+
+**Explicación:**
+pp es un puntero a puntero. \*\*pp desreferencia dos veces para obtener el valor de x, que es 10.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/pointer)
+
+#### P213. ¿Para qué se usa `std::remove_if`?
+
+- [ ] Para eliminar declaraciones if
+- [x] Para eliminar elementos de un rango que satisfacen un predicado
+- [ ] Para eliminar archivos condicionalmente
+- [ ] Para eliminar condiciones
+
+**Explicación:**
+`std::remove_if` elimina elementos de un rango que satisfacen un predicado dado, usado con erase para eliminación real.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/remove)
+
+#### P214. ¿Para qué se usa `std::transform`?
+
+- [ ] Para transformar código
+- [x] Para aplicar una función a un rango y almacenar resultados en otro rango
+- [ ] Para transformar tipos
+- [ ] Para realizar transformaciones
+
+**Explicación:**
+`std::transform` aplica una función dada a un rango de elementos y almacena el resultado en otro rango.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/transform)
+
+#### P215. ¿Para qué se usa `std::accumulate`?
+
+- [ ] Para acumular errores
+- [x] Para calcular la suma o plegar un rango de elementos
+- [ ] Para acumular datos
+- [ ] Para sumar números
+
+**Explicación:**
+`std::accumulate` calcula la suma de un rango de elementos o aplica una operación binaria para plegar el rango.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/accumulate)
+
+#### P216. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int x = 5;
+    int y = 10;
+    int z = x > y ? x : y;
+    std::cout << z;
+    return 0;
+}
+```
+
+- [ ] 5
+- [x] 10
+- [ ] 1
+- [ ] 0
+
+**Explicación:**
+El operador ternario verifica si x > y. Como es falso, z se asigna y, que es 10.
+
+[Referencia](https://en.cppreference.com/w/cpp/language/operator_other)
+
+#### P217. ¿Para qué se usa `std::copy`?
+
+- [ ] Para copiar archivos
+- [x] Para copiar elementos de un rango a otro
+- [ ] Para duplicar objetos
+- [ ] Para copiar memoria
+
+**Explicación:**
+`std::copy` copia elementos de un rango de origen a un rango de destino.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/copy)
+
+#### P218. ¿Para qué se usa `std::find`?
+
+- [ ] Para encontrar archivos
+- [x] Para encontrar la primera ocurrencia de un valor en un rango
+- [ ] Para buscar patrones
+- [ ] Para localizar objetos
+
+**Explicación:**
+`std::find` busca la primera ocurrencia de un valor en un rango y devuelve un iterador a él.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/find)
+
+#### P219. ¿En qué se basa `std::sort`?
+
+- [ ] Ordenamiento de burbuja
+- [x] Introsort (híbrido de quicksort, heapsort y ordenamiento por inserción)
+- [ ] Solo merge sort
+- [ ] Ordenamiento por selección
+
+**Explicación:**
+`std::sort` típicamente usa introsort, que combina quicksort, heapsort y ordenamiento por inserción para rendimiento óptimo.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/sort)
+
+#### P220. ¿Cuál es la salida de este código?
+
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+int main() {
+    std::vector<int> v = {5, 2, 8, 1, 9};
+    std::sort(v.begin(), v.end());
+    std::cout << v[2];
+    return 0;
+}
+```
+
+- [ ] 8
+- [ ] 2
+- [x] 5
+- [ ] 1
+
+**Explicación:**
+Después de ordenar, el vector se convierte en {1, 2, 5, 8, 9}. v[2] es el tercer elemento, que es 5.
+
+[Referencia](https://en.cppreference.com/w/cpp/algorithm/sort)
