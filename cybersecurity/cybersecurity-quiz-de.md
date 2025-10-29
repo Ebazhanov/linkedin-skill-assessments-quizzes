@@ -1322,5 +1322,3 @@ Quelle: [SANS Institute - Social Engineering Attacks](https://www.sans.org/blog/
 Ein Security Information and Event Management (SIEM) System ist eine Sicherheitslösung, die sicherheitsrelevante Daten aus verschiedenen Quellen innerhalb einer Organisation sammelt, analysiert und korreliert. Der Hauptzweck eines SIEM ist es, eine zentrale Sicht auf die Sicherheitslage einer Organisation bereitzustellen, Sicherheitsvorfälle zu erkennen und darauf zu reagieren sowie Berichte für Compliance- und Audit-Zwecke zu erstellen. Es wird nicht primär für Verschlüsselung, Passwortverwaltung oder zum Blockieren des gesamten Netzwerkverkehrs verwendet.
 
 Quelle: [NIST Special Publication 800-94 - Guide to Intrusion Detection and Prevention Systems (IDPS)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf)
-
-

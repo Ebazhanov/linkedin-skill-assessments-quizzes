@@ -1322,5 +1322,3 @@ Fonte: [SANS Institute - Social Engineering Attacks](https://www.sans.org/blog/t
 Un SIEM raccoglie, analizza e correla dati di sicurezza da varie fonti, fornisce visibilità centralizzata e supporta il rilevamento e la risposta agli incidenti.
 
 Fonte: [NIST Special Publication 800-94](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf)
-
-

@@ -1315,5 +1315,3 @@ Pretexting 是一種社交工程技巧，攻擊者編造可信情境以操弄受
 Security Information and Event Management（SIEM）是彙整、分析並關聯全組織多來源安全資料的解決方案；目的在提供集中化的安全態勢視圖、偵測並回應安全事件，以及輸出合規與稽核所需報告。它的主要用途並非加密、密碼管理或封鎖所有網路流量。
 
 來源： [NIST Special Publication 800-94 - Guide to Intrusion Detection and Prevention Systems (IDPS)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf)
-
-

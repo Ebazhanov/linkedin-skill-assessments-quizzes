@@ -230,7 +230,7 @@
 
 [Посилання](https://developer.android.com/topic/libraries/architecture/saving-states)
 
-#### Питання 17. Якщо головний потік заблокований занадто довго, система відображає діалог _.
+#### Питання 17. Якщо головний потік заблокований занадто довго, система відображає діалог \_.
 
 - [ ] Thread Not Responding
 - [ ] Application Paused

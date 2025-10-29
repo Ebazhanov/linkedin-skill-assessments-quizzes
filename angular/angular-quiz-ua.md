@@ -591,7 +591,8 @@ export class HighlightDirective {
   ```html
   <input type="text" formControlName="username" #userName="ngModel" />
   <span *ngIf="userName.errors.minlength">
-    Ім'я користувача повинно містити принаймні {{ userName.errors.minlength.requiredLength }} символів.
+    Ім'я користувача повинно містити принаймні {{ userName.errors.minlength.requiredLength }}
+    символів.
   </span>
   ```
 
@@ -647,9 +648,7 @@ export class BioComponent { }
   ```html
   <app-card>
     <h1>Карта даних</h1>
-    <app-bio>
-      Існує вже чотири роки.
-    </app-bio>
+    <app-bio> Існує вже чотири роки. </app-bio>
   </app-card>
   ```
 
@@ -1367,7 +1366,7 @@ export class ProductNameComponent {  @Input() productName: string
 
   ```ts
   @NgModule({
-    exports: [TableModule]
+    exports: [TableModule],
   })
   export class SharedModule {}
   ```
@@ -1376,7 +1375,7 @@ export class ProductNameComponent {  @Input() productName: string
 
   ```ts
   @NgModule({
-    imports: [TableModule]
+    imports: [TableModule],
   })
   export class SharedModule {}
   ```
@@ -1385,7 +1384,7 @@ export class ProductNameComponent {  @Input() productName: string
 
   ```ts
   @NgModule({
-    declarations: [TableModule]
+    declarations: [TableModule],
   })
   export class SharedModule {}
   ```
@@ -1394,7 +1393,7 @@ export class ProductNameComponent {  @Input() productName: string
 
   ```ts
   @NgModule({
-    providers: [TableModule]
+    providers: [TableModule],
   })
   export class SharedModule {}
   ```

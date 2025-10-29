@@ -230,7 +230,7 @@ Hinweis: AndroidJUnitRunner ermöglicht es uns, JUnit3/4-Stil-Tests auf Android-
 
 [Referenz](https://developer.android.com/topic/libraries/architecture/saving-states)
 
-#### F17. Wenn der Haupt-Thread zu lange blockiert ist, zeigt das System den _-Dialog an.
+#### F17. Wenn der Haupt-Thread zu lange blockiert ist, zeigt das System den \_-Dialog an.
 
 - [ ] Thread reagiert nicht
 - [ ] Anwendung pausiert

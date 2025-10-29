@@ -1409,9 +1409,7 @@ text
 - [ ] C
 
   ```html
-  <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle">
-    Beschäftigt
-  </span>
+  <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Beschäftigt </span>
   ```
 
 - [ ] D
