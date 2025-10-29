@@ -1288,7 +1288,7 @@ std::cout << b;
 - [ ] public
 - [ ] private
 
-#### F78. Die standardmäßige ausführbare Generierung auf UNIX für ein C++-Programm ist _
+#### F78. Die standardmäßige ausführbare Generierung auf UNIX für ein C++-Programm ist \_
 
 - [ ] a.exe
 - [ ] a
@@ -3058,7 +3058,7 @@ int main() {
 - [ ] Undefiniertes Verhalten
 
 **Erklärung:**
-Aufgrund virtueller Funktionspolymorphie wird die show()-Methode der Derived-Klasse aufgerufen, obwohl der Zeiger vom Typ Base* ist.
+Aufgrund virtueller Funktionspolymorphie wird die show()-Methode der Derived-Klasse aufgerufen, obwohl der Zeiger vom Typ Base\* ist.
 
 [Referenz](https://en.cppreference.com/w/cpp/language/virtual)
 

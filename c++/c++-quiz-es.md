@@ -1288,7 +1288,7 @@ std::cout << b;
 - [ ] public
 - [ ] private
 
-#### P78. La generación de ejecutables predeterminada en UNIX para un programa C++ es _
+#### P78. La generación de ejecutables predeterminada en UNIX para un programa C++ es \_
 
 - [ ] a.exe
 - [ ] a
@@ -3058,7 +3058,7 @@ int main() {
 - [ ] Comportamiento indefinido
 
 **Explicación:**
-Debido al polimorfismo de función virtual, se llama al show() de la clase Derived aunque el puntero sea de tipo Base*.
+Debido al polimorfismo de función virtual, se llama al show() de la clase Derived aunque el puntero sea de tipo Base\*.
 
 [Referencia](https://en.cppreference.com/w/cpp/language/virtual)
 

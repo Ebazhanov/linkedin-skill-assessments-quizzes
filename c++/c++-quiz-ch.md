@@ -3058,7 +3058,7 @@ int main() {
 - [ ] 未定义行为
 
 **解释：**
-由于虚函数多态性，即使指针类型是Base*，也会调用Derived类的show()。
+由于虚函数多态性，即使指针类型是Base\*，也会调用Derived类的show()。
 
 [参考](https://en.cppreference.com/w/cpp/language/virtual)
 
@@ -3343,7 +3343,7 @@ int main() {
 - [ ] 编译错误
 
 **解释：**
-pp是指向指针的指针。**pp解引用两次以获得x的值，即10。
+pp是指向指针的指针。\*\*pp解引用两次以获得x的值，即10。
 
 [参考](https://en.cppreference.com/w/cpp/language/pointer)
 
