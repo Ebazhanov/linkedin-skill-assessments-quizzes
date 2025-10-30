@@ -211,7 +211,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Runs react local development server
 - [ ] Transfers all JS files to down into one file
 - [ ] A module builder
-- [x] All of the above
+- [x] None to All
 
 #### Q112. Choose the method which is not a part of ReactDOM?
 
