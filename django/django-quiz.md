@@ -55,6 +55,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 ```
 
 #### Q5. How do you determine at startup time if a piece of middleware should be used?
+
 - [x] Raise MiddlewareNotUsed in the **init** function of your middleware.
 - [ ] Implement the not_used method in your middleware class.
 - [ ] List the middleware beneath an entry of django.middleware.IgnoredMiddleware.
