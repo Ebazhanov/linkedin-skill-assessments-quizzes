@@ -1205,11 +1205,11 @@ end
 - [ ] 111111
 - [ ] 1 1 1 1 1 1
 - [ ] 1
-     1
-     1
-     1
-     1
-     1
+      1
+      1
+      1
+      1
+      1
 - [x] Nothing will print.
 
 #### Q80. You are debugging a function and have set a breakpoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Which action would help you test if a=10 solves the problem?
@@ -1238,11 +1238,11 @@ C = {rand(20,10) rand(23,2) rand(14,5)};
 
 - [ ] b = cellfun(@(m) mean(m(:)), C);
 - [ ] b = zeros(1,size(C,2));
-     for i_C = 1:size(C,2)
-         b(i_C) = mean(C(i_C));
-     end
+      for i_C = 1:size(C,2)
+      b(i_C) = mean(C(i_C));
+      end
 - [x] b = cellfun(@mean, C);
 - [ ] b = zeros(1,size(C,1));
-     for i_C = 1:size(C,1)
-         b(i_C) = mean(C{i_C}(:));
-     end
+      for i_C = 1:size(C,1)
+      b(i_C) = mean(C{i_C}(:));
+      end

@@ -2360,7 +2360,7 @@ The `:visible` selector selects all elements that are visible (not display:none,
 ```js
 $.ajax({
   url: '/api/data',
-  headers: { 'X-Custom-Header': 'value' }
+  headers: { 'X-Custom-Header': 'value' },
 });
 ```
 
@@ -2422,7 +2422,7 @@ $.ajax({
   url: '/api/data',
   method: 'POST',
   contentType: 'application/json',
-  data: JSON.stringify({ key: 'value' })
+  data: JSON.stringify({ key: 'value' }),
 });
 ```
 
@@ -2451,7 +2451,7 @@ To send JSON data, set `contentType` to 'application/json' and use `JSON.stringi
 #### Q146. How do you handle AJAX errors globally?
 
 ```js
-$(document).ajaxError(function(event, jqXHR, settings, error) {
+$(document).ajaxError(function (event, jqXHR, settings, error) {
   console.log('AJAX error:', error);
 });
 ```
@@ -2481,8 +2481,8 @@ $(document).ajaxError(function(event, jqXHR, settings, error) {
 #### Q148. How do you create a custom jQuery plugin?
 
 ```js
-$.fn.myPlugin = function() {
-  return this.each(function() {
+$.fn.myPlugin = function () {
+  return this.each(function () {
     // Plugin code
   });
 };
@@ -2513,11 +2513,14 @@ Returning `this` (the jQuery object) from a plugin enables method chaining, allo
 #### Q150. How do you make a plugin accept options?
 
 ```js
-$.fn.myPlugin = function(options) {
-  var settings = $.extend({
-    color: 'red',
-    size: 10
-  }, options);
+$.fn.myPlugin = function (options) {
+  var settings = $.extend(
+    {
+      color: 'red',
+      size: 10,
+    },
+    options,
+  );
   // Use settings
 };
 ```
