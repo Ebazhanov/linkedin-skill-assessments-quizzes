@@ -2504,7 +2504,7 @@ For large JSON files, streaming parsers (like SAX-style parsers) are recommended
 #### Q240. Which of the following is a valid way to include comments in JSON?
 
 - [ ] // comment
-- [ ] /* comment */
+- [ ] /_ comment _/
 - [ ] # comment
 - [x] JSON does not support comments
 
@@ -2650,7 +2650,7 @@ For large JSON files, streaming parsers (like SAX-style parsers) are recommended
 
 #### Q261. In JSON, how do you represent scientific notation?
 
-- [ ] 1.5 * 10^3
+- [ ] 1.5 \* 10^3
 - [x] 1.5e3
 - [ ] 1.5E+3 only
 - [ ] Scientific notation is not supported

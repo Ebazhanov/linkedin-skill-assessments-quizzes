@@ -386,6 +386,7 @@
 - [ ] To specify working hours for specific tasks
 - [x] To manage resource availability and working hours
 - [ ] To create Gantt charts
+
 #### Q50. Which of the following is not a type of baseline in Microsoft Project?
 
 - [ ] Project Baseline
@@ -735,6 +736,7 @@
 - [ ] By modifying the project-level formatting options
 - [ ] By creating a custom view
 - [ ] By applying a predefined template
+
 #### Q100. Which view in Microsoft Project allows you to see the project timeline and the resources assigned to each task?
 
 - [ ] Gantt Chart view
@@ -1084,6 +1086,7 @@
 - [x] To measure the project's performance based on budgeted cost and actual work completed
 - [ ] To adjust the schedule based on resource constraints
 - [ ] To create a snapshot of the current project plan
+
 #### Q150. Which feature in Microsoft Project helps identify and resolve resource overallocation?
 
 - [ ] Task View
@@ -1432,6 +1435,7 @@
 - [ ] By sharing resources between projects and tracking their availability
 - [ ] By creating resource cost rates and budgets for each project
 - [ ] By ass
+
 #### Q200. What is the default task type in Microsoft Project?
 
 - [ ] Fixed Units
@@ -1662,13 +1666,13 @@
 - [ ] The work is recalculated, and the duration remains the same at 5 days.
 - [x] The work is recalculated, and the duration remains the same at 5 days.
 - [ ] The work
-Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
+      Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 
 #### Q250. Which template in Microsoft Project is used as the default starting point for new projects?
 
 - [ ] Blank Project
 - [x] Global.mpt
-- [ ] Project Overview  
+- [ ] Project Overview
 - [ ] Enterprise Template
 
 #### Q251. What is the purpose of the Global.mpt template in Microsoft Project?
@@ -1681,7 +1685,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 #### Q252. How can you create a new custom template in Microsoft Project?
 
 - [ ] Save an existing project file with a .mpt extension
-- [x] Use the "Save As" command and choose the "Project Template (*.mpt)" file type
+- [x] Use the "Save As" command and choose the "Project Template (\*.mpt)" file type
 - [ ] Copy the Global.mpt file and modify it
 - [ ] There is no way to create a custom template in Microsoft Project
 
@@ -1786,7 +1790,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 #### Q267. How can you create a new custom template in Microsoft Project?
 
 - [ ] Save an existing project file with a .mpt extension
-- [x] Use the "Save As" command and choose the "Project Template (*.mpt)" file type
+- [x] Use the "Save As" command and choose the "Project Template (\*.mpt)" file type
 - [ ] Copy the Global.mpt file and modify it
 - [ ] There is no way to create a custom template in Microsoft Project
 
@@ -1849,7 +1853,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 #### Q276. How can you create a new custom template in Microsoft Project?
 
 - [ ] Save an existing project file with a .mpt extension
-- [x] Use the "Save As" command and choose the "Project Template (*.mpt)" file type
+- [x] Use the "Save As" command and choose the "Project Template (\*.mpt)" file type
 - [ ] Copy the Global.mpt file and modify it
 - [ ] There is no way to create a custom template in Microsoft Project
 
@@ -1912,7 +1916,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 #### Q285. How can you create a new custom template in Microsoft Project?
 
 - [ ] Save an existing project file with a .mpt extension
-- [x] Use the "Save As" command and choose the "Project Template (*.mpt)" file type
+- [x] Use the "Save As" command and choose the "Project Template (\*.mpt)" file type
 - [ ] Copy the Global.mpt file and modify it
 - [ ] There is no way to create a custom template in Microsoft Project
 
@@ -1975,7 +1979,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 #### Q294. How can you create a new custom template in Microsoft Project?
 
 - [ ] Save an existing project file with a .mpt extension
-- [x] Use the "Save As" command and choose the "Project Template (*.mpt)" file type
+- [x] Use the "Save As" command and choose the "Project Template (\*.mpt)" file type
 - [ ] Copy the Global.mpt file and modify it
 - [ ] There is no way to create a custom template in Microsoft Project
 
@@ -2013,6 +2017,7 @@ Here are 50 high-quality Microsoft Project quiz questions (Q250-Q299):
 - [x] Store macros in the Global.mpt template for easy access
 - [x] Thoroughly test the macro to ensure it works as expected
 - [ ] All of the above
+
 #### Q300. Which feature in Microsoft Project allows you to integrate with SharePoint for team collaboration?
 
 - [ ] Gantt Chart
