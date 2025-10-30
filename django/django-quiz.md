@@ -899,7 +899,6 @@ class Book(models.Model):
 - [x] To define the structure and layout of HTML pages to be served to the user.
 - [ ] To configure URL patterns for your application.
 - [ ] To store and serve static files like images and JavaScript.
-Sure, here are 50 Django web framework quiz questions (Q101-Q150) in the requested format:
 
 #### Q101. Which Django ORM method is used to retrieve a single object that matches the given lookup parameters?
 
