@@ -1484,7 +1484,7 @@ The `$schema` keyword identifies which version of the JSON Schema specification 
 - [ ] Yes, but only `/* */`
 
 **Explanation:**
-Standard JSON does not support comments. However, JSON5 (an extension) does support comments. For standard JSON, you can use a special key like "_comment" if you need annotations.
+Standard JSON does not support comments. However, JSON5 (an extension) does support comments. For standard JSON, you can use a special key like "\_comment" if you need annotations.
 
 [Reference](https://www.json.org/json-en.html)
 
