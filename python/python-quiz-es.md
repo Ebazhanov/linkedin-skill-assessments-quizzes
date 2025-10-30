@@ -2168,10 +2168,10 @@ print(animals['d'])
 [x*2 for x in range(1,n)]
 ```
 
-- [x] Una lista con todos los números pares menores que 2*n.
-- [ ] Un diccionario con todos los números pares menores que 2*n.
-- [ ] Una lista con todos los números impares menores que 2*n.
-- [ ] Una lista con todos los números pares menores o iguales a 2*n.
+- [x] Una lista con todos los números pares menores que 2\*n.
+- [ ] Un diccionario con todos los números pares menores que 2\*n.
+- [ ] Una lista con todos los números impares menores que 2\*n.
+- [ ] Una lista con todos los números pares menores o iguales a 2\*n.
 
 [Referencia](https://www.w3schools.com/python/ref_func_range.asp)
 

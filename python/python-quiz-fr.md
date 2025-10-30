@@ -285,7 +285,6 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] `class __init__(): pass`
 - [x] `def __init__(): pass`
 
-
 - [ ] `using math.sin`
 - [ ] `import math.sin`
 - [x] `from math import sin`
@@ -1782,4 +1781,3 @@ print(len(dd))
 - [ ] `3`, `[]`, `3`
 
 [Reference defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)
-
