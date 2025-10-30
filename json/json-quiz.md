@@ -1367,3 +1367,723 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] To represent data in a more human-readable format
 - [x] To express structured data that is linked to other data
 - [ ] To create dynamic web pages with JSON
+
+#### Q121. What is the correct way to represent an empty array in JSON?
+
+- [x] `[]`
+- [ ] `{}`
+- [ ] `null`
+- [ ] `""`
+
+**Explanation:**
+An empty array in JSON is represented by square brackets with nothing inside: `[]`. Curly braces `{}` represent an empty object, not an array.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q122. What is the correct way to represent an empty object in JSON?
+
+- [ ] `[]`
+- [x] `{}`
+- [ ] `null`
+- [ ] `""`
+
+**Explanation:**
+An empty object in JSON is represented by curly braces with nothing inside: `{}`. Square brackets `[]` represent an empty array, not an object.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q123. Can JSON keys contain spaces?
+
+- [x] Yes, but they must be enclosed in quotes
+- [ ] No, spaces are not allowed
+- [ ] Yes, without quotes
+- [ ] Only in JSON5
+
+**Explanation:**
+JSON keys can contain spaces, but like all JSON keys, they must be enclosed in double quotes. For example: `{"first name": "John"}` is valid JSON.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q124. What is the maximum nesting depth recommended for JSON?
+
+- [ ] 10 levels
+- [ ] 50 levels
+- [x] No official limit, but practical limits exist
+- [ ] 100 levels
+
+**Explanation:**
+JSON specification doesn't define a maximum nesting depth, but practical limits exist based on parser implementations. Most parsers handle reasonable nesting (typically 100+ levels), but deeply nested structures can cause performance issues.
+
+[Reference](https://tools.ietf.org/html/rfc8259)
+
+#### Q125. Which of these is NOT a valid JSON number?
+
+- [ ] `-42`
+- [ ] `3.14159`
+- [x] `0xFF`
+- [ ] `1.5e-10`
+
+**Explanation:**
+Hexadecimal notation like `0xFF` is not valid in JSON. JSON only supports decimal numbers, including negative numbers, decimals, and scientific notation.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q126. Can JSON represent dates natively?
+
+- [ ] Yes, using the Date type
+- [x] No, dates must be represented as strings or numbers
+- [ ] Yes, using ISO 8601 format
+- [ ] Only in JSON Schema
+
+**Explanation:**
+JSON has no native date type. Dates are typically represented as strings (often in ISO 8601 format like "2024-01-01T00:00:00Z") or as numbers (Unix timestamps).
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q127. What is JSON Schema used for?
+
+- [ ] To compress JSON data
+- [x] To define the structure and validation rules for JSON documents
+- [ ] To convert JSON to XML
+- [ ] To encrypt JSON data
+
+**Explanation:**
+JSON Schema is a vocabulary that allows you to annotate and validate JSON documents, defining the expected structure, data types, and constraints.
+
+[Reference](https://json-schema.org/)
+
+#### Q128. Which JSON Schema keyword is used to specify that a property is required?
+
+- [ ] `mandatory`
+- [x] `required`
+- [ ] `necessary`
+- [ ] `must`
+
+**Explanation:**
+The `required` keyword in JSON Schema specifies an array of property names that must be present in the JSON object.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/object.html#required-properties)
+
+#### Q129. What does the `$schema` keyword indicate in JSON Schema?
+
+- [ ] The schema name
+- [x] The JSON Schema version being used
+- [ ] The schema author
+- [ ] The schema description
+
+**Explanation:**
+The `$schema` keyword identifies which version of the JSON Schema specification the schema is written against.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/schema.html)
+
+#### Q130. Can JSON comments be included using `//` or `/* */`?
+
+- [ ] Yes, both are supported
+- [ ] Yes, but only `//`
+- [x] No, JSON does not support comments
+- [ ] Yes, but only `/* */`
+
+**Explanation:**
+Standard JSON does not support comments. However, JSON5 (an extension) does support comments. For standard JSON, you can use a special key like "_comment" if you need annotations.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q131. What is JSON5?
+
+- [ ] JSON version 5
+- [x] An extension of JSON with additional features like comments and trailing commas
+- [ ] A compression format for JSON
+- [ ] A JSON validation tool
+
+**Explanation:**
+JSON5 is an extension to JSON that aims to make it easier for humans to write and maintain by adding features like comments, trailing commas, unquoted keys, and more.
+
+[Reference](https://json5.org/)
+
+#### Q132. What is JSONP used for?
+
+- [ ] JSON parsing
+- [x] Cross-domain data requests (legacy technique)
+- [ ] JSON compression
+- [ ] JSON validation
+
+**Explanation:**
+JSONP (JSON with Padding) was a technique to request data from a server in a different domain, bypassing same-origin policy. It's now largely replaced by CORS.
+
+[Reference](https://en.wikipedia.org/wiki/JSONP)
+
+#### Q133. What is the correct MIME type for JSON?
+
+- [ ] `text/json`
+- [x] `application/json`
+- [ ] `application/javascript`
+- [ ] `text/javascript`
+
+**Explanation:**
+The official MIME type for JSON is `application/json`. While `text/json` was sometimes used historically, `application/json` is the standard.
+
+[Reference](https://tools.ietf.org/html/rfc4627)
+
+#### Q134. Can JSON keys be numbers?
+
+- [ ] Yes, without quotes
+- [x] No, keys must be strings
+- [ ] Yes, but only integers
+- [ ] Only in JSON5
+
+**Explanation:**
+In JSON, all keys must be strings enclosed in double quotes. Even if a key looks like a number, it must be quoted: `{"123": "value"}`.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q135. What is the difference between `JSON.parse()` and `eval()` for parsing JSON?
+
+- [ ] No difference
+- [x] JSON.parse() is safer and only parses JSON, eval() executes any JavaScript
+- [ ] eval() is faster
+- [ ] JSON.parse() is deprecated
+
+**Explanation:**
+`JSON.parse()` is the safe way to parse JSON as it only parses JSON syntax. `eval()` executes any JavaScript code, making it a security risk if used with untrusted data.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+
+#### Q136. What does `JSON.stringify()` do with `undefined` values in objects?
+
+- [ ] Converts them to `null`
+- [ ] Converts them to `"undefined"`
+- [x] Omits the property entirely
+- [ ] Throws an error
+
+**Explanation:**
+When `JSON.stringify()` encounters `undefined` as a property value in an object, it omits that property from the output. However, `undefined` in arrays becomes `null`.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+#### Q137. What is the second parameter of `JSON.stringify()` used for?
+
+- [ ] Indentation
+- [x] Replacer function or array to filter/transform values
+- [ ] Error handling
+- [ ] Encoding
+
+**Explanation:**
+The second parameter (replacer) can be a function that transforms values or an array that specifies which properties to include in the output.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+#### Q138. What is the third parameter of `JSON.stringify()` used for?
+
+- [x] Indentation (space) for pretty-printing
+- [ ] Error handling
+- [ ] Encoding
+- [ ] Compression
+
+**Explanation:**
+The third parameter specifies the indentation for pretty-printing. It can be a number (spaces) or a string (like "\t" for tabs).
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+#### Q139. Can JSON represent circular references?
+
+- [ ] Yes, using special syntax
+- [x] No, JSON.stringify() will throw an error
+- [ ] Yes, but only in JSON5
+- [ ] Yes, using $ref
+
+**Explanation:**
+JSON cannot represent circular references. Attempting to stringify an object with circular references will throw a "TypeError: Converting circular structure to JSON" error.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+#### Q140. What is JSON Pointer (RFC 6901)?
+
+- [ ] A pointer to JSON files
+- [x] A syntax for identifying a specific value within a JSON document
+- [ ] A JSON compression technique
+- [ ] A JSON validation tool
+
+**Explanation:**
+JSON Pointer defines a string syntax for identifying a specific value within a JSON document, like "/users/0/name" to access the name of the first user.
+
+[Reference](https://tools.ietf.org/html/rfc6901)
+
+#### Q141. What is JSON Patch (RFC 6902)?
+
+- [ ] A JSON bug fix
+- [x] A format for expressing a sequence of operations to apply to a JSON document
+- [ ] A JSON compression format
+- [ ] A JSON validation format
+
+**Explanation:**
+JSON Patch defines a format for expressing a sequence of operations (add, remove, replace, move, copy, test) to modify a JSON document.
+
+[Reference](https://tools.ietf.org/html/rfc6902)
+
+#### Q142. What is the `toJSON()` method used for?
+
+- [ ] To convert objects to JSON
+- [x] To customize how an object is serialized by JSON.stringify()
+- [ ] To parse JSON strings
+- [ ] To validate JSON
+
+**Explanation:**
+If an object has a `toJSON()` method, `JSON.stringify()` will call it and use its return value instead of the original object.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#tojson_behavior)
+
+#### Q143. Can JSON represent binary data?
+
+- [ ] Yes, using binary type
+- [x] No, but it can be encoded as Base64 strings
+- [ ] Yes, using hexadecimal
+- [ ] Only in JSON5
+
+**Explanation:**
+JSON has no native binary type. Binary data must be encoded as strings, typically using Base64 encoding.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q144. What is the maximum string length in JSON?
+
+- [ ] 65,536 characters
+- [ ] 1 MB
+- [x] No official limit, depends on implementation
+- [ ] 2^32 characters
+
+**Explanation:**
+The JSON specification doesn't define a maximum string length. Practical limits depend on the parser implementation and available memory.
+
+[Reference](https://tools.ietf.org/html/rfc8259)
+
+#### Q145. What is JSON-RPC?
+
+- [ ] JSON Remote Procedure
+- [x] A remote procedure call protocol encoded in JSON
+- [ ] A JSON compression protocol
+- [ ] A JSON validation protocol
+
+**Explanation:**
+JSON-RPC is a stateless, light-weight remote procedure call (RPC) protocol that uses JSON to encode calls and responses.
+
+[Reference](https://www.jsonrpc.org/)
+
+#### Q146. What is GeoJSON?
+
+- [ ] JSON for geography classes
+- [x] A format for encoding geographic data structures
+- [ ] Geographical JSON compression
+- [ ] A JSON validation tool for maps
+
+**Explanation:**
+GeoJSON is a format for encoding a variety of geographic data structures using JSON, commonly used in mapping applications.
+
+[Reference](https://geojson.org/)
+
+#### Q147. What is the purpose of the `reviver` parameter in `JSON.parse()`?
+
+- [ ] To validate JSON
+- [x] To transform values during parsing
+- [ ] To handle errors
+- [ ] To format output
+
+**Explanation:**
+The `reviver` parameter is a function that can transform the parsed values before they are returned, useful for converting strings to dates or other custom transformations.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+
+#### Q148. Can JSON property names be duplicate?
+
+- [ ] Yes, all duplicates are kept
+- [x] Technically yes, but behavior is undefined; last value typically wins
+- [ ] No, parser will throw an error
+- [ ] Yes, but only in JSON5
+
+**Explanation:**
+While JSON parsers typically accept duplicate keys, the behavior is undefined in the specification. Most implementations use the last value, but this should be avoided.
+
+[Reference](https://tools.ietf.org/html/rfc8259#section-4)
+
+#### Q149. What is BSON?
+
+- [ ] Binary JSON
+- [x] Binary JSON, a binary-encoded serialization of JSON-like documents
+- [ ] Better JSON
+- [ ] Basic JSON
+
+**Explanation:**
+BSON (Binary JSON) is a binary-encoded serialization format used by MongoDB. It extends JSON with additional data types like Date and Binary.
+
+[Reference](http://bsonspec.org/)
+
+#### Q150. What is MessagePack?
+
+- [ ] A JSON messaging protocol
+- [x] An efficient binary serialization format similar to JSON
+- [ ] A JSON compression algorithm
+- [ ] A JSON validation tool
+
+**Explanation:**
+MessagePack is an efficient binary serialization format that is more compact than JSON and supports additional types.
+
+[Reference](https://msgpack.org/)
+
+#### Q151. What is the correct way to represent a boolean true in JSON?
+
+- [x] `true`
+- [ ] `True`
+- [ ] `"true"`
+- [ ] `1`
+
+**Explanation:**
+JSON boolean values are lowercase: `true` and `false`. They are not strings and not capitalized.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q152. What is the correct way to represent null in JSON?
+
+- [x] `null`
+- [ ] `NULL`
+- [ ] `"null"`
+- [ ] `undefined`
+
+**Explanation:**
+The null value in JSON is lowercase: `null`. It is not a string and not capitalized. `undefined` is not a valid JSON value.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q153. Can JSON represent functions?
+
+- [ ] Yes, using function type
+- [x] No, JSON cannot represent functions
+- [ ] Yes, as strings
+- [ ] Only in JSON5
+
+**Explanation:**
+JSON cannot represent functions. If you try to stringify an object with function properties, those properties will be omitted.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q154. What is JSON Web Token (JWT)?
+
+- [ ] A JSON validation token
+- [x] A compact, URL-safe means of representing claims between two parties
+- [ ] A JSON encryption method
+- [ ] A JSON compression token
+
+**Explanation:**
+JWT is a standard for creating access tokens that assert claims. It consists of three parts: header, payload (JSON), and signature.
+
+[Reference](https://jwt.io/)
+
+#### Q155. What are the three parts of a JWT?
+
+- [ ] Header, Body, Footer
+- [x] Header, Payload, Signature
+- [ ] Type, Data, Hash
+- [ ] Version, Content, Checksum
+
+**Explanation:**
+A JWT consists of three Base64-encoded parts separated by dots: Header (algorithm and type), Payload (claims), and Signature (verification).
+
+[Reference](https://jwt.io/introduction)
+
+#### Q156. What is JSON Schema's `type` keyword used for?
+
+- [ ] To name the schema
+- [x] To specify the data type of a value
+- [ ] To define custom types
+- [ ] To import types
+
+**Explanation:**
+The `type` keyword in JSON Schema specifies the data type: "string", "number", "integer", "boolean", "array", "object", or "null".
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/type.html)
+
+#### Q157. What is the `enum` keyword in JSON Schema?
+
+- [ ] To enumerate properties
+- [x] To restrict a value to a fixed set of values
+- [ ] To create enumerations
+- [ ] To count items
+
+**Explanation:**
+The `enum` keyword restricts a value to one of a fixed set of values, like `{"enum": ["red", "green", "blue"]}`.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values)
+
+#### Q158. What is the `pattern` keyword in JSON Schema?
+
+- [ ] To define patterns
+- [x] To validate strings against a regular expression
+- [ ] To create patterns
+- [ ] To match patterns
+
+**Explanation:**
+The `pattern` keyword specifies a regular expression that a string value must match to be valid.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/string.html#regular-expressions)
+
+#### Q159. What is the `minimum` keyword in JSON Schema?
+
+- [ ] The smallest number
+- [x] The minimum value a number can have
+- [ ] The minimum length
+- [ ] The minimum items
+
+**Explanation:**
+The `minimum` keyword specifies the minimum value (inclusive) that a numeric value can have.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html#range)
+
+#### Q160. What is the `maxLength` keyword in JSON Schema?
+
+- [ ] The maximum string
+- [x] The maximum length of a string
+- [ ] The maximum size
+- [ ] The maximum value
+
+**Explanation:**
+The `maxLength` keyword specifies the maximum length (number of characters) that a string value can have.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/string.html#length)
+
+#### Q161. What is JSON-LD used for?
+
+- [ ] JSON Loading
+- [x] Linking data and adding semantic meaning to JSON
+- [ ] JSON Linting
+- [ ] JSON Debugging
+
+**Explanation:**
+JSON-LD (JSON for Linking Data) is a method of encoding linked data using JSON, adding semantic meaning and context to data.
+
+[Reference](https://json-ld.org/)
+
+#### Q162. What is the `@context` keyword in JSON-LD?
+
+- [ ] The context menu
+- [x] Defines how terms in the document map to IRIs
+- [ ] The execution context
+- [ ] The document context
+
+**Explanation:**
+The `@context` keyword in JSON-LD defines the context for interpreting the JSON document, mapping terms to IRIs (Internationalized Resource Identifiers).
+
+[Reference](https://json-ld.org/spec/latest/json-ld/#the-context)
+
+#### Q163. Can JSON represent infinity?
+
+- [ ] Yes, using `Infinity`
+- [x] No, JSON numbers cannot represent infinity
+- [ ] Yes, using `"Infinity"`
+- [ ] Only in JSON5
+
+**Explanation:**
+JSON numbers cannot represent infinity or NaN. Attempting to stringify these values results in `null`.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q164. What is the correct way to escape a double quote in a JSON string?
+
+- [ ] `""`
+- [x] `\"`
+- [ ] `'"`
+- [ ] `&quot;`
+
+**Explanation:**
+Double quotes inside JSON strings must be escaped with a backslash: `\"`. For example: `"He said \"Hello\""`.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q165. What is the correct way to represent a newline in a JSON string?
+
+- [ ] `\r`
+- [x] `\n`
+- [ ] A literal newline
+- [ ] `<br>`
+
+**Explanation:**
+Newlines in JSON strings are represented by the escape sequence `\n`. Literal newlines are not allowed in JSON strings.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q166. What is the correct way to represent a tab in a JSON string?
+
+- [ ] Four spaces
+- [x] `\t`
+- [ ] A literal tab
+- [ ] `\tab`
+
+**Explanation:**
+Tabs in JSON strings are represented by the escape sequence `\t`. Literal tabs are not allowed in JSON strings.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q167. What is the correct way to represent a backslash in a JSON string?
+
+- [x] `\\`
+- [ ] `/`
+- [ ] `\`
+- [ ] `//`
+
+**Explanation:**
+Backslashes in JSON strings must be escaped with another backslash: `\\`. For example: `"C:\\Users\\Name"`.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q168. Can JSON represent Unicode characters?
+
+- [x] Yes, using \uXXXX escape sequences or directly
+- [ ] No, only ASCII
+- [ ] Yes, but only in JSON5
+- [ ] Yes, but only with special encoding
+
+**Explanation:**
+JSON supports Unicode characters either directly (if the file is UTF-8 encoded) or using `\uXXXX` escape sequences where XXXX is the hexadecimal code point.
+
+[Reference](https://www.json.org/json-en.html)
+
+#### Q169. What is the `additionalProperties` keyword in JSON Schema?
+
+- [ ] To add more properties
+- [x] To control whether properties not defined in the schema are allowed
+- [ ] To define additional schemas
+- [ ] To add property metadata
+
+**Explanation:**
+The `additionalProperties` keyword determines whether properties not explicitly defined in the schema are allowed in the JSON object.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/object.html#additional-properties)
+
+#### Q170. What is the `items` keyword in JSON Schema?
+
+- [ ] To count items
+- [x] To define the schema for array elements
+- [ ] To list items
+- [ ] To add items
+
+**Explanation:**
+The `items` keyword in JSON Schema defines the schema that array elements must conform to.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/array.html#items)
+
+#### Q171. What is the `$ref` keyword in JSON Schema?
+
+- [ ] A reference number
+- [x] To reference another schema or schema definition
+- [ ] A reference type
+- [ ] A reference counter
+
+**Explanation:**
+The `$ref` keyword allows you to reference another schema or a definition within the same schema, enabling schema reuse.
+
+[Reference](https://json-schema.org/understanding-json-schema/structuring.html#ref)
+
+#### Q172. What is the `definitions` keyword in JSON Schema?
+
+- [ ] To define terms
+- [x] To define reusable schema components
+- [ ] To create definitions
+- [ ] To list definitions
+
+**Explanation:**
+The `definitions` (or `$defs` in newer versions) keyword allows you to define reusable schema components that can be referenced with `$ref`.
+
+[Reference](https://json-schema.org/understanding-json-schema/structuring.html#defs)
+
+#### Q173. What is the `allOf` keyword in JSON Schema?
+
+- [ ] All of the schemas
+- [x] Requires the data to be valid against all of the given schemas
+- [ ] All properties
+- [ ] All items
+
+**Explanation:**
+The `allOf` keyword requires that the data validates against all of the schemas in the array, useful for combining schemas.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/combining.html#allof)
+
+#### Q174. What is the `anyOf` keyword in JSON Schema?
+
+- [ ] Any of the properties
+- [x] Requires the data to be valid against any (one or more) of the given schemas
+- [ ] Any items
+- [ ] Any values
+
+**Explanation:**
+The `anyOf` keyword requires that the data validates against at least one of the schemas in the array.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/combining.html#anyof)
+
+#### Q175. What is the `oneOf` keyword in JSON Schema?
+
+- [ ] One of the properties
+- [x] Requires the data to be valid against exactly one of the given schemas
+- [ ] One item
+- [ ] One value
+
+**Explanation:**
+The `oneOf` keyword requires that the data validates against exactly one (and only one) of the schemas in the array.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/combining.html#oneof)
+
+#### Q176. What is the `not` keyword in JSON Schema?
+
+- [ ] To negate values
+- [x] Requires the data to NOT be valid against the given schema
+- [ ] To exclude properties
+- [ ] To deny access
+
+**Explanation:**
+The `not` keyword requires that the data does not validate against the given schema, useful for excluding certain patterns.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/combining.html#not)
+
+#### Q177. What is Content Security Policy (CSP) and how does it relate to JSON?
+
+- [ ] JSON security protocol
+- [x] HTTP header that can restrict JSON loading from external sources
+- [ ] JSON encryption standard
+- [ ] JSON validation policy
+
+**Explanation:**
+Content Security Policy is an HTTP header that helps prevent XSS attacks. It can restrict which sources can load JSON and other resources.
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+
+#### Q178. What is the purpose of the `format` keyword in JSON Schema?
+
+- [ ] To format output
+- [x] To specify semantic validation for strings (email, uri, date, etc.)
+- [ ] To format JSON
+- [ ] To create formats
+
+**Explanation:**
+The `format` keyword provides semantic validation for string values, like "email", "uri", "date-time", "ipv4", etc.
+
+[Reference](https://json-schema.org/understanding-json-schema/reference/string.html#format)
+
+#### Q179. What is JSON Hyper-Schema?
+
+- [ ] A hyperlinked JSON
+- [x] An extension of JSON Schema for describing hypermedia APIs
+- [ ] A JSON compression format
+- [ ] A JSON validation tool
+
+**Explanation:**
+JSON Hyper-Schema extends JSON Schema to describe hypermedia APIs, including links and link relations.
+
+[Reference](https://json-schema.org/draft/2019-09/json-schema-hypermedia.html)
+
+#### Q180. What is the best practice for handling large JSON files?
+
+- [ ] Load everything into memory
+- [x] Use streaming parsers for large files
+- [ ] Compress before parsing
+- [ ] Split into multiple files
+
+**Explanation:**
+For large JSON files, streaming parsers (like SAX-style parsers) are recommended as they process the file incrementally without loading everything into memory.
+
+[Reference](https://en.wikipedia.org/wiki/JSON_streaming)
