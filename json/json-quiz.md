@@ -1367,3 +1367,703 @@ Explanation:- When you have a key in a JSON document that contains special chara
 - [ ] To represent data in a more human-readable format
 - [x] To express structured data that is linked to other data
 - [ ] To create dynamic web pages with JSON
+
+#### Q121. What is the maximum nesting depth recommended for JSON objects to maintain readability?
+
+- [ ] 3 levels
+- [ ] 5 levels
+- [x] No strict limit, but 5-7 levels is generally recommended
+- [ ] 10 levels
+
+#### Q122. Which of the following is a valid JSON representation of a date?
+
+- [ ] { "date": new Date() }
+- [x] { "date": "2024-01-15T10:30:00Z" }
+- [ ] { "date": Date.now() }
+- [ ] { "date": 2024-01-15 }
+
+#### Q123. What does the term "JSON serialization" refer to?
+
+- [ ] Compressing JSON data
+- [x] Converting an object or data structure into a JSON string
+- [ ] Encrypting JSON data
+- [ ] Validating JSON syntax
+
+#### Q124. In JSON, what is the difference between `null` and `undefined`?
+
+- [ ] They are identical
+- [x] `null` is a valid JSON value, `undefined` is not
+- [ ] `undefined` is a valid JSON value, `null` is not
+- [ ] Both are invalid in JSON
+
+#### Q125. What is JSON Pointer (RFC 6901) used for?
+
+- [ ] Encrypting JSON data
+- [x] Defining a string syntax for identifying a specific value within a JSON document
+- [ ] Compressing JSON files
+- [ ] Converting JSON to XML
+
+#### Q126. Which HTTP status code typically indicates successful JSON API response?
+
+- [ ] 201
+- [x] 200
+- [ ] 204
+- [ ] 202
+
+#### Q127. What is the purpose of JSON Web Encryption (JWE)?
+
+- [ ] To compress JSON data
+- [ ] To validate JSON structure
+- [x] To encrypt JSON data for secure transmission
+- [ ] To convert JSON to binary format
+
+#### Q128. In a RESTful API, which HTTP method is typically used to send JSON data for creating a new resource?
+
+- [ ] GET
+- [x] POST
+- [ ] PUT
+- [ ] DELETE
+
+#### Q129. What is the recommended Content-Type header for JSON API responses?
+
+- [ ] text/json
+- [x] application/json
+- [ ] application/x-json
+- [ ] text/plain
+
+#### Q130. Which tool can be used to validate JSON schema compliance?
+
+- [ ] JSONLint only
+- [ ] ESLint
+- [x] JSON Schema validators like Ajv
+- [ ] JSHint
+
+#### Q131. What is the purpose of the `$schema` keyword in JSON Schema?
+
+- [ ] To define the data type
+- [x] To specify which version of JSON Schema the schema follows
+- [ ] To encrypt the schema
+- [ ] To compress the schema
+
+#### Q132. In JSON, how do you represent an empty object?
+
+- [ ] { null }
+- [x] {}
+- [ ] { "" }
+- [ ] { empty }
+
+#### Q133. What is BSON?
+
+- [ ] A JSON compression algorithm
+- [x] Binary JSON, a binary-encoded serialization of JSON-like documents
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q134. Which of the following is true about JSON and JSONP?
+
+- [ ] They are identical
+- [x] JSONP is a technique for requesting data by loading a script tag
+- [ ] JSONP is more secure than JSON
+- [ ] JSON cannot be used in browsers
+
+#### Q135. What is the maximum string length in JSON?
+
+- [ ] 255 characters
+- [ ] 65,536 characters
+- [x] No defined maximum, depends on implementation
+- [ ] 1 million characters
+
+#### Q136. Which character encoding is required for JSON?
+
+- [ ] ASCII
+- [ ] ISO-8859-1
+- [x] UTF-8 (or UTF-16/UTF-32)
+- [ ] ANSI
+
+#### Q137. What is the purpose of JSON Patch (RFC 6902)?
+
+- [ ] To compress JSON files
+- [x] To define a format for expressing a sequence of operations to apply to a JSON document
+- [ ] To encrypt JSON data
+- [ ] To convert JSON to XML
+
+#### Q138. In JSON Schema, what does the "required" keyword specify?
+
+- [ ] The data type of a property
+- [x] Which properties must be present in the object
+- [ ] The maximum value of a number
+- [ ] The format of a string
+
+#### Q139. What is the difference between JSON.stringify() and JSON.parse()?
+
+- [x] stringify converts objects to strings, parse converts strings to objects
+- [ ] They perform the same function
+- [ ] stringify validates JSON, parse creates JSON
+- [ ] parse converts objects to strings, stringify converts strings to objects
+
+#### Q140. Which of the following is a valid way to include comments in JSON?
+
+- [ ] // comment
+- [ ] /* comment */
+- [ ] # comment
+- [x] JSON does not support comments
+
+#### Q141. What is JSON5?
+
+- [ ] The fifth version of JSON
+- [x] An extension to JSON that allows comments and other JavaScript features
+- [ ] A compression format for JSON
+- [ ] A JSON validation tool
+
+#### Q142. In JSON, what is the correct way to represent a boolean false value?
+
+- [ ] "false"
+- [ ] FALSE
+- [x] false
+- [ ] 0
+
+#### Q143. What is the purpose of the "additionalProperties" keyword in JSON Schema?
+
+- [ ] To define required properties
+- [x] To specify whether properties not defined in the schema are allowed
+- [ ] To set default values
+- [ ] To define the data type
+
+#### Q144. Which of the following is true about JSON and JavaScript objects?
+
+- [ ] They are identical
+- [x] JSON is a subset of JavaScript object literal notation
+- [ ] JavaScript objects are a subset of JSON
+- [ ] They are completely different
+
+#### Q145. What is the purpose of JSON Web Signature (JWS)?
+
+- [ ] To compress JSON data
+- [x] To digitally sign JSON data to ensure integrity and authenticity
+- [ ] To encrypt JSON data
+- [ ] To validate JSON syntax
+
+#### Q146. In a JSON API, what does the HTTP status code 400 typically indicate?
+
+- [ ] Success
+- [x] Bad Request (invalid JSON or request)
+- [ ] Not Found
+- [ ] Server Error
+
+#### Q147. What is the recommended way to handle large numbers in JSON that exceed JavaScript's Number.MAX_SAFE_INTEGER?
+
+- [ ] Use scientific notation
+- [x] Represent them as strings
+- [ ] Split them into multiple numbers
+- [ ] Use hexadecimal format
+
+#### Q148. Which of the following is a valid JSON array?
+
+- [ ] [1, 2, 3,]
+- [x] [1, 2, 3]
+- [ ] [1; 2; 3]
+- [ ] {1, 2, 3}
+
+#### Q149. What is the purpose of the "enum" keyword in JSON Schema?
+
+- [ ] To define numeric types
+- [x] To restrict a value to a fixed set of values
+- [ ] To enable enumeration of properties
+- [ ] To define array types
+
+#### Q150. In JSON, how do you represent a null value?
+
+- [ ] "null"
+- [ ] NULL
+- [x] null
+- [ ] undefined
+
+#### Q151. What is JSON-RPC?
+
+- [ ] A JSON compression protocol
+- [x] A remote procedure call protocol encoded in JSON
+- [ ] A JSON validation standard
+- [ ] A JSON encryption method
+
+#### Q152. Which of the following is true about JSON key names?
+
+- [ ] They must be valid JavaScript identifiers
+- [x] They must be strings enclosed in double quotes
+- [ ] They can be numbers
+- [ ] They can be boolean values
+
+#### Q153. What is the purpose of the "$ref" keyword in JSON Schema?
+
+- [ ] To define references to external files
+- [x] To reference and reuse schema definitions
+- [ ] To create circular references
+- [ ] To define relationships between objects
+
+#### Q154. In JSON, what is the correct way to escape a double quote character?
+
+- [ ] '"'
+- [x] \"
+- [ ] ""
+- [ ] `"`
+
+#### Q155. What is the maximum size of a JSON document?
+
+- [ ] 1 MB
+- [ ] 10 MB
+- [x] No defined maximum, depends on implementation and available memory
+- [ ] 100 MB
+
+#### Q156. Which of the following is a valid use case for JSON?
+
+- [ ] Storing binary data
+- [ ] Executing code
+- [x] Data interchange between client and server
+- [ ] Creating user interfaces
+
+#### Q157. What is the purpose of JSON Schema's "format" keyword?
+
+- [ ] To define the data type
+- [x] To specify semantic validation for strings (e.g., email, uri, date-time)
+- [ ] To format output
+- [ ] To compress data
+
+#### Q158. In JSON, which of the following represents an empty array?
+
+- [ ] { }
+- [x] [ ]
+- [ ] null
+- [ ] ""
+
+#### Q159. What is the difference between JSON and XML?
+
+- [ ] They are identical
+- [x] JSON is more lightweight and easier to parse than XML
+- [ ] XML is more lightweight than JSON
+- [ ] JSON supports attributes, XML doesn't
+
+#### Q160. What is the purpose of the "oneOf" keyword in JSON Schema?
+
+- [ ] To define a single property
+- [x] To validate that data matches exactly one of the specified schemas
+- [ ] To define optional properties
+- [ ] To create unions of types
+
+#### Q161. In JSON, how do you represent scientific notation?
+
+- [ ] 1.5 * 10^3
+- [x] 1.5e3
+- [ ] 1.5E+3 only
+- [ ] Scientific notation is not supported
+
+#### Q162. What is JSON Lines (JSONL)?
+
+- [ ] A JSON compression format
+- [x] A format where each line is a valid JSON value
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q163. Which HTTP header should be set when sending JSON data in a request?
+
+- [ ] Accept: application/json
+- [x] Content-Type: application/json
+- [ ] Content-Encoding: json
+- [ ] Transfer-Encoding: json
+
+#### Q164. What is the purpose of JSON Schema's "allOf" keyword?
+
+- [ ] To define all required properties
+- [x] To validate that data matches all of the specified schemas
+- [ ] To define all possible values
+- [ ] To create arrays
+
+#### Q165. In JSON, what is the correct way to represent a negative number?
+
+- [ ] "-5"
+- [x] -5
+- [ ] (-5)
+- [ ] minus 5
+
+#### Q166. What is the purpose of the "default" keyword in JSON Schema?
+
+- [ ] To define the data type
+- [x] To specify a default value if the property is not present
+- [ ] To define required properties
+- [ ] To validate the schema
+
+#### Q167. Which of the following is true about JSON and YAML?
+
+- [ ] They are identical
+- [x] YAML is a superset of JSON (all JSON is valid YAML)
+- [ ] JSON is a superset of YAML
+- [ ] They are completely incompatible
+
+#### Q168. What is the purpose of JSON Schema's "anyOf" keyword?
+
+- [ ] To define any data type
+- [x] To validate that data matches at least one of the specified schemas
+- [ ] To define optional properties
+- [ ] To create arrays
+
+#### Q169. In JSON, how do you represent a decimal number?
+
+- [ ] "3.14"
+- [x] 3.14
+- [ ] 3,14
+- [ ] 3.14f
+
+#### Q170. What is the purpose of JSON Schema's "not" keyword?
+
+- [ ] To define null values
+- [x] To validate that data does NOT match the specified schema
+- [ ] To negate boolean values
+- [ ] To define optional properties
+
+#### Q171. Which of the following is a valid JSON number?
+
+- [ ] 0x1F
+- [ ] 077
+- [x] 31
+- [ ] 31L
+
+#### Q172. What is the purpose of the "minLength" and "maxLength" keywords in JSON Schema?
+
+- [ ] To define array sizes
+- [x] To specify minimum and maximum string lengths
+- [ ] To define number ranges
+- [ ] To define object sizes
+
+#### Q173. In JSON, what is the correct way to represent an object with no properties?
+
+- [ ] null
+- [x] {}
+- [ ] { "" }
+- [ ] undefined
+
+#### Q174. What is JSON Hyper-Schema?
+
+- [ ] A JSON compression format
+- [x] An extension of JSON Schema for defining hypermedia APIs
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q175. Which of the following is true about JSON property order?
+
+- [ ] Properties must be in alphabetical order
+- [x] JSON objects are unordered collections of key-value pairs
+- [ ] Properties must be in the order they were defined
+- [ ] JSON requires a specific property order
+
+#### Q176. What is the purpose of the "minimum" and "maximum" keywords in JSON Schema?
+
+- [ ] To define string lengths
+- [x] To specify minimum and maximum numeric values
+- [ ] To define array sizes
+- [ ] To define date ranges
+
+#### Q177. In JSON, which of the following is a valid way to represent infinity?
+
+- [ ] Infinity
+- [ ] "Infinity"
+- [ ] 1/0
+- [x] JSON does not support infinity
+
+#### Q178. What is the purpose of JSON Schema's "pattern" keyword?
+
+- [ ] To define design patterns
+- [x] To specify a regular expression that a string must match
+- [ ] To define repeating structures
+- [ ] To create templates
+
+#### Q179. Which of the following is true about JSON and MongoDB?
+
+- [ ] MongoDB stores data in JSON format
+- [x] MongoDB stores data in BSON (Binary JSON) format
+- [ ] MongoDB cannot work with JSON
+- [ ] JSON and BSON are identical
+
+#### Q180. What is the purpose of the "uniqueItems" keyword in JSON Schema?
+
+- [ ] To define unique object properties
+- [x] To specify that all items in an array must be unique
+- [ ] To create unique identifiers
+- [ ] To validate unique keys
+
+#### Q181. In JSON, how do you represent a tab character in a string?
+
+- [ ] \tab
+- [x] \t
+- [ ] \\t
+- [ ] <tab>
+
+#### Q182. What is JSON API (jsonapi.org)?
+
+- [ ] A JSON validation tool
+- [x] A specification for building APIs in JSON
+- [ ] A JSON compression format
+- [ ] A JSON encryption method
+
+#### Q183. Which of the following is true about JSON and GraphQL?
+
+- [ ] They are identical
+- [x] GraphQL uses JSON for data exchange but provides a query language
+- [ ] GraphQL cannot use JSON
+- [ ] JSON is a replacement for GraphQL
+
+#### Q184. What is the purpose of the "dependencies" keyword in JSON Schema?
+
+- [ ] To define external dependencies
+- [x] To specify property dependencies (if one property exists, others must too)
+- [ ] To define package dependencies
+- [ ] To create circular references
+
+#### Q185. In JSON, what is the correct way to represent a carriage return in a string?
+
+- [ ] \cr
+- [x] \r
+- [ ] \\r
+- [ ] <cr>
+
+#### Q186. What is the purpose of JSON Schema's "const" keyword?
+
+- [ ] To define constants
+- [x] To specify that a value must be exactly equal to the given value
+- [ ] To define immutable properties
+- [ ] To create constant arrays
+
+#### Q187. Which of the following is a valid JSON boolean value?
+
+- [ ] "true"
+- [ ] TRUE
+- [x] true
+- [ ] 1
+
+#### Q188. What is the purpose of the "multipleOf" keyword in JSON Schema?
+
+- [ ] To define arrays
+- [x] To specify that a number must be a multiple of the given value
+- [ ] To define multiple properties
+- [ ] To create multiplication operations
+
+#### Q189. In JSON, how do you represent a form feed character in a string?
+
+- [ ] \ff
+- [x] \f
+- [ ] \\f
+- [ ] <ff>
+
+#### Q190. What is JSON Merge Patch (RFC 7396)?
+
+- [ ] A JSON compression method
+- [x] A format for expressing partial modifications to a JSON document
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q191. Which of the following is true about JSON and REST APIs?
+
+- [ ] REST APIs cannot use JSON
+- [x] JSON is the most common format for REST API data exchange
+- [ ] REST APIs must use XML
+- [ ] JSON and REST are incompatible
+
+#### Q192. What is the purpose of the "if", "then", "else" keywords in JSON Schema?
+
+- [ ] To define conditional logic in data
+- [x] To apply conditional validation based on property values
+- [ ] To create if-else statements
+- [ ] To define optional properties
+
+#### Q193. In JSON, what is the maximum number of properties an object can have?
+
+- [ ] 255
+- [ ] 65,536
+- [x] No defined maximum, depends on implementation
+- [ ] 1 million
+
+#### Q194. What is the purpose of JSON Schema's "propertyNames" keyword?
+
+- [ ] To list all property names
+- [x] To validate the names of properties in an object
+- [ ] To define required properties
+- [ ] To create property aliases
+
+#### Q195. Which of the following is true about JSON and NoSQL databases?
+
+- [ ] NoSQL databases cannot store JSON
+- [x] Many NoSQL databases natively support JSON documents
+- [ ] JSON is only for SQL databases
+- [ ] NoSQL requires XML instead of JSON
+
+#### Q196. What is the purpose of the "contentMediaType" keyword in JSON Schema?
+
+- [ ] To define the data type
+- [x] To specify the MIME type of string content
+- [ ] To compress content
+- [ ] To encrypt content
+
+#### Q197. In JSON, how do you represent a backspace character in a string?
+
+- [ ] \bs
+- [x] \b
+- [ ] \\b
+- [ ] <bs>
+
+#### Q198. What is JSON-LD Context?
+
+- [ ] A JSON compression context
+- [x] A way to map terms to IRIs in JSON-LD
+- [ ] A JSON validation context
+- [ ] A JSON encryption context
+
+#### Q199. Which of the following is true about JSON and microservices?
+
+- [ ] Microservices cannot use JSON
+- [x] JSON is commonly used for inter-service communication in microservices
+- [ ] Microservices require XML
+- [ ] JSON is too slow for microservices
+
+#### Q200. What is the purpose of the "contentEncoding" keyword in JSON Schema?
+
+- [ ] To define character encoding
+- [x] To specify the encoding used for string content (e.g., base64)
+- [ ] To compress content
+- [ ] To encrypt content
+
+#### Q201. In JSON, what is the correct way to represent an empty string?
+
+- [ ] null
+- [x] ""
+- [ ] { }
+- [ ] [ ]
+
+#### Q202. What is JSON Feed?
+
+- [ ] A JSON compression feed
+- [x] A format for syndicating content similar to RSS/Atom but using JSON
+- [ ] A JSON validation feed
+- [ ] A JSON encryption feed
+
+#### Q203. Which of the following is true about JSON and WebSockets?
+
+- [ ] WebSockets cannot transmit JSON
+- [x] JSON is commonly used as the message format in WebSocket communication
+- [ ] WebSockets require binary data only
+- [ ] JSON and WebSockets are incompatible
+
+#### Q204. What is the purpose of the "readOnly" keyword in JSON Schema?
+
+- [ ] To define read-only files
+- [x] To indicate that a property should not be modified by clients
+- [ ] To create immutable objects
+- [ ] To define constants
+
+#### Q205. In JSON, which of the following is a valid way to represent NaN (Not a Number)?
+
+- [ ] NaN
+- [ ] "NaN"
+- [ ] 0/0
+- [x] JSON does not support NaN
+
+#### Q206. What is JSON Resume?
+
+- [ ] A JSON compression tool
+- [x] A JSON-based standard for resumes
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q207. Which of the following is true about JSON and CORS?
+
+- [ ] JSON prevents CORS issues
+- [x] CORS policies apply to JSON API requests from browsers
+- [ ] JSON bypasses CORS
+- [ ] CORS only applies to XML
+
+#### Q208. What is the purpose of the "writeOnly" keyword in JSON Schema?
+
+- [ ] To define write-only files
+- [x] To indicate that a property should not be returned in responses
+- [ ] To create write-protected objects
+- [ ] To define mutable properties
+
+#### Q209. In JSON, what is the maximum depth of nested arrays?
+
+- [ ] 10 levels
+- [ ] 100 levels
+- [x] No defined maximum, depends on implementation
+- [ ] 1000 levels
+
+#### Q210. What is JSON-stat?
+
+- [ ] A JSON validation tool
+- [x] A JSON format for statistical data dissemination
+- [ ] A JSON compression format
+- [ ] A JSON encryption method
+
+#### Q211. Which of the following is true about JSON and caching?
+
+- [ ] JSON cannot be cached
+- [x] JSON responses can be cached using HTTP caching headers
+- [ ] JSON requires special caching mechanisms
+- [ ] Caching is disabled for JSON
+
+#### Q212. What is the purpose of the "examples" keyword in JSON Schema?
+
+- [ ] To define required examples
+- [x] To provide sample values that validate against the schema
+- [ ] To create example objects
+- [ ] To validate examples
+
+#### Q213. In JSON, how do you represent a Unicode character?
+
+- [ ] \u{1F600}
+- [x] \u1F600 (for BMP) or \uD83D\uDE00 (surrogate pair for non-BMP)
+- [ ] &#x1F600;
+- [ ] U+1F600
+
+#### Q214. What is JSON Table Schema?
+
+- [ ] A JSON compression format
+- [x] A specification for describing tabular data in JSON
+- [ ] A JSON validation tool
+- [ ] A JSON encryption method
+
+#### Q215. Which of the following is true about JSON and ETags?
+
+- [ ] JSON doesn't support ETags
+- [x] ETags can be used with JSON responses for cache validation
+- [ ] ETags are only for HTML
+- [ ] JSON requires special ETag handling
+
+#### Q216. What is the purpose of the "deprecated" keyword in JSON Schema?
+
+- [ ] To delete properties
+- [x] To indicate that a property or schema is deprecated
+- [ ] To remove validation
+- [ ] To create legacy schemas
+
+#### Q217. In JSON, what is the correct way to represent a literal backslash?
+
+- [ ] \
+- [x] \\
+- [ ] \\\\
+- [ ] /
+
+#### Q218. What is JSON-LD Frame?
+
+- [ ] A JSON compression frame
+- [x] A way to shape JSON-LD data into a specific structure
+- [ ] A JSON validation frame
+- [ ] A JSON encryption frame
+
+#### Q219. Which of the following is true about JSON and pagination?
+
+- [ ] JSON doesn't support pagination
+- [x] JSON APIs commonly implement pagination using metadata fields
+- [ ] Pagination requires XML
+- [ ] JSON automatically paginates data
+
+#### Q220. What is the purpose of the "title" and "description" keywords in JSON Schema?
+
+- [ ] To define the data type
+- [x] To provide human-readable information about the schema
+- [ ] To validate titles
+- [ ] To create documentation
