@@ -1006,8 +1006,8 @@ Table name: superheroes
 
 #### Q104. What is the meaning of "HAVING" clause in Mysql?
 
-- [ ] To filter out the column values
-- [x] To filter out the row values
+- [x] To filter out the column values
+- [ ] To filter out the row values
 - [ ] To filter out the row and column values
 - [ ] None of the mentioned
 
@@ -1035,8 +1035,8 @@ Table name: superheroes
       FROM employee e INNER JOIN department d
       ON e.dept_id=e.dept_id;
 
-- [x] NO
-- [ ] YES
+- [ ] NO
+- [x] YES
 - [ ] DEPEND
 - [ ] None of the mentioned
 
@@ -1267,8 +1267,8 @@ SELECT name FROM Students WHERE exam_score > 90;
 
 - [ ] AFFECTED_ROWS()
 - [ ] COUNT_CHANGES()
-- [ ] ROW_COUNT()
-- [x] FOUND_ROWS()
+- [x] ROW_COUNT()
+- [ ] FOUND_ROWS()
 
 #### Q135. What is the purpose of the HAVING clause in MySQL?
 
@@ -1336,9 +1336,9 @@ SELECT name FROM Students WHERE exam_score > 90;
 #### Q144. Which MySQL command is used to start a transaction?
 
 - [ ] BEGIN TRANSACTION
-- [ ] START TRANSACTION
+- [x] START TRANSACTION
 - [ ] INIT TRANSACTION
-- [x] BEGIN
+- [ ] BEGIN
 
 #### Q145. What does the CONCAT() function do in MySQL?
 
@@ -1384,9 +1384,9 @@ SELECT name FROM Students WHERE exam_score > 90;
 
 #### Q151. What is the purpose of the `UNION` operator in MySQL?
 
-- [ ] To combine the results of multiple `SELECT` statements into a single result set, removing duplicate rows.
+- [x] To combine the results of multiple `SELECT` statements into a single result set, removing duplicate rows.
 - [ ] To perform a logical OR operation on the results of multiple `SELECT` statements.
-- [x] To combine the results of multiple `SELECT` statements into a single result set, including duplicate rows.
+- [ ] To combine the results of multiple `SELECT` statements into a single result set, including duplicate rows.
 - [ ] To perform a logical AND operation on the results of multiple `SELECT` statements.
 
 **Explanation:**
