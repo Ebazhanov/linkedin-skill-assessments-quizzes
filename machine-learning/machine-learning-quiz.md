@@ -1039,7 +1039,6 @@ The correct answer is a) The algorithm may overshoot the minimum and fail to con
 
 A large learning rate makes steps too big, causing oscillations or divergence.
 
----
 
 #### Q131. What is the main goal of dimensionality reduction?
 
@@ -1053,7 +1052,7 @@ The correct answer is a) Reduce the number of input features while retaining imp
 
 Techniques like PCA aim to compress data by keeping maximum variance with fewer features.
 
----
+
 
 #### Q132. Which of these metrics is **not** suitable for evaluating a regression model?
 
@@ -1067,7 +1066,7 @@ The correct answer is a) Accuracy.
 
 Accuracy is only meaningful for classification, not regression.
 
----
+
 
 #### Q133. You are developing a reinforcement learning model. What is the main component that guides the learning process?
 
@@ -1081,7 +1080,7 @@ The correct answer is b) Reward function.
 
 The reward function provides feedback based on actions taken, guiding the agent’s learning.
 
----
+
 
 #### Q134. What is a confusion matrix used for?
 
@@ -1095,7 +1094,6 @@ The correct answer is a) Evaluating classification model performance
 
 It summarizes true/false positives and negatives, helping analyze accuracy, precision, and recall.
 
----
 
 #### Q135. You trained a neural network and noticed it performs worse as you add more layers. What might be happening?
 
