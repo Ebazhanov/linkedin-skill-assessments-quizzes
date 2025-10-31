@@ -218,7 +218,7 @@ func main() {
 1. [Golang 中的 time.After() 函数及示例](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)
 2. [如何在 Golang 中使用 'time.After' 和 'default'？](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)
 3. [Go Playground 示例](https://go.dev/play/p/WojTrG1ywRK)
- 
+
 #### Q14. `select` 语句用于什么？
 
 - [ ] 并发执行一个函数
@@ -539,7 +539,7 @@ AM/PM mark: "PM"
 - [ ] 只有根目录下以 `_test.go` 结尾的文件
 - [x] 任何以 `_test.go` 结尾的文件
 
-1. [go 命令中的测试包](https://pkg.go.dev/cmd/go#hdr-Test_packages)：'Go test' 会重新编译每个包以及任何名称匹配“*_test.go”模式的文件。
+1. [go 命令中的测试包](https://pkg.go.dev/cmd/go#hdr-Test_packages)：'Go test' 会重新编译每个包以及任何名称匹配“\*\_test.go”模式的文件。
 2. [在 Go 中添加测试](https://go.dev/doc/tutorial/add-a-test)
 
 #### Q35. 这段代码的输出是什么？
@@ -1077,8 +1077,8 @@ An easy way to remember this value is that it holds, when presented in this orde
 
 #### Q60. 你如何向 Go 编译器表明结构体 `Namespace` 必须实现接口 `JSONConverter`？假设答案写在声明 `Namespace` 的同一个包中。
 
-- [ ] var _ JSONConverter = nil. (*Namespace)
-- [x] var _ JSONConverter = (*Namespace) (nil)
+- [ ] var \_ JSONConverter = nil. (\*Namespace)
+- [x] var \_ JSONConverter = (\*Namespace) (nil)
 - [ ] type Namespace struct {
       implements JSONConverter
       // 其余结构体声明在此
@@ -1295,7 +1295,7 @@ fmt.Println(a, b, c)
 
 ### Q71. 逻辑与条件的运算符是？
 
-- [ ] +
+- [ ] -
 - [ ] and
 - [x] &&
 - [ ] ||

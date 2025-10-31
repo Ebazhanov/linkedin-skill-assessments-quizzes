@@ -20,25 +20,25 @@
 
 #### P3. ¿Cuál NO es una construcción de bucle válida en Go?
 
-- [x] 
+- [x]
 
 ```go
       do { ... } while i < 5
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       for _,c := range "hello" { ... }
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       for i := 1; i < 5; i++ { ... }
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       for i < 5 { ... }
@@ -52,25 +52,25 @@
 values := []int{1, 1, 2}
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       values.append(3)
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       values.insert(3, 3)
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       append(values, 3)
 ```
 
-- [x] 
+- [x]
 
 ```go
       values = append(values, 3)
@@ -97,25 +97,25 @@ const (
 
 #### P6. ¿Cuál es la única sentencia `import` válida en Go?
 
-- [ ] 
+- [ ]
 
 ```go
       import "github/gin-gonic/gin"
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       import "https://github.com/gin-gonic/gin"
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       import "../template"
 ```
 
-- [x] 
+- [x]
 
 ```go
       import "github.com/gin-gonic/gin"
@@ -321,25 +321,25 @@ func Add(a, b int) int {
 data := "A group of Owls is called a parliament"
 ```
 
-- [ ] 
+- [ ]
 
 ```go
   resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
 ```
 
-- [x] 
+- [x]
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
@@ -357,7 +357,7 @@ data := "A group of Owls is called a parliament"
 
 [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
-#### P21. Una sentencia `switch` **_** su propio bloque léxico. Cada `case` **_** un bloque léxico adicional
+#### P21. Una sentencia `switch` **\_** su propio bloque léxico. Cada `case` **\_** un bloque léxico adicional
 
 - [ ] no crea; crea
 - [ ] no crea; no crea
@@ -646,7 +646,7 @@ fmt.Println(i)
 func worker(m Message) Result
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 go func() {
@@ -655,7 +655,7 @@ go func() {
 }
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 go func() {
@@ -664,7 +664,7 @@ go func() {
 } ()
 ```
 
-- [x] 
+- [x]
 
 ```go
 go func() {
@@ -673,7 +673,7 @@ go func() {
 } ()
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 go ch <- worker(m)
@@ -774,27 +774,27 @@ func main() {
 }
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       ctx.SetTimeout(3*time.Second)
       req.AttachContext(ctx)
 ```
 
-- [x] 
+- [x]
 
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
       req = req.WithContext(ctx)
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)
 ```
 
-- [ ] 
+- [ ]
 
 ```go
       ctx.SetTimeout(3*time.Second)
@@ -806,29 +806,21 @@ func main() {
 
 #### P53. Si tienes una struct llamada `Client` definida en el mismo archivo `.go`, ¿cómo exportas una variable con un valor por defecto para que sea accesible por otros paquetes?
 
-- [ ] 
+- [ ] ```go
+      let Default := new Client()
+      ```
 
-  ```go
-  let Default := new Client()
-  ```
+- [ ] ```go
+      public default = &Client()
+      ```
 
-- [ ] 
+- [x] ```go
+      var Default = &Client{}
+      ```
 
-  ```go
-  public default = &Client()
-  ```
-
-- [x] 
-
-  ```go
-  var Default = &Client{}
-  ```
-
-- [ ] 
-
-  ```go
-  export default := new Client{}
-  ```
+- [ ] ```go
+      export default := new Client{}
+      ```
 
 #### P54. Este programa imprime `{Master Chief Spartan Protagonist Halo}`. ¿Cómo harías para que imprima `Master Chief - a Spartan - is the Protagonist of Halo`?
 
@@ -988,20 +980,18 @@ fmt.Println (n)
 
 #### P60. ¿Cómo señalas al compilador de Go que la struct `Namespace` debe implementar la interfaz `JSONConverter`? (Mismo paquete que `Namespace`.)
 
-- [ ] var _ JSONConverter = nil. (*Namespace)
-- [x] var _ JSONConverter = (*Namespace) (nil)
-- [ ] 
-  ```go
-  type Namespace struct {
-      implements JSONConverter
-  }
-  ```
-- [ ] 
-  ```go
-  type Namespace struct {
-      JSONConverter
-  }
-  ```
+- [ ] var \_ JSONConverter = nil. (\*Namespace)
+- [x] var \_ JSONConverter = (\*Namespace) (nil)
+- [ ] ```go
+      type Namespace struct {
+          implements JSONConverter
+      }
+      ```
+- [ ] ```go
+      type Namespace struct {
+          JSONConverter
+      }
+      ```
 
 > Esta sintaxis verifica que `*Namespace` satisface `JSONConverter`.
 
@@ -1076,7 +1066,7 @@ func main() {
 }
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 #1: games := make([]*Game, results.RowsAffected())
@@ -1084,7 +1074,7 @@ func main() {
 #3: games[results.Index()] = &g
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 #1: games := []Game{}
@@ -1092,7 +1082,7 @@ func main() {
 #3: games = append(games,g)
 ```
 
-- [ ] 
+- [ ]
 
 ```go
 #1: games := map[int]Game{}
@@ -1100,7 +1090,7 @@ func main() {
 #3: games[g.GameId] = g
 ```
 
-- [x] 
+- [x]
 
 ```go
 #1: games := make(map[int]*Game, 0)
@@ -1110,10 +1100,10 @@ func main() {
 
 #### P63. Completa los espacios
 
-1. Los archivos de prueba en Go deben **_**.
-2. Las pruebas individuales se identifican por **_**.
-3. Puedes ejecutar subpruebas **_**.
-4. Registras el error y marcas la prueba como fallida **_**.
+1. Los archivos de prueba en Go deben **\_**.
+2. Las pruebas individuales se identifican por **\_**.
+3. Puedes ejecutar subpruebas **\_**.
+4. Registras el error y marcas la prueba como fallida **\_**.
 
 - [ ] almacenarse en un subdirectorio `/test/` de ese paquete
       <br/>funciones que aceptan un parámetro `testing.Tester`
@@ -1202,7 +1192,7 @@ fmt.Println(a, b, c)
 
 ### P71. ¿Cuál es el operador para una condición AND lógica?
 
-- [ ] +
+- [ ] -
 - [ ] and
 - [x] &&
 - [ ] ||
@@ -1245,5 +1235,3 @@ fmt.Println(a, b, c)
 - [ ] todos los tipos
 
 > Se pueden definir métodos para cualquier tipo con nombre que no sea incorporado. [reference](https://go.dev/ref/spec#Method_declarations)
-
-

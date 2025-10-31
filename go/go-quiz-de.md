@@ -1014,6 +1014,7 @@ func main() {
   func (cc Clients) Append(c Client) {
     cc.clients = append(cc.clients, c)
   }
+  ```
 
 #### Q55. Wie würden Sie eine funktionierende `Append()`-Methode für `Clients` implementieren?
 
@@ -1117,8 +1118,8 @@ An easy way to remember this value is that it holds, when presented in this orde
 
 #### Q60. Wie signalisieren Sie dem Go-Compiler, dass die Struktur `Namespace` das Interface `JSONConverter` implementieren muss? Es wird angenommen, dass die Antwort im selben Package enthalten ist, in dem `Namespace` deklariert ist.
 
-- [ ] var _ JSONConverter = nil. (*Namespace)
-- [x] var _ JSONConverter = (*Namespace) (nil)
+- [ ] var \_ JSONConverter = nil. (\*Namespace)
+- [x] var \_ JSONConverter = (\*Namespace) (nil)
 - [ ] type Namespace struct {
       implements JSONConverter
       // The rest of the struct declaration goes here
@@ -1237,10 +1238,10 @@ func main() {
 
 #### Q63. Füllen Sie die Lücken aus
 
-1.  Testdateien in Go müssen **_**.
-2.  Einzelne Tests werden identifiziert durch **_**.
-3.  Sie können Subtests ausführen, indem Sie **__**.
-4.  Sie protokollieren den Fehler und markieren den Test als fehlgeschlagen, indem Sie **_**.
+1.  Testdateien in Go müssen **\_**.
+2.  Einzelne Tests werden identifiziert durch **\_**.
+3.  Sie können Subtests ausführen, indem Sie **\_\_**.
+4.  Sie protokollieren den Fehler und markieren den Test als fehlgeschlagen, indem Sie **\_**.
 
 - [ ] im Unterverzeichnis `/test/` dieses Packages gespeichert sein
       <br/>Funktionen, die einen `testing.Tester`-Parameter akzeptieren
@@ -1382,5 +1383,3 @@ Erläuterung: Sie können inline dort definiert werden, wo sie verwendet werden,
 - [ ] `all types`
 
 > Methoden können für jeden benannten Typ definiert werden, der kein Built-in-Typ ist. Wenn Sie mit einer Typdeklaration einen neuen Typ erstellen, wird er zu einem benannten Typ, und Sie können spezifische Methoden dafür definieren. An Built-in-Typen wie `int`, `string` etc. können jedoch keine Methoden direkt angefügt werden. [reference](https://go.dev/ref/spec#Method_declarations)
-
-

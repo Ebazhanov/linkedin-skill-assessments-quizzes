@@ -357,7 +357,7 @@ data := "A group of Owls is called a parliament"
 
 [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
-#### Q21. Un’istruzione `switch` **_** il proprio blocco lessicale. Ogni istruzione `case` **_** un blocco lessicale aggiuntivo
+#### Q21. Un’istruzione `switch` **\_** il proprio blocco lessicale. Ogni istruzione `case` **\_** un blocco lessicale aggiuntivo
 
 - [ ] non crea; crea
 - [ ] non crea; non crea
@@ -381,7 +381,7 @@ Estratto rilevante dall’articolo:
 
 Estratto rilevante dall’articolo:
 
-> _Per deserializzare JSON in una struct, Unmarshal associa le chiavi dell’oggetto in ingresso alle chiavi usate da Marshal (il nome del campo struct o il suo tag), preferendo una corrispondenza esatta ma accettando anche una corrispondenza case-insensitive. Per impostazione predefinita, le chiavi senza campo corrispondente vengono ignorate (vedi Decoder.DisallowUnknownFields per un’alternativa)._ 
+> _Per deserializzare JSON in una struct, Unmarshal associa le chiavi dell’oggetto in ingresso alle chiavi usate da Marshal (il nome del campo struct o il suo tag), preferendo una corrispondenza esatta ma accettando anche una corrispondenza case-insensitive. Per impostazione predefinita, le chiavi senza campo corrispondente vengono ignorate (vedi Decoder.DisallowUnknownFields per un’alternativa)._
 
 #### Q23. Qual è la differenza tra i metodi `Time.Sub()` e `Time.Add()` del package `time`?
 
@@ -1067,8 +1067,8 @@ An easy way to remember this value is that it holds, when presented in this orde
 
 #### Q60. Come segnaleresti al compilatore Go che la struct `Namespace` deve implementare l’interfaccia `JSONConverter`? Si assume che la risposta sia nello stesso package di `Namespace`.
 
-- [ ] var_JSONConverter = nil. (*Namespace)
-- [x] var _ JSONConverter = (*Namespace) (nil)
+- [ ] var_JSONConverter = nil. (\*Namespace)
+- [x] var \_ JSONConverter = (\*Namespace) (nil)
 - [ ] type Namespace struct {
       implements JSONConverter
       // The rest of the struct declaration goes here
@@ -1185,10 +1185,10 @@ func main() {
 
 #### Q63. Riempi gli spazi
 
-1.  I file di test in Go devono **_**.
-2.  I test individuali sono identificati da **_**.
-3.  Puoi eseguire i subtest **__**.
-4.  Logghi l’errore e marchi il test come fallito **_**.
+1.  I file di test in Go devono **\_**.
+2.  I test individuali sono identificati da **\_**.
+3.  Puoi eseguire i subtest **\_\_**.
+4.  Logghi l’errore e marchi il test come fallito **\_**.
 
 - [ ] essere memorizzati in una sottodirectory `/test/` di quel package
       <br/>funzioni che accettano un parametro `testing.Tester`
@@ -1285,7 +1285,7 @@ fmt.Println(a, b, c)
 
 ### Q71. Qual è l’operatore per l’AND logico?
 
-- [ ] +
+- [ ] -
 - [ ] and
 - [x] &&
 - [ ] ||
@@ -1330,4 +1330,3 @@ Spiegazione: possono essere definite inline dove sono usate, offrendo maggiore f
 - [ ] tutti i tipi
 
 > I metodi possono essere definiti per qualsiasi tipo con nome che non sia built-in. Non possono essere attaccati direttamente a tipi built-in come `int`, `string`, ecc. [reference](https://go.dev/ref/spec#Method_declarations)
-

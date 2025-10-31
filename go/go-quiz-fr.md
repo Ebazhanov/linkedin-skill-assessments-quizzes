@@ -357,7 +357,7 @@ data := "A group of Owls is called a parliament"
 
 [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
-#### Q21. Une instruction `switch` **_** son propre bloc lexical. Chaque instruction `case` **_** un bloc lexical supplémentaire
+#### Q21. Une instruction `switch` **\_** son propre bloc lexical. Chaque instruction `case` **\_** un bloc lexical supplémentaire
 
 - [ ] ne crée pas ; crée
 - [ ] ne crée pas ; ne crée pas
@@ -689,7 +689,7 @@ func findUser(ctx context.Context, login string) (*User, error) {
 
 Extrait pertinent :
 
-> The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the *User value in the channel then it will return.
+> The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \*User value in the channel then it will return.
 
 #### 44. Qu’est-ce que ce code va afficher ?
 
@@ -806,7 +806,7 @@ type userID int
 
 Extrait pertinent :
 
-> The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the *User value in the channel then it will return.
+> The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \*User value in the channel then it will return.
 
 #### Q51. Après avoir importé `encoding/json`, comment accéderiez-vous à la fonction `Marshal` ?
 
@@ -1079,18 +1079,16 @@ An easy way to remember this value is that it holds, when presented in this orde
 
 - [ ] `var _ JSONConverter = nil.(*Namespace)`
 - [x] `var _ JSONConverter = (*Namespace)(nil)`
-- [ ] 
-  ```go
-  type Namespace struct {
-      implements JSONConverter
-  }
-  ```
-- [ ] 
-  ```go
-  type Namespace struct {
-      JSONConverter
-  }
-  ```
+- [ ] ```go
+      type Namespace struct {
+          implements JSONConverter
+      }
+      ```
+- [ ] ```go
+      type Namespace struct {
+          JSONConverter
+      }
+      ```
 
 > Cette syntaxe crée une variable `_` de type `JSONConverter` et lui assigne la valeur `(*Namespace)(nil)`. Cela vérifie que `Namespace` satisfait l’interface `JSONConverter` en s’assurant qu’elle peut être affectée à une variable de type `JSONConverter`.
 
@@ -1199,10 +1197,10 @@ func main() {
 
 #### Q63. Complétez les blancs
 
-1.  Les fichiers de test en Go doivent **_**.
-2.  Les tests individuels sont identifiés par **_**.
-3.  Vous pouvez exécuter des sous-tests en **_**.
-4.  Vous journalisez l’erreur et marquez le test comme échoué en **_**.
+1.  Les fichiers de test en Go doivent **\_**.
+2.  Les tests individuels sont identifiés par **\_**.
+3.  Vous pouvez exécuter des sous-tests en **\_**.
+4.  Vous journalisez l’erreur et marquez le test comme échoué en **\_**.
 
 - [ ] être stockés dans un sous-répertoire `/test/` de ce paquet<br/>fonctions acceptant un paramètre `testing.Tester`<br/>écrire des fonctions dont le nom matche `^Subtest`<br/>appeler `testing.AssertionFailed`
 
@@ -1287,7 +1285,7 @@ fmt.Println(a, b, c)
 
 ### Q71. Quel est l’opérateur pour une condition ET logique ?
 
-- [ ] +
+- [ ] -
 - [ ] and
 - [x] &&
 - [ ] ||
