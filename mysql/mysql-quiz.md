@@ -1403,3 +1403,63 @@ The `UNION` operator in MySQL is used to combine the results of multiple `SELECT
 The `HAVING` clause in a MySQL query is used to filter the groups in the result set based on the values of aggregate functions, such as `SUM`, `AVG`, `COUNT`, etc. This is different from the `WHERE` clause, which is used to filter the rows in the result set based on the values in the columns.
 
 The `HAVING` clause is typically used in conjunction with the `GROUP BY` clause, which groups the rows in the result set based on the values in one or more columns.
+
+#### Q153. In MySQL, what is the purpose of the `WITH ROLLUP` modifier in a `GROUP BY` clause?
+
+- [ ] It removes duplicate rows before grouping  
+- [x] It adds summary rows that represent subtotals and grand totals  
+- [ ] It allows grouping by computed columns only  
+- [ ] It enforces sorting order before aggregation  
+
+**Explanation:**  
+`WITH ROLLUP` is an extension of `GROUP BY` that generates aggregate rows representing subtotals for each group and an overall total at the end of the result set.
+
+
+
+#### Q154. In MySQL 8.0, what is the function of the `WINDOW` clause?
+
+- [ ] It defines table partitions for join operations  
+- [x] It allows naming and reusing window specifications for analytic functions  
+- [ ] It creates a temporary view for query optimization  
+- [ ] It defines a physical table alias for subqueries  
+
+**Explanation:**  
+The `WINDOW` clause lets you define a named window (like frame and partitioning rules) for reuse across multiple window functions in the same query—great for readability and performance in analytic queries.
+
+
+
+#### Q155. Which MySQL feature allows you to execute multiple SQL statements as a single unit that can be rolled back entirely in case of an error?
+
+- [ ] Temporary table  
+- [x] Transaction  
+- [ ] Event scheduler  
+- [ ] Trigger  
+
+**Explanation:**  
+Transactions ensure atomicity — either all operations succeed or none are applied. They’re controlled via `START TRANSACTION`, `COMMIT`, and `ROLLBACK`.
+
+
+
+#### Q156. What is the primary use of the `EXPLAIN ANALYZE` statement in MySQL 8.0.18 and later?
+
+- [ ] To display user privileges on the database  
+- [ ] To validate SQL syntax before execution  
+- [x] To execute the query and display real execution time with the query plan  
+- [ ] To show estimated cost without executing the query  
+
+**Explanation:**  
+`EXPLAIN ANALYZE` actually runs the query and provides both estimated and **actual** execution metrics — useful for deep query performance tuning.
+
+
+
+#### Q157. In MySQL, what does the `JSON_TABLE()` function do?
+
+- [x] It maps JSON data into a relational table format for SQL querying  
+- [ ] It stores JSON documents in a separate schema  
+- [ ] It converts relational data back into JSON text  
+- [ ] It indexes JSON data automatically for search  
+
+**Explanation:**  
+`JSON_TABLE()` converts JSON documents into relational rows and columns, enabling powerful SQL queries over semi-structured JSON data using standard SQL syntax.
+
+
