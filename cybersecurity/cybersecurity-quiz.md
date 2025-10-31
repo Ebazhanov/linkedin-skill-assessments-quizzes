@@ -1325,89 +1325,78 @@ Source: [NIST Special Publication 800-94 - Guide to Intrusion Detection and Prev
 
 #### Q171. A company detects multiple failed SSH login attempts from the same IP, followed by a successful one with elevated privileges. Which attack pattern does this scenario most likely indicate?
 
-- [ ] SQL Injection  
-- [x] Brute Force Attack  
-- [ ] Cross-Site Request Forgery  
-- [ ] DNS Spoofing  
-
-
+- [ ] SQL Injection
+- [x] Brute Force Attack
+- [ ] Cross-Site Request Forgery
+- [ ] DNS Spoofing
 
 #### Q172. You’re a SOC analyst and notice an outbound HTTPS connection from a workstation to an IP with no DNS record, persisting every 10 minutes. What might this behavior indicate?
 
-- [x] Command and Control (C2) beaconing activity  
-- [ ] Misconfigured VPN tunnel keepalive  
-- [ ] Normal system heartbeat to monitoring service  
-- [ ] Outdated TLS handshake attempts  
+- [x] Command and Control (C2) beaconing activity
+- [ ] Misconfigured VPN tunnel keepalive
+- [ ] Normal system heartbeat to monitoring service
+- [ ] Outdated TLS handshake attempts
 
+#### Q173. Which of the following actions can help mitigate **lateral movement** after an initial system compromise? _(Select all that apply)_
 
+- [x] Implementing network segmentation and isolation policies
+- [x] Enforcing Just-In-Time (JIT) privileged access
+- [ ] Disabling application logging to reduce noise
+- [ ] Using shared administrative credentials for faster access
 
-#### Q173. Which of the following actions can help mitigate **lateral movement** after an initial system compromise? *(Select all that apply)*
+#### Q174. True or False:
 
-- [x] Implementing network segmentation and isolation policies  
-- [x] Enforcing Just-In-Time (JIT) privileged access  
-- [ ] Disabling application logging to reduce noise  
-- [ ] Using shared administrative credentials for faster access  
-
-
-
-#### Q174. True or False:  
 TLS 1.3 encrypts more of the handshake process than TLS 1.2, reducing the visibility of certificate exchange for network-based intrusion detection systems.
 
-- [x] True  
-- [ ] False  
-
-
+- [x] True
+- [ ] False
 
 #### Q175. During a red team exercise, the attacker injects malicious DLLs into a trusted process like `explorer.exe` to execute payloads without spawning new processes. What is this technique called?
 
-- [x] Process Injection  
-- [ ] API Hooking  
-- [ ] Kernel Exploitation  
-- [ ] Sandbox Evasion  
+- [x] Process Injection
+- [ ] API Hooking
+- [ ] Kernel Exploitation
+- [ ] Sandbox Evasion
 
 #### Q176. An organization detects that sensitive data has been exfiltrated through DNS queries. Upon investigation, it’s discovered that attackers encoded the data into base64 strings and sent them as part of subdomain requests to an external DNS server. Which type of attack does this represent?
 
-- [x] DNS Tunneling  
-- [ ] Domain Generation Algorithm (DGA)  
-- [ ] ARP Poisoning  
-- [ ] Reverse Shell Injection  
+- [x] DNS Tunneling
+- [ ] Domain Generation Algorithm (DGA)
+- [ ] ARP Poisoning
+- [ ] Reverse Shell Injection
 
+#### Q177. You’re a security engineer analyzing an alert where an attacker exploited a deserialization vulnerability in a Java-based web service. The payload executed arbitrary commands by injecting malicious objects into serialized data streams.
 
-
-#### Q177. You’re a security engineer analyzing an alert where an attacker exploited a deserialization vulnerability in a Java-based web service. The payload executed arbitrary commands by injecting malicious objects into serialized data streams.  
 Which control would most effectively mitigate this class of vulnerability?
 
-- [x] Validating and restricting classes allowed during deserialization using a whitelist  
-- [ ] Applying TLS encryption to serialized objects  
-- [ ] Blocking all HTTP POST requests  
-- [ ] Deploying a WAF with rate limiting only  
+- [x] Validating and restricting classes allowed during deserialization using a whitelist
+- [ ] Applying TLS encryption to serialized objects
+- [ ] Blocking all HTTP POST requests
+- [ ] Deploying a WAF with rate limiting only
 
+#### Q178. In a Zero Trust Network (ZTN) model, a user with valid credentials attempts to access a resource they’ve never used before. The access request triggers behavioral analytics, location-based validation, and device posture checks before granting conditional access.
 
-
-#### Q178. In a Zero Trust Network (ZTN) model, a user with valid credentials attempts to access a resource they’ve never used before. The access request triggers behavioral analytics, location-based validation, and device posture checks before granting conditional access.  
 What key Zero Trust principle is being applied here?
 
-- [x] Continuous verification based on context and trust score rather than static authentication  
-- [ ] Default allow principle to improve user experience  
-- [ ] Identity federation between cloud and on-prem systems  
-- [ ] Role-based access without session evaluation  
+- [x] Continuous verification based on context and trust score rather than static authentication
+- [ ] Default allow principle to improve user experience
+- [ ] Identity federation between cloud and on-prem systems
+- [ ] Role-based access without session evaluation
 
+#### Q179. A ransomware strain infiltrates a company via a phishing email, encrypts local data, and then spreads through SMB shares to connected systems.
 
+Which combination of defenses would most effectively reduce both **initial infection** and **lateral propagation** risks? _(Select all that apply)_
 
-#### Q179. A ransomware strain infiltrates a company via a phishing email, encrypts local data, and then spreads through SMB shares to connected systems.  
-Which combination of defenses would most effectively reduce both **initial infection** and **lateral propagation** risks? *(Select all that apply)*
+- [x] Disabling macros and enforcing email attachment scanning
+- [x] Network segmentation and least privilege access to shared drives
+- [ ] Storing encryption keys locally on endpoints for faster recovery
+- [ ] Using a static IP whitelist for outbound traffic only
 
-- [x] Disabling macros and enforcing email attachment scanning  
-- [x] Network segmentation and least privilege access to shared drives  
-- [ ] Storing encryption keys locally on endpoints for faster recovery  
-- [ ] Using a static IP whitelist for outbound traffic only  
+#### Q180. During a cloud incident response, the team discovers that a compromised IAM role was used to create new API keys and spin up compute instances for crypto mining.
 
+Which forensic and remediation steps should be prioritized to contain and investigate the breach? _(Select all that apply)_
 
-#### Q180. During a cloud incident response, the team discovers that a compromised IAM role was used to create new API keys and spin up compute instances for crypto mining.  
-Which forensic and remediation steps should be prioritized to contain and investigate the breach? *(Select all that apply)*
-
-- [x] Immediately revoke and rotate all credentials associated with the compromised IAM role  
-- [x] Review CloudTrail or equivalent logs to trace actions and identify attacker persistence methods  
-- [x] Apply restrictive IAM policies with least privilege on service accounts  
-- [ ] Disable logging and auditing temporarily to preserve performance  
-
+- [x] Immediately revoke and rotate all credentials associated with the compromised IAM role
+- [x] Review CloudTrail or equivalent logs to trace actions and identify attacker persistence methods
+- [x] Apply restrictive IAM policies with least privilege on service accounts
+- [ ] Disable logging and auditing temporarily to preserve performance

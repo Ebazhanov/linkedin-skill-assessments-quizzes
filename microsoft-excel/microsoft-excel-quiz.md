@@ -1350,43 +1350,35 @@ Alignment** tab, click**\_\*\*.
 
 #### Q164. In Excel, you are building a financial model that references multiple sheets. You want to ensure that if a cell reference changes, all dependent formulas automatically adjust, even across workbooks. Which feature guarantees this dynamic behavior?
 
-- [ ] Named Ranges  
-- [ ] Absolute References ($A$1)  
-- [x] Structured References in Excel Tables  
-- [ ] Manual Calculation Mode  
-
-
+- [ ] Named Ranges
+- [ ] Absolute References ($A$1)
+- [x] Structured References in Excel Tables
+- [ ] Manual Calculation Mode
 
 #### Q165. You’re analyzing time-series data and want to dynamically pull data from the last 7 days, regardless of today’s date, without manually adjusting the range. Which formula best achieves this?
 
-- [ ] VLOOKUP with approximate match  
-- [ ] CONCATENATE with date strings  
-- [x] Using the FILTER function with TODAY() in the condition  
-- [ ] Using OFFSET with static date values  
-
-
+- [ ] VLOOKUP with approximate match
+- [ ] CONCATENATE with date strings
+- [x] Using the FILTER function with TODAY() in the condition
+- [ ] Using OFFSET with static date values
 
 #### Q166. While working with Power Query, you notice that applying transformations directly in Excel formulas is slowing down performance. How can you optimize this process?
 
-- [ ] Apply conditional formatting to highlight inconsistencies  
-- [ ] Use volatile functions like INDIRECT for flexibility  
-- [ ] Split transformations across multiple linked workbooks  
-- [x] Perform data cleaning and transformations within Power Query before loading into the sheet  
-
-
+- [ ] Apply conditional formatting to highlight inconsistencies
+- [ ] Use volatile functions like INDIRECT for flexibility
+- [ ] Split transformations across multiple linked workbooks
+- [x] Perform data cleaning and transformations within Power Query before loading into the sheet
 
 #### Q167. You’re tasked with building an Excel dashboard that refreshes automatically when connected to an external SQL database. What configuration enables this behavior?
 
-- [ ] Save the workbook as .xlsm and manually click Refresh All  
-- [x] Enable background refresh in the Data Connection Properties  
-- [ ] Use Data Validation for all input cells  
-- [ ] Protect the sheet to prevent edits  
-
-
+- [ ] Save the workbook as .xlsm and manually click Refresh All
+- [x] Enable background refresh in the Data Connection Properties
+- [ ] Use Data Validation for all input cells
+- [ ] Protect the sheet to prevent edits
 
 #### Q168. You need to calculate the rank of sales representatives within each region, ensuring ranks reset per region while skipping ties. Which combination of functions can achieve this?
 
-- [ ] Use VLOOKUP to map ranks from a sorted list  
-- [x] Use RANK.EQ with a FILTER or SUMPRODUCT condition for each region  
-- [ ] Use INDEX-MATCH pair without additional logic  
-- [ ] Use COUNTIF only on the Sales column  
+- [ ] Use VLOOKUP to map ranks from a sorted list
+- [x] Use RANK.EQ with a FILTER or SUMPRODUCT condition for each region
+- [ ] Use INDEX-MATCH pair without additional logic
+- [ ] Use COUNTIF only on the Sales column

@@ -964,95 +964,82 @@ explain:
 - [ ] Searching for and replacing specific text
 - [x] Creating hyperlinks
 
-#### Q121. You are preparing a 150-page research report in Microsoft Word that includes figures, tables, and appendices. You want to automatically generate and update a table of contents, figure list, and table list as content changes.  
+#### Q121. You are preparing a 150-page research report in Microsoft Word that includes figures, tables, and appendices. You want to automatically generate and update a table of contents, figure list, and table list as content changes.
+
 Which feature best supports this requirement?
 
-- [x] Using built-in Styles (Heading 1, 2, etc.) along with automatic TOC and caption fields  
-- [ ] Inserting manual hyperlinks and bookmarks for each section  
-- [ ] Copy-pasting section titles into a table manually  
-- [ ] Embedding a static PDF outline into the document  
+- [x] Using built-in Styles (Heading 1, 2, etc.) along with automatic TOC and caption fields
+- [ ] Inserting manual hyperlinks and bookmarks for each section
+- [ ] Copy-pasting section titles into a table manually
+- [ ] Embedding a static PDF outline into the document
 
+#### Q122. A legal team wants to maintain strict control over document formatting and structure for contracts, while allowing users to edit only specific sections (like client names or dates).
 
-
-#### Q122. A legal team wants to maintain strict control over document formatting and structure for contracts, while allowing users to edit only specific sections (like client names or dates).  
 Which Microsoft Word functionality enables this type of controlled editing?
 
-- [ ] Applying tracked changes for all users  
-- [ ] Locking the entire document using password encryption  
-- [x] Creating a content control form with restricted editing and protection settings 
-- [ ] Inserting comments with edit permissions  
+- [ ] Applying tracked changes for all users
+- [ ] Locking the entire document using password encryption
+- [x] Creating a content control form with restricted editing and protection settings
+- [ ] Inserting comments with edit permissions
 
+#### Q123. A technical writer needs to maintain a set of documents that share the same company branding — headers, footers, fonts, and cover page — but with different contents for each department.
 
-
-#### Q123. A technical writer needs to maintain a set of documents that share the same company branding — headers, footers, fonts, and cover page — but with different contents for each department.  
 What is the most efficient way to manage these documents in Word?
 
-- [x] Using a master document template (.dotx or .dotm) with predefined styles and elements  
-- [ ] Copying and editing a previous Word file for each department  
-- [ ] Using mail merge fields for text substitution  
-- [ ] Saving documents as read-only PDFs for each department  
+- [x] Using a master document template (.dotx or .dotm) with predefined styles and elements
+- [ ] Copying and editing a previous Word file for each department
+- [ ] Using mail merge fields for text substitution
+- [ ] Saving documents as read-only PDFs for each department
 
+#### Q124. You’re editing a shared project proposal on OneDrive, and you notice multiple colleagues are editing different parts simultaneously.
 
-
-#### Q124. You’re editing a shared project proposal on OneDrive, and you notice multiple colleagues are editing different parts simultaneously.  
 Which Word feature is responsible for handling real-time synchronization and conflict resolution in this case?
 
-- [x] Co-authoring with AutoSave enabled on cloud-stored documents  
-- [ ] Track Changes with Compare Documents  
-- [ ] Reviewing mode with locked fields  
-- [ ] File History rollback in version control  
+- [x] Co-authoring with AutoSave enabled on cloud-stored documents
+- [ ] Track Changes with Compare Documents
+- [ ] Reviewing mode with locked fields
+- [ ] File History rollback in version control
 
+#### Q125. A researcher inserts 50 citations into a thesis using Microsoft Word’s “References” tab. Later, the citation style must change from APA to IEEE across the entire document.
 
-
-#### Q125. A researcher inserts 50 citations into a thesis using Microsoft Word’s “References” tab. Later, the citation style must change from APA to IEEE across the entire document.  
 How can this be done efficiently without reformatting each reference manually?
 
-- [x] Changing the citation style in the References tab, which automatically reformats all in-text citations and the bibliography  
-- [ ] Using Find and Replace to manually edit citation formats  
-- [ ] Re-inserting each source into the bibliography one by one  
+- [x] Changing the citation style in the References tab, which automatically reformats all in-text citations and the bibliography
+- [ ] Using Find and Replace to manually edit citation formats
+- [ ] Re-inserting each source into the bibliography one by one
 - [ ] Exporting citations to Excel and importing them again in IEEE format
 
 #### Q126. In Microsoft Word, when working on a multi-section document, how can you apply different headers and footers for each section without affecting others?
 
-- [x] Use Section Breaks and uncheck "Link to Previous" in the Header/Footer toolbar  
-- [ ] Insert Page Breaks between sections  
-- [ ] Change header/footer style from Design tab  
-- [ ] Modify the Normal.dotm template  
-
-
+- [x] Use Section Breaks and uncheck "Link to Previous" in the Header/Footer toolbar
+- [ ] Insert Page Breaks between sections
+- [ ] Change header/footer style from Design tab
+- [ ] Modify the Normal.dotm template
 
 #### Q127. When creating a large technical report in Word, you want all figure and table captions to auto-update when new elements are added or reordered. Which feature ensures this consistency?
 
-- [ ] Manually type captions below each figure  
+- [ ] Manually type captions below each figure
 - [x] Insert Captions using the References → Insert Caption tool and use cross-references
-- [ ] Use text boxes with labels  
-- [ ] Apply heading styles to captions  
-
-
+- [ ] Use text boxes with labels
+- [ ] Apply heading styles to captions
 
 #### Q128. You are editing a legal document where every change must be visible, but some comments should remain private to reviewers. How can you achieve this?
 
-- [x] Use “Track Changes” for edits and “Private Comments” in the Reviewing Pane with restricted permissions  
-- [ ] Accept all changes before sharing  
-- [ ] Save the document as a PDF to hide edits  
-- [ ] Use hidden text for comments  
-
-
+- [x] Use “Track Changes” for edits and “Private Comments” in the Reviewing Pane with restricted permissions
+- [ ] Accept all changes before sharing
+- [ ] Save the document as a PDF to hide edits
+- [ ] Use hidden text for comments
 
 #### Q129. When working with a Word document connected to an external data source (like Excel), what allows dynamic updates of embedded data without re-importing?
 
-- [x] Object Linking and Embedding (OLE)  
-- [ ] Mail Merge Wizard  
-- [ ] Insert Table → Excel Spreadsheet  
-- [ ] Macro-enabled Template (.dotm)  
-
-
+- [x] Object Linking and Embedding (OLE)
+- [ ] Mail Merge Wizard
+- [ ] Insert Table → Excel Spreadsheet
+- [ ] Macro-enabled Template (.dotm)
 
 #### Q130. You’ve created a company report in Word with multiple authors editing different parts simultaneously. To merge their edits efficiently without version conflicts, which method is most effective?
 
-- [x] Use “Compare and Combine Documents” feature under Review tab  
-- [ ] Enable Autosave in OneDrive and overwrite versions  
-- [ ] Paste all changes manually  
-- [ ] Use Comments and manually merge files  
-
-
+- [x] Use “Compare and Combine Documents” feature under Review tab
+- [ ] Enable Autosave in OneDrive and overwrite versions
+- [ ] Paste all changes manually
+- [ ] Use Comments and manually merge files
