@@ -1079,16 +1079,18 @@ An easy way to remember this value is that it holds, when presented in this orde
 
 - [ ] `var _ JSONConverter = nil.(*Namespace)`
 - [x] `var _ JSONConverter = (*Namespace)(nil)`
-- [ ] ```go
-      type Namespace struct {
-          implements JSONConverter
-      }
-      ```
-- [ ] ```go
-      type Namespace struct {
-          JSONConverter
-      }
-      ```
+- [ ] ````go
+          type Namespace struct {
+              implements JSONConverter
+          }
+          ```
+      ````
+- [ ] ````go
+          type Namespace struct {
+              JSONConverter
+          }
+          ```
+      ````
 
 > Cette syntaxe crée une variable `_` de type `JSONConverter` et lui assigne la valeur `(*Namespace)(nil)`. Cela vérifie que `Namespace` satisfait l’interface `JSONConverter` en s’assurant qu’elle peut être affectée à une variable de type `JSONConverter`.
 
