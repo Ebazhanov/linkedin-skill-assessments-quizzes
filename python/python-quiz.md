@@ -587,7 +587,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the output. If you write this correctly you can also run the doctest using the build-in doctest module
+**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the input. If you write this correctly you can also run the doctest using the build-in doctest module
 
 #### Q37. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
