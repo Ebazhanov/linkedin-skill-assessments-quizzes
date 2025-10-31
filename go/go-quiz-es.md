@@ -806,42 +806,49 @@ func main() {
 
 #### P53. Si tienes una struct llamada `Client` definida en el mismo archivo `.go`, ¿cómo exportas una variable con un valor por defecto para que sea accesible por otros paquetes?
 
-- [ ] ``````go
-                  let Default := new Client()
-                  ```
+- [ ] ```````go
+                      let Default := new Client()
+                      ```
 
-              ````
+                  ````
 
-          `````
+              `````
 
-      ``````
+          ``````
 
-- [ ] ``````go
-                  public default = &Client()
-                  ```
+      ```````
 
-              ````
+- [ ] ```````go
+                      public default = &Client()
+                      ```
 
-          `````
+                  ````
 
-      ``````
+              `````
 
-- [x] ``````go
-                  var Default = &Client{}
-                  ```
+          ``````
 
-              ````
+      ```````
 
-          `````
+- [x] ```````go
+                      var Default = &Client{}
+                      ```
 
-      ``````
+                  ````
 
-- [ ] ``````go
-                  export default := new Client{}
-                  ```
-              ````
-          `````
-      ``````
+              `````
+
+          ``````
+
+      ```````
+
+- [ ] ```````go
+                      export default := new Client{}
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
 
 #### P54. Este programa imprime `{Master Chief Spartan Protagonist Halo}`. ¿Cómo harías para que imprima `Master Chief - a Spartan - is the Protagonist of Halo`?
 
@@ -1003,22 +1010,24 @@ fmt.Println (n)
 
 - [ ] var \_ JSONConverter = nil. (\*Namespace)
 - [x] var \_ JSONConverter = (\*Namespace) (nil)
-- [ ] ``````go
-                  type Namespace struct {
-                      implements JSONConverter
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [ ] ``````go
-                  type Namespace struct {
-                      JSONConverter
-                  }
-                  ```
-              ````
-          `````
-      ``````
+- [ ] ```````go
+                      type Namespace struct {
+                          implements JSONConverter
+                      }
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
+- [ ] ```````go
+                      type Namespace struct {
+                          JSONConverter
+                      }
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
 
 > Esta sintaxis verifica que `*Namespace` satisface `JSONConverter`.
 
