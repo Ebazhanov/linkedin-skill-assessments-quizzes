@@ -3469,3 +3469,63 @@ int main() {
 After sorting, the vector becomes {1, 2, 5, 8, 9}. v[2] is the third element, which is 5.
 
 [Reference](https://en.cppreference.com/w/cpp/algorithm/sort)
+
+#### Q221. In modern C++ (C++17 and above), what does the `std::optional<T>` class template help achieve in function design?
+
+- [x] It provides a type-safe way to represent a value that may or may not be present, avoiding the need for sentinel values or pointers  
+- [ ] It allows multiple values of the same type to be returned simultaneously  
+- [ ] It replaces the need for exception handling in all cases  
+- [ ] It is used to store polymorphic objects dynamically  
+
+**Explanation:**  
+`std::optional<T>` represents an optional value — it either contains a value of type `T` or nothing (`std::nullopt`). It’s safer than returning `nullptr` or using flags for missing values.
+
+
+
+#### Q222. What happens if a class has a virtual destructor but the base class pointer deletes an object of a derived class that has already been partially destructed?
+
+- [x] Undefined behavior — deleting an already destructed object leads to double destruction and memory corruption  
+- [ ] The base class destructor will be called twice safely  
+- [ ] The compiler automatically prevents deletion of derived objects  
+- [ ] The derived destructor will execute twice but without side effects  
+
+**Explanation:**  
+Once an object is destructed, any subsequent deletion of the same memory through a base pointer leads to undefined behavior — even if destructors are virtual.
+
+
+
+#### Q223. In C++20, which of the following best describes the role of **concepts**?
+
+- [x] They constrain template parameters to ensure that only types meeting specific requirements can be used  
+- [ ] They define runtime type checks for polymorphic objects  
+- [ ] They replace templates with runtime dispatching  
+- [ ] They allow implicit conversions between template types  
+
+**Explanation:**  
+Concepts provide **compile-time constraints** for templates, improving error messages and enforcing type correctness. For example, `template <Sortable T>` ensures the type meets the `Sortable` concept’s requirements.
+
+
+
+#### Q224. What is the purpose of the **placement new** operator in C++?
+
+- [x] It constructs an object at a specific pre-allocated memory address  
+- [ ] It allocates memory on the heap and initializes the object  
+- [ ] It creates multiple objects in a single memory block automatically  
+- [ ] It performs garbage collection for dynamic memory  
+
+**Explanation:**  
+Placement new allows you to explicitly specify the address where an object should be constructed, e.g. `new (buffer) MyClass();`. It’s used in performance-critical systems and custom memory allocators.
+
+
+
+#### Q225. Suppose two threads access a shared variable without synchronization — one writes while the other reads. In C++, what is this condition called, and what does the standard say about it?
+
+- [ ] It’s a data access warning but still well-defined behavior  
+- [x] It’s a data race, leading to undefined behavior under the C++ memory model  
+- [ ] It’s automatically handled by the compiler’s memory barrier insertion  
+- [ ] It’s only a problem if both threads write to the same variable  
+
+**Explanation:**  
+C++ defines **data races** as undefined behavior. Concurrent unsynchronized reads and writes on the same memory violate the memory model’s atomicity rules.
+
+
