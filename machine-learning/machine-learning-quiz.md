@@ -1026,7 +1026,6 @@ The correct answer is a) Overfitting
 
 High training accuracy but low testing accuracy indicates that the model memorized rather than generalized — a clear sign of overfitting.
 
----
 
 #### Q130. When using gradient descent, which of the following will happen if the learning rate is too high?
 
