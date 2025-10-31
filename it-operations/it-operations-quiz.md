@@ -612,3 +612,92 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [x] I/O devices
 - [ ] memory
 - [ ] expansion card
+
+#### Q78. In a hybrid cloud architecture, what is the main challenge of maintaining consistent configuration states across on-premises and cloud environments?
+
+- [ ] Limited network throughput between environments  
+- [x] Configuration drift due to asynchronous state management and differing IaC tool versions  
+- [ ] Incompatible authentication mechanisms between providers  
+- [ ] Lack of hardware abstraction at the virtualization layer  
+
+
+
+#### Q79. In enterprise IT monitoring, what problem does "cardinality explosion" refer to?
+
+- [x] The exponential growth in metric series when combining multiple label dimensions (e.g., host, service, region)  
+- [ ] The overuse of alerting thresholds across distributed systems  
+- [ ] The inability to track metrics due to missing time-series indexes  
+- [ ] The merging of multiple metric stores into a single pipeline  
+
+
+
+#### Q80. In a CI/CD pipeline, why is using **immutable infrastructure** considered best practice?
+
+- [ ] It allows manual patching of existing servers to maintain consistency  
+- [x] It ensures that each deployment creates a new environment instance, preventing configuration drift  
+- [ ] It eliminates the need for orchestration or automation tools  
+- [ ] It enables incremental updates instead of full rebuilds  
+
+
+
+#### Q81. What issue arises when using synchronous microservice calls in a globally distributed production system?
+
+- [ ] Increased CPU utilization in backend servers  
+- [ ] Reduced need for caching layers  
+- [ ] Simplified tracing and logging mechanisms  
+- [x] High inter-service latency and cascading failures under network partitions  
+
+
+
+#### Q82. In container orchestration systems like Kubernetes, what does the **control plane** primarily manage?
+
+- [x] The desired state of the cluster, ensuring workloads match declared configurations via reconciliation loops  
+- [ ] The real-time network routing between pods  
+- [ ] The physical resource allocation at the hardware level  
+- [ ] The filesystem synchronization across distributed nodes  
+
+
+#### Q83. In distributed systems observability, what is the primary purpose of implementing distributed tracing with context propagation?
+
+- [ ] To record only local system metrics  
+- [ ] To replicate log data across all services  
+- [x] To track a single request across multiple services by passing unique identifiers through each span  
+- [ ] To store trace data directly within the message queue  
+
+
+
+#### Q84. Why might an SRE team prefer a **Service Level Objective (SLO)** expressed as an error budget over a 100% uptime target?
+
+- [x] Because it balances reliability with development velocity and provides a measurable tolerance for controlled risk  
+- [ ] Because it enforces stricter deployment rules in CI/CD pipelines  
+- [ ] Because it automatically configures monitoring alerts based on uptime  
+- [ ] Because it eliminates the need for any downtime management  
+
+
+
+#### Q85. What operational issue is most likely if a message broker in an event-driven system begins showing a consistent lag in queue depth?
+
+- [ ] Excessive horizontal scaling of producers  
+- [x] Consumers are processing messages slower than the production rate, causing backpressure  
+- [ ] Queue visibility timeout misconfiguration  
+- [ ] Duplicate message publishing from producers  
+
+
+
+#### Q86. In large-scale infrastructure management, what’s a key operational advantage of **GitOps** over traditional configuration management approaches?
+
+- [ ] It replaces container orchestration with simple shell automation  
+- [x] It provides a declarative, version-controlled, and auditable single source of truth for infrastructure state  
+- [ ] It allows runtime state changes without version tracking  
+- [ ] It relies solely on imperative deployment scripts  
+
+
+
+#### Q87. When autoscaling a stateful application, why can horizontal scaling lead to inconsistency issues?
+
+- [x] Because new replicas may lack synchronized persistent state or shared volume access, leading to data divergence  
+- [ ] Because CPU requests cannot be adjusted dynamically  
+- [ ] Because vertical scaling is disabled by default  
+- [ ] Because service discovery protocols fail to register new instances  
+
+
