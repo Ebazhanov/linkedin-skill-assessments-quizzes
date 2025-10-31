@@ -1019,90 +1019,81 @@ Pruning is a technique used in decision tree learning to simplify the tree by re
 a) Overfitting  
 b) Underfitting  
 c) High bias  
-d) Low variance  
+d) Low variance
 
-**Explanation:** 
+**Explanation:**
 The correct answer is a) Overfitting
 
 High training accuracy but low testing accuracy indicates that the model memorized rather than generalized — a clear sign of overfitting.
-
 
 #### Q130. When using gradient descent, which of the following will happen if the learning rate is too high?
 
 a) The algorithm may overshoot the minimum and fail to converge  
 b) The algorithm will converge more slowly but more accurately  
 c) The model will underfit the data  
-d) The gradient will become zero  
+d) The gradient will become zero
 
-**Explanation:** 
+**Explanation:**
 The correct answer is a) The algorithm may overshoot the minimum and fail to converge
 
 A large learning rate makes steps too big, causing oscillations or divergence.
-
 
 #### Q131. What is the main goal of dimensionality reduction?
 
 a) Reduce the number of input features while retaining important information  
 b) Increase model complexity  
 c) Improve bias at the cost of variance  
-d) Remove all correlations between features  
+d) Remove all correlations between features
 
 **Explanation:**
-The correct answer is a) Reduce the number of input features while retaining important information  
+The correct answer is a) Reduce the number of input features while retaining important information
 
 Techniques like PCA aim to compress data by keeping maximum variance with fewer features.
-
-
 
 #### Q132. Which of these metrics is **not** suitable for evaluating a regression model?
 
 a) Accuracy  
 b) RMSE  
 c) MAE  
-d) R²  
+d) R²
 
 **Explanation:**
 The correct answer is a) Accuracy.
 
 Accuracy is only meaningful for classification, not regression.
 
-
-
 #### Q133. You are developing a reinforcement learning model. What is the main component that guides the learning process?
 
 a) Loss function  
 b) Reward function  
 c) Activation function  
-d) Clustering function  
+d) Clustering function
 
-**Explanation:** 
+**Explanation:**
 The correct answer is b) Reward function.
 
 The reward function provides feedback based on actions taken, guiding the agent’s learning.
-
-
 
 #### Q134. What is a confusion matrix used for?
 
 a) Evaluating classification model performance  
 b) Measuring model bias  
 c) Checking data imbalance  
-d) Computing correlation  
+d) Computing correlation
 
 **Explanation:**
 The correct answer is a) Evaluating classification model performance
 
 It summarizes true/false positives and negatives, helping analyze accuracy, precision, and recall.
 
-
 #### Q135. You trained a neural network and noticed it performs worse as you add more layers. What might be happening?
 
 a) Vanishing/exploding gradients  
 b) Overfitting  
 c) High bias  
-d) Batch normalization error  
+d) Batch normalization error
 
-**Explanation:** 
+**Explanation:**
 The correct answer is a) Vanishing/exploding gradients
 
 Deep networks may suffer gradient issues that prevent proper learning in earlier layers.
