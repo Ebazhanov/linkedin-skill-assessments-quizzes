@@ -595,7 +595,7 @@ Enlace de referencia: https://wsgi.tutorial.codepoint.net/intro
 - [ ] expresión regular
 - [ ] desodorante
 
-#### P63. Estás subiendo un archivo a Django desde un formulario y quieres guardar el archivo recibido como un campo en un objeto modelo. Simplemente puedes asignar el objeto archivo de ****_ a un campo de tipo _**** en el modelo.
+#### P63. Estás subiendo un archivo a Django desde un formulario y quieres guardar el archivo recibido como un campo en un objeto modelo. Simplemente puedes asignar el objeto archivo de \***\*_ a un campo de tipo _\*\*** en el modelo.
 
 - [ ] request.META; FileField
 - [ ] request.FILES; BLOBField
