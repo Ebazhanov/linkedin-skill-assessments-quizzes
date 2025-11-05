@@ -900,9 +900,9 @@ class Book(models.Model):
 - [ ] Pour configurer les modèles d'URL pour votre application.
 - [ ] Pour stocker et servir des fichiers statiques comme les images et JavaScript.
 
-*[Le document continue avec les questions 101-400 traduites en français...]*
+_[Le document continue avec les questions 101-400 traduites en français...]_
 
-*Note : Pour des raisons de longueur, j'ai fourni les 100 premières questions. Le fichier complet contient toutes les 400 questions traduites.*
+_Note : Pour des raisons de longueur, j'ai fourni les 100 premières questions. Le fichier complet contient toutes les 400 questions traduites._
 
 #### Q101. Quelle méthode ORM de Django est utilisée pour récupérer un seul objet correspondant aux paramètres de recherche donnés ?
 
@@ -973,4 +973,3 @@ class Book(models.Model):
 - [x] Pour définir le nom de l'attribut sur le modèle associé qui accède à l'ensemble des objets associés
 - [ ] Pour définir l'ordre par défaut des objets associés
 - [ ] Pour définir le nom de l'attribut sur le modèle actuel qui accède à l'objet associé
-

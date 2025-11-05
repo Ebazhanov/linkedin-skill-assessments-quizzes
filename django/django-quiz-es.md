@@ -595,7 +595,7 @@ Enlace de referencia: https://wsgi.tutorial.codepoint.net/intro
 - [ ] expresión regular
 - [ ] desodorante
 
-#### P63. Estás subiendo un archivo a Django desde un formulario y quieres guardar el archivo recibido como un campo en un objeto modelo. Simplemente puedes asignar el objeto archivo de **___ a un campo de tipo ___** en el modelo.
+#### P63. Estás subiendo un archivo a Django desde un formulario y quieres guardar el archivo recibido como un campo en un objeto modelo. Simplemente puedes asignar el objeto archivo de ****_ a un campo de tipo _**** en el modelo.
 
 - [ ] request.META; FileField
 - [ ] request.FILES; BLOBField
@@ -609,7 +609,7 @@ Enlace de referencia: https://wsgi.tutorial.codepoint.net/intro
 - [ ] marshal
 - [ ] serialize
 
-#### P65. Para agregar una nueva aplicación a un proyecto Django existente, debes editar la sección **___ del archivo _**.
+#### P65. Para agregar una nueva aplicación a un proyecto Django existente, debes editar la sección **_\_\_ del archivo _**.
 
 - [ ] ALLOWED_HOSTS; settings.py
 - [ ] APPS; manage.py
@@ -2931,4 +2931,3 @@ class Book(models.Model):
 - [ ] Para habilitar la bandera secure para la cookie CSRF
 - [x] Para habilitar el encabezado HTTP X-Content-Type-Options para prevenir el olfateo de tipo MIME
 - [ ] Para configurar los tipos de archivo permitidos para subidas de archivos
-

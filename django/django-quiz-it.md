@@ -969,4 +969,3 @@ class Book(models.Model):
 - [x] Per definire il nome dell'attributo sul modello correlato che accede all'insieme di oggetti correlati
 - [ ] Per definire l'ordinamento predefinito per gli oggetti correlati
 - [ ] Per definire il nome dell'attributo sul modello corrente che accede all'oggetto correlato
-

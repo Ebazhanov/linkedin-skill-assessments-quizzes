@@ -595,7 +595,7 @@ Referenzlink: https://wsgi.tutorial.codepoint.net/intro
 - [ ] Regulärer Ausdruck
 - [ ] Deodorizer
 
-#### F63. Sie laden eine Datei von einem Formular zu Django hoch und möchten die empfangene Datei als Feld auf einem Modellobjekt speichern. Sie können das Dateiobjekt einfach von **\_** einem Feld vom Typ \_\_** im Model zuweisen.
+#### F63. Sie laden eine Datei von einem Formular zu Django hoch und möchten die empfangene Datei als Feld auf einem Modellobjekt speichern. Sie können das Dateiobjekt einfach von **\_** einem Feld vom Typ \_\_\*\* im Model zuweisen.
 
 - [ ] request.META; FileField
 - [ ] request.FILES; BLOBField
