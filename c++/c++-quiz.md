@@ -3519,3 +3519,23 @@ Placement new allows you to explicitly specify the address where an object shoul
 
 **Explanation:**  
 C++ defines **data races** as undefined behavior. Concurrent unsynchronized reads and writes on the same memory violate the memory model’s atomicity rules.
+
+#### Q226. In C++, which of the following statements is TRUE about the virtual keyword when used with destructors?
+
+- [ ] A virtual destructor prevents object slicing automatically.
+- [ ] A virtual destructor ensures that dynamic binding happens for all member functions in the class.
+- [x] A virtual destructor allows correct destruction of derived objects through a base class pointer.
+- [ ] A virtual destructor makes the class abstract automatically.
+
+**Explanation:**  
+A virtual destructor is needed so that when you delete an object using a base class pointer, the derived class destructor also runs. Without this, you get memory leaks or undefined behavior.
+
+#### Q227. Which of the following correctly describes the behavior of static members in a C++ class?
+
+- [ ] Each object gets its own copy of every static data member.
+- [x] Static data members are shared by all objects of the class and exist even if no objects are created.
+- [ ] Static member functions can access both static and non-static members directly.
+- [ ] Static data members must be initialized inside the constructor of the class.
+
+**Explanation:**  
+Static members belong to the class, so every object shares the same copy and they are created even before any object exists and live for the entire program.
