@@ -65,7 +65,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 - [ ] 将该部分放在包含 autoescape=off 开关的段落标签之间
 - [x] 将该部分包裹在 {% raw %}{% autoescape off %}{% endraw %} 和 {% raw %}{% endautoescape %}{% endraw %} 标签之间
-- [ ] 将该部分包裹在 {% autoescapeoff %} 和 {% endautoescapeoff %} 标签之间
+- [ ] 将该部分包裹在 {% raw %}{% autoescapeoff %}{% endraw %} 和 {% raw %}{% endautoescapeoff %}{% endraw %} 标签之间
 - [ ] 无需执行任何操作——自动转义默认关闭
 
 #### Q7. 哪个步骤无法帮助你排查"django-admin: command not found"错误？
@@ -174,7 +174,7 @@ class Constellation(models.Model):
 - [x] 在 urls 文件中，添加包含静态目录名称的模式
 - [ ] 在应用程序目录中创建名为 static 的目录
 - [ ] 在 static 目录下创建以应用程序命名的目录，并将静态文件放入其中
-- [ ] 使用模板标签 {% load static %}
+- [ ] 使用模板标签 {% raw %}{% load static %}{% endraw %}
 
 #### Q18. 使变量对所有模板可用的正确方法是什么？
 
@@ -380,15 +380,15 @@ class Book(models.model):
 #### Q41. 代码应该如何结束？
 
 ```python
-{% if spark >= 50 %}
+{% raw %}{% if spark >= 50 %}
     Lots of spark
-{% elif spark == 42 %}
+{% elif spark == 42 %}{% endraw %}
 ```
 
-- [ ] `{% else %}`
-- [x] `{% endif %}`
+- [ ] `{% raw %}{% else %}{% endraw %}`
+- [x] `{% raw %}{% endif %}{% endraw %}`
 - [ ] 无需任何内容
-- [ ] `{% end %}`
+- [ ] `{% raw %}{% end %}{% endraw %}`
 
 #### Q42. 哪个代码块将创建序列化器？
 
@@ -572,16 +572,16 @@ class PlanetSerializer(serializers.ModelSerializer):
 #### Q60. 要完成条件，此代码块应该以什么结束？
 
 ```python
-{% if sparles >= 50 %}
+{% raw %}{% if sparles >= 50 %}
   Lots of sparkles!
 {% elif sparkles == 42 %}
-  The answer to life, the universe, and everything!
+  The answer to life, the universe, and everything!{% endraw %}
 ```
 
-- [x] `{% endif %}`
+- [x] `{% raw %}{% endif %}{% endraw %}`
 - [ ] 无需其他内容
-- [ ] `{% end%}`
-- [ ] `{% else %}`
+- [ ] `{% raw %}{% end%}{% endraw %}`
+- [ ] `{% raw %}{% else %}{% endraw %}`
 
 #### Q61. 什么时候应该使用 POST 方法而不是 GET 方法来提交表单数据？
 
@@ -680,10 +680,10 @@ class PlanetSerializer(serializers.ModelSerializer):
 
 #### Q74. 哪个不是有效的结束模板标签？
 
-- [ ] `{% endautoescape %}`
-- [x] `{% endifempty %}`
-- [ ] `{% endcomment %}`
-- [ ] `{% endfilter %}`
+- [ ] `{% raw %}{% endautoescape %}{% endraw %}`
+- [x] `{% raw %}{% endifempty %}{% endraw %}`
+- [ ] `{% raw %}{% endcomment %}{% endraw %}`
+- [ ] `{% raw %}{% endfilter %}{% endraw %}`
 
 #### Q75. 什么时候需要使用 reverse_lazy 实用函数而不是 reverse？
 
