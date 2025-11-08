@@ -1539,10 +1539,7 @@ export class UserProfileComponent implements CanDeactivate<UserProfileComponent>
 export class AuthGuard implements CanActivate {
   constructor(private authService: AuthService) {}
 
-  canActivate(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): boolean {
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
     return this.authService.isLoggedIn();
   }
 }
@@ -1590,9 +1587,7 @@ export class ExponentialStrengthPipe implements PipeTransform {
 
 ```ts
 export class UserProfileComponent implements CanDeactivate<UserProfileComponent> {
-  canDeactivate(
-    component: UserProfileComponent
-  ): Observable<boolean> | Promise<boolean> | boolean {
+  canDeactivate(component: UserProfileComponent): Observable<boolean> | Promise<boolean> | boolean {
     return component.canLeave ? component.canLeave() : true;
   }
 }
@@ -1607,13 +1602,9 @@ export class UserProfileComponent implements CanDeactivate<UserProfileComponent>
 
 ```ts
 @Injectable({ providedIn: 'root' })
-export class CustomPreloadingStrategy
-  implements PreloadingStrategy
-{
+export class CustomPreloadingStrategy implements PreloadingStrategy {
   preload(route: Route, load: () => Observable<any>): Observable<any> {
-    return route.data && route.data.preload
-      ? load()
-      : of(null);
+    return route.data && route.data.preload ? load() : of(null);
   }
 }
 ```
@@ -1637,10 +1628,7 @@ export class CustomPreloadingStrategy
 export class UserResolver implements Resolve<User> {
   constructor(private userService: UserService) {}
 
-  resolve(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): Observable<User> {
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<User> {
     return this.userService.getUser(route.params['id']);
   }
 }
@@ -1660,10 +1648,7 @@ export class UserResolver implements Resolve<User> {
 export class AuthGuard implements CanLoad {
   constructor(private authService: AuthService) {}
 
-  canLoad(
-    route: Route,
-    segments: UrlSegment[]
-  ): Observable<boolean> | Promise<boolean> | boolean {
+  canLoad(route: Route, segments: UrlSegment[]): Observable<boolean> | Promise<boolean> | boolean {
     return this.authService.isLoggedIn();
   }
 }
@@ -1685,7 +1670,7 @@ export class AuthGuard implements CanActivateChild {
 
   canActivateChild(
     childRoute: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
+    state: RouterStateSnapshot,
   ): Observable<boolean> | Promise<boolean> | boolean {
     return this.authService.isLoggedIn();
   }
