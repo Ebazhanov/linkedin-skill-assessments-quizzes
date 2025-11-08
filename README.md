@@ -2266,6 +2266,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/eswarseeram"><img src="https://avatars.githubusercontent.com/u/206067146?v=4?s=100" width="100px;" alt="Eswar Venkata Ram Charan Seeram"/><br /><sub><b>Eswar Venkata Ram Charan Seeram</b></sub></a><br /><a href="#design-eswarseeram" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eswarseeram" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/omprakash970"><img src="https://avatars.githubusercontent.com/u/77910227?v=4?s=100" width="100px;" alt="Bandi Om Prakash"/><br /><sub><b>Bandi Om Prakash</b></sub></a><br /><a href="#design-omprakash970" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=omprakash970" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
