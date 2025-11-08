@@ -64,7 +64,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 #### Q6. 如何关闭 Django 对网页某部分的自动 HTML 转义？
 
 - [ ] 将该部分放在包含 autoescape=off 开关的段落标签之间
-- [x] 将该部分包裹在 {% autoescape off %} 和 {% endautoescape %} 标签之间
+- [x] 将该部分包裹在 {% raw %}{% autoescape off %}{% endraw %} 和 {% raw %}{% endautoescape %}{% endraw %} 标签之间
 - [ ] 将该部分包裹在 {% autoescapeoff %} 和 {% endautoescapeoff %} 标签之间
 - [ ] 无需执行任何操作——自动转义默认关闭
 
@@ -385,10 +385,10 @@ class Book(models.model):
 {% elif spark == 42 %}
 ```
 
-- [ ] {% else %}
-- [x] {% endif %}
+- [ ] `{% else %}`
+- [x] `{% endif %}`
 - [ ] 无需任何内容
-- [ ] {% end %}
+- [ ] `{% end %}`
 
 #### Q42. 哪个代码块将创建序列化器？
 
@@ -740,17 +740,17 @@ class Book(models.Model):
 ```python
 class Author (models.Model):
   name = models.CharField(max_length=100)
-class Book(models.Author):
-  author = Author.name
+class Book(models.Model):
+  author = models.ForeignKey(Author, on_delete=models.CASCADE)
 ```
 
 - [ ] D
 
 ```python
 class Author (models.Model):
-  book = models.ForeignKey(Book, on_delete=models.CASCADE)
-class Book(models.Model):
   name = models.CharField(max_length=100)
+class Book(models.Model):
+  author=Author.name
 ```
 
 #### Q80. 使用 Form 实例时，可以使用什么方法来检查表单数据是否已更改？
@@ -1216,7 +1216,7 @@ class Book(models.Model):
 
 - [ ] `get()`
 - [ ] `get_object_or_404()`
-- [ ] `values()`
+- [ ] `filter()`
 - [x] `values_list()`
 
 #### Q146. Django 模型的 `ForeignKey` 字段中 `null` 参数的目的是什么？
@@ -1244,7 +1244,7 @@ class Book(models.Model):
 
 - [ ] `get()`
 - [ ] `get_object_or_404()`
-- [ ] `values()`
+- [ ] `filter()`
 - [x] `values_list()`
 
 #### Q150. Django 模型 Meta 类中 `db_table` 参数的目的是什么？
@@ -2026,7 +2026,7 @@ class Book(models.Model):
 
 - [ ] 使用 `IsAdminUser` 权限类限制对管理员用户的访问
 - [ ] 创建检查用户角色或组成员身份的自定义权限类
-- [ ] 实现从外部源检索用户角色的自定义身份验证后端
+- [ ] 实现与应用程序集成的自定义 OAuth2 提供程序
 - [x] 以上所有
 
 #### Q262. Django REST Framework `GenericAPIView` 中 `serializer_class` 属性的目的是什么？
@@ -2039,7 +2039,7 @@ class Book(models.Model):
 #### Q263. 如何使用 Django REST Framework 在 API 中实现分页？
 
 - [ ] 使用 Django REST Framework 提供的 `LimitOffsetPagination` 或 `PageNumberPagination` 类
-- [ ] 实现自定义分页类并将其应用于 ViewSet
+- [ ] 实现自定义分页类并将其应用于 ViewSet 或视图
 - [ ] 在 ViewSet 或视图上设置 `pagination_class` 属性
 - [x] 以上所有
 
@@ -2067,7 +2067,7 @@ class Book(models.Model):
 #### Q267. 如何使用 Django REST Framework 在 API 中实现版本控制？
 
 - [ ] 使用 Django REST Framework 提供的 `NamespaceVersioning` 或 `URLPathVersioning` 类
-- [ ] 实现自定义版本控制方案并将其应用于 ViewSet
+- [ ] 实现自定义版本控制方案并将其应用于 ViewSet 或视图
 - [ ] 在 ViewSet 或视图上设置 `version` 属性
 - [x] 以上所有
 
@@ -2225,11 +2225,11 @@ class Book(models.Model):
 - [ ] 在 ViewSet 或视图上设置 `versioning_class` 属性
 - [x] 以上所有
 
-#### Q290. Django REST Framework `GenericAPIView` 中 `lookup_url_kwarg` 属性的目的是什么？
+#### Q290. Django REST Framework ViewSet 中 `lookup_url_kwarg` 属性的目的是什么？
 
-- [x] 它确定用于查找对象的 URL 参数的名称
-- [ ] 它设置查询集的默认排序
 - [ ] 它指定用于检索对象的 URL 参数
+- [ ] 它设置查询集的默认排序
+- [x] 它确定用于查找对象的 URL 参数的名称
 - [ ] 它根据查找字段过滤查询集
 
 #### Q291. 如何使用 Django REST Framework 在 API 响应中实现分页？
@@ -2363,8 +2363,8 @@ class Book(models.Model):
 #### Q309. Django Admin 类中 `get_queryset()` 方法的目的是什么？
 
 - [ ] 自定义管理界面
-- [ ] 向管理添加自定义功能
 - [x] 修改用于在管理列表视图中显示对象的查询集
+- [ ] 向管理添加自定义功能
 - [ ] 对选定的对象执行批量操作
 
 #### Q310. 如何向 Django Admin 删除视图添加自定义功能？
@@ -2399,7 +2399,7 @@ class Book(models.Model):
 
 - [ ] 通过使用 `list_display` 属性
 - [ ] 通过在管理类中定义 `search_fields` 属性
-- [x] 通过添加自定义模板并重写 `change_form_template` 属性
+- [x] 通过重写 `change_form_template` 并添加自定义模板逻辑
 - [ ] 通过在管理类中使用 `fieldsets` 属性
 
 #### Q315. Django Admin 类中 `save_model()` 方法的目的是什么？
@@ -2500,10 +2500,10 @@ class Book(models.Model):
 - [x] 通过创建自定义管理视图并将其注册到管理站点
 - [ ] 通过在管理类中使用 `fieldsets` 属性
 
-#### Q329. Django Admin 类中 `has_module_permission()` 方法的目的是什么？
+#### Q329. Django Admin 类中 `get_fieldsets()` 方法的目的是什么？
 
 - [ ] 自定义管理界面
-- [x] 控制用户是否可以访问特定模型的管理
+- [x] 修改管理更改表单中使用的字段集
 - [ ] 过滤管理列表视图
 - [ ] 对选定的对象执行批量操作
 
@@ -2692,9 +2692,9 @@ class Book(models.Model):
 #### Q356. Django 中 `signal.disconnect()` 方法的目的是什么？
 
 - [ ] 手动触发信号
-- [ ] 将信号分派给所有已注册的接收器
+- [x] 将信号分派给所有已注册的接收器
 - [ ] 注册信号接收器
-- [x] 注销信号接收器
+- [ ] 注销信号接收器
 
 #### Q357. Django 中 `settings.DEBUG` 配置的目的是什么？
 
@@ -2825,8 +2825,8 @@ class Book(models.Model):
 #### Q375. Django 中 `settings.SECURE_BROWSER_XSS_FILTER` 配置的目的是什么？
 
 - [ ] 配置应用程序允许的主机名
-- [ ] 配置 CSRF 保护的可信源域
 - [x] 启用 X-XSS-Protection HTTP 标头以进行跨站点脚本保护
+- [ ] 配置 CSRF 保护的可信源域
 - [ ] 配置文件上传允许的文件类型
 
 #### Q376. 如何使用 Django 的测试客户端模拟用户注销？
