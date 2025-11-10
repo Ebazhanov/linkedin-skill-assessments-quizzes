@@ -2080,4 +2080,26 @@ The `|` operator is bitwise OR. 5 in binary is 101, 3 is 011. 101 | 011 = 111 = 
 **Explanation:**
 `strcmp()` compares entire strings. `strncmp()` compares at most n characters, which is useful for comparing string prefixes or limiting comparison length.
 
+#### Q141. What is the output of this code?
+
+```c
+#include <stdio.h>
+
+int main() {
+    char *p = "ABCDE";
+    p[0] = 'Z';
+    printf("%c", *p);
+    return 0;
+}
+
+```
+
+- [ ] Z
+- [ ] A
+- [ ] Program Crashed
+- [x] Undefined behavior
+
+**Explanation:**
+Even though it looks like you’re just changing the first char, the string `"ABCDE"` is stored in read-only memory, so trying to modify `p[0]` is illegal. C doesn’t protect you, so sometimes it crashes, sometimes it prints weird stuff, sometimes it works. That randomness makes it pure UB vibes.
+      
 [Reference](https://en.cppreference.com/w/c/string/byte/strncmp)
