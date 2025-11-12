@@ -388,7 +388,9 @@ class Main {
 ```java
 public class Jedi {
   /* Constructor A */
-  Jedi(String name, String species){}
+  Jedi(String name, String species){
+    this(name, species, false);
+  }
 
   /* Constructor B */
   Jedi(String name, String species, boolean followsTheDarkSide){}
@@ -399,8 +401,6 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
-
-**Note:** This code won't compile, possibly a broken code sample.
 
 [Reference](https://www.scaler.com/topics/java/constructor-in-java/)
 
@@ -1256,7 +1256,7 @@ class Main {
 
 ```java
 class TaxCalculator {
-  static calculate(total) {
+  static double calculate(double total) {
     return total * .05;
   }
 }
@@ -1267,10 +1267,7 @@ class TaxCalculator {
 - [ ] calculate(50);
 - [ ] new TaxCalculator.calculate($50);
 
-**Note:** This code won't compile, broken code sample.
-
-1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
 
 #### Q89. Which characteristic does not apply to instances of java.util.HashSet?
 
@@ -2463,9 +2460,9 @@ void createArray(int n) {
 - [ ] O(N^2)
 - [ ] O(log(N))
 
-//In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
+**Explanation:** In this program, an array of size n is created. The space complexity is determined by the size of the dynamic array, which is n. Therefore, the space complexity is O(N).
 
-#### Q167. What will be the output of the following Java code?
+#### Q168. What will be the output of the following Java code?
 
 ```java
     import java.util.*;
@@ -2498,30 +2495,30 @@ void createArray(int n) {
 - [ ] Runtime Error
 - [ ] Compilation Error
 
-//In this program, The code defines a generic stack class, pushes the string "Hello" onto the stack, and then pops and prints "Hello," resulting in the output "Hello."
+**Explanation:** In this program, The code defines a generic stack class, pushes the string "Hello" onto the stack, and then pops and prints "Hello," resulting in the output "Hello."
 
-#### Q168. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
+#### Q169. In Java, what is the purpose of the synchronized keyword when used in the context of methods or code blocks?
 
-- [x] It is used to specify that a method or code block is asynchronous, allowing multiple threads to execute it concurrently.
-- [ ] It is used to mark a method or code block as thread-safe, ensuring that only one thread can execute it at a time.
+- [ ] It is used to specify that a method or code block is asynchronous, allowing multiple threads to execute it concurrently.
+- [x] It is used to mark a method or code block as thread-safe, ensuring that only one thread can execute it at a time.
 - [ ] It indicates that the method or code block is highly optimized for performance and will run faster than non-synchronized methods.
 - [ ] It is used to prevent a method or code block from being executed by any thread, making it effectively "locked."
 
-#### Q169. In Java, which of the following statements about the "transient" modifier is true?
+#### Q170. In Java, which of the following statements about the "transient" modifier is true?
 
 - [ ] Transient variables cannot be accessed outside their declaring class.
 - [ ] Transient variables are automatically initialized with a default value.
 - [x] Transient variables are not serialized when an object is serialized.
 - [ ] Transient is a keyword used to define inner classes.
 
-#### Q170. The following prototype shows that a Cylinder subclass is derived from a superclass called Circle.
+#### Q171. The following prototype shows that a Cylinder subclass is derived from a superclass called Circle.
 
 - [ ] Class Circle extends Cylinder.
 - [ ] Class Cylinder derived Circle.
 - [x] Class Cylinder extends Circle.
 - [ ] Class Circle derived Cylinder.
 
-#### Q171. What will be the output of the following Java code snippet?
+#### Q172. What will be the output of the following Java code snippet?
 
 ```java
 class abc
@@ -2539,7 +2536,7 @@ class abc
 - [ ] The snippet compiles, runs, and prints 1.
 - [ ] The snippet does not compile.
 
-#### Q172. Which of these classes allows us to define our own formatting pattern for dates and times?
+#### Q173. Which of these classes allows us to define our own formatting pattern for dates and times?
 
 - [ ] DefinedDateFormat
 - [x] SimpleDateFormat
@@ -2548,7 +2545,7 @@ class abc
 
 [Reference](https://www.sarthaks.com/2435260/which-of-these-class-allows-us-to-define-our-own-formatting-pattern-for-dates-and-time)
 
-#### Q173.What kind of relationship does extends denote?
+#### Q174. What kind of relationship does extends denote?
 
 - [x] is-a
 - [ ] has-a

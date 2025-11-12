@@ -833,3 +833,10 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [ ] Scatter plot
 - [ ] Pie chart
 - [x] Bar chart
+
+#### Q104. What does the Power Query Editor in Power BI allow you to do?
+
+- [x] Connect to data sources and transform data before loading it into Power BI
+- [ ] Create DAX measures and calculated columns
+- [ ] Build interactive dashboards and visuals
+- [ ] Share reports via Power BI Service

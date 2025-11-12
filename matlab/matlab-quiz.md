@@ -1192,3 +1192,57 @@ b = unique(a);
 - [ ] `b = [1 6 8 9]`
 - [ ] `b = [1 6 6 6 8 8 9 9 19 19]`
 - [ ] `b = [1 6 6 8 8 9]`
+
+#### Q79. What does this function print?
+
+```
+a = 1;
+for i_loop = 1:6
+    disp(a);
+end
+```
+
+- [ ] 111111
+- [ ] 1 1 1 1 1 1
+- [ ] 1
+      1
+      1
+      1
+      1
+      1
+- [x] Nothing will print.
+
+#### Q80. You are debugging a function and have set a breakpoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Which action would help you test if a=10 solves the problem?
+
+- [x] Type "a = 10;" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.
+- [ ] Type "a = 10; continue;" into the command window.
+- [ ] Type "a = 10;" into the command window. Then click the Run button in the debugger window.
+- [ ] Type "a = 10;" into the function file, before the statement that's throwing an error. Then type "return;" into the command window.
+
+#### Q81. Which statement returns the character array 'alone'?
+
+```
+b = ['stand' 'alone'];
+```
+
+- [ ] b(7:11)
+- [ ] b(2)
+- [x] b(6:end)
+- [ ] b(1,2)
+
+#### Q82. Which code block results in an array b containing the mean values of each array within C?
+
+```
+C = {rand(20,10) rand(23,2) rand(14,5)};
+```
+
+- [ ] b = cellfun(@(m) mean(m(:)), C);
+- [ ] b = zeros(1,size(C,2));
+      for i_C = 1:size(C,2)
+      b(i_C) = mean(C(i_C));
+      end
+- [x] b = cellfun(@mean, C);
+- [ ] b = zeros(1,size(C,1));
+      for i_C = 1:size(C,1)
+      b(i_C) = mean(C{i_C}(:));
+      end

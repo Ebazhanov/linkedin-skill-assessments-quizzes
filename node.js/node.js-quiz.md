@@ -787,19 +787,19 @@ Q90. Which Node.js module provides an interface for interacting with the file sy
 Explanation: The fs module in Node.js provides an interface for interacting with the file system. It allows you to perform various file-related operations, including reading and writing files, creating directories, and more.
 
 Q91. What will happen if an uncaughtException occurs and is not handled in Node.js?
+
 - [ ]The program continues running normally.
 - [ ]Node.js automatically restarts the program.
 - [X]The process exits immediately after printing the error stack.
 - [ ]The event loop pauses until the exception is handled.
 
-
 Explanation: If an uncaughtException is not handled using the process.on('uncaughtException') event, Node.js will log the error and terminate the process to prevent unpredictable behavior.
 
 Q92. Which method is used to schedule a callback function to be executed after the current event loop phase in Node.js?
+
 - [ ]setImmediate()
 - [x]process.nextTick()
 - [ ]setTimeout()
 - [ ]queueMicrotask()
-
 
 Explanation: The process.nextTick() method schedules a callback to run after the current operation completes but before the next event loop phase begins, making it faster than setImmediate() and setTimeout().

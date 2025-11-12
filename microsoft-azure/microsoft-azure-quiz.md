@@ -1108,8 +1108,6 @@ await this.CreateDatabaseAsync();
 - [ ] a storage failure
       [Ref](https://docs.microsoft.com/en-us/azure/virtual-machines/availability)
 
-
-
 ### Q104. You need to configure an Azure Virtual Network (VNet) to allow communication between on-premises resources and Azure resources. Which VNet configuration should you use?
 
 - [ ] Point-to-Site VPN

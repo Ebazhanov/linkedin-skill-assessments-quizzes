@@ -1,7 +1,7 @@
 ## PR Checklist
 
 This PR is ready for review and meets the requirements set out
-in [Suggestion how to contribute](CONTRIBUTING.md)
+in [Suggestion how to contribute](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/CONTRIBUTING.md)
 
 ### DOD
 

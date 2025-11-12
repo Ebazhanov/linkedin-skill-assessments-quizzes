@@ -1754,3 +1754,916 @@ var data = {
 - [ ] `$(data).serialize();`
 
 [Source: jQuery.param()](https://api.jquery.com/jQuery.param/)
+
+#### Q91. What is the difference between `.wrap()` and `.wrapAll()`?
+
+- [ ] `.wrap()` wraps each element separately, while `.wrapAll()` requires at least two elements to work.
+- [x] `.wrap()` wraps each matched element individually, while `.wrapAll()` wraps all matched elements together in a single wrapper.
+- [ ] `.wrap()` can only wrap one element, while `.wrapAll()` can wrap multiple elements.
+- [ ] There is no difference; they are aliases of each other.
+
+[Source: .wrap()](https://api.jquery.com/wrap/) and [.wrapAll()](https://api.jquery.com/wrapAll/)
+
+#### Q92. What does the `.end()` method do?
+
+```js
+$('ul.first')
+  .find('.foo')
+  .css('background-color', 'red')
+  .end()
+  .find('.bar')
+  .css('background-color', 'green');
+```
+
+- [x] It terminates the current chain and starts a new one on the original selection.
+- [ ] It ends all jQuery animations on the selected elements.
+- [ ] It returns the last element from the collection.
+- [ ] It destroys the jQuery object and releases memory.
+
+[Source: .end()](https://api.jquery.com/end/)
+
+#### Q93. When would you use `.promise()` without arguments versus `.promise('fx')`?
+
+- [ ] `.promise()` returns immediately, while `.promise('fx')` waits for animations to complete.
+- [x] `.promise()` returns a promise resolved when all animations on all matched elements complete, while `.promise('fx')` explicitly waits for the FX queue.
+- [ ] There is no difference between them.
+- [ ] `.promise()` is used for AJAX, while `.promise('fx')` is used for animations.
+
+[Source: .promise()](https://api.jquery.com/promise/)
+
+#### Q94. What is the difference between `.slideToggle()` and `.slideUp()` / `.slideDown()` combined?
+
+```js
+// Option A
+$('.element').slideToggle();
+
+// Option B
+if ($('.element').is(':visible')) {
+  $('.element').slideUp();
+} else {
+  $('.element').slideDown();
+}
+```
+
+- [ ] `.slideToggle()` only works on elements that are already visible.
+- [ ] There is no difference; `.slideToggle()` is just a shorthand for the if/else block.
+- [x] `.slideToggle()` tracks the current state internally and toggles based on visibility, while the manual approach may have issues with display styles.
+- [ ] `.slideToggle()` is deprecated and the manual approach should be used instead.
+
+[Source: .slideToggle()](https://api.jquery.com/slideToggle/)
+
+#### Q95. How can you ensure that a jQuery selector only searches within a specific container element for better performance?
+
+```html
+<div class="container">
+  <p>Some text</p>
+  <div class="nested">
+    <p>More text</p>
+  </div>
+</div>
+```
+
+- [x] `$('.container').find('p')`
+- [ ] `$('.container p')`
+- [ ] Both approaches are equivalent in performance and behavior.
+- [ ] `$('p', '.container')`
+
+[Source: .find()](https://api.jquery.com/find/) - Using `.find()` is more explicit and can be better for performance when working with large documents.
+
+#### Q96. What does the `.stop()` method do when called with no arguments versus `.stop(true, true)`?
+
+- [ ] `.stop()` pauses the animation, `.stop(true, true)` completely removes it from the queue.
+- [x] `.stop()` stops the current animation on the element, `.stop(true, true)` clears the queue and jumps to the end of the current animation.
+- [ ] `.stop()` is a deprecated method, `.stop(true, true)` is the new syntax.
+- [ ] Both are identical in functionality.
+
+[Source: .stop()](https://api.jquery.com/stop/)
+
+#### Q97. How do you bind a single event handler that works for elements added dynamically to the page?
+
+```html
+<div class="container">
+  <button class="dynamic-btn">Click me</button>
+</div>
+```
+
+- [ ] `$('.dynamic-btn').on('click', function() { console.log('clicked'); });` - This works automatically for dynamic elements.
+- [x] `$(document).on('click', '.dynamic-btn', function() { console.log('clicked'); });` - Delegated event handler.
+- [ ] `$('.dynamic-btn').live('click', function() { console.log('clicked'); });` - The `.live()` method.
+- [ ] You cannot bind to dynamically added elements without using a library.
+
+[Source: .on()](https://api.jquery.com/on/) - Event delegation is key for dynamic elements.
+
+#### Q98. What is the correct way to remove all event handlers and data from a jQuery object before reusing it in a long-running application?
+
+- [x] `$('#element').off().empty().removeData();`
+- [ ] `$('#element').unbind().removeData();`
+- [ ] `$('#element').detach();`
+- [ ] jQuery automatically cleans up everything when the page unloads.
+
+[Source: .off()](https://api.jquery.com/off/) and [.removeData()](https://api.jquery.com/removeData/)
+
+#### Q99. How can you check if an element is animating in jQuery?
+
+- [ ] `$('.element').is(':animating');`
+- [x] `$('.element').is(':animated');`
+- [ ] `$('.element').hasClass('animating');`
+- [ ] You cannot check for animation state in jQuery.
+
+[Source: :animated selector](https://api.jquery.com/animated-selector/)
+
+#### Q100. What is the difference between using `.attr()` and `.prop()` for boolean attributes like "checked" or "disabled"?
+
+```js
+// Setting checked state
+$('#checkbox').attr('checked', 'checked');
+$('#checkbox').prop('checked', true);
+```
+
+- [x] `.attr()` manipulates HTML attributes (reflecting initial state), while `.prop()` manipulates DOM properties (current state).
+- [ ] There is no difference; both methods are identical in behavior.
+- [ ] `.attr()` is deprecated and `.prop()` should always be used.
+- [ ] `.attr()` only works for string values, `.prop()` only works for boolean values.
+
+[Source: .attr() vs .prop()](https://api.jquery.com/attr/) vs [.prop()](https://api.jquery.com/prop/)
+
+#### Q101. What is the purpose of jQuery's `.end()` method?
+
+- [ ] To end a jQuery chain
+- [x] To return to the previous set of elements in a chaining sequence
+- [ ] To terminate event handlers
+- [ ] To end animations
+
+**Explanation:**
+The `.end()` method returns the previous set of matched elements in the chain, allowing you to back up one step in a chain of jQuery operations.
+
+[Reference](https://api.jquery.com/end/)
+
+#### Q102. What does the `.andSelf()` method do (deprecated in jQuery 1.8)?
+
+- [ ] Adds self to the selection
+- [x] Adds the previous set of elements to the current set
+- [ ] Selects the element and its siblings
+- [ ] Selects the element and its parent
+
+**Explanation:**
+`.andSelf()` (now `.addBack()`) adds the previous set of elements on the stack to the current set. It was deprecated in jQuery 1.8 and replaced with `.addBack()`.
+
+[Reference](https://api.jquery.com/addBack/)
+
+#### Q103. How do you select all elements with a data attribute in jQuery?
+
+- [ ] `$('[data]')`
+- [x] `$('[data-*]')` or `$('[data-attribute]')` for specific attribute
+- [ ] `$('.data-*')`
+- [ ] `$('data-*')`
+
+**Explanation:**
+To select elements with any data attribute, use `$('[data-*]')`. For a specific data attribute, use `$('[data-attribute]')` where attribute is the name.
+
+[Reference](https://api.jquery.com/attribute-starts-with-selector/)
+
+#### Q104. What is the difference between `.text()` and `.html()`?
+
+- [x] `.text()` gets/sets text content only, `.html()` gets/sets HTML markup
+- [ ] `.text()` is faster
+- [ ] `.html()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.text()` gets or sets the text content of elements (escaping HTML), while `.html()` gets or sets the HTML content (parsing HTML tags).
+
+[Reference](https://api.jquery.com/text/)
+
+#### Q105. How do you prevent event bubbling in jQuery?
+
+- [ ] `event.cancel()`
+- [x] `event.stopPropagation()`
+- [ ] `event.preventBubbling()`
+- [ ] `return false;` (this stops both propagation and default)
+
+**Explanation:**
+`event.stopPropagation()` prevents the event from bubbling up the DOM tree. `return false` stops both propagation and default action.
+
+[Reference](https://api.jquery.com/event.stopPropagation/)
+
+#### Q106. What is the purpose of `.serialize()` method?
+
+- [ ] To serialize objects
+- [x] To encode form elements as a string for submission
+- [ ] To convert JSON to string
+- [ ] To save form data
+
+**Explanation:**
+`.serialize()` creates a URL-encoded text string from a set of form elements, useful for AJAX form submissions.
+
+[Reference](https://api.jquery.com/serialize/)
+
+#### Q107. What is the difference between `.serialize()` and `.serializeArray()`?
+
+- [x] `.serialize()` returns a string, `.serializeArray()` returns an array of objects
+- [ ] `.serializeArray()` is faster
+- [ ] `.serialize()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.serialize()` returns a URL-encoded string, while `.serializeArray()` returns an array of objects with name and value properties.
+
+[Reference](https://api.jquery.com/serializeArray/)
+
+#### Q108. How do you check if an element exists in jQuery?
+
+- [ ] `if ($('#element'))`
+- [x] `if ($('#element').length > 0)`
+- [ ] `if ($('#element').exists())`
+- [ ] `if ($('#element') !== null)`
+
+**Explanation:**
+jQuery always returns an object, even if no elements match. Check the `.length` property to see if elements were found.
+
+[Reference](https://api.jquery.com/length/)
+
+#### Q109. What is the purpose of `.queue()` method?
+
+- [ ] To queue animations
+- [x] To show or manipulate the queue of functions to be executed on elements
+- [ ] To create a queue
+- [ ] To manage event queues
+
+**Explanation:**
+`.queue()` shows or manipulates the queue of functions to be executed on the matched elements, typically used with animations.
+
+[Reference](https://api.jquery.com/queue/)
+
+#### Q110. What is the purpose of `.dequeue()` method?
+
+- [ ] To remove from queue
+- [x] To execute the next function on the queue for the matched elements
+- [ ] To clear the queue
+- [ ] To stop the queue
+
+**Explanation:**
+`.dequeue()` executes the next function on the queue for the matched elements, advancing the queue.
+
+[Reference](https://api.jquery.com/dequeue/)
+
+#### Q111. How do you stop all animations on an element?
+
+- [ ] `$('.element').stop()`
+- [x] `$('.element').stop(true, true)`
+- [ ] `$('.element').stopAll()`
+- [ ] `$('.element').clearQueue()`
+
+**Explanation:**
+`.stop(true, true)` stops the animation, clears the queue, and jumps to the end. The first parameter clears the queue, the second jumps to the end.
+
+[Reference](https://api.jquery.com/stop/)
+
+#### Q112. What is the purpose of `.promise()` method?
+
+- [ ] To create promises
+- [x] To return a Promise object to observe when all actions on a collection have finished
+- [ ] To handle async operations
+- [ ] To create deferred objects
+
+**Explanation:**
+`.promise()` returns a Promise object that resolves when all queued actions on a collection have finished.
+
+[Reference](https://api.jquery.com/promise/)
+
+#### Q113. What is jQuery's `.Deferred()` object?
+
+- [ ] A delayed function
+- [x] A chainable utility object for managing callbacks and promises
+- [ ] A deferred execution method
+- [ ] A promise implementation
+
+**Explanation:**
+`$.Deferred()` creates a chainable utility object for managing callback queues, providing a way to handle asynchronous operations.
+
+[Reference](https://api.jquery.com/jQuery.Deferred/)
+
+#### Q114. What is the difference between `.done()` and `.then()` on a Deferred object?
+
+- [ ] `.done()` is for success, `.then()` is for failure
+- [x] `.then()` returns a new promise, `.done()` returns the original deferred
+- [ ] `.done()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.then()` returns a new promise and allows chaining with transformation, while `.done()` returns the original deferred object.
+
+[Reference](https://api.jquery.com/deferred.then/)
+
+#### Q115. How do you create a custom event in jQuery?
+
+- [ ] `$.createEvent('myEvent')`
+- [x] `$('#element').trigger('myEvent')` or `$.Event('myEvent')`
+- [ ] `new Event('myEvent')`
+- [ ] `$('#element').fire('myEvent')`
+
+**Explanation:**
+You can trigger custom events with `.trigger('myEvent')` or create event objects with `$.Event('myEvent')`.
+
+[Reference](https://api.jquery.com/trigger/)
+
+#### Q116. What is the purpose of `.triggerHandler()`?
+
+- [ ] To handle triggers
+- [x] To trigger an event without bubbling or default actions
+- [ ] To create event handlers
+- [ ] To manage triggers
+
+**Explanation:**
+`.triggerHandler()` triggers an event but doesn't cause bubbling, doesn't trigger default browser behavior, and only affects the first matched element.
+
+[Reference](https://api.jquery.com/triggerHandler/)
+
+#### Q117. How do you namespace events in jQuery?
+
+- [ ] `$('#element').on('namespace.click')`
+- [x] `$('#element').on('click.namespace')`
+- [ ] `$('#element').on('click', 'namespace')`
+- [ ] Event namespacing is not supported
+
+**Explanation:**
+Event namespaces are added after the event name with a dot: `'click.namespace'`. This allows selective unbinding of events.
+
+[Reference](https://api.jquery.com/on/#event-names)
+
+#### Q118. What is the purpose of `$.proxy()`?
+
+- [ ] To create proxies
+- [x] To bind a function to a specific context (this value)
+- [ ] To proxy AJAX requests
+- [ ] To create proxy objects
+
+**Explanation:**
+`$.proxy()` takes a function and returns a new one that will always have a particular context, similar to Function.prototype.bind().
+
+[Reference](https://api.jquery.com/jQuery.proxy/)
+
+#### Q119. What is the difference between `.width()` and `.outerWidth()`?
+
+- [x] `.width()` gets content width, `.outerWidth()` includes padding and optionally border/margin
+- [ ] `.outerWidth()` is for outer elements
+- [ ] `.width()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.width()` returns the content width. `.outerWidth()` includes padding and border by default. `.outerWidth(true)` also includes margin.
+
+[Reference](https://api.jquery.com/outerWidth/)
+
+#### Q120. What is the purpose of `.innerWidth()`?
+
+- [ ] To get inner element width
+- [x] To get width including padding but not border
+- [ ] To get content width
+- [ ] To get total width
+
+**Explanation:**
+`.innerWidth()` returns the width including padding but excluding border and margin.
+
+[Reference](https://api.jquery.com/innerWidth/)
+
+#### Q121. How do you get the position of an element relative to the document?
+
+- [ ] `$('#element').position()`
+- [x] `$('#element').offset()`
+- [ ] `$('#element').documentPosition()`
+- [ ] `$('#element').getPosition()`
+
+**Explanation:**
+`.offset()` gets the current coordinates of the element relative to the document. `.position()` gets coordinates relative to the offset parent.
+
+[Reference](https://api.jquery.com/offset/)
+
+#### Q122. What is the purpose of `.scrollTop()`?
+
+- [ ] To scroll to top
+- [x] To get or set the vertical scroll position
+- [ ] To get top position
+- [ ] To scroll upward
+
+**Explanation:**
+`.scrollTop()` gets the current vertical position of the scroll bar. `.scrollTop(value)` sets it.
+
+[Reference](https://api.jquery.com/scrollTop/)
+
+#### Q123. How do you select elements by attribute value that contains a specific substring?
+
+- [ ] `$('[attr~="value"]')`
+- [x] `$('[attr*="value"]')`
+- [ ] `$('[attr|="value"]')`
+- [ ] `$('[attr^="value"]')`
+
+**Explanation:**
+The `*=` selector matches elements with an attribute value containing the specified substring anywhere.
+
+[Reference](https://api.jquery.com/attribute-contains-selector/)
+
+#### Q124. What is the `:has()` selector used for?
+
+- [ ] To check if element has a class
+- [x] To select elements that contain at least one element matching the selector
+- [ ] To check if element has attributes
+- [ ] To select elements that have content
+
+**Explanation:**
+`:has()` selects elements which contain at least one element that matches the specified selector.
+
+[Reference](https://api.jquery.com/has-selector/)
+
+#### Q125. What is the difference between `:contains()` and `:has()`?
+
+- [x] `:contains()` matches text content, `:has()` matches descendant elements
+- [ ] `:contains()` is case-sensitive
+- [ ] `:has()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`:contains()` selects elements containing specific text. `:has()` selects elements containing specific descendant elements.
+
+[Reference](https://api.jquery.com/contains-selector/)
+
+#### Q126. How do you select the first child element of a specific type?
+
+- [ ] `$('parent > :first')`
+- [x] `$('parent > element:first-of-type')`
+- [ ] `$('parent > element:first-child')`
+- [ ] `$('parent').first('element')`
+
+**Explanation:**
+`:first-of-type` selects the first element of its type among siblings. `:first-child` selects if it's the first child regardless of type.
+
+[Reference](https://api.jquery.com/first-of-type-selector/)
+
+#### Q127. What is the purpose of `.is()` method?
+
+- [ ] To check if element is visible
+- [x] To check if elements match a selector, element, or jQuery object
+- [ ] To check element type
+- [ ] To validate elements
+
+**Explanation:**
+`.is()` checks the current matched set of elements against a selector, element, or jQuery object and returns true if at least one matches.
+
+[Reference](https://api.jquery.com/is/)
+
+#### Q128. How do you select elements that are currently visible?
+
+- [ ] `$('.element:shown')`
+- [x] `$('.element:visible')`
+- [ ] `$('.element:display')`
+- [ ] `$('.element').visible()`
+
+**Explanation:**
+The `:visible` selector selects all elements that are visible (not display:none, visibility:hidden, or type="hidden").
+
+[Reference](https://api.jquery.com/visible-selector/)
+
+#### Q129. What is the purpose of `$.contains()`?
+
+- [ ] To check if string contains substring
+- [x] To check if a DOM element is a descendant of another
+- [ ] To check if array contains value
+- [ ] To check if object contains property
+
+**Explanation:**
+`$.contains(container, contained)` checks whether a DOM element is a descendant of another DOM element.
+
+[Reference](https://api.jquery.com/jQuery.contains/)
+
+#### Q130. How do you get all sibling elements of an element?
+
+- [ ] `$('#element').siblings()`
+- [x] `$('#element').siblings()` (correct)
+- [ ] `$('#element').getSiblings()`
+- [ ] `$('#element').brothers()`
+
+**Explanation:**
+`.siblings()` gets all siblings of each element in the matched set, optionally filtered by a selector.
+
+[Reference](https://api.jquery.com/siblings/)
+
+#### Q131. What is the difference between `.next()` and `.nextAll()`?
+
+- [x] `.next()` gets the immediately following sibling, `.nextAll()` gets all following siblings
+- [ ] `.nextAll()` is faster
+- [ ] `.next()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.next()` gets the immediately following sibling. `.nextAll()` gets all following siblings.
+
+[Reference](https://api.jquery.com/next/)
+
+#### Q132. How do you select elements until a specific element?
+
+- [ ] `$('#start').to('#end')`
+- [x] `$('#start').nextUntil('#end')`
+- [ ] `$('#start').until('#end')`
+- [ ] `$('#start').range('#end')`
+
+**Explanation:**
+`.nextUntil()` gets all following siblings up to but not including the element matched by the selector.
+
+[Reference](https://api.jquery.com/nextUntil/)
+
+#### Q133. What is the purpose of `.closest()`?
+
+- [ ] To get the closest sibling
+- [x] To get the first ancestor element that matches the selector
+- [ ] To get the nearest element
+- [ ] To find close elements
+
+**Explanation:**
+`.closest()` traverses up the DOM tree and returns the first ancestor element (including the element itself) that matches the selector.
+
+[Reference](https://api.jquery.com/closest/)
+
+#### Q134. What is the difference between `.closest()` and `.parents()`?
+
+- [x] `.closest()` returns first match and includes self, `.parents()` returns all ancestors
+- [ ] `.closest()` is faster
+- [ ] `.parents()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`.closest()` begins with the current element and travels up, returning the first match. `.parents()` begins with the parent and returns all ancestors.
+
+[Reference](https://api.jquery.com/closest/)
+
+#### Q135. How do you wrap each element in a set individually?
+
+- [ ] `$('.element').wrap('<div>')`
+- [x] `$('.element').wrap('<div>')` (wraps each individually)
+- [ ] `$('.element').wrapEach('<div>')`
+- [ ] `$('.element').wrapIndividual('<div>')`
+
+**Explanation:**
+`.wrap()` wraps each element in the matched set individually. `.wrapAll()` wraps all elements together as a group.
+
+[Reference](https://api.jquery.com/wrap/)
+
+#### Q136. What is the purpose of `.wrapInner()`?
+
+- [ ] To wrap inner elements
+- [x] To wrap the content (children) of each element
+- [ ] To wrap inside a container
+- [ ] To create inner wrappers
+
+**Explanation:**
+`.wrapInner()` wraps an HTML structure around the content (child elements) of each element in the matched set.
+
+[Reference](https://api.jquery.com/wrapInner/)
+
+#### Q137. How do you unwrap an element (remove its parent)?
+
+- [ ] `$('#element').removeParent()`
+- [x] `$('#element').unwrap()`
+- [ ] `$('#element').parent().remove()`
+- [ ] `$('#element').deparent()`
+
+**Explanation:**
+`.unwrap()` removes the parents of the matched elements from the DOM, leaving the matched elements in their place.
+
+[Reference](https://api.jquery.com/unwrap/)
+
+#### Q138. What is the purpose of `$.parseHTML()`?
+
+- [ ] To parse HTML files
+- [x] To parse a string into an array of DOM nodes
+- [ ] To validate HTML
+- [ ] To format HTML
+
+**Explanation:**
+`$.parseHTML()` parses a string into an array of DOM nodes, providing a safer alternative to using innerHTML.
+
+[Reference](https://api.jquery.com/jQuery.parseHTML/)
+
+#### Q139. What is the purpose of `$.parseJSON()`?
+
+- [ ] To parse JSON files
+- [x] To parse a JSON string (deprecated, use JSON.parse())
+- [ ] To create JSON
+- [ ] To validate JSON
+
+**Explanation:**
+`$.parseJSON()` parses a JSON string and returns the resulting JavaScript value. It's deprecated in favor of native `JSON.parse()`.
+
+[Reference](https://api.jquery.com/jQuery.parseJSON/)
+
+#### Q140. How do you make an AJAX request with custom headers?
+
+```js
+$.ajax({
+  url: '/api/data',
+  headers: { 'X-Custom-Header': 'value' },
+});
+```
+
+- [x] Use the `headers` option in $.ajax()
+- [ ] Use the `customHeaders` option
+- [ ] Use `.setHeader()` method
+- [ ] Custom headers are not supported
+
+**Explanation:**
+The `headers` option in `$.ajax()` allows you to set custom HTTP headers for the request.
+
+[Reference](https://api.jquery.com/jQuery.ajax/)
+
+#### Q141. What is the purpose of `$.ajaxSetup()`?
+
+- [ ] To setup AJAX
+- [x] To set default values for future AJAX requests
+- [ ] To configure AJAX globally
+- [ ] To initialize AJAX
+
+**Explanation:**
+`$.ajaxSetup()` sets default values for future AJAX requests. However, it's generally recommended to use specific options for each request instead.
+
+[Reference](https://api.jquery.com/jQuery.ajaxSetup/)
+
+#### Q142. How do you abort an AJAX request?
+
+```js
+var xhr = $.ajax({ url: '/api/data' });
+xhr.abort();
+```
+
+- [x] Call `.abort()` on the jqXHR object
+- [ ] Call `.cancel()` on the request
+- [ ] Call `.stop()` on the request
+- [ ] AJAX requests cannot be aborted
+
+**Explanation:**
+The jqXHR object returned by `$.ajax()` has an `.abort()` method that can cancel the request.
+
+[Reference](https://api.jquery.com/jQuery.ajax/)
+
+#### Q143. What is the purpose of the `context` option in $.ajax()?
+
+- [ ] To set request context
+- [x] To specify the context (this value) for all AJAX-related callbacks
+- [ ] To define execution context
+- [ ] To set the request scope
+
+**Explanation:**
+The `context` option sets the value of `this` within all AJAX-related callbacks for that request.
+
+[Reference](https://api.jquery.com/jQuery.ajax/)
+
+#### Q144. How do you send data as JSON in an AJAX request?
+
+```js
+$.ajax({
+  url: '/api/data',
+  method: 'POST',
+  contentType: 'application/json',
+  data: JSON.stringify({ key: 'value' }),
+});
+```
+
+- [x] Set contentType to 'application/json' and stringify the data
+- [ ] jQuery automatically converts to JSON
+- [ ] Use dataType: 'json'
+- [ ] Use jsonData option
+
+**Explanation:**
+To send JSON data, set `contentType` to 'application/json' and use `JSON.stringify()` on the data object.
+
+[Reference](https://api.jquery.com/jQuery.ajax/)
+
+#### Q145. What is the difference between `dataType` and `contentType` in $.ajax()?
+
+- [x] `dataType` is expected response type, `contentType` is sent request type
+- [ ] They are the same
+- [ ] `dataType` is deprecated
+- [ ] `contentType` is for headers only
+
+**Explanation:**
+`dataType` specifies the type of data you expect from the server. `contentType` specifies the type of data you're sending to the server.
+
+[Reference](https://api.jquery.com/jQuery.ajax/)
+
+#### Q146. How do you handle AJAX errors globally?
+
+```js
+$(document).ajaxError(function (event, jqXHR, settings, error) {
+  console.log('AJAX error:', error);
+});
+```
+
+- [x] Use `$(document).ajaxError()`
+- [ ] Use `$.ajaxError()`
+- [ ] Use `window.onerror`
+- [ ] Global error handling is not supported
+
+**Explanation:**
+`$(document).ajaxError()` registers a handler to be called when AJAX requests complete with an error.
+
+[Reference](https://api.jquery.com/ajaxError/)
+
+#### Q147. What is the purpose of `$.ajaxPrefilter()`?
+
+- [ ] To prefilter AJAX responses
+- [x] To modify or filter AJAX options before each request is sent
+- [ ] To validate AJAX requests
+- [ ] To cache AJAX responses
+
+**Explanation:**
+`$.ajaxPrefilter()` allows you to modify or filter AJAX options before each request is sent and before they are processed by `$.ajax()`.
+
+[Reference](https://api.jquery.com/jQuery.ajaxPrefilter/)
+
+#### Q148. How do you create a custom jQuery plugin?
+
+```js
+$.fn.myPlugin = function () {
+  return this.each(function () {
+    // Plugin code
+  });
+};
+```
+
+- [x] Extend `$.fn` with your plugin function
+- [ ] Extend `$.plugin` with your function
+- [ ] Use `$.createPlugin()`
+- [ ] Extend `jQuery.prototype`
+
+**Explanation:**
+jQuery plugins are created by extending `$.fn` (which is an alias for `jQuery.prototype`) with your plugin function.
+
+[Reference](https://learn.jquery.com/plugins/basic-plugin-creation/)
+
+#### Q149. What is the purpose of returning `this` in a jQuery plugin?
+
+- [ ] To return the plugin
+- [x] To enable method chaining
+- [ ] To return the jQuery object
+- [ ] To prevent errors
+
+**Explanation:**
+Returning `this` (the jQuery object) from a plugin enables method chaining, allowing users to call other jQuery methods after your plugin.
+
+[Reference](https://learn.jquery.com/plugins/basic-plugin-creation/)
+
+#### Q150. How do you make a plugin accept options?
+
+```js
+$.fn.myPlugin = function (options) {
+  var settings = $.extend(
+    {
+      color: 'red',
+      size: 10,
+    },
+    options,
+  );
+  // Use settings
+};
+```
+
+- [x] Use `$.extend()` to merge default options with user options
+- [ ] Use `Object.assign()`
+- [ ] Use `$.merge()`
+- [ ] Options are not supported
+
+**Explanation:**
+`$.extend()` merges default options with user-provided options, allowing users to override defaults.
+
+[Reference](https://api.jquery.com/jQuery.extend/)
+
+#### Q151. What is the purpose of `$.noConflict()`?
+
+- [ ] To prevent conflicts
+- [x] To release control of the $ variable to other libraries
+- [ ] To disable jQuery
+- [ ] To resolve naming conflicts
+
+**Explanation:**
+`$.noConflict()` releases jQuery's control of the `$` variable, allowing other libraries that use `$` to work alongside jQuery.
+
+[Reference](https://api.jquery.com/jQuery.noConflict/)
+
+#### Q152. How do you use jQuery after calling `$.noConflict()`?
+
+```js
+var jq = $.noConflict();
+jq('#element').hide();
+```
+
+- [x] Use the returned alias or use `jQuery` instead of `$`
+- [ ] jQuery cannot be used after noConflict
+- [ ] Use `window.$`
+- [ ] Reload jQuery
+
+**Explanation:**
+After `$.noConflict()`, you can use the returned alias or use `jQuery` instead of `$` to access jQuery functionality.
+
+[Reference](https://api.jquery.com/jQuery.noConflict/)
+
+#### Q153. What is the purpose of `$.fn.extend()`?
+
+- [ ] To extend functions
+- [x] To add multiple methods to jQuery.fn (for plugins)
+- [ ] To extend jQuery core
+- [ ] To create extensions
+
+**Explanation:**
+`$.fn.extend()` adds multiple methods to `jQuery.fn`, useful for creating plugins with multiple methods.
+
+[Reference](https://api.jquery.com/jQuery.fn.extend/)
+
+#### Q154. What is the difference between `$.extend()` and `$.fn.extend()`?
+
+- [x] `$.extend()` extends jQuery itself, `$.fn.extend()` extends jQuery.fn (prototype)
+- [ ] `$.fn.extend()` is for functions
+- [ ] `$.extend()` is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`$.extend()` adds methods to the jQuery object itself (utility functions). `$.fn.extend()` adds methods to jQuery.fn (instance methods).
+
+[Reference](https://api.jquery.com/jQuery.extend/)
+
+#### Q155. How do you check the jQuery version?
+
+- [ ] `$.version`
+- [x] `$.fn.jquery` or `jQuery.fn.jquery`
+- [ ] `jQuery.version`
+- [ ] `$().version`
+
+**Explanation:**
+The jQuery version is stored in `$.fn.jquery` (or `jQuery.fn.jquery`).
+
+[Reference](https://api.jquery.com/jquery-2/)
+
+#### Q156. What is jQuery Migrate plugin used for?
+
+- [ ] To migrate to jQuery
+- [x] To restore deprecated features and provide warnings about removed features
+- [ ] To migrate from other libraries
+- [ ] To update jQuery version
+
+**Explanation:**
+jQuery Migrate plugin restores deprecated features removed from jQuery and provides console warnings to help identify deprecated code.
+
+[Reference](https://github.com/jquery/jquery-migrate)
+
+#### Q157. How do you create a deep copy of an object in jQuery?
+
+```js
+var copy = $.extend(true, {}, original);
+```
+
+- [x] Use `$.extend(true, {}, original)`
+- [ ] Use `$.clone(original)`
+- [ ] Use `$.copy(original)`
+- [ ] Use `$.deepCopy(original)`
+
+**Explanation:**
+`$.extend(true, target, source)` performs a deep copy when the first parameter is `true`.
+
+[Reference](https://api.jquery.com/jQuery.extend/)
+
+#### Q158. What is the purpose of `$.grep()`?
+
+- [ ] To search text
+- [x] To filter an array using a filter function
+- [ ] To grep files
+- [ ] To search DOM
+
+**Explanation:**
+`$.grep()` filters an array using a filter function, returning a new array with elements that pass the test.
+
+[Reference](https://api.jquery.com/jQuery.grep/)
+
+#### Q159. What is the purpose of `$.map()`?
+
+- [ ] To create maps
+- [x] To translate all items in an array or object to new array of items
+- [ ] To map DOM elements
+- [ ] To create mappings
+
+**Explanation:**
+`$.map()` translates all items in an array or object to a new array of items using a translation function.
+
+[Reference](https://api.jquery.com/jQuery.map/)
+
+#### Q160. How do you merge two arrays in jQuery?
+
+```js
+var result = $.merge(array1, array2);
+```
+
+- [x] Use `$.merge(first, second)`
+- [ ] Use `$.concat(first, second)`
+- [ ] Use `$.join(first, second)`
+- [ ] Use `first + second`
+
+**Explanation:**
+`$.merge()` merges the contents of two arrays into the first array, modifying the first array and returning it.
+
+[Reference](https://api.jquery.com/jQuery.merge/)

@@ -1205,7 +1205,7 @@ export class TruncatePipe implements PipeTransform {
 
 <div class="tab"></div>
 
-- [ ] {{ width: tabWidth }}
+- [ ] <code>{{ width: tabWidth }}</code>
 - [ ] [width]="tabWidth"
 - [ ] [inline.width]="tabWidth"
 - [x] [style.width.px]="tabWidth"
@@ -1481,7 +1481,727 @@ export class DateCardComponent {
 }
 ```
 
-- [x] `{{ currentYear() }}`
-- [ ] `{{ component.currentYear() }}`
-- [ ] `{{ currentYear }}`
+- [x] `{% raw %}{{ currentYear() }}{% endraw %}`
+- [ ] `{% raw %}{{ component.currentYear() }}{% endraw %}`
+- [ ] `{% raw %}{{ currentYear }}{% endraw %}`
 - [ ] Class functions cannot be called from template syntax.
+
+#### Q84. What is the purpose of Angular's `@Input()` decorator?
+
+- [ ] To define output events
+- [x] To pass data from parent to child component
+- [ ] To inject services
+- [ ] To define component metadata
+
+**Explanation:**
+The `@Input()` decorator marks a class property as an input property, allowing data to flow from a parent component to a child component through property binding.
+
+[Reference](https://angular.io/api/core/Input)
+
+#### Q85. What is the purpose of Angular's `@Output()` decorator?
+
+- [ ] To receive data from parent
+- [x] To emit custom events from child to parent component
+- [ ] To output data to console
+- [ ] To define component outputs
+
+**Explanation:**
+The `@Output()` decorator marks a class property as an output property, typically an EventEmitter, allowing a child component to emit custom events to its parent.
+
+[Reference](https://angular.io/api/core/Output)
+
+#### Q86. What is Angular's change detection strategy `OnPush`?
+
+- [ ] Pushes changes to the server
+- [x] Only checks component when inputs change or events occur
+- [ ] Pushes notifications to users
+- [ ] Always checks for changes
+
+**Explanation:**
+`OnPush` change detection strategy tells Angular to only check the component when its input properties change or when an event originates from the component, improving performance.
+
+[Reference](https://angular.io/api/core/ChangeDetectionStrategy)
+
+#### Q87. What is the purpose of Angular's `async` pipe?
+
+- [ ] To make HTTP requests
+- [x] To automatically subscribe and unsubscribe from Observables in templates
+- [ ] To create async functions
+- [ ] To handle promises
+
+**Explanation:**
+The `async` pipe subscribes to an Observable or Promise and returns the latest value it has emitted. It automatically unsubscribes when the component is destroyed, preventing memory leaks.
+
+[Reference](https://angular.io/api/common/AsyncPipe)
+
+#### Q88. What is Angular's `ViewChild` decorator used for?
+
+- [ ] To create child components
+- [x] To access a child component, directive, or DOM element from the parent
+- [ ] To view child routes
+- [ ] To display child templates
+
+**Explanation:**
+`@ViewChild` is a property decorator that configures a view query, allowing you to access a child component, directive, or DOM element from the parent component class.
+
+[Reference](https://angular.io/api/core/ViewChild)
+
+#### Q89. What is the difference between `ViewChild` and `ContentChild`?
+
+- [x] ViewChild queries the view, ContentChild queries projected content
+- [ ] ViewChild is faster
+- [ ] ContentChild is deprecated
+- [ ] There is no difference
+
+**Explanation:**
+`@ViewChild` queries elements in the component's own template, while `@ContentChild` queries elements projected into the component via `<ng-content>`.
+
+[Reference](https://angular.io/api/core/ContentChild)
+
+#### Q90. What is Angular's `NgZone` used for?
+
+- [ ] To create zones in the UI
+- [x] To execute code inside or outside Angular's change detection zone
+- [ ] To manage time zones
+- [ ] To create security zones
+
+**Explanation:**
+`NgZone` allows you to execute code inside or outside Angular's zone, which controls when change detection runs. Running code outside the zone can improve performance for operations that don't need change detection.
+
+[Reference](https://angular.io/api/core/NgZone)
+
+#### Q91. What is Angular's `Renderer2` used for?
+
+- [ ] To render HTML
+- [x] To safely manipulate DOM elements without directly accessing them
+- [ ] To render components
+- [ ] To create renderers
+
+**Explanation:**
+`Renderer2` provides a safe way to manipulate DOM elements, working across different platforms (browser, server, web worker) and maintaining security.
+
+[Reference](https://angular.io/api/core/Renderer2)
+
+#### Q92. What is Angular's `HostListener` decorator?
+
+- [ ] To listen to host events
+- [x] To listen to events on the host element of a directive or component
+- [ ] To create event listeners
+- [ ] To host listeners
+
+**Explanation:**
+`@HostListener` decorator allows you to listen to events on the host element (the element the directive is applied to) from within the directive or component class.
+
+[Reference](https://angular.io/api/core/HostListener)
+
+#### Q93. What is Angular's `HostBinding` decorator?
+
+- [ ] To bind hosts
+- [x] To bind a host element property to a directive/component property
+- [ ] To create bindings
+- [ ] To host bindings
+
+**Explanation:**
+`@HostBinding` decorator allows you to bind properties of the host element to properties of the directive or component class.
+
+[Reference](https://angular.io/api/core/HostBinding)
+
+#### Q94. What is Angular's `trackBy` function used for in `*ngFor`?
+
+- [ ] To track user behavior
+- [x] To improve performance by tracking items by a unique identifier
+- [ ] To track changes
+- [ ] To create tracking
+
+**Explanation:**
+The `trackBy` function helps Angular track which items have changed, been added, or removed in an `*ngFor` loop, significantly improving performance by reducing DOM manipulations.
+
+[Reference](https://angular.io/api/common/NgForOf#properties)
+
+#### Q95. What is Angular's `ng-content` used for?
+
+- [ ] To create content
+- [x] To project content from parent into child component template
+- [ ] To display content
+- [ ] To manage content
+
+**Explanation:**
+`<ng-content>` is used for content projection (transclusion), allowing you to insert content from a parent component into a child component's template.
+
+[Reference](https://angular.io/guide/content-projection)
+
+#### Q96. What is Angular's `ng-template` used for?
+
+- [ ] To create templates
+- [x] To define template fragments that can be instantiated programmatically
+- [ ] To display templates
+- [ ] To manage templates
+
+**Explanation:**
+`<ng-template>` defines a template that is not rendered by default but can be instantiated programmatically using directives like `*ngIf`, `*ngFor`, or `ViewContainerRef`.
+
+[Reference](https://angular.io/api/core/ng-template)
+
+#### Q97. What is Angular's `ng-container` used for?
+
+- [ ] To contain components
+- [x] To group elements without adding extra DOM nodes
+- [ ] To create containers
+- [ ] To manage containers
+
+**Explanation:**
+`<ng-container>` is a logical container that doesn't render as a DOM element, useful for grouping elements or applying structural directives without adding extra markup.
+
+[Reference](https://angular.io/api/core/ng-container)
+
+#### Q98. What is Angular's `TemplateRef` used for?
+
+- [ ] To reference templates
+- [x] To represent an embedded template that can be used to instantiate views
+- [ ] To create template references
+- [ ] To manage templates
+
+**Explanation:**
+`TemplateRef` represents an embedded template (like `<ng-template>`) that can be used to create embedded views programmatically.
+
+[Reference](https://angular.io/api/core/TemplateRef)
+
+#### Q99. What is Angular's `ViewContainerRef` used for?
+
+- [ ] To view containers
+- [x] To dynamically create and insert components or templates
+- [ ] To reference views
+- [ ] To manage containers
+
+**Explanation:**
+`ViewContainerRef` represents a container where one or more views can be attached, allowing dynamic creation and insertion of components or templates.
+
+[Reference](https://angular.io/api/core/ViewContainerRef)
+
+#### Q100. What is Angular's `ComponentFactoryResolver` used for?
+
+- [ ] To resolve component factories
+- [x] To dynamically create component instances (deprecated in Angular 13+)
+- [ ] To create factories
+- [ ] To manage components
+
+**Explanation:**
+`ComponentFactoryResolver` was used to dynamically create component instances. In Angular 13+, it's deprecated in favor of using `ViewContainerRef.createComponent()` directly.
+
+[Reference](https://angular.io/api/core/ComponentFactoryResolver)
+
+#### Q101. What is Angular's standalone components feature?
+
+- [ ] Components that stand alone
+- [x] Components that don't need to be declared in NgModules
+- [ ] Independent components
+- [ ] Isolated components
+
+**Explanation:**
+Standalone components (Angular 14+) can be used without being declared in an NgModule, simplifying the component architecture and reducing boilerplate.
+
+[Reference](https://angular.io/guide/standalone-components)
+
+#### Q102. What is Angular's `inject()` function?
+
+- [ ] To inject dependencies
+- [x] A function-based dependency injection alternative to constructor injection
+- [ ] To create injections
+- [ ] To manage injections
+
+**Explanation:**
+The `inject()` function (Angular 14+) allows dependency injection in contexts where constructor injection isn't available, like in factory functions or field initializers.
+
+[Reference](https://angular.io/api/core/inject)
+
+#### Q103. What is Angular's `DestroyRef` used for?
+
+- [ ] To destroy references
+- [x] To register cleanup callbacks when a component/directive is destroyed
+- [ ] To manage destruction
+- [ ] To create destroy references
+
+**Explanation:**
+`DestroyRef` (Angular 16+) provides a way to register cleanup callbacks that run when a component or directive is destroyed, offering a cleaner alternative to `ngOnDestroy`.
+
+[Reference](https://angular.io/api/core/DestroyRef)
+
+#### Q104. What is Angular's `takeUntilDestroyed` operator?
+
+- [ ] To take until destroyed
+- [x] An RxJS operator that automatically unsubscribes when component is destroyed
+- [ ] To manage subscriptions
+- [ ] To destroy observables
+
+**Explanation:**
+`takeUntilDestroyed` (Angular 16+) is an RxJS operator that automatically completes an observable when the component/directive is destroyed, preventing memory leaks.
+
+[Reference](https://angular.io/api/core/rxjs-interop/takeUntilDestroyed)
+
+#### Q105. What is Angular's `Signal` feature?
+
+- [ ] To send signals
+- [x] A reactive primitive for managing state with fine-grained reactivity
+- [ ] To create signals
+- [ ] To manage signals
+
+**Explanation:**
+Signals (Angular 16+) are a new reactive primitive that provides fine-grained reactivity, allowing Angular to track dependencies and update only what's necessary.
+
+[Reference](https://angular.io/guide/signals)
+
+#### Q106. What is Angular's `computed()` function?
+
+- [ ] To compute values
+- [x] To create derived signals that automatically update when dependencies change
+- [ ] To perform computations
+- [ ] To calculate values
+
+**Explanation:**
+`computed()` creates a read-only signal that derives its value from other signals, automatically recomputing when dependencies change.
+
+[Reference](https://angular.io/guide/signals#computed-signals)
+
+#### Q107. What is Angular's `effect()` function?
+
+- [ ] To create effects
+- [x] To run side effects when signals change
+- [ ] To manage effects
+- [ ] To apply effects
+
+**Explanation:**
+`effect()` runs a side effect function whenever any signal it reads changes, useful for operations like logging, analytics, or DOM manipulation.
+
+[Reference](https://angular.io/guide/signals#effects)
+
+#### Q108. What is Angular's `HttpClient` used for?
+
+- [ ] To create HTTP clients
+- [x] To make HTTP requests to backend services
+- [ ] To manage clients
+- [ ] To handle HTTP
+
+**Explanation:**
+`HttpClient` is Angular's service for making HTTP requests, providing a simplified API for common HTTP operations with built-in support for observables.
+
+[Reference](https://angular.io/api/common/http/HttpClient)
+
+#### Q109. What is Angular's `HttpInterceptor` used for?
+
+- [ ] To intercept HTTP
+- [x] To intercept and modify HTTP requests and responses
+- [ ] To create interceptors
+- [ ] To manage HTTP
+
+**Explanation:**
+`HttpInterceptor` allows you to intercept HTTP requests and responses, useful for adding authentication headers, logging, error handling, or caching.
+
+[Reference](https://angular.io/api/common/http/HttpInterceptor)
+
+#### Q110. What is Angular's `ActivatedRoute` used for?
+
+- [ ] To activate routes
+- [x] To access information about the currently active route
+- [ ] To create routes
+- [ ] To manage routes
+
+**Explanation:**
+`ActivatedRoute` provides access to information about the route associated with a component, including route parameters, query parameters, and data.
+
+[Reference](https://angular.io/api/router/ActivatedRoute)
+
+#### Q111. What is Angular's `Router` service used for?
+
+- [ ] To route traffic
+- [x] To navigate between views and manage routing
+- [ ] To create routers
+- [ ] To handle routing
+
+**Explanation:**
+The `Router` service provides navigation and URL manipulation capabilities, allowing programmatic navigation and access to routing state.
+
+[Reference](https://angular.io/api/router/Router)
+
+#### Q112. What is Angular's route guards used for?
+
+- [ ] To guard routes
+- [x] To control access to routes based on conditions
+- [ ] To protect routes
+- [ ] To manage guards
+
+**Explanation:**
+Route guards (`CanActivate`, `CanDeactivate`, etc.) are interfaces that allow you to control navigation to and from routes based on custom logic like authentication.
+
+[Reference](https://angular.io/guide/router#preventing-unauthorized-access)
+
+#### Q113. What is Angular's `CanActivate` guard?
+
+- [ ] To activate components
+- [x] To determine if a route can be activated
+- [ ] To enable routes
+- [ ] To activate guards
+
+**Explanation:**
+`CanActivate` is a route guard that determines whether a route can be activated, commonly used for authentication and authorization checks.
+
+[Reference](https://angular.io/api/router/CanActivate)
+
+#### Q114. What is Angular's lazy loading?
+
+- [ ] Slow loading
+- [x] Loading feature modules on demand rather than at startup
+- [ ] Delayed loading
+- [ ] Lazy initialization
+
+**Explanation:**
+Lazy loading allows you to load feature modules only when they're needed, reducing initial bundle size and improving application startup time.
+
+[Reference](https://angular.io/guide/lazy-loading-ngmodules)
+
+#### Q115. What is Angular's `preloadingStrategy`?
+
+- [ ] To preload strategies
+- [x] To define how and when to preload lazy-loaded modules
+- [ ] To create preloading
+- [ ] To manage loading
+
+**Explanation:**
+Preloading strategies determine how lazy-loaded modules are preloaded in the background, balancing initial load time with subsequent navigation speed.
+
+[Reference](https://angular.io/api/router/PreloadingStrategy)
+
+#### Q116. What is Angular's `FormControl` used for?
+
+- [ ] To control forms
+- [x] To track the value and validation status of an individual form control
+- [ ] To create controls
+- [ ] To manage forms
+
+**Explanation:**
+`FormControl` tracks the value and validation status of an individual form control, providing methods to update, validate, and observe changes.
+
+[Reference](https://angular.io/api/forms/FormControl)
+
+#### Q117. What is Angular's `FormGroup` used for?
+
+- [ ] To group forms
+- [x] To track the value and validity of a group of FormControl instances
+- [ ] To create groups
+- [ ] To manage forms
+
+**Explanation:**
+`FormGroup` aggregates the values and validation status of a collection of `FormControl` instances, representing a form or a section of a form.
+
+[Reference](https://angular.io/api/forms/FormGroup)
+
+#### Q118. What is Angular's `FormArray` used for?
+
+- [ ] To create arrays
+- [x] To track the value and validity of an array of FormControl instances
+- [ ] To manage arrays
+- [ ] To group controls
+
+**Explanation:**
+`FormArray` tracks the value and validity of an array of `FormControl`, `FormGroup`, or `FormArray` instances, useful for dynamic forms.
+
+[Reference](https://angular.io/api/forms/FormArray)
+
+#### Q119. What is the difference between template-driven and reactive forms?
+
+- [x] Template-driven uses directives, reactive uses explicit form models
+- [ ] Template-driven is faster
+- [ ] Reactive forms are deprecated
+- [ ] There is no difference
+
+**Explanation:**
+Template-driven forms rely on directives in the template, while reactive forms use explicit form models created in the component class, offering more control and testability.
+
+[Reference](https://angular.io/guide/forms-overview)
+
+#### Q120. What is Angular's `Validators` class used for?
+
+- [ ] To validate data
+- [x] To provide built-in validation functions for forms
+- [ ] To create validators
+- [ ] To manage validation
+
+**Explanation:**
+The `Validators` class provides a set of built-in validators (required, minLength, email, etc.) that can be used with reactive forms.
+
+[Reference](https://angular.io/api/forms/Validators)
+
+#### Q121. What is Angular's custom validator?
+
+- [ ] A validator you customize
+- [x] A function that implements the ValidatorFn interface for custom validation logic
+- [ ] A built-in validator
+- [ ] A validation service
+
+**Explanation:**
+Custom validators are functions that implement the `ValidatorFn` interface, allowing you to create custom validation logic for your forms.
+
+[Reference](https://angular.io/guide/form-validation#defining-custom-validators)
+
+#### Q122. What is Angular's `AsyncValidator`?
+
+- [ ] An async validator
+- [x] A validator that performs asynchronous validation like server-side checks
+- [ ] A fast validator
+- [ ] A delayed validator
+
+**Explanation:**
+`AsyncValidator` performs asynchronous validation, useful for checks that require server communication like username availability.
+
+[Reference](https://angular.io/api/forms/AsyncValidator)
+
+#### Q123. What is Angular's `@NgModule` decorator?
+
+- [ ] To create modules
+- [x] To define an Angular module with its dependencies and components
+- [ ] To import modules
+- [ ] To manage modules
+
+**Explanation:**
+`@NgModule` decorator marks a class as an Angular module and provides metadata about the module's components, directives, pipes, and dependencies.
+
+[Reference](https://angular.io/api/core/NgModule)
+
+#### Q124. What is Angular's `providedIn` property?
+
+- [ ] To provide in modules
+- [x] To specify where a service should be provided (root, module, or component)
+- [ ] To create providers
+- [ ] To manage injection
+
+**Explanation:**
+`providedIn` in the `@Injectable` decorator specifies where the service should be provided, with 'root' making it a singleton available throughout the app.
+
+[Reference](https://angular.io/api/core/Injectable#providedIn)
+
+#### Q125. What is Angular's tree-shakeable providers?
+
+- [ ] Providers that shake trees
+- [x] Services that can be removed from the bundle if not used
+- [ ] Removable providers
+- [ ] Shakeable services
+
+**Explanation:**
+Tree-shakeable providers (using `providedIn: 'root'`) allow unused services to be removed from the production bundle, reducing bundle size.
+
+[Reference](https://angular.io/guide/providers#tree-shakable-providers)
+
+#### Q126. What is Angular's `InjectionToken`?
+
+- [ ] A token for injection
+- [x] A token used to inject non-class dependencies
+- [ ] An injection key
+- [ ] A dependency token
+
+**Explanation:**
+`InjectionToken` creates a token that can be used to inject non-class dependencies like configuration objects or primitive values.
+
+[Reference](https://angular.io/api/core/InjectionToken)
+
+#### Q127. What is Angular's `forRoot()` pattern?
+
+- [ ] For root modules
+- [x] A pattern to configure a module and its providers for the root injector
+- [ ] To create roots
+- [ ] To manage roots
+
+**Explanation:**
+The `forRoot()` static method is a convention for configuring a module and its providers to be used in the root module, typically for singleton services.
+
+[Reference](https://angular.io/guide/singleton-services#the-forroot-pattern)
+
+#### Q128. What is Angular's `forChild()` pattern?
+
+- [ ] For child modules
+- [x] A pattern to configure a module for lazy-loaded feature modules
+- [ ] To create children
+- [ ] To manage children
+
+**Explanation:**
+The `forChild()` static method configures a module for use in lazy-loaded feature modules, typically providing routing configuration without duplicating services.
+
+[Reference](https://angular.io/guide/singleton-services#prevent-reimport-of-the-greetingmodule)
+
+#### Q129. What is Angular's `APP_INITIALIZER` token?
+
+- [ ] To initialize apps
+- [x] To run initialization logic before the app starts
+- [ ] To create initializers
+- [ ] To manage initialization
+
+**Explanation:**
+`APP_INITIALIZER` is a multi-provider token that allows you to run initialization logic (like loading configuration) before the application starts.
+
+[Reference](https://angular.io/api/core/APP_INITIALIZER)
+
+#### Q130. What is Angular's `PLATFORM_ID` token?
+
+- [ ] A platform identifier
+- [x] To identify the platform where the app is running (browser, server, etc.)
+- [ ] A platform key
+- [ ] A platform token
+
+**Explanation:**
+`PLATFORM_ID` is an injection token that identifies the platform where the Angular application is running, useful for platform-specific code.
+
+[Reference](https://angular.io/api/core/PLATFORM_ID)
+
+#### Q131. What is Angular's `isPlatformBrowser()` function?
+
+- [ ] To check if it's a browser
+- [x] To determine if the app is running in a browser environment
+- [ ] To detect browsers
+- [ ] To validate platforms
+
+**Explanation:**
+`isPlatformBrowser()` checks if the application is running in a browser environment, useful for conditionally executing browser-specific code.
+
+[Reference](https://angular.io/api/common/isPlatformBrowser)
+
+#### Q132. What is Angular Universal?
+
+- [ ] A universal framework
+- [x] Server-side rendering (SSR) for Angular applications
+- [ ] A universal module
+- [ ] A global service
+
+**Explanation:**
+Angular Universal enables server-side rendering of Angular applications, improving initial load time and SEO.
+
+[Reference](https://angular.io/guide/universal)
+
+#### Q133. What is Angular's `TransferState` used for?
+
+- [ ] To transfer states
+- [x] To transfer state from server to client in SSR applications
+- [ ] To manage state
+- [ ] To create transfers
+
+**Explanation:**
+`TransferState` allows you to transfer state from the server-rendered application to the client application, avoiding duplicate HTTP requests.
+
+[Reference](https://angular.io/api/platform-browser/TransferState)
+
+#### Q134. What is Angular's `Meta` service used for?
+
+- [ ] For metadata
+- [x] To add, update, and remove HTML meta tags
+- [ ] To create meta tags
+- [ ] To manage metadata
+
+**Explanation:**
+The `Meta` service allows you to programmatically add, update, and remove HTML meta tags, useful for SEO and social media sharing.
+
+[Reference](https://angular.io/api/platform-browser/Meta)
+
+#### Q135. What is Angular's `Title` service used for?
+
+- [ ] To create titles
+- [x] To get and set the document title
+- [ ] To manage titles
+- [ ] To display titles
+
+**Explanation:**
+The `Title` service provides methods to get and set the HTML document title, useful for dynamic page titles.
+
+[Reference](https://angular.io/api/platform-browser/Title)
+
+#### Q136. What is Angular's `@Pipe` decorator?
+
+- [ ] To create pipes
+- [x] To define a pipe for transforming data in templates
+- [ ] To manage pipes
+- [ ] To apply pipes
+
+**Explanation:**
+`@Pipe` decorator marks a class as a pipe and provides metadata about the pipe, including its name and whether it's pure or impure.
+
+[Reference](https://angular.io/api/core/Pipe)
+
+#### Q137. What is the difference between pure and impure pipes?
+
+- [x] Pure pipes only execute when input values change, impure pipes execute on every change detection
+- [ ] Pure pipes are faster
+- [ ] Impure pipes are deprecated
+- [ ] There is no difference
+
+**Explanation:**
+Pure pipes (default) only execute when input values change, while impure pipes execute on every change detection cycle, which can impact performance.
+
+[Reference](https://angular.io/guide/pipes#pure-and-impure-pipes)
+
+#### Q138. What is Angular's `DatePipe` used for?
+
+- [ ] To create dates
+- [x] To format dates according to locale rules
+- [ ] To manage dates
+- [ ] To parse dates
+
+**Explanation:**
+`DatePipe` formats date values according to locale rules, providing various format options for displaying dates.
+
+[Reference](https://angular.io/api/common/DatePipe)
+
+#### Q139. What is Angular's `CurrencyPipe` used for?
+
+- [ ] To create currency
+- [x] To format numbers as currency according to locale rules
+- [ ] To manage currency
+- [ ] To convert currency
+
+**Explanation:**
+`CurrencyPipe` formats numbers as currency according to locale rules, including currency symbol and decimal places.
+
+[Reference](https://angular.io/api/common/CurrencyPipe)
+
+#### Q140. What is Angular's `DecimalPipe` used for?
+
+- [ ] To create decimals
+- [x] To format numbers with decimal points according to locale rules
+- [ ] To manage decimals
+- [ ] To round numbers
+
+**Explanation:**
+`DecimalPipe` formats numbers with decimal points according to locale rules, allowing specification of minimum and maximum decimal places.
+
+[Reference](https://angular.io/api/common/DecimalPipe)
+
+#### Q141. What is Angular's `PercentPipe` used for?
+
+- [ ] To calculate percentages
+- [x] To format numbers as percentages according to locale rules
+- [ ] To create percentages
+- [ ] To manage percentages
+
+**Explanation:**
+`PercentPipe` formats numbers as percentages according to locale rules, multiplying the value by 100 and appending the percent symbol.
+
+[Reference](https://angular.io/api/common/PercentPipe)
+
+#### Q142. What is Angular's `JsonPipe` used for?
+
+- [ ] To parse JSON
+- [x] To convert objects to JSON strings for display
+- [ ] To create JSON
+- [ ] To manage JSON
+
+**Explanation:**
+`JsonPipe` converts a value into its JSON-string representation, useful for debugging and displaying object structures.
+
+[Reference](https://angular.io/api/common/JsonPipe)
+
+#### Q143. What is Angular's `SlicePipe` used for?
+
+- [ ] To slice arrays
+- [x] To create a subset of an array or string
+- [ ] To cut data
+- [ ] To manage slices
+
+**Explanation:**
+`SlicePipe` creates a new array or string containing a subset of the elements, similar to JavaScript's `Array.prototype.slice()`.
+
+[Reference](https://angular.io/api/common/SlicePipe)

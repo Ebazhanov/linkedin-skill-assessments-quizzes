@@ -1,4 +1,4 @@
-## React.js
+бо## React.js
 
 #### Q1. Si quisieras importar solamente un componente de la librería de React, ¿qué sintaxis usarías?
 
@@ -48,7 +48,7 @@ const person = { name, age };
 console.log(person);
 ```
 
-- [ ] `{{name: "Rachel", age: 31}}`
+- [ ] `{ {name: "Rachel", age: 31} }`
 - [x] `{name: "Rachel", age: 31}`
 - [ ] `{person: "Rachel", person: 31}}`
 - [ ] `{person: {name: "Rachel", age: 31}}`
@@ -589,7 +589,7 @@ const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 ```
 
 - [ ] `const element = <h1 style="backgroundColor: "blue""}>Hi</h1>;`
-- [x] `const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;`
+- [x] `const element = <h1 style={ {backgroundColor: "blue"} }>Hi</h1>;`
 - [ ] `const element = <h1 style={blue}>Hi</h1>;`
 - [ ] `const element = <h1 style="blue">Hi</h1>;`
 
