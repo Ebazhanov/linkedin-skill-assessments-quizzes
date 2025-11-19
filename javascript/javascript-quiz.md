@@ -2921,3 +2921,27 @@ console.log(obj.getName());
 - [ ] `Promise.any()`
 
 [Reference Promise.allSettled()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
+
+
+#### Q201. What will be the output of the following code?
+// code 
+const obj = {};
+Object.defineProperty(obj, "key", {
+  value: 10,
+  writable: false,
+});
+
+obj.key = 20;
+console.log(obj.key);
+
+- [ ] 20
+- [x] 10
+- [ ] undefined
+- [ ] Error
+
+Explanation:
+Object.defineProperty() created a non-writable property because writable: false was used.
+Assigning obj.key = 20 has no effect, so the console prints 10.
+
+Reference:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
