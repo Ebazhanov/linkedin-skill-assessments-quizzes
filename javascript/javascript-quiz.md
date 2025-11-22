@@ -2922,26 +2922,35 @@ console.log(obj.getName());
 
 [Reference Promise.allSettled()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
 
-
 #### Q201. What will be the output of the following code?
-// code 
-const obj = {};
-Object.defineProperty(obj, "key", {
-  value: 10,
-  writable: false,
-});
+// code here:
+function createCounter() {
+  let count = 0;
+  return {
+    increment: () => count++,
+    getValue: () => count
+  };
+}
 
-obj.key = 20;
-console.log(obj.key);
+const counter1 = createCounter();
+const counter2 = createCounter();
 
-- [ ] 20
-- [x] 10
-- [ ] undefined
-- [ ] Error
+counter1.increment();
+counter1.increment();
+counter2.increment();
+
+console.log(counter1.getValue(), counter2.getValue());
+
+- [ ] 1,1
+- [ ] 3,3
+- [x] 2,1
+- [ ] undefined 
 
 Explanation:
-Object.defineProperty() created a non-writable property because writable: false was used.
-Assigning obj.key = 20 has no effect, so the console prints 10.
+Each call to createCounter() creates a new closure with its own independent count variable.
+So:
+counter1 increments twice → 2
+counter2 increments once → 1
+Closures DO NOT share state unless they reference the same outer scope object.
 
-Reference:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+[Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures]
