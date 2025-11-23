@@ -2294,3 +2294,8 @@ Contributions of any kind welcome!
 [https://www.youtube.com/watch?v=24cZVytc5D4](https://www.youtube.com/watch?v=24cZVytc5D4)
 
 ![gource](gource.gif)
+A community contributor created a web demo and API based on this repo:
+- Web: https://prometheus-linkedin.vercel.app/
+- API: https://truthflix.ml/linkedin/
+
+Search at least the first 3 words of any question to get the answer. No API key, no rate limits.
