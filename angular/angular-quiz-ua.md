@@ -785,7 +785,7 @@ getSettings()
 }}
 ```
 
-- [ ] Метод pipe RxJs є псевдонімом для методу subscribe, тому виклик `getSettings` виконає запит get. Оператор retry використовується, щоб вказати виклику pipe повторити запит get тричі.
+- [ ] Метод pipe RxJs є псевдонимом для методу subscribe, тому виклик `getSettings` виконає запит get. Оператор retry використовується, щоб вказати виклику pipe повторити запит get тричі.
 - [ ] Він призведе до помилки під час виконання, оскільки метод pipe недоступний після виклику `Httpclient.get`.
 - [ ] Кожен окремий виклик методу getSettings призведе до того, що Httpclient зробить три загальні запити get до settingsUrl, що не ідеально, оскільки завжди будуть два додаткові виклики, які не потрібні. Оператор retry не слід використовувати таким чином.
 - [x] Коли результат методу getSettings буде підписано, буде зроблено HTTP GET запит; якщо він не вдасться, він буде повторено до трьох разів, перш ніж він здасться і поверне помилку.
@@ -1347,7 +1347,21 @@ export class ProductNameComponent {  @Input() productName: string
 
 [Angular - NgClass](https://angular.io/api/common/NgClass)
 
-#### П76. Яка відповідь найкраще пояснює використання ngModel в цьому коді шаблону?
+#### П76. Яке найпоширеніше використання для хука життєвого циклу ngOnDestroy?
+
+- [ ] Видалити DOM елементи з подання компонента
+- [ ] Видалити будь-які впроваджені сервіси
+- [x] Відписатися від observables і від'єднати обробники подій
+- [ ] Всі вищезазначені
+
+#### П77. Яка властивість метаданих декоратора NgModule використовується, щоб дозволити іншим модулям використовувати компоненти та директиви?
+
+- [ ] public
+- [x] exports
+- [ ] shared
+- [ ] declarations
+
+#### П78. Яка відповідь найкраще пояснює використання ngModel в цьому коді шаблону?
 
 ```html
 <input [(ngModel)]="user.name" />
@@ -1360,7 +1374,7 @@ export class ProductNameComponent {  @Input() productName: string
 
 [Angular - NgModel](https://angular.io/api/forms/NgModel)
 
-#### П77. NgModules можуть бути включені в інші NgModules. Який зразок коду ви повинні використовувати, щоб включити TableModule у SharedModule?
+#### П79. NgModules можуть бути включені в інші NgModules. Який зразок коду ви повинні використовувати, щоб включити TableModule у SharedModule?
 
 - [ ] A
 
@@ -1398,97 +1412,272 @@ export class ProductNameComponent {  @Input() productName: string
   export class SharedModule {}
   ```
 
-#### П78. Який інший синтаксис шаблону (що замінює директиву ngClass) можна використовувати для додавання або видалення назв CSS класів у цій розмітці?
+#### П80. Яка різниця між охоронцями маршруту CanActivate і CanLoad?
+
+- [ ] CanActivate використовується для перевірки доступу. CanLoad використовується для попереднього завантаження даних для маршруту.
+- [ ] CanLoad використовується на старті додатку, щоб дозволити або заборонити додавання маршрутів до таблиці маршрутів. CanActivate використовується для управління доступом до маршрутів у момент їх запиту.
+- [ ] CanActivate і CanLoad роблять абсолютно одне й те саме.
+- [x] CanLoad запобігає завантаженню цілого NgModule. CanActivate зупиняє маршрутизацію до компонента в цьому NgModule, але цей модуль все ще завантажується.
+
+[CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate)
+
+#### П81. Яке призначення властивості outlet в цьому об'єкті визначення маршрутизатора?
+
+```ts
+{  path: 'document',  component: DocumentComponent,  outlet: 'document-box'
+}
+```
+
+- [ ] він знайде всі екземпляри `<document-box>` у DOM і вставить елемент DocumentComponent в них при навігації маршруту.
+- [ ] Він оголошує, що DocumentComponent може використовуватися як дочірній елемент до `<document-box>` на додаток до маршрутизації.
+- [x] Він використовується для націлювання на елемент `<router-outlet>` з атрибутом name, що відповідає строковому значенню, як місце для рендерингу DocumentComponent при маршрутизації.
+- [ ] Це джерело живлення для маршрутизатора.
+
+[Angular-outlet](https://angular.io/api/router/RouterOutlet)
+
+#### П82. Як ви можете налаштувати інжектор для використання існуючого об'єкта для токена замість того, щоб він створював екземпляр класу?
+
+- [x] Використовувати конфігурацію провайдера `useValue` і встановити її рівною існуючому об'єкту або об'єктному літералу.
+- [ ] Це неможливо. Провайдери можуть бути налаштовані лише з типами класів.
+- [ ] Просто додати екземпляр об'єкта або літерал до масиву провайдера.
+- [ ] Використовувати властивість конфігурації провайдера `asValue`, встановивши її в true.
+
+[Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
+
+#### П83. На основі цього визначення маршруту, що можна впровадити в конструктор UserDetailComponent, щоб отримати параметр маршруту id?
+
+```ts
+{path: 'user/:id', component: UserDetailComponent }
+```
+
+- [x] ActivatedRoute
+- [ ] CurrentRoute
+- [ ] UrlPath
+- [ ] @Inject('id')
+
+[Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
+
+#### П84. З наступною розміткою реактивної форми, як ви можете прив'язати значення поля класу userName до поля вводу, щоб мати можливість редагувати його?
 
 ```html
-<span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Зайнятий </span>
+<form [formGroup]="form">
+  <input type="text" formControlName="userName" />
+</form>
 ```
 
-- [ ] A
+- [ ] Додати [(ngModel)]="userName" до поля вводу.
+- [x] Нічого. Це вже правильно налаштовано для редагування.
+- [ ] Додати (input)="userName = $event.target.value" до поля вводу.
+- [ ] Додати [value]="userName" до поля вводу.
 
-  ```html
-  <span class="{{ isActive ? 'is-active' : '' }} {{ canToggle ? 'can-toggle' : '' }}">
-    Зайнятий
-  </span>
-  ```
+#### П85. Яка різниця між параметрами маршруту та параметрами запиту в Angular?
 
-- [x] B
+- [ ] Параметри маршруту є обов'язковими, а параметри запиту - ні.
+- [ ] Параметри маршруту - це частина URL, яка визначає конкретний ресурс, тоді як параметри запиту - це додаткова інформація, що передається у вигляді пари ключ-значення.
+- [x] Параметри маршруту визначаються в конфігурації маршруту, тоді як параметри запиту можуть бути будь-якими даними, які ви хочете передати маршруту.
+- [ ] Параметри маршруту завжди є рядковими, тоді як параметри запиту можуть бути будь-якого типу.
 
-  ```html
-  <span [class.active]="isActive" [class.can-toggle]="canToggle"> Зайнятий </span>
-  ```
+[Angular - Routing & Navigation](https://angular.io/guide/router)
 
-- [ ] C
+#### П86. Як ви можете реалізувати власну стратегію попереднього завантаження для маршрутизатора Angular?
 
-  ```html
-  <span [styles.class.active]="isActive" [styles.class.can-toggle]="canToggle"> Зайнятий </span>
-  ```
+- [ ] Використовувати вбудовану стратегію PreloadAllModules і налаштувати її в RouterModule.
+- [x] Створити клас, який реалізує інтерфейс PreloadingStrategy, і зареєструвати його в RouterModule.
+- [ ] Додати властивість preloadingStrategy до конфігурації маршруту.
+- [ ] Це неможливо. Angular не дозволяє користувацькі стратегії попереднього завантаження.
 
-- [ ] D
+#### П87. Яка команда Angular CLI створює новий сервіс з ім'ям data і автоматично реєструє його в кореневому модулі?
 
-  ```html
-  <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Зайнятий </span>
-  ```
+- [ ] ng generate service data --module=app
+- [x] ng generate service data
+- [ ] ng g service data --root
+- [ ] ng s data --module=app
 
-#### П79. У цьому прикладі декоратора директиви, яке призначення властивості multi в об'єктному літералі провайдера?
+#### П88. Яка різниця між ViewChild і ContentChild?
 
-```ts
-@Directive({
-  selector: '[customValidator]',
-  providers: [
-    {
-      provide: NG_VALIDATORS,
-      useExisting: CustomValidatorDirective,
-      multi: true,
-    },
-  ],
-})
-export class CustomValidatorDirective implements Validator {}
-```
+- [ ] Немає різниці. Це синоніми.
+- [x] ViewChild використовується для отримання доступу до елементів, що належать до шаблону компонента, тоді як ContentChild - для отримання доступу до елементів, що проектуються в компонент через ng-content.
+- [ ] ContentChild є застарілим, і всі його функції були інтегровані в ViewChild.
+- [ ] ViewChild використовується для отримання доступу до статичних елементів шаблону, а ContentChild - до динамічних.
 
-- [ ] Він вказує, що CustomValidatorDirective може використовуватися на кількох типах елементів форми.
-- [ ] Він дозволяє створювати кілька екземплярів CustomValidatorDirective. Без multi, CustomValidatorDirective був би синглтоном для всього додатку.
-- [x] Він дозволяє реєстрацію різних провайдерів для одного токена NG_VALIDATORS. У цьому випадку він додає CustomValidatorDirective до списку доступних валідаторів форм.
-- [ ] Він вказує, що буде кілька класів, які обробляють логіку реалізації для користувацького валідатора.
+[Angular - Component Interaction](https://angular.io/guide/component-interaction)
 
-[StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
-
-#### П80. Яку команду Angular CLI ви б використали для запуску модульних тестів у процесі, який повторно запускає ваш набір тестів при зміні файлів?
-
-- [ ] ng test --single-run=false
-- [ ] ng test --watch-files
-- [ ] ng test --progress
-- [x] ng test
-
-#### П81. Яке найпоширеніше використання для хука життєвого циклу ngOnDestroy?
-
-- [ ] Видалити DOM елементи з подання компонента
-- [ ] Видалити будь-які впроваджені сервіси
-- [x] Відписатися від observables і від'єднати обробники подій
-- [ ] Всі вищезазначені
-
-#### П82. Яка властивість метаданих декоратора NgModule використовується, щоб дозволити іншим модулям використовувати компоненти та директиви?
-
-- [ ] public
-- [x] exports
-- [ ] shared
-- [ ] declarations
-
-#### П83. З наступним класом компонента, який синтаксис шаблону ви б використали в шаблоні для відображення результату виклику функції класу currentYear?
+#### П89. Як ви можете заборонити користувачеві залишати сторінку, якщо є незбережені зміни в формі?
 
 ```ts
-@Component({
-  selector: 'app-date-card',
-  template: '',
-})
-export class DateCardComponent {
-  currentYear() {
-    return new Date().getFullYear();
+@Component({...})
+export class UserProfileComponent implements CanDeactivate<UserProfileComponent> {
+  canDeactivate(
+    component: UserProfileComponent,
+    currentRoute: ActivatedRouteSnapshot,
+    currentState: RouterStateSnapshot,
+    nextState?: RouterStateSnapshot
+  ): Observable<boolean> | Promise<boolean> | boolean {
+    // Ваша логіка перевірки
   }
 }
 ```
 
-- [x] `{{ currentYear() }}`
-- [ ] `{{ component.currentYear() }}`
-- [ ] `{{ currentYear }}`
-- [ ] Функції класу не можна викликати з синтаксису шаблону.
+- [ ] Додати CanDeactivate до маршруту і реалізувати canDeactivate в класі компонента.
+- [x] Реалізувати CanDeactivate в класі компонента і додати його до маршруту.
+- [ ] Додати CanDeactivate до модуля і реалізувати canDeactivate в сервісі.
+- [ ] Це неможливо. Angular не дозволяє перевіряти вихід зі сторінки.
+
+#### П90. Яка команда Angular CLI створює новий компонент з ім'ям hero?
+
+- [ ] ng generate component hero
+- [x] ng g c hero
+- [ ] ng generate c hero
+- [ ] ng c hero
+
+#### П91. Як ви можете реалізувати інтерфейс CanActivate для захисту маршруту?
+
+```ts
+@Injectable({
+  providedIn: 'root',
+})
+export class AuthGuard implements CanActivate {
+  constructor(private authService: AuthService) {}
+
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
+    return this.authService.isLoggedIn();
+  }
+}
+```
+
+- [ ] Додати AuthGuard до маршруту в конфігурації маршрутизатора.
+- [x] Реалізувати canActivate в класі охоронця і додати його до маршруту.
+- [ ] Додати AuthGuard до модуля як провайдера.
+- [ ] Це неможливо. Angular не дозволяє захищати маршрути.
+
+#### П92. Яка різниця між структурними і атрибутними директивами?
+
+- [ ] Структурні директиви змінюють структуру DOM, а атрибутні - ні.
+- [x] Структурні директиви змінюють структуру DOM, додаючи або видаляючи елементи, тоді як атрибутні директиви змінюють вигляд або поведінку існуючих елементів.
+- [ ] Атрибутні директиви завжди приймають значення, а структурні - ні.
+- [ ] Немає різниці. Це синоніми.
+
+[Angular - Structural and Attribute Directives](https://angular.io/guide/attribute-directives#structural-directives)
+
+#### П93. Як ви можете реалізувати власний pipe в Angular?
+
+```ts
+@Pipe({ name: 'exponentialStrength' })
+export class ExponentialStrengthPipe implements PipeTransform {
+  transform(value: number, exponent: string): number {
+    const exp = parseInt(exponent, 10);
+    return Math.pow(value, isNaN(exp) ? 1 : exp);
+  }
+}
+```
+
+- [ ] Додати клас з методом transform і зареєструвати його в модулі.
+- [x] Створити клас, який реалізує інтерфейс PipeTransform, і зареєструвати його в модулі.
+- [ ] Додати декоратор @Pipe і реалізувати метод transform.
+- [ ] Це неможливо. Angular не дозволяє користувацькі pipes.
+
+#### П94. Як ви можете використовувати Angular CLI для створення нового модуля?
+
+- [ ] ng generate module my-module
+- [x] ng g m my-module
+- [ ] ng generate m my-module
+- [ ] ng m my-module
+
+#### П95. Як ви можете реалізувати інтерфейс CanDeactivate для перевірки, чи може компонент бути деактивованим?
+
+```ts
+export class UserProfileComponent implements CanDeactivate<UserProfileComponent> {
+  canDeactivate(component: UserProfileComponent): Observable<boolean> | Promise<boolean> | boolean {
+    return component.canLeave ? component.canLeave() : true;
+  }
+}
+```
+
+- [ ] Реалізувати canDeactivate в класі охоронця і додати його до маршруту.
+- [x] Реалізувати canDeactivate в класі компонента і додати його до маршруту.
+- [ ] Додати CanDeactivate до модуля і реалізувати canDeactivate в сервісі.
+- [ ] Це неможливо. Angular не дозволяє деактивацію компонентів.
+
+#### П96. Як ви можете реалізувати власну стратегію завантаження для маршрутизатора Angular?
+
+```ts
+@Injectable({ providedIn: 'root' })
+export class CustomPreloadingStrategy implements PreloadingStrategy {
+  preload(route: Route, load: () => Observable<any>): Observable<any> {
+    return route.data && route.data.preload ? load() : of(null);
+  }
+}
+```
+
+- [ ] Додати клас з методом preload і зареєструвати його в модулі.
+- [x] Створити клас, який реалізує інтерфейс PreloadingStrategy, і зареєструвати його в модулі.
+- [ ] Додати декоратор @Injectable і реалізувати метод preload.
+- [ ] Це неможливо. Angular не дозволяє користувацькі стратегії завантаження.
+
+#### П97. Як ви можете використовувати Angular CLI для створення нового сервісу?
+
+- [ ] ng generate service my-service
+- [x] ng g s my-service
+- [ ] ng generate s my-service
+- [ ] ng s my-service
+
+#### П98. Як ви можете реалізувати інтерфейс Resolve для попереднього завантаження даних маршруту?
+
+```ts
+@Injectable({ providedIn: 'root' })
+export class UserResolver implements Resolve<User> {
+  constructor(private userService: UserService) {}
+
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<User> {
+    return this.userService.getUser(route.params['id']);
+  }
+}
+```
+
+- [ ] Додати клас з методом resolve і зареєструвати його в маршруті.
+- [x] Створити клас, який реалізує інтерфейс Resolve, і зареєструвати його в маршруті.
+- [ ] Додати декоратор @Injectable і реалізувати метод resolve.
+- [ ] Це неможливо. Angular не дозволяє попереднє завантаження даних.
+
+#### П99. Як ви можете реалізувати інтерфейс CanLoad для контролю завантаження модуля?
+
+```ts
+@Injectable({
+  providedIn: 'root',
+})
+export class AuthGuard implements CanLoad {
+  constructor(private authService: AuthService) {}
+
+  canLoad(route: Route, segments: UrlSegment[]): Observable<boolean> | Promise<boolean> | boolean {
+    return this.authService.isLoggedIn();
+  }
+}
+```
+
+- [ ] Додати клас з методом canLoad і зареєструвати його в модулі.
+- [x] Створити клас, який реалізує інтерфейс CanLoad, і зареєструвати його в маршруті.
+- [ ] Додати декоратор @Injectable і реалізувати метод canLoad.
+- [ ] Це неможливо. Angular не дозволяє контролювати завантаження модулів.
+
+#### П100. Як ви можете реалізувати інтерфейс CanActivateChild для контролю доступу до дочірніх маршрутів?
+
+```ts
+@Injectable({
+  providedIn: 'root',
+})
+export class AuthGuard implements CanActivateChild {
+  constructor(private authService: AuthService) {}
+
+  canActivateChild(
+    childRoute: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot,
+  ): Observable<boolean> | Promise<boolean> | boolean {
+    return this.authService.isLoggedIn();
+  }
+}
+```
+
+- [ ] Додати клас з методом canActivateChild і зареєструвати його в маршруті.
+- [x] Створити клас, який реалізує інтерфейс CanActivateChild, і зареєструвати його в маршруті.
+- [ ] Додати декоратор @Injectable і реалізувати метод canActivateChild.
+- [ ] Це неможливо. Angular не дозволяє контролювати доступ до дочірніх маршрутів.

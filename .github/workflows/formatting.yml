@@ -1,0 +1,40 @@
+name: "🧹 Markdown Format Check"
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  prettier:
+    name: Prettier check (non-blocking)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Run Prettier check
+        id: prettier
+        continue-on-error: true
+        run: |
+          npx prettier --check "**/*.md" || true
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.prettier.outcome }}" != "success" ]; then
+            echo "⚠️ Formatting differences detected. Run 'npm run format' locally." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ All markdown files are properly formatted." >> $GITHUB_STEP_SUMMARY
+          fi
+

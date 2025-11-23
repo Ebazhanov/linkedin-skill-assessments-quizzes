@@ -706,7 +706,7 @@ getSettings()
 }}
 ```
 
-- [ ] RxJs pipe विधि subscribe विधि के लिए एक उपनाम है, इसलिए `getSettings` के लिए एक कॉल get क्वेरी को निष्पादित करेगी। retry ऑपरेटर का उपयोग pipe कॉल को get क्वेरी को तीन बार retry करने के लिए कहने के लिए किया जाता है।
+- [ ] RxJs pipe विधि subscribe विधि के लिए एक उपनाम है, इसलिए `getSettings` के लिए एक कॉल get क्वेरी को निष्पादित करेगी। retry ऑपरेटर का उपयोग pipe कॉल को get क्वेरी को तीन बार retry करने के लिए किया जाता है।
 - [ ] यह रनटाइम पर एक त्रुटि उत्पन्न करेगा क्योंकि pipe विधि `Httpclient.get` कॉल से उपलब्ध नहीं है।
 - [ ] getSettings विधि के प्रत्येक single कॉल के परिणामस्वरूप Httpclient settingsUrl के लिए कुल तीन get अनुरोध करेगा, जो आदर्श नहीं है क्योंकि हमेशा दो अतिरिक्त कॉल होंगी जिनकी आवश्यकता नहीं है। retry ऑपरेटर का इस तरह से उपयोग नहीं किया जाना चाहिए।
 - [x] जब getSettings विधि के परिणाम की सदस्यता ली जाएगी, तो HTTP GET कॉल की जाएगी; यदि यह विफल होती है, तो यह हार मानने और त्रुटि वापस करने से पहले तीन बार तक retry की जाएगी।
@@ -1105,19 +1105,7 @@ export class TruncatePipe implements PipeTransform {
 - [ ] CanActivate और CanLoad बिल्कुल समान काम करते हैं।
 - [x] CanLoad एक पूरे NgModule को deliver और लोड होने से रोकता है। CanActivate उस NgModule में एक कंपोनेंट तक रूटिंग को रोकता है, लेकिन वह मॉड्यूल अभी भी लोड होता है।
 
-#### प्र66. इस router definition ऑब्जेक्ट में outlet प्रॉपर्टी का उपयोग किसके लिए किया जाता है?
-
-```ts
-{  path: 'document',  component: DocumentComponent,  outlet: 'document-box'
-}
-```
-
-- [ ] यह DOM में `<document-box>` के सभी इंस्टेंस का पता लगाएगा और रूट navigation पर उनमें एक DocumentComponent एलिमेंट insert करेगा।
-- [ ] यह घोषित करता है कि DocumentComponent का उपयोग `<document-box>` एलिमेंट के चाइल्ड के रूप में किया जा सकता है, इसके अलावा रूटेड होने के।
-- [x] इसका उपयोग एक `<router-outlet>` एलिमेंट को लक्षित करने के लिए किया जाता है जिसमें name एट्रिब्यूट string मान से मेल खाता है, जब DocumentComponent को रूट किया जाता है तो वहां render होने के स्थान के रूप में।
-- [ ] यह router के लिए शक्ति का एक स्रोत है। (निश्चित रूप से उत्तर नहीं :P)
-
-#### प्र67. इस टेम्पलेट सिंटैक्स में, हर बार items प्रॉपर्टी बदलती है (जोड़ी गई, से हटाई गई, आदि), ngFor स्ट्रक्चरल डायरेक्टिव loop में सभी DOM एलिमेंट्स के लिए अपना तर्क फिर से चलाता है। इसे अधिक performant बनाने के लिए किस सिंटैक्स का उपयोग किया जा सकता है?
+#### प्र66. इस टेम्पलेट सिंटैक्स में, हर बार items प्रॉपर्टी बदलती है (जोड़ी गई, से हटाई गई, आदि), ngFor स्ट्रक्चरल डायरेक्टिव loop में सभी DOM एलिमेंट्स के लिए अपना तर्क फिर से चलाता है। इसे अधिक performant बनाने के लिए किस सिंटैक्स का उपयोग किया जा सकता है?
 
 ```html
 <div *ngFor="let item of items">{{ item.id }} - {{ item.name }}</div>
@@ -1128,7 +1116,7 @@ export class TruncatePipe implements PipeTransform {
 - [ ] `*ngFor="let item of items: let i = index"`
 - [x] `*ngFor="let item of items; trackBy: trackById"`
 
-#### प्र68. यह Angular CLI कमांड क्या करती है?
+#### प्र67. यह Angular CLI कमांड क्या करती है?
 
 ```bash
 ng build --configuration=production --progress=false
@@ -1139,14 +1127,14 @@ ng build --configuration=production --progress=false
 - [ ] यह Angular एप्लिकेशन को build करती है, build कॉन्फ़िगरेशन को angular.json फ़ाइल में निर्दिष्ट "production" target पर सेट करती है, और परिवर्तनों के लिए फ़ाइलों को watching अक्षम करती है।
 - [x] यह Angular एप्लिकेशन को build करती है, build कॉन्फ़िगरेशन को angular.json फ़ाइल में निर्दिष्ट "production" target पर सेट करती है, और progress output को console में रोकती है।
 
-#### प्र69. सेवा क्लासेस को किन डेकोरेटर के माध्यम से providers के रूप में पंजीकृत किया जा सकता है?
+#### प्र68. सेवा क्लासेस को किन डेकोरेटर के माध्यम से providers के रूप में पंजीकृत किया जा सकता है?
 
 - [ ] @Injectable, @NgModule, @Component, और @Directive।
 - [x] केवल @Injectable।
 - [ ] केवल @Injectable और @NgModule।
 - [ ] केवल @Service और @NgModule।
 
-#### प्र70. इस कंपोनेंट क्लास में Input डेकोरेटर का उपयोग किसके लिए किया जाता है?
+#### प्र69. इस कंपोनेंट क्लास में Input डेकोरेटर का उपयोग किसके लिए किया जाता है?
 
 ```ts
 @Component({  selector:'app-product-name',  ...
@@ -1160,21 +1148,21 @@ export class ProductNameComponent {  @Input() productName: string
 - [ ] यह कंपोनेंट टेम्पलेट में स्वचालित रूप से एक `<input type='text' id='productName'>` Dom एलिमेंट जेनरेट करता है।
 - [ ] यह productName इंस्टेंस फ़ील्ड में मानों को बाइंड करने का एक तरीका प्रदान करता है, बिल्कुल नेटिव DOM एलिमेंट प्रॉपर्टी bindings की तरह।
 
-#### प्र71. किस रूट गार्ड का उपयोग रूट तक navigation को मध्यस्थ करने के लिए किया जा सकता है?
+#### प्र70. किस रूट गार्ड का उपयोग रूट तक navigation को मध्यस्थ करने के लिए किया जा सकता है?
 
 - [x] इन सभी उत्तरों।
 - [ ] CanDeactivate।
 - [ ] CanLoad
 - [ ] CanActivate।
 
-#### प्र72. आप injector को क्लास इंस्टेंस को instantiate करने के बजाय एक token के लिए एक मौजूदा ऑब्जेक्ट का उपयोग करने के लिए कैसे कॉन्फ़िगर कर सकते हैं?
+#### प्र71. आप injector को क्लास इंस्टेंस को instantiate करने के बजाय एक token के लिए एक मौजूदा ऑब्जेक्ट का उपयोग करने के लिए कैसे कॉन्फ़िगर कर सकते हैं?
 
 - [x] `useValue` provider कॉन्फ़िगरेशन का उपयोग करें और इसे एक मौजूदा ऑब्जेक्ट या एक ऑब्जेक्ट literal के बराबर सेट करें।
 - [ ] यह संभव नहीं है। Providers को केवल class प्रकारों के साथ कॉन्फ़िगर किया जा सकता है।
 - [ ] बस ऑब्जेक्ट इंस्टेंस या literal को provider की सरणी में जोड़ें।
 - [ ] `asValue` provider कॉन्फ़िगरेशन प्रॉपर्टी का उपयोग करें, इसे true पर सेट करें।
 
-#### प्र73. इस रूट परिभाषा के आधार पर, id रूट पैरामीटर को प्राप्त करने के लिए UserDetailComponent constructor में क्या इंजेक्ट किया जा सकता है?
+#### प्र72. इस रूट परिभाषा के आधार पर, id रूट पैरामीटर को प्राप्त करने के लिए UserDetailComponent constructor में क्या इंजेक्ट किया जा सकता है?
 
 ```ts
 {path: 'user/:id', component: UserDetailComponent }
@@ -1185,7 +1173,7 @@ export class ProductNameComponent {  @Input() productName: string
 - [ ] UrlPath
 - [ ] @Inject('id')
 
-#### प्र74. निम्नलिखित रिएक्टिव फॉर्म मार्कअप के साथ, आप onSubmit क्लास विधि को कॉल करने के लिए क्या जोड़ेंगे?
+#### प्र73. निम्नलिखित रिएक्टिव फॉर्म मार्कअप के साथ, आप onSubmit क्लास विधि को कॉल करने के लिए क्या जोड़ेंगे?
 
 ```html
 <form [formGroup]="form">
@@ -1199,7 +1187,7 @@ export class ProductNameComponent {  @Input() productName: string
 - [x] `<form>` एलिमेंट में (ngSubmit )="onSubmit()" जोड़ें।
 - [ ] इन दोनों उत्तरों
 
-#### प्र75. जब isActive true है तो ngClass एट्रिब्यूट डायरेक्टिव के इस उपयोग के लिए अपेक्षित DOM कोड क्या है?
+#### प्र74. जब isActive true है तो ngClass एट्रिब्यूट डायरेक्टिव के इस उपयोग के लिए अपेक्षित DOM कोड क्या है?
 
 ```html
 <div [ngClass]="{ 'active-item': isActive }">Item One</div>
@@ -1210,7 +1198,7 @@ export class ProductNameComponent {  @Input() productName: string
 - [ ] `<div class="is-active">Item One</div>`
 - [ ] `<div class="active-item isActive">Item One</div>`
 
-#### प्र76. इस टेम्पलेट कोड में ngModel के उपयोग की सबसे अच्छी व्याख्या कौन सी है?
+#### प्र75. इस टेम्पलेट कोड में ngModel के उपयोग की सबसे अच्छी व्याख्या कौन सी है?
 
 ```html
 <input [(ngModel)]="user.name" />
@@ -1221,7 +1209,7 @@ export class ProductNameComponent {  @Input() productName: string
 - [ ] कोड में एक typo है। इसमें केवल वर्ग कोष्ठक होने चाहिए।
 - [ ] यह user.name प्रॉपर्टी के मान को input एलिमेंट की val प्रॉपर्टी से बाइंड कर रहा है ताकि इसका प्रारंभिक मान सेट किया जा सके।
 
-#### प्र77. NgModules को अन्य NgModules के भीतर शामिल किया जा सकता है। SharedModule में TableModule को शामिल करने के लिए आपको किस कोड सैंपल का उपयोग करना चाहिए?
+#### प्र76. NgModules को अन्य NgModules के भीतर शामिल किया जा सकता है। SharedModule में TableModule को शामिल करने के लिए आपको किस कोड सैंपल का उपयोग करना चाहिए?
 
 - [ ] @NgModule({
       exports: [TableModule]
@@ -1243,7 +1231,7 @@ export class ProductNameComponent {  @Input() productName: string
       })
       export class SharedModule {}
 
-#### प्र78. इस मार्कअप में सशर्त रूप से CSS क्लास नाम जोड़ने या हटाने के लिए कौन सा अन्य टेम्पलेट सिंटैक्स (ngClass डायरेक्टिव को बदलते हुए) का उपयोग किया जा सकता है?
+#### प्र77. इस मार्कअप में सशर्त रूप से CSS क्लास नाम जोड़ने या हटाने के लिए कौन सा अन्य टेम्पलेट सिंटैक्स (ngClass डायरेक्टिव को बदलते हुए) का उपयोग किया जा सकता है?
 
 ```html
 <span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Employed </span>
@@ -1275,7 +1263,7 @@ export class ProductNameComponent {  @Input() productName: string
   <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
   ```
 
-#### प्र79. इस डायरेक्टिव डेकोरेटर उदाहरण में, provider ऑब्जेक्ट literal में multi प्रॉपर्टी का उद्देश्य क्या है?
+#### प्र78. इस डायरेक्टिव डेकोरेटर उदाहरण में, provider ऑब्जेक्ट literal में multi प्रॉपर्टी का उद्देश्य क्या है?
 
 ```ts
 @Directive({
@@ -1296,28 +1284,28 @@ export class CustomValidatorDirective implements Validator {}
 - [x] यह single NG_VALIDATORS token के लिए विभिन्न providers के पंजीकरण की अनुमति देता है। इस मामले में, यह CustomValidatorDirective को उपलब्ध फॉर्म validators की सूची में जोड़ रहा है।
 - [ ] यह इंगित करता है कि कस्टम validator के लिए तर्क implementation को संभालने वाली कई classes होंगी।
 
-#### प्र80. आप अपने यूनिट टेस्ट को एक ऐसी प्रक्रिया में चलाने के लिए कौन सा Angular CLI कमांड का उपयोग करेंगे जो फ़ाइल परिवर्तनों पर आपके टेस्ट सूट को फिर से चलाता है?
+#### प्र79. आप अपने यूनिट टेस्ट को एक ऐसी प्रक्रिया में चलाने के लिए कौन सा Angular CLI कमांड का उपयोग करेंगे जो फ़ाइल परिवर्तनों पर आपके टेस्ट सूट को फिर से चलाता है?
 
 - [ ] ng test --single-run=false
 - [ ] ng test --watch-files
 - [ ] ng test --progress
 - [x] ng test
 
-#### प्र81. ngOnDestory lifecycle hook का सबसे आम उपयोग क्या है?
+#### प्र80. ngOnDestory lifecycle hook का सबसे आम उपयोग क्या है?
 
 - [ ] कंपोनेंट के view से dom एलिमेंट्स को हटाना
 - [ ] किसी भी इंजेक्टेड services को डिलीट करना
 - [x] observables से unsubscribe करना और detach करना
 - [ ] उपरोक्त सभी
 
-#### प्र82. किसी रूट कॉन्फ़िगरेशन में data प्रॉपर्टी (नीचे दिए गए उदाहरण में देखी गई) का उपयोग अन्य को अनुमति देने के लिए किस NgModule डेकोरेटर मेटाडेटा प्रॉपर्टी का लाभ उठाया जाता है....?
+#### प्र81. किसी रूट कॉन्फ़िगरेशन में data प्रॉपर्टी (नीचे दिए गए उदाहरण में देखी गई) का उपयोग अन्य को अनुमति देने के लिए किस NgModule डेकोरेटर मेटाडेटा प्रॉपर्टी का लाभ उठाया जाता है....?
 
 - [ ] public
 - [ ] experts
 - [ ] Shared
 - [x] declarations
 
-#### प्र83. निम्नलिखित कंपोनेंट क्लास के साथ, टेम्पलेट में currentYear क्लास फ़ंक्शन को कॉल करने के परिणाम को प्रदर्शित करने के लिए आप टेम्पलेट में किस टेम्पलेट सिंटैक्स का उपयोग करेंगे?
+#### प्र82. निम्नलिखित कंपोनेंट क्लास के साथ, टेम्पलेट में currentYear क्लास फ़ंक्शन को कॉल करने के परिणाम को प्रदर्शित करने के लिए आप टेम्पलेट में किस टेम्पलेट सिंटैक्स का उपयोग करेंगे?
 
 ```ts
 @Component({
@@ -1335,6 +1323,23 @@ export class DateCardComponent {
 - [ ] `{{ component.currentYear() }}`
 - [ ] `{{ currentYear }}`
 - [ ] टेम्पलेट सिंटैक्स से क्लास फ़ंक्शन को कॉल नहीं किया जा सकता है।
+
+#### प्र83. कंपोनेंट के लिए ViewChild डेकोरेटर का उद्देश्य क्या है?
+
+```ts
+@Component({
+    selector: 'app-user-card',
+    . . .
+})
+export class UserCardComponent {
+    @ViewChild('bio') bio;
+}
+```
+
+- [x] यह कंपोनेंट क्लास के भीतर से `<p>` टैग के लिए ElementRef ऑब्जेक्ट तक पहुंच प्रदान करता है जिसमें कंपोनेंट के टेम्पलेट व्यू में bio टेम्पलेट संदर्भ चर है।
+- [ ] यह इंगित करता है कि `<p>` टैग को पैरेंट व्यू के चाइल्ड के रूप में रेंडर किया गया है जो इस कंपोनेंट का उपयोग करता है।
+- [ ] यह टेम्पलेट में `<p>` टैग को कंटेंट प्रोजेक्शन का समर्थन करता है।
+- [ ] यह अंतिम रेंडर में `<p>` टैग को दृश्यमान बनाता है। यदि #bio का उपयोग टेम्पलेट में किया गया था और @ViewChild का उपयोग क्लास में नहीं किया गया था, तो Angular स्वचालित रूप से `<p>` टैग को छुपा देगा जिस पर #bio है।
 
 ---
 

@@ -1200,7 +1200,7 @@ export class TruncatePipe implements PipeTransform {
 
 <div class="tab"></div>
 
-- [ ] <code>{{ width: tabWidth }}</code>
+- [ ] <code>{% raw %}{{ width: tabWidth }}{% endraw %}</code>
 - [ ] [width]="tabWidth"
 - [ ] [inline.width]="tabWidth"
 - [x] [style.width.px]="tabWidth"

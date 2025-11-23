@@ -700,11 +700,10 @@ box {
 ```
 
 - [ ] 230px
-- [x] 220px
+- [x] 220px 
 - [ ] 200px
 - [ ] 260px
 
-Note: In the standard box model (box-sizing: content-box), the width property defines the content width. The total width of the visible box is the sum of content width (200px) + left and right padding (2 × 10px = 20px) = 220px. Margin and border are not included in this calculation since the question specifically asks for content + padding.
 
 #### Q70. How would you round the value 11.354 to the nearest full integer?
 
