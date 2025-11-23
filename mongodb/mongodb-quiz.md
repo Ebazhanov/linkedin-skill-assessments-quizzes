@@ -910,3 +910,24 @@ _Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional
 - [ ] It is a tool for managing database backups
 - [x] It is a routing service for sharded clusters
 - [ ] It is a tool for importing and exporting data
+
+#### Q116. With regards to indexes, what is the difference between dropping a collection and deleting all documents in a collection?
+
+- [x] drop() removes the collection and indexes; deleteMany({}) removes documents only (indexes remain).
+- [ ] drop() removes docs but keeps indexes.
+- [ ] Both actions behave the same.
+- [ ] deleteMany() also removes indexes automatically.
+
+#### Q117. Which operation invalidates all active cursors on a collection?
+
+- [x] Dropping the collection
+- [ ] Running a find() query
+- [ ] Creating an index
+- [ ] Updating multiple documents
+
+#### Q118. What happens to the _id index when you clone a collection using db.collection.aggregate([{ $out: "newCol" }])?
+
+- [ ] The original _id index is copied exactly.
+- [ ] The new collection has no _id index.
+- [x] A new _id index is automatically created on newCol.
+- [ ] The _id index is created only if explicitly specified.
