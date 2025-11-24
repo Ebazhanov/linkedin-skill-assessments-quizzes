@@ -1055,10 +1055,13 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q76. Describe the functionality of a queue.
 
-- [x] A queue adds items to either end and removes items from either end.
+- [x] A queue adds items to the back and removes items from the front.
 - [ ] A queue adds items to the top and removes items from the top.
 - [ ] A queue adds items to the top and removes items from anywhere in, a list.
 - [ ] A queue adds items to the top and removes items from anywhere in the queue.
+
+Typical queue definition follows "first-in, first out" (FIFO) where items are enqueued on one-side and dequeued from the other.
+[Reference](https://www.geeksforgeeks.org/dsa/queue-data-structure/)
 
 #### Q77. Which choice is the most syntactically correct example of conditional branching?
 
