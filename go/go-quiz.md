@@ -100,7 +100,8 @@ const (
 - [ ] &shy;
 
 ```go
-      import "github/gin-gonic/gin"
+         import "github.com/gin-gonic/gin"
+
 ```
 
 - [ ] &shy;
