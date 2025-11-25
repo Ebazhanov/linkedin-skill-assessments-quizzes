@@ -2787,3 +2787,18 @@ For large JSON files, streaming parsers (like SAX-style parsers) are recommended
 - [x] To specify that all items in an array must be unique
 - [ ] To create unique identifiers
 - [ ] To validate unique keys
+
+#### Q281. What is the purpose of JSON-P (JSON with padding) in web development, and how is it typically used?
+
+- [ ] A. To validate JSON data before parsing it in JavaScript.
+- [ ] B. To provide additional padding for JSON objects to improve readability.
+- [x] C. To overcome the same-origin policy limitation when making cross-domain AJAX requests.
+- [ ] D. To compress JSON data for faster transmission over the network.
+
+#### Q282. In a JSON document, how can you represent a key that contains special characters, such as spaces or hyphens, to ensure proper parsing and access in JavaScript?
+
+- [ ] A. Wrap the key in single quotes.
+- [ ] B. Enclose the key in square brackets.
+- [ ] C. Use backslashes before special characters.
+- [x] D. Enclose the key in double quotes.
+
