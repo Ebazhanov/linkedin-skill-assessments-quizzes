@@ -97,31 +97,16 @@ const (
 
 #### Q6. Which is the _only_ valid import statement in Go?
 
-- [ ] &shy;
+- [ ] import "github/gin-gonic/gin"
+- [ ] import "https://github.com/gin-gonic/gin"
+- [ ] import "../template"
+- [x] import "github.com/gin-gonic/gin"
 
-```go
-      import "github/gin-gonic/gin"
-```
+[Import in GoLang](https://golang.org/pkg/imports/ or https://golang.org/doc/modules/imports)
 
-- [ ] &shy;
+> _Explanation:_ Go imports must use module paths such as `github.com/...`.  
+> Relative imports (`../`) are not allowed in modules, and import paths cannot omit the domain or include `https://`.
 
-```go
-      import "https://github.com/gin-gonic/gin"
-```
-
-- [ ] &shy;
-
-```go
-      import "../template"
-```
-
-- [x] &shy;
-
-```go
-      import "github.com/gin-gonic/gin"
-```
-
-[Import in GoLang](https://golangdocs.com/import-in-golang)
 
 #### Q7. What would happen if you attempted to compile and run this Go program?
 
