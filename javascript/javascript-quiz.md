@@ -2954,3 +2954,21 @@ counter2 increments once → 1
 Closures DO NOT share state unless they reference the same outer scope object.
 
 [Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures]
+
+
+## Additional Tips for JavaScript Assessment
+
+### Key Concepts to Review:
+- **Closures**: Functions that capture variables from their outer scope
+- **Prototypal Inheritance**: JavaScript uses prototypes, not classes (though ES6 classes exist)
+- **Async/Await**: Modern way to handle asynchronous operations
+- **Event Loop**: Understanding microtasks and macrotasks
+- **this binding**: Dynamic context depending on how functions are called
+- **Spread Operator**: Use `...` to expand iterables and objects
+
+### Common Mistakes:
+1. Confusing `==` with `===` (loose vs strict equality)
+2. Mixing up `var`, `let`, and `const` scope rules
+3. Not understanding arrow functions don't have their own `this`
+4. Forgetting that arrays and objects are passed by reference
+5. Misunderstanding promise chaining and `.then()` execution order
