@@ -688,21 +688,21 @@ console.log(currencies);
 - [ ] Set `width: 100%` on the images.
 - [ ] Set `resize: true` on the images.
 
-#### Q69. The CSS box model describes how different parts of a box are calculated. Under the standard box model, what is the total width of the content box plus padding (excluding border and margin) in the following CSS?
+#### Q69. Under the standard CSS box model, what is the total visible width of the element (content + padding + border), excluding margins?
 
 ```css
 box {
   width: 200px;
   padding: 10px;
-  margin: 0 15px;
   border: 2px solid black;
+  margin: 0 15px;
 }
-```
-
-- [ ] 230px
-- [x] 220px 
+ ```md
+- [x] 224px
 - [ ] 200px
+- [ ] 220px
 - [ ] 260px
+
 
 
 #### Q70. How would you round the value 11.354 to the nearest full integer?
