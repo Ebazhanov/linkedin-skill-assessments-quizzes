@@ -179,12 +179,16 @@
 - [ ] serial attached storage device
 - [ ] SCSI drive
 
-#### Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?
+#### Q18. Which peripheral is most likely to require entering a Bluetooth pairing passcode?
 
-- [ ] keyboard
-- [x] all of these answers
-- [ ] mouse
-- [ ] headset
+- [x] A. Keyboard  
+- [ ] B. Mouse  
+- [ ] C. Headset  
+- [ ] D. Printer
+
+> _Explanation:_ Many Bluetooth keyboards (especially older or “legacy” models) require entering a pairing/passcode during initial pairing. Mice and headsets can require pairing too, but keyboards historically + most commonly use a numeric pairing code. This question is somewhat hardware-dependent — see PR discussion for edge-cases and references.
+
+---
 
 #### Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?
 
@@ -193,14 +197,18 @@
 - [x] Back up his data.
 - [ ] Ensure that the system is protected against malware.
 
-#### Q20. What is one difference between a drive and media?
+---
 
-- [ ] The drive is where the data is stored and the media is the data itself.
-- [x] A drive is hardware that reads media.
-- [ ] These are two terms for the same thing: storage.
-- [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
+#### Q20. Which statement best describes a drive?
 
-[reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.
+- [x] A. A drive is hardware that reads/writes data and often accepts removable media (e.g., disk, CD).  
+- [ ] B. A drive is a software component that manages files.  
+- [ ] C. A drive is a network service for file transfer.  
+- [ ] D. A drive is an encryption method.
+
+> _Explanation:_ A drive is a physical device that performs read/write operations; removable-media drives (CD/DVD, removable disk) accept media, while non-removable drives (SSD/HDD) provide storage without separate media.
+
+---
 
 #### Q21. Mass storage inside a desktop computer case is usually found where?
 
@@ -209,474 +217,296 @@
 - [x] in a drive cage
 - [ ] on the motherboard
 
-#### Q22. Which statement about a modular power supply is true?
+---
 
-- [ ] It is built from a cluster of smaller, easier-to-install power supplies.
-- [ ] Its power output can be varied to save electricity.
-- [x] Its cables are detachable.
-- [ ] It has dedicated power reserved for different computer components.
+#### Q31. Which device is used to connect computers on a local network (LAN) at Layer 2?
 
-#### Q23. Which program controls the Windows startup sequence?
+- [x] A. Switch (Layer 2)  
+- [ ] B. Server  
+- [ ] C. Router  
+- [ ] D. Gateway
 
-- [x] MSCONFIG
-- [ ] Task Manager
-- [ ] the Computer Management Console
-- [ ] the UEFI
+> _Explanation:_ A network switch operates at Layer 2 and forwards frames between devices on the same LAN. Servers provide services but do not serve the traffic-forwarding role of a switch.
 
-#### Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?
+---
 
-- [ ] DRAM is failing.
-- [x] A program has a memory leak.
-- [ ] There is no problem. It's normal for available memory to decrease the longer you use the system.
-- [ ] Another user has signed into the system
+#### Q43. If you move a user’s data and installed programs from one system to another, this process is called:
 
-#### Q25. Which type of power connector is this?
+- [x] A. Migration  
+- [ ] B. Profile transfer  
+- [ ] C. Backup  
+- [ ] D. Restore
 
-![Q24](images/Q24.png?raw=png)
+> _Explanation:_ A migration moves data and installed applications/settings from one environment to another; a “profile transfer” generally refers only to user profile data.
 
-- [ ] Edison
-- [x] Molex
-- [ ] SATA
-- [ ] PCI
+---
 
-#### Q26. What is the most important thing to do before opening a computer case?
+#### Q51. To access extra keys or alternate key functions on some laptop keyboards (compact layouts), which key is typically used?
 
-- [x] Turn off and unplug the computer.
-- [ ] Disconnect all of the cables.
-- [ ] Close your programs, sign out of your account, and turn off the computer.
-- [ ] Ground yourself.
+- [ ] A. Alt/Option  
+- [ ] B. Ctrl  
+- [x] C. Fn  
+- [ ] D. Shift
 
-#### Q27. On a trackpad, what gesture commonly replaces "center mouse wheel" for things like scrolling through documents?
+> _Explanation:_ The **Fn** (Function) key is commonly used to access alternate functions on laptop/compact keyboards (media keys, secondary key legends). Alt/Option performs different roles and is not the usual way to access alternate hardware keysets.
 
-- [ ] pinch outward
-- [ ] scroll with thumb instead
-- [x] two-finger swipe
-- [ ] force click and drag
+---
 
-#### Q28. What is the name of the hardware that provides a computer with network access?
+#### Q52. If a PC repeatedly boots into Safe Mode, what is the most appropriate next step?
 
-- [ ] BIOS
-- [ ] RJ-45
-- [x] NIC
-- [ ] Router
+- [ ] A. Reboot immediately and hope it resolves.  
+- [x] B. Investigate the cause (Safe Mode indicates the system detected a problem).  
+- [ ] C. Reinstall the OS right away.  
+- [ ] D. Ignore and continue using.
 
-#### Q29. Networking wire is referred to as **\_**.
+> _Explanation:_ Persistent boots into Safe Mode indicate underlying problems (driver, hardware, or config). Investigate logs, recent changes and safe-mode diagnostics before opting to reinstall or only restart. (A quick restart can be used as a test, but repeated Safe Mode boots should be diagnosed.)
 
-- [x] CAT-5 or CAT-6 Ethernet cable
-- [ ] thin pair or twisted pair
-- [ ] asynchronous digital (AD) cable
-- [ ] coax cable
-
-#### Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?
-
-- [ ] Shut down the system.
-- [x] Sign out.
-- [ ] Restart the computer.
-- [ ] Let Jen take over.
-
-#### Q31. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
-
-- [ ] server
-- [x] layer 2 switch
-- [ ] wireless access point
-- [ ] firewall
-
-[reference](https://en.wikipedia.org/wiki/Network_switch)
-
-#### Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
-
-- [x] You have plugged the microphone into the 3.5mm audio output jack.
-- [ ] The sound is muted.
-- [ ] The sound card has crashed.
-- [ ] The computer has connected to a nearby Bluetooth headset.
-
-#### Q33. You think that the Internet is down. How can you know for certain?
-
-- [x] all of these answers.
-- [ ] You cannot reach any websites.
-- [ ] The power is out.
-- [ ] The lights on the modem are off.
-
-#### Q34. An application is unresponsive. How can you effectively close it down?
-
-- [ ] Restart the computer.
-- [ ] Sign out.
-- [ ] Wait or set the application aside until it quits eventually on its own.
-- [x] Use the Task Manager (Windows) or use Force Quit (Mac).
-
-#### Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?
-
-- [x] The URL is HTTPS.
-- [ ] You are using an incognito window.
-- [ ] The site requires a login and password.
-- [ ] You can't tell because a website's security settings are not readily apparent in a browser window.
-
-#### Q36. The client/server model best represents **\_**.
-
-- [x] multiple hosts interacting with a single computer
-- [ ] an application consisting of cooperating programs across the Internet
-- [ ] any program run by a user
-- [ ] a subscription service on the web
-
-#### Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?
-
-- [x] There is one partition for the operating system and a separate partition for user data.
-- [ ] All drives contain a second partition for the MBR (Master Boot Record).
-- [ ] The drive is partitioned to maintain compatibility with older versions of the operating system.
-- [ ] The system has two users who are each getting a partition.
-
-#### Q38. You are replacing a processor. How do you build the processor "sandwich", top-down?
-
-- [x] fan, paste, processor, socket
-- [ ] fan, processor, socket
-- [ ] fan, paste, processor, paste, socket
-- [ ] fan, processor, paste, socket
-
-#### Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?
-
-- [ ] Run a disk-checking utility.
-- [x] Close open programs.
-- [ ] Restart the computer.
-- [ ] Review the output of the netstat utility to check for incoming connections to the file.
-
-#### Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the office?
-
-- [ ] DNS
-- [ ] FTP
-- [x] VPN
-- [ ] HTTP
-
-#### Q41. Al is about to update a software driver. What would be a wise thing to do first?
-
-- [x] Back up all files.
-- [ ] Save data and close programs.
-- [ ] Remove the older driver.
-- [ ] Sign out of the operating system.
-
-#### Q42. What is the process of moving data and programs from an old computer to a new one called?
-
-- [x] migration
-- [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
-- [ ] profile transfer
-- [ ] account cloning
-
-[reference](https://en.wikipedia.org/wiki/PC_migration)
-
-#### Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
-
-- [ ] Do nothing. Wait until service is restored.
-- [ ] Restart all computers on the network.
-- [ ] Restart the gateway (router).
-- [x] Restart the modem.
-
-#### Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
-
-- [ ] Task Manager
-- [x] Event Viewer
-- [ ] Performance Monitor
-- [ ] Resource Monitor
-
-#### Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?
-
-- [ ] DSL
-- [ ] fiber optic
-- [ ] cable
-- [x] dial-up
-
-#### Q46. What is a fixed-disk?
-
-- [ ] mass storage that has been repaired
-- [x] nonremovable mass storage
-- [ ] any internal mass storage device
-- [ ] any mass storage device that is not a SSD
-
-#### Q47. What are the long-term and short-term categories of storage in a computer?
-
-- [x] memory and permanent (drive) storage
-- [ ] SSD and HDD
-- [ ] RAM and ROM
-- [ ] standard memory and cache memory
-
-[Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
-
-#### Q48. What is referred to by SSID?
-
-- [x] Service Set Identifier, a wireless network's name
-- [ ] an older security protocol for Wi-Fi networks
-- [ ] the server-side ID used to identify devices on a network
-- [ ] the MAC address broadcast for a wireless network
-
-[Reference](https://techterms.com/definition/ssid)
-
-#### Q49. Which is the standard color coding for audio jacks?
-
-- [ ] Gray: microphone / Black: speakers
-- [ ] Red: microphone / Green: speakers
-- [ ] Green: microphone / Pink: speakers
-- [x] Green: speakers / Pink: microphone
-
-#### Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
-
-- [ ] Alt (Windows) or Option (Mac)
-- [ ] Meta
-- [x] Fn
-- [ ] Shift
-
-#### Q51. You power up your computer and it starts in Safe Mode. What should you do?
-
-- [ ] Restart the computer
-- [ ] Work as you normally do until the problem is resolved
-- [ ] Reconfigure the startup sequence so that the system starts again normally
-- [x] Determine the cause and address the issue
-
-Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
-
-#### Q52. Which security tool can be doubled up to offer additional protection without being redundant?
+#### Q53. Which security tool can be doubled up to offer additional protection without being redundant?
 
 - [ ] account protection
 - [ ] firewall
 - [ ] antivirus
 - [x] backup
 
-#### Q53. The mouse pointer is behaving erratically. What should you do first?
+#### Q54. The mouse pointer is behaving erratically. What should you do first?
 
 - [ ] Use the keyboard instead
 - [ ] Restart the computer
 - [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
 - [ ] Disassemble the mouse to look for loose parts or corrosion
 
-#### Q54. How many wire pairs are in a CAT-5 cable?
+#### Q55. How many wire pairs are in a CAT-5 cable?
 
 - [ ] 8
 - [x] 4
 - [ ] 5
 - [ ] 16
 
-#### Q55. What is the difference between a USB hub and a powered USB hub?
+#### Q56. What is the difference between a USB hub and a powered USB hub?
 
 - [x] The powered hub has a power supply and is suitable for running powered peripherals.
 - [ ] A powered USB hub is found on the computer case; all other hubs are non-powered.
 - [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.
 - [ ] Powered hubs are external to the computer case.
 
-#### Q56. Which of the following users has the smartest approach to online security?
+#### Q57. Which of the following users has the smartest approach to online security?
 
 - [ ] Jarred uses a unique password for each site.
 - [ ] Jen uses the same password on each site, but with two-factor authentication.
 - [x] Jason uses a unique password for each site along with two-factor authentication.
 - [ ] Jackie uses the same password on each site, but with a different user name.
 
-#### Q57. Which is an example of a phishing attack?
+#### Q58. Which is an example of a phishing attack?
 
 - [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
 - [ ] After visiting a website, Carla notices that her computer is running slowly.
 - [x] Bob receives an email from his bank, asking him to click a link to verify his account.
 - [ ] Ellen's email inbox is flooded with unwanted advertising.
 
-#### Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure that you do not have false positive?
+#### Q59. You receive a malware warning regarding a specific file. Which approach should you take to ensure that you do not have false positive?
 
 - [ ] Restart in Safe Mode to remove the file.
 - [ ] Remove the file.
 - [x] Run a thorough scan to validate the results.
 - [ ] Quarantine the file.
 
-#### Q59. What are the best tools to use for cleaning a computer?
+#### Q60. What are the best tools to use for cleaning a computer?
 
 - [ ] Handheld vacuum cleaner, air can, soft flashlight.
 - [ ] air can, microfiber cloth, alcohol wipes, flashlight.
 - [x] handheld vacuum cleaner, ammonia, alcohol, microfiber cloth.
 - [ ] air can, screwdriver, soft cloth, household cleaner.
 
-#### Q60. A computer power supply is measured in \_.
+#### Q61. A computer power supply is measured in \_.
 
 - [x] watts
 - [ ] hertz
 - [ ] amperes
 - [ ] volts
 
-#### Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
+#### Q62. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
 
 - [ ] 24
 - [ ] 255
 - [x] 254
 - [ ] 256
 
-#### Q62. Tania was told to change a setting in the UEFI. How is it accessed?
+#### Q63. Tania was told to change a setting in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
 - [ ] from the BIOS
 - [x] from the computer's startup menu
 - [ ] on the network
 
-#### Q63. What is the technical reason why you must properly eject media?
+#### Q64. What is the technical reason why you must properly eject media?
 
 - [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.
 - [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
 - [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
 - [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
 
-#### Q64. Which part of the network assigns an IP address?
+#### Q65. Which part of the network assigns an IP address?
 
 - [ ] the modem using TCP/IP protocol
 - [x] the gateway/router using DHCP
 - [ ] the device's NIC based on the MAC address
 - [ ] IP addresses are always assigned manually
 
-#### Q65. Expansion cards follow which current interface standard?
+#### Q66. Expansion cards follow which current interface standard?
 
 - [ ] MCA
 - [ ] PCMCIA
 - [ ] ISA
 - [x] PCIe
 
-#### Q66. Which action triggers a UAC warning?
+#### Q67. Which action triggers a UAC warning?
 
 - [ ] all settings changes in Windows
 - [ ] any unauthorized access to the computer system
 - [x] an attempt to change a setting with consequences that affect the entire system
 - [ ] any action involving the user account, such as a password reset
 
-#### Q67. Which choice is not a current mass storage type?
+#### Q68. Which choice is not a current mass storage type?
 
 - [ ] SSD
 - [ ] MO
 - [ ] HDD
 - [x] NVMe
 
-#### Q68. Which statement most accurately describes the north-bridge or host-bridge?
+#### Q69. Which statement most accurately describes the north-bridge or host-bridge?
 
 - [x] It is a high priority connection to the processor, also called the Memory Controller Hub.
 - [ ] It has been integrated into the southbridge to provide support for the CPU.
 - [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.
 - [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.
 
-#### Q69. Which characters are not allowed in a filename?
+#### Q70. Which characters are not allowed in a filename?
 
 - [ ] anything other than a letter, number, or space
 - [ ] spaces, periods, and commas
 - [x] `\, /, :, ?, and *`
 - [ ] `!, ^, &, (,), and "`
 
-#### Q70. What is the most direct way to change the desktop background in Windows OS?
+#### Q71. What is the most direct way to change the desktop background in Windows OS?
 
 - [ ] Alter your user account settings or preferences.
 - [x] Right-click a blank part of the desktop.
 - [ ] Run programs full-screen.
 - [ ] Use Settings (Windows) or Preferences (Mac).
 
-#### Q71. Which I/O components are typically found in a chipset on the motherboard?
+#### Q72. Which I/O components are typically found in a chipset on the motherboard?
 
 - [x] USB, SATA and internal communications
 - [ ] display adapter, networking, audio, and basic I/O
 - [ ] the processor, RAM, and expansion cards
 - [ ] I/O components are not on the motherboard. They are located on the rear of the case
 
-#### Q72. What does the acronym RAID refer to?
+#### Q73. What does the acronym RAID refer to?
 
 - [x] Redudant Array of Independent Disk
 - [ ] Repeating Architecture for Internal Drives
 - [ ] Recoverable Advanced Integration and Duplication
 - [ ] Replicated Array of Internal Devices
 
-#### Q73. What is an example of a top-level domain (TLD)?
+#### Q74. What is an example of a top-level domain (TLD)?
 
 - [x] NET
 - [ ] HTTP
 - [ ] //
 - [ ] DNS
 
-#### Q74. Jan is setting up a coffee shop's wireless network. Given the number of Wi-Fi networks within range, which are the best choices for a 2.4GHz Wi-Fi channel?
+#### Q75. Jan is setting up a coffee shop's wireless network. Given the number of Wi-Fi networks within range, which are the best choices for a 2.4GHz Wi-Fi channel?
 
 - [ ] 3, 6, 9
 - [ ] 3, 10, 12
 - [x] 1, 6, 11
 - [ ] 1, 2, 8
 
-#### Q75. When elevated access is required, what steps must a user take?
+#### Q76. When elevated access is required, what steps must a user take?
 
 - [x] Type the administrator account password.
 - [ ] Hold the Shift key and try again.
 - [x] Sign out and sign in again with an administrator account.
 - [ ] User account permissions are elevated in Settings or Preferences.
 
-#### Q76. What is a duplex printer?
+#### Q77. What is a duplex printer?
 
 - [ ] a printer that also acts as a scanner, copier. and fax machine
 - [ ] a printer with automatic and manual feeding mechanism
 - [x] a printer than can print on both sides of a sheet of paper
 - [ ] a printer has two paper trays
 
-#### Q77. Which choice is not an internal computer upgrade?
+#### Q78. Which choice is not an internal computer upgrade?
 
 - [ ] primary storage
 - [x] I/O devices
 - [ ] memory
 - [ ] expansion card
 
-#### Q78. In a hybrid cloud architecture, what is the main challenge of maintaining consistent configuration states across on-premises and cloud environments?
+#### Q79. In a hybrid cloud architecture, what is the main challenge of maintaining consistent configuration states across on-premises and cloud environments?
 
 - [ ] Limited network throughput between environments
 - [x] Configuration drift due to asynchronous state management and differing IaC tool versions
 - [ ] Incompatible authentication mechanisms between providers
 - [ ] Lack of hardware abstraction at the virtualization layer
 
-#### Q79. In enterprise IT monitoring, what problem does "cardinality explosion" refer to?
+#### Q80. In enterprise IT monitoring, what problem does "cardinality explosion" refer to?
 
 - [x] The exponential growth in metric series when combining multiple label dimensions (e.g., host, service, region)
 - [ ] The overuse of alerting thresholds across distributed systems
 - [ ] The inability to track metrics due to missing time-series indexes
 - [ ] The merging of multiple metric stores into a single pipeline
 
-#### Q80. In a CI/CD pipeline, why is using **immutable infrastructure** considered best practice?
+#### Q81. In a CI/CD pipeline, why is using **immutable infrastructure** considered best practice?
 
 - [ ] It allows manual patching of existing servers to maintain consistency
 - [x] It ensures that each deployment creates a new environment instance, preventing configuration drift
 - [ ] It eliminates the need for orchestration or automation tools
 - [ ] It enables incremental updates instead of full rebuilds
 
-#### Q81. What issue arises when using synchronous microservice calls in a globally distributed production system?
+#### Q82. What issue arises when using synchronous microservice calls in a globally distributed production system?
 
 - [ ] Increased CPU utilization in backend servers
 - [ ] Reduced need for caching layers
 - [ ] Simplified tracing and logging mechanisms
 - [x] High inter-service latency and cascading failures under network partitions
 
-#### Q82. In container orchestration systems like Kubernetes, what does the **control plane** primarily manage?
+#### Q83. In container orchestration systems like Kubernetes, what does the **control plane** primarily manage?
 
 - [x] The desired state of the cluster, ensuring workloads match declared configurations via reconciliation loops
 - [ ] The real-time network routing between pods
 - [ ] The physical resource allocation at the hardware level
 - [ ] The filesystem synchronization across distributed nodes
 
-#### Q83. In distributed systems observability, what is the primary purpose of implementing distributed tracing with context propagation?
+#### Q84. In distributed systems observability, what is the primary purpose of implementing distributed tracing with context propagation?
 
 - [ ] To record only local system metrics
 - [ ] To replicate log data across all services
 - [x] To track a single request across multiple services by passing unique identifiers through each span
 - [ ] To store trace data directly within the message queue
 
-#### Q84. Why might an SRE team prefer a **Service Level Objective (SLO)** expressed as an error budget over a 100% uptime target?
+#### Q85. Why might an SRE team prefer a **Service Level Objective (SLO)** expressed as an error budget over a 100% uptime target?
 
 - [x] Because it balances reliability with development velocity and provides a measurable tolerance for controlled risk
 - [ ] Because it enforces stricter deployment rules in CI/CD pipelines
 - [ ] Because it automatically configures monitoring alerts based on uptime
 - [ ] Because it eliminates the need for any downtime management
 
-#### Q85. What operational issue is most likely if a message broker in an event-driven system begins showing a consistent lag in queue depth?
+#### Q86. What operational issue is most likely if a message broker in an event-driven system begins showing a consistent lag in queue depth?
 
 - [ ] Excessive horizontal scaling of producers
 - [x] Consumers are processing messages slower than the production rate, causing backpressure
 - [ ] Queue visibility timeout misconfiguration
 - [ ] Duplicate message publishing from producers
 
-#### Q86. In large-scale infrastructure management, what’s a key operational advantage of **GitOps** over traditional configuration management approaches?
+#### Q87. In large-scale infrastructure management, what’s a key operational advantage of **GitOps** over traditional configuration management approaches?
 
 - [ ] It replaces container orchestration with simple shell automation
 - [x] It provides a declarative, version-controlled, and auditable single source of truth for infrastructure state
 - [ ] It allows runtime state changes without version tracking
 - [ ] It relies solely on imperative deployment scripts
 
-#### Q87. When autoscaling a stateful application, why can horizontal scaling lead to inconsistency issues?
+#### Q88. When autoscaling a stateful application, why can horizontal scaling lead to inconsistency issues?
 
 - [x] Because new replicas may lack synchronized persistent state or shared volume access, leading to data divergence
 - [ ] Because CPU requests cannot be adjusted dynamically
