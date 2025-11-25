@@ -820,12 +820,13 @@ _Explanation_ : MongoDB's primary advantage as a NoSQL database over traditional
 - [ ] It is responsible for data replication
 - [ ] It is a tool for importing and exporting data
 
-#### Q103. Which method is used to remove a document from a collection in MongoDB?
+#### Q103. Which method is used to remove a single document from a collection in MongoDB?
 
-- [x] `deleteOne()`
-- [ ] `removeOne()`
-- [ ] `drop()`
-- [ ] `remove()`
+- [x] deleteOne()
+- [ ] removeOne()
+- [ ] drop()
+- [ ] remove()
+
 
 #### Q104. What is a GridFS in MongoDB?
 
