@@ -94,7 +94,6 @@ const (
 - [ ] a random value
 
 [IOTA in Go (Golang)](https://golangbyexample.com/iota-in-golang/)
-
 #### Q6. Which is the _only_ valid import statement in Go?
 
 - [ ] import "github/gin-gonic/gin"
@@ -102,12 +101,8 @@ const (
 - [ ] import "../template"
 - [x] import "github.com/gin-gonic/gin"
 
-[Import in GoLang](https://golang.org/pkg/imports/ or https://golang.org/doc/modules/imports)
-
-> _Explanation:_ Go imports must use module paths such as `github.com/...`.  
-> Relative imports (`../`) are not allowed in modules, and import paths cannot omit the domain or include `https://`.
-
-
+_Explanation:_ Go imports must use module paths such as `github.com/...`.  
+Relative imports (`../`) are not allowed in modules, and import paths cannot omit the domain or include `https://`.
 #### Q7. What would happen if you attempted to compile and run this Go program?
 
 ```go
