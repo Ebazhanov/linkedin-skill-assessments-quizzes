@@ -188,17 +188,12 @@
 
 > _Explanation:_ Many Bluetooth keyboards (especially older or “legacy” models) require entering a pairing/passcode during initial pairing. Mice and headsets can require pairing too, but keyboards historically + most commonly use a numeric pairing code. This question is somewhat hardware-dependent — see PR discussion for edge-cases and references.
 
----
-
 #### Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?
 
 - [ ] Run a file check daily.
 - [ ] Obtain an extended warranty.
 - [x] Back up his data.
 - [ ] Ensure that the system is protected against malware.
-
----
-
 #### Q20. Which statement best describes a drive?
 
 - [x] A. A drive is hardware that reads/writes data and often accepts removable media (e.g., disk, CD).  
@@ -207,9 +202,6 @@
 - [ ] D. A drive is an encryption method.
 
 > _Explanation:_ A drive is a physical device that performs read/write operations; removable-media drives (CD/DVD, removable disk) accept media, while non-removable drives (SSD/HDD) provide storage without separate media.
-
----
-
 #### Q21. Mass storage inside a desktop computer case is usually found where?
 
 - [ ] in an expansion slot
@@ -217,8 +209,14 @@
 - [x] in a drive cage
 - [ ] on the motherboard
 
----
+#### Q22. Which statement about a modular power supply is true?
 
+- [x] A. A drive is hardware that reads/writes data and often accepts removable media (e.g., disk, CD).  
+- [ ] B. A drive is a software component that manages files.  
+- [ ] C. A drive is a network service for file transfer.  
+- [ ] D. A drive is an encryption method.
+
+> _Explanation:_ A drive is a physical device that performs read/write operations; removable-media drives (CD/DVD, removable disk) accept media, while non-removable drives (SSD/HDD) provide storage without separate media.
 #### Q31. Which device is used to connect computers on a local network (LAN) at Layer 2?
 
 - [x] A. Switch (Layer 2)  
@@ -227,9 +225,6 @@
 - [ ] D. Gateway
 
 > _Explanation:_ A network switch operates at Layer 2 and forwards frames between devices on the same LAN. Servers provide services but do not serve the traffic-forwarding role of a switch.
-
----
-
 #### Q43. If you move a user’s data and installed programs from one system to another, this process is called:
 
 - [x] A. Migration  
@@ -238,9 +233,6 @@
 - [ ] D. Restore
 
 > _Explanation:_ A migration moves data and installed applications/settings from one environment to another; a “profile transfer” generally refers only to user profile data.
-
----
-
 #### Q51. To access extra keys or alternate key functions on some laptop keyboards (compact layouts), which key is typically used?
 
 - [ ] A. Alt/Option  
@@ -249,9 +241,6 @@
 - [ ] D. Shift
 
 > _Explanation:_ The **Fn** (Function) key is commonly used to access alternate functions on laptop/compact keyboards (media keys, secondary key legends). Alt/Option performs different roles and is not the usual way to access alternate hardware keysets.
-
----
-
 #### Q52. If a PC repeatedly boots into Safe Mode, what is the most appropriate next step?
 
 - [ ] A. Reboot immediately and hope it resolves.  
