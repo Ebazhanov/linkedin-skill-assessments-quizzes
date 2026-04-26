@@ -2273,6 +2273,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KL2400040448"><img src="https://avatars.githubusercontent.com/u/201973292?v=4?s=100" width="100px;" alt="king"/><br /><sub><b>king</b></sub></a><br /><a href="#design-KL2400040448" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KL2400040448" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Rahul2322-P"><img src="https://avatars.githubusercontent.com/u/221062284?v=4?s=100" width="100px;" alt="Rahul2322-P"/><br /><sub><b>Rahul2322-P</b></sub></a><br /><a href="#design-Rahul2322-P" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rahul2322-P" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.jefsky.com"><img src="https://avatars.githubusercontent.com/u/7386165?v=4?s=100" width="100px;" alt="邪修斜杆野生业余程序猿奶爸👨‍🍼"/><br /><sub><b>邪修斜杆野生业余程序猿奶爸👨‍🍼</b></sub></a><br /><a href="#design-Jefsky" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Jefsky" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
