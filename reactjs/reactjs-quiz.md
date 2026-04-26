@@ -7,7 +7,7 @@
 
 - [x] Swift.
 - [ ] JSX.
-- [ ] Javascipt.
+- [ ] JavaScript.
 - [ ] TypeScript.
 
 #### Q97. This code is part of an app that collects Pokemon. How would you print the list of the ones collected so far?
@@ -479,7 +479,7 @@ useEffect(callNetworkFunc, XXXX);
 
 - [x] Swift.
 - [ ] JSX.
-- [ ] Javascipt.
+- [ ] JavaScript.
 - [ ] TypeScript.
 
 #### Q136. Which answer best describes a function component?
