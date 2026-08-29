@@ -272,12 +272,12 @@ fn main() {
 
 #### Q22. Which statement about the `Clone` and `Copy` traits is false?
 
-- [x] `Copy` is enabled for primitive, built-in types.
+- [ ] Primitive scalar types such as integers, `bool`, floating-point types, and `char` implement `Copy`.
 - [ ] Without `Copy`, Rust applies move semantics to a type's access.
 - [ ] When using `Clone`, copying data is explicit.
-- [ ] Until a type implements either `Copy` or `Clone`, its internal data cannot be copied.
+- [x] Until a type implements either `Copy` or `Clone`, its internal data cannot be copied.
 
-[ref from stack overflow](https://stackoverflow.com/questions/41413336/do-all-primitive-types-implement-the-copy-trait)
+[Rust `Copy` trait reference](https://doc.rust-lang.org/std/marker/trait.Copy.html)
 
 #### Q23. Why does this code _not_ compile?
 
@@ -424,27 +424,28 @@ enum Status {
 - [ ] cargo start
 - [ ] rust new-project
 
-#### Q37. Calling.clone() **\_**.
+#### Q37. Calling `.clone()` on an `Rc<T>` **\_**.
 
 - [ ] deeply copies heap data and clones ownership
 - [x] clones the pointer to the heap
 - [ ] clones the heap data onto the stack
 - [ ] deeply copies heap and stack
 
-[Reference](https://doc.rust-lang.org/std/rc/)
+[Rust `Rc` reference](https://doc.rust-lang.org/std/rc/index.html#cloning-references)
 
-#### Q38. what is one of the roles of the let keyword?
+#### Q38. What is one of the roles of the `let` keyword?
 
 ```rust
-let text = String::new("LinkedIn");
+let text = String::from("LinkedIn");
 ```
 
 - [ ] Create a text object.
 - [ ] Assign a mutable value.
-- [x] request to borrow a string.
-- [ ] Assign an immutable value.
+- [ ] Request to borrow a string.
+- [x] Bind a value to an immutable variable.
 
-[Reference](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+[Rust `let` keyword reference](https://doc.rust-lang.org/std/keyword.let.html)
+[Rust `String` reference](https://doc.rust-lang.org/std/string/struct.String.html)
 
 #### Q39. How is a new enum initialized?
 
