@@ -44,7 +44,7 @@ git merge --squash HEAD@{1}
 - [ ] Видалити гілку push-notifications, і вона буде автоматично зафіксована в main
 - [x] Перемкнутися на beta та запустити git merge push-notifications
 
-[Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Основи-галуження-та-злиття)
+[Довідка](https://git-scm.com/book/uk/v2/Галуження-в-git-Основи-галуження-та-зливання)
 
 #### Q5. Що з наведеного нижче вірно, коли ви використовуєте наступну команду?
 
@@ -405,7 +405,7 @@ modified: beta-notes.js
 - [ ] git new
 - [x] git init
 
-[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-сховища)
 
 #### Q35. Під час роботи над гілкою feature ви намагаєтеся скористатися «git rerere» для вирішення повторюваного конфлікту merge, але нічого не відбувається. Що може бути причиною цієї проблеми?
 
@@ -1049,7 +1049,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] `git clone <url>`
 - [ ] `git replicate <url>`
 
-[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-репозиторія)
+[Довідка](https://git-scm.com/book/uk/v2/Основи-Git-Створення-Git-сховища)
 
 #### Q116. Що станеться, якщо ви запустите команду `git reset testfile.js`?
 

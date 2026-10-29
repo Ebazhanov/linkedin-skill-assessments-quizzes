@@ -89,7 +89,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] --chrome
 - [ ] --debug
 
-**Explanation:** From official docs: [reference](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+**Explanation:** From official docs: [reference](https://nodejs.org/learn/getting-started/debugging)
 
 #### Q11. What command would you use to count the number of logical CPUs on the machine that is running Node?
 
@@ -581,7 +581,7 @@ console.log(person);
 - [ ] PHP
 - [ ] c
 
-[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+[Refrence](https://nodejs.org/learn/getting-started/the-v8-javascript-engine)
 
 #### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
 
@@ -597,7 +597,7 @@ console.log(person);
 - [x] Google V8
 - [ ] Express.js
 
-[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+[Refrence](https://nodejs.org/learn/getting-started/the-v8-javascript-engine)
 
 #### Q70. What is the importance of having good practices around status code in your response?
 
@@ -676,7 +676,7 @@ server.listen(port, hostname, () => {
 - [ ] `server running at http://localhost:4000/`
 - [x] `Hello World`
 
-[Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
+[Refrence](https://nodejs.org/learn/getting-started/introduction-to-nodejs)
 
 Q78. What is the primary function of the npm command in Node.js development?
 

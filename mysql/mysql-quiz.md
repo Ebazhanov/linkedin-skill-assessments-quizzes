@@ -415,7 +415,7 @@ Note that the question is about _getting_ the data and not about the _duplicatin
 - [x] `DROP TEMPORARY TABLE customers;`
 
 1. [reference](https://dev.mysql.com/doc/refman/8.0/en/drop-table.html)
-2. [reference](https://www.mysqltutorial.org/mysql-temporary-table)
+2. [reference](https://www.mysqltutorial.org/mysql-basics/mysql-temporary-table/)
 
 #### Q47. You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?
 

@@ -2459,7 +2459,7 @@ print(Color.RED.value)
 - [ ] Обидва захоплюють однаковий тип аргументів
 - [ ] Вони можуть використовуватися тільки разом
 
-[Довідка](https://docs.python.org/3/tutorial/more.html#more-on-defining-functions)
+[Довідка](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 
 #### Q205. Який вивід цього коду?
 

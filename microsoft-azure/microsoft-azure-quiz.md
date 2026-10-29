@@ -598,7 +598,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] No
 - [ ] No, the first subscription to process it gets it
 
-[Ref](https://azure.microsoft.com/en-us/documentation/articles/service-bus-fundamentals-hybrid-solutions/#topics)
+[Ref](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview#topics)
 
 #### Q75. You're designing a solution that needs to be low cost and to expose a WCF application that lives on-premises to a Web API that lives in Azure. Which of the following will be added to your design?
 

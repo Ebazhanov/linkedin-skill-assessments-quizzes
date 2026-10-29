@@ -500,7 +500,7 @@ Certainly! Here are the questions and their multiple-choice answers translated i
 - [ ] 64px
 - [ ] 4rem
 
-[Reference MDN Webdocs](https://developer.mozilla.org/fr/docs/Web/CSS/Modelisation_en_boite_CSS/Mastering_margin_collapsing)
+[Reference MDN Webdocs](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Box_model/Margin_collapsing)
 
 #### Q35. Lors de l'utilisation de la méthode Flexbox, quelle propriété et valeur sont utilisées pour afficher les éléments flex en colonne?
 

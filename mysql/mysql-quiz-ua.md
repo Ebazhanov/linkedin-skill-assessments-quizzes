@@ -415,7 +415,7 @@
 - [x] `DROP TEMPORARY TABLE customers;`
 
 1. [Довідка](https://dev.mysql.com/doc/refman/8.0/en/drop-table.html)
-2. [Довідка](https://www.mysqltutorial.org/mysql-temporary-table)
+2. [Довідка](https://www.mysqltutorial.org/mysql-basics/mysql-temporary-table/)
 
 #### Q47. Вам потрібно виконати складний запит із рекурсивними підзапитами, але без створення збереженої процедури або функції. Яку команду або умову ви використовуєте?
 

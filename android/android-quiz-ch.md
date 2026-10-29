@@ -656,7 +656,7 @@ public void onCreate(Bundle savedInstanceState){
 - [ ] Google Cloud module
 
 1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Reference](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
+2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### Q64. 以下哪种方法不推荐用于在应用中提供有用的离线状态?
 

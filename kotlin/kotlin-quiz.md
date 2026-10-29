@@ -216,7 +216,7 @@ println(set.count())
 - [ ] 1
 - [ ] 5
 
-[reference](https://zetcode.com/kotlin/sets/)
+[reference](https://zetcode.com/kotlin/set/)
 
 #### Q17. Which line of code shows how to display a nullable string's length and shows 0 instead of null?
 

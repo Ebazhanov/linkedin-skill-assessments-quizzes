@@ -155,7 +155,7 @@ for (var j = 1; j <= 4; j++) {
 - [ ] Завершує виконання без повернення.
 - [ ] Копіює локальну змінну в глобальну область.
 
-[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Closures/)
 
 #### Q10. Який вираз створює нову функцію під назвою discountPrice?
 
@@ -210,7 +210,7 @@ console.log(bob.precip);
 - [ ] 'rain'
 - [x] 'snow'
 
-[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/)
 
 #### Q12. Потрібно знайти значення часу, наприклад 12:00:32. Який із наведених нижче регулярних виразів підійде для вашого коду?
 
@@ -268,7 +268,7 @@ console.log(typeof 42);
 - [x] `'number'`
 - [ ] `'integer'`
 
-[Типи та структури даних](https://webdoky.org/uk/docs/Web/JavaScript/Data_structures/)
+[Типи та структури даних](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Data_structures/)
 
 #### Q16. Яка властивість посилається на об’єкт DOM, який відправив подію?
 
@@ -400,7 +400,7 @@ dessert.type = 'pudding';
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
-[Прототип об'єкта](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
+[Прототип об'єкта](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/)
 
 #### Q28. Навіщо включати вираз "use strict" у файл JavaScript?
 
@@ -706,7 +706,7 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
-[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Closures/)
 
 #### Q53.Що цей код буде записувати в консолі?
 
@@ -723,7 +723,7 @@ console.log(sayHello.prototype);
 - [x] Об'єкт з властивістю конструктора
 - [ ] Повідомлення про помилку
 
-[Прототипи](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
+[Прототипи](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/)
 
 #### Q54.Який тип колекції дозволяє вставляти унікальне значення лише один раз?
 
@@ -750,7 +750,7 @@ printA();
 - [x] `undefined` потім `undefined`
 - [ ] `undefined` потім `1`
 
-[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Closures/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Closures/)
 
 #### Q56.Чим метод `forEach()` відрізняється від `for`?
 
@@ -1076,7 +1076,7 @@ console.log(n);
 - [ ] NaN
 - [ ] Ніщо--це не належний синтаксис JavaScript і кине помилку.
 
-[Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
+[Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring/)
 
 #### Q84. Як видалити назву властивості з цього об'єкта?
 
@@ -1168,7 +1168,7 @@ const numbers = [1, 2, 3, 4, 5];
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
 
-[Деструктуризація масиву](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
+[Деструктуризація масиву](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring/)
 
 #### Q91. Що надрукує цей код?
 
@@ -1505,7 +1505,7 @@ for (let value of cipherText) {
 }
 ```
 
-1. [Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment/)
+1. [Присвоєння з деструктуруванням](https://webdoky.org/uk/docs/Web/JavaScript/Reference/Operators/Destructuring/)
 2. [Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 3. [Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
@@ -1945,7 +1945,7 @@ console.log(json); // print {"type":"tiger"}
 - [x] prototype
 - [ ] accessor
 
-[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Inheritance_and_the_prototype_chain/)
+[Довідка](https://webdoky.org/uk/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/)
 
 #### Q139. Що з наведеного не є об'єктами Javascript на стороні сервера?
 

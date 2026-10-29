@@ -693,7 +693,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 </Route>
 ```
 
-[Довідка](https://reactrouter.com/en/main/components/route)
+[Довідка](https://reactrouter.com/6.30.1/components/route)
 
 #### Q60. Який класовий компонент еквівалентний цьому функціональному компоненту?
 
