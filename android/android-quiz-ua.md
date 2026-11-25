@@ -959,7 +959,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] модуль Google Cloud
 
 1. [Посилання](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Посилання](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
+2. [Посилання](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### Питання 64. Який підхід не рекомендується для забезпечення корисного офлайн-стану у вашому додатку?
 

@@ -3036,7 +3036,7 @@ print(Color.RED.value)
 - [ ] Both capture the same type of arguments
 - [ ] They can only be used together
 
-[Reference Variable Arguments](https://docs.python.org/3/tutorial/more.html#more-on-defining-functions)
+[Reference Variable Arguments](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 
 #### Q205. What is the output of this code?
 

@@ -886,7 +886,7 @@ def 計算売上税(小計):
 - [x] 二分探索ツリーでの検索の実行時間は通常 O(h) です。ここで、h はツリーの高さです。
 - [ ] ツリー内のすべてのノードを訪問する必要があるため、二分探索ツリー内の検索の実行時間は O(n) です。
 
-[説明](https://www.geeksforgeeks.org/binary-search-tree-data-structor/)
+[説明](https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/)
 
 #### Q60.なぜ「mixin」を使うのでしょうか？
 
@@ -1879,7 +1879,7 @@ myFunction()
 - [ ] `def jaccard(a, b): len (a && b) / len (a || b) を返します`
 - [ ] `def jaccard(a, b): a.intersection(b) / a.union(b) を返します`
 
-[参考](https://docs.python.org/3/tutorial/datastructs.html?highlight=set#sets.)
+[参考](https://docs.python.org/3/tutorial/datastructures.html#sets)
 
 #### Q127. Python のネイティブ数値型ではない選択肢はどれですか?
 
@@ -2691,7 +2691,7 @@ squared_numbers = マップ(正方形, 数値)
 - [ ] console_input()
 - [ ] getline()
 
-【参考】(https://www.geeksforgeeks.org/aking-input-from-console-in-python/)
+【参考】(https://www.geeksforgeeks.org/python/taking-input-from-console-in-python/)
 
 #### Q184.次の Python コードの出力はどうなりますか?
 
@@ -3062,7 +3062,7 @@ print(Color.RED.value)
 - [ ] どちらも同じタイプの引数をキャプチャします
 - [ ] 一緒にのみ使用できます
 
-[参照変数引数](https://docs.python.org/3/tutorial/more.html#more-on-defining-functions)
+[参照変数引数](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 
 #### Q205.このコードの出力は何でしょうか?
 

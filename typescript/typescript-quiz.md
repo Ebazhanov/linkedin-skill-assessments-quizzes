@@ -158,7 +158,7 @@ type Readonly<T> = {
 };
 ```
 
-[Reference Mapped Types](https://www.typescriptlang.org/docs/handbook/mapped-types.html)
+[Reference Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
 
 #### Q15. What does the `never` type represent in TypeScript?
 
@@ -281,7 +281,7 @@ function isString(value: any): value is string {
 type NonNullable<T> = T extends null | undefined ? never : T;
 ```
 
-[Reference Conditional Types](https://www.typescriptlang.org/docs/handbook/conditional-types.html)
+[Reference Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
 
 #### Q27. What is the purpose of the `abstract` keyword in TypeScript classes?
 
@@ -326,7 +326,7 @@ type NonNullable<T> = T extends null | undefined ? never : T;
 - [ ] To create intersection types
 - [ ] To make properties optional
 
-[Reference Infer Keyword](https://www.typescriptlang.org/docs/handbook/conditional-types.html#type-inference-in-conditional-types)
+[Reference Infer Keyword](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
 
 #### Q32. Which TypeScript utility type excludes certain types from a union?
 

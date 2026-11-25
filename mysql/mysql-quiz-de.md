@@ -426,7 +426,7 @@ Beachten Sie, dass es bei der Frage um das _Bekommen_ der Daten geht und nicht u
 - [x] `DROP TEMPORARY TABLE customers;`
 
 1. [Referenz](https://dev.mysql.com/doc/refman/8.0/en/drop-table.html)
-2. [Referenz](https://www.mysqltutorial.org/mysql-temporary-table)
+2. [Referenz](https://www.mysqltutorial.org/mysql-basics/mysql-temporary-table/)
 
 #### F47. Sie müssen eine komplexe Abfrage mit rekursiven Unterabfragen ausführen, ohne jedoch eine gespeicherte Prozedur oder eine Funktion zu erstellen. Welchen Befehl oder welche Klausel verwenden Sie?
 

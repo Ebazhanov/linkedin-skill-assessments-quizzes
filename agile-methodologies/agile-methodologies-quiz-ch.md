@@ -197,7 +197,7 @@
 
 這是 Scrum Master 的職責之一！
 Scrum Master 負責確保 Scrum 團隊能依照 Scrum 價值觀盡可能有效運作。 這意味著他們讓團隊保持正軌，規劃和領導會議，並解決團隊可能面臨的任何障礙。
-[參考](https://www.coursera.org/articles/scrum-roles-and-responsibility)
+[參考](https://www.coursera.org/articles/scrum-roles-and-responsibilities)
 
 #### Q28。 關於小規模、頻繁發佈軟體的說法哪一項是正確的？
 

@@ -959,7 +959,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Google Cloud-Modul
 
 1. [Referenz](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Referenz](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
+2. [Referenz](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### F64. Welcher Ansatz wird nicht empfohlen, um einen nützlichen Offline-Zustand in Ihrer App bereitzustellen?
 

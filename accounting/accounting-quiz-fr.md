@@ -421,7 +421,7 @@ Je ne suis pas sûr à 100% à ce sujet.
 - [ ] lorsque les coûts sont accumulés par le département
 - [ ] lorsque la valeur des travaux en cours est basée sur l'attribution de coûts standards -[ ] lorsque chaque lot de produits est le même que le lot précédent
 
-[Reference](https://www.tutorialspoint.com/différentiate-between-job-costing-and-process-costing)
+[Reference](https://www.tutorialspoint.com/article/differentiate-between-job-costing-and-process-costing)
 
 #### Q51. Robinson Hotels tente de prédire ses coûts de services publics. Il contient cinq années de données, notamment les coûts mensuels des services publics, les taux d'occupation mensuels et la température mensuelle moyenne. Quel outil ou technique Robinson Hotels peut-il utiliser pour prédire ou estimer ses futurs coûts de services publics ?
 

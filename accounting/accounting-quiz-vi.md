@@ -432,7 +432,7 @@ Tôi không chắc chắn 100% về điều này.
 - [ ] khi giá trị công việc dở dang được xác định theo định mức
 - [ ] khi mỗi lô sản phẩm đều giống lô trước
 
-[Tham khảo](https://www.tutorialspoint.com/disifective-between-job-costing-and-process-costing)
+[Tham khảo](https://www.tutorialspoint.com/article/differentiate-between-job-costing-and-process-costing)
 
 #### C51. Khách sạn Robinson đang cố gắng dự đoán chi phí tiện ích của mình. Nó có dữ liệu trong 5 năm, bao gồm chi phí tiện ích hàng tháng, tỷ lệ lấp đầy hàng tháng và nhiệt độ trung bình hàng tháng. Khách sạn Robinson có thể sử dụng công cụ hoặc kỹ thuật nào để dự đoán hoặc ước tính chi phí tiện ích trong tương lai?
 
